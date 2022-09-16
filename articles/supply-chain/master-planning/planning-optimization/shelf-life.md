@@ -1,5 +1,5 @@
 ---
-title: Aðalskipulag fyrir vörur með takmarkaðan geymsluþol
+title: Aðaláætlanagerð fyrir vörur með takmarkað geymsluþol
 description: Þessi grein lýsir því hvernig á að setja upp og nota skipulagsaðgerðir sem taka tillit til geymsluþols á viðkvæmum vörum.
 author: t-benebo
 ms.date: 08/10/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 95c905cbcc3c057dbccf2b7d6e894b1e99ddfba5
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 68a1ba2bfe90aaf0462917c405d483fa12bf8126
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337362"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428222"
 ---
-# <a name="master-planning-for-products-with-limited-shelf-life"></a>Aðalskipulag fyrir vörur með takmarkaðan geymsluþol
+# <a name="master-planning-for-products-with-limited-shelf-life"></a>Aðaláætlanagerð fyrir vörur með takmarkað geymsluþol
 
 [!include [banner](../../includes/banner.md)]
 
@@ -58,7 +58,7 @@ Notaðu eftirfarandi ferli til að setja upp rakningarvíddarhóp til að rekja 
     - Á aðgerðarrúðunni velurðu **Nýtt** til að búa til nýjan rakningarvíddarhóp. Sláðu inn nafn og lýsingu og veldu síðan **Vista** á aðgerðasvæðinu.
     - Í listarúðunni, veldu núverandi rakningarvíddarhóp sem þú vilt setja upp til að rekja runuvíddina.
 
-1. Á **Rekjavídd** Flýtiflipi, í **Lotunúmer** línu, veldu gátreitina í **Virkur** og **Líkamsbirgðir** dálkum.
+1. Á **Rekjavídd** Flýtiflipi, í **Lotunúmer** línu, veldu gátreitina í **Virkur** og **Líkamsbirgðir** dálkar.
 
 ### <a name="set-up-shelf-life-for-a-product"></a>Settu upp geymsluþol vöru
 
@@ -66,14 +66,14 @@ Notaðu eftirfarandi aðferð til að setja upp geymsluþol vöru.
 
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
 1. Búðu til eða opnaðu vöruna sem þú vilt setja upp.
-1. Til að nota geymsluþolsstillingarnar, á **Almennt** flýtiflipann, stilltu **Rekjavíddarhópur** reit í rakningarvíddarhóp sem er settur upp til að rekja runuvíddina. Þú getur aðeins stillt þennan reit þegar þú ert fyrst að búa til vöru. Þú getur ekki breytt gildinu fyrir núverandi vörur.
+1. Til að nota geymsluþolsstillingarnar, á **Almennt** Flýtiflipi, stilltu **Rekjavíddarhópur** reit í rakningarvíddarhóp sem er settur upp til að rekja runuvíddina. Þú getur aðeins stillt þennan reit þegar þú ert fyrst að búa til vöru. Þú getur ekki breytt gildinu fyrir núverandi vörur.
 1. Á **Stjórna birgðum** Flýtiflipi, stilltu eftirfarandi reiti:
 
     - **Geymsluráðgjöf í dögum** – Tilgreindu tímabilið (í dögum) sem á að athuga lotu af þessari vöru til að tryggja að hún henti til neyslu eða endursölu. Gildi þessa reits er bætt við lotu *framleiðsludagsetningu* að ákveða það *hilluráðgjöf dags*. Þú getur stillt kerfið til að búa til gæðapantanir þegar lota nálgast dagsetningu hilluráðgjafar.
     - **Geymsluþol í dögum** – Tilgreindu fjölda daga áður en lota af þessari vöru rennur út. Þetta gildi er bætt við *framleiðsludag* að ákvarða *gildistíma*. Lotan er talin ónothæf eftir þessa dagsetningu.
     - **Best fyrir blæðingar í dögum** – Tilgreindu tímabilið (í dögum) eftir að lota af þessari vöru telst enn seljanleg en getur ekki lengur haldið einhverjum upprunalegum eiginleikum sínum. Þetta gildi er bætt við *framleiðsludag* að ákvarða *best fyrir dagsetningu*. Þú getur keyrt skýrslur til að bera kennsl á birgðir sem eru liðnar við best-fyrir dagsetningu. 
 
-### <a name="set-a-sellable-days-rule-for-each-customer"></a>Stilltu söluhæfa dagareglu fyrir hvern viðskiptavin
+### <a name="set-a-sellable-days-rule-for-each-customer"></a>Settu söluhæfa dagareglu fyrir hvern viðskiptavin
 
 *Seljanlegir dagar* virkni tryggir að vörur úr lotu sem rennur út fljótlega séu ekki sendar til viðskiptavina. Ennfremur tryggir það að þegar vörur eru sendar til viðskiptavinar mun nægilegur fjöldi seljanlegra daga enn vera eftir eftir afhendingu.
 
@@ -147,7 +147,7 @@ Eftirfarandi framboð er til fyrir hlutinn:
 
 Kerfið býr til lista yfir framboð sem getur staðið undir þessari eftirspurn og það flokkar listann eftir gildistíma (með því að nota FEFO).
 
-Aðalskipulag skapar nauðsynlega tengingu milli framboðs og eftirspurnar. Það skapar einnig allar nauðsynlegar eftirspurn byggðar á framboðslistanum (með því að nota FEFO) og tekur tiltæka dagsetningu.
+Aðalskipulag skapar nauðsynlega tengingu milli framboðs og eftirspurnar. Það skapar einnig nauðsynlega eftirspurn byggt á framboðslistanum (með því að nota FEFO) og tekur tiltæka dagsetningu.
 
 - SO1 er hægt að fullnægja með magni á lager, en það er ekki hægt að uppfylla með PO1, vegna þess að framboðsdagsetning fyrir PO1 er einum degi síðar en SO1 krefst. Þess vegna skapar SO1 eftirspurn eftir einni vörueiningu.
 - SO2 getur fallið undir PO1, vegna þess að PO1 kemur fyrir umbeðinn tíma og gildistíminn mun enn gilda. Þess vegna er SO2 krafan að fullu undir PO1.
@@ -277,7 +277,7 @@ Hægt er að mæta þessari eftirspurn að hluta með núverandi framboði frá 
 - **PO1:** Kvittunardagsetning = í dag + 1 dagur, magn = 1, gildistími = í dag + 2 dagar
 - **PO2:** Kvittunardagsetning = í dag + 3 dagar, magn = 1, fyrningardagur = í dag + 7 dagar
 
-Kerfið hefur tvo viðskiptasamninga (einn fyrir magn = 1, afgreiðslutími = 5 dagar og einn fyrir magn = 2, afgreiðslutími = 0 dagar). Þess vegna reynir kerfið að lágmarka töf með því að búa til eftirfarandi fyrirhugaða innkaupapöntun sem uppfyllir seinni viðskiptasamninginn:
+Kerfið hefur tvo viðskiptasamninga (einn fyrir magn = 1, afgreiðslutími = 5 dagar, og einn fyrir magn = 2, afgreiðslutími = 0 dagar). Þess vegna reynir kerfið að lágmarka töf með því að búa til eftirfarandi fyrirhugaða innkaupapöntun sem uppfyllir seinni viðskiptasamninginn:
 
 - **PP01:** Kvittunardagsetning = í dag, magn = 2, gildistími = í dag + 10 dagar
 
@@ -299,8 +299,6 @@ Eftirfarandi mynd sýnir tímalínuna fyrir þetta dæmi.
 
 ## <a name="example-5-simple-fefo-requirement-10-negative-days"></a>Dæmi 5: Einfalt FEFO, krafa, 10 neikvæðir dagar
 
-<!-- KFM: This is more of a negative days example than a shelf life example. We should point out more explicitly how shelf life affects this situation (or maybe otherwise remove this example). -->
-
 Þetta dæmi sýnir hvernig geymsluþol virkar þegar mörgum neikvæðum dögum er bætt við fyrir vöru. Neikvæð dagar eru fjöldi daga sem þú ert tilbúinn að bíða áður en þú pantar áfyllingu á vöru sem er með neikvæðar birgðir. Kerfið skapar ekki framboð nema farið sé yfir fjölda neikvæðra daga.
 
 Kerfið hefur eftirfarandi atriði og aðalskipulagsstillingar:
@@ -316,7 +314,7 @@ Eftirfarandi sölupöntun er til í kerfinu:
 
 Hægt er að mæta þessari eftirspurn með núverandi framboði úr eftirfarandi staðfestu innkaupapöntun:
 
-- **PO1:** Kvittunardagsetning = í dag + 3 dagar, magn = 1, gildistími = í dag + 5 dagar
+- **PO1:** Kvittunardagsetning = í dag + 3 dagar, magn = 1, fyrningardagur = í dag + 5 dagar
 
 Vegna þess að kerfið er stillt til að leyfa 10 neikvæða daga, dekkir það eftirspurn eftir SO1 með því að nota PO1, jafnvel þó að niðurstaðan verði þriggja daga töf vegna þess að SO1 skapar neikvæðar birgðir þar til PO1 kemur. Engin áætluð innkaupapöntun er stofnuð, jafnvel þó að afgreiðslutími sé 0 (núll) og stofnun áætlaðrar innkaupapöntunar myndi draga úr töfum.
 
@@ -324,7 +322,7 @@ Eftirfarandi tafla dregur saman niðurstöðuna.
 
 | Eftirspurn | Þarfarakning |
 |---|---|
-| **SO1:** Afhendingardagur = í dag, magn = 1 | **PO1:** Kvittunardagsetning = í dag + 3 dagar, magn = 1, gildistími = í dag + 5 dagar |
+| **SO1:** Afhendingardagur = í dag, magn = 1 | **PO1:** Kvittunardagsetning = í dag + 3 dagar, magn = 1, fyrningardagur = í dag + 5 dagar |
 
 Eftirfarandi mynd sýnir tímalínuna fyrir þetta dæmi.
 
@@ -349,7 +347,7 @@ Eftirfarandi sölupöntun er til í kerfinu:
 Hægt er að mæta þessari eftirspurn með núverandi framboði frá eftirfarandi staðfestum innkaupapantunum:
 
 - **PO1:** Kvittunardagsetning = í dag, magn = 1, fyrningardagur = í dag + 1 dagur
-- **PO2:** Kvittunardagsetning = í dag + 2 dagar, magn = 1, fyrningardagur = í dag + 3 dagar
+- **PO2:** Kvittunardagsetning = í dag + 2 dagar, magn = 1, fyrningardagsetning = í dag + 3 dagar
 
 Hins vegar verður kerfið að virða takmörkunina um að sendar vörur megi ekki renna út við sendingu. Þess vegna er ekki hægt að nota bæði PO2 og PO1 fyrir SO1, vegna þess að PO1 rennur út áður en PO2 kemur. Kerfið býr til eftirfarandi fyrirhugaða innkaupapöntun til að klára eftirspurn eftir SO1:
 

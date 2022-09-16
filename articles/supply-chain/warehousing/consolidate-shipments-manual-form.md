@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d24542a126d64621525f62e694bbc7174b474810
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 05f094b82b3d9bf9c095bc43f404aa7159bcafba
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897343"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427905"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>Sameina sendingar handvirkt með því að nota síðuna „Sameina sendingar“
 
@@ -93,7 +93,7 @@ Fylgdu þessum skrefum til að losa hverja sölupöntun sem þú bjóst til fyri
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Samstæðureglur sendingar](about-shipment-consolidation-policies.md)
+- [Yfirlit yfir stefnur um samþjöppun sendingar](about-shipment-consolidation-policies.md)
 - [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

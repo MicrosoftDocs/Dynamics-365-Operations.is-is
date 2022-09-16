@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: a4a36d773e0790747c017dca35492af5caf410ab
-ms.sourcegitcommit: 61be5f43c9678e9f12b4a90410876b4a179ac585
+ms.openlocfilehash: f9d21de3e498b293394835d5cf564899338b9c18
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427077"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474016"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Frumstilla Commerce Scale Unit (ský)
 
@@ -39,7 +39,7 @@ Ef þú ert að nota Tier-2 sandkassa eða framleiðsluumhverfi sem er með forr
     - RetailBasic
     - RetaileCommerce - Ef þú ætlar að nota rafræn viðskipti fyrir Dynamics 365 Commerce.
     - RetailGiftCard - Ef þú ætlar að nota gjafakort.
-    - RetailInvent - Ef þú ætlar að nota birgðahald.
+    - RetailInvent - Ef þú ætlar að nota lager.
     - RetailModernPos - Ef þú ætlar að nota sölustað (POS).
     - RetailReplenishment - Ef þú ætlar að nota áfyllingar.
     - RetailScheduler
@@ -73,6 +73,7 @@ Commerce Scale Unit er fáanlegt til dreifingar á eftirfarandi svæðum.
 | EMEA            | Norður-Evrópa        | Almennt tiltækt    |  Engar athugasemdir. |
 | EMEA            | Bretland suður            | Almennt tiltækt |    Engar athugasemdir.                          |
 | EMEA            | Bretland vestur             | Almennt tiltækt |    Engar athugasemdir.                          |
+| UAE             | Norður UAE           | Takmarkað afkastageta    | Krefst samþykkisferlis. |
 
 Dreifingargeta á svæðum með takmarkaða getu er mjög takmörkuð. Beiðnir um dreifingu eru metnar í hverju tilviki fyrir sig. Ef þú hefur sannfærandi viðskiptaþörf fyrir dreifingu á svæðum með takmarkaða afkastagetu geturðu lagt fram stuðningsbeiðni um að bætast við biðlistann. Afkastagetusvæði leyfa ekki uppsetningu viðskiptaskalaeiningar eins og er. 
 
@@ -159,7 +160,7 @@ Flutningsferlið er gagnsætt fyrir rásirnar. Eftir að frumstilling mælieinin
 
 Þú verður að framkvæma eftirfarandi viðbótarskref áður en þú frumstillir Commerce Scale Unit.
 
-- **Lokaðu öllum POS vaktum** - Eftir flutning geta POS notendur ekki lokað neinum vöktum sem voru virkar á flutningsferlinu.
+- **Lokaðu öllum POS vaktum** - Eftir flutning munu POS notendur ekki geta lokað neinum vöktum sem voru virkar á flutningsferlinu.
 - **Staðfestu að öllum P-störfum hafi verið lokið** - Mælt er með því að P-störf til að samstilla færslur í bið hafi lokið áður en CSU er frumstillt.
 - **Skráðu þig út úr öllum POS-tækjum** - POS aðgerðir eru ekki studdar meðan á flutningi stendur.
 - **Innkalla og ógilda allar stöðvaðar færslur í POS** - Frestað viðskipti eru ekki varðveitt sem hluti af frumstillingunni.

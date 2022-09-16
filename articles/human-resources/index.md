@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: afe438767efa3082c49cc56f58c8bab9206e46e0
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: ad5f843e3bafa54a961908d9ebe5ab64e619e1bc
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228569"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475523"
 ---
 # <a name="human-resources-home-page"></a>Mannauður – heimasíða
 
@@ -40,7 +40,7 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 - [Launastjórnun](hr-compensation-overview.md)
 - [Þróun starfsmanns](hr-develop-performance-management-overview.md)
 - [Nám](hr-learning-courses.md)
-- [Verkflæðiskerfi]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
+- [Verkflæðiskerfi](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 Human Resources tengir fólk og rekstrargögn til að hjálpa þér að hámarka kostnað vinnuafls og sjá um starfsmenn þína.
 
@@ -51,10 +51,11 @@ Fyrir upplýsingar um Dynamics 365 Finance, sjá [Heimasíða fjármála](../fin
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 ### <a name="elearning-courses"></a>Rafræn námskeið
-Netnámskeið og þjálfun má finna í [Dynamics 365 Human Resources á Microsoft Learn](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
 
-### <a name="videos"></a>Myndskeið
+Fyrir netnámskeið og þjálfun, skoðaðu [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
 
-Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+### <a name="videos"></a>Myndbönd
+
+Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube rásinni](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

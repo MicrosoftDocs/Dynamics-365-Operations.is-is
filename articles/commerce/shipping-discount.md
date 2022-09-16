@@ -9,21 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: shajain
 ms.search.validFrom: 2019-01-31
-ms.openlocfilehash: f19566ce64becea4a53a8479cb5a08579567cda1
-ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
+ms.openlocfilehash: 74cfe5246ad72cbdedd0ed4e3b3394bf7277919e
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9346101"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473851"
 ---
 # <a name="shipping-discount"></a>Sendingarafsláttur
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þessi grein lýsir sendingarafsláttargetu í Microsoft Dynamics 365 Commerce og uppsetninguna sem þarf til að nota þau.
 
-Ókeypis sendingarkostnaður eða afsláttur er einn þáttur sem hefur áhrif á kaupákvarðanir viðskiptavina á netinu. Til að auka tekjur sínar fyrir hverja færslu nota margir smásalar ókeypis sendingarkostnað til að hvetja viðskiptavini til að stækka körfu sína.
+Ókeypis sendingarkostnaður eða afsláttur er einn þáttur sem hefur áhrif á kaupákvarðanir viðskiptavina á netinu. Til að auka tekjur sínar fyrir hverja færslu nota margir smásalar ókeypis sendingarkostnað til að hvetja viðskiptavini til að auka stærð körfunnar.
 
 Commerce styður möguleika á sendingarafslætti sem gerir smásöluaðilum kleift að stilla afsláttarprósentu af sendingargjöldum fyrir tiltekna sendingaraðferð þegar heildarsöluupphæð fyrir viðurkenndar vörur í viðskiptunum uppfyllir ákveðin skilyrði. Dæmi um atburðarás sem notar möguleika á sendingarafslætti er "Eyddu $50 eða meira til að fá ókeypis sendingu yfir nótt."
 
@@ -37,7 +36,7 @@ Sendingarafslátturinn gildir aðeins á sendingarkostnað. Þess vegna verður 
 
 ## <a name="configuration"></a>Skilgreining
 
-Sendingarafsláttargetan er flokkabundin og styður aðeins **Prósenta afsláttur** tegund útreiknings. Til að setja upp sendingarafslátt, í höfuðstöðvum Commerce, farðu á **Verð og afslættir \> Afsláttur fyrir sendingarmörk**. Síðan er hægt að tilgreina þann afhendingarmáta sem afslátturinn á við, skilgreina einn eða fleiri upphæðaþröskulda og stilla afsláttarprósentu fyrir hvern þröskuld. Þú getur líka stillt lista yfir flokka eða vörur sem hæfa hluti. Þannig verður aðeins söluupphæð á móti þessum hlutum í viðskiptum talin þegar verðlagsvélin metur hvort heildarviðskiptin standist viðmiðunarmörkin.
+Sendingarafsláttargetan er flokkabundin og styður aðeins **Prósenta afsláttur** tegund útreiknings. Til að setja upp sendingarafslátt, í höfuðstöðvum Commerce, farðu á **Verð og afslættir \> Sendingarþröskuldur afsláttur**. Síðan er hægt að tilgreina þann afhendingarmáta sem afslátturinn á við, skilgreina einn eða fleiri upphæðaþröskulda og stilla afsláttarprósentu fyrir hvern þröskuld. Þú getur líka stillt lista yfir flokka eða vörur sem hæfa hluti. Þannig verður aðeins söluupphæð á móti þessum hlutum í viðskiptum talin þegar verðlagsvélin metur hvort heildarviðskiptin standist viðmiðunarmörkin.
 
 > [!NOTE]
 > Ólíkt öðrum afsláttartegundum skapar sendingarafslátturinn ekki afsláttarlínur. Þess í stað breytir það sendingargjaldinu beint og bætir nafni afsláttarins við gjaldlýsinguna.

@@ -1,5 +1,5 @@
 ---
-title: Gagnamiðlun milli fyrirtækja fyrir gjafakort
+title: Samnýting gagna á milli fyrirtækja fyrir gjafakort
 description: Þessi grein lýsir því hvernig á að stilla Microsoft Dynamics 365 Commerce til að nota Dynamics 365 Finance gagnadeilingarvirkni milli gagnasvæða til að samstilla gjafakortagögn.
 author: BrianShook
 ms.date: 08/26/2022
@@ -11,19 +11,18 @@ ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: b56890b546c3cd74b75cf447e62495733ea8d288
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: bc0df6c4aac72907e8523069e3f1ae100780dc3c
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387373"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473932"
 ---
-# <a name="cross-company-data-sharing-for-gift-cards"></a>Gagnamiðlun milli fyrirtækja fyrir gjafakort
+# <a name="cross-company-data-sharing-for-gift-cards"></a>Samnýting gagna á milli fyrirtækja fyrir gjafakort
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
-Þessi grein lýsir því hvernig á að stilla Microsoft Dynamics 365 Commerce þannig að það noti Dynamics 365 Finance gagnadeilingarvirkni til að samstilla gjafakortagögn. Þá er hægt að nota gagnaskrársamnýtingu til að deila gögnum á milli tveggja gagnasvæða. Þannig getur innri gjafatafla Commerce deilt gögnum á milli tveggja fyrirtækjaeininga. Fyrir frekari upplýsingar um Dynamics 365 Finance gagnadeilingu milli fyrirtækja, sjá [Samnýting gagna milli fyrirtækja](/dynamics365/fin-ops-core/dev-itpro/sysadmin/cross-company-data-sharing).
+Þessi grein lýsir því hvernig á að stilla Microsoft Dynamics 365 Commerce þannig að það noti Dynamics 365 Finance gagnadeilingarvirkni til að samstilla gjafakortagögn. Hægt er að nota samnýtingu gagnaskrár til að deila gögnum milli tveggja gagnasvæða. Þannig getur innri gjafatafla Commerce deilt gögnum á milli tveggja fyrirtækjaeininga. Fyrir frekari upplýsingar um Dynamics 365 Finance gagnadeilingu milli fyrirtækja, sjá [Samnýting gagna milli fyrirtækja](/dynamics365/fin-ops-core/dev-itpro/sysadmin/cross-company-data-sharing).
 
 ## <a name="key-terms"></a>Lykilhugtök
 
@@ -53,7 +52,7 @@ Til að stilla gagnadeilingu milli fyrirtækja fyrir gjafakort skaltu fylgja þe
 1. Í röðinni undir **Fyrirtæki**, veldu fyrirtæki í fellilistanum.
 1. Í **Nafn** reit, sláðu inn nafn fyrirtækis.
 1. Endurtaktu skref 8 til 10 til að bæta við fleiri fyrirtækjalínum.
-1. Þegar þú hefur lokið við að bæta við fyrirtækjalínum skaltu velja á Aðgerðarrúðunni **Virkja**.
+1. Þegar þú hefur lokið við að bæta við fyrirtækjalínum skaltu velja á aðgerðarrúðunni **Virkja**.
 1. Þú færð viðvörunarskilaboð sem segja: „Mælt er með því að framkvæma þessa aðgerð eingöngu á verslunartíma. Allar samhliða færsluaðgerðir munu mistakast fyrir töflur í stefnunni. Viltu halda áfram?" Veldu **Já** að samþykkja.
 1. Þú færð viðvörunarskilaboð sem segir: "Viltu afrita öll núverandi gögn yfir öll sameiginleg fyrirtæki núna?" Veldu **Já** að samþykkja.
 

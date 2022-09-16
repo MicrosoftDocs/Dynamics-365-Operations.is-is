@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: e4a004b929138f0a04c19d6a94278cfad6e83303
-ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
+ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9346096"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473810"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Viðskiptaspjall með alhliða rás fyrir þjónustudeild
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þessi grein lýsir *Viðskiptaspjall við alhliða rás fyrir þjónustu við viðskiptavini* mát í Microsoft Dynamics 365 Commerce.
 
@@ -60,9 +59,9 @@ Eftirfarandi tafla sýnir skriftugildin úr græjunni Umnichannel for Customer S
 
 ## <a name="configure-the-commerce-chat-experience-for-your-e-commerce-site"></a>Stilltu upplifun Commerce spjallsins fyrir netverslunarsíðuna þína
 
-Ein leið sem mælt er með til að innleiða spjallupplifunina fyrir netverslunarsíðuna þína er að bæta viðskiptaspjallinu með alhliða þjónustueiningunni við samnýtt hausbrot sem er notað á síðum rafrænna viðskiptasíðunnar þinna.
+Ein leið sem mælt er með til að innleiða spjallupplifunina fyrir netverslunarsíðuna þína er að bæta viðskiptaspjallinu með fjölrás fyrir þjónustu við viðskiptavini við samnýtta hausbrotið sem er notað á síðum rafrænna viðskiptasíðunnar.
 
-Fylgdu þessum skrefum til að bæta spjalleiningunni við haushluta síðunnar þinnar í Commerce site builder.
+Fylgdu þessum skrefum til að bæta spjalleiningunni við haus síðunnar þinnar í Commerce site builder.
 
 1. Farðu í Site builder fyrir síðuna þína **Brot**.
 1. Veljið **Nýtt**.
@@ -85,7 +84,7 @@ Fylgdu þessum skrefum til að bæta spjalleiningunni við haushluta síðunnar 
 
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>Bættu við höfuðstöðvum viðskipta sem umsóknarflipa fyrir alhliða þjónustu við viðskiptavini
 
-Þú getur bætt við umsóknarflipa fyrir höfuðstöðvar viðskipta í Omnichannel fyrir þjónustu við viðskiptavini. Umboðsmenn í beinni geta síðan notað notendaviðmótið fyrir upplifun umnichannels fyrir þjónustufulltrúa til að fá auðveldlega aðgang að Dynamics 365 Commerce Þjónustueining sem inniheldur samhengisupplýsingar fyrir viðskiptavininn ásamt upplýsingum um sölupantanir hans. Að auki geta þjónustufulltrúar lagt inn nýjar pantanir, hafið skil og staðfest upplýsingar um pöntunarstöðu.
+Þú getur bætt við umsóknarflipa fyrir höfuðstöðvar viðskipta í Omnichannel fyrir þjónustu við viðskiptavini. Umboðsmenn í beinni geta síðan notað notendaviðmótið fyrir upplifun umnichannel for Customer Service umboðsmanns til að fá auðveldlega aðgang að Dynamics 365 Commerce Þjónustueining sem inniheldur samhengisupplýsingar fyrir viðskiptavininn ásamt upplýsingum um sölupantanir hans. Að auki geta þjónustufulltrúar lagt inn nýjar pantanir, hafið skil og staðfest upplýsingar um pöntunarstöðu.
 
 ### <a name="create-a-new-application-tab-that-loads-commerce-headquarters-in-an-iframe-module"></a>Búðu til nýjan forritaflipa sem hleður höfuðstöðvum Commerce í iFrame mát 
 
@@ -96,16 +95,16 @@ Til að búa til nýjan forritaflipa sem hleður höfuðstöðvum Commerce í iF
 1. Veldu **Stjórnendamiðstöð þjónustuvers**.
 1. Fara til **Reynsla umboðsmanns**.
 1. Fyrir **Sniðmát fyrir forritsflipa**, veldu **Stjórna**.
-1. Búðu til nýjan umsóknarflipa í **Vefsíða þriðja aðila** tegund. Fyrir leiðbeiningar, sjá [Hafa umsjón með sniðmátum fyrir forritsflipa](/dynamics365/app-profile-manager/application-tab-templates?tabs=customerserviceadmincenter).
+1. Búðu til nýjan forritsflipa í **Vefsíða þriðja aðila** tegund. Fyrir leiðbeiningar, sjá [Hafa umsjón með sniðmátum fyrir forritsflipa](/dynamics365/app-profile-manager/application-tab-templates?tabs=customerserviceadmincenter).
 1. Undir **Færibreytur**, í **Gildi** sviði á **slóð** færibreytu, sláðu inn eftirfarandi vefslóð, þar sem`<YourOrganizationHeadquartersURL>` og`<LegalEntityname>` er skipt út fyrir viðeigandi gildi. Umnichannel þjónustuver les **{AccountNumber}** úr spjallsamhenginu. Því farðu **{AccountNumber}** eins og er.
 
     `https://<YourOrganizationHeadquartersURL>/?mi=MCRCustomerService&cmp=<LegalEntityName>&embedded=true&customerId={AccountNumber}`
 
 1. Skildu eftir **Gildi** sviði á **gögn** færibreyta auð.
 
-![Að búa til forritsflipa í Dynamics 365 Omnichannel Customer Service.](media/OC-CS-Admin-Application-Tab-Parameters.png)
+![Að búa til forritaflipa í Dynamics 365 Omnichannel Customer Service.](media/OC-CS-Admin-Application-Tab-Parameters.png)
 
-## <a name="enable-a-new-application-tab-for-customer-agents-in-dynamics-365-omnichannel-for-customer-service"></a>Virkja nýjan umsóknarflipa fyrir umboðsmenn viðskiptavina í Dynamics 365 Omnichannel for Customer Service
+## <a name="enable-a-new-application-tab-for-customer-agents-in-dynamics-365-omnichannel-for-customer-service"></a>Virkja nýjan forritaflipa fyrir umboðsmenn viðskiptavina í Dynamics 365 Omnichannel for Customer Service
 
 Til að virkja nýjan forritaflipa fyrir umboðsmenn viðskiptavina í Dynamics 365 Omnichannel for Customer Service, fylgdu þessum skrefum.
     
@@ -114,7 +113,7 @@ Til að virkja nýjan forritaflipa fyrir umboðsmenn viðskiptavina í Dynamics 
 1. Veldu **Stjórnendamiðstöð þjónustuvers**.
 1. Fara til **Þjónustudeild \> Vinnustraumar**.
 1. Opnaðu vinnustrauminn sem þú hefur búið til fyrir umboðsmenn þína og síðan undir **Ítarlegar stillingar**, veldu **Sessions sjálfgefið**.
-1. Undir **Forritsflipar**, veldu **Bæta við núverandi forritaflipa**, og bættu síðan við nýja forritaflipanum sem þú bjóst til áðan. Þetta skref tryggir að forritsflipi sem hleður höfuðstöðvum Commerce í iFrame eining mun birtast þegar umboðsmaður fær spjallsímtal frá e-verslunarvefsíðunni þinni.
+1. Undir **Forritsflipar**, veldu **Bæta við núverandi forritaflipa**, og bættu síðan við nýja forritaflipanum sem þú bjóst til áðan. Þetta skref tryggir að forritsflipi sem hleður höfuðstöðvum Commerce í iFrame eining mun birtast þegar umboðsmaður fær spjallsímtal frá netverslunarvefsíðunni þinni.
 
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>Bættu við samhengisbreytum í Dynamics 365 Omnichannel for Customer Service
 
@@ -125,7 +124,7 @@ Til að bæta við samhengisbreytum í Dynamics 365 Omnichannel for Customer Ser
 1. Veldu **Stjórnendamiðstöð þjónustuvers**.
 1. Fara til **Þjónustudeild \> Vinnustraumar**.
 1. Opnaðu vinnustrauminn sem þú hefur búið til fyrir umboðsmenn þína og síðan undir **Ítarlegar stillingar**, farðu í **Samhengisbreyta** kafla.
-1. Veldu **Breyta**, og bæta svo við **Reikningsnúmer** sem samhengisbreytu af **texti** tegund. Þessi breyta mun hjálpa höfuðstöðvum Commerce að hlaða upplýsingar viðskiptavina með samsvarandi reikningsnúmerum.
+1. Veldu **Breyta**, og bæta svo við **Reikningsnúmer** sem samhengisbreytu af **texti** tegund. Þessi breyta mun hjálpa Commerce höfuðstöðvum að hlaða viðskiptavinaupplýsingum með samsvarandi reikningsnúmerum.
 
 > [!NOTE]
-> Ef þú vilt lesa netföng og nöfn innskráðra notenda frá rafrænni viðskiptarás geturðu bætt við **Tölvupóstur** og **Nafn** sem samhengisbreytur á **texti** gerð, til viðbótar við **Reikningsnúmer** samhengisbreytu.
+> Ef þú vilt lesa netföng og nöfn innskráðra notenda af rafrænni viðskiptarás geturðu bætt við **Tölvupóstur** og **Nafn** sem samhengisbreytur á **texti** gerð, til viðbótar við **Reikningsnúmer** samhengisbreytu.

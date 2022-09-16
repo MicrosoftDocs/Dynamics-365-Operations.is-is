@@ -2,19 +2,19 @@
 title: Lén í Dynamics 365 Commerce
 description: Þessi grein lýsir því hvernig lén eru meðhöndluð í Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/19/2022
+ms.date: 09/09/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405497"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465194"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Lén í Dynamics 365 Commerce
 
@@ -144,9 +144,9 @@ Tilvik Azure Front Door styður ekki apex-lén (rótarlén sem innihalda ekki un
 
 - **Valkostur 1** - Notið DNS-veitu til að framsenda apex-lénið á „www“ lén. Fabrikam.com framsendir til dæmis `www.fabrikam.com` þar sem `www.fabrikam.com` er CNAME-færslan sem bendir á tilvik Azure Front Door sem Commerce hýsir.
 
-- **Valkostur 2** - Ef DNS veitandinn þinn styður ALIAS færslur geturðu bent apex léninu á endapunkt útidyranna. Þetta tryggir að IP-breytingin við endapunkt útidyrahurðar endurspeglast.
+- **Valkostur 2** - Ef DNS veitandinn þinn styður ALIAS færslur geturðu bent apex léninu á Azure Front Door endapunktinn, sem tryggir að IP breytingin frá endapunktinum endurspeglast. Þú verður að hýsa Azure Front Door tilvikið sjálfur.
   
-- **Valkostur 3** - Ef DNS veitandinn þinn styður ekki ALIAS færslur, þá verður þú að setja upp CDN eða útidyratilvik á eigin spýtur til að hýsa apex lénið.
+- **Valkostur 3** - Ef DNS veitandinn þinn styður ekki ALIAS færslur, þá verður þú að breyta DNS þjónustuveitunni þinni í Azure DNS og hýsa bæði Azure DNS og Azure Front Door tilvikið sjálfur.
 
 > [!NOTE]
 > Ef verið er að nota Azure Front Door þarf einnig að setja upp Azure-DNS í sömu áskriftinni. Apex-lénið sem hýst er á Azure DNS getur bent á Azure Front Door sem samnefnd færsla. Þetta er eina hjáleiðin, þar sem apex-lén verða alltaf að benda á IP-tölu.

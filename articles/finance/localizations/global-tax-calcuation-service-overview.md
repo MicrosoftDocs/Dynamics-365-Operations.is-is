@@ -2,7 +2,7 @@
 title: Yfirlit skattaútreiknings
 description: Þessi grein útskýrir heildarumfang og eiginleika skattaútreikningsmöguleikans.
 author: EricWangChen
-ms.date: 03/02/2022
+ms.date: 09/08/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: a193db82b2b079c1e10fbfb6bfde7aa43b18bc4a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295993"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465167"
 ---
 # <a name="tax-calculation-overview"></a>Yfirlit skattaútreiknings
 
@@ -74,18 +74,10 @@ Við mælum með því að þú flytur inn og stillir upp skattaútreikninginn �
 
 | Útgáfa fjármála eða birgðakeðjustjórnunar | Skattstillingarútgáfa               |
 | --------------- | --------------------------------------- |
-| 10.0.18         | Skattstillingar - Evrópa 30.12.82     |
-| 10.0.19         | Skattaútreikningsstilling 36.38.193 |
-| 10.0.20         | Skattaútreikningsstilling 40.43.208 |
-| 10.0.21         | Skattaútreikningsstilling 40.48.215 |
-| 10.0.22         | Skattaútreikningsstilling 40.48.215 |
-| 10.0.23         | Skattaútreikningsstilling 40.50.221 |
-| 10.0.24         | Skattaútreikningsstilling 40.50.225 |
-| 10.0.25         | Skattaútreikningsstilling 40.50.225 |
-| 10.0.26         | Skattaútreikningsstilling 40.54.234 |
-| 10.0.27         | Skattaútreikningsstilling 40.54.234 |
-| 10.0.28         | Skattaútreikningsstilling 40.54.234 |
+| 10.0.30         | Skattaútreikningsstilling 40.55.239 |
 | 10.0.29         | Skattaútreikningsstilling 40.55.236 |
+| 10.0.28         | Skattaútreikningsstilling 40.54.234 |
+| 10.0.27         | Skattaútreikningsstilling 40.54.234 |
 
 
 ## <a name="data-flow"></a>Gagnaflæði
@@ -104,122 +96,29 @@ Hér er yfirlit yfir gagnaflæðisferlið fyrir skattútreikning.
 
 Hægt er að virkja skattaútreikning eftir færslum. 
 
-Eftirfarandi færslur eru studdar í Finance-útgáfu 10.0.21: 
+Eftirfarandi tafla sýnir færslurnar sem studdar eru í samsvarandi útgáfu.
 
-- Sala
-
-    - Sölutilboð
-    - Sölupöntun
-    - Staðfesting
-    - Tiltektarlisti
-    - Fylgiseðill
-    - Sölureikningur
-    - Kreditnóta
-    - Skila pöntun
-    - Ýmis hausgjöld
-    - Ýmis línugjöld
-
-- Innkaup
-
-    - Innkaupapöntun
-    - Staðfesting
-    - Komulisti
-    - Innhreyfingarskjal afurða
-    - Innkaupareikningur
-    - Ýmis hausgjöld
-    - Ýmis línugjöld
-    - Kreditnóta
-    - Skila pöntun
-    - Innkaupabeiðni
-    - Ýmis gjöld innkaupabeiðnilínu
-    - Beiðni um tilboð
-    - Ýmis hausgjöld fyrir beiðni um tilboð
-    - Ýmis línugjöld fyrir beiðni um tilboð
-
-- Birgðir
-
-    - Flutningspantanir - senda
-    - Móttaka flutningspöntunar
-
-Eftirfarandi færslur eru studdar í Finance-útgáfu 10.0.23: 
-
-- Reikningur með frjálsum texta
-
-Eftirfarandi færslur eru studdar í Finance-útgáfu 10.0.26: 
-
-- Almennar færslubækur
-- Reikningabók lánardrottins
-
-Eftirfarandi færslur eru studdar í Finance-útgáfu 10.0.28: 
-
-- Greiðslubók lánardrottins
-- Greiðslubók viðskiptavinar
-
-Eftirfarandi færslur eru studdar í Finance-útgáfu 10.0.29: 
-
-
-- Tímabilsbækur
+| Útgáfa | Færslur |
+|---------|--------------|
+| 10.0.29 | Tímabilsbækur |
+| 10.0.28 | Greiðslubók lánardrottins<br> Greiðslubók viðskiptavinar | 
+| 10.0.26 | Almennar færslubækur<br> Reikningabók lánardrottins |
+| 10.0.23 | Reikningur með frjálsum texta |
+| 10.0.21| Sala<br><ul><li>Sölutilboð</li><li>Sölupöntun</li><li>Staðfesting</li><li>Tiltektarlisti</li><li>Fylgiseðill</li><li>Sölureikningur</li><li>Kreditnóta</li><li>Skila pöntun</li><li>Ýmis hausgjöld</li><li>Ýmis línugjöld</li></ul>Innkaup<br><ul><li>Innkaupapöntun</li><li>Staðfesting</li><li>Komulisti</li><li>Innhreyfingarskjal afurða</li><li>Innkaupareikningur</li><li>Ýmis hausgjöld</li><li>Ýmis línugjöld</li><li>Kreditnóta</li><li>Skila pöntun</li><li>Innkaupabeiðni</li><li>Ýmis gjöld innkaupabeiðnilínu</li><li>Beiðni um tilboð</li><li>Ýmis hausgjöld fyrir beiðni um tilboð</li><li>Ýmis línugjöld fyrir beiðni um tilboð</li></ul>Birgðir<ul><li>Flutningspantanir - senda</li><li>Móttaka flutningspöntunar</li></ul>|
 
 ## <a name="supported-countriesregions"></a>Studd lönd/svæði
 
-Skattaútreikning er hægt að keyra með studdum staðsetningareiginleikum í eftirfarandi löndum/svæðum fyrir aðal heimilisfang lögaðila: 
+Skattaútreikning er hægt að keyra með studdum staðsetningareiginleikum. Eftirfarandi tafla sýnir lönd/svæði fyrir aðalheimilisfang lögaðila.
 
-Styður í útgáfu 10.0.21:
+| Útgáfa | Land/svæði |
+|---------|----------------|
+| 10.0.26 | - Kína <br>- Tékkland<br>- Spánn |
+| 10.0.24 | Mexíkó |
+| 10.0.23 | - Taíland <br>- Japan <br>- Malasía <br>- Singapúr |
+| 10.0.22 | - Ástralía<br>- Barein <br>- Kanada<br>- Egyptaland <br>- Hong Kong SAR <br>- Kúveit <br>- Nýja Sjáland <br>- Óman <br>- Katar <br>- Sádi-arabíska <br>- Suður-Afríka <br>- Sameinuðu arabísku furstadæmin |
+| 10.0.21 | - Austurríki <br>- Belgía <br>- Danmörk <br>- Eistland <br>- Finnland <br>- Frakkland <br>- Þýskaland <br>- Ungverjaland <br>- Ísland <br>- Írland <br>- Ítalía <br>- Lettland <br>- Litháen <br>- Hollandi <br>- Noregur <br>- Pólland <br>- Svíþjóð <br>- Sviss <br>- Bretland <br>- Bandaríkin |
 
-- Austurríki
-- Belgía
-- Danmörk
-- Eistland
-- Finnland
-- Frakkland
-- Þýskaland
-- Ungverjaland
-- Ísland
-- Írland
-- Ítalía
-- Lettland
-- Litháen
-- Holland
-- Noregur
-- Pólland
-- Svíþjóð
-- Sviss
-- Bretland
-- Bandaríkin
-
-Styður í útgáfu 10.0.22:
-
-- Ástralía
-- Barein
-- Kanada
-- Egyptaland
-- Hong Kong (sérstjórnarsvæði)
-- Kúveit
-- Nýja-Sjáland
-- Óman
-- Katar
-- Sádi-Arabískt
-- Suður-Afríka
-- Sameinuðu arabísku furstadæmin
-
-Styður í útgáfu 10.0.23:
-
-- Taíland
-- Japan
-- Malasía
-- Singapúr
-
-Styður í útgáfu 10.0.24:
-
-- Mexíkó
-
-Styður í útgáfu 10.0.26:
-
-- Kína
-- Tékkland
-- Spánn
-
-Fyrir öll lönd/svæði sem Microsoft hefur ekki staðfært, er einnig hægt að virkja og keyra skattaútreikning með öðrum alþjóðlegum eiginleikum.
+Fyrir öll lönd/svæði sem ekki eru staðbundin af Microsoft er einnig hægt að virkja skattaútreikning og keyra hann með öðrum alþjóðlegum eiginleikum.
 
 ## <a name="related-resources"></a>Tengd tilföng
 

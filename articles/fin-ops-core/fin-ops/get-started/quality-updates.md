@@ -2,7 +2,7 @@
 title: Fyrirbyggjandi gæðauppfærslur
 description: Þessi grein veitir upplýsingar um fyrirbyggjandi afhendingu gæðauppfærslna.
 author: rashmansur
-ms.date: 08/23/2022
+ms.date: 09/12/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9d81cb15e9a127e7bea7ad9b5e0f50a1ee543f71
-ms.sourcegitcommit: 78e85ad49634cd31459fdb7325cb273352bf1501
+ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
+ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9338137"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473606"
 ---
 # <a name="proactive-quality-updates"></a>Fyrirbyggjandi gæðauppfærslur
 
@@ -38,7 +38,7 @@ Auðvitað gæti minnkun á göllum dregið úr eða algjörlega eytt þörfinni
 
 Margar framfarir hafa þegar verið settar í notkun sem gera kleift að senda gæðauppfærslur fyrirbyggjandi:
 
-- **Nánast núll uppfærsla á niðritíma** – Til að ýta undir tíðari umhverfi er nauðsynlegt að draga úr áhrifum á aðgengi umhverfisins til að varðveita Dynamics 365 Service Level Agreements (SLAs). Uppfærsla á næstum núlli niður í miðbæ var upphaflega kynnt til að hjálpa til við að bæta mánaðarlega lagfæringu stýrikerfis með því að nota þyrpingabilun til að virkja uppfærðu myndina með lágmarks truflun. Verið er að bæta vélbúnaðinn til að beita uppfærslum þannig að hann truflar enn minna og mun ná yfir bæði stýrikerfisuppfærslur og gæðauppfærsluuppfærslu.
+- **Nánast núll uppfærsla á niðritíma** – Til að ýta undir tíðari umhverfi er nauðsynlegt að draga úr áhrifum á aðgengi umhverfisins til að varðveita Dynamics 365 Service Level Agreements (SLAs). Uppfærsla á næstum núlli niður í miðbæ var upphaflega kynnt til að bæta mánaðarlega lagfæringu stýrikerfis með því að nota cluster failover til að virkja uppfærðu myndina með lágmarks röskun. Verið er að bæta vélbúnaðinn til að beita uppfærslum þannig að hann truflar enn minna og hann mun ná yfir bæði stýrikerfisuppfærslur og gæðauppfærsluuppfærslu.
 
     Fyrir gagnvirka notendur gæti virk lota verið rofin og tilraunin fer aftur í uppfært umhverfi. Með tilkomu [forgangstengd lotuáætlun](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), sem er nú fáanlegt á grundvelli opt-in, bata tímasetningu og vinnsla bata og halda áfram strax eftir uppfærsluna. Forgangsbundin lotuáætlun verður til staðar fyrir viðskiptavini áður en þeir byrja að taka þátt í fyrirbyggjandi dreifingu á gæðauppfærslum fyrir framleiðsluumhverfi þeirra.
 
@@ -48,22 +48,77 @@ Margar framfarir hafa þegar verið settar í notkun sem gera kleift að senda g
 
 Dreifing fyrirbyggjandi gæðauppfærslu mun fylgja öruggu dreifingarferli (SDP). Sérkenni SDP munu þróast, en gæðauppfærslur verða upphaflega settar í sandkassaumhverfi. Ferlið mun byrja með umhverfi sem opnar fyrir snemmtæka dreifingu. Eftir því sem hlutfall sandkassa sem tókst að dreifa eykst mun dreifing í framleiðsluumhverfi hefjast. Enn og aftur mun ferlið byrja með umhverfi sem opnar fyrir snemmtæka dreifingu. Hlustunarkerfi munu fylgjast með kerfisfjarmælingum og atvikum á Livesite og munu stöðva útsetningu ákveðinnar útgáfu ef einhver afturför greinist. Viðskiptavinir munu samt geta dregið gæðauppfærslurnar á undan fyrirbyggjandi dreifingu ef þeir vilja.
 
-Núverandi útgáfustjórnunargögn sýna að minna en 3 prósent af afturköllun eru kynnt í gæðauppfærslum. Með aukinni áherslu á að útrýma afturhvarfi og aukinni SDP verða hugsanleg áhrif afturhvarfs verulega minni en gæðahagnaðurinn sem næst með því að fá lagfæringar hraðar til viðskiptavina víða.
+Núverandi útgáfustjórnunargögn sýna að minna en 3 prósent af afturköllun eru kynnt í gæðauppfærslum. Með aukinni áherslu á að útrýma afturhvarfi og aukinni SDP, verða hugsanleg áhrif afturhvarfs verulega minni en gæðaávinningurinn sem næst með því að fá lagfæringar hraðar til viðskiptavina almennt.
 
 ## <a name="process-changes"></a>Breytingar á ferli
 
 Verið er að innleiða sett af ferlibreytingum fyrir virkjun á fyrirbyggjandi gæðauppfærsluuppfærslu:
 
 - **Skema** – Verkfæri munu tryggja að gæðauppfærslur innihalda aðeins skemabreytingar sem hægt er að beita á meðan þjónustan er á netinu. Þessi nálgun mun hjálpa til við að viðhalda getu til að beita uppfærslunni með næstum núlli niður í miðbæ.
-- **Aukið eftirlit með breytingum** – Eins og er, er nú þegar aukaferlisskref til að samþykkja breytingar fyrir innlimun í gæðauppfærslu. Athugunin í aukaskrefinu verður aukin til að draga úr möguleikum á afturförum. Brotandi breytingar eru ekki leyfðar í gæðauppfærslum og aukin athugun á breytingum mun hjálpa til við að tryggja að við náum þessu markmiði.
+- **Aukið eftirlit með breytingum** – Eins og er, er nú þegar aukaferlisskref til að samþykkja breytingar fyrir innlimun í gæðauppfærslu. Athugunin í aukaþrepinu verður aukin til að draga úr möguleikum á afturförum. Brotandi breytingar eru ekki leyfðar í gæðauppfærslum og aukin athugun á breytingum mun hjálpa til við að tryggja að við náum þessu markmiði.
 - **Skyggni** - Við munum senda tilkynningar í gegnum tölvupóst og Lifecycle Services (LCS) fyrir komandi fyrirbyggjandi gæðauppfærslur. Að auki munu stuðningsteymi og atviksleiðir hafa sýnilegt hvar gæðauppfærslur hafa verið settar á fyrirbyggjandi hátt.
-- **Til baka útgáfu** – Flug verður notað til að flokka allar breytingar í fyrirbyggjandi gæðauppfærslu. Ef þörf er á fallback eftir fyrirbyggjandi dreifingu er hægt að gera það í gegnum flugkerfið.
-- **Samstillingarheiti fyrir sandkassa** - Innan við 20 prósent viðskiptavina í dag eru með marga sandkassa og halda einum sandkassa uppbyggðum þar sem útgáfan passar við framleiðslu, til að hjálpa við bilanaleit. Í náinni framtíð munum við kynna möguleika viðskiptavina til að tilgreina sandkassaumhverfi sem ætti ekki að fá fyrirbyggjandi gæðauppfærsluuppfærslu ásamt öðrum sandkassa, en það ætti þess í stað að fá það síðar ásamt framleiðsluumhverfinu. Athugaðu að ef viðskiptavinur notar sandkassa til að prófa nýrri útgáfu en framleiðslu hans mun sá sandkassi fá gæðauppfærslur á nýrri útgáfuna.
-- 
-## <a name="when-will-proactive-quality-updates-start"></a>Hvenær byrja fyrirbyggjandi gæðauppfærslur?
+- **Útgáfa fallback** – Flug verður notað til að flokka allar breytingar í fyrirbyggjandi gæðauppfærslu. Ef þörf er á fallback eftir fyrirbyggjandi dreifingu er hægt að gera það í gegnum flugkerfið.
+- **Samstillingarheiti fyrir sandkassa** - Innan við 20 prósent viðskiptavina í dag eru með marga sandkassa og halda einum sandkassa uppbyggðum þar sem útgáfan passar við framleiðslu, til að hjálpa við bilanaleit. Ef viðskiptavinur notar sandkassa til að prófa nýrri útgáfu en framleiðslu hans mun sá sandkassi fá gæðauppfærslur í nýrri útgáfuna.
+
+## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Hver er útfærsluvegvísir fyrir gæðauppfærslur?
 
 Búist er við að dreifing á fyrirbyggjandi gæðauppfærslum fyrir sandkassaumhverfi hefjist seint í september eða október 2022 fyrir viðskiptavini Azure almenningsskýja. Reynsluumhverfi munu einnig byrja að fá fyrirbyggjandi uppfærsluuppfærslu á þeim tíma. Í september verður tilkynning send til hvers viðskiptavinar til að upplýsa þá um væntanlega tímaáætlun fyrir umhverfi sitt. Undantekningar frá fyrirbyggjandi uppfærðu dreifingarferli verða aðeins leyfðar fyrir viðskiptavini sem eru undir eftirliti FDA. Við erum enn að vinna úr því hvernig stjórnað umhverfi og skýjaviðskiptavinum ríkisins og stjórnvalda verður stjórnað.
 
 Á næsta sex mánaða tímabili munum við smám saman auka hlutfall sandkassaumhverfa sem fá fyrirbyggjandi uppfærslur, þar til öll tilnefnd umhverfi eru tekin með og framfarir í að uppfæra framleiðsluumhverfi. Allt tímabilið munum við fylgjast með til að tryggja að dreifingarferlið sé óaðfinnanlegt og að við séum að ná markmiði okkar um hleðslu sem ekki truflar.
 
 Vegna þess að viðskiptavinir munu reglulega fá minni hleðslu, gerum við ráð fyrir því að ferlið við að vera núverandi verði einfaldara. Við munum breyta tíðni uppfærsluuppfærslu þegar við sýnum getu til að keyra ferlið án truflana. Þetta ferli er nú þegar að virka á áhrifaríkan hátt fyrir okkar Dataverse vettvang og forrit, og er að skila væntanlegum framförum í þjónustugæðum. Okkur langar til að stíga sama skref fram á við fyrir umsóknir um fjármál og rekstur.
+
+## <a name="when-will-quality-updates-start-for-production-environments"></a>Hvenær hefjast gæðauppfærslur fyrir framleiðsluumhverfi?
+Eins og er miða gæðauppfærslur aðeins á sandkassa. Uppfærslur á framleiðsluumhverfi munu hefjast eftir nóvember 2022.
+
+## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Hver er áætlunin fyrir gæðauppfærslur á sandkassa?
+Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hver er áætlunin fyrir fyrirbyggjandi gæðauppfærslur](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates)?.
+
+## <a name="how-are-the-dark-hours-handled-for-customers-that-have-one-finance-and-operations-apps-instance-but-are-active-in-multiple-time-zones"></a>Hvernig er myrkri klukkustundum meðhöndlað fyrir viðskiptavini sem eru með eitt fjármála- og rekstrarforrit en eru virkir á mörgum tímabeltum? 
+Það eru engar sérstakar áætlanir utan myrkra tíma þar sem tilfelli fjármála- og rekstrarforrita er til, þar sem við ætlum að setja út gæðauppfærslur á sem minnst truflandi hátt með [nZDT](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-does-near-zero-downtime-maintenance-mean).
+
+## <a name="how-will-microsoft-ensure-the-quality-of-these-updates"></a>Hvernig mun Microsoft tryggja gæði þessara uppfærslu?
+Microsoft leitast við að halda útgáfupípunni nógu skilvirkri til að skila litlum farmi til að halda löggildingarkostnaði lágum. Sérhver lagfæring í gæðauppfærslu fer í gegnum strangt og öruggt dreifingarferli sem hjálpar til við að bæta gæði og áreiðanleika og dregur þannig úr áhrifum viðskiptavina. Dreifing mun gerast í áföngum á sandkassaumhverfi fyrst og síðan framleiðsla. Sviðsuppsetning gerir kleift að fylgjast með réttu eftirliti til að ákvarða hvort frekari dreifing sé örugg. Við munum stöðva útfærsluna ef vandamál finnast hjá hverjum hópi viðskiptavina sem notaðir eru og tryggja að hvert skref í útfærslunni hafi nægan tíma til að vandamál komi upp á yfirborðið. Fyrir hverja væntanlega gæðauppfærslu munum við veita sýnileika í áætluninni með uppfærslum á opinberum skjölum og tölvupóstum, svo viðskiptavinir geti skipulagt fram í tímann.
+
+## <a name="can-customers-delay-reschedule-or-pause-a-quality-update"></a>Geta viðskiptavinir seinkað, breytt tímasetningu eða gert hlé á gæðauppfærslu?
+Nr. Meginmarkmið gæðauppfærslna er að tryggja að grundvallaratriði eins og öryggi, friðhelgi einkalífs, áreiðanleika, framboð og afköst séu stöðugt að bæta fyrir viðskiptavini okkar. Með því að seinka eða gera hlé á uppfærslu er öryggi, aðgengi og áreiðanleiki í hættu.
+
+## <a name="how-can-one-know-the-set-of-changes-that-went-into-a-quality-update-payload"></a>Hvernig getur maður vitað um þær breytingar sem fóru í gæðauppfærsluhleðslu?
+Þú munt geta skoðað allar KB greinar í gæðauppfærslu byggð á **Umhverfisupplýsingar** síðu í LCS, með því að fara á **Gæðauppfærsla** kafla. 
+
+## <a name="what-is-the-process-if-a-critical-issue-is-found-after-a-quality-update"></a>Hvert er ferlið ef mikilvægt vandamál finnst eftir gæðauppfærslu?
+Mikilvægt mál eða afturför er einn eða fleiri atburðir sem venjulega valda því að margir viðskiptavinir hafa skerta reynslu af einni eða fleiri þjónustu okkar. Þessi vandamál geta valdið ófyrirséðri niður í miðbæ, þar með talið óaðgengi, skert frammistöðu og truflun á þjónustustjórnun. Ef það eru víðtæk áhrif á viðskiptavini vegna slíkra aðhvarfs, munum við stöðva útgáfu gæðauppfærslu þar til við getum haft samskipti og lagað vandamálið. Venjulega mun næsta gæðauppfærsla hafa nauðsynlega lagfæringu til að hefja útsetningu á ný.
+
+Ef umhverfi eins viðskiptavinar verður fyrir áhrifum skaltu hafa samband við þjónustudeild Microsoft til að opna miða. Byggt á rökstuðningnum munum við stöðva útfærslu gæðauppfærslunnar í öll önnur umhverfi í því verkefni þar til vandamálið hefur verið dregið úr.
+
+## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>Geta viðskiptavinir samt beitt flýtileiðréttingum handvirkt frá LCS?
+Já. Til að tryggja áframhaldandi jafnræði við hvernig flýtileiðréttingar virka, er enn hægt að beita flýtileiðréttingum á umhverfi viðskiptavina í LCS. Hins vegar er mikilvægt að hafa í huga að flýtileiðréttingar sem eru settar upp sem hluti af gæðauppfærslu fara í gegnum staðlaða SDP áður en uppfærslan er sett upp. Þetta dregur úr hættu á afturförum vegna meiri gæða. Við mælum með því að þú veljir gæðauppfærslu en að beita flýtileiðréttingum handvirkt til að auka áreiðanleika.
+
+## <a name="can-customers-self-install-a-quality-update-build-by-themselves-ahead-of-the-schedule"></a>Geta viðskiptavinir sjálfir sett upp gæðauppfærslu sem eru smíðaðir sjálfir á undan áætlun?
+Já. Þú getur sett upp gæðauppfærslu fyrirbyggjandi. Microsoft mun sleppa uppfærslunni ef núverandi byggingarútgáfa umhverfisins er jöfn eða hærri en viðkomandi gæðauppfærsla.
+
+## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Ef umhverfi er með væntanlega mánaðarlega þjónustuuppfærslu innan viku, mun það samt fá gæðauppfærslur?
+- Gæðauppfærslum er ekki beitt ef yfirvofandi þjónustuuppfærsla er áætluð innan viku frá því að gæðauppfærslan á að gerast.
+- Ef sandkassaumhverfi er með sömu eða hærri byggingarútgáfu en yfirvofandi gæðauppfærsla verður því sleppt.
+- Ef framleiðsluumhverfi er með sömu eða hærri byggingarútgáfu en yfirvofandi gæðauppfærsla verður henni sleppt.
+- Ef sandkassi er með sömu eða hærri byggingarútgáfu vegna gæðauppfærslu eða handvirkrar uppfærslu á framleiðslunni mun framleiðslan samt fá áætlaða útgáfu mánaðarlegrar þjónustuuppfærslu. Ef þú vilt ekki að áætlað framleiðsluumhverfi verði uppfært í þjónustuuppfærsluútgáfuna geturðu gert hlé á þjónustuuppfærslunni frá LCS. 
+- Við mælum með því að þú notir nýjustu gæðauppfærsluna til að prófa breytingarnar þínar fyrir væntanlega þjónustuuppfærslu fyrir betri stöðugleika og árangur.
+
+## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Er hægt að færa umhverfi aftur í fyrra ástand ef það eru vandamál eftir að gæðauppfærslu er beitt?
+Eftir að gæðauppfærslu hefur verið beitt er engin afturköllun undir neinum kringumstæðum. Það eru aðeins möguleikar á áframhaldandi plástra í boði til að draga úr vandamálum.
+
+## <a name="what-about-fda-regulation-and-gpx"></a>Hvað með FDA reglugerð og GPX?
+Áætlunin fyrir viðskiptavini sem eru háðir FDA fullgildingu og reglugerð er enn í þróun. Búast má við fleiri uppfærslum á þessu svæði fljótlega. Í bili eru allir slíkir viðskiptavinir undanþegnir gæðauppfærslum.
+
+## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Hvaða útgáfur af þjónustuuppfærslum eru studdar fyrir þessar gæðauppfærslur?
+Viðskiptavinir með lægri útgáfur en N-2 munu ekki fá gæðauppfærslur. 
+
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Uppfærslur á fjármála- og rekstrarforritum með smásöluíhlutum krefjast venjulega viðbótarvinnu auk þess að þurfa að endurútfæra MPOS. Hvaða áhrif munu þessar gæðauppfærslur hafa á RetailSDK? 
+Þar sem eðli bráðaleiðréttanna sjálfra breytist ekki í gæðauppfærsluhleðslunni, gerum við ekki ráð fyrir neinum frekari áhrifum á þessari stundu sem sérstaklega tengjast smásöluíhlutum.
+
+## <a name="is-there-any-impact-to-cloud-hosted-environments-che-"></a>Eru einhver áhrif á Cloud Hosted Environments (CHE)? ? 
+Nr.
+
+## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Eru einhver samþættingarvandamál með Microsoft Dataverse? 
+Nr.
+

@@ -2,7 +2,7 @@
 title: Skilgreina samstæðureglur sendingar
 description: Þessi grein útskýrir hvernig á að setja upp sjálfgefna og sérsniðnar sameiningarstefnur fyrir sendingar.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 0312d425d2ebc5311e894030423a916b90f1881a
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336493"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427983"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Skilgreina samstæðureglur sendingar
 
@@ -26,77 +26,51 @@ ms.locfileid: "9336493"
 
 Samstæðuferli sendingar sem notar samstæðureglur sendingar leyfa sjálfvirka samstæðu sendingar við sjálfvirka og Handvirk losun í vöruhúsið. Eftir að kveikt er á þessum eiginleika verður að skilgreina fyrstu reglurnar. Ef engar reglur eru skilgreindar mun hver sölulína mynda aðskilda sendingu sem er með eina farmlínu.
 
-Atburðarásin sem kynnt er í þessari grein sýna hvernig á að setja upp sjálfgefna og sérsniðna samþjöppunarstefnu fyrir sendingar.
+Atburðarásirnar sem eru kynntar í þessari grein sýna hvernig á að setja upp sjálfgefna og sérsniðna samstæðustefnu fyrir sendingar.
+
+> [!WARNING]
+> Ef þú uppfærir Microsoft Dynamics 365 Supply Chain Management kerfi þar sem þú hefur notað eldri sendingarsamstæðueiginleikann, gæti sameining hætt að virka eins og þú býst við nema þú fylgir ráðleggingunum sem eru gefin hér.
+>
+> Um birgðakeðjustjórnunaruppsetningar þar sem *Samþjöppunarreglur sendingar* Slökkt er á eiginleikanum, þú virkjar sendingarsamstæðu með því að nota **Sameinaðu sendingu við losun á vöruhús** stilling fyrir hvert einstakt vöruhús. Þessi eiginleiki er nauðsynlegur frá og með útgáfu 10.0.29. Þegar kveikt er á henni mun **Sameinaðu sendingu við losun á vöruhús** stillingin verður falin og virkninni er skipt út fyrir *stefnur um samþjöppun sendinga* sem lýst er í þessari grein. Hver stefna setur samstæðureglur og inniheldur fyrirspurn til að stjórna hvar stefnan á við. Þegar þú kveikir á eiginleikanum fyrst verða engar stefnur um samþjöppun sendingar skilgreindar á **Samþjöppunarreglur sendingar** síðu. Þegar engar reglur eru skilgreindar notar kerfið arfgenga hegðun. Þess vegna heldur hvert núverandi vöruhús áfram að virða sína **Sameinaðu sendingu við losun á vöruhús** stilling, jafnvel þó að sú stilling sé nú falin. Hins vegar, eftir að þú hefur búið til að minnsta kosti eina stefnu fyrir samþjöppun sendingar, **Sameinaðu sendingu við losun á vöruhús** stillingar hafa ekki lengur nein áhrif og samstæðuvirkni er algjörlega stjórnað af reglunum.
+>
+> Eftir að þú hefur skilgreint að minnsta kosti eina sameiningarstefnu fyrir sendingar mun kerfið athuga sameiningarreglurnar í hvert sinn sem pöntun er losuð í vöruhúsið. Kerfið vinnur úr stefnum með því að nota röðun sem er skilgreind af hverri stefnu **Stefna röð** gildi. Það beitir fyrstu stefnu þar sem fyrirspurnin passar við nýju röðina. Ef engar fyrirspurnir passa við pöntunina myndar hver pöntunarlína sérstaka sendingu sem hefur eina hleðslulínu. Þess vegna mælum við með því að þú búir til sjálfgefna stefnu sem gildir fyrir öll vöruhús og hópa eftir pöntunarnúmeri. Gefðu þessari varastefnu hæstv **Stefna röð** gildi, þannig að það sé afgreitt síðast.
+>
+> Til að endurskapa eldri hegðun verður þú að búa til stefnu sem flokkar ekki eftir pöntunarnúmeri og hefur fyrirspurnarskilyrði sem innihalda öll viðeigandi vöruhús.
 
 ## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Kveikja á eiginleikanum „Samstæðureglur sendingar“
 
-> [!IMPORTANT]
-> Í [fyrstu atburðarás](#scenario-1) sem lýst er í þessari grein, verður þú fyrst að setja upp vöruhús þannig að það noti fyrri sendingarsamstæðueiginleikann. Því næst eru samstæðureglur sendingar gerðar tiltækar. Á þennan hátt er hægt að læra á hvernig uppfærsluaðstæðurnar virka. Ef ætlunin er að nota sýnigagnaumhverfi til að fara í gegnum fyrstu aðstæðurnar skal ekki kveikja á eiginleikanum áður en farið er í gegnum aðstæðurnar.
+Til að nota *Samþjöppunarreglur sendingar* eiginleika, verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Samþjöppunarreglur sendingar* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
-Til að nota *Samþjöppunarreglur sendingar* eiginleika, verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Samþjöppunarreglur sendingar* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+## <a name="set-up-your-initial-consolidation-policies"></a><a name="initial-policies"></a> Settu upp fyrstu sameiningarstefnurnar þínar
 
-## <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
-
-Hver atburðarás í þessari grein vísar til gilda og skráa sem eru innifalin í stöðluðum kynningargögnum sem eru veitt fyrir Microsoft Dynamics 365 Supply Chain Management. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á **USMF** áður en hafist er handa.
-
-## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Aðstæður 1: Skilgreina sjálfgefnar samstæðureglur sendingar
-
-Tvenns konar ástand er til staðar þar sem skilgreina þarf lágmarksfjölda sjálfgefinna reglna eftir að kveikt er á eiginleikanum *Samstæðureglur sendingar*:
-
-- Þú ert að uppfæra umhverfi sem inniheldur þegar gögn.
-- Þú ert að setja upp algjörlega nýtt umhverfi.
-
-### <a name="upgrade-an-environment-where-warehouses-are-already-configured-for-cross-order-consolidation"></a>Uppfæra umhverfi þar sem vöruhús hafa þegar verið skilgreind fyrir millipöntunarsamstæðu
-
-Þegar þetta er ræst ætti að slökkva á eiginleikanum *Samstæðureglur sendingar* til að herma eftir umhverfi þar sem grunneiginleikinn fyrir millipöntunarsamstæðu var þegar notaður. Þá er eiginleikastjórnun notuð til að kveikja á eiginleikanum, svo hægt sé að fá upplýsingar um hvernig setja á upp samstæðureglur sendingar eftir uppfærsluna.
-
-Fylgið eftirfarandi skrefum til að setja upp sjálfgefnar samstæðureglur sendingar í umhverfi þar sem vöruhús hafa þegar verið skilgreind fyrir millipöntunarsamstæðu.
-
-1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Vöruhús**.
-1. Á listanum skal finna og opna viðkomandi vöruhúsafærslu (til dæmis, vöruhús *24* í **USMF**-sýnigögnum).
-1. Á aðgerðarúðunni skal velja **Breyta**.
-1. Á flýtiflipanum **Vöruhús** skal stilla valkostinn **Taka sendingu með í samstæðu við losun í vörugeymslu** á *Já*.
-1. Endurtakið skref 2 til 4 fyrir öll önnur vöruhús þar sem sameining er nauðsynleg.
-1. Lokið síðunni.
-1. Opnið **Vöruhúsastjórnun \> Uppsetning \> Losa í vöruhús \> Samstæðureglur sendingar**. Hugsanlega þarf að uppfæra vafrann til að sjá nýja valmyndaratriðið **Samstæðureglur sendingar** eftir að kveikt er á eiginleikanum.
-1. Á aðgerðasvæðinu skal velja **Stofna sjálfgefna uppsetningu** til að stofna eftirfarandi reglur:
-
-    - **CrossOrder**-regla fyrir reglugerðina *Sölupantanir* (að því gefnu að a.m.k. eitt vöruhús sé sett upp til að nota sem eldri samstæðueiginleikann)
-    - **Sjálfgefið**-regla fyrir reglugerðina *Sölupantanirnar*
-    - **Sjálfgefið**-regla fyrir reglugerðina *Flutningsútgáfa*
-    - **CrossOrder**-regla fyrir reglugerðina *Flutningsútgáfa* (að því gefnu að a.m.k. eitt vöruhús sé sett upp til að nota eldri samstæðueiginleikann)
-
-    > [!NOTE]
-    > - Báðar **CrossOrder**-reglur nota saman reitahóp sem eldri rök, fyrir utan reitinn fyrir pöntunarnúmerið. (Þessi reitur er notaður til að sameina línur í sendingar, út frá þáttum eins og vöruhúsi, flutningsmáta afhendingar og aðsetri.)
-    > - Báðar **Sjálfgefið**-reglur nota saman reitahóp sem eldri rök, einnig reitinn fyrir pöntunarnúmerið. (Þessi reitur er notaður til að sameina línur í sendingar, út frá þáttum eins og pöntunarnúmeri, vöruhúsi, flutningsmáta afhendingar og aðsetri.)
-
-1. Velja skal **CrossOrder**-reglu fyrir reglugerðina *Sölupantanir* og síðan skal velja **Breyta fyrirspurn** á aðgerðasvæðinu.
-1. Í svarglugga fyrirspurnaritilsins skal gefa gaum að því að skráð eru vöruhús sem hafa valkostinn **Taka sendingu með í samstæðu við losun í vörugeymslu** stilltan á *Já*. Þess vegna eru þau höfð með í fyrirspurninni.
-
-### <a name="create-default-policies-for-a-new-environment"></a>Stofna sjálfgefnar reglur fyrir nýtt umhverfi
-
-Fylgið eftirfarandi skrefum til að setja upp sjálfgefnar samstæðureglur sendingar í glænýju umhverfi.
+Ef þú ert að vinna með nýtt kerfi eða kerfi þar sem þú ert nýbúinn að kveikja á *Samþjöppunarreglur sendingar* eiginleiki í fyrsta skipti, fylgdu þessum skrefum til að setja upp upphafsreglur um samþjöppun sendingar.
 
 1. Opnið **Vöruhúsastjórnun \> Uppsetning \> Losa í vöruhús \> Samstæðureglur sendingar**.
 1. Á aðgerðasvæðinu skal velja **Stofna sjálfgefna uppsetningu** til að stofna eftirfarandi reglur:
 
-    - **Sjálfgefið**-regla fyrir reglugerðina *Sölupantanirnar*
-    - **Sjálfgefið**-regla fyrir reglugerðina *Flutningsútgáfa*
+    - Stefna sem er nefnd *Sjálfgefið* fyrir *Sölupantanir* tegund stefnu.
+    - Stefna sem er nefnd *Sjálfgefið* fyrir *Flutningamál* tegund stefnu.
+    - Stefna sem er nefnd *CrossOrder* fyrir *Flutningamál* tegund stefnu. (Þessi regla er aðeins búin til ef þú varst með að minnsta kosti eitt vöruhús þar sem arfleifð **Sameinaðu sendingu við losun á vöruhús** stillingin var virkjuð.)
+    - Stefna sem er nefnd *CrossOrder* fyrir *Sölupantanir* tegund stefnu. (Þessi regla er aðeins búin til ef þú varst með að minnsta kosti eitt vöruhús þar sem arfleifð **Sameinaðu sendingu við losun á vöruhús** stillingin var virkjuð.)
 
     > [!NOTE]
-    > Báðar **Sjálfgefið**-reglur nota saman reitahóp sem eldri rök, einnig reitinn fyrir pöntunarnúmerið. (Þessi reitur er notaður til að sameina línur í sendingar, út frá þáttum eins og pöntunarnúmeri, vöruhúsi, flutningsmáta afhendingar og aðsetri.)
+    > - Bæði *CrossOrder* stefnur líta á sama mengi sviða og fyrri rökfræði. Hins vegar taka þeir einnig tillit til pöntunarnúmerareitsins. (Þessi reitur er notaður til að sameina línur í sendingar, út frá þáttum eins og vöruhúsi, flutningsmáta afhendingar og aðsetri.)
+    > - Bæði *Sjálfgefið* stefnur líta á sama mengi sviða og fyrri rökfræði. Hins vegar taka þeir einnig tillit til pöntunarnúmerareitsins. (Þessi reitur er notaður til að sameina línur í sendingar, út frá þáttum eins og pöntunarnúmeri, vöruhúsi, flutningsmáta afhendingar og aðsetri.)
 
-## <a name="scenario-2-configure-custom-shipment-consolidation-policies"></a>Aðstæður 2: Skilgreina sérsniðna samstæðureglu sendingar
+1. Ef kerfið myndaði a *CrossOrder* stefnu fyrir *Sölupantanir* gerð stefnu, veldu hana og veldu síðan á aðgerðarrúðunni **Breyta fyrirspurn**. Í fyrirspurnaritlinum geturðu séð hvaða vöruhús þín eru **Sameinaðu sendingu við losun á vöruhús** stilling var áður virkjuð fyrir. Þess vegna endurskapar þessi regla fyrri stillingar þínar fyrir þessi vöruhús.
+1. Sérsníddu nýju sjálfgefna reglurnar eftir þörfum með því að bæta við eða fjarlægja reiti og/eða breyta fyrirspurnum. Þú getur líka bætt við eins mörgum nýjum reglum og þú þarft. Fyrir dæmi sem sýna hvernig á að sérsníða og stilla reglur þínar, sjá dæmi atburðarás síðar í þessari grein.
 
-Þessar aðstæður sýna hvernig setja á upp sérsniðna samstæðureglu sendingar. Sérsniðnar reglur geta stutt við flóknar viðskiptaþarfir þar sem sendingasamstæða ræðst af mismunandi skilyrðum. Stutt lýsing á viðskiptum fylgir með fyrir hvert dæmi um reglu síðar í þessum aðstæðum. Þessi dæmi um reglur ætti að setja upp í röð sem tryggir pýramídaskipulag á mati á fyrirspurnum. (Með öðrum orðum, þær reglur sem eru með flest skilyrði ættu að vera metnar með mestan forgang.)
+## <a name="scenario-configure-custom-shipment-consolidation-policies"></a>Atburðarás: Stilltu sérsniðnar stefnur um samþjöppun sendingar
 
-### <a name="turn-on-the-feature-and-prepare-master-data-for-this-scenario"></a>Kveikja á eiginleika og undirbúa aðalgögn fyrir þessar aðstæður
+Þessi atburðarás gefur dæmi sem sýnir hvernig á að setja upp sérsniðnar sendingarsamstæðureglur og prófa þær síðan með því að nota kynningargögn. Sérsniðnar reglur geta stutt við flóknar viðskiptaþarfir þar sem sendingasamstæða ræðst af mismunandi skilyrðum. Stutt lýsing á viðskiptum fylgir með fyrir hvert dæmi um reglu síðar í þessum aðstæðum. Þessi dæmi um reglur ætti að setja upp í röð sem tryggir pýramídaskipulag á mati á fyrirspurnum. (Með öðrum orðum, þær reglur sem eru með flest skilyrði ættu að vera metnar með mestan forgang.)
 
-Áður en hægt er að fara í gegnum æfingarnar í þessum aðstæðum þarf að kveikja á eiginleikanum og undirbúa aðalgögnin sem eru nauðsynleg fyrir síuna, eins og lýst er í eftirfarandi undirköflum. (Þessi skilyrði eiga einnig við um aðstæður sem taldar eru upp í [Dæmi um hvernig nota á samstæðureglur sendingar](#example-scenarios).)
+### <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
-#### <a name="turn-on-the-feature-and-create-the-default-policies"></a>Kveikja á eiginleikanum og stofna sjálfgefnar reglur
+Þessi atburðarás vísar til gilda og skráa sem eru innifalin í staðlinum [kynningargögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) sem er veitt fyrir birgðakeðjustjórnun. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á *USMF* áður en hafist er handa.
 
-Nota skal eiginleikastjórnun til að virkja eiginleikann, ef ekki hefur þegar verið kveikt á honum, og stofna sjálfgefnar samstæðureglur sem lýst er í [aðstæðum 1](#scenario-1).
+### <a name="prepare-master-data-for-this-scenario"></a>Undirbúa aðalgögn fyrir þessa atburðarás
+
+Áður en þú getur farið í gegnum æfingarnar í þessari atburðarás verður þú að undirbúa aðalgögnin sem þarf til að framkvæma síunina, eins og lýst er í eftirfarandi undirköflum. (Þessar forsendur eiga einnig við um aðstæðurnar sem eru skráðar í [Dæmi um hvernig á að nota samþjöppunarreglur fyrir sendingar](#example-scenarios) kafla.)
 
 #### <a name="create-two-new-product-filter-codes"></a>Búa til tvo nýja afurðasíukóða
 
@@ -152,7 +126,7 @@ Nota skal eiginleikastjórnun til að virkja eiginleikann, ef ekki hefur þegar 
 1. Opnið **Sölu og markaðssetning \> Viðskiptavinir \> Allir viðskiptavinir**.
 1. Opnið viðskiptavininn sem er með lykilnúmer *US-003*.
 1. Á flýtiflipanum **Sjálfgildi sölupantana** skal stilla reitinn **Sölupantanahópur** á nýstofnaða pantanahópinn.
-1. Lokið síðunni og endurtakið síðan skref 4 og 5 fyrir viðskiptavininn sem er með lykilnúmer *US-004*.
+1. Lokaðu síðunni og endurtaktu síðan skref 4 og 5 fyrir viðskiptavininn sem hefur reikningsnúmerið *US-004*.
 
 ### <a name="create-example-policy-1"></a>Búa til dæmastefnu 1
 
@@ -300,7 +274,7 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 - Slökkt er á „Samstæða við opnar sendingar“.
 - Samstæða er gerð yfir allar pantanir með því að nota reitina sem valdir eru með sjálfgefnu CrossOrder-reglunni (til að endurtaka fyrri gátreitinn **Sameina sendingar við losun í vöruhús**).
 
-Yfirleitt er hægt að vinna þetta viðskiptatilvik með því að nota sjálfgefnu reglurnar sem voru stofnaðar í [aðstæðum 1](#scenario-1). Hins vegar er einnig hægt að stofna svipaðar reglur handvirkt með því að fylgja þessum skrefum.
+Venjulega er hægt að taka á þessu viðskiptatilviki með því að nota sjálfgefnar reglur sem þú bjóst til í [Settu upp fyrstu sameiningarstefnurnar þínar](#initial-policies). Hins vegar er einnig hægt að stofna svipaðar reglur handvirkt með því að fylgja þessum skrefum.
 
 1. Opnið **Vöruhúsastjórnun \> Uppsetning \> Losa í vöruhús \> Samstæðureglur sendingar**.
 1. Stillið reitinn **Gerð stefnu** á *Sölupantanir*.
@@ -345,7 +319,7 @@ Eftirfarandi aðstæður sýna hvernig þú gætir notað samþjöppunarreglur s
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Samstæðureglur sendingar](about-shipment-consolidation-policies.md)
+- [Yfirlit yfir stefnur um samþjöppun sendingar](about-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

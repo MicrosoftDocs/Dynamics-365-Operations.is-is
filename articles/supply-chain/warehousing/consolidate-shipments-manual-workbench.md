@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: eed484cd37b02e58831e0041c3e0625091283b65
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335796"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428118"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Sameina sendingar með því að nota samstæðuvinnusvæði sendinga
 
@@ -36,7 +36,7 @@ Aðstæðurnar sem hér er lýst gera ráð fyrir að þegar hafi verið kveikt 
 
 ## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Kveiktu eða slökktu á handvirkri sendingarsamstæðueiginleika
 
-Til að nota handvirka sendingarsamstæðu verður að vera kveikt á henni fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á eiginleikanum. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Handvirk samþjöppun sendingar* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota handvirka sendingarsamstæðu verður að vera kveikt á henni fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er kveikt á eiginleikanum sjálfgefið. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Handvirk samþjöppun sendingar* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
 
 Þú verður líka að kveikja á *Sameina sendinguna* eiginleika áður en þú getur búið til stefnur (frá og með Supply Chain Management útgáfu 10.0.29 er eiginleikinn skyldur og ekki hægt að slökkva á honum). Fyrir frekari upplýsingar, sjá [Stilltu reglur um samþjöppun sendingar](configure-shipment-consolidation-policies.md).
 
@@ -259,7 +259,7 @@ Fjórar sendingar ættu að hafa verið stofnaðar:
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Samstæðureglur sendingar](about-shipment-consolidation-policies.md)
+- [Yfirlit yfir stefnur um samþjöppun sendingar](about-shipment-consolidation-policies.md)
 - [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md)
 
 

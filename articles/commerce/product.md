@@ -2,7 +2,7 @@
 title: Bæta afurðaráðleggingum við sölustað
 description: Þessi grein lýsir notkun vöruráðlegginga á sölustað (POS) tæki.
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 442ae540b04588afd9aeb37a92c6ceb92c05a9ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 170e2bf18aefc79a796620818c7100ff8e6e689a
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872800"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460057"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Bæta afurðaráðleggingum við sölustað
 
@@ -37,7 +37,7 @@ Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar. 
 
 1. Á síðunni **Upplýsingar um afurð**:
 
-    - Ef aðili tengdur verslun fer á síðuna **Upplýsingar um afurð** þegar hann skoðar fyrri færslur þvert á mismunandi rásir stingur þjónustan upp á fleiri vörum sem eru líklegar til að vera keyptar saman.
+    - Ef verslunaraðili heimsækir a **Upplýsingar um vöru** síðu þegar þeir eru að skoða fyrri viðskipti á mismunandi rásum, bendir ráðleggingaþjónustan á fleiri hluti sem líklegt er að verði keyptir saman. Það fer eftir viðbótum fyrir þjónustuna, smásalar geta sýnt **Verslaðu svipað útlit** og **Verslun svipað lýsing** ráðleggingar um vörur, auk sérsniðinna ráðlegginga fyrir notendur sem hafa fyrri kaupsögu.
 
     [![Meðmæli á upplýsingasíðu afurðar.](./media/proddetails.png)](./media/proddetails.png)
 
@@ -50,21 +50,17 @@ Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar. 
 
     [![Meðmæli á færslusíðunni.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-## <a name="configure-commerce-to-enable-pos-recommendations"></a>Skilgreina Commerce til að virkja ráðleggingar sölustaðar
+## <a name="configure-commerce-to-enable-pos-recommendations"></a>Skilgreina Commerce til að virkja ráðleggingar sölustaðar 
 
-Til að setja upp vöruráðleggingar skal fylgja þessum skrefum:
+Til að setja upp vörutillögur skaltu staðfesta að þú hafir lokið úthlutunarferlinu fyrir Commerce vöruráðleggingar með því að fylgja skrefunum í [Virkjaðu vörutillögur](../commerce/enable-product-recommendations.md). Sjálfgefið er að tillögur birtast á báðum **Upplýsingar um vöru** síðu og **Upplýsingar um viðskiptavini** síðu eftir að þú hefur lokið úthlutunarskrefunum og gögnin hafa verið elduð. 
 
-1. Gakktu úr skugga um að þjónusta þín hafi verið uppfærð í **10.0.6 bygging.**
-2. Fylgdu leiðbeiningunum um hvernig á að gera [virkja tillögur um vöru](../commerce/enable-product-recommendations.md) fyrir fyrirtæki þitt.
-3. Valfrjálst: Til Að birta ráðleggingar á færsluskjánum, er farið í **Útlit Skjás** útlit skjás valið **Útlitshönnuður afgreiðsluskjás** opnaður, og svo sleppt stýringunni **leiðbeiningar** þar sem þarf.
-4. Farið í **Færibreytur Commerce**, veljið **Vélnám** svo **Já** undir **virkja ráðleggingar sölustaðar**.
-5. Til að sjá ráðleggingar á sölustað skal keyra altæku vinnsluna **1110**. Til að endurspegla breytingar á útlitshönnuði sölustaðar skal keyra skilgreiningarvinnslu rásar **1070**.
+## <a name="add-recommendations-to-the-transaction-screen"></a>Bæta tillögum við færsluskjáinn
 
-## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Finna úrræði á vandamálum þar sem ráðleggingar um vörur hafa þegar verið virkjaðar
+1. Til að bæta tilmælum við viðskiptaskjáinn skaltu fylgja skrefunum í [Bættu tilmælum við viðskiptaskjáinn](add-recommendations-control-pos-screen.md).
+1. Til að endurspegla breytingar sem gerðar voru í útlitshönnuði POS skjás skaltu keyra rásarstillingarvinnu **1070** í höfuðstöðvum verslunar.
 
-- Flettið upp á **Færibreytur Commerce** \> **Ráðleggingalistar** \> **Slökkva á ráðleggingum um vörur** og keyrið **Altæka skilgreiningarvinnslu \[9999\]**. 
-- Ef **Stýringu ráðleggingar** var bætt við færsluskjáinn með því að nota **Útlitshönnun afgreiðsluskjás** skaltu fjarlægja hana líka.
-- Ef þú hefur frekari spurningar skaltu skoða [Algengar spurningar um afurðaráðleggingar](../commerce/faq-recommendations.md) fyrir meiri upplýsingar.
+> [!NOTE] 
+> Ef þú vilt virkja POS ráðleggingar með því að nota RecoMock comma-separated values (CSV) skrána, verður þú að dreifa CSV skránni á Microsoft Dynamics Lifecycle Services (LCS) eignasafn áður en þú stillir útlitsstjórann. Ef þú notar RecoMock CSV skrána þarftu ekki að virkja tillögur. CSV skráin er aðeins tiltæk í kynningarskyni. Það er mælt með því fyrir viðskiptavini eða lausnaarkitekta sem vilja líkja eftir útliti meðmælalista í kynningarskyni án þess að þurfa að kaupa viðbótarbirgðahaldseiningu (SKU).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

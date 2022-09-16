@@ -2,7 +2,7 @@
 title: Jaðarbúnaður
 description: Þessi grein útskýrir hugtökin sem tengjast Commerce jaðartækjum.
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880082"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459995"
 ---
 # <a name="peripherals"></a>Jaðarbúnaður
 
@@ -59,7 +59,7 @@ POS-jaðartæki eru tæki sem sérstaklega eru studd fyrir aðgerðir POS. Þess
 
 ### <a name="hardware-station"></a>Vélbúnaðarstöð
 
-Leiðsögn: Farðu á **Verslun og verslun \> Rásir \> Búðir \> Allar verslanir**. Veldu verslun og veldu síðan **Vélbúnaðarstöðvar** Flýtiflipi. Stillingin **Vélbúnaðarstöð** er stilling á rásarstigi sem er notuð til að skilgreina tilvik þar sem rök jaðarbúnaðar verða notuð. Þessi stilling á stigi rásar er notuð til að ákvarða eiginleika vélbúnaðarstöðvar smásölu. Hún er einnig notuð til að lista vélbúnaðarstöðvar sem eru í boði fyrir tilvik Modern POS í tiltekinni verslun. Vélbúnaðarstöð er innbyggð í forrit Modern POS fyrir Windows og Android. Einnig er hægt að nota vélbúnaðarstöð óháð sem sjálfstætt forrit Microsoft Internet Information Services (IIS). Í því tilfelli er farið í það gegnum net.
+Leiðsögn: Farðu á **Verslun og verslun \> Rásir \> Búðir \> Allar verslanir**. Veldu verslun og veldu síðan **Vélbúnaðarstöðvar** Hraðflipi. Stillingin **Vélbúnaðarstöð** er stilling á rásarstigi sem er notuð til að skilgreina tilvik þar sem rök jaðarbúnaðar verða notuð. Þessi stilling á stigi rásar er notuð til að ákvarða eiginleika vélbúnaðarstöðvar smásölu. Hún er einnig notuð til að lista vélbúnaðarstöðvar sem eru í boði fyrir tilvik Modern POS í tiltekinni verslun. Vélbúnaðarstöð er innbyggð í forrit Modern POS fyrir Windows og Android. Einnig er hægt að nota vélbúnaðarstöð óháð sem sjálfstætt forrit Microsoft Internet Information Services (IIS). Í þessu tilviki er aðgangur að því í gegnum netið.
 
 ### <a name="hardware-profile"></a>Vélbúnaðarregla
 
@@ -123,7 +123,7 @@ Til að aðstoða við að tryggja að hægt sé að nota stærsta svið tækja 
 
 ### <a name="windows"></a>Gluggar
 
-Prentun á kvittun á POS er bestuð fyrir OPOS. OPOS hættir til að vera mikið hraðara en prentun gegnum Windows. Því er gott að nota OPOS, sérstaklega í umhverfi þar sem 40-dálka kvittanir eru prentaðar og færslutími verður að vera hraður. Fyrir flest tæki eru OPOS-stýringar notaðar. Hins vegar, styðja sumir OPOS-kvittanaprentarar einnig Windows-rekla. Með því að nota Windows-rekill hægt er að nálgast síðasta letur og netlén einn prentari fyrir marga afgreiðslukassa. Hins vegar eru vankantar á því að nota Windows-rekla. Hér eru nokkur dæmi um þessa vankanta:
+Prentun á kvittun á POS er bestuð fyrir OPOS. OPOS hættir til að vera mikið hraðara en prentun gegnum Windows. Því er gott að nota OPOS, sérstaklega í umhverfi þar sem 40-dálka kvittanir eru prentaðar og færslutími verður að vera hraður. Fyrir flest tæki notarðu OPOS stýringar. Hins vegar, styðja sumir OPOS-kvittanaprentarar einnig Windows-rekla. Með því að nota Windows-rekill hægt er að nálgast síðasta letur og netlén einn prentari fyrir marga afgreiðslukassa. Hins vegar eru vankantar á því að nota Windows-rekla. Hér eru nokkur dæmi um þessa vankanta:
 
 -   Þegar Windows-reklar eru notaðir, myndir eru samhæfðar áður en prentun hefst. Þess vegna hættir prentun til að vera hægari en hún er á prentara sem nota OPOS-stýringar.
 -   Tæki sem eru tengd gegnum prentara ("daisy-chained") virka hugsanlega ekki rétt þegar Windows-reklar eru notaðir. Til dæmis gæti peningaskúffan ekki opnast eða kvittunarprentarinn virkar ekki eins og þú bjóst við.
@@ -134,17 +134,20 @@ Ef OPOS-stýringar eru tiltækar fyrir Windows-prentara sem verið er að nota �
 
 ### <a name="plug-and-play-devices"></a>Plug and play tæki
 
-Þegar plug and play tæki er tengt við Windows stýrikerfisútgáfu sem styður þessa tegund tækis, þarf engan rekil til að tækið sé notað eins og ætlað er. Til dæmis, ef Windows skynjar Bluetooth hátalara tæki, veit stýrikerfið að tækið er með „Högtalara“ flokksgerðina og meðhöndlar það tæki sem hátalara. Engrar frekari uppsetningar er krafist. 
+Þegar plug and play tæki er tengt við Windows stýrikerfisútgáfu sem styður þessa tegund tækis þarf engan rekil til að tækið sé notað eins og ætlað er. Til dæmis, ef Windows skynjar Bluetooth hátalara tæki, veit stýrikerfið að tækið er með „Högtalara“ flokksgerðina og meðhöndlar það tæki sem hátalara. Engrar frekari uppsetningar er krafist. 
 
-Þegar um POS jaðartæki er að ræða, er hægt að tengja mörg USB tæki í og viðurkenna af Windows OS sem Human Interface Devices (HID). Hins vegar gæti Windows ekki getað ákvarðað þann eiginleika sem tækið býður upp á, vegna þess að tækið tilgreinir ekki flokk eða gerð tækis. Í Windows 10 hefur tækjaklösum fyrir strikamerkjaskanna og kortalesara verið bætt við. Þess vegna ef tæki sýnir sig í Windows 10 sem tæki eins af þessum klösum mun Windows hlusta eftir tilvikum úr tækinu á viðeigandi tímum.
+Þegar um POS jaðartæki er að ræða, er hægt að tengja mörg USB tæki í og viðurkenna af Windows OS sem Human Interface Devices (HID). Hins vegar gæti Windows ekki getað ákvarðað möguleikana sem tækið býður upp á, vegna þess að tækið tilgreinir ekki flokk eða gerð tækis. Í Windows 10 hefur tækjaklösum fyrir strikamerkjaskanna og kortalesara verið bætt við. Þess vegna ef tæki sýnir sig í Windows 10 sem tæki eins af þessum klösum mun Windows hlusta eftir tilvikum úr tækinu á viðeigandi tímum.
 
-Modern POS styður UWP-kortalesara og skanna. Þess vegna, þegar Modern POS er tilbúið fyrir inntak frá einu af þessum tækjum, og tæki sem tilheyrir einum af tækjaflokkunum er tengt, er hægt að nota það tæki. Til dæmis, ef stinga og spila strikamerki skanni er tengt við Windows 10 tölvu og strikamerki innskráning er stillt fyrir Modern POS, verður strikamerki skanni virkur á innskráningarsíðunni. Engrar frekari uppsetningar er krafist.
+Modern POS styður UWP-kortalesara og skanna. Þess vegna, þegar Modern POS er tilbúið fyrir inntak frá einu af þessum tækjum, og tæki sem tilheyrir einum af tækjaflokkunum er tengt, er hægt að nota það tæki. Til dæmis, ef stinga og spila strikamerkjaskanni er tengt við Windows 10 tölvu, og strikamerki innskráning er stillt fyrir Modern POS, verður strikamerki skanni virkur á innskráningarsíðunni. Engrar frekari uppsetningar er krafist.
 
 Verið er að bæta við fleiri flokkum POS jaðartækja við Windows, svo sem flokkum fyrir peningaskúffur og kvittunarprentara. Stuðningur fyrir þessa nýja tækjaklasa í Modern POS er í bið.
 
+> [!NOTE] 
+> Ákveðin USB-tæki geta orðið óviðbragðslaus eða óáreiðanleg þegar þeim er stjórnað af Windows 10 orkustjórnunareiginleika sem kallast [USB Selective Suspend](/windows-hardware/drivers/usbcon/usb-selective-suspend). Ef USB-jaðartæki bregst ekki, gæti verið nauðsynlegt að slökkva á sértæka biðaðgerðinni fyrir það tæki. Fyrir frekari upplýsingar, sjá [Virkja Selective Suspend](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend). 
+
 ### <a name="keyboard-wedge"></a>Lyklaborðstenging
 
-Lyklaborðstengingartæki senda gögn í tölvuna eins og þau gögn hafi verið slegin inn á lyklaborð. Þess vegna er sjálfgefið að svæði sem er virkt í POS móttekur gögn sem er skönnuð eða sem var lesið. Í sumum tilvikum getur þessi virkni valdið því að röng gagnagerð er skönnuð á rangt svæði. Til dæmis gæti strikamerki verið skannað inn í svæði sem er ætlað fyrir innfærslu gagna kreditkorts. Í mörgum tilvikum er rök í Pos sem ákvarðar hvort gögn sem er skönnuð eða sem var lesið er strikamerki eða greiðslukortalestur. Þess vegna eru gögnin meðhöndluð rétt. Hins vegar þegar tæki eru sett upp sem OPOS í stað lyklaborðstengingartækja, er meiri stjórn á því hvernig hægt er að nota gögn úr þessum tækjum, þar sem meira er „vitað" um tækið sem gögnin eiga uppruna sinn í. Til dæmis eru gögn úr strikamerkjaskanni sjálfkrafa viðurkennd sem strikamerki og tengd færsla í gagnagrunninum finnst betur og hraðar en ef almennan strengjaleit voru notuð, eins og tilfelli lyklaborðtengingartækja.
+Lyklaborðstengingartæki senda gögn í tölvuna eins og þau gögn hafi verið slegin inn á lyklaborð. Þess vegna er sjálfgefið að svæði sem er virkt í POS móttekur gögn sem er skönnuð eða sem var lesið. Í sumum tilvikum getur þessi virkni valdið því að röng gagnagerð er skönnuð á rangt svæði. Til dæmis gæti strikamerki verið skannað inn í svæði sem er ætlað fyrir innfærslu gagna kreditkorts. Í mörgum tilfellum er rökfræði við POS sem ákvarðar hvort gögnin sem eru skannuð eða strokuð séu strikamerki eða strok af korti. Þess vegna eru gögnin meðhöndluð rétt. Hins vegar, þegar tæki eru sett upp sem OPOS í stað lyklaborðsfleygbúnaðar, þá er meiri stjórn á því hvernig hægt er að neyta gagna frá þessum tækjum, því meira er "þekkt" um tækið sem gögnin koma frá. Til dæmis eru gögn úr strikamerkjaskanni sjálfkrafa viðurkennd sem strikamerki og tengd færsla í gagnagrunninum finnst betur og hraðar en ef almennan strengjaleit voru notuð, eins og tilfelli lyklaborðtengingartækja.
 
 > [!NOTE]
 > Þegar lyklaborðstenging við skanna er notuð á sölustað þarf að forrita hana til að senda boð til baka eða tilvik **Færslulykils** á eftir síðasta skannað staf. Ef þessi skilgreining er ekki gerð mun lyklaborðstenging við skanna ekki virka á réttan hátt. Skoðið fylgigögnin sem tækjaframleiðandi veitir til að fá upplýsingar um hvernig á að bæta við tilviki vegna boða sem send eru til baka.  
@@ -176,9 +179,9 @@ Einnig stundum nefnd „IIS“ vélbúnaðarstöðin, „IIS“ sem gefur til ky
 
 Sameiginlegu vélbúnaðarstöðina er hægt að nota til að leyfa mörgum viðskiptavinum sölustaða að deila jaðartækjum eða hægt að nota til að stjórna tilteknu setti jaðartækja fyrir einn sölustað. 
 
-Þegar vélbúnaðarstöð er notuð til að styðja við samnýtingu jaðartækja milli margra POS viðskiptavina, ætti aðeins að nota peningaskúffur, kvittunarprentara og greiðslumiðstöðvar. Ekki er hægt að tengja sjálfstæða strikamerkjaskanna, kortalesara, línubirtingar, vigtir eða önnur tæki á beinan hátt. Annars verða árekstrar þegar mörg POS-tæki reyna að gera kröfu til þessara jaðartækja á sama tíma. Hér má sjá hvernig árekstrar eru meðhöndlaðar fyrir studd tæki:
+Þegar vélbúnaðarstöð er notuð til að styðja við samnýtingu jaðartækja milli margra POS viðskiptavina, ætti aðeins að nota peningaskúffur, kvittunarprentara og greiðslumiðstöðvar. Ekki er hægt að tengja sjálfstæða strikamerkjaskanna, kortalesara, línubirtingar, vigtir eða önnur tæki á beinan hátt. Annars verða árekstrar þegar mörg POS-tæki reyna að gera kröfu til þessara jaðartækja á sama tíma. Svona er stjórnað átökum fyrir studd tæki:
 
--   **Peningaskúffa** – Peningaskúffan er opnuð með tilviki sem er sent á tækið. Vandamál geta komið upp ef hringt er í peningaskúffu á meðan skúffan er þegar opin. Peningaskúffu sem er notuð í sameiginlegri uppsetningu vélbúnaðarstöðvar ætti að vera stillt á **Samnýtt** í vélbúnaðarsniðinu. Þessi stilling kemur í veg fyrir að POS athugi hvort peningaskúffan sé þegar opin þegar hún sendir opnunarskipanir.
+-   **Peningaskúffa** – Peningaskúffan er opnuð með tilviki sem er sent á tækið. Vandamál geta komið upp ef hringt er í peningaskúffu á meðan skúffan er þegar opin. Peningaskúffu sem er notuð í sameiginlegri uppsetningu vélbúnaðarstöðvar ætti að vera stillt á **Deilt** í vélbúnaðarsniðinu. Þessi stilling kemur í veg fyrir að POS athugi hvort peningaskúffan sé þegar opin þegar hún sendir opnunarskipanir.
 -   **Kvittanaprentarann** – Ef tvær prentskipanir kvittunar eru sendar samtímis til vélbúnaðarstöðvar smásölu kann önnur skipunina að glatast, en það fer eftir tæki. Sumar tæki eru með innri minni eða keyrslutíma sem getur komið í veg fyrir þetta vandamál. Ef prentskipun er ekki stofnaður, fær gjaldkeri villuboð og getur reynt að prenta skipunina aftur úr POS.
 -   **Afgreiðslustöð** – Ef gjaldkerinn reynir að hefja færslu á afgreiðslustöð sem er þegar í notkun, tilkynna skilaboð honum að afgreiðslustöðin sé í notkun og biður gjaldkerann að reyna aftur síðar. Yfirleitt geta gjaldkerar séð að afgreiðslustöð er þegar í notkun og munu bíða þar til að annarri færsla er lokið áður en þeir reyna að hefja greiðslu aftur.
 
@@ -345,7 +348,7 @@ Netjaðartæki geta verið studd beint í gegnum vélabúnaðarstöð sem er byg
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Allir biðlarar Modern POS með ráðstafaða „samnýtta” IIS vélbúnaðarstöð
 
 > [!NOTE]
-> Þegar IIS vélbúnaðarstöðin er "framkvæmd" er eitt-á-mann samband milli POS biðlarans og vélbúnaðarstöðvarinnar.
+> Þegar IIS vélbúnaðarstöðin er "skuldbundin" er eitt-á-mann samband milli POS biðlarans og vélbúnaðarstöðvarinnar.
 
 <table>
 <colgroup>
@@ -597,7 +600,7 @@ Sjálfgefið er að SSL og allar útgáfur af TLS nema TLS 1.2 eru gerðar óvir
         -   SSL 3.0Client:Enabled=0
         -   SSL 2.0Server:Enabled=0
         -   SSL 2.0Client:Enabled=0
--   Enginn viðbótar net tengi ætti að vera opin, nema þær séu nauðsynlegar ástæðum þekkt er tilgreindur.
+-   Engar viðbótarnetgáttir ættu að vera opnar, nema þeirra sé krafist af þekktum, tilgreindum ástæðum.
 -   Gera verður tilfangasamnýtingu á milli uppruna óvirka og verður að tilgreina leyfð uppruna sem eru samþykktar.
 -   Aðeins traust skírteini yfirvalda ætti að nota til að fá vottorð sem verður notaður í tölvum sem keyra vélbúnaðarstöðina.
 
@@ -619,7 +622,7 @@ Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstö
 | Epson        | TM-T88V  | OPOS      |                         |
 | Epson        | TM-T88IV | OPOS      |                         |
 | HP           | H300     | OPOS      | Rafhlöðu USB             |
-| Star         | TSP650II | Sérsniðið    | Tengt gegnum netkerfi   |
+| Star         | TSP650II | Sérsnið    | Tengt gegnum netkerfi   |
 | Star         | mPOP     | OPOS      | Tengt gegnum Bluetooth |
 | Toshiba      | HSP100   | OPOS      |                         |
 | Toshiba      | HSP150   | OPOS      |                         |
@@ -640,7 +643,7 @@ Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstö
 
 Dynamics 365 Commerce veitir út-af-kassa lausn fyrir samþættingu við Adyen fyrir greiðsluþjónustu. The [Dynamics 365 greiðslutengi fyrir Adyen](dev-itpro/adyen-connector.md) notar tæki-agnostic [Adyen Payment Terminal forritunarviðmót (API)](https://www.adyen.com/blog/introducing-the-terminal-api) og getur haft samskipti við allar greiðslustöðvar sem þetta API styður. Fyrir heildarlista yfir studdar greiðslustöðvar, sjá [Adyen POS útstöðvar](https://www.adyen.com/pos-payments/terminals).
 
-Þú getur líka notað aðrar greiðslumiðlar með Dynamics 365 Commerce með því að búa til sérsniðið tengi. Hægt er að nota hvaða greiðslustöð sem er studd af greiðsluveitanda með Dynamics 365 Commerce. Á sama hátt,Dynamics 365 Commerce gerir ráð fyrir samþættingarlíkönum greiðslutækja sem er studd af greiðsluveitanda, svo sem staðbundinn IP, skýja-API eða beina tengingu (til dæmis með USB) við POS. Fyrir frekari upplýsingar, sjá [Búðu til end-to-end greiðslusamþættingu fyrir greiðslustöð](dev-itpro/end-to-end-payment-extension.md).
+Þú getur líka notað aðrar greiðslumiðlar með Dynamics 365 Commerce með því að búa til sérsniðið tengi. Hægt er að nota hvaða greiðslustöð sem er studd af greiðsluveitunni með Dynamics 365 Commerce. Á sama hátt,Dynamics 365 Commerce gerir ráð fyrir samþættingarlíkönum greiðslutækja sem er studd af greiðsluveitanda, svo sem staðbundin IP, skýja-API eða bein tenging (til dæmis með USB) við POS. Fyrir frekari upplýsingar, sjá [Búðu til enda-til-enda greiðslusamþættingu fyrir greiðslustöð](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Peningaskúffa
 
@@ -690,7 +693,7 @@ Eftirfarandi jaðartæki voru prófuð með því að nota sérhæfða (ekki sam
 | Epson        | TM-T88V  | OPOS      |                         |
 | Epson        | TM-T88IV | OPOS      |                         |
 | HP           | H300     | OPOS      | Rafhlöðu USB             |
-| Star         | TSP650II | Sérsniðið    | Tengt gegnum netkerfi   |
+| Star         | TSP650II | Sérsnið    | Tengt gegnum netkerfi   |
 | Star         | mPOP     | OPOS      | Tengt gegnum Bluetooth |
 | Toshiba      | HSP100   | OPOS      |                         |
 | Toshiba      | HSP150   | OPOS      |                         |
@@ -705,9 +708,9 @@ Eftirfarandi jaðartæki voru prófuð með því að nota sérhæfða (ekki sam
 
 #### <a name="payment-terminals-and-pin-pads"></a>Greiðslustöðvar og PIN-blokkar
 
-Dynamics 365 Commerce veitir út-af-kassa lausn fyrir samþættingu við Adyen fyrir greiðsluþjónustu. The [Dynamics 365 greiðslutengi fyrir Adyen](dev-itpro/adyen-connector.md) notar tæki-agnostic [API fyrir Adyen Payment Terminal](https://www.adyen.com/blog/introducing-the-terminal-api) og getur haft samskipti við allar greiðslustöðvar sem þetta API styður. Fyrir heildarlista yfir studdar greiðslustöðvar, sjá [Adyen POS útstöðvar](https://www.adyen.com/pos-payments/terminals).
+Dynamics 365 Commerce veitir út-af-kassa lausn fyrir samþættingu við Adyen fyrir greiðsluþjónustu. The [Dynamics 365 greiðslutengi fyrir Adyen](dev-itpro/adyen-connector.md) notar tæki-agnostic [Adyen Payment Terminal API](https://www.adyen.com/blog/introducing-the-terminal-api) og getur haft samskipti við allar greiðslustöðvar sem þetta API styður. Fyrir heildarlista yfir studdar greiðslustöðvar, sjá [Adyen POS útstöðvar](https://www.adyen.com/pos-payments/terminals).
 
-Þú getur líka notað aðrar greiðslumiðlar með Dynamics 365 Commerce með því að búa til sérsniðið tengi. Hægt er að nota hvaða greiðslustöð sem er studd af greiðsluveitanda með Dynamics 365 Commerce. Á sama hátt,Dynamics 365 Commerce gerir ráð fyrir samþættingarlíkönum greiðslutækja sem er studd af greiðsluveitanda, svo sem staðbundinn IP, skýja-API eða beina tengingu (til dæmis með USB) við POS. Fyrir frekari upplýsingar, sjá [Búðu til end-to-end greiðslusamþættingu fyrir greiðslustöð](dev-itpro/end-to-end-payment-extension.md).
+Þú getur líka notað aðrar greiðslumiðlar með Dynamics 365 Commerce með því að búa til sérsniðið tengi. Hægt er að nota hvaða greiðslustöð sem er studd af greiðsluveitunni með Dynamics 365 Commerce. Á sama hátt,Dynamics 365 Commerce gerir ráð fyrir samþættingarlíkönum greiðslutækja sem er studd af greiðsluveitanda, svo sem staðbundin IP, skýja-API eða bein tenging (til dæmis með USB) við POS. Fyrir frekari upplýsingar, sjá [Búðu til enda-til-enda greiðslusamþættingu fyrir greiðslustöð](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Peningaskúffa
 
@@ -765,9 +768,9 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 
 #### <a name="payment-terminal"></a>Greiðslustöð
 
-Dynamics 365 Commerce veitir út-af-kassa lausn fyrir samþættingu við Adyen fyrir greiðsluþjónustu. The [Dynamics 365 greiðslutengi fyrir Adyen](dev-itpro/adyen-connector.md) notar tæki-agnostic [API fyrir Adyen Payment Terminal](https://www.adyen.com/blog/introducing-the-terminal-api) og getur haft samskipti við allar greiðslustöðvar sem þetta API styður. Fyrir heildarlista yfir studdar greiðslustöðvar, sjá [Adyen POS útstöðvar](https://www.adyen.com/pos-payments/terminals).
+Dynamics 365 Commerce veitir út-af-kassa lausn fyrir samþættingu við Adyen fyrir greiðsluþjónustu. The [Dynamics 365 greiðslutengi fyrir Adyen](dev-itpro/adyen-connector.md) notar tæki-agnostic [Adyen Payment Terminal API](https://www.adyen.com/blog/introducing-the-terminal-api) og getur haft samskipti við allar greiðslustöðvar sem þetta API styður. Fyrir heildarlista yfir studdar greiðslustöðvar, sjá [Adyen POS útstöðvar](https://www.adyen.com/pos-payments/terminals).
 
-Þú getur líka notað aðrar greiðslumiðlar með Dynamics 365 Commerce með því að búa til sérsniðið tengi. Hægt er að nota hvaða greiðslustöð sem er studd af greiðsluveitanda með Dynamics 365 Commerce. Á sama hátt,Dynamics 365 Commerce gerir ráð fyrir samþættingarlíkönum greiðslutækja sem er studd af greiðsluveitanda, svo sem staðbundinn IP, skýja-API eða beina tengingu (til dæmis með USB) við POS. Fyrir frekari upplýsingar, sjá [Búðu til end-to-end greiðslusamþættingu fyrir greiðslustöð](dev-itpro/end-to-end-payment-extension.md).
+Þú getur líka notað aðrar greiðslumiðlar með Dynamics 365 Commerce með því að búa til sérsniðið tengi. Hægt er að nota hvaða greiðslustöð sem er studd af greiðsluveitunni með Dynamics 365 Commerce. Á sama hátt,Dynamics 365 Commerce gerir ráð fyrir samþættingarlíkönum greiðslutækja sem er studd af greiðsluveitanda, svo sem staðbundin IP, skýja-API eða bein tenging (til dæmis með USB) við POS. Fyrir frekari upplýsingar, sjá [Búðu til enda-til-enda greiðslusamþættingu fyrir greiðslustöð](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Peningaskúffa
 
@@ -821,7 +824,7 @@ Dynamics 365 Commerce veitir út-af-kassa lausn fyrir samþættingu við Adyen f
 -   Þegar tíðar breytingar eru gerðar á jaðartæki, ef POS-biðlari er einnig ræstur og lokað oft, getur ferlið dllhost úr fyrri setu POS skarast við núgildandi lotu. Í þessu tilfelli tæki hugsanlega ekki hægt að nota fyrr en þú lokar hýsli safn kvik tengil (DLL) sem stjórnar fyrri setu. Til að loka DLL host, skal fylgja þessum skrefum:
     1.  Úr valmyndinni **Ræsa** skal rita **Verkstjórnandi**.
     2.  Veldu í leitarniðurstöðum **Verkefnastjóri**.
-    3.  Í Task Manager, á **Upplýsingar** flipanum, veldu dálkhausinn sem er merktur **Nafn** til að raða töflunni í stafrófsröð eftir nafni.
+    3.  Í Task manager, á **Upplýsingar** flipanum, veldu dálkhausinn sem er merktur **Nafn** að raða töflunni í stafrófsröð eftir nafni.
     4.  Flettu niður þar til þú finnur dllhost.exe.
     5.  Veldu hvern DLL gestgjafa og veldu síðan **Loka verkefni**.
     6.  Endurræsa Modern POS eftir hýsir DLL hefur verið lokað.

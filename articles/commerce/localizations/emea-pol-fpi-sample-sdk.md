@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 178301e6d8e5f87376ed893e4bf5f966260cad62
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: b19c8d7a80ac772ae238191d1285a1ad80e6f611
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337230"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473959"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Dreifingarleiðbeiningar fyrir samþættingarsýni prentara fyrir Pólland (gamalt)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Þú ættir aðeins að fylgja leiðbeiningunum í þessari grein ef þú ert að nota Microsoft Dynamics 365 Commerce útgáfu 10.0.28 eða eldri. Frá og með útgáfu Commerce 10.0.29 er sýnishorn af fjárhagslega prentarasamþættingu fyrir Pólland fáanlegt í Commerce hugbúnaðarþróunarsettinu (SDK). Fyrir frekari upplýsingar, sjá [Stilltu rásaríhluti](./emea-pol-fpi-sample.md#configure-channel-components).
@@ -30,7 +29,7 @@ Fjármálasamþættingarúrtakið fyrir Pólland er hluti af Retail SDK. Fyrir u
 
 ## <a name="development-environment"></a>Þróunarumhverfi
 
-Fylgdu þessum skrefum til að setja upp þróunarumhverfi svo þú getir prófað og framlengt sýnishornið.
+Fylgdu þessum skrefum til að setja upp þróunarumhverfi svo þú getir prófað og stækkað sýnishornið.
 
 ### <a name="commerce-runtime-extension-components"></a>Viðskiptatímaframlengingarhlutar
 
@@ -85,7 +84,7 @@ Viðbótarhlutir vélbúnaðarstöðvar eru innifaldir í smásölu SDK. Til að
 
 ## <a name="production-environment"></a>Framleiðsluumhverfi
 
-Í fyrra ferli virkjaðirðu viðbæturnar sem eru hluti af samþættingarsýnishorni fjárhagsskráningarþjónustunnar. Að auki verður þú að fylgja þessum skrefum til að búa til dreifanlega pakka sem innihalda Commerce íhluti og nota þá pakka í framleiðsluumhverfi.
+Í fyrra ferli virkjaðirðu viðbæturnar sem eru hluti af samþættingarsýnishorni fjárhagsskráningarþjónustunnar. Að auki verður þú að fylgja þessum skrefum til að búa til dreifanlega pakka sem innihalda Commerce íhluti og til að nota þá pakka í framleiðsluumhverfi.
 
 1. Gerðu eftirfarandi breytingar á stillingarskrám pakkans undir **RetailSdk\\ Eignir** mappa:
 
@@ -126,7 +125,7 @@ Samþættingarsýni prentara fyrir Pólland er byggt á [virkni í ríkisfjárm�
 
 Tilgangur viðbyggingarinnar sem er fjárhagsskjalaveita er að búa til prentarasértæk skjöl og meðhöndla svör frá fjárhagsprentaranum.
 
-The CRT framlenging er **Runtime.Extensions.DocumentProvider.PosnetSample**. Þessi viðbót býr til sett af prentara-sértækum skipunum á JavaScript Object Notation (JSON) sniði sem eru skilgreindar af POSNET forskrift 19-3678.
+The CRT framlenging er **Runtime.Extensions.DocumentProvider.PosnetSample**. Þessi viðbót býr til sett af prentarasértækum skipunum á JavaScript Object Notation (JSON) sniði sem eru skilgreindar af POSNET forskrift 19-3678.
 
 Fyrir frekari upplýsingar um hönnun fjárhagslegrar samþættingarlausnar, sjá [Fjárhagsskráningarferli og sýnishorn af samþættingu ríkisfjármála fyrir ríkisfjármálatæki og þjónustu](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 

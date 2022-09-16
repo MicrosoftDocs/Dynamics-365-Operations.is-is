@@ -1,5 +1,5 @@
 ---
-title: Birgðameðvituð vöruskráning
+title: Afurðaskráning með tilliti til birgða
 description: Þessi grein lýsir því hvernig fyrirtæki geta stillt vöruskráningarsíður á sínum Microsoft Dynamics 365 Commerce e-verslun vefsíða þannig að þeir séu meðvitaðir um birgðahald.
 author: boycez
 ms.date: 08/31/2022
@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2022-08-23
-ms.openlocfilehash: e33a4dd8650ee2e371c51c5a19e955f2d2bdade2
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 2a65dedf2da62fcd92169077d75a0f3b7832a86d
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405518"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473734"
 ---
-# <a name="inventory-aware-product-listing"></a>Birgðameðvituð vöruskráning
+# <a name="inventory-aware-product-listing"></a>Afurðaskráning með tilliti til birgða
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þessi grein lýsir því hvernig fyrirtæki geta stillt vöruskráningarsíður á sínum Microsoft Dynamics 365 Commerce e-verslun vefsíða þannig að þeir séu meðvitaðir um birgðahald. Vöruskráningarsíður innihalda áfangasíður fyrir flokka og leitarniðurstöðusíður.
 
@@ -66,7 +65,7 @@ Til að stilla eigindina fyrir netrásina í höfuðstöðvum Commerce skaltu fy
 
 Eftir að öllum fyrri stillingarskrefum er lokið munu hreinsunaraðilar á flokka- og leitarniðurstöðusíðum hafa síuvalkost sem byggir á birgðum. Merki á birgðastigi mun birtast fyrir hverja vöruflís sem birtist á síðunni.
 
-Flokkurinn og leitarniðurstöðusíðan sýnir vörur á aðalstigi, ekki vöruafbrigðisstigi. Birgðastigið sem birtist við hlið hverrar vöru er uppsafnað birgðastig sem ákvarðast af birgðastigi allra afbrigða vörunnar. Birgðastig afbrigðis er reiknað út frá birgðum á lager af því afbrigði í sjálfgefnu vöruhúsi netrásarinnar í höfuðstöðvum Commerce. Birgðastig aðalvöru hefur tvö möguleg gildi sem tákna stöðu á lager og upplausn. Aðalvara telst uppselt þegar öll afbrigði hennar eru ekki til á lager. Að öðrum kosti telst varan vera á lager. Merkið fyrir gildið er sótt í [birgðastig](inventory-buffers-levels.md) skilgreiningu. Ef ekkert birgðastig er skilgreint eru sjálfgefnu merkimiðarnir (á ensku).**Laus** og **Uppselt**.
+Flokkurinn og leitarniðurstöðusíðan sýnir vörur á aðalstigi, ekki vöruafbrigðisstigi. Birgðastigið sem birtist við hlið hverrar vöru er uppsafnað birgðastig sem ákvarðast af birgðastigi allra afbrigða vörunnar. Birgðastig afbrigðis er reiknað út frá birgðum á lager af því afbrigði í sjálfgefna vöruhúsi netrásarinnar í höfuðstöðvum Commerce. Birgðastig aðalvöru hefur tvö möguleg gildi sem tákna stöðu á lager og upplausn. Aðalvara telst uppselt þegar öll afbrigði hennar eru ekki til á lager. Að öðrum kosti telst varan vera á lager. Merkið fyrir gildið er sótt í [birgðastig](inventory-buffers-levels.md) skilgreiningu. Ef ekkert birgðastig er skilgreint eru sjálfgefnu merkimiðarnir (á ensku).**Laus** og **Uppselt**.
 
 Þú getur stillt **Birgðastillingar fyrir vörulistasíður** stilling í Commerce site builder til að stjórna því hvernig flokkurinn og leitarniðurstöðusíðan birtir vörur sem eru ekki á lager. Nánari upplýsingar er að finna í [Nota birgðastillingar](inventory-settings.md).
 

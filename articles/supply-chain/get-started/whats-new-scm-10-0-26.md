@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: db8799aba8095c8144d878c96590e8d90276726b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334716"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428201"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.26. (maí 2022)
 
@@ -36,7 +36,7 @@ ms.locfileid: "9334716"
 | Birgða- og vörustjórnun | [Fyrirspurn um birgðasýnileika til að styðja við háþróaða vöruhússtjórnunarhluti](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Stuðningur fyrir sýnileika birgða af vörum í vöruhúsakerfi](../inventory/inventory-visibility-whs-support.md) | Eiginleikastjórnun:<br>*Virkja vörur vöruhúss í birgðasýnileika* |
 | Birgða- og vörustjórnun | [Hægt að lofa fyrir birgðasýnileikaviðbótina](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](../inventory/inventory-visibility-available-to-promise.md) | Virkt með þjónustustillingu |
 | Framleiðsla | [Fáðu þyngdarhluti fyrir framkvæmdarviðmót framleiðslugólfs](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-use.md) | Eiginleikastjórnun:<br>*Skýrsla um vörur með framleiðsluþyngd úr keyrsluviðmóti framleiðslugólfs* |
-| Framleiðsla | Flipinn „Verkin mín“ í keyrsluviðmóti framleiðslugólfs <!-- KFM: Add link to release plan when available --> | [Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-use.md) | Eiginleikastjórnun:<br>*Flipinn „Verkin mín“ í keyrsluviðmóti framleiðslugólfs* |
+| Framleiðsla | Flipinn „Verkin mín“ í keyrsluviðmóti framleiðslugólfs | [Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi](../production-control/production-floor-execution-use.md) | Eiginleikastjórnun:<br>*Flipinn „Verkin mín“ í keyrsluviðmóti framleiðslugólfs* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Eiginleikaviðbætur í þessari útgáfu
 
@@ -63,7 +63,7 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstrarforrit
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Uppfærslur á vettvangi fyrir fjármála- og rekstraröpp
 
 Microsoft Dynamics 365 Supply Chain Management 10.0.26 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.26 af fjármála- og rekstrarforritum (maí 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-26.md).
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410451"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462302"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
@@ -45,7 +45,7 @@ ms.locfileid: "9410451"
 | **Skipt út fyrir aðra eiginleika?**   | Já |
 | **Afurðasvæði sem haft er áhrif á** | Forrit |
 | **Dreifingarvalkostur** | Allir |
-| **Staða** | Úrelt: Eftir apríl 2023 mun tekjugreiningaraðgerðin í Dynamics 365 Finance ekki lengur fá stuðning við villuleiðréttingar. Viðskiptavinir verða beðnir um að nota bætta virkni, [Innheimta áskriftar](../../finance/accounts-receivable/subscription-billing-summary.md). Í október 2023 verður tekjugreiningareiginleikinn ekki lengur tiltækur. Viðskiptavinir verða beðnir um að fara yfir í endurbættu reikningskerfi áskriftar.|
+| **Staða** | Úrelt: Eftir apríl 2023 mun tekjugreiningaraðgerðin í Dynamics 365 Finance ekki lengur fá stuðning við villuleiðréttingar. Viðskiptavinir verða beðnir um að nota bætta virkni, [Innheimta áskriftar](../../finance/accounts-receivable/subscription-billing-summary.md). Í október 2023 verður tekjugreiningareiginleikinn ekki lengur tiltækur. Viðskiptavinir verða beðnir um að fara yfir í endurbættu reikningskerfi áskriftar. Fyrir búntaeiginleikann sem hluta af tekjufærslu er engin skiptiaðgerð fyrirhuguð eins og er.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.29 útgáfu
 

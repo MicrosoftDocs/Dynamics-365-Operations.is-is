@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 8338b1e11e1bd4fe7482b914ac6bf5f60ebc2e36
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 7406a6443f851fcfa9757deed57c108ba7b6e069
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313830"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473905"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Leiðbeiningar um dreifingu fyrir samþættingarsýni skattaskráningarþjónustu fyrir Tékkland (arfleifð)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Þú verður að fylgja leiðbeiningunum í þessari grein aðeins ef þú ert að nota Microsoft Dynamics 365 Commerce útgáfu 10.0.28 eða eldri. Frá og með Commerce útgáfu 10.0.29 er samþættingarsýnishorn fyrir ríkisfjármálaskráningarþjónustu fyrir Tékkland fáanlegt í Commerce hugbúnaðarþróunarsettinu (SDK). Fyrir frekari upplýsingar, sjá [Stilltu rásaríhluti](./emea-cze-fi-sample.md#configure-channel-components).
@@ -30,9 +29,9 @@ Fjármálasamþættingarúrtakið fyrir Tékkland er hluti af Retail SDK. Fyrir 
 
 ## <a name="development-environment"></a>Þróunarumhverfi
 
-Fylgdu þessum skrefum til að setja upp þróunarumhverfi svo þú getir prófað og framlengt sýnishornið.
+Fylgdu þessum skrefum til að setja upp þróunarumhverfi svo þú getir prófað og stækkað sýnishornið.
 
-### <a name="enable-commerce-runtime-extensions"></a>Virkjaðu Commerce runtime viðbætur
+### <a name="enable-commerce-runtime-extensions"></a>Virkja Commerce runtime viðbætur
 
 The CRT framlengingarhlutir eru innifalin í CRT sýnishorn. Til að ljúka eftirfarandi aðferðum skaltu opna **CommerceRuntimeSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ CommerceRuntime**.
 
@@ -147,7 +146,7 @@ Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótinni í eldri SDK.
 
 ### <a name="production-environment"></a>Framleiðsluumhverfi
 
-Fyrri aðferðin gerir þær viðbætur virkar sem eru hluti af samþættingarúrtaki fjárhagsskráningarþjónustu. Að auki verður þú að fylgja þessum skrefum til að búa til dreifanlega pakka sem innihalda Commerce íhluti og nota þá pakka í framleiðsluumhverfi.
+Fyrri aðferðin gerir þær viðbætur virkar sem eru hluti af samþættingarúrtaki fjárhagsskráningarþjónustunnar. Að auki verður þú að fylgja þessum skrefum til að búa til dreifanlega pakka sem innihalda Commerce íhluti og til að nota þá pakka í framleiðsluumhverfi.
 
 1. Gerðu eftirfarandi breytingar á stillingarskrám pakkans undir **RetailSdk\\ Eignir** möppu.
 
@@ -238,7 +237,7 @@ Tengið styður eftirfarandi beiðnir:
 Stillingarskráin er staðsett í **Stillingar** möppu framlengingarverkefnisins. Tilgangur skrárinnar er að gera stillingar fyrir fjárhagslega tengið kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar. Eftirfarandi stillingum er bætt við:
 
 - **Heimilisfang endapunkts** – Vefslóð ríkisskráningarþjónustunnar.
-- **Hlé** – Tíminn, í millisekúndum, sem tengið mun bíða eftir svari frá skattskráningarþjónustunni.
+- **Hlé** – Tíminn, í millisekúndum, sem tengið bíður eftir svari frá skattskráningarþjónustunni.
 
 ### <a name="pos-fiscal-connector-extension-design"></a>Framlengingarhönnun POS fjárhagstengis
 
@@ -261,4 +260,4 @@ Fjárhagstenging EFR er staðsett í **Pos.Extension\\ Tengi\\ Efr\\ EfrFiscalCo
 Stillingarskráin er staðsett í **src\\ Fiscal Integration\\ Efr\\ Stillingar\\ Tengi** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla. Tilgangur skrárinnar er að gera stillingar fyrir fjárhagslega tengið kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar. Eftirfarandi stillingum er bætt við:
 
 - **Heimilisfang endapunkts** – Vefslóð ríkisskráningarþjónustunnar.
-- **Hlé** – Tíminn, í millisekúndum, sem tengið mun bíða eftir svari frá skattskráningarþjónustunni.
+- **Hlé** – Tíminn, í millisekúndum, sem tengið bíður eftir svari frá skattskráningarþjónustunni.

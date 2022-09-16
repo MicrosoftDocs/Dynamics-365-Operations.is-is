@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: f5f12dbd638c8228dbc63c1fae8f3dfffc7bfe9c
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 8d41dfb359a71f24d0cb0c5aa0114225cd28fe59
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313773"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473999"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Dreifingarleiðbeiningar fyrir samþættingarsýnishorn ríkisskráningarþjónustu fyrir Austurríki (arfleifð)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Þú verður að fylgja leiðbeiningunum í þessari grein aðeins ef þú ert að nota Microsoft Dynamics 365 Commerce útgáfu 10.0.28 eða eldri. Frá og með útgáfu Commerce 10.0.29 er samþættingarsýnishorn skattaskráningarþjónustu fyrir Austurríki fáanlegt í Commerce hugbúnaðarþróunarsettinu (SDK). Fyrir frekari upplýsingar, sjá [Stilltu rásaríhluti](./emea-aut-fi-sample.md#configure-channel-components).
@@ -30,9 +29,9 @@ Fjármálasamþættingarúrtakið fyrir Austurríki er hluti af Retail SDK. Fyri
 
 ## <a name="development-environment"></a>Þróunarumhverfi
 
-Fylgdu þessum skrefum til að setja upp þróunarumhverfi svo þú getir prófað og framlengt sýnishornið.
+Fylgdu þessum skrefum til að setja upp þróunarumhverfi svo þú getir prófað og stækkað sýnishornið.
 
-### <a name="enable-commerce-runtime-extensions"></a>Virkjaðu Commerce runtime viðbætur
+### <a name="enable-commerce-runtime-extensions"></a>Virkja Commerce runtime viðbætur
 
 The CRT framlengingarhlutir eru innifalin í CRT sýnishorn. Til að ljúka eftirfarandi aðferðum skaltu opna **CommerceRuntimeSamples.sln** lausn undir **RetailSdk\\ SampleExtensions\\ CommerceRuntime**.
 
@@ -195,7 +194,7 @@ Fylgdu þessum skrefum til að nota sýnishorn af POS viðbótinni í eldri SDK.
 
 ## <a name="production-environment"></a>Framleiðsluumhverfi
 
-Fyrri aðferðin gerir þær viðbætur virkar sem eru hluti af samþættingarúrtaki fjárhagsskráningarþjónustu. Að auki verður þú að fylgja þessum skrefum til að búa til dreifanlega pakka sem innihalda Commerce íhluti og nota þá pakka í framleiðsluumhverfi.
+Fyrri aðferðin gerir þær viðbætur virkar sem eru hluti af samþættingarúrtaki fjárhagsskráningarþjónustunnar. Að auki verður þú að fylgja þessum skrefum til að búa til dreifanlega pakka sem innihalda Commerce íhluti og til að nota þá pakka í framleiðsluumhverfi.
 
 1. Gerðu eftirfarandi breytingar á stillingarskrám pakkans undir **RetailSdk\\ Eignir** mappa:
 
@@ -275,7 +274,7 @@ Tilgangur þessara skráa er að gera stillingar fyrir skjalaveituna kleift að 
 
 ### <a name="hardware-station-extension-design"></a>Hönnun vélbúnaðarstöðvar viðbyggingar
 
-Tilgangurinn með framlengingunni á fjárhagstenginu er að hafa samskipti við skattskráningarþjónustuna. Viðbygging vélbúnaðarstöðvar er nefnd **HardwareStation.Extension.EFRSample**. Það notar HTTP eða HTTPS samskiptareglur til að leggja fram skjöl sem CRT framlenging myndar við skattskráningarþjónustuna. Það annast einnig svör sem berast frá ríkisskráningarþjónustu.
+Tilgangurinn með framlengingu skattatengingarinnar er að hafa samskipti við skattskráningarþjónustuna. Viðbygging vélbúnaðarstöðvar er nefnd **HardwareStation.Extension.EFRSample**. Það notar HTTP eða HTTPS samskiptareglur til að leggja fram skjöl sem CRT framlenging myndar við skattskráningarþjónustuna. Það annast einnig svör sem berast frá ríkisskráningarþjónustu.
 
 #### <a name="request-handler"></a>Beiðni um stjórnanda
 
@@ -317,4 +316,4 @@ Fjárhagstenging EFR er staðsett í **Pos.Extension\\ Tengi\\ Efr\\ EfrFiscalCo
 Stillingarskráin er staðsett í **src\\ Fiscal Integration\\ Efr\\ Stillingar\\ Tengi** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions/) geymsla. Tilgangur skrárinnar er að gera stillingar fyrir fjárhagslega tengið kleift að stilla frá höfuðstöðvum Commerce. Skráarsniðið er í samræmi við kröfurnar fyrir fjárhagslega samþættingu stillingar. Eftirfarandi stillingum er bætt við:
 
 - **Heimilisfang endapunkts** – Vefslóð ríkisskráningarþjónustunnar.
-- **Hlé** – Tíminn, í millisekúndum, sem tengið mun bíða eftir svari frá skattskráningarþjónustunni.
+- **Hlé** – Tíminn, í millisekúndum, sem tengið bíður eftir svari frá skattskráningarþjónustunni.

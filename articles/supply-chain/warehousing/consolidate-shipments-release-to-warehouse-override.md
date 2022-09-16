@@ -1,6 +1,6 @@
 ---
 title: Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt
-description: Þessi grein sýnir atburðarás þar sem eina eða fleiri sölulínur verða að losa handvirkt í vöruhúsið frá síðunni Losa í vöruhús og kerfisskilgreinda samþjöppunarstefnu fyrir sendingu verður að hnekkja fyrir losun.
+description: Þessi grein sýnir atburðarás þar sem eina eða fleiri sölulínur verður að losa handvirkt í vöruhúsið af síðunni Losun í vöruhús og kerfisskilgreinda samþjöppunarstefnu fyrir sendingu verður að hnekkja fyrir losun.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 680941adeba1fc1cd54a02fb366d3d5903938d77
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e2c4fed880c423790b979f27511d8d5697bd244c
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878701"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427956"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt
 
@@ -79,7 +79,7 @@ Fylgdu þessum skrefum til að yfirfara sendingar sem voru stofnaðar.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Samstæðureglur sendingar](about-shipment-consolidation-policies.md)
+- [Yfirlit yfir stefnur um samþjöppun sendingar](about-shipment-consolidation-policies.md)
 - [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md)
 
 

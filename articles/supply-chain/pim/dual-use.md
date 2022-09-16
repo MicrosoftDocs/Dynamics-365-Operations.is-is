@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
+ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878904"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460549"
 ---
 # <a name="dual-use-goods"></a>Vörur tvíþætts notagildis
 
@@ -85,7 +85,14 @@ Til að auðkenna afurð sem vara með tvíþætt notagildi og nota flokk tvíþ
 1. Í flýtiflipanum **Erlend viðskipti** skal stilla valkostinn **Afurðir með tvíþættu notagildi** á **Já** til að auðkenna núverandi afurð sem vöru með tvíþætt notagildi.
 1. Stillið reitinn **Kóði tvíþætts notagildis** á kóðann sem gildir um núverandi afurð. (Þú skilgreindir þennan kóða á síðunni **Flokkar tvíþætts notagildis**.)
 
-Þessi uppsetning er merkt þegar sölupöntun er stofnuð.
+> [!NOTE]
+>
+> Kerfið gerir eftirfarandi tvínota athuganir þegar það býr til sölustaðfestingu:
+>
+> 1. Inniheldur pöntunin einhverjar tvínota vörur?
+> 1. Ef svo er, krefst ákvörðunarlandið vottorð fyrir tvöfalda notkun?
+> 1. Ef svo er, eru skírteini til fyrir hverja tvínota vöru fyrir ákvörðunarlandið og eru þau skírteini gild fyrir staðfesta sendingardaga?
+> 1. Ef svörin við spurningum 1 og 2 eru "Já" og svarið við spurningu 3 er "Nei", þá sýnir kerfið viðvörun til að tilkynna notandanum að vottorð fyrir tvöfalda notkun vantar fyrir eina eða fleiri tvínota vörur í Sölupöntun. Notandinn ætti líklega að fá tilskilin vottorð og reyna aftur, en gæti þess í stað hafnað viðvöruninni og haldið áfram með sölustaðfestinguna ef hann vill.
 
 ## <a name="set-up-dual-use-certificates"></a>Setja upp vottorð fyrir tvíþætt notagildi
 

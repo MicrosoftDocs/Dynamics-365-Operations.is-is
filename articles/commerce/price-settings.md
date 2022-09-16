@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2022-08-11
-ms.openlocfilehash: 4bc8cb16e7960d26adbb9590b4ad83cf46b02838
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 79130e0ef285d6bd5e544f2d6a6368c0393fa7fa
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410477"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474043"
 ---
 # <a name="pricing-settings"></a>Verðstillingar
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þessi grein lýsir hinum ýmsu stillingum fyrir verðlagningu og afsláttarstjórnun í Microsoft Dynamics 365 Commerce höfuðstöðvar. Þessar stillingar gera fyrirtækjum kleift að skilgreina verðlagshegðun í viðskiptalausn sinni til að mæta sérstökum viðskiptaþörfum.
 

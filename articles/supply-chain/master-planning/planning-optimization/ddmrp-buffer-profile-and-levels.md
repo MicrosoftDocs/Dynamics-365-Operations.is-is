@@ -1,5 +1,5 @@
 ---
-title: Stuðpúðarsnið og stig
+title: Forstilling öryggisbirgða og gildi
 description: Þessi grein veitir upplýsingar um stuðpúðasnið og magn, sem ákvarða lágmarks- og hámarksbirgðamagn sem ætti að halda fyrir hvern aftengingarpunkt.
 author: t-benebo
 ms.date: 06/30/2022
@@ -11,25 +11,25 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd72332abefd31fd391ff66931a5abae0efb08de
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186574"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428145"
 ---
-# <a name="buffer-profile-and-levels"></a>Stuðpúðarsnið og stig
+# <a name="buffer-profile-and-levels"></a>Forstilling öryggisbirgða og gildi
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
-Eftir að þú hefur greint aftengingarpunktana þína (lykilatriði sem þú munt geyma á lager), verður þú að ákveða hversu mikið af lager (buffer) þú ætlar að geyma á hverjum þeirra. Þetta verkefni er annað skref í Demand Driven Materials Resource Planning (DDMRP).
+Eftir að þú hefur auðkennt aftengingarpunktana þína (lykilatriði sem þú munt geyma á lager), verður þú að ákveða hversu mikið af lager (buffer) þú ætlar að geyma á hverjum þeirra. Þetta verkefni er annað skref í Demand Driven Materials Resource Planning (DDMRP).
 
-## <a name="buffer-levels-and-zones"></a>Stuðpúðastig og svæði
+## <a name="buffer-levels-and-zones"></a>Biðmagn og svæði
 
 Í DDMRP er hver lagerbuffi skilgreindur með því að nota þrjú gildi: lágmarksmagn, hámarksmagn og endurpöntunarpunkt. Þessi gildi koma á þremur mismunasvæðum, sem auðkennd eru með eftirfarandi litakóðum:
 
-- **Rautt svæði** – Svæðið undir lágmarksmagni. Lágmarksmagnið er einnig nefnt „topp af rauðu“ og skipulagsáætlun þín ætti að vera hönnuð til að tryggja að birgðir séu alltaf yfir þessum punkti.
+- **Rautt svæði** – Svæðið undir lágmarksmagni. Lágmarksmagnið er einnig nefnt „toppur af rauðu“ og skipulagsáætlun þín ætti að vera hönnuð til að tryggja að birgðir séu alltaf yfir þessum punkti.
 - **Gult svæði** – Svæðið á milli lágmarksmagns og endurpöntunarpunkts. Endurröðunarpunkturinn er einnig nefndur „toppur af gulum“. Þegar þessum tímapunkti er náð ætti kerfið að endurraða.
 - **Grænt svæði** – Svæðið á milli endurpöntunarpunkts og hámarksmagns. Hámarksmagnið er einnig nefnt „toppur af grænu“. Þessi punktur er hámarksstigið sem birgðirnar verða endurnýjaðar í.
 
@@ -69,23 +69,36 @@ Kerfið notar eina af þremur aðferðum til að reikna út magnið sem þú ney
 
 ### <a name="average-daily-usage-past"></a>Dagleg meðalnotkun (fyrri)
 
-Fyrri ADU er reiknað sem meðaltal með því að leggja saman magnið sem er notað á hverjum degi í tiltekinn fjölda liðinna daga og deila síðan heildarfjöldanum með fjölda daga. Eftirfarandi mynd sýnir hvernig þessi aðferð virkar þegar útreikningurinn lítur þrjá daga í fortíðina.
+Fyrri ADU er reiknað út sem meðaltal með því að leggja saman magnið sem er notað á hverjum degi í tiltekinn fjölda liðinna daga og deila síðan heildarfjöldanum með fjölda daga. Eftirfarandi mynd sýnir hvernig þessi aðferð virkar þegar útreikningurinn lítur þrjá daga í fortíðina.
 
-![Dagleg meðalnotkun (fyrri) graf.](media/ddmrp-adu-past.png "Dagleg meðalnotkun (fyrri) graf")
+![Dagleg meðalnotkun (fyrri) myndrit.](media/ddmrp-adu-past.png "Dagleg meðalnotkun (fyrri) graf")
 
 Í fyrri myndinni, ef dagurinn í dag er að morgni 11. júní, er ADU fyrir síðustu þrjá daga (8., 9. og 10. júní) 21.
 
 - **ADU (fortíð)** = (29 + 11 + 23) ÷ 3 = 21
 
+Eftirfarandi færslur eru teknar með í reikninginn fyrir meðalútreikning daglegrar notkunar (fyrri):
+
+- Viðskipti sem draga úr magni vörunnar (í`inventtrans` tafla þar sem magn er minna en núll)
+- Viðskipti með stöðuna á *Á pöntun*, *pantað*, *líkamlegt*, *·*, *frá*, eða *Seldur*
+- Viðskipti dagsett innan valins afturábakstímabils (meðaltal daglegrar notkunar síðasta tímabils)
+- Önnur viðskipti en vöruhúsavinna, sóttkví, sölutilboð eða yfirlit (`WHSWork`,`WHSQuarantine`,`SalesQuotation`, eða`Statement`)
+- Aðrar færslur en flutningsbækur sem eru innan sömu þekjuvíddar
+
 ### <a name="average-daily-usage-forward"></a>Dagleg meðalnotkun (áfram)
 
 Fyrir nýja vöru gætir þú ekki haft nein fyrri notkunargögn. Þess vegna gætirðu í staðinn notað áætlaða ADU framvegis (til dæmis byggt á spáð eftirspurn). Eftirfarandi mynd sýnir hvernig þessi nálgun virkar þegar útreikningurinn lítur þrjá daga fram í tímann (þar á meðal í dag).
 
-![Meðaltal daglegrar notkunar (áfram).](media/ddmrp-adu-forward.png "Meðaltal daglegrar notkunar (áfram).")
+![Meðaltal daglegrar notkunar (áfram) graf.](media/ddmrp-adu-forward.png "Meðaltal daglegrar notkunar (áfram).")
 
 Í fyrri myndinni, ef dagurinn í dag er að morgni 11. júní, er ADU næstu þrjá daga (11., 12. og 13. júní) 21,66.
 
 - **ADU (áfram)** = (18 + 18 + 29) ÷ 3 = 21,66
+
+Eftirfarandi færslur eru teknar með í reikninginn fyrir meðalútreikning daglegrar notkunar (áfram):
+
+- Spáfærslur fyrir vöruna þar sem spáin er valin á aðalskipulagi
+- Viðskipti dagsett innan valins framvirks tímabils (meðaltal daglegrar notkunar framvirkt tímabil)
 
 ### <a name="average-daily-usage-blended"></a>Dagleg meðalnotkun (blandað)
 
@@ -153,11 +166,11 @@ Eftirfarandi mynd dregur saman þessar svæðisútreikningsniðurstöður með �
 
 ## <a name="dynamic-adjustments"></a><a name="dynamic-adjustments"></a> Dýnamískar stillingar
 
-Dynamic stillingar gera þér kleift að beita a *eftirspurnarleiðréttingarstuðull* á tímum mikillar eða lítillar eftirspurnar. Þessi þáttur margfaldar ADU í öllum útreikningum fyrir valið tímabil. Stuðpúðasvæðum er síðan breytt í röð. Þú notar venjulega þennan þátt eftir að þú hefur búið til upphafleg biðminni, svo þú getir fínstillt þau með tímanum og til að bregðast við breyttum aðstæðum. Þetta verkefni er þriðja skref DDMRP.
+Dynamic stillingar gera þér kleift að beita a *eftirspurnarleiðréttingarstuðull* á tímabilum þar sem eftirspurn er mikil eða lítil. Þessi þáttur margfaldar ADU í öllum útreikningum fyrir valið tímabil. Stuðpúðasvæðum er síðan breytt í röð. Þú notar venjulega þennan þátt eftir að þú hefur búið til upphafleg biðminni, svo þú getir fínstillt þau með tímanum og til að bregðast við breyttum aðstæðum. Þetta verkefni er þriðja skref DDMRP.
 
-Til dæmis gæti verið meiri eftirspurn eftir koddavöru í ágúst þegar fólk fer í frí. Því er búist við að salan verði meiri. Í þessu tilviki geturðu breytt **Eftirspurnarleiðréttingarstuðull** gildi fyrir vöruna til *1.5* fyrir allar vikurnar í ágúst.
+Til dæmis gæti verið meiri eftirspurn eftir koddavöru í ágúst þegar fólk fer í frí. Því er búist við meiri sölu. Í þessu tilviki geturðu breytt **Eftirspurnarleiðréttingarstuðull** gildi fyrir vöruna til *1.5* fyrir allar vikurnar í ágúst.
 
-Þannig er hægt að reikna út biðminni með tímanum og stilla þau svo út frá fleiru en þeim upplýsingum sem kerfið hefur. Í fullri DDMRP útfærslu muntu reikna út ný biðminnigildi á hverjum degi í gegnum runuvinnu og samþykkja sjálfkrafa gildin. Þú munt síðan keyra áætlanagerð sem runuvinnu og fara yfir fyrirhugaðar pantanir á hverjum degi til að fylla á biðminni.
+Þannig er hægt að reikna út biðminni gildi með tímanum og stilla þau svo út frá fleiru en þeim upplýsingum sem kerfið hefur. Í fullri DDMRP útfærslu muntu reikna út ný biðminnigildi á hverjum degi í gegnum runuvinnu og samþykkja sjálfkrafa gildin. Þú munt síðan keyra áætlanagerð sem runuvinnu og fara yfir fyrirhugaðar pantanir á hverjum degi til að fylla á biðminni.
 
 ## <a name="implement-buffers-in-supply-chain-management"></a>Innleiða biðminni í Supply Chain Management
 
@@ -202,9 +215,9 @@ Fyrir hluti þar sem þú velur að leyfa kerfinu að [reiknaðu biðminni þín
 
     - **BOM** – Veldu efnisskrána (BOM) sem þú vilt keyra útreikninginn á.
     - **Dagsetning** – Veldu dagsetninguna sem þú vilt keyra útreikninginn á. Safnið af tiltækum uppskriftum verður síað þannig að aðeins uppskriftir sem eru virkar fyrir valda dagsetningu eru sýndar.
-    - **Magn** – Sláðu inn magnið sem þú vilt keyra útreikninginn fyrir. Safnið af tiltækum uppskriftum verður síað þannig að aðeins birtast uppskriftir sem eiga við tilgreint magn.
+    - **Magn** – Sláðu inn magnið sem þú vilt keyra útreikninginn fyrir. Safnið af tiltækum uppskriftum verður síað þannig að aðeins uppskriftir sem eiga við tilgreint magn eru sýndar.
 
-1. Veldu **Allt í lagi** til að keyra útreikninginn og loka **Reiknaðu aftengdan leiðtíma** valmynd. The **Aftengdur leiðtími** dálkurinn fyrir valið tímabil sýnir nú reiknað gildi.
+1. Veldu **Allt í lagi** til að keyra útreikninginn og loka **Reiknaðu ótengdan leiðtíma** valmynd. The **Aftengdur leiðtími** dálkurinn fyrir valið tímabil sýnir nú reiknað gildi.
 
 ### <a name="calculate-or-enter-average-daily-usage"></a><a name="calc-adu"></a> Reiknaðu eða sláðu inn meðaltal daglegrar notkunar
 
@@ -223,7 +236,7 @@ Fyrir hluti þar sem þú velur að leyfa kerfinu að [reiknaðu biðminni þín
 
 ### <a name="calculate-and-apply-buffer-values"></a>Reiknaðu og notaðu biðminni gildi
 
-Fyrir hluti þar sem þú velur að leyfa kerfinu að [reiknaðu biðminni þín sjálfkrafa](#set-up-buffers), þú getur kveikt handvirkt á útreikningi biðminnigilda með því að fylgja þessum skrefum.
+Fyrir hluti þar sem þú velur að leyfa kerfinu að [reiknaðu biðminni þinn sjálfkrafa](#set-up-buffers), þú getur kveikt handvirkt á útreikningi biðminnigilda með því að fylgja þessum skrefum.
 
 1. Fyrir viðkomandi lið aftengingarpunkts, [stilla biðminni útreikninginn](#set-up-buffers),[reikna út eða slá inn aftengdan afgreiðslutíma](#calc-lead-time), og [reikna eða slá inn meðaltal daglegrar notkunar](#calc-adu) fyrir öll viðeigandi tímabil, eins og áður hefur verið lýst í þessari grein.
 1. Opnaðu **Vöruumfjöllun** síðu fyrir aftengingarpunktinn þinn.
@@ -235,7 +248,7 @@ Fyrir hluti þar sem þú velur að leyfa kerfinu að [reiknaðu biðminni þín
 
     - **Samþykkja alla útreikninga** – Notaðu öll reiknuð gildi í ristinni.
     - **Samþykkja útreikninga fyrir valdar línur** – Notaðu útreiknuð gildi eingöngu fyrir valdar línur.
-    - **Henda öllum útreikningum** – Fleygðu öllum reiknuðum gildum fyrir lágmarksmagn, hámarksmagn og endurröðunarpunkta í ristinni.
+    - **Henda öllum útreikningum** – Fleygðu öllum reiknuðum gildum fyrir lágmarksmagn, hámarksmagn og endurraða punkta í ristinni.
     - **Fleygðu útreikningum fyrir valdar línur** – Fleygðu öllum reiknuðum gildum fyrir lágmarksmagn, hámarksmagn og endurraða punkta fyrir valdar línur.
 
 ### <a name="schedule-automatic-buffer-value-calculations"></a>Tímasettu sjálfvirka útreikninga á biðminni
@@ -259,8 +272,8 @@ Fylgdu þessum skrefum til að skipuleggja sjálfvirka útreikninga á biðminni
 
 ### <a name="review-and-recalculate-decoupled-lead-times-for-all-items"></a>Skoðaðu og endurreiknaðu aftengdan afgreiðslutíma fyrir alla hluti
 
-Fylgdu þessum skrefum til að fara yfir og endurreikna alla aftengda afgreiðslutíma sem eru í boði hjá lögaðilanum þínum (fyrirtæki).
+Fylgdu þessum skrefum til að fara yfir og endurreikna alla aftengda afgreiðslutíma sem eru í boði hjá lögaðilanum þínum (fyrirtækinu).
 
 1. Fara til **Aðalskipulag \> Aðalskipulag \> DDMRP \> Aftengdur leiðtími**.
 1. Á **Aftengdur leiðtími** síðu, flettu og síaðu listann eftir þörfum til að finna upplýsingarnar sem þú ert að leita að. Til að skoða enn frekari upplýsingar um hlut skaltu velja tengil þess í **Vörunúmer** dálki.
-1. Ef þú vilt endurreikna aftengdan afgreiðslutíma fyrir einhverja vöru skaltu velja vöruna og síðan velja **Reiknaðu aftengdan leiðtíma** á aðgerðasvæðinu. The **Reiknaðu aftengdan leiðtíma** svarglugginn birtist. Þessi valmynd virkar alveg eins og þegar þú ert [reikna út ótengdan leiðtíma](#calc-lead-time) fyrir sama hlut á **Vöruumfjöllun** síðu.
+1. Ef þú vilt endurreikna aftengdan afgreiðslutíma fyrir einhverja vöru skaltu velja vöruna og velja síðan **Reiknaðu aftengdan leiðtíma** á aðgerðasvæðinu. The **Reiknaðu aftengdan leiðtíma** svarglugginn birtist. Þessi valmynd virkar alveg eins og þegar þú ert [reikna út ótengdan leiðtíma](#calc-lead-time) fyrir sama hlut á **Vöruumfjöllun** síðu.

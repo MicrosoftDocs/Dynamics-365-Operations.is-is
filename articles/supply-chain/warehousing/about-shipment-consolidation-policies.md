@@ -1,5 +1,5 @@
 ---
-title: Samstæðureglur sendingar
+title: Yfirlit yfir stefnur um samþjöppun sendingar
 description: Þessi grein veitir yfirlit yfir virknina sem veitir sveigjanlega uppsetningu á samþjöppunarreglum sendingar.
 author: Mirzaab
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 27f5d52dac2e428655f1b16908ff796ed9d02e82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7113fc635a7c01e4b9cc44898daa3d2617058b6b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903899"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427929"
 ---
-# <a name="shipment-consolidation-policies"></a>Samstæðureglur sendingar
+# <a name="shipment-consolidation-policies-overview"></a>Yfirlit yfir stefnur um samþjöppun sendingar
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ Samstæðureglur sendingar eru notaðar fyrir eftirfarandi virkni:
 
 Fyrirspurnir eru notaðar til að auðkenna samstæðureglu sendingar sem gildir, og síðan breytanleg Samstæða reita ákvarðar hvernig farmlínur eru flokkaðar á afhendingarstigið. (Þetta mynstur líkist mynstri sem bylgjusniðmátin fylgja.) Að auki hefur valkostinum **sameina við fyrirliggjandi sendingar** verið bætt við hverja reglu. Þegar kveikt er á þessum valkosti mun ferlið *losun í vöruhúsi* finna sendingar fyrir samstæðu með því að leita í fyrirliggjandi sendingum sem voru stofnaðar út frá sömu samstæðureglu. Í þessu tilviki mun kerfið velja fyrirliggjandi sendingu eða farm í stað þess að búa til nýja. Kerfið mun hins vegar aðeins sameina við fyrirliggjandi sendingar sem eru með stöðuna *opið*; sendingar sem tilheyra bylgjuútgáfu með stöðuna *losað* eða hærra verða ekki taldar sem markmið fyrir samstæðu.
 
-Þegar samstæðureglur sendingar eru gerðar tiltækar er stillingin **samstæða sendingar við losun í vöruhús** sem var áður tiltæk á uppsetningarsíðu **vöruhúss** hulin. Til að aðstoða við umbreytingu í nýja samstæðueiginleika sendingar er aðgerð á síðu **samstæðureglna sendingar** sem stofnar sjálfgefin regla sem inniheldur sjálfkrafa gömlu stillingarnar fyrir núverandi vöruhús. Eftir að þessi sjálfgefna regla er stofnuð er stillingin **Taka sendingu með í samstæðu við losun í vörugeymslu** á uppsetningarsíðunni **Vöruhús** ekki lengur tekin til greina.
+Þegar *Samþjöppunarreglur sendingar* kveikt er á eiginleikanum fyrir kerfið þitt, the **Sameinaðu sendingu við losun á vöruhús** stilling sem áður var tiltæk á **Vöruhús** uppsetningarsíða er falin. Til að hjálpa þér að skipta yfir í nýja eiginleikann til að sameina sendingar, er aðgerð á **Samþjöppunarreglur sendingar** síða gerir þér kleift að búa til sjálfgefna stefnu sem inniheldur sjálfkrafa gömlu stillinguna fyrir núverandi vöruhús. Eftir að þessi sjálfgefna regla er stofnuð er stillingin **Taka sendingu með í samstæðu við losun í vörugeymslu** á uppsetningarsíðunni **Vöruhús** ekki lengur tekin til greina. Fyrir frekari upplýsingar, sjá [Stilltu reglur um samþjöppun sendingar](configure-shipment-consolidation-policies.md).
 
 Hægt er að nota síðuna **Losa í vöruhús** til að hnekkja handvirkt viðeigandi samstæðureglu á sama hátt og hægt er að hnekkja uppfyllingarreglum.
 

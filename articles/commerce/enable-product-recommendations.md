@@ -2,7 +2,7 @@
 title: Virkja ráðleggingar um afurðir
 description: Þessi grein útskýrir hvernig á að gera ráðleggingar um vörur sem byggjast á gervigreind-vélanámi (AI-ML) aðgengilegar fyrir Microsoft Dynamics 365 Commerce viðskiptavinum.
 author: bebeale
-ms.date: 08/31/2021
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1b43fa70e6652d38b1141e2d93cf323f70a756
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892072"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460022"
 ---
 # <a name="enable-product-recommendations"></a>Virkja ráðleggingar um afurðir
 
@@ -36,12 +36,19 @@ ms.locfileid: "8892072"
 1. Staðfestu að Azure AD auðkennisstilling innihaldi færslu fyrir tillögur. Nánari upplýsingar um framkvæmd þessarar aðgerðar eru hér að neðan.
 1. Gakktu úr skugga um að dagleg uppfærsla einingaverslunar í Azure Data Lake Storage Gen2 hafi verið tímasett. Fyrir frekari upplýsingar, sjá [Ganga úr skugga um að endurnýjun einingaverslunarinnar hafi verið sjálfvirk](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 1. Virkja mælingar RetailSale fyrir einingaverslun. Frekari upplýsingar um uppsetningu þessa ferlis er að finna í [Vinna með mælingar](/dynamics365/ai/customer-insights/pm-measures).
+1. Gakktu úr skugga um að umhverfið þitt hafi stillt framreiðslu- og eldunarsvæðin á þeim svæðum sem nú eru studd, eins og hér segir:
+
+    - **Stuðstuð eldunarsvæði:** ESB/US/CA/AU.
+    - **Stuðningssvæði fyrir þjónustu:** BNA/CA/AU. Ef afgreiðslusvæðið passar ekki við eitt af núverandi studdu svæðum, mun meðmælaþjónustan velja næst studda afgreiðslusvæðið.
 
 Að loknum ofangreindum skrefum er allt til reiðu til að virkja tillögur.
 
+> [!NOTE]
+> Það er þekkt vandamál þar sem ráðleggingar birtast ekki eftir að eftirfarandi skrefum er lokið. Þetta vandamál stafar af vandamálum í gagnaflæði í umhverfinu. Ef umhverfið þitt sýnir ekki niðurstöður tilmæla skaltu stilla önnur gögn fyrir meðmælaþjónustuna með því að fylgja skrefunum í [Settu upp annað gagnaflæði fyrir tillögur](set-up-alternate-data-flow.md). Þú verður að hafa Azure stjórnandaheimildir til að ljúka þessum skrefum. Ef þú þarft aðstoð, hafðu samband við FastTrack fulltrúa þinn.
+
 ## <a name="azure-ad-identity-configuration"></a>Azure AD auðkennisskilgreining
 
-Þetta skref er aðeins nauðsynlegt fyrir viðskiptavini sem reka skilgreiningu grunnvirkisþjónustu (IaaS-þjónustu). Azure AD auðkennisskilgreining er sjálfvirk fyrir viðskiptavini sem keyra í Azure Service Fabric en mælt er með því að þú gangir úr skugga um að stillingin sé skilgreind eins og vænta má.
+Þetta skref er aðeins nauðsynlegt fyrir viðskiptavini sem keyra innviði sem þjónustu (IaaS) uppsetningu. Azure AD auðkennisstilling er sjálfvirk fyrir viðskiptavini sem keyra á Azure Service Fabric, en við mælum með að þú staðfestir að stillingin sé stillt eins og búist var við.
 
 ### <a name="setup"></a>Uppsetning
 
@@ -94,7 +101,9 @@ Til að læra meira um persónulegar ráðleggingar, sjá [Virkja persónulegar 
 
 [Virkja Azure Data Lake Storage í Dynamics 365 Commerce-umhverfi](enable-adls-environment.md)
 
-[Kveikja á sérsniðnum tillögum](personalized-recommendations.md)
+[Settu upp annað gagnaflæði fyrir tillögur](set-up-alternate-data-flow.md)
+
+[Virkja sérsniðnar ráðleggingar](personalized-recommendations.md)
 
 [Virkja tillögur um að kaupa svipaða vöru](shop-similar-looks.md)
 
@@ -111,6 +120,7 @@ Til að læra meira um persónulegar ráðleggingar, sjá [Virkja persónulegar 
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
+
 
 
 

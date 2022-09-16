@@ -1,5 +1,5 @@
 ---
-title: Vörusamanburðareiningar
+title: Afurðasamanburðareiningar
 description: Þessi grein lýsir vörusamanburðareiningum og hvernig á að útfæra þær þannig að viðskiptavinir geti gert vörusamanburð á Microsoft Dynamics 365 Commerce rafræn viðskipti vefsíður.
 author: ashishmsft
 ms.date: 08/09/2022
@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: ced471dd7e3e4c3e9be938b295edaad626a890a3
-ms.sourcegitcommit: 92c4506be7dc14078e3c4f1d182edd895d64ffe0
+ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/10/2022
-ms.locfileid: "9246652"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474127"
 ---
-# <a name="product-comparison-modules"></a>Vörusamanburðareiningar
+# <a name="product-comparison-modules"></a>Afurðasamanburðareiningar
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þessi grein lýsir vörusamanburðareiningum og hvernig á að útfæra þær þannig að viðskiptavinir geti gert vörusamanburð á Microsoft Dynamics 365 Commerce rafræn viðskipti vefsíður.
 
@@ -34,7 +33,7 @@ Eftir að viðskiptavinir hafa bætt nokkrum vörum við samanburðarbakkann get
 
 Eftirfarandi mynd sýnir dæmi um bera saman vöruhnappinn, hnappinn fjarlægja úr samanburði, samanburðarbakkann og vörusamanburðarsíðuna.
 
-![Yfirlit yfir vörusamanburð sem sýnir samanburðarhnappinn fyrir vöruna, hnappinn fjarlægja úr samanburði, samanburðarbakkaspjaldið og vörusamanburðarsíðuna.](./media/Product-Comparison-Overview.png)
+![Yfirlit yfir vörusamanburð sem sýnir samanburðarhnappinn fyrir vöru, hnappinn fjarlægja úr samanburði, samanburðarbakkaspjaldið og vörusamanburðarsíðuna.](./media/Product-Comparison-Overview.png)
 
 > [!NOTE]
 > - Vörusamanburðarsíðan ber saman sjálfgefið sett af vörueiginleikum og öllum eiginleikum sem hægt er að skoða á PDP fyrir tiltekna vöru.
