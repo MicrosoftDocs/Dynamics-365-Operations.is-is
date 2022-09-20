@@ -12,6 +12,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.30 (nóvember 2022)
+                  href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (október 2022)
                   href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28 (ágúst 2022)
@@ -1697,15 +1699,15 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
             - name: Safnvista birgðafærslur
               href: inventory/archive-inventory-transactions.md
-            - name: Innbót birgðasýnileika
+            - name: Innbót Inventory Visibility
               items:
-                - name: Yfirlit viðbótar fyrir sýnileika birgða
+                - name: Yfirlit viðbótar fyrir Inventory Visibility
                   href: inventory/inventory-visibility.md
                 - name: Setja upp Inventory Visibility
                   href: inventory/inventory-visibility-setup.md
                 - name: Skilgreina Inventory Visibility
                   href: inventory/inventory-visibility-configuration.md
-                - name: Stuðningur fyrir sýnileika birgða af vörum í vöruhúsakerfi
+                - name: Stuðningur fyrir Inventory Visibility af vörum í vöruhúsakerfi
                   href: inventory/inventory-visibility-whs-support.md
                 - name: Nota Inventory Visibility-forritið
                   href: inventory/inventory-visibility-power-platform.md
@@ -1715,11 +1717,33 @@
                   href: inventory/inventory-visibility-allocation.md
                 - name: Breytingaáætlun á lager og ATP-afhendingarspá Inventory Visibility
                   href: inventory/inventory-visibility-available-to-promise.md
-                - name: Opin API fyrir sýnileika birgða
+                - name: Opin API fyrir Inventory Visibility
                   href: inventory/inventory-visibility-api.md
-                - name: Ábendingar fyrir sýnileika birgða
+                - name: Ábendingar fyrir Inventory Visibility
                   href: inventory/inventory-visibility-tips.md
-        - name: IoT gervigreind
+        - name: Sensor Data Intelligence
+          items:
+            - name: Sensor Data Intelligence heimasíða
+              href: sensor-data-intelligence/sdi-home-page.md
+            - name: Kveiktu á Sensor Data Intelligence fyrir kerfið þitt
+              href: sensor-data-intelligence/sdi-enable-feature.md
+            - name: Uppsetning IoT lausnar á Azure
+              href: sensor-data-intelligence/sdi-deploy-iot-solution-on-azure.md
+            - name: Færibreytur Sensor Data Intelligence
+              href: sensor-data-intelligence/sdi-parameters.md
+            - name: Setja upp eftirlíkingarskynjara til prófunar
+              href: sensor-data-intelligence/sdi-set-up-simulated-sensor.md
+            - name: Aðstæður fyrir niðurtíma eignar
+              href: sensor-data-intelligence/sdi-scenario-asset-downtime.md
+            - name: Aðstæður fyrir viðhald eignar
+              href: sensor-data-intelligence/sdi-scenario-asset-maintenance.md
+            - name: Aðstæður fyrir vélarstöðu
+              href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
+            - name: Aðstæður fyrir vörugæði
+              href: sensor-data-intelligence/sdi-scenario-product-quality.md
+            - name: Aðstæður fyrir framleiðslutöf
+              href: sensor-data-intelligence/sdi-scenario-production-delays.md
+        - name: IoT-greind
           items:
             - name: IoT-gervigreind – heimasíða
               href: iot/iot-intelligence-home-page.md
@@ -1940,7 +1964,7 @@
                 - name: Kostnaðarstýring
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Útgjaldastýring
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Birgðir á lager
                   href: inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Reikningssamþykktir
@@ -1948,11 +1972,11 @@
                 - name: Hópurinn minn
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Yfirlit yfir fartækjaforrit Project
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/supply-chain/toc.json
                 - name: Vinnustundafærsla verks
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/supply-chain/toc.json
                 - name: Samþykki innkaupapöntunar
                   href: procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Sölupantanir
@@ -3463,7 +3487,7 @@
                       href: warehousing/small-parcel-shipping.md
                 - name: Samstæðureglur sendingar
                   items:
-                    - name: Samstæðureglur sendingar
+                    - name: Yfirlit yfir samstæðureglur sendingar
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Skilgreina samstæðureglur sendingar
                       href: warehousing/configure-shipment-consolidation-policies.md

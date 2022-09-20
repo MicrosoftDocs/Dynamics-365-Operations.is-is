@@ -3578,6 +3578,8 @@
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                     - name: Tollafgreiðsla
                       items:
+                        - name: Setja upp tollafgreiðslu
+                          href: localizations/rus-set-up-customs-clearance.md
                         - name: Vinna með þjónustudeild
                           href: localizations/rus-work-with-customs-clearance.md
                 - name: Skýrslugerð
@@ -4642,7 +4644,7 @@
                 - name: Kostnaðarstýring
                   href: cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Útgjaldastýring
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/finance/toc.json
                 - name: Birgðir á lager
                   href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Reikningssamþykktir
@@ -4650,11 +4652,11 @@
                 - name: Hópurinn minn
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Yfirlit yfir fartækjaforrit Project
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/finance/toc.json
                 - name: Vinnustundafærsla verks
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/finance/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2ffinance%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/finance/toc.json
                 - name: Samþykki innkaupapöntunar
                   href: ../supply-chain/procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Sölupantanir

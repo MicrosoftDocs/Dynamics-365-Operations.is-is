@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9299a0ef4def8a41620ada24e8b13d7b41ed7cb7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a51a601f6e283c5f6d7298b1cf342056707ebbb8
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887891"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475583"
 ---
 # <a name="finance-home-page"></a>Heimasíða Finance
 
@@ -41,7 +41,7 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
         - [Kostnaðarbókhald](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Fjárhagsskýrslugerð](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
+        - [Fjárhagsskýrslugerð](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Eignir](fixed-assets/fixed-assets.md)
         - [Finance insights](finance-insights/finance-insights-home-page.md)
         - [Fjárhagur og fjárhagsskýrslugerð](general-ledger/general-ledger.md) 
@@ -64,7 +64,7 @@ Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 
 
 ### <a name="countryregion-functionality"></a>Virkni lands/svæðis
 
-Reglugerðir fyrir mismunandi lönd/svæði hafa áhrif á skattafyrirkomulag og önnur fjármálatengd svið. Frekari upplýsingar um sértækar aðgerðir fyrir lönd/svæði er að finna í [Staðfærslu- og eftirlitseiginleikar](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json).
+Reglugerðir fyrir mismunandi lönd/svæði hafa áhrif á skattafyrirkomulag og önnur fjármálatengd svið. Frekari upplýsingar um sértækar aðgerðir fyrir lönd/svæði er að finna í [Staðfærslu- og eftirlitseiginleikar](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json).
 
 ### <a name="additional-content"></a>Annað efni
 
@@ -80,6 +80,6 @@ Upplýsingar um afköst við innkaupaumsjón, birgðahald og framleiðslu er að
 
 ## <a name="elearning-courses"></a>Rafræn námskeið
 
-Netnámskeið og þjálfun má finna í [Dynamics 365 Finance í Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
+Netnámskeið og þjálfun má finna í [Dynamics 365 Finance námsleiðir](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
