@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: c55d0891ed37d63f89ee09759965ac443db20dc6
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203110"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542245"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Skattaeiginleikaþjónusta fyrir flutningspantanir
 
@@ -30,7 +30,7 @@ ms.locfileid: "9203110"
 Til að grunnstilla og nota þessa virkni þarf að ljúka þremur meginskrefum:
 
 1. **RCS-uppsetning:** í Regulatory Configuration Service skal setja upp skattaeiginleika, skattkóða og gildissvið skattkóða fyrir ákvörðun skattkóða í flutningspöntunum.
-2. **Dynamics 365 Finance uppsetning:** Í Finance, virkjaðu **Skattur í millifærslupöntun** eiginleika, setja upp færibreytur skattaútreikningsþjónustu fyrir birgðahald og setja upp kjarnaskattfæribreytur.
+2. **Dynamics 365 Finance uppsetning:** Í Finance, virkjaðu **Skattur í millifærslupöntun** eiginleika, setja upp færibreytur skattútreikningsþjónustu fyrir birgðahald og setja upp kjarnaskattfæribreytur.
 3. **Uppsetning birgða:** Setjið upp skilgreiningu birgða fyrir færslur flutningspöntunar.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Setja upp RCS fyrir skattfærslur og færslur flutningspöntunar
@@ -63,7 +63,7 @@ Fylgið þessum skrefum til að setja upp skattinn sem tengist flutningspöntun.
         7. Veldu **Vista**.
         
         Búið til skattkóðann **BE-RC+21**.
-        1. Veljið **Bæta við**, sláið inn **BE-RC-21** í reitinn **Skattkóði**.
+        1. Veldu **Bæta við**, koma inn **BE-RC+21** í **Skattkóði** sviði.
         2. Veljið **Eftir nettóupphæð** í reitnum **Skatthlutur**.
         3. Veljið **Vista**.
         4. Veljið **Bæta við** í töflunni **Taxti**.

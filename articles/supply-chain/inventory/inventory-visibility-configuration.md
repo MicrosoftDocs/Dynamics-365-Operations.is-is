@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423570"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542287"
 ---
 # <a name="configure-inventory-visibility"></a>Skilgreina Inventory Visibility
 
@@ -53,6 +53,7 @@ Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppset
 |---|---|
 | *OnHandReservation* | Þessi eiginleiki gerir þér kleift að búa til pantanir, neyta bókana og/eða afpanta tiltekið birgðamagn með því að nota Birgðasýnileika. Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Þessi eiginleiki veitir birgðayfirlit fyrir vörur, ásamt öllum víddum. Gögn birgðasamantektar verða samstillt reglulega úr birgðasýnileika. Sjálfgefin samstillingartíðni er einu sinni á 15 mínútna fresti og hægt er að stilla hana allt að einu sinni á 5 mínútna fresti. Fyrir frekari upplýsingar, sjá [Birgðayfirlit](inventory-visibility-power-platform.md#inventory-summary). |
+| *onHandIndexQueryPreloadBackgroundService* | Þessi eiginleiki gerir það mögulegt að forhlaða birgðasýnileika fyrirspurnum fyrir hendi til að setja saman birgðalista með forvöldum víddum. Sjálfgefin samstillingartíðni er einu sinni á 15 mínútna fresti. Fyrir frekari upplýsingar, sjá [Birgðayfirlit](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query). |
 | *OnhandChangeSchedule* | Þessi valfrjálsi eiginleiki gerir kleift að breyta áætluninni við höndina og aðgerðum sem hægt er að lofa (ATP). Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlun og hægt að lofa](inventory-visibility-available-to-promise.md). |
 | *Úthlutun* | Þessi valfrjálsi eiginleiki gerir birgðasýnileika kleift að hafa möguleika á birgðavörn (hringgirðingu) og yfirsölustýringu. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki birgðaúthlutun](inventory-visibility-allocation.md). |
 | *Virkja vörur vöruhúss í birgðasýnileika* | Þessi valfrjálsi eiginleiki gerir Birgðasýnileika kleift að styðja við hluti sem eru virkjaðir fyrir vöruhússtjórnunarferli (WMS). Fyrir frekari upplýsingar, sjá [Stuðningur við birgðasýnileika fyrir WMS hluti](inventory-visibility-whs-support.md). |
@@ -63,7 +64,7 @@ Ef þú veist ekki rétta endastöð fyrir þjónustu birgðasýnileika skaltu o
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Skilgreining gagnagjafa
 
-Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Dæmi um nöfn gagnagjafa eru`fno` (sem þýðir "Dynamics 365 fjármála- og rekstrarforrit") og`pos` (sem þýðir "sölustaður"). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
+Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Dæmi um heiti gagnagjafa innihalda`fno` (sem þýðir "Dynamics 365 fjármála- og rekstrarforrit") og`pos` (sem þýðir "sölustaður"). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
 
 > [!NOTE]
 > The`fno` gagnagjafinn er frátekinn fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með að þú eyðir ekki stillingum sem tengjast`fno` í gagnaveitunni.
@@ -189,7 +190,7 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 1. Í flipanum **Reiknuð mæling** skal velja **Ný reiknuð mæling** til að bæta við reiknaðri mælingu.
 1. Stilltu eftirfarandi reiti fyrir nýju reiknaða mælinguna:
 
-    - **Nýtt útreiknað málsheiti** – Sláðu inn heiti reiknaðs mælingar.
+    - **Nýtt reiknað málsheiti** – Sláðu inn heiti reiknaðs mælingar.
     - **Uppruni gagna** – Veldu gagnagjafann sem tengist nýja breytinum. Fyrirspurnarkerfið er gagnagjafi.
 
 1. Veldu **Bæta við** til að bæta við breytingum við nýja reiknaða mælinguna.

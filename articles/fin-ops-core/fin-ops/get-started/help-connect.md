@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16141
 ms.assetid: 0b9c8630-9474-4473-80fd-7db5d54b2275
 ms.search.form: SystemParameters
-ms.openlocfilehash: 2c45a203303181c7ea23e20f8fa1bdce1c827aa2
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: 75f3cc1b76b2a38d4004c4fa3f86a528a7eebc3f
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462240"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538524"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Stilltu hjálparupplifunina fyrir fjármála- og rekstrarforrit
 
@@ -37,7 +37,7 @@ Fjármála- og rekstrarforrit innihalda hugmyndafræðilegar yfirlit og önnur e
 
 [![Högun Hjálpar.](./media/help-architecture.png)](./media/help-architecture.png)
 
-Hjálparkerfið í vörunni sækir greinar frá Microsoft Docs og öðrum tengdum vefsíðum. Það sækir einnig verkleiðbeiningar sem eru vistaðar í viðskiptaferlavinnslunni (BPM) í Microsoft Dynamics Lifecycle Services (LCS).
+Hjálparkerfið í vörunni dregur greinar frá Microsoft Learn og aðrar tengdar vefsíður. Það sækir einnig verkleiðbeiningar sem eru vistaðar í viðskiptaferlavinnslunni (BPM) í Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="adding-task-guides"></a>Verkefnaleiðbeiningum bætt við
 
@@ -87,7 +87,7 @@ Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það
 
 ### <a name="connect-a-custom-help-site"></a>Tengja sérstillt hjálparsvæði
 
-Fjármála- og rekstrarforrit eru sjaldan notuð í út-af-kassa formi. Þess í stað er lausnin sérsniðin og útvíkkuð til að passa við þarfir fyrirtækisins. Einnig er hægt að sérsníða og víkka út hjálparupplifunina. Til dæmis er hægt að bæta við sérsniðinni hjálp á **hjálparsvæðið**.
+Fjármála- og rekstrarforrit eru sjaldan notuð í útbúnum formi. Þess í stað er lausnin sérsniðin og útvíkkuð til að passa við þarfir fyrirtækisins. Einnig er hægt að sérsníða og víkka út hjálparupplifunina. Til dæmis er hægt að bæta við sérsniðinni hjálp á **hjálparsvæðið**.
 
 Microsoft hefur gefið út verkfærasett til að auðvelda uppsetningu og teningu sérsniðinnar hjálpar á **hjálparsvæðinu**. Frekari upplýsingar um hvernig hægt er að setja upp sérsniðna hjálparlausn sem er tengd við **hjálparsvæðið** er finna í [Sérsniðið hjálparyfirlit](../../dev-itpro/help/custom-help-overview.md).
 

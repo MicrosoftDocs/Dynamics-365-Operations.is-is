@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: f908caa902e4747d324480e3a5108b443d385ea7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: aa6c80914301cc0403974a6acc5e95ff61c9c1a7
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277332"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524690"
 ---
 # <a name="connected-applications"></a>Tengd forrit
 
@@ -35,7 +35,7 @@ Framboð á færibreytum Finance eða Supply Chain Management í RCS er gagnlegt
 ## <a name="create-a-connected-application"></a>Búa til tengt forrit
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
-2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Umhverfi**, skal velja reitinn **Rafræn reikningsfærsla**.
+2. Í **Hnattvæðingareiginleiki** vinnurými, í **Tengdir tenglar** kafla, veldu **Umhverfisuppsetning**.
 3. Á **Umhverfisuppsetning** síðu, á aðgerðarrúðunni, veldu **Tengd forrit**.
 4. Veljið **Nýtt** til að stofna tengt forrit.
 5. Í reitinn **Heiti** skal færa inn heiti forritsins sem á að tengja.

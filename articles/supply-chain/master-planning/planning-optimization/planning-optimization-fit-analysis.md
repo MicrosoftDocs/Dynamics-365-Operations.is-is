@@ -1,6 +1,6 @@
 ---
 title: Samræmisgreining á fínstillingu áætlanagerðar
-description: Þessi grein útskýrir hvernig á að sannreyna núverandi uppsetningu og gögn með hliðsjón af getu skipulagsfínstillingaraðgerðarinnar.
+description: Þessi grein útskýrir hvernig á að sannreyna núverandi uppsetningu og gögn í samanburði við getu skipulagsfínstillingaraðgerðarinnar.
 author: t-benebo
 ms.date: 08/11/2022
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
-ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
+ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347290"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542353"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Samræmisgreining á fínstillingu áætlanagerðar
 
@@ -62,7 +62,7 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | --- | --- | --- | --- |
 | Aðgerðir | Þekjuflokkar með virkan útreikning á aðgerðum: *\#* | Þessi eiginleiki er nú studdur. | Stutt |
 | Grunndagatöl | Dagatöl sem nota grunndagatal: *\#* | Þessi eiginleiki er nú studdur. | Stutt | 
-| Ráðstöfunarkóðar runu | Aðalrunuráðstafanir sem eru ekki nettó: *\#* | Þessi eiginleiki í bið. Sem stendur er litið framhjá ráðstöfunarkóðum runu þegar fínstilling áætlanagerðar er virk. | 2022 útgáfubylgja 2 |
+| Ráðstöfunarkóðar runu | Aðalrunuráðstafanir sem eru ekki nettó: *\#* | Þessi eiginleiki í bið. Sem stendur er litið framhjá ráðstöfunarkóðum runu þegar fínstilling áætlanagerðar er virk. | 2022 útgáfubylgja 2 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
 | Hægt að lofa (CTP) | Sjálfgefnar pöntunarstillingar með afhendingardagsstjórn stillta á afhendingargetu: *\#* | Í Supply Chain Management 10.0.28 og nýrri, ferli sem kallast *CTP fyrir hagræðingu áætlanagerðar* gerir staðfestar sendingar og móttökudagsetningar aðgengilegar eftir að kraftmikla áætlunin hefur verið keyrð. Fyrir eldri útgáfur af Supply Chain Management er eldri CTP stilling hunsuð þegar áætlanagerð fínstilling er virkjuð. | Stutt |
 | Afrita fasta áætlun yfir í breytilega áætlun | Afritun á fastri áætlun yfir í breytilega áætlun er gerð virk á færibreytum aðaláætlanagerðarinnar. | Fínstilling áætlanagerðar afritar ekki fasta áætlun í breytilega áætlun, óháð þessari stillingu. Almennt á þessi hugmynd síður við út af hraðanum og fullri endurmyndun sem fínstilling áætlanagerðar veitir. Ef tvær eða fleiri áætlanir eru notaðar ætti að kvikna á aðaláætlanagerð fyrir hvora áætlun. | Á ekki við |
 | Staðfesting | Þekjuhópar með stillt tímamörk staðfestinga: *\#* | Í útgáfu 10.0.7 og nýrri er staðfesting studd sem aðskilin runuvinnsla staðfestingar þegar aðaláætlanagerð er lokið (að því gefnu að eiginleikinn *Sjálfvirk staðfesting fyrir fínstillingu áætlanagerðar* hafi verið gerður virkur í [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Athugið að sjálfvirk staðfesting fínstillingar áætlanagerðar byggir á pöntunardagsetningunni (upphafsdegi), ekki dagsetningu þarfa (lokadegi). Þessi hegðun tryggir að staðfesting áætlaðra pantana gerist á réttum tíma, án þess að þurfa að hafa afhendingartíma tíma í tímamörkum staðfestingar. | Stutt |

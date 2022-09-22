@@ -2,7 +2,7 @@
 title: Uppfærsluferli
 description: Microsoft Dynamics 365 Human Resources er sannur hugbúnaður sem þjónusta (SaaS) sem veitir stöðugar, snertilausar þjónustuuppfærslur fyrir breytingar á forriti og verkvangi.
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178444"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520811"
 ---
 # <a name="update-process"></a>Uppfærsluferli
 
 _**Á við um:** Mannauður á sjálfstæðum innviðum_ 
 
 > [!NOTE]
-> Frá og með júlí 2022 er ekki hægt að útvega nýtt mannauðsumhverfi á sjálfstæðum mannauðsinnviðum og nýjum Microsoft Dynamics Ekki er hægt að búa til verkefni um líftímaþjónustu (LCS). Viðskiptavinir geta innleitt mannauðsumhverfi á fjármála- og rekstrarinnviðum. Fyrir frekari upplýsingar, sjá [Veiting mannauðs í innviðum fjármála og rekstrar](/hr-admin-setup-provision-fo.md).
+> Frá og með júlí 2022 er ekki hægt að útvega nýtt mannauðsumhverfi á sjálfstæðum mannauðsinnviðum og nýjum Microsoft Dynamics Ekki er hægt að búa til verkefni um líftímaþjónustu (LCS). Viðskiptavinir geta innleitt mannauðsumhverfi á fjármála- og rekstrarinnviðum. Fyrir frekari upplýsingar, sjá [Veiting mannauðs í innviðum fjármála og rekstrar](hr-admin-setup-provision-fo.md).
 
 > [!IMPORTANT]
 > Uppfærslu- og flýtileiðréttingarferlið á innviðum fjármála- og rekstrarforrita er frábrugðið sjálfstætt uppfærslu- og flýtileiðréttingarferli mannauðs. Fyrir frekari upplýsingar um uppfærsluferlið, sjá [Ferli til að fara yfir í nýjustu uppfærslu á fjármálum og rekstri](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Fyrir frekari upplýsingar um flýtileiðréttingar, sjá [Sækja uppfærslur frá Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 

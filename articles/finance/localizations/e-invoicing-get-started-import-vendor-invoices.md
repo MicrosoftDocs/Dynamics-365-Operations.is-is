@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9283146"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524746"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Nota rafræna reikningsþjónustu til að flytja inn reikninga lánardrottna
 
@@ -55,7 +55,7 @@ Skilgreindu rás tölvupóstsreiknings ef eiginleiki rafrænnar reikningsfærslu
     - Vistað eftir heppnaða úrvinnslu: **Safnmappa**
     - Vistað eftir úrvinnsla mistókst: **Villumappa** Þú þarft ekk að búa til þessar möppur í pósthólfinu. Möppurnar eru sjálfkrafa búnar til eftir fyrsta innflutning og úrvinnslu á rafrænum reikningi. 
    
-10. Í reitahópnum **Viðhengjasía** skal bæta við upplýsingum um skráasíun. Aðeins viðhengi sem fullnægja skilgreindri síu eru afgreidd. Til dæmis er hægt að setja upp „\*.xml“ fyrir viðhengi með xml-skrárendingu. Heiti viðhengisins er notað í Dynamics 365 Finance eða Dynamics 365 Supply Chain Management við uppsetningu. 
+10. Í reitahópnum **Viðhengjasía** skal bæta við upplýsingum um skráasíun. Aðeins viðhengi sem fullnægja skilgreindri síu eru afgreidd. Til dæmis er hægt að setja upp „\*.xml“ fyrir viðhengi með xml-skrárendingu. Heiti viðhengis er notað í Dynamics 365 Finance eða Dynamics 365 Supply Chain Management við uppsetningu. 
 11. Í flipanum **Gildissviðsreglur** skal fara yfir og uppfæra skilyrðið ef á þarf að halda. Reiturinn **Rás** verður að jafngilda **Gagnarásinni** sem gefin var upp hér á undan. Frekari upplýsingar er að finna í [Gildissviðsreglur](e-invoicing-configuration-rcs.md#applicability-rules).
 12. Veljið **Vista** og lokið síðunni.
 
@@ -107,7 +107,8 @@ Ljúktu skrefunum í eftirfarandi tveimur hlutum til að setja upp mismunandi ge
 2. Veldu **Samhengislíkan viðskiptavinareiknings** og veldu svo **Stofna skilgreiningu** > **Afleiða frá heiti: Samhengislíkan viðskiptavinareiknings, Microsoft** til að stofna afleidda skilgreiningu.
 3. Í útgáfunni **Drög** skal velja **Hönnuður** og í trénu **Gagnalíkan** skal velja **Varpa líkani á gagnagjafa**.
 4. Í **Skilgreiningatrénu** skal velja **DataChannel** og síðan velja **Hönnuður**.
-5. Í trénu **Gagnagjafar** skal stækka geymsluna **$Context\_Rás**. Í reitnum **Gildi** skal velja **Breyta** og færa inn heiti rásarinnar. Þetta er heiti rásarinnar sem gefið er upp í skilgreiningu gagnarásar fyrir eiginleika rafrænnar reikningsfærslu í RCS. 
+5. Í trénu **Gagnagjafar** skal stækka geymsluna **$Context\_Rás**. 
+6. Í **Gildi** reit, veldu **Breyta** > **Breyta formúlu**, og sláðu inn heiti gagnarásarinnar. Þetta er heiti rásarinnar sem gefið er upp í skilgreiningu gagnarásar fyrir eiginleika rafrænnar reikningsfærslu í RCS. 
 7. Veljið **Vista** og lokið síðunni.
 8. Lokið síðunni.
 9. Veldu afleidda skilgreiningu sem þú varst að búa til í **Samhengislíkan viðskiptavinareiknings** og í flýtiflipanum **Útgáfur** skal velja **Breyta stöðu** > **Lokið**.

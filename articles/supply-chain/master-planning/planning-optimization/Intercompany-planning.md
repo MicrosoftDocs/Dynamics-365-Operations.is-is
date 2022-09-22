@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 65467fd9525ae8fb5a65a9316b7307f611fa6e42
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: 6ef551e1c2c4d90510f967855a5aa61646dc8eab
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475613"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538566"
 ---
 # <a name="intercompany-planning"></a>Áætlanagerð innan samstæðu
 
@@ -45,8 +45,8 @@ Við aðaláætlanagerð getur áætlun í einu fyrirtæki falið í sér áætl
 
 Til að nota samstæðuáætlun verður þú að undirbúa kerfið þitt á eftirfarandi hátt:
 
-1. Losa verður viðeigandi afurðir í öllum viðeigandi fyrirtækjum. Fyrir frekari upplýsingar, sjá [Stilltu og notaðu viðskipti milli fyrirtækja í Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
-1. Eftirspurn fyrir neðan verður að svara með innkaupum af lánardrottinn sem er með samstæðutengsl við fyrirtækið fyrir ofan og viðeigandi sjálfgefnar birgðavíddir (svæði og vöruhús) viðskiptavinarins. Fyrir frekari upplýsingar, sjá [Stilltu og notaðu viðskipti milli fyrirtækja í Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. Losa verður viðeigandi afurðir í öllum viðeigandi fyrirtækjum. Fyrir frekari upplýsingar, sjá [Stilltu og notaðu viðskipti milli fyrirtækja í Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. Eftirspurn fyrir neðan verður að svara með innkaupum af lánardrottinn sem er með samstæðutengsl við fyrirtækið fyrir ofan og viðeigandi sjálfgefnar birgðavíddir (svæði og vöruhús) viðskiptavinarins. Fyrir frekari upplýsingar, sjá [Stilltu og notaðu viðskipti milli fyrirtækja í Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. Aðaláætlunin í fyrirtækinu fyrir ofan verður að innihalda áætlaða eftirspurn fyrir neðan og tilgreina verður viðeigandi fyrirtæki og aðaláætlun í áætlunum fyrir neðan.
 
 ## <a name="include-planned-downstream-demand"></a>Þ.m.t. áætluð eftirspurn forstreymis
