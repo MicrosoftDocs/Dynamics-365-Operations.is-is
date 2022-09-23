@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (ágúst)
                   href: get-started/whats-new-changed-10-0-28.md
-                - name: Finance 10.0.27 (júlí)
-                  href: get-started/whats-new-changed-10-0-27.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -1450,8 +1448,10 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: Reiknar út samræmdan virðisaukaskatt fyrir Kanada
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Staðfæring
+        - name: Globalization Studio
           items:
+            - name: Yfirlit yfir Globalization Studio
+              href: localizations/globalization-studio-overview.md?context=/dynamics365/context/finance
             - name: Altæk tilföng
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/finance
             - name: Staðfæringarþjónusta
@@ -1734,6 +1734,8 @@
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Reikna og stilla virðisaukaskatt á reikningi lánardrottins
                       href: general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                    - name: Leysa mismun á söluskatti
+                      href: general-ledger/resolve-sales-tax-differences-purchase-orders-invoices.md
                     - name: Leiðrétta söluskatt með almennum færslubókum
                       href: general-ledger/adjust-sales-tax-via-general-journals.md
                     - name: Virkja frestaðan útreikning á skatti í færslubók
@@ -2514,6 +2516,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Reikningsfærslukerfi á netinu
                   href: localizations/emea-hun-online-invoicing.md
+                - name: VSK-skýrsla (Ungverjaland)
+                  Href: localizations/emea-hun-vat-declaration-hungary.md
                 - name: VSK-skýrsla fyrir Ungverjaland
                   href: localizations/emea-hun-sales-tax-reports.md
                 - name: Ungverskt Intrastat

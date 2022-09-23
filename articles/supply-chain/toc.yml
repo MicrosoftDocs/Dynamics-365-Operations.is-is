@@ -206,8 +206,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/supply-chain
         - name: Úrræðaleit og algengar spurningar
           href: supply-chain-management-troubleshooting.md
-        - name: Staðfæring
+        - name: Globalization Studio
           items:
+            - name: Yfirlit yfir Globalization Studio
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/supply-chai
             - name: Altæk tilföng
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/supply-chain
             - name: Staðfæringarþjónusta
@@ -1637,6 +1639,8 @@
                   href: inventory/inventory-locations.md
                 - name: Birgðastöður
                   href: inventory/inventory-statuses.md
+                - name: Nota keyrsluráðstöfunarkóða til að merkja keyrslur sem tiltækar eða ekki í boði
+                  href: inventory/batch-disposition-codes.md
                 - name: Búa til nýtt vöruhúsaútlit
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: Vinna með strikamerkjagerðir

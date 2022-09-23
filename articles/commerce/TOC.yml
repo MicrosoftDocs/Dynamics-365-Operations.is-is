@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (júlí 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
-                - name: Commerce 10.0.27 (júlí 2022)
-                  href: get-started/whats-new-commerce-10-0-27.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -1384,10 +1382,12 @@
               href: store-performance-information.md
             - name: 'Setja upp greiningu nýleika-, tíðni- og peningastigs (RFM)'
               href: set-up-rfm-analysis.md
-            - name: Setja upp Microsoft Clarity í Dynamics 36 Commerce
+            - name: Setja upp Microsoft Clarity í Dynamics 365 Commerce
               href: set-up-clarity.md
-        - name: Staðfæring
+        - name: Globalization Studio
           items:
+            - name: Yfirlit yfir Globalization Studio
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/commerce
             - name: Yfirlit fjárhagssamþættingar fyrir Commerce-rás
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: Setja upp fjármálasamþættingu fyrir Commerce-rás
