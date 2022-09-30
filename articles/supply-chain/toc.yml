@@ -1799,10 +1799,12 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Framleiðsluáætlun
                   href: master-planning/planning-optimization/production-planning.md
-                - name: Aðaláætlanagerð fyrir vörur með takmarkað geymsluþol
+                - name: Aðaláætlanagerð fyrir vörur með takmarkaðan endingartíma
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Áætlun með ótakmarkaða getu
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Skipulag og áætlun með takmarkaða getu
+                  href: master-planning/planning-optimization/finite-capacity.md
                 - name: Áætlun með vali á tilföngum út frá getu
                   href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Forgangsröðuð áætlun

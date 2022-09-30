@@ -1624,8 +1624,6 @@
                   href: sysadmin/security-reports.md
                 - name: Búa til nýja notendur
                   href: sysadmin/tasks/create-new-users.md
-                - name: Stjórnun notandalotu
-                  href: sysadmin/user-session-management.md
                 - name: Loka fyrir aðgang að staðsetningu með Azure AD skilyrtum aðgangi
                   href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: Flytja inn marga notendur í einu
