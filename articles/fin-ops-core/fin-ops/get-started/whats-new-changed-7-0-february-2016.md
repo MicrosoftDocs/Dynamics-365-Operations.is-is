@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e69fddf1acd9a9388f62da63e0ca6a19c7a95f55
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 4cd59d5ea2ef8d280a927fd9e9fe3b9af7974d7c
+ms.sourcegitcommit: 0a5885dc792fc608ae59d0ef9b36fb61790b24de
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287081"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "9593988"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)
 
@@ -319,7 +319,7 @@ ms.locfileid: "9287081"
 <tr>
 <td>Fáðu Aðgang að leiðsögn fyrir ferli (verkefnaleiðbeiningar) og hugtökum með því að smella á <strong>Hjálp</strong>.</td>
 <td>AX 2012 hjálparkerfi vísar til í HTML efnis sem vistaðar eru á staðbundna vefþjóninn. Viðskiptavinur og söluaðilar getur búið til þeirra eigin Hjálp.</td>
-<td>Hjálparkerfi í gildandi útgáfu af Dynamics AX birtir verkefnaleiðbeiningar sem eru geymdar í Microsoft Dynamics Lifecycle Services (LCS) BPM. Hjálparkerfið birtir einnig efni frá Microsoft skráarsíðunni. Fyrir frekari upplýsingar sjá <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Hjálparkerfi</a> og <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nýjar leiðbeiningar (febrúar 2016)</a>.</td>
+<td>Hjálparkerfi í gildandi útgáfu af Dynamics AX birtir verkefnaleiðbeiningar sem eru geymdar í Microsoft Dynamics Lifecycle Services (LCS) BPM. Hjálparkerfið sýnir einnig efni frá Microsoft Learn. Fyrir frekari upplýsingar sjá <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Hjálparkerfi</a> og <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nýjar leiðbeiningar (febrúar 2016)</a>.</td>
 <td>Verkefnaleiðbeiningar gefa leiðsögn, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að sækja og sérsníða verkefnaleiðbeiningar sem Microsoft veitir. Greinin veitir hraðari og sveigjanlegri leið til að búa til, afhenda og uppfæra vöruskjöl. Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.</td>
 </tr>
 </tbody>

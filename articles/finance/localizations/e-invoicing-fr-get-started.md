@@ -16,18 +16,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2022-00-02
 ms.dyn365.ops.version: AX 10.0.29
-ms.openlocfilehash: 365316b204b6d76fa6ee6b2402fefee50c8ff3ef
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3ac4af8c131e35d9a499d0d558c7cce1d4872b37
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220715"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573279"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-france"></a>Byrjaðu með rafræna reikningaviðbótinni fyrir Frakkland
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Frakkland. Það leiðir þig í gegnum stillingarskrefin sem eru háð landinu í Regulatory Configuration Service (RCS). Þessi skref eru viðbót við þau skref sem lýst er í [Byrjaðu með viðbótinni fyrir rafræna reikninga](e-invoicing-get-started.md).
 
@@ -61,10 +59,10 @@ Nokkur skref eru nauðsynleg til að stilla **French Chorus Pro uppgjöf (FR)** 
 
 ## <a name="country-specific-configuration-of-the-application-setup-for-the-french-chorus-pro-submission-fr-electronic-invoicing-feature"></a>Landssértæk uppsetning forritsuppsetningar fyrir franska Chorus Pro uppgjöf (FR) rafræna reikningseiginleika
 
-Sumir af breytum frá **French Chorus Pro uppgjöf (FR)** eiginleikar rafrænna reikninga eru birtir með sjálfgefnum gildum. Áður en þú setur rafræna reikningseiginleikann í notkun í þjónustuumhverfinu skaltu endurskoða og uppfæra sjálfgefin gildi eftir þörfum, svo þau endurspegli betur rekstur þinn.
+Sumir af breytum frá **French Chorus Pro uppgjöf (FR)** eiginleikar rafrænna reikninga eru birtir með sjálfgefnum gildum. Áður en þú setur rafræna reikningseiginleikann í notkun í þjónustuumhverfinu skaltu endurskoða og uppfæra sjálfgefna gildin eftir þörfum, svo þau endurspegli betur rekstur þinn.
 
 1. Í Azure lyklahvelfingunni skaltu búa til leyndarmál og samsvarandi tilvísun í þau. Fyrir frekari upplýsingar, sjá [Viðskiptavinavottorð og leyndarmál](e-invoicing-customer-certificates-secrets.md).
-2. Flytja inn nýjustu útgáfuna af **French Chorus Pro uppgjöf (FR)** hnattvæðingareiginleika eins og lýst er í [Flytja inn eiginleika úr alþjóðlegu geymslunni](e-invoicing-import-feature-global-repository.md).
+2. Flytja inn nýjustu útgáfuna af **French Chorus Pro uppgjöf (FR)** hnattvæðingareiginleika eins og lýst er í [Flytja inn eiginleika frá alþjóðlegu geymslunni](e-invoicing-import-feature-global-repository.md).
 3. Búðu til afrit af innfluttum hnattvæðingareiginleikanum og veldu stillingaþjónustuna þína. Fyrir frekari upplýsingar, sjá [Búðu til hnattvæðingareiginleika](e-invoicing-create-new-globalization-feature.md).
 4. Í flipanum **Útgáfa** skal staðfesta að útgáfan **Drög** sé valin.
 5. Á **Uppsetningar** flipann, í hnitanetinu, veldu **UBL Sölureikningur fenginn** uppsetningu eiginleika.

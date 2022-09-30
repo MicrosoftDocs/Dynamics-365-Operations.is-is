@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
+ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894201"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9588954"
 ---
 # <a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum
 
@@ -51,7 +51,7 @@ Almenn geta dreifingar á fjárhagsupphæð veitir eftirfarandi valkosti fyrir v
     -   Hægt er að skoða gildandi bókhaldsstaða skjals í **Tilvísun**. Staðan er fyrir allt skjalið og gefur til kynna hvort skjalið er í vinnslu eða lokið.
 -   **Skoða dreifingar** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur og peningaupphæðir í skjalinu. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
 
-Í útgáfu 10.0.13 hefur eiginleika verið bætt við sem villuleitar töflu yfir dreifingu á fjárhagsupphæð til að ganga úr skugga um að nýju reitirnir séu settir upp á réttan hátt. Þessi eiginleiki kallast **Virkja viðbótarvilluleit í gögnum skjala með því að nota bókhaldsramma upprunaskjals**. Til að nota eiginleikann verður að virkja hann á vinnusvæðinu **Eiginleikastjórnun**. Til að virkja eiginleikann skal leita að heiti eiginleikans í reitnum **Leita** á síðunni **Eiginleikastjórnun** og síðan velja **Virkja núna**.
+Í útgáfu 10.0.13 hefur eiginleika verið bætt við sem villuleitar töflu yfir dreifingu á fjárhagsupphæð til að ganga úr skugga um að nýju reitirnir séu settir upp á réttan hátt. Þessi eiginleiki kallast **Virkja viðbótarvilluleit í gögnum skjala með því að nota bókhaldsramma upprunaskjals**. Sjálfgefið verður kveikt á þessum eiginleika í útgáfu 10.0.29. 
 
 Nánari upplýsingar má nálgast á [Dreifing á fjárhagsupphæðum og færslur undirbókar fyrir lánardrottnareikninga](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 

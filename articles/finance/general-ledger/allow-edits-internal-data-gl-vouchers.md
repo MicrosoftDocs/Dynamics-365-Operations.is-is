@@ -15,22 +15,21 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 26fc6518f0b4eae815e047db1dbaadd7c56a2e67
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 6e346c6ff881d3a33743196b45247493fd19ed1d
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220720"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573252"
 ---
 # <a name="allow-edits-to-internal-data-on-general-ledger-vouchers"></a>Leyfa breytingar á innri gögnum á fylgiskjölum fjárhags
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 
 Þegar þú bókar bókhaldsfærslur í fjárhag, **Lýsing** reiturinn er oft notaður til að geyma innri athugasemdir eða skjöl. Ef upplýsingarnar eru rangar getur það valdið ruglingi og gert tímabilslok erfiðari. Þessi eiginleiki gerir bókhaldsstjóra eða bókhaldsstjóra kleift að laga mistök með því að breyta **Lýsing** reit á bókuðum fylgiskjölum í aðalbók.
 
-Breytingar á bókuðum fylgiskjölum í fjárhag takmarkast við gögn sem eru innri í eðli sínu. Þessi eiginleiki mun aldrei leyfa þér að breyta gögnum eins og upphæðum, bókunardagsetningum, höfuðbókarreikningum og viðskiptagjaldmiðlinum. Breytingar á þeim gögnum munu hafa áhrif á ytri skýrslugerð reikningsskila og verður aðeins að gera með nýjum fylgiskjölum í aðalbók.
+Breytingar á bókuðum fylgiskjölum í fjárhag takmarkast við gögn sem eru innri í eðli sínu. Þessi eiginleiki mun aldrei leyfa þér að breyta gögnum eins og upphæðum, bókunardagsetningum, fjárhagsreikningum og viðskiptagjaldmiðlinum. Breytingar á þeim gögnum munu hafa áhrif á ytri skýrslugerð reikningsskila og verður aðeins að gera með nýjum fylgiskjölum í aðalbók.
 
 > [!NOTE]
 > Fyrir Dynamics 365 Finance útgáfu 10.0.29 er þessi eiginleiki takmarkaður við breytingar á **Lýsing** sviði.
@@ -59,7 +58,7 @@ Breytingarferlið er aðeins leyft frá færslumiðasíðunni.
     [![Fylgiskjal færslubókar.](./media/edit-internal-voucher-data.png)](./media/edit-internal-voucher-data.png)
     
 > [!NOTE]
-> Aðeins **Ný lýsing** reit er hægt að breyta. Sjálfgefið er að gildið passar við gildið á **Núverandi lýsing** reit, svo að þú getir fljótt lagað minniháttar mistök í lýsingunni.
+> Aðeins **Ný lýsing** reit er hægt að breyta. Sjálfgefið passar gildið við gildið á **Núverandi lýsing** reit, svo að þú getir fljótt lagað minniháttar mistök í lýsingunni.
 
 4. Breyttu **Ný lýsing** reit í hverri röð, eða eyða lýsingunni úr hverri línu.
 
@@ -84,13 +83,13 @@ Breytingarferlið er aðeins leyft frá færslumiðasíðunni.
    
     Með því að opna fyrirspurnina á þennan hátt geturðu einbeitt þér að öllum breytingum sem gerðar voru á einni fylgiskjalsskrá.
   
-  - Farðu í** Fjárhagsbók** >**Reglubundin verkefni** > **Endurskoðunarslóð breytinga á fylgiskjölum**. Í svarglugganum, sláðu inn skilyrði til að tilgreina fylgiskjölin sem þú vilt skoða endurskoðunarferil breytinga fyrir. Til að skoða endurskoðunarferil allra fylgiskjala, skildu viðmiðin eftir auð og veldu **Allt í lagi**. 
+  - Farðu í **Fjárhagsbók** >**Reglubundin verkefni** > **Endurskoðunarslóð breytinga á fylgiskjölum**. Í svarglugganum, sláðu inn skilyrði til að tilgreina fylgiskjölin sem þú vilt skoða endurskoðunarferil breytinga fyrir. Til að skoða endurskoðunarferil allra fylgiskjala, skildu viðmiðin eftir auð og veldu **Allt í lagi**. 
     
-    Með því að opna fyrirspurnina á þennan hátt er hægt að sía eftir breytingum sem voru gerðar á tilteknum degi eða af tilteknum notanda.
+    Með því að opna fyrirspurnina á þennan hátt er hægt að sía eftir breytingum sem gerðar voru á tilteknum degi eða af tilteknum notanda.
 
 The **Endurskoðunarslóð breytinga** síða sýnir eftirfarandi upplýsingar:
 
-- **Búin til dagsetning og tími** – Dagsetning og tími breytingarinnar.
+- **Búin til dagsetning og tími** - Dagsetning og tími breytingarinnar.
 - **Ástæða fyrir breytingu** – Ástæðan fyrir því að notandinn kom inn fyrir breytinguna.
 - **Búið til af** - Notandinn sem gerði breytinguna.
 

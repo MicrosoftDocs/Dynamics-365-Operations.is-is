@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
-ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
+ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
+ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473606"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9592047"
 ---
 # <a name="proactive-quality-updates"></a>Fyrirbyggjandi gæðauppfærslur
 
@@ -55,12 +55,12 @@ Núverandi útgáfustjórnunargögn sýna að minna en 3 prósent af afturköllu
 Verið er að innleiða sett af ferlibreytingum fyrir virkjun á fyrirbyggjandi gæðauppfærsluuppfærslu:
 
 - **Skema** – Verkfæri munu tryggja að gæðauppfærslur innihalda aðeins skemabreytingar sem hægt er að beita á meðan þjónustan er á netinu. Þessi nálgun mun hjálpa til við að viðhalda getu til að beita uppfærslunni með næstum núlli niður í miðbæ.
-- **Aukið eftirlit með breytingum** – Eins og er, er nú þegar aukaferlisskref til að samþykkja breytingar fyrir innlimun í gæðauppfærslu. Athugunin í aukaþrepinu verður aukin til að draga úr möguleikum á afturförum. Brotandi breytingar eru ekki leyfðar í gæðauppfærslum og aukin athugun á breytingum mun hjálpa til við að tryggja að við náum þessu markmiði.
+- **Aukið eftirlit með breytingum** – Eins og er, er nú þegar aukaferlisskref til að samþykkja breytingar fyrir innlimun í gæðauppfærslu. Athugunin í aukaskrefinu verður aukin til að draga úr möguleikum á afturförum. Brotandi breytingar eru ekki leyfðar í gæðauppfærslum og aukin athugun á breytingum mun hjálpa til við að tryggja að við náum þessu markmiði.
 - **Skyggni** - Við munum senda tilkynningar í gegnum tölvupóst og Lifecycle Services (LCS) fyrir komandi fyrirbyggjandi gæðauppfærslur. Að auki munu stuðningsteymi og atviksleiðir hafa sýnilegt hvar gæðauppfærslur hafa verið settar á fyrirbyggjandi hátt.
-- **Útgáfa fallback** – Flug verður notað til að flokka allar breytingar í fyrirbyggjandi gæðauppfærslu. Ef þörf er á fallback eftir fyrirbyggjandi dreifingu er hægt að gera það í gegnum flugkerfið.
+- **Fail Safe með flugi** – Flug verður notað til að verja kóðabreytingar þar sem það á við í gæðauppfærslu villuleiðréttingu eða nota núverandi eiginleika flug sem skipta máli fyrir lagfæringuna. Ef þörf er á að breyta til baka eða slökkva á breytingu eftir fyrirbyggjandi uppsetningu er hægt að gera það í gegnum flugkerfið til að forðast frekari bilanir.
 - **Samstillingarheiti fyrir sandkassa** - Innan við 20 prósent viðskiptavina í dag eru með marga sandkassa og halda einum sandkassa uppbyggðum þar sem útgáfan passar við framleiðslu, til að hjálpa við bilanaleit. Ef viðskiptavinur notar sandkassa til að prófa nýrri útgáfu en framleiðslu hans mun sá sandkassi fá gæðauppfærslur í nýrri útgáfuna.
 
-## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Hver er útfærsluvegvísir fyrir gæðauppfærslur?
+## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Hver er útfærsluvegaáætlun fyrir gæðauppfærslur?
 
 Búist er við að dreifing á fyrirbyggjandi gæðauppfærslum fyrir sandkassaumhverfi hefjist seint í september eða október 2022 fyrir viðskiptavini Azure almenningsskýja. Reynsluumhverfi munu einnig byrja að fá fyrirbyggjandi uppfærsluuppfærslu á þeim tíma. Í september verður tilkynning send til hvers viðskiptavinar til að upplýsa þá um væntanlega tímaáætlun fyrir umhverfi sitt. Undantekningar frá fyrirbyggjandi uppfærðu dreifingarferli verða aðeins leyfðar fyrir viðskiptavini sem eru undir eftirliti FDA. Við erum enn að vinna úr því hvernig stjórnað umhverfi og skýjaviðskiptavinum ríkisins og stjórnvalda verður stjórnað.
 
@@ -69,7 +69,7 @@ Búist er við að dreifing á fyrirbyggjandi gæðauppfærslum fyrir sandkassau
 Vegna þess að viðskiptavinir munu reglulega fá minni hleðslu, gerum við ráð fyrir því að ferlið við að vera núverandi verði einfaldara. Við munum breyta tíðni uppfærsluuppfærslu þegar við sýnum getu til að keyra ferlið án truflana. Þetta ferli er nú þegar að virka á áhrifaríkan hátt fyrir okkar Dataverse vettvang og forrit, og er að skila væntanlegum framförum í þjónustugæðum. Okkur langar til að stíga sama skref fram á við fyrir umsóknir um fjármál og rekstur.
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Hvenær hefjast gæðauppfærslur fyrir framleiðsluumhverfi?
-Eins og er miða gæðauppfærslur aðeins á sandkassa. Uppfærslur á framleiðsluumhverfi munu hefjast eftir nóvember 2022.
+Eins og er miða gæðauppfærslur aðeins á sandkassa. Við munum uppfæra þetta rými með upphafsdagsetningu fyrir framleiðsluumhverfi þegar við höfum áþreifanlegri gögn og mælikvarða frá fyrirbyggjandi uppfærslum fyrir sandkassa til að meta tilbúið til framleiðslu.
 
 ## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Hver er áætlunin fyrir gæðauppfærslur á sandkassa?
 Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hver er áætlunin fyrir fyrirbyggjandi gæðauppfærslur](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates)?.

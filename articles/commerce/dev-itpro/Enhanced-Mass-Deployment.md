@@ -9,18 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387020"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589090"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Fjölvirkjun á innsigluðum íhlutum fyrir sjálfsafgreiðslu í Commerce
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein á við um innsiglaða ramma, íhlutauppsetningarforrit sem eru gefin út í hverjum mánuði, frá og með útgáfunni 10.0.18, og sem eru gerð aðgengileg í Sameiginlegu eignasafninu í Microsoft Dynamics Lífsferilsþjónusta (LCS). Athugaðu að fyrstu útgáfur þessara nýju uppsetningarforrita eru merktar sem **(Forskoðun)**. Hins vegar er eini tilgangurinn með þessari tilnefningu að aðgreina nýju uppsetningarforritin á meðan Microsoft ákvarðar hvort það séu einhverjar viðbótarkröfur um virkni til að nota þau. Það þýðir ekki að uppsetningarforritin séu ekki gild fyrir framleiðslu. Byggt á útgáfu þessara nýju uppsetningarforrita ætlar Microsoft að afnema gömlu (gamla) uppsetningartækin í eða í kringum október 2023. 
+Þessi grein á við um innsiglaða ramma, íhlutauppsetningarforrit sem eru gefin út í hverjum mánuði, sem hefst með útgáfunni 10.0.18, og eru gerð aðgengileg í Sameiginlegu eignasafninu í Microsoft Dynamics Lífsferilsþjónusta (LCS). Athugaðu að fyrstu útgáfur þessara nýju uppsetningarforrita eru merktar sem **(Forskoðun)**. Hins vegar er eini tilgangurinn með þessari tilnefningu að aðgreina nýju uppsetningarforritin á meðan Microsoft ákvarðar hvort það séu einhverjar viðbótarkröfur um virkni til að nota þau. Það þýðir ekki að uppsetningarforritin séu ekki gild fyrir framleiðslu. Byggt á útgáfu þessara nýju uppsetningarforrita ætlar Microsoft að afnema gömlu (gamla) uppsetningartækin í eða í kringum október 2023. 
 
 Þessi grein útskýrir hvernig á að nota nýju uppsetningarforritin til að framkvæma hljóðlausar uppsetningar og þjónustuuppfærslur með skipanalínurökum. Þessi rök gera þér kleift að framkvæma fjöldadreifingu á nokkra mismunandi vegu.
 
@@ -44,10 +44,10 @@ Eftirfarandi tafla sýnir afmörkunina sem hægt er að nota í skipanalínunni.
 | -Config | Stillingarskráin sem ætti að nota við uppsetningu. Dæmi um skráarheiti er **Contoso.CommerceScaleUnit.xml**. |
 | -CposAadClientId | The Azure AD auðkenni viðskiptavinar sem Cloud POS ætti að nota við virkjun tækisins. Þessi færibreyta er ekki nauðsynleg fyrir innleiðingu á staðnum. |
 | -Tæki | Auðkenni tækisins, eins og sýnt er á **Tæki** síðu í höfuðstöðvum. |
-| -EnvironmentId | Auðkenni umhverfisins. |
+| -Umhverfiskenni | Auðkenni umhverfisins. |
 | -HardwareStationAppInsightsInstrumentationKey | Vélbúnaðarstöðin AppInsights hljóðfæralykill. |
 | Setja upp | Færibreyta sem tilgreinir hvort íhlutinn sem þetta uppsetningarforrit veitir eigi að vera settur upp. Þessi færibreyta er nauðsynleg til að framkvæma uppsetningu og er ekki með fremstu strikstafi. |
-| -Setja upp án nettengingar | Fyrir Modern POS tilgreinir þessi færibreyta að ótengdur gagnagrunnur ætti einnig að vera settur upp og stilltur. Nota **-SQLServerName** breytu líka. Annars mun uppsetningarforritið reyna að finna sjálfgefið tilvik sem uppfyllir forsendur. |
+| -Setja upp án nettengingar | Fyrir Modern POS tilgreinir þessi færibreyta að ótengdur gagnagrunnur ætti einnig að vera settur upp og stilltur. Nota **-SQLServerName** breytu líka. Annars mun uppsetningarforritið reyna að finna sjálfgefið tilvik sem uppfyllir forsendur. Við notkun Azure Active Directory (Azure AD) auðkenningu, POS án nettengingar virkar ekki þar sem nettenging er alltaf nauðsynleg. |
 | -Höfn | Gáttin sem ætti að vera tengd og notuð af Retail Server sýndarskránni. Ef engin gátt er stillt verður sjálfgefna gáttin, 443, notuð. |
 | -Skráðu þig | Auðkenni skrárinnar, eins og sýnt er á **Skrár** síðu í höfuðstöðvum. |
 | -RetailServerAadClientId | The Azure AD auðkenni viðskiptavinar sem Retail Server ætti að nota í samskiptum við höfuðstöðvar. |
@@ -64,7 +64,7 @@ Eftirfarandi tafla sýnir afmörkunina sem hægt er að nota í skipanalínunni.
 | -SkipSqlFullTextCheck | Rofi sem gefur til kynna hvort sleppa ætti staðfestingu á SQL Server-forsendunni sem krefst fullrar textaleitar. Sjálfgefið gildi er **rangt**. |
 | -SkipSqlServerCheck | Rofi sem gefur til kynna hvort sleppa ætti SQL Server forkröfuskoðunum. Sjálfgefið gildi er **rangt**. |
 | -SqlServerName | SQL Server nafnið. Ef nafnið er ekki tilgreint mun uppsetningarforritið reyna að finna sjálfgefið tilvik. |
-| -SslcertFullPath | Fullsniðin URN slóð sem notar þumalfingur sem leitarmælikvarða fyrir staðsetningu vottorðsins sem ætti að nota til að dulkóða HTTP umferð í mælieininguna. Til dæmis,`store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` er rétt sniðin vefslóð þar sem gildið **\<MyThumbprint\>** verður skipt út fyrir þumalfingur vottorðsins sem ætti að nota. Ekki nota þessa breytu ásamt **-SslCertThumbprint** breytu. |
+| -SslcertFullPath | Fullsniðin URN slóð sem notar þumalfingur sem leitarmælikvarða staðsetningar vottorðsins sem ætti að nota til að dulkóða HTTP umferð í mælieininguna. Til dæmis,`store:\/\/My\/LocalMachine\?FindByThumbprint\=\<MyThumbprint\>` er rétt sniðin vefslóð þar sem gildið **\<MyThumbprint\>** verður skipt út fyrir þumalfingur vottorðsins sem ætti að nota. Ekki nota þessa breytu ásamt **-SslCertThumbprint** breytu. |
 | -SslCertThumbprint | Þumalfingur skírteinisins sem ætti að nota til að dulkóða HTTP umferð á mælikvarðaeininguna. Þetta þumalfingur verður notað til að leita í **LocalMachine/My Store** staðsetningu og nafn til að finna rétta vottorðið til að nota. Ekki nota þessa breytu ásamt **-SslCertFullPath** breytu. |
 | -StoreSystemAosUrl | Vefslóð höfuðstöðvanna (AOS). |
 | -StoreSystemChannel DatabaseId | Auðkenni rásargagnagrunnsins (nafn). |
@@ -86,15 +86,15 @@ Nýja umgjörðin fyrir sjálfsafgreiðslufólk hefur ýmsa eiginleika og endurb
 Uppsetningarforritið krefst færibreytunnar **setja upp** (eða **fjarlægja** til að fjarlægja uppsetninguna) og allar færibreytur sem eru sérstakar fyrir þá uppsetningu. **Nafn færibreytu** ætti að innihalda allar færibreytur sem eru nauðsynlegar eins og skrá, CSU vefslóð eða upplýsingar um vottorð. **Upplýsingar um færibreytur** ætti að innihalda allar viðbótarupplýsingar um færibreyturnar.
 
 Lokaði ramminn hefur verið búinn til til að gera ráð fyrir eftirfarandi breytingum:
-- **Innsiglað** – Nýi uppsetningarramminn skilur algjörlega að Microsoft-dreifðum grunnþáttauppsetningum frá sérstillingunum sem byggja á stækkanleika. Sérstillingarnar verða settar upp eftir á en verða síðan óbundnar varðandi uppfærslur (svo að uppfærslur verða aðeins leyfðar fyrir Microsoft grunnhlutann, aðeins fyrir sérstillingarnar, eða fyrir báðar).
+- **Innsiglað** – Nýi uppsetningarramminn skilur algjörlega að Microsoft-dreifðum grunnþáttauppsetningum frá sérstillingunum sem byggjast á stækkanleika. Sérstillingarnar verða settar upp á eftir en verða síðan óbundnar varðandi uppfærslur (svo að uppfærslur verða aðeins leyfðar fyrir Microsoft grunnhlutann, aðeins fyrir sérstillingarnar, eða fyrir bæði).
 - **GUI-laus** - Það er ekki lengur notendaviðmót (UI). Þess í stað er algjörlega skipanalínudrifin keyrsla fyrir hvern íhlutauppsetningarforrit. Þessi breyting er ein af nokkrum lykilbreytingum eða eiginleikum sem eru notaðir til að einbeita sér að nýja uppsetningarrammanum til notkunar með fjöldadreifingu.
-- **Dýpri skógarhögg** – Auka uppsetningarskrár gera kleift að sannreyna betur að uppsetningu hafi verið lokið eða bilun, skrefin sem voru framkvæmd og allar viðvaranir eða villur sem voru búnar til.
+- **Dýpri skógarhögg** - Bætt uppsetningarskrár gerir kleift að sannreyna betur að uppsetningu sé lokið eða bilun, skrefunum sem voru framkvæmd og hvers kyns viðvaranir eða villur sem voru búnar til.
 - **Hreinsun** – Í nýja rammanum vinna íhlutauppsetningarforritarnir harðar að því að viðhalda hreinleika uppsetningarskránna með því að hreinsa allt innihald íhlutamöppunnar áður en þeir setja upp nýrri íhlutina. Þessi hreinsun tryggir að engar skrár séu eftir sem gætu valdið vandræðum og komið í veg fyrir árangursríka uppsetningu.
 
 Þrír íhlutir hafa ekki verið fluttir yfir í nýja rammann: Virtual Peripheral Simulator, Async Server Connector Service (notað fyrir Dynamics AX 2012 R3 stuðning), og rauntíma þjónustuskipti (notað fyrir Dynamics AX 2012 R3 stuðningur).
 
 > [!NOTE]
-> Uppsetningartæki eru geymd á staðnum og geymd.  Það er mikilvægt, með tímanum, að stjórna eða eyða uppsetningarforritum sem varðveitt er til að sóa ekki plássi. Mælt er með því að halda núverandi uppsetningarforriti fyrir grunníhluti og hvers kyns viðbótauppsetningarforrit fyrir nýjustu útgáfurnar til að endurheimta frá erfiðum aðstæðum.
+> Uppsetningartæki eru geymd á staðnum og geymd.  Það er mikilvægt, með tímanum, að stjórna eða eyða uppsetningarforritum sem varðveitt er til að sóa ekki plássi. Mælt er með því að halda núverandi uppsetningarforriti fyrir grunníhluti og hvers kyns viðbótauppsetningarforrit fyrir nýjustu útgáfurnar til að ná bata eftir erfiðar aðstæður.
 
 ## <a name="migration"></a>Flutningur
 

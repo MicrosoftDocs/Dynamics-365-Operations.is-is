@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 0f005352970ec3dadb178dfafeaf4f7e36f8c18d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279811"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573306"
 ---
 # <a name="get-started-with-tax-calculation"></a>Hafist handa með skattaútreikning
 
@@ -45,7 +45,7 @@ Eftirfarandi mynd sýnir háþróaða keyrslutímahönnun skattaútreiknings. Ve
 4. Skattútreikningsþjónustan passar farminn við fyrirfram skilgreindar reglur í skatteiginleikanum til að finna nákvæmari vsk-flokk og vörusöluskattsflokk samtímis.
 
     - Ef hægt er að passa farminn við **Gildistími skattahóps** fylki, hnekkir það gildi virðisaukaskattshóps með samsvarandi gildi skattahóps í gildisreglunni. Annars heldur það áfram að nota virðisaukaskattshópinn frá Finance.
-    - Ef hægt er að passa farminn við **Gildistími vöruskattshóps** fylki, hnekkir það gildi vörusöluskattsflokks með samsvarandi vöruskattflokksvirði í gildandi reglu. Annars heldur það áfram að nota vöruvirðisaukaskattsflokkinn frá Finance.
+    - Ef hægt er að passa farminn við **Gildistími vöruskattshóps** fylki, hnekkir það vöruvirðisaukaskattsflokksvirði með samsvarandi vöruskattflokksvirði í gildandi reglu. Annars heldur það áfram að nota vöruvirðisaukaskattsflokkinn frá Finance.
 
 5. Skattútreikningsþjónustan ákvarðar endanlega skattkóða með því að nota skurðpunkta vsk-flokks og vöruvsk-flokks.
 6. Skattútreikningsþjónustan reiknar út skatt, byggt á endanlegum skattkóðum sem hún ákvað.
@@ -55,7 +55,7 @@ Eftirfarandi mynd sýnir háþróaða keyrslutímahönnun skattaútreiknings. Ve
 
 ### <a name="high-level-configuration"></a>Uppsetning á háu stigi
 
-Eftirfarandi skref veita yfirlit á háu stigi yfir stillingarferlið fyrir skattútreikningsþjónustuna.
+Eftirfarandi skref veita yfirlit á háu stigi yfir stillingarferlið fyrir skattaútreikningsþjónustuna.
 
 1. Í LCS skaltu setja upp **Skattútreikningur** viðbót í LCS verkefninu þínu.
 2. Í RCS, búðu til **Skattútreikningur** eiginleiki.
@@ -66,7 +66,7 @@ Eftirfarandi skref veita yfirlit á háu stigi yfir stillingarferlið fyrir skat
     3. Búðu til skattahóp.
     4. Stofna vöruskattflokk.
     5. Valfrjálst: Stofna nothæfi skattaflokks ef þú vilt hnekkja sjálfgefnum söluskattsflokki sem færður er inn úr aðalgögnum viðskiptavinar eða lánardrottins.
-    6. Valfrjálst: Stofna nothæfi vöruflokks ef þú vilt hnekkja sjálfgefnum vörusöluskattsflokki sem færður er inn úr stofngögnum vöru.
+    6. Valfrjálst: Stofna nothæfni vöruflokks ef þú vilt hnekkja sjálfgefnum vörusöluskattsflokki sem færður er inn úr stofngögnum vöru.
 
 4. Í RCS, fylltu út og birtu **Skattútreikningur** eiginleiki.
 5. Í Fjármál, veldu útgefið **Skattútreikningur** eiginleiki.
@@ -81,7 +81,7 @@ Hlutarnir sem eftir eru í þessari grein veita ítarlegri stillingarskref.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú getur klárað þær aðgerðir sem eftir eru í þessari grein verða eftirfarandi skilyrði að vera uppfyllt:<!--TO HERE-->
+Áður en þú getur klárað þær aðferðir sem eftir eru í þessari grein verða eftirfarandi skilyrði að vera uppfyllt:<!--TO HERE-->
 
 - Þú verður að hafa aðgang að LCS-reikningnum þínum og þú verður að hafa virkjað LCS-verk með umhverfi í lagi 2 (eða ofar) sem keyrir Dynamics 365 útgáfu 10.0.21 eða nýrri.
 - Þú verður að búa til RCS umhverfi fyrir fyrirtækið og þú verður að hafa aðgang að reikningnum þínum. Nánari upplýsingar um hvernig á að stofna RCS-umhverfi er að finna í [Yfirlit Regulatory configuration service](rcs-overview.md).
@@ -186,9 +186,9 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
 
     | Skattflokkur    | Skattkóðar           |
     | ------------ | ------------------- |
-    | DEU_Domestic | DEU_VAT19; DEU_VAT7 |
+    | DEU_Dom | DEU_VAT19; DEU_VAT7 |
     | DEU_EU       | DEU_Exempt          |
-    | BEL_Domestic | BEL_VAT21; BEL_VAT6 |
+    | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
 20. Í flipanum **Skattflokkur vöru** skal velja dálkinn **Skattflokkur vöru**, bæta honum við fylkið sem skilyrði innsláttar og síðan bæta við línum til að vinna með aðalgögn skattflokks vöru.
@@ -206,9 +206,9 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
 
     | Viðskiptaferli | Sendandi | Viðtakandi | Skattflokkur    |
     | ---------------- | --------- | ------- | ------------ |
-    | Sala            | DEU       | DEU     | DEU_Domestic |
+    | Sala            | DEU       | DEU     | DEU_Dom |
     | Sala            | DEU       | FRA     | DEU_EU       |
-    | Sala            | BEL       | BEL     | BEL_Domestic |
+    | Sala            | BEL       | BEL     | BEL_Dom |
     | Sala            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]

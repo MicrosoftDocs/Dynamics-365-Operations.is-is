@@ -1,6 +1,6 @@
 ---
 title: Samræmisgreining á fínstillingu áætlanagerðar
-description: Þessi grein útskýrir hvernig á að sannreyna núverandi uppsetningu og gögn í samanburði við getu skipulagsfínstillingaraðgerðarinnar.
+description: Þessi grein útskýrir hvernig á að sannreyna núverandi uppsetningu og gögn með hliðsjón af getu skipulagsfínstillingaraðgerðarinnar.
 author: t-benebo
 ms.date: 08/11/2022
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542353"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591851"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Samræmisgreining á fínstillingu áætlanagerðar
 
@@ -94,7 +94,7 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | Framleiðsla | Formúluútgáfur með arði: *\#* | Þessi eiginleiki í bið. Sem stendur er arðurinn sem tengist formúluútgáfunni hunsaður þegar fínstilling áætlanagerðar er virk. | 2022 útgáfubylgja 2 |
 | Framleiðsla | Áætlanir sem fela í sér röðun: *\#* | Þessi eiginleiki í bið. Sem stendur er röðun hunsuð þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | 2022 útgáfubylgja 2 |
 | Framleiðsla | Útgefnar framleiðslupantanir sem ekki byrjað á, þar sem áætluð byrjun er á undan deginum í dag: *\#* | Þessi eiginleiki í bið. Eins og er, ef framleiðslupöntun seinkar, mun aðaláætlanagerð gera ráð fyrir því að henni verði lokið í dag. Þetta á við um útgefnar framleiðslupantanir þar sem afhendingardagsetning er í fortíðinni, en hefur ekki verið lokið. | Framtíðarbylgja |
-| Framleiðsla | Tímasett tilföng með takmarkaða getu: *\#* | Þessi eiginleiki í bið. Sem stendur eru tilföng sem áætluð eru með takmarkaðri getu hunsuð þegar fínstilling áætlanagerðar er virk. Áætlanagerð byggist á sjálfgefnum afhendingartíma afurðarinnar. | 2022 útgáfubylgja 2 |
+| Framleiðsla | Tímasett tilföng með takmarkaða getu: *\#* | Þessi eiginleiki er nú studdur.| Stutt |
 | Framleiðsla | Leiðir notaðar við áætlanagerð: *\#* | Þessi eiginleiki er studdur. | Stutt |
 | Framleiðsla | Frátekningaraðferð sölulínu með frátekningu: *\#* | Frátekning sölulínu sem notar útþenslu er ekki studd þegar fínstilling áætlanagerðar er virk. | Framtíðarbylgja |
 | Framleiðsla | Áætlanagerð með frátekningu framleiðslupantana: *\#* | Áætlanagerð sem notar útþenslu framleiðslupantana er ekki studd þegar fínstilling áætlanagerðar er virk. Hægt er að áætla hverja framleiðslupöntun fyrir sig. | Framtíðarbylgja |
