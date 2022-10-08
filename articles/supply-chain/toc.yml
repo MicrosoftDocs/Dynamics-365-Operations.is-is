@@ -1749,18 +1749,8 @@
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: IoT-greind
           items:
-            - name: IoT-gervigreind – heimasíða
+            - name: IoT-greind nú skipt út fyrir Sensor Data Intelligence
               href: iot/iot-intelligence-home-page.md
-            - name: Setja upp Azure-tilföng
-              href: iot/iot-azure-setup.md
-            - name: Snið skilaboðaskema fyrir IoT Hub
-              href: iot/iot-schema-format.md
-            - name: Setja upp mælieiningar
-              href: iot/iot-metrics-setup.md
-            - name: Uppsetning sviðsmyndar
-              href: iot/iot-scenario-setup.md
-            - name: Fylgjast með og stjórna
-              href: iot/iot-management.md
         - name: Aðaláætlanagerð
           items:
             - name: Aðaláætlanagerð – heimasíða
