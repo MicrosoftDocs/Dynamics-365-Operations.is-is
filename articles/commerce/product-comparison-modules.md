@@ -2,19 +2,19 @@
 title: Afurðasamanburðareiningar
 description: Þessi grein lýsir vörusamanburðareiningum og hvernig á að útfæra þær þannig að viðskiptavinir geti gert vörusamanburð á Microsoft Dynamics 365 Commerce rafræn viðskipti vefsíður.
 author: ashishmsft
-ms.date: 08/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 9ff45f3fbcc86b21f336d580582adef586417de4
+ms.sourcegitcommit: 66b954827826706ea2ba00c2afd5d694ad92148d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474127"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9618386"
 ---
 # <a name="product-comparison-modules"></a>Afurðasamanburðareiningar
 
@@ -91,6 +91,19 @@ Til að bæta vörusamanburðarhnappi við vöruflísar á leitar- og flokkanið
 1. Í eiginleikarúðunni til hægri skaltu stilla **Vörusamanburðarhnappur** mát eiginleika.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
 1. Veldu **Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
+
+## <a name="add-a-product-comparison-preview-panel-module-to-pages-on-your-website"></a>Bættu við forskoðunarborðseiningu vörusamanburðar við síður á vefsíðunni þinni
+
+Forskoðunareining fyrir vörusamanburð veitir viðskiptavinum þínum möguleika á að skoða vörur sem þeir bæta við eða fjarlægja úr samanburðinum. Forskoðunarspjaldið býður einnig upp á möguleika til að fletta beint á samanburðarsíðuna eða hreinsa allan vörulistann. 
+
+Við mælum með því að þú kveikir á forskoðunarspjaldinu á öllum síðum sem hafa **Vörusamanburðarhnappur** virkt. Hægt er að bæta einingunni við **Vörusamanburðarhnappur** sem rauf, eða það er hægt að nota það sem sjálfstæða einingu sem þú getur stillt á hvaða síðu sem er, jafnvel þegar það er engin virkni til að bæta við eða fjarlægja vörur til að bera saman. 
+
+Þú verður að bæta forskoðunarborðseiningunni fyrir vörusamanburð handvirkt á síðu. Þú ættir aðeins að bæta við einni forskoðunarborðseiningu á síðu. Ef þú bætir mörgum tilfellum af einingunni á síðu, verður fyrsta einingin sýnd og restin verður hunsuð.
+
+![Forskoðunarspjald fyrir vörusamanburð](./media/product-comparison-preview-panel-2.png)
+
+Ef þú tilgreinir vörusamanburðarmörk hefurðu möguleika á að virkja gráa staðgengla á forskoðunarspjaldinu sem gefa til kynna hversu mörgum fleiri vörum er hægt að bæta við samanburðinn. Gráum staðgengjum er skipt út fyrir vörur þegar þeim er bætt við samanburðinn. Til að stilla vörusamanburðarmörk og virkja gráa staðgengla, í vefsvæðisgerð, farðu á **Vefstillingar > Viðbætur**, og gerðu breytingar þínar í **Vörusamanburður** kafla. Uppsetningin verður notuð á öll forskoðunarspjöld fyrir allar síður. 
+
 
 ## <a name="specify-the-maximum-number-of-products-to-show-in-the-comparison-tray"></a>Tilgreindu hámarksfjölda vara til að sýna í samanburðarbakkanum
 

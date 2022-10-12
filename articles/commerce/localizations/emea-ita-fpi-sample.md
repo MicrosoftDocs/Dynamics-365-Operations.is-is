@@ -2,19 +2,19 @@
 title: Dæmi um samþættingu strimlaprentara fyrir Ítalíu
 description: Þessi grein veitir yfirlit yfir úrtak ríkisfjármálasamþættingar fyrir Ítalíu í Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/18/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-01
-ms.openlocfilehash: dff555a58c31b4e3daedd56b617dd44c4a87e601
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6ad97e87e4114a8f2250d0ba4880b7a466b3689e
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337252"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631397"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Dæmi um samþættingu strimlaprentara fyrir Ítalíu
 
@@ -23,7 +23,7 @@ ms.locfileid: "9337252"
 
 Þessi grein veitir yfirlit yfir úrtak ríkisfjármálasamþættingar fyrir Ítalíu í Microsoft Dynamics 365 Commerce.
 
-Viðskiptavirknin fyrir Ítalíu felur í sér sýnishorn af samþættingu sölustaðarins (POS) við fjárhagsprentara. Sýnið framlengir [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) þannig að það virki með [Epson FP-90III röð](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) prentara frá Epson, og gerir samskipti við fjárhagsprentara í vefþjónsham í gegnum EpsonFPMate vefþjónustuna sem notar Fiscal ePOS-Print API. Sýnið styður aðeins Registratore Telematico (RT) ham. Sýnishornið er gefið í formi frumkóða og er hluti af Commerce hugbúnaðarþróunarsettinu (SDK).
+Viðskiptavirknin fyrir Ítalíu inniheldur sýnishorn af samþættingu sölustaðarins (POS) við fjárhagsprentara. Sýnið framlengir [virkni í ríkisfjármálum](fiscal-integration-for-retail-channel.md) þannig að það virki með [Epson FP-90III röð](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) prentara frá Epson, og gerir samskipti við fjárhagsprentara í vefþjónsham í gegnum EpsonFPMate vefþjónustuna sem notar Fiscal ePOS-Print API. Sýnið styður aðeins Registratore Telematico (RT) ham. Sýnishornið er gefið í formi frumkóða og er hluti af Commerce hugbúnaðarþróunarsettinu (SDK).
 
 Microsoft gefur ekki út vélbúnað, hugbúnað eða skjöl frá Epson. Fyrir upplýsingar um hvernig á að fá fjárhagsprentarann og stjórna honum, hafðu samband [Epson Italia SpA](https://www.epson.it)
 
@@ -39,7 +39,7 @@ Eftirfarandi aðstæður falla undir samþættingarsýni prentara fyrir Ítalíu
 
         - Kort að skattanúmerum skattaprentara (deildir).
         - Flytja kortlögð skattagögn til fjárhagsprentarans.
-        - Prentaðu skatta á skattskvittun.
+        - Prentaðu skatta á ríkisskattskvittun.
 
     - Greiðslur:
 
@@ -73,7 +73,7 @@ Eftirfarandi aðstæður falla undir samþættingarsýni prentara fyrir Ítalíu
 
 ### <a name="gift-cards"></a>Gjafakort
 
-Samþættingarsýni prentara útfærir eftirfarandi reglur sem tengjast gjafakortum:
+Fjárhagsprentarasamþættingarsýnishornið útfærir eftirfarandi reglur sem tengjast gjafakortum:
 
 - Útiloka sölulínur sem tengjast *Gefðu út gjafakort* og *Bæta við gjafakort* rekstur frá ríkiskvittun.
 - Ekki prenta út greiðslukvittun ef hún samanstendur eingöngu af gjafakortalínum.
@@ -83,7 +83,7 @@ Samþættingarsýni prentara útfærir eftirfarandi reglur sem tengjast gjafakor
 
 ### <a name="customer-deposits-and-customer-order-deposits"></a>Innlán viðskiptavina og pantanir viðskiptavina
 
-Fjárhagsprentarasamþættingarsýnishornið útfærir eftirfarandi reglur sem tengjast innlánum viðskiptavina og innborgunum viðskiptavina:
+Fjárhagsprentarasamþættingarsýnishornið útfærir eftirfarandi reglur sem tengjast innlánum viðskiptavina og innlánum viðskiptavinapöntunar:
 
 - Ekki prenta út ríkisreikning ef viðskiptin eru innborgun viðskiptavina.
 - Ekki prenta út reikningskvittun ef færsla inniheldur aðeins innborgun viðskiptavinapöntunar eða endurgreiðslu innborgunar viðskiptavinarpöntunar.
@@ -111,7 +111,7 @@ Ljúktu við uppsetningarskref fjárhagssamþættingar eins og lýst er í [Sett
 1. [Settu upp fjárhagstexta fyrir afslætti](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
 1. [Stilltu stillingar fyrir villumeðferð](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [Settu upp fjárhagslegar X/Z skýrslur frá POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-1. [Virkja handvirka framkvæmd frestaðrar fjárhagsskráningar](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Virkja handvirka framkvæmd á frestað fjárhagsskráningu](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Settu upp virkni fyrir stjórnun viðskiptavinaupplýsinga í POS](emea-ita-customer-information.md#setup).
 1. [Stilltu rásaríhluti](#configure-channel-components).
 
@@ -134,12 +134,12 @@ Til að virkja skráningarferlið skaltu fylgja þessum skrefum til að setja up
     > - **Stillingarskrá fjárhagstengis:** RetailSdk\\ SampleExtensions\\ Vélbúnaðarstöð\\ Viðbót.EpsonFP90IIIFiscalDeviceSample\\ Stillingar\\ Tengi EpsonFP90IIISample.xml
 
 1. Opnið **Retail og Commerce \> Uppsetning höfuðstöðva \> Færibreytur \> Samnýttar færibreytur Commerce**. Á **Almennt** flipann, stilltu **Virkja samþættingu í ríkisfjármálum** valmöguleika til **Já**.
-1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Veitendur ríkisfjármálaskjala**, og hlaðið inn stillingarskrá fjárhagsskjalaveitunnar sem þú sóttir áðan.
+1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Veitendur ríkisfjármálaskjala**, og hlaðið inn stillingaskrá fjárhagsskjalaveitunnar sem þú hleður niður áðan.
 1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Fjárhagstengingar**, og hlaðið inn stillingarskrá fjárhagstengis sem þú hleður niður áðan.
-1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tengi virkni snið**. Búðu til nýtt virknisnið fyrir tengi. Veldu skjalaveituna og tengið sem þú hleður inn áðan. Uppfærðu [gagnakortastillingar](#default-data-mapping) eins og krafist er.
+1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Virknisnið fyrir tengi**. Búðu til nýtt virknisnið fyrir tengi. Veldu skjalaveituna og tengið sem þú hleður inn áðan. Uppfærðu [gagnakortastillingar](#default-data-mapping) eins og krafist er.
 1. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Tæknisnið fyrir tengi**. Búðu til nýtt tæknisnið fyrir tengi og veldu fjárhagstengi sem þú hleður inn áðan. Uppfærðu [tengistillingar](#fiscal-connector-settings) eins og krafist er.
 6. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Fjárhagstengingarhópar**. Stofna nýjan fjárhagstengihóp fyrir virknisniðið tengi sem þú bjóst til áður.
-7. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Skráningarferli í ríkisfjármálum**. Stofna nýtt fjárhagsskráningarferli og fjárhagsskráningarferlisþrep og velja fjárhagstengihópinn sem þú stofnaðir áðan.
+7. Fara til **Verslun og verslun \> Rásaruppsetning \> Samþætting í ríkisfjármálum \> Skráningarferli í ríkisfjármálum**. Búðu til nýtt fjárhagsskráningarferli og fjárhagsskráningarferlisþrep og veldu fjárhagstengihópinn sem þú stofnaðir áðan.
 8. Farðu í **Retail og Commerce \> Uppsetning rásar \> Uppsetning sölustaðar \> Forstillingar sölustaðar \> Virknireglur**. Veldu virknisnið sem er tengt við verslunina þar sem skráningarferlið á að virkja. Á **Skráningarferli í ríkisfjármálum** Flýtiflipi, veldu fjárhagsskráningarferlið sem þú bjóst til áðan.
 9. Fara til **Verslun og verslun \> Rásaruppsetning \> POS uppsetning \> POS snið \> Vélbúnaðarsnið**. Veldu vélbúnaðarsnið sem er tengt við vélbúnaðarstöðina sem fjárhagsprentarinn verður tengdur við. Á **Jaðartæki í ríkisfjármálum** Flýtiflipi, veldu tæknisniðið sem þú bjóst til áðan.
 10. Opnaðu dreifingaráætlun (**Verslun og verslun \> Upplýsingatækni í smásölu og viðskiptum \> Dreifingaráætlun**), og veldu störf **1070** og **1090** að flytja gögn í rásargagnagrunninn.
@@ -181,7 +181,7 @@ Eftirfarandi sjálfgefna gagnavörpun er innifalin í uppsetningu fjárhagsskjal
 
 - **Strikamerkistegund fyrir kvittunarnúmer** – Tegund strikamerkis sem er notað til að sýna kvittunarnúmer á reikningskvittun. Sjálfgefin kortlagning er **KÓÐI128**.
 - **Prentaðu fjárhagsgögn í kvittunarhaus** – Ef kveikt er á þessari færibreytu verða upplýsingar um verslun prentaðar á fjárhagskvittun. Þessar upplýsingar innihalda nafn verslunarinnar, heimilisfang og skattanúmer og nafn gjaldkera.
-- **Kortlagning ríkisprentaradeildar** – Kortlagning deilda skattprentara að virðisaukaskattshlutföllum, virðisaukaskattsundanþágu eðli og vörutegundum. Eftirfarandi dæmi sýnir sjálfgefna kortlagningu.
+- **Kortlagning ríkisprentaradeildar** – Kortlagning deilda skattprentara að virðisaukaskattshlutföllum (virðisaukaskatti), tegundum sem eru undanþegnir virðisaukaskatti og vörutegundum. Eftirfarandi dæmi sýnir sjálfgefna kortlagningu.
 
     ```JSON
     {"Departments": [
@@ -217,7 +217,7 @@ Eftirfarandi sjálfgefna gagnavörpun er innifalin í uppsetningu fjárhagsskjal
 
     Ekkert sjálfgefið gildi er tilgreint fyrir þessa vörpun. Þú verður að velja upplýsingakóða sem er stilltur í forritinu þínu.
 
-- **Upplýsingakóði fyrir upprunalega söludagsetningu** – Upplýsingakóðinn sem er notaður til að fanga upprunalega söludagsetninguna fyrir skilafærslu ef engin upprunaleg sölukvittun fylgir. Þessi breytu er notuð ásamt **Upplýsingakóði fyrir uppruna skila** og **Skila upprunakortlagningu** færibreytur til að búa til rétt skilaboð í fjárhagskvittun um uppruna skilafærslu ef engin upprunaleg sölufærsla er til.
+- **Upplýsingakóði fyrir upprunalega söludagsetningu** – Upplýsingakóðinn sem er notaður til að fanga upprunalega söludagsetningu fyrir skilafærslu ef engin upprunaleg sölukvittun fylgir. Þessi breytu er notuð ásamt **Upplýsingakóði fyrir uppruna skila** og **Skila upprunakortlagningu** færibreytur til að búa til rétt skilaboð í fjárhagskvittun um uppruna skilafærslu ef engin upprunaleg sölufærsla er til.
 
     Upplýsingakóðinn ætti að vera stilltur þannig að **Tegund inntaks** reiturinn er stilltur á **Dagsetning**. Hann ætti að vera stilltur sem skyldubundinn upplýsingakóði sem er rekinn einu sinni í hverja sölufærslu. Það ætti einnig að vera úthlutað sem **Tengdur upplýsingakóði** fyrir upplýsingakóðann sem er valinn fyrir **Upplýsingakóði fyrir uppruna skila** færibreytu, þannig að upplýsingakóðarnir tveir eru sendir hver á eftir öðrum.
 
@@ -237,7 +237,7 @@ Eftirfarandi sjálfgefna gagnavörpun er innifalin í uppsetningu fjárhagsskjal
 
     - **ReturnOrigin** er einn af mögulegum uppruna skila í verslunum þínum. Gildið ætti að samsvara gildi á **Upplýsingakóði fyrir uppruna skila** breytu.
     - **PrinterReturnOrigin** er einn af þeim skilaupprunum sem fjárhagsprentarinn samþykkir (**POS**, **·**, eða **ND**).
-    - **PrinterReturnOriginWithoutFiscal Data** er skilauppruni sem fjárhagsprentari samþykkir og samsvarar skilafærslu sem er tengd upprunalegri sölufærslu sem hefur ekki tengd fjárhagsgögn vegna þess að hún var ekki skráð í gegnum fjárhagsprentara. Í þessu tilviki er upprunalega söludagsetningin auðkennd sem dagsetning upprunalegu sölufærslunnar.
+    - **PrinterReturnOriginWithoutFiscal Data** er skilauppruni sem fjárhagsprentari samþykkir og samsvarar skilafærslu sem er tengd upprunalegri sölufærslu sem hefur ekki tengd fjárhagsgögn vegna þess að hún var ekki skráð í gegnum fjárhagsprentara. Í þessu tilviki er upprunalega söludagsetningin auðkennd sem dagsetning upphaflegu sölufærslunnar.
 
 Eftirfarandi sjálfgefna gagnakortanir eru úreltar og eru aðeins geymdar vegna bakábaks samhæfni:
 
@@ -295,7 +295,7 @@ Til að setja upp þróunarumhverfi til að prófa og stækka úrtakið skaltu f
 
 #### <a name="production-environment"></a>Framleiðsluumhverfi
 
-Fylgdu skrefunum í [Settu upp byggingarleiðslu fyrir fjárhagslega samþættingarsýni](fiscal-integration-sample-build-pipeline.md) til að búa til og gefa út Cloud Scale Unit og sjálfsafgreiðslupakka fyrir fjárhagslega samþættingarúrtakið. The **EpsonFP90III build-pipeline.yml** sniðmát YAML skrá er að finna í **Leiðsla\\ YAML_skrár** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions) geymsla.
+Fylgdu skrefunum í [Setja upp byggingarleiðslu fyrir fjárhagslega samþættingarsýni](fiscal-integration-sample-build-pipeline.md) að búa til og gefa út Cloud Scale Unit og sjálfsafgreiðslupakka fyrir samþættingarúrtakið í ríkisfjármálum. The **EpsonFP90III build-pipeline.yml** sniðmát YAML skrá er að finna í **Leiðsla\\ YAML_skrár** mappa af [Dynamics 365 Commerce Lausnir](https://github.com/microsoft/Dynamics365Commerce.Solutions) geymsla.
 
 ## <a name="design-of-extensions"></a>Hönnun viðbygginga
 

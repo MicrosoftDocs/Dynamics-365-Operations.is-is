@@ -1,8 +1,8 @@
 ---
-title: IoT-gervigreind – heimasíða
-description: Þessi grein veitir tengla á upplýsingar um IoT Intelligence.
+title: IoT Intelligence er nú skipt út fyrir Sensor Data Intelligence
+description: Þessi grein útskýrir að IoT Intelligence hefur nú verið skipt út fyrir Sensor Data Intelligence
 author: johanhoffmann
-ms.date: 08/04/2022
+ms.date: 09/30/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,60 +13,21 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-25
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d8b2be25abaeff7404d7f4ef3cd825a50147fef
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: a754fc44fa780a4645b9ad457f5a1e3f0bdd6365
+ms.sourcegitcommit: 073604c07116e0a87f78ab2c76cb89ae83ebba3c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228358"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9608062"
 ---
-# <a name="iot-intelligence-home-page"></a>IoT-gervigreind – heimasíða
+# <a name="iot-intelligence-now-replaced-by-sensor-data-intelligence"></a>IoT Intelligence er nú skipt út fyrir Sensor Data Intelligence
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [iot-sdi-announcement](../../includes/iot-sdi-announcement.md)]
 
-> [!IMPORTANT]
-> Þessi eiginleiki er sem stendur aðeins í boði í eftirfarandi löndum/svæðum:
->
-> - US (Bandaríkin)
-> - ESB (Evrópusambandið)
-> - AU (Ástralía)
-> - CA (Kanada)
-> - UK (Bretland)
+IoT Intelligence eiginleiki hefur verið uppfærður í útgáfu 2.0 og á sama tíma breytt í *Skynjaragagnagreind*. Nýja útgáfan er í boði sem forskoðun fyrir Supply Chain Management útgáfu 10.0.30 eða nýrri.
 
-IoT-gervigreind er viðbót fyrir Microsoft Dynamics 365 Supply Chain Management. Hún samþættir Internet of Things (IoT) merki með gögnum í Supply Chain Management til að búa til innsýn sem hægt er að bregðast við.
+Með Sensor Data Intelligence er kynnt til sögunnar nýtt innleiðingarlíkan þar sem nauðsynlegir Azure-þættir eru settir upp á eigin Azure-áskrift í stað þess að þeim sé stjórnað af Microsoft. Þetta nýja líkan eykur möguleika þína á að sérsníða eiginleikann og samþætta hann við kerfi þriðju aðila. Nýja útgáfan kynnir einnig stuðning við tvær nýjar Internet of things (IoT) aðstæður fyrir eignastýringu.
 
-IoT gervigreind styður eftirfarandi atburðarásir:
-
-- **Seinkun á framleiðslu** – Þessi atburðarás ber saman raunverulegan tíma ferlis við áætlaðan tíma ferlis. Supply Chain Management tilkynnir þér þegar framleiðsla er ekki á áætlun þannig að þú getir brugðist við til að hámarka rekstrarhagkvæmni og komið í veg fyrir seinkun á pöntunum.
-- **Niðurtími búnaðar** – Í þessari atburðarás er borinn saman mældur uppitími við notandaskilgreindar færibreytur. Supply Chain Management tilkynnir þér þegar farið er yfir mörk stöðvunar þannig að þú getir gripið til aðgerða á borð við enduráætlun á verkbeiðni framleiðslu eða stofnun viðhaldsverkbeiðni.
-- **Gæði vöru** – Í þessari atburðarás eru skynjunarlestrar bornir saman, t.d. raki og hitastig, við gæðamælingar skilgreindar af notanda. Supply Chain Management tilkynnir þér þegar frávik kemur upp þannig að þú getir brugðist við til að halda uppi gæðum og lágmarkað eyðslu.
-
-Eftirfarandi mynd sýnir samspil Azure IoT Hub, IoT-gervigreind og Supply Chain Management.
-
-![IoT Hub, IoT-gervigreind og Supply Chain Management.](media/iot_intelligence.png)
-
-<!-- KFM: hide setup info for now
-
-## Setup
-
-You can set up and configure IoT Intelligence without writing any code. Here are the basic steps.
-
-1. [Set up Azure resources](iot-azure-setup.md) – Create an IoT hub, a Redis cache, and a key vault that can be accessed from Supply Chain Management.
-2. [Message schema formats for IoT Hub](iot-schema-format.md) – Configure your devices to send messages to IoT Hub, and define the JavaScript Object Notation (JSON) message format.
-3. In Feature Management, enable the IoT Intelligence feature flag. 
-4. [Install the IoT Intelligence add-in in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md) – Install the add-in in LCS, and configure the Azure secrets.
-5. [Set up metrics](iot-metrics-setup.md) – Set up metrics in Supply Chain Management.
-6. [Scenario setup](iot-scenario-setup.md) – Set up the scenarios in Supply Chain Management.
-
--->
-
-## <a name="tracking-and-maintenance"></a>Rakning og viðhald
-
-- [Fylgjast með aðstæðum í Dynamics 365 Supply Chain Management](iot-management.md#monitor-scenarios)
-- [Gera aðstæður óvirkar](iot-scenario-setup.md#disable-a-scenario)
-- [Breyta aðstæðum IoT-gervigreind í vinnslu](iot-management.md#modify-a-running-iot-intelligence-scenario)
-- [Hermivalkostir](iot-management.md#simulation-options)
-
+Vegna þessara væntanlegu breytinga mælir Microsoft ekki með því að hafin séu ný verkefni sem byggja á IoT gervigreindareiginleikanum sem er þegar til staðar. Ef þú hefur áhuga á að bæta IoT möguleikum við kerfið þitt mælum við með því að þú byrjir á því að vinna með forskoðunarútgáfu Sensor Data Intelligence í staðinn. Frekari upplýsingar um Sensor Data Intelligence og hvernig á að vinna með það eru á [heimasíðu Sensor Data Intelligence](../sensor-data-intelligence/sdi-home-page.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

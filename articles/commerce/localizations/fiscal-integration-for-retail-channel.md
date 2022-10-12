@@ -2,19 +2,19 @@
 title: Yfirlit yfir samþættingu ríkisfjármála fyrir viðskiptarásir
 description: Þessi grein veitir yfirlit yfir samþættingargetu í ríkisfjármálum sem eru tiltækar í Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286500"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631241"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Yfirlit yfir samþættingu ríkisfjármála fyrir viðskiptarásir
 
@@ -37,11 +37,11 @@ Til að styðja við aðrar aðstæður sem ekki eru studdar af sýnishorni fjá
 Fjárhagsskráningarferli í Retail POS getur samanstaðið af einu eða fleiri skrefum. Hvert skref felur í sér fjárhagsskráningu á tilteknum færslum eða tilvikum í einu fjárhagstæki eða þjónustu. Eftirfarandi lausnarþættir taka þátt í skattaskráningu í fjárhagslegu tæki eða þjónustu:
 
 - **Útgefandi ríkisfjármálaskjala** – Þessi hluti raðnúmerar færslu/atburðargögn á því sniði sem einnig er notað fyrir samskipti við fjárhagslega tækið eða þjónustuna, greinir svör frá fjárhagslega tækinu eða þjónustunni og geymir svörin í rásargagnagrunninum. Viðbótin skilgreinir einnig tilgreindar færslur og tilvik sem þarf að skrá.
-- **Fjárhagstengi** – Þessi hluti frumstillir samskiptin við fjárhagslega tækið eða þjónustuna, sendir beiðnir eða beinar skipanir til fjárhagslega tækisins eða þjónustunnar, byggt á færslu/atburðargögnum sem eru dregin út úr fjárhagsskjalinu, og tekur við svörum frá fjárhagslega tækinu eða þjónustunni.
+- **Fjárhagstengi** – Þessi hluti frumstillir samskiptin við fjárhagslega tækið eða þjónustuna, sendir beiðnir eða beinar skipanir til fjárhagsbúnaðarins eða þjónustunnar, byggt á færslu/atburðargögnum sem eru dregin út úr fjárhagsskjalinu, og tekur við svörum frá fjárhagslega tækinu eða þjónustunni.
 
 Fjárhagslegt samþættingarsýni gæti innihaldið Commerce runtime (CRT), Vélbúnaðarstöð og POS-viðbætur fyrir fjárhagsskjalaveitu og fjárhagstengi. Það inniheldur einnig eftirfarandi stillingar hlutar:
 
-- **Stilling fjárhagsskjalsveitu** - Þessi stilling skilgreinir úttaksaðgerð á sniði fyrir fjárhagsskjöl. Það inniheldur einnig gagnakortlagningu fyrir skatta og greiðslumáta, til að gera gögn frá Retail POS samhæf við þau gildi sem eru fyrirfram skilgreind í fjárhagslega tækinu eða þjónustufastbúnaðinum.
+- **Stilling fjárhagsskjalsveitu** - Þessi stilling skilgreinir úttaksaðgerð á sniði fyrir fjárhagsskjöl. Það inniheldur einnig gagnakortlagningu fyrir skatta og greiðslumáta, til að gera gögn frá Retail POS samhæf við þau gildi sem eru fyrirfram skilgreind í fjárhagslegu tækinu eða þjónustufastbúnaðinum.
 - **Stilling fjárhagstengis** – Þessi uppsetning skilgreinir líkamleg samskipti við tiltekið fjárhagslega tæki eða þjónustu.
 
 Fjárhagsskráningarferli fyrir tiltekinn afgreiðslukassa er skilgreint af samsvarandi stillingu í virknireglu sölustaðar. Fyrir frekari upplýsingar um hvernig á að stilla fjárhagsskráningarferli, hlaða upp fjárhagsskjalaveitu og stillingum fjárhagstengis og breyta stillingarbreytum, sjá [Settu upp fjárhagslega skráningarferli](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
@@ -49,7 +49,7 @@ Fjárhagsskráningarferli fyrir tiltekinn afgreiðslukassa er skilgreint af sams
 > [!NOTE]
 > Ef þú þarft tæki fyrir aðgerðir sem ekki eru í ríkisfjármálum, eins og vörulistaleit, uppflettingu viðskiptavina eða gerð færsludröga, geturðu valið þau sem skrár með takmarkanir á fjárhagsferli. Fyrir frekari upplýsingar, sjá [Settu upp skrár með takmarkanir á skattaskráningu](setting-up-fiscal-integration-for-retail-channel.md#set-up-registers-with-fiscal-registration-restrictions).
 
-Eftirfarandi dæmigerður fjárhagsskráningarflæði byrjar með atburði í POS (til dæmis frágangi sölufærslu) og útfærir fyrirfram skilgreinda röð skrefa sem felur í sér aðra viðskiptaþætti (svo sem CRT og vélbúnaðarstöð).
+Eftirfarandi dæmigert fjárhagsskráningarflæði byrjar á atburði í POS (til dæmis frágangi sölufærslu) og útfærir fyrirfram skilgreinda röð skrefa sem felur í sér aðra viðskiptaþætti (svo sem CRT og vélbúnaðarstöð).
 
 1. POS óskar eftir fjárhagsskjali frá fjárhagslegum samþættingarramma (FIF).
 1. FIF ákvarðar hvort núverandi atburður krefjist ríkisskráningar.
@@ -69,13 +69,13 @@ Eftirfarandi dæmi sýna framkvæmdarflæði fjárhagsskráningar fyrir dæmiger
  
 ### <a name="fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station"></a>Skattskráning fer fram í gegnum tæki sem er tengt við Vélbúnaðarstöð
 
-Þessi stilling er notuð þegar líkamlegt fjárhagslegt tæki, eins og fjárhagsprentari, er tengt við vélbúnaðarstöðina. Það á einnig við þegar samskipti við ríkisfjármálatæki eða þjónustu fara fram í gegnum hugbúnað sem er uppsettur á vélbúnaðarstöðinni. Í þessu tilviki er útgefandi fjárhagsskjala staðsettur á CRT, og fjárhagstengið er staðsett á vélbúnaðarstöðinni.
+Þessi stilling er notuð þegar líkamlegt fjárhagslegt tæki, svo sem fjárhagsprentari, er tengt við vélbúnaðarstöðina. Það á einnig við þegar samskipti við ríkisfjármálatæki eða þjónustu fara fram í gegnum hugbúnað sem er uppsettur á vélbúnaðarstöðinni. Í þessu tilviki er útgefandi fjárhagsskjala staðsettur á CRT, og fjárhagstengið er staðsett á vélbúnaðarstöðinni.
 
 ![Fjárhagsskráning fer fram í gegnum tæki sem er tengt við Vélbúnaðarstöð.](media/FIF-CRT-HWS.png)
 
 ### <a name="fiscal-registration-is-done-via-an-external-service"></a>Skráning ríkisfjármála fer fram í gegnum utanaðkomandi þjónustu
 
-Þessi uppsetning er notuð þegar skattskráning fer fram í gegnum utanaðkomandi þjónustu, svo sem vefþjónustu sem er rekin af skattyfirvöldum. Í þessu tilviki eru bæði útgefandi fjárhagsskjala og fjárhagstengi staðsett á CRT.
+Þessi stilling er notuð þegar skattskráning fer fram í gegnum ytri þjónustu, svo sem vefþjónustu sem er rekin af skattyfirvöldum. Í þessu tilviki eru bæði útgefandi fjárhagsskjala og fjárhagstengi staðsett á CRT.
 
 ![Skattskráning fer fram í gegnum utanaðkomandi þjónustu.](media/FIF-CRT-CRT.png)
  
@@ -95,16 +95,20 @@ Eftirfarandi dæmi sýna framkvæmdarflæði fjárhagsskráningar fyrir dæmiger
 
 Þessi rammi fjárhagssamþættingar veitir eftirfarandi valmöguleika til að takast á við villur við fjárhagsskráningu:
 
-- **Reyna aftur** - Notendur geta notað þennan valkost þegar hægt er að greiða fljótt úr villunni og fjárhagskráningin er keyrð aftur. Til dæmis er hægt að nota þennan valkost þegar fjárhagstækið er ekki tengt, strimlaprentarinn er án pappírs, eða prentarinn er stíflaður.
-- **Hætta við** - Þessi valkostur heimilar notendum að fresta fjárhagsskráningu á núgildandi færslu eða tilviki ef það mistekst. Eftir að skráningunni hefur verið frestað getur notandinn haldið áfram að vinna í sölustaðnum og getur lokið öllum aðgerðum þar sem ekki þarf fjárhagsskráninguna. Þegar einhver tilvik sem krefjast fjárhagsskráningar eiga sér stað á sölustaðnum (til dæmis ef ný færsla er opnuð) birtist villuglugginn sjálfkrafa til að tilkynna notanda að fyrri færsla hafi ekki verið skráð rétt og býður upp á valmöguleika til að meðhöndla villuna.
-- **Sleppa** - Notendur geta notað þennan valkost þegar hægt er að sleppa fjárhagsskráningunni við sérstakar kringumstæður og hægt er að halda áfram með reglubundnar aðgerðir á sölustaðnum. Til dæmis er hægt að nota þennan valmöguleika þegar hægt er að skrá sölufærslu sem fjárhagsskráningin mistókst fyrir í sérstakri færslubók á pappír.
-- **Merkja sem skráð** - Notendur geta notað þennan valkost þegar færslan var í raun skráð í fjárhagstækinu (t.d. fjárhagskvittun var prentuð), en villa kom upp þegar verið var að vista fjárhagssvörunin í gagnagrunn rásarinnar.
-- **Fresta** – Rekstraraðilar geta notað þennan valkost þegar viðskiptin voru ekki skráð vegna þess að skráningarþjónustan var ekki tiltæk. 
+- **Reyndu aftur** – Rekstraraðili getur notað þennan valkost þegar hægt er að leysa bilunina fljótt og hægt er að keyra fjárhagsskráninguna aftur. Til dæmis er hægt að nota þennan valkost þegar fjárhagstækið er ekki tengt, strimlaprentarinn er án pappírs, eða prentarinn er stíflaður.
+- **Hætta við** – Þessi valkostur gerir rekstraraðila kleift að fresta fjárhagsskráningu núverandi færslu eða atburðar ef hún mistekst. Eftir að skráningu hefur verið frestað getur rekstraraðilinn haldið áfram að vinna á POS og getur lokið hvaða aðgerð sem er sem fjárhagsskráning er ekki nauðsynleg fyrir. Þegar einhver tilvik sem krefjast fjárhagsskráningar eiga sér stað á sölustaðnum (til dæmis ef ný færsla er opnuð) birtist villuglugginn sjálfkrafa til að tilkynna notanda að fyrri færsla hafi ekki verið skráð rétt og býður upp á valmöguleika til að meðhöndla villuna.
+- **Sleppa** – Rekstraraðili getur notað þennan valmöguleika þegar ekki er hægt að ljúka fjárhagsskráningu núverandi færslu eða atburðar, til dæmis ef fjárhagsprentari er bilaður, **og** sleppa má skattskráningu að uppfylltum sérstökum skilyrðum. Til dæmis er hægt að nota þennan valmöguleika þegar hægt er að skrá sölufærslu sem fjárhagsskráningin mistókst fyrir í sérstakri færslubók á pappír. Eftir að hafa sleppt skattskráningu er hægt að halda áfram reglulegri starfsemi á POS. 
+- **Merktu sem skráð** – Rekstraraðili getur notað þennan valmöguleika þegar núverandi færsla eða atburður hefur í raun verið skráður í fjárhagslega tækinu, til dæmis hefur fjárhagskvittun verið prentuð, en bilun kemur upp þegar verið er að vista fjárhagssvarið í rásargagnagrunninum. Eftir að núverandi viðskipti eða atburður hefur verið merktur sem skráður er hægt að halda áfram reglulegri starfsemi á POS.
+- **Fresta** – Rekstraraðili getur notað þennan valkost þegar viðskiptin hafa ekki verið skráð vegna þess að skráningartækið eða þjónustan er ekki tiltæk **og** eitt af eftirfarandi á við:
+    - Það er varakostur fyrir fjárhagsskráningu og það er hægt að halda áfram fjárhagsskráningarferlinu fyrir núverandi færslu. Til dæmis heimamaður [ríkisfjármálatæki](./latam-bra-cf-e-sat.md#scenario-4-make-a-cash-and-carry-sale-of-goods-by-using-sat-as-contingency-mode) getur verið varavalkostur fyrir skráningarþjónustu á netinu þegar þjónustan er ekki í boði.
+    - Hægt er að ljúka ríkisfjármálaskráningu seinna með öðrum hætti en samþættingarrammanum í ríkisfjármálum. Til dæmis er hægt að skrá frestað færslur síðar fjárhagslega í lotu með a [aðskilin virkni](./latam-bra-nfce.md#scenario-3-make-a-cash-and-carry-sale-of-goods-in-offline-contingency-mode).
+    
+    Eftir að núverandi færslu eða atburði hefur verið frestað er hægt að halda áfram reglulegri starfsemi á POS.
 
-> [!NOTE]
-> The **Sleppa**, **sem skráð**, og **Fresta** valkostir verða að vera virkjaðir í fjárhagsskráningarferlinu áður en þeir eru notaðir. Að auki skulu samsvarandi heimildir veittar notendum.
+> [!WARNING]
+> The **Sleppa**, **sem skráð**, og **Fresta** valkostir ættu að teljast neyðarvalkostir og aðeins notaðir í undantekningartilvikum. Ræddu þessa villumeðferðarmöguleika við lögfræði- eða skattaráðgjafa þinn og beittu góðri dómgreind áður en þú virkjar þá. Valkostirnir verða að vera virkjaðir í fjárhagsskráningarferlinu áður en þeir eru notaðir. Til að tryggja að rekstraraðilar noti þau ekki reglulega, verður að veita rekstraraðilum samsvarandi leyfi.
 
-The **Sleppa**, **sem skráð**, og **Fresta** valkostir gera upplýsingakóða kleift að fanga tilteknar upplýsingar um bilun, svo sem ástæðu bilunarinnar, eða rökstuðning fyrir því að sleppa fjárhagsskráningu eða merkja viðskiptin sem skráða. Nánari upplýsingar um hvernig á að setja upp færibreytur fyrir meðhöndlun á villu er að finna í [Stilla villumeðhöndlunarstillingar](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+A [viðskiptum í ríkisfjármálum](#storing-fiscal-response-in-fiscal-transaction) er búið til þegar **Sleppa**, **sem skráð**, eða **Fresta** valkostir eru valdir, en fjárhagsfærslan inniheldur ekki fjárhagslegt svar. Þetta gerir þér kleift að fanga atvik vegna bilunar í fjárhagsskráningu. Þessir valkostir gera einnig upplýsingakóða kleift að fanga tilteknar upplýsingar um bilun, svo sem ástæðu bilunarinnar, eða rökstuðning fyrir því að sleppa fjárhagsskráningu eða merkja færsluna sem skráða. Nánari upplýsingar um hvernig á að setja upp færibreytur fyrir meðhöndlun á villu er að finna í [Stilla villumeðhöndlunarstillingar](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Valfrjáls fjárhagsskráning
 
@@ -112,11 +116,7 @@ Fjárhagsskráning kann að vera áskilin fyrir sumar aðgerðir en valfrjáls f
 
 ### <a name="manually-rerun-fiscal-registration"></a>Endurtaktu fjárhagsskráningu handvirkt
 
-Ef fjárhagsskráningu á færslu eða tilviki hefur verið frestað eftir bilun (til dæmis ef notandi valdi **Hætta við** í svarglugga villumeðhöndlunar), er hægt að keyra fjárhagsskráninguna aftur handvirkt með því að kalla fram samsvarandi aðgerð. Frekari upplýsingar er að finna í [Virkja handvirka keyrslu á frestaðri fjárhagsskráningu](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-
-### <a name="postpone-option"></a>Fresta valmöguleika
-
-The **Fresta** valmöguleikinn gerir þér kleift að halda áfram fjárhagsskráningarferlinu ef núverandi skref mistekst. Það er hægt að nota þegar það er öryggisafrit af ríkisskráningu.
+Ef fjárhagsskráningu viðskipta eða atburðar hefur verið frestað eftir bilun (til dæmis ef rekstraraðilinn valdi **Hætta við** í villumeðferðarglugganum), geturðu keyrt fjárhagsskráninguna aftur handvirkt með því að kalla fram samsvarandi aðgerð. Fyrir frekari upplýsingar, sjá [Virkja handvirka framkvæmd á frestað fjárhagsskráningu](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 
 ### <a name="fiscal-registration-health-check"></a>Ástandsskoðun fjárhagsskráningar
 
@@ -138,7 +138,7 @@ Ef ástandsskoðun mistekst sýnir sölustaðurinn svarglugga ástandsskoðunar.
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Geymsla á fjárhagssvörum í fjárhagsfærslu
 
-Þegar fjárhagsskráning færslu eða tilviks heppnast er stofnuð fjárhagsfærsla í gagnagrunni rásarinnar og hún tengd við upprunalega færslu eða tilvik. Á svipaðan hátt, ef valkosturinn **Sleppa** eða **Merkja sem skráð** er valinn fyrir misheppnaða fjárhagsskráningu, eru þessar upplýsingar geymdar í fjárhagsfærslu. Fjárhagsfærsla heldur í fjárhagssvörun fjárhagstækis eða þjónustu. Ef fjárhagsskráningarferlið samanstendur af nokkrum skrefum er fjárhagsfærsla stofnuð fyrir hvert skref ferlisins sem leiddi til skráningu sem tókst eða mistókst.
+Þegar fjárhagsskráning færslu eða tilviks heppnast er stofnuð fjárhagsfærsla í gagnagrunni rásarinnar og hún tengd við upprunalega færslu eða tilvik. Á sama hátt, ef **Sleppa**, **sem skráð**, eða **Fresta** valkostur er valinn fyrir misheppnaða fjárhagsskráningu, þessar upplýsingar eru geymdar í fjárhagsfærslu. Fjárhagsfærsla heldur í fjárhagssvörun fjárhagstækis eða þjónustu. Ef fjárhagsskráningarferlið samanstendur af nokkrum skrefum er fjárhagsfærsla stofnuð fyrir hvert skref ferlisins sem leiddi til skráningu sem tókst eða mistókst.
 
 Fjárhagsfærslur eru fluttar í bakvinnslu með *P-vinnslu* ásamt færslum. Í flýtiflipanum **Fjárhagsfærslur** á síðunni **Færslur verslunar** er hægt að skoða fjárhagsfærslurnar sem eru tengdar við færslur.
 

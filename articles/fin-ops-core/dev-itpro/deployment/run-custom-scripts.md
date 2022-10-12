@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
-ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
+ms.openlocfilehash: 3d00f842da69f889738fbcb293c7489bb018e810
+ms.sourcegitcommit: f62c9b24c2205d03e2fd6e7c67f7b5c316233b12
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9103521"
+ms.lasthandoff: 09/29/2022
+ms.locfileid: "9598083"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Keyra sérsniðnar X++ skriftur með engan niðurtíma
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Þessi eiginleiki gerir þér kleift að hlaða upp og keyra dreifanlega pakka sem innihalda sérsniðnar X++ forskriftir án þess að þurfa að fara í gegnum Microsoft Dynamics Lifecycle Services (LCS) eða stöðva kerfið þitt. Þess vegna geturðu leiðrétt minniháttar ósamræmi í gögnum án þess að valda truflandi niður í miðbæ.
 
@@ -35,7 +34,7 @@ ms.locfileid: "9103521"
 > - Gagnaflutningur eða önnur langvinn ferli
 > - Leiðrétting á gögnum sem hægt er að leiðrétta með öðrum hætti, svo sem venjulegum viðskiptaferlum, gagnasamræmisverkfærum eða öðrum sjálfsafgreiðsluverkfærum
 >
-> Eiginleikinn gerir viðurkenndum notendum kleift að breyta einingum og skrám þeirra beint, án þess að þurfa að keyra viðskiptarökfræðina sem tengist þessum aðilum. Þessar breytingar geta valdið gagnaheilleikavandamálum. Þess vegna gæti stofnun þín krafist þess að þú fáir samþykki og kvittun frá innri og ytri endurskoðendum (eða öðrum jafngildum hagsmunaaðilum) fyrir og/eða eftir að þú keyrir handrit. Af fylgniástæðum gæti einnig þurft að birta breytingar sem hafa áhrif á suma eiginleika í ytri skýrslum (svo sem reikningsskilum) eða tilkynna stjórnvöldum. Stofnunin þín ber ein ábyrgð á öllum breytingum sem gerðar eru á gögnum þess með þessum eiginleika, hvers kyns samþykki og undirritun eða birtingu þessara breytinga og samræmi við gildandi lög. Þú berð alla áhættuna af því að nota þennan eiginleika.
+> Eiginleikinn gerir viðurkenndum notendum kleift að breyta einingum og skrám þeirra beint, án þess að þurfa að keyra viðskiptarökfræðina sem tengist þessum aðilum. Þessar breytingar geta valdið gagnaheilleikavandamálum. Þess vegna gæti stofnun þín krafist þess að þú fáir samþykki og kvittun frá innri og ytri endurskoðendum (eða öðrum jafngildum hagsmunaaðilum) fyrir og/eða eftir að þú keyrir handrit. Af fylgniástæðum gæti einnig þurft að birta breytingar sem hafa áhrif á suma eiginleika í ytri skýrslum (svo sem reikningsskilum) eða tilkynna stjórnvöldum. Stofnunin þín er ein ábyrg fyrir öllum breytingum sem gerðar eru á gögnum þess með þessum eiginleika, hvers kyns samþykki og undirritun eða birtingu þessara breytinga og samræmi við gildandi lög. Þú berð alla áhættuna af því að nota þennan eiginleika.
 
 Allir dreifanlegir pakkar sem hlaðið er inn í kerfið fara í gegnum skyldubundið verkflæði. Sem öryggisráðstöfun, og til að tryggja aðskilnað starfa, er notandinn sem hleður upp pakka sem hægt er að nota, ekki leyft að samþykkja hann fyrir næstu skref í verkflæðinu. Annar notandi verður að samþykkja það. Hins vegar, eftir að pakkinn hefur verið samþykktur, mun notandinn sem hlóð honum upp hafa leyfi til að ljúka þeim skrefum sem eftir eru.
 
@@ -129,17 +128,17 @@ Notaðu eftirfarandi aðferð til að hlaða upp og keyra skriftu.
     1. Veldu handritið til að samþykkja og veldu síðan **Upplýsingar**.
     1. Á aðgerðarrúðunni, á **Vinnuflæði ferli** flipa, í **Byrjaðu** hópur, veldu **Samþykkja** eða **Hafna**. Ef þú velur **Samþykkja**, handritið er merkt sem samþykkt og er opnað fyrir prófun. Ef þú velur **Hafna**, handritið er læst. Í báðum tilfellum er atburðurinn skráður og afrit af handritinu geymt í kerfinu.
 
-1. Forritið verður að prófa til að tryggja að það geri það sem því er ætlað að gera. Prófandinn getur verið sá sami og hleðsluaðilinn eða samþykkjandinn, eða það getur verið þriðji notandinn sem hefur tilskilin leyfi. Prófandi verður að fylgja þessum skrefum:
+1. Forritið verður að prófa til að tryggja að það geri það sem því er ætlað að gera. Prófandinn getur verið sá sami og hleðsluaðilinn eða samþykkjandinn, eða það getur verið þriðji notandinn sem hefur nauðsynlegar heimildir. Prófandi verður að fylgja þessum skrefum:
 
     1. Fara til **Kerfisstjórnun \> Reglubundið \> Gagnagrunnur \> Sérsniðin forskrift**.
     1. Veldu skriftuna til að prófa og veldu síðan **Upplýsingar**.
     1. Á aðgerðarrúðunni, á **Vinnuflæði ferli** flipa, í **Próf** hópur, veldu **Keyra próf**. Forskriftin er keyrð í tímabundinni færslu sem kerfið mun sjálfkrafa hætta við á meðan það safnar ýmsum annálum og SQL yfirlýsingum.
     1. Þegar handritinu er lokið skaltu fara yfir annálana og ganga úr skugga um að niðurstöðurnar standist væntingar þínar. Fylgið einu af eftirfarandi skrefum:
 
-        - Ef þú ert ánægður með niðurstöðuna skaltu velja **Samþykkja prófunarskrá** í **Próf** hópur á **Vinnuflæði ferli** flipanum í aðgerðarrúðunni til að leyfa að keyra skriftuna. Atburðaskráin mun endurspegla þá staðreynd að handritið var prófað og það mun gefa til kynna hver prófaði það og hvenær.
+        - Ef þú ert ánægður með niðurstöðuna skaltu velja **Samþykkja prófunarskrá** í **Próf** hópur á **Vinnuflæði ferli** flipann í aðgerðarrúðunni til að leyfa að keyra skriftuna. Atburðaskráin mun endurspegla þá staðreynd að handritið var prófað og það mun gefa til kynna hver prófaði það og hvenær.
         - Ef þú ert ekki ánægður með niðurstöðuna skaltu velja **Að segja skilið við** í **Enda** hópur á **Vinnuflæði ferli** flipanum í aðgerðarrúðunni til að koma í veg fyrir að handritið sé keyrt. Kerfið mun geyma afrit af handritinu ásamt skrá yfir sögu þess.
 
-1. Þegar þú ert viss um að handritið standist væntingar þínar skaltu velja **Hlaupa** í **Hlaupa** hópur á **Vinnuflæði ferli** flipann í aðgerðarrúðunni til að keyra hann. Þessi skipun gerir það sama og fyrri prófun, en viðskiptin verða framin í lokin.
+1. Þegar þú ert viss um að handritið standist væntingar þínar skaltu velja **Hlaupa** í **Hlaupa** hópur á **Vinnuflæði ferli** flipann í aðgerðarúðunni til að keyra hann. Þessi skipun gerir það sama og fyrri prufukeyrslan, en viðskiptin verða framin í lokin.
 1. Eftir að handritið hefur lokið keyrslu skaltu athuga niðurstöðuna og staðfesta að handritið virkaði eins og þú ætlaðir þér. Fylgið einu af eftirfarandi skrefum:
 
     - Ef þú ert ánægður með niðurstöðuna skaltu velja **Tilgangur leystur** í **Enda** hópur á **Vinnuflæði ferli** flipanum í aðgerðarrúðunni. Atburðaskráin mun endurspegla þá staðreynd að handritið keyrði vel og það mun gefa til kynna hver staðfesti handritið og hvenær. Handritið er vistað en það er nú læst og ekki hægt að keyra það aftur.

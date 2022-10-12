@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286838"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627497"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Búa til og uppfæra reglu um skil og endurgreiðslur fyrir rás
 
@@ -36,12 +36,8 @@ Umfang stefnunnar er sem stendur takmarkað við að setja greiðslutilboð sem 
 
 ## <a name="enable-return-policy"></a>Virkja skilareglu
 
-Til að virkja skilareglu rásar í Commerce Headquarters skal fylgja þessum skrefum.
+Sjálfgefið er kveikt á þessum eiginleika. Þú getur fundið það í **Eiginleikastjórnun** vinnusvæði með því að leita að **Virkja skilastefnur rásar** á listanum yfir eiginleikanöfn.
 
-1. Farðu í vinnusvæðið **Eiginleikastjórnun** í Dynamics 365 Commerce.
-1. Leitaðu að eiginleikanum **Virkja skilareglur rása** á listanum yfir heiti eiginleika.
-1. Veldu **Virkja núna**.
-1. Á síðunni **Dreifingaráætlun** skal keyra vinnsluna **1110** (altæka skilgreiningu) til að dreifa eiginleikabreytingunni.
 
 ## <a name="configure-return-policy"></a>Stilla skilareglu
 
