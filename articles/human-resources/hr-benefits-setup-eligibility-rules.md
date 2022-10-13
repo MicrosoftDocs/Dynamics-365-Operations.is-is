@@ -1,8 +1,8 @@
 ---
 title: Grunnstilla hæfnireglur og valkosti
-description: Þessi grein lýsir því hvernig á að stilla hæfisreglur og valkosti í Fríðindastjórnun í Microsoft Dynamics 365 Human Resources.
+description: Þessi grein lýsir því hvernig á að stilla hæfisreglur og valkosti í fríðindastjórnun í Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 09/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 916a9955327aef67ac768d4505bdb343862058a1
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337320"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644085"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Grunnstilla hæfnireglur og valkosti 
 
@@ -175,6 +175,7 @@ Búnt eru mengi tengdra bótaáætlana. Þú getur notað bótaknippi til að h�
    | **Búnt** | Einkvæmt kennimerki fyrir búntið. |
    | **Lýsing** | Lýsing á búnti. |
    | **Næstefsta stig** | Gefur til kynna hvort eitt af áætlunum í búntinu verði að vera merkt sem aðalskipulagið. Velja skal aðaláætlunina við opna skráningu sem hluta af búntinu áður en stjórnandi fríðinda getur staðfest fríðindaval starfsmannsins. |
+   | **Áskilið**| Gefur til kynna að það þurfi að velja áætlunina til að skoða önnur áætlun í búntinu. Hægt er að merkja fleiri en eina áætlanir sem **Áskilið**. Í því tilviki eru allar áætlanir sem eru merktar sem **Áskilið** verður að velja til að skoða einhverjar áætlanir í búntinu.|
    | **Gildir frá dagsetningu og tíma** | Dagsetning og tími þegar búntið verður virkt. |
    | **Gildir til** | Dagsetningin sem búntið rennur út. Sjálfgildið er 12/31/2154, sem táknar aldrei. |
 

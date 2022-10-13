@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05bf5fe5a5ff86bbf52ed58ee6b1e84c15bf2c1e
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 07edea234839a477802e5cd875620509c8f92d69
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573195"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644115"
 ---
 # <a name="configuration-for-finance-insights"></a>Stillingar fyrir innsýn í fjármálum
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Fjármál með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þessi grein útskýrir stillingarskref sem gera kerfinu þínu kleift að nota þá möguleika sem eru tiltækir í Finance Insights. Til að ljúka aðferðunum í þessari grein verður þú að hafa aðgang að kerfisstjóra og kerfissérstillingu í [Power Portal stjórnunarmiðstöð](https://admin.powerplatform.microsoft.com/), Kerfisstjóraaðgangur í Dynamics 365 Finance og aðgangur til að búa til umhverfi í Microsoft Dynamics Lífsferilsþjónusta (LCS).
+Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Fjármál með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þessi grein útskýrir stillingarskref sem gera kerfinu þínu kleift að nota þá möguleika sem eru tiltækir í Finance Insights. Til að ljúka verklagsreglunum í þessari grein verður þú að hafa aðgang að kerfisstjóra og kerfissérsniðnum í [Power Portal stjórnunarmiðstöð](https://admin.powerplatform.microsoft.com/), Kerfisstjóraaðgangur í Dynamics 365 Finance og aðgangur til að búa til umhverfi í Microsoft Dynamics Lífsferilsþjónusta (LCS).
 
 > [!NOTE]
 > Eftirfarandi aðferðir við að setja upp Finance Insights gilda fyrir útgáfur af Dynamics 365 Finance útgáfu 10.0.21 og síðar.
@@ -106,8 +106,4 @@ Eftir að viðbótin hefur verið sett upp gæti það tekið allt að klukkutí
 > [!NOTE]
 > Ef **Athugun á stöðu úthlutunar innsýnar** ferlið keyrir ekki, farðu til **Kerfisstjórnun** > **Fyrirspurnir** > **Lotustörf**. Í **Könnunarkerfi sjálfvirkt ferli** reit, breyttu gildinu í **Bíður** að hefja ferlið. 
 > 
-## <a name="feedback-and-support"></a>Ábendingar og stuðningur
-
-Ef þú hefur áhuga á að veita endurgjöf, eða ef þú þarft aðstoð, sendu tölvupóst á [Fjármálainnsýn (Forskoðun)](mailto:fiap@microsoft.com).
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d06c1d40416d2644499723317c0adfd805126b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eea8cdfc0cd2cfe8ca4cc94cefbf5772ab24d9a4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882896"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643907"
 ---
 # <a name="request-time-off"></a>Biðja um frí
 
 >[!Important]
->Virknin sem getið er um í þessari grein er eins og er í boði fyrir viðskiptavini á sjálfstætt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
+>Virknin sem vísað er til í þessari grein er nú í boði fyrir viðskiptavini sem nota stakt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -63,6 +63,10 @@ Við uppfærslu fyrirliggjandi frítímabeiðni er hægt að bæta við viðheng
 2. Til að skoða samþykktar fríbeiðnir þínar skaltu velja **Samþykkt frí**. Til að skoða biðtímabeiðnir þínar velurðu **Beiðnir um frí**.
 
 ## <a name="cancel-time-off-requests"></a>Hætta við beiðnir um frí
+
+>[!NOTE] 
+> **Hætta við frí** er í boði þegar eiginleikinn **Skildu eftir beiðni um endurbætur á verkflæði** er virkt í **Eiginleikastjórnun** vinnurými.  
+
 
 1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanns** skal velja **Skoða frí** í reitnum **Staða frítíma**.
 

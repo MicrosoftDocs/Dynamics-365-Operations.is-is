@@ -1,8 +1,8 @@
 ---
 title: Óreikningsfærðar tekjur
-description: Þessi grein útskýrir hvernig á að setja upp vörur og reikninga til að nota óinnheimtu teknaeiginleikann í innheimtu áskriftar.
+description: Þessi grein útskýrir hvernig á að setja upp hluti og reikninga til að nota óinnheimtu teknaeiginleikann í innheimtu áskriftar.
 author: JodiChristiansen
-ms.date: 11/04/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adf6f06ee454f368fa194315a87cfdec9e5e13da
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879683"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644169"
 ---
 # <a name="unbilled-revenue"></a>Óreikningsfærðar tekjur
 
@@ -32,7 +32,7 @@ Fylgdu þessum skrefum til að setja upp óinnheimtar tekjur.
 - Á **Endurteknar innheimtufæribreytur samnings** síðu, stilltu reitina í **Óinnheimtar tekjur** kafla.
 - Hægt er að nota óinnheimtu teknaeiginleikann fyrir hluti þar sem **Tegund vöru** reiturinn er stilltur á **Standard**. Það er einnig hægt að nota til að fresta hlutum. Til að nota óinnheimtar tekjur með skammtímaaðgerðinni skaltu setja upp skammtímavalkostina á **Endurteknar innheimtufæribreytur samnings** síðu.
 
-Fylgdu þessum skrefum til að setja upp vörur til að nota óinnheimtar tekjur.
+Til að setja upp vörur til að nota óinnheimtar tekjur skaltu fylgja þessum skrefum.
 
 1. Á **Uppsetning óinnheimtutekna** síðu, á **Hlutir** flipa, veldu **Bæta við**.
 2. Á nýju línunni, í **Vörukóði**, veldu vörunúmerið.
@@ -53,9 +53,9 @@ Fylgdu þessum skrefum til að setja upp vörur og óinnheimtu tekjureikninga.
 
 1. Á **Allar innheimtuáætlanir** síðu, búðu til innheimtuáætlun.
 2. Ef varan er ekki enn sett upp til að nota óinnheimt tekjur skaltu velja **Óinnheimtar tekjur** gátreitinn á innheimtuáætlunarlínunni.
-3. Stilltu **Óinnheimtar tekjur** valmöguleika til **Já**. Skoðaðu síðan og breyttu óinnheimtu tekna-, afsláttar- og óinnheimtujöfnunarreikningunum eftir þörfum.
+3. Stilltu **Óinnheimtar tekjur** valmöguleika til **Já**. Skoðaðu síðan og breyttu óinnheimtu tekna-, afsláttar- og óinnheimtu tekjujöfnunarreikningunum eftir þörfum.
 4. Á innheimtuáætlun, skv **Óinnheimt tekjuvinnsla**, veldu **Stofna dagbókarfærslu** til að stofna upphafsbókarfærslu fyrir óinnheimtar tekjur. Þessu skrefi verður að ljúka áður en innheimtuáætlun er reikningsfærð.
-5. Eftir að upphafsbókarfærslan er búin til skaltu velja **Búðu til reikning** til að stofna sölupantanir og bóka reikninga fyrir innheimtuáætlanir.
+5. Eftir að upphafsbókarfærslan er búin til skal velja **Búðu til reikning** til að stofna sölupantanir og bóka reikninga fyrir innheimtuáætlanir.
 6. Eftir að reikningarnir eru bókaðir er hægt að skoða endurskoðunarupplýsingarnar á **Endurnýjun** flipi á **Allar innheimtuáætlanir** síðu.
 
 ### <a name="milestone-billing"></a>Útskrift samkvæmt þáttaskilum
@@ -63,12 +63,12 @@ Fylgdu þessum skrefum til að setja upp vörur og óinnheimtu tekjureikninga.
 Áfangareikningur virkar með óinnheimtu tekna við eftirfarandi skilyrði:
 
 - Ef upphafsliðurinn er óinnheimtaður (þ **Óinnheimtar tekjur** gátreiturinn er valinn) og undirliðir tímamóta eru rukkaðir (the **Óinnheimtar tekjur** gátreiturinn er hreinsaður), þarf að tilgreina upphafs- og lokadagsetningar fyrir yfirvöru. Þessar dagsetningar eru notaðar til að stofna upphafsbókarfærsluna.
-- Ef upphafsliðurinn er óinnheimtaður (þ **Óinnheimtar tekjur** gátreiturinn er hreinsaður) og undirliðir áfangamarkmiða eru rukkaðir (the **Óinnheimtar tekjur** gátreiturinn er valinn), verður lokadagsetningin að vera tilgreind aðeins fyrir undirliðina sem þú vilt búa til upphafsbókarfærsluna fyrir.
+- Ef upphafsliðurinn er óinnheimtaður (þ **Óinnheimtar tekjur** gátreiturinn er hreinsaður) og undirliðir tímamóta eru rukkaðir (the **Óinnheimtar tekjur** gátreiturinn er valinn), verður lokadagsetningin að vera tilgreind aðeins fyrir undirliðin sem þú vilt stofna upphafsbókarfærsluna fyrir.
 
 Hægt er að vinna úr hverri undirstöðuatriði fyrir sig. Hægt er að tilgreina lokadagsetningar þegar þú ert tilbúinn að búa til upphafsbókarfærsluna.
 
 > [!NOTE]
-> Ef upphafsbókarfærslan fyrir upphafs- eða undiratriðin hefur þegar verið stofnuð, eða reikningur hefur verið stofnaður, er ekki hægt að breyta upphafs- og lokadagsetningum.
+> Ef upphafsbókarfærslan fyrir áfanga yfirfærslu eða undirliði hefur þegar verið stofnuð, eða reikningur hefur verið stofnaður, er ekki hægt að breyta upphafs- og lokadagsetningum.
 
 ### <a name="unbilled-revenue-with-straight-line-deferrals"></a>Óinnheimtar tekjur með beinni frestun
 
@@ -89,12 +89,12 @@ Til að nota óinnheimtaðar tekjur með beinni frestunaráætlun skaltu fylgja 
     1. Stilltu **Óinnheimtar tekjur** valmöguleika til **Já**.
     2. Veldu reikninga sem á að nota fyrir tekjur, afslátt og tekjujöfnun.
 
-6. Á innheimtuáætlun, skv **Óinnheimt tekjuvinnsla**, veldu **Stofna dagbókarfærslu**. Að öðrum kosti skaltu nota **Óreikningsfærð tekjur fjöldavinnsla** síðu til að búa til dagbókarfærsluna.
+6. Á innheimtuáætlun, skv **Óinnheimt tekjuvinnsla**, veldu **Stofna dagbókarfærslu**. Að öðrum kosti skaltu nota **Fjölvinnsla tekna án reikninga** síðu til að búa til dagbókarfærsluna.
 7. Frestunaráætlun er búin til. Þú getur skoðað upplýsingarnar á **Allar frestunaráætlanir** síðu. Eftir að frestunaráætlunin er búin til er hægt að breyta ýmsum gildum fyrir línuatriði innheimtuáætlunar. Til dæmis er hægt að breyta einingaverði, magni eða dagsetningum.
 
 ### <a name="unbilled-revenue-with-event-based-deferrals"></a>Óinnheimtar tekjur með frestun sem byggist á viðburðum
 
-Fylgdu þessum skrefum til að nota óinnheimtar tekjur með frestunaráætlanir sem byggjast á viðburðum.
+Fylgdu þessum skrefum til að nota óreikningsfærðar tekjur með frestunaráætlanir sem byggjast á atburðum.
 
 1. Á **Allar innheimtuáætlanir** síðu, búðu til innheimtuáætlun.
 2. Bættu hlut við innheimtuáætlunarlínurnar.
@@ -111,27 +111,27 @@ Fylgdu þessum skrefum til að nota óinnheimtar tekjur með frestunaráætlanir
     - Stilltu **Óinnheimtar tekjur** valmöguleika til **Já**.
     - Veldu reikninga sem á að nota fyrir tekjur, afslátt og tekjujöfnun.
 
-6. Á innheimtuáætlun, skv **Óinnheimt tekjuvinnsla**, veldu **Stofna dagbókarfærslu**. Að öðrum kosti skaltu nota **Óreikningsfærð tekjur fjöldavinnsla** síðu til að búa til dagbókarfærsluna.
+6. Á innheimtuáætlun, skv **Óinnheimt tekjuvinnsla**, veldu **Stofna dagbókarfærslu**. Að öðrum kosti skaltu nota **Fjölvinnsla tekna án reikninga** síðu til að búa til dagbókarfærsluna.
 7. Frestunaráætlun er búin til. Þú getur skoðað upplýsingarnar á **Allar frestunaráætlanir** síðu. Eftir að frestunaráætlunin er búin til er hægt að breyta ýmsum gildum fyrir línuatriði innheimtuáætlunar. Til dæmis er hægt að breyta einingaverði, magni eða dagsetningum. Frestunaráætlunin er endurreiknuð út frá nýju gildunum.
 
-Dreifingarnar eru endurreiknaðar út frá úthlutunargerðinni sem er valin (**Hlutfall**, **·**, eða **Jafnar upphæðir**). Fyrir **Breytileg upphæð** úthlutunartegund er dreifingin endurreiknuð miðað við prósentuígildi upphafsgildis viðburðarins. Til dæmis er upprunalega einingaverðið $100.00 og prósentan af upphafsgildinu er $55.00 (55 prósent). Ef einingaverðinu er breytt í $200.00 verður breytileg upphæð viðburðarins $110.00 (enn 55 prósent).
+Dreifingarnar eru endurreiknaðar út frá úthlutunargerðinni sem er valin (**Hlutfall**, **·**, eða **Jafnar upphæðir**). Fyrir **Breytileg upphæð** úthlutunartegund er dreifingin endurreiknuð miðað við prósentuígildi upphafsgildis viðburðarins. Til dæmis er upprunalega einingaverðið $100.00 og prósentan af upphafsgildinu $55.00 (55 prósent). Ef einingaverðinu er breytt í $200.00 verður breytileg upphæð viðburðarins $110.00 (enn 55 prósent).
 
 > [!NOTE]
 > Ef frestunaráætlunarlínur hafa verið viðurkenndar er ekki hægt að breyta innheimtuáætlunarlínunni. Til að breyta línunni verður þú fyrst að snúa viðurkenndu línunum við. Þá er hægt að uppfæra innheimtuáætlunarlínuna.
 
-### <a name="unbilled-revenue-and-top-billing"></a>Óinnheimtar tekjur og toppinnheimta
+### <a name="unbilled-revenue-and-top-billing"></a>Óinnheimtar tekjur og topp innheimta
 
-Innheimtuáætlun er færð til þriggja ára og eru reikningar innheimtir árlega á þriggja ára tímabili. Öll samningsupphæðin er skráð á óinnheimtu tekjureikninginn sem árlegir reikningar eru búnir til. Mótreikningur er tekjureikningur eða frestaðar tekjureikningur.
+Innheimtuáætlun er færð til þriggja ára og reikningar eru innheimtir árlega á þriggja ára tímabili. Öll samningsupphæðin er skráð á óinnheimtu tekjureikninginn sem árlegir reikningar eru búnir til. Mótreikningur er tekjureikningur eða frestaðar tekjureikningur.
 
-Athugaðu að toppinnheimta og óinnheimtar tekjur vinna ekki saman, vegna þess að afstemmingarvandamál geta komið upp í fjárhag. Til dæmis, á **Uppsetning vöruhóps** síðu er liður A settur upp þannig að **Fjöldi efstu lína** reiturinn er stilltur á **2**. Á **Innheimtuáætlanir** síðu, þremur atriðum er bætt við. Allar þrjár vörurnar tilheyra vöruflokki A. Þegar upphafsbókarfærslan er stofnuð fyrir óinnheimtu teknaeiginleikann, er upphæðin fyrir allar þrjár vörurnar unnin á óinnheimtu reikninginn. Þegar reikningur fyrir innheimtuáætlun er stofnaður eru aðeins upphæðir fyrir efstu tvær liði teknar með. Þess vegna samsvarar reikningsupphæð ekki upphæðinni sem var unnin á óinnheimtu tekjureikninginn og afstemmingarvandamál eiga sér stað í fjárhag.
+Toppinnheimta og óinnheimtar tekjur vinna ekki saman, vegna þess að afstemmingarvandamál geta komið upp í fjárhag. Til dæmis, á **Uppsetning vöruhóps** síðu er liður A settur upp þannig að **Fjöldi efstu lína** reiturinn er stilltur á **2**. Á **Innheimtuáætlanir** síðu, þremur atriðum er bætt við. Allar þrjár vörurnar tilheyra vöruflokki A. Þegar upphafsbókarfærslan er stofnuð fyrir óinnheimtu teknaeiginleikann, er upphæðin fyrir allar þrjár vörurnar unnin á óinnheimtu reikninginn. Þegar reikningur fyrir innheimtuáætlun er stofnaður eru aðeins upphæðir fyrir efstu tvær liði teknar með. Þess vegna samsvarar reikningsupphæð ekki upphæðinni sem var unnin í óinnheimtu tekjureikninginn og afstemmingarvandamál eiga sér stað í fjárhag.
 
-Ef þú vilt nota ógreiddar tekjur skaltu skilja eftir **Uppsetning vöruhóps** blaðsíða auð, eða settu upp alla vöruflokka þannig að **Fjöldi efstu lína** reiturinn er stilltur á **0** (núll). Ef þú vilt nota toppinnheimtu þá eru engar óinnheimtar tekjur tiltækar.
+Ef þú vilt nota ógreiddar tekjur skaltu skilja eftir **Uppsetning vöruhóps** blaðsíða auð, eða settu upp alla vöruflokka þannig að **Fjöldi efstu lína** reiturinn er stilltur á **0** (núll). Ef þú vilt nota toppinnheimtu eru engar óinnheimtar tekjur tiltækar.
 
 ### <a name="examples"></a>Dæmi
 
-Frá og með útgáfu 10.0.27 er nýr reikningur tekinn upp þegar óinnheimtar tekjur eru notaðar. Þegar upphafs **Stofna dagbókarfærslu** ferlið er bókað, er inneignin færð á nýjan óinnheimtaðan tekjujöfnunarreikning. Þessi reikningur er notaður í stað tekjureiknings, vegna þess að sama gildi verður að bakfæra þegar innheimtuáætlun er reikningsfærð. Ef gengis- eða námundunarmunur á sér stað munu upphæðir sem eru reiknaðar á tímabilinu **Búðu til reikning** ferli gæti verið öðruvísi. Þessi hegðun tryggir að nettóupphæð reikninganna sé 0 (núll).
+Frá og með útgáfu 10.0.29 er nýrri færibreytu bætt við endurteknar innheimtubreytur samnings. Þegar stillt er á Yes, the **Notaðu óinnheimta mótreikninga** færibreyta gerir tvo nýja reikninga kleift **Uppsetning óinnheimtutekna**. Óinnheimt tekjujöfnun og Óinnheimt afsláttarjöfnunarreikningar verða tiltækir og nýtast best þegar innheimtuáætlanir eru búnar til í öðrum gjaldmiðli en bókhaldsgjaldmiðlinum. Með því að nota mótreikninga er tryggt að óinnheimtu tekjur og óinnheimtu afsláttarreikningar séu bakfærðir með sama gengi og upphafsfærslur þeirra. Upphafsstafurinn **Stofna dagbókarfærslu** ferlið er það sama með skuldfærslu á óreikningsfærðar tekjur og inneign á tekjur. Ef notaður er afsláttur er upphafsbókarfærslan sú sama með skuldfærslu á Afslátt og inneign á óinnheimtu afslátt. 
 
-Þetta dæmi sýnir hvernig á að nota óreikningsfærðar tekjur til að færa heildarfjárhæð samnings á efnahagsreikningi sem óreikningsfærðar tekjur. Hin hliðin á færslunni er óreikningsfærð tekjujöfnun. Þegar þú reikningsfærðu viðskiptamanninn, eru óreikningsfærðar tekjur og óreikningsfærðar tekjur bakfærðar. Tekjufærsla mun eiga sér stað annað hvort við reikningsgerð eða samkvæmt áætlun um frestun á færslu sem sett var upp.
+Þetta dæmi sýnir hvernig á að nota óreikningsfærðar tekjur til að færa heildarfjárhæð samnings á efnahagsreikningi sem óinnheimtar tekjur. Hin hliðin á færslunni eru tekjur eða frestað tekjur. Þegar þú reikningsfærir viðskiptavininn er óinnheimtu tekjunum bakfært. Tekjufærsla mun eiga sér stað annaðhvort við reikningsgerð eða samkvæmt áætlun um frestun sem sett var upp.
 
 #### <a name="assumptions"></a>Forsendur
 
@@ -143,57 +143,48 @@ Frá og með útgáfu 10.0.27 er nýr reikningur tekinn upp þegar óinnheimtar 
 
 #### <a name="steps"></a>Skref
 
-1. Setjið út vörurnar tvær sem óinnheimtar vörur. Nota **Uppsetning óinnheimtutekna** síðu til að setja upp þá hluti og reikninga sem nota óinnheimtar tekjur.
+1. Settu út vörurnar tvær sem óinnheimtar vörur. Nota **Uppsetning óinnheimtutekna** síðu til að setja upp þá hluti og reikninga sem nota óinnheimtar tekjur.
 2. Í þessu dæmi er viðhaldsgjaldinu frestað. Hluturinn krefst frestunarsniðmáts, sem er sett upp á **Frestun sniðmát** síðu. Sniðmátið hefur a **Mánaðarlega** tímabilstíðni og viðurkenningartímabilslengd 36 mánuðir. Þess vegna eru tekjur á mánuði $2.50.
-3. Á **Hlutum frestað sjálfgefið** síðu, stilltu **Viðhaldsgjald** sviði til **Frestunarhæfur hlutur**. Þetta skref og það næsta mun valda því að viðhaldsgjaldshluturinn verður frestað þegar hann er seldur eða innifalinn í innheimtuáætlun.
-4. Veldu **Frestun vanskil** \> **Sniðmát**, og bættu við hlutnum fyrir viðhaldsgjaldið og beinlínusniðmátinu frá skrefi 2. Liðurinn viðhaldsgjald verður tengdur 36 mánaða frestunaráætlun.
+3. Á **Hlutum frestað sjálfgefið** síðu, stilltu **Viðhaldsgjald** sviði til **Frestunarhæfur hlutur**. Þetta skref og það næsta mun valda því að viðhaldsgjaldshluturinn er frestað þegar hann er seldur eða innifalinn í innheimtuáætlun.
+4. Veldu **Frestun vanskil** \> **Sniðmát**, og bættu við hlutnum fyrir viðhaldsgjaldið og beinlínusniðmátinu frá skrefi 2. Liðurinn viðhaldsgjald verður tengdur við 36 mánaða frestunaráætlun.
 5. Búðu til innheimtuáætlun sem inniheldur tvær óinnheimtu vörurnar. Innheimtuáætlun samningsins er sett upp með eftirfarandi atriðum.
 
     | Atriði | Upphafsdagsetning | Lokadagsetning | Upphæð | Greiðslutíðni | Frestunarliður | Óreikningsfærðar tekjur | Lýsing |
     |---|---|---|---|---|---|---|---|
-    | Leyfi | Janúar 01, CY | 31. desember CY+2 | $100.00 | Árlega | Nr. | Já | Viðskiptavinurinn fær reikning $100.00 á hverju ári. Heildarfjöldi $300.00 verður fyrirfram færður sem óreikningsfærðar tekjur á efnahagsreikningi og sem tekjur af hagnaði og tapi. Hver reikningur mun lækka óinnheimta upphæð. |
-    | Viðhald | Janúar 01, CY | 31. desember CY+2 | $30.00 | Árlega | Já | Já | Viðskiptavinurinn fær reikning $30.00 á hverju ári. Heildarfjöldi $90.00 verður skráður fyrirfram sem óreikningsfærðar tekjur og frestar tekjur á efnahagsreikningi. Hver reikningur mun lækka óinnheimta upphæð. Frestað tekjur verða færðar mánaðarlega á 36 mánuðum. |
+    | Leyfi | 01. janúar 2022 | 31. desember 2024 | $100.00 | Árlega | Nr. | Já | Viðskiptavinurinn fær reikning $100.00 á hverju ári. Heildarfjöldi $300.00 verður fyrirfram færður sem óreikningsfærðar tekjur á efnahagsreikningi og sem tekjur af hagnaði og tapi. Hver reikningur mun lækka óinnheimta upphæð. |
+    | Viðhald | 01. janúar 2022 | 31. desember 2024 | $30.00 | Árlega | Já | Já | Viðskiptavinurinn fær reikning $30.00 á hverju ári. Heildarfjöldi $90.00 verður skráður fyrirfram sem óreikningsfærðar tekjur og frestar tekjur á efnahagsreikningi. Hver reikningur mun lækka óinnheimta upphæð. Frestað tekjur verða færðar mánaðarlega á 36 mánuðum. |
 
-6. Á **Allar innheimtuáætlanir** síðu, notaðu **Stofna dagbókarfærslu** ferli til að bóka samningsverðmæti í efnahagsreikninginn sem óreikningsfærðar tekjur.
+6. Á **Allar innheimtuáætlanir** síðu, notaðu **Stofna dagbókarfærslu** ferli til að bóka samningsverðmæti í efnahagsreikning sem óreikningsfærðar tekjur.
 
 Tvær dagbókarfærslur eru búnar til, ein fyrir hverja línu á innheimtuáætlun.
 
-| Lykill óreikningsfærðra tekna | Ógjaldfærður mótlykill tekna | Debetupphæð | Kreditupphæð |
-|---|---|---|---|
-| Lykill óreikningsfærðra tekna | | $300.00 | |
-| | Ógjaldfærður mótlykill tekna | | $300.00 |
+| Lykill | Debetupphæð | Kreditupphæð |
+|---|---|---|
+| Lykill óreikningsfærðra tekna | $300.00 | |
+| Tekjulykill | | $300.00 |
 
-| Lykill óreikningsfærðra tekna | Frestaðar tekjur | Debetupphæð | Kreditupphæð |
-|---|---|---|---|
-| Lykill óreikningsfærðra tekna | | $90.00 | |
-| |Frestað viðhaldstekjur | | $90.00 |
+| Lykill | Debetupphæð | Kreditupphæð |
+|---|---|---|
+| Lykill óreikningsfærðra tekna | $90.00 | |
+| Frestaðar tekjur | | $90.00 |
 
-Fyrsta dagbókarfærslan er bókuð á óreikningsfærðan tekjujöfnunarreikning og sú síðari er bókuð á frestað tekjureikning. Ef innheimtulínan hefur bæði óinnheimtaðar tekjur og frestar tekjur, er frestað teknareikningurinn notaður, ekki óreikningsfærða tekjujöfnunin. Samningurinn krefst þess að reikningur fyrir viðskiptavininn sé búinn til í upphafi hvers árs. Nota **Búðu til reikning** ferli til að búa til reikninginn. Þegar reikningurinn er búinn til eru eftirfarandi dagbókarfærslur búnar til.
+Samningurinn krefst þess að reikningur fyrir viðskiptavininn sé búinn til í upphafi hvers árs. Nota **Búðu til reikning** ferli til að búa til reikninginn. Þegar reikningurinn er búinn til er eftirfarandi reikningsskírteini bókað.
 
-| Aðallykill | Lykill óreikningsfærðra tekna | Debetupphæð | Kreditupphæð |
-|---|---|---|---|
-| Óinnheimt tekjujöfnun | | $100.00 | |
-| | Lykill óreikningsfærðra tekna | | $100.00 |
-| Viðskiptakröfur | | $100.00 | |
-| | Tekjulykill | | $100.00 |
+| Lykill| Debetupphæð | Kreditupphæð |
+|---|---|---|
+| Lykill óreikningsfærðra tekna | | $130.00 |
+| Viðskiptakröfur | $130.00 | |
 
-| Aðallykill | Lykill óreikningsfærðra tekna | Debetupphæð | Kreditupphæð |
-|---|---|---|---|
-| Framhaldstekjureikningur | | $30.00 | |
-| | Lykill óreikningsfærðra tekna | | $30.00 |
-| Viðskiptakröfur | | $30.00 | |
-| | Framhaldstekjureikningur | | $30.00 |
+Þessi sama dagbókarfærsla verður til með reikningum sem eru bókaðir í byrjun næstu tveggja ára. Óinnheimt tekjureikningur minnkar á hverju ári á meðan **Búðu til reikning** ferli. Jöfnunarreikningur óinnheimtutekna er notaður til að jafna óinnheimtu teknareikninginn þegar mismunandi gengi er notað. 
 
-Þessi sama dagbókarfærsla verður til með reikningum sem eru bókaðir í byrjun næstu tveggja ára. Nettóupphæð frestaðtekjureiknings verður 0 (núll), vegna þess að það er engin námundun eða gengismunur. Frestaðar tekjur verður að bakfæra nákvæmlega eins og þær voru færðar á meðan **Stofna dagbókarfærslu** ferli. Vegna þess að tekjur eru enn frestaðar og verða færðar síðar, á sér stað inneign á frestað tekjureikninginn aftur.
+Í síðasta skrefi er færslubókarfærsla stofnuð í hverjum mánuði til að færa frestaðar tekjur af viðhaldsgjaldinu. Dagbókarfærsluna er hægt að búa til með því að nota **Viðurkenningarvinnsla** síðu. Að öðrum kosti er hægt að búa það til með því að velja **Kannast við** fyrir línurnar á **Frestunaráætlun** síður.
 
-Í síðasta skrefi er færslubókarfærsla stofnuð í hverjum mánuði til að færa frestað viðhaldsgjaldstekjur. Dagbókarfærsluna er hægt að búa til með því að nota **Viðurkenningarvinnsla** síðu. Að öðrum kosti er hægt að búa það til með því að velja **Kannast við** fyrir línurnar á **Frestunaráætlun** síður.
+| Aðallykill | Debetupphæð | Kreditupphæð |
+|---|---|---|
+| Frestaðar tekjur | $2.50 | |
+| Tekjur | | $2.50 |
 
-| Lykill tekjufrestunar | Tekjulykill | Debetupphæð | Kreditupphæð |
-|---|---|---|---|
-| Frestað viðhaldstekjur | | $2.50 | |
-| | Viðhaldstekjur | | $2.50 |
-
-Þessi færslubók verður stofnuð í hvert sinn sem viðurkenningarferlið er keyrt fyrir þessa fresta vöru (alls 36 sinnum).
+Þessi færslubók verður stofnuð í hvert sinn sem viðurkenningarferlið er keyrt fyrir þessa frestað vöru (alls 36 sinnum).
 
 #### <a name="short-term-fixed-year"></a>Skammtímar: Föst ár
 
@@ -206,12 +197,12 @@ Innheimtuáætlun sem hefur eftirfarandi skilyrði er búin til:
 - **Einingaverð:** $100
 - **Tíðni:** Mánaðarlega
 
-Á **Allar innheimtuáætlanir** síðu, upphafsdagbókarfærslan er búin til af **Stofna dagbókarfærslu** ferli. Núverandi skammtíma- og langtímafjárhæðir eru reiknaðar á eftirfarandi hátt:
+Á **Allar innheimtuáætlanir** síðu, upphafsbókarfærslan er búin til af **Stofna dagbókarfærslu** ferli. Núverandi skammtíma- og langtímafjárhæðir eru reiknaðar á eftirfarandi hátt:
 
 - **Núverandi skammtíma óinnheimt tekjuupphæð:** $700
 - **Núverandi langtíma óinnheimt tekjuupphæð:** $1,200
 
-Reikningurinn er búinn til fyrir innheimtutímabilið frá 1. júní 2020 til 30. nóvember 2020. Núverandi skammtíma- og langtímafjárhæðir eru reiknaðar á eftirfarandi hátt:
+Reikningurinn er búinn til fyrir greiðslutímabilið frá 1. júní 2020 til 30. nóvember 2020. Núverandi skammtíma- og langtímafjárhæðir eru reiknaðar á eftirfarandi hátt:
 
 - **Núverandi skammtíma óinnheimt tekjuupphæð:** $100
 - **Núverandi langtíma óinnheimt tekjuupphæð:** $1,200
@@ -232,12 +223,12 @@ Innheimtuáætlun sem hefur eftirfarandi skilyrði er búin til:
 - **Einingaverð:** $100
 - **Tíðni:** Mánaðarlega
 
-Á **Allar innheimtuáætlanir** síðu, upphafsdagbókarfærslan er búin til af **Stofna dagbókarfærslu** ferli. Núverandi skammtíma- og langtímafjárhæðir eru reiknaðar á eftirfarandi hátt:
+Á **Allar innheimtuáætlanir** síðu, upphafsbókarfærslan er búin til af **Stofna dagbókarfærslu** ferli. Núverandi skammtíma- og langtímafjárhæðir eru reiknaðar á eftirfarandi hátt:
 
 - **Núverandi skammtíma óinnheimt tekjuupphæð:** $1,200
 - **Núverandi langtíma óinnheimt tekjuupphæð:** $700
 
-Reikningurinn er búinn til fyrir innheimtutímabilið frá 1. júní 2020 til 30. nóvember 2020. Núverandi skammtíma- og langtímafjárhæðir eru reiknaðar á eftirfarandi hátt:
+Reikningurinn er búinn til fyrir greiðslutímabilið frá 1. júní 2020 til 30. nóvember 2020. Núverandi skammtíma- og langtímafjárhæðir eru reiknaðar á eftirfarandi hátt:
 
 - **Núverandi skammtíma óinnheimt tekjuupphæð:** $1,200
 - **Núverandi langtíma óinnheimt tekjuupphæð:** $100
@@ -258,35 +249,35 @@ Tveimur hlutum sem hafa mismunandi innheimtutíðni er bætt við innheimtuáæt
     - **Sjálfstætt söluverð:** $1,600
     - **Samningstekjur:** $1,465.26
 
-- **Vörunúmer S0021:** Trygging sem er seld ásamt vörunúmeri 1000
+- **Vörunúmer S0021:** Vátrygging sem er seld ásamt vörunúmeri 1000
 
     - **Innheimtutíðni:** Mánaðarlega í 12 mánuði
     - **Einingaverð:** $20 á mánuði
     - **Sjálfstætt söluverð:** $25
     - **Samningstekjur:** $264.74
 
-Vegna þess að báðar vörurnar nota óinnheimtar tekjur og úthlutun tekna er heildarupphæð samnings á endurnýjunarlínunni 0 (núll). The **Samningstekjur** dálki er bætt við og sýnir upphæð samningstekju.
+Vegna þess að báðar vörurnar nota óinnheimtar tekjur og úthlutun tekna er heildarupphæð samnings á endurnýjunarlínunni 0 (núll). The **Samningstekjur** dálki er bætt við og sýnir upphæð samningstekna.
 
 Eftirfarandi tafla sýnir upphaflega færslubók fyrir vörurnar og reikninginn.
 
-| Lykill óreikningsfærðra tekna | Lykill tekjufrestunar | Debetupphæð | Kreditupphæð |
-|---|---|---|---|
-| **Liður 1000 dagbókarfærsla** | | | |
-| Debet óreikningsfærður tekjureikningur (401250) | | $1,465.26 | |
-| | Tekjureikningur innheimtur (250600) | | $1,465.26 |
-| **Liður 0021 Dagbókarfærsla** | | | |
-| Debet óreikningsfærður tekjureikningur (401250) | | $274.74 | |
-| | Tekjureikningur innheimtur (250600) | | $274.74 |
-| **Reikningur** | | | |
-| | Inneign á óinnheimtu tekjureikningi | | $1,465.26 |
-| | Inneign á óinnheimtu tekjureikningi | | $274.74 |
-| Debet AR reikningur (130100) | | $1,488.16 | |
+| Aðallykill | Debetupphæð | Kreditupphæð |
+|---|---|---|
+| **Liður 1000 dagbókarfærsla** | | | 
+| Óinnheimtur tekjureikningur (401250) | $1,465.26 | |
+| Reikningur tekna (250600) | | $1,465.26 |
+| **Liður 0021 Dagbókarfærsla** | | | 
+| Óinnheimtur tekjureikningur (401250) | $274.74 | |
+| Reikningur tekna (250600) | | $274.74 |
+| **Reikningur** | | |
+| Lykill óreikningsfærðra tekna | | $1,465.26 |
+| Lykill óreikningsfærðra tekna | | $274.74 |
+| AR reikningur (130100) | $1,488.16 | |
 
 #### <a name="changes-to-the-billing-schedule-line-billing-detail-line-or-revenue-allocation"></a>Breytingar á innheimtuáætlunarlínu, innheimtuupplýsingalínu eða tekjuúthlutun
 
 Þegar einingaverði eða magni er breytt þarf að uppfæra samningstekjuupphæð fyrir hvern lið sem er hluti af tekjuúthlutuninni. Því er dagbókarfærslan endurreiknuð.
 
-Til dæmis er einingaverði fyrir vöru 1000 breytt úr $1,500 í $1,600. Í þessu tilviki er upphæð samningstekna sjálfkrafa endurreiknuð sem $1,549.47. Samningstekjur fyrir lið S0021 eru endurreiknaðar sem $290.53.
+Til dæmis er einingaverði fyrir vöru 1000 breytt úr $1,500 í $1,600. Í þessu tilviki er samningstekjur sjálfkrafa endurreiknuð sem $1,549.47. Samningstekjur fyrir lið S0021 eru endurreiknaðar sem $290.53.
 
 Þegar breytingin er staðfest og framkölluð, er upphafsfærslubókarfærslum fyrir báðar færslur bakfærðar og nýjar færslubókarfærslur eru búnar til:
 
@@ -295,12 +286,12 @@ Til dæmis er einingaverði fyrir vöru 1000 breytt úr $1,500 í $1,600. Í þe
 
 #### <a name="termination"></a>Lok
 
-Hlutur S0021 hefur upphafsdag í janúar 2020 og lokadagsetningu í desember 2020, en er sagt upp í júní 2020. Endurreikna verður samningstekjuupphæðina fyrir báða liði:
+Hlutur S0021 hefur upphafsdag í janúar 2020 og lokadagsetningu í desember 2020, en er sagt upp í júní 2020. Upphæð samningstekju fyrir báða liði verður að endurreikna:
 
 - **Atriði 1000:** Samningstekjurnar eru endurreiknaðar sem $1,567.67.
 - **Liður S0021:** Samningstekjurnar eru endurreiknaðar sem $124.00.
 
-Leiðréttingarbókarfærsla er búin til fyrir línuna sem er hætt. Dagbókarfærslunni fyrir línuna sem tilheyrir sama MEA-númeri (multiple element arrangement) er snúið við og ný dagbókarfærsla er búin til:
+Leiðréttingarbókarfærsla er búin til fyrir línuna sem er hætt. Dagbókarfærslunni fyrir línuna sem tilheyrir sömu MEA-númeri (multiple element arrangement) er snúið við og ný færslubók er búin til:
 
 - **Atriði 1000:** Upprunalegri dagbókarfærslu $1,465.26 er snúið við. Leiðréttingarbókarfærsla fyrir $1,549.47 er búin til.
 - **Liður S0021:** Upprunalegri dagbókarfærslu $274.74 er snúið við. Ný dagbókarfærsla fyrir $124.00 er búin til.

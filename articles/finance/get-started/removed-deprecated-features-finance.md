@@ -2,7 +2,7 @@
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja úr Dynamics 365 Finance.
 author: kfend
-ms.date: 06/29/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462302"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643795"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
 
@@ -32,6 +32,18 @@ ms.locfileid: "9462302"
 
 > [!NOTE]
 > Ítarlegar upplýsingar um hluti í fjármála- og rekstraröppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af fjármála- og rekstrarforritum.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10031-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.31 útgáfu
+
+### <a name="edifact-paymul-at-configuration-under-payment-model"></a>EDIFACT PAYMUL (AT) stillingar undir greiðslulíkan
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Ástæða úreldingar/fjarlægingar** | Skipt út fyrir nýtt snið sem byggir á ISO 20022 pain.001.001.09. | 
+| **Skipt út fyrir aðra eiginleika?**   | Já |
+| **Afurðasvæði sem haft er áhrif á**         | Forrit |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Bankar í Austurríki munu afnema EDICFACT-PAYMUL fyrir greiðslur yfir landamæri fyrir nóvember 2022 og skipta því út fyrir XML útgáfu pain.001.001.09N. Nýrri stillingu hefur verið bætt við undir Global Configuration repository sem gerir notendum kleift að ljúka greiðslubeiðni yfir landamæri. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Eiginleikar sem voru fjarlægðir eða úreltir í Finance 10.0.30 útgáfu
 

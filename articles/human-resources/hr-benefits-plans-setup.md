@@ -2,7 +2,7 @@
 title: Búa til fríðindaáætlun
 description: Þessi grein sýnir hvernig á að setja upp bótaáætlanir í Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 09/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c8d4488f1782d80484a8b91f4ae7303fea0e464
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 001318be00efcda1e7ee07513e240059d3c5e135
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337321"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643938"
 ---
 # <a name="create-a-benefit-plan"></a>Stofna fríðindaáætlun
 
@@ -42,8 +42,9 @@ ms.locfileid: "9337321"
    | **Áætlun** | Tilgreinir forrit til að tengja áætlunina mögulega. |
    | **Búnt** | Tilgreinir búnt til að tengja áætlunina mögulega. |
    | **Næstefsta stig** | Tilgreinir hvort áætlunin sem aðaláætlunin í búntinu sem hún tilheyrir. |
+   | **Áskilið** | Gefur til kynna að það þurfi að velja áætlunina til að skoða önnur áætlun í búntinu. Hægt er að merkja fleiri en eina áætlanir sem **Áskilið**. Í því tilviki eru allar áætlanir sem eru merktar sem **Áskilið** verður að velja til að skoða einhverjar áætlanir í búntinu.|
    | **Gildir frá dagsetningu og tíma** | Lokadagsetning og tími þegar áætlunin hefst. Sjálfgefið gildi er núverandi kerfisdagsetning. |
-   | **Gildir til dagsetningu og tíma** | Dagur og tími loka áætlunarinnar. Sjálfgefið gildi er 12/31/2154, sem táknar aldrei. |
+   | **Gildir til dagsetningu og tíma** | Dagur og tími loka áætlunarinnar. Sjálfgefið gildi er 12/31/2154, sem táknar aldrei.  |
 
 4. Á **Stillingar** flipann, tilgreindu gildi fyrir eftirfarandi reiti, allt eftir gerð áætlunarinnar sem þú ert að búa til:
 

@@ -1,6 +1,6 @@
 ---
 title: Samræmisgreining á fínstillingu áætlanagerðar
-description: Þessi grein útskýrir hvernig á að sannreyna núverandi uppsetningu og gögn með hliðsjón af getu skipulagsfínstillingaraðgerðarinnar.
+description: Þessi grein útskýrir hvernig á að sannreyna núverandi uppsetningu og gögn í samanburði við getu skipulagsfínstillingaraðgerðarinnar.
 author: t-benebo
 ms.date: 08/11/2022
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591851"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643737"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Samræmisgreining á fínstillingu áætlanagerðar
 
@@ -104,7 +104,7 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | Öryggismörk | Aðaláætlanir með öryggismörk: *\#* | Þessi eiginleiki er nú studdur. Frekari upplýsingar má finna í [Öryggismörk](safety-margins.md) |  Stutt |
 | Uppfylling öryggisbirgða | Vöruþekjufærslur með „Uppfylla lágmark“ annað en „Dagurinn í dag + öflunartími“: *\#* | Fínstilling áætlanagerðar notar alltaf *Dagurinn í dag + öflunartími*. Þessi breyting er gerð til að undirbúa einfalda uppsetningu áætlanagerðar í framtíðinni og til að veita niðurstöður sem hægt er að nýta sér. Ef öflunartíminn er ekki hafður með í öryggisbirgðum, verða alltaf tafir á áætluðum pöntunum sem búnar eru til fyrir núverandi lágar lagerbirgðir vegna afhendingartíma. Þessi hegðun getur valdið verulegum truflunum og óæskilegum áætluðum pöntunum. Besta er að breyta stillingunni þannig að *Dagurinn í dag + öflunartími* er notaður. Uppfæra aðalgögn til að forðast viðvaranir. | Á ekki við |
 | Sölutilboð | Aðaláætlanir með virk sölutilboð: *\#* | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til tilboða þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | 2022 útgáfubylgja 2 eða síðar |
-| Endingartími | Aðaláætlanir með virkan endingartíma: *\#* | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til endingartíma þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | Stutt |
+| Endingartími | Aðaláætlanir með virkan endingartíma: *\#* | Þessi eiginleiki er nú studdur. | Stutt |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

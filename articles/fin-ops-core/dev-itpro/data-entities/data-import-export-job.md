@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357592"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671459"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
@@ -64,6 +64,9 @@ Við mælum með að þú takir tíma til að velja viðeigandi verktegund fyrir
 
 ### <a name="set-the-data-format-for-the-job"></a>Velja gagnasnið fyrir verkið.
 Þegar þú velur einingu verður þú að velja snið gagna sem verða flutt út eða inn. Þú skilgreinir snið með því að nota reitinn **Uppsetning uppruna gagna**. Snið upprunagagna er blanda af **Tegund**, **Skráarsniði**, **Línuafmörkun** og **Dálkaafmörkun**. Það eru líka aðrir eiginleikar en þetta eru lykilatriðin til að skilja. Eftirfarandi tafla sýnir gildar samsetningar.
+
+> [!NOTE]
+> Excel skráarsniðið er ekki tiltækt eins og er á gagnastjórnunarvinnusvæðinu fyrir Government Community Cloud (GCC).
 
 | Skrársnið            | Afmarkari fyrir línu/dálk                       | XML-stíll                 |
 |------------------------|--------------------------------------------|---------------------------|

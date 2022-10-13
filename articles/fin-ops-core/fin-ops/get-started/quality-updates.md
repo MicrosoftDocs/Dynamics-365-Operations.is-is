@@ -11,18 +11,18 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 54fd52f27a4169c5b6fed6045a5540cfd47bdd51
-ms.sourcegitcommit: 3ef31670b579a34dcde4ec86541a202d2ac2f9c5
+ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9637046"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671426"
 ---
 # <a name="proactive-quality-updates"></a>Fyrirbyggjandi gæðauppfærslur
 
 [!include[banner](../includes/banner.md)]
 
-Á undanförnum árum hefur Microsoft náð stöðugum framförum í því sem við vísum til sem [Ein útgáfa](../../dev-itpro/lifecycle-services/oneversion-overview.md). Forsenda One Version er einföld: því nær sem við komumst að hafa alla viðskiptavini á sömu hugbúnaðarútgáfu, því meiri gæði sem við getum skilað. Við finnum og lagum vandamál einu sinni og við fáum þessar lausnir í hendur fleiri viðskiptavina hraðar.
+Undanfarin ár hefur Microsoft náð stöðugum framförum í því sem við vísum til sem [Ein útgáfa](../../dev-itpro/lifecycle-services/oneversion-overview.md). Forsenda One Version er einföld: því nær sem við komumst að hafa alla viðskiptavini á sömu hugbúnaðarútgáfu, því meiri gæði sem við getum skilað. Við finnum og lagum vandamál einu sinni og við fáum þessar lausnir í hendur fleiri viðskiptavina hraðar.
 
 Þessi forsenda er staðfest af niðurstöðunum: lægri atvikafjöldi á vörum okkar. Þegar viðskiptavinir eru ekki á sömu útgáfu, sjáum við stöðugt að þeir verða fyrir áhrifum af vandamálum sem lausn er þegar tiltæk fyrir. Við höfum þegar náð miklum framförum með Dynamics 365 Finance, Dynamics 365 Supply Chain,Dynamics 365 Project Operations, og Dynamics 365 Commerce, og þökk sé nýlegum tækniframförum er nú hægt að taka næsta skref. Eftirfarandi upplýsingar segja til um hvað við ætlum að gera, hvað við höfum þegar gert til að setja sviðið og hvernig og hvenær við munum kynna nýja möguleikana án truflana.
 
@@ -87,6 +87,9 @@ Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hverjir eru fyri
 | Stöð 5 | DoD, Government Community Cloud, Kína | Ekki áætlað | Ekki áætlað |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Fyrirbyggjandi gæðauppfærsluútgáfa: 10.0.29
+**App útgáfa: 10.0.1326.70**
+**Samsvarandi nýjustu KB grein: 748926**
+
 | Stöð | Svæði | Komandi Sandbox Dagskrá
 |---|---|---|
 | Stöð 1 | Kanada Mið, Kanada Austur, Frakkland Mið, Indland Mið, Noregur Austur, Sviss Vestur | 14. október til 17. október 2022 |
@@ -96,7 +99,7 @@ Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hverjir eru fyri
 | Stöð 5 | DoD, Government Community Cloud, Kína | Ekki áætlað |
 
 > [!IMPORTANT] 
-> Með fimm virkum dögum fyrirvara mun Microsoft uppfæra fyrri áætlun og senda tilkynningar í tölvupósti til þess hóps umhverfis sem áætlað er að fái þessar gæðauppfærslur. Fyrri áætlun á aðeins við um umhverfi sem hefur verið tilkynnt um væntanlega uppfærslu. Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hverjir eru fyrirhugaðir viðhaldsgluggar eftir svæðum](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)?.
+> Fimm daga fyrirvara mun Microsoft uppfæra áætlunina á undan og senda tilkynningar í tölvupósti til þess hóps umhverfis sem áætlað er að fái þessar gæðauppfærslur. Fyrri áætlun á aðeins við um umhverfi sem hefur verið tilkynnt um væntanlega uppfærslu. Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hverjir eru fyrirhugaðir viðhaldsgluggar eftir svæðum](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)?.
 >
 > Fyrir hvern svæðishóp, eða *stöð*, þar sem áætlað er að gæðauppfærsla verði sett út, sýnir áætlunin fjögurra daga bil. Gæðauppfærslur byrja aðeins með sandkassaumhverfi. Síðan, eftir því sem hlutfall sandkassa sem tókst að dreifa eykst, mun dreifing í framleiðsluumhverfi hefjast með fyrirfram tilkynningum til viðskiptavina.
 > 
@@ -141,8 +144,8 @@ Já. Til að tryggja áframhaldandi jafnræði við hvernig flýtileiðréttinga
 Já. Þú getur sett upp gæðauppfærslu fyrirbyggjandi. Microsoft mun sleppa uppfærslunni ef núverandi byggingarútgáfa umhverfisins er jöfn eða hærri en viðkomandi gæðauppfærsla.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Ef umhverfi er með væntanlega mánaðarlega þjónustuuppfærslu innan viku, mun það samt fá gæðauppfærslur?
-- Gæðauppfærslum er ekki beitt ef yfirvofandi þjónustuuppfærsla er áætluð innan viku frá því að gæðauppfærslan á að gerast.
-- Ef sandkassaumhverfi er með sömu eða hærri byggingarútgáfu en yfirvofandi gæðauppfærsla verður því sleppt.
+- Gæðauppfærslur eru ekki notaðar á framleiðsluumhverfi ef það er yfirvofandi þjónustuuppfærsla áætluð innan viku frá því að gæðauppfærslan á að gerast.
+- Ef sandkassaumhverfi er með sömu eða hærri byggingarútgáfu en yfirvofandi gæðauppfærsla, verður því sleppt.
 - Ef framleiðsluumhverfi er með sömu eða hærri byggingarútgáfu en yfirvofandi gæðauppfærsla verður henni sleppt.
 - Ef sandkassi er með sömu eða hærri byggingarútgáfu vegna gæðauppfærslu eða handvirkrar uppfærslu á framleiðslunni mun framleiðslan samt fá áætlaða útgáfu mánaðarlegrar þjónustuuppfærslu. Ef þú vilt ekki að áætlað framleiðsluumhverfi verði uppfært í þjónustuuppfærsluútgáfuna geturðu gert hlé á þjónustuuppfærslunni frá LCS. 
 - Við mælum með því að þú notir nýjustu gæðauppfærslugerðina til að prófa breytingarnar þínar fyrir væntanlega þjónustuuppfærslu fyrir betri stöðugleika og árangur.

@@ -1,8 +1,8 @@
 ---
 title: Fjárhagsskýrslur efnahagsreikninga
 description: Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga. Hún lýsir einnig einingum sem tengjast þessum skýrslum.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
-ms.author: jcart
+ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64e23574f470efe1cb737236ff0b0ef37dae5064
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4aad297f401143388d682da175a6b14727a8f2f0
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880731"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643824"
 ---
 # <a name="balance-sheet-financial-reports"></a>Fjárhagsskýrslur efnahagsreikninga
 
@@ -33,9 +33,9 @@ ms.locfileid: "8880731"
 Það eru tvær sjálfgefnar skýrslur efnahagsreikninga. Í einni skýrslunni er köflunum staflað. Í hinni skýrslunni eru kaflarnir hlið við hlið.
 
 | Sjálfgefin skýrsla                       | Það sem hún gerir                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------|
-| Efnahagsreikningur - Sjálfgefið              | Veitir yfirsýn yfir fjárhagslega stöðu fyrirtækisins fyrir árið.                                                                 |
-| Efnahagsreikningur hlið við Hlið – Sjálfgefin | Veitir yfirsýn yfir fjárhagslega stöðu fyrirtækisins fyrir árið. Eignir og skuldir og eigið fé hluthafa er hlið við hlið. |
+|--------------------------------------|--------------------------------------------------------------------------------------|
+| Efnahagsreikningur - Sjálfgefið              | Veitir yfirsýn yfir fjárhagslega stöðu fyrirtækisins fyrir árið.                    |
+| Efnahagsreikningur og rekstrarreikningur hlið við hlið – Sjálfgefið | Gefur yfirsýn yfir fjárhagsstöðu stofnunarinnar á árinu hlið við hlið. |
 
 ## <a name="building-blocks"></a>Einingar
 Fjárhagsskýrslur efnahagsreikninga nota eftirfarandi grunneiningar.
@@ -43,7 +43,7 @@ Fjárhagsskýrslur efnahagsreikninga nota eftirfarandi grunneiningar.
 | Sjálfgefin skýrsla                       | Skilgreining línu                       | Skilgreining dálks             |
 |--------------------------------------|--------------------------------------|-------------------------------|
 | Efnahagsreikningur - Sjálfgildi              | Efnahagsreikningur - Sjálfgildi              | YTD og frávik - Sjálfgildi    |
-| Efnahagsreikningur hlið við Hlið – Sjálfgefin | Efnahagsreikningur hlið við Hlið – Sjálfgefin | Dálkurinn Það sem af er ári - Sjálfgildi |
+| Efnahagsreikningur og rekstrarreikningur hlið við hlið – Sjálfgefið | Efnahagsreikningur og rekstrarreikningur hlið við hlið – Sjálfgefið | Dálkurinn Það sem af er ári - Sjálfgildi |
 
 ### <a name="row-definition"></a>Skilgreining línu
 

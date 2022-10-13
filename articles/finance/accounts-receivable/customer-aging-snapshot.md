@@ -2,7 +2,7 @@
 title: Aldursgreiningarmynd viðskiptavinar
 description: Þessi grein veitir upplýsingar um skyndimyndir um öldrun viðskiptavina. Aldursgreiningarmynd reiknar út aldursgreinda stöður fyrir hóp viðskiptavina á einum tímapunkti.
 author: JodiChristiansen
-ms.date: 05/05/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 248a71ff3c9f6c30448ff486f3ee42ac534b1825
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269563"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643686"
 ---
 # <a name="customer-aging-snapshots"></a>Aldursgreiningarmynd viðskiptavinar
 
@@ -31,15 +31,15 @@ Upplýsingar úr aldursgreiningarmyndum eru sýndar á listasíðunni **Aldursgr
 Vinnusvæðið **Skuldir og innheimta viðskiptavinar** sýnir einnig aldursgreiningu viðskiptavinar. Frekari upplýsingar er að finna í [Skulda- og innheimtuumsjón Power BI Efni](credit-collections-power-bi.md).
 
 > [!NOTE]
-> Til að draga úr þeim tíma sem þarf til að búa til aldursgreiningarmynd skal kveikja á eiginleikanum **Aukin afköst við aldursgreiningu viðskiptavinar** á vinnusvæðinu **Eiginleikastjórnun**. Notið hins vegar ekki viðskiptavinahópa þegar kveikt er á þessum eiginleika. Ef viðskiptavinahópur er valinn mun eiginleikinn ekki virka, en enn verður hægt að búa til aldursgreiningarmynd.
+> Til að draga úr þeim tíma sem þarf til að búa til öldrunarmynd skaltu kveikja á eftirfarandi eiginleikum í **Eiginleikastjórnun** vinnusvæði: **Öldrunarárangur viðskiptavina**
+> **Öldrunarárangur viðskiptavina með hópum viðskiptavina**  
+> Með báða eiginleikana virka, **Viðskiptavinalaugar** er hægt að nota þegar öldrunarmyndin er búin til. 
 
 Þegar aldursgreiningarmynd viðskiptavinar er búin til skal nota eftirfarandi reiti til að færa inn upplýsingar um hann:
 
 - **Skilgreining aldurstímabils** – Veljið skilgreiningu aldurstímabils fyrir aldursgreiningarmyndina. Hægt er að hafa eina aldursgreiningarmynd fyrir hverja skilgreiningu aldurstímabils. Aldursgreiningarmyndin og skilgreining aldurstímabilsins þarf að búa til hvort í sínu lagi.
 - **Kenni hóps** – Þessi reitur er valfrjáls. Hægt er að nota hóp til að skilgreina safn viðskiptavina sem á að vinna úr í aldursgreiningarmyndinni. Ef viðskiptavinahópur er valinn í þessum reit verður aldursgreiningarmynd búin til eingöngu fyrir viðskiptavinalykla sem eru hluti af þeim viðskiptavinahópi. Valinn viðskiptavinahópur verður að vera af gerðinni **Aldursgreningarmynd**. Ef þessi reitur er skilinn eftir auður verður aldursgreiningarmynd búin til fyrir alla viðskiptavinalykla.
 
-    > [!NOTE]
-    > Ef kveikt er á **Aukin afköst við aldursgreiningu viðskiptavinar** skal ekki velja viðskiptavinahóp.
 
 - **Skilyrði** – Aldursgreiningarmyndin mun eldast út frá dagsetningunni sem er valin:
 
@@ -52,14 +52,15 @@ Vinnusvæðið **Skuldir og innheimta viðskiptavinar** sýnir einnig aldursgrei
     - **Dagurinn í dag** - Nota kerfisdagsetningu. Veljið þennan valkost ef vinnsla er sett upp til að keyra í endurtekinni runu. Síðan, í hvert skipti sem runan er keyrð, er notuð kerfisdagsetning þeirrar keyrslu.
     - **Valinn dagsetning** – Nota dagsetningu sem þú tilgreinir. Ef þessi valkostur er valinn þarf að færa inn dagsetningu aldursgreiningar.
 
-    Til dæmis er núverandi aldurstímabil 30 dagar. Ef valið er **Dagurinn í dag** í þessum reit, hefst núverandi aldursgreiningartímabil á deginum í dag og felur þá í sér 29 dagana á undan. Ef valið er **Valin dagsetning** og færð er inn dagsetning, hefst núverandi aldursgreiningartímabil á tilgreindum degi og felur þá í sér 29 dagana á undan.
+   Til dæmis er núverandi aldurstímabil 30 dagar. Ef valið er **Dagurinn í dag** í þessum reit, hefst núverandi aldursgreiningartímabil á deginum í dag og felur þá í sér 29 dagana á undan. Ef valið er **Valin dagsetning** og færð er inn dagsetning, hefst núverandi aldursgreiningartímabil á tilgreindum degi og felur þá í sér 29 dagana á undan.
 
 - **Uppfæra innheimtustöðu** – Stillið þennan valkost á **Já** til að uppfæra innheimtustöðu færslnanna á síðunni **Innheimtur** úr **Loforð um greiðslu** í **Loforð um greiðslu svikið** ef dagsetning aldursgreiningar kemur á eftir dagsetningunni í reitnum **Dagsetning greiðsluloforðs**. Stillið þennan valkost á **Nei** til að skilja innheimtustöðuna eftir óbreytta á síðunni **Innheimtur**.
-- **Hafa með viðskiptavini með núllstöðu** – Stillið þennan valkost á **Já** til að hafa með alla viðskiptavini burtséð frá stöðu þeirra. Ef allir viðskiptavinir eru hafðir með er mælt með því að kveikja á eiginleikanum **Aukin afköst við aldursgreiningu viðskiptavinar** og að nota ekki viðskiptavinahópa. Stillið þennan valkost á **Nei** til að hafa eingöngu með viðskiptavini sem eru með stöðu. Þessi stilling hraðar afköstum vegna þess að viðskiptavinum sem ekki eru með stöðu er sleppt.
+- **Hafa með viðskiptavini með núllstöðu** – Stillið þennan valkost á **Já** til að hafa með alla viðskiptavini burtséð frá stöðu þeirra. Ef þú tekur alla viðskiptavini með mælum við með að þú kveikir á báðum **Öldrunarárangur viðskiptavina** og **Öldrunarárangur viðskiptavina með hópum viðskiptavina** eiginleikar. Stillið þennan valkost á **Nei** til að hafa eingöngu með viðskiptavini sem eru með stöðu. Þessi stilling mun hjálpa til við að flýta fyrir afköstum, vegna þess að viðskiptavinum sem ekki eru með inneign er sleppt.
+- **Farðu framhjá útreikningum á lánamörkum við öldrun** - Ef þessi valkostur er stilltur á **Já** öldrunarferlið mun ekki endurreikna **Samtala fylgiseðils** magn, **Opin pöntun undirsamtala** upphæð og **Inneign í boði** fyrir hvern viðskiptavin. Þessar stöður eru sýndar á **Eldri jafnvægi** síðu, í staðreyndaboxinu undir **Lánamörk**. Til að fá hraðari frammistöðu á öldrunarferlinu skaltu stilla þennan valkost á **Já**. Stilltu það á **Nei** að endurreikna stöðuna þegar öldrunarferlið er keyrt. 
 - **Fyrirtækjasvið** – Í flipanum **Fyrirtækjasvið** skal velja lögaðilana (fyrirtækin) sem hafa á með í aldursgreiningarmyndinni. Aðeins er hægt að velja lögaðila sem eru settir upp fyrir miðstýrðar greiðslur. Færslur frá völdum lögaðilum eru síðan hafðar með í aldursgreiningartímabilum fyrir viðskiptavini sem eru með sömu aðilakennin í öllum þessum lögaðilum. Upphæðir gjaldmiðils eru umreiknaðar í gjaldmiðil lögaðilans sem notandi er skráður inn á þegar hann býr til aldursgreiningarmyndina.
 
 Mælt er með því að tímasetja þessa vinnslu til að keyra hana í runu.
 
 > [!NOTE]
-> Til að stuðla að auknum runuafköstum þegar aldursgreiningarmyndir eru búnar til skal færa inn númer í reitinn **Hámarksfjöldi runuverka** í flýtiflipanum **Sjálfgefnar innheimtur** í flipanum **Innheimtur** á síðunni **Færibreytur viðskiptakrafa**. Í reitnum **Aldursgreina stöður viðskiptavina** er mælt með að byrja á sjálfgefna gildinu **100** og síðan leiðrétta gildið til að hámarka vinnslu fyrir kringumstæðurnar.
+> Til að stuðla að auknum runuafköstum þegar aldursgreiningarmyndir eru búnar til skal færa inn númer í reitinn **Hámarksfjöldi runuverka** í flýtiflipanum **Sjálfgefnar innheimtur** í flipanum **Innheimtur** á síðunni **Færibreytur viðskiptakrafa**. Í **Aldursstaða viðskiptavina** reit, mælum við með að þú byrjir með gildi á milli **12** og **20** og stilltu síðan gildið til að hámarka vinnslu fyrir aðstæður þínar. Við mælum ekki með því að setja þetta gildi hærra en **30** þar sem það mun hafa áhrif á frammistöðu. 
 

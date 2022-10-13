@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 42ea8884c357bcb26ac96df8dca75e7ff449d4f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f04ef1a0de815596f629fede25a247c58e026f4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881963"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643878"
 ---
 # <a name="finance-insights-home-page"></a>Heimasíða Fjármálainnsýnar
 
 [!include [banner](../includes/banner.md)]
 
-Fjármálainnsýn veitir stillanlegar og stækkanlegar lausnir til að hjálpa þér að spá fyrir um sjóðstreymi fyrirtækis þíns á skynsamlegan hátt, spá fyrir um hvenær þú gætir fengið greiðslu fyrir útistandandi kröfur og búa til fjárhagsáætlunartillögu sem getur hjálpað þér að flýta fyrir fjárhagsáætlunargerð. Þessir eiginleikar nota snjöll vélnámssniðmát til að búa til líkön með því að nota gögn sem þú gefur upp (þar á meðal gögn frá þriðja aðila eins og neytendaskýrsluupplýsingar frá skrifstofu). Þessi snjöllu hæfileiki upplýsir ákvarðanatöku og hjálpar þér að grípa til aðgerða til að bregðast skilvirkt við núverandi og væntanlegum viðskiptaáskorunum. Þú berð ábyrgð á hvers kyns gögnum sem notuð eru með, eða framleiðsla úr, innsýn í fjármálum.
+Fjármálainnsýn veitir stillanlegar og stækkanlegar lausnir til að hjálpa þér að spá fyrir um sjóðstreymi fyrirtækis þíns á skynsamlegan hátt, spá fyrir um hvenær þú gætir fengið greiðslu fyrir útistandandi kröfur og búa til fjárhagsáætlunartillögu sem getur hjálpað til við að flýta fyrir fjárhagsáætlunargerð. Þessir eiginleikar nota snjöll vélanámssniðmát til að búa til líkön með því að nota gögn sem þú gefur upp (þar á meðal gögn frá þriðja aðila eins og neytendaskýrsluupplýsingar frá skrifstofu). Þessi greindur hæfileiki upplýsir ákvarðanatöku og hjálpar þér að grípa til aðgerða til að bregðast skilvirkt við núverandi og væntanlegum viðskiptaáskorunum. Þú berð ábyrgð á hvers kyns gögnum sem notuð eru með, eða framleiðsla úr, innsýn í fjármálum.
 
 > [!NOTE]
 > Fjármálainnsýn er í boði fyrir dreifingu í Bandaríkjunum, Kanada, Bretlandi, Evrópu, Kyrrahafsasíu, Japan, Ástralíu og Nýja Sjálandi. Microsoft bætir smátt og smátt við stuðningi fyrir fleiri svæði.
@@ -59,7 +59,7 @@ Að minnsta kosti eitt ár af reikningum viðskiptavina er nauðsynlegt til að 
 
 ## <a name="create-a-data-integrator-project"></a>Stofna verk til að setja upp samþættingu gagna
 
-Þú þarft að búa til gagnasamþættingarverkefni þannig að gögn sem vélanámslíkanið býr til geti streymt inn í Dynamics 365 Finance. Frekari upplýsingar um skrefin til að stofna verkið er að finna í [Stofna verk til að setja upp samþættingu gagna](create-data-integrate-project.md).
+Þú þarft að búa til gagnasamþættingarverkefni svo að gögn sem vélanámslíkanið býr til geti streymt inn í Dynamics 365 Finance. Frekari upplýsingar um skrefin til að stofna verkið er að finna í [Stofna verk til að setja upp samþættingu gagna](create-data-integrate-project.md).
 
 ## <a name="enable-finance-insights-capabilities"></a>Kveikja á eiginleikum Fjármálainnsýnar
 
@@ -68,7 +68,7 @@ Að minnsta kosti eitt ár af reikningum viðskiptavina er nauðsynlegt til að 
 ### <a name="enable-customer-payment-predictions"></a>Virkja greiðsluspár viðskiptavinar
 Ef verið er að nota sýnigögn til að prófa greiðsluspá viðskiptavinar gæti þurft að flytja inn fleiri sýnigögn til að búa til vélnámslíkanið á fullnægjandi hátt. 
 
-Til að virkja greiðsluspá viðskiptavina, verður þú að ljúka nokkrum skrefum til að byggja upp vélrænt líkan sem notar gögn fyrirtækisins til að búa til spár um hvenær viðskiptavinir eru líklegir til að greiða útistandandi reikninga og hvenær líklegt er að tilteknir reikningar verði greiddir. Frekari upplýsingar og sértæk skref sem verður að ljúka er að finna í [Virkja greiðsluspár viðskiptavinar](enable-cust-paymnt-prediction.md). 
+Til að virkja greiðsluspá viðskiptavina, verður þú að ljúka setti af skrefum til að búa til vélnámslíkan sem notar gögn fyrirtækisins til að búa til spár um hvenær viðskiptavinir eru líklegir til að greiða útistandandi reikninga og hvenær líklegt er að tilteknir reikningar verði greiddir. Frekari upplýsingar og sértæk skref sem verður að ljúka er að finna í [Virkja greiðsluspár viðskiptavinar](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Virkja sjóðstreymisspá
 Til að virkja sjóðsstreymisspá verður að ljúka við nokkur skref til að smíða vélnámslíkan sem notar gögn fyrirtækisins til að mynda sjóðsstreymisspár. Frekari upplýsingar og sértæk skref sem verður að ljúka við er að finna í [Virkja sjóðsstreymisspá](enable-cash-flow-forecasting.md).
@@ -81,7 +81,7 @@ Eiginleikinn drög að fjárhagsáætlun notar vélnámslíkan ásamt eldri gög
 
 ### <a name="using-customer-payment-predictions"></a>Notkun greiðsluspár viðskiptavinar
 
-- Til að læra hvernig greiðsluspár viðskiptavina geta veitt þær upplýsingar sem þarf til að hefja innheimtuaðgerðir með fyrirbyggjandi hætti, sjá [Notaðu greiðsluspá viðskiptavina](use-customer-payment-predictions.md).
+- Til að læra hvernig greiðsluspár viðskiptavina geta veitt þær upplýsingar sem eru nauðsynlegar til að hefja innheimtuaðgerðir fyrirbyggjandi, sjá [Notaðu greiðsluspá viðskiptavina](use-customer-payment-predictions.md).
 - Til að fá upplýsingar sem geta hjálpað til við að meta virkni spálíkansins eftir að þú hefur byrjað að nota eiginleikann er að finna í [Meta upprunalega greiðsluspá viðskiptavinar](evaluate-payment-prediction.md).
 - Til að fá upplýsingar sem geta hjálpað þér að breyta gögnunum sem eru notuð til að gera spá og bæta þannig virkni hennar er að finna á [Bæta spálíkanið](improve-model.md).
 - Frekari upplýsingar um niðurstöður vélnámslíkansins er að finna í [Niðurstöður vélnámslíkana](confusion-matrix.md).
@@ -98,9 +98,5 @@ Eiginleiki sjóðsstreymisspár getur aðstoðað við að gera nákvæmara mat 
 ### <a name="using-budget-proposal"></a>Notkun fjárhagsáætlunar
 
 Frekari upplýsingar um hvernig stofnun fjárhagsáætlunar er flýtt er að finna í [Drög að fjárhagsáætlunum](budget-proposals.md). 
-
-## <a name="feedback-and-support"></a>Ábendingar og stuðningur
-
-Ef þú hefur áhuga á að veita endurgjöf, eða ef þú þarft aðstoð, sendu tölvupóst á [Innsýn í fjármálum](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
