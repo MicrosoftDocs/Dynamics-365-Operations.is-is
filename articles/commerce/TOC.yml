@@ -394,6 +394,8 @@
                   items:
                     - name: Store Commerce-forrit
                       href: dev-itpro/store-commerce.md
+                    - name: Store Commerce-forrit fyrir farsímaverkvanga
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: Sameina Modern POS við Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Leiðbeiningar við innleiðingu tækjastjórnunar
