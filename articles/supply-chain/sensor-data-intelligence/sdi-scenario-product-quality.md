@@ -1,5 +1,5 @@
 ---
-title: Atburðarás vörugæða
+title: Aðstæður fyrir vörugæði
 description: Þessi grein veitir upplýsingar um atburðarás vörugæða. Þessi atburðarás notar skynjara til að mæla gæði vörulotu og myndar viðvörun ef mæling fellur utan skilgreinds þröskulds.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,19 +11,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 8c4808ea3a0389c2a8699f0e11ea154705a6916d
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: c0f1c57251234921779f67faf61d47cdde119e64
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429001"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690049"
 ---
-# <a name="the-product-quality-scenario"></a>Atburðarás vörugæða
+# <a name="the-product-quality-scenario"></a>Aðstæður fyrir vörugæði
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
-Í *vörugæði* atburðarás er skynjari settur upp til að mæla gæði vörulotu á verslunargólfinu. Ef mæling fellur utan skilgreinds þröskulds fyrir vöruna birtist tilkynning á mælaborði umsjónarmanns. Til dæmis er skynjari að mæla raka matvöru sem kemur út úr framleiðslulínunni. Ef mælingin er utan leyfilegs lágmarks- eða hámarksgildis fyrir raka fyrir vöruna er tilkynning gefin út.
+Í *vörugæði* atburðarás er skynjari settur upp til að mæla gæði vörulotu á verslunargólfinu. Ef mæling fellur utan skilgreinds þröskulds fyrir vöru birtist tilkynning á mælaborði umsjónarmanns. Til dæmis er skynjari að mæla raka matvöru sem kemur út úr framleiðslulínunni. Ef mælingin er utan leyfilegs lágmarks- eða hámarksgildis fyrir raka fyrir vöruna er tilkynning gefin út.
 
 ## <a name="scenario-dependencies"></a>Ósjálfstæði sviðsmynda
 
@@ -49,11 +50,11 @@ Fylgdu þessum skrefum til að tengja runueiginleika við vöru *P0111* (*Samset
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
 1. Finndu og veldu vöruna þar sem **Vörunúmer** reiturinn er stilltur á *P0111*.
 1. Á aðgerðarrúðunni, á **Stjórna birgðum** flipa, í **Hópeiginleikar** hópur, veldu **Vara sértæk**.
-1. Á **Vara sértæk** síðu, veldu **Nýtt** til að búa til vörusértæka runueigind.
+1. Á **Vara sértæk** síðu, veldu **Nýtt** til að búa til vörusértæka lotueigind.
 1. Á hausnum skaltu stilla eftirfarandi reiti:
 
     - **Eiginleikakóði** - Veldu umfang eiginda sem þú munt fylgjast með (*Tafla*, *·*, eða *Allt*). Fyrir þessa atburðarás skaltu velja *Tafla*, vegna þess að þú munt alltaf fylgjast með einum eiginleika.
-    - **Eiginleikatengsl** - Veldu eigindina sem þú munt nota *vörugæði* atburðarás til að fylgjast með verðmæti. Fyrir þetta dæmi, veldu *Einbeiting*, sem er eiginleiki sem er innifalinn í stöðluðum kynningargögnum.
+    - **Eiginleikatengsl** – Veldu eigindina sem þú munt nota *vörugæði* atburðarás til að fylgjast með verðmæti. Fyrir þetta dæmi, veldu *Einbeiting*, sem er eiginleiki sem er innifalinn í stöðluðum kynningargögnum.
 
 1. Á **Gildi** Flýtiflipi, í **Lágmark** og **Hámark** reiti, skilgreina svið ásættanlegra gilda sem eigindin verður að tilkynna til að standast gæðaeftirlitið. Ef skynjarinn tilkynnir um gildi utan þessa sviðs mun kerfið bera kennsl á það sem gæðabrot. Hinir reitirnir á þessum flýtiflipanum eiga ekki við um *vörugæði* atburðarás. Sjálfgefin gildi sem þú sérð núna koma frá kynningargögnunum. Þess vegna skaltu skilja þau eftir eins og þau eru og loka **Vara sértæk** síðu til að fara aftur á **Gefnar út upplýsingar um vöru** síðu fyrir hlut *P0111*.
 1. Á aðgerðarrúðunni, á **Verkfræðingur** flipa, í **Útsýni** hópur, veldu **Leið**.
@@ -141,9 +142,9 @@ Eftirfarandi mynd sýnir dæmi um vörugæðagögn þegar gildi utan sviðs er g
 
 ### <a name="view-product-quality-data-on-the-notifications-page"></a>Skoðaðu vörugæðagögn á tilkynningasíðunni
 
-Á **Tilkynningar** síðu, umsjónarmenn geta skoðað tilkynninguna sem myndast þegar skynjarinn mælir lotueiginleikagildi sem fellur utan skilgreinds þröskulds fyrir lotueiginleikann. Hver tilkynning veitir yfirlit yfir framleiðsluverkið sem verður fyrir áhrifum af biluninni og gefur möguleika á að endurúthluta viðkomandi verki í annað tilfang.
+Á **Tilkynningar** síðu, umsjónarmenn geta skoðað tilkynninguna sem myndast þegar skynjarinn mælir lotueiginleikagildi sem fellur utan skilgreinds þröskulds fyrir lotueiginleikann. Hver tilkynning veitir yfirlit yfir framleiðsluverkið sem verður fyrir áhrifum af biluninni og gefur möguleika á að endurúthluta viðkomandi verki til annars tilföngs.
 
-Til að opna **Tilkynning** síðu, farðu á **Framleiðslueftirlit \> Fyrirspurnir og skýrslur \> Sensor Data Intelligence \> Tilkynningar**.
+Til að opna **Tilkynning** síðu, farðu á **Framleiðslueftirlit \> Fyrirspurnir og skýrslur \> Skynjargagnagreind \> Tilkynningar**.
 
 Eftirfarandi mynd sýnir dæmi um tilkynningu um gæði vöru.
 

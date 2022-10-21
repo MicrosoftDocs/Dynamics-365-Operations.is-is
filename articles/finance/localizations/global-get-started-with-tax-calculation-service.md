@@ -2,7 +2,7 @@
 title: Hafist handa með skattaútreikning
 description: Þessi grein útskýrir hvernig á að setja upp skattútreikning.
 author: EricWangChen
-ms.date: 03/25/2022
+ms.date: 10/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 42898823ffc366351c6f58f1fe9b924678ab4b49
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573306"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690384"
 ---
 # <a name="get-started-with-tax-calculation"></a>Hafist handa með skattaútreikning
 
@@ -124,6 +124,10 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
 7. Opnið **Gagnalíkan skatts**, stækkið skráartréð, og veljið síðan **Skattaskilgreining**.
 8. Veldu rétta [skattstillingarútgáfa](global-tax-calcuation-service-overview.md#versions), byggt á fjármálaútgáfu þinni og veldu síðan **Flytja inn**.
 9. Á vinnusvæðinu **Altækir eiginleikar** skal velja **Eiginleikar**, velja reitinn **Skattaútreikningur** og veljið því næst **Bæta við**.
+
+    > [!NOTE]
+    > Í útgáfu 10.0.26 og síðar geturðu flutt inn kynningareiginleika fyrir **DEMF** kynningu lögaðila. Fyrir frekari upplýsingar, sjá [Flytja inn kynningargögn fyrir eiginleika](tax-calculation-import-export-feature.md).
+
 10. Velja eina af eftirfarandi gerðum eiginleika:
 
     - **Nýr eiginleiki** – Búa til uppsetningu eiginleika sem er með tómt innihald.
@@ -154,8 +158,8 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
     - **Gildissvið skattskráningarnúmers lánardrottins** – Ef þú ert með mörg skattskráningarnúmer fyrir einn lánardrottin getur skattaútreikningur sjálfkrafa fundið út rétt skattskráningarnúmer. Í fylki þessa flipa eru reglurnar skilgreindar sem ætti að nota til að taka ákvörðunina. Annars munu Finance og Supply Chain Management halda áfram að nota sjálfgefið skattskráningarnúmerí skattskyldum skjölum fyrir innkaupafærslur.
     - **Gildissvið listakóða** – Finndu sjálfkrafa gildið í reitnum **Listakóði** í gegnum sveigjanlegri og stillanlegri reglur. Í fylki þessa flipa eru reglurnar skilgreindar sem ætti að nota til að taka ákvörðunina. Annars munu Finance og Supply Chain Management halda áfram að nota sjálfgefinn kóða í skattskyldum skjölum.
 
-14. Í flipanum **Skattkóðar** skal velja **Bæta við** og slá inn skattkóðann og lýsingu.
-15. Veljið **Skatthluti**. Skatthlutinn er safn af útreikningsaðferðum sem var skilgreint í fyrri útgáfu valdrar skattaskilgreiningar. Eftirfarandi skatthlutar eru í boði:
+15. Í flipanum **Skattkóðar** skal velja **Bæta við** og slá inn skattkóðann og lýsingu.
+16. Veljið **Skatthluti**. Skatthlutinn er safn af útreikningsaðferðum sem var skilgreint í fyrri útgáfu valdrar skattaskilgreiningar. Eftirfarandi skatthlutar eru í boði:
 
     - Eftir nettóupphæð
     - Eftir brúttóupphæð
@@ -163,8 +167,8 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
     - Eftir framlegð
     - Skattur á skatt
 
-16. Veljið **Vista**. Fleiri reitir verða tiltækir samkvæmt skatthlutanum sem var valinn.
-17. Notið eftirfarandi valkosti til að gera grein fyrir eðli skattkóðans:
+17. Veljið **Vista**. Fleiri reitir verða tiltækir samkvæmt skatthlutanum sem var valinn.
+18. Notið eftirfarandi valkosti til að gera grein fyrir eðli skattkóðans:
 
     - Er undanskilið
     - Er notkunarskattur
@@ -179,8 +183,8 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
 
     Viðhaldið mörkum skatthlutfalla og skattupphæðar fyrir þennan skattkóða.
 
-18. Endurtakið skref 14 til 17 til að bæta við öllum öðrum nauðsynlegum skattkóðum.
-19. Í flipanum **Skattflokkur** skal velja dálkinn **Skattflokkur**, bæta honum við fylkið sem skilyrði innsláttar og síðan bæta við línum til að vinna með aðalgögn skattflokksins.
+19. Endurtakið skref 15 til 18 til að bæta við öllum öðrum nauðsynlegum skattkóðum.
+20. Í flipanum **Skattflokkur** skal velja dálkinn **Skattflokkur**, bæta honum við fylkið sem skilyrði innsláttar og síðan bæta við línum til að vinna með aðalgögn skattflokksins.
 
     Eftirfarandi er dæmi.
 
@@ -191,7 +195,7 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
     | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
-20. Í flipanum **Skattflokkur vöru** skal velja dálkinn **Skattflokkur vöru**, bæta honum við fylkið sem skilyrði innsláttar og síðan bæta við línum til að vinna með aðalgögn skattflokks vöru.
+21. Í flipanum **Skattflokkur vöru** skal velja dálkinn **Skattflokkur vöru**, bæta honum við fylkið sem skilyrði innsláttar og síðan bæta við línum til að vinna með aðalgögn skattflokks vöru.
 
     Eftirfarandi er dæmi.
 
@@ -200,7 +204,7 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
     | Fullt           | DEU_VAT19; BEL_VAT21; DEU_Exempt; BEL_Exempt |
     | Lækkað        | DEU_VAT7; BEL_VAT6; DEU_Exempt; BEL_Exempt   |
 
-21. Í flipanum **Gildissvið skattflokks** skal velja dálkana sem þarf til að finna út réttan skattflokk og síðan velja **Bæta við**. Sláðu inn eða veldu gildi fyrir hvern dálk. Reiturinn **Skattflokkur** verður úttak fylkisins. Ef þessi flipi er ekki stilltur verður VSK-flokkurinn í færslulínunni notaður.
+22. Í flipanum **Gildissvið skattflokks** skal velja dálkana sem þarf til að finna út réttan skattflokk og síðan velja **Bæta við**. Sláðu inn eða veldu gildi fyrir hvern dálk. Reiturinn **Skattflokkur** verður úttak fylkisins. Ef þessi flipi er ekki stilltur verður VSK-flokkurinn í færslulínunni notaður.
 
     Eftirfarandi er dæmi.
 
@@ -214,7 +218,7 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
     > [!NOTE]
     > Ef sjálfgefinn söluskattsflokkur á skattskyldum skjalalínum þínum er réttur skaltu skilja þetta fylki eftir autt. Fyrir frekari upplýsingar, sjá [Runtime hönnun](#runtime) kafla í þessari grein.
 
-22. Í flipanum **Gildissvið skattkóða vöru** skal velja dálkana sem þarf til að finna út réttan skattkóða og síðan velja **Bæta við**. Sláðu inn eða veldu gildi fyrir hvern dálk. Reiturinn **Skattflokkur vöru** verður úttak fylkisins. Ef þessi flipi er ekki stilltur verður VSK-flokkur vöru í færslulínunni notaður.
+23. Í flipanum **Gildissvið skattkóða vöru** skal velja dálkana sem þarf til að finna út réttan skattkóða og síðan velja **Bæta við**. Sláðu inn eða veldu gildi fyrir hvern dálk. Reiturinn **Skattflokkur vöru** verður úttak fylkisins. Ef þessi flipi er ekki stilltur verður VSK-flokkur vöru í færslulínunni notaður.
 
     Eftirfarandi er dæmi.
 
@@ -228,10 +232,10 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
 
     Frekari upplýsingar um hvernig skattkóðar eru ákvarðaðir í skattaútreikningi er að finna í [Rök fyrir VSK-flokk og VSK-flokk vöru](global-sales-tax-group-determination.md).
 
-23. Settu upp gildissvið skattskráningarnúmera viðskiptavinar, skattskráningarnúmera lánardrottins og listakóða samkvæmt viðskiptaþörfum.
-24. Veljið **Vista** og lokið síðan skjámyndinni.
-25. Veljið **Breyta stöðu** \> **Ljúka**. Þegar stöðunni er breytt í **Lokið** verður ekki lengur hægt að breyta útgáfunni.
-26. Veljið **Breyta stöðu** \> **Birta**. Þessi útgáfa á uppsetningu skattaeiginleikans verður færð í altæku geymsluna og verður sýnileg hverjum lögaðila í Finance.
+24. Settu upp gildissvið skattskráningarnúmera viðskiptavinar, skattskráningarnúmera lánardrottins og listakóða samkvæmt viðskiptaþörfum.
+25. Veljið **Vista** og lokið síðan skjámyndinni.
+26. Veljið **Breyta stöðu** \> **Ljúka**. Þegar stöðunni er breytt í **Lokið** verður ekki lengur hægt að breyta útgáfunni.
+27. Veljið **Breyta stöðu** \> **Birta**. Þessi útgáfa á uppsetningu skattaeiginleikans verður færð í altæku geymsluna og verður sýnileg hverjum lögaðila í Finance.
 
 ## <a name="set-up-tax-calculation-in-dynamics-365"></a>Setja upp skattaútreikning í Dynamics 365
 

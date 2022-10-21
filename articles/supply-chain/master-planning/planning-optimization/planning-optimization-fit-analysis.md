@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643737"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689995"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Samræmisgreining á fínstillingu áætlanagerðar
 
@@ -62,7 +62,7 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | --- | --- | --- | --- |
 | Aðgerðir | Þekjuflokkar með virkan útreikning á aðgerðum: *\#* | Þessi eiginleiki er nú studdur. | Stutt |
 | Grunndagatöl | Dagatöl sem nota grunndagatal: *\#* | Þessi eiginleiki er nú studdur. | Stutt | 
-| Ráðstöfunarkóðar runu | Aðalrunuráðstafanir sem eru ekki nettó: *\#* | Þessi eiginleiki í bið. Sem stendur er litið framhjá ráðstöfunarkóðum runu þegar fínstilling áætlanagerðar er virk. | 2022 útgáfubylgja 2 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
+| Ráðstöfunarkóðar runu | Aðalrunuráðstafanir sem eru ekki nettó: *\#* | Þessi eiginleiki er nú studdur. Fyrir frekari upplýsingar, sjá [Notaðu loturáðstöfunarkóða til að merkja lotur sem tiltækar eða ekki tiltækar](../../inventory/batch-disposition-codes.md) | Stutt |
 | Hægt að lofa (CTP) | Sjálfgefnar pöntunarstillingar með afhendingardagsstjórn stillta á afhendingargetu: *\#* | Í Supply Chain Management 10.0.28 og nýrri, ferli sem kallast *CTP fyrir hagræðingu áætlanagerðar* gerir staðfestar sendingar og móttökudagsetningar aðgengilegar eftir að kraftmikla áætlunin hefur verið keyrð. Fyrir eldri útgáfur af Supply Chain Management er eldri CTP stilling hunsuð þegar áætlanagerð fínstilling er virkjuð. | Stutt |
 | Afrita fasta áætlun yfir í breytilega áætlun | Afritun á fastri áætlun yfir í breytilega áætlun er gerð virk á færibreytum aðaláætlanagerðarinnar. | Fínstilling áætlanagerðar afritar ekki fasta áætlun í breytilega áætlun, óháð þessari stillingu. Almennt á þessi hugmynd síður við út af hraðanum og fullri endurmyndun sem fínstilling áætlanagerðar veitir. Ef tvær eða fleiri áætlanir eru notaðar ætti að kvikna á aðaláætlanagerð fyrir hvora áætlun. | Á ekki við |
 | Staðfesting | Þekjuhópar með stillt tímamörk staðfestinga: *\#* | Í útgáfu 10.0.7 og nýrri er staðfesting studd sem aðskilin runuvinnsla staðfestingar þegar aðaláætlanagerð er lokið (að því gefnu að eiginleikinn *Sjálfvirk staðfesting fyrir fínstillingu áætlanagerðar* hafi verið gerður virkur í [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Athugið að sjálfvirk staðfesting fínstillingar áætlanagerðar byggir á pöntunardagsetningunni (upphafsdegi), ekki dagsetningu þarfa (lokadegi). Þessi hegðun tryggir að staðfesting áætlaðra pantana gerist á réttum tíma, án þess að þurfa að hafa afhendingartíma tíma í tímamörkum staðfestingar. | Stutt |
@@ -104,7 +104,7 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | Öryggismörk | Aðaláætlanir með öryggismörk: *\#* | Þessi eiginleiki er nú studdur. Frekari upplýsingar má finna í [Öryggismörk](safety-margins.md) |  Stutt |
 | Uppfylling öryggisbirgða | Vöruþekjufærslur með „Uppfylla lágmark“ annað en „Dagurinn í dag + öflunartími“: *\#* | Fínstilling áætlanagerðar notar alltaf *Dagurinn í dag + öflunartími*. Þessi breyting er gerð til að undirbúa einfalda uppsetningu áætlanagerðar í framtíðinni og til að veita niðurstöður sem hægt er að nýta sér. Ef öflunartíminn er ekki hafður með í öryggisbirgðum, verða alltaf tafir á áætluðum pöntunum sem búnar eru til fyrir núverandi lágar lagerbirgðir vegna afhendingartíma. Þessi hegðun getur valdið verulegum truflunum og óæskilegum áætluðum pöntunum. Besta er að breyta stillingunni þannig að *Dagurinn í dag + öflunartími* er notaður. Uppfæra aðalgögn til að forðast viðvaranir. | Á ekki við |
 | Sölutilboð | Aðaláætlanir með virk sölutilboð: *\#* | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til tilboða þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | 2022 útgáfubylgja 2 eða síðar |
-| Endingartími | Aðaláætlanir með virkan endingartíma: *\#* | Þessi eiginleiki er nú studdur. | Stutt |
+| Endingartími | Aðaláætlanir með virkan endingartíma: *\#* | Þessi eiginleiki í bið. | 2022 útgáfubylgja 2 |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

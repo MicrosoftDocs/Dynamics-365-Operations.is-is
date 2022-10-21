@@ -4,23 +4,25 @@ description: Þessi grein lýsir því hvernig á að stilla krókaleiðir fyrir
 author: Mirzaab
 ms.date: 09/01/2022
 ms.topic: article
-ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour, WHSMobileAppFlowStepDetourSelectFields, WHSMobileAppFlowStepSelectPromotedFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 2e387dd4e6499912f2d53dddc17ccc053f1ca699
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428064"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689311"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 > [!IMPORTANT]
 > Eiginleikarnir sem lýst er í þessari grein eiga aðeins við um nýja vöruhússtjórnun farsímaforritið. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
@@ -38,6 +40,7 @@ Hjáleið er aðskilið valmyndaratriði sem hægt er að opna í skrefi í aða
 1. Kveiktu á eftirfarandi eiginleikum, sem veita þá virkni sem lýst er í þessari grein:
     - *Hjáleiðir forrits Warehouse Management*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á þessum eiginleika.)
     - *Fjölþrepa hjáleiðir fyrir fartækjaforrit Warehouse Management*
+    - *Sendi sjálfvirkt hjáleiðarskref í farsímaforriti Warehouse Management*
 1. Ef *Vöruhússtjórnun app krókaleiðir* og/eða *Fjölþrepa krókaleiðir fyrir vöruhússtjórnun farsímaforritið* Ekki var þegar kveikt á eiginleikum, uppfærðu reitnöfnin í vöruhúsastjórnun farsímaforritinu með því að fara á **Vöruhússtjórnun \> Uppsetning \> Farsímatæki \> Reitaheiti vöruhúsaapps** og velja **Búðu til sjálfgefna uppsetningu**. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
 1. Endurtaktu fyrra skrefið fyrir hvern lögaðila (fyrirtæki) þar sem þú notar farsímaforrit Warehouse Management.
 
@@ -49,7 +52,7 @@ Notaðu eftirfarandi ferli til að setja upp hjáleið úr hnekkingu valmyndar.
 1. Finndu samsetningu gilda fyrir **Kenni skrefs** og **Heiti valmyndaratriðis** sem þú vilt breyta og veldu síðan gildið í dálknum **Kenni skrefs**.
 1. Á síðunni sem birtist, á flýtiflipanum **Hjáleiðir í boði (valmyndaratriði)**, er hægt að tilgreina valmyndaratriðið sem á að vera hjáleið. Einnig er hægt að velja hvaða reitargildi úr aðalverkinu eigi að vera sjálfkrafa afrituð í og úr hjáleiðinni. Fyrir dæmi sem sýna hvernig á að nota þessar stillingar, sjá aðstæður síðar í þessari grein.
 
-## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Sýnidæmi 1: Tiltekt sölu þar sem fyrirspurn staðsetningar virkar sem hjáleið
+## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a><a name="scenario-1"></a>Sýnidæmi 1: Tiltekt sölu þar sem fyrirspurn staðsetningar virkar sem hjáleið
 
 Þessar aðstæður sýna hvernig á að skilgreina fyrirspurn staðsetningar sem hjáleið í verkflæði sölutiltektar sem starfsmaður stýrir. Þessi hjáleið gerir starfsmönnum kleift að fletta upp á öllum númeraplötum í staðsetningunni sem þeir eru að tína úr og velja númeraplötuna sem ætlunin er að nota til að ljúka tiltektinni. Svona hjáleið getur reynst gagnleg ef strikamerkið er ónýtt og þar af leiðandi ekki hægt að lesa það með skannanum. Að öðrum kosti gæti reynst gagnlegt ef starfsmaður verður að kynna sér hvað er í raun á lager í kerfinu. Athugaðu að þessar aðstæður virka aðeins ef tínt er úr númeraplötustýrðum staðsetningum.
 
@@ -59,7 +62,7 @@ Til að nota tilgreindar sýnishornsfærslur og gildi til að vinna í gegnum þ
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Búa til hnekkingu valmyndar og skilgreina hjáleið fyrir aðstæður 1
 
-Í þessu ferli verður skilgreind hjáleið fyrir valmyndaratriðið **Tiltekt sölu** í skrefi númeraplötu.
+Í þessari aðferð muntu stilla krók fyrir **Útsölutínsla** valmyndaratriði í númeraplötuþrepinu.
 
 1. Farðu í **Warehouse Management \> Uppsetning \> Fartæki \> Skref fartækis**.
 1. Finndu skrefakennið sem heitir *LicensePlateId* og veldu það.
@@ -70,15 +73,17 @@ Til að nota tilgreindar sýnishornsfærslur og gildi til að vinna í gegnum þ
 1. Í svarglugganum **Bæta við hjáleið** skal velja **Staðsetningarfyrirspurn** sem hjáleiðina sem verður gerð tiltæk í farsímaforriti Warehouse Management.
 1. Veldu **Í lagi**.
 1. Á flýtiflipanum **Hjáleiðir í boði (valmyndaratriði)** skal velja hjáleiðina sem var bætt við og velja síðan **Velja reiti til að senda** á tækjastikunni.
-1. Í svarglugganum **Velja reiti til að senda** skal tilgreina upplýsingar sem senda til og frá hjáleiðinni. Í þessum aðstæðum gerir þú starfsmönnum kleift að nota staðsetningu sem þeir eiga að tína úr sem inntak fyrir hjáleið staðsetningarfyrirspurnar. Í hlutanum **Senda úr sölutiltekt** skal því velja **Bæta við** á tækjastikunni til að bæta línu við hnitanetið. Stilltu síðan eftirfarandi gildi fyrir nýju línuna:
+1. Í svarglugganum **Velja reiti til að senda** skal tilgreina upplýsingar sem senda til og frá hjáleiðinni. Í þessari atburðarás ertu að gera starfsmönnum kleift að nota staðsetninguna sem þeir eiga að velja úr sem inntak fyrir staðsetningarfyrirspurnarleiðina. Í hlutanum **Senda úr sölutiltekt** skal því velja **Bæta við** á tækjastikunni til að bæta línu við hnitanetið. Stilltu síðan eftirfarandi gildi fyrir nýju línuna:
 
     - **Afrita úr sölutiltekt:** *Staðsetning*
     - **Líma í staðsetningarfyrirspurn:** *Staðsetning*
+    - **Sjálfvirk innsending:** *Valið* (síðan verður endurnýjuð með límdu *Staðsetning* gildi)
 
 1. Þar sem hjáleiðin í þessum aðstæðum er skilgreind í skrefi númeraplötu reynist það gagnlegt ef starfsmenn geta fengið númeraplötuna úr fyrirspurninni aftur í aðalflæðið. Í hlutanum **Sækja aftur úr staðsetningarfyrirspurn** skal því velja **Bæta við** á tækjastikunni til að bæta línu við hnitanetið. Stilltu síðan eftirfarandi gildi fyrir nýju línuna:
 
     - **Afrita úr fyrirspurn staðsetningar:** *Númeraplata*
     - **Líma í sölutiltekt:** *Númeraplata*
+    - **Sjálfvirk innsending:** *Hreinsað* (engin sjálfvirk uppfærsla mun eiga sér stað þegar komið er til baka frá króknum með a *Númeraplata* gildi)
 
 1. Veldu **Í lagi**.
 
@@ -86,7 +91,7 @@ Hjáleiðin er nú skilgreind að fullu. Hnappur til að hefja hjáleiðina **St
 
 ### <a name="complete-a-sales-pick-on-a-mobile-device-and-use-the-detour"></a>Ljúka tiltekt sölu á fartæki og nota hjáleiðina
 
-Í þessu ferli er sölutiltekt lokið með farsímaforriti Warehouse Management. Þú notar hjáleiðina sem þú varst að skilgreina til að finna númeraplötuna sem þú notar til að ljúka við tiltektarskrefið.
+Í þessu ferli lýkur þú söluvali með því að nota Vöruhússtjórnun farsímaforritið. Þú munt nota krókaleiðina sem þú varst að stilla til að finna númeraplötuna sem þú munt nota til að ljúka valsskrefinu.
 
 1. Í Microsoft Dynamics 365 Supply Chain Management skal stofna sölupöntun sem þarf tiltektarskref til að tína úr staðsetningu sem er rakin með númeraplötu. Losaðu svo sölupöntunina í vöruhúsið. Skráið niður vinnuauðkennið sem er myndað.
 1. Opnaðu farsímaforrit Warehouse Management og skráðu þig inn í vöruhús 24. (Í stöðluðum kynningargögnum skráirðu þig inn með því að nota *24* sem notandakenni og *1* sem lykilorð.)
@@ -112,7 +117,7 @@ Til að nota tilgreindar sýnishornsfærslur og gildi til að vinna í gegnum þ
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Búa til hnekkingu valmyndar og skilgreina hjáleið fyrir aðstæður 2
 
-Í þessu ferli verður skilgreind hjáleið fyrir valmyndaratriðið **Tiltekt sölu** í skrefi númeraplötu.
+Í þessari aðferð muntu stilla krók fyrir **Útsölutínsla** valmyndaratriði í númeraplötuþrepinu.
 
 1. Farðu í **Warehouse Management \> Uppsetning \> Fartæki \> Skref fartækis**.
 1. Leitaðu að og veldu skrefakennið sem heitir *LocationInquiryList*.
@@ -131,6 +136,7 @@ Til að nota tilgreindar sýnishornsfærslur og gildi til að vinna í gegnum þ
 
     - **Afrita úr staðsetningarfyrirspurn:** *Staðsetning*
     - **Líma í hreyfingu:** *Staðs / NP*
+    - **Sjálfvirk innsending:** *Hreinsað* (engin sjálfvirk uppfærsla mun eiga sér stað)
 
     Í þessari hjáleið býstu ekki við að neinar upplýsingar séu afritaðar til baka vegna þess að aðalflæðið var fyrirspurn þar sem ekki er þörf á neinum viðbótarskrefum.
 
@@ -140,7 +146,7 @@ Hjáleiðin er nú skilgreind að fullu. Hnappur til að hefja hjáleiðina **Hj
 
 ### <a name="do-a-location-inquiry-on-a-mobile-device-and-use-the-detour"></a>Spyrjast fyrir um staðsetningu í fartæki og nota hjáleiðina
 
-Í þessu ferli er fyrirspurn um staðsetningu send með farsímaforriti Warehouse Management. Þú notar síðan hjáleiðina til að ljúka vöruhreyfingu.
+Í þessari aðferð muntu gera staðsetningarfyrirspurn með því að nota vöruhússtjórnun farsímaforritið. Þú munt síðan nota krókinn til að ljúka vöruflutningi.
 
 1. Opnaðu farsímaforrit Warehouse Management og skráðu þig inn í vöruhús 24. (Í stöðluðum kynningargögnum skráirðu þig inn með því að nota *24* sem notandakenni og *1* sem lykilorð.)
 1. Veldu valmyndina **Birgðir** og veldu svo valmyndaratriðið **Staðsetningarfyrirspurn**.
@@ -153,3 +159,5 @@ Hjáleiðin er nú skilgreind að fullu. Hnappur til að hefja hjáleiðina **Hj
 
 > [!NOTE]
 > The *Fjölþrepa krókaleiðir fyrir vöruhússtjórnun farsímaforritið* eiginleiki gerir þér kleift að skilgreina krókaleiðir á mörgum hæðum (krókaleiðir innan krókaleiða), sem gerir starfsmönnum kleift að hoppa frá núverandi krókaleið, tvo aðra og svo til baka. Eiginleikinn styður tvö stig af krókaleiðum úr kassanum og, ef nauðsyn krefur, geturðu sérsniðið kerfið þitt til að styðja við þrjú eða fleiri stig krókaleiða með því að búa til kóðaviðbætur á`WHSWorkUserSessionState` borð.
+>
+> The *Sendu sjálfkrafa krókaskref fyrir vöruhússtjórnun farsímaforritið* eiginleiki getur gert það hraðara og auðveldara fyrir starfsmenn að klára krókaflæði í vöruhúsastjórnun farsímaforritinu. Það gerir kleift að sleppa sumum flæðisskrefum með því að láta appið fylla út krókagögn á bakendanum og fara síðan sjálfkrafa í næsta skref með því að senda síðuna sjálfkrafa, eins og sýnt er í [*Dæmi um atburðarás 1: Söluval þar sem staðsetningarfyrirspurn virkar sem krókur*](#scenario-1).

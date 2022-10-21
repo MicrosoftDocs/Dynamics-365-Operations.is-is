@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: d254b949d31d0b15141646503c64760062b77fc7
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428145"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689147"
 ---
 # <a name="buffer-profile-and-levels"></a>Forstilling öryggisbirgða og gildi
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Eftir að þú hefur auðkennt aftengingarpunktana þína (lykilatriði sem þú munt geyma á lager), verður þú að ákveða hversu mikið af lager (buffer) þú ætlar að geyma á hverjum þeirra. Þetta verkefni er annað skref í Demand Driven Materials Resource Planning (DDMRP).
 
@@ -153,7 +154,7 @@ Kerfið mun hringlaga rauða svæðið í 104 stykki (ea), vegna þess að stykk
 Græna svæðisútreikningurinn inniheldur einnig íhlutina úr gula svæðisjöfnunni, en hann gerir ráð fyrir lágmarkspöntunarstærð, pöntunarlotu og afgreiðslutímastuðli. Í þessu dæmi, gerðu ráð fyrir að það sé engin pöntunarlota (þess vegna hefur þú engar tímatakmarkanir á því hversu oft þú pantar), og lágmarkspöntunarmagn er 10 stykki. Græna svæðið er síðan reiknað út sem hámarksniðurstaða af eftirfarandi þremur jöfnum:
 
 - *Lágmarks magn pöntunar* = 10
-- *ADU* ×*Panta hringrás* = 0
+- *ADU* ×*Pöntunarlota* = 0
 - *ADU* ×*Aftengdur leiðtími* ×*Leiðslutími þáttur* = 57,5
 
 Kerfið mun umferð græna svæðið í 58 stykki (ea), því stykki eru talin í heilum tölum.
@@ -217,7 +218,7 @@ Fyrir hluti þar sem þú velur að leyfa kerfinu að [reiknaðu biðminni þín
     - **Dagsetning** – Veldu dagsetninguna sem þú vilt keyra útreikninginn á. Safnið af tiltækum uppskriftum verður síað þannig að aðeins uppskriftir sem eru virkar fyrir valda dagsetningu eru sýndar.
     - **Magn** – Sláðu inn magnið sem þú vilt keyra útreikninginn fyrir. Safnið af tiltækum uppskriftum verður síað þannig að aðeins uppskriftir sem eiga við tilgreint magn eru sýndar.
 
-1. Veldu **Allt í lagi** til að keyra útreikninginn og loka **Reiknaðu ótengdan leiðtíma** valmynd. The **Aftengdur leiðtími** dálkurinn fyrir valið tímabil sýnir nú reiknað gildi.
+1. Veldu **Allt í lagi** til að keyra útreikninginn og loka **Reiknaðu aftengdan leiðtíma** valmynd. The **Aftengdur leiðtími** dálkurinn fyrir valið tímabil sýnir nú reiknað gildi.
 
 ### <a name="calculate-or-enter-average-daily-usage"></a><a name="calc-adu"></a> Reiknaðu eða sláðu inn meðaltal daglegrar notkunar
 
@@ -276,4 +277,4 @@ Fylgdu þessum skrefum til að fara yfir og endurreikna alla aftengda afgreiðsl
 
 1. Fara til **Aðalskipulag \> Aðalskipulag \> DDMRP \> Aftengdur leiðtími**.
 1. Á **Aftengdur leiðtími** síðu, flettu og síaðu listann eftir þörfum til að finna upplýsingarnar sem þú ert að leita að. Til að skoða enn frekari upplýsingar um hlut skaltu velja tengil þess í **Vörunúmer** dálki.
-1. Ef þú vilt endurreikna aftengdan afgreiðslutíma fyrir einhverja vöru skaltu velja vöruna og velja síðan **Reiknaðu aftengdan leiðtíma** á aðgerðasvæðinu. The **Reiknaðu aftengdan leiðtíma** svarglugginn birtist. Þessi valmynd virkar alveg eins og þegar þú ert [reikna út ótengdan leiðtíma](#calc-lead-time) fyrir sama hlut á **Vöruumfjöllun** síðu.
+1. Ef þú vilt endurreikna aftengdan afgreiðslutíma fyrir einhverja vöru skaltu velja vöruna og velja síðan **Reiknaðu aftengdan leiðtíma** á aðgerðasvæðinu. The **Reiknaðu aftengdan leiðtíma** svarglugginn birtist. Þessi valmynd virkar alveg eins og þegar þú ert [reikna út ótengdan leiðtíma](#calc-lead-time) fyrir sama hlut á **Atriðaumfjöllun** síðu.

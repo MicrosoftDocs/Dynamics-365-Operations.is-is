@@ -1,5 +1,5 @@
 ---
-title: Atburðarás eigna í miðbæ
+title: Aðstæður fyrir niðurtíma eignar
 description: Þessi grein lýsir atburðarás eigna í miðbæ, sem gerir þér kleift að nota skynjaragögn til að fylgjast með framboði eigna þinna.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 944818557deebed06c02c00fd69de6e8f08bda83
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: b82d757d1e69203012949bc397220fa42ada4ac2
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429011"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689430"
 ---
-# <a name="the-asset-downtime-scenario"></a>Atburðarás eigna í miðbæ
+# <a name="the-asset-downtime-scenario"></a>Aðstæður fyrir niðurtíma eignar
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Atburðarás eigna niðritímans myndar færslu um viðhaldsniðurtíma ef ekkert merki er móttekið frá vél innan skilgreinds tímaþröskulds frá því að síðasta merki var móttekið. Atburðarásin krefst þess að þú setjir vélina þína með skynjara sem sendir reglulega merki til Azure IoT Hub þíns meðan vélin er í gangi, en sendir ekki merki þegar vélin er ekki í gangi.
 
@@ -56,4 +57,4 @@ Ef ekkert skynjaramerki er móttekið frá eign innan viðmiðunarmarksins sem s
 
 1. Fara til **Eignastýring > Eignir > Allar eignir**.
 2. Finndu og veldu eignina sem þú vilt skoða. (Ef þú ert að nota kynningargögnin skaltu velja *AK-101* .)
-3. Á aðgerðarrúðunni, opnaðu **Eign** flipa og, frá **Vinnupöntun** hópur, veldu **Niðurtími í viðhaldi** til að opna síðuna fyrir viðhaldsniðurtímaskrár fyrir valda eign.
+3. Á aðgerðarrúðunni, opnaðu **Eign** flipa og, frá **Vinnupöntun** hópur, veldu **Niðurtími viðhalds** til að opna síðuna fyrir viðhaldsniðurtímaskrár fyrir valda eign.

@@ -1,5 +1,5 @@
 ---
-title: Atburðarás vélarstöðu
+title: Aðstæður fyrir vélarstöðu
 description: Þessi grein lýsir stöðu atburðarásar vélarinnar, sem gerir þér kleift að nota skynjaragögn til að fylgjast með framboði á búnaði þínum.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 1f2b424dccf1963a7917059d412b5df7937496ee
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 30fdfb898384aea4c1f8cb2f36f9e104cd316f90
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428995"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689640"
 ---
-# <a name="the-machine-status-scenario"></a>Atburðarás vélarstöðu
+# <a name="the-machine-status-scenario"></a>Aðstæður fyrir vélarstöðu
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 The *stöðu vélarinnar* atburðarás gerir þér kleift að nota skynjaragögn til að fylgjast með framboði á búnaði þínum. Ef þú setur upp skynjara sem sendir merki þegar framleiðsluverk á vélaauðlind framleiðir úttak, en ekkert skynjaramerki er móttekið innan tiltekins bils, birtist tilkynning á mælaborði umsjónarmanns.
 
@@ -83,7 +84,7 @@ Fylgdu þessum skrefum til að stofna og gefa út framleiðslupöntun fyrir vör
 
 ### <a name="enable-the-search-option-in-the-production-floor-execution-interface"></a><a name="enable-pfe-search"></a> Virkjaðu leitarmöguleikann í framkvæmdarviðmóti framleiðslugólfs
 
-Til að gera það auðveldara að finna framleiðsluverkið fyrir framleiðslupöntunina sem var gefin út fyrr, fylgdu þessum skrefum til að virkja leitarmöguleikann í framkvæmdarviðmóti framleiðslugólfs.
+Til að gera það auðveldara að finna framleiðsluverkið fyrir framleiðslupöntunina sem var gefin út fyrr, fylgdu þessum skrefum til að virkja leitarvalkostinn í framkvæmdarviðmóti framleiðslugólfs.
 
 1. Farið í **Framleiðslustýring \> Uppsetning \> Framkvæmd framleiðslu \> Grunnstilla framkvæmd á framleiðslugólfi**.
 1. Veldu *Sjálfgefið* uppsetningu.
@@ -102,7 +103,7 @@ Fylgdu þessum skrefum til að hefja verkið sem áætlað er á tilfangi *3118*
 1. Veldu pöntunina og veldu síðan **Byrja starf**.
 1. Í **Byrja starf** valmynd, veldu **Byrjaðu**.
 
-## <a name="set-up-the-machine-status-scenario"></a>Settu upp stöðu vélarinnar
+## <a name="set-up-the-machine-status-scenario"></a>Settu upp stöðuatburðarás vélarinnar
 
 Fylgdu þessum skrefum til að setja upp *stöðu vélarinnar* atburðarás í Supply Chain Management.
 
@@ -152,13 +153,13 @@ Eftirfarandi mynd sýnir dæmi um stöðuupplýsingar vélar á vélinni **Auðl
 
 Eftirfarandi mynd sýnir dæmi um stöðuupplýsingar vélar þegar niðurtími greinist.
 
-![Vélarstöðugögn á síðunni Tilfangsstaða þegar niður í miðbæ greinist.](media/sdi-resource-status-downtime-down.png "Vélarstöðugögn á síðunni Tilfangsstaða þegar niður í miðbæ greinist")
+![Vélarstöðugögn á síðunni Tilfangsstaða þegar niðurtími greinist.](media/sdi-resource-status-downtime-down.png "Vélarstöðugögn á síðunni Tilfangsstaða þegar niðurtími greinist")
 
 ### <a name="view-machine-status-on-the-notifications-page"></a>Skoðaðu stöðu vélarinnar á tilkynningasíðunni
 
-Á **Tilkynningar** síðu geta umsjónarmenn skoðað þær tilkynningar sem myndast þegar of langur tími er liðinn frá því skynjarinn sendi síðast frá sér *hluta út* merki. Hver tilkynning veitir yfirlit yfir framleiðsluverkið sem verður fyrir áhrifum af biluninni og gefur möguleika á að endurúthluta viðkomandi verki í annað tilfang.
+Á **Tilkynningar** síðu geta umsjónarmenn skoðað þær tilkynningar sem myndast þegar of langur tími er liðinn frá því skynjarinn sendi síðast frá sér *hluta út* merki. Hver tilkynning veitir yfirlit yfir framleiðsluverkið sem verður fyrir áhrifum af biluninni og gefur möguleika á að endurúthluta viðkomandi verki til annars tilföngs.
 
-Til að opna **Tilkynning** síðu, farðu á **Framleiðslueftirlit \> Fyrirspurnir og skýrslur \> Sensor Data Intelligence \> Tilkynningar**.
+Til að opna **Tilkynning** síðu, farðu á **Framleiðslueftirlit \> Fyrirspurnir og skýrslur \> Skynjargagnagreind \> Tilkynningar**.
 
 Eftirfarandi mynd sýnir dæmi um tilkynningu um stöðu vélarinnar.
 

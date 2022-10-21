@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d4874642743ed8188e84052d94003051f2af7af
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: d0270ad1e66193832fb1139fca4439b36b5ffb84
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722689"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682858"
 ---
 # <a name="post-with-derived-books"></a>Bókað í afleiddar bækur
 
@@ -34,7 +34,7 @@ ms.locfileid: "8722689"
 -   Önnur gildi fyrir færslugerð kunna einnig að gilda. Til dæmis, ef aðalbók og afleiddu bækurnar hafa sömu bilin að því er varðar sölu og losun, eru allar tegundir viðskipta með eignir tiltækar fyrir uppsetningu afleiddrar bókar.
 
 > [!WARNING]
-> Afskrift sem færð er í afleitt Bók verður sömu upphæðar og fært var fyrir aðalbók. Ef afskriftaraðferðirnar eru mismunandi á milli bóka, þá á ekki að nota afleiðuaðferðina við að útbúa afskriftarfærslur. |
+> Afskrift sem færð er í afleitt Bók verður sömu upphæðar og fært var fyrir aðalbók. Ef afskriftaraðferðirnar eru mismunandi á milli bóka, þá á ekki að nota afleiðuaðferðina við að útbúa afskriftarfærslur. 
 
 ## <a name="example"></a>Dæmi 
 Eftirfarandi upplýsingar sýna hvernig setja skal upp kaupfærslur með virkni fyrir afleidd bók.

@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a0fa081b0110682af1fcda50b0c912dc5d03fa73
-ms.sourcegitcommit: 29af4c9d9968bbfa4c19fee9de34fed309f6d38b
-ms.translationtype: MT
+ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/01/2022
-ms.locfileid: "9388449"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682615"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Þessi grein sýnir nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af Warehouse Management farsímaforritinu fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20340"></a>Útgáfa 2.0.34.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+- Bættur stöðugleiki.
+- Bætt frammistaða.
+- Bætt skjáskipulagið til að leyfa meira pláss fyrir upplýsingaspjaldið.
+- Bætti leitaraðgerð við **Verklisti** síðu. Starfsmenn geta nú skannað eða skrifað til að leita í öllum reitum og titlum á síðunni.
+- Listi yfir tiltækar tengingar er nú flokkaður í stafrófsröð.
+- Lagaði vandamál þar sem tvítekin kort voru sýnd fyrir vörur sem hafa margar birgðastöður á sama stað.
+- Lagaði mál þar sem **Stór úrvalslisti** síðan fletta ekki til að sýna forvalið atriði.
+- Lagaði leitarstikuna liti á **Stór úrvalslisti** síðu.
+- Lagaði vandamál þar sem sjálfgefinn hnappur sem skilgreindur er í XML var ekki notaður sem sendihnappur.
+- Lagaði vandamál þar sem hnapparnir í fjölskönnun og hröðum staðfestingarflæði uppfærðust ekki þegar ný auðkenni voru skönnuð.
+- Bætti við stuðningi fyrir fleiri tungumál.
 
 ## <a name="version-20320"></a>Útgáfa 2.0.32.0
 
@@ -150,7 +165,7 @@ ms.locfileid: "9388449"
   - Fast litasýnileiki og birtuskil.
   - Kom í veg fyrir tap á lyklaborðsfókus þegar sprettigluggasíðum er lokað.
   - Bætti villuskilaboðum við frásögnina.
-  - Aukin stærð staðsetningargilda í skrefaborðanum.
+  - Aukið stærð staðgengilsgilda í skrefaborðanum.
 - Lagaði dæmið um sérsniðna eldri síðu í kynningarham.
 
 ## <a name="version-20150"></a>Útgáfa 2.0.15.0

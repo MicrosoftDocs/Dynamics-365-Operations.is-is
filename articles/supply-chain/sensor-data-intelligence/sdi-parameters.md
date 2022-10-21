@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 4a6665cc078e54da4ebb7920ec8826352ab7a816
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5240537e3a6526ceb35253b9e68f46b1753c6a37
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429006"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689374"
 ---
 # <a name="sensor-data-intelligence-parameters"></a>Færibreytur Sensor Data Intelligence
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 The **Sensor Data Intelligence færibreytur** síða veitir nokkrar stillingar sem þú getur notað til að stilla eiginleikann. Þessar stillingar innihalda Azure-tengingarfæribreytur og færibreytu fyrir líftíma viðvörunarskilaboða sem eru send til notenda sem svar við skynjaramælingum.
 

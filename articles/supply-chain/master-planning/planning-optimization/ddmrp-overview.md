@@ -11,19 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186589"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689489"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Eftirspurnardrifið efnisþörf skipulagning (DDMRP) yfirlit
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
-Fyrirtæki hafa árum saman notað efniskröfur (MRP) sem kerfi til að reikna út efni og íhluti sem þarf til að framleiða vöru. Hins vegar hafa aðfangakeðjur nú breyst. Varahlutir hafa lengri afgreiðslutíma vegna þess að þeir eru í auknum mæli fengnir erlendis frá. Þess vegna hafa mörg fyrirtæki greint frá því að hafa orðið fyrir lagerútreikningum eða offramboði, vegna þess að þau vita ekki hversu mikið af birgðum á að geyma. Það eru líka meiri sveiflur á markaði (stundum ónákvæmar spár) og viðskiptavinir krefjast vöru á stuttum afgreiðslutíma. Þess vegna er skortur á birgðakeðju um allan heim. Að auki gefa MRP verkfæri skipuleggjendum oft þúsundir aðgerða til að gera. Þess vegna er erfitt að vita hvað á að einbeita sér að. Oft er lausnin á mörgum þessara mála að skipta yfir í Demand Driven Material Requirements Planning (DDMRP).
+Fyrirtæki hafa árum saman notað efniskröfur (MRP) sem kerfi til að reikna út efni og íhluti sem þarf til að framleiða vöru. Hins vegar hafa aðfangakeðjur nú breyst. Varahlutir hafa lengri afgreiðslutíma vegna þess að þeir eru í auknum mæli fengnir erlendis frá. Þess vegna hafa mörg fyrirtæki greint frá því að hafa orðið fyrir lagerútreikningum eða offramboði, vegna þess að þau vita ekki hversu mikið af birgðum á að geyma. Það eru líka meiri sveiflur á markaði (stundum ónákvæmar spár) og viðskiptavinir krefjast vöru á stuttum afgreiðslutíma. Þess vegna er skortur á birgðakeðju um allan heim. Að auki gefa MRP verkfæri skipuleggjendum oft þúsundir aðgerða til að gera. Þess vegna er erfitt að vita hvað á að leggja áherslu á. Oft er lausnin á mörgum þessara mála að skipta yfir í Demand Driven Material Requirements Planning (DDMRP).
 
 DDMRP er skipulagsaðferðafræði sem byggir á því að aftengja framboð og eftirspurn. Þessi aftenging er náð með því að setja upp aftengingarpunkta. Fyrir þá hluti er biðminni viðhaldið til að tryggja að rétt magn af lager sé haldið. Aftenging framboðs og eftirspurnar hjálpar til við að koma í veg fyrir „bullwhip áhrif“ vegna þess að breytileiki fer ekki í gegnum keðjuna. (The *bullwhip áhrif* vísar til þess hvernig litlar sveiflur í eftirspurn á smásölustigi geta valdið sífellt meiri sveiflum í eftirspurn hjá heildsölu-, dreifingaraðila, framleiðanda og hráefnisbirgðastigi.) Hverjum stuðpúða er ætlað að standa undir meðalnotkun hluta og einnig er hægt að aðlaga hana. til að mæta auknum eftirspurn.
 

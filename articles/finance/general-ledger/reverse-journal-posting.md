@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
-ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284852"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680385"
 ---
 # <a name="reverse-journal-posting"></a>Bakfæra bókun í færslubók
 
@@ -37,7 +37,7 @@ ms.locfileid: "9284852"
 Hægt er að bakfæra eina færslubókarlínu í einu. Með bakfærslu á færslubók geturðu bakfært heila fjárhagsfærslubók. Til að bakfæra færslubók: 
 
 - Síaðu bókaðar færslur og opnaðu **Línur** í færslubókinni.
-- Veldu valmyndina **Bakfæra** efst á síðunni.
+- Veldu **Snúið öllu dagbókinni** valmynd efst á síðunni.
 - Þú munt sjá heildarfjölda fylgiskjala og fylgiskjalalínur sem og heildarfjárhæð línanna sem verið er að bakfæra.
 - Veldu **Já** til að nota núverandi færsludagsetningar eða **Nei** til að slá inn nýja. Í sumum tilvikum kann tímabil upphaflegrar færslu að vera lokað og þú verður að færa inn nýja færsludagsetningu fyrir bakfærsluna.
 - Ef þú velur **Nei** slærðu inn færsludagsetningu fyrir bakfærsluna. 

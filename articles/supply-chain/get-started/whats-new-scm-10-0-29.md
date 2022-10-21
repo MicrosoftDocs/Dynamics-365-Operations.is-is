@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 62e06f2348ca3524beaaef5d8879c199db56696f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520751"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689284"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Forútgáfa af Dynamics 365 Supply Chain Management 10.0.29 (október 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10029-october-2022"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.29 (október 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forskoðunarútgáfa 10.0.29. Þessi útgáfa hefur byggingarnúmer 10.0.1326 og er fáanleg samkvæmt eftirfarandi áætlun:
+Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfa 10.0.29. Þessi útgáfa hefur byggingarnúmer 10.0.1326 og er fáanleg samkvæmt eftirfarandi áætlun:
 
 - **Forskoðun á útgáfu:** ágúst 2022
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** September 2022
@@ -68,7 +67,7 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 
 ## <a name="feature-state-changes-in-this-release"></a>Eiginleikastöðubreytingar í þessari útgáfu
 
-Eftirfarandi tafla sýnir eiginleika sem urðu nauðsynlegir eða virkjaðir sjálfgefið í útgáfu 10.0.29. Kveikt verður á öllum þessum eiginleikum fyrir kerfið þitt um leið og þú uppfærir í útgáfu 10.0.29. Ekki er hægt að slökkva á lögboðnum eiginleikum, en samt sem áður er hægt að slökkva á eiginleikum sem eru sjálfgefið virkir með því að nota [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Eftirfarandi tafla sýnir eiginleika sem urðu nauðsynlegir eða virkir sjálfgefið í útgáfu 10.0.29. Kveikt verður á öllum þessum eiginleikum fyrir kerfið þitt um leið og þú uppfærir í útgáfu 10.0.29. Ekki er hægt að slökkva á lögboðnum eiginleikum, en samt sem áður er hægt að slökkva á eiginleikum sem eru sjálfgefnir með því að nota [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Taflan sýnir einnig eiginleika sem áður voru í opinberri forskoðun en hafa breyst til að verða almennt fáanlegir í útgáfu 10.0.29. Þessi breyting gefur til kynna að nú sé mælt með eiginleikum til notkunar í framleiðsluumhverfi. Sjálfgefið er að slökkt sé á þessum eiginleikum nema annað sé tekið fram. Þess vegna verður þú að nota [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að virkja þau ef þú vilt nota þau.
 

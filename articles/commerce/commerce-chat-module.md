@@ -2,19 +2,19 @@
 title: Viðskiptaspjall með alhliða rás fyrir þjónustudeild
 description: Þessi grein lýsir verslunarspjalli með fjölrás fyrir þjónustu við viðskiptavini í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473810"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690317"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Viðskiptaspjall með alhliða rás fyrir þjónustudeild
 
@@ -82,9 +82,12 @@ Fylgdu þessum skrefum til að bæta spjalleiningunni við haus síðunnar þinn
 1. Í **Veldu einingar** valmynd, veldu spjallbrotið sem þú bjóst til áðan og veldu síðan **Allt í lagi**.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
 
+> [!NOTE]
+> Fyrir heildarlista yfir stillingarfæribreytur, sjá [Viðskiptaspjallseining fyrirbyggjandi spjallfæribreytur](chat-proactive-chat-parameters.md).
+
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>Bættu við höfuðstöðvum viðskipta sem umsóknarflipa fyrir alhliða þjónustu við viðskiptavini
 
-Þú getur bætt við umsóknarflipa fyrir höfuðstöðvar viðskipta í Omnichannel fyrir þjónustu við viðskiptavini. Umboðsmenn í beinni geta síðan notað notendaviðmótið fyrir upplifun umnichannel for Customer Service umboðsmanns til að fá auðveldlega aðgang að Dynamics 365 Commerce Þjónustueining sem inniheldur samhengisupplýsingar fyrir viðskiptavininn ásamt upplýsingum um sölupantanir hans. Að auki geta þjónustufulltrúar lagt inn nýjar pantanir, hafið skil og staðfest upplýsingar um pöntunarstöðu.
+Þú getur bætt við umsóknarflipa fyrir höfuðstöðvar viðskipta í Omnichannel fyrir þjónustu við viðskiptavini. Umboðsmenn í beinni geta síðan notað notendaviðmótið fyrir upplifun umnichannels fyrir þjónustufulltrúa til að fá auðveldlega aðgang að Dynamics 365 Commerce Þjónustueining sem inniheldur samhengisupplýsingar fyrir viðskiptavininn ásamt upplýsingum um sölupantanir hans. Að auki geta þjónustufulltrúar lagt inn nýjar pantanir, hafið skil og staðfest upplýsingar um pöntunarstöðu.
 
 ### <a name="create-a-new-application-tab-that-loads-commerce-headquarters-in-an-iframe-module"></a>Búðu til nýjan forritaflipa sem hleður höfuðstöðvum Commerce í iFrame mát 
 
@@ -115,6 +118,9 @@ Til að virkja nýjan forritaflipa fyrir umboðsmenn viðskiptavina í Dynamics 
 1. Opnaðu vinnustrauminn sem þú hefur búið til fyrir umboðsmenn þína og síðan undir **Ítarlegar stillingar**, veldu **Sessions sjálfgefið**.
 1. Undir **Forritsflipar**, veldu **Bæta við núverandi forritaflipa**, og bættu síðan við nýja forritaflipanum sem þú bjóst til áðan. Þetta skref tryggir að forritsflipi sem hleður höfuðstöðvum Commerce í iFrame eining mun birtast þegar umboðsmaður fær spjallsímtal frá netverslunarvefsíðunni þinni.
 
+> [!NOTE]
+> Þú getur ekki breytt sjálfgefna sniðmátinu fyrir spjalllotu í vinnustraumnum. Þess vegna gætirðu viljað búa til nýtt sniðmát eða afrita núverandi sniðmát til að uppfæra það. Fyrir frekari upplýsingar, sjá [Tengdu sniðmát við vinnustraum](/dynamics365/app-profile-manager/associate-templates).
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>Bættu við samhengisbreytum í Dynamics 365 Omnichannel for Customer Service
 
 Til að bæta við samhengisbreytum í Dynamics 365 Omnichannel for Customer Service skaltu fylgja þessum skrefum.
@@ -128,3 +134,11 @@ Til að bæta við samhengisbreytum í Dynamics 365 Omnichannel for Customer Ser
 
 > [!NOTE]
 > Ef þú vilt lesa netföng og nöfn innskráðra notenda af rafrænni viðskiptarás geturðu bætt við **Tölvupóstur** og **Nafn** sem samhengisbreytur á **texti** gerð, til viðbótar við **Reikningsnúmer** samhengisbreytu.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Yfirlit yfir eiginleika viðskiptaspjalls](commerce-chat-overview.md)
+
+[Viðskiptaspjall við Power Virtual Agents mát](chat-module-pva.md)
+
+[Viðskiptaspjallseining fyrirbyggjandi spjallfæribreytur](chat-proactive-chat-parameters.md)

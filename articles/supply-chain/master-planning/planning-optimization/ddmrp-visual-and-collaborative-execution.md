@@ -1,5 +1,5 @@
 ---
-title: Sjónræn og samvinnuverkefni
+title: Sjónræn framkvæmd og samvinnuframkvæmd
 description: Þessi grein lýsir því hvernig á að fylgjast með eftirspurnardrifnu efnisþörfskipulagi (DDMRP) aftengingarpunktum, biðminni, fyrirhuguðum pöntunum og sögu.
 author: t-benebo
 ms.date: 06/30/2022
@@ -11,29 +11,30 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: e3afdd10860494b3cfe73a113a0e4e8fb07682a1
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186577"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689777"
 ---
-# <a name="visual-and-collaborative-execution"></a>Sjónræn og samvinnuverkefni
+# <a name="visual-and-collaborative-execution"></a>Sjónræn framkvæmd og samvinnuframkvæmd
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Þessi grein lýsir því hvernig á að fylgjast með eftirspurnardrifnu efnisþörfskipulagi (DDMRP) aftengingarpunktum, biðminni, fyrirhuguðum pöntunum og sögu.
 
 ## <a name="visually-track-buffers-and-quantities-for-a-selected-item"></a>Fylgstu sjónrænt með biðmunum og magni fyrir valinn hlut
 
-Í Microsoft Dynamics 365 Supply Chain Management, þú getur sjónrænt fylgst með því hvernig biðminni, magn og nettóflæðisstig breytast með tímanum fyrir hvaða útgefna vöru sem er valin. Fylgdu þessum skrefum til að opna og skoða töflurnar.
+Í Microsoft Dynamics 365 Supply Chain Management, þú getur sjónrænt fylgst með því hvernig stuðpúðar, magn á lager og nettóflæðisstig breytast með tímanum fyrir hvaða útgefna vöru sem er valin. Fylgdu þessum skrefum til að opna og skoða töflurnar.
 
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
 1. Veldu útgefinn hlut sem er settur upp sem aftengingarpunktur. (Nánari upplýsingar er að finna í [Staðsetning birgða](ddmrp-inventory-positioning.md) .)
 1. Á aðgerðarrúðunni, á **Áætlun** flipa, veldu **Vöruumfjöllun**.
 1. Á **Vöruumfjöllun** síðu, veldu vöruþekjuskrá sem býr til aftengingarpunkt. (Þessi skrá mun sýna nafn umfjöllunarhóps sem er settur upp til að búa til aftengingarpunkta.)
-1. Veldu **Á hendi** flipa. Þessi flipi inniheldur myndrit sem sýnir hvernig birgðamagn breyttist með tímanum, ásamt gildi birgðastigsins sem var skráð fyrir tiltekið tímabil í hvert sinn sem hagræðing áætlanagerðar er keyrð. Flipinn inniheldur einnig töflu sem sýnir hvaða af eftirtöldum flokkum hvert skráð stig fellur inn í:
+1. Veldu **Á hendi** flipa. Þessi flipi inniheldur myndrit sem sýnir hvernig magn á lager breyst með tímanum, ásamt gildi vörustigsins sem var skráð fyrir tiltekið tímabil í hvert skipti sem hagræðing áætlanagerðar er keyrð. Flipinn inniheldur einnig töflu sem sýnir hvaða af eftirtöldum flokkum hvert skráð stig fellur inn í:
 
     - **Krítískt lágt** – Innan við helmingur lágmarks á tímabilinu.
     - **Lágt** – Á milli helmings lágmarks og lágmarks.
@@ -66,7 +67,7 @@ The **Eftirspurnardrifið MRP** vinnusvæði býður upp á nokkur verkfæri, á
 
 ## <a name="clean-up-decoupling-point-buffer-values"></a>Hreinsaðu upp aftengingarpunkta biðminni
 
-Með tímanum mun kerfið þitt byggja upp mikið magn af sögulegum gögnum sem tengjast áframhaldandi biðminniútreikningum. Þessi söguleg gögn munu valda því að gagnamagn þitt eykst og geta að lokum haft áhrif á afköst kerfisins þíns. Þess vegna mælum við með því að þú hreinsir af og til upp gömlu aftengingarpunkta biðminni.
+Með tímanum mun kerfið þitt byggja upp mikið magn af sögulegum gögnum sem tengjast áframhaldandi biðminniútreikningum. Þessi söguleg gögn munu valda því að gagnamagn þitt eykst og geta að lokum haft áhrif á afköst kerfisins þíns. Þess vegna mælum við með að þú hreinsir af og til upp gömlu aftengingarpunkta biðminni gildi.
 
 > [!WARNING]
 > Hreinsunarstarfið mun fjarlægja sögulegar biðminnigildistillingar og sögulegar upplýsingar um áhald/netflæði. Það er ekki afturkræft.

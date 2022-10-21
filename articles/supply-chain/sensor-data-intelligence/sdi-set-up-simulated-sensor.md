@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: dc8bd020a53214abab28ec51ffc6d6be74979932
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: f12d6e1d417a260477b1eb4e027b850d1862f51f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643977"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689805"
 ---
 # <a name="set-up-a-simulated-sensor-for-testing"></a>Setja upp eftirlíkingarskynjara til prófunar
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Ef þú vilt prófa Sensor Data Intelligence án þess að setja upp neina líkamlega skynjara geturðu notað *Raspberry PI Azure IoT Online Simulator* þjónustu til að líkja eftir skynjaramerkjum og senda þau á Internet of Things (IoT) lausnina þína á Microsoft Azure. Fyrir frekari upplýsingar um hermir, sjá [Tengdu Raspberry Pi nethermir við Azure IoT Hub (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started).
 
@@ -35,8 +36,8 @@ Eftirfarandi myndband sýnir hvernig á að setja upp hermaskynjara til að pró
 
 Þú verður fyrst að setja upp tæki til að auðkenna skynjaramerkin til Azure IoT Hub.
 
-1. Í Azure, farðu í lista yfir tilföng fyrir tilfangahópinn sem þú bjóst til til notkunar með Sensor Data Intelligence. (Nánari upplýsingar er að finna í [Settu upp IoT lausn á Azure](sdi-deploy-iot-solution-on-azure.md) .)
-1. Í tilfangalistanum, finndu skrána þar sem **Tegund** reiturinn er stilltur á *IoT miðstöð*. Í **Nafn** dálk, veldu nafnið til að opna upplýsingasíðuna fyrir tilfangið.
+1. Í Azure, farðu í lista yfir tilföng fyrir tilfangahópinn sem þú bjóst til til notkunar með Sensor Data Intelligence. (Fyrir frekari upplýsingar, sjá [Settu upp IoT lausn á Azure](sdi-deploy-iot-solution-on-azure.md) .)
+1. Í auðlindalistanum, finndu skrána þar sem **Tegund** reiturinn er stilltur á *IoT miðstöð*. Í **Nafn** dálk, veldu nafnið til að opna upplýsingasíðuna fyrir tilfangið.
 1. Í vinstri yfirlitsrúðunni, veldu **Tæki**.
 1. Á **Tæki** síðu, veldu **Bæta við tæki**.
 1. Á **Búðu til tæki** síðu, stilltu eftirfarandi reiti:
@@ -48,14 +49,14 @@ Eftirfarandi myndband sýnir hvernig á að setja upp hermaskynjara til að pró
 
 1. Veldu **Vista** að fara aftur til **Tæki** síðu.
 1. Finndu nýja tækið á listanum. Í **Auðkenni tækis** dálki, veldu nafnið til að opna upplýsingasíðu tækisins. Ef þú sérð ekki nýja tækið á listanum skaltu endurnýja síðuna.
-1. Afritaðu **Aðal tengistrengur** gildi (til dæmis með því að velja **Afritaðu á klemmuspjald** takki). Þú þarft þetta gildi síðar þegar þú setur upp Raspberry Pi IoT hermir til að líkja eftir skynjaramerkjum. Þess vegna skaltu íhuga að líma það inn í textaskrá í bili.
+1. Afritaðu **Aðaltengingarstrengur** gildi (til dæmis með því að velja **Afritaðu á klemmuspjald** takki). Þú þarft þetta gildi síðar þegar þú setur upp Raspberry Pi IoT hermir til að líkja eftir skynjaramerkjum. Þess vegna skaltu íhuga að líma það inn í textaskrá í bili.
 
 ## <a name="add-the-azure-connection-string-to-the-raspberry-pi-iot-simulator"></a>Bættu Azure tengistrengnum við Raspberry Pi IoT hermirinn
 
 Fylgdu þessum skrefum til að bæta tengistrengnum úr tækinu í Azure IoT Hub við handritið í Raspberry þjónustunni.
 
 1. Opnaðu [Raspberry Pi IoT hermir](https://azure-samples.github.io/raspberry-pi-web-simulator/).
-1. Finndu línuna sem inniheldur eftirfarandi skipun í kóðaritaraglugganum.
+1. Finndu línuna sem inniheldur eftirfarandi skipun í kóðaritara glugganum.
 
     `const connectionString = '[Your IoT hub device connection string]';`
 
@@ -87,7 +88,7 @@ Fylgdu þessum skrefum til að bæta tengistrengnum úr tækinu í Azure IoT Hub
     ```
 
     > [!IMPORTANT]
-    > Auðkenni skynjara sem eru skilgreind í kóðaritlinum fyrir Raspberry Pi IoT hermir verða að vera eins og skynjaraauðkennin sem þú munt tilgreina síðar fyrir aðstæður í Supply Chain Management. Kóðinn á undan dæmi notar auðkenni skynjara sem hægt er að lesa af mönnum. Hins vegar, í raunverulegri atburðarás, verða skynjaraauðkennin alþjóðlegt einstakt auðkenni (GUID) gildi sem eru veitt af framleiðanda skynjarans. Mannlæsileg skynjaraauðkenni sem eru notuð í þessum dæmikóða eru einnig notuð í dæmunum í [Atburðarás vörugæða](sdi-scenario-product-quality.md),[Atburðarás eignaviðhalds](sdi-scenario-asset-maintenance.md),[Atburðarás framleiðslutafir](sdi-scenario-production-delays.md), og [Atburðarás vélarstöðu](sdi-scenario-equipment-downtime.md)). Þess vegna skaltu nota þennan kóða ef þú ætlar að vinna í gegnum þessar aðstæður.
+    > Auðkenni skynjara sem eru skilgreind í kóðaritlinum fyrir Raspberry Pi IoT hermir verða að vera eins og skynjaraauðkennin sem þú munt tilgreina síðar fyrir aðstæður í Supply Chain Management. Kóðinn á undan dæmi notar auðkenni skynjara sem hægt er að lesa af mönnum. Hins vegar, í raunverulegri atburðarás, verða skynjaraauðkennin alþjóðlegt einstakt auðkenni (GUID) gildi sem eru veitt af framleiðanda skynjarans. Mannlesanleg skynjaraauðkenni sem eru notuð í þessum dæmikóða eru einnig notuð í dæmunum í [Atburðarás vörugæða](sdi-scenario-product-quality.md),[Atburðarás eignaviðhalds](sdi-scenario-asset-maintenance.md),[Atburðarás framleiðslutafir](sdi-scenario-production-delays.md), og [Atburðarás vélarstöðu](sdi-scenario-equipment-downtime.md)). Þess vegna skaltu nota þennan kóða ef þú ætlar að vinna í gegnum þessar aðstæður.
 
 ## <a name="edit-the-interval-for-sending-sensor-signals"></a>Breyttu bilinu til að senda skynjaramerki
 

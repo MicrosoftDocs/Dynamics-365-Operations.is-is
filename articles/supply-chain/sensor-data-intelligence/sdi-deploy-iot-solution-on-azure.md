@@ -11,21 +11,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 5026f234f1b2f38e7041098421d0261fd468db96
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 5f0f49c0f7daaacb85b75dc11b9f015b6aa4e997
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643714"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689722"
 ---
 # <a name="deploy-an-iot-solution-on-azure"></a>Uppsetning IoT lausnar á Azure
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
-Sensor Data Intelligence notar gögn frá skynjurum sem eru tengdir við Microsoft Azure. Til að gera Azure kleift að sækja gögn frá skynjurunum þínum og deila þeim með Dynamics 365 Supply Chain Management, þú verður að setja upp Internet of Things (IoT) lausn á Azure áskriftinni þinni. Eftirfarandi byggingarskýringarmynd gefur yfirlit yfir lausnina og íhluti hennar.
+Sensor Data Intelligence notar gögn frá skynjurum sem eru tengdir við Microsoft Azure. Til að gera Azure kleift að sækja gögn frá skynjurunum þínum og deila þeim með Dynamics 365 Supply Chain Management, verður þú að setja upp Internet of Things (IoT) lausn á Azure áskriftinni þinni. Eftirfarandi byggingarskýringarmynd gefur yfirlit yfir lausnina og íhluti hennar.
 
-![Sensor Data Intelligence byggingarrit.](media/sdi-architecture.png "Sensor Data Intelligence byggingarrit")
+![Sensor Data Intelligence byggingarlistarmynd.](media/sdi-architecture.png "Sensor Data Intelligence byggingarlistarmynd")
 
 ## <a name="video-instructions"></a>Vídeóleiðbeiningar
 
@@ -44,7 +45,7 @@ Fylgdu þessum skrefum til að dreifa nauðsynlegum tilföngum á Azure.
 1. Nýr vafraflipi er opnaður og þú ert fluttur á Azure gáttina svo þú getir notað Azure tilföngin. Ef þú ert beðinn um það skaltu skrá þig inn með því að nota skilríkin þín fyrir Azure áskriftina þína.
 1. Á **Sérsniðin uppsetning** síðu, í **Áskrift** reit, veldu áskriftina þína.
 1. Undir **Auðlindahópur** reit, veldu **Búa til nýtt** til að búa til tilfangahóp fyrir Azure íhlutina sem þú munt dreifa.
-1. Í fellivalmyndinni sem birtist, í **Nafn** reit, sláðu inn heiti fyrir nýja tilfangahópinn (til dæmis, *IoT kynningu*). Veljið síðan **Í lagi**.
+1. Í fellivalmyndinni sem birtist, í **Nafn** reit, sláðu inn heiti fyrir nýja tilfangahópinn (td, *IoT kynningu*). Veljið síðan **Í lagi**.
 1. Stilltu eftirfarandi svæði:
 
     - **Auðlindahópur** – Veldu tilfangahópinn sem þú bjóst til.
@@ -53,7 +54,7 @@ Fylgdu þessum skrefum til að dreifa nauðsynlegum tilföngum á Azure.
     - **Endurnotaðu núverandi Azure IoT Hub** – Skildu þennan gátreit ómerktan.
 
 1. Veldu **Næst: Endurskoða + Búa til**.
-1. Á **Sérsniðin uppsetning** síðu, staðfestu að staðfestingin hafi staðist og veldu síðan **Búa til**.
+1. Á **Sérsniðin dreifing** síðu, staðfestu að staðfestingin hafi staðist og veldu síðan **Búa til**.
 1. The **Dreifing er í gangi** síða fylgist með framvindu dreifingar þinnar. Dreifingarferlið getur tekið allt að 30 mínútur. Þegar **Dreifing er í gangi** síðu gefur til kynna að dreifingunni sé lokið skaltu velja tengilinn fyrir nafn tilfangahópsins til að opna síðu sem sýnir lista yfir tilföng sem eru notuð í hópnum.
 1. Í auðlindalistanum, finndu skrána þar sem **Tegund** reiturinn er stilltur á *Stjórnað auðkenni*. Í **Nafn** dálk, veldu nafnið til að opna upplýsingasíðuna fyrir tilfangið.
 1. Afritaðu gildið í **Auðkenni viðskiptavinar** reitinn (til dæmis með því að velja **Afritaðu á klemmuspjald** takki).
@@ -65,7 +66,7 @@ Fylgdu þessum skrefum til að dreifa nauðsynlegum tilföngum á Azure.
 1. Í auðlindalistanum, finndu skrána þar sem **Tegund** reiturinn er stilltur á *Azure Cache fyrir Redis*. Í **Nafn** dálk, veldu nafnið til að opna upplýsingasíðuna fyrir tilfangið.
 1. Í vinstri yfirlitsrúðunni, veldu **Aðgangslyklar**.
 1. Á **Aðgangslyklar** síðu, afritaðu gildið sem er sýnt fyrir **Aðaltengingarstrengur (StackExchange.Redis)** (til dæmis með því að velja **Afritaðu á klemmuspjald** takki).
-1. Farðu aftur á vafraflipann þar sem Supply Chain Management er í gangi. The **Tengdu Azure auðlindir** síðan ætti enn að vera opið.
+1. Farðu aftur á vafraflipann þar sem Supply Chain Management er í gangi. The **Tengdu Azure auðlindir** síðan ætti enn að vera opin.
 1. Í **Redis metraverslun tengistrengur** reit, líma á **Aðaltengingarstrengur (StackExchange.Redis)** gildi sem þú afritaðir.
 1. Veljið **Ljúka**.
 

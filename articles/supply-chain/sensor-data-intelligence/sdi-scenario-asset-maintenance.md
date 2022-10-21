@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 2d103406118be4385177b678de424df12af69c2e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9644058"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689401"
 ---
 # <a name="the-asset-maintenance-scenario"></a>Aðstæður fyrir viðhald eignar
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 The *viðhald eigna* atburðarás gerir þér kleift að nota skynjaragögn til að búa til teljaraskrár. Mæliskrár rekja notkun vélaeignar og eru notaðar sem inntak til að búa til viðhaldsáætlun fyrir vélaeignir.
 
@@ -110,11 +111,14 @@ Fylgdu þessum skrefum til að setja upp *viðhald eigna* atburðarás í Supply
 
 ### <a name="view-counter-values"></a>Skoða teljaragildi
 
-Eftir að gögnin eru undirbúin, og *viðhald eigna* atburðarás er stillt og virkjuð geturðu séð hvernig færslur fyrir eignateljara eru settar inn á grundvelli skynjaragagna.
+Eftir að gögnin eru útbúin, og *viðhald eigna* atburðarás er stillt og virkjuð geturðu séð hvernig færslur fyrir eignateljara eru settar inn á grundvelli skynjaragagna.
 
 1. Fara til **Eignastýring \> Eignir \> Allar eignir**.
 1. Finndu og veldu eignina sem þú vilt skoða. (Ef þú ert að nota kynningargögnin sem þú bjóst til fyrr í þessari grein skaltu velja *AK-101* .)
 1. Á aðgerðarrúðunni, á **Eign** flipa, í **Fyrirbyggjandi** hópur, veldu **Teljarar** til að opna síðuna fyrir teljaraskrár fyrir eign *AK-101*.
+
+> [!NOTE]
+> Teljaskrárnar eru sjálfgefnar stilltar til að vera settar inn á þriggja klukkustunda fresti, sem þýðir að skynjaragögn verða tekin saman á því millibili. Þú getur breytt bilinu með því að breyta fyrirspurninni í Azure Stream Analytics íhlutnum.
 
 ### <a name="generate-maintenance-work-orders"></a>Búðu til viðhaldsvinnupantanir
 

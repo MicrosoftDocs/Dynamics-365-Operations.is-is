@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c7469692aac24a5ae554973325a128c787363ba
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: db8a8e929bf75c4d1dac0c1b0a7cbc848ff291a9
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542281"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682669"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Færibreytur ekki notaðar af fínstillingu áætlanagerðar
 
@@ -111,10 +111,8 @@ Fínstilling skipulagningar notar ekki eftirfarandi færibreytur eða valkosti �
 
 - Flýtiflipinn **Almennt**
 
-  - **Hafa með lagerbirgðir** – Bíður stuðnings frá *Notkun lagerbirgða*.
   - **Hnekkja lagerbirgðum** – Bíður stuðnings frá *Notkun lagerbirgða*.
   - **Nota lagerbirgðir** – Bíður stuðnings frá *Notkun lagerbirgða*.
-  - **Taka með birgðafærslur** – Bíður stuðnings frá *Notkun lagerbirgða*.
   - **Hafa sölutilboð með** – Bíður stuðnings frá *Sölutilboðum*.
   - **Hafa með tilboðsbeiðni** – Bíður stuðnings frá *Tilboðsbeiðni*.
   - **Nota endingartíma** – Bíður stuðnings frá *Endingartíma*.
@@ -190,4 +188,3 @@ Fínstilling skipulagningar notar ekki eftirfarandi færibreytu á síðunni **A
 
   - **Nettó** – Bíður stuðnings frá *Ráðstöfunarkóðar runu*.
  
-<!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 

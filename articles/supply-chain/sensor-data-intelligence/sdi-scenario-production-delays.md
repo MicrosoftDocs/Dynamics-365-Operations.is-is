@@ -1,5 +1,5 @@
 ---
-title: Atburðarás framleiðslutafir
+title: Aðstæður fyrir framleiðslutöf
 description: Þessi grein lýsir atburðarás framleiðslutafir, sem býr til tilkynningu ef framleiðsluafköst fer niður fyrir tiltekið viðmiðunargildi.
 author: johanhoffmann
 ms.date: 09/02/2022
@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429000"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690022"
 ---
-# <a name="the-production-delays-scenario"></a>Atburðarás framleiðslutafir
+# <a name="the-production-delays-scenario"></a>Aðstæður fyrir framleiðslutöf
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 The *framleiðslutafir* atburðarás myndar tilkynningu ef framleiðsluafköst fer niður fyrir tiltekið viðmiðunargildi. Í þessari atburðarás, a *hluta út* merki er sent til Microsoft Azure IoT Hub fyrir hvern hlut sem er framleiddur. Í Dynamics 365 Supply Chain Management, pöntunartöfin er reiknuð út frá þeim tíma sem framleiðslupöntunin á að keyra, fjölda vara sem ætti að framleiða, tíma sem verkið hefur verið í gangi og fjölda *hluta út* merki sem hafa borist. Tilkynning um seinkun myndast ef fjöldi *hluta út* merki um starfið fer undir viðmiðunarmörk.
 

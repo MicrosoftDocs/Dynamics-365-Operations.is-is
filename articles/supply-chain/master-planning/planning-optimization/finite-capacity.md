@@ -1,5 +1,5 @@
 ---
-title: Endanleg getuáætlun og tímasetningar
+title: Skipulag og áætlun með takmarkaða getu
 description: Endanleg afkastagetuáætlun og tímasetning hjálpar þér að skilja hversu mikla vinnu er hægt að framleiða á tilteknu tímabili þegar takmarkanir á mismunandi tilföngum eru teknar með í reikninginn.
 author: t-benebo
 ms.date: 09/19/2022
@@ -11,16 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c5eebe9ef6258b43daa7c7007ee28b0278fe5b09
-ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
+ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573149"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689694"
 ---
-# <a name="finite-capacity-planning-and-scheduling"></a>Endanleg getuáætlun og tímasetningar
+# <a name="finite-capacity-planning-and-scheduling"></a>Skipulag og áætlun með takmarkaða getu
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 Endanleg getu er nálgun sem hjálpar þér að skilja hversu mikla vinnu er hægt að framleiða á tilteknu tímabili þegar takmarkanir á mismunandi auðlindum eru teknar með í reikninginn. Tilgangur tímasetningar með takmörkuðum afkastagetu er að tryggja að vinna gangi á jöfnum og skilvirkum hraða í öllu verksmiðjunni.
 
@@ -63,7 +65,7 @@ Til að nota takmarkaða getuvirkni verður þú að virkja getuáætlun á **A�
 
 Þessi hluti veitir eftirfarandi dæmi sem sýna hvernig á að vinna með bæði óendanlega og takmarkaða getuáætlun og tímasetningu:
 
-- Dæmi 1 – Óendanlega getuáætlun
+- Dæmi 1 – Óendanleg getuáætlun
 - Dæmi 2 – Endanleg afkastagetuáætlun með tímagirðingu upp á einn dag
 - Dæmi 3 – Endanleg afkastagetuáætlun með tveggja daga tímagirðingu
 
@@ -80,7 +82,7 @@ Vara *Vara 1* er með leið sem inniheldur eftirfarandi aðgerðir.
 
 Starfsmenn hjá fyrirtækinu þínu vinna á einni vakt í átta klukkustundir (8:00–16:00).
 
-Það er áætluð framleiðslupöntun fyrir *24 stk* af *Vara 1*. Það hefur afhendingardagsetningu á *Í dag + 3 dagar*.
+Það er áætluð framleiðslupöntun fyrir *24 stk* af *Vara 1*. Það hefur afhendingardag á *Í dag + 3 dagar*.
 
 Sem afleiðing af áætlanagerð hleður kerfið tilföngunum á eftirfarandi hátt:
 
@@ -91,7 +93,7 @@ Eftirfarandi mynd sýnir Gantt-töfluna sem myndast (veldu það til að fá st�
 
 [![Gantt mynd sem sýnir forsendur.](media/finite-examples-conditions-small.png "Gantt mynd sem sýnir forsendur")](media/finite-examples-conditions.png)
 
-### <a name="example-1--infinite-capacity-planning"></a>Dæmi 1 – Óendanlega getuáætlun
+### <a name="example-1--infinite-capacity-planning"></a>Dæmi 1 – Óendanleg getuáætlun
 
 Þetta dæmi sýnir áætlunarniðurstöðurnar þegar þú notar óendanlega afkastagetuáætlun í stað endanlegrar getuáætlunar.
 
@@ -132,7 +134,7 @@ Eftirfarandi mynd sýnir Gantt-töfluna sem myndast (veldu það til að fá st�
 
 ### <a name="example-3--finite-capacity-planning-with-a-time-fence-of-two-days"></a>Dæmi 3 – Endanleg afkastagetuáætlun með tveggja daga tímagirðingu
 
-Þetta dæmi sýnir áætlunarniðurstöður þegar þú notar endanlega afkastagetuáætlun og tveggja daga tímagirðingu.
+Þetta dæmi sýnir áætlunarniðurstöður þegar þú notar takmarkaða afkastagetuáætlun og tveggja daga tímagirðingu.
 
 Aðalskipulagið hefur eftirfarandi viðeigandi stillingar sem gera kleift að skipuleggja endanlega afkastagetu og setja tímagirðingu fyrir áætlunina:
 
@@ -148,7 +150,7 @@ The **Endanleg getu** valkostur er einnig stilltur á *Já* fyrir bæði viðeig
 
 Eftirfarandi mynd sýnir Gantt-töfluna sem myndast (veldu það til að fá stærri mynd).
 
-[![Gantt mynd sem sýnir takmarkaða getuáætlun með tímagirðingu upp á tvo daga.](media/finite-examples-example3-small.png "Gantt-rit sem sýnir takmarkaða afkastagetuáætlun með tveggja daga tímagirðingu")](media/finite-examples-example3.png)
+[![Gantt-rit sem sýnir takmarkaða afkastagetuáætlun með tveggja daga tímagirðingu.](media/finite-examples-example3-small.png "Gantt-rit sem sýnir takmarkaða afkastagetuáætlun með tveggja daga tímagirðingu")](media/finite-examples-example3.png)
 
 > [!IMPORTANT]
 > Þú ættir alltaf að stilla tímagirðinguna með endanlegri getu eins og krafist er til að passa við þarfir fyrirtækisins. Dæmin sem gefin eru upp í þessari grein sýna aðeins virknina. Í raun og veru er eins dags tímagirðing líklega of lág fyrir flesta framleiðendur sem nota takmarkaða afkastagetuáætlun.

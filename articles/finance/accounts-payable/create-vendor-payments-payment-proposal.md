@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64290ebd47295bea5bc4bf843f7a9d9528375ce7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b868db915385a8433845e810cf169f1bf1686e3d
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845375"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682873"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Stofna greiðslur lánardrottins með greiðslutillögu
 
@@ -48,7 +48,7 @@ Fyrirspurn um greiðslutillögu inniheldur mismunandi flipa, sem hver um sig hef
 - **Taka með reikninga lánardrottna frá öðrum lögaðilum** – Ef fyrirtækið hefur miðstýrðar vinnslu til greiðslu og greiðslutillagan á að taka með reikninga frá öðrum lögaðilum sem eru teknar með í leitarskilyrðum, setjið þennan valkost á **Já**.
 - **Bjóða aðskildar greiðslur lánardrottins fyrir hvern lögaðila** – Ef þessi valkostur er stilltur á **Já**, er aðskilin greiðsla stofnuð fyrir hvern lögaðila fyrir hvern lánardrottinn. Lánardrottinn greiðslunnar er lánardrottinn úr reikningi frá hverjum lögaðila. Ef þessi valkostur er stilltur á **Nei**, og sami lánardrottinn á reikninga í mörgum lögaðilum, er ein greiðsla stofnuð fyrir heildarupphæð valinna reikninga. Lánardrottinn greiðslunnar er lánardrottinn núverandi lögaðila. Ef lánardrottnalykillinn er ekki til í núverandi lögaðila, er notaður lánardrottnalykill fyrsta reikningsins sem þarf að greiða.
 - **Greiðslugjaldmiðill** – Þetta svæði tilgreinir þann gjaldmiðil sem allar greiðslur eru stofnaðar í. Ef gjaldmiðill er ekki skilgreindur, er hver reikningur greiddur í gjaldmiðli reikningsins.
-- **Greiðsla virka daga** – Sláðu inn vikudaginn þegar greiðsla á að fara fram, þessi reitur er aðeins notaður ef greiðslumáti er stilltur á **Vika**. Upphæð reikninga til greiðslu er lögð saman á tilgreindum vikudegi til greiðslu.
+- **Greiðsla virka daga** – Sláðu inn vikudaginn þegar greiðsla á að fara fram, þessi reitur er aðeins notaður ef greiðslumáti er stilltur á **Vika**. Fjárhæð reikninga til greiðslu er lögð saman á tilgreindum vikudegi til greiðslu.
 - **Gerð mótlykils** og **Mótlykill** – Stilla þessi svæði til að skilgreina gerð lykils (eins og **Fjárhag** eða **Banka**) og mótlykil (til dæmis tiltekins bankareiknings). Greiðsluhátt fyrir reikninginn skilgreinir sjálfgefna gerð mótlykils og mótlykil, en hægt er að nota svæðin til að hnekkja sjálfgefnum gildum.
 - **Samantekin greiðsludagsetning** – Þetta er aðeins notað þegar reiturinn **Tímabil** á greiðslumáta er stilltur á **Samtals**. Ef dagsetning er tilgreind eru allar greiðslur stofnaðar á þessum degi. **Dagsetning lágmarksgreiðslu** svæðið er hunsað.
 - **Auka síur** – Á flýtiflipanum **Færslur til að taka með** er hægt að skilgreina aukabil skilyrða. Fyrir dæmi, ef þú vilt greiða aðeins svið lánardrottna, geturðu skilgreint afmörkun fyrir lánardrottnasvið. Þessi virkni er oft notuð til að að velja reikninga fyrir greiðslumáta. Til dæmis, ef skilgreind er sía þar sem **Greiðsluaðferð** = **Ávísun**, eru aðeins þeir reikningar sem hafa þann greiðslumáta valdir fyrir greiðslu, svo lengi sem þeir einnig uppfyllir önnur skilyrði sem eru tilgreindir í fyrirspurn.
@@ -111,7 +111,7 @@ Víddarstjórnun gera notandanum kleift að stjórna flokkun myndaðra lína me�
 -   **Víddarstýring** svæðið er virkjað án þess að skilgreina víddir frekar. Án þess að taka tillit til vídda verða stofnaðar greiðslutillögur. Stofnuð færsla erfir engar víddir úr notaðri færslu.
 -   **Víddarstýring** svæðið er virkjað og frekari víddir eru virkjaðar. Nú skilgreinirðu hvernig víddir verða afritaðar í færslubókina. Til dæmis: • Veljið gátreitinn **BusinessUnit** til þess að stofna greiðslutillögu fyrir hverja viðskiptaeiningu sem greiðslumáta, • Veljið gátreitinn **kostnaðarstaður** til þess að stofna greiðslutillögu sem greiðsluhátt fyrir hvern kostnaðarstað
 
-> [[!NOTE]
+>[!NOTE]
 > Ef þú velur fleiri en eina vídd í þriðja valkostinum er greiðslutillaga búin til fyrir víddarsamsetninguna.
 
 #### <a name="bank-account-selection"></a>Val á bankareikningi

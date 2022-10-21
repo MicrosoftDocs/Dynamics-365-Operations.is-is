@@ -11,33 +11,34 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 4dadd8e258af6e6ffbe8c28fc8f9be511fcdb5bc
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: f1e2cfca47d507c8de7f9323bb8e4262a0e90949
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186583"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689160"
 ---
 # <a name="demand-driven-planning"></a>Eftirspurnarstýrð áætlanagerð
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Greinin lýsir því hvernig á að búa til áætlaðar pantanir fyrir vörur sem eru settar upp sem aftengingarpunktar.
 
 ## <a name="net-flow-and-qualified-demand"></a>Hreint flæði og hæf eftirspurn
 
-Við aðalskipulag beitir kerfið hugmyndinni um *nettóflæði* til að ákvarða virkt birgðamagn byggt á raunverulegum birgðum á lager, auk birgða sem er í pöntun (núverandi birgðapantanir sem ekki hafa verið mótteknar), að frádregnum því sem vísað er til sem *hæfa eftirspurn* (hæfur komandi sala), eins og sýnt er á eftirfarandi mynd. Þegar kerfið er að ákvarða í hvaða biðminni vöru tilheyrir og hvert pantað magn ætti að vera, metur það nettóflæðið, ekki raunverulega birgðabirgðir.
+Við aðalskipulag beitir kerfið hugmyndinni um *nettóflæði* til að ákvarða virkt birgðamagn byggt á raunverulegum birgðum á lager, að viðbættum birgðum sem eru í pöntun (núverandi birgðapantanir sem eru ekki enn mótteknar), að frádregnum því sem vísað er til sem *hæfa eftirspurn* (hæfur komandi sala), eins og sýnt er á eftirfarandi mynd. Þegar kerfið er að ákvarða hvaða biðminni hlutur tilheyrir og hvert pantað magn ætti að vera, metur það nettóflæðið, ekki raunverulega birgðabirgðir.
 
 ![Dæmi um nettóflæðisreikningsrit.](media/ddmrp-net-flow-example.png "Dæmi um nettóflæðisreikningsrit")
 
-Þegar skipulögð pöntun er ræst í áætlanagerð verður pantað magn hámarksstig að frádregnum nettóflæði. Til að úthluta pöntunarforgangi notar kerfið [forgangsmiðaða áætlanagerð](priority-based-planning.md) virkni í stað kröfudagsetningar. Eftirspurnardrifin efnisþörf áætlanagerð (DDMRP) úthlutar forgangi áætlaðrar pöntunar byggt á pöntuðu magni sem hlutfall af hámarksbirgðum. Í fyrri myndinni er pantað magn 53 prósent af hámarksmagni. Þess vegna verður pöntunarforgangur fyrir áfyllingu 53. (Fyrir samhengi er 0 hæsti forgangurinn og 100 er lægstur.)
+Þegar skipulögð pöntun er ræst í áætlunarkeyrslu verður pantað magn hámarksstig að frádregnum nettóflæði. Til að úthluta pöntunarforgangi notar kerfið [forgangsmiðaða áætlanagerð](priority-based-planning.md) virkni í stað kröfudagsetningar. Eftirspurnardrifin efnisþörf áætlanagerð (DDMRP) úthlutar forgangi áætlaðrar pöntunar byggt á pöntuðu magni sem hlutfall af hámarksbirgðum. Í fyrri myndinni er pantað magn 53 prósent af hámarksmagni. Þess vegna verður pöntunarforgangur fyrir áfyllingu 53. (Fyrir samhengi er 0 hæsti forgangurinn og 100 er lægstur.)
 
-*Hæfð eftirspurn* er gjaldfallin eftirspurn, plús eftirspurn í dag, plús hækkuð pöntunarhækkanir í framtíðinni. Eftirfarandi mynd sýnir dæmi um eftirspurnarstig í dag (12. júní) og næstu þrjá daga. DDMRP gerir þér kleift að stilla pöntunarhámarksþröskuld til að bera kennsl á eftirspurn sem er umfram venjulegar væntingar. Ef þröskuldurinn er stilltur á 25 stykki, munu tvær af framtíðardagsetningunum sem sýndar eru á myndinni gilda sem pöntunarhækkanir. Þú verður að úthluta pöntunarhámarksþröskuldi fyrir hverja vöru fyrir sig með því að nota hana **Vöruumfjöllun** síðu, eins og lýst er í [Settu upp biðminni fyrir hlut aftengingarpunkts](ddmrp-buffer-profile-and-levels.md#set-up-buffers).
+*Hæfð eftirspurn* er gjaldfallin eftirspurn, plús eftirspurn í dag, plús hækkuð pöntunarhækkanir í framtíðinni. Eftirfarandi mynd sýnir dæmi um eftirspurnarstig í dag (12. júní) og næstu þrjá daga. DDMRP gerir þér kleift að stilla pöntunarhámarksþröskuld til að bera kennsl á eftirspurn sem er umfram eðlilegar væntingar. Ef þröskuldurinn er stilltur á 25 stykki, munu tvær af framtíðardagsetningunum sem sýndar eru á myndinni gilda sem pöntunarauka. Þú verður að úthluta pöntunarhámarksþröskuldi fyrir hverja vöru fyrir sig með því að nota hana **Vöruumfjöllun** síðu, eins og lýst er í [Settu upp biðminni fyrir hlut aftengingarpunkts](ddmrp-buffer-profile-and-levels.md#set-up-buffers).
 
 ![Dæmi um hæft útreikningstöflu fyrir eftirspurn.](media/ddmrp-net-qualified-demand-example.png "Dæmi um hæft útreikningstöflu fyrir eftirspurn")
 
-Að því gefnu að það sé engin eftirspurn eftir gjalddaga, geturðu nú bætt eftirspurn dagsins (18) við magn tveggja pöntunarhámarka (29 og 26) til að fá fullgilda eftirspurn upp á 73. Jafnvel þó að það sé eftirspurn fyrir 23. júní, taktu eftir því að það er ekki innifalið í nettóflæðisútreikningnum, vegna þess að DDMRP kallar fram áætlunarpöntun á annan hátt en hefðbundnir áætlanagerðarhópar.
+Að því tilskildu að það sé engin eftirspurn eftir gjalddaga geturðu nú bætt eftirspurn dagsins (18) við magn tveggja pöntunarhámarka (29 og 26) til að fá fullgilda eftirspurn upp á 73. Jafnvel þó það sé eftirspurn fyrir 23. júní, taktu eftir því að það er ekki innifalið í nettóflæðisútreikningnum, vegna þess að DDMRP kallar fram áætlunarpöntun á annan hátt en hefðbundnir áætlanagerðarhópar.
 
 ## <a name="generating-planned-orders-with-ddmrp"></a>Búa til fyrirhugaðar pantanir með DDMRP
 
@@ -47,7 +48,7 @@ Eftirfarandi mynd sýnir dæmi um aðstæður þar sem þú ert með pöntun fyr
 
 ![Skipulagsdæmi 1.](media/ddmrp-planning-example-1.png "Skipulagsdæmi 1")
 
-Ef þú keyrir aðalskipulagningu núna mun það búa til áætlaða pöntun ef nettóflæði reynist fara niður fyrir endurpöntunarpunkt (219 stykki í þessu dæmi).
+Ef þú keyrir aðaláætlanagerð núna mun það búa til áætlaða pöntun ef nettóflæðið finnst fara niður fyrir endurpöntunarpunktinn (219 stykki í þessu dæmi).
 
 ![Skipulagsdæmi 2.](media/ddmrp-planning-example-2.png "Skipulagsdæmi 2")
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: a01dfd72428c75d1bb24f32c73c9c799a6c5017e
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334866"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682507"
 ---
 # <a name="engineering-change-management-overview"></a>Yfirlit yfir umsjón hönnunarbreytinga
 
@@ -53,7 +53,7 @@ Til að kveikja eða slökkva á grunneiginleikum verkfræðibreytingastjórnuna
 1. Farðu í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnusvæðið.
 1. Athuga með uppfærslur.
 1. Snúðu eiginleikanum sem heitir *Verkfræðibreytingastjórnun* kveikt eða slökkt, eftir þörfum.
-1. Ef þú vilt fylgjast með útgáfuvídd afurða í færslum (valfrjálst) skaltu kveikja á eiginleikanum sem er nefndur *Vöruvíddarútgáfa*.
+1. Ef þú vilt fylgjast með útgáfuvídd afurða í viðskiptum (valfrjálst) skaltu kveikja á eiginleikanum sem er nefndur *Vöruvíddarútgáfa*.
 
 ### <a name="turn-the-required-configuration-keys-on-or-off"></a>Kveiktu eða slökktu á nauðsynlegum stillingarlyklum
 
@@ -73,6 +73,9 @@ Næst skal kveikja á skilgreiningarlyklunum með því að fylgja þessum skref
 1. Gagnagrunnurinn verður að vera samstilltur til að tryggja að stillingarlyklar séu rétt uppfærðir til að endurspegla breytingarnar þínar. Gerðu eitt af eftirfarandi skrefum, eftir því hvers konar umhverfi þú ert að vinna við:
     - **Fyrir Tier 1 (þróunar) umhverfi** : Opnaðu verkefnið þitt í Microsoft Visual Studio og veldu síðan **Dynamics 365 \> Samstilla gagnagrunn \> Samstilla**.
     - **Fyrir Tier 2 (og hærra) umhverfi** : Gagnagrunnurinn samstillist sjálfkrafa eftir að þú setur umhverfið í og úr viðhaldsham, svo þú getur sleppt þessu skrefi.
+
+> [!NOTE]
+> Til að nota verkfræðilega breytingastjórnun verður bæði uppskriftarnúmeraröðin og formúluröðun (ef þú notar formúlur) að vera stillt á *Sjálfvirk* á **Númeraraðir** síðu.
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Kveikja á eiginleikum fyrir umsjón frekari hönnunarbreytinga
 
