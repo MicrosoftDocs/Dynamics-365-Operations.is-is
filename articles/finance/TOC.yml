@@ -12,6 +12,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.31 (janúar)
+                  href: get-started/whats-new-changed-10-0-31.md
                 - name: Finance 10.0.30 (nóvember)
                   href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (október)
@@ -232,6 +234,26 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Setja upp villuleit fyrir reikningsjöfnun viðskiptaskulda
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Lausn Invoice Capture
+              items:
+                - name: Yfirlit yfir Invoice Capture
+                  href: accounts-payable/invoice-capture-overview.md
+                - name: Uppsetning Invoice Capture
+                  href: accounts-payable/install-invoice-capture.md
+                - name: Skilgreina Invoice Capture
+                  href: accounts-payable/config-invoice-capture.md
+                - name: Stillingahópar Invoice Capture
+                  href: accounts-payable/invoice-capture-config-group.md
+                - name: Vörpunarreglur Invoice Capture
+                  href: accounts-payable/invoice-capture-mapping-rules.md
+                - name: Vinnusvæði Invoice Capture
+                  href: accounts-payable/invoice-capture-workspace.md
+                - name: Ítarlegar stillingar Invoice Capture
+                  href: accounts-payable/invoice-capture-advanced-settings.md
+                - name: Stjórnborð Invoice Capture
+                  href: accounts-payable/invoice-capture-dashboard.md
+                - name: Mótteknar skrár Invoice Capture
+                  href: accounts-payable/invoice-capture-rec-files.md
             - name: Sjálfvirkni reiknings lánardrottins
               items:
                 - name: Yfirlit yfir sjálfvirka vinnslu á reikningi lánardrottins
@@ -368,7 +390,7 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Yfirlit yfir SEPA-beingreiðslu
               href: accounts-receivable/sepa-direct-debit-overview.md
-            - name: Setja upp tilskipun fyrir SEPA-umboð fyrir beint debet
+            - name: Setja upp tilskipun fyrir SEPA-umboð fyrir beingreiðslu
               href: accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Uppsetning kreditkorts, heimild og úthlutun'
               href: accounts-receivable/credit-card-authorizations.md
@@ -424,7 +446,7 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Endurteknar samningsgreiðslur
                   items:
-                    - name: Setja upp endurteknar greiðslur fyrir tengiliði
+                    - name: Setja upp endurteknar samningsgreiðslur
                       href: accounts-receivable/sb-recur-bill-parameters.md
                     - name: Stofna greiðsluáætlun
                       href: accounts-receivable/sb-billing-schedules.md
@@ -478,7 +500,7 @@
                   href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Yfirlit yfir SEPA-beingreiðslu
                   href: accounts-receivable/sepa-direct-debit-overview.md
-                - name: SEPA-umboð fyrir beint debet
+                - name: SEPA-umboð fyrir beingreiðslu
                   href: accounts-receivable/sepa-direct-debit-mandate.md
                 - name: Stofna beingreiðsluumboð fyrir viðskiptavin
                   href: accounts-receivable/tasks/create-direct-debit-mandate-customer.md

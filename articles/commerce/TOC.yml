@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: Umbreyta ósamsettum viðskiptavinum í samstillta viðskiptavini
               href: convert-async-to-sync.md
+            - name: Samstillingu eftirlits með virkni viðskiptavinar
+              href: audit-async-customer-operations.md
             - name: Algengar spurningar um ósamstillta stillingu til að stofna viðskiptavin
               href: async-customer-mode-faq.md
             - name: Biðlaraþjónusta
@@ -1296,8 +1298,14 @@
                       href: cookie-consent-module.md
                 - name: Spjalleiningar
                   items:
-                    - name: Spjalleining í Commerce
+                    - name: Yfirlit yfir eiginleika Commerce-spjalls
+                      href: commerce-chat-overview.md
+                    - name: Commerce-spjall með omni-rás fyrir Customer Service einingu
                       href: commerce-chat-module.md
+                    - name: Commerce-spjall með Power Virtual Agents einingu
+                      href: chat-module-pva.md
+                    - name: Forvirkar spjallbreytur Commerce-spjalleiningar
+                      href: chat-proactive-chat-parameters.md
             - name: Leita
               items:
                 - name: Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu

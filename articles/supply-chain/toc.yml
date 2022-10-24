@@ -12,14 +12,12 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.31 (febrúar 2022)
+                  href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30 (nóvember 2022)
                   href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (október 2022)
                   href: get-started/whats-new-scm-10-0-29.md
-                - name: Supply Chain Management 10.0.28 (ágúst 2022)
-                  href: get-started/whats-new-scm-10-0-28.md
-                - name: Supply Chain Management 10.0.27 (júlí 2022)
-                  href: get-started/whats-new-scm-10-0-27.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -1777,8 +1775,12 @@
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Aðaláætlanagerð með eftirspurnarspá
                   href: master-planning/planning-optimization/demand-forecast.md
+                - name: Aðaláætlanagerð með birgðaspá
+                  href: master-planning/planning-optimization/supply-forecast.md
                 - name: Aðaláætlanagerð með innkaupaverðsamningum
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Áætlun byggð á verðtilboðum og beiðni um tilboð
+                  href: master-planning/planning-optimization/quotation-planning.md
                 - name: Færibreytur fyrir dagsetningu og tíma sem fínstilling skipulagningar notar
                   href: master-planning/planning-optimization/date-time-used.md
                 - name: Öryggismörk
@@ -2323,6 +2325,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: Stofna forskilgreind afurðarafbrigði
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: Sýna þýdd vöruheiti og vörulýsingar í viðmóti
+                  href: pim/show-translated-product-info.md
                 - name: Stjórna mælieiningum
                   href: pim/tasks/manage-unit-measure.md
                 - name: Umreikningur mælieiningar eftir afurðarafbrigði
@@ -3633,6 +3637,8 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Vinna með staðsetningarleiðbeiningar
                       href: warehousing/create-location-directive.md
+                    - name: Staðsetningarleiðbeiningar með samþykkisprófum
+                      href: warehousing/location-directive-acceptance-tests.md
                     - name: Skilgreina afurðarsíur fyrir vöruhúsakerfifærslur
                       href: warehousing/filters-and-filter-codes.md
                     - name: Birgðamörk staðsetningar
