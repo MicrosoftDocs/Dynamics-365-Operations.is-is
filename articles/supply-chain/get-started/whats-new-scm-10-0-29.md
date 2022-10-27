@@ -1,5 +1,5 @@
 ---
-title: Forútgáfa af Dynamics 365 Supply Chain Management 10.0.29 (október 2022)
+title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.29 (október 2022)
 description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management 10.0.29.
 author: kamaybac
 ms.date: 08/12/2022
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 62e06f2348ca3524beaaef5d8879c199db56696f
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: d12932f35b3b451577d38948f60bc3a73c10e2a0
+ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689284"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714834"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10029-october-2022"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.29 (október 2022)
 
@@ -51,7 +51,7 @@ Ef þú vilt kveikja eða slökkva á einhverjum af þessum eiginleikum verður 
 | Kostnaðarstýring | Fínstilling á útreikningi biðverðs aukaafurðar | Þessi eiginleiki lagar átök sem geta stundum átt sér stað þegar verð samafurða er reiknað út með því að nota marga þræði. Það veldur því að kerfið tryggir að hvert samvöruverð sé reiknað aðeins einu sinni. Niðurstaða þess útreiknings er síðan notuð sem inntak fyrir alla aðra útreikninga. Ef biðverð er þegar til er það verð notað. |
 | Áætlanagerð | Safna saman færslum í fínstillingu áætlanagerðar | Þessi eiginleiki getur hjálpað til við að fækka fyrirhuguðum pöntunum sem myndast til að útvega eina sölupöntunarlínu þegar þú ert að nota áætlanagerð fínstillingu. Þegar kveikt er á þessum eiginleika mun áætlanagerð fínstilling flokka allar birgðafærslur fyrir pöntunarlínu í eina kröfu fyrir allt magnið. (Þessi hegðun passar við innbyggða hegðun áætlanagerðarvélarinnar.) Framboð og eftirspurn eru flokkuð sérstaklega. Þess vegna hjálpar aðgerðin að draga úr færslumagni þegar þú ert með skiptar færslur og þegar þú notar víddir (eins og rununúmer eða raðnúmer) sem eru ekki þekjuvíddir. |
 | Innkaup og aðföng | Setja lánardrottin í bið fyrir innkaupapantanir | Þessi eiginleiki gerir þér kleift að setja söluaðila í bið fyrir innkaupapantanir. Það bætir við nýju *Pöntun* biðtegund sem merkir lánardrottin sem í bið fyrir innkaupapantanir. Þú munt ekki geta búið til nýjar innkaupapantanir fyrir lánardrottna sem eru í bið fyrir innkaupapantanir, en þú munt samt geta haldið áfram með opna reikninga eða greiðslur fyrir þá lánardrottna. |
-| Sala og markaðsstarf | Reikna nettóupphæð línu við innflutning | Þessi eiginleiki gerir þér kleift að stjórna því hvort kerfið ætti að endurreikna línutölur þegar þú flytur inn gögn í gegnum *Sölupöntunarlínur*, *·*, eða *Skilapöntunarlínur* eining sem notar OData eða tvískrift. Það hefur aðeins áhrif þegar þú ert líka með stefnu um mat á viðskiptasamningum sem takmarka breytingar á **Virði** reit fyrir sölupöntunarlínur, sölutilboðslínur og/eða skilapöntunarlínur. Það bætir við stillingu sem heitir **Reiknaðu nettóupphæð línu** til **Viðskiptakröfur > Uppsetning > Færibreytur viðskiptakrafna** síðu. Þegar þessi stilling er stillt á *Já*, kerfið mun alltaf endurreikna línuupphæðir þegar þess er þörf (þar með hunsa allar matsstefnur viðskiptasamninga fyrir nettóupphæð línunnar). Þegar stillingin er stillt á *Nei*, kerfið mun aldrei sjálfkrafa reikna út nettóupphæð línunnar, jafnvel þó að innkomnar breytingar á línuverði, magni og/eða afslætti myndu gefa til kynna að endurreikna ætti nettóupphæð línunnar. Þessi eiginleiki er sjálfgefið virkur og stilltur upphaflega **Reiknaðu nettóupphæð línu** til *Já*. The *Nei* stilling passar við kerfishegðun fyrir útgáfu 10.0.23 og er aðallega veitt til að styðja við eldri samþættingarsviðsmyndir.<br><br>Fyrir frekari upplýsingar, sjá [Endurreikna nettóupphæðir við innflutning á sölupantunum, tilboðum og skilum](../sales-marketing/calc-line-net-amounts-import.md). |
+| Sala og markaðsstarf | Reikna nettóupphæð línu við innflutning | Þessi eiginleiki gerir þér kleift að stjórna því hvort kerfið ætti að endurreikna línutölur þegar þú flytur inn gögn í gegnum *Sölupöntunarlínur*, *·*, eða *Skilapöntunarlínur* eining sem notar OData eða tvískrift. Það hefur aðeins áhrif þegar þú ert líka með stefnu um mat á viðskiptasamningum sem takmarka breytingar á **Virði** reit fyrir sölupöntunarlínur, sölutilboðslínur og/eða skilapöntunarlínur. Það bætir við stillingu sem heitir **Reikna línu nettó upphæð** til **Viðskiptakröfur > Uppsetning > Færibreytur viðskiptakrafna** síðu. Þegar þessi stilling er stillt á *Já*, kerfið mun alltaf endurreikna línuupphæðir þegar þess er þörf (þar með hunsa allar matsstefnur viðskiptasamninga fyrir nettóupphæð línunnar). Þegar stillingin er stillt á *Nei*, kerfið mun aldrei sjálfkrafa reikna út nettóupphæð línunnar, jafnvel þó að innkomnar breytingar á línuverði, magni og/eða afslætti myndu gefa til kynna að endurreikna ætti nettóupphæð línunnar. Þessi eiginleiki er sjálfgefið virkur og stilltur upphaflega **Reikna línu nettó upphæð** til *Já*. The *Nei* stilling passar við kerfishegðun fyrir útgáfu 10.0.23 og er aðallega veitt til að styðja við eldri samþættingarsviðsmyndir.<br><br>Fyrir frekari upplýsingar, sjá [Endurreikna nettóupphæðir við innflutning á sölupantunum, tilboðum og skilum](../sales-marketing/calc-line-net-amounts-import.md). |
 | Sala og markaðsstarf | Reikna heildarsölu með mörgum þráðum | Þessi eiginleiki hjálpar til við að bæta árangur með því að gera kerfinu kleift að nota samhliða vinnslu þegar það reiknar út sölutölur í lotu. Eiginleikinn bætir við nýju **Fjöldi þráða** sviði til **Reiknaðu sölutölur** valmynd. Ef þú velur að keyra útreikninginn í lotu geturðu notað þennan reit til að stilla hámarksfjölda þráða. Ef þú stillir gildið á *0* (núll) eða *1*, einn þráður verður notaður. Gildi yfir 1 gera multithreading kleift. |
 | Sala og markaðsstarf | Uppfæra verð og afslætti sem færð voru inn handvirkt fyrir samstæðu | Þessi eiginleiki bætir við stuðningi við handvirkar breytingarstefnur fyrir pantanir milli fyrirtækja. Það felur í sér stuðning við að flytja handvirkar breytingarstefnur á milli sölu- og innkaupapantana milli fyrirtækja. Áður voru reglur um handvirkar breytingar aðeins studdar fyrir pantanir utan samstæðu. Þegar þessi eiginleiki er virkur mun kerfið gefa þér möguleika á að uppfæra verð og afslætti eftir að þú hefur vistað breytingar á pöntun innan fyrirtækja. Þessi valkostur gerir þér kleift að velja hvort þú vilt nota nýju verð- og afsláttarupplýsingarnar á millifyrirtækjapöntunina eða láta pöntunina óbreytta. |
 
@@ -67,7 +67,7 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 
 ## <a name="feature-state-changes-in-this-release"></a>Eiginleikastöðubreytingar í þessari útgáfu
 
-Eftirfarandi tafla sýnir eiginleika sem urðu nauðsynlegir eða virkir sjálfgefið í útgáfu 10.0.29. Kveikt verður á öllum þessum eiginleikum fyrir kerfið þitt um leið og þú uppfærir í útgáfu 10.0.29. Ekki er hægt að slökkva á lögboðnum eiginleikum, en samt sem áður er hægt að slökkva á eiginleikum sem eru sjálfgefnir með því að nota [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Eftirfarandi tafla sýnir eiginleika sem urðu nauðsynlegir eða virkjaðir sjálfgefið í útgáfu 10.0.29. Kveikt verður á öllum þessum eiginleikum fyrir kerfið þitt um leið og þú uppfærir í útgáfu 10.0.29. Ekki er hægt að slökkva á lögboðnum eiginleikum, en samt sem áður er hægt að slökkva á eiginleikum sem eru sjálfgefið virkir með því að nota [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Taflan sýnir einnig eiginleika sem áður voru í opinberri forskoðun en hafa breyst til að verða almennt fáanlegir í útgáfu 10.0.29. Þessi breyting gefur til kynna að nú sé mælt með eiginleikum til notkunar í framleiðsluumhverfi. Sjálfgefið er að slökkt sé á þessum eiginleikum nema annað sé tekið fram. Þess vegna verður þú að nota [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að virkja þau ef þú vilt nota þau.
 
@@ -177,7 +177,7 @@ Taflan sýnir einnig eiginleika sem áður voru í opinberri forskoðun en hafa 
 | Vöruhúsakerfi | [Handvirk sameining sendingar](../warehousing/consolidate-shipments-manual-workbench.md) | Sjálfgefið kveikt |
 | Vöruhúsakerfi | [Handvirk tiltektarþjónusta flutningslínu fyrir stjórnanda eða aðra trausta notendur](whats-new-scm-10-0-28.md) | Almennt tiltækt |
 | Vöruhúsakerfi | [Viðmót efnismeðhöndlunarbúnaðar](../warehousing/mhax.md) | Skylda |
-| Vöruhúsakerfi | [Nýjar síður á vinnubekknum áætlanagerð](whats-new-scm-10-0-24.md) | Almennt tiltækt |
+| Vöruhúsakerfi | [Nýjar síður á vinnubekk fyrir áætlanagerð](whats-new-scm-10-0-24.md) | Almennt tiltækt |
 | Vöruhúsakerfi | [Myndræn framsetning vinnuálags á útleið](../warehousing/outbound-workload-visualization.md) | Skylda |
 | Vöruhúsakerfi | [Áætluð dreifing frá dreifingarstöð](../warehousing/planned-cross-docking.md) | Skylda |
 | Vöruhúsakerfi | [Vinna úr viðburðum vöruhúsaforrits](../warehousing/warehouse-app-events.md) | Skylda |
@@ -204,7 +204,7 @@ Taflan sýnir einnig eiginleika sem áður voru í opinberri forskoðun en hafa 
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir Finance and Operations öpp
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.29 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Palluppfærslur fyrir útgáfu 10.0.29 af Finance and Operations forritum (október 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.29 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.29 af Finance and Operations forritum (október 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-29.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 

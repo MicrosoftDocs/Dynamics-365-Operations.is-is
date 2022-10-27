@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860726"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708618"
 ---
 # <a name="configure-job-card-for-devices"></a>Skilgreina verkspjald fyrir tæki
 
@@ -73,7 +73,7 @@ Flýtiflipinn **Almennt** gerir þér kleift að skilgreina sérhvern valkost se
 - **Tilfangaflokkur** - Veljið tilfangaflokk sem á að nota sem sjálfgefið síuskilyrði fyrir lista yfir verk sem eru sýnd hverjum starfsmanni. Aðeins verk sem eru áætluð í tilföngum sem flokkuð eru undir völdum tilfangaflokki birtast upphaflega í tækinu. Ef **Leyfa starfsmönnum að stilla persónulegar síur** er virkjað, geta starfsmenn breytt þessu gildi, annars á þessi sía alltaf við þegar þessi tækjaskilgreining er virk.
 - **Tilfang** - Veljið tilfang sem á að nota sem sjálfgefið síuskilyrði fyrir lista yfir verk sem eru sýnd hverjum starfsmanni. Aðeins verk sem eru áætluð í völdu tilfangi birtast upphaflega í tækinu. Ef **Leyfa starfsmönnum að stilla persónulegar síur** er virkjað, geta starfsmenn breytt þessu gildi, annars á þessi sía alltaf við þegar þessi tækjaskilgreining er virk.
 - **Mynda númeraplötu** - Stillið þennan valkost á **Já** til að mynda nýja númeraplötu í hvert sinn sem starfsmaður notar verkspjaldstækið til að skrá sem lokið. Númeraplötunúmerið er myndað úr númeraröð sem er sett upp á síðunni **Færibreytur vöruhúsakerfis**. Þegar stillt er á **Nei** verða starfsmenn að tilgreina fyrirliggjandi númeraplötu þegar skráð sem lokið.
-- **Prenta merki** - Stillið þennan valkost á **Já** til að prenta nýja númeraplötumerki í hvert sinn sem starfsmaður notar verkspjaldstækið til að skrá sem lokið. Skilgreining merkisins er sett upp í skjalaleið, eins og lýst er í [Skipulag skjalaleiðar fyrir númeraplötumerki](../warehousing/document-routing-layout-for-license-plates.md).
+- **Prenta merki** - Stillið þennan valkost á **Já** til að prenta nýja númeraplötumerki í hvert sinn sem starfsmaður notar verkspjaldstækið til að skrá sem lokið. Uppsetning merkisins er sett upp í skjalaleiðingu, eins og lýst er í [Uppsetning skjalaleiðarmerkja](../warehousing/document-routing-layout-for-license-plates.md).
 
 <a name="assigned-users"></a>
 

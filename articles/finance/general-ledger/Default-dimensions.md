@@ -1,8 +1,8 @@
 ---
-title: Fjárhagsvíddir og bókanir
-description: Þegar þú áætlar og setur upp bókhaldslykil, þarftu að íhuga hvernig hinir ýmsu hlutar koma til með að vinna saman þegar þú bókar skjal eða færslu. Á meðal þessara hluta eru lykilskipulag, ítarlegar reglur, og afstemmdar og fastar víddir. Þessi grein útskýrir hvað hver íhluti er og hvernig íhlutirnir vinna saman.
+title: Fjárhagsvíddir og bókun
+description: Þessi grein útskýrir þættina sem mynda bókhaldsyfirlitið og hvernig íhlutirnir vinna saman.
 author: aprilolson
-ms.date: 08/04/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89696f08755a7ff2b01ec7e0cf8550a3b5914bc0
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910114"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715471"
 ---
-# <a name="financial-dimensions-and-posting"></a>Fjárhagsvíddir og bókanir 
+# <a name="financial-dimensions-and-posting"></a>Fjárhagsvíddir og bókun 
 
 [!include [banner](../includes/banner.md)]
 
-Þegar þú áætlar og setur upp bókhaldslykil, þarftu að íhuga hvernig hinir ýmsu hlutar koma til með að vinna saman þegar þú bókar skjal eða færslu. Á meðal þessara hluta eru lykilskipulag, ítarlegar reglur, og afstemmdar og fastar víddir. Þessi grein útskýrir hvað hver íhluti er og hvernig íhlutirnir vinna saman.
+Þegar þú áætlar og setur upp bókhaldslykil, þarftu að íhuga hvernig hinir ýmsu hlutar koma til með að vinna saman þegar þú bókar skjal eða færslu. Á meðal þessara hluta eru lykilskipulag, ítarlegar reglur, og afstemmdar og fastar víddir. Þessi grein útskýrir hvað hver íhlutur er og hvernig íhlutirnir vinna saman.
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Bókhaldslykill og hlutar fjárhagsvídda
 
@@ -93,7 +93,7 @@ Aftur á móti, þegar línan er bókuð, er fasta víddin notuð, og línan er 
 
 Þegar sami færslubókarhaus uppsetning er notuð og sama færslan er bókuð, er fasta víddin notuð fyrst. Síðan er afstemmingarrökleiðsla notuð til að hjálpa til við að tryggja að sérhver deild hafi afstemmda færslu. Eftirfarandi myndskýring sýnir fylgiskjalsfærslur sem innihalda afstemmingarfærsluna eftir að fasta víddin er virkjuð.
 
-.[![Færslur fylgiskjals eftir að mótfærsla er bókuð](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Færslur fylgiskjals eftir að mótfærsla er bókuð](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Dæmi 3
 

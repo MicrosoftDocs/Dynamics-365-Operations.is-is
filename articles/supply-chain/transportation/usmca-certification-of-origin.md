@@ -6,18 +6,19 @@ ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
+ms.search.form: WHSShipPlanningListPage, WHSShipmentDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c67fd12c31b475b323bc4c7feee4cc5267da7793
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336546"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714700"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA-upprunavottorð
 
@@ -57,7 +58,7 @@ Fyrir frekari upplýsingar um hvern þessara þátta og hvernig gildi þeirra fi
 Gerðu eftirfarandi til að prenta út skjal USMCA-upprunavottorðs fyrir sendingu:
 
 1. Gerið eitt af eftirfarandi:
-    - Opnaðu **Flutningsstjórnun > Sendingar > Allar sendingar** og veldu sendinguna sem á að prenta út skjalið fyrir.
+    - Fara til **Samgöngustjórnun \> Skipulag \> Sendingar \> Allar sendingar** og veldu þá sendingu sem þú vilt prenta skjalið fyrir.
     - Opnaðu síðuna **Frekari upplýsingar um sendingu** fyrir sendinguna sem á að prenta skjalið út fyrir (hægt er nota nokkrar aðferðir við að komast á þennan stað, þ. á m. af síðunni **Allar sendingar**).
 1. Í aðgerðasvæði skal opna flipann **Sendingar** og í hópnum **Prentun** skal velja **USMCA-upprunavottorð**.
 1. Svarglugginn **Upprunavottorð** opnast. Framkvæmdu stillingarnar sem lýst er í eftirfarandi undirköflum og veldu því næst **Í lagi** til að mynda skjalið.

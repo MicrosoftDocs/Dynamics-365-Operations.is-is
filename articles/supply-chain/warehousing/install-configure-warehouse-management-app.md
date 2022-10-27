@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ee87eee382263897d97512f6b01c786734a8f27
-ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
+ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "9682535"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714763"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Setja upp og tengja farsímaforrit Warehouse Management
 
@@ -63,6 +63,8 @@ Auðveldasta leiðin til að setja upp forritið á einu tæki er að setja þa�
 
 - **Android:** [Vöruhúsakerfi (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
     Ef forútgáfa forritsins er sótt þarf að fara í gegnum nokkur aukaskref til að setja það upp. Frekari upplýsingar er að finna í [Prófun Android-forrita](/appcenter/distribution/testers/testing-android).
+
+Fyrir upplýsingar um hvernig setja upp byggingu sem hlaðið er niður frá App Center, sjá [Settu upp byggingu](/appcenter/distribution/installation).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Búa til vefþjónustuforrit í Azure Active Directory
 

@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-30
-ms.openlocfilehash: 2594848948b141015adfaa4ec27e2c2b4cc4dcd2
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 20427a04a552ddec013daa6576ec64ab7046e95f
+ms.sourcegitcommit: 87e75aa6af2c3280316d7d73eafa14a52353a5e4
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410472"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9709760"
 ---
 # <a name="coupons"></a>Afsláttarmiðar
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Þessi grein veitir yfirlit yfir möguleika sem tengjast afsláttarmiða í Microsoft Dynamics 365 Commerce.
 
@@ -35,7 +34,7 @@ Hver afsláttarmiði getur haft marga afsláttarmiða kóða og afsláttarmiða 
 
 Áður en hægt er að setja upp afsláttarmiða verður að setja upp strikamerki og tvær númeraraðir afsláttarmiða.
 
-Til að setja upp afsláttarmiða í höfuðstöðvum Commerce skaltu fylgja þessum skrefum.
+Fylgdu þessum skrefum til að setja upp afsláttarmiða í höfuðstöðvum Commerce.
 
 1. Fara til **Verslun og verslun \> Vörustjórnun \> Strikamerki og merkimiðar \> Grímupersónur**.
 1. Veldu **Bæta við** að búa til grímu karakter af **Afsláttarkóði** tegund. Í **Karakter** reit geturðu valið hvaða ónotaða staf sem er.
@@ -56,7 +55,7 @@ Til að setja upp afsláttarmiða í höfuðstöðvum Commerce skaltu fylgja þe
 1. Fara til **Viðskiptabreytur \> Númeraraðir**.
 1. Veldu númeraröðina sem þú bjóst til áðan fyrir **Afsláttarmiðanúmer** og **Auðkenni afsláttarmiðakóða** tilvísanir.
 
-Til að setja upp afsláttarmiða verður þú að búa til afsláttinn og afsláttarmiðann sérstaklega og tengja þá síðan með því að velja afsláttinn í **Afsláttur** reit stillingar afsláttarmiða. Eftir að afsláttarmiði er tengdur við afslátt, þá **Staða**, **·**, og **Gildistími** reitir tengda afsláttarins verða skrifvarnir, vegna þess að gildin ráðast af stöðu afsláttarmiðans og gildistíma. Þegar staða afsláttarmiða er stillt á **Virkur**, staða tengda afsláttarins er sjálfkrafa uppfærð í **Virkt**. Sömuleiðis þegar staða afsláttarmiða er stillt á **Óvirkt**, staða tengdrar afsláttarstöðu er sjálfkrafa uppfærð í **Öryrkjar**.
+Til að setja upp afsláttarmiða verður þú að búa til afsláttinn og afsláttarmiðann sérstaklega og tengja þá síðan með því að velja afsláttinn í **Afsláttur** reit stillingar afsláttarmiða. Eftir að afsláttarmiði er tengdur við afslátt, þá **Staða**, **·**, og **Gildistími** reitir tengda afsláttarins verða skrifvarandi, vegna þess að gildin ráðast af stöðu afsláttarmiðans og gildistíma. Þegar staða afsláttarmiða er stillt á **Virkur**, er staða tengda afsláttarins sjálfkrafa uppfærð í **Virkt**. Sömuleiðis þegar staða afsláttarmiða er stillt á **Óvirkt**, staða tengdrar afsláttarstöðu er sjálfkrafa uppfærð í **Öryrkjar**.
 
 ## <a name="use-a-coupon"></a>Notaðu afsláttarmiða
 

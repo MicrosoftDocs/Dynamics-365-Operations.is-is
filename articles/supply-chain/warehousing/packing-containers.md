@@ -1,5 +1,5 @@
 ---
-title: Pakkaðu ílát til sendingar
+title: Geymar til sendingar
 description: Þessi grein lýsir pökkunarferlinu sem gerir þér kleift að staðfesta birgðavörur og pakka þeim í ílát.
 author: perlynne
 ms.date: 7/13/2022
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 171b9f1dcb1d4ece63bc0beeb71f45b9f8ae7bba
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 118b1c79d23cd1b5044ede9aa9c469409cd22166
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220751"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708784"
 ---
-# <a name="pack-containers-for-shipment"></a>Pakkaðu ílát til sendingar
+# <a name="pack-containers-for-shipment"></a>Geymar til sendingar
 
 [!include [banner](../../includes/banner.md)]
 
@@ -33,8 +33,10 @@ Hægt er að nota nokkra tengda vöruhúsagetu á útleið með gámum. Frekari 
 - [Sending lítilla pakka](small-parcel-shipping.md)
 - [Staðfesta og flytja](confirm-and-transfer.md)
 - [Stilla mismunandi víddir fyrir pakka og geymslu](packing-vs-storage-dimensions.md)
-- [Pökkunarvinna við pökkun á útgámum og vinnslu sendinga](packing-work.md)
-<!-- KFM: Add link to upcoming topic when available (10.0.31): [Manual packing on the Warehouse management mobile app](manual-packing-on-the-warehouse-management-mobile-app.md) -->
+- [Pökkunarvinna fyrir pökkunargáma og vinnslusendingar á útleið](packing-work.md)
+- [Pökkun gáma með Warehouse Management farsímaappinu](warehouse-app-packing-containers.md)
+- [Dæmi um atburðarás - Pakkaðu gámum með vöruhúsastjórnunarforritinu](warehouse-app-pack-containers-scenario.md)
+- [Prentaðu gámamiða](print-container-labels.md)
 
 ## <a name="set-up-your-warehouse-to-use-manual-packing-operations"></a>Settu upp vöruhúsið þitt til að nota handvirkar pökkunaraðgerðir
 
@@ -72,7 +74,7 @@ Fylgdu þessum skrefum til að stilla staðsetninguna sem er notuð fyrir pökku
 > [!NOTE]
 > Ef þú ert að uppfæra úr útgáfu af Microsoft Dynamics AX, hinn *Í pökkun* Staðan hefur verið fjarlægð úr sendingum og farmi, vegna þess að það virkaði ekki stöðugt og olli óþarfi gögnum. Þess vegna er **Í sendingum** og **Hleðsla í pökkun** listasíður hafa verið úreltar. Gámar sem þarf að pakka eru raktar á staðsetningarstigi.
 >
-> Í fyrri útgáfum skilgreindirðu pökkunarstaðinn með því að nota **Prófílauðkenni fyrir pökkunarstað** sviði á **Pökkun** flipi á **Vöruhússtjórnunarfæribreytur** síðu til að tilgreina a *staðsetningarsnið*. Í núverandi útgáfu notarðu **Gerð pökkunarstaðsetningar** sviði á **Almennt** flipi á **Vöruhússtjórnunarfæribreytur** síðu til að tilgreina a *staðsetningargerð*, eins og lýst er í þessari grein. Nýi reiturinn er betur í takt við ferlið við að bera kennsl á stöðvunarstaði og endanlega sendingarstaði.
+> Í fyrri útgáfum skilgreindirðu pökkunarstaðinn með því að nota **Prófílauðkenni fyrir pökkunarstað** sviði á **Pökkun** flipi á **Stærðir vöruhúsastjórnunar** síðu til að tilgreina a *staðsetningarsnið*. Í núverandi útgáfu notarðu **Gerð pökkunarstaðsetningar** sviði á **Almennt** flipi á **Stærðir vöruhúsastjórnunar** síðu til að tilgreina a *staðsetningargerð*, eins og lýst er í þessari grein. Nýi reiturinn er betur í takt við ferlið við að bera kennsl á stöðvunarstaði og endanlega sendingarstaði.
 >
 > Þó þú getir haldið áfram að nota gamla **Prófílauðkenni fyrir pökkunarstað** reit, mælum við með að þú byrjar að nota nýja **Gerð pökkunarstaðsetningar** reit í staðinn, vegna þess að gamli reiturinn verður að lokum úreltur.
 >
@@ -152,11 +154,11 @@ Fylgið þessum skrefum til að setja upp pökkunarreglur gáms.
         - *Búðu til verk til að flytja gám frá pökkunarstöð* – Búðu til vinnu til að flytja gáminn frá pökkunarstöðinni á uppsetningarsvæðið eða beint að flóahurðinni. Nota **Vinnusniðmát** reit til að tilgreina vinnusniðmátið sem ætti að nota þegar verk er búið til fyrir ílátið.
         - *Úthlutaðu íláti á flokkunarstöðu á útleið* – Þessi valkostur er notaður með [flokkun á útleið](outbound-sorting.md) getu.
 
-        Í flestum tilfellum mælum við með því að þú stofnir verk til að færa gáma, því þessi nálgun endurspeglar betur raunveruleg handvirk ferla í vöruhúsinu. Hins vegar, fyrir einfaldar aðstæður, eða aðstæður þar sem pökkunarstöðin er staðsett beint á flóadyrasvæðinu, gæti verið æskilegra að gámurinn sé strax tiltækur á loka sendingarstaðnum.
+        Í flestum tilfellum mælum við með því að þú stofnir verk til að færa gáma, því þessi nálgun endurspeglar betur raunveruleg handvirk ferla í vöruhúsinu. Hins vegar, fyrir einfaldar aðstæður, eða aðstæður þar sem pökkunarstöðin er staðsett beint á flóadyrasvæðinu, gæti verið æskilegt að gámurinn sé strax tiltækur á loka sendingarstaðnum.
 
     - **Vinnusniðmát** – Veldu vinnusniðmátið sem á að nota þegar verk er búið til fyrir ílátið. Þessi reitur er aðeins tiltækur þegar **Gámaútgáfustefna** reiturinn er stilltur á *Búðu til verk til að flytja gám frá pökkunarstöð* og tengist tegund verkbeiðni sem er nefnd *Pökkuð gámatínsla*. Fyrir frekari upplýsingar, sjá [Vinnusniðmát og staðsetningarleiðbeiningar](control-warehouse-location-directives.md).
 
-    Í þeim skrefum sem eftir eru muntu stilla stillingar sem tengjast *birtast*. Birting er ferlið við að tilgreina þyngd gáms, gámahóps eða sendingar, ásamt rakningarauðkenni sem er móttekið frá flutningsaðila. Dynamics 365 Supply Chain Management er ekki samþætt við ytri flutningsþjónustukerfi. Þess í stað verða starfsmenn vöruhúsa að prenta út merkimiða sem berast frá flutningsaðilanum og skanna síðan rakningarnúmer þegar þeir ljúka upplýsingaskránni.
+    Í þeim skrefum sem eftir eru muntu stilla stillingar sem tengjast *birtast*. Birting er ferlið við að tilgreina þyngd gáms, gámahóps eða sendingar ásamt rakningarauðkenni sem er móttekið frá flutningsaðila. Dynamics 365 Supply Chain Management er ekki samþætt við ytri flutningsþjónustukerfi. Þess í stað verða starfsmenn vöruhúsa að prenta út merkimiða sem berast frá flutningsaðilanum og skanna síðan rakningarnúmer þegar þeir ljúka upplýsingaskránni.
 
     Vegna þess að kröfur eru mismunandi frá viðskiptavinum til viðskiptavina, og jafnvel frá sendingu til sendingar, leyfa pökkunarstefnur verulegan sveigjanleika í verkflæðinu. Þú getur sett upp upplýsingaskrá fyrir gáma, gámahópa og sendingar í hvaða samsetningu sem er.
 
@@ -176,7 +178,7 @@ Fylgið þessum skrefum til að setja upp pökkunarreglur gáms.
 1. Á **Upplýsingaskrá gámahóps** Flýtiflipi, í **Augljósar kröfur til gámahóps** reit, veldu einn af eftirfarandi valkostum:
 
     - *Enginn* – Upplýsingaskrá gámahópsins verður ekki tekin með sem krafa í pökkunarverkflæðinu.
-    - *Handbók* – Upplýsingaskrá gámahópsins verður innifalin sem krafa í pökkunarvinnuflæðinu. Loka þarf öllum ílátum sem eru í hópnum áður en hægt er að birta hópinn. Veldu þennan valkost ef þú þarft að fylla út upplýsingaskrá fyrir hvern gámahóp sem er pakkað á pökkunarstöðinni. Þú velur venjulega þennan valkost ef gámum er pakkað á bretti og allt brettið kemur fram.
+    - *Handbók* – Upplýsingaskrá gámahópsins verður innifalin sem krafa í pökkunarvinnuflæðinu. Loka þarf öllum ílátum sem eru í hópnum áður en hægt er að birta hópinn. Veldu þennan valkost ef þú þarft að fylla út upplýsingaskrá fyrir hvern gámahóp sem er pakkaður á pökkunarstöðinni. Þú velur venjulega þennan valkost ef gámum er pakkað á bretti og allt brettið kemur fram.
 
     > [!NOTE]
     > Núverandi útgáfa styður ekki upplýsingaskrár fyrir gámahópa og það er enginn TMS vélstuðningur fyrir gámahópa.
@@ -189,13 +191,13 @@ Fylgið þessum skrefum til að setja upp pökkunarreglur gáms.
         - *Handbók* – Upplýsingaskrá sendingar verður innifalin sem krafa í pökkunarferlinu. Engum gámum fyrir sendingu er hægt að losa fyrr en birtingu er lokið.
         - *Samgöngustjórnun* - Birting verður gerð í gegnum TMS hraðavélar. Vegna þess að þessi valkostur krefst sérsniðinnar þróunar til að innleiða ákveðna vél fyrir flutningsaðilann mun hann ekki virka beint úr kassanum í núverandi útgáfu.
 
-        Sendingarskrá ætti að vera virkjuð ef þú þarft að fylla út upplýsingaskrá fyrir alla sendinguna sem er pakkað á pökkunarstöðinni. Það er venjulega notað þegar krafist er einnar samstæðu upplýsingaskrár jafnvel þó að sendingin samanstandi af mörgum gámum eða gámahópum.
+        Sendingarskráning ætti að vera virkjuð ef þú þarft að fylla út upplýsingaskrá fyrir alla sendinguna sem er pakkað á pökkunarstöðinni. Það er venjulega notað þegar krafist er einnar samstæðu upplýsingaskrár jafnvel þó að sendingin samanstandi af mörgum gámum eða gámahópum.
 
     - **Prentaðu fylgiseðil** – Stilltu þennan valkost á *Já* til að prenta fylgiseðilinn sjálfkrafa sem hluta af sendingarskránni. Einnig er hægt að prenta fylgiseðilinn ef óskað er.
 
 ### <a name="set-up-container-types"></a>Setja upp gámagerðir
 
-Meðan á handvirku pökkunarferlinu stendur verður að búa til ílát áður en hægt er að pakka hlutum inn í þá. Hver ílát verður að byggjast á a *gerð gáma*, sem skilgreinir hámarks líkamlegt rúmmál og þyngdargetu gáms.
+Í handvirku pökkunarferlinu verður að búa til ílát áður en hægt er að pakka hlutum inn í þá. Hver ílát verður að byggjast á a *gerð gáma*, sem skilgreinir hámarks líkamlegt rúmmál og þyngdargetu gáms.
 
 Fylgdu þessum skrefum til að búa til gámagerð.
 
@@ -227,14 +229,14 @@ Fylgið þessum skrefum til að setja upp forstillingu umbúða.
 
     - **Pökkunarprófílauðkenni** – Sláðu inn stutt auðkenni fyrir prófílinn.
     - **Lýsing** – Sláðu inn lýsingu á pökkunarsniðinu.
-    - **Gámapökkunarstefna** – Veldu pökkunarstefnuna sem á við sniðið. Fyrir frekari upplýsingar, sjá [Settu upp gámapökkunarreglur](#packing-policy) kafla þessarar greinar.
-    - **Gámaauðkennisstilling** – Veldu hvort gámaauðkenni skuli myndast sjálfkrafa þegar gámur er búinn til, eða hvort það þarf að búa til handvirkt.
+    - **Gámapökkunarstefna** – Veldu pökkunarstefnuna sem á við um prófílinn. Fyrir frekari upplýsingar, sjá [Settu upp gámapökkunarreglur](#packing-policy) kafla þessarar greinar.
+    - **Gámaauðkennisstilling** – Veldu hvort gámaauðkenni eigi að mynda sjálfkrafa þegar gámur er búinn til, eða hvort það þarf að búa til handvirkt.
     - **Gerð gáma** – Veldu gámagerðina sem er sjálfgefið notuð þegar nýr gámur er búinn til.
     - **Búðu til gám sjálfkrafa við lok gámsins** – Veljið þennan gátreit til að búa til nýjan gám sjálfkrafa ef fyrri gámurinn er lokaður og ein eða fleiri línur eru eftir í núverandi sendingu.
 
 ### <a name="set-up-warehouse-workers"></a>Settu upp lagerstarfsmenn
 
-Sérhver notandi eða starfsmaður sem pakkar gámum með því að nota **Pakki** síðu vefþjónsins eða *Pökkun* virknikóði í Vöruhússtjórnun farsímaforritinu verður að hafa notandareikning sem er tengdur við a *starfsmaður/manneskja* skrá sem nauðsynlegum öryggisaðgangsréttindum er úthlutað til. (Nánari upplýsingar um hvernig á að setja upp notendur er að finna í [Búðu til nýja notendur](../../fin-ops-core/dev-itpro/sysadmin/tasks/create-new-users.md) .)
+Sérhver notandi eða starfsmaður sem pakkar gámum með því að nota **Pakki** síðu vefþjónsins eða *Pökkun* virknikóði í Warehouse Management farsímaforritinu verður að hafa notandareikning sem er tengdur við a *starfsmaður/manneskja* skrá sem nauðsynlegum öryggisaðgangsréttindum er úthlutað til. (Fyrir frekari upplýsingar um hvernig á að setja upp notendur, sjá [Búðu til nýja notendur](../../fin-ops-core/dev-itpro/sysadmin/tasks/create-new-users.md) .)
 
 Fylgdu þessum skrefum til að setja upp a *starfsmaður/manneskja* skrá fyrir pökkunarferlið.
 
@@ -261,11 +263,11 @@ Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og 
 
 ### <a name="sign-in-as-a-user-that-can-do-packing-work"></a>Skráðu þig inn sem notandi sem getur unnið pökkunarvinnu
 
-Skráðu þig inn á Supply Chain Management með því að nota notandareikning sem hefur þær heimildir sem þarf til að pakka gámum. Notandinn *Julia Funderburk* er innifalinn sem hluti af kynningargögnum og hefur nauðsynlegar heimildir. Þessi notandi hefur notandakennið *Admin*.
+Skráðu þig inn á Supply Chain Management með því að nota notandareikning sem hefur þær heimildir sem þarf til að pakka ílátum. Notandinn *Julia Funderburk* er innifalinn sem hluti af kynningargögnum og hefur nauðsynlegar heimildir. Þessi notandi hefur notandakennið *Admin*.
 
 ### <a name="create-a-sales-order-and-complete-the-work"></a>Búðu til sölupöntun og kláraðu verkið
 
-Fylgdu þessum skrefum til að stofna sölupöntun og ljúka vinnu við að flytja pantaðar vörur á pökkunarstöðina.
+Fylgdu þessum skrefum til að búa til sölupöntun og ljúka vinnu við að flytja pantaðar vörur á pökkunarstöðina.
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
@@ -322,7 +324,7 @@ Nú er búið að koma birgðahlutunum á pökkunarsvæðið og tilbúið til a�
 1. Veldu **Allt í lagi** að loka ílátinu.
 
 > [!TIP]
-> Það eru ýmsar leiðir til að skoða gáma út frá samhengi. Til dæmis, þegar þú pakkar sendingu, er oft gagnlegt að skoða annað hvort gáma sem eru hluti af sendingunni eða alla gáma sem eru líkamlega á pökkunarstöð. The **Pökkunarstöð** á síðunni eru hnappar sem þú getur notað til að skoða alla opna og lokaða ílát á pökkunarstöð. Þessar skoðanir eru ekki bundnar við tiltekna sendingu. Þeir geta verið mjög hjálpsamir í aðstæðum þar sem einn starfsmaður er að pakka ílát og annar starfsmaður sýnir og losar gáminn.
+> Það eru ýmsar leiðir til að skoða gáma út frá samhengi. Til dæmis, þegar þú pakkar sendingu, er oft gagnlegt að skoða annað hvort gáma sem eru hluti af sendingunni eða alla gáma sem eru líkamlega á pökkunarstöð. The **Pökkunarstöð** á síðunni eru hnappar sem þú getur notað til að skoða alla opna og lokaða ílát á pökkunarstöð. Þessar skoðanir eru ekki bundnar við tiltekna sendingu. Þeir geta verið mjög hjálpsamir í aðstæðum þar sem einn starfsmaður er að pakka ílát og annar starfsmaður er að sýna og losa ílátið.
 >
 > Samstæða yfirsýn yfir alla gáma er einnig fáanleg. Þetta útsýni er aðallega gagnlegt fyrir notendur sem vinna utan samhengis eins pökkunarstöðvar. Til að sjá það, farðu til **Vöruhússtjórnun \> Pökkun og gámavæðing \> Gámar**.
 

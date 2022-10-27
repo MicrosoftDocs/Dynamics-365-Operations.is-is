@@ -1,5 +1,5 @@
 ---
-title: Skipulag skjalaleiðar fyrir númeraplötumerki
+title: Uppsetning skjalaleiðarmerkja
 description: Þessi grein lýsir því hvernig á að nota sniðaðferðir til að prenta gildi á merkimiða.
 author: perlynne
 ms.date: 04/01/2020
@@ -13,23 +13,24 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4e0c16b71c257cae832870ca58679884047ea16
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847876"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708646"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a>Uppsetning skjalaleiðar fyrir merkimiða á númeraplötu
+# <a name="document-routing-label-layout"></a>Uppsetning skjalaleiðarmerkis
 
 [!include [banner](../includes/banner.md)]
 
+Þessi grein lýsir því hvernig á að búa til útlit fyrir númeraplötu, gáma og bylgjumerki. Það veitir einnig leiðbeiningar um notkun Zebra Programming Language (ZPL) sem notað er til að búa til útlitin.
 
-Uppsetning skjalaleiðar skilgreinir uppsetningu á merkimiðum númeraplötu og gögnin sem eru prentuð á þá. Þú stillir prentunarkveikipunkta þegar þú setur upp valmyndaratriði farsíma og vinnusniðmát.
+Uppsetning skjalaleiðarmerkja skilgreinir hvernig merki eru sett upp og gögnin sem eru prentuð á þau. Þú stillir prentunarkveikipunkta þegar þú setur upp valmyndaratriði farsíma og vinnusniðmát.
 
-Í dæmigerðri atburðarás prenta starfsmenn í móttöku vöruhúsa merkimiða strax eftir að þeir skrá innihald bretta sem berast á móttökusvæðið. Efnislegir merkimiðar eru settir á brettin. Síðan er hægt að nota þá til staðfestingar sem hluta af frágangsferlinu sem fylgir í kjölfarið og framtíðartínsluaðgerðum.
+Upplýsingarnar í þessari grein eiga við um öll útlit skjalaleiðarmerkja, þar á meðal útlit fyrir [númeraplötur](tasks/license-plate-label-printing.md),[gámamerki](print-container-labels.md), og [bylgjumerki](configure-wave-label-printing.md).
 
-Þú getur prentað mjög flókna merkimiða, að því tilskildu að prentunarbúnaðurinn geti túlkað textann sem er sendur til hans. Til dæmis gæti skipulag forritunarmálsins Zebra (ZPL) sem inniheldur strikamerki líkst eftirfarandi dæmi.
+Þú getur prentað mjög flókna merkimiða, að því tilskildu að prentunarbúnaðurinn geti túlkað textann sem er sendur til hans. Til dæmis gæti ZPL skipulag sem inniheldur strikamerki líkst eftirfarandi dæmi.
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -45,15 +46,13 @@ Uppsetning skjalaleiðar skilgreinir uppsetningu á merkimiðum númeraplötu og
 ^PQ1,,,Y^XZ
 ```
 
-Sem hluti af prentunarferlinu verður textanum `$LicensePlateId$` í þessu dæmi skipt út fyrir gagnagildi.
+Sem hluti af prentunarferlinu verður textanum `$LicensePlateId$` í þessu dæmi skipt út fyrir gagnagildi. Nokkur víðtækt fáanleg verkfæri til merkjamyndunar geta hjálpað þér að forsníða textann fyrir útlit merkisins. Mörg þessara verkfæra styðja sniðið `$FieldName$`. Að auki notar Microsoft Dynamics 365 Supply Chain Management sérstaka sniðrökfræði sem hluta af reitavörpun fyrir uppsetningu skjalaleiðar.
 
 Til að sjá gildin sem verða prentuð ferðu á **Vöruhúsastjórnun \> Fyrirspurnir og skýrslur \> Merkimiðar á númeraplötum**.
 
-Nokkur víðtækt fáanleg verkfæri til merkjamyndunar geta hjálpað þér að forsníða textann fyrir útlit merkisins. Mörg þessara verkfæra styðja sniðið `$FieldName$`. Að auki notar Microsoft Dynamics 365 Supply Chain Management sérstaka sniðrökfræði sem hluta af reitavörpun fyrir uppsetningu skjalaleiðar.
-
 ## <a name="turn-on-this-feature-for-your-system"></a>Kveikja á þessum eiginleika fyrir kerfið
 
-Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein skaltu fara á [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á *Endurbætt útsetning númeraplötumerkja* eiginleiki. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki nauðsynlegur og ekki hægt að slökkva á honum.)
+Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein skaltu fara á [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á *Endurbætt útsetning númeraplötumerkja* eiginleiki. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum.)
 
 ## <a name="custom-number-formats"></a>Sérsniðin tölusnið
 
@@ -137,7 +136,10 @@ $DisplayListOfItemsNumbers()[1]$
 
 ## <a name="more-information-about-how-to-print-labels"></a>Nánari upplýsingar um hvernig á að prenta merkingar
 
-Nánari upplýsingar um hvernig á að setja upp og prenta merkimiða, sjá [Virkja prentun merkis á númeraplötu](tasks/license-plate-label-printing.md).
+Fyrir frekari upplýsingar um hvernig á að setja upp og prenta merki, sjá eftirfarandi greinar:
 
+- [Prentun á númeraplötum](tasks/license-plate-label-printing.md)
+- [Prentaðu gámamiða](print-container-labels.md)
+- [Prentun bylgjumerkis](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

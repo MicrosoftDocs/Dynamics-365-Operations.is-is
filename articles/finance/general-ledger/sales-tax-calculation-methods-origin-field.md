@@ -2,7 +2,7 @@
 title: Útreikningsaðferðir virðisaukaskatts í reitnum Uppruni
 description: Þessi grein útskýrir valkosti á svæðinu Uppruni á síðunni vsk-kóðar og hvernig virðisaukaskattur er reiknaður á grundvelli þeirra valkosta sem ákveðnir eru fyrir virðisaukaskattskóða.
 author: kailiang
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04d600d00425f03d0ecc7897055849541d50883c
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4442f47029e2bd579b4d8fe59f380e4fad094b9f
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724700"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715552"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Útreikningsaðferðir virðisaukaskatts í reitnum Uppruni
 

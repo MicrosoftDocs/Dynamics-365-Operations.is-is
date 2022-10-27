@@ -1,5 +1,5 @@
 ---
-title: Reiknaðu afhendingardaga sölupöntunar með því að nota CTP
+title: Reikna afhendingardaga sölupöntunar með CTP
 description: Capable-to-promise (CTP) virkni gerir þér kleift að gefa viðskiptavinum raunhæfar dagsetningar fyrir hvenær þú getur lofað tilteknum vörum. Þessi grein lýsir því hvernig á að setja upp og nota CTP fyrir hverja skipulagsvél (Planning Optimization og innbyggða vélin).
 author: t-benebo
 ms.date: 07/20/2022
@@ -11,23 +11,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-20
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 9a2d8a66fe7e68ebd5729a401af3f0efe04051b1
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 3b8e3dc9f0e7aaf019aa4d7284458206e7daadb2
+ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9229998"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714861"
 ---
-# <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Reiknaðu afhendingardaga sölupöntunar með því að nota CTP
+# <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Reikna afhendingardaga sölupöntunar með CTP
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Capable-to-promise (CTP) virkni gerir þér kleift að gefa viðskiptavinum raunhæfar dagsetningar fyrir hvenær þú getur lofað tilteknum vörum. Fyrir hverja sölulínu er hægt að gefa upp dagsetningu sem tekur mið af fyrirliggjandi lagerbirgðum, framleiðslugetu og flutningstíma.
 
 CTP framlengir [í boði að lofa](../../sales-marketing/delivery-dates-available-promise-calculations.md) (ATP) virkni með því að huga að getuupplýsingum. Á meðan ATP lítur aðeins á efnisframboð og gerir ráð fyrir óendanlegum getuauðlindum, þá lítur CTP á framboð á bæði efni og getu. Þess vegna gefur það raunsærri mynd af því hvort hægt sé að fullnægja eftirspurn innan ákveðins tímaramma.
 
-CTP virkar aðeins öðruvísi, allt eftir aðalskipulagsvélinni sem þú ert að nota (Planning Optimization eða innbyggða vélin). Þessi grein lýsir því hvernig á að setja það upp fyrir hverja vél. CTP fyrir fínstillingu áætlanagerðar styður sem stendur aðeins undirmengi af CTP-sviðsmyndum sem eru studdar af innbyggðu vélinni.
+CTP virkar örlítið öðruvísi, allt eftir aðalskipulagsvélinni sem þú ert að nota (Planning Optimization eða innbyggða vélin). Þessi grein lýsir því hvernig á að setja það upp fyrir hverja vél. CTP fyrir fínstillingu áætlanagerðar styður sem stendur aðeins undirmengi af CTP-sviðsmyndum sem eru studdar af innbyggðu vélinni.
 
 ## <a name="turn-on-ctp-for-planning-optimization"></a>Kveiktu á CTP fyrir áætlanagerð fínstillingu
 
@@ -40,9 +41,9 @@ CTP fyrir innbyggðu aðalskipulagsvélina er alltaf til staðar. Hins vegar, ef
 
 CTP og ATP eru svipaðar, en CTP getur oft gefið nákvæmari niðurstöðu eins og eftirfarandi dæmi sýnir.
 
-Atriði A er hlutur sem er samsettur úr liðum B og C, og birgðamagn vöru A er 0 (núll). Ef þú gerir ATP athugun sem tekur aðeins til efnis verður ATP magnið einnig 0 (núll). Hins vegar, ef þú gerir CTP-athugun, mun kerfið athuga hvort atriði B og C séu tiltækir, athuga tilföngin sem þarf til að gera þau að lið A og reikna út hversu mörg atriði A er hægt að gera. Að auki getur CTP útreikningurinn athugað þau tilföng og efni sem þarf til að gera meira úr atriðum B og C og nota þau til að gera meira úr liði A.
+Atriði A er hlutur sem er samsettur úr liðum B og C, og birgðamagn vöru A er 0 (núll). Ef þú gerir ATP athugun sem tekur aðeins til efnis verður ATP magnið einnig 0 (núll). Hins vegar, ef þú gerir CTP-athugun, mun kerfið athuga hvort atriði B og C séu tiltæk, athuga tilföngin sem þarf til að gera þau að lið A og reikna út hversu mörg atriði A er hægt að búa til. Að auki getur CTP útreikningurinn athugað tilföng og efni sem þarf til að gera meira úr hlutum B og C, og til að nota þau til að gera meira úr hlut A.
 
-CTP útreikningur sem tekur bæði til efnis og tilföngs gæti sýnt stærra magn en útreikningur sem athugar eingöngu efni, sérstaklega þegar varan sem verið er að athuga er samsett eftir pöntun. Með öðrum orðum, CTP virkni er byggð á sprengiaðgerðinni og hægt er að keyra hana fyrir valda sölupöntunarlínu til að reikna út áætlaðan afhendingardag.
+CTP útreikningur sem tekur bæði til efnis og tilföngs gæti sýnt meira magn en útreikningur sem athugar eingöngu efni, sérstaklega þegar varan sem verið er að athuga er samsett eftir pöntun. Með öðrum orðum, CTP virkni er byggð á sprengiaðgerðinni og hægt er að keyra hana fyrir valda sölupöntunarlínu til að reikna út áætlaðan afhendingardag.
 
 ## <a name="how-ctp-differs-depending-on-the-master-planning-engine-that-you-use"></a>Hvernig CTP er mismunandi eftir aðalskipulagsvélinni sem þú notar
 
@@ -66,7 +67,7 @@ Sjálfgefin aðferð til að stjórna afhendingardagsetningu verður notuð á a
 1. Á **Sendingar** flipa, á **Afhendingareftirlit** Flýtiflipi, í **Stýring á afhendingardagsetningu** reit, veldu aðferðina sem þú vilt nota sem sjálfgefna aðferð fyrir fyrirtæki þitt:
 
     - *Enginn* – Ekki reikna út afhendingardaga.
-    - *Afhendingartími sölu* – afhendingartími sölu er tíminn milli stofnunar sölupöntunarinnar og sendingu vara. Útreikningur afhendingardagsetningar byggir á sjálfgefnum fjölda daga og tekur ekki tillit til lagerframboðs, þekktrar eftirspurnar eða fyrirhugaðs framboðs.
+    - *Afhendingartími sölu* – afhendingartími sölu er tíminn milli stofnunar sölupöntunarinnar og sendingu vara. Útreikningur á afhendingardagsetningu byggir á sjálfgefnum fjölda daga og tekur ekki tillit til lagerframboðs, þekktrar eftirspurnar eða fyrirhugaðs framboðs.
     - *ATP* – ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á tilteknum degi. ATP útreikningur felur í sér óstaðfestar birgðir, afhendingartími , áætlaðar innhreyfingar og úthreyfingar.
     - *ATP + Útgáfubil* – Sendingardagsetningin jafngildir ATP dagsetningunni auk útgáfuframlegðar vörunnar. Mörk úthreyfinga er sá tími sem þarf að undirbúa þær vörur sem á að senda.
     - *CTP* – Notaðu CTP-útreikninginn sem innbyggða aðalskipulagsvélin veitir. Ef þú ert að nota áætlanagerð hagræðingu, the *CTP* aðferð til að stjórna afhendingardagsetningu er ekki leyfð og ef hún er valin mun hún valda villu þegar útreikningurinn keyrir.
@@ -74,7 +75,7 @@ Sjálfgefin aðferð til að stjórna afhendingardagsetningu verður notuð á a
 
 ### <a name="set-delivery-date-control-overrides-for-individual-products"></a>Stilltu afhendingardagsetningarstýringar fyrir einstakar vörur
 
-Þú getur úthlutað hnekkingum fyrir tilteknar vörur þar sem þú vilt nota aðra afhendingardagastýringaraðferð en þá sem er stillt sem altæk sjálfgefna aðferð.
+Þú getur úthlutað hnekkingum fyrir tilteknar vörur þar sem þú vilt nota aðra afhendingardagastýringaraðferð en þá sem er stillt sem alhliða sjálfgefna aðferðin þín.
 
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
 1. Veldu vöruna sem þú vilt setja upp.
@@ -88,7 +89,7 @@ Sjálfgefin aðferð til að stjórna afhendingardagsetningu verður notuð á a
 
 Til að tryggja að dagsetningar séu tiltækar tímanlega fyrir alla notendur mælum við með að þú setjir upp runuvinnu til að keyra viðeigandi áætlanir reglulega. Til dæmis, runuvinna sem er sett upp til að keyra kraftmikla áætlun á 30 mínútna fresti mun setja staðfesta skipið og fá dagsetningar á 30 mínútna fresti. Þess vegna þurfa notendur sem setja inn og flytja inn pantanir að hámarki að bíða í 30 mínútur til að fá staðfesta skipið og fá dagsetningar.
 
-Til að setja upp runuvinnu til að keyra kraftmikla áætlun á reglulegri áætlun skaltu fylgja þessum skrefum.
+Fylgdu þessum skrefum til að setja upp runuvinnu til að keyra kraftmikla áætlun á reglulegri áætlun.
 
 1. Fara til **Aðalskipulag \> Aðalskipulag \> Hlaupa \> Aðalskipulag**.
 1. Í **Aðalskipulag** valmynd, á **Færibreytur** flýtiflipann, stilltu **Snilldaráætlun** reit í kraftmiklu áætlunina sem þú vilt keyra.
@@ -151,7 +152,7 @@ Til að breyta pöntun þannig að hún noti CTP á pöntunarhausstigi skaltu fy
 
 1. Opna **Viðskiptakröfur \> Pantanir \> Allar sölupantanir**.
 1. Opnaðu sölupöntunina sem þú vilt setja upp eða búðu til nýja.
-1. Veldu **Haus** til að opna hausupplýsingarnar á **Upplýsingar um sölupöntun** síðu.
+1. Veldu **Fyrirsögn** til að opna hausupplýsingarnar á **Upplýsingar um sölupöntun** síðu.
 1. Á **Afhending** flýtiflipann, stilltu **Stýring á afhendingardagsetningu** reit í eitt af eftirfarandi gildum, allt eftir skipulagsvélinni sem þú ert að nota:
 
     - *CTP* – Notaðu CTP-útreikninginn sem innbyggða aðalskipulagsvélin veitir. Ef þú ert að nota áætlanagerð hagræðingu, the *CTP* aðferð til að stjórna afhendingardagsetningu er ekki leyfð. Þess vegna, ef þú velur þetta gildi, mun villa koma upp þegar útreikningurinn keyrir.
@@ -162,7 +163,7 @@ Til að breyta pöntun þannig að hún noti CTP á pöntunarhausstigi skaltu fy
 
 ### <a name="change-to-ctp-at-the-order-line-level"></a>Breyta í CTP á pöntunarlínustigi
 
-Ef þú bjóst til pöntunarlínu með því að nota aðra aðferð til að stjórna afhendingardagsetningu geturðu breytt í CTP hvenær sem er. Breytingar sem þú gerir á línustigi hafa ekki áhrif á neinar aðrar línur. Hins vegar gætu þær valdið því að heildarafhendingardagsetningar pöntunar færist fram eða aftur, allt eftir því hvernig hver uppfærður línuútreikningur breytist. <!-- KFM: Confirm this intro at next revision -->
+Ef þú bjóst til pöntunarlínu með því að nota aðra afhendingardagastýringaraðferð geturðu breytt í CTP hvenær sem er. Breytingar sem þú gerir á línustigi hafa ekki áhrif á neinar aðrar línur. Hins vegar gætu þær valdið því að heildarafhendingardagsetningar pöntunar færast fram eða aftur, allt eftir því hvernig hver uppfærður línuútreikningur breytist. <!-- KFM: Confirm this intro at next revision -->
 
 Til að breyta pöntun þannig að hún noti CTP fyrir innbyggða aðalskipulagningu á línustigi skal fylgja þessum skrefum.
 
@@ -174,6 +175,6 @@ Til að breyta pöntun þannig að hún noti CTP fyrir innbyggða aðalskipulagn
     - *CTP* – Notaðu CTP-útreikninginn sem innbyggða aðalskipulagsvélin veitir. Ef þú ert að nota áætlanagerð hagræðingu, the *CTP* aðferð til að stjórna afhendingardagsetningu er ekki leyfð. Þess vegna, ef þú velur þetta gildi, mun villa koma upp þegar útreikningurinn keyrir.
     - *CTP fyrir hagræðingu áætlanagerðar* – Notaðu CTP-útreikninginn sem er veittur af Planning Optimization. Þessi stilling hefur engin áhrif ef þú ert að nota innbyggðu aðalskipulagsvélina.
 
-    The **Tiltækar sendingar- og kvittunardagsetningar** svarglugginn birtist og sýnir tiltækar skips- og móttökudagsetningar. Þessi svargluggi virkar á sama hátt fyrir pöntunarlínur og hann gerir fyrir pöntunarhaus, eins og lýst er í fyrri hlutanum.
+    The **Tiltækar sendingar- og kvittunardagsetningar** svarglugginn birtist og sýnir tiltækar skips- og kvittunardagsetningar. Þessi svargluggi virkar á sama hátt fyrir pöntunarlínur og hann gerir fyrir pöntunarhaus, eins og lýst er í fyrri hlutanum.
 
 1. Í aðgerðarúðunni skal velja **Vista**.

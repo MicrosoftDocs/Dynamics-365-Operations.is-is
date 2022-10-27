@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 9d73b2dd7bf83c169aa776b41f962cc6addf5f19
-ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
+ms.openlocfilehash: d219863d793c837e2346d66d6b95d38191933bcc
+ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524717"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709182"
 ---
 # <a name="electronic-invoicing-overview"></a>Yfirlit rafrænna reikninga
 
@@ -60,13 +60,15 @@ Rafræn reikningsfærsla er sett upp á eftirfarandi staðsetningum Azure:
 - Kanada
 - Frakkland
 - Indland
+- Noregur
+- Suður-Afríka
 
 > [!NOTE]
 > Rafræn reikningsfærsla styður ekki uppsetningar á staðnum.
 
 ## <a name="feature-highlights"></a>Helstu atriði eiginleika
 
-- Samþætting utan kassa við fjármála- og birgðakeðjustjórnun
+- Samþætting utan kassa við fjármála- og framboðskeðjustjórnun
 - Samræmd notendaupplifun fyrir uppsetningu og eftirlit með rafrænu reikningsferlinu fyrir öll lönd og svæði
 - Hraðari, auðveldari og ódýrari aðlögun á rafrænni reikningsfærsluviðbót í nýjum löndum og svæðum
 - Stilling þjónustunnar með uppsetningu á Regulatory Configuration Service (RCS) og hnattvæðingareiginleikum

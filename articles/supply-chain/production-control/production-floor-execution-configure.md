@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336186"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708726"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -164,7 +164,7 @@ Eftirfarandi stillingar eru fáanlegar á **Almennt** flýtiflipi:
 - **Leyfðu læsingu á snertiskjánum** – Stilltu þennan valkost á *Já* að leyfa starfsmönnum að læsa snertiskjá framkvæmdarviðmóts framleiðslugólfs svo þeir geti sótthreinsað hann. Þegar þessi valkostur er stilltur á *Já*, a **Læsiskjár til að hreinsa** hnappur er bætt við innskráningarsíðuna. Þegar starfsmaður velur þennan hnapp læsist snertiskjárinn tímabundið til að koma í veg fyrir óvæntan innslátt. Niðurteljari er einnig sýndur. Starfsmaðurinn getur þá þrifið skjáinn og tækið með góðu móti. Þegar niðurtalningu er lokið aflæsist snertiskjárinn sjálfkrafa.
 - **Lengd skjálæsingar** - Þegar valkosturinn **Leyfa læsingu snertiskjás** er stilltur á *Já* skal nota þennan valkost til að tilgreina fjölda sekúndna sem snertiskjárinn á að vera læstur vegna þrifa. Tímalengd verður að vera 5 til 120 sekúndur.
 - **Búðu til númeraplötu** – Stilltu þennan valkost á *Já* að búa til nýja númeraplötu í hvert sinn sem starfsmaður notar framkvæmdarviðmót framleiðslugólfs til að tilkynna sem lokið. Númeraplötunúmerið er myndað úr númeraröð sem er sett upp á síðunni **Færibreytur vöruhúsakerfis**. Þegar þessi valkostur er stilltur á *Nei* verða starfsmenn að tilgreina fyrirliggjandi númeraplötu þegar þeir tilkynna lok.
-- **Prentaðu merkimiðann** – Stilltu þennan valkost á *Já* að prenta númeraplötumerki þegar starfsmaður notar framkvæmdarviðmót framleiðslugólfs til að tilkynna sem lokið. Skilgreining merkisins er sett upp í skjalaleið, eins og lýst er í [Skipulag skjalaleiðar fyrir númeraplötumerki](../warehousing/document-routing-layout-for-license-plates.md).
+- **Prentaðu merkimiðann** – Stilltu þennan valkost á *Já* að prenta númeraplötumerki þegar starfsmaður notar framkvæmdarviðmót framleiðslugólfs til að tilkynna sem lokið. Uppsetning merkisins er sett upp í skjalaleiðingu, eins og lýst er í [Uppsetning skjalaleiðarmerkja](../warehousing/document-routing-layout-for-license-plates.md).
 
 ### <a name="the-tab-selection-fasttab"></a>Flipaflipinn flýtiflipinn
 

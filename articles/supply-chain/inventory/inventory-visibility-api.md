@@ -1,5 +1,5 @@
 ---
-title: Opin API fyrir sýnileika birgða
+title: Opin API fyrir Inventory Visibility
 description: Þessi grein lýsir opinberum API sem eru veitt af Birgðasýnileika.
 author: yufeihuang
 ms.date: 12/09/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423596"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719316"
 ---
-# <a name="inventory-visibility-public-apis"></a>Opin API fyrir sýnileika birgða
+# <a name="inventory-visibility-public-apis"></a>Opin API fyrir Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,6 +47,7 @@ Eftirfarandi tafla sýnir API sem eru í boði eins og er:
 | /api/umhverfi/{environmentId} /áhandar/breyta áætlun/magn | Bóka | [Búðu til margar áætlaðar breytingar á hendi](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Bóka | [Senda fyrirspurn með bókunaraðferðinni](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Sækja | [Senda fyrirspurn með aðferðinni sækja](#query-with-get-method) |
+| /api/umhverfi/{environmentId} /onhand/exactquery | Bóka | [Nákvæm fyrirspurn með því að nota póstaðferðina](#exact-query-with-post-method) |
 | /api/umhverfi/{environmentId} /úthlutun/úthluta | Bóka | [Búðu til einn úthlutunarviðburð](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/umhverfi/{environmentId} /úthlutun/afúthluta | Bóka | [Búðu til einn atburð sem ekki var úthlutað](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/umhverfi/{environmentId} /úthlutun/endurúthluta | Bóka | [Búðu til einn endurúthluta atburði](inventory-visibility-allocation.md#using-allocation-api) |
@@ -690,6 +691,80 @@ Hér er sýnishorn af fá vefslóð. Þessi beiðni um að sækja er nákvæmleg
 
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
+```
+
+### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a> Nákvæm fyrirspurn með því að nota póstaðferðina
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+Í meginhluta þessarar beiðni,`dimensionDataSource` er valfrjáls færibreyta. Ef það er ekki stillt,`dimensions` inn`filters` verður meðhöndlað sem *grunnmál*. Það eru fjórar áskildir reitir fyrir `filters`: `organizationId`, `productId`, `dimensions` og `values`.
+
+- `organizationId` ætti aðeins að innihalda eitt gildi, en það er samt fylki.
+- `productId` gæti innihaldið eitt eða fleiri gildi. Ef það er tómt fylki verður öllum afurðum skilað.
+- Í`dimensions` fylki,`siteId` og`locationId` eru nauðsynlegar en gætu birst með öðrum þáttum í hvaða röð sem er.
+- `values` gæti innihaldið einn eða fleiri aðskilda túlla af gildum sem samsvara `dimensions`.
+
+`dimensions` inn`filters` verður sjálfkrafa bætt við `groupByValues`.
+
+Færibreytan `returnNegative` stýrir því hvort niðurstöðurnar innihalda neikvæðar færslur.
+
+Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls.
+
+```json
+{
+    "dimensionDataSource": "pos",
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "dimensions": ["siteId", "locationId", "colorId"],
+        "values" : [
+            ["iv_postman_site", "iv_postman_location", "red"],
+            ["iv_postman_site", "iv_postman_location", "blue"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
+```
+
+Eftirfarandi dæmi sýnir hvernig á að spyrjast fyrir um allar vörur á mörgum stöðum og stöðum.
+
+```json
+{
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": [],
+        "dimensions": ["siteId", "locationId"],
+        "values" : [
+            ["iv_postman_site_1", "iv_postman_location_1"],
+            ["iv_postman_site_2", "iv_postman_location_2"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
 ```
 
 ## <a name="available-to-promise"></a>ATP-afhendingarspá

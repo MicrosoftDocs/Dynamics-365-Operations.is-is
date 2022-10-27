@@ -2,7 +2,7 @@
 title: Leiðrétting textareiknings
 description: Þessi grein útskýrir hvernig á að leiðrétta reikningur með frjálsum texta sem hefur verið bókaður og endurútgefa hann sem leiðréttan reikning.
 author: abruer
-ms.date: 08/22/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9fccd6dbb33efd1556c56a6d92ad191ecfd317fe
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c83ac47bc5e7f7ed223c772591cf8a7c1e63a40
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878190"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715498"
 ---
 # <a name="correct-a-free-text-invoice"></a>Leiðrétting textareiknings
 
@@ -44,7 +44,7 @@ Hægt er að þekkja afturköllunarreikninga og leiðrétta reikninga á tvo veg
 -   Haus textareikningsins sýnir stöðuna **Afturköllunarreikningur ‚\[reikningsnúmer\]'** eða **Leiðréttur reikningur '\[reikningsnúmer\]'**.
 
 > [!NOTE]
-> Þessi aðgerð er bara tiltæk ef **Leiðrétting á textareikningi** skilgreiningarlykill er valinn. Nánari upplýsingar um hvernig á að virkja stillingarlykla er að finna í hlutanum Virkja (eða slökkva) stillingarlykla í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) grein. 
+> Þessi aðgerð er bara tiltæk ef **Leiðrétting á textareikningi** skilgreiningarlykill er valinn. Nánari upplýsingar um hvernig á að virkja stillingarlykla er að finna í hlutanum Virkja (eða óvirkja) stillingarlykla í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) grein. 
 
 
 

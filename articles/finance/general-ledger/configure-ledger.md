@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14d6ba013a93756f86e959756dd3073851881095
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864340"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713890"
 ---
 # <a name="configure-ledgers"></a>Grunnstilla fjárhag
 
@@ -42,7 +42,7 @@ Hægt er að stilla hvern lögaðila í Dynamics 365 Finance til að nota eina e
 
 Hafa skal í huga að ef fleiri en eitt lykilskipulag er til staðar er aðeins hægt að velja lykilskipulag sem ekki er með samsetningar aðallykla og fjárhagsvídda sem skarast. Til dæmis er eitt lykilskipulagið þitt skilgreint til að bæta við viðskiptaeiningu fyrir aðallykla á milli 1000 og 1999. Í öðru lykilskipulagi hefurðu bætt við fjárhagsvídd deildar fyrir aðallykla sem hefjast á 1. Í þessu tilfelli er aðeins hægt að bæta við einu lykilskipulagi í sama lögaðilanum.
 
-Til að skilgreina lykilskipulag fyrir fjárhaginn þinn, á síðunni **Fjárhagur**, í flýtiflipanum **Lykilskipulag**, skal velja **Bæta við**, velja lykilskipulag í listanum og síðan velja **Velja**. Það gæti tekið nokkrar mínútur að bæta lykilskipulagi við og vista það. Athugið að lykilskipulagið sem er valið verður að vera virkt. Að öðrum kosti verða upplýsingar um lykilskipulagið ekki virkjað í lögaðilanum þar sem þær eru tengdar.
+Til að skilgreina lykilskipulag fyrir fjárhaginn þinn, á síðunni **Fjárhagur**, í flýtiflipanum **Lykilskipulag**, skal velja **Bæta við**, velja lykilskipulag í listanum og síðan velja **Velja**. Það mun taka nokkrar mínútur að bæta við og vista reikningsuppbyggingunni. Þegar breytt reikningsskipan er vistuð í fjárhagsbókinni hefst ferlið til að samstilla allar óbókaðar færslur. Þú verður að bíða þar til breytingunni er lokið fyrir núverandi fjárhagsbók í lögaðilanum þar sem breytingin er gerð áður en þú getur gert reikningsskipulagsbreytingu fyrir fjárhagsbók í öðrum lögaðila. Athugið að lykilskipulagið sem er valið verður að vera virkt. Að öðrum kosti verða upplýsingar um lykilskipulagið ekki virkjað í lögaðilanum þar sem þær eru tengdar.
 
 Til að fjarlægja lykilskipulag, á síðunni **Fjárhagur**, í flýtiflipanum **Lykilskipulag**, skal velja **Fjarlægja**. Athugið að ef lykilskipulag er fjarlægt úr fjárhagnum er ekki hægt að fjarlægja neinar færslur sem voru bókaðar með því að nota skilgreininguna á þessu lykilskipulagi.
 
@@ -70,7 +70,7 @@ Frekari upplýsingar um mótfærslur er að finna í [Jafnaðar færslubækur fy
 
 Síðan **Fjárhagur** er einnig notuð til að stjórna og skilgreina gjaldmiðlana sem verða notaðir þegar færslur eru bókaðar í fjárhagnum. Tilgreina verður bókhaldsgjaldmiðilinn, sem er sá gjaldmiðill sem er notaður í dálknum **Bókhaldsgjaldmiðill** í fjárhagnum í öllum fylgiskjölum. Að auki er hægt í dálknum **Skýrslugjaldmiðill** að velja annan gjaldmiðil. Ef valinn er skýrslugjaldmiðill verða allar færslur skráðar í þeim gjaldmiðli í dálknum **Skýrslugjaldmiðill** í fjárhagnum í öllum fylgiskjölum.
 
-Ef færslur eru bókaðar í öðrum gjaldmiðli umbreytir kerfið sjálfkrafa færsluupphæðinni úr færslugjaldmiðlinum í bókhaldsgjaldmiðilinn og skýrslugjaldmiðilinn í fylgiskjalinu. Á síðunni **Fjárhagur**, í reitnum **Gerð gengis fyrir bókhaldsgjaldmiðil**, skal velja gerð gengis sem er skilgreint fyrir gengin sem á að nota til að umbreyta gildum úr færslugjaldmiðli í bókhaldsgjaldmiðil í fylgiskjali. Ef skýrslugjaldmiðill var valinn þarf einnig að stilla reitinn **Gerð gengis fyrir skýrslugjaldmiðil** til að gefa upp gengið sem á að nota til að umbreyta gildum úr færslugjaldmiðli í skýrslugjaldmiðil í fylgiskjali.
+Ef færslur eru bókaðar í öðrum gjaldmiðli breytir kerfið sjálfkrafa færsluupphæðinni úr færslugjaldmiðlinum í bókhaldsgjaldmiðil og skýrslugjaldmiðil á fylgiskjalinu. Á síðunni **Fjárhagur**, í reitnum **Gerð gengis fyrir bókhaldsgjaldmiðil**, skal velja gerð gengis sem er skilgreint fyrir gengin sem á að nota til að umbreyta gildum úr færslugjaldmiðli í bókhaldsgjaldmiðil í fylgiskjali. Ef skýrslugjaldmiðill var valinn þarf einnig að stilla reitinn **Gerð gengis fyrir skýrslugjaldmiðil** til að gefa upp gengið sem á að nota til að umbreyta gildum úr færslugjaldmiðli í skýrslugjaldmiðil í fylgiskjali.
 
 Ef verið er að nota virkni fjárhagsáætlunargerðar, er einnig hægt að stilla reitinn **Gengisgerð fjárhagsáætlunar** til að gefa til kyna gengið sem á að nota til að umbreyta færslum fjárhagsáætlunar úr einum gjaldmiðli í annan.
 

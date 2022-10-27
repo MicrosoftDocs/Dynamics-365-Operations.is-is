@@ -2,7 +2,7 @@
 title: Algengar spurningar um sameiningu Dynamics 365 Human Resources tölvukerfis
 description: Þessi grein svarar algengum spurningum um samruna innviða fyrir Microsoft Dynamics 365 Human Resources og fjármála- og rekstraröpp.
 author: twheeloc
-ms.date: 08/13/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fd71d728f9c97dc9e2c44a7e7a0e773be891b818
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: 32698d887b4d228ded588984b09068e3e2fef9a4
+ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203200"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9702068"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Algengar spurningar um sameiningu Dynamics 365 Human Resources tölvukerfis
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Human Resources býður upp á verkfæri sem hjálpa star
 
 Eins og er eru tvö aðskilin sett af HR getu á tveimur mismunandi innviðum í Dynamics 365:
 
-- **Dynamics 365 Human Resources**– Sjálfstætt app sem keyrir á sjálfstæðum innviðum. Þegar þetta forrit var opnað var innviði aðskilið frá öðrum Dynamics 365 rekstrarforritum. Viðskiptavinir okkar nota þetta app til að auka snerpu skipulagsheildar, fínstilla HR forrit, umbreyta upplifun starfsmanna og öðlast innsýn í vinnuafl.
+- **Dynamics 365 Human Resources**– Sjálfstætt app sem keyrir á sjálfstæðum innviðum. Þegar þetta forrit var opnað var innviði aðskilið frá öðrum Dynamics 365 rekstrarforritum. Viðskiptavinir okkar nota þetta forrit til að auka snerpu skipulagsheildar, fínstilla HR forrit, umbreyta upplifun starfsmanna og öðlast innsýn í vinnuafl.
 - **HR mát** – Eldra sett af getu sem áður var hluti af Unified Operations licensing stock keeping unit (SKU). HR-einingin keyrir á fjármála- og rekstrarinnviðum, sem er eins í öllum rekstraröppum. Þessi forrit innihalda Dynamics 365 Finance,Dynamics 365 Project Operations, og Dynamics 365 Supply Chain Management. Viðskiptavinir fengu HR getu sem hluti af Dynamics 365 Finance eða Dynamics 365 Supply Chain Management.
 
 Undanfarin þrjú ár hefur Microsoft engum nýjum möguleikum eða endurbótum bætt við HR-eininguna. Þess í stað hafa vegvísisfjárfestingar okkar beinst að Dynamics 365 Human Resources app.
@@ -73,7 +73,7 @@ Notendaupplifunin mun vera í samræmi við staðlaða Dynamics 365 pallupplifun
 
 ### <a name="when-will-the-dynamics-365-human-resources-infrastructure-merge-be-completed"></a>Hvenær mun Dynamics 365 Human Resources sameiningu innviða verði lokið?
 
-Innviðasamruninn mun rúlla út í áföngum til að gefa viðskiptavinum tíma til að skipuleggja og ljúka nauðsynlegum skrefum. Við byrjuðum að útfæra möguleika í Dynamics 2021 útgáfubylgju 2. Við ætlum að ljúka allri vöruþróun fyrir þetta verkefni fyrir lok 2022 útgáfubylgju 2. Athugið að tímalínur geta breyst. Fyrir nýjustu upplýsingarnar, sjá [útgáfuáætlanir](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-finance).
+Innviðasamruninn mun rúlla út í áföngum til að gefa viðskiptavinum tíma til að skipuleggja og ljúka nauðsynlegum skrefum. Við byrjuðum að útfæra möguleika í Dynamics 2021 útgáfubylgju 2. Við ætlum að ljúka öllum vöruþróunaraðgerðum fyrir þetta verkefni fyrir lok 2022 útgáfubylgju 2. Athugið að tímalínur geta breyst. Fyrir nýjustu upplýsingarnar, sjá [útgáfuáætlanir](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-finance).
 
 ### <a name="what-training-and-resources-will-be-available-to-help-with-the-infrastructure-merge"></a>Hvaða þjálfun og úrræði verða í boði til að aðstoða við sameiningu innviða?
 
@@ -101,7 +101,7 @@ Ceridian er í því ferli að búa til V2 samþættingu við Dynamics 365 Human
 
 Í fyrri útgáfum bjuggum við til ATS Integration API til að gera samstarfsaðilum og viðskiptavinum kleift að búa til ATS samþættingu við mannauð. Viðbótar ATS-tengd virkni varð fáanleg í 2022 bylgju 1. Við munum halda áfram að bæta þessi API í komandi útgáfum.
 
-HR virkni sem nú er til staðar í fjármála- og rekstrarinnviðum felur í sér nokkra ráðningarstjórnunarvirkni sem er ekki til í Dynamics 365 Human Resources. Þegar innviðasamruni er lokið verður þessi virkni í boði fyrir alla mannauðs viðskiptavini. Þessi virkni veitir létta ATS virkni. Hins vegar ætlum við ekki að auka þessa virkni í framtíðinni. Viðskiptavinir sem þurfa háþróaða virkni geta nýtt sér ATS samþættingu samstarfsaðila. Fyrir frekari upplýsingar um ATS samþættingu API, sjá [Kynning á API um samþættingu umsækjenda um rekja kerfi](./hr-admin-integration-ats-api-introduction.md).
+HR virkni sem nú er til staðar í fjármála- og rekstrarinnviðum felur í sér nokkra ráðningarstjórnunarvirkni sem er ekki til í Dynamics 365 Human Resources. Þegar innviðasamruna er lokið verður þessi virkni í boði fyrir alla mannauðs viðskiptavini. Þessi virkni veitir létta ATS virkni. Hins vegar ætlum við ekki að auka þessa virkni í framtíðinni. Viðskiptavinir sem þurfa háþróaða virkni geta nýtt sér ATS samþættingu samstarfsaðila. Fyrir frekari upplýsingar um ATS samþættingu API, sjá [Kynning á API um samþættingu umsækjenda um rekja kerfi](./hr-admin-integration-ats-api-introduction.md).
 
 ### <a name="will-the-dynamics-ax-2012-upgrade-tools-be-used-to-upgrade-the-hr-module-in-ax-2012-to-the-dynamics-365-human-resources-app"></a>Mun Dynamics AX 2012 uppfærsluverkfæri til að uppfæra HR eininguna í AX 2012 til Dynamics 365 Human Resources app?
 

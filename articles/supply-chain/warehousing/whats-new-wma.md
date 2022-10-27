@@ -10,18 +10,23 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
-ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
-ms.translationtype: HT
+ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
+ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "9682615"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9702196"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Þessi grein sýnir nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af Warehouse Management farsímaforritinu fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20350"></a>Útgáfa 2.0.35.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+- Lagaði mál á Android þar sem forritið myndi hrynja ef **Verklisti** síðan var opnuð þegar engin spil áttu að sýna.
 
 ## <a name="version-20340"></a>Útgáfa 2.0.34.0
 
@@ -67,7 +72,7 @@ ms.locfileid: "9682615"
 - Bætti við stuðningi við ASCII 10 í strikamerkjum.
 - Bætt notagildi skrefaleiðbeiningarglugga.
 - Lagaði vandamál þar sem stundum var hægt að sýna tóman skjá.
-- Lagaði vandamál þar sem vinnulistar flettaðu ekki rétt þegar þeir keyrðu á Microsoft Windows.
+- Lagaði vandamál þar sem vinnulistar flettu ekki rétt þegar þeir keyrðu áfram Microsoft Windows.
 
 ## <a name="version-20250"></a>Útgáfa 2.0.25.0
 
@@ -165,7 +170,7 @@ ms.locfileid: "9682615"
   - Fast litasýnileiki og birtuskil.
   - Kom í veg fyrir tap á lyklaborðsfókus þegar sprettigluggasíðum er lokað.
   - Bætti villuskilaboðum við frásögnina.
-  - Aukið stærð staðgengilsgilda í skrefaborðanum.
+  - Aukin stærð staðsetningargilda í skrefaborðanum.
 - Lagaði dæmið um sérsniðna eldri síðu í kynningarham.
 
 ## <a name="version-20150"></a>Útgáfa 2.0.15.0

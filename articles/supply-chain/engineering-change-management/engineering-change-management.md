@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c578609a64c21a33f10b64a1d77f006b45bac41
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849591"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714737"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Vinna með breytingar á hönnunarafurðum
 
@@ -142,6 +142,8 @@ Fylgið eftirfarandi skrefum til að fara yfir viðkomandi færslur, loka á val
 
 Hönnuður sem fer yfir beiðni um hönnunarbreytingu getur stofnað pöntun hönnunarbreytingar beint af síðunni **Beiðnir um breytingu á hönnun**. Á aðgerðasvæðinu, í flipanum **Beiðni um breytingu**, í flokknum **Hönnunarbreytingapöntun**, skal velja **Afrita tengil og afurðir**.
 
+Vertu viss um að velja rétta fyrirtækið fyrir nýju verkfræðibreytingarpöntunina. Ef breytingapöntunin mun leiða til þess að verkfræðivörunni sjálfri er breytt (ný útgáfa, ný vara eða nýtt afbrigði), þá verður að úthluta breytingapöntuninni á verkfræðifyrirtækið. Ef aðeins er þörf á staðbundinni breytingu (**Áhrif** er stillt á *Enginn*), þá er hægt að úthluta breytingapöntuninni á staðbundið fyrirtæki og breytingarnar eiga við um núverandi vöru.
+
 ## <a name="engineering-change-orders"></a>Raðir hönnunarbreytinga
 
 Hönnunarbreytingapantanir bjóða upp á skipulagt ferli til að gera breytingar á hönnunarafurðum. Breytingar eru lagðar til með því að nota afrit af gögnum sem tengjast hönnuninni. Þetta hefur ekki áhrif á raunverulegu aðalgögnin. Frekari upplýsingar um gögn sem tengjast hönnuninni er að finna í [Hönnunarútgáfur og flokkar hönnunarafurðar](engineering-versions-product-category.md).
@@ -219,7 +221,7 @@ Hægt er að nota hnappinn **Vinna með/afrita upplýsingar um breytingu** til a
 
 ## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>Notaðu rafrænar undirskriftir til að samþykkja og virka uppskriftir og leiðir
 
-Til að nota rafrænar undirskriftir til að samþykkja og/eða virkja skjöl (BOM) og/eða leiðabreytingar, farðu á **Stjórn stofnunarinnar \> Uppsetning \> Rafræn undirskrift \> Kröfur um rafrænar undirskriftir**. Gakktu síðan úr skugga um að hver af eftirfarandi hlutum hafi **Undirskrift krafist** stillt á *Já*:
+Til að nota rafrænar undirskriftir til að samþykkja og/eða virkja efnisyfirlit (BOM) og/eða leiðabreytingar, farðu á **Stjórn stofnunarinnar \> Uppsetning \> Rafræn undirskrift \> Kröfur um rafrænar undirskriftir**. Gakktu úr skugga um að hvert af eftirfarandi hlutum hafi **Undirskrift krafist** stillt á *Já*:
 
 - Virkja uppskrift fyrir afurð hönnunarbreytingaraðar
 - Virkja afurðarleið hönnunarbreytingaraðar

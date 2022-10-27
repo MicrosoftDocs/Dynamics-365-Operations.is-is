@@ -1,7 +1,7 @@
 ---
 title: Yfirlit yfir SEPA-kreditfærslur
 description: Þessi grein inniheldur almennar upplýsingar um ISO 20022 kreditflutninga, sem innihalda sameiginlegt evrópskt greiðslusvæði (SEPA) kreditfærslur og allar aðrar rafrænar greiðslur til lánardrottna.
-author: sunfzam
+author: mrolecki
 ms.date: 06/20/2017
 ms.topic: overview
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3f0c428d9167e9f1a7fb17a292d474448b2d4df
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 671594b1ac6f10fae7c95ed9210e16f168e8dea1
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871450"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716075"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Yfirlit yfir SEPA-kreditfærslur
 
@@ -50,7 +50,7 @@ EPC, sem samanstendur af evrópskum bönkum, þróar heildarsöluverðmæti og t
 SEPA-kreditfærsla er greiðsla frá einu fyrirtæki eða einstaklingi í öðru fyrirtæki eða einstaklingi. Greiðslur verða að vera í evrum og verða að innihalda alþjóðleg bankareikningsnúmer (IBAN) og bankaeinkenniskóða (BIC) fyrir báða aðila. (BIC er einnig þekkt sem auðkenniskóði banka \[SWIFT\] númer). Að auki verður færslukostnaður að deilast á báða aðila. Kreditfærslur sem eiga sér stað á milli aðila eiga að nota xml-skrár sem samræmast ISO-stöðlum 20022 um greiðsluvinnslu og xml-snið, eins og tilgreint er af EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Hvernig er kreditfærsla framkvæmd?
-Greiðslusnið millifærsla fyrir Evrópulönd er innleitt með því að nota rafræna skýrslugerð (ER) og greiðslumáta í Microsoft Dynamics 365 Fjármál. Nokkur kreditfærslusnið sem eru notuð eru á öðrum svæðum nota enn eldri greiðsluramma. Meðal margra annara sniða, eru tólf ISO 20022 kreditflutnings skrársnið tiltæk. Þessi útflutningssnið samræmast staðlinum SEPA ISO 20022 XML. Þau eru notuð til að mynda greiðsluflutninga sem eru ekki í evrum fyrir lönd/svæði þar sem þau eru notuð og evrugreiðslur eins og tilgreint er í útgáfu 8.2 í SEPA Credit Transfer Scheme Rulebook sem EPC gefur út. Áður en ekki er hægt að innleiða kreditfærslur verður að hafa samband við bankann til að fá hugbúnaðinn sem er krafist til að senda inn rafrænar bankaskrár. Þú munt nota þennan hugbúnað til að flytja xml-skrár sem innihalda greiðslupantanir til bankans.
+Greiðslusnið millifærslu fyrir Evrópulönd er innleitt með því að nota rafræna skýrslugerð (ER) og greiðslumáta í Microsoft Dynamics 365 Fjármál. Nokkur kreditfærslusnið sem eru notuð eru á öðrum svæðum nota enn eldri greiðsluramma. Meðal margra annara sniða, eru tólf ISO 20022 kreditflutnings skrársnið tiltæk. Þessi útflutningssnið samræmast staðlinum SEPA ISO 20022 XML. Þau eru notuð til að mynda greiðsluflutninga sem eru ekki í evrum fyrir lönd/svæði þar sem þau eru notuð og evrugreiðslur eins og tilgreint er í útgáfu 8.2 í SEPA Credit Transfer Scheme Rulebook sem EPC gefur út. Áður en ekki er hægt að innleiða kreditfærslur verður að hafa samband við bankann til að fá hugbúnaðinn sem er krafist til að senda inn rafrænar bankaskrár. Þú munt nota þennan hugbúnað til að flytja xml-skrár sem innihalda greiðslupantanir til bankans.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Hvað millifærslusnið eru studd eins og stendur?
 Alltaf skal fara eignasafnið Samnýtt eign í Microsoft Dynamics Lifecycle Services (LCS) og skoða nýjustu lista yfir tiltækar skrár af eignargerðinni **GER-skilgreining**. Næsti hluti, "Hvað þarf ég að setja upp?", veitir tengil á greinina sem útskýrir hvernig á að búa til LCS geymslu til að skoða tiltækar stillingar og flytja inn valdar stillingar.

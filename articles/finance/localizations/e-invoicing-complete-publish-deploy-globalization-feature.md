@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279901"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710836"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Ljúka við, birta og setja upp altækan eiginleika
 
@@ -32,7 +32,7 @@ Aðgerðir rafrænna reikninga eru útfærðar. Þegar ný útgáfa er búin til
 
 Eiginleikaútgáfur rafrænnar reikningsfærslu fylgja stuðningstíma sem er með allt að þrjár stöður:
 
-- **Drög** – Þegar eiginleikaútgáfa hefur þessa stöðu geturðu breytt stillingareiginleikum hennar og gripum (til dæmis stillingum skráarsniðs).
+- **Drög** – Þegar eiginleikaútgáfa hefur þessa stöðu geturðu breytt stillingareigindum hennar og gripum (til dæmis stillingum skráarsniðs).
 - **Heill** – Þessi staða gefur til kynna að þú hafir lokið við að breyta eiginleika útgáfunni og ætlar ekki að gera fleiri uppfærslur á henni. Þegar eiginleikaútgáfa hefur þessa stöðu geturðu ekki lengur breytt henni eða einhverjum af íhlutum hennar.
 - **Birt** – Þessi staða gefur til kynna að eiginleikaútgáfan hafi verið birt í alþjóðlegu geymslunni sem tengist fyrirtækinu þínu. Þegar eiginleikaútgáfa hefur þessa stöðu geturðu ekki lengur breytt henni eða einhverjum af íhlutum hennar.
 
@@ -59,8 +59,8 @@ Handbók breyting frá **Heill** stöðu til **Birt** staða er valkvæð. Útg�
 2. Á **Útgáfur** flipann hægra megin á síðunni, veldu útgáfu rafrænna reikningaeiginleika sem þú vilt nota í þjónustuumhverfið eða tengda forritið. Valin útgáfa verður að hafa stöðuna **Heill** eða **Birt**.
 3. Veldu **Dreifa**, og veldu síðan einn eða báða eftirfarandi valkosta til að skilgreina markmið dreifingarinnar:
 
-    - **Tengt forrit** – Stillingin sem fylgir uppsetningu forritsins er skrifuð í tilviki af Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management sem áður var tengdur því.
-    - **Þjónustuumhverfi** – Útgáfa rafrænna innheimtuaðgerða er notuð í þjónustuumhverfið. Rafrænn reikningur er þá tilbúinn til að taka á móti og vinna úr rafrænum skjölum sem fjármála- eða birgðakeðjustjórnun sendir.
+    - **Tengt forrit** – Þetta er valfrjálst, en verður að nota ef þú vilt að stillingarnar sem uppsetning forritsins býður upp á sé skrifuð í tilviki Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management sem áður var tengdur því. Til að sleppa þessari tegund af dreifingu þarf handvirka uppsetningu á færibreytunum sem skilgreindar eru í uppsetningu forritsins í Finance eða Supply Chain Management.
+    - **Þjónustuumhverfi** – Þetta setur upp útgáfu rafrænna innheimtuaðgerða í þjónustuumhverfið. Rafrænn reikningur er þá tilbúinn til að taka á móti og vinna úr rafrænum skjölum sem fjármála- eða birgðakeðjustjórnun sendir.
 
 > [!NOTE]
 > Venjulega muntu breyta færibreytum rafrænnar skýrslugerðar (ER) eiginleikans sem þarf að nota í þjónustuumhverfið. Breytingar á tengdu forriti verða sjaldgæfar. Þú ættir aðeins að dreifa nýjum útgáfum á tengda forritið þegar þú breytir samsvarandi breytum forritsins þíns.

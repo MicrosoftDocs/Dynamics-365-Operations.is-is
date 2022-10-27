@@ -1,8 +1,8 @@
 ---
-title: Setja upp reglustillingarþjónustu (RCS)
+title: Settu upp reglustillingarþjónustu (RCS)
 description: Þessi grein útskýrir hvernig á að setja upp Regulatory Configuration Service (RCS).
 author: gionoder
-ms.date: 02/09/2022
+ms.date: 10/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 63a4f77d6e80133947dff678cef3885167ec55be
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 32ced98925ee66e02f0b073b4acbd586666ac20c
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9285788"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710782"
 ---
-# <a name="set-up-regulatory-configuration-service-rcs"></a>Setja upp reglustillingarþjónustu (RCS)
+# <a name="set-up-regulatory-configuration-service-rcs"></a>Settu upp reglustillingarþjónustu (RCS)
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +39,16 @@ A flísar fyrir **Hnattvæðingareiginleikar** vinnusvæði ætti nú að birtas
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Setja upp færibreytur fyrir RCS-samþættingu við rafræna reikningsfærslu
 
 1. Á vinnusvæðinu **Altækir eiginleikar**, í hlutanum **Viðeigandi stillingar**, skal velja **Færibreytur rafrænnar skýrslugerðar**.
-2. Á **Rafræn reikningagerð** flipa, í **Þjónustuendapunktur URI** reit skaltu slá inn viðeigandi þjónustuendapunkt fyrir þinn Microsoft Azure landafræði, eins og sýnt er í eftirfarandi töflu.
+2. Í fyrsta skipti sem þú setur upp færibreyturnar verðurðu beðinn um að tengjast Life Cycle Services (LCS). Veldu **Smelltu hér til að tengjast Lifecycle Services**, og eftir að tengingunni er komið á skaltu velja **Allt í lagi**.
+
+    > [!IMPORTANT]
+    > Í löndum eða svæðum þar sem gagnabúseta er framfylgt, og ef RCS var útvegað á öðru svæði þar sem LCS er útvegað, gætirðu fengið eftirfarandi tengingarvilluboð í RCS: "Engin HTTP tilföng fannst sem samsvarar beiðni URI". Veldu **Í lagi**. Þú gætir fengið önnur villuboð í RCS: „Tókst ekki að búa til notandatákn fyrir Dynamics Lifecycle þjónustu fyrir hönd notanda (). Vinsamlegast hafðu samband við kerfisstjórann þinn."
+    >  
+    > Þetta gerist vegna þess að LCS er alþjóðleg þjónusta og er veitt á bandarísku svæði. Vegna búsetustefnunnar getur RCS frá núverandi svæði ekki tengst LCS. Við þessar aðstæður eru 2 mögulegar lausnir:
+    > - Eyddu RCS af núverandi svæði og endurskapaðu það á Bandaríkjunum.
+    > - Hunsa villurnar og haltu áfram með uppsetningu rafrænna reikninga. Þessar villur hafa engin áhrif á virkni rafrænna reikninga.
+
+3. Á **Rafræn reikningagerð** flipa, í **Þjónustuendapunktur URI** reit skaltu slá inn viðeigandi þjónustuendapunkt fyrir þinn Microsoft Azure landafræði, eins og sýnt er í eftirfarandi töflu.
 
     | Gagnamiðstöð Azure-staðsetningar | URI fyrir endastöð þjónustu |
     |----------------------------|----------------------|
@@ -55,9 +64,11 @@ A flísar fyrir **Hnattvæðingareiginleikar** vinnusvæði ætti nú að birtas
     | Kanada                     | <p>`https://gw.ca-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> <p>`https://gw.ca-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Frakkland                     | <p>`https://gw.fr-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Indland                      | <p>`https://gw.in-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Noregur                     | <p>`https://gw.no-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Suður-Afríka               | <p>`https://gw.za-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-3. Gangið úr skugga um að reiturinn **Forritsauðkenni** sé stilltur á **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Gildið er fast. Gakktu úr skugga um að aðeins alþjóðlegt einkvæmt auðkenni (GUID) sé slegið inn og að gildið innihaldi ekki önnur tákn, eins og bil, kommu, punkta eða gæsalappir.
-4. Í **LCS Umhverfiskenni** reit, sláðu inn auðkenni þitt Microsoft Dynamics Lifecycle Services (LCS) umhverfi. Þetta gildi er tilvísun í fjármála- eða framboðskeðjuumhverfið sem þú munt nota með rafræna reikningsþjónustunni. Til að fá auðkenni þitt skaltu skrá þig inn á [LCS](https://lcs.dynamics.com/), opnaðu verkefnið þitt og síðan á **Stjórna umhverfi** flipa, í **Umhverfisupplýsingar** kafla, skoðaðu í **Umhverfiskenni** sviði.
+3. Skoðaðu og sláðu inn í **Auðkenni umsóknar** reit fasta gildið **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Gakktu úr skugga um að aðeins alþjóðlegt einkvæmt auðkenni (GUID) sé slegið inn og að gildið innihaldi ekki önnur tákn, eins og bil, kommur, punkta eða gæsalappir.
+4. Í **LCS Umhverfiskenni** reit, sláðu inn auðkenni þitt Microsoft Dynamics Lifecycle Services (LCS) umhverfi. Þetta gildi er tilvísun í fjármála- eða framboðskeðjuumhverfið sem þú munt nota með rafrænni reikningsþjónustu. Til að fá auðkenni þitt skaltu skrá þig inn á [LCS](https://lcs.dynamics.com/), opnaðu verkefnið þitt og síðan á **Stjórna umhverfi** flipa, í **Umhverfisupplýsingar** kafla, skoðaðu í **Umhverfiskenni** sviði.
 
     > [!IMPORTANT]
     > Ef rafræn innheimtuviðbót er sett upp í mörgum fjármála- eða framboðskeðjuumhverfi í LCS, skal alltaf nota umhverfisauðkenni síðasta uppsetta umhverfisins. Ef þú ákveður að setja viðbótina upp í nýju umhverfi Eftir að þú hefur sett upp og unnið með rafræna reikningavirkni skaltu uppfæra **LCS Umhverfiskenni** reit í RCS í nýjasta gildið.
@@ -66,9 +77,9 @@ A flísar fyrir **Hnattvæðingareiginleikar** vinnusvæði ætti nú að birtas
 
 ## <a name="configuration-providers"></a>Skilgreiningarveitur
 
-Þú getur notað stillingarveitur til að greina á milli eigenda rafrænna skýrslugerðar (ER) stillinga sem eru notaðar í rafrænum reikningsferlum og hnattvæðingareiginleika eigenda. Fyrir alla hnattvæðingareiginleika sem eru útvegaðir af Microsoft og birtir í alþjóðlegu geymslunni, er stillingarveitan stillt á **Microsoft** (`http://microsoft.com`).
+Þú getur notað stillingarveitur til að greina á milli eigenda rafrænna skýrslugerðar (ER) stillinga sem eru notaðar í rafrænum reikningsferlum og hnattvæðingareiginleika eigenda. Fyrir alla hnattvæðingareiginleika sem eru útvegaðir af Microsoft og birtir í alþjóðlegu geymslunni, er stillingaveitan stillt á **Microsoft** (`http://microsoft.com`).
 
-Þú getur aðeins stillt ER-stillingar og hnattvæðingareiginleika sem tilheyra virku stillingarveitunni. Þú getur notað þessar stillingar og eiginleika sem sniðmát til að búa til stillingar og eiginleika sem tilheyra virku stillingaveitunni, svo þú getir stillt þær.
+Þú getur aðeins breytt ER stillingum og hnattvæðingareiginleikum sem tilheyra virku stillingarveitunni. Þú getur notað þessar stillingar og eiginleika sem sniðmát til að búa til stillingar og eiginleika sem tilheyra virku stillingaveitunni, svo að þú getir stillt þær.
 
 Fyrst skaltu búa til stillingarveiturnar. Stilltu síðan einn þeirra sem virkan. Þú getur ekki stillt **Microsoft** stillingaveitan sem virk.
 

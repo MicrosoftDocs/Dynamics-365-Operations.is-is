@@ -2,7 +2,7 @@
 title: Setja upp ítarlegan innflutning bankaafstemmingarferlis
 description: Ítarlegri bankaafstemmingareiginleikinn gerir þér kleift að flytja inn rafræn bankayfirlit og samræma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 Fjármál. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið.
 author: angelad116
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8d186e6b3e44222410c8be94390d7c58a90e352
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 60195962e50817b4d85840a2464848db6e666f46
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151523"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716019"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Setja upp ítarlegan innflutning bankaafstemmingarferlis
 
