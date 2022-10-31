@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Verkvangsuppfærslur fyrir útgáfu 10.0.29 (október 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: Verkvangsuppfærslur fyrir útgáfu 10.0.28 (ágúst 2022)
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Heimasíða eiginleika sem hafa verið fjarlægðir eða eru úreltir
@@ -1605,7 +1603,11 @@
             - name: Leyfiskóðar og skilgreiningarlyklaskýrsla
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: Samnýting gagna milli fyrirtækja
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: Töflur studdar fyrir samnýtingu gagna
+              href: sysadmin/drs-srs-tables.md
+            - name: Samnýting gagna fyrir forritara
+              href: sysadmin/drs-srs-dev.md
             - name: Viðhaldsstilling
               href: sysadmin/maintenance-mode.md
             - name: Forstilltir kerfisreikningar

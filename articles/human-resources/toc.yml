@@ -10,18 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Nýjungar eða breytingar í Human Resources
               items:
+                - name: Human Resources 10.0.31 (sameinuð tölvukerfi)
+                  href: ./get-started/whats-new-changed-10-0-31.md
                 - name: Human Resources 10.0.30 (sameinuð tölvukerfi)
                   href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (sameinuð tölvukerfi)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (sameinuð tölvukerfi)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: Human Resources 10.0.27 (sameinuð tölvukerfi)
-                  href: ./get-started/hr-whats-new-changed-10-0-27.md
-                - name: Human Resources 10.0.26 (sameinuð tölvukerfi)
-                  href: ./get-started/hr-whats-new-changed-10-0-26.md
-                - name: Human Resources 10.0.25 (sameinuð tölvukerfi)
-                  href: ./get-started/hr-whats-new-changed-10-0-25.md
                 - name: Nýjungar í Dynamics 365 Human Resources (stakt)
                   items:
                     - name: Nýjungar í Dynamics 365 Human Resources (stakt) safnvistun 2021
@@ -716,8 +712,10 @@
               href: hr-develop-create-goal.md
             - name: Stofna frammistöðumat
               href: hr-develop-create-performance-review.md
-        - name: Nám
+        - name: Fræðsla
           items:
+            - name: Námskeiðsyfirlit
+              href: hr-course-overview.md
             - name: Uppsetning námskeiða
               href: hr-learning-courses.md
             - name: Yfirlit yfir spurningalista

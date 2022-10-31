@@ -2,7 +2,7 @@
 title: Breyta og endurskoða netpöntun og ósamstilltum færslum pöntunar viðskiptavinar
 description: Þessi grein lýsir því hvernig á að breyta og endurskoða netpöntun og ósamstilltar færslur pöntunar viðskiptavinar í Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 11/04/2020
+ms.date: 10/21/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.industry: Retail
-ms.openlocfilehash: dac7ffe6d62aaea11f2f5af0476db446b091938b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: dbeeff47446c1617da44f34ae56f333717f577a1
+ms.sourcegitcommit: 18b7a02c497709e8d9c7b943d82f1fcc3dafa4cd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287678"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9712109"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Breyta og endurskoða netpöntun og ósamstilltum færslum pöntunar viðskiptavinar
 
@@ -37,9 +37,10 @@ Stuðningi var bætt við Commerce-útgáfur 10.0.5 og 10.0.6 til að gera breyt
 Fylgið eftirfarandi skrefum til að breyta og endurskoða pöntunarfærslur í Commerce Headquarters.
 
 1. Setjið upp [Microsoft Dynamics Office Add-in](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview).
-1. Opnið síðuna **Færibreytur smásölu** á flipanum **Pantanir viðskiptavinar** á flýtiflipanum **Pöntun**, tilgreinið biðkóða fyrir **Biðkóði fyrir villur við samstillingu pöntunar**.
-1. Opnið vinnusvæðið **Fjármál verslunar**. Reitirnir **Samstillingarvillur í pöntunum á netinu** og **Samstillingarvillur í pöntunum viðskiptavina** birta yfirlit af síðu smásölufærslna sem þegar hefur verið síað. Hver breyting birtir færsluskrár þar sem samstilling á samsvarandi pöntunargerð tókst ekki.
-1. Opnið annað hvort síðuna **Samstillingarvillur í pöntunum á netinu** eða síðuna **Samstillingarvillur í pöntunum viðskiptavina**. Smellið á skrá til að skoða villuupplýsingar. Flýtiflipinn **Staða samstillingar** veitir eftirfarandi upplýsingar um villuna:
+1. Opnið síðuna **Færibreytur Commerce** á flipanum **Pantanir viðskiptavinar** á flýtiflipanum **Pöntun**, tilgreinið biðkóða fyrir **Biðkóði fyrir villur við samstillingu pöntunar**.
+2. Gerið hlé á öðrum pantanasamstillingarverkum sem rekast á við tímasetningu breytinga og endurskoðunar.
+3. Opnið vinnusvæðið **Fjármál verslunar**. Reitirnir **Samstillingarvillur í pöntunum á netinu** og **Samstillingarvillur í pöntunum viðskiptavina** birta yfirlit af síðu smásölufærslna sem þegar hefur verið síað. Hver breyting birtir færsluskrár þar sem samstilling á samsvarandi pöntunargerð tókst ekki.
+4. Opnið annað hvort síðuna **Samstillingarvillur í pöntunum á netinu** eða síðuna **Samstillingarvillur í pöntunum viðskiptavina**. Smellið á skrá til að skoða villuupplýsingar. Flýtiflipinn **Staða samstillingar** veitir eftirfarandi upplýsingar um villuna:
 
     - Staða pöntunar í bið
     - Upplýsingar um pöntunarvillu
@@ -67,7 +68,15 @@ Fylgið eftirfarandi skrefum til að breyta og endurskoða pöntunarfærslur í 
 
 1. Opnið Excel-skrána, veljið svæðið **Staða pöntunar í bið**, sláið inn **Breyta** og birtið síðan breytinguna. Þannig er komið í veg fyrir að verkið **Samstilla pöntun** sem er í keyrslu í runustillingu sleppi þessari skrá við úrvinnslu.
 1. Í Excel-skránni er viðeigandi reitum breytt og gögnunum svo hlaðið aftur upp í Commerce Headquarters með birtingaraðgerð Excel-innbótarinnar í Dynamics. Breytingarnar koma fram í kerfinu þegar búið er að birta gögnin. Meðan á birtingu stendur fer engin villuleit fram á breytingunum sem notendur gera.
-1. Hægt er að skoða alla færsluslóð breytinganna með því að velja **Skoða slóð endurskoðunar** í hausnum **Smásölufærsla** til að sjá breytingar á haus og í viðeigandi hluta og færslu á viðeigandi færslusíðu. Til dæmis verða allar breytingar sem tengjast sölulínum sýnilegar á síðunni **Sölufærslur** og allar breytingar sem tengjast greiðslum verða sýnilegar á síðunni **Greiðslufærslur**. Eftirfarandi upplýsingum um endurskoðun er haldið við fyrir breytingarnar:
+    > [!NOTE]
+    > Ef svæðið sem þarf að breyta finnst ekki skal fylgja skrefunum hér að neðan til að bæta við svæðinu sem vantar á vinnublaðinu.
+    >   1. Velja skal **Hönnun** í Gagnatengi.
+    >   1. Velja skal blýantstáknið við hliðina á töflunni þar sem bæta á við svæði.
+    >   1. Velja skal svæðið í hlutanum **Tiltæk svæði** og velja síðan **Bæta við**.
+    >   1. Bæta skal við eins mörgum svæðum og þarf og velja síðan **Uppfæra**.
+    >   1. Þegar uppfærslunni er lokið getur verið að velja þurfi **Endurnýja** til að uppfæra gildin.
+
+3. Hægt er að skoða alla færsluslóð breytinganna með því að velja **Skoða slóð endurskoðunar** í hausnum **Smásölufærsla** til að sjá breytingar á haus og í viðeigandi hluta og færslu á viðeigandi færslusíðu. Til dæmis verða allar breytingar sem tengjast sölulínum sýnilegar á síðunni **Sölufærslur** og allar breytingar sem tengjast greiðslum verða sýnilegar á síðunni **Greiðslufærslur**. Eftirfarandi upplýsingum um endurskoðun er haldið við fyrir breytingarnar:
 
     - Breytt dagsetning og tími
     - Svæði
