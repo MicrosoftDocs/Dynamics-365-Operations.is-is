@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 4f381f1ec0ea08f18db3cac474e8990906364504
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 757e83887e318dd6aa54106fb78305f1d94e0f90
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286892"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734268"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Virkja uppflettingu pöntunar fyrir gestakaup
 
@@ -70,9 +70,14 @@ Uppflettieining pantana í einingasafni Commerce er notuð fyrir myndræna frams
 
 ## <a name="add-a-link-to-order-details-in-transactional-emails"></a>Bættu við tengli til að panta upplýsingar í viðskiptatölvupósti
 
-Í pöntunartengdum tölvupóstum geturðu gefið upp tengil eða hnapp sem fer með viðskiptavini á pöntunarupplýsingasíðuna fyrir pöntunina. Til að bæta við þessum hlekk eða hnappi, búðu til HTML tengil sem vísar á pöntunarupplýsingasíðuna á netverslunarsíðunni þinni og sendu pöntunarstaðfestingarauðkenni og netfang viðskiptavinar sem vefslóðarfæribreytur, eins og sýnt er í eftirfarandi dæmi.
+Í pöntunartengdum tölvupóstum geturðu gefið upp hlekk eða hnapp sem fer með viðskiptavini á pöntunarupplýsingasíðuna fyrir pöntunina. Til að bæta við þessum hlekk eða hnappi, búðu til HTML tengil sem vísar á pöntunarupplýsingasíðuna á netverslunarsíðunni þinni og sendu pöntunarstaðfestingarauðkenni og netfang viðskiptavinar sem vefslóðarfæribreytur, eins og sýnt er í eftirfarandi dæmi.
 
 `<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
+
+> [!NOTE]
+> Til að virkja pöntunarleitareiginleikann skaltu ganga úr skugga um að **Tilvitnanir** lykill er virkjaður undir **Leyfisstillingar** > **Stillingarlyklar**.
+>
+>![Stillingar leyfislykla tilboða verða að vera virkjaðar](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

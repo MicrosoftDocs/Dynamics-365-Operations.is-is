@@ -1,6 +1,6 @@
 ---
 title: Gera kembistillingu virka í skattaútreikningsþjónustunni
-description: Þessi grein útskýrir hvernig á að virkja villuleitarstillingu í skattaútreikningsþjónustunni til að rannsaka mál.
+description: Þessi grein útskýrir hvernig á að virkja villuleitarham í skattaútreikningsþjónustunni til að rannsaka mál.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,11 +13,11 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 38ef8c51d52de6b8f748330d0697e860d75233bf
-ms.sourcegitcommit: 43cf54d057eccd07a71bb48e2fcf858d043a9669
+ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
+ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2022
+ms.lasthandoff: 11/01/2022
 ms.locfileid: "9620899"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Gera kembistillingu virka í skattaútreikningsþjónustunni
@@ -26,8 +26,8 @@ ms.locfileid: "9620899"
 
 Þessi grein útskýrir hvernig á að virkja villuleitarhaminn í skattaútreikningsþjónustunni til að rannsaka mál.
 
-1. Bæta við **&debug=vs%2 CconfirmExit&** á vefslóð Application Object Server (AOS) og endurnýjaðu síðan síðuna.
-2. Þegar þú velur **Söluskattur** til að reikna út söluskattinn, textaskrá sem er nefnd **TaxServiceTroubleshootingLog.txt** verður tekinn á þjóninum undir **C:\AXWeb_SMBShare\tímabundin-skrá\\{%session%}\\**. The **TaxServiceTroubleshootingLog.txt** skrá inniheldur **Skattskyld skjal** og reiknibreytu. Þessum niðurstöðum er skilað frá skattaþjónustu og undantekningarupplýsingum til úrræðaleitar.
+1. Bæta við **&debug=vs%2 CconfirmExit&** á vefslóð Application Object Server (AOS), og endurnýjaðu síðan síðuna.
+2. Þegar þú velur **Söluskattur** til að reikna út söluskattinn, textaskrá sem er nefnd **TaxServiceTroubleshootingLog.txt** er opnað. The **TaxServiceTroubleshootingLog.txt** skrá inniheldur **Skattskyld skjal** og reiknibreytu. Þessum niðurstöðum er skilað frá skattaþjónustu og undantekningarupplýsingum til úrræðaleitar.
 
 ## <a name="sample"></a>Dæmi
 

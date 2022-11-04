@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
+ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689225"
+ms.lasthandoff: 10/29/2022
+ms.locfileid: "9731611"
 ---
 # <a name="proactive-quality-updates"></a>Fyrirbyggjandi gæðauppfærslur
 
@@ -40,13 +40,13 @@ Margar framfarir hafa þegar verið settar í notkun sem gera kleift að senda g
 
 - **Nánast núll uppfærsla á niðritíma** – Til að ýta undir tíðari umhverfi er nauðsynlegt að draga úr áhrifum á aðgengi umhverfisins til að varðveita Dynamics 365 Service Level Agreements (SLAs). Uppfærsla á næstum núlli niður í miðbæ var upphaflega kynnt til að bæta mánaðarlega lagfæringu stýrikerfis með því að nota cluster failover til að virkja uppfærðu myndina með lágmarks röskun. Verið er að bæta vélbúnaðinn til að beita uppfærslum þannig að hann truflar enn minna og hann mun ná yfir bæði stýrikerfisuppfærslur og gæðauppfærsluuppfærslu.
 
-    Fyrir gagnvirka notendur gæti virk lota verið rofin og tilraunin fer aftur í uppfært umhverfi. Með tilkomu [forgangstengd lotuáætlun](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), sem er nú fáanlegt á grundvelli opt-in, bata tímasetningu og vinnsla bata og halda áfram strax eftir uppfærsluna. Forgangsbundin lotuáætlun verður til staðar fyrir viðskiptavini áður en þeir byrja að taka þátt í fyrirbyggjandi dreifingu á gæðauppfærslum fyrir framleiðsluumhverfi þeirra.
+Fyrir gagnvirka notendur gæti virk lota verið rofin og tilraunin fer aftur í uppfært umhverfi. Með tilkomu [forgangstengd lotuáætlun](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), lotuáætlun og vinnsla batnar og heldur áfram strax eftir uppfærsluna. Forgangsbundin lotuáætlun verður til staðar fyrir viðskiptavini áður en þeir byrja að taka þátt í fyrirbyggjandi dreifingu á gæðauppfærslum fyrir framleiðsluumhverfi þeirra.
 
 - **Myrkra tímar** – Myrkratímar eru skilgreindir fyrir hvert Azure svæði og uppfærslur á niðritíma næstum núll munu eiga sér stað á myrkutímatímabilinu.
 
 ## <a name="the-proactive-update-process"></a>Fyrirbyggjandi uppfærsluferlið
 
-Dreifing fyrirbyggjandi gæðauppfærslu mun fylgja öruggu dreifingarferli (SDP). Sérkenni SDP munu þróast, en gæðauppfærslur verða upphaflega settar í sandkassaumhverfi. Ferlið mun byrja með umhverfi sem opnar fyrir snemmtæka dreifingu. Eftir því sem hlutfall sandkassa sem tókst að dreifa eykst mun dreifing í framleiðsluumhverfi hefjast. Enn og aftur mun ferlið byrja með umhverfi sem opnar fyrir snemmtæka dreifingu. Hlustunarkerfi munu fylgjast með kerfisfjarmælingum og atvikum á Livesite og munu stöðva útsetningu ákveðinnar útgáfu ef einhver afturför greinist. Viðskiptavinir munu samt geta dregið gæðauppfærslurnar á undan fyrirbyggjandi dreifingu ef þeir vilja.
+Dreifing fyrirbyggjandi gæðauppfærslu mun fylgja öruggu dreifingarferli (SDP). Sérkenni SDP munu þróast, en gæðauppfærslur verða upphaflega settar í sandkassaumhverfi. Eftir því sem hlutfall sandkassa sem tókst að dreifa eykst mun dreifing í framleiðsluumhverfi hefjast. Hlustunarkerfi munu fylgjast með kerfisfjarmælingum og atvikum á Livesite og munu stöðva útsetningu ákveðinnar útgáfu ef einhver afturför greinist. Viðskiptavinir munu samt geta dregið gæðauppfærslurnar á undan fyrirbyggjandi dreifingu ef þeir vilja.
 
 Núverandi útgáfustjórnunargögn sýna að minna en 3 prósent af afturköllun eru kynnt í gæðauppfærslum. Með aukinni áherslu á að útrýma afturhvarfi og aukinni SDP, verða hugsanleg áhrif afturhvarfs verulega minni en gæðaávinningurinn sem næst með því að fá lagfæringar hraðar til viðskiptavina almennt.
 
@@ -92,13 +92,13 @@ Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hverjir eru fyri
 **App útgáfa: 10.0.1326.70**
 **Samsvarandi nýjustu KB grein: 748926**
 
-| Stöð | Svæði | Komandi Sandbox Dagskrá
-|---|---|---|
-| Stöð 1 | Kanada Mið, Kanada Austur, Frakkland Mið, Indland Mið, Noregur Austur, Sviss Vestur | 14. október til 17. október 2022 |
-| Stöð 2 | Frakkland Suður, Indland Suður, Noregur Vestur, Sviss Norður, Suður Afríka Norður, Ástralía Austur, Bretland Suður, UAE Norður, Japan Austur, Ástralía Suð Austur, Suðaustur Asía | 15. október til 18. október 2022 |
-| Stöð 3 | Austur-Asía, Bretland Vestur, Japan Vestur, Brasilía Suður, Vestur-Evrópa, Austur-Bandaríkin, Mið UAE | 16. október til 19. október 2022 |
-| Stöð 4 | Norður-Evrópa, Mið-Bandaríkin, Vestur-Bandaríkin | 17. október til 20. október 2022 |
-| Stöð 5 | DoD, Government Community Cloud, Kína | Ekki áætlað |
+| Stöð | Svæði | Útfyllt dagskrá | Komandi Sandbox Dagskrá|
+|---|---|---|---|
+| Stöð 1 | Kanada Mið, Kanada Austur, Frakkland Mið, Indland Mið, Noregur Austur, Sviss Vestur | 14. október til 17. október 2022 | 2. nóvember til 5. nóvember 2022 |
+| Stöð 2 | Frakkland Suður, Indland Suður, Noregur Vestur, Sviss Norður, Suður Afríka Norður, Ástralía Austur, Bretland Suður, UAE Norður, Japan Austur, Ástralía Suð Austur, Suðaustur Asía | 15. október til 18. október 2022 | 2. nóvember til 5. nóvember 2022 |
+| Stöð 3 | Austur-Asía, Bretland Vestur, Japan Vestur, Brasilía Suður, Vestur-Evrópa, Austur-Bandaríkin, Mið UAE | 16. október til 19. október 2022 | 2. nóvember til 5. nóvember 2022 |
+| Stöð 4 | Norður-Evrópa, Mið-Bandaríkin, Vestur-Bandaríkin | 17. október til 20. október 2022 | 2. nóvember til 5. nóvember 2022 |
+| Stöð 5 | DoD, Government Community Cloud, Kína | Ekki áætlað | Ekki áætlað |
 
 > [!IMPORTANT] 
 > Fimm daga fyrirvara mun Microsoft uppfæra áætlunina á undan og senda tilkynningar í tölvupósti til þess hóps umhverfis sem áætlað er að fái þessar gæðauppfærslur. Fyrri áætlun á aðeins við um umhverfi sem hefur verið tilkynnt um væntanlega uppfærslu. Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hverjir eru fyrirhugaðir viðhaldsgluggar eftir svæðum](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)?.
