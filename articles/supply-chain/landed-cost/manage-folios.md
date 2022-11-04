@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab5729cd441246a6c04ac060d5a69f949bfe47c5
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905893"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725478"
 ---
 # <a name="manage-folios"></a>Vinna með fólíó
 
@@ -48,9 +48,9 @@ Eftirfarandi tafla lýsir hnöppunum sem eru í boði í flipanum **Stjórna** �
 
 | Hnappur | lýsing |
 |---|---|
-| Bóka innhreyfingalista | Bókið innhreyfingaskjal fyrir allar innkaupapöntunarlínur í fólíói. Ef sendingar margra fyrirtækja eru notaðar opnast nýr svargluggi fyrir bókun innhreyfingaskjals fyrir hvert fyrirtæki. |
-| Bóka innhreyfingarskjal afurða | Bókið innhreyfingarskjal afurðar fyrir allar innkaupapöntunarlínur í fólíói. Ef ferðir margra fyrirtækja eru notaðar opnast nýr svargluggi fyrir bókun innhreyfingarskjals fyrir hvert fyrirtæki. |
-| Bóka reikning | Bókið reikning fyrir allar innkaupapöntunarlínur í fólíói. Ef ferðir margra fyrirtækja eru notaðar opnast nýr svargluggi fyrir bókun reiknings fyrir hvert fyrirtæki. |
+| Bóka innhreyfingalista | Bókið innhreyfingaskjal fyrir allar innkaupapöntunarlínur í fólíói.  |
+| Bóka innhreyfingarskjal afurða | Bókið innhreyfingarskjal afurðar fyrir allar innkaupapöntunarlínur í fólíói. |
+| Bóka reikning | Bókið reikning fyrir allar innkaupapöntunarlínur í fólíói.  |
 | Senda flutningspöntun | Bókið flutningspöntun fyrir allar flutningspöntunarlínur sem tengjast núverandi fólíói í tengdri sendingu. |
 | Taka á móti flutningspöntun | Bókið móttöku flutningspöntunar fyrir allar flutningspöntunarlínur sem tengjast núverandi fólíói í tengdri sendingu. |
 | Taka á móti vörum í flutningi | Takið á móti öllum pöntunarlínum sem eru í flutningi í fólíói. |
@@ -65,7 +65,7 @@ Eftirfarandi tafla lýsir hnöppunum sem eru í boði í flipanum **Almennt** á
 
 | Hnappur | lýsing |
 |---|---|
-| Komulisti | Bókið innhreyfingaskjal fyrir allar innkaupapöntunarlínur í fólíói. Ef ferðir margra fyrirtækja eru notaðar opnast nýr svargluggi fyrir bókun innhreyfingaskjals fyrir hvert fyrirtæki. |
+| Komulisti | Bókið innhreyfingaskjal fyrir allar innkaupapöntunarlínur í fólíói.  |
 | Innhreyfingarskjal afurða | Skoðið færslu innhreyfingarskjals afurðar ef það er notað. |
 | Vörumóttaka | Skoðið komubók vörunnar ef hún er notuð. |
 | Fyrirspurn um kostnað | Opnið síðu kostnaðarfyrirspurnar til að skoða allan kostnað ferðar, þ.m.t. gám, fólíó og innkaupapöntun. Hægt er að breyta yfirliti síðunnar með því að nota yfirlitsaðgerðina. Á síðu kostnaðarfyrirspurnar er hægt að skoða öll svæðin ásamt vörunni og kóða kostnaðargerðar. Með því að fjarlægja þessi atriði er hægt að breyta síðunni með því að flokka saman kostnað. Þessi eiginleiki getur komið sér vel ef þú ert að nota stærðir og liti. Hægt er að breyta víddunum sem sýndar eru á síðunni. Síðan **Kostnaður** sýnir aðeins kóða kostnaðargerðar þar sem færslan **Dr** í flipanum **Bókun** er stillt á *Vara*. |

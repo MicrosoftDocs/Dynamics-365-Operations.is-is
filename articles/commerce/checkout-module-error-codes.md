@@ -1,22 +1,22 @@
 ---
-title: Villutilvísunarkóðar í Checkout einingu
+title: Tilvísunarkóðar fyrir villur greiðsluferilseininga
 description: Þessi grein lýsir villutilvísunarkóðum fyrir greiðslueininguna sem eru sýndir í villuskilaboðum sem snúa að notendum í Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/20/2022
+ms.date: 10/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-09-20
-ms.openlocfilehash: cd8269a71e56f23dbe3782ec3ffc69ec3ea6b151
-ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
+ms.openlocfilehash: 952cb932522b4e0bb91be985e4f8974cb6cd8bc0
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709379"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728246"
 ---
-# <a name="checkout-module-error-reference-codes"></a>Villutilvísunarkóðar í Checkout einingu
+# <a name="checkout-module-error-reference-codes"></a>Tilvísunarkóðar fyrir villur greiðsluferilseininga
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
@@ -31,9 +31,13 @@ Dynamics 365 Commerce hefur innleitt staðlaðar villutilvísanir sem hægt er a
 - Upplýsingar til athugunar í umhverfinu eða stillingum greiðslutengja
 - Upplýsingar sem hægt er að vísa til í stuðningsmáli ef þörf er á frekari aðstoð
 
-## <a name="checkout-module-error-reference-codes"></a>Villutilvísunarkóðar í Checkout einingu
+## <a name="prerequisites"></a>Forkröfur
 
-Notaðu eftirfarandi töflu til að fá frekari upplýsingar um tilvísanir í villukóða sem eru veittar af viðskiptavinum eða reynslu í netversluninni.
+Til að virkja villutilvísunarkóða fyrir greiðslueininguna sem taldir eru upp hér að neðan, í vefsvæðisgerð fyrir síðuna þína, farðu á **Vefstillingar \> Framlengingar**, og í **Körfu og kassa** kafla, veldu **Virkjaðu endurbætt netrásarvilluskjáskilaboð**. 
+
+## <a name="checkout-module-error-reference-codes"></a>Tilvísunarkóðar fyrir villur greiðsluferilseininga
+
+Notaðu eftirfarandi töflu til að fá frekari upplýsingar um tilvísanir í villukóða sem eru veittar af viðskiptavinum eða reynslu í netversluninni. Skrunaðu til hægri til að skoða **Villulýsing** dálki.
 
 | Villukóði | Dynamics-fylgni villukóði | Villulýsing |
 | ---------- | ------------------------------ | ----------------- |
@@ -44,13 +48,13 @@ Notaðu eftirfarandi töflu til að fá frekari upplýsingar um tilvísanir í v
 | CCR005     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ Greiðsla Krefst Merchant Properties | Ekki er hægt að greiða vegna greiðslueiginleika söluaðila. Hafðu samband við kerfisstjórann þinn. |
 | CCR006     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ Ógild greiðslubeiðni | Ekki tókst að sækja útboðsþjónustu fyrir reksturinn. Athugaðu uppsetningu greiðslumáta fyrir þá útboðstegund sem valin er. |
 | CCR007     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ Margar viðskiptavinareikningsgreiðslur ekki leyfðar | Þegar hefur verið beitt greiðslu viðskiptavinareiknings og aðeins ein greiðsla er leyfð á hverja færslu. |
-| CCR008     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ ViðskiptavinareikningstakmörkSignFromAmountGold | Takmark viðskiptavinareiknings er frábrugðið upphæðinni sem gjaldfallið er. Prófaðu annan greiðslumáta eða hafðu samband við þjónustuver til að fá aðstoð. |
+| CCR008     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ ViðskiptavinareikningstakmörkSign MismunandiFráUpphæð | Takmark viðskiptavinareiknings er frábrugðið upphæðinni sem gjaldfallið er. Prófaðu annan greiðslumáta eða hafðu samband við þjónustuver til að fá aðstoð. |
 | CCR009     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ Greiðsla viðskiptavinareiknings fer yfir heildarupphæð fyrir að bera út og skila hlutum | Greiðsla viðskiptavinareiknings fer yfir heildargjalddaga fyrir skráða hluti. Reyndu aftur síðar eða hafðu samband við þjónustuver til að fá aðstoð. |
 | CCR010     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ Greiðsla UsingUautorized Account | Greiðsla viðskiptavinareiknings krefst eigin reiknings eða samsvarandi reikningsreiknings á tilboðslínu. |
 | CCR011     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ Greiðsla viðskiptavinareiknings fer yfir Gólftakmark viðskiptavinareiknings | Ekki er hægt að vinna úr greiðslu inn á viðskiptavinalykil eins og er – lágmarkinu hefur verið náð. |
-| CCR012     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ Viðskiptavinareikningur Greiðsla Fyrir Viðskiptavin Án LeyfisÁReikningi | Þessi viðskiptavinur hefur ekki leyfi til að greiða á reikning. |
+| CCR012     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ Viðskiptavinareikningur Greiðsla Fyrir Viðskiptavin Án LeyfisÁReikningi | Þessi viðskiptavinur hefur ekki leyfi til að greiða inn á reikning. |
 | CCR013     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ UnableToCancelPayment | Því miður fór eitthvað úrskeiðis. Ekki var hægt að hætta við greiðsluna. Reyndu aftur. |
-| CCR014     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ UnableToReadCardTokenInfo | Villa kom upp við afgreiðslu greiðslunnar. Reyndu aftur seinna. |
+| CCR014     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ UnableToReadCardTokenInfo | Villa kom upp við vinnslu greiðslunnar. Reyndu aftur seinna. |
 | CCR015     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ NotEnoughRewardPoints | Upphæð vildargreiðslu er hærri en leyfilegt er fyrir vildarkortið sem notað er í þessari færslu. |
 | CCR016     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ EndurgreiðslaMeiraEn Leyfð | Upphæð vildarendurgreiðslu er hærri en leyfilegt er fyrir vildarkortið sem notað er í þessum viðskiptum. |
 | CCR017     | Microsoft\_ Dynamics\_ Verslun\_ Runtime\_ Ógilt LoyaltyCardNumber | Vildarkortsnúmer fannst ekki. Annað hvort virkjaðu vildarkortanúmerið eða sláðu inn annað kortanúmer og reyndu svo aftur. |

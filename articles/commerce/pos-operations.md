@@ -2,7 +2,7 @@
 title: Aðgerðir sölustaðar (POS) með og án nettengingar
 description: Þessi grein veitir upplýsingar um rekstur sölustaða (POS) í Dynamics 365 Commerce. Það tilgreinir hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltæk í ótengdum ham.
 author: josaw1
-ms.date: 05/27/2022
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 39f827d759f37daf056ff2df6284dda3db113c7f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272850"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728277"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
@@ -38,7 +38,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 
 - **Notendaaðgerð** – Hægt er að úthluta aðgerð á hnappa í POS hnappareitum sem eru hluti af POS skjáskipulagi.
 - **Viðskiptaskjár** – Hægt er að kalla fram aðgerð frá POS hnappareitnum sem eru stillt á POS færsluskjánum.
-- **Velkominn skjár** – Hægt er að kalla fram aðgerð frá POS hnappatöflum sem eru stillt á POS opnunarskjánum.
+- **Velkominn skjár** – Hægt er að kalla fram aðgerð frá POS-hnappastefnum sem eru stillt á POS-velkomuskjánum.
 
 > [!NOTE]
 > Aðgerðirnar sem taldar eru upp hér að neðan eiga við um nýjustu útgáfuna af Commerce. Sumar aðgerðir kunna að hafa breyst eða kunna ekki að vera í boði í fyrri útgáfum.
@@ -101,7 +101,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 212  | Upplýsingar um flotakort                                   | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 213  | Greitt með kreditreikningi                                   | Samþykkja kreditreikning (úttektarmiða) sem verslunin gefur út.                                                                                                                                                          | Já            | Já                | Nr.             | Nr.                | Nr.              |
 | 214  | Greitt með gjafakorti                                     | Samþykkja gjafakort sem verslunin gefur út.                                                                                                                                                                      | Já            | Já                | Nr.             | Nr.                | Nr.              |
-| 215  | Reiðufjárúttekt með gjafakorti                                | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Já            | Já                | Nr.             | Nr.                | Nr.              |
+| 215  | Reiðufjárúttekt með gjafakorti                                | Inneignarfærsla með fullri upphæð eftirstandandi gjafakorts ef innan skilgreindra útborgunarhámarka.                                                                                                                                                                              | Já            | Já                | Nr.             | Nr.                | Nr.              |
 | 216  | Greiða uppsett með korti                                    | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 217  | Greiða uppsett með ávísun                                   | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 218  | Greiða uppsett með viðskiptavinalykli                        | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
@@ -122,7 +122,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 501  | Athugasemd við færslu                               | Bæta athugasemd við núverandi færslu.                                                                                                                                                                      | Já            | Já                | Nr.             | Já               | Nr.              |
 | 502  | Sölumaður                                       | Stilltu **Sölumaður** gildi á sölupöntun fyrir pantanir viðskiptavina í POS.                                                                                                                                     | Já            | Já                | Nr.             | Já\*             | Nr.              |
 | 503  | Fresta færslu                               | Fresta núverandi sölufærslu, svo að hægt sé að afturkalla hana síðar í versluninni.                                                                                                                          | Já            | Já                | Nr.             | Já‡              | Nr.              |
-| 504  | Afturkalla færslu                                | Muna áður stöðvuð viðskipti frá núverandi verslun.                                                                                                                                              | Já            | Já                | Nr.             | Já‡              | Nr.              |
+| 504  | Endurheimta færslu                                | Muna áður stöðvuð viðskipti frá núverandi verslun.                                                                                                                                              | Já            | Já                | Nr.             | Já‡              | Nr.              |
 | 505  | Muna ólokið viðskipti                    | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 506  | Greiðslukortalestur                                        | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 507  | Apótek lyfseðils bæta við                         | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
@@ -232,7 +232,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 912  | Kveikja á hönnunarstillingu                                | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 913  | Slökkva á hönnunarstillingu                               | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 914  | Minnka glugga sölustaðar                               | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
-| 915  | Auð aðgerð                                   | Táknar sérhannaðan hnapp sem hugbúnaðarframleiðandi getur breytt forritunarlega fyrir hvaða sérhæfða aðgerð sem fyrirtækið krefst.                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
+| 915  | Auð aðgerð                                   | Táknar sérhannaðan hnapp sem hugbúnaðarframleiðandi getur breytt forritunarlega fyrir sérhæfða aðgerð sem fyrirtækið krefst.                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 916  | Windows Workflow Foundation                       | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 917  | Staða gagnagrunnstengingar                        | Skoðaðu núverandi tengistillingar og skiptu á milli nettengingar og ótengdra stillinga.                                                                                                                             | Já            | Já                | Já            | Já               | Nr.              |
 | 918  | Stjórna vöktum                                     | Sýna lista yfir vaktir sem eru virkar, frestaðar og lokaðar blint.                                                                                                                                                     | Já            | Já                | Já            | Nr.                | Nr.              |

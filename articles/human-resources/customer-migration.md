@@ -1,5 +1,5 @@
 ---
-title: Algengar spurningar um flutning viðskiptavina mannauðs
+title: Algengar spurningar um flutning viðskiptavinar í Human Resources
 description: Þessi grein svarar algengum spurningum um flutning Microsoft Dynamics 365 Human Resources til fjármála og rekstrar sameinaðs innviða.
 author: twheeloc
 ms.date: 07/06/2022
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a6f883da07bd1d3a6b0379f1582dc8556e166ff
-ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
+ms.openlocfilehash: 0e11d26ebe084762a8616c8aa0aa041a87306473
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151097"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734359"
 ---
 # <a name="human-resources-customer-migration"></a>Flutningur mannauðs viðskiptavina
 
@@ -40,7 +40,7 @@ Viðskiptavinir sem nota önnur öpp á fjármála- og rekstrarinnviðum munu ha
 Umskiptin fyrir hvert fyrirtæki munu ráðast af núverandi uppsetningu þess fyrirtækis og reiðubúinn til að fara yfir í fjármála- og rekstrarinnviði. Við mælum með því að viðskiptavinir vinni með Microsoft samstarfsaðila sínum til að ákvarða bestu leiðina áfram.
 
 - Samtök sem nota **Mannauður** mát í Dynamics 365 Finance mun geta virkjað nýja möguleika frá Dynamics 365 Human Resources sem hluti af venjulegu One Version uppfærsluferli. Stefnt er að því að nýir eiginleikar verði almennt fáanlegir frá og með janúar 2022.
-- Samtök sem nota Dynamics 365 Human Resources munu hafa aðgang að verkfærum sem þeir geta notað til að ljúka samruna innviða. Microsoft mun vinna með viðskiptavinum við umskiptin til að koma í veg fyrir truflun á þjónustu. Viðskiptavinir munu hafa 12 til 18 mánuði til að gera umskiptin, frá þeim tíma þegar flutningstækin verða tiltæk.
+- Samtök sem nota Dynamics 365 Human Resources munu hafa aðgang að verkfærum sem þeir geta notað til að ljúka samruna innviða. Microsoft mun vinna með viðskiptavinum við umskiptin til að koma í veg fyrir truflun á þjónustu. Viðskiptavinir munu hafa 12 mánuði til að gera umskiptin, frá þeim tíma þegar flutningstækin verða tiltæk.
 - Samtök sem nota bæði Dynamics 365 Human Resources og **Mannauður** mát getur fært sjálfstæða mannauðsinnviði yfir á fjármála- og rekstrarinnviði. Annar valkostur er að nota samrunaverkfærin til að koma umhverfinu í eitt umhverfi. Það er engin krafa eða tímarammi fyrir sameiningu þessara tveggja umhverfi.
 
 Til að fá uppfærðar upplýsingar skaltu skoða reglulega [Gefa út áætlanir](/dynamics365/release-plans/).
@@ -67,7 +67,7 @@ Núverandi Dataverse sameining á milli Dynamics 365 Human Resources og Datavers
 
 Viðskiptavinir þurfa að flytja í sandkassaumhverfi áður en þeir flytja framleiðsluumhverfi sitt. Þegar viðskiptavinir flytja sandkassaumhverfi sitt verða þeir að búa til afrit af því Dataverse umhverfi til að tengjast nýju fjármála- og rekstrarumhverfinu. Við mælum með því að viðskiptavinur afriti bæði gögnin og lausnirnar fyrir umhverfið, þannig að þær passi við núverandi framleiðsluumhverfi viðskiptavinarins.
 
-Þegar viðskiptavinir eru tilbúnir til að flytja framleiðslu sína Dynamics 365 Human Resources umhverfi mun Microsoft sjálfkrafa flytja gagnagrunninn og Azure Blob geymsluna. Flutti gagnagrunnurinn og geymslan mun vísa nýju umhverfi fjármála- og rekstrarinnviða á sömu framleiðslu Dataverse umhverfi. Áður en hægt er að halda áfram að afrita gögnin til Dataverse, viðskiptavinir verða að virkja öll tvískrifa kort sem eru nauðsynleg fyrir samþættingu þeirra, viðbætur og ISV lausnir sem eru byggðar á Dataverse.
+Þegar viðskiptavinir eru tilbúnir til að flytja framleiðslu sína Dynamics 365 Human Resources umhverfi mun Microsoft sjálfkrafa flytja gagnagrunninn og Azure Blob geymsluna. Flutti gagnagrunnurinn og geymslan mun vísa nýju umhverfi fjármála- og rekstrarinnviða á sömu framleiðslu Dataverse umhverfi. Áður en hægt er að halda áfram að afrita gögnin til Dataverse, munu viðskiptavinir þurfa að virkja öll tvöfalt skrif kort sem eru nauðsynleg fyrir samþættingu þeirra, viðbætur og ISV lausnir sem eru byggðar á Dataverse.
 
 ## <a name="will-microsoft-power-platform-components-that-were-built-for-dynamics-365-human-resources-automatically-work-after-the-infrastructure-migration-is-completed"></a>Will Microsoft Power Platform íhlutir sem voru smíðaðir fyrir Dynamics 365 Human Resources vinna sjálfkrafa eftir að innviðaflutningi er lokið?
 
@@ -93,7 +93,7 @@ Já, verkflæðisstillingar, verkflæðisferill og núverandi verkflæði í vin
 
 Já, vistaðar skoðanir verða fluttar yfir í sameinaða innviðina.
 
-## <a name="will-features-that-are-enabled-in-dynamics-365-human-resources-automatically-be-available-after-the-infrastructure-merge"></a>Mun eiginleikar sem eru virkir í Dynamics 365 Human Resources verða sjálfkrafa tiltækar eftir sameiningu innviða?
+## <a name="will-features-that-are-enabled-in-dynamics-365-human-resources-automatically-be-available-after-the-infrastructure-merge"></a>Vilja eiginleikar sem eru virkir í Dynamics 365 Human Resources verða sjálfkrafa tiltækar eftir sameiningu innviða?
 
 - Fyrir viðskiptavini sem nota **Mannauður** mát, eiginleikar sem eru aðeins fáanlegir í Dynamics 365 Human Resources verður stjórnað í gegnum eiginleikastjórnun. Venjulega verða þessir eiginleikar ekki virkjaðir sjálfgefið. Allir eiginleikar sem verða að vera virkjaðir sjálfgefið verða skjalfestir.
 - Fyrir viðskiptavini sem nota Dynamics 365 Human Resources, eiginleikar verða fáanlegir í innviðunum. Allir eiginleikar sem eru ekki tiltækir verða skjalfestir. Sérhver eiginleikastjórnunarlykill sem er virkur í núverandi Dynamics 365 Human Resources umhverfi verður gert kleift í sameinuðum innviðum. Frekari upplýsingar er að finna í [Eiginleikastjórnunaryfirlit](/fin-ops/get-started/feature-management-overview.md).
@@ -119,11 +119,11 @@ Viðskiptavinir geta tengt mörg fjármála- og rekstrarumhverfi við sama gagna
  
 ## <a name="what-migration-will-be-required-if-a-customer-is-currently-using-the-human-resources-module"></a>Hvaða flutnings verður krafist ef viðskiptavinur er að nota mannauðseininguna?
 
-Viðskiptavinir sem nota **Mannauður** eining mun hafa nýja eiginleika virkni frá Dynamics 365 Human Resources beitt á umhverfi sitt með stöðluðu One Version uppfærsluferli. Viðskiptavinir geta búist við að sjá nýja virknina í umhverfi sínu þegar hún verður aðgengileg í hverri uppfærslu. Viðskiptavinir geta notað eiginleikastjórnun til að virkja eiginleikana. Viðskiptavinir ættu að skipuleggja að staðfesta þessa nýju eiginleika með því að nota ferlana sem þeir hafa þegar til staðar og nota til að sannreyna aðrar uppfærslur á umhverfi sínu.
+Viðskiptavinir sem nota **Mannauður** eining mun hafa nýja eiginleika virkni frá Dynamics 365 Human Resources beitt á umhverfi sitt með stöðluðu One Version uppfærsluferlinu. Viðskiptavinir geta búist við að sjá nýju virknina í umhverfi sínu þegar þeir verða fáanlegir í hverri uppfærslu. Viðskiptavinir geta notað eiginleikastjórnun til að virkja eiginleikana. Viðskiptavinir ættu að skipuleggja að staðfesta þessa nýju eiginleika með því að nota ferlana sem þeir hafa þegar til staðar og nota til að sannreyna aðrar uppfærslur á umhverfi sínu.
 
 ## <a name="what-will-happen-to-custom-integrations-to-external-systems"></a>Hvað verður um sérsniðnar samþættingar við ytri kerfi?
 
-Viðskiptavinir verða að flytja samþættingu sína yfir í fjármála- og rekstrarumhverfi. Þar sem endapunktur þessa umhverfis er annar gætu viðskiptavinir þurft að uppfæra eða breyta samþættingunum þannig að þær bendi á nýja umhverfið. Þetta verkefni verður fyrst og fremst handvirkt ferli og þær breytingar sem þarf fara eftir arkitektúr samþættingarinnar. Viðskiptavinir ættu að vinna með Microsoft samstarfsaðila sínum til að ákvarða bestu nálgunina til að flytja samþættingar.
+Viðskiptavinir verða að flytja samþættingar sínar yfir í fjármála- og rekstrarumhverfið. Þar sem endapunktur þessa umhverfis er annar gætu viðskiptavinir þurft að uppfæra eða breyta samþættingunum þannig að þær bendi á nýja umhverfið. Þetta verkefni verður fyrst og fremst handvirkt ferli og þær breytingar sem þarf fara eftir arkitektúr samþættingarinnar. Viðskiptavinir ættu að vinna með Microsoft samstarfsaðila sínum til að ákvarða bestu aðferðina til að flytja samþættingar.
 
 ## <a name="what-will-happen-to-microsoft-power-platform-dataverse-extensions-if-customers-merge-a-dynamics-365-human-resources-environment-with-an-existing-finance-and-operations-environment"></a>Hvað verður um Microsoft Power Platform (Dataverse) viðbætur ef viðskiptavinir sameinast a Dynamics 365 Human Resources umhverfi með núverandi fjármála- og rekstrarumhverfi?
 
@@ -166,4 +166,4 @@ Microsoft er enn að skilgreina hvaða verkfæri og úrræði verða tiltæk fr�
 
 ## <a name="licensing-impact"></a>Áhrif á leyfisveitingar
 
-Fyrir frekari upplýsingar um hvernig leyfisveiting hefur áhrif, sjá [Dynamics 365 Human Resources Algengar spurningar um sameiningu innviða](hr-infrastructure-merge-faq.md#licensing-impact).
+Fyrir frekari upplýsingar um hvernig leyfisveiting hefur áhrif, sjá [Dynamics 365 Human Resources sameining innviða](hr-infrastructure-merge.md#licensing).

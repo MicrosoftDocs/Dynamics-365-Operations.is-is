@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905864"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725482"
 ---
 # <a name="manage-voyages"></a>Stjórna ferðum
 
@@ -29,7 +29,8 @@ Ferð stendur yfirleitt fyrir skip. Það fer hins vegar eftir þínum starfshá
 Á síðunni **Allar ferðir** er að finna upplýsingar um ferð, afhendingu og kostnað og upplýsingar um vörur, innkaupapantanir og flutningspantanir. Til að opna síðuna **Allar ferðir** skal fara í **Heildarkostnaður \> Ferðir \> Allar ferðir**. Þessi síða sýnir lista yfir allar núverandi ferðir. Hægt er að nota hnappana á aðgerðasvæðinu til að stofna, eyða eða vinna með ferðir. Veljið hvaða ferð sem er á listanum til að skoða upplýsingar um hana.
 
 > [!NOTE]
-> Flutningsgámar og fólíó eru tengd við ferð. Innkaupalínur eru tengdar við flutningsgám. Ef slökkt er á flutningsgámum og fólíó er einnig hægt að tengja þau beint við ferð. Auk þess er kostnaði sem færður er inn hér skipt niður á allar viðhengdar innkaupalínur.
+> Flutningsgámar og fólíó eru tengd við ferð. Innkaupalínur eru tengdar við flutningsgám. Auk þess er kostnaði sem færður er inn hér skipt niður á allar viðhengdar innkaupalínur.
+> Innkaupapöntun verkefnis er ekki studd í landaðan kostnað.
 
 ## <a name="action-pane"></a>Aðgerðasvæði
 

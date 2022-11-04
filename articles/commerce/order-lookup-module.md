@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 8c60ed0c334bf09916dd633302c6d813ea6f16b6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a891de4a1da6641a02b8316d16ac2e9a8180fac1
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281455"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734252"
 ---
 # <a name="order-lookup-module"></a>Uppflettieining pantana
 
@@ -44,6 +44,12 @@ Eftirfarandi mynd sýnir dæmi um skjámyndina sem uppflettieining pöntunar set
 ## <a name="add-an-order-lookup-module-to-a-page"></a>Bæta uppflettieiningu pantana við síðu
 
 Hægt er að bæta uppflettieiningu pantana við meginmál hvaða síðu sem er á vefsvæði rafrænna viðskipta. Ef þú vilt nota uppflettieiningu pantana til að virkja uppflettingu pantana fyrir greiðsluferli gesta skaltu ganga úr skugga um að bæta henni við síðu sem krefst þess ekki að notandinn skrái sig inn. Til að finna stillinguna **Krefst innskráningar?** á síðu trjáyfirlits í vefsmið rafrænna viðskipta skal velja hólfið **Sjálfgefin síða (áskilið)** og kíkja neðst á svæðið hægra megin.
+
+
+> [!NOTE]
+> Til að virkja pöntunarleitareiginleikann skaltu ganga úr skugga um að **Tilvitnanir** lykill er virkjaður undir **Leyfisstillingar** > **Stillingarlyklar**.
+>
+> ![Stillingar leyfislykla tilboða verða að vera virkjaðar](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b409017407ce1c027184bdc2292197840c61e04a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906154"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725444"
 ---
 # <a name="manage-shipping-containers"></a>Stjórna gámum
 
@@ -40,9 +40,9 @@ Eftirfarandi tafla lýsir hnöppunum sem eru í boði í flipanum **Stjórna** �
 
 | Hnappur | Lýsingar |
 |---|---|
-| Bóka innhreyfingalista | Bókið innhreyfingaskjal eða skoðið innhreyfingarskjöl afurða fyrir allar innkaupapöntunarlínur í gámnum. Ef sendingar margra fyrirtækja eru notaðar opnast nýr svargluggi fyrir bókun innhreyfingaskjals fyrir hvert fyrirtæki. |
+| Bóka innhreyfingalista | Bókið innhreyfingaskjal eða skoðið innhreyfingarskjöl afurða fyrir allar innkaupapöntunarlínur í gámnum.  |
 | Bóka innhreyfingarskjal afurða | Bóka innhreyfingarskjal fyrir allar innkaupapantanalínur í gáminum. |
-| Bóka reikning | Bókið reikning fyrir allar innkaupapöntunarlínur í gámnum. Ef sendir margra fyrirtækja eru notaðar opnast nýr svargluggi fyrir bókun reiknings fyrir hvert fyrirtæki. |
+| Bóka reikning | Bókið reikning fyrir allar innkaupapöntunarlínur í gámnum.  |
 | Senda flutningspöntun | Bókið sendingu flutningspöntunar fyrir allar flutningspöntunarlínur gámsins. Aðeins þær línur í gámnum sem eru af gerð flutningspöntunar birtast í svarglugganum. |
 | Taka á móti flutningspöntun | Bókið móttöku flutningspöntunar fyrir allar flutningspöntunarlínur gámsins. Svargluggi móttökunnar er einfaldasta leiðin til að taka á móti vörum í gámi eða ferð og er einn af þremur mögulegum leiðum. Einnig er hægt að taka á móti í gegnum komubækur eða úrvinnslu fartækis. |
 | Stofna komubók | Hægt er að mynda komubók fyrir fyrirtæki með því að nota ítarlega vöruhúsaeiginleika. Valkostirnir eru _Frumstilla magn_ (ráðlagt) og annaðhvort _Stofna úr vörum í flutningi_ eða _Stofna úr innkaupapöntunum_. Síðustu tveir valkostirnir eru háðir því hvort verið er að nota vörur í flutningi. |
@@ -56,7 +56,7 @@ Eftirfarandi tafla lýsir hnöppunum sem eru í boði í flipanum **Almennt** á
 
 | Hnappur | Lýsingar |
 |---|---|
-| Komulisti | Bókið innhreyfingaskjal fyrir allar innkaupapöntunarlínur gáminum. Ef ferðir margra fyrirtækja eru notaðar opnast nýr svargluggi fyrir bókun innhreyfingaskjals fyrir hvert fyrirtæki. |
+| Komulisti | Bókið innhreyfingaskjal fyrir allar innkaupapöntunarlínur gáminum.  |
 | Innhreyfingarskjal afurða | Skoðið færslu innhreyfingarskjals afurðar ef það er notað. Ferli innhreyfingarskjals verður aðeins notað ef vörurnar nota ekki virkni vöruflutninga. |
 | Vörumóttaka | Skoðið komubók vörunnar fyrir gáminn ef sú færslubók er notuð. |
 | Leggir | Leggir eru notaðir til að auðkenna aðskilda hluta ferðar. Hægt er að tengja afhendingartíma við hvern legg til að aðstoða við rakningu sendingar. Frekari upplýsingar er að finna í [Uppsetning ferðar með mörgum leggjum](multi-leg-journey-setup.md). |

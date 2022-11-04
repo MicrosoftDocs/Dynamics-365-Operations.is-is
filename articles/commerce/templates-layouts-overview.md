@@ -2,7 +2,7 @@
 title: Yfirlit yfir sniðmát og útlit
 description: Þessi grein fjallar um sniðmát og skipulag í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 12/12/2019
+ms.date: 10/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0664dd1ae06d09557cf8b8ec58baf6d27c1198bd
+ms.sourcegitcommit: 023ae5557e1351a8329a59a41a551e8901db99a8
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277934"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9733385"
 ---
 # <a name="templates-and-layouts-overview"></a>Yfirlit yfir sniðmát og útlit
 
@@ -66,7 +66,13 @@ Sniðmátið í þessu dæmi skilgreinir einfalda uppbyggingu og mengi valkosta 
 
 Mikilvægt upphafsskref fyrir umsjónarmenn vefsvæða og vörumerkis er að ákvarða rétt jafnvægi milli takmarkana og sveigjanleika fyrir undirskipulag og síðuhöfunda. Þegar sniðmát eru notuð er þetta jafnvægi algerlega stillanlegt. Það hefur áhrif á hvort síðuþættir eru miðlægt uppfærðir (læstir í sniðmátinu) eða látnir eftir einstöka undirstigum sem eru neðar í síðustigveldinu.
 
-Til að byrja að nota sniðmát, [Vinna með sniðmát](work-with-templates.md).
+### <a name="relationship-between-template-defaults-and-page-content"></a>Tengsl milli sjálfgefna sniðmáts og innihalds síðunnar
+
+Aðalhlutverk sniðmáts er að hagræða höfundarupplifun eininga þegar síða er búin til. Jafnvel þegar sjálfgefnar einingastillingar eru stilltar, eða jafnvel læstar, í sniðmáti, er engin frekari gagnatenging frá einingastillingum síðu til sjálfgefna sniðmátsins, nema þegar síðunni er breytt. Sniðmát stjórna höfundarupplifuninni fyrir síðuuppbyggingu og eftir að síða er búin til eru sjálfgefna sniðmátsstillingarnar ekki lengur tengdar við staðfæranlegt efni á þeirri síðu. Með öðrum orðum, sjálfgildi einingarinnar sem eru stillt í sniðmáti stjórna höfundarupplifuninni fyrir undirsíður. Þeir stjórna ekki efninu á þessum síðum eftir að síðurnar eru búnar til og þeim breytt.
+
+Eina undantekningin frá áður lýstri hegðun á sér stað þegar a [brot](work-with-fragments.md) er bætt við sniðmát. Hægt er að nota brot til að bæta við eða breyta staðbundnu efni á öllum undirsíðum sniðmáts eða útlits hvenær sem er, jafnvel eftir að margar síður hafa verið búnar til úr tilteknu sniðmáti. Það er best að nota brot í sniðmátum og útliti þegar staðfæranlegt efni ætti að vera virkt bætt við, fjarlægt eða breytt á öllum undirsíðum. Til dæmis ætti að nota brot fyrir hausa, fóta, algeng lýsigögn/forskriftir eða annað efni sem verður að vera miðlægt breytanlegt og það sama á öllum undirsíðum. Brot veita leið til að nota sniðmát og útlit til að stjórna efni á öllum undirsíðum.
+
+Til að byrja að nota sniðmát, sjá [Vinna með sniðmát](work-with-templates.md).
 
 ## <a name="layouts"></a>Útlit
 
@@ -96,7 +102,7 @@ Skipulag á vefsvæðinu getur verið annaðhvort *forstillt* eða *sérsniðið
 
 Forstillta skipulag og sérsniðnar skipulag er breytt í mismunandi hlutum höfundatækjasafnsins. Vegna þess að sérsniðið skipulag er ekki háð öðrum síðum er þeim breytt beint í ritlinum. Í þessu tilfelli er tilvist skipulags að mestu gegnsæ fyrir notandann og birtist aðeins í eiginleikum á síðustigi og með aðgerðum fyrir skipulagsvalkosti. Vegna þess að breytingar á forstilltu skipulagi geta haft áhrif á margar yfirsíður verður að breyta þeim í ritstjóraritlinum, þar sem birtar aðgerðir líta svo á að öll áhrif neðri hluta undirsíðna séu.
 
-Eftirfarandi myndir sýna atburðarás fyrir forstillt og sérsniðið skipulag.
+Eftirfarandi mynd sýnir aðstæður fyrir forstillt og sérsniðið skipulag.
 
 ![Forstilltar og sérsniðnar skipulagsaðstæður.](../commerce/media/template-figure1.png)
 
