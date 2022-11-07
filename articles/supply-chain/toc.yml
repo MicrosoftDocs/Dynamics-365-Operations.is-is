@@ -2239,6 +2239,16 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: Setja upp reglur fyrir stigveldi innkaupategunda
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: Áhættumat framboðs
+              items:
+                - name: Yfirlit áhættumats fyrir framboð
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: Skilgreina áhættumat framboðs
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: Vinnusvæði með valkostum til að skoða og meðhöndla áhættu birgja
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: Power BI skýrslur fyrir áhættugreiningu og frammistöðueinkunn
+                  href: procurement/supply-risk-assessment-reports.md
             - name: Innhreyfingarskjal og reikningsfærsla
               items:
                 - name: Innhreyfingarskjal jafnað við innkaupapantanir

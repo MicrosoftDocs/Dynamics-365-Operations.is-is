@@ -256,8 +256,6 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Nútímavæðing tæknistafla verslunar fyrir Commerce (hvítbók)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Innleiðing og úrræðaleit Commerce utan nets
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Birta vörulista netverslunar
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Retail Channel Performance Power BI efni
@@ -396,12 +394,16 @@
                   items:
                     - name: Store Commerce-forrit
                       href: dev-itpro/store-commerce.md
+                    - name: Store Commerce-forritseiginleikar
+                      href: store-commerce-capabilities.md
                     - name: Store Commerce-forrit fyrir farsímaverkvanga
                       href: dev-itpro/store-commerce-mobile.md
                     - name: Sameina Modern POS við Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Leiðbeiningar við innleiðingu tækjastjórnunar
                       href: implementation-considerations-devices.md
+                    - name: Innleiðing og úrræðaleit Commerce utan nets
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: Veldu á milli Store Commerce og sölukerfis í skýinu
                       href: MPOS-or-CPOS.md
                     - name: Aðgerðir sölustaðar á neti og utan nets

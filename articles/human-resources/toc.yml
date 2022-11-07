@@ -4,6 +4,18 @@
       items:
         - name: Dynamics 365 Human Resources upphafssíða
           href: index.md
+        - name: Samþætting innviða í Human Resources
+          items:
+            - name: Yfirlit yfir samþættingu innviða í Human Resources
+              href: hr-infrastructure-merge.md
+            - name: Flutningur viðskiptavina í innviðum Human Resources
+              href: hr-cust-migration.md
+            - name: Algengar spurningar um samþættingu innviða í Human Resources
+              href: hr-infrastructure-merge-faq.md
+            - name: Algengar spurningar um flutning viðskiptavinar í Human Resources
+              href: customer-migration.md
+            - name: Þekkt vandamál í samþættingu innviða í Human Resources
+              href: hr-migration-issues.md
         - name: Nýjungar eða breytingar
           items:
             - name: Nýjungar eða breytingar í fjármála- og rekstrarforritum
@@ -242,10 +254,6 @@
                   href: hr-admin-go-live-prepare.md
                 - name: Algengar spurningar um keyrslu
                   href: hr-admin-go-live-faq.md
-                - name: Algengar spurningar um samþættingu tölvukerfa í Human Resources
-                  href: hr-infrastructure-merge-faq.md
-                - name: Algengar spurningar um flutning viðskiptavinar í Human Resources
-                  href: customer-migration.md
                 - name: Fylgigagnatilföng
                   items:
                     - name: Hjálparkerfi

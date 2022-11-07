@@ -334,12 +334,16 @@
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: Algengar spurningar um uppsetningu
                       href: deployment/deploymentFAQ.md
+                    - name: Yfirfæra umhverfi
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Þekkt vandamál með sjálfsafgreiðslu uppsetningar
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: Viðhaldsaðgerðir fyrir uppsetningu
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Uppfæra umhverfi
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: Yfirfæra umhverfi
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Úrræðaleit fyrir umhverfi sem sett eru upp með sjálfsafgreiðslu uppsetningar
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Algengar spurningar um áætlað viðhald í sjálfsafgreiðsluumhverfi
@@ -972,13 +976,15 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: Innleiðing verks
               href: lifecycle-services/project-onboarding.md
+            - name: Flutningsstjórnun verka
+              href: lifecycle-services/project-migration-manager.md
             - name: Áskriftaráætlun
               href: lifecycle-services/subscription-estimator.md
             - name: Skilgreina öryggi
               href: lifecycle-services/configure-lcs-security.md
             - name: Vandamálaleit
               href: lifecycle-services/issue-search-lcs.md
-            - name: Skilgreiningarstjórnun
+            - name: Skilgreiningastjórnun
               items:
                 - name: Yfirlit skilgreiningarstjórnunar
                   href: lifecycle-services/configuration-manager-lcs.md

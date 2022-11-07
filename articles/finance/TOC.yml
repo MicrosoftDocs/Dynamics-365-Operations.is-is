@@ -692,20 +692,14 @@
               items:
                 - name: Uppsetningarferli ítarlegrar bankaafstemmingar
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Uppsetning innflutningsferlis ítarlegrar bankaafstemmingar
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: Uppsetning innflutningsferlis ítarlegrar bankaafstemmingar með rafrænni skýrslugerð
                   href: accounts-payable/import-bai2-er.md
                 - name: Uppsetning samsvörunarreglna bankaafstemmingar
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Afstemming bankayfirlits með ítarlegri bankaafstemmingu
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Innflutningur ítarlegrar bankaafstemmingar MT940 – uppfærsla samsettrar gagnaeiningar
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: Ítarlegt bankaafstemmingaryfirlit
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Úrræðaleit vegna innflutnings bankayfirlitsskrár
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Uppfærsla samsettrar einingar bankafærslubókar
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Kostnaðarbókhald
