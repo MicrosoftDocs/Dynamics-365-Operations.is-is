@@ -1,6 +1,6 @@
 ---
 title: Öryggismörk
-description: Þessi grein lýsir því hvernig hægt er að nota öryggismörk með skipulagsfínstillingarviðbótinni fyrir Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir því hvernig öryggismörk virka við aðalskipulag.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335196"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740442"
 ---
 # <a name="safety-margins"></a>Öryggismörk
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig hægt er að nota öryggismörk með skipulagsfínstillingarviðbótinni fyrir Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein lýsir því hvernig öryggismörk virka við aðalskipulag.
 
 ## <a name="safety-margins-overview"></a>Yfirlit yfir öryggismörk
 
@@ -165,12 +165,5 @@ Allar þrjár gerðir öryggismarka eru höfð með þegar kerfið ákveður hvo
 Til dæmis er vara með afhendingartíma upp á einn dag og innhreyfingarmörk upp á þrjá daga. Sölupöntun fyrir þessa vöru er stillt eins og krafist í dag. Í slíku tilfelli er töfin reiknuð sem *afhendingartími* + *mörk innhreyfinga* = fjórir dagar. Þess vegna, ef í dag er 14. ágúst, leiðir fjögurra daga töf til afhendingar þann 18. ágúst. Eftirfarandi mynd sýnir þetta dæmi.
 
 ![Dæmi um útreikning á töfum.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>Frekari upplýsingar
-
-[Hafist handa með fínstillingu áætlanagerðar](get-started.md)
-
-[Samræmisgreining á fínstillingu áætlanagerðar](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

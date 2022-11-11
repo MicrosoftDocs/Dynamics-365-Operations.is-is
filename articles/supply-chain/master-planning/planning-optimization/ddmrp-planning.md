@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: f1e2cfca47d507c8de7f9323bb8e4262a0e90949
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 8ba9a6d24923b66259bc8b6cc688ec667cb000de
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689160"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740303"
 ---
 # <a name="demand-driven-planning"></a>Eftirspurnarstýrð áætlanagerð
 
@@ -34,7 +34,7 @@ Við aðalskipulag beitir kerfið hugmyndinni um *nettóflæði* til að ákvar�
 
 Þegar skipulögð pöntun er ræst í áætlunarkeyrslu verður pantað magn hámarksstig að frádregnum nettóflæði. Til að úthluta pöntunarforgangi notar kerfið [forgangsmiðaða áætlanagerð](priority-based-planning.md) virkni í stað kröfudagsetningar. Eftirspurnardrifin efnisþörf áætlanagerð (DDMRP) úthlutar forgangi áætlaðrar pöntunar byggt á pöntuðu magni sem hlutfall af hámarksbirgðum. Í fyrri myndinni er pantað magn 53 prósent af hámarksmagni. Þess vegna verður pöntunarforgangur fyrir áfyllingu 53. (Fyrir samhengi er 0 hæsti forgangurinn og 100 er lægstur.)
 
-*Hæfð eftirspurn* er gjaldfallin eftirspurn, plús eftirspurn í dag, plús hækkuð pöntunarhækkanir í framtíðinni. Eftirfarandi mynd sýnir dæmi um eftirspurnarstig í dag (12. júní) og næstu þrjá daga. DDMRP gerir þér kleift að stilla pöntunarhámarksþröskuld til að bera kennsl á eftirspurn sem er umfram eðlilegar væntingar. Ef þröskuldurinn er stilltur á 25 stykki, munu tvær af framtíðardagsetningunum sem sýndar eru á myndinni gilda sem pöntunarauka. Þú verður að úthluta pöntunarhámarksþröskuldi fyrir hverja vöru fyrir sig með því að nota hana **Vöruumfjöllun** síðu, eins og lýst er í [Settu upp biðminni fyrir hlut aftengingarpunkts](ddmrp-buffer-profile-and-levels.md#set-up-buffers).
+*Hæfð eftirspurn* er gjaldfallin eftirspurn, plús eftirspurn í dag, plús hækkuð pöntunarhækkanir í framtíðinni. Eftirfarandi mynd sýnir dæmi um eftirspurnarstig í dag (12. júní) og næstu þrjá daga. DDMRP gerir þér kleift að stilla pöntunarhámarksþröskuld til að bera kennsl á eftirspurn sem er umfram venjulegar væntingar. Ef þröskuldurinn er stilltur á 25 stykki, munu tvær af framtíðardagsetningunum sem sýndar eru á myndinni gilda sem pöntunarauka. Þú verður að úthluta pöntunarhámarksþröskuldi fyrir hverja vöru fyrir sig með því að nota hana **Vöruumfjöllun** síðu, eins og lýst er í [Settu upp biðminni fyrir hlut aftengingarpunkts](ddmrp-buffer-profile-and-levels.md#set-up-buffers).
 
 ![Dæmi um hæft útreikningstöflu fyrir eftirspurn.](media/ddmrp-net-qualified-demand-example.png "Dæmi um hæft útreikningstöflu fyrir eftirspurn")
 
@@ -55,4 +55,4 @@ Ef þú keyrir aðaláætlanagerð núna mun það búa til áætlaða pöntun e
 Þetta dæmi framleiðir áætlaða innkaupapöntun fyrir magnið 130, sem jafngildir hámarksstigi mínus nettóflæði. Fyrirhugaðri pöntun er úthlutað forgangi 53,07, miðað við hlutfall hennar af hámarksmagni. Vegna þess að þessi gildi fundust 20. júní, býr kerfið til áætlaða pöntun sem er dagsett 20. júní auk aftengdra afgreiðslutíma vörunnar (fimm virkir dagar í þessu dæmi). Því vegna þess að fimm virkir dagar eru ein vika frá deginum í dag er fyrirhuguð pöntun dagsett 27. júní.
 
 > [!NOTE]
-> Áætlanagerð fínstilling reiknar aðeins aftengda hluti með því að nota DDMRP. Allir aðrir hlutir eru reiknaðir út með því að nota staðlaða áætlanagerð um efniskröfur (MRP).
+> Aðalskipulag reiknar aðeins aftengda hluti með því að nota DDMRP. Allir aðrir hlutir eru reiknaðir út með því að nota staðlaða áætlanagerð um efniskröfur (MRP).

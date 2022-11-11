@@ -2,19 +2,19 @@
 title: Lén í Dynamics 365 Commerce
 description: Þessi grein lýsir því hvernig lén eru meðhöndluð í Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/09/2022
+ms.date: 11/08/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
-ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
+ms.openlocfilehash: f1a2de7984aad7d291b8a4dc68f5690d57ebe6cc
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "9465194"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750681"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Lén í Dynamics 365 Commerce
 
@@ -29,7 +29,7 @@ Lén eru vefföng sem eru notuð til að fara á Dynamics 365 Commerce-vefsvæð
 
 ## <a name="provisioning-and-supported-host-names"></a>Úthlutun og studd hýsilheiti
 
-Þegar verið er að úthluta rafrænu viðskiptaumhverfi í [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/), er kassinn **Studd lénsheiti** í úthlutunarskjámynd rafrænna viðskipta notaður til að færa inn lén sem munu tengjast uppsettu viðskiptaumhverfi. Þessi lén verða DNS-heiti sem snúa að viðskiptavinum þar sem vefsvæði rafrænna viðskipta verða hýst. Að færa inn lén á þessu stigi setur ekki af stað umferð inn á lénið á Dynamics 365 Commerce. Umferð fyrir lén verður aðeins vísað á Commerce-endastöð þegar CNAME-færsla DNS er uppfærð til að nota Commerce-endastöðina með léninu.
+Þegar verið er að úthluta rafrænu viðskiptaumhverfi í [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/), er kassinn **Studd lénsheiti** í úthlutunarskjámynd rafrænna viðskipta notaður til að færa inn lén sem munu tengjast uppsettu viðskiptaumhverfi. Þessi lén verða DNS-heiti sem snúa að viðskiptavinum þar sem vefsvæði rafrænna viðskipta verða hýst. Að slá inn lén á þessu stigi byrjar ekki að beina umferð fyrir lénið í Dynamics 365 Commerce. Umferð fyrir lén verður aðeins vísað á Commerce-endastöð þegar CNAME-færsla DNS er uppfærð til að nota Commerce-endastöðina með léninu.
 
 > [!NOTE]
 > Hægt er að færa mörg lén inn í kassann **Studd hýsilheiti** með því að aðskilja þau með semíkommu.
@@ -44,7 +44,7 @@ Hægt er að stofna þjónustubeiðni til að bæta öðrum lénum við umhverfi
 
 Þegar rafrænu Dynamics 365 Commerce viðskiptaumhverfi er úthlutað, býr Commerce til vefslóð sem verður vinnuveffangið fyrir umhverfið. Vísað er í þessa vefslóð í tengli á rafræna viðskiptasvæðið í LCS þegar búið er að úthluta umhverfinu. Vefslóð sem Commerce myndar er á sniðinu `https://<e-commerce tenant name>.dynamics365commerce.ms`, þar sem biðlaraheiti rafrænna viðskipta er heitið sem fært er inn í LCS fyrir viðskiptaumhverfið.
 
-Einnig er hægt að nota hýsilheiti fyrir framleiðslusvæði í sandkassaumhverfi. Þessi möguleiki er tilvalinn þegar vefsvæði er afritað úr sandkassaumhverfi í framleiðslu.
+Einnig er hægt að nota hýsilheiti fyrir framleiðslusvæði í sandkassaumhverfi. Þessi valkostur er tilvalinn þegar þú ætlar að afrita síðu úr sandkassaumhverfi til framleiðslu.
 
 ## <a name="site-setup"></a>Uppsetning svæðis
 
@@ -85,7 +85,7 @@ Eftirfarandi mynd sýnir síðuna **Vefslóðir** í vefsmiðnum með auðkenndu
 
 ## <a name="domains-in-site-builder"></a>Lén í vefsmiðnum
 
-Gildi studdra hýsilheita eru í boði til að tengja sem lén þegar svæði er sett upp. Þegar gildi studds hýsilheitis er valið sem lénið, sérðu vísað í valið lén í gegnum vefsmiðinn. Þetta lén er aðeins tilvísun innan Commerce-umhverfisins, umferð í rauntíma fyrir þetta lén verður ekki framsent til Dynamics 365 Commerce sem stendur.
+Gildi studdra hýsilheita eru í boði til að tengja sem lén þegar svæði er sett upp. Þegar þú velur stutt hýsingarnafnsgildi sem lén muntu sjá valið lén sem vísað er til í vefsmiðjunni. Þetta lén er aðeins tilvísun innan viðskiptaumhverfisins, umferð í beinni fyrir það lén verður ekki enn framsend til Dynamics 365 Commerce.
 
 Þegar unnið er með svæði í vefsmið, ef þú ert með tvö svæði sett upp með tveimur mismunandi lénum, geturðu bætt eigindinni **?domain=** við virku vefslóðina til að opna efni birta vefsvæðisins í vafra.
 
@@ -93,19 +93,25 @@ Til dæmis hefur umhverfi „xyz“ verið úthlutað og tvö svæði hafa veri�
 - `https://xyz.dynamics365commerce.ms?domain=www.fabrikam.com`
 - `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
-Þegar fyrirspurnarstrengur léns er ekki gefinn í umhverfi með mörgum lénum, notar Commerce fyrsta lénið sem gefið er upp. Til dæmis, ef slóðin „fabrikam“ var gefin upp fyrst við uppsetningu vefsvæðið, væri hægt að nota vefslóðina `https://xyz.dynamics365commerce.ms` til að opna efni birta vefsvæðisins fyrir `www.fabrikam.com`.
+Þegar lénsfyrirspurnarstrengur er ekki gefinn upp í umhverfi með mörg lén, notar Commerce fyrsta lénið sem þú gafst upp. Til dæmis, ef slóðin „fabrikam“ var gefin upp fyrst við uppsetningu vefsvæðið, væri hægt að nota vefslóðina `https://xyz.dynamics365commerce.ms` til að opna efni birta vefsvæðisins fyrir `www.fabrikam.com`.
+
+Þú getur líka bætt við sérsniðnum lénum. Til að gera það, á umhverfisstjórnunarsíðunni fyrir verkefnið, undir **rafræn viðskipti** undirfyrirsögn, veldu **+ Bættu við sérsniðnu léni**. Rennistikan sýnir núverandi sérsniðin lén og gefur möguleika á að bæta við nýju sérsniðnu léni.
+
+## <a name="update-which-commerce-scale-unit-is-used"></a>Uppfærðu hvaða Commerce Scale Unit er notuð
+
+Commerce Scale Unit (CSU) sem Commerce notar er venjulega valin þegar umhverfi er upphaflega búið til. Commerce gerir þér kleift að breyta hvaða CSU-tilvik umhverfið þitt notar, sem gerir þér kleift að viðhalda arkitektúrnum þínum betur með sjálfsafgreiðsluvirkni og dregur úr þörfinni á að hafa samband við þjónustudeild. Til að uppfæra CSU tilvikið þitt skaltu fara á viðskiptastjórnunarsíðu umhverfisins þíns fyrir verkefnið og velja síðan **Uppfærðu mælikvarðaeiningu**. Nota **Ný verslunarkvarðaeining** renna til að velja nýtt CSU tilvik af listanum yfir CSU sem eru tiltækar fyrir umhverfið þitt.
 
 ## <a name="traffic-forwarding-in-production"></a>Framsend umferð í framleiðslu
 
 Hægt er að líkja eftir mörgum lénum með því að nota færibreytur fyrir fyrirspurnarstreng léns á endastöð commerce.dynamics.com. En þegar nauðsynlegt er að fara í framleiðslu í rauntíma þarf að framsenda umferðina fyrir sérsniðna lénið á endastöðina `<e-commerce tenant name>.dynamics365commerce.ms`.
 
-Endastöð `<e-commerce tenant name>.dynamics365commerce.ms` styður ekki sérsniðin SSL og þarf því setja upp sérsniðin lén með því að nota Front Door-þjónustu eða efnisbirtingarnet (CDN). 
+The`<e-commerce tenant name>.dynamics365commerce.ms` endapunktur styður ekki sérsniðið lén Secure Sockets Layers (SSL), svo þú verður að setja upp sérsniðin lén með því að nota útidyraþjónustu eða efnisafhendingarnet (CDN). 
 
 Til að setja upp sérsniðin lén með því að nota Front Door-þjónustu eða CDN, eru tveir möguleikar í boði:
 
-- Setjið upp Front Door-þjónustu á borð við Azure til að meðhöndla umferð framvinnslu og tengjast viðskiptaumhverfinu þínu. Þetta veitir meiri stjórn á léni og vottorðastjórnun og nákvæmari öryggisstefnur.
+- Settu upp útidyraþjónustu eins og Azure Front Door til að sinna framendaumferð og tengjast viðskiptaumhverfinu þínu, sem veitir meiri stjórn á léns- og vottorðastjórnun og nákvæmari öryggisstefnu.
 
-- Notið tilvik Azure Front Door sem Commerce útvegar. Þetta krefst þess að samhæfa aðgerð við Dynamics 365 Commerce-teymið fyrir sannprófun léns og að fá SSL-vottorð fyrir framleiðslulénið.
+- Notaðu Azure Front Door tilvikið sem fylgir Commerce, sem krefst samhæfingar aðgerða við Dynamics 365 Commerce teymi til að sannprófa lén og fá SSL vottorð fyrir framleiðslulénið þitt.
 
 > [!NOTE]
 > Ef þú ert að nota utanaðkomandi CDN eða útidyraþjónustu skaltu ganga úr skugga um að beiðnin lendi á Commerce pallinum með hýsingarheitinu sem Commerce hefur gefið upp, en með X-Forwarded-Host (XFH) hausnum \<custom-domain\>. Til dæmis, ef Commerce endapunkturinn þinn er`xyz.dynamics365commerce.ms` og sérsniðna lénið er`www.fabrikam.com`, hýsingarhaus framsendu beiðninnar ætti að vera`xyz.dynamics365commerce.ms` og XFH hausinn ætti að vera `www.fabrikam.com`.
@@ -114,10 +120,10 @@ Frekari upplýsingar um hvernig setja á upp CDN-þjónustu beint má finna í [
 
 Til að nota tilvik Azure Front Door sem Commerce útvegar, þarf að stofna þjónustubeiðni fyrir CDN-uppsetningaraðstoð úr innleiðingarteymi Commerce. 
 
-- Þú þarft að gefa upp heiti fyrirtækisins, framleiðslulénið, umhverfiskennið og biðlaraheiti rafrænna viðskipta framleiðslu. 
-- Þú þarft að staðfesta ef þetta er lén sem er til staðar (notað fyrir virkt vefsvæði) eða nýtt lén. 
+- Þú þarft að gefa upp nafn fyrirtækis þíns, framleiðslulén, auðkenni umhverfisins og heiti leigjanda fyrir rafræn viðskipti framleiðslu. 
+- Þú þarft að staðfesta hvort þessi þjónustubeiðni er fyrir núverandi lén (notað fyrir virka síðu) eða nýtt lén. 
 - Fyrir nýtt lén er hægt að ná í sannprófun á léni og SSL-vottorð í einu skrefi. 
-- Fyrir lén sem þjónar fyrirliggjandi vefsvæði, er ferli í mörgum skrefum nauðsynlegt til að framkvæma sannprófun léns og fá SSL-vottorð. Þetta ferli er með þjónustustigssamning sjö virkra daga til að gera lén virkt í rauntíma, því að í því felast mörg skref í ákveðinni röð.
+- Fyrir lén sem þjónar núverandi vefsíðu þarf margra þrepa ferli til að koma á lénsstaðfestingu og SSL vottorði. Þetta ferli er með þjónustustigssamning sjö virkra daga til að gera lén virkt í rauntíma, því að í því felast mörg skref í ákveðinni röð.
 
 Til að stofna þjónustubeiðni í LCS skaltu í umhverfinu þínu fara í **Stuðningur \> Vandamál varðandi stuðning** og velja **Senda inn tilvik**.
 
@@ -140,7 +146,7 @@ Fyrir núverandi/virk lén:
 
 ## <a name="apex-domains"></a>Apex-lén
 
-Tilvik Azure Front Door styður ekki apex-lén (rótarlén sem innihalda ekki undirlén). Apex lén þurfa IP tölu til að leysa og Commerce Azure Front Door tilvikið er aðeins til með sýndarendapunktum. Til að nota apex lén hefurðu eftirfarandi valkosti:
+Azure Front Door tilvikið sem fylgir Commerce styður ekki apex lén (rótarlén sem innihalda ekki undirlén). Apex lén þurfa IP tölu til að leysa og Commerce Azure Front Door tilvikið er aðeins til með sýndarendapunktum. Til að nota apex lén hefurðu eftirfarandi valkosti:
 
 - **Valkostur 1** - Notið DNS-veitu til að framsenda apex-lénið á „www“ lén. Fabrikam.com framsendir til dæmis `www.fabrikam.com` þar sem `www.fabrikam.com` er CNAME-færslan sem bendir á tilvik Azure Front Door sem Commerce hýsir.
 

@@ -2,7 +2,7 @@
 title: Setja greiðsluskilmála fyrir viðskiptavin
 description: Þetta ferli skilgreinir staðgreiðsluafslátt og uppsetning gjalddaga.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9b2ae5e63a2efb4bc913efa4d88c65a70133a2d9
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065709"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752777"
 ---
 # <a name="establish-customer-payment-terms"></a>Setja greiðsluskilmála fyrir viðskiptavin
 
@@ -34,12 +34,16 @@ ms.locfileid: "9065709"
 6. Í reitnum **Mánaðardagur** færið inn dagsetningu. Ætti að færa inn dagsetninguna sem tölu, til dæmis "10" og ekki sem ‚10.'. 
 7. Smellt er á **Vista**.
 8. Lokið síðunni.
-9. Farðu í **Skoðunarrúðu > Kerfiseiningar > Viðskiptakröfur > Greiðsluuppsetning > Greiðsluskilmálar**.
+9. Farðu í **Skoðunarrúðu > Kerfiseiningar > Viðskiptakröfur > Greiðsluuppsetning > Greiðsluskilmálar**. 
+
+>[!NOTE] 
+>Ef **Greiðsluskilmálar** er **Reiðufé**, hinn **Greiðsla í reiðufé** sviði á **Greiðsluskilmálar** síða verður að vera **Nei**.
+
 10. Smellt er á **Nýtt**. **Greiðsluskilmálar** er notað til að skilgreina hvernig gjalddagar verða reiknaðir. Uppsetning dagsetning staðgreiðsluafsláttar er skilgreind á sérstakri síðu. 
 11. Færið inn kenni í reitnum **Greiðsluskilmálar**.
 12. Í reitnum **Lýsing** skal færa inn lýsingu.
 13. Veldu a **Greiðslumáti** eins og **COD**, **·**, **mánuður**, osfrv **Greiðslumáti** er notað til að skilgreina upphaf þess hvernig gjaldfallið verður reiknað út. Til dæmis, **Nettó** er notað ef gjalddagi er alltaf ákveðinn fjöldi mánaða eða daga frá reikningsdegi. **COD** hægt að nota þegar greiðslu er krafist á reikningi, þannig að gjalddagi væri ekki reiknaður. Veldu **Núverandi mánuður** fyrir þessa verkefnaleiðbeiningar.  
-14. Veljið **greiðsludag** ef tiltekinn dagur, vika eða dagsetning eru tekin með í útreikningnum. Eftir greiðsluskilmála, má færa inn magn í Mánuðum eða Dögum. Eða þú getur notað **Greiðsluáætlun** eða **Greiðsludagur** að 'bæta við' í lokin á **Greiðslumáti**. Gjalddagi verður alltaf að vera 10. næsta mánaðar, veljið **greiðsludag** sem er þann 10. Ef þú ert að nota a **Greiðsludagatal**, er hægt að skilgreina hvernig gjalddagi er ákvarðaður þegar útreiknuð dagsetning lendir á óvirkum degi. Upphaflegur gjalddagi er reiknaður út frá almanaksdögum. Ef útreiknuð dagsetning lendir á óvirkum degi er hægt að breyta reiknuðum gjalddaga annað hvort að næsta virka degi eða fyrri virka degi.
+14. Veljið **greiðsludag** ef tiltekinn dagur, vika eða dagsetning eru tekin með í útreikningnum. Eftir greiðsluskilmála, má færa inn magn í Mánuðum eða Dögum. Eða þú getur notað **Greiðsluáætlun** eða **Greiðsludagur** að 'bæta við' í lokin á **Greiðslumáti**. Gjalddagi verður alltaf að vera 10. næsta mánaðar, veljið **greiðsludag** sem er þann 10. Ef þú ert að nota a **Greiðsludagatal**, er hægt að skilgreina hvernig gjalddagi er ákvarðaður þegar útreiknuð dagsetning lendir á óvirkum degi. Upphaflegur gjalddagi er reiknaður út frá almanaksdögum. Ef útreiknuð dagsetning lendir á óvirkum degi er hægt að breyta reiknuðum gjalddaga að annað hvort næsta virka dag eða fyrri virka dag.
 15. Smelltu á **Vista**.
 16. Lokið síðunni.
 17. Fara í **Viðskiptakröfur> Greiðsluuppsetning > Staðgreiðsluafsláttur**.

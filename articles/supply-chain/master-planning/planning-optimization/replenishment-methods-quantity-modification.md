@@ -1,6 +1,6 @@
 ---
 title: Áfyllingaraðferðir og magnbreyting
-description: Þessi grein veitir upplýsingar um áfyllingaraðferðir í áætlanagerð fínstillingu. Þar er einnig útskýrt hvernig margs konar pöntunarmagn fyrir afurð hefur áhrif á niðurstöðuna.
+description: Þessi grein veitir upplýsingar um áfyllingaraðferðir. Þar er einnig útskýrt hvernig margs konar pöntunarmagn fyrir afurð hefur áhrif á niðurstöðuna.
 author: t-benebo
 ms.date: 6/1/2021
 ms.topic: article
@@ -11,26 +11,26 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3e8ef3d38f1b9bacd89304aaf3f0350050232bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d1e0fe6c1f49bc0f6887f1b29118c1fee7a6222f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873696"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739757"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Áfyllingaraðferðir og magnbreyting
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um áfyllingaraðferðir í áætlanagerð fínstillingu. Þar er einnig útskýrt hvernig margs konar pöntunarmagn fyrir afurð hefur áhrif á niðurstöðuna.
+Þessi grein veitir upplýsingar um áfyllingaraðferðir. Þar er einnig útskýrt hvernig margs konar pöntunarmagn fyrir afurð hefur áhrif á niðurstöðuna.
 
 Áfyllingaraðferðir eru einnig þekktar sem þekjuaðferðir og lotustærðaraðferðir.
 
 ## <a name="coverage-codes"></a>Þekjukóðar
 
-Hægt er að stilla fínstillingu skipulagningar þannig að hún noti aðrar áfyllingaraðferðir. Áfyllingaraðferðir eru leið sem kerfið notar til að reikna út þarfir fyrir afurð. Áfyllingaraðferðir eru skilgreindar af þekjukóðum sem hægt er að setja upp í annaðhvort þekjuflokknum eða afurðinni.
+Hægt er að stilla aðalskipulagningu til að nota mismunandi áfyllingaraðferðir. Áfyllingaraðferðir eru leið sem kerfið notar til að reikna út þarfir fyrir afurð. Áfyllingaraðferðir eru skilgreindar af þekjukóðum sem hægt er að setja upp í annaðhvort þekjuflokknum eða afurðinni.
 
-Hægt er að nota eftirfarandi þekjukóða í fínstillingu skipulagningar:
+Hægt er að nota eftirfarandi þekjukóða:
 
 - **Tímabil** – Áfyllingaraðferðin sameinar alla eftirspurn fyrir tímabil í eina pöntun fyrir afurðina. Pöntunin verður áætluð fyrir fyrsta dag tímabilsins og magn hennar mun uppfylla nettóþarfir á settu tímabili. Tímabilið hefst á fyrstu eftirspurn eftir afurðinni og nær yfir skilgreinda tímalengd. Næsta tímabil hefst með næstu þörfum eftir afurðinni. Þekjukóði *tímabilsins* er oft notaður fyrir ófyrirsjáanlega birgðanotkun, árstíðabundnar afurðir eða dýrar afurðir. Eftirfarandi skýringarmynd sýnir dæmi.
 
@@ -64,13 +64,13 @@ Hægt er að nota eftirfarandi þekjukóða í fínstillingu skipulagningar:
 
 ## <a name="examples-of-replenishment-that-use-the-minmax-coverage-code"></a>Dæmi um áfyllingu sem notar hám./lágm. þekjukóði
 
-Ef ekkert gildi er tilgreint í reitnum **Margfeldi** fyrir afurð á síðunni **Sjálfgefin pöntunarstilling** og ef notuð er *Hám./lágm.* áfyllingaraðferðin mun fínstilling skipulagningar fylla á birgðirnar upp að tiltekinni stöðu þegar spáð lagerstaða er undir tilteknum þröskuldi.
+Ef ekkert gildi er tilgreint í reitnum **Margfeldi** fyrir afurð á síðunni **Sjálfgefin pöntunarstilling** og ef notuð er *Hám./lágm.* áfyllingaraðferð mun aðalskipulag endurnýja birgðahaldið upp að tilteknu stigi þegar spáð neyðarstig er undir tilteknum viðmiðunarmörkum.
 
 Ef skilgreint er meira en eitt magn fyrir afurð mun *Hám./lágm.* áfyllingaraðferðin breyta hegðun sinni og taka til greina gildið **Margfeldi**.
 
-Með öðrum orðum mun fínstilling skipulagningar ennþá fylla á birgðirnar upp að skilgreindri hámarksstöðu þegar spáð lagerstaða er minni en skilgreind lágmarksstaða. Hinsvegar verður áfyllingarmagnið að vera margfeldi af gildinu **Margfeldi**.
+Með öðrum orðum, aðaláætlanagerð mun samt fylla á birgðahaldið upp að skilgreindu hámarksstigi þegar spáð neyðarstig er minna en skilgreint lágmarksstig. Hinsvegar verður áfyllingarmagnið að vera margfeldi af gildinu **Margfeldi**.
 
-Ef áfyllingarmagnið (munurinn á hámarksstöðu og spáðri lagerstöðu) er ekki margfeldi af skilgreindu margfeldismagni, notar fínstilling skipulagningar fyrsta mögulega gildið sem, ásamt spáðri lagerstöðu, verður undir hámarksstöðunni. Ef samtalan er minni en lágmarksstaðan notar fínstilling skipulagningar fyrsta gildið sem, ásamt spáðri lagerstöðu, verðu fyrir ofan hámarksstöðuna.
+Ef áfyllingarmagnið (mismunurinn á milli hámarksstigs og spáðs álagsstigs) er ekki margfeldi af skilgreindu margfeldismagni, notar aðalskipulag fyrsta mögulega gildið sem ásamt áætluðu magni fyrir hendi verður fyrir neðan hámarksstigið. Ef summan er lægri en lágmarksstigið notar aðalskipulag fyrsta gildið sem ásamt áætluðu fyrirliggjandi stigi verður yfir hámarksstigi.
 
 Eftirfarandi undirhlutar sýna dæmi um hvernig margfeldi af pöntunarmagni fyrir afurð hefur áhrif á niðurstöðuna fyrir *Lágm./hám.* áfyllingaraðferð.
 

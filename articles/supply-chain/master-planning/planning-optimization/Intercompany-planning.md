@@ -1,6 +1,6 @@
 ---
 title: Áætlanagerð innan samstæðu
-description: Þessi grein lýsir áætlanagerð milli fyrirtækja og útskýrir hvernig á að stilla áætlanagerð milli fyrirtækja með áætlanagerð fínstillingu í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir áætlanagerð milli fyrirtækja og útskýrir hvernig á að stilla áætlanagerð milli fyrirtækja í Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6ef551e1c2c4d90510f967855a5aa61646dc8eab
-ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
+ms.openlocfilehash: 3d1c82aa3810b37b06b9d9157e73588fc1727348
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9538566"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740033"
 ---
 # <a name="intercompany-planning"></a>Áætlanagerð innan samstæðu
 
@@ -29,7 +29,7 @@ ms.locfileid: "9538566"
 
 Í sumum fyrirtækjum eru aðgerðir vörustjórnunar háðar öðrum lögaðilum (fyrirtækjum) innan fyrirtækisins. Þessar aðgerðir eru meðhöndlaðar með sölu og innkaupum innan samstæðu, vegna þess að hver lögaðili hefur aðskilda bókhaldslykla.
 
-Þessi grein lýsir áætlanagerð milli fyrirtækja og útskýrir hvernig á að stilla áætlanagerð milli fyrirtækja með áætlanagerð fínstillingu í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein lýsir áætlanagerð milli fyrirtækja og útskýrir hvernig á að stilla áætlanagerð milli fyrirtækja í Microsoft Dynamics 365 Supply Chain Management.
 
 Þessi grein notar eftirfarandi mikilvæga samstæðuskilmála:
 

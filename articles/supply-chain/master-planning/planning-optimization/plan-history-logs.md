@@ -1,6 +1,6 @@
 ---
 title: Skoða áætlunarsögu og skipulagsskrár
-description: Þessi grein útskýrir hvernig á að skoða feril áætlanagerðarverka sem eru ræst af aðgerðinni áætlanagerð fínstillingu.
+description: Þessi grein útskýrir hvernig á að skoða sögu skipulagsstarfa.
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863941"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740932"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Skoða áætlunarsögu og skipulagsskrár
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að skoða feril áætlanagerðaverka sem eru ræst af virkni skipulagsfínstillingar í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein útskýrir hvernig á að skoða sögu skipulagsvinnu í Microsoft Dynamics 365 Supply Chain Management.
 
 Til að skoða sögu fyrir áætlun, opnaðu áætlunina með því að fara til **Aðaláætlunargerð** \> **Uppsetning** \> **Áætlanir** \> **Aðaláætlanir** og velja **Saga**. Í sögunni eru allar vinnslur fyrir valda áætlun. Listinn nær yfir loknar og virkar vinnslur.
 
@@ -47,14 +47,6 @@ Til að skoða villur sjálfvirkrar staðfestingar og aðrar viðvaranir eða vi
     - Ef þú notar eldri skjámynd: Á aðgerðasvæðinu, í flipanum **Runuvinnsla**, skal nota **Kladdi**.
 
 1. Veldu **Upplýsingar um skilaboð** til að opna gluggann **Upplýsingar um skilaboð** þar sem þú getur skoðað allar viðvaranir og villur sem voru fangaðar í vinnslunni.
-
-## <a name="related-resources"></a>Tengd tilföng
-
-- [Yfirlit yfir fínstillingu áætlanagerðar](planning-optimization-overview.md)
-- [Hafist handa með fínstillingu áætlanagerðar](get-started.md)
-- [Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md)
-- [Nota síur á áætlun](plan-filters.md)
-- [Hætta við áætlunarvinnslu](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

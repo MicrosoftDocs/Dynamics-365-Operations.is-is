@@ -10,14 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 78ba4236705f1a200d9fe796eb80d0241b0fa537
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335376"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740469"
 ---
 # <a name="delay-tolerance-negative-days"></a>Vikmörk tafar (neikvæður dagafjöldi)
+<!-- KFM: Split topic into PO and classic -->
 
 [!include [banner](../../includes/banner.md)]
 
@@ -27,7 +28,7 @@ Seinkunarþolsaðgerðin gerir skipulagshagræðingu kleift að huga að **Neikv
 
 Til að gera tafaþolsvirkni aðgengilegan í kerfinu þínu skaltu fara á [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), og kveiktu á eftirfarandi eiginleikum:
 
-- *Neikvæðar dagar fyrir hagræðingu áætlanagerðar* – Þessi eiginleiki gerir stillingar fyrir neikvæða daga fyrir umfjöllunarhópa og vöruumfjöllun. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum.
+- *Neikvæðar dagar fyrir hagræðingu áætlanagerðar* – Þessi eiginleiki gerir stillingar fyrir neikvæða daga fyrir umfjöllunarhópa og vöruþekju. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum.
 - *Sjálfvirkni framboðs eftir pöntun* - Þessi eiginleiki gerir neikvæðar daga stillingar fyrir aðaláætlanir. (Nánari upplýsingar er að finna í [Sjálfvirkni framboðs eftir pöntun](../make-to-order-supply-automation.md) .)
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>Vikmörk tafar í fínstillingu skipulagningar
@@ -47,7 +48,7 @@ Kerfið tengir útreikning á vikmörkum tafar við *fyrstu áfyllingardagsetnin
 Þessi formúla tryggir að aðaláætlanagerð búi ekki til nýjar framboðspantanir þegar næg eftirspurn er til meðan afhendingartími afurðar er í gangi.
 
 > [!NOTE]
-> Útreikningur vikmarka tafar í fínstillingu skipulagningar notar alltaf útreikning kvikra neikvæðra daga úr innbyggðu aðaláætlanagerðinni. Stillingin **Nota kvika neikvæða daga** á síðunni **Færibreytur aðaláætlanagerðar** hefur engin áhrif á þessa hegðun.
+> Útreikningur á töfumvikum í Hagræðingu áætlanagerðar notar alltaf kvikan neikvæða dagaútreikning frá úreltu aðalskipulagsvélinni. Stillingin **Nota kvika neikvæða daga** á síðunni **Færibreytur aðaláætlanagerðar** hefur engin áhrif á þessa hegðun.
 
 Ef fyrirliggjandi framboð felur í sér töfum á eftirspurn sem er minni en eða jafnt og reiknuð vikmörk tafar, bindur fínstilling skipulagningar fyrirliggjandi framboð við eftirspurnina. Í sumum tilfellum er betra að fresta eftirspurninni en að enda með offramboð.
 

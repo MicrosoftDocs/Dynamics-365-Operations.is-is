@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885900"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740905"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Færibreytur dagsetningar og tíma sem fínstilling áætlanagerðar notar
 
@@ -23,7 +23,7 @@ ms.locfileid: "8885900"
 
 Þessi grein veitir upplýsingar um dagsetningar- og tímafæribreytur sem áætlanagerð hagræðing notar við rekstur hennar.
 
-Innbyggð aðaláætlunarvél notar færsludagsetningar í öllum útreikningum, en fínstilling áætlanagerðar vinnur með gildum dagsetningar og tíma sem eru umbreytt í dagsetningar. Þessi munur í hegðun getur leitt til kringumstæðna þar sem til dæmis spáfærslur sem stofnaðar eru á miðnætti á deginum sem aðaláætlanagerð er keyrð eru ekki hafðar með vegna þess að fínstilling áætlanagerðar lítur svo á að þær hafi verið stofnaðar á undan núverandi degi.
+Þar sem úrelda aðalskipulagsvélin notar viðskiptadagsetningar í öllum útreikningum vinnur áætlanagerð fínstilling með dagsetningar- og tímagildum sem eru umreiknuð í dagsetningar. Þessi munur í hegðun getur leitt til kringumstæðna þar sem til dæmis spáfærslur sem stofnaðar eru á miðnætti á deginum sem aðaláætlanagerð er keyrð eru ekki hafðar með vegna þess að fínstilling áætlanagerðar lítur svo á að þær hafi verið stofnaðar á undan núverandi degi.
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>Færibreytur fyrir úthreyfingar- og eftirspurnarfærslur
 

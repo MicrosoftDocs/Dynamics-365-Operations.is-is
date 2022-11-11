@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 310809799a81c6709041764f7038de2a70b7f203
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: b95f131a45c11748cfd4c66c47e5a51c765ed486
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124791"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740411"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.22. (nóvember 2021)
 
@@ -53,12 +53,12 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 |---|---|
 | Umsjón hönnunarbreytinga | [Yfirlit yfir umsjón hönnunarbreytinga](../engineering-change-management/product-engineering-overview.md) sýnir nú alla tengda, valfrjálsa eiginleika sem eru í boði í eiginleikastjórnun |
 | Áætlanagerð | [Uppsetning eftirspurnarspár](../master-planning/demand-forecasting-setup.md) |
-| Áætlanagerð | [Nettóþörf og þarfarakning með fínstillingu áætlanagerðar](../master-planning/planning-optimization/net-requirements.md) |
+| Áætlanagerð | [Nettókröfur og tengingarupplýsingar](../master-planning/planning-optimization/net-requirements.md) |
 | Vöruhúsakerfi | [Losa í vöruhús](../warehousing/release-to-warehouse-process.md) gefur ítarlegt yfirlit yfir losun í vöruhús |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstraröpp
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstrarforrit
 
 Microsoft Dynamics 365 Supply Chain Management 10.0.22 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.22 af fjármála- og rekstraröppum (nóvember 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 

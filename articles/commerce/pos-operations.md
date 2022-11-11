@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
-ms.translationtype: HT
+ms.openlocfilehash: eb21dc5ca474a87fcabe2dda2a06dda7aa42ebc2
+ms.sourcegitcommit: 719600437fc0895efac374f954a895e4c951da6e
+ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728277"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9736882"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
@@ -42,6 +42,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 
 > [!NOTE]
 > Aðgerðirnar sem taldar eru upp hér að neðan eiga við um nýjustu útgáfuna af Commerce. Sumar aðgerðir kunna að hafa breyst eða kunna ekki að vera í boði í fyrri útgáfum.
+> Fyrir frekari upplýsingar um ótengda eiginleika og stillingar, vísa til [Commerce offline innleiðing og bilanaleit](dev-itpro/implementation-considerations-offline.md) grein.
 
 | KENNI   | Aðgerð                                         | Lýsing                                                                                                                                                                                                    | Notendaaðgerðir    | Færsluskjár | Upphafsskjár | Í boði án nettengingar? | Tekur sérstaklega mið af staðsetningu |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
@@ -64,7 +65,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 118  | Aðferðarinntak                                     | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 119  | Strikamerki sölumanns                               | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
 | 120  | Sölumannskort                                  | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |
-| 121  | Hreinsa sölumann                                 | Hreinsar sölumanninn frá viðskiptunum                                                                                                                                                                   | Já            | Já                | Nr.             | Á ekki við    | Nr.              |
+| 121  | Hreinsa sölumann                                 | Hreinsar sölumanninn úr viðskiptunum                                                                                                                                                                   | Já            | Já                | Nr.             | Á ekki við    | Nr.              |
 | 122  | Athugasemd við reikning                                   | Sláðu inn athugasemd um núverandi færslu.                                                                                                                                                                 | Já            | Já                | Nr.             | Já               | Nr.              |
 | 123  | Breyta mælieiningu                            | Breyta mælieiningu fyrir valið línuatriði.                                                                                                                                                         | Já            | Já                | Nr.             | Já               | Nr.              |
 | 124  | Item dale multi                                   | Þessi aðgerð er ekki studd.                                                                                                                                                                                | Á ekki við | Á ekki við     | Á ekki við | Á ekki við    | Á ekki við  |

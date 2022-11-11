@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 5f02ec58c88cfd0d663a97de4e3e4dff1cdd5e90
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689694"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740087"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Skipulag og áætlun með takmarkaða getu
 
@@ -28,9 +28,8 @@ Endanleg getu er nálgun sem hjálpar þér að skilja hversu mikla vinnu er hæ
 
 Endanleg afkastagetu áætlanagerð og tímasetning skapar raunhæfari áætlun fyrir framleiðsluferlana en óendanlega hleðsluaðferðin skapar. Ef það er ekki nóg afkastagetu á tilföngunum verður afhendingardegi ýtt út og verkið verður tímasett þegar það er nóg afkastagetu.
 
-## <a name="planning-optimization-support-for-finite-capacity-planning"></a>Stuðningur við hagræðingu áætlanagerðar fyrir endanlega getuáætlun
-
-Endanleg afkastagetu áætlanagerð og tímasetning virkar á næstum sama hátt, óháð því hvort þú notar áætlanagerð fínstillingu eða innbyggðu skipulagsvélina. Hins vegar notar Planning Optimization ekki **Flöskuháls tími** girðingarbreytu. Þegar þú notar áætlanagerð fínstillingu eru flöskuhálstilföng alltaf tímasett með því að nota sömu tímagirðingu og tilföng sem ekki eru flöskuháls (eins og gefið er til kynna með tímamörkum með takmarkaðan getu).
+> [!NOTE]
+> Endanleg afkastagetu áætlanagerð og tímasetning virkar á næstum sama hátt, óháð því hvort þú notar áætlanagerð fínstillingu eða úrelta aðalskipulagsvélina. Hins vegar notar Planning Optimization ekki **Flöskuháls tími** girðingarbreytu. Þegar þú notar áætlanagerð fínstillingu eru flöskuhálstilföng alltaf tímasett með því að nota sömu tímagirðingu og tilföng sem ekki eru flöskuháls (eins og gefið er til kynna með tímamörkum með takmarkaðan getu).
 
 ## <a name="set-up-finite-capacity-functionality"></a>Settu upp takmarkaða getuvirkni
 
@@ -116,7 +115,7 @@ Eftirfarandi mynd sýnir Gantt-töfluna sem myndast (veldu það til að fá st�
 
 Þetta dæmi sýnir áætlunarniðurstöður þegar þú notar endanlega afkastagetuáætlun og tímagirðingu upp á einn dag.
 
-Aðalskipulagið hefur eftirfarandi viðeigandi stillingar sem gera kleift að skipuleggja endanlega afkastagetu og setja tímagirðingu fyrir áætlunina:
+Aðalskipulagið hefur eftirfarandi viðeigandi stillingar, sem gera kleift að skipuleggja endanlega afkastagetu og setja tímagirðingu fyrir áætlunina:
 
 - **Endanleg getu:** *Já*
 - **Takmörkuð tímagirðing:** *1*
@@ -134,9 +133,9 @@ Eftirfarandi mynd sýnir Gantt-töfluna sem myndast (veldu það til að fá st�
 
 ### <a name="example-3--finite-capacity-planning-with-a-time-fence-of-two-days"></a>Dæmi 3 – Endanleg afkastagetuáætlun með tveggja daga tímagirðingu
 
-Þetta dæmi sýnir áætlunarniðurstöður þegar þú notar takmarkaða afkastagetuáætlun og tveggja daga tímagirðingu.
+Þetta dæmi sýnir áætlunarniðurstöður þegar þú notar endanlega afkastagetuáætlun og tveggja daga tímagirðingu.
 
-Aðalskipulagið hefur eftirfarandi viðeigandi stillingar sem gera kleift að skipuleggja endanlega afkastagetu og setja tímagirðingu fyrir áætlunina:
+Aðalskipulagið hefur eftirfarandi viðeigandi stillingar, sem gera kleift að skipuleggja endanlega afkastagetu og setja tímagirðingu fyrir áætlunina:
 
 - **Endanleg getu:** *Já*
 - **Takmörkuð tímagirðing:** *2*

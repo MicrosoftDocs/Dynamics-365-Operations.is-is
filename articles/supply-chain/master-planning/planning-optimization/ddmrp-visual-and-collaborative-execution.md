@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689777"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740824"
 ---
 # <a name="visual-and-collaborative-execution"></a>Sjónræn framkvæmd og samvinnuframkvæmd
 
@@ -34,7 +34,7 @@ ms.locfileid: "9689777"
 1. Veldu útgefinn hlut sem er settur upp sem aftengingarpunktur. (Nánari upplýsingar er að finna í [Staðsetning birgða](ddmrp-inventory-positioning.md) .)
 1. Á aðgerðarrúðunni, á **Áætlun** flipa, veldu **Vöruumfjöllun**.
 1. Á **Vöruumfjöllun** síðu, veldu vöruþekjuskrá sem býr til aftengingarpunkt. (Þessi skrá mun sýna nafn umfjöllunarhóps sem er settur upp til að búa til aftengingarpunkta.)
-1. Veldu **Á hendi** flipa. Þessi flipi inniheldur myndrit sem sýnir hvernig magn á lager breyst með tímanum, ásamt gildi vörustigsins sem var skráð fyrir tiltekið tímabil í hvert skipti sem hagræðing áætlanagerðar er keyrð. Flipinn inniheldur einnig töflu sem sýnir hvaða af eftirtöldum flokkum hvert skráð stig fellur inn í:
+1. Veldu **Á hendi** flipa. Þessi flipi inniheldur myndrit sem sýnir hvernig birgðamagn breyst með tímanum, ásamt gildi birgðastigsins sem var skráð fyrir tiltekið tímabil í hvert skipti sem aðalskipulag er keyrt. Flipinn inniheldur einnig töflu sem sýnir hvaða af eftirtöldum flokkum hvert skráð stig fellur inn í:
 
     - **Krítískt lágt** – Innan við helmingur lágmarks á tímabilinu.
     - **Lágt** – Á milli helmings lágmarks og lágmarks.

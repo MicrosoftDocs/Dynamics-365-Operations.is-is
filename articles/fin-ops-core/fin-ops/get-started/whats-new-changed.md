@@ -1,26 +1,26 @@
 ---
 title: Hvað er nýtt eða breytt á heimasíðu fjármála- og rekstrarappa
-description: Þessi síða bendir þér á efni sem geta hjálpað þér að læra um nýju eiginleikana í nýjustu fjármála- og rekstrarforritum.
-author: sericks007
-ms.date: 02/14/2020
+description: Þessi síða bendir þér á grein sem getur hjálpað þér að læra um nýju eiginleikana í nýjustu fjármála- og rekstrarforritum.
+author: twheeloc
+ms.date: 11/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: sericks
+ms.author: twheeloc
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
 ms.custom: 27141,  ""intro-internal
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.form: DefaultDashboard
-ms.openlocfilehash: ff6091c563dc39f81dd8ce911812c6ef594b0861
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9f3a82cca81ed6672a5331df66f37c97a777c3b8
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280759"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751937"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Hvað er nýtt eða breytt á heimasíðu fjármála- og rekstrarappa
 
@@ -29,7 +29,7 @@ ms.locfileid: "9280759"
 
 ## <a name="application-releases"></a>Útgáfur forrits
 
-Til að sjá hvað er nýtt eða breytt í hverri útgáfu af fjármála- og rekstrarforriti, skoðaðu eftirfarandi efni:
+Til að sjá hvað er nýtt eða breytt í hverri útgáfu af fjármála- og rekstrarforriti skaltu skoða eftirfarandi efnisatriði:
 
 - **Fjármál:**[Hvað er nýtt eða breytt í Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
 - **Mannauður (sameinaðir innviðir):**[Hvað er nýtt eða breytt í Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  

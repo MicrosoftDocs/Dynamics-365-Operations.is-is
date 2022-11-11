@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: cf5ca3996a882111b840e3acb5e2a4f3f26ec4b7
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689489"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740851"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Eftirspurnardrifið efnisþörf skipulagning (DDMRP) yfirlit
 
@@ -44,6 +44,6 @@ DDMRP er venjulega notað af framleiðendum sem eru með fjölþrepa efnisskrá 
 
 ## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>DDMRP inn Dynamics 365 Supply Chain Management
 
-DDMRP fylgir Microsoft Dynamics 365 Supply Chain Management og krefst ekki viðbótar leyfisgjalda. Í Supply Chain Management hefur DDMRP virkni verið bætt við núverandi **Aðalskipulag** mát. Hins vegar krefst þess að þú notir áætlanagerð fínstillingarviðbótina. 
+DDMRP fylgir Microsoft Dynamics 365 Supply Chain Management og krefst ekki viðbótar leyfisgjalda. Í Supply Chain Management hefur DDMRP virkni verið bætt við núverandi **Aðalskipulag** mát. Hins vegar krefst þess að þú notir áætlanagerð fínstillingarviðbótina.
 
 DDMRP er samþætt við núverandi skipulagsuppsetningar í Supply Chain Management og er notað ásamt þeim uppsetningum til að komast að réttri skipulagsuppsetningu fyrir fyrirtæki þitt. Það er stjórnað af nýjum þekjukóða sem er allt öðruvísi en tímabil, lágmark/hámark, kröfu og svo framvegis. Það er ekki ný eining og kemur ekki í stað núverandi skipulagsvirkni. Hins vegar gefur það þér meiri virkni til að nota.

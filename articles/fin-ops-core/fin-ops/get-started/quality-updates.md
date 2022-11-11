@@ -2,7 +2,7 @@
 title: Fyrirbyggjandi gæðauppfærslur
 description: Þessi grein veitir upplýsingar um fyrirbyggjandi afhendingu gæðauppfærslna.
 author: rashmansur
-ms.date: 09/12/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
-ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
+ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
+ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2022
-ms.locfileid: "9731611"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9752299"
 ---
 # <a name="proactive-quality-updates"></a>Fyrirbyggjandi gæðauppfærslur
 
@@ -25,6 +25,19 @@ ms.locfileid: "9731611"
 Á undanförnum árum hefur Microsoft náð stöðugum framförum í því sem við vísum til sem [Ein útgáfa](../../dev-itpro/lifecycle-services/oneversion-overview.md). Forsenda One Version er einföld: því nær sem við komumst að hafa alla viðskiptavini á sömu hugbúnaðarútgáfu, því meiri gæði sem við getum skilað. Við finnum og lagum vandamál einu sinni og við fáum þessar lausnir í hendur fleiri viðskiptavina hraðar.
 
 Þessi forsenda er staðfest af niðurstöðunum: lægri atvikafjöldi á vörum okkar. Þegar viðskiptavinir eru ekki á sömu útgáfu, sjáum við stöðugt að þeir verða fyrir áhrifum af vandamálum sem lausn er þegar tiltæk fyrir. Við höfum þegar náð miklum framförum með Dynamics 365 Finance, Dynamics 365 Supply Chain,Dynamics 365 Project Operations, og Dynamics 365 Commerce, og þökk sé nýlegum tækniframförum er nú hægt að taka næsta skref. Eftirfarandi upplýsingar segja til um hvað við ætlum að gera, hvað við höfum þegar gert til að setja sviðið og hvernig og hvenær við munum kynna nýja möguleikana án truflana.
+
+## <a name="what-you-need-to-know"></a>Það sem þú þarft að vita
+
+- Fyrirbyggjandi gæðauppfærslum er beitt mánaðarlega.
+- Microsoft mun beita fyrirbyggjandi gæðauppfærslum á öll sandkassaumhverfi sem keyra þjónustuuppfærslu sem var [í þjónustu](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change) þegar fyrirbyggjandi gæðauppfærslur voru búnar til.
+- Undantekningar frá fyrirbyggjandi gæðauppfærslum verða leyfðar fyrir viðskiptavini sem eru undir eftirliti bandarísku matvæla- og lyfjaeftirlitsins (FDA).
+- Microsoft er að ákveða hvernig fyrirbyggjandi gæðauppfærslum verður stýrt fyrir reglubundið umhverfi og fyrir skýjaviðskiptavini ríkisins og stjórnvalda.
+- Tilkynningar sem tengjast fyrirbyggjandi gæðauppfærslum eru birtar í [Microsoft 365 Skilaboðamiðstöð](https://admin.microsoft.com/AdminPortal/) og á borða hjá viðskiptavininum Microsoft Dynamics Lifecycle Services verkefni.
+- Fimm dögum áður en fyrirbyggjandi gæðauppfærslu er beitt á umhverfi er viðskiptavinum tilkynnt að uppfærslan muni eiga sér stað.
+- Viðskiptavinir geta ekki hætt við eða frestað fyrirbyggjandi gæðauppfærslum.
+- Fyrirbyggjandi gæðauppfærslur eru settar upp á svæðisbundinni [fyrirhugað viðhaldsglugga](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
+- Gæðauppfærslur eru hannaðar til að hafa litla hættu á vandamálum eða afturförum og þetta er stutt af gögnum frá Microsoft.
+- Microsoft mælir með markvissum prófunum fyrir tiltekin vandamál eða sérstakar bráðaleiðréttingar sem tengjast fyrirbyggjandi gæðauppfærslu.
 
 ## <a name="focus-on-quality-updates"></a>Einbeittu þér að gæðauppfærslum
 
@@ -40,7 +53,7 @@ Margar framfarir hafa þegar verið settar í notkun sem gera kleift að senda g
 
 - **Nánast núll uppfærsla á niðritíma** – Til að ýta undir tíðari umhverfi er nauðsynlegt að draga úr áhrifum á aðgengi umhverfisins til að varðveita Dynamics 365 Service Level Agreements (SLAs). Uppfærsla á næstum núlli niður í miðbæ var upphaflega kynnt til að bæta mánaðarlega lagfæringu stýrikerfis með því að nota cluster failover til að virkja uppfærðu myndina með lágmarks röskun. Verið er að bæta vélbúnaðinn til að beita uppfærslum þannig að hann truflar enn minna og hann mun ná yfir bæði stýrikerfisuppfærslur og gæðauppfærsluuppfærslu.
 
-Fyrir gagnvirka notendur gæti virk lota verið rofin og tilraunin fer aftur í uppfært umhverfi. Með tilkomu [forgangstengd lotuáætlun](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), lotuáætlun og vinnsla batnar og heldur áfram strax eftir uppfærsluna. Forgangsbundin lotuáætlun verður til staðar fyrir viðskiptavini áður en þeir byrja að taka þátt í fyrirbyggjandi dreifingu á gæðauppfærslum fyrir framleiðsluumhverfi þeirra.
+    Fyrir gagnvirka notendur gæti virk lota verið rofin og tilraunin fer aftur í uppfært umhverfi. Með tilkomu [forgangstengd lotuáætlun](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), lotuáætlun og vinnsla batnar og heldur áfram strax eftir uppfærsluna. Forgangsbundin lotuáætlun verður til staðar fyrir viðskiptavini áður en þeir byrja að taka þátt í fyrirbyggjandi dreifingu á gæðauppfærslum fyrir framleiðsluumhverfi þeirra.
 
 - **Myrkra tímar** – Myrkratímar eru skilgreindir fyrir hvert Azure svæði og uppfærslur á niðritíma næstum núll munu eiga sér stað á myrkutímatímabilinu.
 
@@ -56,13 +69,15 @@ Verið er að innleiða sett af ferlibreytingum fyrir virkjun á fyrirbyggjandi 
 
 - **Skema** – Verkfæri munu tryggja að gæðauppfærslur innihalda aðeins skemabreytingar sem hægt er að beita á meðan þjónustan er á netinu. Þessi nálgun mun hjálpa til við að viðhalda getu til að beita uppfærslunni með næstum núlli niður í miðbæ.
 - **Aukið eftirlit með breytingum** – Eins og er, er nú þegar aukaferlisskref til að samþykkja breytingar fyrir innlimun í gæðauppfærslu. Athugunin í aukaskrefinu verður aukin til að draga úr möguleikum á afturförum. Brotandi breytingar eru ekki leyfðar í gæðauppfærslum og aukin athugun á breytingum mun hjálpa til við að tryggja að við náum þessu markmiði.
-- **Skyggni** - Við munum senda tilkynningar í gegnum stjórnendamiðstöðina, Lifecycle Services (LCS) og aðrar tiltækar rásir fyrir komandi fyrirbyggjandi gæðauppfærslur. Að auki munu stuðningsteymi og atviksleiðir hafa sýnilegt hvar gæðauppfærslur hafa verið settar á fyrirbyggjandi hátt.
- > [!NOTE]
- > Samskiptateymið Microsoft er að rannsaka áframhaldandi hnignun á tölvupóstverkfærum sem kemur í veg fyrir afhendingu tölvupósttilkynninga. Vinsamlegast haltu áfram að fylgjast með Microsoft 365 Skilaboðamiðstöð fyrir inngöngu- og tilkynningatengd skilaboð.
+- **Skyggni** - Tilkynningar eru sendar í gegnum stjórnendamiðstöðina, Lifecycle Services og aðrar tiltækar rásir fyrir komandi fyrirbyggjandi gæðauppfærslur. Að auki munu stuðningsteymi og atviksleiðir hafa sýnilegt hvar gæðauppfærslur hafa verið settar á fyrirbyggjandi hátt.
+
+    > [!NOTE]
+    > Samskiptateymið Microsoft er að rannsaka áframhaldandi hnignun á tölvupóstverkfærum sem kemur í veg fyrir afhendingu tölvupósttilkynninga. Vinsamlegast haltu áfram að fylgjast með Microsoft 365 Skilaboðamiðstöð fyrir inngöngu- og tilkynningatengd skilaboð.
+
 - **Fail Safe með flugi** – Flug verður notað til að verja kóðabreytingar þar sem það á við í gæðauppfærslu villuleiðréttingu eða nota núverandi eiginleika flug sem skipta máli fyrir lagfæringuna. Ef þörf er á að breyta til baka eða slökkva á breytingu eftir fyrirbyggjandi uppsetningu er hægt að gera það í gegnum flugkerfið til að forðast frekari bilanir.
 - **Samstillingarheiti fyrir sandkassa** - Innan við 20 prósent viðskiptavina í dag eru með marga sandkassa og halda einum sandkassa uppbyggðum þar sem útgáfan passar við framleiðslu, til að hjálpa við bilanaleit. Ef viðskiptavinur notar sandkassa til að prófa nýrri útgáfu en framleiðslu hans mun sá sandkassi fá gæðauppfærslur í nýrri útgáfuna.
 
-## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Hver er útfærsluvegaáætlun fyrir gæðauppfærslur?
+## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Hver er útfærsluvegvísir fyrir gæðauppfærslur?
 
 Búist er við að dreifing á fyrirbyggjandi gæðauppfærslum fyrir sandkassaumhverfi hefjist seint í september eða október 2022 fyrir viðskiptavini Azure almenningsskýja. Reynsluumhverfi munu einnig byrja að fá fyrirbyggjandi uppfærsluuppfærslu á þeim tíma. Í september verður tilkynning send til hvers viðskiptavinar til að upplýsa þá um væntanlega tímaáætlun fyrir umhverfi sitt. Undantekningar frá fyrirbyggjandi uppfærðu dreifingarferli verða aðeins leyfðar fyrir viðskiptavini sem eru undir eftirliti FDA. Við erum enn að vinna úr því hvernig stjórnað umhverfi og skýjaviðskiptavinum ríkisins og stjórnvalda verður stjórnað.
 
@@ -77,7 +92,7 @@ Eins og er miða gæðauppfærslur aðeins á sandkassa. Við munum uppfæra þe
 Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hverjir eru fyrirhugaðir viðhaldsgluggar eftir svæðum](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)?.
 
 ### <a name="proactive-quality-update-release-10028"></a>Fyrirbyggjandi gæðauppfærsluútgáfa: 10.0.28
-**App útgáfa: 10.0.1265.89**
+**App útgáfa: 10.0.1265.89**  
 **Samsvarandi nýjustu KB grein: 745340**
 
 | Stöð | Svæði | Útfyllt dagskrá| Komandi Sandbox Dagskrá
@@ -89,19 +104,31 @@ Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hverjir eru fyri
 | Stöð 5 | DoD, Government Community Cloud, Kína | Ekki áætlað | Ekki áætlað |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Fyrirbyggjandi gæðauppfærsluútgáfa: 10.0.29
-**App útgáfa: 10.0.1326.70**
+**App útgáfa: 10.0.1326.70**  
 **Samsvarandi nýjustu KB grein: 748926**
 
 | Stöð | Svæði | Útfyllt dagskrá | Komandi Sandbox Dagskrá|
 |---|---|---|---|
-| Stöð 1 | Kanada Mið, Kanada Austur, Frakkland Mið, Indland Mið, Noregur Austur, Sviss Vestur | 14. október til 17. október 2022 | 2. nóvember til 5. nóvember 2022 |
-| Stöð 2 | Frakkland Suður, Indland Suður, Noregur Vestur, Sviss Norður, Suður Afríka Norður, Ástralía Austur, Bretland Suður, UAE Norður, Japan Austur, Ástralía Suð Austur, Suðaustur Asía | 15. október til 18. október 2022 | 2. nóvember til 5. nóvember 2022 |
-| Stöð 3 | Austur-Asía, Bretland Vestur, Japan Vestur, Brasilía Suður, Vestur-Evrópa, Austur-Bandaríkin, Mið UAE | 16. október til 19. október 2022 | 2. nóvember til 5. nóvember 2022 |
-| Stöð 4 | Norður-Evrópa, Mið-Bandaríkin, Vestur-Bandaríkin | 17. október til 20. október 2022 | 2. nóvember til 5. nóvember 2022 |
+| Stöð 1 | Kanada Mið, Kanada Austur, Frakkland Mið, Indland Mið, Noregur Austur, Sviss Vestur | 14. október til 17. október 2022, 2. nóvember til 5. nóvember 2022 | 13. nóvember til 16. nóvember 2022 |
+| Stöð 2 | Frakkland Suður, Indland Suður, Noregur Vestur, Sviss Norður, Suður Afríka Norður, Ástralía Austur, Bretland Suður, UAE Norður, Japan Austur, Ástralía Suð Austur, Suðaustur Asía | 15. október til 18. október 2022, 2. nóvember til 5. nóvember 2022 | 13. nóvember til 16. nóvember 2022 |
+| Stöð 3 | Austur-Asía, Bretland Vestur, Japan Vestur, Brasilía Suður, Vestur-Evrópa, Austur-Bandaríkin, Mið UAE | 16. október til 19. október 2022, 2. nóvember til 5. nóvember 2022 | 13. nóvember til 16. nóvember 2022 |
+| Stöð 4 | Norður-Evrópa, Mið-Bandaríkin, Vestur-Bandaríkin | 17. október til 20. október 2022, 2. nóvember til 5. nóvember 2022 | 13. nóvember til 16. nóvember 2022 |
 | Stöð 5 | DoD, Government Community Cloud, Kína | Ekki áætlað | Ekki áætlað |
 
+### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Fyrirbyggjandi gæðauppfærsluútgáfa: 10.0.30
+**App útgáfa: TBD**
+**Samsvarandi nýjustu KB grein: TBD**
+
+| Stöð | Svæði | Komandi Sandbox Dagskrá |
+|---|---|---|
+| Stöð 1 | Kanada Mið, Kanada Austur, Frakkland Mið, Indland Mið, Noregur Austur, Sviss Vestur | 1. desember til 4. desember 2022 |
+| Stöð 2 | Frakkland Suður, Indland Suður, Noregur Vestur, Sviss Norður, Suður Afríka Norður, Ástralía Austur, Bretland Suður, UAE Norður, Japan Austur, Ástralía Suð Austur, Suðaustur Asía | 2. desember til 5. desember 2022 |
+| Stöð 3 | Austur-Asía, Bretland vestur, Japan vestur, Brasilía suður, Norður-Evrópa, Austur-Bandaríkin, UAE Mið | 3. desember til 6. desember 2022 |
+| Stöð 4 | Vestur-Evrópa, Mið-Bandaríkin, Vestur-Bandaríkin | 4. desember til 7. desember 2022 |
+| Stöð 5 | DoD, Government Community Cloud, Kína | Ekki áætlað |
+
 > [!IMPORTANT] 
-> Fimm daga fyrirvara mun Microsoft uppfæra áætlunina á undan og senda tilkynningar í tölvupósti til þess hóps umhverfis sem áætlað er að fái þessar gæðauppfærslur. Fyrri áætlun á aðeins við um umhverfi sem hefur verið tilkynnt um væntanlega uppfærslu. Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hverjir eru fyrirhugaðir viðhaldsgluggar eftir svæðum](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)?.
+> Fimm daga fyrirvara mun Microsoft uppfæra áætlunina á undan og senda tilkynningu um það umhverfi sem áætlað er að fái þessar gæðauppfærslur. Fyrri áætlun á aðeins við um umhverfi sem hefur verið tilkynnt um væntanlega uppfærslu. Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hverjir eru fyrirhugaðir viðhaldsgluggar eftir svæðum](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows)?.
 >
 > Fyrir hvern svæðishóp, eða *stöð*, þar sem áætlað er að gæðauppfærsla verði sett út, sýnir áætlunin fjögurra daga bil. Gæðauppfærslur byrja aðeins með sandkassaumhverfi. Síðan, eftir því sem hlutfall sandkassa sem tókst að dreifa eykst, mun dreifing í framleiðsluumhverfi hefjast með fyrirfram tilkynningum til viðskiptavina.
 > 
@@ -122,15 +149,15 @@ Nr. Meginmarkmið gæðauppfærslna er að tryggja að grundvallaratriði eins o
 ## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>Hvernig veit ég hvaða mengi breytinga fór í gæðauppfærsluhleðslu?
 Eftirfarandi skref eru tímabundin lausn þar sem við höldum áfram að vinna að því að bjóða upp á betri lausn til að bera kennsl á listann yfir breytingar sem fara í gæðauppfærsluhleðslu. 
 
-Notaðu KB# 745340 fyrir 10.0.28 gæðauppfærslulestina og tengda app útgáfu 10.0.1265.89.
+Notaðu KB# 745340 fyrir 10.0.28 gæðauppfærslulestina og tengda forritaútgáfu 10.0.1265.89.
 
-1. Í LCS, opnaðu **Umhverfisupplýsingar** síðu fyrir sandkassann þinn. 
+1. Í Lifecycle Services, opnaðu **Umhverfisupplýsingar** síðu fyrir sandkassann þinn. 
 2. Í **Tiltækar uppfærslur** kafla, veldu **Skoða uppfærslu** fyrir nýjustu gæðauppfærslu smíðina. 
 3. Flyttu út bygginguna í CSV eða Microsoft Excel skrá.
 4. Í útfluttu skránni skaltu flokka upplýsingarnar út frá tíma (elstu fyrst) og leita síðan að KB númerinu 745340 í **Uppfæra auðkenni** dálki. Þú ættir nú að geta séð delta listann yfir KBs.
  
- > [!NOTE]
- > Útflutningur í CSV eða Excel skrá verður að gerast áður en umhverfið er uppfært. Annars geturðu notað umhverfi með svipaða uppsetningu sem er ekki með uppfærsluna uppsetta og fylgdu skrefunum hér að ofan.
+> [!NOTE]
+> Útflutningur í CSV eða Excel skrá verður að gerast áður en umhverfið er uppfært. Annars geturðu notað umhverfi með svipaða uppsetningu sem er ekki með uppfærsluna uppsetta og fylgdu skrefunum hér að ofan.
 
 [![Dæmi um umhverfi með gæðauppfærslu.](./media/how-to-get-kb-list-pqu.png)](./media/how-to-get-kb-list-pqu.png)
 
@@ -139,21 +166,21 @@ Mikilvægt mál eða afturför er einn eða fleiri atburðir sem venjulega valda
 
 Ef umhverfi eins viðskiptavinar verður fyrir áhrifum skaltu hafa samband við þjónustudeild Microsoft til að opna miða. Byggt á rökstuðningnum munum við stöðva útfærslu gæðauppfærslunnar í öll önnur umhverfi í því verkefni þar til vandamálið hefur verið dregið úr.
 
-## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>Geta viðskiptavinir samt beitt flýtileiðréttingum handvirkt frá LCS?
-Já. Til að tryggja áframhaldandi jafnræði við hvernig flýtileiðréttingar virka, er enn hægt að beita flýtileiðréttingum á umhverfi viðskiptavina í LCS. Hins vegar er mikilvægt að hafa í huga að bráðaleiðréttingar sem eru settar upp sem hluti af gæðauppfærslu fara í gegnum staðlaða SDP áður en uppfærslan er sett á laggirnar. Þetta dregur úr hættu á afturförum vegna meiri gæða. Við mælum með því að þú veljir gæðauppfærslu en að beita flýtileiðréttingum handvirkt til að auka áreiðanleika.
+## <a name="can-customers-still-manually-apply-hotfix-updates-from-lifecycle-services"></a>Geta viðskiptavinir samt beitt flýtileiðréttingum handvirkt frá Lifecycle Services?
+Já. Til að tryggja áframhaldandi jafnræði við hvernig flýtileiðréttingar virka, er enn hægt að beita flýtileiðréttingum á umhverfi viðskiptavina í Lifecycle Services. Hins vegar er mikilvægt að hafa í huga að flýtileiðréttingar sem eru settar upp sem hluti af gæðauppfærslu fara í gegnum staðlaða SDP áður en uppfærslan er sett upp. Þetta dregur úr hættu á afturförum vegna meiri gæða. Við mælum með því að þú veljir gæðauppfærslu en að beita flýtileiðréttingum handvirkt til að auka áreiðanleika.
 
 ## <a name="can-customers-proactively-install-a-quality-update-build-ahead-of-the-schedule"></a>Geta viðskiptavinir sett upp gæðauppfærsluuppfærslu á undan áætlun?
 Já. Þú getur sett upp gæðauppfærslu fyrirbyggjandi. Microsoft mun sleppa uppfærslunni ef núverandi byggingarútgáfa umhverfisins er jöfn eða hærri en viðkomandi gæðauppfærsla.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-monthly-service-update-within-a-week-will-it-still-receive-quality-updates"></a>Ef umhverfi er með væntanlega mánaðarlega þjónustuuppfærslu innan viku, mun það samt fá gæðauppfærslur?
-- Gæðauppfærslur eru ekki notaðar á framleiðsluumhverfi ef það er yfirvofandi þjónustuuppfærsla áætluð innan viku frá því að gæðauppfærslan á að gerast.
+- Gæðauppfærslur eru ekki notaðar á framleiðsluumhverfi ef yfirvofandi þjónustuuppfærsla er áætluð innan viku frá því að gæðauppfærslan á að gerast.
 - Ef sandkassaumhverfi er með sömu eða hærri byggingarútgáfu en yfirvofandi gæðauppfærsla verður því sleppt.
 - Ef framleiðsluumhverfi er með sömu eða hærri byggingarútgáfu en yfirvofandi gæðauppfærsla verður henni sleppt.
-- Ef sandkassi er með sömu eða hærri byggingarútgáfu vegna gæðauppfærslu eða handvirkrar uppfærslu á framleiðslunni mun framleiðslan samt fá áætlaða útgáfu mánaðarlegrar þjónustuuppfærslu. Ef þú vilt ekki að áætlað framleiðsluumhverfi verði uppfært í þjónustuuppfærsluútgáfuna geturðu gert hlé á þjónustuuppfærslunni frá LCS. 
-- Við mælum með því að þú notir nýjustu gæðauppfærslugerðina til að prófa breytingarnar þínar fyrir væntanlega þjónustuuppfærslu fyrir betri stöðugleika og árangur.
+- Ef sandkassi er með sömu eða hærri byggingarútgáfu vegna gæðauppfærslu eða handvirkrar uppfærslu á framleiðslunni mun framleiðslan samt fá áætlaða útgáfu mánaðarlegrar þjónustuuppfærslu. Ef þú vilt ekki að áætlað framleiðsluumhverfi verði uppfært í þjónustuuppfærsluútgáfuna geturðu gert hlé á þjónustuuppfærslunni frá Lifecycle Services. 
+- Við mælum með því að þú notir nýjustu gæðauppfærsluna til að prófa breytingarnar þínar fyrir væntanlega þjónustuuppfærslu fyrir betri stöðugleika og árangur.
 
-## <a name="if-an-environment-has-an-upcoming-scheduled-action-and-a-scheduled-quality-update-in-the-same-maintenance-window-will-it-still-receive-the-quality-update"></a>Ef umhverfi hefur væntanlega áætlaða aðgerð og áætlaða gæðauppfærslu í sama viðhaldsglugga, mun það samt fá gæðauppfærsluna?
-Ef einhver ágreiningur er um fyrirfram tímasetta aðgerð, td Point In Time Restore (PITR), verður gæðauppfærslan færð aftur í næsta tiltæka viðhaldsglugga innan fjögurra daga gluggans. Fyrir frekari upplýsingar um dagskrá, sjá [Hver er áætlunin fyrir fyrirbyggjandi gæðauppfærslur](#schedule)?. 
+## <a name="if-an-environment-has-an-upcoming-scheduled-action-and-a-scheduled-quality-update-in-the-same-maintenance-window-will-it-still-receive-the-quality-update"></a>Ef umhverfi er með væntanlega áætlaða aðgerð og áætlaða gæðauppfærslu í sama viðhaldsglugga, mun það samt fá gæðauppfærsluna?
+Ef einhver ágreiningur er um fyrirfram áætlaða aðgerð, td Point In Time Restore (PITR), verður gæðauppfærslan færð aftur í næsta tiltæka viðhaldsglugga innan fjögurra daga gluggans. Fyrir frekari upplýsingar um dagskrá, sjá [Hver er áætlunin fyrir fyrirbyggjandi gæðauppfærslur?](#schedule). 
 
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Er hægt að færa umhverfi aftur í fyrra ástand ef það eru vandamál eftir að gæðauppfærslu er beitt?
 Eftir að gæðauppfærslu hefur verið beitt er engin afturköllun undir neinum kringumstæðum. Það eru aðeins möguleikar á áframhaldandi plástra í boði til að draga úr vandamálum.
@@ -164,11 +191,11 @@ Eftir að gæðauppfærslu hefur verið beitt er engin afturköllun undir neinum
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Hvaða útgáfur af þjónustuuppfærslum eru studdar fyrir þessar gæðauppfærslur?
 Viðskiptavinir á öllum studdum útgáfum af þjónustuuppfærslum eiga rétt á gæðauppfærslum. 
 
-## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Innleiðing fjármála- og rekstrarforrita með smásöluíhlutum krefst venjulega viðbótarvinnu auk þess að þurfa að endurútfæra MPOS. Hvaða áhrif munu þessar gæðauppfærslur hafa á RetailSDK? 
-Vegna þess að eðli flýtileiðréttingarinnar sjálfrar breytist ekki í gæðauppfærsluhleðslunni, gerum við ekki ráð fyrir neinum frekari áhrifum sem tengjast sérstaklega smásöluíhlutum eins og er.
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retail-sdk"></a>Innleiðing fjármála- og rekstrarforrita með smásöluíhlutum krefst venjulega viðbótarvinnu auk þess að þurfa að endurútfæra MPOS. Hvaða áhrif munu þessar gæðauppfærslur hafa á Retail SDK? 
+Vegna þess að eðli flýtileiðréttingarinnar sjálfrar breytist ekki í gæðauppfærsluhleðslunni, gerum við ekki ráð fyrir neinum frekari áhrifum sem sérstaklega tengjast smásöluíhlutum eins og er.
 
 ## <a name="is-there-any-impact-to-cloud-hosted-environments-che"></a>Eru einhver áhrif á Cloud Hosted Environments (CHE)? 
-CHE umhverfi er utan svigrúms fyrir gæðauppfærslur vegna þess að þau eru utan verksviðs Microsoft
+CHE umhverfi er utan svigrúms fyrir gæðauppfærslur vegna þess að þau eru utan verksviðs Microsoft.
 
 ## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Eru einhver samþættingarvandamál með Microsoft Dataverse? 
 Það eru engin þekkt samþættingarvandamál fyrir gæðauppfærslur með Dataverse.

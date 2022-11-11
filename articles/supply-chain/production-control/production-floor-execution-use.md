@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 876ee36c75a31ca89a9351d0ee1484e66076b6aa
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069787"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748714"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hvernig starfsfólk notar viðmót fyrir framkvæmd á framleiðslugólfi
 
@@ -147,10 +147,7 @@ Ef runupöntun er búin til úr formúluútgáfu þar sem valkosturinn **Frávik
 
 ### <a name="reporting-catch-weight-items"></a>Tilkynning um aflaþyngd
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
-Starfsmenn geta notað framkvæmdarviðmót framleiðslugólfs til að tilkynna framvindu á runupantunum sem eru búnar til fyrir aflaþyngdarvörur. Lotapantanir eru búnar til úr formúlum, sem hægt er að skilgreina þannig að þær hafi aflaþyngdarvörur sem formúluvörur, aukaafurðir og aukaafurðir. Einnig er hægt að skilgreina formúlu þannig að hún hafi formúlulínur fyrir innihaldsefni sem eru skilgreind fyrir aflaþyngd. Aflaþyngdarvörur nota tvær mælieiningar til að rekja birgðahald: Aflaþyngdarmagn og birgðamagn. Til dæmis, í matvælaiðnaði, er hægt að skilgreina kassakjöt sem aflaþyngd, þar sem aflaþyngdarmagn er notað til að rekja fjölda kassa og birgðamagn er notað til að rekja þyngd kassa.
+Starfsmenn geta notað framkvæmdarviðmót framleiðslugólfs til að tilkynna framvindu á runupantunum sem eru búnar til fyrir aflaþyngdarvörur. Lotapantanir eru búnar til úr formúlum, sem hægt er að skilgreina þannig að þær hafi aflaþyngdarvörur sem formúluvörur, aukaafurðir og aukaafurðir. Einnig er hægt að skilgreina formúlu þannig að hún hafi formúlulínur fyrir innihaldsefni sem eru skilgreind fyrir aflaþyngd. Aflaþyngdarvörur nota tvær mælieiningar til að rekja birgðahald: Aflaþyngdarmagn og birgðamagn. Til dæmis, í matvælaiðnaði, er hægt að skilgreina kassakjöt sem aflaþyngdarhlut, þar sem aflaþyngdarmagn er notað til að rekja fjölda kassa og birgðamagn er notað til að rekja þyngd kassa.
 
 ## <a name="reporting-scrap"></a>Tilkynna rýrnun
 
@@ -204,7 +201,7 @@ Hægt er að framkvæma eftirfarandi aðgerðir:
 
 ### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Stilltu efni frá aðal- eða aukatækjastikunni
 
-The **Stilla efni** Hægt er að stilla hnappinn þannig að hann birtist á aðal- eða aukatækjastikunni. (Fyrir frekari upplýsingar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md) .) Starfsmaður getur valið **Stilla efni** fyrir framleiðslustarf sem er í vinnslu. Í þessu tilviki er **Stilla efni** svargluggi birtist þar sem starfsmaðurinn getur gert þær breytingar sem óskað er eftir. Þegar svarglugginn er opnaður er framleiðslutínslulisti sem inniheldur línur fyrir leiðrétt magn búinn til fyrir framleiðslupöntunina. Ef starfsmaður velur **Sendu núna**, leiðréttingin er staðfest og tínslulistinn settur. Ef starfsmaður velur **Hætta við**, plokkunarlistanum er eytt og engin leiðrétting gerð.
+The **Stilla efni** Hægt er að stilla hnappinn þannig að hann birtist á aðal- eða aukatækjastikunni. (Nánari upplýsingar er að finna í [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md) .) Starfsmaður getur valið **Stilla efni** fyrir framleiðslustarf sem er í vinnslu. Í þessu tilviki er **Stilla efni** svargluggi birtist þar sem starfsmaðurinn getur gert þær breytingar sem óskað er eftir. Þegar svarglugginn er opnaður er framleiðslutínslulisti sem inniheldur línur fyrir leiðrétt magn búinn til fyrir framleiðslupöntunina. Ef starfsmaður velur **Sendu núna**, leiðréttingin er staðfest og tínslulistinn settur. Ef starfsmaður velur **Hætta við**, plokkunarlistanum er eytt og engin leiðrétting gerð.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Stilltu efnisnotkun fyrir aflaþyngdarhluti
 
@@ -261,7 +258,7 @@ Starfsmenn geta skráð hlé. Hægt er að skilgreina hlé með sveigjanlegum h�
 
 Starfsmaður skráir hlé með því að velja **Hlé** og síðan velja spjaldið sem stendur fyrir gerð hlés (t.d. hádegismatur). Eftir að starfsmaðurinn staðfestir valið sýnir tækið annaðhvort innskráningarsíðuna eða síðu sem bíður þess að starfsmaðurinn staðfesti að þeir hafi skilað úr hléinu. Síðan sem birtist fer eftir skilgreiningunni á keyrsluviðmóti framleiðslugólfsins. (Frekari upplýsingar er að finna í [Skilgreina keyrsluviðmót framleiðslugólfsins](production-floor-execution-configure.md).)
 
-## <a name="view-the-my-day-dialog"></a>Skoðaðu gluggann „Dagurinn minn“
+## <a name="view-the-my-day-dialog"></a>Skoðaðu "Dagurinn minn" gluggann
 
 The **Minn dagur** dialog veitir starfsmönnum yfirsýn yfir skráningar þeirra og stöður. Valmyndinni er skipt í eftirfarandi þrjá hluta:
 

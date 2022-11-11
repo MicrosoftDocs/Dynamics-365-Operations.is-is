@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 421f17402a2f3b37a9ccce9d747e2c0ec865ee39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d7035a7034d084a9bec453557694ce7f29ad347
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854472"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740372"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.9. (apríl 2020)
 
@@ -33,7 +33,7 @@ ms.locfileid: "8854472"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Sumir þessara eiginleika gætu einnig hafa verið með í fyrri stigvaxandi útgáfu, en voru ekki tilkynntir í fyrri *Hvað er nýtt* grein, svo við bætum þeim við hér. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
+Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Sumir þessara eiginleika kunna einnig að hafa verið með í fyrri stigvaxandi útgáfu, en voru ekki tilkynntir í fyrri *Hvað er nýtt* grein, svo við bætum þeim við hér. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
 - [Ítarlegar hleðsluáætlanir í bylgju](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - Frekari upplýsingar er að finna í [Viðbótarhleðsluáætlanir í bylgju](../warehousing/advanced-load-building-during-wave.md).
 
@@ -73,7 +73,7 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengj
 
 - [Samhliðuð staðfesting á áætluðum pöntunum](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Frekari upplýsingar er að finna í [Staðfesting á tillögum](../master-planning/planning-optimization/planned-order-firming.md) og myndbandinu [Endurbætur á MRP-afköstum og notagildi](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 
-- [Fínstilling áætlanagerðar fyrir dreifingu](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Frekari upplýsingar er að finna í [Yfirlit yfir fínstillingu aðaláætlanagerðar](../master-planning/planning-optimization/planning-optimization-overview.md).
+- [Fínstilling áætlanagerðar fyrir dreifingu](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Fyrir frekari upplýsingar, sjá [Heimasíða aðalskipulags](../master-planning/master-planning-home-page.md).
 
 - [Endurbætur á innkaupasamningi](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements)<br> - Frekari upplýsingar er að finna í [Innkaupasamningar](../procurement/purchase-agreements.md).
 

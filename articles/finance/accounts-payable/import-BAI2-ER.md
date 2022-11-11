@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 46a50f4b00125656fc185ad569b94eeef00dc3c3
-ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
-ms.translationtype: MT
+ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337568"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752721"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Settu upp háþróaðan bankaafstemmingarinnflutning með því að nota rafræna skýrslugerð
 
@@ -33,8 +33,8 @@ ms.locfileid: "9337568"
 1. Fara til **Vinnurými \> Rafræn skýrslugerð**.
 2. Á flísum fyrir **Microsoft** stillingarveita, veldu **Geymslur**.
 3. Veldu **Altækt** og síðan **Opna**.
-4. Ef það þarf að koma á tengingu við geymsluna skaltu velja bláa tengilinn í svarglugganum.
-5. Í stillingarlistanum, finndu **Fyrirmynd bankayfirlits \> Bankayfirlitslíkan af BAI2**.
+4. Ef koma þarf á tengingu við geymsluna skaltu velja bláa tengilinn í glugganum.
+5. Í stillingarlistanum, finndu **Ítarlegt líkan bankaafstemmingaryfirlits \> ABR BAI2 sniði** ..
 6. Veldu **BAI2** sniði.
 7. Á **Útgáfur** Flýtiflipi, veldu nýjustu útgáfuna og veldu síðan **Flytja inn**.
 

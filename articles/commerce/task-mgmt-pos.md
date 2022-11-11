@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: 22a71fe66042a9ad189fd6a83a2666dfa64d35d0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 595a51eba1d0cd432d4f4de9405bf9f30a1ae00c
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281997"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746036"
 ---
 # <a name="task-management-in-pos"></a>Verkstjórnun á sölustað
 
@@ -36,6 +36,7 @@ Verslunarstjórar geta framkvæmt eftirfarandi verkefnaaðgerðir í POS forriti
 - **Staða verkefnis** - Breyta stöðu valinna verkefna.
 - **Sía** - Sjálfgefið er að aðeins virk verkefni eru sýnd. Hins vegar með því að beita síum geta stjórnendur skoðað öll verkefni, jafnvel verkefni sem hefur verið lokið eða aflýst.
 - **Nýtt verkefni** - Búðu til verkefni undir fyrirliggjandi verkefnalista, eða búðu til eins tilgangs verkefni.
+- **Breyta verkefni** - Breyttu upplýsingum um verkefni.
 
 Starfsfólk verslunar getur framkvæmt eftirfarandi verkefnaaðgerðir í POS forritinu með því að nota hnappana á stjórnstikunni:
 

@@ -2,7 +2,7 @@
 title: Greiðsluferliseining
 description: Þessi grein lýsir því hvernig á að bæta afgreiðslueiningu við síðu og stilla nauðsynlega eiginleika.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280475"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746226"
 ---
 # <a name="checkout-module"></a>Greiðsluferliseining
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þessi grein lýsir því hvernig á að bæta afgreiðslueiningu við síðu og stilla nauðsynlega eiginleika.
 
@@ -96,7 +97,7 @@ Fylgdu þessum skrefum til að bæta greiðsluferliseiningu við nýja síðu og
 1. Veldu hólfið **Greiðsluferliseining**.
 1. Hægra megin á eiginleikasvæðinu skal velja blýantstáknið, slá inn texta fyrirsagnar í reitinn og síðan velja gátmerkistáknið.
 1. Í **Upplýsingar um útskráningu** rauf, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
-1. Í **Veldu einingar** valmynd, veldu **Heimilisfang sendingar**, **·**, **úttektarhluta**, og **Samskiptaupplýsingar** einingar, og veldu síðan **Allt í lagi**.
+1. Í **Veldu einingar** valmynd, veldu **Heimilisfang sendingar**, **·**, **afgreiðsluhluta**, og **Samskiptaupplýsingar** einingar, og veldu síðan **Allt í lagi**.
 1. Í **Gámur úttektarhluta** mát, veldu sporbaug (**...**), og veldu síðan **Bæta við einingu**.
 1. Í **Veldu einingar** valmynd, veldu **Gjafakort**, **·**, og **Greiðsla** einingar, og veldu síðan **Allt í lagi**. Með þessum hætti tryggirðu að allir greiðslumáta birtist saman í hluta.
 1. Í hólfinu **Skilmálar** skal bæta við **Skilmálar greiðsluferlis** einingu ef þess gerist þörf. Í eiginleikasvæði einingarinnar skal stilla skilmálatextann eins og er við hæfi.
@@ -104,6 +105,8 @@ Fylgdu þessum skrefum til að bæta greiðsluferliseiningu við nýja síðu og
 1. Veldu **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
 1. Búðu til sniðmát sem notar nýja greiðsluferlisbrotið.
 1. Búðu til greiðslusíðu sem notar nýja sniðmátið.
+
+> [ATHUGIÐ] Þegar eingreiðsluheimild er notuð eins og lýst er í [Auknar greiðslur í afgreiðslu verslunar](./dev-itpro/enhanced-sca.md), í **Upplýsingar um úttekt** hluta greiðslusíðunnar, staðfestið að gámurinn fyrir greiðsluhlutann sé síðastur. Þetta tryggir að öllum nauðsynlegum upplýsingum sé safnað saman af greiðslusíðunni áður en lokagreiðslan fer fram og aðgerðir til að ljúka pöntunum. 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

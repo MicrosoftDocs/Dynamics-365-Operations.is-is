@@ -16,12 +16,12 @@ ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.industry: Retail
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
-ms.openlocfilehash: f282c163ef5a74283231492e499201c6d4619115
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d334701b2865a4f19365a2773641e324326b02e3
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287512"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751941"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Setja upp og stjórna myndum fyrir Modern POS (MPOS)
 
@@ -160,7 +160,7 @@ Fyrir allar einingar nema Afurðir er hægt að yfirskrifa vefslóð myndar fyri
     [![Vörulistamyndir galleríssíðu.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
-> Eins og er birtir galleríið ekki forskoðun myndar fyrir miðilssniðmát fyrir vefslóðir myndar. Fyrir einingar Vörulista, Starfsmaður, Viðskiptavinur og Tegund , ef notandinn veitir sérstaklega Vefslóð með þessari síðu er mælt með því að tilgreina hvaða mynd er sjálfgefna myndin, þar sem biðlarar Commerce Scale Unit sýna aðeins eina mynd fyrir hvern Vörulista, Viðskiptavinur, Starfsmann og Tegund. Ef notanda ekki tilgreina sjálfgefna mynd, kerfið ákvarðar sjálfgefna mynd og senda hana til kallara Commerce-þjónustu (MPOS eða Ecommerce).
+> Aðeins myndir sem eru aðgengilegar opinberlega og nafnlaust verða birtar á POS. POS styður flutning á myndum sem eru hýstar utanaðkomandi, með þeirri kröfu að myndunum sé skilað sem inline octet-straumi til GET beiðnir án hausa. Með nafnlausri aðgangsstefnu, sérstaklega fyrir SharePoint -hýstar myndir sem krefjast þess að beiðnihausar innihaldi bæði hýsil- og notanda-umboðshausa, "Forboðið" svar verður skilað. Því myndstjórnun með því að nota SharePoint þar sem gestgjafinn er ekki studdur beint úr kassanum eins og er. The **Vörulisti myndir** gallerí síða sýnir ekki forskoðun mynda fyrir vefslóðir myndsniðmáts. Vegna þess að viðskiptavinir Commerce Scale Unit (CSU) sýna aðeins eina mynd fyrir hvern vörulista, viðskiptavin, starfsmann og flokkaeiningu, ef þú gefur beinlínis upp vefslóð í gegnum þessa síðu fyrir vörulista, starfsmann, viðskiptavin og flokkaeiningar, mælum við með að þú tilgreinir hvaða mynd er sjálfgefin mynd. Ef þú tilgreinir ekki sjálfgefna mynd, ákvarðar kerfið sjálfgefna mynd og sendir hana til viðskiptaþjónustunnar (MPOS eða rafræn viðskipti).
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>Skrifa yfir vefslóð myndar fyrir myndir vörulistaafurðarinnar frá síðunni Forskoðun
 

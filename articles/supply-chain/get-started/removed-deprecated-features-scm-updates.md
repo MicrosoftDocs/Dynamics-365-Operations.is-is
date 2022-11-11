@@ -1,6 +1,6 @@
 ---
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
-description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir eða sem fyrirhugað er að fjarlægja í Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 06/29/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 722b34e89a54715db39259549c11a78d69d2b4d3
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218804"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739871"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
 
@@ -89,7 +89,7 @@ ms.locfileid: "9218804"
 | **Skipt út fyrir aðra eiginleika?**   | Já, fínstilling áætlanagerðar kemur í stað núverandi aðaláætlunarvélar Supply Chain Management. |
 | **Afurðasvæði sem haft er áhrif á**         | Supply Chain Management - Aðaláætlanagerð |
 | **Dreifingarvalkostur**              | Aðeins ský. Fínstilling áætlanagerðar er ekki studd með uppsetningu á staðnum. |
-| **Staða**                         | Úrelt. Fyrir 1. apríl 2022 verða framleiðslusviðsmyndir ekki lengur studdar fyrir innbyggðu Supply Chain Management aðalskipulagsvélina. Frá og með þeim degi mun Microsoft stöðva alla virka þróun á framleiðsluatburðarás fyrir innbyggðu skipulagsvélina, mun ekki gefa út neina nýja eiginleika og mun aðeins gefa út mikilvægar villuleiðréttingar. Eftir þá dagsetningu verða öll fyrirtæki sem þurfa stuðning við framleiðslusviðsmyndir að nota áætlanagerð fínstillingu fyrir aðalskipulagsútreikninga. Gert er ráð fyrir að hagræðing skipulags muni styðja að fullu framleiðslusviðsmyndir fyrir október 2022. Fyrir frekari upplýsingar, sjá [Skipulagshagræðingarskjöl](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Fyrirtæki með innleiðingu á birgðakeðjustjórnun á staðnum geta haldið áfram að nota innbyggðu aðalskipulagsvélina fyrir framleiðsluatburðarás eftir apríl 2022. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
+| **Staða**                         | Úrelt. Fyrir 1. apríl 2022 verða framleiðslusviðsmyndir ekki lengur studdar fyrir innbyggðu Supply Chain Management aðalskipulagsvélina. Frá og með þeim degi mun Microsoft stöðva alla virka þróun á framleiðsluatburðarás fyrir innbyggðu skipulagsvélina, mun ekki gefa út neina nýja eiginleika og mun aðeins gefa út mikilvægar villuleiðréttingar. Eftir þá dagsetningu verða öll fyrirtæki sem þurfa stuðning við framleiðslusviðsmyndir að nota áætlanagerð fínstillingu fyrir aðalskipulagsútreikninga. Gert er ráð fyrir að hagræðing skipulags muni styðja að fullu framleiðslusviðsmyndir fyrir október 2022. Fyrir frekari upplýsingar, sjá [Úrelt aðalskipulagsyfirlit](../master-planning/deprecated-master-planning-overview.md).<br><br>Fyrirtæki með innleiðingu á birgðakeðjustjórnun á staðnum geta haldið áfram að nota innbyggðu aðalskipulagsvélina fyrir framleiðsluatburðarás eftir apríl 2022. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Supply Chain Management 10.0.11 útgáfa
 
@@ -101,7 +101,7 @@ ms.locfileid: "9218804"
 | **Skipt út fyrir aðra eiginleika?**   | Já, fínstilling áætlanagerðar kemur í stað núverandi aðaláætlunarvélar Supply Chain Management. |
 | **Afurðasvæði sem haft er áhrif á**         | Supply Chain Management - Aðaláætlanagerð |
 | **Dreifingarvalkostur**              | Aðeins ský. Fínstilling áætlanagerðar er ekki studd með uppsetningu á staðnum. |
-| **Staða**                         | Úrelt. Þann 1. apríl 2021 verða dreifingaraðstæður ekki lengur studdar með innbyggðri Dynamics 365 Supply Chain Management aðaláætlunarvél. Fyrir dreifingaraðstæður verða viðskiptavinir að nota fínstillingu áætlanagerðar fyrir útreikning aðaláætlunar. Nánari upplýsingar er að finna í [fylgiskjölum fínstillingar áætlanagerðar](../master-planning/planning-optimization/planning-optimization-overview.md). Viðskiptavinir með uppsetningu á staðnum á Dynamics 365 Supply Chain Management geta haldið áfram að nota aðaláætlunarvél Supply Chain Management fyrir dreifingaraðstæður eftir apríl 2021. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
+| **Staða**                         | Úrelt. Þann 1. apríl 2021 verða dreifingaraðstæður ekki lengur studdar með innbyggðri Dynamics 365 Supply Chain Management aðaláætlunarvél. Fyrir dreifingaraðstæður verða viðskiptavinir að nota fínstillingu áætlanagerðar fyrir útreikning aðaláætlunar. Fyrir frekari upplýsingar, sjá [Úrelt aðalskipulagsyfirlit](../master-planning/deprecated-master-planning-overview.md). Viðskiptavinir með uppsetningu á staðnum á Dynamics 365 Supply Chain Management geta haldið áfram að nota aðaláætlunarvél Supply Chain Management fyrir dreifingaraðstæður eftir apríl 2021. Ekki verður boðið upp á fleiri umbætur á eiginleikum. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Fyrri tilkynningar um eiginleika sem voru fjarlægðir eða úreltir
 

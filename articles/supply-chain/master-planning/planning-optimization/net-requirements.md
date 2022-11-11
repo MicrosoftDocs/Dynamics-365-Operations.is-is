@@ -1,6 +1,6 @@
 ---
-title: Nettóþörf og þarfarakning með fínstillingu áætlanagerðar
-description: Þessi grein veitir upplýsingar um reiknaðar nettóþarfir og tengiupplýsingar í Hagræðingu áætlanagerðar.
+title: Nettókröfur og tengingarupplýsingar
+description: Þessi grein veitir upplýsingar um reiknaðar nettóþarfir og tengiupplýsingar.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888529"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748439"
 ---
-# <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Nettóþörf og þarfarakning með fínstillingu áætlanagerðar
+# <a name="net-requirements-and-pegging-information"></a>Nettókröfur og tengingarupplýsingar
 
 [!include [banner](../../includes/banner.md)]
 
-Þegar aðaláætlanagerð er keyrð í fínstillingu áætlanagerðar er mikilvægt að þú skiljir úttak hennar, hvernig fyrirliggjandi framboð dekkar eftirspurn og hvers vegna tiltekið framboð var búið til. Hægt er að nota síðuna **Nettóþarfir** til að átta sig betur á útreiknuðum kröfum sem aðaláætlanagerð gerir.
+Þegar aðaláætlanagerð er keyrð í aðaláætlanagerð er mikilvægt að þú skiljir úttak hennar, hvernig fyrirliggjandi framboð dekkar eftirspurn og hvers vegna tiltekið framboð var búið til. Hægt er að nota síðuna **Nettóþarfir** til að átta sig betur á útreiknuðum kröfum sem aðaláætlanagerð gerir.
 
-Síðan **Nettóþarfir** sýnir nettóþarfir sem fínstilling áætlanagerðar reiknaði út fyrir afurðina. Hún sýnir einnig þekjustillingarnar sem voru notaðar við keyrslu aðaláætlanagerðar, sundurliðun á samtals þörfum eftir færslugerð og upplýsingum um þarfarakningu.
+The **Nettókröfur** síða sýnir nettóþörf sem aðalskipulag reiknaði fyrir vöruna. Hún sýnir einnig þekjustillingarnar sem voru notaðar við keyrslu aðaláætlanagerðar, sundurliðun á samtals þörfum eftir færslugerð og upplýsingum um þarfarakningu.
 
 ## <a name="open-the-net-requirements-page"></a>Opna síðu nettóþarfa
 
@@ -64,8 +64,8 @@ Síðan **Nettóþarfir** samanstendur af efri og neðri hluta. Á aðgerðarrú
 Eftirfarandi skipanir eru í boði á aðgerðasvæði:
 
 - **Uppfæra \> Aðaláætlanagerð** – Keyrðu aðaláætlanagerð beint af síðunni **Nettóþarfir**.
-- **Uppfæra \> Spáráætlun** – Keyrðu spáráætlun beint af síðunni **Nettóþarfir**. Fínstilling áætlanagerðar styður ekki þessa aðgerð enn sem komið er.
-- **Uppfæra \> Samfelldniáætlunargerð** – Keyrðu samfellda áætlunargerð beint af síðunni **Nettóþarfir**. Fínstilling áætlanagerðar styður ekki þessa aðgerð enn sem komið er.
+- **Uppfæra \> Spáráætlun** – Keyrðu spáráætlun beint af síðunni **Nettóþarfir**. Áætlanagerð fínstilling styður ekki þessa aðgerð.
+- **Uppfæra \> Samfelldniáætlunargerð** – Keyrðu samfellda áætlunargerð beint af síðunni **Nettóþarfir**. Áætlanagerð fínstilling styður ekki þessa aðgerð.
 
 ## <a name="example-scenario"></a>Dæmi
 
@@ -133,8 +133,6 @@ Næst skal opna síðuna **Nettóþarfir** fyrir afurð *1000* til að yfirfara 
     ![Festa upplýsingar fyrir sölupöntunina](media/pegging-planned-purchase-order.png "Festir upplýsingar fyrir sölupöntunina")
 
 > [!NOTE]
-> Þar sem fínstilling áætlanagerðar styður ekki enn nokkra eiginleika eru þarfagerðirnar *Öryggisbirgðir* og *Útrunnin runa* ekki hafðar með á síðunni **Nettóþarfir**. Frekari upplýsingar er að finna í [Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md).
->
-> Ef þú notar innbyggðu aðaláætlunarvélina eru runustýrðar afurðir studdar. Fyrir runustýrðar afurðir eru útrunnar lagerbirgðir sýndar á síðunni **Nettóþarfir** en ekki er gerð þarfarakning á þeim vegna þarfa eftirspurnar. Útrunnar lagerlínur af þessari gerð eru sýndar sem þarfalínur *Útrunnar runu* á síðunni **Nettóþarfir**.
+> The *Öryggisbirgðir* krafan er ekki innifalin í **Nettókröfur** síðu.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

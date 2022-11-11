@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28c2c10a9293d00e26dfcc80ab08b89a122a6135
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9732772"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752691"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Dynamics 365 Human Resources innviðir sameina þekkt mál
 
@@ -44,10 +44,3 @@ Eftirfarandi umhverfisgerðir eru nauðsynlegar áður en þú getur gert flutni
 
 Núverandi mannauðsappið í Teams er nú fært yfir í a Microsoft Power Platform lausn. Frekari upplýsingar er að finna í [Forrit Human Resources í Teams](hr-admin-teams-leave-app.md).
 
-## <a name="licensing"></a>Leyfisveiting
-
-Engar breytingar eru á leyfisveitingum fyrir Dynamics 365 Human Resources á eftirfarandi sviðum: 
-
-- **Lágmarksfjöldi kröfu um leyfiskaup**
-- **Leyfi fyrir framleiðsluumhverfi og sandkassaumhverfi** – Ef þú ert með fyrirliggjandi sjálfstæð mannauðsleyfi sem innihalda eitt framleiðsluumhverfi og eitt sandkassaumhverfi, verður sami fjöldi leyfa tiltækur á fjármála- og rekstrarinnviðum.
-- **Viðbótarsandkassaleyfi** – Ef þú hefur keypt viðbótarsandkassaleyfi fyrir sjálfstæða mannauðsforritið, verður sami fjöldi leyfa tiltækur fyrir sandkassaumhverfi á fjármála- og rekstrarinnviðum. 

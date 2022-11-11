@@ -2,7 +2,7 @@
 title: Greiðsluyfirlit samskiptamiðstöðvar
 description: Þessi grein veitir yfirlit yfir alhliða greiðslur í Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/17/2020
+ms.date: 11/04/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a5cc0725b383ca6657bd19b9dd25b0c60b364467
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881710"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746126"
 ---
 # <a name="omni-channel-payments-overview"></a>Greiðsluyfirlit samskiptamiðstöðvar
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Þessi grein veitir yfirlit yfir alhliða greiðslur í Dynamics 365 Commerce. Það inniheldur ítarlegan lista yfir studdar aðstæður, upplýsingar um virkni, uppsetningu og úrræðaleit, og lýsingar á dæmigerðum vandamálum.
 
@@ -34,7 +35,7 @@ ms.locfileid: "8881710"
 
 | Hugtak | Lýsing |
 |---|---|
-| Tákn | Strengur af gögnum sem greiðsluvinnsla býður upp á sem tilvísun. Tákn geta staðið fyrir greiðslukortanúmer, greiðsluheimildir og fyrri greiðslutökur. Tákn eru mikilvæg vegna þess að þau hjálpa til við að halda viðkvæmum gögnum fyrir utan sölustaðarkerfi. Stundum er einnig vísað í þau sem *tilvísanir*. |
+| Tákn | Strengur af gögnum sem greiðsluvinnsla býður upp á sem tilvísun. Tákn geta staðið fyrir greiðslukortanúmer, greiðsluheimildir og fyrri greiðslutökur. Tákn eru mikilvæg vegna þess að þau hjálpa til við að halda viðkvæmum gögnum fyrir utan sölustaðarkerfi. Þeir eru stundum einnig nefndir *tilvísanir*. |
 | Kortatákn | Tákn sem greiðsluvinnsla býður upp á fyrir geymslu í sölustaðarkerfi. Eingöngu söluaðili sem tekur á móti kortatákni getur notað það. Stundum er einnig vísað í kortatákn sem *kortatilvísanir*. |
 | Heimildartákn | Einkvæmt auðkenni sem greiðsluvinnsla veitir sem hluta svars sem hún sendir til sölustaðarkerfis eftir að sölustaðarkerfið sendir heimildarbeiðni. Heimildartákn er hægt að nota síðar ef kallað er eftir vinnslunni til að framkvæma aðgerðir á borð við bakfærslu eða ógildingu heimildar. Hins vegar er það oftast notað til að ná í reiðufé þegar pöntun er uppfyllt eða færsla er kláruð. Stundum er einnig vísað í heimildartákn sem *heimildartilvísanir*. |
 | Greiðslutökutákn | Tilvísun sem greiðsluvinnsla veitir sölustaðarkerfi þegar greiðsla er kláruð eða sótt. Þá er hægt að nota greiðslutökutáknið til að vísa í greiðslutökuna fyrir næstu aðgerðir á borð við endurgreiðslubeiðni. | 
@@ -43,7 +44,7 @@ ms.locfileid: "8881710"
 
 ## <a name="overview"></a>Yfirlit
 
-Almennt séð lýsir hugtakið *greiðslur omni-rásar* möguleikanum á því að búa til pöntun í einni rás og uppfylla hana í annarri rás. Lykillinn að notendaþjónustu vegna greiðslu omni-rásar er að halda utan um greiðsluupplýsingar ásamt öðrum upplýsingum um pöntunina og síðan nota þessar greiðsluupplýsingar þegar kallað er aftur á pöntunina eða unnið úr henni í annarri rás. Gott dæmi er atburðarásin „Kaupa á netinu, sækja í verslun“. Í þessari atburðarás er greiðsluupplýsingum bætt við þegar pöntun er búin til á netinu. Síðan er kallað aftur á þær á sölustað til að innheimta greiðslukort viðskiptavinar þegar sótt er. 
+Almennt séð lýsir hugtakið *greiðslur omni-rásar* möguleikanum á því að búa til pöntun í einni rás og uppfylla hana í annarri rás. Lykillinn að notendaþjónustu vegna greiðslu omni-rásar er að halda utan um greiðsluupplýsingar ásamt öðrum upplýsingum um pöntunina og síðan nota þessar greiðsluupplýsingar þegar kallað er aftur á pöntunina eða unnið úr henni í annarri rás. Gott dæmi er atburðarásin „Kaupa á netinu, sækja í verslun“. Í þessari atburðarás er greiðsluupplýsingum bætt við þegar pöntun er búin til á netinu. Þeir eru síðan innkallaðir í POS til að rukka greiðslukort viðskiptavinarins við afhendingu. 
 
 Allar aðstæður sem lýst er í þessari grein er hægt að útfæra með því að nota staðlaða greiðsluhugbúnaðarþróunarbúnaðinn (SDK) sem fylgir Commerce. [Dynamics 365-greiðslutengill fyrir Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) býður upp á tilbúna innleiðingu á öllum atburðarásum sem lýst er hér. 
 
@@ -104,7 +105,7 @@ Eftirfarandi kaflar lýsa skrefunum fyrir hverja atburðarás og sýna hvernig �
 Áður en hafist er handa skal ganga úr skugga um að eftirfarandi skilyrði séu uppfyllt:
 
 - Þú ert með tilvísun í netverslun þar sem Adyen-tengill er skilgreindur.
-- Valkosturinn **Greiðslur á Omni-rás** á síðunni **Samnýttar færibreytur Commerce** er stilltur á **Satt**. Í síðari útgáfum er þessi stilling flutt yfir á vinnusvæðið **Eiginleikastjórnun** þar sem hægt er að velja eiginleikann **Greiðslur á Omni-rás** og smella á **Virkja núna**. 
+- Valkosturinn **Greiðslur á Omni-rás** á síðunni **Samnýttar færibreytur Commerce** er stilltur á **Satt**. Í síðari útgáfum er þessi stilling færð í **Eiginleikastjórnun** vinnusvæði þar sem þú getur valið **Umni-rás greiðslur** lögun og smelltu **Virkja núna**. 
 - Adyen-greiðslutengill er skilgreindur fyrir Houston-afgreiðslukassann.
 - Retail Modern POS fyrir Windows eða Android með innbyggðri vélbúnaðarstöð -eða-
 - Modern POS fyrir iOS eða sölukerfi í skýinu með tengdri samnýttri vélbúnaðarstöð. 
@@ -169,9 +170,9 @@ Fylgdu þessum skrefum til að keyra atburðarásirnar.
 6. Í leitarstikunni skal slá inn **Seattle** og síðan velja verslunina **Seattle** til að sækja. 
 7. Veljið **Í lagi** til að samþykkja núverandi dagsetningu sem daginn sem pöntun verður sótt.
 9. Veljið **Greitt með korti** til að hefja greiðsu.
-10. Leggið fram greiðslu með korti fyrir upphæðinni sem þarf að inna af hendi fyrir innborguninni. 
+10. Leggið fram greiðslu með korti fyrir upphæðinni sem þarf að inna af hendi fyrir innborguninni.
 11. Ljúkið greiðslu innborgunar í posanum. 
-12. Eftir að greiðslan hefur verið greidd skal velja möguleikann á því að nota sama kortið til uppfyllingar og bíða eftir því að pöntunin klárist. 
+12. Eftir að greiðslan hefur verið greidd skal velja möguleikann á því að nota sama kortið til uppfyllingar og bíða eftir því að pöntunin klárist. Ef 100% af innborguninni er greitt (frá skrefi 10 hér að ofan) eru fjármunirnir færðir strax á kortið og heimildarlykill verður ekki tiltækur við reikningagerð vegna þess að fjármunirnir hafa þegar verið teknir og raktir sem greiddir.
 13. Ræsið sölustað fyrir Seattle-verslun.
 14. Á sölustað, á upphafsíðunni, skal velja aðgerðina **Pantanir til að sækja** til að sjá pantanir sem verða sóttar í verslun. 
 15. Veldu eina eða fleiri línur úr pöntuninni sem var stofnuð í netverslun sem vísað er í og veldu síðan **Sækja**.
@@ -198,7 +199,7 @@ Fylgdu þessum skrefum til að keyra atburðarásirnar.
 8. Veljið **Greitt með korti** til að hefja greiðsu.
 9. Leggið fram greiðslu með korti fyrir upphæðinni sem þarf að inna af hendi fyrir innborguninni. 
 10. Ljúkið greiðslu innborgunar í posanum. 
-11. Eftir að greiðslan hefur verið greidd skal velja möguleikann á því að nota sama kortið til uppfyllingar og bíða eftir því að pöntunin klárist.
+11. Eftir að greiðslan hefur verið greidd skal velja möguleikann á því að nota sama kortið til uppfyllingar og bíða eftir því að pöntunin klárist. Ef 100% af innborguninni er greitt (frá skrefi 9 hér að ofan) eru fjármunirnir færðir strax á kortið og heimildarlykill verður ekki tiltækur við reikningagerð vegna þess að fjármunirnir hafa þegar verið teknir og raktir sem greiddir.
 
 Þegar pöntun er sótt, pökkuð og reikningsfærð í bakvinnslu verða greiðsluupplýsingarnar sem eru veittar á sölustaðnum notaðar til að sækja fjármagnið fyrir vörunum sem verða sendar til viðskiptavinar. 
 
@@ -225,7 +226,7 @@ Viðskiptavinur sem kemur í verslun til að sækja pöntun hefur möguleikann �
 
 ### <a name="invalid-authorizations"></a>Ógildar heimildir
 
-Ef kortið sem var notað til að búa til pöntun er ekki lengur í gildi, þegar valið er að sækja vörur, mun beiðni um greiðslutöku mistakast. Greiðslutengill sölustaðar reynir þá að búa til nýja heimild og sækja greiðslu með því að nota sömu kortaupplýsingar. Ef nýja heimildin eða greiðslutakan mistekst verður gjaldkeri látinn vita að ekki var hægt að vinna úr greiðslunni. Gjaldkerinn verður þá að fá nýja greiðslu frá viðskiptavini. 
+Ef kortið sem var notað til að búa til pöntun er ekki lengur í gildi, þegar valið er að sækja vörur, mun beiðni um greiðslutöku mistakast. Greiðslutengill sölustaðar reynir þá að búa til nýja heimild og sækja greiðslu með því að nota sömu kortaupplýsingar. Ef nýja heimildin eða handtakan mistekst verður gjaldkera tilkynnt um að ekki hafi verið hægt að ganga frá greiðslunni. Gjaldkerinn verður þá að fá nýja greiðslu frá viðskiptavini. 
 
 ### <a name="multiple-available-payments"></a>Margar tiltækar greiðslur
 

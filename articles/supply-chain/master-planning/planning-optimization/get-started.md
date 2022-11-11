@@ -1,6 +1,6 @@
 ---
-title: Hafist handa með fínstillingu áætlanagerðar
-description: Þessi grein útskýrir hvernig á að byrja að nota áætlanagerð fínstillingu virkni.
+title: Byrjaðu á aðalskipulagi
+description: Þessi grein útskýrir hvernig á að byrja að nota aðalskipulagsvirkni í Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,29 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295930"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740330"
 ---
-# <a name="get-started-with-planning-optimization"></a>Hafist handa með fínstillingu áætlanagerðar
+# <a name="get-started-with-master-planning"></a>Byrjaðu á aðalskipulagi
 
 [!include [banner](../../includes/banner.md)]
 
-Eins og hefur [áður verið tilkynnt](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), er á dagskrá að fínstilling skipulagningar takið við af núverandi innbyggðri vél aðaláætlanagerðar.
+Aðalskipulag í birgðakeðjustjórnun er veitt af ytri þjónustu sem kallast áætlanagerð hagræðingarviðbót fyrir Dynamics 365 Supply Chain Management. Þetta efni útskýrir hvernig á að fá og setja upp þá þjónustu.
 
-Ef verið er að nota innbyggða vél aðaláætlanagerðar, ætti að huga að flutningi yfir í fínstillingu skipulagningar. Það er mikilvægt að byrja strax vegna þess að annars gæti það haft áhrif á starfsemi þína þegar afskrift er framfylgt (þó að framfylgd sé ekki áætluð eins og er). Við hvetjum þig eindregið til að ljúka flutningnum um leið og áætlanagerð fínstilling styður þá eiginleika sem þú þarfnast svo að þú getir byrjað að nýta þér hinar fjölmörgu frammistöðubætur og aðra nýja möguleika sem nýja þjónustan býður upp á.
-
-Sem stendur styður virknin fyrir fínstillingu skipulagningar ekki alla eiginleika sem eru í boði í vél áætlanagerðar sem er byggð inn í Supply Chain Management. Þess vegna er mikilvægt að þú metir hvort eiginleikasettið sem nú er fáanlegt í fínstillingu skipulagsins uppfylli kröfur þínar. Ekki er kveikt á virkni fyrir fínstillingu skipulagningar að sjálfgefnu sem stendur í Dynamics Lifecycle Services, þannig að þú hefur tækifæri til að meta stöðuna áður en kveikt er á eiginleikanum.
-
-> [!NOTE]
-> Þú þarft að biðja um undantekningu á flutningi yfir í fínstillingu skipulagningar ef ferli aðaláætlanagerðar felur ekki í sér framleiðslu (áætlaðar framleiðslupantanir sem aðaláætlanagerðin býr til) og þú þarft að nota innbyggða vél aðaláætlanagerðar í útgáfu sem er nýrri en 10.0.15. Frá og með útgáfu 10.0.16 verður sýnd villa í umhverfum þegar innbyggð aðaláætlanagerð er keyrð án þess að búa til áætlaðar framleiðslupantanir. Nota ætti fínstillingu skipulagningar fyrir allar nýjar uppsetningar sem búa ekki til áætlaðar framleiðslupantanir meðan á aðaláætlanagerð stendur. Eigendur núverandi umhverfa sem keyra innbyggða vél aðaláætlanagerðar án þess að búa til áætlaðar framleiðslupantanir, fá tölvupóst með upplýsingum um undantekningarferlið. Við mælum með því að þú vinnir með samstarfsaðila til að meta og leggja drög að flutningnum yfir í Fínstillingu skipulagningar.
-
-Áður en þú kveikir á fínstillingu skipulags mælum við eindregið með því að þú metir niðurstöður greiningar á fínstillingu skipulagningar. Frekari upplýsingar er að finna í [Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md).
-
-## <a name="availability"></a>Til ráðstöfunar
+## <a name="availability"></a>Framboð
 
 Hagræðing áætlanagerðar er eins og er fáanleg í eftirfarandi Azure landsvæðum: Bandaríkjunum, Kanada, Brasilíu, Evrópu, Frakklandi, Bretlandi, Ástralíu, KyrrahafsAsíu, Japan og Indlandi. Ef reynt er að setja upp innbæturnar á öðru svæði birtir LCS skilaboð um að svæðið sé ekki stutt. Fyrir frekari upplýsingar um Azure landsvæði og tengd svæði, sjá [Azure landsvæði](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
@@ -108,31 +99,15 @@ Staða tengingarinnar gefur til kynna núverandi stöðu tengingarinnar milli Su
 Stilling á valkostinum **Nota fínstillingu skipulags** ákvarðar hvaða áætlunarvél er notuð við aðaláætlanagerð:
 
 - **Já** - Fínstilling skipulags er notuð við aðaláætlungargerð.
-- **Nei** - Innbyggða áætlunarvélin Supply Chain Management er notuð til aðaláætlunargerðar.
+- **Nei** – Úrelta aðalskipulagsvélin er notuð við aðalskipulagningu.
 
-Þessi stilling gildir um alla lögaðila (fyrirtæki). Ekki er hægt að nota fínstillingu skipulagningar í sumum lögaðilum og innbyggða aðaláætlanagerð í öðrum lögaðilum.
+Þessi stilling gildir um alla lögaðila (fyrirtæki). Ekki er hægt að nota áætlanagerð fínstillingu í sumum lögaðilum og úrelta aðalskipulagsvél í öðrum lögaðilum.
 
 > [!NOTE]
-> Ef fyrirliggjandi runuvinnslur áætlunargerðar sem voru stofnuð fyrir innbyggðu áætlunarvélina Supply Chain Management eru sett af stað á meðan valkosturinn **Nota fínstillingu skipulagningar** er stilltur á **Já** munu þær vinnslur ekki takast.
+> Ef fyrirliggjandi runuvinnslur áætlanagerðar sem voru stofnaðar fyrir úrelda aðalskipulagsvél eru ræst á meðan **Notaðu hagræðingu áætlanagerðar** valkostur er stilltur á **Já**, munu þau störf mistakast.
 
 ### <a name="integration-with-the-setup"></a>Samþætting við uppsetninguna
 
 Ef kveikt er á fínstillingu áætlanagerðar er aðaláætlanagerð lokið með því að nota viðbót fyrir fínstillingu skipulagningar. Í þessu tilfelli verða niðurstöður og eiginleikar aðaláætlunargerðar fyrir áhrifum.
 
-## <a name="additional-resources"></a>Frekari upplýsingar
-
-[Ákvæði og skilmálar fyrir forskoðunina](https://go.microsoft.com/fwlink/?linkid=2015274)
-
-[Yfirlit yfir fínstillingu áætlanagerðar](planning-optimization-overview.md)
-
-[Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md)
-
-[Skoða áætlunarsögu og skipulagsskrár](plan-history-logs.md)
-
-[Nota síur á áætlun](plan-filters.md)
-
-[Hætta við áætlunarvinnslu](cancel-planning-job.md)
-
-
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

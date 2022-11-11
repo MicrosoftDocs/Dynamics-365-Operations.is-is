@@ -1,6 +1,6 @@
 ---
-title: Aðaláætlanagerð með eftirspurnarspám
-description: Þessi grein útskýrir hvernig á að hafa eftirspurnarspár við aðalskipulagningu með áætlanagerð fínstillingu.
+title: Aðaláætlanagerð með eftirspurnarspá
+description: Þessi grein útskýrir hvernig á að hafa eftirspurnarspár við aðalskipulagningu.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878991"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739784"
 ---
-# <a name="master-planning-with-demand-forecasts"></a>Aðaláætlanagerð með eftirspurnarspám
+# <a name="master-planning-with-demand-forecasts"></a>Aðaláætlanagerð með eftirspurnarspá
 
 [!include [banner](../../includes/banner.md)]
 
-Hægt er að nota eftirspurnarspá ásamt fínstillingu áætlanagerðar til að gera grein fyrir væntanlegri eftirspurn í aðaláætlanagerð. Hægt er að stofna eftirspurnarspá handvirkt, flytja hana inn eða mynda hana með því að nota virkni eftirspurnarspár í Microsoft Dynamics 365 Supply Chain Management. Frekari upplýsingar um eftirspurnarspár er að finna í [Yfirlit eftirspurnarspár](../introduction-demand-forecasting.md).
+Þú getur notað eftirspurnarspá til að gera grein fyrir væntanlegri eftirspurn í aðalskipulagningu. Hægt er að stofna eftirspurnarspá handvirkt, flytja hana inn eða mynda hana með því að nota virkni eftirspurnarspár í Microsoft Dynamics 365 Supply Chain Management. Frekari upplýsingar um eftirspurnarspár er að finna í [Yfirlit eftirspurnarspár](../introduction-demand-forecasting.md).
 
 > [!NOTE]
 > Aðskilin spáráætlun er ekki studd í fínstillingu skipulagningar. Þess vegna hefur stillingin **Núgildandi spáráætlun** á síðunni **Færibreytur áætlanagerðar** engin áhrif þegar verið er að nota fínstillingu skipulagningar.
@@ -50,7 +50,7 @@ Til að skilgreina aðaláætlun þannig að hún feli í sér eftirspurnarspá 
     - **Spátímatímabil** – Ef **Spáráætlun** valkosturinn er stilltur á *Já* skal tilgreina dagafjöldann (frá deginum í dag) sem á að nota eftirspurnarspá fyrir.
 
     > [!IMPORTANT]
-    > **Spáráætlunin** stillingin er ekki enn studd í fínstillingu skipulagningar.
+    > The **Spááætlun** stilling er ekki studd með áætlanagerð fínstillingu.
 
 ## <a name="set-up-a-coverage-group-to-include-a-demand-forecast"></a>Setja upp þekjuflokk með eftirspurnarspá
 

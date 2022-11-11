@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 119b77b695ff065c8e45693e1cf7cf15360d441e
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1ef8a04ce4ab2180f39a6d2bcdab976eb146d610
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468637"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741231"
 ---
 # <a name="explosion-of-a-bom-version"></a>Niðurbrot uppskriftarútgáfu
 
@@ -38,9 +38,8 @@ Eftirfarandi mynd sýnir framvindu niðurbrots eftirspurnar í aðaláætlunarge
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Uppskriftarútgáfa ákvörðuð](master-plan-bom-version-determined.md)
-
-[Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum](master-plan-multisite-functionality.md)
+- [Uppskriftarútgáfa ákvörðuð](master-plan-bom-version-determined.md)
+- [Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum](master-plan-multisite-functionality.md)
 
 
 

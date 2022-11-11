@@ -2,23 +2,23 @@
 title: Skilgreina verkstjórnun
 description: Þessi grein lýsir því hvernig á að stilla verkefnastjórnunareiginleika í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: ff97abab330174b41af76d22c202e8338d6d37fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: cc2d75f52b183559de344982c8e4208000af786e
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282762"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746063"
 ---
 # <a name="configure-task-management"></a>Skilgreina verkstjórnun
 
@@ -80,7 +80,11 @@ Eftirfarandi mynd sýnir aðgerðina **Verkefnisstjórn** á síðunni **POS að
 
 ![Aðgerð verkstjórnunar á aðgerðasíðu sölustaðar.](media/HQ-POS-Tasks-Notifications.png)
 
-Nánari upplýsingar um hvernig á að stilla POS tilkynningar, sjá [Sýna pöntunartilkynningar í sölustað (POS)](notifications-pos.md).
+Frekari upplýsingar um hvernig á að stilla POS tilkynningar er að finna í [Sýna pöntunartilkynningar á sölustað (POS)](notifications-pos.md) grein.
+
+> [!NOTE]
+> Þegar þú vistar breytingarnar þínar munu eftirfarandi viðvörunarskilaboð birtast: **Aðgerðarfæribreyta verður ekki virkjuð í hnappahönnuður fyrir aðgerðakenni sem er jafnt eða minna en 4000. Ef þú ert að búa til sérsniðna aðgerð og vilt senda færibreytu frá hnappahönnuðunum skaltu nota aðgerðakenni sem er stærra en 4000.** Veldu **Loka** til að loka glugganum.
+
 
 ## <a name="configure-the-tasks-tile-on-a-pos-application-home-page"></a>Stilltu verkefnisreit á heimasíðu POS forrita
 

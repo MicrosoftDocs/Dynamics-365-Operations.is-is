@@ -1,6 +1,6 @@
 ---
 title: Samræmisgreining á fínstillingu áætlanagerðar
-description: Þessi grein útskýrir hvernig á að sannreyna núverandi uppsetningu og gögn í samanburði við getu skipulagsfínstillingaraðgerðarinnar.
+description: Þessi grein útskýrir hvernig á að sannreyna núverandi uppsetningu og gögn með hliðsjón af getu skipulagsfínstillingaraðgerðarinnar.
 author: t-benebo
 ms.date: 08/11/2022
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 4459a5d72fafe2596b7fc0cedf060b8f23bb43d2
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689995"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750708"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Samræmisgreining á fínstillingu áætlanagerðar
 
 [!include [banner](../../includes/banner.md)]
 
-Þú ættir að greina útkomuna úr samræmisgreiningu á fínstillingu skipulagningar sem hluti af flutningsferlinu. Athugið að umfang fínstillingar skipulagningar jafnast ekki á við núverandi virkni innbyggðrar aðaláætlanagerðar. Við mælum með því að þú vinnir með samstarfsaðilanum og lesir fylgiskjölin til að undirbúa flutninginn. 
+Þú ættir að greina útkomuna úr samræmisgreiningu á fínstillingu skipulagningar sem hluti af flutningsferlinu. Athugaðu að umfang fínstillingar áætlanagerðar er ekki jafnt og úreltri virkni aðalskipulagsvélar. Við mælum með því að þú vinnir með samstarfsaðilanum og lesir fylgiskjölin til að undirbúa flutninginn.
 
-Samræmisgreining á fínstillingu skipulagningar hjálpar þér að finna út hvar útkoman kann að vera mismunandi milli innbyggðrar vélar aðaláætlanagerðar og fínstillingar skipulagningar. Þessi greining er unnin út frá núverandi uppsetningu og gögnum. 
+Fitunargreining áætlanagerðarfínstillingar hjálpar þér að bera kennsl á hvar niðurstaðan gæti verið frábrugðin úreltri aðalskipulagsvél og áætlanagerð fínstillingu. Þessi greining er unnin út frá núverandi uppsetningu og gögnum. 
 
 Til að sjá útkomu samræmisgreiningar á fínstillingu skipulagningar skal farið í **Aðaláætlanagerð** \> **Uppsetning** \> **Samræmisgreining á fínstillingu skipulagningar** og síðan velja **Keyra greiningu**. Ef greiningin finnur fyrir ósamræmi eru þau skráð á sömu síðu. (Greiningin getur tekið nokkrar mínútur í keyrslu.)
 
@@ -62,9 +62,8 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | --- | --- | --- | --- |
 | Aðgerðir | Þekjuflokkar með virkan útreikning á aðgerðum: *\#* | Þessi eiginleiki er nú studdur. | Stutt |
 | Grunndagatöl | Dagatöl sem nota grunndagatal: *\#* | Þessi eiginleiki er nú studdur. | Stutt | 
-| Ráðstöfunarkóðar runu | Aðalrunuráðstafanir sem eru ekki nettó: *\#* | Þessi eiginleiki er nú studdur. Fyrir frekari upplýsingar, sjá [Notaðu loturáðstöfunarkóða til að merkja lotur sem tiltækar eða ekki tiltækar](../../inventory/batch-disposition-codes.md) | Stutt |
+| Ráðstöfunarkóðar runu | Aðalrunuráðstafanir sem eru ekki nettó: *\#* | Þessi eiginleiki er nú studdur. Fyrir frekari upplýsingar, sjá [Notaðu lotuúthlutunarkóða til að merkja lotur sem tiltækar eða ekki tiltækar](../../inventory/batch-disposition-codes.md) | Stutt |
 | Hægt að lofa (CTP) | Sjálfgefnar pöntunarstillingar með afhendingardagsstjórn stillta á afhendingargetu: *\#* | Í Supply Chain Management 10.0.28 og nýrri, ferli sem kallast *CTP fyrir hagræðingu áætlanagerðar* gerir staðfestar sendingar og móttökudagsetningar aðgengilegar eftir að kraftmikla áætlunin hefur verið keyrð. Fyrir eldri útgáfur af Supply Chain Management er eldri CTP stilling hunsuð þegar áætlanagerð fínstilling er virkjuð. | Stutt |
-| Afrita fasta áætlun yfir í breytilega áætlun | Afritun á fastri áætlun yfir í breytilega áætlun er gerð virk á færibreytum aðaláætlanagerðarinnar. | Fínstilling áætlanagerðar afritar ekki fasta áætlun í breytilega áætlun, óháð þessari stillingu. Almennt á þessi hugmynd síður við út af hraðanum og fullri endurmyndun sem fínstilling áætlanagerðar veitir. Ef tvær eða fleiri áætlanir eru notaðar ætti að kvikna á aðaláætlanagerð fyrir hvora áætlun. | Á ekki við |
 | Staðfesting | Þekjuhópar með stillt tímamörk staðfestinga: *\#* | Í útgáfu 10.0.7 og nýrri er staðfesting studd sem aðskilin runuvinnsla staðfestingar þegar aðaláætlanagerð er lokið (að því gefnu að eiginleikinn *Sjálfvirk staðfesting fyrir fínstillingu áætlanagerðar* hafi verið gerður virkur í [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Athugið að sjálfvirk staðfesting fínstillingar áætlanagerðar byggir á pöntunardagsetningunni (upphafsdegi), ekki dagsetningu þarfa (lokadegi). Þessi hegðun tryggir að staðfesting áætlaðra pantana gerist á réttum tíma, án þess að þurfa að hafa afhendingartíma tíma í tímamörkum staðfestingar. | Stutt |
 | Staðfesting | Vöruþekjufærslur með sjálfvirka staðfestingu stillta: *\#* | Í útgáfu 10.0.7 og nýrri er sjálfvirk staðfesting studd sem aðskilin runuvinnsla staðfestingar þegar aðaláætlanagerð er lokið (að því gefnu að eiginleikinn *Sjálfvirk staðfesting fyrir fínstillingu áætlanagerðar* hafi verið gerður virkur í [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Athugið að sjálfvirk staðfesting fínstillingar áætlanagerðar byggir á pöntunardagsetningunni (upphafsdegi), ekki dagsetningu þarfa (lokadegi). Þessi hegðun tryggir að staðfesting áætlaðra pantana gerist á réttum tíma, án þess að þurfa að hafa afhendingartíma tíma í tímamörkum staðfestingar. | Stutt |
 | Staðfesting | Aðaláætlanir með sjálfvirka staðfestingu stillta: *\#* | Í útgáfu 10.0.7 og nýrri er sjálfvirk staðfesting studd sem aðskilin runuvinnsla staðfestingar þegar aðaláætlanagerð er lokið (að því gefnu að eiginleikinn *Sjálfvirk staðfesting fyrir fínstillingu áætlanagerðar* hafi verið gerður virkur í [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Athugið að sjálfvirk staðfesting fínstillingar áætlanagerðar byggir á pöntunardagsetningunni (upphafsdegi), ekki dagsetningu þarfa (lokadegi). Þessi hegðun tryggir að staðfesting áætlaðra pantana gerist á réttum tíma, án þess að þurfa að hafa afhendingartíma tíma í tímamörkum staðfestingar. | Stutt |
@@ -93,34 +92,27 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | Framleiðsla | Formúluútgáfur með auka-/hliðarafurðir: *\#* | Þessi eiginleiki í bið. Sem stendur eru aukaafurðir og hliðarafurðir, sem tengjast formúluútgáfunni, hunsaðar þegar fínstilling áætlanagerðar er virk. | 2022 útgáfubylgja 2 |
 | Framleiðsla | Formúluútgáfur með arði: *\#* | Þessi eiginleiki í bið. Sem stendur er arðurinn sem tengist formúluútgáfunni hunsaður þegar fínstilling áætlanagerðar er virk. | 2022 útgáfubylgja 2 |
 | Framleiðsla | Áætlanir sem fela í sér röðun: *\#* | Þessi eiginleiki í bið. Sem stendur er röðun hunsuð þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. | 2022 útgáfubylgja 2 |
-| Framleiðsla | Útgefnar framleiðslupantanir sem ekki byrjað á, þar sem áætluð byrjun er á undan deginum í dag: *\#* | Þessi eiginleiki í bið. Eins og er, ef framleiðslupöntun seinkar, mun aðaláætlanagerð gera ráð fyrir því að henni verði lokið í dag. Þetta á við um útgefnar framleiðslupantanir þar sem afhendingardagsetning er í fortíðinni, en hefur ekki verið lokið. | Framtíðarbylgja |
+| Framleiðsla | Útgefnar framleiðslupantanir sem ekki byrjað á, þar sem áætluð byrjun er á undan deginum í dag: *\#* | Þessi eiginleiki í bið. Eins og er, ef framleiðslupöntun seinkar, mun aðaláætlanagerð gera ráð fyrir því að henni verði lokið í dag. Þetta á við um útgefnar framleiðslupantanir þar sem afhendingardagsetning er í fortíðinni, en hefur ekki verið lokið. | 2022 útgáfubylgja 2 |
 | Framleiðsla | Tímasett tilföng með takmarkaða getu: *\#* | Þessi eiginleiki er nú studdur.| Stutt |
 | Framleiðsla | Leiðir notaðar við áætlanagerð: *\#* | Þessi eiginleiki er studdur. | Stutt |
-| Framleiðsla | Frátekningaraðferð sölulínu með frátekningu: *\#* | Frátekning sölulínu sem notar útþenslu er ekki studd þegar fínstilling áætlanagerðar er virk. | Framtíðarbylgja |
-| Framleiðsla | Áætlanagerð með frátekningu framleiðslupantana: *\#* | Áætlanagerð sem notar útþenslu framleiðslupantana er ekki studd þegar fínstilling áætlanagerðar er virk. Hægt er að áætla hverja framleiðslupöntun fyrir sig. | Framtíðarbylgja |
+| Framleiðsla | Frátekningaraðferð sölulínu með frátekningu: *\#* | Frátekning sölulínu sem notar útþenslu er ekki studd þegar fínstilling áætlanagerðar er virk. | 2022 útgáfubylgja 2 |
+| Framleiðsla | Áætlanagerð með frátekningu framleiðslupantana: *\#* | Áætlanagerð sem notar útþenslu framleiðslupantana er ekki studd þegar fínstilling áætlanagerðar er virk. Hægt er að áætla hverja framleiðslupöntun fyrir sig. | 2022 útgáfubylgja 2 |
 | Beiðnir um tilboð | Aðaláætlanir með beiðnir um tilboð virkar: *\#* | Þessi eiginleiki í bið. Sem stendur er ekki litið á beiðnir um tilboð sem eftirspurn þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | 2022 útgáfubylgja 2 |
 | Innkaupabeiðnir | Aðaláætlanir með virkar innkaupabeiðnir: *\#* | Þessi eiginleiki er nú studdur. Frekari upplýsingar má finna í [Innkaupabeiðnir](purchase-requisitions.md) | Stutt |
 | Öryggismörk | Þekjuflokkar með öryggismörk: *\#* | Þessi eiginleiki er nú studdur. Frekari upplýsingar má finna í [Öryggismörk](safety-margins.md) | Stutt |
 | Öryggismörk | Aðaláætlanir með öryggismörk: *\#* | Þessi eiginleiki er nú studdur. Frekari upplýsingar má finna í [Öryggismörk](safety-margins.md) |  Stutt |
-| Uppfylling öryggisbirgða | Vöruþekjufærslur með „Uppfylla lágmark“ annað en „Dagurinn í dag + öflunartími“: *\#* | Fínstilling áætlanagerðar notar alltaf *Dagurinn í dag + öflunartími*. Þessi breyting er gerð til að undirbúa einfalda uppsetningu áætlanagerðar í framtíðinni og til að veita niðurstöður sem hægt er að nýta sér. Ef öflunartíminn er ekki hafður með í öryggisbirgðum, verða alltaf tafir á áætluðum pöntunum sem búnar eru til fyrir núverandi lágar lagerbirgðir vegna afhendingartíma. Þessi hegðun getur valdið verulegum truflunum og óæskilegum áætluðum pöntunum. Besta er að breyta stillingunni þannig að *Dagurinn í dag + öflunartími* er notaður. Uppfæra aðalgögn til að forðast viðvaranir. | Á ekki við |
-| Sölutilboð | Aðaláætlanir með virk sölutilboð: *\#* | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til tilboða þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | 2022 útgáfubylgja 2 eða síðar |
-| Endingartími | Aðaláætlanir með virkan endingartíma: *\#* | Þessi eiginleiki í bið. | 2022 útgáfubylgja 2 |
+| Sölutilboð | Aðaláætlanir með virk sölutilboð: *\#* | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til tilboða þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. | 2022 útgáfubylgja 2 |
+| Endingartími | Aðaláætlanir með virkan endingartíma: *\#* | Þessi eiginleiki er nú studdur. | Stutt |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir fínstillingu áætlanagerðar](planning-optimization-overview.md)
-
-[Hafist handa með fínstillingu áætlanagerðar](get-started.md)
-
-[Munur á milli hefðbundinnar aðaláætlanagerðar og fínstillingar áætlanagerðar](planning-optimization-differences-with-built-in.md)
-
-[Færibreytur ekki notaðar af fínstillingu áætlanagerðar](not-used-parameters.md)
-
-[Skoða áætlunarferil og skipulagsannála](plan-history-logs.md)
-
-[Nota síur á áætlun](plan-filters.md)
-
-[Hætta við áætlunarvinnslu](cancel-planning-job.md)
+- [Aðalskipulagskerfisarkitektúr](../master-planning-architecture.md)
+- [Byrjaðu á aðalskipulagi](get-started.md)
+- [Munur á milli hefðbundinnar aðaláætlanagerðar og fínstillingar áætlanagerðar](planning-optimization-differences-with-built-in.md)
+- [Færibreytur ekki notaðar af fínstillingu áætlanagerðar](not-used-parameters.md)
+- [Skoða áætlunarferil og skipulagsannála](plan-history-logs.md)
+- [Keyra áætlanagerð fyrir hlutmengi](plan-filters.md)
+- [Hætta við áætlunarvinnslu](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

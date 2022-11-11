@@ -1,6 +1,6 @@
 ---
 title: Innkaupabeiðnir
-description: Þessi grein lýsir því hvernig innkaupabeiðnir eru studdar í áætlanagerð fínstillingu.
+description: Þessi grein lýsir innkaupabeiðnum.
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867899"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740685"
 ---
 # <a name="purchase-requisitions"></a>Innkaupabeiðnir
 
@@ -59,7 +59,7 @@ Til að hafa með beiðnir við þekjuútreikning fyrir aðaláætlun skal fylgj
 1. Endurtakið skref 2 og 3 fyrir hverja aðaláætlun til viðbótar þar sem á að stilla tímamörk samþykktra beiðna.
 
 > [!IMPORTANT]
-> **Væntanlegt:** Tímamörk samþykktra beiðna eru ekki enn studd fyrir fínstillingu skipulagningar. Þar til þau eru studd verða öll gildin hunsuð sem færð eru inn í reitinn **Tímamörk samþykktra beiðna (dagar)**.
+> Tímagirðingar fyrir samþykktar beiðnir eru ekki studdar fyrir hagræðingu áætlanagerðar. Þar til þau eru studd verða öll gildin hunsuð sem færð eru inn í reitinn **Tímamörk samþykktra beiðna (dagar)**.
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>Sjálfstætt framboð, óháð þekjukóða
 

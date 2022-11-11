@@ -1,6 +1,6 @@
 ---
 title: endurmat á erlendum gjaldmiðli fyrir fjárhag
-description: Þessi grein veitir yfirlit yfir eftirfarandi fyrir endurmatsferlið fjárhagslega gjaldeyris - uppsetningu, keyrslu ferlið, útreikning fyrir ferlið og hvernig á að bakfæra endurmatsfærslurnar, ef þörf krefur.
+description: Þessi grein veitir yfirlit yfir eftirfarandi fyrir endurmatsferlið fjárhagsgjaldeyris - uppsetningu, keyrslu ferlið, útreikning fyrir ferlið og hvernig á að bakfæra endurmatsfærslurnar, ef þörf krefur.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904529"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752804"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>endurmat á erlendum gjaldmiðli fyrir fjárhag
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir eftirfarandi fyrir endurmatsferlið fjárhagslega gjaldeyris - uppsetningu, keyrslu ferlið, útreikning fyrir ferlið og hvernig á að bakfæra endurmatsfærslurnar, ef þörf krefur. 
+Þessi grein veitir yfirlit yfir eftirfarandi fyrir endurmatsferlið fjárhagsgjaldeyris - uppsetningu, keyrslu ferlið, útreikning fyrir ferlið og hvernig á að bakfæra endurmatsfærslurnar, ef þörf krefur. 
 
 Hluti af lok tímabils reikningsskilavenja krefjast stöður fjárhagslykils í erlendum gjaldmiðlum á að endurmetni nota annað gengi gerðir (gildandi, sögulegt,meðaltal o.s.frv.). Til dæmis, einn reikningsskilavenja krefst þess eignir og skuldir að endurmetni á gildandi gengi sem eignir á sögulegu gengi og rekstrarreikninga á mánaðarleg meðaltal. Endurmat á erlendum gjaldmiðli fjárhags má nota til að endurmeta efnahagsreikningur og rekstrarreikningur. 
 
@@ -64,7 +64,9 @@ Hægt er að keyra ferlið endurmat fyrir einn eða fleiri lögaðila. Uppfletti
 
 Hægt að keyra endurmatsins fyrir einn eða fleiri erlendum gjaldmiðlum. Uppfletting mun innihalda alla gjaldmiðla sem voru bókaðir innan dagsetningabilsins fyrir tegund aðallykils (efnahagsreikningur eða rekstur) lögaðila sem valinn til að endurmeta. Bókhaldsgjaldmiðill hafðar með í listanum en ekkert mun vera endurmetið ef valinn er bókhaldsgjaldmiðli. 
 
-Setja **Forskoðun fyrir bókun** á **Já** ef óskað er að endurskoða niðurstöður endurmats fjárhags. Forskoðun í fjárhag er annað en hermun í Viðskiptakröfur og viðskiptaskuldir endurmat á erlendum gjaldmiðli. Hermun í Viðskiptakröfur og viðskiptaskuldir er skýrslu, en fjárhagur hefur forskoðun sem er hægt að bóka, án þess að þurfa til þess að keyra endurmat ferlið aftur. Hægt er að flytja út niðurstöður forskoðun í Microsoft Excel til að geyma sögu hvernig upphæðir voru reiknaðar. Hægt er að nota runuvinnslu ef á að forskoða niðurstöður á endurmati. Úr forskoðun notandi hefur valkost að bóka niðurstöður fyrir alla lögaðila með **Bóka** hnappinn. Ef vandamál með niðurstöðum fyrir lögaðili notandi hefur einnig valkostinn til að bóka hlutmengi lögaðila með **Veldu lögaðila til að bóka** hnappinn. 
+Setja **Forskoðun fyrir bókun** á **Já** ef óskað er að endurskoða niðurstöður endurmats fjárhags. Forskoðun í fjárhag er annað en hermun í Viðskiptakröfur og viðskiptaskuldir endurmat á erlendum gjaldmiðli. Hermun í Viðskiptakröfur og viðskiptaskuldir er skýrslu, en fjárhagur hefur forskoðun sem er hægt að bóka, án þess að þurfa til þess að keyra endurmat ferlið aftur. Hægt er að flytja út niðurstöður forskoðun í Microsoft Excel til að geyma sögu hvernig upphæðir voru reiknaðar. Hægt er að nota runuvinnslu ef á að forskoða niðurstöður á endurmati. Úr forskoðun notandi hefur valkost að bóka niðurstöður fyrir alla lögaðila með **Bóka** hnappinn. Ef vandamál með niðurstöðum fyrir lögaðili notandi hefur einnig valkostinn til að bóka hlutmengi lögaðila með **Veldu lögaðila til að bóka** hnappinn.
+
+Ef þú vilt útiloka leiðréttingar sem voru birtar með því að nota **Skýrsludagbók um gjaldmiðlaleiðréttingar** frá endurmatsferlinu, sett **Útiloka leiðréttingar á skýrslugjaldmiðli** til **Já**. Sjálfgefið er að leiðréttingar á skýrslugjaldmiðli eru innifaldar í endurmatinu. 
 
 Eftir að ferli endurmat á erlendum gjaldmiðli er lokið færsla stofnuð að rekja sögu hverja keyrslu.  Sérstök færsla verður stofnuð fyrir hvern lögaðila og bókunarlag.
 

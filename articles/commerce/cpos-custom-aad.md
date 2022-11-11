@@ -1,25 +1,22 @@
 ---
-title: Stilltu CPOS til að nota sérsniðið Azure AD app
+title: Skilgreina CPOS til að nota sérsniðið Azure AD forrit
 description: Þessi grein útskýrir hvernig á að stilla Cloud POS (CPOS) til að nota sérsniðið Azure Active Directory (Azure AD) app.
 author: boycez
-ms.date: 08/02/2022
+ms.date: 11/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: boycez
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: baa0c3da25308345037b5dd1b4c5907d6213e7f7
-ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 5e4ff797410e1e94869cc37684e7622ec0d97842
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9223820"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746261"
 ---
-# <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>Stilltu CPOS til að nota sérsniðið Azure AD app
+# <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>Skilgreina CPOS til að nota sérsniðið Azure AD forrit
 
 [!include [banner](includes/banner.md)]
 
@@ -48,9 +45,12 @@ Til að búa til og stilla sérsniðið Retail Server app í Azure AD, fylgdu þ
     - **Sýningarheiti stjórnandasamþykkis** – Sláðu inn skjáheiti. Til dæmis, slá inn **Aðgangur að smásöluþjóni**.
     - **Lýsing á samþykki stjórnanda** – Sláðu inn lýsingu. Til dæmis, slá inn **Veitir aðgang að Retail Server API**.
 
-1. Veldu **Bæta við umfangi** til að ljúka ferlinu við að búa til umfang.
+1. Veldu **Bæta við umfangi** til að klára ferlið við að búa til umfang.
 
 ## <a name="set-up-a-custom-cpos-app-in-azure-ad"></a>Settu upp sérsniðið CPOS app í Azure AD
+
+> [!IMPORTANT]
+> Ef þú ert að uppfæra núverandi sérsniðna CPOS Azure AD app sem var búið til fyrir Commerce útgáfu 10.0.21, fylgdu skrefunum í [Uppfærðu núverandi sérsniðna CPOS Azure AD app búið til fyrir Commerce útgáfu 10.0.21](#upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021).
 
 Til að búa til og stilla sérsniðið CPOS app í Azure AD, fylgdu þessum skrefum.
 
@@ -68,12 +68,25 @@ Til að búa til og stilla sérsniðið CPOS app í Azure AD, fylgdu þessum skr
 1. Í **Auglýst** kafla, stilltu **oauth2AllowIdTokenImplicitFlow** og **oauth2AllowImplicitFlow** breytur til **satt**, og veldu síðan **Vista**.
 1. Í **Stilling tákns** kafla, fylgdu þessum skrefum til að bæta við tveimur kröfum:
 
-    - Veldu **Bæta við valkvæðri kröfu**. Stilltu **Tegund tákns** sviði til **auðkenni**, og veldu síðan **sid** krafa. Veljið **Bæta við**.
-    - Veldu **Bæta við valkvæðri kröfu**. Stilltu **Tegund tákns** sviði til **Aðgangur**, og veldu síðan **sid** krafa. Veljið **Bæta við**.
+    1. Veldu **Bæta við valkvæðri kröfu**. Stilltu **Tegund tákns** sviði til **auðkenni**, og veldu síðan **sid** krafa. Veljið **Bæta við**.
+    1. Veldu **Bæta við valkvæðri kröfu**. Stilltu **Tegund tákns** sviði til **Aðgangur**, og veldu síðan **sid** krafa. Veljið **Bæta við**.
 
 1. Í **API heimildir** kafla, veldu **Bættu við heimild**.
 1. Á **API sem stofnunin mín notar** flipanum, leitaðu að Retail Server appinu sem þú bjóst til í [Settu upp sérsniðið Retail Server app í Azure AD](#set-up-a-custom-retail-server-app-in-azure-ad) kafla. Veldu síðan **Bæta við heimildum**.
 1. Í **Yfirlit** kafla, skráið ykkur gildið í **Auðkenni umsóknar (viðskiptavinar).** sviði.
+
+### <a name="upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021"></a>Uppfærðu núverandi sérsniðna CPOS Azure AD app búið til fyrir Commerce útgáfu 10.0.21
+
+Til að uppfæra núverandi sérsniðna CPOS Azure AD app búið til fyrir Commerce útgáfu 10.0.21, fylgdu þessum skrefum. 
+
+1. Opnaðu sérsniðna CPOS þinn Azure AD app í Azure gáttinni.
+1. Veldu **Auðkenning** flipa.
+1. Afritaðu og vistaðu upprunalegu tilvísunar-URI frá **vefur** sláðu inn til notkunar síðar og eyddu því síðan.
+1. Veldu **Bættu við vettvangi**, og veldu síðan **Einsíðu umsókn (SPA)**.
+1. Bættu upprunalegu veftilvísunar-URI sem afritað var hér að ofan við SPA vettvanginn.
+1. Í **Stilling tákns** kafla, fylgdu þessum skrefum til að bæta við tveimur kröfum:
+    1. Veldu **Bæta við valkvæðri kröfu**. Stilltu **Tegund tákns** sviði til **auðkenni**, og veldu síðan **sid** krafa. Veljið **Bæta við**.
+    1. Veldu **Bæta við valkvæðri kröfu**. Stilltu **Tegund tákns** sviði til **Aðgangur**, og veldu síðan **sid** krafa. Veljið **Bæta við**.
 
 ## <a name="update-the-cpos-configuration-file"></a>Uppfærðu CPOS stillingarskrána
 
@@ -89,7 +102,7 @@ CPOS mun nota báðar færibreyturnar þegar það sendir beiðnir til Azure AD 
 Næst verður þú að uppfæra stillingar auðkennisveitna í höfuðstöðvum Commerce.
 
 1. Í höfuðstöðvum viðskipta, opnaðu **Viðskipti samnýtt færibreytur** síðu.
-1. Á **Auðkennisveitendur** flipa, í **Auðkennisveitendur** kafla, veldu línuna þar sem **Tegund** reiturinn er stilltur á **Azure Active Directory** og **Útgefandi** reiturinn bendir á þinn Azure AD leigjanda. Þessi stilling lýsir því yfir að þú munt vinna með barnanet sem innihalda gögnin sem tengjast auðkennisveitunni sem samsvarar Azure AD leigjanda.
+1. Á **Auðkennisveitendur** flipa, í **Auðkennisveitendur** kafla, veldu röðina þar sem **Tegund** reiturinn er stilltur á **Azure Active Directory** og **Útgefandi** reiturinn bendir á þinn Azure AD leigjanda. Þessi stilling lýsir því yfir að þú munt vinna með barnanet sem innihalda gögnin sem tengjast auðkennisveitunni sem samsvarar Azure AD leigjanda.
 1. Í **Traust aðilar** kafla, veldu **Bæta við** til að bæta við röð.
 1. Stilltu eftirfarandi svæði:
 

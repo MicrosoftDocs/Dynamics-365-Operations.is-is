@@ -1,6 +1,6 @@
 ---
 title: Sjálfvirkt framboð með „framleiða eftir pöntun“
-description: Þessi grein lýsir því hvernig á að setja upp og nota hinar ýmsu endurbætur sem bætast við með sjálfvirkni eiginleikum Framleiða eftir pöntun.
+description: Þessi grein lýsir því hvernig á að setja upp og nota hinar ýmsu endurbætur sem bætast við með sjálfvirknieiginleika Gera eftir pöntun.
 author: t-benebo
 ms.date: 07/27/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-27
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9044acb472548a797ed387b08ca6892459785793
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d376c2f4d8514a4e6122e2e94455d57a39d2babf
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220750"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740195"
 ---
 # <a name="make-to-order-supply-automation"></a>Sjálfvirkt framboð með „framleiða eftir pöntun“
 
@@ -24,20 +24,14 @@ ms.locfileid: "9220750"
 
 The *Sjálfvirkni framboðs eftir pöntun* eiginleiki bætir nokkrum endurbótum við Microsoft Dynamics 365 Supply Chain Management. Þessar endurbætur gera þér kleift að framkvæma eftirfarandi verkefni:
 
-- Skoðaðu auðlindagetuálag fyrir notendaskilgreint tímabil og virkja því langtímamat á getuálagi.
+- Skoðaðu hleðslu tilfanga fyrir notendaskilgreint tímabil og virkjaðu því langtímamat á afkastagetu.
 - Bættu sveigjanleika með því að stjórna tafaþol (neikvæðum dögum) fyrir hverja aðaláætlun.
 - Haltu vörum tiltækum fyrir pantanir á síðustu stundu og hámarkaðu notkun núverandi framboðs með því að tengja nýjasta mögulega framboðið við eftirspurn í stað þess að nota fyrsta mögulega framboðið.
-- Haltu íhlutaúthlutun sveigjanlegri fyrir framleiðslupantanir eftir styrkingu, svo að kerfið geti fínstillt fyrir breytingar á eftirspurn á síðustu stundu. Með öðrum orðum, takmarkaðu merkingu við eitt stig.
+- Haltu íhlutaúthlutun sveigjanlegri fyrir framleiðslupantanir eftir styrkingu, svo að kerfið geti hagrætt fyrir breytingar á eftirspurn á síðustu stundu. Með öðrum orðum, takmarkaðu merkingu við eitt stig.
 - Stjórna uppfyllingarstefnu fyrir hverja sölupöntun. Sjálfgefnar stillingar eru teknar úr uppsetningu viðskiptavinarins.
 - Bættu upplýsingaflæði milli fyrirtækja. Innkaupapantanir eru uppfærðar þannig að þær innihalda reiti fyrir afhendingarmáta, afhendingarskilmála og ytra vörunúmer. Þessi breyting tryggir að nákvæmar upplýsingar um eftirspurn geti streymt til fyrirtækis sem veitir.
 
 Þessi grein lýsir því hvernig á að setja upp og nota hverja aukahlut.
-
-> [!NOTE]
-> Allar endurbætur sem lýst er í þessari grein eiga við um kerfi sem nota innbyggt aðalskipulag. Eftirfarandi tvær endurbætur eru einnig studdar af skipulagsfínstillingarviðbótinni fyrir Microsoft Dynamics 365 Supply Chain Management:
->
-> - Seinkunarþol á aðalskipulagi
-> - Stjórn yfir tengingaröðinni sem er notuð við aðalskipulagningu
 
 ## <a name="turn-on-the-make-to-order-supply-automation-feature"></a>Kveiktu á sjálfvirknieiginleika Gera eftir pöntun
 
@@ -73,7 +67,7 @@ Til að opna **Afkastagetu álag** síðu svo að þú getir skoðað tiltæka g
 
 Þessir valkostir eru einnig fáanlegir í **Uppfæra merkingu** sviði á **Hefðbundin uppfærsla** flipi á **Aðalskipulagsbreytur** síðu, þar sem þú skilgreinir sjálfgefið val fyrir **Stífandi** valmynd.
 
-Fyrir frekari upplýsingar, sjá [Birgðamerking með áætlanagerð hagræðingu](planning-optimization/marking.md).
+Fyrir frekari upplýsingar, sjá [Birgðamerking](planning-optimization/marking.md).
 
 ## <a name="set-delay-tolerance-negative-days-at-the-master-plan-level"></a>Stilltu tafaþol (neikvæð dagar) á aðalskipulagsstigi
 
@@ -113,7 +107,7 @@ Til að setja upp tengingu á vöruþekjustigi skaltu fylgja þessum skrefum.
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
 1. Veldu vöru í ristinni eða búðu til nýja.
 1. Á aðgerðarrúðunni, á **Áætlun** flipa, veldu **Vöruumfjöllun**.
-1. The **Vöruumfjöllun** síða veitir línur sem gera þér kleift að skilgreina þekjureglur sem eiga við vöruna í hverju vöruhúsi. Veldu fyrirliggjandi línu í hnitanetinu eða búðu til nýja.
+1. The **Atriðaumfjöllun** síða veitir línur sem gera þér kleift að skilgreina þekjureglur sem eiga við vöruna í hverju vöruhúsi. Veldu fyrirliggjandi línu í hnitanetinu eða búðu til nýja.
 1. Á **Almennt** flipann, veldu **Hneka tengiröð** gátreit.
 1. Nota **Neyta á lager** og **Notaðu nýjasta framboðið** reiti til að stilla tengiröðina þína. Taflan síðar í þessum hluta sýnir hvernig þessar stillingar eru sameinaðar til að skilgreina tengiröðina þína.
 
@@ -136,7 +130,7 @@ Eftirfarandi tafla sýnir hvernig **Neyta á lager** og **Notaðu nýjasta framb
 Uppfyllingarreglur stjórna því hlutfalli af heildarpöntunarverði eða magni sem þarf að vera frátekið líkamlega áður en hægt er að gefa út sölupöntun í vöruhúsið. Þú getur stillt alþjóðlega sjálfgefna uppfyllingarstefnu og síðan hnekkt henni fyrir tiltekna viðskiptavini eftir þörfum. The *Sjálfvirkni framboðs eftir pöntun* eiginleiki bætir við möguleikanum á að skoða hvaða sjálfgefna stefna gildir í raun um hvaða pöntun sem er og beita pöntunarsértækri hnekkingu eftir þörfum.
 
 - Til að stilla sjálfgefna alþjóðlega uppfyllingarstefnu fyrir sölupantanir, farðu á **Reikningur fáanlegur \> Uppsetning \> Færibreytur viðskiptakrafna**. Síðan, á **Vöruhússtjórnun** flipann, stilltu **Stefna um uppfyllingu sölupöntunar** reitnum við nafnið á stefnunni sem þú vilt nota. 
-- Til að stilla viðskiptavinarsértæka uppfyllingarstefnu fyrir sölupantanir skaltu fara á **Reikningur fáanlegur \> Viðskiptavinir \> Allir viðskiptavinir**. Síðan, á **Vöruhús** flipann, stilltu **Uppfyllingarstefna** reitnum við nafnið á stefnunni sem þú vilt nota.
+- Til að stilla viðskiptavinarsértæka uppfyllingarstefnu fyrir sölupantanir skaltu fara á **Reikningur fáanlegur \> Viðskiptavinir \> Allir viðskiptavinir**. Síðan, á **Vöruhús** flipann, stilltu **Uppfyllingarstefna** reitinn við nafnið á stefnunni sem þú vilt nota.
 
 Til að skoða sjálfgefna stefnu sem á við um hvaða pöntun sem er og beita pöntunarsértækri hnekkingu skaltu fylgja þessum skrefum.
 
@@ -193,7 +187,7 @@ Fylgdu þessum skrefum til að setja upp lánardrottin innan samstæðu til að 
 1. Á aðgerðarrúðunni, á **Almennt** flipa, í **Settu upp** hópur, veldu **Millifyrirtæki**.
 1. Á **Millifyrirtæki** síðu, á **Reglur um innkaupapöntun** flipa, í **Innkaupapöntun milli fyrirtækja -\> Sölupöntun milli fyrirtækja** kafla, veldu **Ytri vöruauðkenni og vöruheiti** gátreit.
 
-Til að tilgreina endanlega ytri viðskiptavinareikning fyrir innkaupapöntun innan samstæðu skal fylgja þessum skrefum. The **Viðskiptavinareikningur** reiturinn á aðeins við um innkaupapantanir milli fyrirtækja. Notaðu það til að tilgreina reikningsnúmer viðskiptavinarins sem mun að lokum fá vörurnar. Þegar þessi reitur er stilltur munu innkaupapöntunarlínur taka ytri vörulýsingar og númer frá tilgreindum viðskiptamannareikningi í stað samstæðu lánardrottins sem er tilgreindur á innkaupapöntuninni. Ef þú breytir viðskiptamannareikningi síðar verða ytri vörulýsingar og auðkenni uppfærðar þannig að þær passi við gildin fyrir nýja reikninginn. Ytri vörulýsingar og auðkenni fyrir hverja línu verða einnig samstillt við samsvarandi sölupöntun milli fyrirtækja.
+Til að tilgreina endanlega ytri viðskiptamannareikning fyrir innkaupapöntun innan samstæðu skal fylgja þessum skrefum. The **Viðskiptavinareikningur** reiturinn á aðeins við um innkaupapantanir milli fyrirtækja. Notaðu það til að tilgreina reikningsnúmer viðskiptavinarins sem mun að lokum fá vörurnar. Þegar þessi reitur er stilltur munu innkaupapöntunarlínur taka ytri vörulýsingar og númer af tilgreindum viðskiptamannareikningi í stað samstæðu lánardrottins sem er tilgreindur á innkaupapöntuninni. Ef þú breytir viðskiptamannareikningi síðar verða ytri vörulýsingar og auðkenni uppfærðar þannig að þær passi við gildin fyrir nýja reikninginn. Ytri vörulýsingar og auðkenni fyrir hverja línu verða einnig samstillt við samsvarandi sölupöntun milli fyrirtækja.
 
 1. Farðu í **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir**.
 1. Opnaðu innkaupapöntunina sem þú vilt setja upp eða búðu til nýja.
@@ -207,6 +201,6 @@ Til að tilgreina ytri vöruauðkenni og textalýsingar fyrir innkaupapöntunarl
 1. Veldu **Línur** útsýni.
 1. Á **Innkaupapöntunarlínur** Flýtiflipi, veldu línuna sem á að breyta.
 1. Á **Upplýsingar um línu** flýtiflipann, á **Almennt** flipa, í **Pöntunarlína** kafla, í **Texti** reit, gefðu upp ytri lýsingu á vörunni sem er tilgreind á valinni pöntunarlínu. Þetta gildi verður samstillt við tengda sölupöntunarlínu milli fyrirtækja.
-1. Í **Tilvísun** kafla, í **Ytri** reit, gefðu upp ytra vöruauðkenni fyrir vöruna sem er tilgreint í valinni pöntunarlínu. Þetta gildi verður samstillt við tengda sölupöntunarlínu milli fyrirtækja.
+1. Í **Tilvísun** kafla, í **Ytri** reit, gefðu upp ytra vöruauðkenni fyrir vöruna sem er tilgreind í völdu pöntunarlínunni. Þetta gildi verður samstillt við tengda sölupöntunarlínu milli fyrirtækja.
 
 Fyrir frekari upplýsingar, sjá [Stofna og reikningsfæra innbyrðis sölupöntun fyrir utanaðkomandi viðskiptavin](../sales-marketing/intercompany-sales-order-for-external-customer.md).

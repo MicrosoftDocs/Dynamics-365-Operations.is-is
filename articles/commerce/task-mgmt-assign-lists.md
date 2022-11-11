@@ -2,23 +2,23 @@
 title: Úthluta verkefnalistum til verslana eða starfsmanna
 description: Þessi grein lýsir því hvernig á að úthluta verkefnalistum til verslana eða starfsmanna í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: 8aa1d61e235244ee9400419e51da638c059892e5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: faff772051738f624b86fd23fb6bf29173e909ea
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284658"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746195"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Úthluta verkefnalistum til verslana eða starfsmanna
 
@@ -30,7 +30,7 @@ Verkefnisstjórn í Dynamics 365 Commerce gerir þér kleift að úthluta verkef
 
 ## <a name="start-the-task-list-assignment-process"></a>Ræstu úthlutunarferli verkefnalista
 
-Fylgdu þessum skrefum til að hefja úthlutun verkefnalista.
+Áður en þú byrjar ferlið við að úthluta verkum skaltu ganga úr skugga um að þú hafir búið til verkefnalista með því að fylgja skrefunum í [Búðu til verkefnalista og bættu við verkefnum](task-mgmt-create-lists.md) grein. Fylgdu þessum skrefum til að hefja úthlutun verkefnalista.
 
 1. Farðu í **Retail og Commerce \> Verkefnisstjórn \> Stjórnun verkefnisstjórnunar**.
 1. Veldu verkefnalistann sem á að úthluta.

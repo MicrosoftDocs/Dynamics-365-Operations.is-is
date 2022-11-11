@@ -2,7 +2,7 @@
 title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.30. (nóvember 2022)
 description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management 10.0.30.
 author: kamaybac
-ms.date: 09/08/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 20674ebd9d49b077371998f53d2b22c74f888fc6
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714799"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748465"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.30. (nóvember 2022)
 
@@ -33,6 +33,7 @@ ms.locfileid: "9714799"
 
 | Eiginleikasvæði | Eiginleiki | Meiri upplýsingar | Virkjað af   |
 |---|---|---|---|
+| Birgða- og vörustjórnun | [Fylgstu með mjúku fráteknu magni innan úthlutana](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/track-soft-reserved-quantities-within-allocations) | [Inventory Visibility birgðaúthlutun](../inventory/inventory-visibility-allocation.md) |  Virkt af [þjónustustillingar](../inventory/inventory-visibility-configuration.md) |
 | Framleiðsla | [Fylgstu með búnaði með Sensor Data Intelligence](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Sensor Data Intelligence heimasíða](../sensor-data-intelligence/sdi-home-page.md) | Eiginleikastjórnun:<br>*(Forútgáfa) Gagnagreindarskynjari* |
 | Vöruhúsakerfi | [Fjölþrepa krókaleiðir fyrir vöruhússtjórnun farsímaforritið](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis](../warehousing/warehouse-app-detours.md) | Eiginleikastjórnun:<br>*Fjölþrepa hjáleiðir fyrir fartækjaforrit Warehouse Management* |
 
@@ -49,7 +50,7 @@ Ef þú vilt kveikja eða slökkva á einhverjum af þessum eiginleikum verður 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir Finance and Operations öpp
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Uppfærslur á vettvangi fyrir Finance and Operations öpp
 
 Microsoft Dynamics 365 Supply Chain Management 10.0.30 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.30 af Finance and Operations forritum (nóvember 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md).
 
