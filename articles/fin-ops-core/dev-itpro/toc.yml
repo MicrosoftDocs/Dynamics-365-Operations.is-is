@@ -488,7 +488,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: Lýsingar tungumáls og landsstaðals í öllum vörum og hjálparsvæðum
                   href: help/language-locale.md
-                - name: 'Stækka, sérstilla og vinna saman með hjálpinni'
+                - name: Stækka og vinna saman með hjálpinni
                   href: help/contributor-guide.md
             - name: Svæðisþjónusta fyrir fjármála- og rekstrarforrit
               items:
@@ -1624,6 +1624,10 @@
               href: sysadmin/DataMaintenancePortal.md
             - name: Stjórna aðgangi að netprenturum á milli lögaðila
               href: sysadmin/sys-admin-tools-network-printer.md
+            - name: Eftirlit og fjarmælingar með Application Insights
+              items:
+                - name: Yfirlit
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
             - name: Öryggi
               items:
                 - name: Öryggi byggt á hlutverkum
