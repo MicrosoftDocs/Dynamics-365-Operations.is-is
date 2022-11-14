@@ -450,6 +450,8 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Afrita greiðsluáætlun
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Skipting viðskiptavinar með greiðsluáætlun
+                      href: accounts-receivable/sb-customer-split.md
                     - name: Eiginleikar greiðsluáætlunar
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Útskrift samkvæmt þáttaskilum
@@ -1172,6 +1174,8 @@
                   href: general-ledger/close-general-ledger-at-period-end.md
                 - name: Vinnusvæði lokunar fjárhagstímabils
                   href: general-ledger/financial-period-close-workspace.md
+                - name: Fínstilla lokun í árslok
+                  href: general-ledger/optimize-year-end-close.md
                 - name: Árslokalokun
                   href: general-ledger/year-end-close.md
                 - name: Loka fjárhagsári
