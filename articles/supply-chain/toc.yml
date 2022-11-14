@@ -384,7 +384,7 @@
                       href: ../finance/localizations/rus-goods-transit-vendor.md?context=/dynamics365/context/supply-chain
         - name: Dreifð blönduð grannfræði
           items:
-            - name: Gert hefur verið hlé á kvörðunareiningu fyrir nýja viðskiptavini
+            - name: Gert hefur verið hlé á kvörðunareiningu fyrir Supply Chain Management
               href: cloud-edge/cloud-edge-landing-page.md
         - name: Eignastýring
           items:
@@ -1747,42 +1747,60 @@
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: IoT-greind
           items:
-            - name: IoT-greind nú skipt út fyrir Sensor Data Intelligence
+            - name: Sensor Data Intelligence er komið í stað IoT-gervigreindar
               href: iot/iot-intelligence-home-page.md
         - name: Aðaláætlanagerð
           items:
             - name: Aðaláætlanagerð – heimasíða
               href: master-planning/master-planning-home-page.md
-            - name: Flutningur yfir í fínstillingu skipulagningar fyrir aðaláætlanagerð
-              href: master-planning/new-master-planning-engine.md
-            - name: Fínstilling áætlanagerðar
+            - name: Hafist handa með aðaláætlanagerð
+              href: master-planning/planning-optimization/get-started.md
+            - name: Hönnun aðaláætlanakerfis
+              href: master-planning/master-planning-architecture.md
+            - name: Stjórnun aðaláætlanagerðar
               items:
-                - name: Yfirlit yfir fínstillingu áætlanagerðar
-                  href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Hafist handa með fínstillingu áætlanagerðar
-                  href: master-planning/planning-optimization/get-started.md
                 - name: Útgáfuferli og útgáfuferill fínstillingar áætlanagerðar
                   href: master-planning/planning-optimization/release-process.md
-                - name: Samræmisgreining á fínstillingu áætlanagerðar
-                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Munur á innbyggðu aðalskipulagi og fínstillingu skipulagningar
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: Færibreytur ekki notaðar af fínstillingu áætlanagerðar
-                  href: master-planning/planning-optimization/not-used-parameters.md
-                - name: Framboðsáætlun
-                  href: master-planning/supply-schedule.md
-                - name: Nota síur á áætlun
-                  href: master-planning/planning-optimization/plan-filters.md
+                - name: Úrræðaleit fínstillingar áætlanagerðar
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Leysa úr röðunarvélarvillunni „nægileg afköst fundust ekki“
+                  href: master-planning/not-enough-capacity-error-resolution.md
+                - name: Hætta við áætlunarverk
+                  href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Stækkunarhæfni á fínstillingu áætlanagerðar
+                  href: master-planning/planning-optimization/extensibility.md
+                - name: Skoða áætlunarferil og skipulagsannála
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Færibreytur fyrir dagsetningu og tíma sem fínstilling skipulagningar notar
+                  href: master-planning/planning-optimization/date-time-used.md
+            - name: Skilgreina aðaláætlanagerð
+              items:
+                - name: Seinkanir
+                  href: master-planning/delays.md
+                - name: Nota rakningu fyrir niðurbrot
+                  href: master-planning/trace-explosion.md
+                - name: Sjálfvirkt framboð með „framleiða eftir pöntun“
+                  href: master-planning/make-to-order-supply-automation.md
+                - name: Neikvæðir dagar og gagnvirkir neikvæðir dagar
+                  href: master-planning/more-about-dynamic-negative-days.md
+                - name: Dagatöl og aðaláætlanagerð
+                  href: master-planning/supply-chain-calendars-master-planning.md
+                - name: Stofna áætlun fyrir svæði
+                  href: master-planning/tasks/create-schedule-site.md
+                - name: Stofna áætlun fyrir svæði
+                  href: master-planning/tasks/create-plan-site.md
                 - name: Aðaláætlanagerð með eftirspurnarspá
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Aðaláætlanagerð með birgðaspá
                   href: master-planning/planning-optimization/supply-forecast.md
+                - name: Framboðsáætlun
+                  href: master-planning/supply-schedule.md
+                - name: Keyra skipulagningu fyrir undirsafn af vörum
+                  href: master-planning/planning-optimization/plan-filters.md
                 - name: Aðaláætlanagerð með innkaupaverðsamningum
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Áætlun byggð á verðtilboðum og beiðni um tilboð
                   href: master-planning/planning-optimization/quotation-planning.md
-                - name: Færibreytur fyrir dagsetningu og tíma sem fínstilling skipulagningar notar
-                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Öryggismörk
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Vikmörk tafar (neikvæður dagafjöldi)
@@ -1795,59 +1813,25 @@
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Áætlun með ótakmarkaða getu
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Skipulag og áætlun með takmarkaða getu
+                - name: Takmörkuð afkastagetuáætlun og skipulagning
                   href: master-planning/planning-optimization/finite-capacity.md
-                - name: Áætlun með vali á tilföngum út frá getu
+                - name: Röðun með vali á tilföngum út frá getu
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Forgangsröðuð áætlun
-                  href: master-planning/planning-optimization/priority-based-planning.md
-                - name: Eftirspurnarstýrð efnisþarfaráætlun (DDMRP)
-                  items:
-                    - name: Yfirlit yfir DDMRP
-                      href: master-planning/planning-optimization/ddmrp-overview.md
-                    - name: Kveiktu á DDMRP-eiginleikanum í þínu kerfi
-                      href: master-planning/planning-optimization/ddmrp-enable.md
-                    - name: Birgðastaðsetning
-                      href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
-                    - name: Forstilling öryggisbirgða og gildi
-                      href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
-                    - name: Eftirspurnardrifin áætlanagerð
-                      href: master-planning/planning-optimization/ddmrp-planning.md
-                    - name: Sjónræn framkvæmd og samvinnuframkvæmd
-                      href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
-                - name: Birgðamerking með fínstillingu áætlunargerðar
+                - name: Birgðamerking
                   href: master-planning/planning-optimization/marking.md
                 - name: Áætlanagerð innan samstæðu
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Útiloka afurðir með tilteknar líftímastöður afurðar
                   href: master-planning/planning-optimization/product-lifecycle-state.md
-                - name: Áfyllingaraðferðir og magnbreyting
-                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Þekjutímamörk
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Nettóþörf og þarfarakning með fínstillingu áætlanagerðar
+                - name: Nettóþarfir og upplýsingar um þarfarakningu
                   href: master-planning/planning-optimization/net-requirements.md
-                - name: Samþykkja áætlaðar pantanir
-                  href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Staðfesta áætlaðar pantanir
-                  href: master-planning/planning-optimization/planned-order-firming.md
-                - name: Áætlaðar pantanir einfaldaðar
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: Áætlanagerð með neikvæðu magni á lager
                   href: master-planning/planning-optimization/negative-on-hand.md
-                - name: Skoða áætlunarferil og skipulagsannála
-                  href: master-planning/planning-optimization/plan-history-logs.md
-                - name: Hætta við áætlunarverk
-                  href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Aðgerðaboð
-                  href: master-planning/action-messages.md
                 - name: Reikna afhendingardaga sölupöntunar með CTP
                   href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
-                - name: Úrræðaleit fínstillingar áætlanagerðar
-                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
-                - name: Stækkunarhæfni á fínstillingu áætlanagerðar
-                  href: master-planning/planning-optimization/extensibility.md
-            - name: Aðaláætlanir
+            - name: Setja upp aðaláætlanir
               items:
                 - name: Yfirlit aðaláætlana
                   href: master-planning/master-plans.md
@@ -1855,74 +1839,60 @@
                   href: master-planning/master-planning-setup.md
                 - name: Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
                   href: master-planning/master-planning-setup-wizard.md
+                - name: Mynda áætlun með skorðum
+                  href: master-planning/tasks/constrained-plan.md
+            - name: Setja upp áætlanir áfyllingar
+              items:
                 - name: Þekjustillingar
                   href: master-planning/coverage-settings.md
                 - name: Skilgreina þekjureglur fyrir vörur
                   href: master-planning/tasks/define-coverage-rules-items.md
-                - name: Mynda áætlun með skorðum
-                  href: master-planning/tasks/constrained-plan.md
-                - name: Búa til efnisáætlun fyrir aukaafurðir
-                  href: master-planning/tasks/create-material-plan-co-products.md
-                - name: Vinna með áætlaðar pantanir
-                  href: master-planning/maintain-planned-orders.md
+                - name: Afurðir og efni frá mörgum lánardrottnum
+                  href: master-planning/source-from-multiple-vendors.md
+                - name: Forgangsröðuð áætlun
+                  href: master-planning/planning-optimization/priority-based-planning.md
+                - name: Áfyllingaraðferðir og magnbreyting
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
+            - name: Aðaláætlanir og virkni á mörgum svæðum
+              items:
+                - name: Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum
+                  href: master-planning/master-plan-multisite-functionality.md
+                - name: 'Aðaláætlanagerð fyrir þekju svæðis, vöruhús áskilið'
+                  href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
+                - name: 'Aðaláætlanagerð fyrir þekju svæðis, vöruhús ekki áskilið'
+                  href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
+                - name: 'Aðaláætlanagerð fyrir þekju svæðis og vöruhúss, vöruhús áskilið'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
+                - name: 'Aðaláætlanagerð fyrir þekju svæðis og vöruhúss, vöruhús ekki áskilið'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
+                - name: Uppskriftarútgáfa ákvörðuð
+                  href: master-planning/master-plan-bom-version-determined.md
+                - name: Niðurbrot uppskriftarútgáfu
+                  href: master-planning/master-plan-explosion-bom-version.md
+            - name: Öryggisbirgðir
+              items:
                 - name: Uppfylling öryggisbirgða fyrir vörur
                   href: master-planning/safety-stock-replenishment.md
                 - name: Nota færslubók öryggisbirgða til að uppfæra lágmarkstryggingu fyrir vörur
                   href: master-planning/safety-stock-journal.md
-                - name: Seinkanir
-                  href: master-planning/delays.md
-                - name: Hætta við vinnslu aðaláætlunargerðar
-                  href: master-planning/cancel-master-planning-job.md
-                - name: Nota rakningu fyrir niðurbrot
-                  href: master-planning/trace-explosion.md
-                - name: Fylgjast með keyrslu áætlanagerðar
-                  href: master-planning/tasks/monitor-master-planning-run.md
-                - name: Stofna áætlun fyrir svæði
-                  href: master-planning/tasks/create-schedule-site.md
-                - name: Stofna áætlun fyrir svæði
-                  href: master-planning/tasks/create-plan-site.md
-                - name: Dagatöl og aðaláætlanagerð
-                  href: master-planning/supply-chain-calendars-master-planning.md
-                - name: Leysa úr röðunarvélarvillunni „nægileg afköst fundust ekki“
-                  href: master-planning/not-enough-capacity-error-resolution.md
-                - name: Bæta frammistöðu aðaláætlunargerðar
-                  href: master-planning/master-planning-performance.md
-                - name: Bæta frammistöðu röðunarvélar
-                  href: master-planning/scheduling-engine-performance.md
-                - name: Aðaláætlanir og virkni á mörgum svæðum
-                  items:
-                    - name: Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum
-                      href: master-planning/master-plan-multisite-functionality.md
-                    - name: 'Aðaláætlanagerð fyrir þekju svæðis, vöruhús áskilið'
-                      href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
-                    - name: 'Aðaláætlanagerð fyrir þekju svæðis, vöruhús ekki áskilið'
-                      href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
-                    - name: 'Aðaláætlanagerð fyrir þekju svæðis og vöruhúss, vöruhús áskilið'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
-                    - name: 'Aðaláætlanagerð fyrir þekju svæðis og vöruhúss, vöruhús ekki áskilið'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
-                    - name: Uppskriftarútgáfa ákvörðuð
-                      href: master-planning/master-plan-bom-version-determined.md
-                    - name: Niðurbrot uppskriftarútgáfu
-                      href: master-planning/master-plan-explosion-bom-version.md
-                - name: Neikvæðir dagar og gagnvirkir neikvæðir dagar
-                  href: master-planning/more-about-dynamic-negative-days.md
-                - name: Búa til áætlun innan samstæðu
-                  href: master-planning/tasks/create-intercompany-plan.md
-                - name: Skoða áætlaða eftirspurn á útleið innan samstæðu
-                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Nettóþörf og þarfarakning með innbyggðri aðaláætlanagerð
-                  href: master-planning/net-requirements-built-in-master-planning.md
-                - name: Sjálfvirkt framboð með „framleiða eftir pöntun“
-                  href: master-planning/make-to-order-supply-automation.md
+            - name: Stjórna áætluðum pöntunum
+              items:
+                - name: Vinna með áætlaðar pantanir
+                  href: master-planning/maintain-planned-orders.md
+                - name: 'Skoða, stjórna og samþykkja áætlaðar pantanir'
+                  href: master-planning/planning-optimization/approved-planned-order.md
+                - name: Staðfesta áætlaðar pantanir
+                  href: master-planning/planning-optimization/planned-order-firming.md
+                - name: Áætlaðar pantanir einfaldaðar
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
+                - name: Aðgerðaboð
+                  href: master-planning/action-messages.md
             - name: Spá
               items:
-                - name: Eftirspurnar- og birgðaspá
-                  items:
-                    - name: Birgðaspár
-                      href: master-planning/inventory-forecast.md
-                    - name: 'Leiðarvísir: Breyta eftirspurnarspá handvirkt'
-                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Birgðaspár
+                  href: master-planning/inventory-forecast.md
+                - name: 'Leiðarvísir: Breyta eftirspurnarspá handvirkt'
+                  href: master-planning/tasks/modify-demand-forecast-manually.md
                 - name: Eftirspurnarspá
                   items:
                     - name: Yfirlit eftirspurnarspár
@@ -1943,10 +1913,50 @@
                       href: master-planning/monitor-forecast-accuracy.md
                     - name: 'Leiðarvísir: Búa til grunnlínuspá'
                       href: master-planning/tasks/create-baseline-forecast.md
-                - name: Aðaláætlanagerð með spá
-                  items:
-                    - name: Minnkunarlyklar samkvæmt spá
-                      href: master-planning/reduction-keys.md
+                - name: Minnkunarlyklar samkvæmt spá
+                  href: master-planning/reduction-keys.md
+            - name: Eftirspurnarstýrð efnisþarfaráætlun (DDMRP)
+              items:
+                - name: Yfirlit yfir DDMRP
+                  href: master-planning/planning-optimization/ddmrp-overview.md
+                - name: Kveiktu á DDMRP-eiginleikanum í þínu kerfi
+                  href: master-planning/planning-optimization/ddmrp-enable.md
+                - name: Birgðastaðsetning
+                  href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
+                - name: Forstilling öryggisbirgða og gildi
+                  href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
+                - name: Eftirspurnardrifin áætlanagerð
+                  href: master-planning/planning-optimization/ddmrp-planning.md
+                - name: Sjónræn framkvæmd og samvinnuframkvæmd
+                  href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+            - name: Úrelt áætlunarvél
+              items:
+                - name: Yfirlit yfir úrelta áætlunarvél
+                  href: master-planning/deprecated-master-planning-overview.md
+                - name: Flutningur yfir í fínstillingu skipulagningar fyrir aðaláætlanagerð
+                  href: master-planning/new-master-planning-engine.md
+                - name: Færibreytur ekki notaðar af fínstillingu áætlanagerðar
+                  href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Munur á fínstillingu skipuluagningar og úreltri aðaláætlunarvél
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
+                - name: Samræmisgreining á fínstillingu áætlanagerðar
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Bæta frammistöðu aðaláætlunargerðar
+                  href: master-planning/master-planning-performance.md
+                - name: Bæta frammistöðu röðunarvélar
+                  href: master-planning/scheduling-engine-performance.md
+                - name: Búa til áætlun innan samstæðu
+                  href: master-planning/tasks/create-intercompany-plan.md
+                - name: Skoða áætlaða eftirspurn á útleið innan samstæðu
+                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
+                - name: Fylgjast með keyrslu áætlanagerðar
+                  href: master-planning/tasks/monitor-master-planning-run.md
+                - name: Nettóþarfir og upplýsingar um þarfarakningu með úreltri áætlunarvél
+                  href: master-planning/net-requirements-built-in-master-planning.md
+                - name: Búa til efnisáætlun fyrir aukaafurðir
+                  href: master-planning/tasks/create-material-plan-co-products.md
+                - name: Hætta við verk sem var stofnað með úreltri aðaláætlunarvél
+                  href: master-planning/cancel-master-planning-job.md
         - name: Fartækjaforrit
           items:
             - name: Heimasíða fartækjaforrits

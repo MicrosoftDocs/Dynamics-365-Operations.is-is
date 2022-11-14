@@ -541,7 +541,11 @@
                     - name: Ráða umsækjendur
                       href: hr-personnel-recruit.md
         - name: Verkstjórnun
-          href: hr-task-mgmt.md
+          items:
+            - name: Yfirlit
+              href: hr-task-mgmt.md
+            - name: Uppfærsla verkstjórnunar
+              href: hr-task-update.md
         - name: Leyfi og fjarvistir
           items:
             - name: Yfirlit
@@ -822,7 +826,7 @@
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
             - name: Haga aðlögun starfskrafta
               href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-    - name: Þróun Human Resources
+    - name: Human Resources þróun
       items:
         - name: Yfirlit
           href: hr-developer-overview.md
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: Sérstilltir reitir
           href: hr-developer-custom-fields.md
+        - name: Þróa og sérstilla
+          items:
+            - name: Fasttexti um kynjagrundvöll
+              href: enum-exten.md
         - name: Setja upp samþættingu gagna
           items:
             - name: Velja tækni við samþættingu gagna
