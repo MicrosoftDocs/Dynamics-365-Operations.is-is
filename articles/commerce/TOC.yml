@@ -590,6 +590,8 @@
                           href: dev-itpro/adyen-connector-faq.md
                         - name: Stilla Google Pay með Adyen
                           href: dev-itpro/google-pay-adyen.md
+                        - name: Setja upp Apple Pay með Adyen
+                          href: dev-itpro/apple-pay-adyen.md
                         - name: Úrræðaleit fyrir Dynamics 365 Payment Connector fyrir Adyen
                           href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Vista netgreiðslumáta með Adyen-tengli
@@ -602,6 +604,8 @@
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Uppsetning á greiðsluaðstæðum reikninga
                       href: payinvoice.md
+                    - name: Fyrirframgreiðslur í Dynamics 365 Commerce
+                      href: dev-itpro/prepayments-commerce.md
                     - name: Vörn gegn tvíteknum greiðslum
                       href: duplicate-payment-protection.md
                     - name: Greiðsluyfirlit samskiptamiðstöðvar

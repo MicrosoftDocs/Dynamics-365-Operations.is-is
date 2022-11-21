@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878513"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764180"
 ---
 # <a name="distributed-order-management-dom"></a>Dreifingarstjórnun pöntunar (DOM)
 
@@ -68,9 +68,9 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
         > [!NOTE]
         > Einfaldaður leysari er útvegaður svo smásöluaðilar geti prófað DOM-eiginleikann án þess að þurfa að setja upp tiltekið leyfi. Fyrirtæki eiga ekki að nota einfaldaðan leysara í vinnsluumhverfi.
         >
-        > Leysari framleiðslu bætir frammistöðu, (svo sem fjölda pantana og pöntunarlína sem hægt er að vinna með í keyrslu) og samleitni niðurstaðna (runa pantana kemur ekki endilega með bestu niðurstöðuna í sumum tilfellum). Sumar reglur, á borð við **Hlutapantanir** og **Hámarksfjöldi staðsetninga** krefjast Leysara framleiðslu.
+        > Leysari framleiðslu bætir frammistöðu, (svo sem fjölda pantana og pöntunarlína sem hægt er að vinna með í keyrslu) og samleitni niðurstaðna (runa pantana kemur ekki endilega með bestu niðurstöðuna í sumum tilfellum). Reglan um **Hlutapantanir** krefst Leysara framleiðslu.
 
-6. Farið aftur í **Retail and Commerce \> Dreifingarstjórnun pöntunar \> Setja upp \> DOM-færibreytur**.
+6. Farið aftur í **Smásala og viðskipti \> Dreifingarstjórnun pöntunar \> Setja upp \> DOM-færibreytur**.
 7. Á flipanum **Númeraraðir** skal úthluta áskildum númeraröðum á hinar ýmsu DOM-einingar.
 
     > [!NOTE]

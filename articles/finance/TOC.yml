@@ -430,7 +430,7 @@
                   href: accounts-receivable/rev-rec-bundles.md
                 - name: Endurúthlutun tekjuskráningar
                   href: accounts-receivable/rev-rec-reallocation.md
-                - name: Endurúthlutun tekjuskráningar – Aðstæður 1
+                - name: Endurúthlutun tekjuskráningar aðstæður 1
                   href: accounts-receivable/rev-rec-reallocation-scenario-1.md
                 - name: Endurúthlutun tekjuskráningar aðstæður 2
                   href: accounts-receivable/rev-rec-reallocation-scenario-2.md
@@ -1188,6 +1188,8 @@
                   href: general-ledger/ledger-settlements.md
                 - name: Munurinn á fjárhagsjöfnun og árslokalokun
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Sjálfvirknivæða fjárhagsjafnanir
+                  href: general-ledger/auto-settle.md
                 - name: Endurmat á erlendum gjaldmiðli fyrir fjárhag
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Fjárhagslykilstöður

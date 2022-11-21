@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a75d1e3e68837a437b2369ba369b0063e015b12
-ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
+ms.openlocfilehash: a25f20c320b905a2cdd3091e76e3c5e73f1a845a
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9751958"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752749"
 ---
 # <a name="year-end-activities-faq"></a>Algengar spurningar um verkþætti árslokunar 
 
@@ -94,6 +94,23 @@ Kveikja þarf á þessum eiginleika í kerfinu til að hægt sé að nota hann. 
  
 - Eining: Fjárhagur
 - Heiti eiginleika: Afkastaendurbætur fyrir endurbyggingu fjárhagsvíddarsamstæða
+
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2022"></a>Viðskiptaskuldir: Hvaða breytingar hafa verið gerðar til að styðja 1099-árslokaskýrslugerð fyrir 2022?
+
+#### <a name="update-to-all-1099-forms"></a>Uppfæra í öll 1099 eyðublöð
+Eftirfarandi breytingar hafa verið gerðar á öllum 1099 eyðublöðum fyrir skattárið 2022:
+
+  - Árið 2021 var árið fast á 1099 eyðublöðum. Frá og með árinu 2022 er árið fyllt út með skýrslunni. 
+
+#### <a name="1099-misc"></a>1099-MISC
+Eftirfarandi uppfærslur hafa verið gerðar á eyðublaði 1099-MISC fyrir skattárið 2022:
+
+ - Reitur 13: Tilgreinir nú FATCA (lög um skattlagningu vegna erlendra reikninga). 
+ - Reitur 14: Nú notaður til að tilkynna um of háar „gylltar fallhlífagreiðslur“. 
+ - Reitur 15: Nú notaður til að tilkynna um greiðsluna samkvæmt NQDC (óviðurkenndar frestaðar tekjur). 
+ - Reitur 16: Nú notaður til að tilkynna um afdregna skatta ríkis.
+ - Reitur 17: Nú notaður til að tilkynna um ríkisnúmer greiðanda.
+ - Reitur 18: Nú notaður til að tilkynna um tekjur ríkis. 
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Viðskiptaskuldir: Hvaða breytingar hafa verið gerðar til að styðja 1099-árslokaskýrslugerð fyrir 2021?
 
