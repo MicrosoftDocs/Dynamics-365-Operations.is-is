@@ -2,7 +2,7 @@
 title: Opin API fyrir Inventory Visibility
 description: Þessi grein lýsir opinberum API sem eru veitt af Birgðasýnileika.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
-ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
-ms.translationtype: MT
+ms.openlocfilehash: 8b0b8ca261237fbb2190f2a94cc11b816ae05af5
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9719316"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762835"
 ---
 # <a name="inventory-visibility-public-apis"></a>Opin API fyrir Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
-
 
 Þessi grein lýsir opinberum API sem eru veitt af Birgðasýnileika.
 
@@ -36,38 +35,38 @@ Eftirfarandi tafla sýnir API sem eru í boði eins og er:
 
 | Slóð | Aðferð | lýsing |
 |---|---|---|
-| /api/environment/{environmentId}/onhand | Bóka | [Stofna eitt tilvik lagerbreytinga](#create-one-onhand-change-event) |
+| /api/environment/{environmentId}/onhand | Bóka | [Stofna eitt tilvik lagerbreytinga](#create-one-onhand-change-event)|
 | /api/environment/{environmentId}/onhand/bulk | Bóka | [Stofna mörg tilvik breytinga](#create-multiple-onhand-change-events) |
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Bóka | [Stilla/hnekkja lagermagni](#set-onhand-quantities) |
-| /api/environment/{environmentId}/onhand/reserve | Bóka | [Stofna eitt tilvik frátekningar](#create-one-reservation-event) |
-| /api/environment/{environmentId}/onhand/reserve/bulk | Bóka | [Stofna mörg tilvik frátekningar](#create-multiple-reservation-events) |
-| /api/umhverfi/{environmentId} /ábyrgð/afskilið | Bóka | [Snúa við einum pöntunarviðburði](#reverse-one-reservation-event) |
-| /api/umhverfi/{environmentId} /onhand/unreserve/bulk | Bóka | [Snúa við mörgum pöntunarviðburðum](#reverse-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/reserve | Bóka | [Búðu til einn mjúkan pöntunarviðburð](#create-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/reserve/bulk | Bóka | [Búðu til marga mjúka bókunarviðburði](#create-multiple-reservation-events) |
+| /api/umhverfi/{environmentId} /ábyrgð/afskilið | Bóka | [Snúa við einum mjúkum pöntunarviðburði](#reverse-one-reservation-event) |
+| /api/umhverfi/{environmentId} /onhand/unreserve/bulk | Bóka | [Snúa við mörgum mjúkum pöntunarviðburðum](#reverse-multiple-reservation-events) |
 | /api/umhverfi/{environmentId} /áhandar/breyta dagskrá | Bóka | [Búðu til eina áætlaða breytingu á hendi](inventory-visibility-available-to-promise.md) |
-| /api/umhverfi/{environmentId} /áhandar/breyta áætlun/magn | Bóka | [Búðu til margar áætlaðar breytingar á hendi](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/onhand/indexquery | Bóka | [Senda fyrirspurn með bókunaraðferðinni](#query-with-post-method) |
+| /api/umhverfi/{environmentId} /áhandar/breyta áætlun/magn | Bóka | [Búðu til margar breytingar á hendi með dagsetningum](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/indexquery | Bóka | [Fyrirspurn með því að nota póstaðferðina](#query-with-post-method) (mælt með) |
 | /api/environment/{environmentId}/onhand | Sækja | [Senda fyrirspurn með aðferðinni sækja](#query-with-get-method) |
 | /api/umhverfi/{environmentId} /onhand/exactquery | Bóka | [Nákvæm fyrirspurn með því að nota póstaðferðina](#exact-query-with-post-method) |
-| /api/umhverfi/{environmentId} /úthlutun/úthluta | Bóka | [Búðu til einn úthlutunarviðburð](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/umhverfi/{environmentId} /úthlutun/afúthluta | Bóka | [Búðu til einn atburð sem ekki var úthlutað](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/umhverfi/{environmentId} /úthlutun/endurúthluta | Bóka | [Búðu til einn endurúthluta atburði](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/umhverfi/{environmentId} /úthlutun/neyta | Bóka | [Búðu til einn neysluviðburð](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/umhverfi/{environmentId} /úthlutun/fyrirspurn | Bóka | [Niðurstaða fyrirspurnaúthlutunar](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/umhverfi/{environmentId} /úthlutun<wbr> /úthluta | Bóka | [Búðu til einn úthlutunarviðburð](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/umhverfi/{environmentId} /úthlutun<wbr> /afúthluta | Bóka | [Búðu til einn atburð sem ekki var úthlutað](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/umhverfi/{environmentId} /úthlutun<wbr> /endurúthluta | Bóka | [Búðu til einn endurúthluta atburði](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/umhverfi/{environmentId} /úthlutun<wbr> /neyta | Bóka | [Búðu til einn neysluviðburð](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/umhverfi/{environmentId} /úthlutun<wbr> /fyrirspurn | Bóka | [Niðurstaða fyrirspurnaúthlutunar](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
-> {environmentId} hluti slóðarinnar er umhverfiskennið í Microsoft Dynamics Lifecycle Services (LCS).
+> The{environmentId} hluti af leiðinni er auðkenni umhverfisins í Microsoft Dynamics Lífsferilsþjónusta.
 > 
 > Magn API getur skilað að hámarki 512 færslum fyrir hverja beiðni.
 
 Microsoft hefur útvegað tilbúið beiðnasafn *Postman*. Þú getur flutt þetta safn inn í *Postman* hugbúnaðinn með því að nota eftirfarandi samnýttan tengil: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>.
 
-## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Finna endastöðin samkvæmt umhverfi Lifecycle Services
+## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a><a name = "endpoint-lcs"></a>Finna endastöðin samkvæmt umhverfi Lifecycle Services
 
 Örþjónusta birgðasýnileika er sett upp í Microsoft Azure Service Fabric, á mörgum staðsetningum og mörgum landsvæðum. Sem stendur er enginn miðlæg endastöð sem getur beint beiðni þinni sjálfkrafa á samsvarandi staðsetningu eða landsvæði. Þess vegna verður þú að setja saman upplýsingarnar í vefslóð með því að nota eftirfarandi mynstur:
 
 `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
-Stutt heiti svæðisins er að finna í umhverfinu Microsoft Dynamics Lifecycle Services (LCS). Eftirfarandi tafla sýnir svæðin sem eru í boði eins og er.
+Stutt nafn svæðisins er að finna í Lifecycle Services umhverfinu. Eftirfarandi tafla sýnir svæðin sem eru í boði eins og er.
 
 | Azure-svæði        | Stutt heiti svæðis |
 | ------------------- | ----------------- |
@@ -83,16 +82,26 @@ Stutt heiti svæðisins er að finna í umhverfinu Microsoft Dynamics Lifecycle 
 | Vesturhluti Bretlands             | wuk               |
 | Austur-Japan          | ejp               |
 | Vestur-Japan          | wjp               |
-| Suður-Brasilía        | sbr               |
-| Suður- og miðríki Bandaríkjanna    | scus              |
+| Mið-Indland       | cin               |
+| Suður-Indland         | synd               |
+| Sviss norður   | nch               |
+| Sviss vestur    | wch               |
+| Frakkland suður        | sfr               |
+| Austur-Asía           | eas               |
+| Suðaustur Asía     | höf              |
+| Uae norður           | nei               |
+| Noregur austur         | eno               |
+| Noregur vestur         | ekki               |
+| Suður Afríka vestur   | wza               |
+| Suður Afríka norður  | nza               |
 
-Númer eyjarinnar er þar sem LCS-umhverfið þitt er sett upp í Service Fabric. Það er engin leið til að fá þessar upplýsingar frá notendahliðinni.
+Eyjanúmerið er þar sem Lifecycle Services umhverfið þitt er notað á Service Fabric. Það er engin leið til að fá þessar upplýsingar frá notendahliðinni.
 
 Microsoft hefur skapað notandaviðmót í Power Apps svo þú getir fengið fullkláraða endastöð örþjónustunnar. Frekari upplýsingar er að finna í [Finna endastöð þjónustu](inventory-visibility-configuration.md#get-service-endpoint).
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Sannvottun
 
-Öryggistákn verkvangsins er notað til að kalla á opið API birgðasýnileika. Þess vegna verður þú að búa til _Azure Active Directory (Azure AD) tákn_ með því að nota þitt Azure AD umsókn. Þá þarf að nota Azure AD táknið til að fá _aðgangsmerkið_ úr öryggisþjónustunni.
+Öryggistákn verkvangsins er notað til að kalla á opið API birgðasýnileika. Þess vegna þarf að búa til *Azure Active Directory (Azure AD) tákn* með því að nota Azure AD-forritið. Þá þarf að nota Azure AD táknið til að fá *aðgangsmerkið* úr öryggisþjónustunni.
 
 Microsoft útvegar tilbúið merkjasafn *Postman*. Þú getur flutt þetta safn inn í *Postman* hugbúnaðinn með því að nota eftirfarandi samnýttan tengil: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
@@ -101,63 +110,63 @@ Til að ná í öryggistákn skal fylgja þessum skrefum.
 1. Skráðu þig inn í Azure-gáttina og notaðu hana til að finna gildin `clientId` og `clientSecret` fyrir Dynamics 365 Supply Chain Management forritið þitt.
 1. Sæktu Azure AD tákn (`aadToken`) með því að senda inn HTTP-beiðni sem er með eftirfarandi eiginleika:
 
-   - **Vefslóð:**`https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
-   - **Aðferð:** `GET`
-   - **Meginefni (eyðublaðagögn):**
+    - **Vefslóð:**`https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
+    - **Aðferð:** `GET`
+    - **Meginefni (eyðublaðagögn):**
 
-     | Lykill           | Virði                                            |
-     | ------------- | -------------------------------------------------|
-     | client_id     | ${aadAppId}                                      |
-     | client_secret | ${aadAppSecret}                                  |
-     | grant_type    | client_credentials                               |
-     | umfang         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.sjálfgefið    |
+        | Lykill           | Virði                                            |
+        | ------------- | -------------------------------------------------|
+        | client_id     | ${aadAppId}                                      |
+        | client_secret | ${aadAppSecret}                                  |
+        | grant_type    | client_credentials                               |
+        | umfang         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.sjálfgefið    |
 
-   Þú ættir að fá Azure AD tákn (`aadToken`) sem svar. Niðurstaðan ætti að líkjast eftirfarandi dæmi.
+    Þú ættir að fá Azure AD tákn (`aadToken`) sem svar. Niðurstaðan ætti að líkjast eftirfarandi dæmi.
 
-   ```json
-   {
-       "token_type": "Bearer",
-       "expires_in": "3599",
-       "ext_expires_in": "3599",
-       "access_token": "eyJ0eX...8WQ"
-   }
-   ```
+    ```json
+    {
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "access_token": "eyJ0eX...8WQ"
+    }
+    ```
 
 1. Settu saman JavaScript Object Notation (JSON) beiðni sem líkist eftirfarandi dæmi.
 
-   ```json
-   {
-       "grant_type": "client_credentials",
-       "client_assertion_type": "aad_app",
-       "client_assertion": "{Your_AADToken}",
-       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "{$LCS_environment_id}",
-       "context_type": "finops-env"
-   }
-   ```
+    ```json
+    {
+        "grant_type": "client_credentials",
+        "client_assertion_type": "aad_app",
+        "client_assertion": "{Your_AADToken}",
+        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "{$LCS_environment_id}",
+        "context_type": "finops-env"
+    }
+    ```
 
-   Athugið eftirfarandi stig:
+    Athugið eftirfarandi stig:
 
-   - Gildið `client_assertion` verður að vera Azure AD táknið (`aadToken`) sem var móttekið í fyrra skrefi.
-   - Gildið `context` verður að vera LCS-umhverfiskenni þar sem á að nota viðbótina.
-   - Stilltu öll önnur gildi eins og sýnt er í dæminu.
+    - Gildið `client_assertion` verður að vera Azure AD táknið (`aadToken`) sem var móttekið í fyrra skrefi.
+    - The`context` gildi verður að vera auðkenni líftímaþjónustu umhverfisins þar sem þú vilt dreifa viðbótinni.
+    - Stilltu öll önnur gildi eins og sýnt er í dæminu.
 
 1. Sæktu aðgangslykil (`access_token`) með því að senda inn HTTP-beiðni sem er með eftirfarandi eiginleika:
 
-   - **VEFSLÓÐ:** `https://securityservice.operations365.dynamics.com/token`
-   - **Aðferð:** `POST`
-   - **HTTP-haus:** Hafðu með API-útgáfuna. (Lykillinn er `Api-Version` og gildið er `1.0`.)
-   - **Meginefni efnis** - Nota skal JSON-beiðni sem var stofnuð í fyrra skrefi.
+    - **VEFSLÓÐ:** `https://securityservice.operations365.dynamics.com/token`
+    - **Aðferð:** `POST`
+    - **HTTP-haus:** Hafðu með API-útgáfuna. (Lykillinn er `Api-Version` og gildið er `1.0`.)
+    - **Meginefni efnis** - Nota skal JSON-beiðni sem var stofnuð í fyrra skrefi.
 
-   Þú ættir að fá aðgangslykil (`access_token`) sem svar. Þú verður að nota þennan lykil sem handhafalykil til að kalla á API birgðasýnileika. Hér er dæmi.
+    Þú ættir að fá aðgangslykil (`access_token`) sem svar. Þú verður að nota þennan lykil sem handhafalykil til að kalla á API birgðasýnileika. Hér er dæmi.
 
-   ```json
-   {
-       "access_token": "{Returned_Token}",
-       "token_type": "bearer",
-       "expires_in": 3600
-   }
-   ```
+    ```json
+    {
+        "access_token": "{Returned_Token}",
+        "token_type": "bearer",
+        "expires_in": 3600
+    }
+    ```
 
 > [!IMPORTANT]
 > Þegar þú notar beiðasafnið *Postman* til að kalla á opið API birgðasýnileika þarftu að bæta við handhafalykli fyrir hverja beiðni. Til að finna handhafalykilinn skal velja flipann **Heimild** undir vefslóð beiðninnar, velja gerðina **Handhafalykill** og afrita aðgangslykilinn sem var sóttur í skrefinu á undan. Í síðari köflum þessarar greinar,`$access_token` verður notað til að tákna táknið sem var sótt í síðasta skrefi.
@@ -178,10 +187,12 @@ Eftirfarandi tafla tekur saman merkingu hvers reits í meginmáli JSON.
 | `productId` | Kennimerki afurðarinnar. |
 | `quantities` | Magnið sem lagerbirgðirnar þurfa að breytast um. Ef t.d. 10 nýjar bækur bætast í hilluna verður þetta gildi `quantities:{ shelf:{ received: 10 }}`. Ef þrjár bækur eru teknar úr hillunni eða seldar verður þetta gildi `quantities:{ shelf:{ sold: 3 }}`. |
 | `dimensionDataSource` | Gagnagjafi víddanna sem notaðar eru í tilviki og fyrirspurn bókunarbreytingar. Ef gagnagjafi er tilgreindur er hægt að nota sérstilltar víddir úr tilgreindum gagnagjafa. Birgðasýnileiki getur notað skilgreiningu víddar til að varpa sérstilltum víddum í almennar sjálfgefnar víddir. Ef ekkert `dimensionDataSource` gildi er tilgreint geturðu aðeins notað almennu [grunnvíddirnar](inventory-visibility-configuration.md#data-source-configuration-dimension) í fyrirspurnum þínum. |
-| `dimensions` | Gagnvirkt par lyklagildis. Gildunum er varpað í sumar víddirnar í Supply Chain Management. Hins vegar getur þú einnig bætt við sérstilltum víddum (til dæmis _Uppruna_) til að gefa til kynna hvort tilvikið komi úr Supply Chain Management eða ytra kerfi. |
+| `dimensions` | Gagnvirkt par lyklagildis. Gildunum er varpað í sumar víddirnar í Supply Chain Management. Hins vegar getur þú einnig bætt við sérstilltum víddum (til dæmis *Uppruna*) til að gefa til kynna hvort tilvikið komi úr Supply Chain Management eða ytra kerfi. |
 
 > [!NOTE]
 > Færibreyturnar `siteId` og `locationId` setja saman [stillingu þáttunar](inventory-visibility-configuration.md#partition-configuration). Þú verður því að tilgreina þær í víddum þegar þú býrð til tilvik lagerbreytinga, stilla eða hnekkja lagermagni eða stofna frátekningartilvik.
+
+Eftirfarandi undirkaflar veita dæmi sem sýna hvernig á að nota þessi API.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Stofna eitt tilvik lagerbreytinga
 
@@ -214,17 +225,17 @@ Body:
     }
 ```
 
-Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls. Í þessu sýnishorni bókar þú tilvik breytingar fyrir afurðina *Bolur*. Þetta tilviki er úr sölustaðarkerfinu (POS) og viðskiptavinur hefur skilað rauðum stuttermabol aftur í verslunina. Þetta tilvik mun auka magn afurðarinnar *Bolur* um 1.
+Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls. Í þessu dæmi er fyrirtækið með sölustaðakerfi (POS) sem vinnur færslur í verslun og þar af leiðandi birgðabreytingar. Viðskiptavinurinn hefur skilað rauðum stuttermabol í verslunina þína. Til að endurspegla breytinguna birtir þú stakan breytingarviðburð fyrir *stuttermabolur* vöru. Þetta tilvik mun auka magn afurðarinnar *Bolur* um 1.
 
 ```json
 {
-    "id": "123456",
-    "organizationId": "SCM_IV",
+    "id": "Test201",
+    "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "siteId": "iv_postman_site",
-        "locationId": "iv_postman_location",
+        "siteId": "1",
+        "locationId": "11",
         "posMachineId": "0001",
         "colorId": "red"
     },
@@ -240,12 +251,12 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls án `dimensionDataSource
 
 ```json
 {
-    "id": "123456",
-    "organizationId": "SCM_IV",
-    "productId": "iv_postman_product",
+    "id": "Test202",
+    "organizationId": "usmf",
+    "productId": "T-shirt",
     "dimensions": {
-        "siteId": "iv_postman_site",
-        "locationId": "iv_postman_location",
+        "siteId": "1",
+        "locationId": "11",
         "colorId": "red"
     },
     "quantities": {
@@ -258,7 +269,14 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls án `dimensionDataSource
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Stofna mörg tilvik breytinga
 
-Þetta API getur búið til margar færslur samtímis. Eini munurinn á þessu API og [API fyrir eitt tilvik](#create-one-onhand-change-event) eru gildin `Path` og `Body`. Fyrir þetta API gefur `Body` upp fylki af færslum. Hámarksfjöldi færslur er 512, sem þýðir að forritaskilin fyrir magnbreytingar geta stutt allt að 512 breytingartilvik í einu.
+Þetta API getur búið til breytingarviðburði, alveg eins og [API fyrir einn viðburð](#create-one-onhand-change-event) dós. Eini munurinn er sá að þetta API getur búið til margar færslur á sama tíma. Þess vegna er`Path` og`Body` gildi eru mismunandi. Fyrir þetta API gefur `Body` upp fylki af færslum. Hámarksfjöldi skráa er 512. Þess vegna getur forritaskilin fyrir magnbreytingar stutt allt að 512 breytingartilvik í einu. 
+
+Til dæmis vann POS vél í smásöluverslun eftirfarandi tvær færslur:
+
+- Ein skilapöntun af einum rauðum stuttermabol
+- Ein sölufærsla á þremur svörtum stuttermabolum
+
+Í þessu tilviki geturðu látið báðar birgðauppfærslur fylgja með í einu API símtali.
 
 ```txt
 Path:
@@ -295,26 +313,27 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls.
 ```json
 [
     {
-        "id": "123456",
-        "organizationId": "SCM_IV",
-        "productId": "iv_postman_product_1",
+        "id": "Test203",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "posSiteId": "posSite1",
-            "posLocationId": "posLocation1",
+            "SiteId": "Site1",
+            "LocationId": "11",
             "posMachineId&quot;: &quot;0001"
+            "colorId&quot;: &quot;red"
         },
         "quantities": {
             "pos": { "inbound": 1 }
         }
     },
     {
-        "id": "654321",
-        "organizationId": "SCM_IV",
-        "productId": "iv_postman_product_2",
+        "id": "Test204",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
         "dimensions": {
-            "siteId": "iv_postman_site",
-            "locationId": "iv_postman_location",
+            "siteId": "1",
+            "locationId": "11",
             "colorId&quot;: &quot;black"
         },
         "quantities": {
@@ -326,7 +345,7 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls.
 
 ## <a name="setoverride-on-hand-quantities"></a><a name="set-onhand-quantities"></a>Stilla/hnekkja lagermagni
 
-API fyrir _Stilla lagerbirgðir_ hnekkir núverandi gögnum fyrir tiltekna afurð.
+API fyrir *Stilla lagerbirgðir* hnekkir núverandi gögnum fyrir tiltekna afurð. Þessi virkni er venjulega notuð til að gera uppfærslur á birgðatalningu. Til dæmis, meðan á daglegri birgðatalningu stendur, gæti verslun komist að því að raunveruleg birgðastaða fyrir rauða stuttermabol er 100. Þess vegna verður að uppfæra magn POS á heimleið í 100, óháð því hvað fyrra magn var. Þú getur notað þetta API til að hnekkja núverandi gildi.
 
 ```txt
 Path:
@@ -364,18 +383,19 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls. Hegðun þessa API er f
 ```json
 [
     {
-        "id": "123456",
-        "organizationId": "SCM_IV",
+        "id": "Test204",
+        "organizationId": "usmf",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "posSiteId": "iv_postman_site",
-            "posLocationId": "iv_postman_location",
+            "SiteId": "1",
+            "LocationId": "11",
             "posMachineId": "0001"
+            "colorId": "red"
         },
         "quantities": {
             "pos": {
-                "inbound": 1
+                "inbound": 100
             }
         }
     }
@@ -384,7 +404,7 @@ Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls. Hegðun þessa API er f
 
 ## <a name="create-reservation-events"></a>Stofna tilvik frátekninga
 
-Til að nota *Áskilið* API, þú verður að kveikja á pöntunareiginleikanum og ljúka við pöntunarstillinguna. Frekari upplýsingar er að finna í [Skilgreining frátekningar (valfrjálst)](inventory-visibility-configuration.md#reservation-configuration).
+Til að nota *Áskilið* API, þú verður að kveikja á pöntunareiginleikanum og ljúka við pöntunarstillinguna. Fyrir frekari upplýsingar (þar á meðal gagnaflæði og sýnishorn), sjá [Bókunarstilling (valfrjálst)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Stofna eitt tilvik frátekningar
 
@@ -392,7 +412,7 @@ Hægt er að taka frá gagnvart mismunandi stillingum gagnagjafa. Til að stilla
 
 Þegar þú kallar á API frátekningu er hægt að stjórna staðfestingu frátekningar með því að tilgreina Boolean `ifCheckAvailForReserv` færibreytu í meginmáli beiðninnar. Gildi `True` þýðir að staðfesting sé nauðsynleg og á móti merkir gildið `False` að staðfestingin er ekki nauðsynleg. Sjálfgefið gildi er `True`.
 
-Ef þú vilt bakfæra frátekningu eða taka frá tiltekið birgðamagn skaltu stilla magnið á neikvætt gildi og stilla`ifCheckAvailForReserv` breytu til`False` að sleppa staðfestingunni. Það er líka sérstakt unreserve API til að gera slíkt hið sama. Munurinn er aðeins í því hvernig API-in tvö eru kölluð. Það er auðveldara að snúa við tilteknum pöntunarviðburði með því að nota`reservationId` með *fyrirvaralaus* API. Fyrir frekari upplýsingar, sjá [_Afpanta einn pöntunarviðburð_](#reverse-reservation-events) kafla.
+Ef þú vilt bakfæra frátekningu eða taka frá tiltekið birgðamagn skaltu stilla magnið á neikvætt gildi og stilla`ifCheckAvailForReserv` breytu til`False` að sleppa staðfestingunni. Það er líka sérstakt óáskilið API til að gera slíkt hið sama. Munurinn er aðeins í því hvernig API-in tvö eru kölluð. Það er auðveldara að snúa við tilteknum pöntunarviðburði með því að nota`reservationId` með *fyrirvaralaus* API. Fyrir frekari upplýsingar, sjá [Afpanta einn pöntunarviðburð](#reverse-reservation-events) kafla.
 
 ```txt
 Path:
@@ -593,7 +613,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Fyrirspurn um lagerbirgðir
 
-Nota *Fyrirspurn við höndina* API til að sækja núverandi birgðagögn fyrir vörur þínar. API styður sem stendur fyrirspurnir um allt að 5000 einstaka hluti eftir`productID` gildi. Margfeldi`siteID` og`locationID` Einnig er hægt að tilgreina gildi í hverri fyrirspurn. Hámarksmörkin eru skilgreind með eftirfarandi jöfnu:
+Nota *Fyrirspurn við höndina* API til að sækja núverandi birgðagögn fyrir vörur þínar. Þú getur notað þetta forritaskil hvenær sem þú þarft að vita birgðirnar, eins og þegar þú vilt skoða birgðir vöru á vefsíðunni þinni fyrir rafræn viðskipti, eða þegar þú vilt athuga framboð á vörum á milli svæða eða í nærliggjandi verslunum og vöruhúsum. API styður nú fyrirspurnir um allt að 5.000 einstaka hluti eftir`productID` gildi. Margfeldi`siteID` og`locationID` Einnig er hægt að tilgreina gildi í hverri fyrirspurn. Hámarksmörkin eru skilgreind með eftirfarandi jöfnu:
 
 *NumOf(SiteID)\* NumOf(LocationID)<= 100*.
 
@@ -637,16 +657,16 @@ Færibreytan `returnNegative` stýrir því hvort niðurstöðurnar innihalda ne
 > [!NOTE]
 > Ef þú hefur virkjað breytingaáætlunina fyrir hendi og eiginleika sem hægt er að lofa (ATP), getur fyrirspurnin þín einnig innihaldið`QueryATP` Boolean færibreyta, sem stjórnar því hvort niðurstöður fyrirspurnar innihalda ATP upplýsingar. Fyrir frekari upplýsingar og dæmi, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlanir og hægt að lofa](inventory-visibility-available-to-promise.md).
 
-Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls.
+Eftirfarandi dæmi sýnir sýnishorn um efni meginmáls. Það sýnir að þú getur leitað eftir birgðum á lager frá mörgum stöðum (vöruhúsum).
 
 ```json
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["SCM_IV"],
-        "productId": ["iv_postman_product"],
-        "siteId": ["iv_postman_site"],
-        "locationId": ["iv_postman_location"],
+        "organizationId": ["usmf"],
+        "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "locationId": ["11","12","13"],
         "colorId": ["red"]
     },
     "groupByValues": ["colorId", "sizeId"],
@@ -659,10 +679,10 @@ Eftirfarandi dæmi sýnir hvernig á að spyrjast fyrir um allar vörur á tilte
 ```json
 {
     "filters": {
-        "organizationId": ["SCM_IV"],
+        "organizationId": ["usmf"],
         "productId": [],
-        "siteId": ["iv_postman_site"],
-        "locationId": ["iv_postman_location"],
+        "siteId": ["1"],
+        "locationId": ["11"],
     },
     "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
@@ -692,6 +712,22 @@ Hér er sýnishorn af fá vefslóð. Þessi beiðni um að sækja er nákvæmleg
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
+
+## <a name="on-hand-exact-query"></a><a name="exact-query-with-post-method"></a> Nákvæm fyrirspurn á hendi
+
+Nákvæmar fyrirspurnir á hendi líkjast venjulegum fyrirspurnum á staðnum, en þær gera þér kleift að tilgreina kortlagningarstigveldi milli vefsvæðis og staðsetningar. Til dæmis ertu með eftirfarandi tvær síður:
+
+- Lóð 1, sem er kortlögð á stað A
+- Lóð 2, sem er kortlögð á stað B
+
+Fyrir venjulega fyrirspurn, ef þú tilgreinir`"siteId": ["1","2"]` og`"locationId": ["A","B"]`, Birgðasýnileiki mun sjálfkrafa spyrjast fyrir um niðurstöðuna fyrir eftirfarandi vefsvæði og staðsetningar:
+
+- Lóð 1, staðsetning A
+- Lóð 1, staðsetning B
+- Lóð 2, staðsetning A
+- Lóð 2, staðsetning B
+
+Eins og þú sérð, þekkir venjuleg fyrirspurn á staðnum ekki að staðsetning A er aðeins til á síðu 1 og staðsetning B er aðeins til á síðu 2. Þess vegna gerir það óþarfa fyrirspurnir. Til að koma til móts við þessa stigveldisvörpun er hægt að nota nákvæma fyrirspurn fyrir hendi og tilgreina staðsetningarvörp í meginmáli fyrirspurnar. Í þessu tilviki muntu spyrja og fá niðurstöður fyrir aðeins síðu 1, staðsetningu A og síðu 2, staðsetningu B.
 
 ### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a> Nákvæm fyrirspurn með því að nota póstaðferðina
 

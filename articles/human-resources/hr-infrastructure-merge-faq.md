@@ -2,7 +2,7 @@
 title: Algengar spurningar um sameiningu Dynamics 365 Human Resources tölvukerfis
 description: Þessi grein svarar algengum spurningum um samruna innviða fyrir Microsoft Dynamics 365 Human Resources og fjármála- og rekstraröpp.
 author: twheeloc
-ms.date: 09/13/2021
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32698d887b4d228ded588984b09068e3e2fef9a4
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 7325231718d7387450391b16b2866f9a2c05bdc4
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702068"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779636"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Algengar spurningar um sameiningu Dynamics 365 Human Resources tölvukerfis
 
@@ -48,7 +48,7 @@ Undanfarin þrjú ár hefur Microsoft engum nýjum möguleikum eða endurbótum 
 Með því að koma þessum tveimur hæfileikum yfir á sama innviði munum við hjálpa viðskiptavinum að öðlast eftirfarandi kosti:
 
 - Viðbætur sem hefur verið bætt við Dynamics 365 Human Resources á síðustu þremur árum, þar með talið aukið leyfi og fjarvistir, bótastjórnun og skýrslugerð.
-- Bættur teygjanleiki í gegnum Microsoft Power Platform og getu til að auka viðskiptarökfræði til að sérsníða síður.
+- Bættur teygjanleiki í gegnum Microsoft Power Platform og getu til að útvíkka viðskiptarökfræði til að sérsníða síður.
 - Bætt uppsetning, uppfærslur og viðhald sem eru í samræmi hvað varðar líftímastjórnun forrita (ALM), lífsferilsþjónustu, landfræðilegt framboð og fleira.
 - Meiri tækninýjungar þar sem verkfræðingateymi okkar notar sameiginlega þjónustu, verkfæri og minni kostnað á palli.
 
@@ -73,7 +73,7 @@ Notendaupplifunin mun vera í samræmi við staðlaða Dynamics 365 pallupplifun
 
 ### <a name="when-will-the-dynamics-365-human-resources-infrastructure-merge-be-completed"></a>Hvenær mun Dynamics 365 Human Resources sameiningu innviða verði lokið?
 
-Innviðasamruninn mun rúlla út í áföngum til að gefa viðskiptavinum tíma til að skipuleggja og ljúka nauðsynlegum skrefum. Við byrjuðum að útfæra möguleika í Dynamics 2021 útgáfubylgju 2. Við ætlum að ljúka öllum vöruþróunaraðgerðum fyrir þetta verkefni fyrir lok 2022 útgáfubylgju 2. Athugið að tímalínur geta breyst. Fyrir nýjustu upplýsingarnar, sjá [útgáfuáætlanir](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-finance).
+Innviðasamruninn mun rúlla út í áföngum til að gefa viðskiptavinum tíma til að skipuleggja og ljúka nauðsynlegum skrefum. Við byrjuðum að útfæra möguleika í Dynamics 2021 útgáfubylgju 2. Við ætlum að ljúka allri vöruþróun fyrir þetta verkefni fyrir lok 2022 útgáfubylgju 2. Athugið að tímalínur geta breyst. Fyrir nýjustu upplýsingarnar, sjá [útgáfuáætlanir](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-finance).
 
 ### <a name="what-training-and-resources-will-be-available-to-help-with-the-infrastructure-merge"></a>Hvaða þjálfun og úrræði verða í boði til að aðstoða við sameiningu innviða?
 

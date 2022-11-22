@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878161"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780255"
 ---
 # <a name="create-a-free-text-invoice"></a>Stofna textareikning
 
@@ -25,10 +25,10 @@ ms.locfileid: "8878161"
 
 Þessi grein útskýrir hvernig á að búa til ókeypis textareikninga. Fyrir ferlið skal nota **USMF** sýnifyrirtækið.
 
-## <a name="create-a-free-text-invoice"></a>Stofna textareikning
+## <a name="create-a-free-text-invoice"></a>Stofna reikning með frjálsum texta
 
-1. Fara í **Viðskiptakröfur (eða fjárhag) \> Reikningar \> Allir reikningar með frjálsum texta**.
-2. Veljið **Nýtt**.
+1. Fara í **Viðskiptakröfur \> Reikningar \> Allir reikningar með frjálsum texta**.
+2. Velja **Nýja**.
 3. Í reitnum **Viðskiptavinalykill** skal velja gildi.
 
     * Sjálfgefið er að lykill sem valinn er sem viðskiptavinalykill er notaður sem reikningslykill.
@@ -68,7 +68,7 @@ ms.locfileid: "8878161"
 
     * Hægt er að breyta tímasetningu á útprentun reiknings. Veljið **Núgildandi** til að prenta hvern reikning þegar hann er uppfærður. Veljið **Á eftir** til að prenta þegar allir reikningar hafa verið uppfærðir.
     * Til að breyta því hvernig lánamark viðskiptavinar er staðfest áður en reikningur er bókaður skal breyta gildinu í reitnum **Gerð lánamarks**.
-    * Þú getur valið að hætta að birta reikninga með frjálsum texta þegar villa kemur upp á **Uppfærslur** flipann á **Færibreytur viðskiptakrafna** síða (**Viðskiptakröfur > Uppsetning > Færibreytur viðskiptakrafna**). Veldu **Já** fyrir **Hættu að bóka ókeypis textareikninga við fyrstu villu** færibreytu til að stöðva bókun reikninga með frjálsum texta þegar villa kemur upp. Ef bókað er í runu mun villa stöðva bókunarferlið og lotustaðan verður stillt á **Villa**. Ef þessi valkostur er ekki valinn mun bókunarferlið sleppa reikningi með bókunarvillu og halda áfram að bóka viðbótarreikninga. Ef bókað er í lotu mun bókunarvilla ekki koma í veg fyrir að aðrir reikningar séu bókaðir. Staða lotunnar verður **Lokað**. Ítarleg skýrsla um birtingarferli verður tiltæk til skoðunar í runuvinnusögu.
+    * Þú getur valið að stöðva ókeypis textareikningabókun þegar villa kemur upp á **Uppfærslur** flipann á **Færibreytur viðskiptakrafna** síða (**Viðskiptakröfur > Uppsetning > Færibreytur viðskiptakrafna**). Veldu **Já** fyrir **Hættu að bóka ókeypis textareikninga við fyrstu villu** færibreytu til að stöðva bókun reikninga með frjálsum texta þegar villa kemur upp. Ef bókað er í runu mun villa stöðva bókunarferlið og lotustaðan verður stillt á **Villa**. Ef þessi valkostur er ekki valinn mun bókunarferlið sleppa reikningi með bókunarvillu og halda áfram að bóka viðbótarreikninga. Ef bókað er í lotu mun bókunarvilla ekki koma í veg fyrir að aðrir reikningar séu bókaðir. Staða lotunnar verður **Lokið**. Ítarleg skýrsla um birtingarferli verður tiltæk til skoðunar í runuvinnsluferli.
     * Til að prenta reikninginn skal stilla valkostinn á **Já**.
     * Til að bóka reikninginn skal stilla valkostinn á **Já**. Hægt er að prenta reikninginn án þess að bóka hann.
 

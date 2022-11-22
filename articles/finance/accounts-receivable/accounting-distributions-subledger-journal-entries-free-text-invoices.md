@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e2b6d75034c06704cad4cbc800ce3311ef5330e
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
-ms.translationtype: MT
+ms.openlocfilehash: f5120c4e75e821776201d5add2d498feb94d0297
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712287"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778412"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Um bókhaldsfærslur dreifingar og undirbókar færslna fyrir reikninga með frjálsum texta
 
@@ -30,9 +30,9 @@ Dreifingar á fjárhagsupphæð eru notaðar til að skilgreina hvernig gert ver
 
 ## <a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum
 
-Hægt er að nota eftirfarandi hnappanna í reikningur með frjálsum texta síðunni reikningur lánardrottins til að skoða og mögulega breyta, dreifingar á fjárhagsupphæð síða fyrir hverja upphæð á reikningur með frjálsum texta.
+Þú getur notað eftirfarandi hnappa á **Ókeypis textareikningur** síðu til að skoða og hugsanlega breyta bókhaldsdreifingum fyrir hverja upphæð á reikningi með frjálsum texta.
 
--   **Dreifa fjárhæðir**— Skoða og breyta dreifingum á fjárhagsupphæð fyrir einstakar línur og allar undirlínur, svo sem skatta eða gjöld. Einnig er hægt að skoða og breyta dreifingar á fjárhagsupphæð fyrir línu undirstig beint í frá síðunni VSK-færsla eða síðunni Gjaldfærslur.
+-   **Dreifa fjárhæðir**— Skoða og breyta dreifingum á fjárhagsupphæð fyrir einstakar línur og allar undirlínur, svo sem skatta eða gjöld. Þú getur líka skoðað og breytt bókhaldsdreifingum fyrir undirlínuna beint úr **Söluskattsviðskipti** síðu eða **Gjaldfærsla færslur** síðu.
     -   Breyta upphæðum í haus reikningur með frjálsum texta, svo sem gjöldum eða sléttuðum gjaldeyrisupphæðum.
     -   Breyta upphæðum í reikningi með frjálsum texta.
 -   **Skoða dreifingu** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur skjals. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
@@ -62,7 +62,7 @@ Hægt er að nota eftirfarandi hnappanna í reikningur með frjálsum texta sí�
 <li>Ef aðallykils er úthlutunarlykill er að nota sjálfgefna gildið úr skilgreiningu úthlutunar lykil.</li>
 <li>Ef aðallykils er ekki úthlutunarlykill, notið sjálfgefin sniðmát fjárhagsvídda á línu í reikningur með frjálsum texta.</li>
 <li>Nota sjálfgefin gildi fjárhagsvídda á reikningur með frjálsum texta.</li>
-<li>Nota sjálfgefin gildi fjárhagsvídda frá fjárhagslykill í síðu bókhaldslykils.</li>
+<li>Notaðu sjálfgefna fjárhagsvíddargildi úr fjárhagsreikningi á síðunni Bókhaldsyfirlit.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -84,43 +84,43 @@ Hægt er að nota eftirfarandi hnappanna í reikningur með frjálsum texta sí�
 <td>Fjárhagslykill á reikningur með frjálsum texta.</td>
 <td><ol>
 <li>Nota sjálfgefin gildi fjárhagsvídda á reikningur með frjálsum texta.</li>
-<li>Nota sjálfgefin gildi fjárhagsvídda frá fjárhagslykill í síðu bókhaldslykils.</li>
+<li>Notaðu sjálfgefna fjárhagsvíddargildi úr fjárhagsreikningi á síðunni Bókhaldsyfirlit.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Afsláttarupphæð Reiknings með frjálsum texta</td>
-<td>Aðallykill fyrir svæði afsláttar viðskiptavina í síðunni staðgreiðsluafslættir.</td>
+<td>Reiturinn Aðalreikningur viðskiptavinaafsláttar á síðunni staðgreiðsluafsláttur.</td>
 <td><ol>
 <li>Ef aðallykils er úthlutunarlykill er að nota sjálfgefna gildið úr skilgreiningu úthlutunar lykil.</li>
 <li>Ef aðallykils er ekki úthlutunarlykill, notið sjálfgefin sniðmát fjárhagsvídda á línu í reikningur með frjálsum texta.</li>
 <li>Nota sjálfgefin gildi fjárhagsvídda á reikningur með frjálsum texta.</li>
-<li>Nota sjálfgefin gildi fjárhagsvídda frá fjárhagslykill í síðu bókhaldslykils.</li>
+<li>Notaðu sjálfgefna fjárhagsvíddargildi úr fjárhagsreikningi á síðunni Bókhaldsyfirlit.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Upphæð virðisaukaskatts á reikningur með frjálsum texta</td>
-<td>Reiturinn VSK-til greiðslu í fjárhagsbókunarflokki síðu.</td>
+<td>Reiturinn Til greiðslu söluskatts á síðunni Fjárhagsbókunarflokkar.</td>
 <td><ol>
 <li>Nota fjárhagsvíddiir sem eru skilgreindar á upphæð reiknings með frjálsum texta eða dreifingum fyrir upphæð gjaldlínunnar.</li>
 <li>Nota sjálfgefin gildi fjárhagsvídda á reikningur með frjálsum texta.</li>
-<li>Nota sjálfgefin gildi fjárhagsvídda frá fjárhagslykill í síðu bókhaldslykils.</li>
+<li>Notaðu sjálfgefna fjárhagsvíddargildi úr fjárhagsreikningi á síðunni Bókhaldsyfirlit.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Upphæð gjaldlínu á reikningur með frjálsum texta</td>
-<td>Svæði kreditlykils á síðunni Gjaldakóðar.</td>
+<td>Reiturinn Kreditreikningur á kóðasíðunni Gjöld.</td>
 <td><ol>
 <li>Ef aðallykils er úthlutunarlykill er að nota sjálfgefna gildið úr skilgreiningu úthlutunar lykil.</li>
 <li>Ef aðallykils er ekki úthlutunarlykill, notið sjálfgefin sniðmát fjárhagsvídda á línu í reikningur með frjálsum texta.</li>
 <li>Nota sjálfgefin gildi fjárhagsvídda á reikningur með frjálsum texta.</li>
-<li>Nota sjálfgefin gildi fjárhagsvídda frá fjárhagslykill í síðu bókhaldslykils.</li>
+<li>Notaðu sjálfgefna fjárhagsvíddargildi úr fjárhagsreikningi á síðunni Bókhaldsyfirlit.</li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="distributing-taxes"></a>Dreifing skatta
-Ekki er hægt að stofna dreifingu á fjárhagsupphæð fyrr en skattar hafa verið reiknaðir. Til að reikna virðisaukaskatt, verður að ljúka einu af eftirtöldum verkefnum í skjámyndinni reikningur með frjálsum texta:
+Ekki er hægt að stofna dreifingu á fjárhagsupphæð fyrr en skattar hafa verið reiknaðir. Til að reikna út söluskatt verður þú að klára eitt af eftirfarandi verkefnum á **Ókeypis textareikningur** síða:
 -   Skoða VSK.
 -   Skoða samtölu reiknings.
 -   Skoða sjóðstreymi.

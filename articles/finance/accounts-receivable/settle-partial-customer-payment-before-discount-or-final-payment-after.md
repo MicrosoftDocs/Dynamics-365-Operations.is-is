@@ -2,25 +2,25 @@
 title: Jafna hlutagreiðslu fyrir afsláttardagsetninguna við lokagreiðslu eftir afsláttardagsetninguna
 description: Þessi grein fer yfir áhrif þess að jafna greiðslur á reikninga fyrir viðskiptavini. Aðstæðurnar einblína á áhrifin í undirbókinni, ekki í Fjárhagnum.
 author: ShivamPandey-msft
-ms.date: 08/22/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14584
 ms.assetid: e54936f5-053b-4ed3-b778-42c7e9aeb7cf
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 277a7b05110ac68a6a9cdc8e0231445c94968d8a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
-ms.translationtype: MT
+ms.openlocfilehash: 4f6b4527a9f176857e0cc6ba4665688dc8721ac1
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725122"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780243"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Jafna hlutagreiðslu fyrir afsláttardagsetninguna við lokagreiðslu eftir afsláttardagsetninguna
 
@@ -35,20 +35,20 @@ Fabrikam selur vörurn til 4027 viðskiptavina. Fabrikam býður 1 prósent afsl
 
 | Fylgiskjal   | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða  | Gjaldmiðill |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10020 | Reikningur          | 6/25/2015 | 10020   | 1.000,00                             |                                       | 1.000,00 | USD      |
+| FTI-10020 | Reikningur          | 6/25/2020 | 10020   | 1,000.00                             |                                       | 1,000.00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>hlutagreiðsla fyrir dagsetningu staðgreiðsluafsláttar
 2. júlí gerir viðskiptavinar 4027 hlutagreiðslu upp á 297.00 fyrir reikninginn. Greiðslan gefur rétt á afslætti, þar sem Fabrikam býður afslátt á hlutagreiðslur og hlutagreiðslan er gerð á undan dagsetningu staðgreiðsluafsláttar. Þess vegna fær viðskiptavinar 4027 3,00 í staðgreiðsluafslátt. Arnie skráir greiðslu fyrir viðskiptavin 4027 með því að nota greiðslubók. Síðan opnar Arnie síðuna **Jafna færslur** svo Arnie geti merkt reikninginn fyrir jöfnun.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í færslugjaldmiðli - debet | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
-| Valið | Venjulegt            | FTI-10020 | 4027    | 6/25/2015 | 7/25/2015 | 10020   | 1.000,00                             | USD      | 297,00           |
+| Valið | Venjulegt            | FTI-10020 | 4027    | 6/25/2020 | 7/25/2020 | 10020   | 1,000.00                             | USD      | 297,00           |
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Ef gildinu í **Upphæðin til jöfnunar** er ekki breytt í 297.00 verða gildin fyrir **Upphæð staðgreiðsluafsláttar** sem birtast vera mismunandi. Hins vegar verður 3,00 notað sem staðgreiðsluafsláttur þegar greiðslan er bókuð, þar sem jöfnun leiðréttir sjálfkrafa gildið **Upphæð til jöfnunar** fyrir þig.
 
-| Svæði                        | Virði     |
+| Svæði                        | Gildi     |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/09/2020 |
 | Upphæð staðgreiðsluafsláttar         | 10,00     |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
@@ -58,22 +58,22 @@ Arnie bókar þessa greiðslu. Reikningurinn hefur núna stöðuna 700,00. Hægt
 
 | Fylgiskjal    | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| FTI-10020  | Reikningur          | 6/25/2015 | 10020   | 1.000,00                             |                                       | 700.00  | USD      |
-| ARP-10020  |  Greiðsla         | 7/1/2015  |         |                                      | 297,00                                | 0,00    | USD      |
-| DISC-10020 |  Staðgreiðsluafsláttur   | 7/1/2015  |         |                                      | 3,00                                  | 0,00    | USD      |
+| FTI-10020  | Reikningur          | 6/25/2020 | 10020   | 1,000.00                             |                                       | 700.00  | USD      |
+| ARP-10020  |  Greiðsla         | 7/1/2020  |         |                                      | 297,00                                | 0,00    | USD      |
+| DISC-10020 |  Staðgreiðsluafsláttur   | 7/1/2020  |         |                                      | 3.00                                  | 0,00    | USD      |
 
 ## <a name="remaining-payment-after-the-cash-discount-date"></a>Eftirstandandi greiðsla eftir dagsetningu staðgreiðsluafsláttar
 Þann 11. júlí, sem er eftir afsláttartímabilið, greiðir viðskiptavinur 4027 afganginn af reikningnum. Á síðunni **Jafna opnar færslur** birtist afsláttarupphæð ekki í reitnum **Áætlaður staðgreiðsluafsláttur** og gildið í reitnum **Upphæð staðgreiðsluafsláttar** er **0,00**. Þegar viðskiptavinur 4027 greiðir eftirstandandi 700,00 verður ekki veittur frekari afsláttur.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í færslugjaldmiðli - debet | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
-| Valið | Venjulegt            | FTI-10020 | 4027    | 6/25/2015 | 7/25/2015 | 10020   | 700.00                               | USD      | 700.00           |
+| Valið | Venjulegt            | FTI-10020 | 4027    | 6/25/2020 | 7/25/2020 | 10020   | 700.00                               | USD      | 700.00           |
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-| Svæði                        | Virði     |
+| Svæði                        | Gildi     |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/09/2020 |
 | Upphæð staðgreiðsluafsláttar         | 0,00      |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 3,00      |
@@ -82,14 +82,14 @@ Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** s
 Ef Arnie breytir gildi í reitnum **Nota staðgreiðsluafslátt** í **Alltaf** er stillingunni **Reikna staðgreiðsluafslátt fyrir hlutagreiðslur** er hnekkt og staðgreiðsluafsláttur er veittur. Greiðsluupphæðin breytist í 693,00 og staðgreiðsluafslátturinn er 7,00.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Gjaldmiðill | Upphæð til jöfnunar |
-|----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Valið | Alltaf            | FTI-10020 | 4027    | 6/25/2015 | 7/25/2015 | 10020   | 700.00                               |                                       | USD      | 693,00           |
+|----------|-------------------|-----------|---------|-----------|-----------|---------|---------------|---------------------|----------|------------------|
+| Valið | Alltaf            | FTI-10020 | 4027    | 6/25/2020 | 7/25/2020 | 10020   | 700.00        |                        | USD      | 693,00           |
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-| Svæði                        | Virði     |
+| Svæði                        | Gildi     |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/09/2020 |
 | Upphæð staðgreiðsluafsláttar         | 7.00      |
 | Nota staðgreiðsluafslátt            | Alltaf    |
 | Notaður staðgreiðsluafsláttur          | 3,00      |
@@ -99,10 +99,10 @@ Arnie breytir gildinu í reitnum **Nota staðgreiðsluafslátt** aftur í **Venj
 
 | Fylgiskjal    | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| FTI-10020  | Reikningur          | 6/25/2015 | 10020   | 1.000,00                             |                                       | 0,00    | USD      |
-| ARP-10020  |                  | 7/1/2015  |         |                                      | 297,00                                | 0,00    | USD      |
-| DISC-10020 |                  | 7/1/2015  |         |                                      | 3,00                                  | 0,00    | USD      |
-| ARP 10021  |                  | 7/11/2015 |         |                                      | 700.00                                | 0,00    | USD      |
+| FTI-10020  | Reikningur          | 6/25/2020 | 10020   | 1,000.00                             |                                       | 0,00    | USD      |
+| ARP-10020  |                  | 7/1/2020  |         |                                      | 297,00                                | 0,00    | USD      |
+| DISC-10020 |                  | 7/1/2020  |         |                                      | 3.00                                  | 0,00    | USD      |
+| ARP 10021  |                  | 7/11/2020 |         |                                      | 700.00                                | 0,00    | USD      |
 
 
 

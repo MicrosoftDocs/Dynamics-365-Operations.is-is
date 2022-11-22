@@ -2,25 +2,25 @@
 title: Nota eina greiðslu til að jafna reikninga sem ná yfir margar afsláttartímabil
 description: Þessi grein sýnir hvernig margir reikningar eru greiddir þegar hver reikningur getur veitt staðgreiðsluafslátt. Dæmin sem gefin eru í þessari grein varpa ljósi á hvernig staðgreiðsluafsláttur getur verið mismunandi, með hliðsjón af því hvenær greiðslan er gerð.
 author: ShivamPandey-msft
-ms.date: 10/26/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6035973abea9dacd4b6d4d8bf2fd3c7d6b10fb0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 6bf321a5b0511295f2500f10cdffa9ff6f043bff
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872645"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780272"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Nota eina greiðslu til að jafna reikninga sem ná yfir margar afsláttartímabil
 
@@ -44,11 +44,11 @@ Ef Arnie stofnar greiðslubók til að jafna að fullu þessar reikninga á 29. 
 -   Greiðsla fyrir reikning FTI-10041 er 990.00. Staðgreiðsluafsláttur uppá 1 prósent, eða 10.00 er tekinn.
 -   Greiðsla fyrir reikning FTI-10042 er 980.00. Staðgreiðsluafsláttur uppá 2 prósent, eða 20.00 er tekinn.
 
-| Merkja                     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Gjaldmiðill | Upphæð til jöfnunar |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Valið                 | Venjulegt            | FTI-10040 | 4032    | 5/15/2015 | 6/15/2015 | 10040   | 1.000,00                             |                                       | USD      | 1.000,00         |
-| Valið                 | Venjulegt            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1.000,00                             |                                       | USD      | 990,00           |
-| Valdar og auðkenndar. | Venjulegt            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1.000,00                             |                                       | USD      | 980,00           |
+| Merkja | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning   | Gjalddagi  | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Gjaldmiðill | Upphæð til jöfnunar |
+|------|----------|-----------|---------|-----------|-----------|---------|---------------------|---------------------|----------|------------------|
+| Valið     | Venjulegt      | FTI-10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00  |                    | USD      | 1,000.00         |
+| Valið     | Venjulegt      | FTI-10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00  |                    | USD      | 990.00           |
+| Valdar og auðkenndar. | Venjulegt      | FTI-10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00    |              | USD      | 980.00           |
 
 Eftir að greiðslan er bókuð er staða viðskiptavinar 0,00.
 
@@ -60,19 +60,19 @@ Ef Arnie stofnar greiðslubók til að jafna að fullu þessar reikninga á 1. j
 -   Greiðsla fyrir reikning FTI-10042 er 990.00. Staðgreiðsluafsláttur uppá 1 prósent, eða 10.00 er tekinn. Þótt 1. Júlí sé eftir tímabili sem uppfyllir skilyrði fyrir afsláttinn 2 prósent, er það enn í tímabilinu sem uppfyllir skilyrði fyrir afsláttinn 1 prósent.
 
 | Merkja                     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Gjaldmiðill | Upphæð til jöfnunar |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Valið                 | Venjulegt            | FTI-10040 | 4032    | 5/15/2015 | 6/15/2015 | 10040   | 1.000,00                             |                                       | USD      | 1.000,00         |
-| Valið                 | Venjulegt            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1.000,00                             |                                       | USD      | 990,00           |
-| Valdar og auðkenndar. | Venjulegt            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1.000,00                             |                                       | USD      | 990,00           |
+|----------|---------|-----------|---------|-----------|-----------|---------|--------------------|------------------|----------|------------------|
+| Valið         | Venjulegt            | FTI-10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00         |                | USD      | 1,000.00         |
+| Valið                 | Venjulegt            | FTI-10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00  |               | USD      | 990.00           |
+| Valdar og auðkenndar. | Venjulegt            | FTI-10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00  |             | USD      | 990.00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Hlutauppgjör á 29. júní
 viðskiptavinurinn 4032 getur greitt hluta af upphæð eins og helming hvers reiknings. Arnie stofnar greiðslu fyrir viðskiptavin 4032 og opnar svo **Jafna færslur** síðuna. Á **Jafna færslur** síðu Arnie merkir allar þrjár reikningslínur fyrir jöfnun: Í hverri línu, færir Arnie inn upphæðin til jöfnunar, byggt á leiðbeiningunum sem viðskiptavinar veitti. Þegar Arnie velur línu sér Arnie afsláttarupphæð fyrir þess línu og upphæð staðgreiðsluafsláttar sem er tekin. Þar sem viðskiptavinurinn greiðir hálft reiknings, sér Arnie að gildi í svæðinu **upphæð staðgreiðsluafsláttar** fyrir er FTI-10042 er **20,00**, en gildið í á **staðgreiðsluafsláttur tekinn** er **10,00**. Greiðsluupphæðin er 1.485,00
 
-| Merkja                     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Gjaldmiðill | Upphæð til jöfnunar |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Valið                 | Venjulegt            | FTI-10040 | 4032    | 5/15/2015 | 6/15/2015 | 10040   | 1.000,00                             |                                       | USD      | 500,00           |
-| Valið                 | Venjulegt            | FTI-10041 | 4032    | 6/25/2015 | 7/25/2015 | 10041   | 1.000,00                             |                                       | USD      | 495,00           |
-| Valdar og auðkenndar. | Venjulegt            | FTI-10042 | 4032    | 6/25/2015 | 7/25/2015 | 10042   | 1.000,00                             |                                       | USD      | 490,00           |
+| Merkja   | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Gjaldmiðill | Upphæð til jöfnunar |
+|-------------|-------------------|-----------|---------|-----------|-----------|---------|-----------|------------------|----------|------------------|
+| Valið   | Venjulegt       | FTI-10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00        |               | USD      | 500.00           |
+| Valið                 | Venjulegt            | FTI-10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00     |     | USD      | 495,00           |
+| Valdar og auðkenndar. | Venjulegt            | FTI-10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00     |         | USD      | 490,00           |
 
 Arnie getur einnig færa handvirkt greiðsluupphæð 1,485.00 áður en hann opnar síðuna **Jafna færslur**. Ef Arnie færir greiðsluupphæðina inn handvirkt og merkir síðan allar færslur þrjár en leiðréttir ekki að gildið í **Upphæð til jöfnunar** reitinn fyrir hverja færslu hann fær eftirfarandi skilaboð þegar hann lokar síðu:
 
@@ -88,11 +88,11 @@ April getur skoðað upplýsingar á síðunni **viðskiptavinarfærslur**.
 
 | Fylgiskjal    | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða  | Gjaldmiðill |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10040  | Reikningur          | 5/15/2015 | 10040   | 1.000,00                             |                                       | 0,00     | USD      |
-| FTI-10041  | Reikningur          | 6/25/2015 | 10041   | 1.000,00                             |                                       | 1.000,00 | USD      |
-| FTI-10042  | Reikningur          | 6/25/2015 | 10042   | 1.000,00                             |                                       | 505,10   | USD      |
-| ARP 10040  | Greiðsla          | 6/29/2015 |         |                                      | 1.485,00                              | 0,00     | USD      |
-| DISC-10040 | Staðgreiðsluafsláttur    | 6/29/2015 |         |                                      | 9,90                                  | 0,00     | USD      |
+| FTI-10040  | Reikningur          | 5/15/2020 | 10040   | 1,000.00                             |                                       | 0,00     | USD      |
+| FTI-10041  | Reikningur          | 6/25/2020 | 10041   | 1,000.00                             |                                       | 1,000.00 | USD      |
+| FTI-10042  | Reikningur          | 6/25/2020 | 10042   | 1,000.00                             |                                       | 505,10   | USD      |
+| ARP 10040  | Greiðsla          | 6/29/2020 |         |                                      | 1.485,00                              | 0,00     | USD      |
+| DISC-10040 | Staðgreiðsluafsláttur    | 6/29/2020 |         |                                      | 9,90                                  | 0,00     | USD      |
 
 
 

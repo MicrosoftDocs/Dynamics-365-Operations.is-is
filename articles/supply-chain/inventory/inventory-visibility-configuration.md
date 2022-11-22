@@ -2,7 +2,7 @@
 title: Skilgreina Inventory Visibility
 description: Þessi grein lýsir því hvernig á að stilla birgðasýnileika.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
-ms.translationtype: MT
+ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542287"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764867"
 ---
 # <a name="configure-inventory-visibility"></a>Skilgreina Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
-
 
 Þessi grein lýsir því hvernig á að stilla Birgðasýnileika með því að nota Birgðasýnileikaforritið í Power Apps.
 
@@ -53,27 +52,32 @@ Innbót birgðasýnileika bætir ýmsum nýjum eiginleika við Power Apps uppset
 |---|---|
 | *OnHandReservation* | Þessi eiginleiki gerir þér kleift að búa til pantanir, neyta bókana og/eða afpanta tiltekið birgðamagn með því að nota Birgðasýnileika. Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Þessi eiginleiki veitir birgðayfirlit fyrir vörur, ásamt öllum víddum. Gögn birgðasamantektar verða samstillt reglulega úr birgðasýnileika. Sjálfgefin samstillingartíðni er einu sinni á 15 mínútna fresti og hægt er að stilla hana allt að einu sinni á 5 mínútna fresti. Fyrir frekari upplýsingar, sjá [Birgðayfirlit](inventory-visibility-power-platform.md#inventory-summary). |
-| *onHandIndexQueryPreloadBackgroundService* | Þessi eiginleiki gerir það mögulegt að forhlaða birgðasýnileika fyrirspurnum fyrir hendi til að setja saman birgðalista með forvöldum víddum. Sjálfgefin samstillingartíðni er einu sinni á 15 mínútna fresti. Fyrir frekari upplýsingar, sjá [Birgðayfirlit](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query). |
+| *onHandIndexQueryPreloadBackgroundService* | Þessi eiginleiki gerir það mögulegt að forhlaða birgðasýnileika fyrirspurnum fyrir hendi til að setja saman birgðalista með forvöldum víddum. Sjálfgefin samstillingartíðni er einu sinni á 15 mínútna fresti. Fyrir frekari upplýsingar, sjá [Forhlaða straumlínulagaða fyrirspurn](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
 | *OnhandChangeSchedule* | Þessi valfrjálsi eiginleiki gerir kleift að breyta áætluninni við höndina og aðgerðum sem hægt er að lofa (ATP). Fyrir frekari upplýsingar, sjá [Birgðasýnileiki fyrirliggjandi breytingaráætlun og hægt að lofa](inventory-visibility-available-to-promise.md). |
-| *Úthlutun* | Þessi valfrjálsi eiginleiki gerir birgðasýnileika kleift að hafa möguleika á birgðavörn (hringgirðingu) og yfirsölustýringu. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki birgðaúthlutun](inventory-visibility-allocation.md). |
+| *Úthlutun* | Þessi valfrjálsi eiginleiki gerir birgðasýnileika kleift að hafa birgðavörn (hringgirðingar) og yfirsölustýringu. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki birgðaúthlutun](inventory-visibility-allocation.md). |
 | *Virkja vörur vöruhúss í birgðasýnileika* | Þessi valfrjálsi eiginleiki gerir Birgðasýnileika kleift að styðja við hluti sem eru virkjaðir fyrir vöruhússtjórnunarferli (WMS). Fyrir frekari upplýsingar, sjá [Stuðningur við birgðasýnileika fyrir WMS hluti](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Finna endastöð þjónustu
 
-Ef þú veist ekki rétta endastöð fyrir þjónustu birgðasýnileika skaltu opna síðuna **Skilgreining** í Power Apps og því næst velja **Sýna endastöð þjónustu** efst í hægra horninu. Síðan mun sýna rétta endastöð þjónustu.
+Ef þú veist ekki réttan birgðasýnileikaþjónustuendapunkt skaltu opna **Stillingar** síðu inn Power Apps, og veldu síðan **Sýna þjónustuupplýsingar** í efra hægra horninu. Síðan mun sýna rétta endastöð þjónustu. Þú getur líka fundið endapunktinn í Microsoft Dynamics Lífsferilsþjónusta, eins og lýst er í [Finndu endapunktinn í samræmi við Lifecycle Services umhverfið þitt](inventory-visibility-api.md#endpoint-lcs).
+
+> [!NOTE]
+> Notkun á röngum endapunkti getur valdið misheppnuðu uppsetningu birgðasýnileika og villum þegar birgðakeðjustjórnun er samstillt við birgðasýnileika. Ef þú ert ekki viss um hver endapunkturinn þinn er skaltu hafa samband við kerfisstjórann þinn. Vefslóðir endapunkta nota eftirfarandi snið:
+>
+> `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Skilgreining gagnagjafa
 
-Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Dæmi um heiti gagnagjafa innihalda`fno` (sem þýðir "Dynamics 365 fjármála- og rekstrarforrit") og`pos` (sem þýðir "sölustaður"). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
+Hver gagnagjafi táknar kerfi sem gögnin þín koma úr. Dæmi um heiti gagnagjafa innihalda`fno` (sem samsvarar Supply Chain Management) og`pos` (sem þýðir "sölustaður"). Supply Chain Management er sjálfgefið sett upp sem sjálfgefinn gagnagjafi (`fno`) í birgðasýnileika.
 
 > [!NOTE]
-> The`fno` gagnagjafinn er frátekinn fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með að þú eyðir ekki stillingum sem tengjast`fno` í gagnaveitunni.
+> The`fno` gagnagjafinn er frátekinn fyrir Supply Chain Management. Ef birgðasýnileikaviðbótin þín er samþætt við Supply Chain Management umhverfi mælum við með því að þú eyðir ekki stillingum sem tengjast`fno` í gagnaveitunni.
 
 Til að bæta við gagnagjafa skal fylgja þessum skrefum.
 
 1. Skráðu þig inn í Power Apps umhverfið og opnaðu **Birgðasýnileika**.
 1. Opnaðu síðuna **Skilgreining**.
-1. Í flipanum **Gagnagjafi** skal velja **Nýr gagnagjafi** til að bæta við gagnagjafa.
+1. Á **Uppruni gagna** flipa, veldu **Ný gagnaheimild** til að bæta við gagnagjafa (til dæmis`ecommerce` eða annað þýðingarmikið auðkenni gagnagjafa).
 
 > [!NOTE]
 > Þegar þú bætir við gagnagjafa skaltu ganga úr skugga um að staðfesta heiti gagnagjafans, efnislegar mælingar og víddarvarpanir áður en þú uppfærir skilgreininguna fyrir þjónustu birgðasýnileika. Þú getur ekki breytt þessum stillingum eftir að þú hefur valið **Uppfæra skilgreiningu**.
@@ -88,11 +92,11 @@ Skilgreining gagnagjafa inniheldur eftirfarandi hluta:
 
 Tilgangur víddarskilgreiningar er að staðla samþættingu margra kerfa fyrir bókun tilvika og fyrirspurna samkvæmt víddarsamsetningum. Birgðasýnileiki býður upp á lista yfir grunnvíddir sem hægt er að varpa úr víddunum í gagnagjafann þinn. Þrjátíu og þrjár víddir eru í boði fyrir kortlagningu.
 
-- Sjálfgefið notar þú Supply Chain Management sem einn af gagnagjöfunum þínum, 13 víddir eru varpaðar í staðlaðar víddir Supply Chain Management. Tólf öðrum víddum (`inventDimension1` til `inventDimension12`) er varpað í sérstilltar víddir í Supply Chain Management. Eftirstandandi átta víddir eru útvíkkaðar víddir sem hægt er að varpa í ytri gagnagjafa.
+- Ef þú ert að nota Supply Chain Management sem einn af gagnagjafanum þínum, eru 13 víddir þegar varpaðar á Supply Chain Management staðlaðar víddir sjálfgefið. Hinar 12 stærðirnar (`inventDimension1` í gegnum`inventDimension12`) eru einnig varpaðar á sérsniðnar víddir í Supply Chain Management. Hinar átta víddir (`ExtendedDimension1` í gegnum`ExtendedDimension8`) eru útbreiddar víddir sem hægt er að varpa til ytri gagnagjafa.
 - Ef þú notar ekki Supply Chain Management sem einn af gagnagjöfum þínum getur þú varpað víddunum eins og þér sýnist. Eftirfarandi tafla sýnir heildarlista yfir tiltækar víddir.
 
 > [!NOTE]
-> Ef víddin þín er ekki á lista yfir sjálfgefnar víddir og þú ert að nota ytri gagnagjafa mælum við með að þú notir `ExtendedDimension1` til `ExtendedDimension8` til að gera vörpunina.
+> Ef þú notar Supply Chain Management og breytir sjálfgefnum víddarvörpum á milli Supply Chain Management og Birgðasýnileika, mun breytta víddin ekki samstilla gögn. Þess vegna, ef víddin þín er ekki á sjálfgefna víddarlistanum og þú ert að nota utanaðkomandi gagnagjafa, mælum við með að þú notir`ExtendedDimension1` í gegnum`ExtendedDimension8` til að gera kortlagningu.
 
 | Tegund víddar | Grunnvídd |
 |---|---|
@@ -114,11 +118,11 @@ Tilgangur víddarskilgreiningar er að staðla samþættingu margra kerfa fyrir 
 | System | `Empty` |
 
 > [!NOTE]
-> Víddargerðirnar sem eru sýndar í töflunni hér á undan eru aðeins tilvísandi. Þú þarft ekki að skilgreina þær í birgðasýnileika.
+> Víddargerðirnar sem taldar eru upp í töflunni á undan eru aðeins til viðmiðunar. Þú þarft ekki að skilgreina þær í birgðasýnileika.
 >
-> Birgðavíddir (sérstilltar) kunna að vera fráteknar fyrir Supply Chain Management. Í því tilviki er hægt að nota útvíkkaðar víddir í staðinn.
+> Birgðavíddir (sérsniðnar) gætu verið fráteknar fyrir birgðakeðjustjórnun. Í því tilviki skaltu nota útvíkkuðu mál í staðinn.
 
-Ytri kerfi geta fengið aðgang að birgðasýnileika í gegnum RESTful API. Fyrir samþættinguna gerir birgðasýnileiki þér kleift að skilgreina _ytri gagnagjafa_ og vörpunina úr _ytri víddum_ í _grunnvíddir_. Hér er dæmi um víddarkortatöflu.
+Ytri kerfi geta fengið aðgang að birgðasýnileika í gegnum RESTful API. Fyrir samþættinguna gerir birgðasýnileiki þér kleift að skilgreina *ytri gagnagjafa* og vörpunina úr *ytri víddum* í *grunnvíddir*. Hér er dæmi um víddarkortatöflu.
 
 | Ytri vídd | Grunnvídd |
 |---|---|
@@ -134,20 +138,21 @@ Til að bæta við víddarvörpunum skal fylgja þessum skrefum.
 
 1. Skráðu þig inn í Power Apps umhverfið og opnaðu **Birgðasýnileika**.
 1. Opnaðu síðuna **Skilgreining**.
-1. Í flipanum **Gagnagjafi**, í hlutanum **Vörpun vídda**, skal velja **Bæta við** til að bæta við vörpunum vídda.
+1. Á **Uppruni gagna** flipanum, veldu gagnagjafann þar sem þú vilt gera víddarvörpunina. Síðan, í **Víddarkortlagningar** kafla, veldu **Bæta við** til að bæta við víddarkortum.
+
     ![Vörpun vídda bætt við](media/inventory-visibility-dimension-mapping.png "Vörpun vídda bætt við")
 
 1. Í reitnum **Heiti víddar** skal tilgreina upprunavíddina.
 1. Í reitnum **Til grunnvíddar** skal velja víddina í birgðasýnileika sem á að varpa.
 1. Veldu **Vista**.
 
-Ef til dæmis gagnagjafinn þinn inniheldur litavídd afurðar getur þú varpað hennir í `ColorId` grunnvíddina til að bæta við `ProductColor` sérstilltri vídd í `exterchannel` gagnagjafanum. Henni er síðan varpað í `ColorId` grunnvíddina.
+Til dæmis hefur þú nú þegar búið til gagnagjafa sem er nefndur`ecommerce`, og það inniheldur vörulitavídd. Í þessu tilviki, til að gera kortlagningu, geturðu fyrst bætt við`ProductColor` til **Víddarheiti** sviði í`ecommerce` gagnagjafa og veldu síðan`ColorId` í **Til grunnvídd** sviði.
 
 ### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Efnislegar mælingar
 
-Þegar gagnagjafi bókar birgðabreytingu í birgðasýnileika bókar hann þá breytingu með því að nota *efnislegar mælingar*. Efnislegar mælingar breyta magninu og endurspegla birgðastöðuna. Þú getur skilgreint þínar eigin efnislegu mælingar samkvæmt þínum kröfum. Hægt er að byggja fyrirspurnir á efnislegum mælingum.
+Þegar gagnagjafi bókar birgðabreytingu í birgðasýnileika bókar hann þá breytingu með því að nota *efnislegar mælingar*. Efnislegar mælingar breyta magninu og endurspegla birgðastöðuna. Þú getur skilgreint þínar eigin líkamlegu ráðstafanir út frá þörfum þínum. Hægt er að byggja fyrirspurnir á efnislegum mælingum.
 
-Birgðasýnileiki veitir lista yfir sjálfgefnar efnislegar mælingar sem eru tengdar við Supply Chain Management (`fno` gagnagjafann). Þessar sjálfgefnu efnislegu mælingar eru teknar úr birgðafærslustöðum á síðunni **Lagerlisti** í Supply Chain Management (**Birgðastjórnun \> Fyrirspurnir og skýrslur \> Lagerlisti**). Eftirfarandi tafla sýnir dæmi um efnislegar mælieiningar.
+Birgðasýnileiki veitir lista yfir sjálfgefnar líkamlegar mælingar sem eru kortlagðar á Supply Chain Management (þ`fno` gagnagjafa). Þessar sjálfgefnu efnislegu mælingar eru teknar úr birgðafærslustöðum á síðunni **Lagerlisti** í Supply Chain Management (**Birgðastjórnun \> Fyrirspurnir og skýrslur \> Lagerlisti**). Eftirfarandi tafla sýnir dæmi um efnislegar mælieiningar.
 
 | Heiti efnislegrar mælieiningar | lýsing |
 |---|---|
@@ -168,11 +173,11 @@ Birgðasýnileiki veitir lista yfir sjálfgefnar efnislegar mælingar sem eru te
 | `ReservOrdered` | Pantað frátekið |
 | `ReservPhysical` | Efnislegt magn frátekið |
 
-Ef gagnagjafinn er Supply Chain Management þarftu ekki að búa aftur til sjálfgefnar efnislegar mælingar. Fyrir ytri gagnagjafa þarftu hinsvegar að búa til nýjar efnislegar mælingar með því að fylgja þessum skrefum.
+Ef gagnagjafinn þinn er Supply Chain Management þarftu ekki að endurskapa sjálfgefna líkamlegar mælingar. Fyrir ytri gagnagjafa þarftu hinsvegar að búa til nýjar efnislegar mælingar með því að fylgja þessum skrefum.
 
 1. Skráðu þig inn í Power Apps umhverfið og opnaðu **Birgðasýnileika**.
 1. Opnaðu síðuna **Skilgreining**.
-1. Í flipanum **Gagnagjafi**, í hlutanum **Efnislegar mælingar**, skal velja **Bæta við**, tilgreina heiti upprunamælingar og vista breytingarnar.
+1. Á **Uppruni gagna** flipanum, veldu gagnagjafann til að bæta líkamlegum mælingum við (til dæmis`ecommerce` gagnagjafa). Síðan, í **Líkamlegar ráðstafanir** kafla, veldu **Bæta við**, og tilgreindu heiti mælikvarða (til dæmis,`Returned` ef þú vilt skrá skilað magn í þessum gagnagjafa í Birgðasýnileika). Vista breytingarnar.
 
 ### <a name="calculated-measures"></a>Reiknaðar mælingar
 
@@ -181,7 +186,7 @@ Ef gagnagjafinn er Supply Chain Management þarftu ekki að búa aftur til sjál
 > [!IMPORTANT]
 > Reiknaður mælikvarði er samsetning líkamlegra mælikvarða. Formúla hennar getur aðeins innihaldið líkamlegar mælingar án afrita, ekki reiknaðar mælikvarða.
 
-Stillingin gerir þér kleift að skilgreina safn af breytilyklum sem er bætt við eða dregnir frá til að fá samtals uppsafnað magn úttaks.
+Stillingin gerir þér kleift að skilgreina sett af reiknuðum mælikvarðaformúlum sem innihalda breytingar á samlagningu eða frádrátt til að fá heildaruppsafnað úttaksmagn.
 
 Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 
@@ -191,7 +196,7 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 1. Stilltu eftirfarandi reiti fyrir nýju reiknaða mælinguna:
 
     - **Nýtt reiknað málsheiti** – Sláðu inn heiti reiknaðs mælingar.
-    - **Uppruni gagna** – Veldu gagnagjafann sem tengist nýja breytinum. Fyrirspurnarkerfið er gagnagjafi.
+    - **Uppruni gagna** – Veldu gagnauppsprettu til að taka með nýja útreiknaða mælinguna í. Fyrirspurnarkerfið er gagnagjafi.
 
 1. Veldu **Bæta við** til að bæta við breytingum við nýja reiknaða mælinguna.
 1. Stilltu eftirfarandi reiti fyrir nýja breytimanninn:
@@ -200,15 +205,21 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
     - **Uppruni gagna** – Veldu gagnagjafann þar sem mælikvarðinn sem gefur breytigildið á að finnast.
     - **Mæla** – Veldu heiti mælingar (frá völdum gagnagjafa) sem gefur upp gildi fyrir breytileikann.
 
-1. Endurtaktu skref 5 til 6 þar til þú hefur bætt við öllum nauðsynlegum breytingum.
+1. Endurtaktu skref 5 til 6 þar til þú hefur bætt við öllum nauðsynlegum breytingum og lokið formúlunni fyrir útreiknaðan mælikvarða.
 1. Veldu **Vista**.
 
-Þú gætir til dæmis verið með eftirfarandi niðurstöður fyrirspurnar.
+Til dæmis starfar tískufyrirtæki á þremur gagnaveitum:
+
+- `pos`– Samsvarar verslunarrásinni.
+- `fno`– Samsvarar aðfangakeðjustjórnun.
+- `ecommerce`– Samsvarar vefrásinni þinni.
+
+Án reiknaðra mælikvarða, þegar þú biður um vöru D0002 (skápur) undir stað 1, vöruhús 11 og a`ColorID` víddargildi af`Red`, gætirðu fengið eftirfarandi fyrirspurnarniðurstöðu, sem sýnir birgðamagn undir hverri forstilltri efnislegri mælingu. Hins vegar hefur þú ekki sýnilegt heildarmagn sem er tiltækt fyrir pöntunarmagn á milli gagnagjafanna þinna.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -224,7 +235,7 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
@@ -239,22 +250,22 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
 
 | Notkunarkerfi | Reiknuð mæling | Gagnaveita | Efnisleg mæling | Reiknigerð |
 |---|---|---|---|---|
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `received` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `scheduled` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `issued` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `reserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `received` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `scheduled` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `issued` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `reserved` | `Subtraction` |
 
 Þegar þessi reikniformúla er notuð, mun nýja niðurstaða fyrirspurnar fela í sér sérstilltu mælinguna.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -270,13 +281,13 @@ Til að setja upp sérstillta reiknaða mælingu skal fylgja þessum skrefum.
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
                 "reserved": 40.0
             },
-            "CustomChannel": {
+            "CrossChannel": {
                 "MyCustomAvailableforReservation": 220.0
             }
         }
@@ -304,7 +315,7 @@ Lausnin inniheldur þessa skiptingarstillingu sjálfgefið. Þess vegna, *þú �
 
 Oftast verður fyrirspurn um lagerbirgðir ekki eingöngu á hæsta stigi „samtölu“. Í staðinn gætirðu líka viljað sjá niðurstöður sem eru teknar saman út frá birgðavíddum.
 
-Birgðasýnileiki veitir sveigjanleika með því að leyfa þér að setja upp _vísitölur_ til að bæta árangur fyrirspurna þinna. Þessar atriðaskrár byggja á vídd eða samsetningu vídda. Atriðaskrá samanstendur af *stilltu númeri*, *vídd* og *stigveldu* eins og er skilgreint í eftirfarandi töflu.
+Birgðasýnileiki veitir sveigjanleika með því að leyfa þér að setja upp *vísitölur* til að bæta árangur fyrirspurna þinna. Þessar atriðaskrár byggja á vídd eða samsetningu vídda. Atriðaskrá samanstendur af *stilltu númeri*, *vídd* og *stigveldu* eins og er skilgreint í eftirfarandi töflu.
 
 | Nafn | lýsing |
 |---|---|
@@ -334,15 +345,15 @@ Til að setja upp atriðaskrá afurðastigveldis skal fylgja þessum skrefum.
 
 Eftirfarandi tafla sýnir lista yfir tiltækar birgðir fyrir þetta dæmi.
 
-| vara | ColorId | SizeId | StyleId | Magn |
+| Atriði | ColorId | SizeId | StyleId | Magn |
 |---|---|---|---|---|
-| Stuttermabolur | Svart | Lítill | Breitt | 1 |
-| Stuttermabolur | Svart | Lítill | Venjulegt | 2 |
-| Stuttermabolur | Svart | Stór | Breitt | 3 |
-| Stuttermabolur | Svart | Stór | Venjulegt | 4 |
-| Stuttermabolur | Rauður | Lítill | Breitt | 5 |
-| Stuttermabolur | Rauður | Lítill | Venjulegt | 6 |
-| Stuttermabolur | Rauður | Stór | Venjulegt | 7 |
+| D0002 | Svart | Lítill | Breitt | 1 |
+| D0002 | Svart | Lítill | Venjulegt | 2 |
+| D0002 | Svart | Stór | Breitt | 3 |
+| D0002 | Svart | Stór | Venjulegt | 4 |
+| D0002 | Rautt | Lítill | Breitt | 5 |
+| D0002 | Rautt | Lítill | Venjulegt | 6 |
+| D0002 | Rautt | Stór | Venjulegt | 7 |
 
 Eftirfarandi tafla sýnir hvernig stigveldi atriðaskráar er sett upp.
 
@@ -356,29 +367,29 @@ Atriðaskráin gerir þér kleift að senda fyrirspurn á lagerbirgðirnar á ef
 
 - `()` – Flokkað eftir öllum
 
-    - Bolur, 28
+    - D0002, 28
 
 - `(ColorId)` – flokkað eftir `ColorId`
 
-    - Bolur, svartur, 10
-    - Bolur, rauður, 18
+    - D0002, svartur, 10
+    - D0002, Rauður, 18
 
 - `(ColorId, SizeId)` – Flokkað eftir samsetningu `ColorId` og `SizeId`
 
-    - Bolur, svartur, lítill, 3
-    - Bolur, svartur, stór, 7
-    - Bolur, rauður, lítill, 11
-    - Bolur, rauður, stór, 7
+    - D0002, svartur, lítill, 3
+    - D0002, svartur, stór, 7
+    - D0002, Rauður, Lítill, 11
+    - D0002, Rauður, Stór, 7
 
 - `(ColorId, SizeId, StyleId)` – Flokkað eftir samsetningu `ColorId`, `StyleId` og `SizeId`
 
-    - Bolur, svartur, lítill, víður, 1
-    - Bolur, svartur, lítill, venjulegur, 2
-    - Bolur, svartur, stór, víður, 3
-    - Bolur, svartur, stór, venjulegur, 4
-    - Bolur, rauður, lítill, víður, 5
-    - Bolur, rauður, lítill, venjulegur, 6
-    - Bolur, rauður, stór, venjulegur, 7
+    - D0002, svartur, lítill, breiður, 1
+    - D0002, svartur, lítill, venjulegur, 2
+    - D0002, svartur, stór, breiður, 3
+    - D0002, svartur, stór, venjulegur, 4
+    - D0002, rauður, lítill, breiður, 5
+    - D0002, Rauður, Lítill, Venjulegur, 6
+    - D0002, Rauður, Stór, Venjulegur, 7
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Skilgreining frátekningar (valfrjálst)
 
@@ -397,35 +408,35 @@ Með því að setja upp vörpun úr efnislegri mælingu í reiknaða mælingu g
 
 Til að skilgreina vörpun mjúkrar frátekningar skal fylgja þessum skrefum.
 
-1. Skilgreindu efnislega mælingu sem þjónar hlutverki mælingar mjúkrar frátekningar (til dæmis `SoftReservOrdered`).
-1. Í flipanum **Reiknuð mæling** á síðunni **Skilgreining** skal skilgreina reiknuðu mælinguna *má taka frá* (AFR) sem inniheldur reikniformúlu AFR sem ætlunin er að varpa í efnislega mælingu. Til dæmis væri hægt að setja upp `AvailableToReserve` (í boði fyrir frátekningu) þannig að það sé varpað í fyrir skilgreiningu `SoftReservOrdered` efnislegrar mælingu. Á þennan hátt er hægt að sjá hvaða magn sem er með `SoftReservOrdered` birgðastöðuna verður í boði fyrir frátekningu. Eftirfarandi tafla sýnir AFR-reikniformúluna.
+1. Skilgreindu efnislega mælingu sem þjónar hlutverki mælingar mjúkrar frátekningar (til dæmis `SoftReservPhysical`).
+1. Í flipanum **Reiknuð mæling** á síðunni **Skilgreining** skal skilgreina reiknuðu mælinguna *má taka frá* (AFR) sem inniheldur reikniformúlu AFR sem ætlunin er að varpa í efnislega mælingu. Til dæmis væri hægt að setja upp `AvailableToReserve` (í boði fyrir frátekningu) þannig að það sé varpað í fyrir skilgreiningu `SoftReservPhysical` efnislegrar mælingu. Á þennan hátt er hægt að sjá hvaða magn sem er með `SoftReservPhysical` birgðastöðuna verður í boði fyrir frátekningu. Eftirfarandi tafla sýnir AFR-reikniformúluna.
 
     | Reiknigerð | Gagnaveita | Efnisleg mæling |
     |---|---|---|
     | samlagning | `fno` | `AvailPhysical` |
     | samlagning | `pos` | `Inbound` |
     | Frádráttur | `pos` | `Outbound` |
-    | Frádráttur | `iv` | `SoftReservOrdered` |
+    | Frádráttur | `iv` | `SoftReservPhysical` |
 
-    Við mælum með því að þú setjir upp reiknaða mælingu þannig að hún innihaldi efnislega mælingu sem mæling frátekningar byggir á. Þannig mun magn reiknaðrar mælingar verða fyrir áhrifum af magni frátekningarmælingar. Í þessu dæmi ætti því `AvailableToReserve` reiknuð mæling `iv` gagnagjafans að innihalda `SoftReservOrdered` efnislega mælingu frá `iv` sem þátt.
+    Við mælum með því að þú setjir upp reiknaða mælingu þannig að hún innihaldi efnislega mælingu sem mæling frátekningar byggir á. Þannig mun magn reiknaðrar mælingar verða fyrir áhrifum af magni frátekningarmælingar. Í þessu dæmi ætti því `AvailableToReserve` reiknuð mæling `iv` gagnagjafans að innihalda `SoftReservPhysical` efnislega mælingu frá `iv` sem þátt.
 
 1. Opnaðu síðuna **Skilgreining**.
-1. Í flipanum **Vörpun mjúkrar frátekningar** skal setja upp vörpunina úr efnislegu mælingunni í reiknaða mælingu. Í fyrra dæminu er hægt að nota eftirfarandi stillingar til að varpa `AvailableToReserve` í fyrri skilgreiningu `SoftReservOrdered` efnislegrar mælingar.
+1. Í flipanum **Vörpun mjúkrar frátekningar** skal setja upp vörpunina úr efnislegu mælingunni í reiknaða mælingu. Í fyrra dæminu er hægt að nota eftirfarandi stillingar til að varpa `AvailableToReserve` í fyrri skilgreiningu `SoftReservPhysical` efnislegrar mælingar.
 
     | Gagnagjafi efnislegrar mælingar | Efnisleg mæling | Í boði fyrir gagnagjafa frátekningar | Í boði fyrir reiknaða mælingu frátekningar |
     |---|---|---|---|
-    | `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+    | `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
     > [!NOTE]
     > Ef þú getur ekki breytt flipanum **Vörpun mjúkrar frátekningar** gætir þú þurft að kveikja á eiginleikanum *OnHandReservation* í flipanum **Eiginleikastjórnun**.
 
-Nú, þegar þú gerir frátekningu á `SoftReservOrdered`, mun birgðasýnileiki sjálfkrafa finna `AvailableToReserve` og tengda reikniformúlu til að staðfesta frátekninguna.
+Nú, þegar þú gerir frátekningu á `SoftReservPhysical`, mun birgðasýnileiki sjálfkrafa finna `AvailableToReserve` og tengda reikniformúlu til að staðfesta frátekninguna.
 
 Þú getur til dæmis verið með eftirfarandi lagerbirgðir í birgðasýnileika.
 
 ```json
 {
-    "productId": "T-shirt",
+    "productId": "D0002",
     "dimensions": {
         "SiteId": "1",
         "LocationId": "11",
@@ -433,7 +444,7 @@ Nú, þegar þú gerir frátekningu á `SoftReservOrdered`, mun birgðasýnileik
     },
     "quantities": {
         "iv": {
-            "SoftReservOrdered": 90
+            "SoftReservPhysical": 90
         },
         "fno": {
             "availphysical": 70.0,
@@ -448,14 +459,14 @@ Nú, þegar þú gerir frátekningu á `SoftReservOrdered`, mun birgðasýnileik
 
 Í þessu tilviki gildir eftirfarandi útreikningur:
 
-`AvailableToReserve` = `fno.availphysical` + `pos.inbound` – `pos.outbound` – `iv.SoftReservOrdered`  
+`AvailableToReserve` = `fno.availphysical` + `pos.inbound`–`pos.outbound` –`iv.SoftReservPhysical`  
 = 70 + 50 – 20 – 90  
 = 10
 
-Ef þú reynir þar af leiðandi að gera frátekningar á `iv.SoftReservOrdered` og magnið er minna en eða jafnt og `AvailableToReserve` (10) getur þú tekið frá.
+Því ef þú reynir að gera fyrirvara á`iv.SoftReservPhysical`, og magnið er minna en eða jafnt og`AvailableToReserve` (10), mun mjúka fyrirvarabeiðnin ná fram að ganga.
 
 > [!NOTE]
-> Þegar þú kallar á API frátekningu er hægt að stjórna staðfestingu frátekningar með því að tilgreina Boolean `ifCheckAvailForReserv` færibreytu í meginmáli beiðninnar. Gildi `True` þýðir að staðfesting sé nauðsynleg og á móti merkir gildið `False` að staðfestingin er ekki nauðsynleg. Sjálfgefið gildi er `True`.
+> Þegar þú kallar á API frátekningu er hægt að stjórna staðfestingu frátekningar með því að tilgreina Boolean `ifCheckAvailForReserv` færibreytu í meginmáli beiðninnar. Verðmæti á`True` þýðir að staðfestingin er nauðsynleg, en gildið á`False` þýðir að staðfestingin er ekki nauðsynleg (þó að þú gætir endað með neikvætt`AvailableToReserve` magn, kerfið mun samt leyfa þér að mjúkan varasjóð). Sjálfgefið gildi er `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Mjúkt frátekningarstigveldi
 
@@ -488,18 +499,21 @@ Gild víddarröð ætti að fylgja nákvæmlega frátekningastigveldinu, vídd e
 
 ## <a name="complete-and-update-the-configuration"></a>Ljúka við og uppfæra skilgreininguna
 
-Þegar þú hefur lokið við skilgreininguna þarftu að gera allar breytingarnar í birgðasýnileika. Til að koma á breytingum skaltu velja **Uppfæra skilgreiningu** efst í hægra horni síðunnar **Skilgreining** í Power Apps.
+Þegar þú hefur lokið við skilgreininguna þarftu að gera allar breytingarnar í birgðasýnileika. Fylgdu þessum skrefum til að framfylgja breytingunum.
 
-Í fyrsta sinn sem þú velur **Uppfæra skilgreiningu** óskar kerfið eftir innskráningarupplýsingunum þínum.
+1. Í Power Apps, á **Stillingar** síðu, veldu **Uppfærðu stillingar** í efra hægra horninu. 
+1. Kerfið biður um innskráningarskilríki. Sláðu inn eftirfarandi gildi:
 
-- **Biðlarakenni** – Forritsauðkenni Azure sem þú bjóst til fyrir birgðasýnileika.
-- **Leigjandakenni** – Azure-leigjandakennið þitt.
-- **Leynilykill biðlara** – Leynilykill forrits í Azure sem þú bjóst til fyrir birgðasýnileika.
+    - **Biðlarakenni** – Forritsauðkenni Azure sem þú bjóst til fyrir birgðasýnileika.
+    - **Leigjandakenni** – Azure-leigjandakennið þitt.
+    - **Leynilykill biðlara** – Leynilykill forrits í Azure sem þú bjóst til fyrir birgðasýnileika.
 
-Þegar þú hefur skráð þig inn er skilgreiningin uppfærð í þjónustu birgðasýnileika.
+    Fyrir frekari upplýsingar um þessi skilríki og hvernig á að finna þau, sjá [Settu upp og settu upp Birgðasýnileika](inventory-visibility-setup.md).
 
-> [!NOTE]
-> Gakktu úr skugga um að staðfesta heiti gagnagjafans, efnislegar mælingar og víddarvarpanir áður en þú uppfærir skilgreininguna fyrir þjónustu birgðasýnileika. Þú getur ekki breytt þessum stillingum eftir að þú hefur valið **Uppfæra skilgreiningu**.
+    > [!IMPORTANT]
+    > Vertu viss um að sannreyna heiti gagnagjafans, efnislegar mælingar og víddarvörp áður en þú uppfærir stillinguna. Þú munt ekki geta breytt þessum stillingum eftir að þú hefur uppfært þær.
+
+1. Eftir innskráningu skaltu velja **Uppfærðu stillingar** aftur. Kerfið beitir stillingunum þínum og sýnir hvað hefur breyst.
 
 ## <a name="default-configuration-sample"></a><a name="default-configuration-sample"></a>Dæmi um sjálfgefna skilgreiningu
 
@@ -694,13 +708,19 @@ Vörpun vídda sem er sýnd í eftirfarandi töflu er skilgreind fyrir `fno` gag
 
 Eftirfarandi efnislegar mælingar eru skilgreindar fyrir `fno` gagnagjafann:
 
-- `Ordered`
 - `Arrived`
-- `AvailPhysical`
 - `PhysicalInvent`
 - `ReservPhysical`
+- `onorder`
+- `notspecified`
+- `availordered`
+- `availphysical`
+- `picked`
+- `postedqty`
+- `quotationreceipt`
+- `received`
+- `ordered`
 - `ReservOrdered`
-- `OnOrder`
 
 #### <a name="configuration-of-the-pos-data-source"></a>Stilling „pos“ gagnagjafans
 
@@ -766,7 +786,7 @@ Eftirfarandi tafla sýnir sjálfgefna frátekningarvörpun.
 
 | Gagnagjafi efnislegrar mælingar | Efnisleg mæling | Í boði fyrir gagnagjafa frátekningar | Í boði fyrir reiknaða mælingu frátekningar |
 |---|---|---|---|
-| `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+| `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
 #### <a name="reservation-hierarchy"></a>Frátekningarstigveldi
 
@@ -778,35 +798,5 @@ Eftirfarandi tafla sýnir sjálfgefið frátekningarstigveldi.
 | `LocationId` | 2 |
 | `ColorId` | 3 |
 | `SizeId` | 4 |
-| `StyleId` | 5 |
-| `BatchId` | 6 |
-| `SerialId` | 7 |
-| `StatusId` | 8 |
-| `LicensePlateId` | 9 |
-| `WMSLocationId` | 10 |
-| `WMSPalletId` | 11 |
-| `ConfigId` | 12 |
-| `VersionId` | 13 |
-| `CustomDimension1` | 14 |
-| `CustomDimension2` | 15 |
-| `CustomDimension3` | 16 |
-| `CustomDimension4` | 17 |
-| `CustomDimension5` | 18 |
-| `CustomDimension6` | 19 |
-| `CustomDimension7` | 20 |
-| `CustomDimension8` | 21 |
-| `CustomDimension9` | 22 |
-| `CustomDimension10` | 23 |
-| `CustomDimension11` | 24 |
-| `CustomDimension12` | 25 |
-| `ExtendedDimension1` | 26 |
-| `ExtendedDimension2` | 27 |
-| `ExtendedDimension3` | 28 |
-| `ExtendedDimension4` | 29 |
-| `ExtendedDimension5` | 30 |
-| `ExtendedDimension6` | 31 |
-| `ExtendedDimension7` | 32 |
-| `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

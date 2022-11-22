@@ -13,12 +13,12 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
-ms.translationtype: MT
+ms.openlocfilehash: e4ccc8ac9b5374ca0713167a17b8704727c687fd
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643686"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775242"
 ---
 # <a name="customer-aging-snapshots"></a>Aldursgreiningarmynd viðskiptavinar
 
@@ -31,9 +31,10 @@ Upplýsingar úr aldursgreiningarmyndum eru sýndar á listasíðunni **Aldursgr
 Vinnusvæðið **Skuldir og innheimta viðskiptavinar** sýnir einnig aldursgreiningu viðskiptavinar. Frekari upplýsingar er að finna í [Skulda- og innheimtuumsjón Power BI Efni](credit-collections-power-bi.md).
 
 > [!NOTE]
-> Til að draga úr þeim tíma sem þarf til að búa til öldrunarmynd skaltu kveikja á eftirfarandi eiginleikum í **Eiginleikastjórnun** vinnusvæði: **Öldrunarárangur viðskiptavina**
-> **Öldrunarárangur viðskiptavina með hópum viðskiptavina**  
-> Með báða eiginleikana virka, **Viðskiptavinalaugar** er hægt að nota þegar öldrunarmyndin er búin til. 
+> Til að draga úr þeim tíma sem þarf til að búa til öldrunarmynd skaltu kveikja á eftirfarandi eiginleikum í **Eiginleikastjórnun** vinnusvæði: 
+> - **Aukin afköst við aldursgreiningu viðskiptavinar** 
+> - **Öldrunarárangur viðskiptavina með hópum viðskiptavina**  
+>Með báða eiginleikana virka, **Viðskiptavinalaugar** er hægt að nota þegar öldrunarmyndin er búin til. 
 
 Þegar aldursgreiningarmynd viðskiptavinar er búin til skal nota eftirfarandi reiti til að færa inn upplýsingar um hann:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45643ed6c8c9d34dc0b2e31fd04f224823157890
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.openlocfilehash: da69d61c657ddc168a27a97fe16909d5f60eb4fd
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715992"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778038"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Jafna hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil
 
@@ -35,28 +35,28 @@ Lánardrottinn 3054 býður Fabrikam 2 prósent staðgreiðsluafslátt ef reikni
 
 | Fylgiskjal   | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða   | Gjaldmiðill |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
-| Inv-10060 | 6/28/2015 | 10060   |                                      | 1.000,00                              | -1.000,00 | USD      |
+| Inv-10060 | 6/28/2020 | 10060   |                                      | 1,000.00                              | -1.000,00 | USD      |
 
 Eftirfarandi dagsetningar og upphæðir staðgreiðsluafsláttar eru tiltækar fyrir þennan reikning.
 
 | Dagsetning staðgreiðsluafsláttar | Upphæð staðgreiðsluafsláttar | Upphæð í gjaldmiðli færslu |
 |--------------------|----------------------|--------------------------------|
-| 7/3/2015           | 20,00                | 980,00                         |
-| 7/12/2015          | 10,00                | 990,00                         |
-| 7/25/2015          | 0,00                 | 1.000,00                       |
+| 7/3/2020           | 20.00                | 980.00                         |
+| 7/12/2020          | 10,00                | 990.00                         |
+| 7/25/2020          | 0,00                 | 1,000.00                       |
 
 ## <a name="payment-on-july-2"></a>Greiðsla 2. júlí
 2. júlí vill Apríl greiða 300,00 inn á þennan reikning. Hún stofnar eingreiðslu með því að nota síðuna **Greiðslubók** í Viðskiptaskuldum. Hún bætir við línu fyrir lánardrottin 3054 og færir inn upphæð greiðslu **300.00**. Síðan opnar Apríl síðuna **Jafna færslur**, þannig að hún getur merkt reikninginn sem verður jafnaður. Hún uppfærir gildið í reitnum **Upphæð til jöfnunar** í **300,00** og tekur eftir því að gildið í reitnum **Upphæð staðgreiðsluafsláttar sem á að taka** hefur breyst í **6,12**. Þar sem þessi greiðsla er í fyrsta afsláttartímabilinu er fenginn afsláttur 2 prósent.
 
 | Merkja | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-|      | Venjulegt            | Inv-10060 | 3054    | 6/28/2015 | 7/28/2015 | 10060   | 1.000,00                       | USD      | 300.00           |
+|      | Venjulegt            | Inv-10060 | 3054    | 6/28/2020 | 7/28/2020 | 10060   | 1,000.00                       | USD      | 300.00           |
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-| Svæði                        | Virði     |
+| Svæði                        | Gildi     |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/02/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/02/2020 |
 | Upphæð staðgreiðsluafsláttar         | -20.00    |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
@@ -66,13 +66,13 @@ Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** s
 
 | Merkja | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-|      | Venjulegt            | Inv-10060 | 3054    | 6/28/2015 | 7/28/2015 | 10060   | 1.000,00                       | USD      | 294.00           |
+|      | Venjulegt            | Inv-10060 | 3054    | 6/28/2020 | 7/28/2020 | 10060   | 1,000.00                       | USD      | 294.00           |
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-| Svæði                        | Virði     |
+| Svæði                        | Gildi     |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/02/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/02/2020 |
 | Upphæð staðgreiðsluafsláttar         | -20.00    |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
@@ -82,30 +82,30 @@ Apríl bókar greiðsluna. Á síðunni **Lánardrottnafærslur** getur hún sko
 
 | Fylgiskjal    | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| Inv-10060  | 6/28/2015 | 10060   |                                      | 1.000,00                              | -700,00 | USD      |
-| APP-10060  | 7/2/2015  |         | 294.00                               |                                       | 0,00    | USD      |
-| DISC-10060 | 7/2/2015  |         | 6,00                                 |                                       | 0,00    | USD      |
+| Inv-10060  | 6/28/2020 | 10060   |                                      | 1,000.00                              | -700,00 | USD      |
+| APP-10060  | 7/2/2020  |         | 294.00                               |                                       | 0,00    | USD      |
+| DISC-10060 | 7/2/2020  |         | 6,00                                 |                                       | 0,00    | USD      |
 
 ## <a name="payment-on-july-8"></a>Greiðsla 8. júlí
 Apríl gerir viðbótargreiðslu á reikning þann 8. júlí. Til að færa inn upphæðina opnar hún síðuna **Jafna færslur** og smellir síðan á flipann **Staðgreiðsluafsláttur**. Hún sér dagsetningar og upphæðir fyrir tvennan staðgreiðsluafslátt sem er tiltækur. Þar sem þessi greiðsla er í öðru afsláttartímabilinu er tiltækur afsláttur 1 prósent, eða 5,00. Þessi upphæð er reiknuð sem helmingurinn af 1 prósent afslætti af 1.000,00 eða helmingurinn af 10,00.
 
 | Dagsetning staðgreiðsluafsláttar | Upphæð staðgreiðsluafsláttar | Upphæð í gjaldmiðli færslu |
 |--------------------|----------------------|--------------------------------|
-| 7/3/2015           | 20,00                | 680.00                         |
-| 7/12/2015          | 10,00                | 690.00                         |
-| 7/25/2015          | 0,00                 | 700.00                         |
+| 7/3/2020           | 20.00                | 680.00                         |
+| 7/12/2020          | 10,00                | 690.00                         |
+| 7/25/2020          | 0,00                 | 700.00                         |
 
 Apríl ákveður að greiða 495,00 og taka 5,00 staðgreiðsluafslátt. Þess vegna er heildarupphæðin sem er jöfnuð nú 500,00.
 
 | Merkja | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-|      | Venjulegt            | Inv-10060 | 3054    | 6/28/2015 | 7/28/2015 | 10060   | 1.000,00                       | USD      | 495,00           |
+|      | Venjulegt            | Inv-10060 | 3054    | 6/28/2020 | 7/28/2020 | 10060   | 1,000.00                       | USD      | 495,00           |
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
-| Svæði                        | Virði     |
+| Svæði                        | Gildi     |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/12/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/12/2020 |
 | Upphæð staðgreiðsluafsláttar         | -10,00    |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | -6.00     |
@@ -115,23 +115,23 @@ Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** s
 
 | Fylgiskjal    | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| Inv-10060  | 6/28/2015 | 10060   |                                      | 1.000,00                              | -200.00 | USD      |
-| APP-10060  | 7/2/2015  |         | 294.00                               |                                       | 0,00    | USD      |
-| DISC-10060 | 7/2/2015  |         | 6,00                                 |                                       | 0,00    | USD      |
-| APP-10061  | 7/12/2015 |         | 495,00                               |                                       | 0,00    | USD      |
-| DISC-10061 | 7/12/2015 |         | 5,00                                 |                                       | 0,00    | USD      |
+| Inv-10060  | 6/28/2020 | 10060   |                                      | 1,000.00                              | 200.00 | USD      |
+| APP-10060  | 7/2/2020  |         | 294.00                               |                                       | 0,00    | USD      |
+| DISC-10060 | 7/2/2020  |         | 6,00                                 |                                       | 0,00    | USD      |
+| APP-10061  | 7/12/2020 |         | 495,00                               |                                       | 0,00    | USD      |
+| DISC-10061 | 7/12/2020 |         | 5.00                                 |                                       | 0,00    | USD      |
 
 ## <a name="payment-on-july-20"></a>Greiðsla 20. júlí
 Þann 20. júlí stofnar Apríl lokagreiðlu upp á 200,00. Enginn afsláttur er tekinn, þar sem greitt er eftir bæði afsláttartímabilin. Staða reikningsins er 0,00.
 
 | Fylgiskjal    | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| Inv-10060  | 6/28/2015 | 10060   |                                      | 1.000,00                              | -200.00 | USD      |
-| APP-10060  | 7/2/2015  |         | 294.00                               |                                       | 0,00    | USD      |
-| DISC-10060 | 7/2/2015  |         | 6,00                                 |                                       | 0,00    | USD      |
-| APP-10061  | 7/12/2015 |         | 495,00                               |                                       | 0,00    | USD      |
-| DISC-10061 | 7/12/2015 |         | 5,00                                 |                                       | 0,00    | USD      |
-| APP-10062  | 7/20/2015 |         | 200,00                               |                                       | 0,00    | USD      |
+| Inv-10060  | 6/28/2020 | 10060   |                                      | 1,000.00                              | 200.00 | USD      |
+| APP-10060  | 7/2/2020  |         | 294.00                               |                                       | 0,00    | USD      |
+| DISC-10060 | 7/2/2020  |         | 6,00                                 |                                       | 0,00    | USD      |
+| APP-10061  | 7/12/2020 |         | 495,00                               |                                       | 0,00    | USD      |
+| DISC-10061 | 7/12/2020 |         | 5.00                                 |                                       | 0,00    | USD      |
+| APP-10062  | 7/20/2020 |         | 200.00                               |                                       | 0,00    | USD      |
 
 
 

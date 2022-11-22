@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
-ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
-ms.translationtype: MT
+ms.openlocfilehash: 4330c86ee9ae35ce0f2c7bb85db533a39eafac46
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9588954"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779582"
 ---
 # <a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum
 
@@ -51,7 +51,7 @@ Almenn geta dreifingar á fjárhagsupphæð veitir eftirfarandi valkosti fyrir v
     -   Hægt er að skoða gildandi bókhaldsstaða skjals í **Tilvísun**. Staðan er fyrir allt skjalið og gefur til kynna hvort skjalið er í vinnslu eða lokið.
 -   **Skoða dreifingar** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur og peningaupphæðir í skjalinu. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
 
-Í útgáfu 10.0.13 hefur eiginleika verið bætt við sem villuleitar töflu yfir dreifingu á fjárhagsupphæð til að ganga úr skugga um að nýju reitirnir séu settir upp á réttan hátt. Þessi eiginleiki kallast **Virkja viðbótarvilluleit í gögnum skjala með því að nota bókhaldsramma upprunaskjals**. Sjálfgefið verður kveikt á þessum eiginleika í útgáfu 10.0.29. 
+Eiginleika hefur verið bætt við sem staðfestir dreifingartöflu bókhalds til að tryggja að nýir reitir séu rétt settir upp. Þessi eiginleiki kallast **Virkja viðbótarvilluleit í gögnum skjala með því að nota bókhaldsramma upprunaskjals**. Sjálfgefið var kveikt á þessum eiginleika í útgáfu 10.0.29. 
 
 Nánari upplýsingar má nálgast á [Dreifing á fjárhagsupphæðum og færslur undirbókar fyrir lánardrottnareikninga](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 

@@ -2,23 +2,23 @@
 title: Flytja út gögn dótturfyrirtækis í skrár
 description: Þessi grein útskýrir hvernig á að undirbúa útflutning gagna frá Microsoft Dynamics 365 Fjármál og flytja það síðan inn í samstæðu lögaðila.
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 11/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7c5334e206d28a5ae1c8097db5356cd1057b7180
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 30d69f9a2813621df410a29568644f264392fb49
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876154"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779962"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Flytja út gögn dótturfyrirtækis í skrár
 
@@ -32,14 +32,14 @@ Síðan **Flytja út** (**Kerfisstjórnun \> Vinnusvæði \> Flytja inn/út**) e
 
     | Svæði                             | lýsing |
     |-----------------------------------|-------|
-    | Aðallykill                      | Tilgreinið lyklana sem á að sameina. Til að hafa alla lykla með skal skilja þennan reit eftir auðan. |
-    | Nota samstæðulykil         | Ef samstæðulyklar hafa verið tilgreindir skal stilla þennan valkost á **Já**. |
-    | Velja samstæðulykil frá | Veljið annaðhvort **Aðallykil** eða **Flokk samstæðulykla**. |
-    | Flokkur samstæðulykla       | Veljið flokk samstæðulykla fyrir samstæðulykilinn sem var valinn. |
-    | Samstæðutímabil              | Tilgreinið „frá“ og „til“ dagsetningar fyrir samstæðuna. |
-    | Taka raunupphæðir með            | Stillið þennan valkost á **Já** til að hafa með raunupphæðir. |
-    | Taka áætlunarupphæðir með            | Stillið þennan valkost á **Já** til að hafa upphæðir fjárhagsáætlunar með í samstæðum. |
-    | Fjárhagsáætlunarlíkön                     | Tilgreinið fjárhagsáætlunarlíkanið sem á að hafa með. |
+    | **Aðallykill**                      | Tilgreinið lyklana sem á að sameina. Til að hafa alla lykla með skal skilja þennan reit eftir auðan. |
+    | **Nota samstæðulykil**         | Ef samstæðulyklar hafa verið tilgreindir skal stilla þennan valkost á **Já**. |
+    | **Velja samstæðulykil frá** | Veljið annaðhvort **Aðallykil** eða **Flokk samstæðulykla**. |
+    | **Flokkur samstæðulykla**       | Veljið flokk samstæðulykla fyrir samstæðulykilinn sem var valinn. |
+    | **Samstæðutímabil**              | Tilgreinið „frá“ og „til“ dagsetningar fyrir samstæðuna. |
+    | **Taka raunupphæðir með**            | Stillið þennan valkost á **Já** til að hafa með raunupphæðir. |
+    | **Taka áætlunarupphæðir með**            | Stillið þennan valkost á **Já** til að hafa upphæðir fjárhagsáætlunar með í samstæðum. |
+    | **Fjárhagsáætlunarlíkön**                     | Tilgreinið fjárhagsáætlunarlíkanið sem á að hafa með. |
 
 3. Í flipanum **Fjárhagsvíddir** skal tilgreina upplýsingar um samstæðuna:
 

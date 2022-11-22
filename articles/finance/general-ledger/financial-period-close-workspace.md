@@ -2,25 +2,25 @@
 title: Vinnusvæði lokunar fjárhagstímabils
 description: Þessi skrá veitir yfirlit yfir vinnusvæðið lokun fjárhagstímabils og tengdar skilgreiningar.
 author: kweekley
-ms.date: 11/29/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 657bdd04c8b6dd36341e0bf771a978f68f13362d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865713"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780043"
 ---
 # <a name="financial-period-close-workspace"></a>Vinnusvæði lokunar fjárhagstímabils
 
@@ -28,7 +28,7 @@ ms.locfileid: "8865713"
 
 Þessi grein veitir yfirlit yfir **Fjárhagstímabili lokið** vinnusvæði og tilheyrandi uppsetningu.
 
-Vinnusvæði lokunar fjárhagstímabils
+## <a name="financial-period-close-workspace"></a>Vinnusvæði lokunar fjárhagstímabils
 
 Vinnusvæðið **Lokun fjárhagstímabils** gerir kleift að rekja ferli við lokun fjárhagslegar milli fyrirtækja, svæði og einstaklinga. Samkvæmt yfirliti í vinnusvæðinu **Lokun fjárhagstímabils** muntu sjá annaðhvort öll verk og stöður fyrir lokunaráætlun eða aðeins þau verkefni sem þér er úthlutað. 
 
@@ -101,7 +101,7 @@ Lokunaráætlun er notuð til að úthluta tilteknu fjárhagstímabili á tiltek
 
 Einnig verður að skilgreina þau fyrirtæki sem eiga að tengjast við lokunaráætlun. Ef sniðmátsverkum er úthlutað til margra fyrirtækja verða sérstök verk stofnuð fyrir hvert fyrirtæki sem er í lokunaráætluninni og úthlutað á sniðmátsverkið. 
 
-Ef lokunaráætlun er lokið, velja valkostur **Lokað** fyrir hana. Ferill verksins verður enn tiltæk á listasíðunni **Öll lokunarverk fjárhagstímabils** en lokunaráætlun verður fjarlægð af vinnusvæðinu. Eftir að lokunaráætlun hefur verið merkt sem **lokað** er ekki hægt að bæta verkum við, breyta verkum eða fjarlægja verk úr henni.
+Eftir að lokunaráætlun er lokið skaltu velja **Lokað** valmöguleika. Ferill verksins verður enn tiltæk á listasíðunni **Öll lokunarverk fjárhagstímabils** en lokunaráætlun verður fjarlægð af vinnusvæðinu. Eftir að lokunaráætlun hefur verið merkt sem **lokað** er ekki hægt að bæta verkum við, breyta verkum eða fjarlægja verk úr henni.
 
 
 

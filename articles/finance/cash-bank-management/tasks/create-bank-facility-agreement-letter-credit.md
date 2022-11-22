@@ -2,23 +2,23 @@
 title: Stofna bankaaðstöðusamning fyrir bankaábyrgð
 description: Þetta verk útskýrir skref við stofnun bankaaðstöðusamning til að vinna ábyrgðarbréf.
 author: angelad116
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankDocumentFacilityAgreement, BankAccountTableLookUp, BankDocumentFacilityAgreementExtension, DefaultDashboard
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a6bb551f0e4bfba7c07dfdaadb360f96be2b0e6
-ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
-ms.translationtype: MT
+ms.openlocfilehash: b138fef9da94f6e89079ad821a93b909131b5fe7
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337625"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780124"
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Stofna bankaaðstöðusamning fyrir bankaábyrgð
 
@@ -28,24 +28,24 @@ ms.locfileid: "9337625"
 
 
 ## <a name="create-bank-facility-agreement"></a>Stofna bankaaðstöðusamningur
-1. Fara í Reiðufé og bankastjórnun > Kreditbréf > Bankaaðstöðusamningur.
-2. Smellið á „Nýtt“.
-3. Í svæðið samningsnúmer, færðu inn samningsnúmer samkvæmt samkomulagi við bankann.
-4. Í svæðinu bankareikning, færið inn lykilnúmer bankans sem gefur út.
+1. Fara til **Handbært fé og bankastjórnun > Lánabréf > Bankafyrirgreiðslusamningar**.
+2. Smellt er á **Nýtt**.
+3. Í **Samningsnúmer** reit skal slá inn samningsnúmer samkvæmt samningi við bankann.
+4. Í **bankareikning** reit, sláðu inn reikningsnúmerið í bankanum sem gefur út.
 5. Í listanum skal smella á tengilinn í valinni línu.
-6. Í reitnum upphafsdagur, færa inn dagsetningu og tíma.
-7. Í reitnum Lokadagur, færa inn dagsetningu og tíma.
+6. Í **Upphafsdagur** reit, sláðu inn dagsetningu og tíma.
+7. Í **Loka dagsetning** reit, sláðu inn dagsetningu og tíma.
 8. Útvíkka eða draga saman hlutann Almennt.
-9. Smella á bæta Við línu.
-10. Í reitnum aðstöðugerð skal smella a fellilistahnappinn til að opna leitina.
+9. Smella á **Bæta við línu**.
+10. Í **Gerð aðstöðu** reit, smelltu á fellilistann til að opna leitina.
 11. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 12. Í listanum skal smella á tengilinn í valinni línu.
-13. Í reitinn Mörk færirðu inn upphæð aðstöðu sem samið var um við bankann.
-14. Smelltu á Vista.
-15. Smellt er á víkka út til að opna felligluggann.
-16. Færa inn gildi í svæðið nýtt samningsnúmer.
-17. Í reitnum Lokadagur, færa inn dagsetningu og tíma.
-18. Smellt er á Framlengja.
+13. Í **Takmarka** reit skal slá inn aðstöðuupphæðina sem samið var um við bankann.
+14. Smelltu á **Vista**.
+15. Smellur **Lengja** til að opna fallgluggann.
+16. Í **Nýtt samningsnúmer** reit, sláðu inn gildi.
+17. Í **Loka dagsetning** reit, sláðu inn dagsetningu og tíma.
+18. Smellur **Framlengja**.
 19. Lokið síðunni.
 
 

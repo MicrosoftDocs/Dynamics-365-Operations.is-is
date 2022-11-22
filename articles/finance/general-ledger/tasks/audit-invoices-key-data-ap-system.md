@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 76c45133091a86da773d7f63addd460abd92aae7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 4525534f906322c7fe4c232f0f6da5b308829087
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868345"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775216"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Endurskoða reikninga og lykilgögn í viðskiptaskuldum
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868345"
 
 Þegar reikningur er móttekinn frá lánardrottni fyrir vörur eða þjónustu á innkaupapöntun gætu viðskiptaferlin krafist þess að vörurnar eða þjónustan séu mótteknar áður en hægt er að samþykkja reikninginn til greiðslu. Áður en hafist er handa þarf að ganga úr skugga um að skilgreiningarlykill reikningsjöfnunar sé valinn. 
 
-Á síðunni **færibreytum viðskiptaskulda**, skal tryggja að valkosturinn Virkja sannprófun á reikningsjöfnun sé valinn, svæðið **Bóka reikning með misræmi** er stillt til að **Krefjast samþykkis**, og svæðið **Línujöfnunarregla** er stillt á **þríhliða jöfnun**.
+Í **Færibreytur viðskiptaskulda** síðu, tryggja að **Virkja reikningssamsvörun** valkostur er valinn, the **Bókaðu reikning með misræmi** reiturinn er stilltur á **Krefjast samþykkis**, og **Stefna línusamsvörunar** reiturinn er stilltur á **Þríhliða samsvörun**.
 
 Þessi aðferð notar sýnigögn USMF fyrirtækisins. hlutverk viðskiptaskuldastjóri eða aðalbókari myndi framkvæma þessi skrefum.
 

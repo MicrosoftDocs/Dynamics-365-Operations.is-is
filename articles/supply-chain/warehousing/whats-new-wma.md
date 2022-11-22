@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
-ms.translationtype: MT
+ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702196"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764240"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nýjungar eða breytingar í farsímaforriti Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Þessi grein sýnir nýja eiginleika, lagfæringar, endurbætur og þekkt vandamál fyrir hverja útgefna útgáfu af Warehouse Management farsímaforritinu fyrir Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20370"></a>Útgáfa 2.0.37.0
+
+Þessi útgáfa kynnir eftirfarandi nýja eiginleika, lagfæringar og endurbætur:
+- Bætti við notendastillingu sem gerir starfsmönnum kleift að velja hvar appið sýnir vörumyndir (bæði á kortum og þrepahausum, aðeins í þrepahausum, eða alls ekki). 
+- Bættu uppsetningu upplýsingakortaskjásins með því að minnka stærð skrefaborðans og magninntakssnúðans, sem gefur meira pláss fyrir annað efni. 
+- Bætt notendaviðmót þegar keyrt er á Honeywell Thor tæki. 
+- Bætt fullskjásstilling (á aðeins við um tæki með vélbúnaðarlyklaborði). 
+- Bættar niðurstöður þegar flokkað er upplýsingaspjöldum og sérsniðnum síðum eftir forgangi eða undirforgangi (DataPriority eða DisplaySubPriority). 
+- Bætti við stuðningi fyrir fleiri tungumál. 
+- Bættur stöðugleiki. 
+- Bætt nokkrar myndir og tákn. 
 
 ## <a name="version-20350"></a>Útgáfa 2.0.35.0
 

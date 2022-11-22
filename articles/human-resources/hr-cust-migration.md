@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9732766"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760363"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Dynamics 365 Human Resources flutning viðskiptavina
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Viðskiptavinaflutningur er „lyft og breyting“ (hreyfing) á gagnagrunni viðskiptavina yfir í fjármála- og rekstrarinnviði. Sjálfvirk flutningsverkfæri eru notuð fyrir það. Niðurstaðan er nýtt fjármála- og rekstrarumhverfi sem notar mannauðsgagnagrunn viðskiptavinarins.
+Viðskiptavinaflutningur er „lyft-og-færsla“ (hreyfing) á gagnagrunni viðskiptavina yfir í fjármála- og rekstrarinnviði. Sjálfvirk flutningsverkfæri eru notuð fyrir það. Niðurstaðan er nýtt fjármála- og rekstrarumhverfi sem notar mannauðsgagnagrunn viðskiptavinarins.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -38,13 +38,12 @@ Viðskiptavinaflutningur er „lyft og breyting“ (hreyfing) á gagnagrunni vi�
 
 ### <a name="dataverse-environment-backup-sandbox"></a>Dataverse öryggisafrit (Sandbox)
 
-1. Valfrjálst en mælt er með: Endurnýjaðu núverandi sandkassaumhverfi mannauðs með því að nota afrit af framleiðsluumhverfi mannauðs.
-2. [Búðu til nýtt Dataverse umhverfi](/power-platform/admin/create-environment#create-an-environment-with-a-database) með því að nota Power Platform stjórnendamiðstöð.
+ - Valfrjálst en mælt er með: Endurnýjaðu núverandi sandkassaumhverfi mannauðs með því að nota afrit af framleiðsluumhverfi mannauðs.
+ - Búðu til nýtt Dataverse umhverfi með því að nota Power Platform stjórnendamiðstöð.
+ - Afritaðu það sem fyrir er Dataverse umhverfi, sem er tengt við sjálfstæða mannauðsappið, við umhverfið sem þú bjóst til í fyrra skrefi.
 
-    > [!NOTE]
-    > Þegar þú bætir við gagnagrunni skaltu ganga úr skugga um að **Virkjaðu Dynamics 365 forrit** valkostur er stilltur á **Já**.
-
-3. [Afritaðu það sem fyrir er Dataverse umhverfi](/power-platform/admin/copy-environment), sem er tengt við sjálfstæða mannauðsappið, við umhverfið sem þú bjóst til í fyrra skrefi.
+> [!NOTE]
+> Þegar þú bætir við gagnagrunni skaltu ganga úr skugga um að **Virkjaðu Dynamics 365 forrit** valkostur er stilltur á **Já**. Fyrir nákvæmar upplýsingar, sjá [Undirbúa a Power Platform umhverfi](hr-cust-migration.md#prepare-a-power-platform-environment)
 
 ### <a name="dataverse-capacity"></a>Dataverse getu
 
@@ -89,9 +88,9 @@ Eftir að nýtt Lifecycle Services verkefni hefur verið búið til og innleiði
 #### <a name="prepare-a-power-platform-environment"></a>Undirbúa a Power Platform umhverfi
 
 > [!NOTE]
-> Þetta skref á aðeins við um flutning á sandkassaumhverfi. Þegar þú flytur framleiðsluumhverfið, það sem fyrir er Power Platform stjórnendaumhverfi sem er tengt framleiðsluumhverfinu verður flutt áfram.
+> Þetta skref á aðeins við um flutning á sandkassaumhverfi. Þegar þú flytur framleiðsluumhverfið, það sem fyrir er Power Platform stjórnendaumhverfi sem er tengt framleiðsluumhverfinu verður flutt áfram. Þegar þú bætir við gagnagrunni skaltu ganga úr skugga um að **Virkjaðu Dynamics 365 forrit** hnappur er stilltur á **Já**. 
 
-- Í stjórnunarmiðstöð Power pallsins, [búa til Power platform umhverfi](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) til að nota fyrir sandkassaflutning, eða veldu núverandi umhverfi.
+- Í stjórnunarmiðstöð Power pallsins, [búa til umhverfi með gagnagrunni](/power-platform/admin/create-environment#create-an-environment-with-a-database) til að nota fyrir sandkassaflutning, eða veldu núverandi umhverfi.
 - [Afritaðu umhverfi](/power-platform/admin/copy-environment) að hressa upp á Power Platform umhverfi sem er notað við kortlagningu.
 
 #### <a name="migrate-the-sandbox-environment"></a>Flyttu sandkassaumhverfið
@@ -165,12 +164,12 @@ Eftir að þú hefur lokið við að flytja og staðfesta sandkassaumhverfi skal
 1. Skráðu þig inn á Lifecycle Services sem alþjóðlegur stjórnandi eða tilnefndur notandi þjónustureiknings.
 
     > [!NOTE]
-    > Við mælum með að þú notir nafngreindan notandareikning. Innskráður notandi ætti að hafa **Verkeigandi** eða **Umhverfisstjóri** öryggishlutverk í verkefninu Lifecycle Services.
+    > Við mælum með að þú notir nafngreindan notandareikning. Innskráður notandi ætti að hafa **Verkeigandi** eða **Umhverfisstjóri** öryggishlutverk í Lifecycle Services verkefninu.
 
 2. Opnaðu nýja mannauðsflutningaverkefnið.
 3. Farðu yfir og ljúktu við viðeigandi stigum flutningsaðferðafræðinnar og innleiðingu verkefna.
 4. Á stjórnborði verkefnisins, í **Framleiðsla** rúðu, veldu **Flytja HR**.
-5. Í **Veldu umhverfi til að flytja** veldu viðeigandi Lifecycle Services verkefni og upprunalega mannauðsumhverfið (frá sjálfstæðu mannauðsforritinu þínu). Veljið síðan **Næst**.
+5. Í **Veldu umhverfi til að flytja** veldu viðeigandi Lifecycle Services verkefni og upprunalega mannauðsumhverfið (frá sjálfstæða mannauðsforritinu þínu). Veljið síðan **Næst**.
 6. Ljúktu við **Dreifingarstillingar (fjármál og rekstur – sandkassi)** töframaður til að staðfesta upplýsingar og afskráningu viðskiptavina, og veldu síðan **Dreifa**.
 
 Umhverfisríkið mun sýna framvindu dreifingarinnar. Ríkinu verður breytt frá **Hleðsla** til **Dreifing** til **Dreifður**.
@@ -202,7 +201,7 @@ Umhverfisríkið mun sýna framvindu dreifingarinnar. Ríkinu verður breytt fr�
 14. Veldu gátreitinn til að samþykkja þjónustuskilmálana og veldu síðan **Settu upp**.
 15. Í Dynamics 365 app umhverfinu verður staðan **Er að setja upp** meðan uppsetning er í gangi. Það verður uppfært til **Uppsett** þegar uppsetningu er lokið.
 
-##### <a name="review-and-apply-a-dual-write-solution"></a>Skoðaðu og notaðu tvískrifa lausn
+##### <a name="review-and-apply-a-dual-write-solution"></a>Skoðaðu og notaðu tvískrifalausn
 
 1. Í nýju fjármála- og rekstrarumhverfi, farðu til **Gagnastjórnun \> Tvöfalt skrifa**.
 2. Veldu **Notaðu lausn**.
@@ -218,7 +217,7 @@ Umhverfisríkið mun sýna framvindu dreifingarinnar. Ríkinu verður breytt fr�
 - Skipuleggðu viðeigandi tíma til að gera fulla notendasamþykkisprófun (UAT) á sandkassaflutta umhverfinu.
 - Skipuleggðu og skjalfestu ítarleg skref til að flytja samþættingar yfir í flutta umhverfið.
 - Búðu til ítarlegan gátlista til að útlista niðurskurðarferlið fyrir flutninginn þinn.
-- Skipuleggðu hæfilegan tíma fyrir fyrirtæki þitt á meðan þú gerir flutninginn.
+- Skipuleggðu viðeigandi magn af niður í miðbæ fyrir fyrirtæki þitt á meðan þú gerir flutninginn.
 - Við mælum eindregið með því að FastTrack-hæfir viðskiptavinir vinni með FastTrack lausnararkitektinum sínum til að fá aðstoð við að hafa umsjón með flutningsferlinu.
 - Við mælum eindregið með því að þú endurnýjar sandkassaumhverfið þitt í sjálfstæðum innviðum áður en þú gerir fyrstu flutninginn. Þessi endurnýjun ætti að innihalda þitt Dataverse umhverfi sem er tengt við sandkassaumhverfið sem þú ætlar að flytja til.
 - Við mælum eindregið með því að þú notir þjónustureikning þegar þú dreifir, flytur og býrð til Lifecycle Services verkefnið þitt.

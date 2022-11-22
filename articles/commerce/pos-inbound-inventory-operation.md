@@ -2,26 +2,19 @@
 title: Birgðaaðgerð á innleið á sölustað
 description: Þessi grein lýsir getu sölustaða (POS) birgðaaðgerða á innleið.
 author: hhainesms
-ms.date: 09/17/2020
+ms.date: 11/16/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: hhaines
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.9
-ms.custom: ''
-ms.assetid: ''
-ms.search.industry: Retail
-ms.search.form: ''
-ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 7999c8409c71c7ccf9c1d44bd86ddca6f5e8f6ff
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288353"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785019"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Birgðaaðgerð á innleið á sölustað
 
@@ -31,6 +24,11 @@ ms.locfileid: "9288353"
 
 > [!NOTE]
 > Í Commerce útgáfu 10.0.10 og nýrri, verður öllum nýjum eiginleikum í forriti sölustaðar sem tengjast því að taka á móti birgðum verslunar vegna innkaupapantana og flutningspantana bætt við sölustaðaraðgerðina **Aðgerð á innleið**. Ef þú ert að nota tiltektar- og móttökuaðgerðina í POS mælum við með að þú þróir stefnu til að fara frá þeirri aðgerð yfir í nýju aðgerðirnar á inn- og útleið. Þó að tiltektar- og móttökuaðgerðin verði ekki fjarlægð úr vörunni verða engar frekari fjárfestingar í henni, frá sjónarhorni virkni eða afköstum, eftir útgáfu 10.0.9.
+
+Eftirfarandi myndband veitir yfirlit yfir viðskiptaferli og getu verslana í birgðum í Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSx]
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Forsenda: Stilla ósamstilltan skjalaramma
 

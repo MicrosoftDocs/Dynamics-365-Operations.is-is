@@ -2,7 +2,7 @@
 title: Setja upp innbót birgðasýnileika
 description: Þessi grein lýsir því hvernig á að setja upp Inventory Visibility Add-in fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
-ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
-ms.translationtype: MT
+ms.openlocfilehash: c08568b14d7f5c79a1d3609107a88f905498ce2b
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/01/2022
-ms.locfileid: "9388541"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762782"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Setja upp Inventory Visibility
 
@@ -24,7 +24,7 @@ ms.locfileid: "9388541"
 
 Þessi grein lýsir því hvernig á að setja upp Inventory Visibility Add-in fyrir Microsoft Dynamics 365 Supply Chain Management.
 
-Þú verður að nota Microsoft Dynamics Lifecycle Services (LCS) til að setja upp innbót birgðasýnileika. LCS er samstarfsgátt sem býður upp á umhverfi ásamt safni af reglulega uppfærðum þjónustum sem hjálpa til við að stjórna líftíma forrits fyrir fjármála- og rekstrarforritin þín. Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+Þú verður að nota [Microsoft Dynamics Lífsferilsþjónusta](https://lcs.dynamics.com/v2) til að setja upp Inventory Visibility Add-in. Lifecycle Services er samstarfsgátt sem býður upp á umhverfi og safn af reglulega uppfærðum þjónustu sem hjálpa þér að stjórna líftíma forrita fjármála- og rekstrarforrita. Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 > [!TIP]
 > Við mælum með því að þú skráir þig í Inventory Visibility Add-in notendahópinn, þar sem þú getur fundið gagnlegar leiðbeiningar, fengið nýjustu uppfærslurnar okkar og sent inn allar spurningar sem þú gætir haft um notkun Birgðasýnileika. Til að taka þátt, vinsamlegast sendu tölvupóst til vöruteymisins Birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) og hafðu með þér auðkenni birgðakeðjustjórnunarumhverfis.
@@ -33,7 +33,7 @@ ms.locfileid: "9388541"
 
 Áður en þú setur upp birgðasýnileika verður þú að ljúka eftirfarandi verkum:
 
-- Fáðu LCS-innleiðingarverk þar sem a.m.k. eitt umhverfi er uppsett.
+- Fáðu innleiðingarverkefni líftímaþjónustu þar sem að minnsta kosti eitt umhverfi er notað.
 - Vertu viss um að lokið hafi verið við skilyrðin fyrir uppsetningu innbóta. Upplýsingar um þessar forsendur er að finna í [Yfirlit innbóta](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). Sýnileiki birgða krefst ekki tengingu tvöföldrar skráningar.
 
 > [!NOTE]
@@ -43,26 +43,26 @@ Ef einhverjar spurningar vakna um þessi skilyrði skaltu hafa samband við vör
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Setja upp innbót birgðasýnileika
 
-Áður en þú setur upp innbótina skaltu skrá forrit og bæta leyniorði biðlara við Azure Active Directory (Azure AD) undir Azure-áskriftinni þinni. Leiðbeiningar er að finna í [Skrá forrit](/azure/active-directory/develop/quickstart-register-app) og [Bæta við leyniorði biðlara](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Vertu viss um að skrá þig í **Auðkenni umsóknar (viðskiptavinar).**, **viðskiptavinar**, og **Auðkenni leigjanda** gildi, því þú þarft á þeim að halda síðar.
+Áður en þú setur upp innbótina skaltu skrá forrit og bæta leyniorði biðlara við Azure Active Directory (Azure AD) undir Azure-áskriftinni þinni. Leiðbeiningar er að finna í [Skrá forrit](/azure/active-directory/develop/quickstart-register-app) og [Bæta við leyniorði biðlara](/azure/active-directory/develop/quickstart-register-app#add-a-certificate). Vertu viss um að taka mið af **Auðkenni umsóknar (viðskiptavinar).**, **viðskiptavinar**, og **Auðkenni leigjanda** gildi, því þú þarft á þeim að halda síðar.
 
 > [!IMPORTANT]
-> Ef þú ert með fleiri en eitt LCS umhverfi skaltu búa til annað Azure AD umsókn fyrir hvert þeirra. Ef þú notar sama forritskennið og leigjandakennið til að setja upp innbót birgðasýnileika fyrir mismunandi umhverfi mun koma upp vandamál varðandi lykla fyrir eldri umhverfi. Þar af leiðandi mun aðeins síðasta uppsetningin gilda.
+> Ef þú ert með fleiri en eitt Lifecycle Services umhverfi skaltu búa til annað Azure AD umsókn fyrir hvert þeirra. Ef þú notar sama forritsauðkenni og leigjandaauðkenni til að setja upp birgðasýnileikaviðbótina fyrir mismunandi umhverfi, mun táknvandamál eiga sér stað fyrir eldra umhverfi. Þar af leiðandi mun aðeins síðasta uppsetningin gilda.
 
 Eftir að þú hefur skráð forrit og bætt leyniorði biðlara við Azure AD skaltu fylgja þessum skrefum til að setja upp innbót birgðasýnileika.
 
-1. Skráðu þig inn í [LCS](https://lcs.dynamics.com/Logon/Index).
+1. Skrá inn [Lífsferilsþjónusta](https://lcs.dynamics.com/Logon/Index).
 1. Á heimasíðunni skal velja verkið þar sem umhverfið er í notkun.
 1. Á verksíðunni skal velja umhverfið þar sem á að setja upp innbótina.
 1. Á heimasíðu umhverfisins skal fletta niður þar til þú finnur hlutann **Innbætur umhverfis** í hlutanum **Power Platform samþætting**. Þar má finna heiti Dataverse umhverfisins. Staðfestu að heiti Dataverse umhverfis er það sem þú vilt nota fyrir birgðasýnileika.
 
     > [!NOTE]
-    > Sem stendur eru aðeins Dataverse umhverfi studd sem hafa verið búin til með því að nota LCS. Ef þín Dataverse umhverfi var búið til á annan hátt (til dæmis með því að nota PowerApps Admin Center), og ef það er tengt við Supply Chain Management umhverfið þitt, verður þú fyrst að laga kortlagningarvandann áður en þú setur upp Inventory Visibility Add-in.
+    > Eins og er, aðeins Dataverse umhverfi sem var búið til með því að nota Lifecycle Services eru studd. Ef þín Dataverse umhverfi var búið til á annan hátt (til dæmis með því að nota PowerApps Admin Center), og ef það er tengt við Supply Chain Management umhverfið þitt, verður þú fyrst að laga kortlagningarvandann áður en þú setur upp Inventory Visibility Add-in.
     >
-    > Það er mögulegt að dual-write umhverfið þitt sé tengt við a Dataverse dæmi á meðan LCS er ekki sett upp fyrir Power Platform samþættingu. Þetta ósamræmi við tengingar getur valdið óvæntri hegðun. Við mælum með því að upplýsingar um LCS umhverfið passi við það sem þú ert tengdur við í tvískrift svo að sömu tengingin geti verið notuð af viðskiptaviðburðum, sýndarborðum og viðbótum. Sjáðu [Ósamræmi við tengingar](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) til að fá upplýsingar um hvernig eigi að laga kortlagningarvandann. Þegar kortlagningarvandamálið er leyst geturðu haldið áfram að setja upp Birgðasýnileika.
+    > Það er mögulegt að dual-write umhverfið þitt sé tengt við a Dataverse dæmi á meðan Lifecycle Services er ekki sett upp fyrir Power Platform samþættingu. Þetta ósamræmi við tengingar getur valdið óvæntri hegðun. Við mælum með því að upplýsingar um líftímaþjónustu umhverfisins passi við það sem þú ert tengdur við í tvískrift svo hægt sé að nota sömu tenginguna fyrir viðskiptaviðburði, sýndartöflur og viðbætur. Sjáðu [Ósamræmi við tengingar](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) til að fá upplýsingar um hvernig eigi að laga kortlagningarvandann. Þegar kortlagningarvandamálið er leyst geturðu haldið áfram að setja upp Birgðasýnileika.
 
 1. Í hlutanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
 
-    ![Heimasíða umhverfis í LCS](media/inventory-visibility-environment.png "Heimasíða umhverfis í LCS")
+    ![Umhverfissíða í Lifecycle Services](media/inventory-visibility-environment.png "Umhverfissíða í Lifecycle Services")
 
 1. Veldu tengilinn **Setja upp nýja innbót**. Listi yfir tiltækar innbætur birtist.
 1. Í listanum skal velja **Birgðasýnileika**.
@@ -78,23 +78,25 @@ Eftir að þú hefur skráð forrit og bætt leyniorði biðlara við Azure AD s
 1. Í Dataverse skal velja hlutann **Forrit** í vinstra yfirlitinu og staðfesta að **Birgðasýnileiki** Power Apps sé uppsettur. Ef hlutinn **Forrit** er ekki til skal hafa samband við afurðateymi birgðasýnileika í [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!NOTE]
-> Ef það tekur meira en klukkutíma að setja upp frá LCS síðunni, þá skortir notendareikninginn þinn líklega leyfi til að setja upp lausnir í Dataverse umhverfi. Fylgdu þessum skrefum til að leysa málið:
+> Ef kerfið varar þig við því að þú hafir ekki heimild til að setja upp Birgðasýnileika á Lifecycle Services, verður þú að hafa samband við kerfisstjórann til að breyta heimildinni þinni.
 >
-> 1. Hætta við uppsetningarferli birgðasýnileikaviðbóta á LCS síðunni.
-> 1. Skráðu þig inn á [Microsoft 365 stjórnendamiðstöð](https://admin.microsoft.com) og vertu viss um að notendareikningurinn sem þú vilt nota til að setja upp viðbótina hafi "Dynamics 365 Unified Operations Áætlunarleyfi“ sem henni er úthlutað. Úthlutaðu leyfinu ef þörf krefur.
+> Ef það tekur meira en klukkutíma að setja upp frá Lifecycle Services síðunni, þá skortir notendareikninginn þinn líklega leyfi til að setja upp lausnir í Dataverse umhverfi. Fylgdu þessum skrefum til að leysa málið:
+>
+> 1. Hætta við uppsetningarferlið Birgðasýnileikaviðbót af síðunni Lifecycle Services.
+> 1. Skráðu þig inn á [Microsoft 365 stjórnendamiðstöð](https://admin.microsoft.com) og vertu viss um að notendareikningurinn sem þú vilt nota til að setja upp viðbótina hafi "Dynamics 365 Unified Operations Plan" leyfi sem henni er úthlutað. Úthlutaðu leyfinu ef þörf krefur.
 > 1. Skráðu þig inn á [Power Platform stjórnendamiðstöð](https://admin.powerplatform.microsoft.com) með því að nota viðkomandi notandareikning. Settu síðan upp birgðasýnileikaviðbótina með því að gera eftirfarandi skref:
 >     1. Veldu umhverfið þar sem þú vilt setja viðbótina upp.
 >     1. Veldu **Dynamics 365 forrit**.
 >     1. Veldu **Settu upp app**.
 >     1. Veldu **Birgðasýnileiki**
 >
-> 1. Eftir að uppsetningunni er lokið, farðu aftur á LCS síðuna og reyndu aftur að setja upp aftur **Birgðasýnileiki** Bæta við.
+> 1. Eftir að uppsetningunni er lokið, farðu aftur á síðu Lifecycle Services og reyndu aftur að setja upp aftur **Birgðasýnileiki** Bæta við.
 
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Setja upp birgðasýnileika í Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Nota samþættingarpakka birgðasýnileika
 
-Ef keyrð er útgáfa 10.0.17 eða eldri af Supply Chain Management skal hafa samband við stuðningshóp vegna innleiðingar birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) til að fá skráarpakkann. Virkjaðu svo pakkann í LCS.
+Ef keyrð er útgáfa 10.0.17 eða eldri af Supply Chain Management skal hafa samband við stuðningshóp vegna innleiðingar birgðasýnileika á [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) til að fá skráarpakkann. Dreifðu síðan pakkanum í Lifecycle Services.
 
 > [!NOTE]
 > Ef villa vegna misræmis útgáfu kemur upp í uppsetningunni þarf að flytja inn handvirkt X++ verkið í þróunarumhverfið. Síðan skal stofna virkjanlega pakkann í þróunarumhverfinu og setja hann upp í þróunarumhverfinu.
@@ -135,18 +137,18 @@ Til að fjarlægja birgðasýnileikaviðbótina skaltu fylgja þessum skrefum:
 
 1. Skráðu þig inn í Supply Chain Management.
 1. Fara til **Vörustjórnun \> Reglubundið \> Sameining birgðasýnileika** og slökkva á starfinu.
-1. Farðu í LCS og opnaðu síðuna fyrir umhverfið þar sem þú vilt fjarlægja viðbótina (sjá einnig [Settu upp birgðasýnileikaviðbótina](#install-add-in)).
+1. Farðu í Lifecycle Services og opnaðu síðuna fyrir umhverfið þar sem þú vilt fjarlægja viðbótina (sjá einnig [Settu upp birgðasýnileikaviðbótina](#install-add-in)).
 1. Veldu **Fjarlægðu**.
-1. Fjarlægingarferlið slítur nú birgðasýnileikaviðbótinni, afskrár viðbótina frá LCS og eyðir öllum tímabundnum gögnum sem eru geymd í gagnaskyndiminni fyrir birgðasýnileikaviðbót. Hins vegar eru aðalbirgðagögn sem voru samstillt við þitt Dataverse áskrift er enn geymd þar. Til að eyða þessum gögnum skaltu ljúka restinni af þessari aðferð.
+1. Fjarlægingarferlið slítur nú birgðasýnileikaviðbótinni, afskrár viðbótina frá Lifecycle Services og eyðir öllum tímabundnum gögnum sem eru geymd í gagnaskyndiminni fyrir birgðasýnileikaviðbót. Hins vegar eru aðalbirgðagögn sem voru samstillt við þitt Dataverse áskrift er enn geymd þar. Til að eyða þessum gögnum skaltu ljúka restinni af þessari aðferð.
 1. Opnið [Power Apps](https://make.powerapps.com).
-1. Veldu **Umhverfi** á siglingastikunni
-1. Veldu Dataverse umhverfi sem er tengt LCS umhverfi þínu.
+1. Veldu **Umhverfi** á siglingastikunni.
+1. Veldu Dataverse umhverfi sem er tengt líftímaþjónustuumhverfi þínu.
 1. Fara til **Lausnir** og eyða eftirfarandi lausnum í eftirfarandi röð:
-    1. Dynamics 365 Birgðasýnileiki - Akkeri
-    1. Dynamics 365 Birgðasýnileiki - Forrit
-    1. Dynamics 365 Birgðasýnileiki - Stýringar
-    1. Dynamics 365 Birgðasýnileiki - Viðbætur
-    1. Dynamics 365 Birgðasýnileiki - Grunnur
+    1. Dynamics 365 Birgðasýnileiki – Akkeri
+    1. Dynamics 365 Birgðasýnileiki – Viðbætur
+    1. Dynamics 365 Birgðasýnileiki – Forrit
+    1. Dynamics 365 Birgðasýnileiki – Stýringar
+    1. Dynamics 365 Birgðasýnileiki – Grunnur 
 
     Þegar þú eyðir þessum lausnum er gögnum sem geymd eru í töflum einnig eytt.
 
@@ -155,7 +157,7 @@ Til að fjarlægja birgðasýnileikaviðbótina skaltu fylgja þessum skrefum:
 
 ## <a name="clean-inventory-visibility-data-from-dataverse-before-restoring-the-supply-chain-management-database"></a><a name="restore-environment-database"></a> Hreinsaðu birgðasýnileikagögn frá Dataverse áður en þú endurheimtir Supply Chain Management gagnagrunninn
 
-Ef þú hefur verið að nota Birgðasýnileika og endurheimtir síðan Supply Chain Management gagnagrunninn þinn, þá gæti endurheimti gagnagrunnurinn innihaldið gögn sem eru ekki lengur í samræmi við gögn sem áður voru samstillt af Birgðasýnileika við Dataverse. Þetta ósamræmi í gögnum getur valdið kerfisvillum og öðrum vandamálum. Þess vegna er mikilvægt að þú hreinsar alltaf öll birgðasýnileikagögn úr Dataverse áður en þú endurheimtir Supply Chain Management gagnagrunn.
+Ef þú hefur verið að nota Birgðasýnileika og endurheimtir síðan Supply Chain Management gagnagrunninn þinn, þá gæti endurheimti gagnagrunnurinn þinn innihaldið gögn sem eru ekki lengur í samræmi við gögn sem áður voru samstillt af Birgðasýnileika við Dataverse. Þetta ósamræmi í gögnum getur valdið kerfisvillum og öðrum vandamálum. Þess vegna er mikilvægt að þú hreinsar alltaf öll birgðasýnileikagögn úr Dataverse áður en þú endurheimtir Supply Chain Management gagnagrunn.
 
 Ef þú þarft að endurheimta Supply Chain Management gagnagrunn skaltu nota eftirfarandi aðferð:
 

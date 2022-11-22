@@ -2,23 +2,23 @@
 title: Gera upp fyrirframdagsetta ávísun frá viðskiptavini
 description: Hægt er að gera upp fyrirframdagsetta ávísun eftir ávísunin hefur verið samþykkt af bankanum.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustPostDatedChecks, SystemDate, LedgerJournalTable, LedgerJournalTransDaily, LedgerTransVoucher
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 896d19eb9bc53cc4987d7a500f221cca06aa11db
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
-ms.translationtype: MT
+ms.openlocfilehash: 9e61ac6d6785dd0383d5e5dcaca4cc55bf6deb52
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725374"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780016"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Gera upp fyrirframdagsetta ávísun frá viðskiptavini
 
@@ -40,17 +40,17 @@ Hlutverk þetta leiðbeiningar fyrir verk er Gjaldkera.
 
 Þessi aðferð notar sýnigögn USMF fyrirtækisins.
 
-1. Fara í Skuldir og innheimta > Fyrirspurnir og skýrslur > Greiðslur > Fyrirframdagsettar ávísanir viðskiptavinar.
-2. Smellt er á Gera upp.
-3. Smellt er á Gera upp jöfnunarfærslur.
+1. Fara til **Lánsfé og innheimtur > Fyrirspurnir og skýrslur > Greiðslur > Uppfærðar ávísanir viðskiptavina**.
+2. Smellur **Gera upp**.
+3. Smellur **Jafna hreinsunarfærslur**.
     * Gera upp viðskiptavinalykil fyrir ávísunarfærsluna.  
 4. Lokið síðunni.
-5. Fara í fjárhag > Færslubókarfærslur > Almennar færslubækur.
-6. Í reitnum Sýna skal velja valkost.
-7. Veldu eða hreinsaðu gátreitinn Sýna aðeins notanda-stofnað.
+5. Farðu í **Fjárhag > Færslubókarfærslur > Almennar færslubækur**.
+6. Í **Sýna** reit, veldu valkost.
+7. Veldu eða hreinsaðu **Sýna aðeins notendur búið til** gátreit.
 8. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-9. Smellið á Línur.
-10. Smellt er á Fylgiskjalið.
+9. Smellið á **Línur**.
+10. Smellt er á **Fylgiskjal**.
 11. Lokið síðunni.
 
 

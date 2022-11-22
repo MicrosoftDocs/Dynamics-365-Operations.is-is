@@ -2,7 +2,7 @@
 title: Stofna kostnaðareiningar
 description: Það eru nokkrar aðferðir til að stofna kostnaðareiningar í kostnaðarbókhaldi.
 author: kfend
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
-ms.openlocfilehash: 9ca826e54171a3dc3582dc5ceb716ac009d45674
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.openlocfilehash: 0254f486816e852bcda52f90fe4da65c413c7032
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280721"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779690"
 ---
 # <a name="create-cost-elements"></a>Stofna kostnaðareiningar 
 
@@ -28,31 +28,31 @@ ms.locfileid: "9280721"
 
 
 ## <a name="create-new-cost-elements"></a>Stofna nýtt kostnaðareiningar
-1. Fara í kostnaðarbókhald > Víddir > Víddir kostnaðareininga.
-2. Smellið á „Nýtt“.
-3. Í reitinn Heiti skal slá inn gildi.
-4. Í reitinn gagnatengi fyrir víddarstök skal slá inn eða velja gildi.
-5. Sláið inn gildi í reitnum „Lýsing“.
-6. Smellið á „Vista“.
+1. Fara til **Kostnaðarbókhald > Víddir > Víddir kostnaðarþáttar**.
+2. Smellt er á **Nýtt**.
+3. Í reitinn **Heiti** skal slá inn gildi.
+4. Í **Gagnatengi fyrir víddarmeðlimi** reit, sláðu inn eða veldu gildi.
+5. Í reitinn **Lýsing** skal slá inn gildi.
+6. Smelltu á **Vista**.
 
 ## <a name="configure-the-data-connector"></a>Stilla gagnatengi
-1. Smelltu á Skilgreina víddarstakaveitu
-2. Sláið inn eða veljið gildi í reitnum Bókhaldslykill.
-    * Velja samnýtt til að nota samnýttar bókhaldslykla.  
-3. Smellið á „Nýtt“.
+1. Smellur **Stilla víddarmeðlimaveitu**.
+2. Í **Reikningsyfirlit** reit, sláðu inn eða veldu gildi.
+    * Veldu **Deilt** að nota sameiginlega reikningsyfirlitið.  
+3. Smellt er á **Nýtt**.
 4. Í listanum skal merkja valda línu.
     * Hægt er að nota síur á lykla sem uppfylla skilyrðin.  
-5. Sláið inn eða veljið gildi í reitnum úr aðallykli.
-6. Sláið inn eða veljið gildi í reitnum Til aðallykils.
-7. Smellið á „Í lagi“.
+5. Í **Af aðalreikningi** reit, sláðu inn eða veldu gildi.
+6. Í **Að aðalreikningi** reit, sláðu inn eða veldu gildi.
+7. Smellt er á **OK**.
 
 ## <a name="import-main-accounts"></a>Flytja inn aðallykla
-1. Smelltu á Flytja inn víddarstök.
+1. Smellur **Flytja inn víddarmeðlimi**.
     * Aðallyklar verða fluttir inn í kostnaðarbókhald og notað sem kostnaðareiningar.  
-2. Smellið á „Í lagi“.
+2. Smellt er á **OK**.
 
 ## <a name="view-the-imported-accounts-as-cost-elements"></a>Skoða innflutta lykla sem kostnaðareiningar
-1. Smelltu á Skoða víddarstök.
+1. Smellur **Skoða víddarmeðlimi**.
     * Lítið á innflutt fjárhagslykla sem kostnaðareiningar í fyrirtækinu sem kostnaður getur streymt inn í.  
 
 

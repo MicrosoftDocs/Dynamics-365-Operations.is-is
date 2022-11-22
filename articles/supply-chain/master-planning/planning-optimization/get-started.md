@@ -1,5 +1,5 @@
 ---
-title: Byrjaðu á aðalskipulagi
+title: Hafist handa með aðaláætlanagerð
 description: Þessi grein útskýrir hvernig á að byrja að nota aðalskipulagsvirkni í Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 05/20/2021
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
-ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.openlocfilehash: 4b986461e90b356580da8a136c1da95e7dc64696
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/03/2022
-ms.locfileid: "9740330"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780306"
 ---
-# <a name="get-started-with-master-planning"></a>Byrjaðu á aðalskipulagi
+# <a name="get-started-with-master-planning"></a>Hafist handa með aðaláætlanagerð
 
 [!include [banner](../../includes/banner.md)]
 
@@ -31,7 +31,7 @@ Aðalskipulag í birgðakeðjustjórnun er veitt af ytri þjónustu sem kallast 
 
 ## <a name="availability"></a>Framboð
 
-Hagræðing áætlanagerðar er eins og er fáanleg í eftirfarandi Azure landsvæðum: Bandaríkjunum, Kanada, Brasilíu, Evrópu, Frakklandi, Bretlandi, Ástralíu, KyrrahafsAsíu, Japan og Indlandi. Ef reynt er að setja upp innbæturnar á öðru svæði birtir LCS skilaboð um að svæðið sé ekki stutt. Fyrir frekari upplýsingar um Azure landsvæði og tengd svæði, sjá [Azure landsvæði](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
+Áætlanagerð fínstilling er eins og er fáanleg í eftirfarandi Azure landsvæðum: Bandaríkjunum, Kanada, Brasilíu, Evrópu, Frakklandi, Bretlandi, Noregi, Sviss, Ástralíu, Kyrrahafi Asíu, Japan og Indlandi. Ef reynt er að setja upp innbæturnar á öðru svæði birtir LCS skilaboð um að svæðið sé ekki stutt. Fyrir frekari upplýsingar um Azure landsvæði og tengd svæði, sjá [Azure landsvæði](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 Athugið að fínstilling áætlanagerðar styður ekki uppsetningu á staðnum á Dynamics 365 Supply Chain Management.
 
@@ -104,7 +104,7 @@ Stilling á valkostinum **Nota fínstillingu skipulags** ákvarðar hvaða áæt
 Þessi stilling gildir um alla lögaðila (fyrirtæki). Ekki er hægt að nota áætlanagerð fínstillingu í sumum lögaðilum og úrelta aðalskipulagsvél í öðrum lögaðilum.
 
 > [!NOTE]
-> Ef fyrirliggjandi runuvinnslur áætlanagerðar sem voru stofnaðar fyrir úrelda aðalskipulagsvél eru ræst á meðan **Notaðu hagræðingu áætlanagerðar** valkostur er stilltur á **Já**, munu þau störf mistakast.
+> Ef fyrirliggjandi runuvinnslur áætlanagerðar sem voru búnar til fyrir úreltu aðalskipulagsvélina eru ræst á meðan **Notaðu hagræðingu áætlanagerðar** valkostur er stilltur á **Já**, munu þau störf mistakast.
 
 ### <a name="integration-with-the-setup"></a>Samþætting við uppsetninguna
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14564
 ms.assetid: d9984cef-ddcf-46bd-816d-c01b8cc5cf48
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a5ecf69c83805834c01c03d0af9b7b8c5310920
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
-ms.translationtype: MT
+ms.openlocfilehash: 44f64b9b9cd4fa65d17ba30fb87a688411becd5a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725094"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780248"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Jafna hlutgreiðslu viðskiptavinar sem er með afslætti á kreditnótum
 
@@ -35,20 +35,20 @@ Viðskiptavinur 4035 er með reikning fyrir 1.000,00 og kreditnótu fyrir 100,00
 
 | Fylgiskjal    | Færslugerð | Dagsetning      | Reikningur  | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða  | Gjaldmiðill |
 |------------|------------------|-----------|----------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10050  | Reikningur          | 6/28/2015 | 10050    | 1.000,00                             |                                       | 1.000,00 | USD      |
-| CCRN-10050 | Kreditnóta      | 6/28/2015 | CR-10050 |                                      | 100,00                                | -100,00  | USD      |
+| FTI-10050  | Reikningur          | 6/28/2020 | 10050    | 1,000.00                             |                                       | 1,000.00 | USD      |
+| CCRN-10050 | Kreditnóta      | 6/28/2020 | CR-10050 |                                      | 100.00                                | -100,00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Jafna kreditnótuna við reikning
 Úr **viðskiptavinafærslur** síðuna opnar Arnie **Jafna færslur** síðu. Arnie getur nota í **Jafna færslur** síðu til að jafna reikninginn og kreditnótu. Hluti af jöfnunarferlinu er að Arni skoðar dagsetningar staðgreiðsluafslátts og upphæðir. Arnie merkir tvö skjöl og smellir svo á **Bóka** til að jafna færslur. Það Er afsláttur -1.00 á kreditnótu, þar sem Fabrikam leyfir afslátt á kreditnótum.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal    | Reikningur | Dagsetning      | Gjalddagi  | Reikningur  | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
-| Valið | Venjulegt            | FTI-10050  | 4035    | 6/28/2015 | 7/28/2015 | 10050    | 1.000,00                       | USD      | 990,00           |
-| Valið | Venjulegt            | CCRN-10050 | 4035    | 6/28/2015 | 7/28/2015 | CR-10050 | -100,00                        | USD      | 99,00           |
+| Valið | Venjulegt            | FTI-10050  | 4035    | 6/28/2020 | 7/28/2020 | 10050    | 1,000.00                       | USD      | 990.00           |
+| Valið | Venjulegt            | CCRN-10050 | 4035    | 6/28/2020 | 7/28/2020 | CR-10050 | -100,00                        | USD      | 99,00           |
 
 Afsláttarupplýsingarnar birtist neðst á **Jafna færslur** síðunni.
 
-- **Dagsetning staðgreiðsluafsláttar**: 12/07/2015 
+- **Dagsetning staðgreiðsluafsláttar** : 12.7.2020 
 - **Upphæð staðgreiðsluafsláttar**: -1.00     
 - **Nota staðgreiðsluafslátt**: Venjulegt    
 - **Notaður staðgreiðsluafsláttur**: 0.00      

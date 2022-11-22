@@ -2,28 +2,23 @@
 title: Yfirlit yfir biðlaraþjónustu
 description: Þessi grein veitir yfirlit yfir nýja möguleika á viðskiptavinum sem eru fáanlegir í verslunarforritinu.
 author: bebeale
-ms.date: 02/01/2021
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "260624"
 - intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
-ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc7daeb27c25efa21fd34b0456af8892074056d5
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885612"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785046"
 ---
 # <a name="clienteling-overview"></a>Yfirlit yfir biðlaraþjónustu
 
@@ -31,6 +26,11 @@ ms.locfileid: "8885612"
 
 
 Margir smásalar, sérstaklega smásalar með dýra sérvöru, vilja að söluaðilar þeirra myndi langtímasambönd við helstu viðskiptavini sína. Búist er við að söluaðilarnir þekki hvað viðskiptavinunum líkar og líkar ekki, kaupsögu þeirra, vöruval og mikilvægar dagsetningar, eins og brúðkaupsafmæli og afmæli. Söluaðilar þurfa stað þar sem þeir geta náð þessum upplýsingum og finna þær auðveldlega þegar þess er krafist. Ef þessar upplýsingar eru tiltækar á stökum skjá geta söluaðilarnir auðveldlega miðað við viðskiptavini sem uppfylla ákveðin skilyrði. Til dæmis geta þeir fundið alla viðskiptavini sem kjósa að kaupa handtöskur, eða viðskiptavini sem hafa mikilvægan viðburð framundan, eins og brúðkaupsafmæli eða afmæli.
+
+Eftirfarandi myndband gengur í gegnum dæmi um viðskiptavinur í Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSP]
 
 ## <a name="client-book"></a>Biðlarabók
 
@@ -81,7 +81,7 @@ Fylgdu þessum skrefum til að kveikja á viðskiptavinarvirkni í umhverfi þí
     - Stilltu skjáröð fyrir þessa eiginleika. Þessi skjáröð ákvarðar hvaða eiginleikar ættu að birtast á viðskiptavinaspjaldinu í viðskiptavinabókinni. Skjáröð 1 er talin hærri en skjáröð 2. Þess vegna verður eigindin sem hefur skjáröð 1 sýnd á undan eigindinni sem hefur skjáröð 2.
 
     > [!NOTE]
-    > Þú getur gert Customer Insights aðgengileg af sömu síðu. Samt sem áður verður að búa til auðkenni Azure forrits og leyndarmál, til að sannprófa. (Fyrir upplýsingar um kröfurnar, sjá [Kveiktu á samþættingu Customer Insights við Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) kafla síðar í þessari grein.) Ef kveikt er á Customer Insights og þú velur eina eða fleiri mælikvarða sem eiga að birtast á viðskiptamannaspjaldinu, þá verða þessar mælingar sýndar fyrst. Næst verða eigindahópar viðskiptavinarbókar sýndir, byggðar á skjáröðuninni. Til dæmis, ef þú velur tvo mælikvarða úr Customer Insights, þá verða þeir tveir mælikvarðar og ein eigind viðskiptavinarbókar sýndir á viðskiptavini kortinu. (Einkenni viðskiptavinarbókarinnar sem er sýndur er eiginleiki sem hefur hæstu skjáröð.)
+    > Þú getur gert Customer Insights aðgengileg af sömu síðu. Samt sem áður verður að búa til auðkenni Azure forrits og leyndarmál, til að sannprófa. (Fyrir upplýsingar um kröfurnar, sjá [Kveiktu á samþættingu Customer Insights við Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) kafla síðar í þessari grein.) Ef Kveikt er á Customer Insights og þú velur eina eða fleiri mælikvarða sem eiga að birtast á viðskiptavinaspjaldinu, þá verða þessar mælingar sýndar fyrst. Næst verða eigindahópar viðskiptavinarbókar sýndir, byggðar á skjáröðuninni. Til dæmis, ef þú velur tvo mælikvarða úr Customer Insights, þá verða þeir tveir mælikvarðar og ein eigind viðskiptavinarbókar sýndir á viðskiptavini kortinu. (Einkenni viðskiptavinarbókarinnar sem er sýndur er eiginleiki sem hefur hæstu skjáröð.)
 
 6. Á síðunni **Commerce-færibreytur**, á flipanum **Viðskiptavinir**, í reitnum **Eigindahópur viðskiptavinarbókar**, veldu eigindahópinn sem þú bjóst til.
 

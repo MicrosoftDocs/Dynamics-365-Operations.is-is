@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1abf6722348b57594509e90ca0defc07783a112b
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.openlocfilehash: 26b1eb5e542acf7496d1a0cf7196716a5de75e4e
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715884"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780266"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Taka staðgreiðsluafslátt utan tímabilsins staðgreiðsluafsláttar
 
@@ -37,13 +37,13 @@ Apríl merkir reikninginn til greiðslu. Enginn staðgreiðsluafsláttur er teki
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning staðgreiðsluafsláttar | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
-| Valið | Alltaf            | Inv-10030 | 3052    | 6/28/2015          | 7/12/2015 | 10030   | -2.000,00                      | USD      | -1.980.00        |
+| Valið | Alltaf            | Inv-10030 | 3052    | 6/28/2020          | 7/12/2020 | 10030   | -2.000,00                      | USD      | -1.980.00        |
 
 Afsláttarupplýsingarnar birtist neðst á **Jafna færslur** síðunni.
 
-| Svæði                        | Virði     |
+| Svæði                        | Gildi     |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/12/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/12/2020 |
 | Upphæð staðgreiðsluafsláttar         | -20.00    |
 | Nota staðgreiðsluafslátt            | Alltaf    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
@@ -52,16 +52,16 @@ Afsláttarupplýsingarnar birtist neðst á **Jafna færslur** síðunni.
 ## <a name="date-to-use-for-calculating-discounts--selected-date"></a>Dagsetning fyrir útreikning afslátta = Valin dagsetning.
 Ef bæði reikningur og greiðsla hefur verið bókuð, er enn hægt að fá staðgreiðsluafslátt þegar færslurnar eru jafnaðar á°síðunni **Jafna færslur**. Apríl breytir gildi á svæðinu **Dagsetning sem á að nota fyrir útreikning afslátta** í **Valin dagsetning**. Hún færir svo dagsetninguna 28. Júní sem er staðgreiðsluafsláttartímabili‘ fyrir reikninginn. Sú dagsetning er notuð til að reikna staðgreiðsluafslátt fyrir færsluna. Á síðunni **Jafna opnar færslur** sér Apríl að,sem sjálfgefið, birtist fullur afsláttur upp á 20,00. Reikningslínan sýnir að upphæð til jöfnunar er 1.980.00.
 
-| Merkja                     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning staðgreiðsluafsláttar | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
-|--------------------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
-| Valdar og auðkenndar. | Venjulegt            | Inv-10030 | 3052    | 6/28/2015          | 7/12/2015 | 10030   | -2.000,00                      | USD      | -1.980.00        |
-| Valið                 | Venjulegt            | APP-10030 | 3052    | 7/15/2015          | 7/15/2015 |         | 500,00                         | USD      | 500,00           |
+| Merkja          | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning staðgreiðsluafsláttar | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
+|--------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
+| Valdar og auðkenndar. | Venjulegt    | Inv-10030 | 3052    | 6/28/2020         | 7/12/2020 | 10030   | -2.000,00                      | USD      | -1.980.00        |
+| Valið                 | Venjulegt    | APP-10030 | 3052    | 7/15/2020          | 7/15/2020 |         | 500.00                         | USD      | 500.00           |
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Upphæð afsláttar sem er tekinn er 20,00, þar sem upphæðin til jöfnunar fyrir reikning er sjálfgefna upphæðin, 1,980.00.
 
-| Svæði                        | Virði     |
+| Svæði                        | Gildi     |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/12/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/12/2020 |
 | Upphæð staðgreiðsluafsláttar         | -20.00    |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
@@ -71,14 +71,14 @@ Apríl uppfærir gildið á svæðinu **Upphæð til jöfnunar** í **500,00**. 
 
 | Merkja                     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Valdar og auðkenndar. | Venjulegt            | Inv-10030 | 3052    | 6/28/2015 | 7/12/2015 | 10030   | 2.000,00                       | USD      | -500,00          |
-| Valið                 | Venjulegt            | APP-10030 | 3052    | 7/15/2015 | 7/15/2015 |         | 500,00                         | USD      | 500,00           |
+| Valdar og auðkenndar. | Venjulegt            | Inv-10030 | 3052    | 6/28/2020 | 7/12/2020 | 10030   | 2,000.00                       | USD      | -500,00          |
+| Valið                 | Venjulegt            | APP-10030 | 3052    | 7/15/2020 | 7/15/2020 |         | 500.00                         | USD      | 500.00           |
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Gildið í svæðinu **Upphæð staðgreiðsluafsláttar sem á að taka** er **5,05**, þar sem upphæðin til jöfnunar fyrir reikninginn var breytt í greiðsluupphæðina 500,00.
 
-| Svæði                        | Virði     |
+| Svæði                        | Gildi     |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/12/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/12/2020 |
 | Upphæð staðgreiðsluafsláttar         | -20.00    |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |

@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
-ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
-ms.translationtype: MT
+ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9752299"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775513"
 ---
 # <a name="proactive-quality-updates"></a>Fyrirbyggjandi gæðauppfærslur
 
@@ -32,7 +32,7 @@ ms.locfileid: "9752299"
 - Microsoft mun beita fyrirbyggjandi gæðauppfærslum á öll sandkassaumhverfi sem keyra þjónustuuppfærslu sem var [í þjónustu](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change) þegar fyrirbyggjandi gæðauppfærslur voru búnar til.
 - Undantekningar frá fyrirbyggjandi gæðauppfærslum verða leyfðar fyrir viðskiptavini sem eru undir eftirliti bandarísku matvæla- og lyfjaeftirlitsins (FDA).
 - Microsoft er að ákveða hvernig fyrirbyggjandi gæðauppfærslum verður stýrt fyrir reglubundið umhverfi og fyrir skýjaviðskiptavini ríkisins og stjórnvalda.
-- Tilkynningar sem tengjast fyrirbyggjandi gæðauppfærslum eru birtar í [Microsoft 365 Skilaboðamiðstöð](https://admin.microsoft.com/AdminPortal/) og á borða hjá viðskiptavininum Microsoft Dynamics Lifecycle Services verkefni.
+- Tilkynningar sem tengjast fyrirbyggjandi gæðauppfærslum eru birtar í [Microsoft 365 Skilaboðamiðstöð](https://admin.microsoft.com/AdminPortal/) og á borða í viðskiptavinarins Microsoft Dynamics Lifecycle Services verkefni.
 - Fimm dögum áður en fyrirbyggjandi gæðauppfærslu er beitt á umhverfi er viðskiptavinum tilkynnt að uppfærslan muni eiga sér stað.
 - Viðskiptavinir geta ekki hætt við eða frestað fyrirbyggjandi gæðauppfærslum.
 - Fyrirbyggjandi gæðauppfærslur eru settar upp á svæðisbundinni [fyrirhugað viðhaldsglugga](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
@@ -77,7 +77,7 @@ Verið er að innleiða sett af ferlibreytingum fyrir virkjun á fyrirbyggjandi 
 - **Fail Safe með flugi** – Flug verður notað til að verja kóðabreytingar þar sem það á við í gæðauppfærslu villuleiðréttingu eða nota núverandi eiginleika flug sem skipta máli fyrir lagfæringuna. Ef þörf er á að breyta til baka eða slökkva á breytingu eftir fyrirbyggjandi uppsetningu er hægt að gera það í gegnum flugkerfið til að forðast frekari bilanir.
 - **Samstillingarheiti fyrir sandkassa** - Innan við 20 prósent viðskiptavina í dag eru með marga sandkassa og halda einum sandkassa uppbyggðum þar sem útgáfan passar við framleiðslu, til að hjálpa við bilanaleit. Ef viðskiptavinur notar sandkassa til að prófa nýrri útgáfu en framleiðslu hans mun sá sandkassi fá gæðauppfærslur í nýrri útgáfuna.
 
-## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Hver er útfærsluvegvísir fyrir gæðauppfærslur?
+## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Hver er útfærsluvegaáætlun fyrir gæðauppfærslur?
 
 Búist er við að dreifing á fyrirbyggjandi gæðauppfærslum fyrir sandkassaumhverfi hefjist seint í september eða október 2022 fyrir viðskiptavini Azure almenningsskýja. Reynsluumhverfi munu einnig byrja að fá fyrirbyggjandi uppfærsluuppfærslu á þeim tíma. Í september verður tilkynning send til hvers viðskiptavinar til að upplýsa þá um væntanlega tímaáætlun fyrir umhverfi sitt. Undantekningar frá fyrirbyggjandi uppfærðu dreifingarferli verða aðeins leyfðar fyrir viðskiptavini sem eru undir eftirliti FDA. Við erum enn að vinna úr því hvernig stjórnað umhverfi og skýjaviðskiptavinum ríkisins og stjórnvalda verður stjórnað.
 
@@ -112,7 +112,7 @@ Fyrir upplýsingar um myrkur stundir fyrir hvert svæði, sjá [Hverjir eru fyri
 | Stöð 1 | Kanada Mið, Kanada Austur, Frakkland Mið, Indland Mið, Noregur Austur, Sviss Vestur | 14. október til 17. október 2022, 2. nóvember til 5. nóvember 2022 | 13. nóvember til 16. nóvember 2022 |
 | Stöð 2 | Frakkland Suður, Indland Suður, Noregur Vestur, Sviss Norður, Suður Afríka Norður, Ástralía Austur, Bretland Suður, UAE Norður, Japan Austur, Ástralía Suð Austur, Suðaustur Asía | 15. október til 18. október 2022, 2. nóvember til 5. nóvember 2022 | 13. nóvember til 16. nóvember 2022 |
 | Stöð 3 | Austur-Asía, Bretland Vestur, Japan Vestur, Brasilía Suður, Vestur-Evrópa, Austur-Bandaríkin, Mið UAE | 16. október til 19. október 2022, 2. nóvember til 5. nóvember 2022 | 13. nóvember til 16. nóvember 2022 |
-| Stöð 4 | Norður-Evrópa, Mið-Bandaríkin, Vestur-Bandaríkin | 17. október til 20. október 2022, 2. nóvember til 5. nóvember 2022 | 13. nóvember til 16. nóvember 2022 |
+| Stöð 4 | Norður-Evrópa, Mið-Bandaríkin, Vestur-Bandaríkin | 17. október til 20. október 2022, 2. nóvember til 5. nóvember 2022 | 15. nóvember til 18. nóvember 2022 |
 | Stöð 5 | DoD, Government Community Cloud, Kína | Ekki áætlað | Ekki áætlað |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Fyrirbyggjandi gæðauppfærsluútgáfa: 10.0.30
@@ -144,7 +144,7 @@ Fyrirbyggjandi gæðauppfærslur (PQUs) eru sendar einu sinni í mánuði fyrir 
 Microsoft leitast við að halda útgáfupípunni nógu skilvirkri til að skila litlum farmi til að halda löggildingarkostnaði lágum. Sérhver lagfæring í gæðauppfærslu fer í gegnum strangt og öruggt dreifingarferli sem hjálpar til við að bæta gæði og áreiðanleika og dregur þannig úr áhrifum viðskiptavina. Dreifing mun gerast í áföngum á sandkassaumhverfi fyrst og síðan framleiðsla. Sviðsuppsetning gerir kleift að fylgjast með réttu eftirliti til að ákvarða hvort frekari dreifing sé örugg. Við munum stöðva útfærsluna ef vandamál finnast hjá hverjum hópi viðskiptavina sem notaðir eru og tryggja að hvert skref í útfærslunni hafi nægan tíma til að vandamál komi upp á yfirborðið. Fyrir hverja væntanlega gæðauppfærslu munum við veita sýnileika í áætluninni með uppfærslum á opinberum skjölum og tölvupóstum, svo viðskiptavinir geti skipulagt fram í tímann.
 
 ## <a name="can-customers-delay-reschedule-or-pause-a-quality-update"></a>Geta viðskiptavinir seinkað, breytt tímasetningu eða gert hlé á gæðauppfærslu?
-Nr. Meginmarkmið gæðauppfærslna er að tryggja að grundvallaratriði eins og öryggi, friðhelgi einkalífs, áreiðanleika, framboð og afköst séu stöðugt að bæta fyrir viðskiptavini okkar. Með því að seinka eða gera hlé á uppfærslu er öryggi, aðgengi og áreiðanleiki í hættu.
+Nr. Meginmarkmið gæðauppfærslna er að tryggja að grundvallaratriði eins og öryggi, friðhelgi einkalífs, áreiðanleika, aðgengi og afköst séu stöðugt að bæta fyrir viðskiptavini okkar. Með því að seinka eða gera hlé á uppfærslu er öryggi, aðgengi og áreiðanleiki í hættu.
 
 ## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>Hvernig veit ég hvaða mengi breytinga fór í gæðauppfærsluhleðslu?
 Eftirfarandi skref eru tímabundin lausn þar sem við höldum áfram að vinna að því að bjóða upp á betri lausn til að bera kennsl á listann yfir breytingar sem fara í gæðauppfærsluhleðslu. 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c83ac47bc5e7f7ed223c772591cf8a7c1e63a40
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.openlocfilehash: b3cc07a1f0ba444250eddcf892681e2ca63e9c1a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715498"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780260"
 ---
 # <a name="correct-a-free-text-invoice"></a>Leiðrétting textareiknings
 
@@ -28,7 +28,11 @@ ms.locfileid: "9715498"
 
 Þessi grein útskýrir hvernig á að leiðrétta reikningur með frjálsum texta sem hefur verið bókaður og endurútgefa hann sem leiðréttan reikning.
 
-Til að leiðrétta textareikning sem þegar hefur verið bókaður, skal opna bókaðan textareikning. Á síðunni **Reikningur** skal velja **Hætta við**, og veljið síðan **Leiðrétta reikning**. Velja ástæðukóða, bæta við athugasemd og veljið°dagsetningu fyrir nýjan leiðréttan reikning. Hægt er að breyta leiðrétta reikningnum og bóka hann. 
+Til að leiðrétta ókeypis textareikning sem þegar hefur verið bókaður: 
+1. Opnaðu birta reikninginn með frjálsum texta. 
+2. Á síðunni **Reikningur** skal velja **Hætta við**, og veljið síðan **Leiðrétta reikning**. 
+3. Velja ástæðukóða, bæta við athugasemd og veljið°dagsetningu fyrir nýjan leiðréttan reikning.
+4. Hægt er að breyta leiðrétta reikningnum og bóka hann. 
 
 Þegar leiðrétti reikningurinn er bókaður, er afturköllunarreikningur stofnaður fyrir kredit-upphæð sem er jöfn upphaflegri upphæð reikningsins. Þess vegna er samanlögð staða upprunalega reikningsins og afturköllunarreikningsins 0 (núll). Afturköllunarreikningurinn er jafnaður á móti upprunalega reikningnum. 
 
@@ -44,7 +48,7 @@ Hægt er að þekkja afturköllunarreikninga og leiðrétta reikninga á tvo veg
 -   Haus textareikningsins sýnir stöðuna **Afturköllunarreikningur ‚\[reikningsnúmer\]'** eða **Leiðréttur reikningur '\[reikningsnúmer\]'**.
 
 > [!NOTE]
-> Þessi aðgerð er bara tiltæk ef **Leiðrétting á textareikningi** skilgreiningarlykill er valinn. Nánari upplýsingar um hvernig á að virkja stillingarlykla er að finna í hlutanum Virkja (eða óvirkja) stillingarlykla í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) grein. 
+> Þessi aðgerð er bara tiltæk ef **Leiðrétting á textareikningi** skilgreiningarlykill er valinn. Frekari upplýsingar um hvernig á að virkja stillingarlykla er að finna í hlutanum Virkja (eða slökkva) stillingarlykla í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md) grein. 
 
 
 

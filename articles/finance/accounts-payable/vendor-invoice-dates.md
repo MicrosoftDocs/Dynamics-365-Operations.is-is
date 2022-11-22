@@ -1,6 +1,6 @@
 ---
 title: Dagsetningar reiknings lánardrottins
-description: Þessi grein lýsir dagsetningum sem birtast á reikningum lánardrottins. Einnig er útskýrt hvernig kerfið er sett upp þannig að það stilli sjálfkrafa bókunardagsetninguna.
+description: Þessi grein lýsir dagsetningum sem birtast á reikningum lánardrottins. Það útskýrir einnig hvernig eigi að stilla bókunardagsetningu sjálfkrafa.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 022fd0ce07fbb4c54afcf7334c1c9411e01dcf26
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876413"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775273"
 ---
 # <a name="vendor-invoice-dates"></a>Dagsetningar reiknings lánardrottins
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir dagsetningum sem birtast á reikningum lánardrottins. Einnig er útskýrt hvernig kerfið er sett upp þannig að það stilli sjálfkrafa bókunardagsetninguna.
+Þessi grein lýsir dagsetningum sem birtast á reikningum lánardrottins. Það útskýrir einnig hvernig eigi að stilla bókunardagsetningu sjálfkrafa.
 
-Á síðunni **Upplýsingar um reikning lánardrottins í bið** sýnir reikningshausinn fjórar dagsetningar: móttökudagsetningu reiknings, reikningsdagsetningu, bókunardagsetningu og gjalddaga. Þegar reikningur lánardrottins er búinn til eru eftirfarandi dagsetningar slegnar inn sjálfgefið:
+Á **Útskýrður reikningur seljanda í bið** síðu sýnir reikningshausinn fjórar dagsetningar: **Reikningur móttekinn dags**, **reiknings**, **·**, og **Gjalddagi**. Þegar reikningur lánardrottins er búinn til eru eftirfarandi dagsetningar slegnar inn sjálfgefið:
 
 - **Móttökudagsetning reiknings** – Þessi reitur er stilltur á núgildandi dagsetningu kerfis.
 - **Bókunardagsetning** – Þessi reitur er stilltur á núgildandi dagsetningu kerfis. 
@@ -37,19 +37,19 @@ ms.locfileid: "8876413"
 
 Stundum gæti reikningur lánardrottins verið í biðstöðu í langan tíma eftir að tímabilinu lýkur. Þegar hann er tilbúinn til bókunar er gamla bókunardagsetning síðasta bókunartímabils áfram notuð. Því tímabili hefur hinsvegar verið lokað. Þar af leiðandi verður starfsmaður viðskiptaskulda að breyta öllum bókunardagsetningum handvirkt í nýja bókunartímabilið fyrir alla reikninga í bið sem voru búnir til áður.
 
-Eiginleikinn sem lýst er í þessari grein gerir þér kleift að setja kerfið upp þannig að það stilli sjálfkrafa bókunardagsetningu í samræmi við kröfur fyrirtækisins.
+Eiginleikinn sem lýst er í þessari grein gerir þér kleift að stilla bókunardagsetningu sjálfkrafa í samræmi við kröfur fyrirtækisins.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Færibreytur til að breyta sjálfkrafa bókunardagsetningu lánardrottnareiknings
 
-Fylgdu þessum skrefum til að gera kerfinu kleift að breyta bókunardagsetningu sjálfkrafa fyrir lánardrottnareikning.
+Fylgdu þessum skrefum til að stilla sjálfkrafa bókunardagsetningu fyrir reikninga lánardrottins.
 
 1.  Farðu í **Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**.
 2.  Á flipanum **Fjárhagur og virðisaukaskattur**, í reitnum **Stilla bókunardagsetningu sjálfkrafa**, skal velja eitt af eftirfarandi gildum:
 
     - **Engin breyting** – Kerfið breytir ekki bókunardagsetningu sjálfkrafa meðan á bókun stendur. Gildið er sjálfgefið valið.
-    - **Alltaf breyta bókunardagsetningu í kerfisdagsetningu** – Kerfið breytir bókunardagsetningu sjálfkrafa í kerfisdagsetningu við bókun.
-    - **Breyta bókunardagsetningu í kerfisdagsetningu þegar bókunardagsetningartímabil er lokað eða í bið** – Kerfið breytir bókunardagsetningu í kerfisdagsetningu við bókun, en aðeins ef samsvarandi tímabil bókunardagsetningar er með stöðuna **Lokið** eða **Í bið**.
-    - **Breyta bókunardagsetningu í fyrsta dag nýs tímabils þegar bókunardagsetningartímabil er lokað eða í bið** – Kerfið breytir bókunardagsetningu í fyrsta dag nýs opins tímabils, en aðeins ef samsvarandi tímabil bókunardagsetningar er með stöðuna **Lokið** eða **Í bið**.
+    - **Breyttu alltaf bókunardagsetningu í kerfisdagsetningu** – Bókunardagsetningu breytist sjálfkrafa í kerfisdagsetningu við bókun.
+    - **Breyttu bókunardagsetningu í kerfisdagsetningu þegar bókunardagsetningartímabili er lokað eða í bið** – Bókunardagsetningu breytist sjálfkrafa í kerfisdagsetningu við færslu, en aðeins ef samsvarandi tímabil færsludagsetningar hefur stöðuna **Lokað** eða **Á bið**.
+    - **Breyttu færsludagsetningu í fyrsta dag nýs tímabils þegar færsludagsetningartímabili er lokað eða í bið** – Bókunardagsetningu er breytt í fyrsta dag nýja opna tímabilsins, en aðeins ef samsvarandi tímabil birtingardagsins hefur stöðuna **Lokað** eða **Á bið**.
 
 > [!NOTE]
 > Ef nýja bókunardagsetningin sem var sjálfvirk leiðrétt er á nýju reikningsári verður bókunardagsetning reikningsins ekki uppfærð. Notandinn mun fá villuna „Fjárhagsárið hefur breyst. Vinsamlegast athugaðu og sláðu inn birtingardagsetninguna aftur." Bókunardagsetning reiknings verður að vera uppfærð í nýja dagsetningu reikningsárs til að geta bókað.
@@ -70,12 +70,12 @@ Fylgdu þessum skrefum til að gera kerfinu kleift að breyta bókunardagsetning
 
 - **Gengi** – Gengisdagsetningin er ákvörðuð með stillingunni á valkostinum **Uppfæra lánardrottnalykil með reikningsdagsetningu** á flipanum **Reikningur** á síðunni **Færibreytur viðskiptaskulda** (**Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**).
 
-    - Ef þessi valkostur er stilltur á **Já** er reikningsdagsetningin notuð og breyting bókunardagsetningar hefur ekki áhrif á gengið.
+    - Ef þessi valkostur er stilltur á **Já**, hinn **Dagsetning reiknings** er notað, og **Birtingardagur** breyting hefur ekki áhrif á gengi krónunnar.
     - Ef þessi valkostur er stilltur á **Nei** er bókunardagsetningin notuð til að reikna gengið. Þegar bókunardagsetningin er uppfærð eru bókhalds- og skýrsluupphæðir endurreiknaðar. Þar af leiðandi þarf að villuleita samsvörun aftur.
 
 ## <a name="validation"></a>Villuleit
 
 Tveir aðrir reitir á flipanum **Reikningur** á síðunni **Færibreytur viðskiptaskulda** (**Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**) hafa áhrif á vinnslu reiknings:
 
-- Ef reiturinn **Athuga notað reikningsnúmer** er stilltur á **Hafna tvítekningum innan fjárhagsársins** notar kerfið bókunardagsetningu til að leita að tvíteknum reikningum við bókun reiknings.
-- Ef reiturinn **Krefjast dagsetningar skjals á reikningi lánardrottins** er stilltur á **Villuvalkostur** er gerð krafa um reitinn **Reikningsdagsetning í haus reiknings í bið**. Ef reikningsdagsetning er síðar en bókunardagsetning sýnir kerfið villuboð.
+- Ef **Athugaðu reikningsnúmerið sem notað er** reiturinn er stilltur á **Hafna afritum innan reikningsárs**, verður bókunardagsetningin notuð til að athuga með tvítekna reikninga við bókun reikninga.
+- Ef reiturinn **Krefjast dagsetningar skjals á reikningi lánardrottins** er stilltur á **Villuvalkostur** er gerð krafa um reitinn **Reikningsdagsetning í haus reiknings í bið**. Ef reikningsdagsetning er síðar en bókunardagsetning birtast villuboð.

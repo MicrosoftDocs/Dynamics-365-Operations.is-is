@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
-ms.translationtype: MT
+ms.openlocfilehash: 384ce8611a7dbf6adf7b8ae6ad9569e2a41c22d1
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405438"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757168"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
@@ -50,7 +50,7 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 | Loka flipa í aðgerðarúðu eða valmynd        | Esc                              |
 | Líkja eftir hægrismelli                          | SHIFT+F10                        |
 | Opna samhengisvalmyndina    | Ctrl+F10                         |
-| Framkvæma sjálfgefinn hnapp á skjámynd/svarglugga | Alt+færslulykill                        |
+| Keyrðu sjálfgefna hnappinn á síðu/valglugga | Alt+færslulykill                        |
 | Smellið á hnapp eða reit                          | Enter eða Bil                   |
 | Skoða endurnýjunarupplýsingar fyrir talningarreit       | Alt+Uppör                     |
 | Skoða fyrirliggjandi tiltækar flýtileiðir              | Alt+Shift+K                      |
@@ -85,13 +85,13 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 |---------------------------------------------------------------------------------------------------------------------|--------------------------|
 | Opna hnitanet síunnar fyrir gildandi dálk                                                                          | Ctrl+G                   |
 | Loka hnitaneti síunnar fyrir gildandi dálk                                                                         | Esc                      |
-| Opna síurúðuna (eða breyttu áherslu milli síunarrúðunnar og aðalskjámyndar ef síunarrúðan er þegar opin) | Alt+M,F eða Ctrl+F3       |
+| Opnaðu síurúðuna (eða skiptu um fókus á milli síurúðunnar og aðalsíðunnar ef síurúðan er þegar opin) | Alt+M,F eða Ctrl+F3       |
 | Loka síunarglugga (með áherslu í rúðu síunnar)                                                               | Esc                      |
 | Opna ítarlega síun/röðun                                                                                        | Ctrl+Shift+F3            |
 | Notaðu Quick Filter (þegar fókus er í Quick Filter)                                                              | Færa inn                    |
 | Notaðu ristsíuna (þegar fókusinn er í síureitnum í dálkhausnum)                                             | Færa inn                    |
 
-## <a name="form-shortcuts"></a>Flýtileiðir skjámyndar
+## <a name="page-shortcuts"></a>Flýtivísar síðu
 
 | Til að gera þetta                                    | Ýta á              |
 |-----------------------------------------------|-------------------|
@@ -100,21 +100,21 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 | Vista færslu                                   | Alt+S eða Ctrl+S   |
 | Afturkalla (endurheimta)                              | Ctrl+Shift+F5     |
 | Gagnaendurnýjun                                  | Shift+F5          |
-| Flytja í sýnilegan fyrsta reit í skjámyndinni   | Alt+Shift+F       |
+| Farðu í sýnilega fyrsta reitinn á síðunni   | Alt+Shift+F       |
 | Skipta yfir í breytingar                              | F2                |
-| Festa fylgiskjal við                             | Ctrl+Shift+A      |
+| Hengja við skjal                             | Ctrl+Shift+A      |
 | Flytja út í Excel                               | Ctrl+Shift+E      |
 | Flytja í fyrri færslu (utan hnitanets)  | Ctrl+uppör     |
 | Fara yfir í næstu færslu (utan hnitaneti)      | Ctrl+niðurör   |
 | Fara yfir í fyrstu færslu (utan hnitaneti)     | Ctrl+Home         |
 | Fara yfir í síðustu færslu (utan hnitaneti)      | Ctrl+End          |
-| Lokið skjámyndinni (smellt er á Til baka)                   | Esc               |
-| Lokið skjámyndinni með greinilegri vistun             | Shift+Esc         |
-| Lokið skjámyndinni og hendið öllum óvistaðum breytingum | Alt+Shift+Q       |
+| Lokaðu síðunni (veldu Til baka hnappinn)<br><br>**Athugið:** Ef sprettigluggi (tól, dagsetningarval, fellilisti osfrv.) er opinn mun fyrsta notkun Esc hafna sprettiglugganum.       | Esc               |
+| Lokaðu síðunni með skýrri vistun             | Shift+Esc         |
+| Lokaðu síðunni og fargaðu öllum óvistuðum breytingum | Alt+Shift+Q       |
 
-## <a name="form-navigation-shortcuts"></a>Flýtileiðir flettiskjámyndar
+## <a name="page-navigation-shortcuts"></a>Flýtileiðir síðuleiðsagnar
 
-| Til að gera þetta                                          | Styðjið á                                        |
+| Til að gera þetta                                          | Ýta á                                         |
 |-----------------------------------------------------|----------------------------------------------|
 | Færa í næsta/fyrri reit                     | Tab / Shift+Tab                              |
 | Flytja í næsta/fyrri flipa                       | Alt+Shift+Hægriör / Alt+Shift+Vinstriör |
@@ -192,13 +192,13 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 | Opnið hjálparsvæðið                                                            | Ctrl+?                     |
 | Opna rakningarþáttara                                                         | Alt+Shift+T                |
 | Fara í yfirlitssvæði                                                   | Alt + F1                     |
-| Bæta við/Fjarlægja skjámynd sem eftirlæti (með áherslu á skjámynd í yfirlitssvæðinu)   | Shift+F                    |
+| Bæta við/fjarlægja síðu sem uppáhalds (með áherslu á síðu í yfirlitsrúðunni)   | Shift+F                    |
 | Flytja á staðlaða aðgerðarúðu                                              | Alt+M,A eða Ctrl+F6         |
 | Fara í síusvæði (sem kann að fela í sér að opna það)                        | Alt+M,F eða Ctrl+F3         |
 | Færa fókuks á síðuefnið (með fókus í afmörkunarsvæðinu)                | Alt+M,M eða Ctrl+F3         |
-| Fara á yfirlitslista á Upplýsingar (sem kann að fela í sér að opna hann)    | Alt+M,S eða Ctrl+F8         |
+| Fara í yfirlitslistann (sem gæti falið í sér að opna hann)    | Alt+M,S eða Ctrl+F8         |
 | Færa fókus á síðuefni (með bendilinn í flettilistanum)            | Alt+M,M eða Ctrl+F8         |
-| Loka flettilistanum í skjámyndinni Upplýsingar (með bendilinn í flettilistanum) | Esc                        |
+| Lokaðu leiðsögulistanum (með fókus í leiðsögulistanum) | Esc                        |
 | Fara á efni aðalsíðu (með bendilinn í annarri rúðu)                    | Alt+M,M                    |
 | Fara í upplýsingakassa (sem kann að fela í sér að opna hann)                       | Alt+M,B eða Ctrl+F2         |
 | Fara í næsta skýringartexta fyrir eiginleika                                              | Alt+M,C                    |
@@ -264,9 +264,9 @@ Notendur geta uppgötvað flýtileiðir sem eru tiltækar beint úr notendaviðm
 | Sýna meiri/minni upplýsingar í sprettigluggi með hreyfimynd (meðan verkleiðbeining er spiluð) | Alt+R,M                    |
 
 ## <a name="focus-management"></a>Fókusstjórnun 
-Fókusstjórnun lýsir því hvernig notendafókus er meðhöndlað í forriti. Fjármála- og rekstrarforrit hafa sérhæfða fókushegðun sem er ætluð til að hámarka framleiðni notenda, sérstaklega fyrir innsláttaratburðarás. Fókushegðun felur í sér eftirfarandi:  
+Fókusstjórnun lýsir því hvernig notendafókus er meðhöndlað í forriti. Fjármála- og rekstrarforrit eru með sérhæfða fókushegðun sem er ætlað að hámarka framleiðni notenda, sérstaklega fyrir gagnafærslur. Fókushegðun felur í sér eftirfarandi:  
 
--  Þegar síða er hlaðin mun fyrsta innsláttarstýringin sem hægt er að breyta á síðunni hafa fókus og getur samþykkt inntak notanda strax. Ef engin breytanleg innsláttarstýring er á síðunni, er varavalkosturinn fyrir upphafsfókus fyrsta innsláttarstýringin á síðunni og síðan fyrsta, fókusstýringin á síðunni.   
+-  Þegar síða er hlaðin mun fyrsta innsláttarstýringin sem hægt er að breyta á síðunni hafa fókus og getur samþykkt inntak notanda strax. Ef engin breytanleg innsláttarstýring er á síðunni, er varavalkosturinn fyrir upphafsfókus fyrsta innsláttarstýringuna á síðunni og síðan fyrsta, fókusstýringin á síðunni.   
 -  Venjulega þegar hnappur er valinn er aðgerðin unnin og fókus getur farið aftur á síðuna. Þegar þetta gerist hefur fókus tilhneigingu til að fara aftur í hnappastýringuna sem var valin. Þetta á við í fjármála- og rekstraröppum **nema** þegar hnappurinn er staðsettur í aðgerðarrúðunni eða á tækjastiku. Í þessum tilfellum, þegar aðgerðinni er lokið, fer fókusinn aftur í síðustu stjórn *úti* á aðgerðasvæðinu (eða tækjastikunni) sem hafði fókus áður en hnappurinn var valinn.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

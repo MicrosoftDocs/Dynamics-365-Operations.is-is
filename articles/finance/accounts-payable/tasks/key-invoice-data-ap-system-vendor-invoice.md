@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ad75439bf3dfa1ed33e35fa9cfee153012e9f60
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
-ms.translationtype: MT
+ms.openlocfilehash: 4c441d197957674d68c4c92b454a9dca91d76ea0
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716804"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775189"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Lykilgögn reiknings í AP með því að nota reikning lánardrottins
 
@@ -67,8 +67,11 @@ ms.locfileid: "8716804"
 16. Velja innhreyfingarskjal afurða fyrir birgðavöruna sem er móttekin. Línan með innhreyfingarskjalinu var jöfnuð en ósamræmi er í magni eða verði svo það mistókst.  
 17. Í reitnum **Einingarverð** skal slá inn tölu. Þegar einingaverðið hefur verið jafnað uppfærist staðan í „Stóðst“. Ef reglan leyfir misræmi eða ef jöfnun er aðeins viðvörun er samt hægt að bóka reikninginn.  
 18. Lokið síðunni.
-19. Smelltu á **Bóka.**
-20. Lokaðu skjámyndinni. Athugið að innkaupapöntunin er ekki lengur skráð sem móttekin en ekki reikningsfærð.  
+19. Smelltu á **Bóka**.
+20. Lokið síðunni. 
+
+>[!Note] 
+>Innkaupapöntunin er ekki lengur skráð sem móttekin en ekki reikningsfærð.  
 
 
 

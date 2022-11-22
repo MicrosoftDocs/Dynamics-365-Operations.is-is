@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 9022051ce1c99da7ff62e30583a20656c77d89f9
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908155"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778546"
 ---
 # <a name="process-collection-letters-example"></a>Dæmi um úrvinnslu innheimtubréfs
 
@@ -32,11 +32,11 @@ Til að hefjast handa skal fara í **Viðskiptakröfur \> Viðskiptavinir \> All
 
 1. Farið í **Skuldir og innheimta \> Innheimtubréf \> Uppsetning innheimtubréfaraðar** og setjið upp innheimtubréfaröðina eins og sýnt er í eftirfarandi töflu sem er úthlutað á bókunarreglu viðskiptavinar.
 
-|     Innheimtubréfaflokkur      |     lýsing                           |     Gjaldmiðill      |     Aðallykill        |     Gjald í gjaldmiðli     |     Lágmark yfir        |     Dagar útilokunar      |
-|---------------------------------  |---------------------------------------    |-----------------  |-----------------------    |-------------------------- |-----------------------    |---------------------  |
-|     Innheimtubréf 1         |     Önnur tilkynning með þóknun        |     USD           |                           |     0,00                  |     0,00                  |     2                 |
-|     Innheimtubréf 2         |     Önnur tilkynning með þóknun        |     USC           |     403150                |     20.00                 |     10,00                 |     3                 |
-|     Innheimta                    |     Lokatilkynning með þóknun         |     USD           |     403150                |     50.00                 |     100.00                |     15                |
+|   Innheimtubréfaflokkur      |     lýsing       |     Gjaldmiðill      |     Aðallykill        |     Gjald í gjaldmiðli       |   Lágmark yfir  |   Dagar útilokunar        |
+|-----------------------------  |--------------------   |-----------------  |-----------------------    |--------------------   |-----------------------    |------------------ |
+|  Innheimtubréf 1          |     Fyrsta tilkynning |     USD          |                   |     0,00              |     0,00                  |     2                 |
+|  Innheimtubréf 2          |     Önnur tilkynning með gjaldi      |     USD      |     403150         |     20.00         |     10,00     |     3                 |
+|  Innheimta                   |     Lokatilkynning með gjaldi       |     USD           |     403150    |     50.00         |     100.00                |     15            |
 
 Eftirfarandi mynd sýnir upplýsingarnar sem eru í töflunni eins og þær myndu birtast á síðunni **Innheimtubréf**. 
 

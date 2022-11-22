@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 674adb70cc4372a8c5ca8c75ed3ef840d8ec7b79
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
-ms.translationtype: MT
+ms.openlocfilehash: 9886ddbf0b072283cffd73d4bfdc20835ccb3b7c
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520865"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762701"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Nota Inventory Visibility-forritið
 
@@ -30,44 +30,73 @@ Birgðasýnileiki býður upp á líkanadrifið forrit fyrir myndræna framsetni
 - Það styður fyrirspurnir lagerbirgða í rauntíma í ýmsum víddarsamsetningum.
 - Það býður upp á notendaviðmót fyrir bókun frátekningarbeiðna.
 - Það gefur yfirsýn yfir birgðahaldið fyrir vörur ásamt öllum stærðum.
-- Það veitir yfirsýn yfir birgðalista fyrir vörur ásamt fyrirfram skilgreindum víddum.
-
+- Það veitir yfirsýn yfir birgðalista fyrir vörur ásamt fyrirfram skilgreindum víddum. Áhugalistayfirlitið getur verið annaðhvort heildaryfirlit eða fyrirframhleðsla niðurstaða úr innifyrirspurn.
 
 ## <a name="prerequisites"></a>Forkröfur
 
 Áður en hafist er handa skal setja upp innbót birgðasýnileika eins og lýst er í [Setja upp sýnileika birgða](inventory-visibility-setup.md).
 
-## <a name="open-the-inventory-visibility-app"></a>Opna forrit birgðasýnileika
+## <a name="open-and-authenticate-the-inventory-visibility-app"></a><a name="open-authenticate"></a> Opnaðu og auðkenndu forritið Birgðasýnileika
 
-Til að opna forrit birgðasýnileika skal skrá sig inn í Power Apps umhverfið og opna **Birgðasýnileika**.
+Fylgdu þessum skrefum til að opna og auðkenna forritið Birgðasýnileika.
 
-## <a name="configuration"></a><a name="configuration"></a>Grunnstilling
+1. Skráðu þig inn á þinn Power Apps umhverfi.
+1. Opnaðu **Birgðasýnileiki** app.
+1. Opnaðu **Sýnileiki í rekstri** síðu frá vinstri glugganum.
+1. Veldu **Stillingar** hnappur (tákn fyrir gír) efst á síðunni.
+1. Í **Stillingar** valmynd, sláðu inn **Auðkenni viðskiptavinar**, **leigjanda**, og **Leyndarmál viðskiptavinar** gildi sem þú tók eftir þegar þú [sett upp og sett upp Birgðasýnileiki](inventory-visibility-setup.md).
+1. Veldu **Endurnýja** hnappinn við hliðina á **Bearer Token** sviði. Kerfið býr til nýtt burðarmerki, byggt á upplýsingum sem þú hefur slegið inn.
 
-Síðan **Skilgreining** birgðasýnileikaforritsins hjálpar til við að setja upp lagerskilgreiningu og skilgreiningu mjúkrar frátekningar. Eftir að innbót hefur verið sett upp inniheldur sjálfgefna stillingin sjálfgefna uppsetningu frá Microsoft Dynamics 365 Supply Chain Management (`fno` gagnagjafinn). Hægt er að fara yfir sjálfgefnu stillinguna. Byggt á viðskiptaþörfum þínum og þörfum birgðabókunar ytra kerfisins geturðu auk þess breytt skilgreiningunni í til að staðla leiðina sem hægt er að bóka, skipuleggja og senda fyrirspurn á birgðabreytingar í hinum ýmsu kerfum.
+    ![Stillingar fyrirspurna fyrir hendi.](media/inventory-visibility-query-settings.png "Stillingar lagerfyrirspurnar")
+
+1. Þegar þú færð gilt burðarmerki skaltu loka glugganum. Handhafamerkið mun renna út eftir nokkurn tíma. Þess vegna verður þú stundum að endurnýja það þegar þú þarft að uppfæra stillingar, birta gögn eða fyrirspurnargögn.
+
+## <a name="configure-the-inventory-visibility-app"></a><a name="configuration"></a> Stilltu forritið Birgðasýnileika
+
+The **Stillingar** síðu birgðasýnileika appsins hjálpar þér að setja upp almenna gagnastjórnunarstillingar og eiginleikastillingar. Eftir að innbót hefur verið sett upp inniheldur sjálfgefna stillingin sjálfgefna uppsetningu frá Microsoft Dynamics 365 Supply Chain Management (`fno` gagnagjafinn). Hægt er að fara yfir sjálfgefnu stillinguna. Eftir það, byggt á viðskiptaþörfum þínum og birgðabókunarkröfum ytra kerfisins þíns, geturðu breytt uppsetningunni til að staðla hvernig hægt er að bóka, skipuleggja og spyrjast fyrir um birgðabreytingar í mörgum kerfum.
 
 Nánari upplýsingar um hvernig á að skilgreina lausnina er að finna í [Stilla sýnileika birgða](inventory-visibility-configuration.md).
 
 ## <a name="operational-visibility"></a>Rekstrarsýnileiki
 
-Síðan **Rekstrarsýnileiki** sýnir niðurstöður fyrirspurnar um lagerbirgðir í rauntíma sem byggir á ýmsum víddarsamsetningum. Þegar kveikt er á eiginleikanum *OnHandReservation* er einnig hægt að bóka beiðnir frátekningar á síðunni **Rekstrarsýnileiki**.
+The **Sýnileiki í rekstri** síða veitir niðurstöður rauntíma birgðafyrirspurnar, pöntunarfærslu og úthlutunar byggða á ýmsum víddarsamsetningum. Þegar *OnHandReservation* eiginleiki er [kveikt á](inventory-visibility-configuration.md), þú getur líka sent bókunarbeiðnir frá **Sýnileiki í rekstri** síðu.
 
 ### <a name="on-hand-query"></a>Fyrirspurn lagerbirgða
 
-Flipinn **Fyrirspurn lagerbirgða** sýnir niðurstöður fyrirspurnar vegna lagerbirgða í rauntíma.
+The **Fyrirspurn** flipi á **Sýnileiki í rekstri** síðu gerir þér kleift að spyrjast fyrir um birgðahald í rauntíma. Fylgdu þessum skrefum til að setja upp og keyra fyrirspurn.
 
-Þegar þú opnar **Fyrirspurn** flipi á **Sýnileiki í rekstri** síðu, biður kerfið um skilríki þín svo það geti fengið burðarmerkið sem þarf til að spyrjast fyrir um birgðasýnileikaþjónustuna. Þú getur einfaldlega límt handhafalykilinn í reitinn **BearerToken** og lokað svarglugganum. Þú getur síðan birt beiðni lagerfyrirspurnar.
+1. Opnaðu **Birgðasýnileiki** app.
+1. Opnaðu **Sýnileiki í rekstri** síðu frá vinstri glugganum.
+1. Á **Fyrirspurn** flipann, sláðu inn **Auðkenni stofnunar**, **vefsvæðis**, og **Staðsetningarauðkenni** gildi sem þú vilt spyrjast fyrir um.
+1. Í **Auðkenni vöru** reit, sláðu inn eitt eða fleiri vöruauðkenni til að fá nákvæma samsvörun fyrir fyrirspurn þína. Ef þú ferð **Auðkenni vöru** reiturinn auður, niðurstöðurnar innihalda allar vörur á tilgreindum stað og staðsetningu.
+1. Til að fá nákvæmari niðurstöðu (til dæmis skoðun eftir víddargildum eins og lit og stærð), veldu flokka eftir víddum í **Niðurstaða hóps eftir** sviði.
+1. Til að finna hluti sem hafa ákveðið víddargildi (eins og litur = rauður), veldu víddina í **Síuvíddir** reit og sláðu síðan inn víddargildi.
+1. Veldu **Fyrirspurn**. Þú færð annað hvort árangursrík (græn) skilaboð eða misheppnuð (rauð) skilaboð. Ef fyrirspurnin mistekst skaltu athuga fyrirspurnarviðmiðin þín og ganga úr skugga um að þitt [handhafa merki](#open-authenticate) er ekki útrunninn.
 
-Ef handhafalykillinn er ekki gildur eða hefur runnið út þarftu að líma nýjan í reitinn **BearerToken**. Færðu inn rétt gildi fyrir **Biðlarakenni**, **Leigjandakenni**, **Leynilykill biðlara** og veldu svo **Endurhlaða**. Kerfið mun sjálfkrafa fá nýjan gildan handhafalykil.
-
-Til að birta beiðni lagerfyrirspurnar skal færa inn fyrirspurnina í meginmál beiðninnar. Notaðu mynstrið sem lýst er í [Fyrirspurn með því að nota bókunaraðferðina](inventory-visibility-api.md#query-with-post-method).
-
-![Stillingar lagerfyrirspurnar](media/inventory-visibility-query-settings.png "Stillingar lagerfyrirspurnar")
+Önnur leið til að gera fyrirspurn á staðnum er að gera beinar API beiðnir. Þú getur notað annað hvort`/api/environment/{environmentId}/onhand/indexquery` eða `/api/environment/{environmentId}/onhand`. Fyrir frekari upplýsingar, sjá [Birgðasýnileiki opinber API](inventory-visibility-api.md).
 
 ### <a name="reservation-posting"></a>Bókun frátekningar
 
-Nota **Bókunarfærsla** flipi á **Sýnileiki í rekstri** síðu til að senda inn bókunarbeiðni. Áður en hægt er að bóka frátekningarbeiðni þarf að kveikja á eiginleikanum *OnHandReservation*. Fyrir frekari upplýsingar um þennan eiginleika og hvernig á að kveikja á honum, sjá [Birgðasýnileiki fyrirvaranir](inventory-visibility-reservations.md).
+Nota **Bókunarfærsla** flipi á **Sýnileiki í rekstri** síðu til að senda inn pöntunarbeiðni. Áður en hægt er að bóka frátekningarbeiðni þarf að kveikja á eiginleikanum *OnHandReservation*. Fyrir frekari upplýsingar um þennan eiginleika og hvernig á að kveikja á honum, sjá [Birgðaskyggni fyrirvaranir](inventory-visibility-reservations.md).
 
-Til að bóka frátekningarbeiðni þarftu að færa inn gildi í meginmál beiðninnar. Notaðu mynstrið sem lýst er í [Búa til eitt tilvik frátekningar](inventory-visibility-api.md#create-one-reservation-event). Veldu síðan **Bóka**. Til að skoða upplýsingar um svar beiðninnar velur þú **Sýna upplýsingar**. Þú getur einnig fengið gildið `reservationId` í upplýsingum um svarið.
+> [!NOTE]
+> Möguleikinn til að gera mjúka fyrirvara í gegnum notendaviðmótið er ætlað að leyfa þér að prófa eiginleikann. Hver mjúk pöntunarbeiðni ætti að vera tengd við breytingu á færslupöntunarlínu (búa til, breyta, eyða og svo framvegis). Þess vegna mælum við með að þú gerir aðeins mjúkar bókanir sem eru tengdar bakhliðarpöntun. Frekari upplýsingar er að finna í [Frátekningar birgðasýnileika](inventory-visibility-reservations.md).
+
+Fylgdu þessum skrefum til að senda mjúka bókunarbeiðni með því að nota notendaviðmótið.
+
+1. Opnaðu **Birgðasýnileiki** app.
+1. Opnaðu **Sýnileiki í rekstri** síðu frá vinstri glugganum.
+1. Á **Bókunarfærsla** flipa, í **Magn** reit, tilgreinið magnið sem á að mjúka frá.
+1. Hreinsaðu **Virkja neikvæðar birgðir til að styðja við ofsölu** gátreit til að koma í veg fyrir að hlutabréf séu ofseld eða ofveðsett.
+1. Í **Rekstraraðili** reit, veldu gagnagjafa og efnislega mælikvarða sem eiga við um mjúkt frátekið magn.
+1. Sláðu inn **Auðkenni stofnunar**, **vefsvæðis**, **·**, og **Auðkenni vöru** gildi sem þú vilt spyrjast fyrir um.
+1. Til að fá nákvæmari niðurstöðu skaltu velja gagnagjafa, víddir og víddargildi.
+
+Önnur leið til að setja inn mjúka fyrirvara er að gera beinar API beiðnir. Notaðu mynstrið sem lýst er í [Búa til eitt tilvik frátekningar](inventory-visibility-api.md#create-one-reservation-event). Veldu síðan **Bóka**. Til að skoða upplýsingar um svar beiðninnar velur þú **Sýna upplýsingar**. Þú getur einnig fengið gildið `reservationId` í upplýsingum um svarið.
+
+### <a name="allocation"></a>Úthlutun
+
+Fyrir upplýsingar um hvernig á að stjórna úthlutunum úr notendaviðmóti og API, sjá [Birgðasýnileiki birgðaúthlutun](inventory-visibility-allocation.md).
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Birgðayfirlit
 
@@ -78,25 +107,21 @@ Til að virkja **Birgðayfirlit** síðu og stilltu samstillingartíðni, fylgdu
 1. Opnaðu síðuna **Skilgreining**.
 1. Opnaðu **Eiginleikastjórnun og stillingar** flipa.
 1. Stilltu rofann fyrir **OnHandMostSpecificBackgroundService** lögun til *Já*.
-1. Þegar aðgerðin er virkjuð mun **Þjónustustillingar** hluti verður tiltækur og inniheldur línu til að stilla **OnHandMostSpecificBackgroundService** eiginleiki. Þessi stilling gerir þér kleift að velja tíðni sem birgðayfirlitsgögn eru samstillt á. Nota **Upp** og **Niður** hnappar í **Gildi** dálki til að breyta tímanum á milli samstillinga (sem getur verið allt að 5 mínútur). Veldu síðan **Vista**.
+1. Þegar aðgerðin er virkjuð mun **Þjónustustillingar** hluti verður tiltækur og inniheldur röð til að stilla **OnHandMostSpecificBackgroundService** eiginleiki. Þessi stilling gerir þér kleift að velja tíðni sem birgðayfirlitsgögn eru samstillt á. Nota **Upp** og **Niður** hnappar í **Gildi** dálki til að breyta tímanum á milli samstillinga (sem getur verið allt að 5 mínútur). Veldu síðan **Vista**.
 
     ![OnHandMostSpecificBackgroundService stillingin](media/inventory-visibility-ohms-freq.png "OnHandMostSpecificBackgroundService stillingin")
 
 1. Veldu **Uppfærðu stillingar** til að vista allar breytingar.
 
-
 > [!NOTE]
-> The *OnHandMostSpecificBackgroundService* eiginleiki fylgist aðeins með birgðabreytingum sem áttu sér stað eftir að þú kveiktir á eiginleikanum. Gögn fyrir vörur sem hafa ekki breyst síðan þú kveiktir á eiginleikanum verða ekki samstillt úr skyndiminni birgðaþjónustunnar við Dataverse umhverfi. Ef þín **Birgðayfirlit** síða sýnir ekki allar fyrirliggjandi upplýsingar sem þú átt von á, opnaðu Supply Chain Management, farðu á **Birgðastjórnun > Reglubundin verkefni > Samþætting birgðasýnileika**, slökktu á runuvinnslunni og virkjaðu það aftur. Þetta mun gera fyrstu ýtuna og öll gögn verða samstillt við *Inventory OnHand Summa* aðila á næstu 15 mínútum. Ef þú vilt nota *OnHandMostSpecificBackgroundService* eiginleika, mælum við með að þú kveikir á honum áður en þú býrð til breytingar á hendi og virkjar **Samþætting birgðasýnileika** lotuvinna.
+> The *OnHandMostSpecificBackgroundService* eiginleiki rekur aðeins breytingar á birgðum á lager sem áttu sér stað eftir að þú kveiktir á eiginleikanum. Gögn fyrir vörur sem hafa ekki breyst síðan þú kveiktir á eiginleikanum verða ekki samstillt úr skyndiminni birgðaþjónustunnar við Dataverse umhverfi. Ef þín **Birgðayfirlit** síða sýnir ekki allar fyrirliggjandi upplýsingar sem þú átt von á, opnaðu Supply Chain Management, farðu á **Birgðastjórnun > Reglubundin verkefni > Samþætting birgðasýnileika**, slökktu á runuvinnslunni og virkjaðu það aftur. Þetta mun gera fyrstu ýtuna og öll gögn verða samstillt við *Inventory OnHand Summa* aðila á næstu 15 mínútum. Ef þú vilt nota *OnHandMostSpecificBackgroundService* eiginleika, mælum við með því að þú kveikir á honum áður en þú býrð til breytingar á hendi og virkjar **Samþætting birgðasýnileika** lotuvinna.
 
-## <a name="preload-a-streamlined-on-hand-query"></a><a name="preload-the-inventory-visibility-onhand-query"></a> Forhlaða straumlínulagaða fyrirspurn
+## <a name="preload-a-streamlined-on-hand-query"></a><a name="preload-streamlined-onhand-query"></a> Forhlaða straumlínulagaða fyrirspurn
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 <!-- KFM: Preview until further notice -->
 
 Supply Chain Management geymir mikið af upplýsingum um núverandi birgðahald þitt og gerir það aðgengilegt fyrir margvíslegan tilgang. Hins vegar þurfa margar daglegar aðgerðir og samþættingar þriðju aðila aðeins lítið hlutmengi af þessum upplýsingum og að spyrja kerfið um þær allar getur leitt til stórra gagnasetta sem tekur tíma að setja saman og flytja. Þess vegna getur birgðasýnileiki þjónustan reglulega sótt og geymt straumlínulagað safn af birgðagögnum til að gera þessar fínstilltu upplýsingar stöðugt aðgengilegar. Geymdar upplýsingar um birgðahald eru síaðar út frá stillanlegum viðskiptaviðmiðum til að tryggja að aðeins viðeigandi upplýsingar séu innifaldar. Vegna þess að síaðir birgðabirgðalistar eru geymdir á staðnum í birgðasýnileikaþjónustunni og eru uppfærðir reglulega, styðja þeir skjótan aðgang, gagnaútflutning á eftirspurn og straumlínulagaða samþættingu við ytri kerfi.
-
-> [!NOTE]
-> Núverandi forskoðunarútgáfa af þessum eiginleika getur aðeins veitt forhlaðnar niðurstöður sem innihalda vefsvæði og staðsetningu. Búist er við að lokaútgáfan af eiginleikanum leyfi þér að velja aðrar víddir til að forhlaða niðurstöðunum.
 
 The **Forhlaða samantekt birgðasýnileika** síða veitir útsýni fyrir *Forhlaða niðurstöður fyrir vísitölufyrirspurn* aðila. Ólíkt *Birgðayfirlit* eining, the *Forhlaða niðurstöður fyrir vísitölufyrirspurn* eining veitir birgðalista fyrir vörur ásamt völdum víddum. Birgðasýnileiki samstillir forhlaðna samantektargögnin á 15 mínútna fresti.
 
@@ -113,7 +138,7 @@ The **Birgðayfirlit** síða gefur upp þrjá reiti fyrir ofan hnitanetið (**S
 
 ![Birgðayfirlit síðan.](media/inventory-visibility-onhand-list.png "Birgðayfirlit síðan")
 
-Vegna þess að þú hefur fyrirfram skilgreint stærðirnar sem notaðar eru til að hlaða yfirlitsgögnum, **Forhlaða samantekt birgðasýnileika** síða sýnir víddartengda dálka. *Stærðirnar eru ekki sérhannaðar&mdash; kerfið styður aðeins svæðis- og staðsetningarvíddir fyrir forhlaðna geymslulista.* The **Forhlaða samantekt birgðasýnileika** síða veitir síur sem eru svipaðar þeim sem eru á **Birgðayfirlit** síðu, nema stærðirnar eru þegar valdar. Eftirfarandi skjámynd undirstrikar síunarreitina sem eru tiltækir á **Forhlaða samantekt birgðasýnileika** síðu.
+Vegna þess að þú hefur fyrirfram skilgreint stærðirnar sem notaðar eru til að hlaða samantektargögnum, **Forhlaða samantekt birgðasýnileika** síða sýnir víddartengda dálka. *Stærðirnar eru ekki sérhannaðar&mdash; kerfið styður aðeins svæðis- og staðsetningarvíddir fyrir forhlaðna geymslulista.* The **Forhlaða samantekt birgðasýnileika** síða veitir síur sem eru svipaðar þeim sem eru á **Birgðayfirlit** síðu, nema stærðirnar eru þegar valdar. Eftirfarandi skjámynd undirstrikar síunarreitina sem eru tiltækir á **Forhlaða samantekt birgðasýnileika** síðu.
 
 ![Forhlaða yfirlitssíðu birgðasýnileika.](media/inventory-visibility-preload-onhand-list.png "Forhlaða yfirlitssíðu birgðasýnileika")
 

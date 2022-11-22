@@ -2,25 +2,25 @@
 title: Árslokalokun
 description: Þessi grein lýsir nauðsynlegri uppsetningu og skrefum til að keyra árslokaferli aðalbókar.
 author: kweekley
-ms.date: 12/06/2021
+ms.date: 11/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 7e1c7722b560246fb597f0b7f91a70afecf69e22
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883214"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779744"
 ---
 # <a name="year-end-close"></a>Árslokalokun
 
@@ -62,7 +62,7 @@ Við árslokaferlið er hægt að stofna tvær gerðir færslna. Opnunarfærsla 
 
 ## <a name="define-year-end-close-templates"></a>Skilgreina sniðmát árslokalokunar
 
-Eftir að kerfið hefur verið skilgreint er hægt að keyra árslokalokunarferlið. Á síðunni **Uppsetning sniðmáts árslokalokunar** er hægt að skilgreina sniðmát fyrir hóp lögaðila sem á að keyra ferli árslokalokunar fyrir. Sniðmátið verður endurnýtt við hverja árslokalokun, en er hægt að breyta ef fyrirtækið breytist.
+Eftir að uppsetningunni er lokið er hægt að keyra árslokunarferlið. Á síðunni **Uppsetning sniðmáts árslokalokunar** er hægt að skilgreina sniðmát fyrir hóp lögaðila sem á að keyra ferli árslokalokunar fyrir. Sniðmátið verður endurnýtt við hverja árslokalokun, en er hægt að breyta ef fyrirtækið breytist.
 
 Fyrst skal stilla reitinn **Flokksheiti** fyrir sniðmátið og velja fjárhagsdagatalið. Heiti flokksins ætti að auðkenna hóp lögaðila sem er meðtalinn. Þegar þú ákveður hópa lögaðila skaltu hafa í huga að lögaðilar geta aðeins verið með í sama hópi ef sama fjárhagsdagatalið er valið fyrir þá. Til dæmis er hægt að setja upp sniðmátin samkvæmt landfræðilegri staðsetningu og aðskilda hópa er hægt að búa til fyrir lögaðila í Norður-Ameríku, lögaðila í Evrópu, Mið-Austurlönd og Afríku (EMEA) og lögaðila Asíu og Eyjaálfu (APAC).
 

@@ -2,23 +2,23 @@
 title: Setja upp starfsstöðvar banka og bókunarreglur fyrir ábyrgðarbréf
 description: Þetta verk stofnar bankaaðstöðu og bókunarreglu sem þarf til að vinna ábyrgðarbréf.
 author: kweekley
-ms.date: 08/29/2018
+ms.date: 11/15/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e3568332a7755af9c8c341223fc7ef7e66a1da02
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
-ms.translationtype: MT
+ms.openlocfilehash: 1bfdef0cd535f47bb1df9fb7494043d3dd519c5b
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726323"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779881"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>Setja upp starfsstöðvar banka og bókunarreglur fyrir ábyrgðarbréf
 
@@ -34,45 +34,45 @@ ms.locfileid: "8726323"
 
 
 ## <a name="general-ledger-parameter"></a>Fjárhagsfæribreyta
-1. Fara í Reiðufjár- og bankastjórnun > Uppsetning > Færibreytur reiðufjár- og bankastjórnunar.
-2. Útvíkka hlutann Bankaskjal.
-3. Veldu valkostinn Virkja ábyrgðarbréf.
-4. Í reitnum Færslubók skal smella á fellilistahnappinn til að opna leitina.
+1. Fara til **Reiðufé og bankastjórnun > Uppsetning > Færibreytur reiðufjár og bankastjórnunar**.
+2. Stækkaðu **Bankaskjal** kafla.
+3. Veldu **Virkja ábyrgðarbréf** valmöguleika.
+4. Í **Færsludagbók** reit, smelltu á fellilistann til að opna leitina.
 5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 6. Í listanum skal smella á tengilinn í valinni línu.
-7. Smellt er á flipann Númeraraðir.
+7. Smelltu á **Númeraraðir** flipa.
     * Skilgreina númeraraðarkóða fyrir númer ábyrgðarbréfs og færslutilvísanir ábyrgðarbréfs  
-8. Smellið á „Vista“.
+8. Smelltu á **Vista**.
 9. Lokið síðunni.
 
 ## <a name="create-bank-facility"></a>Stofna Bankaaðstöðu
-1. Fara í Reiðufjár- og bankastjórnun > Uppsetning >Bankaaðstöður.
-2. Smellið á „Nýtt“.
-3. Í svæðið Aðstöðuflokkur skal færa inn heiti bankaaðstöðuflokks fyrir ábyrgðarbréf færslu.
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Smellið á „Vista“.
-6. Smellið á flipann Aðstöðugerð.
-7. Smellið á „Nýtt“.
-8. Í svæðið Aðstöðugerð skal slá inn heiti gerðar bankaaðstöðu sem tengist bankaaðstöðusamningnum.
-9. Í reitinn Lýsing skal slá inn gildi.
-10. Í reitnum Aðstöðuflokkur skal smella á fellilistahnappinn til að opna leitina.
+1. Fara til **Reiðufé og bankastjórnun > Uppsetning > Bankaaðstaða**.
+2. Smellt er á **Nýtt**.
+3. Í **Aðstaðahópur** reit skal slá inn heiti bankaaðstöðuhóps fyrir ábyrgðarbréfið.
+4. Í reitinn **Lýsing** skal slá inn gildi.
+5. Smelltu á **Vista**.
+6. Smelltu á **Gerðir aðstöðu** flipa.
+7. Smellt er á **Nýtt**.
+8. Í **Gerð aðstöðu** reit skal slá inn heiti tegundar bankafyrirgreiðslu sem tengist bankafyrirgreiðslusamningnum.
+9. Í reitinn **Lýsing** skal slá inn gildi.
+10. Í **Aðstaðahópur** reit, smelltu á fellilistann til að opna leitina.
 11. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 12. Í listanum skal smella á tengilinn í valinni línu.
-13. Í reitnum Eðli aðstöðu skal velja valkost.
-14. Smellið á „Vista“.
+13. Í reitnum **Aðstaða eðli, veldu valkost.
+14. Smelltu á **Vista**.
 15. Lokið síðunni.
 
 ## <a name="bank-posting-profile"></a>Bókunarregla banka
-1. Fara í Reiðufjár- og bankastjórnun > Uppsetning >Bókunarregla bankaskjala.
-2. Smellið á „Nýtt“.
-3. Í reitnum Númer reiknings/flokks smellirðu á fellilistahnappinn til að opna leitina.
+1. Fara til **Reiðufé og bankastjórnun > Uppsetning > Bókunarsnið bankaskjala**.
+2. Smellt er á **Nýtt**.
+3. Í **Reikningur/hópnúmer** reit, smelltu á fellilistann til að opna leitina.
 4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 5. Í listanum skal smella á tengilinn í valinni línu.
-6. Í reitnum Gera upp lykil velurðu lykil fyrir uppgjör.
-7. Í reitnum Gjaldalykill velurðu lykil fyrir kostnaðarfærslur.
-8. Í reitnum Framlegðarlykill velurðu lykil fyrir framlegðarfærslu.
-9. Í reitnum Slitalykill velurðu lykil fyrir slitafærslu. 
-10. Smelltu á Vista.
+6. Í **Gera upp reikning** reit, veldu aðalreikning fyrir uppgjör.
+7. Í **Gjaldreikningur** reit, veldu reikninginn fyrir kostnaðarfærslur.
+8. Í **Framlegðarreikningur** reit, veldu reikninginn fyrir framlegðarfærsluna.
+9. Í **Skuldareikningur** reit, veldu slitareikning fyrir ábyrgðarbréfsviðskiptin. 
+10. Smelltu á **Vista**.
 11. Lokið síðunni.
 
 

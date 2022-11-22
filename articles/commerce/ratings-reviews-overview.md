@@ -2,24 +2,19 @@
 title: Yfirlit yfir einkunnir og umsagnir
 description: Þessi grein fjallar um einkunnir og umsagnir í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 10/01/2019
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.author: gmohanv
+ms.author: josaw
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.assetid: ''
-ms.search.industry: ''
-ms.openlocfilehash: 612a3ca480049febac352ed9215ec9de83bbecf6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1f0d3ed5d95ad49cb09cf1f89d0f4c8c07620b92
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269001"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785141"
 ---
 # <a name="ratings-and-reviews-overview"></a>Yfirlit yfir einkunnir og umsagnir
 
@@ -27,7 +22,7 @@ ms.locfileid: "9269001"
 
 Þessi grein fjallar um einkunnir og umsagnir í Microsoft Dynamics 365 Commerce.
 
-Einkunnir og umsagnir skipta sköpum fyrir viðskiptavini netverslunar sem vilja vita hvernig aðrir viðskiptavinir skynja afurð. Þær geta einnig hjálpað neytendum að taka ákvarðanir um kaup. Í Dynamics 365 Commerce gerir einkunna- og umsagnalausnin smásölum kleift að sækja umsagnir og einkunnir um afurðir frá viðskiptavinum. Smásalar geta síðan sýnt meðaleinkunn og farið yfir upplýsingar á vefsvæði netverslunar sinnar.
+Einkunnir og umsagnir skipta sköpum fyrir viðskiptavini í rafrænum viðskiptum sem vilja vita hvernig aðrir viðskiptavinir skynja vöru. Þær geta einnig hjálpað neytendum að taka ákvarðanir um kaup. Í Dynamics 365 Commerce gerir einkunna- og umsagnalausnin smásölum kleift að sækja umsagnir og einkunnir um afurðir frá viðskiptavinum. Söluaðilar geta síðan sýnt meðaleinkunnir og skoðað upplýsingar á netverslunarvefsíðu sinni.
 
 Upplýsingar um meðaleinkunn eru sýndar á sölustað og rásum símaþjónustuvera. Þess vegna geta söluaðilar notað það til að hjálpa notendum að taka ákvarðanir. Einkunnir og umsagnir geta einnig þjónað sem svörunarferli sem smásalar geta notað til að bæta gæði vöru og auka með því sölu.
 
@@ -42,6 +37,11 @@ Leiðbeiningar fyrir mat og umsagnir í Dynamics 365 Commerce nota Azure Cogniti
 Einkunna- og umsagnalausnin veitir búnað sem sýnir einkunnayfirlit í afurðalistum, í leitarniðurstöðum, á upplýsingasíðu afurðar og á öðrum stöðum. Græjurnar sýna fullkomna umsagnarlista og þær bjóða einnig upp á flokkunar- og síunarvalkosti.
 
 Einkunna- og umsagnalausnin býður einnig upp á sniðmát fyrir viðskiptagreind (BI) sem inniheldur safn mæligagna til að veita innsýn í einkunnir og umsagnir. Hægt er að flytja gögn um einkunnir og umsagnir til frekari greiningar.
+
+Eftirfarandi myndband veitir yfirlit yfir einkunna- og umsagnargetu í Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5c2wS]
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

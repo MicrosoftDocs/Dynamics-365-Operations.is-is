@@ -2,7 +2,7 @@
 title: Endurmat á gjaldmiðli í samstæðufyrirtæki
 description: Þessi grein lýsir því hvernig á að endurmeta gjaldmiðil í samstæðufyrirtæki.
 author: aprilolson
-ms.date: 10/02/2018
+ms.date: 10/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fbbc1d0a7ae5b7e288710c99a6af362b3db3d36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: c05ef0d4d05d5113d3b858dafe49ee9c1c7211d9
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889005"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779663"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Endurmat á gjaldmiðli í samstæðufyrirtæki
 
@@ -41,18 +41,18 @@ ms.locfileid: "8889005"
 
 | Dagsetning       | Fjárhagslykill               | Gjaldmiðill | Upphæð |
 |------------|------------------------------|----------|--------|
-| 10/11/2015 | 110110 – Reiðufé                | USD      | 500    |
-| 10/11/2015 | 130100 – Viðskiptakröfur | USD      | -500   |
+| 10/11/2020 | 110110 – Reiðufé                | USD      | 500    |
+| 10/11/2020 | 130100 – Viðskiptakröfur | USD      | -500   |
 
 ## <a name="exchange-rates"></a>Gengi gjaldmiðla
 
 | Úr gjaldmiðli | Í gjaldmiðil | Upphafsdagsetning | Gengi |
 |---------------|-------------|------------|---------------|
-| EUR           | USD         | 10/1/2015  | 200           |
-| EUR           | USD         | 11/1/2015  | 150           |
-| EUR           | USD         | 12/1/2012  | 100           |
+| EUR           | USD         | 10/1/2020  | 200           |
+| EUR           | USD         | 11/1/2020  | 150           |
+| EUR           | USD         | 12/1/2017  | 10.000           |
 
-## <a name="perform-the-consolidation-for-october-2015"></a>Framkvæma sameiningu fyrir Október 2015
+## <a name="perform-the-consolidation-for-october-2020"></a>Framkvæma sameiningu fyrir Október 2020
 ### <a name="balances-in-the-consolidation-company"></a>Stöður í samstæðufyrirtækinu
 
 | Fjárhagslykill | Gjaldmiðill | Upphæð | Útreikningur    |
@@ -60,7 +60,7 @@ ms.locfileid: "8889005"
 | 110110         | EUR      | 250    | 500 USD × 50%  |
 | 130100         | EUR      | -250   | -500 USD × 50% |
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-november-30-2015"></a>Endurmeta gjaldmiðilinn fyrir lykla frá Október 1, 2015, til og með 30 Nóvember 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-november-30-2020"></a>Endurmeta gjaldmiðilinn fyrir lykla frá Október 1, 2020, til og með 30 Nóvember 2020
 ### <a name="balances-in-the-consolidation-company"></a>Stöður í samstæðufyrirtækinu
 
 | Fjárhagslykill | Gjaldmiðill | Upphæð  | Útreikningur                        |
@@ -72,7 +72,7 @@ ms.locfileid: "8889005"
 
 Þú munst sjá viðbótarfærslur fyrir upphæðir skýrslugjaldmiðils.
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-december-31-2015"></a>Endurmeta gjaldmiðilinn fyrir lykla frá Október 1, 2015, til og með 31 desember 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-december-31-2020"></a>Endurmeta gjaldmiðilinn fyrir lykla frá Október 1, 2020, til og með 31 desember 2020
 ### <a name="balances-in-the-consolidation-company"></a>Stöður í samstæðufyrirtækinu
 
 | Fjárhagslykill | Gjaldmiðill | Upphæð  | Útreikningur                                          |

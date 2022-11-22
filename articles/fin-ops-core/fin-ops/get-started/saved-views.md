@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 6faf71ec5d14584034f9107c33ccce1cd1d393c7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
-ms.translationtype: MT
+ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220333"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757222"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
@@ -45,7 +45,7 @@ Hefðbundin sérstilling gerir notendum kleift að hafa aðeins eitt sett af sé
 
 Til eru tvær stærðir á yfirlitsvali: 
 
-- **Stórt yfirlitsval** - Síður sem birta lista á áberandi hátt verða með stærra yfirlitsval af nokkrum ástæðum. Mikilvægast er að stærra útsýnisvalið gefur til kynna síðurnar þar sem yfirlitið getur innihaldið notendaskilgreindar síur og flokkanir. Vegna þess að síur og flokkun eru innifalin í sýnunum er stærri valstærðin einnig ábyrg þar sem yfirlitsnöfnin munu oft vera besta lýsingin á gögnunum sem sýnd eru á skjánum og búist er við að notendur muni skipta oftar á milli skoðana á þessum síðugerðum. Einnig er hægt að vista flokkun í hnitaneti á skoðanir á síðu með stórum valmyndum. 
+- **Stórt yfirlitsval** - Síður sem birta lista á áberandi hátt verða með stærra yfirlitsval af nokkrum ástæðum. Mikilvægast er að stærra útsýnisvalið gefur til kynna síðurnar þar sem yfirlitið getur innihaldið notendaskilgreindar síur og flokkanir. Vegna þess að síur og flokkun eru innifalin í sýnunum er stærra veljastærð einnig ábyrg þar sem yfirlitsnöfnin verða oft besta lýsingin á gögnunum sem sýnd eru á skjánum og búist er við að notendur skipta oftar á milli skoðana á þessum síðugerðum. Einnig er hægt að vista flokkun í hnitaneti á skoðanir á síðu með stórum valmyndum. 
     
     [![Stór útsýnisvalbúnaður sem styður fyrirspurnabreytingar á útsýninu.](./media/views-largeViewSelector.png)](./media/views-largeViewSelector.png)
 
@@ -107,7 +107,7 @@ Að öðrum kosti, þegar nýtt yfirlit er stonað (með aðgerðinni **Vista se
 
 Svarglugginn **Stjórna yfirlitum mínum** veitir þér grunnmöguleika á umsjón með persónulegum yfirlitum þínum og röð á yfirlitum í yfirlitsvalinu. Til að opna þessa síðu skal velja heiti yfirlits til að opna fellivalmynd yfirlitsvals og velja **Fleiri** og síðan velja **Stjórna yfirlitunum mínum**.
 
-**Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** sýnir hlutinn **Yfirlitin mín** í svarglugganum **Stjórna yfirlitum mínum** tiltæk yfirlit fyrir síðuna í hlutum. Öll yfirlit sem eiga sérstaklega við fyrir núverandi lögaðila eru sýnd í þeirra eigin hluta. Hlutinn **Altæk yfirlit** er alltaf sýndur þannig að hægt er að stjórna yfirlitunum sem eru í boði fyrir síðuna í öllum lögaðilum. 
+Ef **Bættur stuðningur lögaðila fyrir vistaðar skoðanir** kveikt er á eiginleikanum, the **Skoðanir mínar** kafla í **Stjórna skoðunum mínum** svarglugginn sýnir tiltækar skoðanir fyrir síðuna í köflum. Öll yfirlit sem eiga sérstaklega við fyrir núverandi lögaðila eru sýnd í þeirra eigin hluta. Hlutinn **Altæk yfirlit** er alltaf sýndur þannig að hægt er að stjórna yfirlitunum sem eru í boði fyrir síðuna í öllum lögaðilum. 
 
 Fyrir lista yfir tiltæk yfirlit fyrir þessa síðu eru eftirfarandi aðgerðarsafn í boði.
 
@@ -138,9 +138,9 @@ Til að birta yfirlit skal fylgja þessum skrefum:
 
 1. Búið til og vistið persónulegt afrit af yfirlitinu sem á að birta. 
 2. Með þetta yfirlit að hlaðast inn skal velja heiti yfirlits til að opna fellivalmynd yfirlitsvals. 
-3. Veljið hnappinn **Fleiri** og veljið síðan **Birta**. Svargluggi birtingar opnast.
+3. Veljið hnappinn **Fleiri** og veljið síðan **Birta**. The **Birta** svarglugginn opnast.
 4. Færið inn heiti fyrir yfirlitið. Heitið sem þú slærð inn er heitið sem notendur, sem fá þetta yfirlit, munu sjá í yfirlitsvalinu. Nöfn birtra skoðana fyrir síðu verða að vera einstök. Engin tvítekin heiti eru leyfð, jafnvel þótt listinn yfir hlutverk eða lögaðila sem yfirlitunum er beitt á séu ólík.
-5. **Uppfæra 10.0.17 eða nýrri:** Ef kveikt er á eiginleikanum **(Forskoðun) Stuðningur fyrir þýðingar fyrir yfirlit fyrirtækis** er hægt að bæta við þýðingum fyrir heiti yfirlitsins á eins mörgum tungumálum og fyrirtækið þarf með því að velja hnappinn **Þýðingar** við hliðina á **Heiti**. Heiti yfirlitsins verður þá sýnt notendum á þeirra tungumáli. Einnig er hægt að stilla sjálfgefið tungumál til að tilgreina þýðinguna sem verður sýnd notendum sem eru að keyra tungumál sem engin þýðing er skilgreind fyrir.
+5. Ef **Þýðingarstuðningur fyrir skoðanir skipulagsheildar** kveikt er á eiginleikum geturðu bætt við þýðingum fyrir útsýnisnafnið þitt á eins mörgum tungumálum og fyrirtæki þitt krefst með því að velja **Þýðingar** hnappinn við hliðina á **Nafn** sviði. Heiti yfirlitsins verður þá sýnt notendum á þeirra tungumáli. Einnig er hægt að stilla sjálfgefið tungumál til að tilgreina þýðinguna sem verður sýnd notendum sem eru að keyra tungumál sem engin þýðing er skilgreind fyrir.
 5. Valfrjálst: Færið inn lýsingu á yfirlitinu þannig að notendur sem fá þetta yfirlit skilji betur tilgang þess. 
 6. Ákveðið hvort birta eigi yfirlitið sem sjálfgefið yfirlit fyrir valda notendur. Þegar yfirlit er gert að sjálfgefnu yfirliti, sjá notendur það í næsta skipti sem þeir opna marksíðuna. Einu, altæku sjálfgefnu yfirliti fyrir hvern valinn notanda verður breytt. Hins vegar geta notendur ennþá breytt sjálfgefnu yfirliti sínu eftir birtingu.
 
@@ -150,9 +150,10 @@ Til að birta yfirlit skal fylgja þessum skrefum:
     > - Ef þú birtir yfirlit sem sjálfgefið yfirlit fyrir suma eða alla lögaðila, gerist eftirfarandi hegðun:
     >
     >    - Ef aðeins er kveikt á grunneiginleikanum **Vistuð yfirlit** verður staka, altæka sjálfgefna yfirlitinu breytt fyrir hvern marknotanda. 
-    >    - **Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** og þú birtir yfirlitið í undirsafni lögaðila verður sjálfgefna yfirlitinu fyrir þessa lögaðila breytt fyrir alla marknotendur.
+    >    - ** Ef **Bættur stuðningur lögaðila fyrir vistaðar skoðanir** kveikt er á eiginleikanum og þú birtir yfirlitið til undirmengi lögaðila, sjálfgefna yfirlitinu fyrir þá lögaðila verður breytt fyrir hvern marknotanda.
     >
     > - Ef notandi er með hlutverk þar sem mörg yfirlit eru birt sem sjálfgefið yfirlit, verður síðasta yfirlitið sem birtist notað sjálfgefið yfirlit notandans. 
+    > - Útgáfa mun ekki virka fyrir hlutverkaúthlutun sem gerð er með AAD hópum. 
 
 8. Bættu öryggishlutverkum við sem samsvara notendunum sem fá þetta yfirlit. 
 9. Ákveðið hvort birta eigi yfirlitin undirhlutverkum fyrir hvert öryggishlutverk sem er valið. Ef það er gert skal velja gátreitinn **Hafa með undirhlutverk** í línunni fyrir viðeigandi öryggishlutverk. Athugið að þessi gátreitur er ekki tiltækur fyrir hlutverk sem eru ekki með undirhlutverk.
@@ -162,7 +163,7 @@ Til að birta yfirlit skal fylgja þessum skrefum:
     > Hafðu eftirfarandi hegðun í huga þegar þú birtir yfirlit til tiltekins lögaðila, en þú birtir ekki það yfirlit sem sjálfgefið yfirlit:
     >
     > - Ef aðeins er kveikt á grunneiginleikanum **Vistuð yfirlit** sýnir yfirlitsval notandans fyrir síðuna í upphafi aðeins yfirlitið fyrir tilgreinda lögaðila. Hinsvegar, þegar yfirlitinu er hlaðið inn í fyrsta skipti, verður það alltaf í yfirlitsvali notandans fyrir þá síðu, óháð lögaðilanum.
-    > - **Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** sýnir yfirlitsvalið aðeins yfirlitið fyrir tiltekna lögaðila.
+    > - Ef **Bættur stuðningur lögaðila fyrir vistaðar skoðanir** kveikt er á eiginleikanum mun útsýnisvalinn alltaf sýna yfirlitið fyrir tilgreinda lögaðila.
 
 11. Velja **Birta**.
 
@@ -203,7 +204,7 @@ Fyrir listann yfir öll birt yfirlit fyrir þessa síðu eru eftirfarandi sett a
 
 ## <a name="managing-views-globally"></a>Stjórna yfirlitum á altækan hátt
 
-Þó að einhver stjórnunargeta sé að finna á hverri síðu, eins og fram kemur í þessari grein, **kerfisstjórar** og **stjórnendur vistaðra skoðana** getur stjórnað skoðunum á heildrænan hátt fyrir kerfið í gegnum **Persónustilling** síðu. Einkum hefur þessi síða eftirfarandi hluta og möguleika: 
+Þó að einhver stjórnunargeta sé að finna á hverri síðu, eins og fram kemur í þessari grein, **kerfisstjórar** og **vistaðir skjástjórar** getur stjórnað skoðunum á heildrænan hátt fyrir kerfið í gegnum **Persónustilling** síðu. Einkum hefur þessi síða eftirfarandi hluta og möguleika: 
 
 - **Birt yfirlit** - Þessi hluti sýnir öll yfirlit sem hafa verið birt fyrir fyrirtækið. Héðan er hægt að endurbirta yfirlit þegar öryggishlutverkum eða lögaðilum hefur verið breytt sem yfirlitið hefur augastað á. Einnig er hægt að flytja út, eyða eða taka yfirlit úr birtingu. Hægt er að nota aðgerðina **Vista sem eigið** til að búa til eigið afrit af yfirlitinu til að geta uppfært yfirlitið eða öðlast betri skilning á efni þess. 
 - **Óbirt yfirlit** – Þessi hluti sýnir öll yfirlit fyrirtækis í kerfinu sem ekki eru þegar birt. Þessi yfirlit koma oftast inn í kerfið í gegnum innflutningsmöguleikann. Þú getur birt, flutt út eða eytt þessum skoðunum. Aðgerðin **Flýtibirting** sem var bætt við í útgáfu 10.0.12 býður upp á að birta mörg yfirlit úr þessum hluta í einni aðgerð með því að nota fyrirliggjandi skilgreiningar öryggishlutverks og lögaðila. Þú getur notað **Vista sem persónulegt** aðgerð til að búa til persónuleg afrit af þessum skoðunum, svo að þú getir öðlast betri skilning á innihaldi þeirra.
@@ -259,7 +260,7 @@ Fyrir síður sem eru með stórt yfirlitsval (bæði er hægt að vista sérsti
 Ef þú birtir yfirlit til tiltekins lögaðila, en þú birtir ekki það yfirlit sem sjálfgefið yfirlit, gerist eftirfarandi hegðun:
 
 - Ef aðeins er kveikt á grunneiginleikanum **Vistuð yfirlit** sýnir yfirlitsval notandans fyrir síðuna í upphafi aðeins yfirlitið fyrir tilgreinda lögaðila. Hinsvegar, þegar yfirlitinu er hlaðið inn í fyrsta skipti, verður það alltaf í yfirlitsvali notandans fyrir þá síðu, óháð lögaðilanum. Þessi hegðun á sér stað vegna þess að notendur fá sitt eigið persónulega afrit af birtu yfirliti þegar því er hlaðið og persónuleg yfirlit eru altæk.
-- **Útgáfa 10.0.21 eða síðar:** Ef kveikt er á eiginleikanum **Bættur stuðningur lögaðila fyrir vistuð yfirlit** sýnir yfirlitsvalið aðeins yfirlitið fyrir tiltekna lögaðila. Þessi hegðun á sér stað vegna þess að eiginleikinn gerir kleift að tengja yfirlit (þ.m.t. persónuleg yfirlit) við tiltekna lögaðila.
+- Ef **Bættur stuðningur lögaðila fyrir vistaðar skoðanir** kveikt er á eiginleikanum mun útsýnisvalinn alltaf sýna yfirlitið fyrir tilgreinda lögaðila. Þessi hegðun á sér stað vegna þess að eiginleikinn gerir kleift að tengja yfirlit (þ.m.t. persónuleg yfirlit) við tiltekna lögaðila.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a53b7834271355aaf11c13c3f1886257a97b1da8
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.openlocfilehash: 7ef93b81ce37128f7ff400eb4034ffea01756038
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068991"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779854"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Flutningur undirbókar í fjárhag
 
@@ -35,7 +35,7 @@ Eftirfarandi valkostir eru í boði til að flytja runur undirbókar:
 - **Ósamstilltur** - Flutningur á bókhaldsfærslum undirbókar í fjárhagsbók er áætluð strax. Fylgiskjal fjárhags verður skráð um leið og úrræði eru í boði til að afgreiða beiðnina á netþjóninum.
 - **Áætluð runa** – Bókhaldsfærslur undirbókar sem þarf að flytja er bætt við vinnsluröðina í fjárhagsbók. Færslurnar í röðinni verða afgreiddar í þeirri röð sem þær eru mótteknar. Hvert fylgiskjal fjárhags mun uppfæra lykla á áætluðum tíma ef tilföng eru í boði til að afgreiða runuvinnsluna á netþjóninum.
 
-Í útgáfu 10.0.8 voru gerðar úrbætur til að auka afköst valkostsins **Ósamstillt**. Þessi aðgerð er gerð virk undir nafni eiginleikans **Flutningur undirliða yfir í hagræðingu almenns fjárhags**.
+Endurbætur voru gerðar til að auka frammistöðu félagsins **Ósamstilltur** valmöguleika. Þessi aðgerð er gerð virk undir nafni eiginleikans **Flutningur undirliða yfir í hagræðingu almenns fjárhags**.
 
 Virknin fyrir ósamstilltan flutning á runum undirbókar hjálpar til við að flytja gögn úr undirbók í fjárhag. Með því að flokka saman safn af minni færslum og flytja færslurnar í hópum afgreiðir virknin færslur á skilvirkari hátt. Þegar færslur eru flokkaðar eru tilföng runuþjónsins notuð á skilvirkari hátt.
 

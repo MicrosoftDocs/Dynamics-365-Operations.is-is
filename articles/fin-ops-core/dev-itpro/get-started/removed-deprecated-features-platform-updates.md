@@ -1,6 +1,6 @@
 ---
 title: Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
-description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á fjármála- og rekstrarforritum.
+description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á fjármála- og rekstraröppum.
 author: sericks007
 ms.date: 08/09/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
-ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
-ms.translationtype: MT
+ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262299"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785100"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á fjármála- og rekstrarforritum.
+Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem fyrirhugað er að fjarlægja í vettvangsuppfærslum á fjármála- og rekstraröppum.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
@@ -51,7 +51,7 @@ Sem hluti af [One Dynamics One Platform](/dynamics365-release-plan/2022wave2/fin
 | Þjónustubeiðnir | Nr. | Já | Já: [Sjálfsafgreiðslur](../deployment/infrastructure-stack.md) |
 | Samþætting SharePoint | Já | Já | Nr. |
 | Skilgreininga- og gagnastjórnun | Nr. | Já | Nr. |
-| Ferlisgagnapakkar | Nr. | Já | Já: Data Import Export Framework (DIXF) |
+| Ferlisgagnapakkar | Nr. | Já | Já: [Data Import Export Framework (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
 | Uppfærsla á umhverfi | Nr. | Já | Já: [Ein útgáfa](../lifecycle-services/oneversion-overview.md) þjónustuuppfærslur eru fáanlegar. |
 | Vélbúnaðaráætlun | Já | Nr. | Nr. |
 | Stærð leyfis | Já | Nr. | Nr. |
@@ -71,10 +71,10 @@ Sem hluti af [One Dynamics One Platform](/dynamics365-release-plan/2022wave2/fin
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Við erum að fjarlægja eftirfarandi lista yfir dulmálssvítur til að vera í samræmi við núverandi öryggisreglur okkar.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Skipt út fyrir aðra eiginleika?**   | Frá og með 30. nóvember 2022 geta viðskiptavinir aðeins notað okkar [staðlaðar dulmálssvítur](/power-platform/admin/server-cipher-tls-requirements). Þessi breyting hefur áhrif á viðskiptavini þína og netþjóna sem hafa samskipti við netþjóna okkar, til dæmis getur hún haft áhrif á samþættingar þriðja aðila sem eru ekki í samræmi við staðlaða dulmálssvíturnar okkar. |
+| **Skipt út fyrir aðra eiginleika?**   | Frá og með 31. janúar 2023 geta viðskiptavinir aðeins notað okkar [staðlaðar dulmálssvítur](/power-platform/admin/server-cipher-tls-requirements). Þessi breyting hefur áhrif á viðskiptavini þína og netþjóna sem hafa samskipti við netþjóna okkar, til dæmis getur hún haft áhrif á samþættingar þriðja aðila sem eru ekki í samræmi við staðlaða dulmálssvíturnar okkar. |
 | **Afurðasvæði sem haft er áhrif á**         | Forrit fyrir Finance and Operations |
 | **Dreifingarvalkostur**              | Skýdreifing |
-| **Staða**                         | Úrelt. Viðskiptavinir verða að uppfæra netþjóna sína fyrir 30. nóvember 2022. Fyrir frekari upplýsingar um uppsetningu TLS Cipher Suite röð, sjá [Stjórna flutningslagaöryggi (TLS)](/windows-server/security/tls/manage-tls).  |
+| **Staða**                         | Úrelt. Viðskiptavinir verða að uppfæra netþjóna sína fyrir 31. janúar 2023. Fyrir frekari upplýsingar um uppsetningu TLS Cipher Suite röð, sjá [Stjórna flutningslagaöryggi (TLS)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Afskrift eiginleiki gildir í júní 2022

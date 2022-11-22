@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
-ms.translationtype: MT
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713672"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775300"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Stofna afskriftabók fyrir viðskiptavin
 
@@ -48,9 +48,9 @@ ms.locfileid: "8713672"
 7. Farðu í **skoðunarrúðuna > Kerfiseiningar > Fjárhagur > Bókarfærslur > Almennar færslubækur**.
 8. Veljið rununúmer færslubókar fyrir færslubók sem inniheldur afskrift. Ein lína er stofnuð til að snúa við stöðu viðskiptavinar. Ein eða fleiri línur eru stofnaðar til að bóka afskriftir í afskriftarlykil.  
 9. Lokið síðunni.
-10. Lokið síðunni.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Afskrifa færslur úr skjámyndinni innheimta.
+
+## <a name="write-off-transactions-from-the-collections-page"></a>Afskrifa færslur af innheimtusíðunni
 1. Fara í **skuldir og innheimta > Innheimta > Aldursgreindar stöður**.
 2. Velja nafn viðskiptavinar sem hefur færslur sem á að afskrifa. Veljið til dæmis Cave Wholesales (U.S.-004).
 3. Merkja línuna fyrir fyrstu færsluna.
@@ -63,7 +63,7 @@ ms.locfileid: "8713672"
 10. Farðu í **Fjárhag > Færslubókarfærslur > Almennar færslubækur**.
 11. Veljið rununúmer færslubókar fyrir færslubók sem inniheldur afskrift. Ein lína er stofnuð til að snúa við stöðu viðskiptavinar. Ein eða fleiri línur eru stofnaðar til að bóka afskriftir í afskriftarlykil.  
 12. Lokið síðunni.
-13. Lokið síðunni.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Afskrifa reikning frá síðunni Opna reikninga viðskiptavinir
 1. Farðu í **Skoðunarrúðu > Einingar > Viðskiptakröfur > Reikningar > Opnir reikningar viðskiptavina**.

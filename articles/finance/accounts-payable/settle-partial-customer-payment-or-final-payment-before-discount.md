@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 14491
 ms.assetid: 0f07d3ce-a439-43ed-a22e-957ccd36a37b
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
-ms.openlocfilehash: ee11647f6f700042e11133181de919e13f16c018
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.openlocfilehash: a8da366b1e770ea649603ae85d4acc5e377ed9fb
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715965"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780249"
 ---
 # <a name="settle-partial-and-final-payments-in-full-before-the-discount-date"></a>Jafna hlutagreiðslu og lokagreiðslu að fullu fyrir afsláttardagsetninguna
 
@@ -35,19 +35,19 @@ Fabrikam selur vörur til viðskiptavinar 4028. Fabrikam býður 1 prósent afsl
 
 | Fylgiskjal   | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða  | Gjaldmiðill |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10010 | Reikningur          | 6/25/2015 | 10010   | 1.000,00                             |                                       | 1.000,00 | USD      |
+| FTI-10010 | Reikningur          | 6/25/2020 | 10010   | 1,000.00                             |                                       | 1,000.00 | USD      |
 
 Úr á **Viðskiptavinar** eða **viðskiptavinafærslur** síðu, getur Arnie opna í **Jafna færslur** síðu til að skoða dagsetningar og staðgreiðsluafsláttur sem eru tiltækar fyrir reikninginn. Gjalddagi er 25 Júlí og staðgreiðsluafsláttur uppá 10,00 er tiltæk ef reikningurinn er greiddur fyrir 9 Júlí.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Valið | Venjulegt            | FTI-10010 | 4028    | 6/25/2015 | 7/25/2015 | 10010   | 1.000,00                       | USD      | 990,00           |
+| Valið | Venjulegt            | FTI-10010 | 4028    | 6/25/2020 | 7/25/2020 | 10010   | 1,000.00                       | USD      | 990.00           |
 
 Afsláttarupplýsingarnar birtist neðst á **Jafna færslur** síðu fyrir merktar reikningsins.
 
 |    &nbsp;                    |  &nbsp;   |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/09/2020 |
 | Upphæð staðgreiðsluafsláttar         | 10,00     |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
@@ -57,8 +57,8 @@ Arnie smellir á **staðgreiðsluafsláttur** flipa til að skoða afsláttarupp
 
 | Dagsetning staðgreiðsluafsláttar | Upphæð staðgreiðsluafsláttar | Upphæð í gjaldmiðli færslu |
 |--------------------|----------------------|--------------------------------|
-| 7/9/2015           | 10,00                | 990,00                         |
-| 7/25/2015          | 0,00                 | 1.000,00                       |
+| 7/9/2020           | 10,00                | 990.00                         |
+| 7/25/2020          | 0,00                 | 1,000.00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Hlutagreiðsla með því að nota síðuna færa inn greiðslur viðskiptavinar
 Viðskiptavinur 4028 sendir greiðslu fyrir 500,00 1. Júlí. Til að færa þessa greiðslu er smellir Apríl ekki á **Línur**. Í staðinn skráir Arnie greiðslu með því að stofna nýja greiðslubók og síðan opna á **færa Inn greiðslur viðskiptavina** síðu. Arnie færir inn upplýsingar um greiðslu og merkir reikninginn sem hann færði inn. Þegar Arnie færir inn **500,00** sem upphæð færir hann einnig **500,00** í **Upphæð til greiðslu** í hnitanetinu. Þar sem Fabrikam leyfir staðgreiðsluafslátt á hlutagreiðslur sér Arnie að hlutfallslegur staðgreiðsluafsláttur uppá 5.05 var einnig tekinn. Útreikningur fyrir þetta afsláttur er 500.00 ÷ 0.99 × 0.01 = 5.05. (Í þessum útreikningi 500,00 er deilt með 0.99, vegna þess að afsláttur 1 prósent. Þess vegna er greiðir viðskiptavinur 99 prósent af reikningi. Niðurstaðan er síðan margfaldað með afsláttarprósenta 1 prósent eða 0,01. Ef viðskiptavinurinn tekur fullt afsláttur 10,00, þarf að jafna upphæð sem er 990.00.) Afsláttarupplýsingarnar birtist í hnitaneti neðst á síðunni **Færa inn greiðslur viðskiptavina**.
@@ -72,13 +72,13 @@ Viðskiptavinur 4028 sendir greiðslu fyrir 500,00 1. Júlí. Til að færa þes
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Valið | Venjulegt            | FTI-10010 | 4028    | 6/25/2015 | 7/25/2015 | 10010   | 1.000,00                       | USD      | 500,00           |
+| Valið | Venjulegt            | FTI-10010 | 4028    | 6/25/2020 | 7/25/2020 | 10010   | 1,000.00                       | USD      | 500.00           |
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
 |        &nbsp;                | &nbsp;    |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/09/2020 |
 | Upphæð staðgreiðsluafsláttar         | 10,00     |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
@@ -88,13 +88,13 @@ Ef viðskiptavinurinn vill jafna nákvæmlega helming reiknings, viðskiptavinar
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Valið | Venjulegt            | FTI-10010 | 4028    | 6/25/2015 | 7/25/2015 | 10010   | 1.000,00                       | USD      | 495,00           |
+| Valið | Venjulegt            | FTI-10010 | 4028    | 6/25/2020 | 7/25/2020 | 10010   | 1,000.00                       | USD      | 495,00           |
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
 |     &nbsp;                   | &nbsp;    |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/09/2020 |
 | Upphæð staðgreiðsluafsláttar         | 10,00     |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 0,00      |
@@ -104,9 +104,9 @@ Arnie Lokar **Jafna færslur** síðu. Greiðslulína fyrir 495.00 er stofnuð �
 
 | Fylgiskjal    | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| FTI-10010  | Reikningur          | 6/25/2015 | 10010   | 1.000,00                             |                                       | 500,00  | USD      |
-| ARP-10010  |  Greiðsla         | 7/1/2015  |         |                                      | 495,00                                | 0,00    | USD      |
-| DISC-10010 |  Staðgreiðsluafsláttur   | 7/1/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
+| FTI-10010  | Reikningur          | 6/25/2020 | 10010   | 1,000.00                             |                                       | 500.00  | USD      |
+| ARP-10010  |  Greiðsla         | 7/1/2020  |         |                                      | 495,00                                | 0,00    | USD      |
+| DISC-10010 |  Staðgreiðsluafsláttur   | 7/1/2020  |         |                                      | 5.00                                  | 0,00    | USD      |
 
 ## <a name="payment-for-the-remaining-amount"></a>Greiðsla eftirstandandi upphæðar
 viðskiptavinur 4028 greiðir eftirstandandi upphæð 495.00 á Júlí 8, sem er innan tímabils staðgreiðsluafsláttar. Arnie stofnar greiðslubók á 8 Júlí og merkir færsluna til jöfnunar. Arnie sér að Upphæðin sem þarf að jafna er 495.00 . Gildið í á **Áætlaður staðgreiðsluafsláttur** er **5,00** því 5,00 afslátturinn var áður tekinn af.
@@ -120,13 +120,13 @@ Upplýsingar um merkta færslan birtist í hnitaneti í á **Jafna opnar færslu
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Valið | Venjulegt            | FTI-10010 | 4028    | 6/25/2015 | 7/25/2015 | 10010   | 1.000,00                       | USD      | 495,00           |
+| Valið | Venjulegt            | FTI-10010 | 4028    | 6/25/2020 | 7/25/2020 | 10010   | 1,000.00                       | USD      | 495,00           |
 
 Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni.
 
 |  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
-| Dagsetning staðgreiðsluafsláttar           | 7/09/2015 |
+| Dagsetning staðgreiðsluafsláttar           | 7/09/2020 |
 | Upphæð staðgreiðsluafsláttar         | 10,00     |
 | Nota staðgreiðsluafslátt            | Venjulegt    |
 | Notaður staðgreiðsluafsláttur          | 5,00      |
@@ -136,11 +136,11 @@ Arnie bókar þessa færslubók og fer yfir viðskiptavinafærslur á **viðskip
 
 | Fylgiskjal    | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| FTI-10010  | Reikningur          | 6/25/2015 | 10010   | 1.000,00                             |                                       | 0,00    | USD      |
-| ARP-10010  | Greiðsla          | 7/1/2015  |         |                                      | 495,00                                | 0,00    | USD      |
-| DISC-10010 | Staðgreiðsluafsláttur    | 7/1/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
-| ARP-10011  | Greiðsla          | 7/8/2015  |         |                                      | 495,00                                | 0,00    | USD      |
-| DISC-10011 | Staðgreiðsluafsláttur    | 7/8/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
+| FTI-10010  | Reikningur          | 6/25/2020 | 10010   | 1,000.00                             |                                       | 0,00    | USD      |
+| ARP-10010  | Greiðsla          | 7/1/2020  |         |                                      | 495,00                                | 0,00    | USD      |
+| DISC-10010 | Staðgreiðsluafsláttur    | 7/1/2020  |         |                                      | 5.00                                  | 0,00    | USD      |
+| ARP-10011  | Greiðsla          | 7/8/2020  |         |                                      | 495,00                                | 0,00    | USD      |
+| DISC-10011 | Staðgreiðsluafsláttur    | 7/8/2020  |         |                                      | 5.00                                  | 0,00    | USD      |
 
 
 
