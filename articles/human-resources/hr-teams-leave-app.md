@@ -1,6 +1,6 @@
 ---
 title: Stjórna leyfisbeiðnum í Teams
-description: Þessi grein sýnir hvernig á að biðja um frí í Dynamics 365 Human Resources app í Microsoft Teams.
+description: Þessi grein sýnir hvernig á að biðja um frí í Dynamics 365 Human Resources appinu í Microsoft Teams.
 author: twheeloc
 ms.date: 12/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cdfd8db68647623e2b5f1b9eca93b57776e1bfe9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 84f1190301e67b49535530f85784561b2e51a2df
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067062"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812161"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Stjórna leyfisbeiðnum í Teams
 
@@ -36,7 +36,7 @@ Hægt er að finna Dynamics 365 Human Resources forritið í Teams versluninni.
 2. Leitið að Dynamics 365 Human Resources og veljið síðan reitinn **Human Resources**.
 
 > [!NOTE]
-> Frá og með 20. desember 2021 verður þjónusta mannauðsappabotna (útgáfa 1.1.4) sem hýst er hjá Microsoft leigjanda tekin úr notkun. Nýjustu viðbótin (útgáfa 1.1.5) er fáanleg til uppsetningar. Fyrir frekari upplýsingar, sjá [Hafa umsjón með leyfisbeiðnum í Teams](hr-admin-teams-leave-app.md#update-app).
+> Frá og með 20. desember 2021 verður þjónusta mannauðsappabotna (útgáfa 1.1.4) sem hýst er hjá Microsoft leigjanda tekin úr notkun. Nýjustu viðbótin (útgáfa 1.1.5) er fáanleg til uppsetningar. Fyrir frekari upplýsingar, sjá [Stjórna leyfisbeiðnum í Teams](hr-admin-teams-leave-app.md#update-app).
 
 3. Veljið hnappinn **Bæta við** til að setja upp forritið.
 
@@ -158,7 +158,7 @@ Forritið Dynamics 365 Human Resources í Teams styður eftirfarandi tungumál:
 | it-IT | Ítalska (Ítalía) |
 | nl-NL | Hollenska (Holland) |
 | pt-BR | Portúgalska (Brasilía) |
-| tr-TR | Tyrkneska (Tyrkland) |
+| tr-TR | Tyrkneska (Türkiye) |
 | zh-CN | kínverska (einfölduð) |
 
 ## <a name="troubleshooting"></a>Úrræðaleit
@@ -169,7 +169,7 @@ Ef þú átt í vandræðum með að skrá þig inn í eða nota forritið Human
 
 Ef þú getur ekki skráð þig inn í forritið er hugsanlegt að reikningurinn sem þú notar til að skrá þig inn í Microsoft Teams sé ekki tengdur við starfsmannafærslu í Dynamics 365 Human Resources. Hafa skal samskipti við kerfisstjóra til að tryggja að starfsmannafærslan sé rétt tengd.
 
-### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Finn ekki Dynamics 365 Human Resources umhverfi í stillingum
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Finn ekki Dynamics 365 Human Resources umhverfið í stillingum
 
 Ef þú getur ekki valið rétt Dynamics 365 umhverfi gæti verið að notandafærslan hafi ekki verið rétt samstillt. Hafa skal samband við kerfisstjóra til að stofna notandafærsluna aftur og tengja hana við innskráningarupplýsingar notanda. Reyndu svo að skrá þig inn forrit Human Resources fyrir Microsoft Teams nokkrum mínútum síðar.
 
@@ -185,7 +185,7 @@ Ef þýðingar birtast ekki eins og búist er við skal ganga úr skugga um tung
 
 ![Valkostir notanda í Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
-Láttu okkur vita ef vandamál vegna þýðinga er enn til staðar. Fyrir upplýsingar, sjá [Fáðu stuðning fyrir fjármála- og rekstrarforrit eða Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+Láttu okkur vita ef vandamál vegna þýðinga er enn til staðar. Fyrir upplýsingar, sjá [Fáðu stuðning fyrir fjármála- og rekstraröpp eða Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Villa þegar leyfisbeiðnir eru samþykktar í forriti Human Resources í Teams
 
@@ -201,7 +201,7 @@ Ef villa kemur upp þegar verið er að reyna að samþykkja leyfisbeiðnir í T
 
 2. Gangið úr skugga um að notendur séu skráði inn í flipann **Spjall** með sömu innskráningarupplýsingunum og þeir nota til að samþykkja leyfisbeiðnir. Notið skilaboðin „skrá út“ og síðan „skrá inn“ til að skrá inn með réttum innskráningarupplýsingum.
 
-3. Ef vandamálið er viðvarandi skaltu athuga stöðuna á **Viðskiptaviðburðakerfi** hópvinna sem kerfisstjóri. Ef það er í a **Bíður** eða **Framkvæmd** stigi, athugaðu aftur eftir nokkrar mínútur. Ef staðan helst óbreytt, skráðu þig stuðningsmiða svo að teymið okkar geti hjálpað til við að laga málið.
+3. Ef vandamálið er viðvarandi skaltu athuga stöðu **Business Events kerfisins** runuvinnslunnar sem kerfisstjóri. Ef það er í **Bið** eða **Í keyrslu** stigi skaltu athuga aftur eftir nokkrar mínútur. Ef staðan helst óbreytt, skráðu þig stuðningsmiða svo að teymið okkar geti hjálpað til við að laga málið.
 
 ## <a name="known-accessibility-issues"></a>Þekkta aðgengisvandamál
 
@@ -210,7 +210,7 @@ Human Resources-forritið í Teams er með eftirfarandi aðgengisvandamál sem v
 | Úthreyfing | Hjáleið eða skýring |
 | --- | --- |
 | Ef 400% aðdráttur er notaður á skjáborði eru sumir aðgerðahnappar ekki sýnilegir. | Mælt er með því að notað sé stækkunargler þar til við styðjum þennan aðdrátt. |
-| Á **Frí** flipa, talsetning tilkynnir hnappaaðgerð á meðan hún les hausinn fyrir frítímanetið. | Hausinn og þættirnir í hnitanetinu eru flokkaðir eftir árum og þeir eru hægt að fella saman. Voiceover túlkar þessa kynningu sem verklegt atriði, en það er það ekki. |
+| Á flipanum **Tímafrí** tilkynnir talsetning hnappaaðgerð á meðan hún les hausinn fyrir frítímanetið. | Hausinn og þættirnir í hnitanetinu eru flokkaðir eftir árum og þeir eru hægt að fella saman. Voiceover túlkar þessa kynningu sem verklegt atriði, en það er það ekki. |
 | Á flipanum **Frí** er aukaleg strokhreyfing þegar verið er að fletta að **Ástæðukóði** í nýrri beiðni. | Engin falin stjórnun er til staðar sem storkufletting er að reyna að ná til. |
 | Á flipanum **Frí**, ef strokið á meðan dagatalið er opið, er endað utan stýringar í stað upphafs nýrrar beiðni eða þegar beiðni er breytt. | Þegar komið er að **Fara á daginn í dag** er það síðasti hlutinn og strokið er í öfuga átt til að komast aftur efst. |
 | Á flipanum **Spjall** er farið aftur á toppinn þegar dagsetningin er slegin inn á meðan verið er að nota hjálpartækið eða lyklaborðið. | Flipi þar til þú nærð innsláttarsvæðinu aftur. |
@@ -219,9 +219,9 @@ Human Resources-forritið í Teams er með eftirfarandi aðgengisvandamál sem v
 
 ### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
 
-Með Dynamics 365 Human Resources bot í Microsoft Teams, eru textainnsláttur notandans greind til að skilja undirliggjandi fyrirspurn/tilgang. Inntak notandans eins og „Search account Contoso“ er beint til einnar af hugrænu þjónustu Microsoft sem kallast Language Understanding Intelligent Service (LUIS). Lesa meira um LUIS  [hér](https://www.luis.ai/). LUIS-þjónustan ræður úr eða skilur ásetning notanda (í þessu tilviki er ætlunin að finna upplýsingar) og markeiningu (í þessu tilviki er tilgreinda einingin reikningur sem heitir Contoso). Þessar upplýsingar eru síðan sendar til Microsoft [Azure bot ramma](https://azure.microsoft.com/services/bot-service/), sem hefur samskipti við gögn frá Dynamics 365 Human Resources og sækir þær upplýsingar sem óskað er eftir fyrir notendafyrirspurnina. 
+Með Dynamics 365 Human Resources þjarkanum í Microsoft Teams, eru textainnsláttur notandans greindur til að skilja undirliggjandi fyrirspurn/tilgang. Inntak notandans eins og „Search account Contoso“ er beint til einnar af hugrænu þjónustu Microsoft sem kallast Language Understanding Intelligent Service (LUIS). Lesa meira um LUIS  [hér](https://www.luis.ai/). LUIS-þjónustan ræður úr eða skilur ásetning notanda (í þessu tilviki er ætlunin að finna upplýsingar) og markeiningu (í þessu tilviki er tilgreinda einingin reikningur sem heitir Contoso). Þessar upplýsingar eru síðan sendar til Microsoft Teams Azure bot framework [frá Microsoft, sem hefur samskipti við gögn frá](https://azure.microsoft.com/services/bot-service/) og sækir þær upplýsingar sem óskað er eftir fyrir notendafyrirspurnina. 
 
-Með því að setja upp og leyfa aðgang að þjarkanum samþykkir þú að leyfa LUIS-þjónustunni og Azure þjarkaramma að vinna úr ásetningi á bak við fyrirspurn, sem leiðir til betri notandaupplifunar. LUIS-þjónustan og Azure þjarkaramminn kunna að hafa mismikið samræmi samanborið við Dynamics 365 Human Resources. Þó að LUIS þjónustan hafi aðeins aðgang að notendafyrirspurnum og sé ekki hönnuð til að vera tengd við notandann Dynamics 365 Human Resources gögnum eða reikningi, notandi á Dynamics 365 Human Resources láni gæti af fúsum og frjálsum vilja slegið inn fyrirspurn sem inniheldur viðskiptavinagögn, persónuupplýsingar eða önnur gögn og slíkt fyrirspurnarefni gæti verið sent til LUIS þjónustunnar og Azure bot ramma. 
+Með því að setja upp og leyfa aðgang að þjarkanum samþykkir þú að leyfa LUIS-þjónustunni og Azure þjarkaramma að vinna úr ásetningi á bak við fyrirspurn, sem leiðir til betri notandaupplifunar. LUIS-þjónustan og Azure þjarkaramminn kunna að hafa mismikið samræmi samanborið við Dynamics 365 Human Resources. Þó að LUIS þjónustan hafi aðeins aðgang að notendafyrirspurnunum og sé ekki hönnuð til að vera tengd við Dynamics 365 Human Resources gögnum eða reikningi notandans, gæti notandi Dynamics 365 Human Resources botans sjálfviljugur slegið inn fyrirspurn sem inniheldur Viðskiptavinagögn, persónuupplýsingar eða önnur gögn og slíkt fyrirspurnarefni gætu verið send til LUIS þjónustunnar og Azure bot ramma. 
 
 Innihald fyrirspurna og skilaboða notanda er varðveitt í LUIS kerfinu í að hámarki 30 daga, er dulkóðað í hvíld og er ekki notað til þjálfunar eða endurbóta á þjónustu. Lestu meira um Cognitive Services  [hér](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
@@ -229,9 +229,9 @@ Til að stjórna stjórnandastillingum fyrir forrit í Microsoft Teams er farið
 
 ### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, hnitanet Azure-tilviks og Azure Cosmos DB
 
-Þegar þú notar Dynamics 365 Human Resources app í Microsoft Teams, tiltekin gögn viðskiptavina gætu streymt út fyrir landsvæðið þar sem starfsmannaþjónusta leigjanda þíns er notuð.
+Þegar  Dynamics 365 Human Resources appið er notað í Dynamics 365 Human Resources  gætu ákveðin viðskiptavinagögn streymt út fyrir landfræðilega svæðið þar sem mannauðsþjónusta leigjanda þíns er notuð.
 
-Dynamics 365 Human Resources sendir leyfisbeiðni starfsmanns og upplýsingar um verkflæðisverk til Microsoft Azure Viðburðarnet og Microsoft Teams. Þessi gögn má geyma í Microsoft Azure Event Grid í allt að sólarhring og verða unnin í Bandaríkjunum, þau er dulkóðuð í flutningi og í hvíld, og eru ekki notuð af Microsoft eða meðhöndlunaraðilum fyrir þjálfun eða þjónustuúrbætur. Til að skilja hvar gögnin þín eru geymd í Teams skaltu skoða: [Staðsetning gagna í Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
+ Microsoft Teams sendir leyfisbeiðni starfsmanns og upplýsingar um verkflæðisverk til Dynamics 365 Human Resources Event Grid og Microsoft Azure . Þessi gögn má geyma í Microsoft Azure Event Grid í allt að sólarhring og verða unnin í Bandaríkjunum, þau er dulkóðuð í flutningi og í hvíld, og eru ekki notuð af Microsoft eða meðhöndlunaraðilum fyrir þjálfun eða þjónustuúrbætur. Til að skilja hvar gögnin þín eru geymd í Teams skaltu skoða: [Staðsetning gagna í Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
 
 Í samskiptum við spjallarann í forriti Human Resources, er hægt að geyma innihald samtalsins í Azure Cosmos DB og flytja það yfir í Microsoft Teams. Þessi gögn má geyma í Azure Cosmos DB í allt að sólarhring og kunna að vera meðhöndluð utan staðsetningarinnar þar sem Human Resources-þjónusta leigjandans er uppsett, þau er dulkóðuð í flutningi og í hvíld, og eru ekki notuð af Microsoft eða meðhöndlunaraðilum fyrir þjálfun eða þjónustuúrbætur. Til að skilja hvar gögnin þín eru geymd í Teams skaltu skoða: [Staðsetning gagna í Microsoft Teams](/microsoftteams/location-of-data-in-teams?preserve-view=true&view=o365-worldwide).
  

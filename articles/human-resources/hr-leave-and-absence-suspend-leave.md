@@ -1,8 +1,8 @@
 ---
-title: Fresta leyfi
-description: Þú getur frestað leyfi fyrir starfsmann í Dynamics 365 Human Resources.
+title: Fresta leyfi frá störfum
+description: Hægt er að fresta leyfi starfsmanns í Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 93b530aeef6fd14b56ac846e3bb0ad4080d67587
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9c8262fb34175f6f9326d6be82c922b2170fc5a7
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895903"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805261"
 ---
 # <a name="suspend-leave"></a>Fresta leyfi
 
 >[!Important]
->Virknin sem getið er um í þessari grein er eins og er í boði fyrir viðskiptavini á sjálfstætt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
-
+>Virknin sem vísað er til í þessari grein er nú í boði fyrir viðskiptavini sem nota stakt Dynamics 365 Human Resources. Sum eða öll virknin verður í boði sem hluti af síðari útgáfu í tölvukerfi Finance eftir útgáfu 10.0.26 af Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þú getur frestað leyfi starfsmanns til að stöðva vinnslur á leyfisuppsöfnunum vegna valinna leyfisgerða. 
+Hægt er að fresta orlofi fyrir starfsmann til að hætta að safna orlofi í vinnslu fyrir valdar orlofstegundir.
 
 ## <a name="suspend-leave-and-absence-for-an-employee"></a>Fresta leyfi og fjarvistum fyrir starfsmann
 
@@ -44,6 +43,9 @@ ms.locfileid: "8895903"
 5. Að öðrum kosti geturðu bætt við **Athugasemd** vegna frestunarinnar. 
 
 Sé unnið úr uppsöfnunum á meðan leyfi starfsmanns er frestað verður engin uppsöfnun gerð fyrir frestaðar leyfisgerðir.
+
+> [!NOTE]
+> Fjarvistarbeiðnir munu fresta fríbeiðnum, en fríbeiðnir stöðva ekki leyfisbeiðnir.
 
 ## <a name="see-also"></a>Sjá einnig
 

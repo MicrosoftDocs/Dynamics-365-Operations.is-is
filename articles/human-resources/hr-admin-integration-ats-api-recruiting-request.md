@@ -1,6 +1,6 @@
 ---
 title: Ráðningarbeiðni
-description: Þessi grein lýsir einingunni um ráðningarbeiðni fyrir Dynamics 365 Human Resources.
+description: Þessi grein lýsir ráðningarbeiðnieiningunni fyrir Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872269"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806376"
 ---
 # <a name="recruiting-request"></a>Ráðningarbeiðni
 
@@ -27,7 +27,7 @@ ms.locfileid: "8872269"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Þessi grein lýsir einingunni um ráðningarbeiðni fyrir Dynamics 365 Human Resources.
+Þessi grein lýsir ráðningarbeiðnieiningunni fyrir Dynamics 365 Human Resources.
 
 Raunlægt heiti: mshr_hcmrecruitingrequestentity
 
@@ -68,7 +68,7 @@ Lýsir beiðni til að ráða í starf.
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ Lýsir beiðni til að ráða í starf.
 | **Staða**<br>mshr_status<br>Valkostir *RecruitingRequestStatus* | Lesa/skrifa<br>Krafa<br> | Tilgreinir stöðu ráðningarbeiðninnar. |
 | **Lýsing**<br>mshr_description<br>*Strengur* | Lesa/skrifa<br>Krafa | Lýsir beiðninni. |
 | **Kenni staðsetningar í ráðningarbeiðni**<br>mshr_recruitingrequestlocationid<br>*Strengur* | Lesa/skrifa<br>Valfrjálst | Einkvæmt lesanlegt kenni fyrir staðsetningu starfs sem tengist þessari beiðni. |
-| **Gildi fyrir staðsetningarkenni ráðningar**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | Lesa eingöngu<br>Valfrjálst<br>Ytri lykill: mshr_hcmrecruitingrequestlocationentityid úr einingu mshr_hcmrecruitingrequestlocationentity | GUID-gildi myndað af kerfinu til að auðkenna staðsetningu ráðningarbeiðninnar sem valin er fyrir beiðnina. |
+| **Gildi fyrir staðsetningarkenni ráðningar**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | Lesa eingöngu<br>Valfrjálst<br>Ytri lykill: mshr_hcmrecruitingrequestlocationentityid úr einingu mshr_hcmrecruitingrequestlocationentity | GUID-gildi myndað af kerfinu til að auðkenna staðsetningu ráðningarbeiðninnar sem valin er fyrir beiðnina. |
 | **Athugasemdir**<br>mshr_comments<br>*Strengur* | Lesa/skrifa<br>Valfrjálst | Athugasemdir um beiðnina sem ráðningarstjóri og ráðningaraðilar nota. |
 | **Starfsauðkenni**<br>mshr_jobid<br>*Strengur* | Einskrifanlegt<br>Krafa |   Einkvæmt lesanlegt kenni starfsins sem allar stöður deila sem tengjast þessari beiðni. |
 | **Gildi fyrir starfskenni**<br>_mshr_fk_job_id_value<br>*GUID* | Lesa eingöngu<br>Krafa<br>Ytri lykill: mshr_hcmjobentityid úr einingu mshr_hcmjobentity | Einkvæmt lesanlegt kenni starfsins sem allar stöður deila sem tengjast þessari ráðningarbeiðni. |

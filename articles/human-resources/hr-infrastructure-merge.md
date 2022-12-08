@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 Human Resources yfirlit yfir sameiningu innviða
-description: Þessi grein lýsir Microsoft Dynamics 365 Human Resources sameining innviða.
+description: Þessi grein lýsir Microsoft Dynamics 365 Human Resources innviðasamrunanum.
 author: twheeloc
 ms.date: 10/24/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f79ef3ed5db7583eb44b99e49c010778ce8524d1
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: e68b28bfde35b51605aa0b653265da6261b69a90
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9732769"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819243"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge"></a>Dynamics 365 Human Resources sameining innviða 
 
@@ -28,26 +28,26 @@ ms.locfileid: "9732769"
 
 ## <a name="dynamics-human-resources-365"></a>Dynamics Human Resources 365
 
-Microsoft Dynamics 365 Human Resources býður upp á verkfæri sem hjálpa HR teymum að auka snerpu skipulagsheildar, umbreyta upplifun starfsmanna og hagræða HR forritum til að skapa vinnustað þar sem fólk og fyrirtæki geta dafnað. Til að læra meira um Dynamics 365 Human Resources, sjá [Dynamics 365 Human Resources](https://dynamics.microsoft.com/human-resources/overview/).
+Microsoft Dynamics 365 Human Resources útvegar verkfæri sem hjálpa starfsmannateymum að auka snerpu skipulagsheildar, umbreyta upplifun starfsmanna og hámarka mannauðsáætlanir til að skapa vinnustað þar sem fólk og fyrirtæki geta dafnað. Til að læra meira um Dynamics 365 Human Resources, sjá [Dynamics 365 Human Resources](https://dynamics.microsoft.com/human-resources/overview/).
 
-- **Umbreyttu reynslu starfsmanna.** Haltu í fremstu röð með því að styrkja stjórnendur og starfsmenn með tengdri sjálfsafgreiðsluupplifun sem ýtir undir þátttöku og vöxt.
+- **Umbreyttu upplifun starfsmanna.** Haltu í fremstu röð með því að styrkja stjórnendur og starfsmenn með tengdri sjálfsafgreiðsluupplifun sem ýtir undir þátttöku og vöxt.
 - **Fínstilltu HR forrit.** Hjálpaðu til við að lækka rekstrarkostnað og búa til fólksmiðaða orlof og fjarveru, tíma, ávinning og bótastjórnunaráætlanir.
-- **Auka snerpu í skipulagi.** Gerðu HR kleift að starfa með þeirri handlagni sem fyrirtækið krefst með því að nota Dataverse og Microsoft Power Platform til að miðstýra gögnum fólks og lengja auðveldlega Dynamics 365 Human Resources.
+- **Auka snerpu í skipulagi.** Gerðu HR kleift að starfa með þeirri handlagni sem fyrirtækið krefst með því að nota Dataverse og Microsoft Power Platform til að miðstýra gögnum fólks og auka auðveldlega Dynamics 365 Human Resources.
 - **Uppgötvaðu innsýn í vinnuafl.** Taktu gagnadrifnar ákvarðanir með því að greina og sjá fyrir fólki gögn á ríkulegum mælaborðum sem eru tiltæk í hvaða tæki sem er.
 
-## <a name="human-resources-infrastructure-merge"></a>Mannauðsinnviðir sameinast
+## <a name="human-resources-infrastructure-merge"></a>Samþætting innviða í Human Resources
 
-Dynamics 365 Human Resources er sjálfstætt forrit sem nú notar aðra innviði en önnur fjármála- og rekstrarforrit, eins og Dynamics 365 Finance eða Dynamics 365 Supply Chain Management. Innviðasamruninn mun hafa í för með sér Dynamics 365 Human Resources inn í sama innviði og önnur fjármála- og rekstraröpp.
+Dynamics 365 Human Resources er sjálfstætt forrit sem nú notar aðra innviði en önnur fjármála- og rekstrarforrit, eins og Dynamics 365 Finance eða Dynamics 365 Supply Chain Management. Innviðasamruninn mun koma Dynamics 365 Human Resources inn í sama innviði og önnur fjármála- og rekstraröpp.
 
-Til að læra meira um Mannauðsinnviðasamruna, sjá [Sameining starfsmannaframboða](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers/). Fyrir svör við algengum spurningum, sjá [Algengar spurningar um sameiningu mannauðsinnviða](./hr-infrastructure-merge-faq.md).
+Til að læra meira um samruna mannauðsinnviða, sjá [Sameining starfsmannaframboða](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers/). Fyrir svör við algengum spurningum, sjá [Algengar spurningar um samruna mannauðsinnviða](./hr-infrastructure-merge-faq.md).
 
 ## <a name="customer-migration-vs-customer-merge"></a>Flutningur viðskiptavina á móti sameiningu viðskiptavina
 
-Sem hluti af samruna innviða hefur allur möguleiki mannauðsforritsins verið aðgengilegur í fjármála- og rekstrarumhverfi. Viðskiptavinir geta flutt mannauðsumhverfi sitt með því að nota flutningstækin sem eru fáanleg í Microsoft Dynamics Lífsferilsþjónusta. Þeir geta einnig valfrjálst sameinað gögn sín við núverandi fjármála- og rekstrarumhverfi. 
+Sem hluti af samruna innviða hefur allur möguleiki mannauðsforritsins verið aðgengilegur í fjármála- og rekstrarumhverfi. Viðskiptavinir geta flutt mannauðsumhverfi sitt með því að nota flutningsverkfærin sem eru fáanleg í Microsoft Dynamics Lifecycle Services. Þeir geta einnig valfrjálst sameinað gögn sín við núverandi fjármála- og rekstrarumhverfi. 
 
 Flutningur viðskiptavina og sameining viðskiptavina eru mismunandi á eftirfarandi hátt:
 
-- **Flutningur viðskiptavina** – Sjálfvirka flutningsverkfærin eru notuð til að framkvæma „lyfta-og-vakta flutning“ (hreyfing) á gagnagrunni viðskiptavina frá mannauðsinnviði til fjármála- og rekstrarinnviða. Niðurstaðan er nýtt fjármála- og rekstrarumhverfi sem notar mannauðsgagnagrunn viðskiptavinarins. 
+- **Flutningur viðskiptavina** – Sjálfvirka flutningsverkfærin eru notuð til að framkvæma „lyfta-og-vakta flutning“ (hreyfingu) á gagnagrunni viðskiptavina frá mannauðsinnviði til fjármála- og rekstrarinnviða. Niðurstaðan er nýtt fjármála- og rekstrarumhverfi sem notar mannauðsgagnagrunn viðskiptavinarins. 
 - **Sameining viðskiptavina** – Þetta viðbótarskref er ekki krafist af Microsoft. Það er gert að vild viðskiptavinarins og á eigin tímalínu viðskiptavinarins. Í þessu skrefi eru gögn viðskiptavina flutt inn í núverandi umhverfi, eins og fjármála- eða verkefnaumhverfi. Það er að mestu handvirkt og hægt að gera það með því að nota Data Management Framework (DMF) gagnaeiningar. 
 
 ## <a name="planning-a-human-resources-environment-migration"></a>Skipuleggja mannauðsumhverfi fólksflutninga
@@ -74,7 +74,7 @@ Eftirfarandi handvirk skref verða að vera lokið:
 
 - Búðu til nýtt Lifecycle Services verkefni fyrir flutninginn.
 - Endurskoðaðu allar samþættingar í gamla umhverfi þínu yfir í nýja umhverfið með því að benda samþættingunni á nýju vefslóðina/endapunktana, byggt á hverri samþættingarstillingu.
-- Endurnýjaðu gagnageymsluna fyrir embed in Power BI skýrslur.
+- Endurnýjaðu gagnageymsluna fyrir innbyggðar Power BI skýrslur.
 - Endurnýjaðu gagnaeiningalistann frá DMF vinnusvæðinu.
 - Tengill á Lifecycle Services fyrir aðstoð.
 - Búðu til fjárhagsdagatöl.
@@ -85,11 +85,12 @@ Meðan á sjálfvirka ferlinu stendur er eftirfarandi aðgerðum lokið og ætti
 
     - Afbrigði
     - Öryggishlutverk (þar á meðal sérsniðin hlutverk)
-    - Verkflæði
+    - Verkflæði (þar á meðal tilkynningar)
     - Sérstillingar og vistaðar skoðanir
     - Færslur
     - Sérstillt svæði
     - Fylgiskjöl
+    - Viðvaranir
 
 - Gagnastjórnun - Komdu með þinn eigin gagnagrunn (BYOD).
 - Eiginleikastjórnun - Virkir/óvirkir eiginleikar.
@@ -97,10 +98,10 @@ Meðan á sjálfvirka ferlinu stendur er eftirfarandi aðgerðum lokið og ætti
 - Power Platform tengd umhverfi stjórnendamiðstöðvar (aðeins framleiðsla).
 - Runuvinnslur.
 - Tóm fjárhagsbók er búin til fyrir hvern lögaðila. Sjálfgefin gengistegund og bókhaldsgjaldmiðill fyrir hverja fjárhagsbók eru stilltir.
-- Ný reikningaskrá er sjálfkrafa búin til og tengd við **Fjárhagsbók** síðu í hverjum lögaðila. Fjárhagsvíddir sem eru stilltar í mannauðsumhverfi þínu verða sjálfkrafa bætt við nýja reikningsuppbyggingu og tengdar við fjárhagsbókina. 
+- Ný reikningsyfirlit er sjálfkrafa búin til og tengd við **Hagbók** síðuna í hverjum lögaðila. Fjárhagsvíddir sem eru stilltar í mannauðsumhverfi þínu verða sjálfkrafa bætt við nýja reikningsuppbyggingu og tengdar við fjárhagsbókina. 
 
 > [!NOTE]
-> Fjárhagsbók er nauðsynleg á innviðum fjármála og rekstrar sem hluti af Dynamics 365 Finance vörunni. Sérsniðna víddarstýringin sem var til í Dynamics 365 Human Resources Sjálfstætt forrit er ekki í boði. Sameinaðir innviðir mannauðs eru háðir fjármálarökfræðinni til að sýna fjárhagsvíddir í **Mannauður** mát. Til að fá frekari upplýsingar um reikningslykla og fjárhagsvíddir, sjá [hér](../finance/general-ledger/plan-chart-of-accounts.md). 
+> Fjárhagsbók er nauðsynleg á innviðum fjármála og rekstrar sem hluti af Dynamics 365 Finance vörunni. Sérsniðna víddarstýringin sem var til í Dynamics 365 Human Resources sjálfstæða forritinu er ekki tiltæk. Sameinaðir innviðir mannauðs eru háðir fjármálarökfræðinni til að sýna fjárhagsvíddir í **Human Resources** einingunni. Til að fræðast meira um reikningsyfirlit og fjárhagsvíddir, sjá [hér](../finance/general-ledger/plan-chart-of-accounts.md). 
 
 ## <a name="considerations"></a>Til athugunar
 
@@ -112,5 +113,5 @@ Meðan á sjálfvirka ferlinu stendur er eftirfarandi aðgerðum lokið og ætti
 Engar breytingar eru á leyfisveitingum fyrir Dynamics 365 Human Resources á eftirfarandi sviðum: 
 
 - **Lágmarkskröfur um leyfiskaup**
-- **Leyfi fyrir framleiðslu- og sandkassaumhverfi** – Ef þú ert með fyrirliggjandi sjálfstæð mannauðsleyfi sem veitir eitt framleiðsluumhverfi og eitt sandkassaumhverfi, er sami fjöldi leyfa tiltækur á fjármála- og rekstrarinnviðum, án aukakostnaðar.
-- **Viðbótarsandkassaleyfi** – Ef þú hefur keypt viðbótarsandkassaleyfi fyrir sjálfstæða mannauðsforritið er sami fjöldi sandkassaleyfa fáanlegur fyrir staðlað samþykkispróf (sandkassa) umhverfi á fjármála- og rekstrarinnviðum, án aukakostnaðar. 
+- **Leyfi fyrir framleiðslu- og sandkassaumhverfi** – Ef þú ert með fyrirliggjandi sjálfstæð mannauðsleyfi sem veitir eitt framleiðsluumhverfi og eitt sandkassaumhverfi, er sami fjöldi leyfa tiltækur á fjármála- og rekstrarinnviðum, kl. aukakostnaður.
+- **Viðbótarsandkassaleyfi** – Ef þú hefur keypt viðbótarsandkassaleyfi fyrir sjálfstæða mannauðsforritið, er sami fjöldi sandkassaleyfa í boði fyrir staðlað samþykkispróf (sandkassa) umhverfi á fjármála- og rekstrarinnviðum, án aukakostnaðar. 

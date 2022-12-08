@@ -2,7 +2,7 @@
 title: Grunnstilla gerðir leyfis og fjarvista
 description: Settu upp tegundir orlofs sem starfsmenn geta tekið í Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 09/09/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,14 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: e35c5fed886ebf9a453c22b3e04ca9ffe50b6d70
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9323959"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805205"
 ---
 # <a name="configure-leave-and-absence-types"></a>Grunnstilla gerðir leyfis og fjarvista
+
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -38,22 +40,28 @@ Gerðir leyfa í Dynamics 365 Human Resources skilgreina hinar ýmsu gerðir fja
 
 ## <a name="add-a-leave-type"></a>Bættu við leyfisgerð
 
-1. Á **Orlof og fjarvera** vinnusvæði, veldu **Tenglar** flipa.
+1. Á  **Orlofs- og fjarveru** vinnusvæðinu velurðu  **Tenglar** flipann.
 2. Undir **Skipulag**, veldu **Tegundir og leyfi**.
 3. Veljið **Nýtt**.
-4. Sláðu inn heiti fyrir leyfisgerðina undir **Gerð**, veldu verkflæði frá **Auðkenni vinnuflæðis** og sláðu inn lýsingu undir **Lýsing**.
+4. Sláðu inn heiti fyrir leyfistegundina undir **Tegund**, sláðu inn lýsingu undir **Lýsing** og veldu verkflæði í  **Auðkenni verkflæðis** reitur. Byggt á leyfisgerðinni, veldu beiðnitegund reitinn **Tegund beiðni** . Veldu til dæmis **Frístund** eða **Fjarvistarleyfi**.
 5. Í **Almennt**, veldu **Enginn**, **Áætlað** eða **Óáætlað** fellilistanum **Flokkur**.
 6. Veldu launakóða úr fellilistanum **Vinnukóða**.
-7. Undir **Ástæðukóða krafist**, veldu hvort þú vilt þurfa ástæðukóða. Ef þú vilt þurfa ástæðukóða gætirðu þurft að bæta þeim við. Undir **Ástæða númer**, veldu **Bæta við**, veldu ástæðukóða og veldu síðan **Virkt** gátreitinn við hliðina.
-8. Undir **Takmarka aðgang að völdum hlutverkum**, veldu hvort þú vilt takmarka aðgang. Veldu síðan öryggishlutverkin undir **Öryggishlutverk fyrir þessa leyfisgerð**. Öryggishlutverkin eru skilgreind í verkflæðinu sem þú valdir undir **Auðkenni vinnuflæðis** fyrr í þessu ferli.
-9. Undir **Litur dagatals** skal velja hvaða lit á að sýna fyrir leyfis- og fjarvistadagatöl fyrir þessa leyfisgerð. 
-10. Undir **Frestunartengsl** skal velja hvort eigi að fresta þessari leyfisgerð eða fresta annarri leyfisgerð eða láta fresta vegna annarrar leyfisgerðar. Þegar beiðni um fjarvist er send inn fyrir frestaða leyfisgerð verður frestun leyfis sjálfkrafa búin til fyrir frestaða leyfisgerð. 
-11. Veldu **Vista**.
+7. Undir **Ástæðukóða krafist** velurðu hvort þú vilt krefjast ástæðukóða. Ef þú vilt krefjast ástæðukóða gætirðu þurft að bæta þeim við. Undir **Ástæða númer**, veldu **Bæta við**, veldu ástæðukóða og veldu síðan **Virkt** gátreitinn við hliðina.
+8. Ef tegund beiðninnar er **Fjarvistarleyfi** skaltu fylgja þessum skrefum:
+
+      1. Undir **Opin ended** velurðu hvort notendur eigi að geta búið til opin blöð.
+      2. Ef **Open ended** er virkt geturðu valið hvort starfsmenn þurfi að senda inn tilkynningu um endurkomu til vinnu þegar þeir koma úr leyfi frá störfum.
+      3. Ef starfsmenn verða að senda inn tilkynningu um endurkomu til vinnu geturðu virkjað **Virkja tilkynningu um endurkomu til vinnu**. Ef kveikt er á **Enable return to work notice** er kveikt á **Viðhengi krafist** er sjálfkrafa virkt og ekki hægt að slökkva á því.
+
+9. Ef notendur ættu að hlaða upp skjölum þegar þeir búa til eða uppfæra leyfisbeiðnir geturðu virkjað **Viðhengi krafist**.
+10. Undir **Takmarka aðgang að völdum hlutverkum** velurðu hvort þú vilt takmarka aðgang. Síðan, undir **Öryggishlutverk fyrir þessa leyfistegund**, velurðu öryggishlutverkin. Öryggishlutverkin eru skilgreind í verkflæðinu sem þú valdir undir **Auðkenni verkflæðis** fyrr í þessu ferli.
+11. Undir **Dagatalslitur** skaltu velja litinn sem á að sýna í orlofs- og fjarvistadagatölum fyrir þessa orlofstegund.
+11. Undir **Svössunartengsl** skal velja hvort þessi orlofstegund eigi annaðhvort að fresta annarri orlofstegund eða vera frestað af annarri orlofstegund. Þegar beiðni um fjarvist er send inn fyrir frestaða leyfisgerð verður frestun leyfis sjálfkrafa búin til fyrir frestaða leyfisgerð.
+12. Veldu **Vista**.
 
 ## <a name="configure-leave-type-rules"></a>Stilla reglur leyfisgerða
 
-1. Stilltu námundunarvalkosti fyrir **Orlof og fjarvera** tegund. Valkostir fela í sér **Enginn**, **Upp**, **Niður** og **Næst**. Þú getur einnig stillt námundun námundunar fyrir orlofstegundina.
-
+1. Stilltu námundunarvalkosti fyrir tegundina **Orlof og fjarveru** . Valkostir fela í sér **Enginn**, **Upp**, **Niður** og **Næst**. Þú getur einnig stillt námundun námundunar fyrir orlofstegundina.
 2. Stilltu **Leiðrétting á fríi** til að námunda fyrir orlofstegundina. Þegar þú velur þennan valkost verður fjöldi frídaga sem dettur niður á vinnudegi notaður til að ákvarða hvernig á að safna fríi fyrir leyfisgerðina. Til dæmis, ef jóladagur fellur á mánudag, dregur Human Resources einn dag frá orlofstegundinni þegar unnið er með uppsafnanir.
 
    Frí er stillt í vinnutímadagatalinu. Nánari upplýsingar eru í [Búa til dagatal fyrir vinnutíma](hr-leave-and-absence-working-time-calendar.md).
@@ -69,7 +77,7 @@ Gerðir leyfa í Dynamics 365 Human Resources skilgreina hinar ýmsu gerðir fja
 
 1. Á síðunni **Leyfi og fjarvistir**, í flipanum **Tenglar**, undir **Uppsetning**, skal velja **Leyfis- og fjarvistagerðir**.
 
-2. Veldu leyfis- og fjarvistagerð í listanum. Því næst í hlutanum **Almennt** skal nota reitinn **Viðhengi er nauðsynlegt** til að tilgreina hvort hlaða þurfi upp viðhengi þegar starfsmaður sendir inn nýja leyfisbeiðni fyrir valda leyfisgerð. 
+2. Veldu a **Orlofs- og fjarvistartegund** á listanum. Í **Almennt** hlutanum skaltu nota reitinn **Viðhengi krafist** til að tilgreina hvort viðhengi verði að hlaða upp þegar starfsmaður sendir inn ný orlofsbeiðni fyrir valda orlofstegund. 
 
 Starfsmenn þurfa að hlaða upp viðhengi þegar þeir senda inn nýja leyfisbeiðni sem er með leyfisgerðina þar sem reiturinn **Viðhengi er nauðsynlegt** er virkjaður. Til að skoða viðhengið sem var hlaðið upp sem hluta af leyfisbeiðni geta samþykktaraðilar leyfisbeiðni notað valkostinn **Viðhengi** fyrir vinnuliðina sem þeim er úthlutað. Ef farið er inn í leyfisbeiðni með því að nota forrit Human Resources í Microsoft Teams er hægt að nota valkostinn **Skoða upplýsingar** fyrir leyfisbeiðnina til að skoða upplýsingar um hana og öll viðhengi.
 

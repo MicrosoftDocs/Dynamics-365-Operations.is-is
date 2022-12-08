@@ -12,26 +12,26 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2019-01-01
-ms.openlocfilehash: 6c819e8cf9f5dcb7895ac2633decf0a925c08f2d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 58d88e023b73ce19331bd6f54644a62d8f6f35af
+ms.sourcegitcommit: 3aa3dedc3123cb079614762e2718841c2f7d7d35
 ms.translationtype: MT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9784993"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "9812087"
 ---
 # <a name="dynamics-365-payment-connector-for-adyen-overview"></a>Yfirlit Dynamics 365 Payment Connector fyrir Adyen
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir Microsoft Dynamics 365 greiðslutengi fyrir Adyen og inniheldur alhliða lista yfir studda eiginleika og virkni. Tengdar greinar fjalla um Adyen skráningu, uppsetningu tengisins, algengar spurningar og leiðbeiningar um bilanaleit fyrir nokkur algeng vandamál.
+Þessi grein veitir yfirlit yfir Microsoft Dynamics 365 greiðslutengi fyrir Adyen og inniheldur yfirgripsmikinn lista yfir studda eiginleika og virkni. Tengdar greinar fjalla um Adyen skráningu, uppsetningu tengisins, algengar spurningar og leiðbeiningar um bilanaleit fyrir nokkur algeng vandamál.
 
 ## <a name="key-terms"></a>Lykilhugtök
 
 | Hugtak | Lýsing |
 |---|---|
-| Greiðslutengill | Framlenging sem auðveldar samskipti á milli Microsoft Dynamics 365 Commerce (og tengdir íhlutir) og greiðsluþjónustu. Tengið sem lýst er í þessari grein var útfært með því að nota staðlaða greiðsluhugbúnaðarþróunarbúnaðinn (SDK). |
+| Greiðslutengill | Framlenging sem auðveldar samskipti á milli Microsoft Dynamics 365 Commerce (og tengdum íhlutum) og greiðsluþjónustu. Tengið sem lýst er í þessari grein var útfært með því að nota staðlaða greiðsluhugbúnaðarþróunarbúnaðinn (SDK). |
 | Kort til staðar | Vísar til greiðsluviðskipta þar sem líkamlegt kort er framvísað og notað á tengi greiðslustöðvar við Dynamics 365 sölustað. |
-| Kort ekki til staðar | Vísar til greiðsluviðskipta þar sem líkamlegt kort er ekki til staðar, svo sem rafræn viðskipti eða símaver. Í þessum tilfellum eru greiðslutengdar upplýsingar færðar inn handvirkt annaðhvort á vefsvæði rafrænna viðskipta, símaversflæði eða á sölustað eða greiðslustöð. |
+| Kort ekki til staðar | Vísar til greiðsluviðskipta þar sem líkamlegt kort er ekki til staðar, svo sem rafræn viðskipti eða símaver. Í þessum tilfellum eru greiðslutengdar upplýsingar færðar inn handvirkt annaðhvort á vefsvæði rafrænna viðskipta, flæði símavera eða á sölustað eða greiðslustöð. |
 
 ## <a name="supported-features-functionality-versions-and-terminals"></a>Styður eiginleikar, virkni, útgáfur og útstöðvar
 
@@ -40,11 +40,11 @@ Dynamics 365 Payment Connector fyrir Adyen sem er útúr kassanum notar staðla�
 ### <a name="supported-versions"></a>Studdar útgáfur
 
 #### <a name="microsoft-dynamics-365-supported-versions"></a>Microsoft Dynamics 365 studdar útgáfur
-Fyrsta aðila út-af kassa Dynamics 365 Payment Connector fyrir Adyen er studdur í Microsoft Dynamics 365 Finance útgáfa 8.1.3 (janúar 2019) eða síðar, og í Microsoft Dynamics 365 Retail útgáfu 8.1.3 eða nýrri. Hins vegar geta þriðju aðilar enn þróað önnur greiðslutengi fyrir Adyen fyrir fyrri útgáfur af Microsoft Dynamics 365.
+Fyrsta aðila út-af kassa Dynamics 365 Payment Connector fyrir Adyen er stutt í Microsoft Dynamics 365 Finance útgáfu 8.1.3 (janúar 2019) eða nýrri, og í Microsoft Dynamics 365 Retail útgáfu 8.1. 3 eða síðar. Hins vegar geta þriðju aðilar þróað önnur greiðslutengi fyrir Adyen fyrir fyrri útgáfur af Microsoft Dynamics 365.
 
 #### <a name="supported-adyen-firmware-versions"></a>Styður Adyen vélbúnaðarútgáfur
 
-Listinn hér að neðan lýsir lágmarks- og hámarksútgáfum Adyen vélbúnaðar sem eru studdar fyrir hverja útgáfu af Microsoft Dynamics 365 Retail POS.
+Listinn hér að neðan lýsir lágmarks- og hámarksútgáfum Adyen fastbúnaðar sem eru studdar fyrir hverja útgáfu af Microsoft Dynamics 365 Retail POS.
 
 ---
 
@@ -89,14 +89,14 @@ Listinn hér að neðan lýsir lágmarks- og hámarksútgáfum Adyen vélbúnað
 > [!NOTE]
 > Adyen gæti gefið út minniháttar útgáfuuppfærslur eftir að Microsoft hefur prófað helstu útgáfuna. Svo lengi sem meiriháttar útgáfa er studd er í lagi að hafa minniháttar útgáfuuppfærslur innan sömu aðalútgáfunnar. Þessar uppfærslur eru venjulega mjög markvissar lagfæringar og standast ekki mælistikuna fyrir fulla endurprófun, svo framarlega sem sama aðal fastbúnaðarútgáfan var áður prófuð. Uppfærslur ættu ekki að fara yfir hámarks Adyen fastbúnaðarútgáfu sem skráð er í skjölum. 
 >
-> Flutningur frá Adyen fastbúnaðarútgáfu fyrr en útgáfu 53 í útgáfu 53 krefst POS KB **4577957** fyrir mánaðarlegar uppfærslur á Commerce, útgáfur 10.0.11 til 10.0.14. Ef ein af þessum útgáfum er í notkun og inniheldur ekki flýtileiðréttinguna mun eftir uppfærsla á greiðslustöðinni aðeins leyfa greiðslur í gegnum NFC. Með því að nota flýtileiðréttinguna á POS leysir þetta vandamál. Ef POS útgáfan er eldri en útgáfa 10.0.11 skaltu leggja fram stuðningsbeiðni og taka fram að lagfæring fyrir KB **4577957** er krafist fyrir MPOS sem er ekki í notkun.
+> Flutningur frá Adyen fastbúnaðarútgáfu fyrr en útgáfu 53 í útgáfu 53 krefst POS KB **4577957** fyrir mánaðarlegar uppfærslur á Commerce, útgáfur 10.0.11 til 10.0.14. Ef ein af þessum útgáfum er í notkun og inniheldur ekki flýtileiðréttinguna mun eftir uppfærsla á greiðslustöðinni aðeins leyfa greiðslur í gegnum NFC. Með því að nota flýtileiðréttinguna á POS leysir þetta vandamál. Ef POS útgáfan er eldri en útgáfa 10.0.11, sendu inn stuðningsbeiðni þar sem þú tekur fram að lagfæring fyrir KB **4577957**  er nauðsynleg fyrir MPOS sem er ekki í notkun.
 > 
-> Fyrir Adyen vélbúnaðarútgáfur 59p7 til 62p9, the **gjafakort útborgun** aðgerð biður um PIN-færslu tvisvar í tilfellum þar sem gjafakortið er slegið inn handvirkt. Þetta tölublað er ekki afritað þegar gjafakortinu er strjúkt. Adyen er að rannsaka málið. 
+> Fyrir Adyen vélbúnaðarútgáfur 59p7 til 62p9, biður **útborgun gjafakorts** aðgerðin PIN-númer inn tvisvar í tilfellum þar sem gjafakortið er fært inn handvirkt. Þetta tölublað er ekki afritað þegar gjafakortinu er strjúkt. Adyen er að rannsaka málið. 
 
 ### <a name="supported-payment-terminals"></a>Stuðlar greiðslustöðvar
-Dynamics 365 Payment Connector fyrir Adyen nýtir sér tækjabúnaðinn [Adyen Payment Terminal API](https://www.adyen.com/blog/introducing-the-terminal-api). Það styður allar greiðslustöðvar sem þetta forritunarviðmót (API) styður. Til að fá heildarlista yfir studdar greiðslustöðvar, farðu á [Adyen POS útstöðvar](https://www.adyen.com/pos-payments/terminals) síðu.
+Dynamics 365 Payment Connector fyrir Adyen nýtir sér tæki-agnostic [Adyen Payment Terminal API](https://www.adyen.com/blog/introducing-the-terminal-api). Það styður allar greiðslustöðvar sem þetta forritunarviðmót (API) styður. Til að fá heildarlista yfir studdar greiðslustöðvar, farðu á [Adyen POS útstöðvar](https://www.adyen.com/pos-payments/terminals) síðuna.
 
-Eftirfarandi myndband lýsir getu Adyen Castles SE1 Android greiðslustöð.
+Eftirfarandi myndband lýsir getu Adyen Castles SE1 Android greiðslustöðvarinnar.
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bKeM]
@@ -173,7 +173,7 @@ Til að styðja við þessi ytri gjafakortakerfi í gegnum Dynamics 365 Payment 
 
 #### <a name="supported-card-present-countries"></a>Stuðningur kort til staðar lönd
 
-Eftirfarandi lönd eru með viðskiptaíhluti tiltæka og kortastuðning frá Adyen. Fyrir núverandi alþjóðlegt framboð á verslun, heimsækja [Alþjóðleg framboð síða](/dynamics365/get-started/availability).
+Eftirfarandi lönd eru með viðskiptaíhluti tiltæka og kortastuðning frá Adyen. Fyrir núverandi alþjóðlegt framboð á Commerce, farðu á [Alþjóðlegt framboðssíðu](/dynamics365/get-started/availability).
 
 | Land | Stutt |
 | --- | :-: |
@@ -211,7 +211,7 @@ Eftirfarandi lönd eru með viðskiptaíhluti tiltæka og kortastuðning frá Ad
 
 #### <a name="supported-card-not-present-countries"></a>Stuðningskort eru ekki til staðar í löndum
 
-Eftirfarandi lönd eru studd af Adyen fyrir færslur sem ekki eru til staðar. [Hafðu samband við Adyen](https://www.adyen.com/contact/sales) fyrir upplýsingar um stuðning fyrir tiltekið land. Fyrir núverandi alþjóðlegt framboð á verslun, heimsækja [Alþjóðleg framboð síða](/dynamics365/get-started/availability).
+Eftirfarandi lönd eru studd af Adyen fyrir færslur sem ekki eru til staðar. [Hafðu samband við Adyen](https://www.adyen.com/contact/sales) til að fá upplýsingar um stuðning fyrir tiltekið land. Fyrir núverandi alþjóðlegt framboð á Commerce, farðu á [Alþjóðlegt framboðssíðu](/dynamics365/get-started/availability).
 
 | Land | 
 | --- |
@@ -280,14 +280,14 @@ Eftirfarandi lönd eru studd af Adyen fyrir færslur sem ekki eru til staðar. [
 | Taívan |
 | Tansanía |
 | Taíland |
-| Tyrkland |
+| Türkiye |
 | Sameinuðu arabísku furstadæmin (UAE) |
 | Bretland |
 | Bandaríkin þar á meðal Puerto Rico  |
 
 #### <a name="supported-dynamics-365-payment-features"></a>Styður Dynamics 365 greiðslueiginleikar
 
-Eftirfarandi tafla sýnir mengi eiginleika sem Dynamics 365 Payment Connector fyrir Adyen styður. Þessir eiginleikar nota endurbætur sem voru kynntar í SDK greiðslum og sumum íhlutum í desember 2018. Þau eru ekki eingöngu fyrir Dynamics 365 Payment Connector fyrir Adyen. Fyrir frekari upplýsingar um hvernig á að nota þessar endurbætur fyrir annan greiðslutengi, sjá [Búðu til enda-til-enda greiðslusamþættingu fyrir greiðslustöð](/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension).
+Eftirfarandi tafla sýnir mengi eiginleika sem Dynamics 365 Payment Connector fyrir Adyen styður. Þessir eiginleikar nota endurbætur sem voru kynntar í SDK greiðslum og sumum íhlutum í desember 2018. Þau eru ekki eingöngu fyrir Dynamics 365 Payment Connector fyrir Adyen. Fyrir frekari upplýsingar um hvernig á að nota þessar endurbætur fyrir annan greiðslutengi, sjá [Búa til enda-til-enda greiðslusamþættingu fyrir greiðslustöð](/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension).
 
 | Áætlun | Kort til staðar | Kort ekki til staðar |
 |---|:-:|:-:|
@@ -301,12 +301,12 @@ Eftirfarandi tafla sýnir mengi eiginleika sem Dynamics 365 Payment Connector fy
 | [Sérnýttar greiðslustöðvar og kvaðningar fyrir prentara og peningaskúffu](../pos-multi-hws.md) | ✔<br>(Byrjar á 10.0.12) | |
 | [SDK-stigi veltistuðningur í gegnum Adyen tengið](tipping.md) | ✔<br>(Byrjar á 10.0.14) | |
 | [Stigvaxandi upptaka fyrir reikningsfærslu pantana](incremental-capture.md) |  | ✔<br>(Byrjar á 10.0.18) |
-| [Veski Greiðslur](../wallets.md) |  | ✔<br>(Byrjar á 10.0.20) |
+| [Veskisgreiðslur](../wallets.md) |  | ✔<br>(Byrjar á 10.0.20) |
 | [Google Pay með Adyen](google-pay-adyen.md) |  | ✔<br>(Byrjar á 10.0.27) |
 
 ## <a name="next-steps"></a>Næstu skref
 
-Fyrir upplýsingar um skráningu á og stilla Dynamics 365 Payment Connector fyrir Adyen, sjá [Dynamics 365 Payment Connector fyrir Adyen uppsetningu](adyen-connector-setup.md).
+Fyrir upplýsingar um skráningu á og stilla Dynamics 365 Payment Connector fyrir Adyen, sjá [Dynamics 365 Payment Connector for Adyen uppsetningu](adyen-connector-setup.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
