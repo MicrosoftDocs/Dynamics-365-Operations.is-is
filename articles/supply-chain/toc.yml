@@ -877,15 +877,15 @@
                   items:
                     - name: Yfirlit skjalaprentunar
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?context=/dynamics365/context/supply-chain
-                    - name: Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentun
+                    - name: Setja upp Document Routing Agent til að virkja nettengda prentun
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?context=/dynamics365/context/supply-chain
-                    - name: Uppfæra eftirlitsbúnað skjalasendingar
+                    - name: Uppfæra Document Routing Agent
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?context=/dynamics365/context/supply-chain
                     - name: Setja upp nettengda prentara í innanhússumhverfi
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?context=/dynamics365/context/supply-chain
                     - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?context=/dynamics365/context/supply-chain
-                    - name: Keyra eftirlitsbúnað skjalasendingar sem Windows-þjónustu
+                    - name: Keyra Document Routing Agent sem Windows-þjónustu
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?context=/dynamics365/context/supply-chain
                 - name: Tiltækar skrár yfir SQL Server Reporting Services
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?context=/dynamics365/context/supply-chain
@@ -1929,6 +1929,8 @@
                   href: master-planning/planning-optimization/ddmrp-planning.md
                 - name: Sjónræn framkvæmd og samvinnuframkvæmd
                   href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+                - name: Algengar spurningar fyrir DDMRP
+                  href: master-planning/planning-optimization/ddmrp-faqs.md
             - name: Úrelt áætlunarvél
               items:
                 - name: Yfirlit yfir úrelta áætlunarvél

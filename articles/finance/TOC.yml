@@ -1606,7 +1606,9 @@
                           href: localizations/e-invoicing-mex-get-started.md?context=/dynamics365/context/finance
                         - name: Hafist handa með rafrænar reikningsfærslur fyrir Pólland
                           href: localizations/e-invoicing-pol-get-started.md?context=/dynamics365/context/finance
-                        - name: Hafist handa með rafrænar reikningsfærslur fyrir Sádi-Arabíu
+                        - name: Hafist handa með rafrænar reikningsfærslur fyrir Sádi-Arabíu - Áfangi eitt
+                          href: localizations/e-invoicing-sa-get-started-phase-one.md
+                        - name: Hafist handa með rafrænar reikningsfærslur fyrir Sádi-Arabíu - Áfangi tvö
                           href: localizations/e-invoicing-sa-get-started.md?context=/dynamics365/context/finance
                         - name: Rafræn reikningsfærsla fyrir nýliðun í Sádi-Arabíu
                           href: localizations/e-invoicing-sa-onboarding.md?context=/dynamics365/context/finance
@@ -3947,15 +3949,15 @@
                   items:
                     - name: Yfirlit skjalaprentunar
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?context=/dynamics365/context/finance
-                    - name: Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentun
+                    - name: Setja upp Document Routing Agent til að virkja nettengda prentun
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?context=/dynamics365/context/finance
-                    - name: Uppfæra eftirlitsbúnað skjalasendingar
+                    - name: Uppfæra Document Routing Agent
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/finance/toc.json
                     - name: Setja upp nettengda prentara í innanhússumhverfi
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?context=/dynamics365/context/finance
                     - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?context=/dynamics365/context/finance
-                    - name: Keyra eftirlitsbúnað skjalasendingar sem Windows-þjónustu
+                    - name: Keyra Document Routing Agent sem Windows-þjónustu
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?context=/dynamics365/context/finance
                 - name: Tiltækar skrár yfir SQL Server Reporting Services
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?context=/dynamics365/context/finance

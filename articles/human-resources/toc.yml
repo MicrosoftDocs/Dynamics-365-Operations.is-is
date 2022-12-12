@@ -570,6 +570,8 @@
               href: hr-leave-and-absence-suspend-leave.md
             - name: Beiðni um fjarvistarleyfi
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: Búa til opið fjarvistaleyfi
+              href: hr-create-open-leave-absence.md
             - name: Stjórna leyfi starfsmanns
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Skoða greiningu á leyfum og fjarvistum

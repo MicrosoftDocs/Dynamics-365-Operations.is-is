@@ -1011,7 +1011,23 @@
                 - name: Hlaða upp mörgum URL-framsendingum í einu
                   href: upload-bulk-redirects.md
                 - name: Setja upp B2C-leigjanda í Commerce
-                  href: set-up-B2C-tenant.md
+                  items:
+                    - name: Setja upp B2C-leigjanda
+                      href: set-up-B2C-tenant.md
+                    - name: Búa til eða tengja fyrirliggjandi Azure AD B2C leigjanda
+                      href: create-link-aad-b2c-tenant.md
+                    - name: Búa til B2C forrit
+                      href: create-b2c-app.md
+                    - name: Búa til notandaflæðisreglur
+                      href: create-user-flow-policies.md
+                    - name: Bæta við kennitöluveitendum
+                      href: add-social-identity-providers.md
+                    - name: Uppfæra Commerce headquarters með Azure AD B2C upplýsingum
+                      href: update-hq-aad-b2c-info.md
+                    - name: Stilla B2C leigjanda í vefsvæðishönnuði
+                      href: config-b2c-tenant-site-builder.md
+                    - name: Frekari B2C upplýsingar
+                      href: additional-b2c-info.md
                 - name: Setja upp sérsniðnar síður fyrir innskráningu notenda
                   href: custom-pages-user-logins.md
                 - name: Kveikja á sjálfvirkri tengingu auðkennisskráa við viðskiptavinalykla
@@ -1570,6 +1586,8 @@
               items:
                 - name: Búa til QR-kóða og prenta þá á kvittanir fyrir Sádi-Arabíu
                   href: localizations/emea-sau-qr-code.md
+                - name: Búa til og senda einfalda rafræna reikninga fyrir Sádi-Arabíu
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: Svíþjóð
               items:
                 - name: Afgreiðslukassavirkni
@@ -1624,15 +1642,15 @@
                   items:
                     - name: Yfirlit skjalaprentunar
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?context=/dynamics365/context/commerce
-                    - name: Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentun
+                    - name: Setja upp Document Routing Agent til að virkja nettengda prentun
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?context=/dynamics365/context/commerce
-                    - name: Uppfæra eftirlitsbúnað skjalasendingar
+                    - name: Uppfæra Document Routing Agent
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/commerce/toc.json
                     - name: Setja upp nettengda prentara í innanhússumhverfi
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?context=/dynamics365/context/commerce
                     - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?context=/dynamics365/context/commerce
-                    - name: Keyra eftirlitsbúnað skjalasendingar sem Windows-þjónustu
+                    - name: Keyra Document Routing Agent sem Windows-þjónustu
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?context=/dynamics365/context/commerce
                 - name: Tiltækar skrár yfir SQL Server Reporting Services
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?context=/dynamics365/context/commerce
@@ -2988,7 +3006,7 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Skattar á pantanir á netinu eru rangt reiknaðir
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: Villa í samstillingu pöntunar sem tengist sjálfgefinni greiðsluþjónustu
+                - name: Vandamál við samstillingu pantana
                   href: troubleshoot/synchronization-error.md
             - name: Greiðsluvinnsla
               items:

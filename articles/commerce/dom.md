@@ -1,26 +1,21 @@
 ---
 title: Dreifingarstjórnun pöntunar (DOM)
-description: Þessi grein lýsir virkni dreifingarstjórnunar pöntunar (DOM) í Dynamics 365 Commerce.
+description: Þessi grein lýsir virkni dreifingarstjórnunar pöntunar (DOM) í Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 02/08/2022
+ms.date: 11/16/2022
 ms.topic: index-page
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: cfb89544580141ed397d27886f51fd0f1ac138d2
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9764180"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785181"
 ---
 # <a name="distributed-order-management-dom"></a>Dreifingarstjórnun pöntunar (DOM)
 
@@ -34,20 +29,25 @@ DOM notar MIP-forritun (blandaða heiltöluforritun) og forspárgreiningarlíkö
 
 Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
 
-![Ferli sölupöntunar í samhengi við DOM-staðalinn.](./media/flow.png "Ferli sölupöntunar í samhengi við DOM-staðalinn")
+![Ferli sölupöntunar í samhengi við DOM.](./media/flow.png "Ferli sölupöntunar í samhengi við DOM-staðalinn")
+
+Eftirfarandi myndskeið býður upp á yfirlit yfir DOM-eiginleika í Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRYl]
 
 ## <a name="set-up-dom"></a>Setja upp DOM
 
 1. Opnið **Kerfisstjórnun \> Setja upp \> Skilgreining leyfis**.
 2. Á flipanum **Skilgreiningarlykill** skal stækka hnútinn **Commerce** og síðan velja gátreitinn **Dreifingarstjórnun pöntunar**.
-3. Opnið **Retail and Commerce \> Dreifingarstjórnun pöntunar \> Setja upp \> DOM færibreytur**.
+3. Opnið **Smásala og viðskipti \> Dreifingarstjórnun pöntunar \> Setja upp \> DOM færibreytur**.
 4. Á flipanum **Almennt** skal stilla eftirfarandi gildi:
 
     - **Virkja dreifingarstjórnun pöntunar** – Stillið þennan valkost á **Já**.
     - **Staðfesta notkun á Bing-kortum fyrir DOM** – Stillið þennan valkost á **Já**.
 
         > [!NOTE]
-        > Aðeins er hægt að stilla þennan valkost á **Já** ef valkosturinn **Virkja Bing-kort** á flipanum **Bing-kort** á síðunni **Samnýttar viðskiptafæribreytur** (**Retail and Commerce \> Uppsetning höfuðstöðva\> Færibreytur \> Samnýttar viðskiptafæribreytur**) er einnig stilltur á **Já**, og ef gildur lykill er sleginn inn í reitinn **Lykill Bing-korts**.
+        > Aðeins er hægt að stilla þennan valkost á **Já** ef valkosturinn **Virkja Bing kort** á flipanum **Bing-kort** á síðunni **Samnýttar viðskiptafæribreytur** (**Smásala og viðskipti \> Uppsetning höfuðstöðva \> Færibreytur \> Samnýttar viðskiptafæribreytur**) er einnig stillt á **Já**, og ef gildur lykill er sleginn inn í reitinn  **Lykill Bing korta**.
         >
         > Gáttin [Þróunarmiðstöð Bing-korta](https://www.bingmapsportal.com/) gerir notanda kleift að takmarka aðgang á API-lyklum Bing-korta niður í lénasafn sem notandi tilgreinir. Með þessum eiginleika geta viðskiptavinir skilgreint afmarkað safn tilvísanagilda eða svið IP-talna sem lykillinn verður sannprófaður gagnvart. Beiðnir úr heimildarlistanum verða unnar á venjulegan hátt, á meðan beiðnir utan listans skila svari um að aðgangur sé óheimill. Lénöryggi sem viðbót við API-lykil er valfrjáls og lyklar sem ekki er breytt halda áfram að virka. Heimildarlisti fyrir lykil er óháður öllum öðrum lyklunum og gerir notanda kleift að hafa aðskildar reglur fyrir hvern lykil. Dreifingarstjórnun pöntunar styður ekki uppsetningu eiginleika sem lén vísa í.
 
@@ -78,7 +78,7 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
 
 8. DOM-eiginleikinn styður skilgreininguna á ýmsum gerðum DOM-reglna, og fyrirtæki geta skilgreint margar reglur, allt eftir rekstrarþörfum þeirra. Hægt er að skilgreina DOM-reglur fyrir flokk af staðsetningum eða einkvæmar staðsetningar, og fyrir tilgreinda afurðategund, afurð eða vöruvíddasamsetningu. Til að stofna flokkun á staðsetningum sem verður að nota fyrir DOM-reglurnar skal fylgja þessum skrefum:
 
-    1. Opnið **Retail and Commerce \> Uppsetning rásar \> Uppfyllingarflokkar**.
+    1. Opnið **Smásala og viðskipti \> Uppsetning rásar \> Uppfyllingarflokkar**.
     2. Veljið **Nýr** og færið inn heiti og lýsingu á nýja flokknum.
     3. Veljið **Vista**.
     4. Veljið **Bæta við línu** til að bæta einni staðsetningu við flokkinn. Að öðrum kosti skal velja **Bæta við línum** til að bæta við mörgum staðsetningum.
@@ -92,7 +92,7 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
     >
     > Ef eiginleikinn er virkur uppfærast einnig síður á sölustað þegar aðgerðirnar „senda allt“ eða „senda valið“ eru valdar.
 
-9. Til að skilgreina reglur skal opna **Retail and Commerce \> Dreifingarstjórnun pöntunar \> Setja upp \> Stjórna reglum**. Eftirfarandi DOM-reglur eru studdar eins og er:
+9. Til að skilgreina reglur skal opna **Smásala og viðskipti \> Dreifingarstjórnun pöntunar \> Setja upp \> Stjórna reglum**. Eftirfarandi DOM-reglur eru studdar eins og er:
 
     - **Regla lágmarksbirgða** – Þessi gerð af reglu gerir fyrirtækjum kleift að aðgreina tilgreint magn afurðar í öðrum tilgangi en fyrir uppfyllingu pöntunar. Sem dæmi er hugsanlegt að fyrirtæki vilji ekki að DOM taki allar tiltækar birgðir í verslun til greina við uppfyllingu pöntunar. Í staðinn gætu þau viljað taka frá einhverjar birgðir fyrir viðskiptavini á staðnum. Þegar þessi gerð af reglu er notuð er hægt að skilgreina lágmarksbirgðir sem á að geyma fyrir flokk af afurðum, staka afurð eða afurðarafbrigði fyrir hverja staðsetningu eða flokk staðsetninga. Einnig er hægt að skilgreina lágmarksbirgðir með því að nota viðbótartegundastigveldi. Ef vara tilheyrir mörgum flokkum fær viðbótarflokkur hæsta vægi fyrir allar reglur þar sem hægt er að nota flokka.
     - **Forgangsregla uppfyllingarstaðsetningar** – Þessi gerð af reglu gerir fyrirtækjum kleift að skilgreina stigveldi staðsetninga til að koma á forgangi sem DOM-vélin hefur í huga þegar hún reynir að bera kennsl á uppfyllingarstaðsetningar fyrir tilgreindar afurðir. Gilt svið forgangs er frá 1 til 10, þar sem 1 er efst í forgangi og 10 er neðst í forgangi. Staðsetningar sem eru ofar í forgangsröðinni eru teknar til greina á undan staðsetningum sem eru neðar í forgangsröðinni. Pöntunum er aðeins miðlað á staðsetningar þar sem forgangur er skilgreindur, ef reglan er skilgreind sem ströng takmarkandi regla. Kjörstillingar DOM eru að senda heilar pantanir frá einni staðsetningu. Þetta þýðir að ef ekki er hægt að afgreiða heila pöntun og allar línur í henni frá einni staðsetningu sem er í 1. forgangi mun DOM reyna að uppfylla hana frá staðsetningu sem er með 2. forgang.
@@ -113,7 +113,7 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
 
 10. Uppfyllingarsnið eru notuð til að flokka safn af reglum, lögaðilum, söluuppruna pantana og afhendingarmátum. Hver DOM-keyrsla er fyrir tiltekið uppfyllingarsnið. Á þennan hátt geta fyrirtæki skilgreint og keyrt safn af reglum fyrir safn af lögaðilum á pöntunum sem eru með tiltekinn söluuppruna pantana og tiltekinn afhendingarmáta. Því er hægt að skilgreina uppfyllingarsnið eins og við á ef keyra þarf ólík reglusöfn fyrir ólík söfn af söluuppruna pantana eða afhendingarmáta. Til að setja upp uppfyllingarsnið skal fylgja þessum skrefum:  
 
-    1. Opnið **Retail and Commerce \> Dreifingarstjórnun pöntunar \> Setja upp \> Uppfyllingarsnið**.
+    1. Opnið **Smásala og viðskipti \> Dreifingarstjórnun pöntunar \> Setja upp \> Uppfyllingarsnið**.
     2. Veljið **Nýtt**.
     3. Færið inn gildi í reitina **Snið** og **Lýsing**.
     4. Stillið valkostinn **Nota niðurstöðu sjálfkrafa**. Ef þessi valkostur er stilltur á **Já** verða niðurstöður DOM-keyrslu fyrir sniðið sjálfkrafa notaðar í sölupöntunarlínum. Ef hann er stilltur á **Nei** verður eingöngu hægt að skoða niðurstöðurnar í uppfyllingaráætlun. Þær verða ekki notaðar í sölupöntunarlínum.
@@ -150,7 +150,7 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
 
 DOM keyrir aðeins í runuvinnslu. Til að skilgreina runuvinnslu fyrir DOM-keyrslur skal fylgja þessum skrefum.
 
-1. Opnið **Retail and Commerce \> Dreifingarstjórnun pöntunar \> Runuvinnsla \> Verkuppsetning DOM-vinnslu**.
+1. Opnið **Smásala og viðskipti \> Dreifingarstjórnun pöntunar \> Runuvinnsla \> Verkuppsetning DOM-vinnslu**.
 1. Á flýtiflipanum **Færibreytur**, í reitnum **Uppfyllingarsnið** skal velja snið sem DOM þarf að keyra fyrir.
 1. Á flýtiflipanum **Keyra í bakgrunni**, í reitnum **Runuflokkur** skal velja grunnstilltan runuflokk.
 1. Í reitinn **Verklýsing** skal færa inn heiti á runuvinnslunni.
@@ -184,7 +184,7 @@ Ef uppfyllingarforstilling er stillt á **Nota sjálfkrafa** verða niðurstöð
 
 Til að skoða allar uppfyllingaráætlanir sem eru búnar til skal fylgja þessum skrefum.
 
-1. Opnið **Retail and Commerce \> Dreifingarstjórnun pöntunar \> Dreifingarstjórnun pöntunar**.
+1. Opnið **Smásala og viðskipti \> Dreifingarstjórnun pöntunar \> Dreifingarstjórnun pöntunar**.
 2. Á vinnusvæðinu **Dreifingarstjórnun pöntunar** skal velja reitinn **Uppfyllingaráætlanir**.
 3. Veljið kennið fyrir viðeigandi uppfyllingaráætlun pöntunar til að skoða uppfyllingaráætlunina.
 
@@ -198,7 +198,7 @@ Til að skoða allar uppfyllingaráætlanir sem eru búnar til skal fylgja þess
 
 ## <a name="order-line-actions-and-statuses"></a>Aðgerðir og stöður pöntunarlínu
 
-Eftirfarandi lýsir stillingum á pöntunarlínum. Til að opna pöntunarlínu skal opna **Retail and Commerce \> Viðskiptavinir \> Allar sölupantanir**.
+Eftirfarandi lýsir stillingum á pöntunarlínum. Til að opna pöntunarlínu skal opna **Smásala og viðskipti \> Viðskiptavinir \> Allar sölupantanir**.
 
 - Ef valkosturinn **Útiloka frá DOM-vinnslu** á flipanum **Almennt** í sölupöntunarlínu er stilltur á **Já** verður pöntun eða pöntunarlína útilokuð frá DOM-vinnslu.
 - Hægt er að stilla reitinn **DOM-staða** á flipanum **Almennt** í sölupöntunarlínu á eitt af eftirfarandi gildum:
@@ -219,7 +219,7 @@ Eftirfarandi lýsir stillingum á pöntunarlínum. Til að opna pöntunarlínu s
 
 Uppfyllingaráætlanir eru stofnaðar á meðan DOM-vinnsla keyrir. Með tímanum mun kerfið geyma fjöldann allan af uppfyllingaráætlunum. Til að stjórna fjölda uppfyllingaráætlana sem kerfið geymir er hægt að skilgreina runuvinnslu sem eyðir eldri uppfyllingaráætlunum, sem byggir á gildinu **Varðveislutími í dögum**.
 
-1. Opnið **Retail and Commerce \> Dreifingarstjórnun pöntunar \> Runuvinnsla \> Uppsetning á eyðingarvinnslu DOM-uppfyllingargagna**. 
+1. Opnið **Smásala og viðskipti \> Dreifingarstjórnun pöntunar \> Runuvinnsla \> Uppsetning á eyðingarvinnslu DOM-uppfyllingargagna**. 
 1. Í reitnum **Runuflokkur** skal velja grunnstilltan runuflokk.
 1. Veljið **Endurtekning** og skilgreinið endurtekningu runuvinnslunnar.
 1. Veljið **Í lagi**.
