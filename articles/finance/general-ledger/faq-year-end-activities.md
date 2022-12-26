@@ -2,23 +2,23 @@
 title: Algengar spurningar um verkþætti árslokunar
 description: Í þessari grein er að finna spurningar sem geta komið upp við lokun árs, sem og svör sem kunna að koma að gagni við verkþætti lokunar í árslok.
 author: moaamer
-ms.date: 11/08/2022
+ms.date: 12/01/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a25f20c320b905a2cdd3091e76e3c5e73f1a845a
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: 2e33c1dcbfa4da74f2e8acc6e29f04fda3abd185
+ms.sourcegitcommit: 9f3a60a583da21382a14f32ce146fc9ce03f2a09
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752749"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "9853041"
 ---
 # <a name="year-end-activities-faq"></a>Algengar spurningar um verkþætti árslokunar 
 
@@ -26,175 +26,144 @@ ms.locfileid: "9752749"
 
 Í þessari grein er að finna spurningar sem geta komið upp við lokun árs, sem og svör sem kunna að koma að gagni við verkþætti lokunar í árslok. Upplýsingarnar í þessari grein eru fyrst og fremst tengdar spurningum sem varða verkþætti lokunar í árslok fyrir fjárhag og viðskiptaskuldir.
 
-## <a name="general-ledger-year-end-enhancements"></a>Viðbætur fjárhags í árslok 
-Útgáfu 10.0.20 fylgdu endurbætur fyrir lokun í árslok, sem eru sjálfgefið virkar frá og með útgáfu 10.0.25. Ef fyrirtækið notar eldri útgáfu en 10.0.25 er mælt með að þessi eiginleiki sé virkjaður áður en lokun í árslok hefst. Kveikja þarf á þessum eiginleika í kerfinu til að hægt sé að nota hann. Stjórnendur geta notað vinnusvæðið „Eiginleikastjórnun“ til að skoða stöðu eiginleikans og kveikja á honum ef þess er krafist. Þar er eiginleikinn skráður á eftirfarandi hátt:
+## <a name="general-ledger-year-end-enhancements"></a>Viðbætur fjárhags í árslok
 
- - Eining: Fjárhagur
- - Heiti eiginleika: Endurbætur fyrir fjárhag í árslok
+Microsoft Dynamics 365 Finance útgáfu 10.0.20 fylgdu endurbætur fyrir lokun í árslok. Þessar endurbætur eru virkjaðar sjálfgefið frá og með útgáfu 10.0.25 og eru áskildar frá og með útgáfu 10.0.29. Ef fyrirtækið notar eldri útgáfu en 10.0.25 er mælt með að þessi eiginleiki sé virkjaður áður en ferlið fyrir lokun í árslok hefst. Kveikja þarf á þessum eiginleika í kerfinu til að hægt sé að nota hann. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn skráður á eftirfarandi hátt:
 
-Uppsetning sniðmáta fyrir lokun í árslok hefur verið færð á nýja uppsetningarsíðu, **Uppsetning sniðmáts árslokalokunar**. Núverandi síða lokunar í árslok mun breytast, á svipaðan hátt og endurmat á erlendum gjaldmiðli fjárhags, þar sem listi birtist í hvert skipti sem árslokalokun er keyrð eða bakfærð. Aðalbókari getur hafið lokun í árslok á nýju síðunni. 
+- **Eining:** fjárhagur
+- **Heiti eiginleika:** Endurbætur fyrir fjárhag í árslok
 
-Til að bakfæra lokun í árslok skal velja nýjasta fjárhagsárið fyrir viðeigandi lögaðila og velja hnappinn **Bakfæra árslokalokun**. Bakfærslan mun eyða bókhaldsfærslum fyrir síðustu lokun í árslok og mun ekki aftur keyra lokun í árslok sjálfkrafa. 
+Uppsetning sniðmáta fyrir lokun í árslok hefur verið færð á nýja uppsetningarsíðu, **Uppsetning sniðmáts árslokalokunar**. Núverandi síða lokunar í árslok verður eins og síðan **Endurmat á erlendum gjaldmiðli fjárhags**, þar sem listi birtist í hvert skipti sem lokun í árslok er keyrð eða bakfærð. Síðan mun ekki sýna sögulegar upplýsingar um lokanir í árslok sem voru gerðar áður en eiginleikinn er gerður virkur. Aðalbókari getur hafið lokun í árslok á nýju síðunni.
 
-Hægt er að keyra lokun í árslok aftur með því að hefja endurræsa ferlið fyrir fjárhagsárið og lögaðilann. Ferlið heldur áfram að nota færibreytustillingu fjárhags til að skera úr um hvort endurkeyrsla árslokalokunar muni einungis taka til greina nýjar eða breyttar færslur, eða bakfæra að fullu fyrri lokun og endurkeyra ferlið fyrir allar færslur.  
+Til að bakfæra lokun í árslok skal velja nýjasta fjárhagsárið fyrir viðeigandi lögaðila og velja síðan **Bakfæra lokun í árslok**. Bakfærslan mun eyða bókhaldsfærslum fyrir síðustu lokun í árslok og mun ekki aftur keyra lokun í árslok sjálfkrafa. Ef eiginleikinn **Endurbætur fyrir fjárhag í árslok** er virkjaður eftir lokun í árslok og óskað er eftir að bakfæra sögulegar árslokaniðurstöður skal keyra sögulegar árslokaniðurstöður á ný eftir að fjárhagsfæribreytan **Eyða fyrirliggjandi árslokafærslum þegar ári er lokað aftur** hefur verið virkjuð.
 
-## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Fjárhagur: Hvernig veit ég að við erum að keyra árslokalokun en ekki að afturkalla árslokalokun?
-Við höfum séð fyrirtæki reyna að keyra lokun í árslok en voru í staðinn að afturkalla árslokalokun. Ef árslokalokun gengur mjög hratt fyrir sig eða hún býr ekki til opnunarstöður skal villuleita stillinguna **Afturkalla fyrri lokun** í **Lokun í árslok** (**Fjárhagur > Tímabil lokunar > Lokun í árslok > Keyra fjárhagslokun**). 
+Hægt er að keyra lokun í árslok aftur með því að hefja endurræsa ferlið fyrir fjárhagsárið og lögaðilann. Ferlið heldur áfram að nota færibreytustillingu fjárhags til að skera úr um hvort endurkeyrsla lokunar í árslok muni einungis taka til greina nýjar eða breyttar færslur, eða hvort ferlið verði endurkeyrt fyrir allar færslur og fyrri lokun bakfærð að fullu.
 
-[![Keyrsla lokunar í árslok í samanburði við afturköllun lokunar í árslokalok.](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
+## <a name="general-ledger-the-general-ledger-year-end-enhancements-feature-is-enabled-why-cant-i-view-my-previous-year-closings-in-the-history-section-of-the-year-end-close-page"></a>Fjárhagur: Eiginleikinn fyrir endurbætur á fjárhag í árslok er virkur. Hvers vegna get ég ekki skoðað fyrri árslokanir í söguhluta síðunnar „Lokun í árslok“?
 
-Ef valkosturinn **Afturkalla fyrri lokun** er stilltur á **Já** er verið að afturkalla fyrri árslokalokun. Þegar afturköllun er keyrð verður öllum færslum lokunar- og opnunarstöðu eytt rétt eins og árslokalokun hafi aldrei verið keyrð. Fylgiskjölunum er eytt. Lokun í árslok verður ekki keyrð aftur sjálfkrafa. Hefja þarf ferlið aftur og í þetta skipti breyta **Afturkalla fyrri lokun** í **Nei**. 
+Áður en hægt er að virkja eiginleikann **Endurbætur fyrir fjárhag í árslok** er athugað með dagsetningu og tíma lokunar í árslok á síðasta ári. Ferill var ekki skráður í hvert skipti sem lokun í árslok fór fram. Þar af leiðandi eru upplýsingar um keyrslu á lokun í árslok fyrir hvert ár ekki tiltækar til birtingar. Eftir að eiginleikinn hefur verið virkjaður er unnið með upplýsingar um ferli lokunar í árslok. Hægt er að skoða fylgiskjöl frá öllum ferlum lokunar í árslok á síðunni **Fylgiskjalafærslur**, jafnvel þeim sem keyrðar voru fyrir virkjun eiginleikans. 
+
+## <a name="general-ledger-the-year-end-close-process-is-failing-because-of-the-following-error-the-year-end-close-cant-be-run-because-one-or-more-ledger-transactions-posted-into-the-fiscal-year-that-you-are-closing-were-settled-to-a-ledger-transaction-in-a-different-fiscal-year-what-does-this-error-mean"></a>Fjárhagur: Ferli lokunar í árslok er að mistakast vegna eftirfarandi villu: „Ekki er hægt að keyra lokun í árslok vegna þess að ein eða fleiri fjárhagsfærslur sem eru bókaðar á fjárhagsárið sem verið er að loka voru jafnaðar við fjárhagsfærslu á öðru fjárhagsári.“ Hvað þýðir þessi villa?
+
+Þar sem eiginleikinn **Munurinn á fjárhagsjöfnun og lokun í árslok** er virkur eru aðeins jafnaðar fjárhagsfærslur frá fjárhagsárinu sem verið er að loka útilokaðar í opnunarstöðu. Þetta veldur því að mismunur er á debet- og kreditfærslum. Frekari upplýsingar eru í [Munurinn á fjárhagsjöfnun og lokun í árslok](awareness-between-ledger-settlement-year-end-close.md).
+
+## <a name="general-ledger-reversal-of-the-year-end-close-process-is-failing-because-of-the-following-error-the-year-end-close-for-112022-cant-be-reversed-because-beginning-balance-transaction-have-been-ledger-settled-in-fiscal-year-112023-what-does-this-error-mean"></a>Fjárhagur: Bakfærsla á ferli lokunar í árslok er að mistakast vegna eftirfarandi villu: „Ekki er hægt að bakfæra lokun í árslok fyrir 1/1/2022 vegna þess að upphafsstöðufærsla hefur verið gerð upp í fjárhag á fjárhagsárinu 1/1/2023.“ Hvað þýðir þessi villa?
+
+Þar sem eiginleikinn **Munurinn á fjárhagsjöfnun og lokun í árslok** er virkur er ekki leyfilegt að bakfæra árslokavinnslu ef opnunarfærslur hafa verið gerðar upp á nýju fjárhagsári. Bakfæra skal fjárhagsjöfnun á nýja fjárhagsárinu 2023 áður en lokun í árslok fyrir 1. janúar 2022 er bakfærð. Að öðrum kosti skal endurloka árinu fyrir 1. janúar 2022, en aðeins fyrir nýjar leiðréttingarfærslur. Til að loka árinu aftur fyrir leiðréttingar eingöngu skal gera fjárhagsfæribreytuna **Eyða fyrirliggjandi árslokafærslum þegar ári er lokað aftur** óvirka.
+
+## <a name="general-ledger-why-isnt-the-ledger-settlement-automation-processing-decembers-ledger-settlement-transactions"></a>Fjárhagur: Hvers vegna er sjálfvirkni fjárhagsjöfnunar ekki að vinna úr jöfnunarfærslum í fjárhag fyrir desember?
+
+Eiginleikinn **Sjálfvirknivæða fjárhagsjafnanir** keyrir sjálfvirkni fyrir færslur sem eru dagsettar frá fyrsta degi fjárhagsársins til núverandi dagsetningar þegar tilvikið er keyrt. Á fjárhagsárum sem lýkur 31. desember gæti þurft að breyta dagsetningu keyrslu fyrir tilvikið til að tryggja að það sé keyrt í desember. Til dæmis er sjálfvirkni sett upp til að keyra á fyrsta degi hvers mánaðar. Þessi sjálfvirkni verður keyrð 1. desember 2022 og keyrsla er á áætlun 1. janúar 2023. Mælt er með að tilvikinu sé breytt fyrir 1. janúar 2023 þannig að það keyri í staðinn 31. desember 2022. Með þessari breytingu er tryggt að færslurnar sem eru dagsettar 2. desember til og með 31. desember verði teknar með í sjálfvirku uppgjöri.
+
+## <a name="general-ledger-whats-the-difference-between-the-reverse-year-end-close-action-and-the-delete-existing-year-end-entries-when-reclosing-parameter-for-year-end-close"></a>Fjárhagur: Hver er munurinn á aðgerðinni „Bakfæra lokun við árslok“ og færslunum „Eyða núverandi færslum fyrir árslok“ þegar verið er að endurloka færibreytu fyrir lokun við árslok?
+
+Ruglingur getur verið hvað varðar muninn á aðgerðinni **Bakfæra lokun í árslok** og færslunum **Eyða núverandi færslum fyrir árslok** þegar verið er að endurloka færibreytunni í fjárhag (**Fjárhagur \> Uppsetning fjárhags \> Færibreytur fjárhags**).
+
+Veljið aðgerðina **Bakfæra lokun í árslok** þegar lokunarferli í árslok er keyrt til að eyða öllum færslum lokunar- og opnunarstöðu rétt eins og lokun í árslok hafi aldrei verið keyrð. Í þessu tilviki verður fylgiskjölunum eytt. Lokun í árslok verður ekki keyrð aftur sjálfkrafa. Til að keyra lokun í árslok skal velja aðgerðina **Keyra lokun í árslok**.
+
+Færibreytan **Eyða fyrirliggjandi árslokafærslum þegar ári er lokað aftur** í Fjárhag er aðeins notuð þegar verið er að keyra (ekki bakfæra) lokun í árslok. Ef færibreytan er stillt á **Já** verður öllum færslum lokunar- og opnunarstöðu eytt og lokun í árslok verður keyrð á nýjan leik. Þessi valkostur er notaður þegar fyrirtæki vill að allar færslur, þ.m.t. leiðréttingar frá síðustu lokun í árslok, verði bókaðar í einni bókhaldsfærslu fyrir færslur lokunar- og opnunarstöðu. Ef færibreytan er stillt á **Nei** verða allar færslur lokunar- og opnunarstöðu geymdar áfram. Þeim er ekki eytt. Þess í stað verður ný færsla lokunar- og opnunarstöðu aðeins búin til fyrir annaðhvort delta-færsluna eða nýjar færslur sem hafa verið bókaðar eftir síðustu lokun í árslok fyrir það fjárhagsár.
 
 > [!NOTE]
-> Færsla lokunarstöðu er valfrjálst stofnuð á árinu sem verið er að loka. Þetta gerist aðeins ef fjárhagsfæribreytan **Stofna lokunarfærslur í millifærslu** er stillt á **Já**. Færsla opnunarstöðu er alltaf stofnuð vegna þess að hún er upphafsstaða næsta árs.  
- 
-## <a name="general-ledger-what-is-the-difference-between-undo-and-delete-gl-parameter-for-year-end-close"></a>Fjárhagur: Hver er munurinn á því að afturkalla og eyða færibreytum fjárhags fyrir lokun í árslok?
-Ruglingur getur orðið vegna mismunarins milli færibreytunnar **Afturkalla fyrri lokun**, sem er í glugganum **Lokun í árslok**, og færibreytunnar **Eyða lokunarfærslum árs í millifærslu** í fjárhag (**Fjárhagur > Tímabil lokunar > Lokun í árslok > Keyra fjárhagslokun**).  
+> Færsla lokunarstöðu er búin til á árinu sem verið er að loka. Þetta gerist aðeins ef **Stofna lokunarfærslur í millifærslu** færibreytan í fjárhag er stillt á **Já**. Færsla opnunarstöðu er alltaf stofnuð vegna þess að hún er upphafsstaða næsta árs.
 
-[![Munurinn á því að afturkalla og eyða færibreytum fjárhags fyrir lokun í árslok.](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
+## <a name="general-ledger-what-is-the-difference-between-close-all-and-close-single-options-on-the-transfer-profit-and-loss-dimension-section-of-the-year-end-close-process"></a>Fjárhagur: Hver er munurinn á valkostunum „Loka öllum“ og „Loka einni“ í hlutanum „Flytja víddir hagnaðar og taps“ í ferlinu Lokun í árslok?
 
-Veljið **Afturkalla fyrri lokun** í fellivalmynd svargluggans þegar lokunarferli í árslok er keyrt til að eyða öllum færslum lokunar- og opnunarstöðu rétt eins og lokun í árslok hafi aldrei verið keyrð. Fylgiskjölunum verður eytt. Lokun í árslok verður ekki keyrð aftur sjálfkrafa. Til að keyra lokun í árslok þarf að hefja þetta ferli aftur og í þetta skipti breyta **Afturkalla fyrri lokun** í **Nei** (**Fjárhagur > Fjárhagsuppsetning > Fjárhagsfæribreytur**). 
+**Loka öllum** viðheldur upphaflegum fjárhagsvíddargildum úr bókuðum færslum og notar þær til að stofna opnunarstöður fyrir lykil óráðstafaðs eigin fjár. Aðskildar upphafsstöður óráðstafaðs eigin fjár verða stofnaðar fyrir hverja einkvæma samsetningu fjárhagsvíddargilda. Ef **Loka einni** er valið eru allar bókaðar færslur sem eru með þá fjárhagsvídd dregnar saman í upphafsstöðu óráðstafaðs eigin fjár fyrir víddargildið sem er fært inn í reitinn sem birtist eftir **Loka einni**. 
 
-[![Stillingar fjárhagsfæribreytu.](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
+Til dæmis voru allar færslur fyrir fjárhagsárið bókaðar með lykilskipulaginu Aðallykill - Deild. Fyrir fjárhagsvíddina Deild í sniðmátinu er **Loka einni** valið og 100 er fært inn sem víddargildið. Ef heildartekjur af öllum færslum sem bókaðar eru í deildir 200, 300 og 400 er 100.000 USD verður ein opnunarstaða stofnuð fyrir Óráðstafað eigið fé - 100. Ef **Loka einni** er valið en fjárhagsvíddargildið er skilið eftir autt verða allar færslur bókaðar í óráðstafað eigið fé og víddargildið verður autt.
 
-Færibreytan **Eyða lokunarfærslum árs í millifærslu** í fjárhag er aðeins notuð þegar lokun í árslok er keyrð (ekki afturkölluð) (valkosturinn **Afturkalla fyrri lokun** er stilltur á **Nei**). Ef færibreytan er stillt á **Já** verður öllum færslum lokunar- og opnunarstöðu eytt og lokun í árslok verður keyrð á nýjan leik. Þetta ferli er notað þegar fyrirtækið vill að allar færslur, þ.m.t. leiðréttingar frá síðustu árslokalokun, verði bókaðar í einni bókhaldsfærslu fyrir færslur lokunar- og opnunarstöðu. 
+## <a name="general-ledger-when-i-select-close-single-option-on-the-transfer-profit-and-loss-dimension-section-of-the-year-end-close-process-will-my-detailed-transactional-information-be-lost"></a>Fjárhagur: Munu ítarlegu færsluupplýsingarnar mínar glatast þegar ég vel „Loka einni“ í hlutanum „Flytja víddir hagnaðar og taps“ í ferlinu Lokun í árslok?
 
-Ef þessi valkostur er stilltur á **Nei** verða allar færslur lokunar- og opnunarstöðu áfram. Þeim verður ekki eytt. Þess í stað verður ný færsla lokunar- og opnunarstöðu aðeins búin til fyrir annaðhvort delta-færsluna eða nýju færslurnar sem bókaðar voru eftir síðustu lokun í árslok fyrir það fjárhagsár.  
+Valkostirnir **Loka öllum** og **Loka einni** eru notaðir til að tilgreina hvaða fjárhagsvíddir í færslunum sem bókaðar eru á rekstrarreikninga verða fluttar í aðallykil óráðstafaðs eigin fjár. Þetta hefur ekki áhrif á sögulega, ítarlega bókun í rekstrarreikningi, sem verður áfram ítarleg. Valkosturinn hefur áhrif á nákvæmni þeirra upplýsinga sem eru færðar á lykla óráðstafaðs eigin fjár sem opnunarstaða á nýja árinu. 
 
-> [!NOTE]
-> Færsla lokunarstöðu er búin til á árinu sem verið er að loka. Þetta gerist aðeins ef **Stofna lokunarfærslur í millifærslu** færibreytan í fjárhag er stillt á **Já**. Færsla opnunarstöðu er alltaf stofnuð vegna þess að hún er upphafsstaða næsta árs. 
+## <a name="general-ledger-the-year-end-close-process-is-failing-because-the-reporting-currency-for-the-year-does-not-balance-what-does-this-mean"></a>Fjárhagur: Ferlið „Lokun í árslok“ er að mistakast vegna þess að skýrslugjaldmiðill fyrir árið stemmir ekki. Hvað þýðir það?
 
-## <a name="general-ledger-what-can-be-changed-to-enhance-performance-of-year-end-processing"></a>Fjárhagur: Hverju er hægt að breyta til að auka afköst í árslokavinnslu? 
-Hægt er að gera nokkrar breytingar til að bæta frammistöðu við lokun í árslok. Mælt er með að þú skoðir hvort þessar ráðlögðu breytingar henti fyrirtækinu þínu.  
+Þessi villa getur komið upp eftir að eiginleikinn **Munurinn á fjárhagsjöfnun og lokun í árslok**  (eiginleikinn „Skilningur“) hefur verið virkjaður. Þegar eiginleikinn er virkur verða fjárhagsfærslur sem hafa verið jafnaðar ekki lengur hafðar með í opnunarstöðu næsta fjárhagsárs þegar lokun í árslok er keyrð í fjárhag. Það getur verið krefjandi fyrir viðskiptavini að undanskilja fjárhagsfærslur sem hafa verið jafnaðar við lokun við árslok ef Fjárhagur er skilgreindur með skýrslugjaldmiðli.   
+Fjárhagsjöfnun er aðeins framkvæmd fyrir bókhaldsgjaldmiðilinn.  Þegar fjárhagsfærslur eru jafnaðar tryggir sannprófun aðeins að debetfærslur í bókhaldsgjaldmiðli séu jafnar kreditfærslum í bókhaldsgjaldmiðli. Upphæðir í skýrslugjaldmiðli fyrir þessar fjárhagsfærslur eru ekki sannprófaðar og eru hugsanlega ekki þannig að debetfærslur = kreditfærslur.  Að auki reiknar fjárhagsjöfnun ekki sjálfkrafa út og bókar hagnað/tap í skýrslugjaldmiðlinum.  Vegna þessara takmarkana verður hagnaðar-/tapfærsla að vera til staðar í skýrslugjaldmiðli þegar fjárhagsjöfnun er gerð.  Ef hagnaður/tap er ekki með í fjárhagsjöfnun leiðir lokun í árslok til þess að skilaboð birtast um mismun.  Frekari upplýsingar eru í [Mismunur er á „Munur á fjárhagsjöfnun“ og skýrslugjaldmiðli](reporting-currency-yec.md).
+
+## <a name="general-ledger-what-can-be-changed-to-help-enhance-the-performance-of-year-end-processing"></a>Fjárhagur: Hverju er hægt að breyta til að hjálpa til við að auka afköstin í árslokavinnslu?
+
+Hægt er að gera nokkrar breytingar til að bæta afköst við lokun í árslok. Mælt er með að skoða hvort þessar ráðlögðu breytingar henti viðkomandi fyrirtæki.
+
+### <a name="optimize-year-end-close-service"></a>Þjónustan „Fínstilla lokun í árslok“
+
+Þjónustan **Fínstilla lokun í árslok** gerir viðskiptavinum Microsoft Dynamics 365 Finance kleift að flýta fyrir lokun í árslok með því að færa úrvinnslu lokunar í árslok í örþjónustu. Tíminn sem sparast með skilvirkri lokun í árslok gerir öllum Finance-teymum kleift að bregðast tímanlega við nauðsynlegum breytingum áður en fjárhagsskýrslur eru búnar til. Með því að vinna lokun í árslok með örþjónustu má nýta mikilvæg tilföng í annað mikilvægara. Vinnsluhækkunin lágmarkar álagið á SQL Server og gefur viðskiptavinum tækifæri til að hraða vinnslu á lokun í árslok.
+
+Þjónustan **Fínstilla lokun í árslok** er tiltæk í útgáfu 10.0.31, þannig að fleiri viðskiptavinir geti notað nýju þjónustuna fyrir lokun á árinu 2022. Þjónustan hefur auk þess verið sett afturvirkt í útgáfur 10.0.30 og 10.0.29. Frekari upplýsingar er að finna í [Fínstilla lokun í árslok](optimize-year-end-close.md).
 
 ### <a name="dimension-sets"></a>Víddasamstæður
-Þegar lokun í árslok er keyrð er hver staða víddasamstæðu endurbyggð, sem hefur bein áhrif á afköst. Sum fyrirtæki stofna víddasamstæður að óþörfu vegna þess að þær voru notaðar einhvern tímann áður eða gætu verið notaðar á einhverjum tímapunkti.  Þessar óþörfu víddasamstæður eru samt sem áður endurbyggðar við lokun í árslok, sem lengir ferlið. Taktu þér tíma til að meta víddasamstæðurnar þínar og eyddu öllum óþarfa víddasamstæðum.
 
-Óþörfu víddasamstæðurnar hafa áhrif á runuvinnsluna **BudgetDimensionFocusInitializeBalance** (**Fjárhagur > Bókhaldslykill > Víddir > Fjárhagsvíddasamstæður**).
+Þegar lokun í árslok er keyrð er staða hverrar víddasamstæðu endurbyggð. Þetta hefur bein áhrif á afkomu. Sum fyrirtæki stofna víddasamstæður að óþörfu vegna þess að þær voru notaðar einhvern tímann áður eða gætu verið notaðar á einhverjum tímapunkti. Þessar óþörfu víddasamstæður eru samt sem áður endurbyggðar við lokun í árslok, sem lengir ferlið. Gefðu þér tíma til að skoða víddasamstæðurnar þínar og eyða öllum samstæðum sem eru óþarfar.
+
+Óþörfu víddasamstæðurnar hafa líka áhrif á runuvinnsluna **BudgetDimensionFocusInitializeBalance** (**Fjárhagur \> Bókhaldslykill \> Víddir \> Fjárhagsvíddasamstæður**).
 
 [![Fjárhagsvíddasamstæður.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Sniðmátsskilgreining árslokalokunar
+
 Sniðmát árslokalokunar gerir fyrirtækjum kleift að velja fjárhagsvíddarstigið sem vinna á með þegar stöður hagnaðar og taps eru fluttar í óráðstafað eigið fé. Stillingarnar gera fyrirtækinu kleift að vinna með ítarlegar fjárhagsvíddir (**Loka öllum**) þegar stöðurnar eru fluttar í óráðstafað eigið fé eða velja að taka saman upphæðirnar í eitt víddargildi (**Loka einni**). Hægt er að skilgreina þetta fyrir hverja fjárhagsvídd. Frekari upplýsingar um þessar stillingar er að finna í greininni [Lokun í árslok](year-end-close.md).
 
 Mælt er með að þú metir kröfur fyrirtækisins og, ef mögulegt, loka eins mörgum víddum og hægt er með valkostinum **Loka einni** fyrir árslok til að bæta afköst. Með því að loka í einu víddargildi (sem má einnig vera autt gildi) reiknar kerfið út færri atriði þegar stöður eru ákvarðaðar fyrir lykilfærslur óráðstafaðs eigin fjár.
 
-## <a name="degenerate-dimensions"></a>Blindvíddir
+### <a name="degenerate-dimensions"></a>Blindvíddir
 
 Blindvídd er lítið sem ekkert hægt að endurnýta, hvort sem er stök eða með öðrum víddum. Tvær gerðir blindvídda er til. Fyrri gerðin er vídd sem er blindvídd þegar hún stendur stök. Yfirleitt birtist slík blindvídd aðeins í einni færslu eða þá mjög fáum. Hin gerðin er vídd sem verður blindvídd í tengslum við eina eða fleiri víddir til viðbótar sem sýna sömu eiginleika, samkvæmt þeim umröðunum sem hægt er að mynda. Blindvídd getur haft veruleg áhrif á vinnslu lokunar í árslok. Til að lágmarka möguleika á mögulegum vandamálum við vinnslu skal skilgreina allar blindvíddir sem **Loka einni** í uppsetningu lokunar í árslok eins og lýst er í hlutanum hér á undan.
-
-## <a name="general-ledger-what-does-the-period-close-year-end-close-do"></a>Fjárhagur: Hvað gerir lokun tímabils, lokun í árslok?
- 
-[![Tímabil lokunar, árslokalokun.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
-
-### <a name="performance-improvements-for-rebuilding-financial-dimension-sets"></a>Afkastaendurbætur fyrir endurbyggingu fjárhagsvíddarsamstæða
-Nýr eiginleiki sem var bætt við í útgáfu 10.0.16 bætir afköst við lokun í árslok og samstæðuferli. Eiginleikinn er með heiti, Afkastaendurbætur fyrir endurbyggingu fjárhagsvíddarsamstæða Þessi eiginleiki breytir því hvernig víddasamstæður eru endurbyggðar þannig að þær verða aðeins endurbyggðar fyrir viðeigandi tímaramma. Í fyrri útgáfum voru víddasamstæður endurbyggðar fyrir allar dagsetningar. Ef þú ert til dæmis að loka árinu 2020 mun kerfið aðeins endurbyggja stöðuna fyrir færslur innan fjárhagsársins 2020. Ef verið er að keyra sameiningu fyrir tímabilið frá 1. nóvember 2020 til 30. nóvember 2020 mun kerfið aðeins endurbyggja stöðurnar fyrir það tímabil.
-
-Kveikja þarf á þessum eiginleika í kerfinu til að hægt sé að nota hann. Stjórnendur geta notað vinnusvæðið „Eiginleikastjórnun“ til að skoða stöðu eiginleikans og kveikja á honum ef þess er krafist. Þar er eiginleikinn skráður á eftirfarandi hátt:
- 
-- Eining: Fjárhagur
-- Heiti eiginleika: Afkastaendurbætur fyrir endurbyggingu fjárhagsvíddarsamstæða
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2022"></a>Viðskiptaskuldir: Hvaða breytingar hafa verið gerðar til að styðja 1099-árslokaskýrslugerð fyrir 2022?
 
 #### <a name="update-to-all-1099-forms"></a>Uppfæra í öll 1099 eyðublöð
+
 Eftirfarandi breytingar hafa verið gerðar á öllum 1099 eyðublöðum fyrir skattárið 2022:
 
-  - Árið 2021 var árið fast á 1099 eyðublöðum. Frá og með árinu 2022 er árið fyllt út með skýrslunni. 
+- Árið 2021 var árið fast á 1099 eyðublöðum. Frá og með árinu 2022 er árið fyllt út með skýrslunni.
 
 #### <a name="1099-misc"></a>1099-MISC
+
 Eftirfarandi uppfærslur hafa verið gerðar á eyðublaði 1099-MISC fyrir skattárið 2022:
 
- - Reitur 13: Tilgreinir nú FATCA (lög um skattlagningu vegna erlendra reikninga). 
- - Reitur 14: Nú notaður til að tilkynna um of háar „gylltar fallhlífagreiðslur“. 
- - Reitur 15: Nú notaður til að tilkynna um greiðsluna samkvæmt NQDC (óviðurkenndar frestaðar tekjur). 
- - Reitur 16: Nú notaður til að tilkynna um afdregna skatta ríkis.
- - Reitur 17: Nú notaður til að tilkynna um ríkisnúmer greiðanda.
- - Reitur 18: Nú notaður til að tilkynna um tekjur ríkis. 
+- Reitur 13: Tilgreinir nú FATCA (lög um skattlagningu vegna erlendra reikninga).
+- Reitur 14: Nú notaður til að tilkynna um of háar „gylltar fallhlífagreiðslur“.
+- Reitur 15: Nú notaður til að tilkynna um greiðsluna samkvæmt NQDC (óviðurkenndar frestaðar tekjur).
+- Reitur 16: Nú notaður til að tilkynna um afdregna skatta ríkis.
+- Reitur 17: Nú notaður til að tilkynna um ríkisnúmer greiðanda.
+- Reitur 18: Nú notaður til að tilkynna um tekjur ríkis.
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Viðskiptaskuldir: Hvaða breytingar hafa verið gerðar til að styðja 1099-árslokaskýrslugerð fyrir 2021?
+## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Viðskiptaskuldir: 1099 – Hvernig breyti ég 1099-reitnum og -gildum fyrir lánardrottin sem rakti ekki 1099-upplýsingar yfir árið?
 
-DIV-, NEC- og MISC-eyðublöðunum var breytt lítillega árið 2021 og einhverjum reitum var bætt við.
+Nota skal aðgerðina **Uppfæra 1099** til að fara í gegnum áður greiddar reikningsfærslur og endurúthluta 1099-gögnum á réttan hátt samkvæmt stillingunum í flipanum **1099-skatteyðublað** á síðunni **Lánardrottinn**. Til að nota aðgerðina **Uppfæra 1099** skal fara í **Viðskiptaskuldir \> Lánardrottnar \> Allir lánardrottnar**, velja lánardrottin og velja svo **Uppfæra 1099** á flipanum **Lánardrottinn** á aðgerðasvæðinu.
 
-#### <a name="div-new-box2e-2f"></a>DIV: nýr reitur 2e, 2f
- 
-- Reitur 2e. Sýnir í reit 1a þann hluta upphæðarinnar sem skal gefa upp sem ágóða í hluta 897 vegna sölu bandarískra fasteigna (USRPI).  
-- Reitur 2f. Sýnir í reit 2a þann hluta upphæðarinnar sem skal gefa upp sem ágóða í hluta 897 vegna sölu USRPI (sölu bandarískra fasteigna). Athugið að reitir 2e og 2f eiga aðeins við um erlenda einstaklinga og lögaðila sem hafa tekjur sem breytast ekki þegar þær fara í gegnum, eða er dreift til, beinna eða óbeinna erlendra eigenda eða viðtakenda. Það er almennt túlkað sem tengt viðskiptum eða rekstri innan Bandaríkjanna. Skoðaðu leiðbeiningarnar fyrir skattframtalið. 
- 
-#### <a name="nec-new-box-2"></a>NEC: nýr reitur 2 
- 
-Ef hakað er við reit 2 skal gefa upp neytendavörur sem kosta 5000 Bandaríkjadali eða meira og sem voru seldar viðkomandi til endursölu, í kaupsölu, með innborgun eða á öðrum grundvelli. Almennt séð skal gefa upp tekjur af sölu þessara vara á þessum vörum í skrá C (eyðublað 1040). 
- 
-Á meðan hefur stærð eyðublaðs fyrir NEC breyst. Við prentun eru þrjú eyðublöð á síðu. 
- 
-#### <a name="misc-new-box-11"></a>MISC: nýr reitur 11 
- 
-Reitur 11 sýnir upphæðina sem greidd er fyrir kaup á fiski til endursölu frá öllum aðilum sem stunda viðskipti með eða rekstur tengdan fiski. Skoðaðu leiðbeiningarnar fyrir skattframtalið til að gefa upp þessar tekjur. 
- 
-#### <a name="electronic-filing"></a>Rafræn skattskil 
-Upplýsingar um rafræn skattskil er að finna í [efni um kröfur fyrir rafræn skattskil](https://www.irs.gov/pub/irs-pdf/p1220.pdf).
+## <a name="can-i-run-the-update-1099-functionality-for-all-my-vendors-at-once"></a>Get ég keyrt eiginleikann „Uppfæra 1099“ fyrir alla lánardrottna mína í einu?
 
-Uppfæra sniðlýsingar og uppsetningu skráa fyrir rafræn skýrslu árið 2021 
-- Hluti 2, „A“-færsla útgefanda. 
-- Upphæðarkóðar – hærri staða svæðis 28–45, lengt í 18. 
- 
-#### <a name="sec-2-issuer-a-record-for-reporting-payments-on-form-1099-div"></a>Hluti 2, „A“-færsla útgefanda, fyrir skráningu greiðslna á eyðublað 1099-DIV: 
-- Gerð upphæðar – hluta 897, hefðbundnar arðgreiðslur, og upphæðarkóða H bætt við. 
-- Gerð upphæðar – hluta 897, söluhagnaður, og upphæðarkóða J bætt við. 
- 
-#### <a name="sec-3-payee-b-record"></a>Hluti 3, „B“-færsla móttakanda greiðslu 
-- Almennar upplýsingafærslur – þriðja atriði uppfært úr 16 í 18 greiðsluupphæðasvæði. 
-- Heiti svæðis greiðslu H – staða svæðis 247–258, heiti svæðis, lengd og almenn lýsing svæðis. 
-- Heiti svæðis greiðslu J – staða svæðis 259–270, heiti svæðis, lengd og almenn lýsing svæðis. 
-- Autt svæði uppfært svæðisstöðu 271–286. 
-- Vísir fyrir erlent ríki uppfært í svæðisstöðu 287. 
-- Svæði fyrstu nafnalínu móttakanda greiðslu uppfært í svæðisstöðu 288–327. 
-- Svæði annarrar nafnalínu móttakanda greiðslu uppfært í svæðisstöðu 328–367. 
-- Færslustaðsetningar, eyðublað 1099-MISC – svæðisstöðu 548 og vísi fyrir svæðisheiti FATCA-skilakrafna eytt. 
-- Færslustaðsetningar, eyðublað 1099-NEC – 545-546 uppfærð í autt, svæði 547 uppfært í vísi fyrir beina sölu, lengd og lýsing og athugasemdir svæðis 548–722 uppfært í autt. 
- 
-#### <a name="sec-4-end-of-issuer-c-record"></a>Hluti 4, lok „C“-færslu útgefanda 
-- Heiti svæðis greiðslu H – staða svæðis 304–321, heiti svæðis, lengd og almenn lýsing svæðis. 
-- Heiti svæðis greiðslu J – staða svæðis 322–339, heiti svæðis, lengd og almenn lýsing svæðis. 
-- Heiti svæði 340–499 – lengd uppfærð í 160. 
- 
-#### <a name="sec-5-state-totals-k-record"></a>Hluti 5, gefa upp samtölu „K“-færslu 
-- Heiti svæðis greiðslu H – staða svæðis 304–321, heiti svæðis, lengd og almenn lýsing svæðis. 
-- Heiti svæðis greiðslu J – staða svæðis 322–339, heiti svæðis, lengd og almenn lýsing svæðis. 
-- Heiti svæði 340–499 – lengd uppfærð í 160.  
-
-## <a name="accounts-payable-1099--how-do-i-change-the-1099-box-and-values-for-a-vendor-that-wasnt-tracking-1099-information-throughout-the-year"></a>Viðskiptaskuldir: 1099 – Hvernig breyti ég 1099-reitnum og -gildum fyrir lánardrottin sem var ekki að rekja 1099-upplýsingar yfir árið?
-Notaðu aðgerðina „Uppfæra 1099“ (**Viðskiptaskuldir > Lánardrottnar > Allir lánardrottnar > Velja lánardrottin > Lánardrottnaflipi í borða > Uppfæra 1099**) til að fara í gegnum áður greiddar reikningsfærslur til að endurúthluta 1099-gögnum á réttan hátt samkvæmt stillingunum í flipanum **1099-skatteyðublað** á síðunni **Lánardrottinn**.
-
-## <a name="can-i-run-the-update-1099-for-all-my-vendors-at-once"></a>Get ég keyrt Uppfærslu 1099 fyrir alla lánardrottna mína í einu?
-Nr. Reglubundin 1099-uppfærsla er gerð fyrir einn lánardrottin í einu. Ef þörf er á þessari kröfu í fyrirtækinu skal kjósa með hugmyndinni sem ber heitið [Runuvinnsla fyrir uppfærslu 1099-gagna lánardrottins](https://experience.dynamics.com/ideas/idea/?ideaid=5493d608-350e-eb11-b5d9-0003ff68ded8).
+Hægt er að nota síðuna **Uppfæra 1099-gögn fyrir marga lánardrottna** til að uppfæra 1099-reitinn í lánardrottinsfærslu og til að uppfæra færslur með upplýsingum úr 1099-reitnum. Til að opna þessa síðu skal fara í **Viðskiptaskuldir \> Reglubundið verkefni \> 1099-skatteyðublað**. Til að opna síðuna þarf að úthluta þér öryggisréttindum fyrir **Uppfæra 1099-reit og færslur fyrir marga lánardrottna**.
 
 ## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-versus-update-all-in-the-update-1099-utility"></a>Viðskiptaskuldir: 1099 – „Endurreikna núverandi 1099-upphæðir“ gagnvart „Uppfæra allt“ í 1099-uppfærsluforritinu
-Gátreiturinn **Endurreikna núverandi 1099-upphæðir** endurstillir 1099-upphæðina í samtals greidd gildi þegar hann er notaður í tengslum við gátreitinn **Uppfæra allt**. 
 
-[![Færslur 1099-skatteyðublaðs: Áður en reglubundin uppfærsla er keyrð.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
+Gátreiturinn **Endurreikna núverandi 1099-upphæðir** endurstillir 1099-upphæðina í samtals greidd gildi þegar hann er notaður ásamt gátreitnum **Uppfæra allt**.
 
-Gátreiturinn **Endurreikna núverandi 1099-upphæðir** er aðeins notaður þegar það eru 1099-gildi að hluta til á reikningnum eða ef honum var breytt á 1099-skatteyðublaðinu. Ímyndaðu þér til dæmis að þú sért með reikning upp á 1000 Bandaríkjadali, en notandinn slær handvirkt 1099-upphæð inn á reikninginn sem nemur 500 Bandaríkjadölum.
+[![Færslur 1099-skatteyðublaðs: Áður en reglubundin uppfærsla er keyrð.](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
 
-[![Færslur 1099-skatteyðublaðs: Merkir bæði Uppfæra allt og Endurreikna núverandi 1099-upphæðir.](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
+Gátreiturinn **Endurreikna núverandi 1099-upphæðir** er aðeins notaður þegar það eru 1099-gildi að hluta til á reikningnum eða ef reikningnum var breytt á 1099-skatteyðublaðinu. Til dæmis ef þú ert með reikning sem er metinn á 1.000,00 USD en notandinn slær handvirkt inn 1099-upphæð sem nemur 500,00 USD á reikninginn.
 
-Þegar þetta er greitt verða 500 Bandaríkjadalir 1099-upphæðin sem verður greidd. Ef reglubundinn endurútreikningur er gerður mun kerfið breyta 1099-upphæðinni í 1000 Bandaríkjadali, sem er heildargreiðslan.
+[![Færslur 1099-skatteyðublaðs: Merkir bæði Uppfæra allt og Endurreikna núverandi 1099-upphæðir.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
+
+Þegar reikningurinn er greiddur verður 500 USD 1099-upphæðin sem verður greidd. Ef þú framkvæmir endurútreikning verður 1099-upphæðinni breytt í 1.000 USD, sem er heildarupphæðin sem var greidd.
 
 [![Færslur 1099-skatteyðublaðs: Eftir reglubundna 1099-keyrslu.](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
 
 ## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>Viðskiptaskuldir: 1099 – Stofna handvirkt 1099-færslur
-Fyrirtæki gæti þurft að stofna 1099-færslur handvirkt sem ekki eru tengdar reikningi. Hægt er að bæta við handvirkum 1099-færslum með því að fara í **Viðskiptaskuldir > Reglubundin verk > 1099-skatteyðublað > Jöfnun lánardrottins á 1099-eyðublöðum**. Veljið hnappinn **Handvirkar 1099-færslur**. 
+
+Fyrirtæki gæti þurft að stofna 1099-færslur handvirkt sem ekki eru tengdar reikningi. Hægt er að bæta við handvirkum 1099-færslum með því að fara í **Viðskiptaskuldir \> Reglubundin verk \> 1099-skatteyðublað \> Jöfnun lánardrottins á 1099-eyðublöðum**. Veljið hnappinn **Handvirkar 1099-færslur**.
 
 Handvirkt stofnaðar 1099-færslur eru ekki uppfærðar með ferlinu **Uppfæra allt** eða **Endurreikna núverandi 1099-upphæðir** í hjálparforritinu **Uppfæra 1099**.
 
-## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Viðskiptaskuldir: 1099 – Styður Dynamics 365 Finance 1096-eyðublaðið? 
+## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Viðskiptaskuldir: 1099 – Styður Dynamics 365 Finance 1096-eyðublaðið?
 
 Dynamics 365 Finance prentar ekki út eyðublaðið 1096 Annual Summary and Transmittal of US Information Returns.
 
-## <a name="accounts-payable-1099--are-there-any-new-features-that-support-1099-reporting-for-public-sector"></a>Viðskiptaskuldir: 1099 – Eru til nýir eiginleikar sem styðja 1099 skýrslugerð fyrir opinbera geirann? 
+## <a name="accounts-payable-1099--are-there-any-new-features-that-support-1099-reporting-for-public-sector"></a>Viðskiptaskuldir: 1099 – Eru til nýir eiginleikar sem styðja 1099 skýrslugerð fyrir opinbera geirann?
+
 Nýjum eiginleika fyrir opinbera geirann, **Uppfæra 1099-upplýsingar eftir aðallykli**, hefur verið bætt við, sem hægt er að virkja á vinnusvæðinu **Eiginleikastjórnun**. Þessi eiginleiki gerir kleift að tengja 1099-gildin fyrir lánardrottin eftir aðallyklinum í dreifingu á fjárhagsupphæð, frekar en eftir sjálfgefna lyklinum í lánardrottnafærslunni.
 
 Frekari upplýsingar eru í [Setja upp lánardrottna fyrir skýrsluna 1099](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -877,15 +877,15 @@
                   items:
                     - name: Yfirlit skjalaprentunar
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?context=/dynamics365/context/supply-chain
-                    - name: Setja upp Document Routing Agent til að virkja nettengda prentun
+                    - name: Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentun
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?context=/dynamics365/context/supply-chain
-                    - name: Uppfæra Document Routing Agent
+                    - name: Uppfæra eftirlitsbúnað skjalasendingar
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?context=/dynamics365/context/supply-chain
                     - name: Setja upp nettengda prentara í innanhússumhverfi
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?context=/dynamics365/context/supply-chain
                     - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?context=/dynamics365/context/supply-chain
-                    - name: Keyra Document Routing Agent sem Windows-þjónustu
+                    - name: Keyra eftirlitsbúnað skjalasendingar sem Windows-þjónustu
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?context=/dynamics365/context/supply-chain
                 - name: Tiltækar skrár yfir SQL Server Reporting Services
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?context=/dynamics365/context/supply-chain
@@ -1809,9 +1809,11 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Framleiðsluáætlun
                   href: master-planning/planning-optimization/production-planning.md
-                - name: Aðaláætlanagerð fyrir vörur með takmarkaðan endingartíma
+                - name: Setja upp rýrnun til að reikna út hráefnisþörf
+                  href: master-planning/scrap-calculations.md
+                - name: Aðaláætlanagerð fyrir vörur með takmarkað geymsluþol
                   href: master-planning/planning-optimization/shelf-life.md
-                - name: Áætlun með ótakmarkaða getu
+                - name: Röðun með ótakmarkaða getu
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
                 - name: Takmörkuð afkastagetuáætlun og skipulagning
                   href: master-planning/planning-optimization/finite-capacity.md
@@ -2355,7 +2357,7 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Stofna útgefna afurð fyrir stakt fyrirtæki
                   href: pim/tasks/create-released-product-single-company.md
-                - name: Nota gagnaeiningar
+                - name: Afurðargagnaeiningar
                   href: pim/data-entities.md
                 - name: Líftímastaða afurðar
                   items:

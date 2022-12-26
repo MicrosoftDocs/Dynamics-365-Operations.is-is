@@ -1166,8 +1166,10 @@
                   href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Fjárhagsuppgjör eftir aðallykli
                   href: general-ledger/general-ledger-statement-by-main-account.md
-                - name: Rafræn skýrsla fyrir Staðlaða endurskoðunarskrá fyrir skatta (SAF-T)
+                - name: Rafræn skýrsla fyrir staðlaða endurskoðunarskrá fyrir skatta (SAF-T)
                   href: general-ledger/standard-audit-file.md
+                - name: Fyrirspurn fjárhagsjöfnunar
+                  href: general-ledger/ledger-settlement-inquiry.md
             - name: Lokun tímabils
               items:
                 - name: Lokun fjárhags við lok tímabils
@@ -1187,7 +1189,19 @@
                 - name: Fjárhagsjafnanir
                   href: general-ledger/ledger-settlements.md
                 - name: Munurinn á fjárhagsjöfnun og árslokalokun
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                  items:
+                    - name: Munurinn á fjárhagsjöfnun og árslokalokun
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: Undirbúa fyrir mun á fjárhagsjöfnun fyrir lokun í árslok
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: Undirbúa fyrir mun á fjárhagsjöfnun eftir lokun í árslok
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: Mismunur er á „Munur á fjárhagsjöfnun“ og skýrslugjaldmiðli
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: Munur á fjárhagsjöfnun fyrir lokun í árslok notar fyrirspurnaglugga
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: Munur á fjárhagsjöfnun eftir lokun í árslok notar fyrirspurnaglugga
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
                 - name: Sjálfvirknivæða fjárhagsjafnanir
                   href: general-ledger/auto-settle.md
                 - name: Endurmat á erlendum gjaldmiðli fyrir fjárhag
@@ -3949,15 +3963,15 @@
                   items:
                     - name: Yfirlit skjalaprentunar
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?context=/dynamics365/context/finance
-                    - name: Setja upp Document Routing Agent til að virkja nettengda prentun
+                    - name: Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentun
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?context=/dynamics365/context/finance
-                    - name: Uppfæra Document Routing Agent
+                    - name: Uppfæra eftirlitsbúnað skjalasendingar
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/finance/toc.json
                     - name: Setja upp nettengda prentara í innanhússumhverfi
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?context=/dynamics365/context/finance
                     - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?context=/dynamics365/context/finance
-                    - name: Keyra Document Routing Agent sem Windows-þjónustu
+                    - name: Keyra eftirlitsbúnað skjalasendingar sem Windows-þjónustu
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?context=/dynamics365/context/finance
                 - name: Tiltækar skrár yfir SQL Server Reporting Services
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?context=/dynamics365/context/finance
