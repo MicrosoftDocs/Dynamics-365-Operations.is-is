@@ -1,6 +1,6 @@
 ---
 title: Framleiðsluáætlun
-description: Þessi grein lýsir áætlanagerð fyrir framleiðslu og útskýrir hvernig á að breyta áætluðum framleiðslupöntunum með því að nota áætlanagerð fínstillingu.
+description: Þessi grein lýsir áætlanagerð fyrir framleiðslu og útskýrir hvernig á að breyta áætluðum framleiðslupöntunum með því að nota fínstillingu skipulagningar.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 43da249637c44b3f56e8b5e210a0e44d9ac6cb9d
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740550"
@@ -22,11 +22,11 @@ ms.locfileid: "9740550"
 
 [!include [banner](../../includes/banner.md)]
 
-Eftirfarandi myndband gefur stutta kynningu á sumum hugtökum sem fjallað er um í þessari grein: [Dynamics 365 Supply Chain Management : Áætlun Optimization aukahlutir](https://youtu.be/u1pcmZuZBTw).
+Eftirfarandi myndband gefur stutta kynningu á sumum þeirra hugtaka sem fjallað er um í þessari grein: [Dynamics 365 Supply Chain Management: Viðbætur við fínstillingu skipulagningar](https://youtu.be/u1pcmZuZBTw).
 
-## <a name="turn-this-feature-on-or-off-for-your-system"></a>Kveiktu eða slökktu á þessum eiginleika fyrir kerfið þitt
+## <a name="turn-this-feature-on-or-off-for-your-system"></a>Kveikir eða slekkur á þessum eiginleika fyrir kerfið
 
-Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Skipulagðar framleiðslupantanir fyrir hagræðingu áætlanagerðar* eiginleiki í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika þarf að kveikja á honum fyrir kerfið þitt. (Frá og með útgáfu 10.0.29 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á honum.) Ef þú ert að keyra útgáfu sem er eldri en 10.0.29, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Áætlaðar framleiðslutillögur fyrir fínstillingu áætlanagerðar* á vinnusvæðinu [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="planned-production-orders"></a>Framleiðslutillögur
 
@@ -59,7 +59,7 @@ Ef á að breyta upplýsingum um áætlaða pöntun og sjá áhrifin á tengda e
 2. Samþykkja áætlaða pöntun.
 3. Keyra áætlanagerð.
 
-Þegar aðaláætlanagerð er keyrð ætti ekki að nota síur ef áætlaðar framleiðslupantanir eru teknar með. Fyrir frekari upplýsingar, sjá [Síur](#filters) kafla síðar í þessari grein.
+Þegar aðaláætlanagerð er keyrð ætti ekki að nota síur ef áætlaðar framleiðslupantanir eru teknar með. Nánari upplýsingar er að finna í hlutanum [Síur](#filters) síðar í þessari grein.
 
 > [!NOTE]
 > Ef afhendingardagsetningu áætlaðrar pöntunar er breytt í síðari dagsetningu gæti eftirspurnin verið fest við nýja áætlaða pöntun. Þessi hegðun á sér stað þegar nýja birgðadagsetningin veldur töfum á festri eftirspurn en, samkvæmt stillingum afhendingartíma, er hægt að komast hjá seinkuninni.
@@ -70,15 +70,15 @@ Hægt er að nota síðuna **Niðurbrot** til að greina eftirspurnina sem þarf
 
 ## <a name="filters"></a><a name="filters"></a>Síur
 
-Til að tryggja að aðaláætlanagerð hafi þær upplýsingar sem hún þarf til að reikna út rétta niðurstöðu, verður þú að hafa allar vörur sem tengjast vörum í allri uppskriftaruppbyggingu áætlaðrar pöntunar. Fyrir aðstæður áætlanagerðar sem fela í sér framleiðslu er mælt með að forðast síaðar keyrslur aðaláætlanagerðar.
+Til að tryggja að aðaláætlanagerð sé með upplýsingarnar sem þarf til að fá út rétta útkomu við útreikning þarf að hafa með allar afurðir sem á einhvern hátt tengjast afurðunum í öllu skipulagi uppskriftar fyrir áætluðu pöntunina. Fyrir aðstæður áætlanagerðar sem fela í sér framleiðslu er mælt með að forðast síaðar keyrslur aðaláætlanagerðar.
 
-Þó að undirlagðir hlutir séu sjálfkrafa greindir og teknir með í aðaláætlanagerð þegar úrelda aðalskipulagsvélin er notuð, framkvæmir áætlanagerð fínstilling ekki þessa aðgerð eins og er.
+Þó að háðar undireiningar séu sjálfkrafa greindar og hafðar með í keyrslum aðaláætlanagerðar þegar úrelt aðaláætlunarvél er notuð, þá framkvæmir fínstilling skipulagningar ekki þessi aðgerð eins og er.
 
 Til dæmis ef einn bolti úr skipulagi uppskriftar fyrir afurð A er einnig notaður til að framleiða afurð B, þá verður að hafa með allar afurðir í skipulagi uppskriftar fyrir afurðir A og B í síuninni. Það getur verið mjög flókið að ganga úr skugga um að allar afurðir séu hluti af síunni og þar af leiðandi er mælt með að forðast keyrslur á síaðri aðaláætlanagerð þegar framleiðslupantanir eru hafðar með. Annars koma óæskilegar niðurstöður út úr aðaláætlanagerðinni.
 
 ### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Ástæður til að forðast síaðar keyrslur aðaláætlanagerðar
 
-Þegar þú keyrir síaða aðaláætlanagerð fyrir vöru, greinir áætlanagerð fínstilling (ólíkt úreltu aðalskipulagsvélinni) ekki allar undirvörur og hráefni í uppskriftarskipulagi þeirrar vöru og tekur þær því ekki með í aðalskipulagskeyrslunni. . Þótt fínstilling skipulagningar greinir fyrsta stigið í skipulagi uppskriftar fyrir afurðina, hleður hún ekki neinum afurðarstillingum (á borð við sjálfgefinni pöntunargerð eða vöruþekju) úr gagnagrunninum.
+Þegar keyrð er síuð aðaláætlanagerð fyrir afurð ber fínstilling skipulagningar (ólíkt úreltri innbyggðri aðaláætlunarvél) ekki kennsl á allar undirafurðir og hráefni í skipulagi uppskriftar fyrir þessa afurð og hefur þær því ekki með í keyrslu aðaláætlanagerðar. Þótt fínstilling skipulagningar greinir fyrsta stigið í skipulagi uppskriftar fyrir afurðina, hleður hún ekki neinum afurðarstillingum (á borð við sjálfgefinni pöntunargerð eða vöruþekju) úr gagnagrunninum.
 
 Í fínstillingu skipulagningar er gögnum fyrir keyrsluna hlaðið á undan og setur á síurnar. Þetta þýðir að ef undirafurð eða hráefni sem er hluti af tiltekinni afurð er ekki hluti af síunni, verða upplýsingar um hana ekki sóttar fyrir keyrsluna. Auk þess, ef undirafurðin eða hráefnið er einnig haft með í annarri afurð, þá myndi síuð keyrsla sem inniheldur aðeins upprunalega afurð og þætti hennar fjarlægja fyrirliggjandi áætlaða eftirspurn sem var búin til fyrir þessa aðra afurð.
 

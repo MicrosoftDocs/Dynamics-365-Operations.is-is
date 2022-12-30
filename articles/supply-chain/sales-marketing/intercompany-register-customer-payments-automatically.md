@@ -1,6 +1,6 @@
 ---
 title: Skrá greiðslur sjálfkrafa fyrir samstæðureikninga viðskiptavinar
-description: Þessi grein útskýrir hvernig á að skrá greiðslur sjálfkrafa fyrir reikninga milli fyrirtækja
+description: Þessi grein útskýrir hvernig á að skrá greiðslur sjálfkrafa fyrir samstæðureikninga viðskiptavinar
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
 ms.openlocfilehash: 4e8f784cd310026f0a647a0f509999e11ab26ce5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8878788"

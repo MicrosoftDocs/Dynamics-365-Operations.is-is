@@ -1,6 +1,6 @@
 ---
 title: Viðhaldsáætlun
-description: Þessi grein útskýrir viðhaldsáætlun í eignastýringu.
+description: Í þessari grein er viðhaldsáætlun í Eignastýringu útskýrð.
 author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 782a8cc1f9e64b8c2d4364212c9c5755c103bbfb
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9017059"
@@ -44,7 +44,7 @@ Fjögur sýn á viðhaldsskema er aðeins mismunandi eftir því hvaða viðhald
 
 Til að opna viðhaldsskema:
 
-1. Smellur **Eignastýring** > **Viðhaldsáætlun** > **Öll viðhaldsáætlun** eða **Opnar viðhaldsáætlunarlínur** eða **Opnar viðhaldsáætlunarlaugar**.
+1. Smelltu á **Eignastýring** > **Viðhaldsáætlun** > **Allar viðhaldsáætlanir** eða **Opna línur viðhaldsáætlunar** eða **Opna viðhaldsáætlunarhópa**.
 
 2. Til að uppfæra viðhaldsskema skaltu smella á **Viðhaldsáætlun** eða **Viðhaldslotur**. 
 

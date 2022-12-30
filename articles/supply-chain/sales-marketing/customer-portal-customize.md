@@ -1,6 +1,6 @@
 ---
 title: Sérsníða og nota viðskiptavinagátt
-description: Þessi grein útskýrir hvernig á að sérsníða viðskiptavinagáttina eftir að henni hefur verið bætt við kerfið þitt.
+description: Þessi grein útskýrir hvernig á að sérsníða viðskiptavinagátt þegar búið er að bæta henni við kerfið.
 author: Henrikan
 ms.date: 04/22/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 85ec4beda2efe62ff5076a5ed694efbc47c6d87f
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8878875"
@@ -24,7 +24,7 @@ ms.locfileid: "8878875"
 [!include [banner](../includes/banner.md)]
 
 
-Þessi grein lýsir mismunandi síðum sem eru tiltækar í viðskiptavinagáttinni beint úr kassanum. Það útskýrir hvað síðurnar gera og hvernig hægt er að sérstilla þær.
+Þessi grein lýsir mismunandi síðum sem eru í boði í tilbúinni viðskiptavinagátt. Það útskýrir hvað síðurnar gera og hvernig hægt er að sérstilla þær.
 
 Viðskiptavinagáttin býður upp á nokkrar tilbúnar vefsíður og aðgerðir. Eftirfarandi veftré veitir yfirlit yfir þessar vefsíður og aðgerðir og hlutverkin sem geta framkvæmt aðgerðirnar.
 
@@ -32,16 +32,16 @@ Viðskiptavinagáttin býður upp á nokkrar tilbúnar vefsíður og aðgerðir.
 
 ## <a name="typical-customizations"></a>Dæmigerðar sérstillingar
 
-Eftirfarandi greinar munu hjálpa þér að læra grunnatriðin um Power Apps gáttir og hvernig þú getur sérsniðið gáttir:
+Eftirfarandi grein mun hjálpa til við að læra grunnatriði varðandi Power Apps-gáttir og hvernig hægt er að sérsníða gáttir:
 
-- [Vinna með sniðmát](/powerapps/maker/portals/work-with-templates) – Þessi grein veitir almennt yfirlit yfir hvernig Power Apps gáttir virka og hvernig þú getur gert einfaldar sérsniðnar gáttir.
-- [Stjórna vefgáttinni](/dynamics365/portals/manage-portal-content) – Þessi grein útskýrir hvernig þú getur stjórnað og sérsniðið efni sem þú birtir á vefsíðunni þinni.
-- [Breyta CSS](/powerapps/maker/portals/edit-css) – Þessi grein hjálpar þér að gera flóknari aðlögun á notendaviðmóti (UI) gáttarinnar þinnar.
-- [Búðu til þema fyrir vefsíðuna þína](/dynamics365/portals/create-theme) – Þessi grein hjálpar þér að búa til UI þema fyrir vefsíðuna þína.
-- [Búðu til og afhjúpaðu vefsíðuefni auðveldlega](/dynamics365/portals/create-expose-portal-content) – Þessi grein hjálpar þér að stjórna undirliggjandi gögnum og töflum sem þú notar fyrir vefsíðuna þína.
-- [Stilltu tengilið til notkunar á gátt](/powerapps/maker/portals/configure/configure-contacts) – Þessi grein útskýrir hvernig á að búa til og sérsníða hlutverk notenda og hvernig öryggi og auðkenning virka inn Power Apps gáttir.
-- [Stilltu athugasemdir fyrir töfluform og vefeyðublöð á gáttum](/powerapps/maker/portals/configure-notes) – Þessi grein útskýrir hvernig á að bæta skjölum og viðbótargeymslu við gáttina þína.
-- [Villumeðferð fyrir vefsíðugátt](/powerapps/maker/portals/admin/view-portal-error-log) – Þessi grein útskýrir hvernig á að skoða gáttarvilluskrár og geyma þær í þínum Microsoft Azure Blob geymslureikningur.
+- [Vinna með sniðmát](/powerapps/maker/portals/work-with-templates) – Í þessari grein er boðið upp á almennt yfirlit um hvernig Power Apps-gáttar virka og hvernig hægt er að gera einfaldar sérstillingar á gáttum.
+- [Stjórna efni gáttar](/dynamics365/portals/manage-portal-content) – Þessi grein útskýrir hvernig hægt er að stjórna og sérsníða efnið sem er flett upp í gáttinni.
+- [Breyta CSS](/powerapps/maker/portals/edit-css) – Þessi grein hjálpar til við að gera flóknari sérsnið í notendaviðmóti gáttarinnar.
+- [Stofna þema fyrir gáttina](/dynamics365/portals/create-theme) – Þessi grein hjálpar til við að stofna þema notandaviðmóts fyrir gáttina þína.
+- [Búa til og sýna efni gáttar á auðveldan hátt](/dynamics365/portals/create-expose-portal-content) – Þessi grein hjálpar til við að stjórna undirliggjandi gögnum og töflum sem eru notaðar í gáttinni.
+- [Skilgreina tengilið fyrir notkun á gátt](/powerapps/maker/portals/configure/configure-contacts) – Þessi grein útskýrir hvernig á að búa til og sérsníða notandahlutverk og hvernig öryggi og sannvottun virka í Power Apps gáttum.
+- [Skilgreina athugasemdir fyrir skjámyndir tafla og vefs í gáttum](/powerapps/maker/portals/configure-notes) – Þessi grein útskýrir hvernig á að bæta skjölum og viðbótargeymslum við gáttina.
+- [Villumeðhöndlun fyrir vefsvæði gáttar](/powerapps/maker/portals/admin/view-portal-error-log) – Þessi grein útskýrir hvernig á að skoða villuskráningar gáttar og geyma þær í blob-geymslureikningi Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>Sérsníða stofnferli pantana
 

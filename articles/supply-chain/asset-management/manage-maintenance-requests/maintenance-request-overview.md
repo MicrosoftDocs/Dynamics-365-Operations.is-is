@@ -1,6 +1,6 @@
 ---
 title: Viðhaldsbeiðnir
-description: Þessi grein veitir yfirlit um stjórnun viðhaldsbeiðna í eignastýringu
+description: Í þessari grein er að finna yfirlit yfir stjórnun viðhaldsbeiðna í eignastýringu
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: overview
@@ -16,7 +16,7 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 488b6505aba246aa3a6ea69436514a274403bf49
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015639"
@@ -37,7 +37,7 @@ Hægt er að búa til viðhaldsbeiðnir fyrir hverja eign í eignastýringu. Hæ
 
 ## <a name="view-maintenance-requests"></a>Skoða viðhaldsbeiðnir
 
-Til að skoða viðhaldsbeiðnir velurðu **Eignastýring** \> **Viðhaldsbeiðnir** \> **Allar viðhaldsbeiðnir**, **viðhaldsbeiðnir**, eða **Beiðnir mínar um viðhald á hagnýtri staðsetningu**. Hver listasíða sýnir nokkrar upplýsingar sem tengjast viðhaldsbeiðni.
+Til að skoða viðhaldsbeiðnir skal velja **Eignastýring** \> **Viðhaldsbeiðnir** \> **Allar viðhaldsbeiðnir**, **Virkar viðhaldsbeiðnir** eða **Viðhaldsbeiðnir fyrir virku staðsetninguna mína**. Hver listasíða sýnir nokkrar upplýsingar sem tengjast viðhaldsbeiðni.
 
 ![Skoða viðhaldsbeiðnir.](media/01-manage-maintenance-requests.png)
 

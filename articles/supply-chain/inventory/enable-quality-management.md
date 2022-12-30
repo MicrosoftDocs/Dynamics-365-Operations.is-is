@@ -1,6 +1,6 @@
 ---
 title: Virkja stjórnun gæða og ósamkvæmni
-description: Þessi grein veitir yfirlit yfir ferlið við að setja upp og stilla gæða- og ósamræmisstjórnunareiginleika í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein inniheldur yfirlit yfir ferlið við uppsetningu og skilgreiningu stjórnunareiginleika gæða og ósamkvæmni í Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 66229e3692e87f774c553eae955794330602598c
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8874044"
@@ -27,7 +27,7 @@ ms.locfileid: "8874044"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir ferlið við að setja upp og stilla gæða- og ósamræmisstjórnunareiginleika í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein inniheldur yfirlit yfir ferlið við uppsetningu og skilgreiningu stjórnunareiginleika gæða og ósamkvæmni í Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="enable-quality-and-nonconformance-management"></a><a name="enable-qm"></a>Virkja stjórnun gæða og ósamkvæmni
 

@@ -1,6 +1,6 @@
 ---
 title: Samþykkja lánardrottna fyrir tiltekna innkaupaflokka
-description: Þessi grein útskýrir hvernig á að samþykkja lánardrottna fyrir tiltekna innkaupaflokka í Dynamics 365 Supply Chain Management.
+description: Þessi grein útskýrir hvernig á að samþykkja lánardrottna fyrir tilteknar innkaupategundir í Dynamics 365 Supply Chain Management
 author: GalynaFedorova
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bb6861c1cfbc7702fae74b4aa97fe618b50ac0bb
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8903986"
@@ -24,7 +24,7 @@ ms.locfileid: "8903986"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að samþykkja lánardrottna fyrir tiltekna innkaupaflokka í Dynamics 365 Supply Chain Management. Þegar innkaupabeiðni er stofnuð, gæti verið þörf á að velja samþykktum eða æskilegum lánardrottins, eftir því hvernig innkaupareglur eru settar upp. Þessi verklýsing sýnir hvernig á að tilgreina að lánardrottin er samþykkt eða æskilegur fyrir tiltekna innkaupategund. Þetta verk myndi venjulega framkvæmtaf fagmanni á sviði innkaupa. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF.
+Þessi grein útskýrir hvernig á að samþykkja lánardrottna fyrir tilteknar innkaupategundir í Dynamics 365 Supply Chain Management Þegar innkaupabeiðni er stofnuð, gæti verið þörf á að velja samþykktum eða æskilegum lánardrottins, eftir því hvernig innkaupareglur eru settar upp. Þessi verklýsing sýnir hvernig á að tilgreina að lánardrottin er samþykkt eða æskilegur fyrir tiltekna innkaupategund. Þetta verk myndi venjulega framkvæmtaf fagmanni á sviði innkaupa. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF.
 
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Innkaup og aðföng > Lánardrottnar > Allir lánardrottnar**.
 2. Veljið lánardrottinn sem á að setja sem samþykktir eða æskilegur fyrir tegund.

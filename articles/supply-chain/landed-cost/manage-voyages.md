@@ -1,6 +1,6 @@
 ---
 title: Stjórna ferðum
-description: Þessi grein lýsir því hvernig á að vinna með siglingar. Ferð stendur yfirleitt fyrir skip. Það fer hins vegar eftir þínum starfsháttum og venjum og getur hún staðið fyrir lánardrottin, innkaupapöntun eða eitthvað annað atriði sem passar fyrirtækinu þínu.
+description: Þessi grein útskýrir hvernig á að vinna með ferðir. Ferð stendur yfirleitt fyrir skip. Það fer hins vegar eftir þínum starfsháttum og venjum og getur hún staðið fyrir lánardrottin, innkaupapöntun eða eitthvað annað atriði sem passar fyrirtækinu þínu.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
 ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/27/2022
 ms.locfileid: "9725482"
@@ -30,7 +30,7 @@ Ferð stendur yfirleitt fyrir skip. Það fer hins vegar eftir þínum starfshá
 
 > [!NOTE]
 > Flutningsgámar og fólíó eru tengd við ferð. Innkaupalínur eru tengdar við flutningsgám. Auk þess er kostnaði sem færður er inn hér skipt niður á allar viðhengdar innkaupalínur.
-> Innkaupapöntun verkefnis er ekki studd í landaðan kostnað.
+> Innkaupapöntun verkefnis á ekki við í Heildarkostnaði.
 
 ## <a name="action-pane"></a>Aðgerðasvæði
 
@@ -97,7 +97,7 @@ Til að opna yfirlitið **Línur** skal opna ferð og síða velja flipann **Lí
 
 ### <a name="information-on-the-voyage-header-fasttab"></a>Upplýsingar í flýtiflipanum síðuhaus ferðar
 
-Flýtiflipinn **Síðuhaus ferðar** í yfirlitinu **Línur** fyrir ferð inniheldur grunnupplýsingar sem lýsa ferðinni. Margir af reitunum sem birtast á þessum flýtiflipanum birtast einnig í **Fyrirsögn** skoða, eins og lýst er síðar í þessari grein.
+Flýtiflipinn **Síðuhaus ferðar** í yfirlitinu **Línur** fyrir ferð inniheldur grunnupplýsingar sem lýsa ferðinni. Margir reitirnir sem birtast í þessum flýtiflipa birtast einnig í yfirlitinu **Síðuhaus** eins og lýst er síðar í þessari grein.
 
 ### <a name="information-on-the-voyage-lines-fasttab"></a>Upplýsingar í flýtiflipanum línur ferðar
 

@@ -1,6 +1,6 @@
 ---
 title: Eignaframleiðendur og líkön
-description: Þessi grein útskýrir hvernig á að setja upp eignaframleiðendur og tengd líkön í eignastýringu.
+description: Þessi grein útskýrir hvernig á að setja upp framleiðendur eigna og tengd líkön í Eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b00cb62926f3a482ec655235b6e2f5880edbcd04
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016276"
@@ -28,7 +28,7 @@ ms.locfileid: "9016276"
 
  
 
-Þessi grein útskýrir hvernig á að setja upp eignaframleiðendur og tengd líkön í eignastýringu. Líkön geta verið tengd eignategundum.
+Þessi grein útskýrir hvernig á að setja upp framleiðendur eigna og tengd líkön í Eignastýringu. Líkön geta verið tengd eignategundum.
 
 ## <a name="set-up-product-model-relations"></a>Setja upp afurða-líkanavensl
 
@@ -53,7 +53,7 @@ ms.locfileid: "9016276"
 
 ## <a name="select-a-manufacturer-and-model-on-an-object"></a>Veldu framleiðanda og gerð á hlut
 
-1. Veldu **Eignastýring**\> **_Eignir_*\>**Allar eignir**.
+1. Veldu **Eignastýring** \> **_Eignir_* \> **Allar eignir**.
 2. Í **Eignir** dálki, veldu hlekkinn fyrir eignina. Síðan **Upplýsingar** birtist.
 3. Veljið **Breyta**.
 4. Á flýtiflipanum **Almennt**, veldu gildi í reitunum **Framleiðandi** og **Líkan**.

@@ -1,6 +1,6 @@
 ---
 title: Skýrslur heildarkostnaðar
-description: Þessi grein lýsir því hvernig á að finna og nota hinar ýmsu gerðir skýrslna sem eru tiltækar fyrir landaða kostnaðareininguna.
+description: Þessi grein lýsir því hvernig á að finna og nota ýmsar gerðir skýrslna sem eru í boði fyrir Heildarkostnaður eininguna.
 author: Weijiesa
 ms.date: 02/01/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-02-21
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 836d6b538b32d818ed3b825000d004b005ce95d8
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8905951"

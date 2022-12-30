@@ -1,6 +1,6 @@
 ---
 title: Bæta frammistöðu röðunarvélar
-description: Þessi grein veitir upplýsingar um tímasetningarvélina og hvernig á að bæta árangur.
+description: Í þessari grein er að finna upplýsingar um röðunarvélina og hvernig á að bæta afköst.
 author: t-benebo
 ms.date: 09/03/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
 ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/02/2022
 ms.locfileid: "9219908"
@@ -29,7 +29,7 @@ ms.locfileid: "9219908"
 
 Röðunarvél tilfanga er notuð þegar leiðir eru tímasettar fyrir áætlaðar og útgefnar framleiðslupantanir. Vélin var upphaflega gefin út sem hluti af Dynamics AX 2012 og hefur farið í gegnum nokkrar úrbætur frá útgáfu hennar.
 
-[Vandamál við tímasetningu verka](https://en.wikipedia.org/wiki/Job_shop_scheduling) er gríðarlega flókið vandamál samsetningar þar sem úrlausnartíminn tekur veldisvöxt með fjölda ákvörðunarbreyta. Oft og tíðum setja viðskiptavinir upp framleiðsluleiðir og tengd gögn þannig að úr verði vandamál við tímasetningu sem ekki er hægt að leysa innan viðunandi tíma, jafnvel fyrir nýjasta vélbúnaðinn. Þessi grein mun hjálpa þér að skilja tímasetningarvélina og hvernig tiltekin uppsetning getur haft áhrif á frammistöðu.
+[Vandamál við tímasetningu verka](https://en.wikipedia.org/wiki/Job_shop_scheduling) er gríðarlega flókið vandamál samsetningar þar sem úrlausnartíminn tekur veldisvöxt með fjölda ákvörðunarbreyta. Oft og tíðum setja viðskiptavinir upp framleiðsluleiðir og tengd gögn þannig að úr verði vandamál við tímasetningu sem ekki er hægt að leysa innan viðunandi tíma, jafnvel fyrir nýjasta vélbúnaðinn. Þessi grein varpar betra ljósi á röðunarvélina og hvernig tiltekin uppsetning getur haft áhrif á afköstin.
 
 Þegar kemur að því að bæta afköst áætlunargerðar mæla almennar viðmiðunarreglur með því að draga úr margbreytileika vandans sem vélin þarf að leysa. Sumir helstu þættir sem geta haft áhrif á afköst eru:
 
@@ -294,9 +294,9 @@ Samhliða aðgerðir (aðal/auka) eru öflugt verkfæri til að líkja eftir að
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Leiðir með fjölda tilfanga hærri en 1
 
-Ef magn auðlinda sem þarf fyrir aðgerð er meira en eitt, þá er niðurstaðan í raun sú sama og að nota frum-/efri aðgerð vegna þess að mörg samhliða störf verða send til vélarinnar. Hins vegar, í þessu tilviki, er ekki hægt að nota tilteknar tilfangaúthlutanir vegna þess að meira magn en eitt krefst þess að fleiri en ein tilfang eigi við um aðgerðina.
+Ef magn tilfanga sem þarf fyrir aðferð er meira en einn þá er niðurstaðan sú sama og ef notaðar eru aðal-/aukaaðgerðir vegna þess að margar samhliða vinnslur verða sendar til vélarinnar. Í þessu tilfelli er hins vegar ekki mögulegt að nota tilteknar tilfangaúthlutanir því að magn sem er hærra en einn krefst meira en eins tilfangs til að eiga við um aðgerðina.
 
-Aukaaðgerð sem hefur tilfangahleðslumagn sem er meira en eitt þýðir að tilgreint magn aukaauðlinda er nauðsynlegt fyrir hverja tilföng aðalaðgerðarinnar. Til dæmis, ef aðalaðgerð hefur magn tilfanga stillt á tvö og aukaaðgerð hefur tilfangamagn stillt á þrjú, þá þarf samtals sex tilföng fyrir aukaaðgerðina.
+Aukaaðgerð sem hefur auðlindamagn sem er meira en eitt þýðir að tilgreina þarf magn af aukaauðlindum fyrir hverja auðlind aðalaðgerðarinnar. Til dæmis, ef aðalaðgerð er með auðlindamagnið stillt á tvö og aukaaðgerðin er með auðlindamagnið stillt á þrjú, þá þarf alls sex úrræði fyrir aukaaðgerðina.
 
 ### <a name="excessive-use-of-finite-capacity"></a>Óhófleg notkun á takmarkaðri getu
 

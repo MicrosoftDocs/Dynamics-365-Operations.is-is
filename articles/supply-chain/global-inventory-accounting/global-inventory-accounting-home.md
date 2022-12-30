@@ -1,6 +1,6 @@
 ---
 title: Altækt birgðabókhald – heimasíða
-description: Þessi grein er heimasíða fyrir Global Inventory Accounting Add-in fyrir Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein er heimasíðan fyrir innbót altæks birgðabókhalds fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: e7f919b28f6d0c8cd830ecfab4608be50b684c8e
 ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/11/2022
 ms.locfileid: "9135458"

@@ -1,6 +1,6 @@
 ---
 title: Tegundabeiðnir frá lánardrottnum
-description: Þessi grein lýsir því hvernig lánardrottnar geta beðið um innkaupaflokka fyrir reikninginn sinn. Þar er einnig lýst samþykktarferlinu sem innkaupafulltrúar ljúka.
+description: Í þessari grein er lýst hvernig lánardrottnar geta óskað eftir innkaupaflokkum fyrir reikningana þeirra. Þar er einnig lýst samþykktarferlinu sem innkaupafulltrúar ljúka.
 author: GalynaFedorova
 ms.date: 04/19/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: 8deded1b7f908bcadf705cf992b2d97618bc28b6
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8863884"
@@ -26,11 +26,11 @@ Ferli tegundabeiðni gerir lánardrottnum kleift að óska eftir því að nýir
 
 Lánardrottnar setja af stað beiðnir um flokka á vinnusvæðinu **Lánardrottnaupplýsingar**. Þær eru síðan sendar til yfirferðar og samþykkis hjá stofnuninni. Samþykktum flokkum er bætt við listann yfir innkaupaflokka fyrir reikning lánardrottins.
 
-## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum flokkabeiðnir frá söluaðilum
+## <a name="turn-the-category-requests-from-vendors-feature-on-or-off"></a>Kveikja eða slökkva á tegundabeiðnum frá eiginleika lánardrottins
 
-Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Leyfa söluaðilum að sækja um innkaupaflokka með samstarfi lánardrottna* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Sem hluti af Supply Chain Management, útgáfa 10.0.25, er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að eiginleikanum *Leyfa lánardrottnum að sækja um innkaupaflokka í gegnum samstarf lánardrottna* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Ef kveikt er á þessum eiginleika geturðu samt bætt innkaupaflokkum handvirkt við lánardrottnareikninga. Frekari upplýsingar er að finna í [Samþykkja lánardrottnar fyrir tiltekna innkaupaflokka](tasks/approve-vendors-specific-procurement-categories.md).
+Ef kveikt er á eiginleikanum er enn hægt að bæta innkaupaflokkum handvirkt við reikninga lánardrottins. Frekari upplýsingar er að finna í [Samþykkja lánardrottnar fyrir tiltekna innkaupaflokka](tasks/approve-vendors-specific-procurement-categories.md).
 
 ## <a name="vendor-collaboration-requirements"></a>Kröfur lánardrottnasamstarfs
 

@@ -1,6 +1,6 @@
 ---
 title: Eignaskjöl
-description: Þessi grein útskýrir eignaskjöl í eignastýringu.
+description: Þessi grein útskýrir eignaskjöl í Eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a2e8d72dc938c43e266c6b7c39329f827c56607a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8899470"
@@ -28,7 +28,7 @@ ms.locfileid: "8899470"
 
  
 
-Þessi grein útskýrir eignaskjöl í eignastýringu.
+Þessi grein útskýrir eignaskjöl í Eignastýringu.
 
 Í eignastýringu geturðu sett upp skjöl þannig að þau tengjast sjálfkrafa starfstegundum, eignaframleiðendum, eignategundum eða eignum til dæmis. Þessi virkni er gagnleg þegar uppfærðar útgáfur skjala eru gefnar út. Í því tilfelli þarftu bara að setja uppfærða skjalið á staðalstaðinn sem þú notar fyrir þig Supplu Chain Management skjöl og hengdu skjalið við eignaskjalaskrána sem þú hefur búið til. Síðan er hægt að nálgast uppfærða skjalið frá **Allar eignir**, **Virkar eignir**, **Virku eignir mínar**, **Allar vinnupantanir**, og **Virk störf til pöntunar** valmyndaratriðin. Ferlið til að hengja skjöl við eignaskjalaskrá notar staðlaða skjal meðhöndlunarkerfisins.
 

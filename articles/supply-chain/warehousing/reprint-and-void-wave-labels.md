@@ -1,6 +1,6 @@
 ---
 title: Endurprenta og ógilda bylgjumerki
-description: Þessi grein útskýrir hvernig á að ógilda og endurprenta núverandi bylgjumerki.
+description: Þessi grein útskýrir hvernig á að ógilda og endurprenta fyrirliggjandi bylgjumerki.
 author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
 ms.openlocfilehash: f9f057d9985fb8431ec7c9ced23f2cd3c476570d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8871834"
@@ -22,7 +22,7 @@ ms.locfileid: "8871834"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að hafa umsjón með merki sem eru búin til með bylgjuvinnslu. (Nánari lýsingu og stillingarleiðbeiningar er að finna í [Skilgreina prentun bylgjumerkis](../warehousing/configure-wave-label-printing.md).)
+Þessi grein útskýrir hvernig á að stjórna merkjum sem eru búin til með bylgjuvinnslu. (Nánari lýsingu og stillingarleiðbeiningar er að finna í [Skilgreina prentun bylgjumerkis](../warehousing/configure-wave-label-printing.md).)
 
 Hægt er að endurprenta bylgjumerki hvenær sem er. Til dæmis gætirðu þurft að prenta staka merkimiða ef núverandi merkimiði tapaðist eða skemmdist. Að öðrum kosti gæti starfsmaður í vöruhúsi eða yfirmaður þurft að prenta heila merkimiðarúllu aftur ef fjöldi og/eða samsetning heillrar raðar af bylgjumerkjum hefur breyst (til dæmis vegna birgðaskorts eða af öðrum ástæðum). Oft, jafnvel þótt aðeins fjöldi kassa hafi breyst, verður að prenta alla rúlluna aftur til að halda heildarfjöldanum nákvæmum í „Kassi X af Y“ hlutanum fyrir hvern merkimiða.
 
@@ -32,10 +32,10 @@ Endurprentunareiginleiki bylgjumerkja styður eftirfarandi virkni:
 - Ógilda merkimiða og prenta þá aftur samtímis. (Möguleikinn til að ógilda merkimiða er til dæmis felld inn í atburðarásir stuttra tiltekta.)
 - Hreinsa feril bylgjumerkis.
 
-Þessi grein sýnir safn atburðarása sem sýna, með dæmum, hvernig á að vinna með endurprentunarbylgjumerkjaeiginleikann.
+Þessi grein kemur með ýmsar atburðarási sem sýna, með dæmum, hvernig á að vinna með endurprentunareiginleika bylgjumerkja.
 
 > [!IMPORTANT]
-> Til að vinna í gegnum aðstæðurnar sem kynntar eru í þessari grein verður þú fyrst að kveikja á og stilla viðeigandi bylgjuprentunareiginleika, eins og lýst er í [Stilltu prentun bylgjumerkis](../warehousing/configure-wave-label-printing.md). Nokkrar atburðarásar í þessari grein krefjast þess einnig að fyrst sé unnið í gegnum atburðarásina í þeirri grein til að búa til forsendur sýnishornsgagna.
+> Til að fara í gegnum atburðarásirnar sem settar eru fram í þessari grein þarf fyrst að kveikja á og skilgreina viðeigandi eiginleika bylgjuprentunar, eins og lýst er í [Skilgreina prentun bylgjumerkis](../warehousing/configure-wave-label-printing.md). Nokkrar atburðarásanna í þessari grein krefjast þess einnig að fyrst sé farið í gegnum atburðarásirnar í þessari grein til að búa til áskilin sýnigögn.
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Atburðarás 1: Endurprenta merkimiða úr vefbiðlaranum
 

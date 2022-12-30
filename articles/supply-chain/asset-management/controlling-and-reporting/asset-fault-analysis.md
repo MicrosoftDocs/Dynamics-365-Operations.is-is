@@ -1,6 +1,6 @@
 ---
 title: Bilanagreining eignar
-description: Þessi grein útskýrir eignabilunargreiningu í eignastýringu.
+description: Þessi grein útskýrir bilanagreiningu eigna í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: d4503c39a643461c75878c6c7096d824642ad1a2
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8869779"

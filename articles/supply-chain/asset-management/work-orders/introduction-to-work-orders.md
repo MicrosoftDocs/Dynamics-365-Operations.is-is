@@ -1,6 +1,6 @@
 ---
 title: Kynning á verkbeiðnum
-description: Þessi grein veitir yfirlit yfir verkbeiðnir í eignastýringu.
+description: Í þessari grein er að finna yfirlit yfir verkbeiðnir í Eignastýringu.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016711"
@@ -47,15 +47,15 @@ Hægt er að búa til verkbeiðnir á eftirfarandi hátt:
 
 ## <a name="all-work-orders"></a>Allar verkbeiðnir
 
-Veldu **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** að opna **Allar vinnupantanir** listasíðu. Þessi síða sýnir allar verkbeiðnir og nokkrar af þeim upplýsingum sem tengjast hverri.
+Veldu **Eignastýring** > **Vinnupantanir** > **Allar vinnupantanir** til að opna síðuna **Allar vinnupantanir**. Þessi síða sýnir allar verkbeiðnir og nokkrar af þeim upplýsingum sem tengjast hverri.
 
 Myndin hér að neðan sýnir dæmi um listasíðuna **Allar verkbeiðnir**.
 
 ![Mynd 1.](media/01-work-orders.png)
 
-Til að skoða lista yfir aðeins virkar vinnupantanir skaltu velja **Eignastýring** > **Verkbeiðnir** > **Virkar vinnupantanir**. 
+Til að skoða lista yfir aðeins virkar verkbeiðnir skal velja **Eignastýring** > **Verkbeiðnir** > **Virkar verkbeiðnir**. 
 
-Til að skoða lista yfir verkbeiðniverk sem innihalda eignir sem eru settar upp á virkum stöðum sem þú tengist sem starfsmaður skaltu velja **Eignastýring** > **Verkbeiðnir** > **Viðhaldsstörfin mín fyrir starfræna staðsetningu verkbeiðni**. (Samband starfskrafta og virkra staðsetninga er sett upp á síðunni **Starfskraftar**. Sjá frekari upplýsingar [Viðhaldsstarfsmenn og starfsmannahópar](../setup-for-objects/workers-and-worker-groups.md).)
+Til að skoða lista yfir verkbeiðnivinnur sem innihalda eignir sem settar eru upp í virkum staðsetningum sem þú tengist sem starfsmaður skal velja **Eignastýring** > **Verkbeiðnir** > **Viðhaldsvinnur vegna verkbeiðni á virkri staðsetningu minni**. (Samband starfskrafta og virkra staðsetninga er sett upp á síðunni **Starfskraftar**. Sjá frekari upplýsingar [Viðhaldsstarfsmenn og starfsmannahópar](../setup-for-objects/workers-and-worker-groups.md).)
 
 Hér eru nokkrar leiðir sem hægt er að nota síðuna **Allar verkbeiðnir**:
 

@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b6ff62d5f1cb3695520f9ac0696d8b9bcedb1a6b
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9017319"
@@ -28,7 +28,7 @@ ms.locfileid: "9017319"
 
 
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustuáskrift** \> **Allar þjónustuáskriftir**.
+1.  Smelltu á **Þjónustustjórnun** \> **Þjónustuáskriftir** \> **Allar þjónustuáskriftir**.
 
 2.  Veldu þjónustuáskrift og smelltu svo á **Breyta** eða smelltu á **Áskrift** til að stofna þjónustuáskrift.
 

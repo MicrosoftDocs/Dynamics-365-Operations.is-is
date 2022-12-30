@@ -1,6 +1,6 @@
 ---
 title: Skýrsla um aldursgreiningu birgða
-description: Þessi grein lýsir virkninni sem gerir þér kleift að keyra öldrunarskýrslu birgða og gera úttakið aðgengilegt sem eyðublað og myndrit.
+description: Þessi grein útskýrir virknina sem gerir þér kleift að keyra aldursgreiningarskýrslu birgða og gera niðurstöðurnar aðgengilegar sem skjámynd og graf.
 author: JennySong-SH
 ms.date: 11/11/2019
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 1d810ec90c85f2f7758ec01ef4b24611e026cc80
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8875569"

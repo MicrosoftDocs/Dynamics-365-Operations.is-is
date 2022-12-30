@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c1acc103291c5d648ac7e179a598348cd9cc2a93
 ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/11/2022
 ms.locfileid: "9135570"
@@ -23,9 +23,9 @@ ms.locfileid: "9135570"
 
 [!include [banner](../includes/banner.md)]
 
-Síðast inn, fyrst út (LIFO) er birgðastjórnunar- og verðmatsaðferð þar sem birgðir sem voru framleiddar eða keyptar síðast eru seldar, notaðar eða fargað fyrst. Meðan á birgðalokunarferlinu stendur í Microsoft Dynamics 365 Supply Chain Management, kerfið mun búa til uppgjör þar sem síðasta kvittun er jafnað við fyrsta útgáfu o.s.frv. Uppgjörs- og samsvörunarreglan er byggð á fjárhagsdegi birgðafærslunnar. Hægt er að framkvæma bráðabirgðamat á uppgjörum og leiðréttingum með því að keyra endurútreikningsferlið birgða.
+Síðast inn, fyrst út (LIFO) er birgðastjórnunar- og matsaðferð þar sem birgðir sem voru framleiddar eða keyptar síðast eru seldar, notaðar eða fargað fyrst. Á meðan birgðahaldi stendur í Microsoft Dynamics 365 Supply Chain Management mun kerfið búa til uppgjör þar sem síðasta kvittun er borin saman við fyrstu útgáfu og svo framvegis. Jafnanir og jöfnunarregla byggja á fjárhagsdagsetningu birgðafærslna. Hægt er að framkvæma bráðabirgðamat á uppgjörum og leiðréttingum með því að keyra endurreikningsferli birgða.
 
-Hægt er að hnekkja LIFO meginreglunni með því að merkja birgðafærslur þannig að ákveðin vörumóttaka sé jöfnuð á móti tiltekinni útgáfu. Reglubundin birgðalokun er nauðsynleg þegar þú notar LIFO birgðalíkanið til að búa til uppgjör og aðlaga verðmæti útgáfur í samræmi við LIFO meginregluna. Þar til þú keyrir birgðalokunarferlið eru útgáfufærslur metnar á hlaupandi meðaltali þegar líkamlegar og fjárhagslegar uppfærslur áttu sér stað. Nema þú sért að nota merkingu er hlaupandi meðaltal reiknað út þegar líkamleg eða fjárhagsleg uppfærsla er framkvæmd.
+Hægt er að hnekkja LIFO reglunni með því að merkja birgðafærslur svo að tiltekin innhreyfing vöru sé jöfnuð gagnvart tiltekinni úthreyfingu. Reglubundin birgðalokun er nauðsynleg þegar notað er LIFO-birgðalíkan vegins meðaltals til að búa til uppgjör og breyta gildi úthreyfinga í samræmi við LIFO-reglu. Þar til þú keyrir birgðalokunarferli, eru úthreyfingarfærslur metnar á hlaupandi meðaltali þegar efnislegar og fjárhagslegar uppfærslur áttu sér stað. Nema ef merking er notuð þá er hlaupandi meðaltal reiknað út þegar efnisleg eða fjárhagsleg uppfærsla er framkvæmd.
 
 Eftirfarandi dæmi sýna áhrif þess að nota LIFO með þremur mismunandi skilgreiningum:
 
@@ -35,40 +35,40 @@ Eftirfarandi dæmi sýna áhrif þess að nota LIFO með þremur mismunandi skil
 
 ## <a name="lifo-without-the-include-physical-value-option"></a>LIFO án þess að efnislegt virði sé tekið með
 
-Í þessu dæmi er **Taktu með líkamlegt gildi** gátreiturinn er hreinsaður á vörulíkanaflokknum fyrir útgefnu vöruna. Eftirfarandi skýringarmynd sýnir þessar færslur:
+Í þessu dæmi er gátreiturinn **Taka efnislegt virði með** hreinsaður á síðu fyrir vörulíkanaflokk fyrir vöruna sem er losuð. Eftirfarandi skýringarmynd sýnir þessar færslur:
 
 - 1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 - 1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 - 2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
 - 2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 22,00 USD á hverja.
-- 3a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal fjárhagslega bókfærðra færslna).
-- 3b. Fjárhagsútgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal fjárhagslega bókfærðra færslna).
+- 3a. Efnisleg úthreyfing birgða fyrir magnið 1 með kostnaðinn 16,00 á hverja USD (hlaupandi meðaltal fjárhagslega bókaðra færslna).
+- 3b. Fjárhagsleg úthreyfing birgða fyrir magnið 1 með kostnaðarverð 16,00 USD á hverja (hlaupandi meðaltal fjárhagslega bókaðra færslna).
 - 4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 - 5a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 - 5b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
-- 6a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 23.00 (hlaupandi meðaltal fjárhagslega bókfærðra færslna)
-- 7\. Birgðalokun er framkvæmd. Byggt á LIFO-aðferðinni verður fyrsta fjárhagslega uppfærða útgáfan jöfnuð á móti síðustu fjárhagslega uppfærðu kvittun og svo framvegis. Í þessu dæmi er ein uppgjör búin til á milli 5b og 3b. Leiðrétting á USD 14.00 verður gerð í 3b og endanlegur kostnaður verður USD 30.00.
+- 6a. Efnisleg úthreyfing birgða fyrir magnið 1 með kostnaðinn 23,00 á hverja USD (hlaupandi meðaltal fjárhagslega bókaðra færslna).
+- 7\. Birgðalokun er framkvæmd. Á grundvelli LIFO aðferðarinnar, verður fyrsta fjárhagslega uppfærða úthreyfingin jöfnuð á móti síðustu fjárhagslega uppfærðu innhreyfingunni o.s.frv. Í þessu dæmi er búið til eitt uppgjör milli 5b og 3b. Leiðrétting upp á USD 14,00 verður gerð á 3b og endanlegur kostnaður verður 30,00 USD.
 
 Eftirfarandi sýnidæmi sýnir áhrif birgðalíkans FIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er ekki notaður.
 
-![LIFO án valmöguleikans Innifalið líkamlegt virði.](./media/lifo-without-including-physical-value.png)
+![LIFO án þess að efnislegt virði sé tekið með.](./media/lifo-without-including-physical-value.png)
 
 **Lykill að skýringarmynd**
 
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
-- Líkamleg viðskipti eru táknuð með styttri ljósgráum örvum.
-- Fjármálaviðskipti eru táknuð með lengri svörtum örvum.
-- Kvittun í birgðum eru táknuð með lóðréttum örvum fyrir ofan ásinn.
-- Útgáfur utan birgða eru táknaðar með lóðréttum örvum fyrir neðan ásinn.
+- Efnislegar færslur eru táknaðar með styttri ljósgráum örvum.
+- Fjárhagsfærslur eru táknaðar með lengri svörtum örvum.
+- Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan ásinn.
+- Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan ásinn.
 - Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
 - Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
-- Hver dagsetning á skýringarmyndinni er aðskilin með þunnri svörtu lóðréttri línu. Dagsetningin er tilgreind neðst á skýringarmyndinni.
-- Birgðalokanir eru táknaðar með rauðri lóðréttri strikalínu.
+- Hver dagsetning á skýringarmyndinni er aðskilin með þunnri svartri lóðréttri línu. Dagsetningin er tekin fram neðst á skýringarmyndinni.
+- Birgðalokanir eru sýndar með rauðri lóðréttri strikalínu.
 - Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 
 ## <a name="lifo-with-the-include-physical-value-option"></a>LIFO þar sem efnislegt virði er tekið með
 
-Ef **Taktu með líkamlegt gildi** gátreiturinn er valinn fyrir hlut á **Hlutamódelhópar** síðu notar kerfið bæði líkamlegar og fjárhagslegar kvittunarfærslur til að reikna út hlaupandi meðalkostnaðarverð. Þar sem við á, lagar kerfið einnig efnislega uppfærða útgáfufærslu. Þegar **Taktu með líkamlegt gildi** gátreiturinn er hreinsaður, birgðalokun sem notar LIFO birgðalíkanið gerir uppgjör aðeins fyrir færslur sem eru fjárhagslega uppfærðar.
+Ef reiturinn **Taka efnislegt virði með** er valinn fyrir vöru í skjámyndinni **Vörulíkanaflokkar**, mun kerfið nota bæði efnislegar og fjárhagslegar innhreyfingarfærslur til að reikna út meðalkostnaðarverðið. Það sem það á við mun kerfið einnig leiðrétta efnislega uppfærða úthreyfingarfærslu. Þegar reiturinn **Taka með efnislegt virði** er hreinsaður, gerir birgðalokun sem notar LIFO-birgðalíkan aðeins gera jafnanir á færslum sem eru fjárhagslega uppfærðar.
 
 Eftirfarandi skýringarmynd sýnir þessar færslur:
 
@@ -76,40 +76,40 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 - 1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 - 2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
 - 2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 22,00 USD á hverja.
-- 3a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal líkamlegra og fjárhagslega bókaðra færslna).
-- 3b. Fjárhagsútgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal líkamlegra og fjárhagslega bókfærðra færslna).
+- 3a. Efnisleg úthreyfing birgða fyrir magnið 1 með kostnaðarverð 16,00 USD (hlaupandi meðaltal fjárhagslega og efnislegra bókaðra færslna).
+- 3b. Fjárhagsleg úthreyfing birgða fyrir magnið 1 með kostnaðarverð 16,00 USD á hverja (hlaupandi meðaltal fjárhagslega bókaðra færslna).
 - 4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 - 5a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 - 5b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
-- 6a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 23.67 (hlaupandi meðaltal líkamlegra og fjárhagslega bókfærðra færslna).
-- 7\. Birgðalokun er framkvæmd. Byggt á LIFO-aðferðinni verður fyrsta fjárhagslega uppfærða útgáfan jöfnuð á móti síðustu fjárhagslega uppfærðu kvittun og svo framvegis. Í þessu dæmi er ein uppgjör búin til á milli 3b og 5b. Leiðrétting á USD 14.00 verður gerð í 3b og endanlegur kostnaður verður USD 30.00. Að auki verður færsla 6a aðlöguð að kvittunarfærslukostnaði 4a. Kerfið mun ekki jafna þessar færslur þar sem innhreyfingin uppfærist efnislega en ekki fjárhagslega. Þess í stað verður aðeins leiðrétting á USD 1.33 bókuð á efnislega útgáfufærsluna og leiðréttur kostnaður sem verður til verður USD 25.00.
+- 6a. Efnisleg úthreyfing birgða fyrir magnið 1 með kostnaðarverð 23,67 USD (hlaupandi meðaltal fjárhagslega og efnislegra bókaðra færslna).
+- 7\. Birgðalokun er framkvæmd. Á grundvelli LIFO aðferðarinnar, verður fyrsta fjárhagslega uppfærða úthreyfingin jöfnuð á móti síðustu fjárhagslega uppfærðu innhreyfingunni o.s.frv. Í þessu dæmi er búið til eitt uppgjör milli 3b og 5b. Leiðrétting upp á USD 14,00 verður gerð á 3b og endanlegur kostnaður verður 30,00 USD. Auk þess verður færsla 6a leiðrétt að kostnaði innhreyfingarfærslu 4a. Kerfið mun ekki jafna þessar færslur þar sem innhreyfingin uppfærist efnislega en ekki fjárhagslega. Í stað þess verður aðeins leiðrétting upp á 1,33 USD bókuð á efnislegu úthreyfingarfærsluna og leiðréttur kostnaður verður því 25,00 USD.
 
 Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er notuð.
 
-![LIFO með valkostinum Innifalið líkamlegt virði.](./media/lifo-with-included-physical-value.png)
+![LIFO þar sem efnislegt virði er tekið með.](./media/lifo-with-included-physical-value.png)
 
 **Lykill að skýringarmynd**
 
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
-- Líkamleg viðskipti eru táknuð með styttri ljósgráum örvum.
-- Fjármálaviðskipti eru táknuð með lengri svörtum örvum.
-- Kvittun í birgðum eru táknuð með lóðréttum örvum fyrir ofan ásinn.
-- Útgáfur utan birgða eru táknaðar með lóðréttum örvum fyrir neðan ásinn.
+- Efnislegar færslur eru táknaðar með styttri ljósgráum örvum.
+- Fjárhagsfærslur eru táknaðar með lengri svörtum örvum.
+- Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan ásinn.
+- Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan ásinn.
 - Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
 - Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
-- Hver dagsetning á skýringarmyndinni er aðskilin með þunnri svörtu lóðréttri línu. Dagsetningin er skráð neðst á skýringarmyndinni.
-- Birgðalokanir eru táknaðar með rauðri lóðréttri strikalínu.
+- Hver dagsetning á skýringarmyndinni er aðskilin með þunnri svartri lóðréttri línu. Dagsetningin er tekin fram neðst á skýringarmyndinni.
+- Birgðalokanir eru sýndar með rauðri lóðréttri strikalínu.
 - Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 
 ## <a name="lifo-with-marking"></a>LIFO með merkingu
 
-Merking er aðferð sem gerir mögulegt að tengja eða merkja úthreyfingarfærslu við innhreyfingarfærslu. Merking getur farið fram annað hvort áður eða eftir að færsla er bókuð. Hægt er að nota merkingu þegar þú vilt vera viss um að nákvæmur kostnaður birgðanna þegar færsla er bókuð eða birgðalokun er framkvæmd. til dæmis þjónustudeild samþykkti flýtipöntun frá mikilvægum viðskiptavini. Vegna þess að þessi pöntun er flýtipöntun verður þú að borga meira fyrir hlutinn til að uppfylla beiðni viðskiptavinarins.
+Merking er aðferð sem gerir mögulegt að tengja eða merkja úthreyfingarfærslu við innhreyfingarfærslu. Merking getur farið fram annað hvort áður eða eftir að færsla er bókuð. Hægt er að nota merkingu þegar þú vilt vera viss um að nákvæmur kostnaður birgðanna þegar færsla er bókuð eða birgðalokun er framkvæmd. til dæmis þjónustudeild samþykkti flýtipöntun frá mikilvægum viðskiptavini. Þar sem þessi pöntun er flýtipöntun verður að greiða meira fyrir vöruna til þess að geta uppfyllt beiðni viðskiptavinarins.
 
-Þú verður að ganga úr skugga um að kostnaður við birgðavöru endurspeglast í framlegð, eða kostnaði við seldar vörur (COGS), fyrir sölupöntunarreikninginn. Þegar innkaupapöntunin er bókuð, eru birgðir mótteknar með kostnaðinum 120,00 USD. Ef þetta skjal sölupöntunar er merkt við innkaupspöntunina áður en fylgiseðillinn eða reikningurinn er bókaður, er kostnaður seldra VARA 120,00 USD, en ekki núverandi meðaltal kostnaðar vörunnar. Ef að fylgiseðill sölupöntunarinnar eða reikningur er bókaður áður en merking á sér stað, mun kostnaður seldra vara verða bókaður á meðalkostnaðarverði.
+Þá er nauðsynlegt að vera viss um að kostnaðurinn við þessa birgðavöru endurspeglist í framlegð, eða kostnaði seldra vara (COGS) á sölupöntunarreikningnum. Þegar innkaupapöntunin er bókuð, eru birgðir mótteknar með kostnaðinum 120,00 USD. Ef þetta skjal sölupöntunar er merkt við innkaupspöntunina áður en fylgiseðillinn eða reikningurinn er bókaður, er kostnaður seldra VARA 120,00 USD, en ekki núverandi meðaltal kostnaðar vörunnar. Ef að fylgiseðill sölupöntunarinnar eða reikningur er bókaður áður en merking á sér stað, mun kostnaður seldra vara verða bókaður á meðalkostnaðarverði.
 
 Áður en birgðalokun er framkvæmd er hægt að merkja þessar tvær færslur, hvora fyrir aðra.
 
-Hægt er að merkja úthreyfingarfærslu við innhreyfingu áður en færsla er bókuð. Þú getur gert þessa merkingu úr sölupöntunarlínu á **Upplýsingar um sölupöntun** síðu með því að velja **Birgðir \> Merking** á **Sölupöntunarlínur** Hraðflipi. Hægt er að skoða opnar innhreyfingarfærslur á síðunni **Merking**.
+Hægt er að merkja úthreyfingarfærslu við innhreyfingu áður en færsla er bókuð. Hægt er að gera þessa merkingu úr sölupöntunarlínu á síðunni **Upplýsingar um sölupöntun** með því að velja **Birgðir \> Merking** í flýtiflipanum **Sölupöntunarlínur**. Hægt er að skoða opnar innhreyfingarfærslur á síðunni **Merking**.
 
 Einnig er Hægt að merkja úthreyfingarfærslu við innhreyfingu eftir að færslan er bókuð. Hægt er að stemma eða merkja úthreyfingarfærslu fyrir opna innhreyfingarfærslu fyrir skráðan hlut úr bókaðri birgðaleiðréttingabók.
 
@@ -119,32 +119,32 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 - 1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 - 2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
 - 2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 22,00 USD á hverja.
-- 3a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal fjárhagslega bókfærðra færslna).
-- 3b. Fjárhagsútgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 16.00 (hlaupandi meðaltal fjárhagslega bókfærðra færslna).
-- 3c. Fjárhagsútgáfa birgða fyrir 3b er merkt við birgðafjárútgáfu fyrir 2b.
+- 3a. Efnisleg úthreyfing birgða fyrir magnið 1 með kostnaðinn 16,00 á hverja USD (hlaupandi meðaltal fjárhagslega bókaðra færslna).
+- 3b. Fjárhagsleg úthreyfing birgða fyrir magnið 1 með kostnaðarverð 16,00 USD á hverja (hlaupandi meðaltal fjárhagslega bókaðra færslna).
+- 3c. Fjárhagsleg úthreyfing birgða fyrir 3b er merkt við fjárhagslega úthreyfing birgða fyrir 2b.
 - 4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 - 5a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 - 5b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
-- 6a. Raunveruleg útgáfa birgða fyrir magnið 1 á kostnaðarverðinu USD 23.00 (hlaupandi meðaltal fjárhagslega bókfærðra færslna)
-- 7\. Birgðalokun er framkvæmd. Byggt á merkingarreglunni sem notar LIFO aðferðina eru merktu færslurnar jafnaðar á móti hvort öðru. Í þessu dæmi er 3b jafnað á móti 2b og leiðrétting fyrir USD 6.00 er sett á 3b til að færa gildið í USD 22.00. Í þessu dæmi eru engar viðbótaruppgjörir gerðar, vegna þess að lokunin skapar aðeins uppgjör fyrir fjárhagslega uppfærðar færslur.
+- 6a. Efnisleg úthreyfing birgða fyrir magnið 1 með kostnaðinn 23,00 á hverja USD (hlaupandi meðaltal fjárhagslega bókaðra færslna).
+- 7\. Birgðalokun er framkvæmd. Samkvæmt merkingarreglunni sem notar aðferðina LIFO eru merktu færslurnar jafnaðar á móti hvor annarri. Í þessu dæmi er 3b gerð upp á móti 2b og leiðrétting fyrir 6,00 USD er sett inn á 3b til að færa gildið í 22,00 USD. Í þessu dæmi eru engin viðbótarjafnanir gerð vegna þess að lokunin skapar einungis jafnanir fyrir fjárhagslega uppfærðar færslur.
 
 Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagslegu og efnislegu uppfærðu færslnanna, 17,50 USD.
 
 Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir færslna þegar merkingar á milli úthreyfinga og innhreyfinga eru notaðar.
 
-![LIFO með merkingu.](./media/lifo-with-marking.png)
+![LIFO með merkingum.](./media/lifo-with-marking.png)
 
 **Lykill að skýringarmynd**
 
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
-- Líkamleg viðskipti eru táknuð með styttri ljósgráum örvum.
-- Fjármálaviðskipti eru táknuð með lengri svörtum örvum.
-- Kvittun í birgðum eru táknuð með lóðréttum örvum fyrir ofan ásinn.
-- Útgáfur utan birgða eru táknaðar með lóðréttum örvum fyrir neðan ásinn.
+- Efnislegar færslur eru táknaðar með styttri ljósgráum örvum.
+- Fjárhagsfærslur eru táknaðar með lengri svörtum örvum.
+- Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan ásinn.
+- Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan ásinn.
 - Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
 - Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
-- Hver dagsetning á skýringarmyndinni er aðskilin með þunnri svörtu lóðréttri línu. Dagsetningin er tilgreind neðst á skýringarmyndinni.
-- Birgðalokanir eru táknaðar með rauðri lóðréttri strikalínu.
-- Uppgjör og merkingar sem eru framkvæmdar með lokun birgða eru táknaðar með rauðum skástrikuðum örvum sem fara frá kvittun í útgáfu.
+- Hver dagsetning á skýringarmyndinni er aðskilin með þunnri svartri lóðréttri línu. Dagsetningin er tekin fram neðst á skýringarmyndinni.
+- Birgðalokanir eru sýndar með rauðri lóðréttri strikalínu.
+- Jafnanir og merkingar sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

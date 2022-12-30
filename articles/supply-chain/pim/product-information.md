@@ -1,6 +1,6 @@
 ---
 title: Yfirlit afurðarupplýsinga
-description: Þessi grein veitir upplýsingar um stjórnun vöruupplýsinga. Stjórnun afurðarupplýsinga nýtist með skilgreiningu á samnýttum afurðum, flokkun og auðkennum fyrir alla lögaðila og einnig tilteknar skilgreiningar afurðar þannig að þær passa vel í viðskiptaferla.
+description: Þessi grein gefur upplýsingar um stjórnun vöruupplýsinga. Stjórnun afurðarupplýsinga nýtist með skilgreiningu á samnýttum afurðum, flokkun og auðkennum fyrir alla lögaðila og einnig tilteknar skilgreiningar afurðar þannig að þær passa vel í viðskiptaferla.
 author: t-benebo
 ms.date: 06/01/2017
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fa06e718d2acc44cfced7db842814c48fb210d1e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8867870"
@@ -28,7 +28,7 @@ ms.locfileid: "8867870"
 
 
 
-Þessi grein veitir upplýsingar um stjórnun vöruupplýsinga. Stjórnun afurðarupplýsinga nýtist með skilgreiningu á samnýttum afurðum, flokkun og auðkennum fyrir alla lögaðila og einnig tilteknar skilgreiningar afurðar þannig að þær passa vel í viðskiptaferla. 
+Þessi grein gefur upplýsingar um stjórnun vöruupplýsinga. Stjórnun afurðarupplýsinga nýtist með skilgreiningu á samnýttum afurðum, flokkun og auðkennum fyrir alla lögaðila og einnig tilteknar skilgreiningar afurðar þannig að þær passa vel í viðskiptaferla. 
 
 Afurðarupplýsingar eru grundvöllur fyrir birgðakeðju og viðskiptaforrit í öllum greinum. Þær vísa til ferla og tækni þar sem lögð er áhersla á miðlæga stjórnun afurðaupplýsinga (til dæmis í birgðakeðju). Það er mikilvægt að samnýttar afurðaskilgreiningar, skjöl, eigindir og auðkenni séu notuð. Í ýmsum kerfum viðskiptalausna eru afurðaháðar upplýsingar og skilgreiningar nauðsynlegar til stýringar á viðskiptaferlum sem tengjast tilteknum afurðum, afurðafjölskyldum eða afurðaflokkum.
 

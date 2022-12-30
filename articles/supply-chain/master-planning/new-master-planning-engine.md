@@ -1,6 +1,6 @@
 ---
 title: Flutningur yfir í fínstillingu skipulagningar fyrir aðaláætlanagerð
-description: Þessi grein veitir upplýsingar um nýju aðalskipulagsvélina, Áætlanagerð fínstillingu, og um flutning frá núverandi vél.
+description: Í þessari grein er að finna upplýsingar um nýja aðaláætlunarvélina, fínstillingu skipulagningar og um yfirfærslu úr fyrirliggjandi vél.
 author: t-benebo
 ms.date: 05/11/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: dbbc58f0dcd833f63e84a73ac68ada60bd0c291d
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9739952"
@@ -27,43 +27,43 @@ ms.locfileid: "9739952"
 
 [!include [banner](../includes/banner.md)]
 
-Áætlað er að innbyggða aðaláætlunarvélin sé úrelduð (úrelt). Verið er að skipta um viðbót fínstillingar skipulagningar fyrir Microsoft Dynamics 365 Supply Chain Management. Þessi grein veitir upplýsingar um áhrifin á nýja og núverandi uppsetningu. Þar eru upplýsingar um nauðsynlegar aðgerðir.
+Áætlað er að innbyggða aðaláætlunarvélin sé úrelduð (úrelt). Verið er að skipta um viðbót fínstillingar skipulagningar fyrir Microsoft Dynamics 365 Supply Chain Management. Í þessari grein er að finna upplýsingar um áhrif á nýjar og fyrirliggjandi uppsetningar. Þar eru upplýsingar um nauðsynlegar aðgerðir.
 
 Fínstilling skipulagningar greiðir fyrir því að útreikningar aðaláætlanagerðar eigi sér stað kleift að eiga sér stað utan Supply Chain Management og Azure SQL gagnagrunns hennar. Kostirnir við fínstillingu áætlanagerðar eru m.a. bætt afkastageta og minni áhrifum á SQL-gagnagrunninn við keyrslur aðaláætlanagerðar. Vegna þess hægt er að keyra hraða áætlanagerð jafnvel á skrifstofutíma geta skipuleggjendur strax brugðist við eftirspurn eða breytingum á færibreytum.
 
-Fyrir frekari upplýsingar um hagræðingu skipulags, sjá [Aðalskipulagskerfisarkitektúr](master-planning-architecture.md).
+Frekari upplýsingar um fínstillingu áætlanagerðar er að finna í [Hönnun aðaláætlanakerfis](master-planning-architecture.md).
 
 ## <a name="obsolescence-of-the-existing-master-planning-engine"></a>Úrelding núverandi aðaláætlunarvélar
 
-Microsoft er í því ferli að gera úreltu aðalskipulagsvélina úrelta í þágu skipulagsfínstillingar. Þessi breyting hefur áhrif á allt skýjaumhverfi. Hefur ekki áhrif á uppsetningu innanhúss. Í útgáfu 10.0.16 og síðar færðu villuboð ef þú keyrir úrelta aðalskipulagsvél án þess að búa til fyrirhugaðar framleiðslupantanir. Hins vegar verður lokið við keyrslu aðaláætlanagerðar þrátt fyrir villuboðin.
+Microsoft vinnur við að taka úreltu aðaláætlunarvélina úr notkun fyrir fínstillingu skipulagningar. Þessi breyting hefur áhrif á allt skýjaumhverfi. Hefur ekki áhrif á uppsetningu innanhúss. Í útgáfu 10.0.16 og nýrri birtast villuboð ef úrelt aðaláætlunarvél er keyrð án myndar áætlaðrar framleiðslupantana. Hins vegar verður lokið við keyrslu aðaláætlanagerðar þrátt fyrir villuboðin.
 
-Fyrir frekari upplýsingar um úrelda aðalskipulagsvélina, sjá tilkynningar í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](../get-started/removed-deprecated-features-scm-updates.md).
+Frekari upplýsingar um úrelta aðaláætlunarvél er að finna í tilkynningum í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](../get-started/removed-deprecated-features-scm-updates.md).
 
 ## <a name="migration-messages-and-exceptions"></a>Flutningur, skilaboð og undantekningar
 
-Eigendur núverandi umhverfis sem keyra úreltu aðalskipulagsvélina án þess að búa til fyrirhugaðar framleiðslupantanir munu fá tölvupóst sem veitir upplýsingar um undantekningarferlið. Við mælum með því að þú vinnir með samstarfsaðila til að meta og leggja drög að flutningnum yfir í Fínstillingu skipulagningar.
+Eigendur núverandi umhverfa sem keyra úreltu aðaláætlunarvélina án þess að búa til áætlaðar framleiðslupantanir, fá tölvupóst með upplýsingum um undantekningarferlið. Við mælum með því að þú vinnir með samstarfsaðila til að meta og leggja drög að flutningnum yfir í Fínstillingu skipulagningar.
 
-Eins og fram hefur komið færðu villuboð í útgáfu 10.0.16 og síðar ef þú keyrir úrelta aðalskipulagsvél án þess að búa til áætlaðar framleiðslupantanir. Þessi villuskilaboð innihalda leiðbeiningar varðandi flutning og leiðbeiningar um hvernig skal biðja um undantekningu.
+Eins og hefur verið getið birtast villuboð í útgáfu 10.0.16 og nýrri útgáfum ef úrelt aðaláætlanavél er keyrð án þess að mynda áætlaðar framleiðslupantanir. Þessi villuskilaboð innihalda leiðbeiningar varðandi flutning og leiðbeiningar um hvernig skal biðja um undantekningu.
 
 ### <a name="new-deployments"></a>Nýjar uppsetningar
 
-Áætlanagerð fínstilling verður að teljast sjálfgefin aðalskipulagsvél fyrir allar nýjar dreifingar í skýinu. Almennt ætti að nota fínstillingu skipulagningar fyrir allar nýjar uppsetningar sem búa ekki til áætlaðar framleiðslupantanir meðan á aðaláætlanagerð stendur. Ef ný uppsetning er háð virkni sem áætlanagerð fínstilling styður ekki eins og er, geturðu beðið um undanþágu svo þú getir haldið áfram að nota úreltu aðalskipulagsvélina.
+Fínstilling áætlanagerðar verður að nota sem sjálfgefna aðaláætlunarvél fyrir allar nýjar uppsetningar í skýinu. Almennt ætti að nota fínstillingu skipulagningar fyrir allar nýjar uppsetningar sem búa ekki til áætlaðar framleiðslupantanir meðan á aðaláætlanagerð stendur. Þegar ný uppsetning er háð virkni fínstilling skipulagningar styður ekki eins og stendur, er hægt að biðja um undantekningu þannig að hægt sé að halda áfram að nota úreltu aðaláætlunarvélina áfram.
 
 ### <a name="existing-deployments"></a>Fyrirliggjandi uppsetningar
 
-Eigendur núverandi uppsetninga í skýi sem eru háðar aðaláætlanagerð ættu að skipuleggja flutning yfir í fínstillingu skipulagningar. Ef útfærslan þín veltur á virkni sem áætlanagerð fínstilling styður ekki eins og er, geturðu beðið um undantekningu svo þú getir haldið áfram að nota úreltu aðalskipulagsvélina.
+Eigendur núverandi uppsetninga í skýi sem eru háðar aðaláætlanagerð ættu að skipuleggja flutning yfir í fínstillingu skipulagningar. Þegar innleiðingin þín er háð virkni sem fínstilling skipulagningar styður ekki eins og er, er hægt að biðja um undantekningu svo hægt sé að halda áfram að nota úreltu aðaláætlunarvélina.
 
 Microsoft sendir tölvupóst til stjórnenda umhverfa sem notar aðaláætlanagerð sem verið er að úrelta. Slíkur tölvupóstur inniheldur upplýsingar um áskildar aðgerðir við flutning eða upplýsingar um hvernig beðið er um undantekningu.
 
 ## <a name="the-exception-process"></a>Ferli undantekningar
 
-Þú getur beðið um undanþágu ef þú verður að halda áfram að nota úreltu aðalskipulagsvélina vegna þess að viðskiptaferlar þínir eru mjög háðir að minnsta kosti einum eiginleika sem er ekki innleiddur í áætlanagerð fínstillingu. Listi yfir tiltæka eiginleika er að finna í [Samræmisgreining á fínstillingu áætlanagerðar](planning-optimization/planning-optimization-fit-analysis.md).
+Hægt er að biðja um undantekningu ef nauðsynlegt er að halda þarf áfram að nota úreltu aðaláætlunarvélina vegna þess að viðskiptaferli eru afar háð a.m.k. einum eiginleika sem er ekki virkjaður í fínstillingu áætlanagerðar eins og er. Listi yfir tiltæka eiginleika er að finna í [Samræmisgreining á fínstillingu áætlanagerðar](planning-optimization/planning-optimization-fit-analysis.md).
 
-Eins og er, eru undantekningar fyrir flutning áætlunarfínstillingar aðeins viðeigandi ef aðalskipulagsferlið þitt inniheldur ekki framleiðslu (þ.e. fyrirhugaðar framleiðslupantanir sem eru búnar til með aðalskipulagningu) og þú þarfnast úreldu aðalskipulagsvélarinnar umfram útgáfu 10.0.15.
+Í augnablikinu eiga undantekningar frá flutningi fínstillingar áætlanagerðar einungis við ef aðaláætlunarferlið inniheldur ekki framleiðslu (þ.e. áætlaðar framleiðslupantanir sem eru myndaðar af aðaláætlanagerð) og þörf er á að nota úreltu aðaláætlunarvélina fram yfir útgáfu 10.0.15.
 
 Um leið og áskildir eiginleikar verða tiltækir veitir Microsoft reynslutíma þar til undantekningin rennur út. Stjórnandi umhverfisins fær upplýsingar um hvenær áskildir eiginleikar eru tiltækir og þegar reynslutíminn hefst.
 
-Eftirfarandi flæðirit tekur saman upplýsingarnar sem gefnar eru upp í þessari grein svo þú getir fljótt komist að því hvort þú ættir að biðja um undanþágu. Ef óska þarf eftir undanþágu skal fylla út og senda inn [Fínstilling áætlanagerðar, yfirfærsla og spurningalisti undantekningar](https://go.microsoft.com/fwlink/?linkid=2144962). Vöruflokkurinn ber ábyrgð á því að meta og samþykkja hverja undantekningarbeiðni, svo vinsamlegast sendu beiðni þína beint til vöruhópsins með því að nota tengilinn sem gefinn er upp og ekki búa til stuðningsmiða fyrir hana. Ef beiðni þinni er hafnað skaltu ekki búa til stuðningsmiða því Microsoft Support getur ekki endurmetið eða veitt undanþágur.
+Eftirfarandi flæðirit tekur saman upplýsingarnar sem veittar eru í þessari grein þannig að hægt sé að finna út á fljótlegan hátt hvort þurfi að biðja um undanþágu. Ef óska þarf eftir undanþágu skal fylla út og senda inn [Fínstilling áætlanagerðar, yfirfærsla og spurningalisti undantekningar](https://go.microsoft.com/fwlink/?linkid=2144962). Vöruhópurinn ber ábyrgð á því að meta og samþykkja hverja beiðni um undantekningu og því skal senda beiðnina beint til vöruhópsins með tenglinum sem gefinn er upp og ekki stofna þjónustubeiðni fyrir hana. Ef beiðni þinni er hafnað skaltu ekki búa til þjónustubeiðni vegna þess að notendaþjónusta Microsoft getur ekki endurmetið eða veitt undanþágur.
 
 ![Flæðirit undantekningar.](media/exception-diagram.png "Flæðirit undantekningar")
 
@@ -74,9 +74,9 @@ Eftirfarandi flæðirit tekur saman upplýsingarnar sem gefnar eru upp í þessa
 
 ### <a name="sandbox-environments"></a><a name="faq-sandbox"></a>Sandkassaumhverfi
 
-Get ég notað úreltu aðalskipulagsvélina í sandkassaumhverfinu mínu? Þarf ég undantekningu?
+Get ég notað úrelta aðaláætlunarvél í sandkassaumhverfinu mínu? Þarf ég undantekningu?
 
-**Svar:** Undantekningar eru venjulega ekki viðeigandi fyrir sandkassaumhverfi vegna þess að undantekningarvillan í skipulagsfínstillingu kemur ekki í veg fyrir að úrelta aðalskipulagsvélin gangi vel. Hins vegar þegar villuboðin trufla notanda er hægt að slökkva á boðunum í IaaS-sandkassaumhverfi (ekki Service Fabric) með því að keyra eftirfarandi fyrirspurn í gagnagrunninum:
+**Svar:** Undantekningar eiga yfirleitt ekki við um sandkassaumhverfi vegna þess að undantekningarvilla fínstillingar skipulagningar kemur ekki í veg fyrir að úrelta aðaláætlunarvélin keyri á réttan hátt. Hins vegar þegar villuboðin trufla notanda er hægt að slökkva á boðunum í IaaS-sandkassaumhverfi (ekki Service Fabric) með því að keyra eftirfarandi fyrirspurn í gagnagrunninum:
 
 ```sql
 -- Insert or update an enabled flight:
@@ -92,13 +92,13 @@ ELSE
 
 Umhverfið mitt er á staðnum. Þarf ég undantekningu?
 
-**Svar:** Nei Undantekning er ekki nauðsynleg fyrir umhverfi á staðnum. Þú getur haldið áfram að nota úreltu aðalskipulagsvélina. Stjórnandi umhverfisins fær upplýsingar um ef einhverra aðgerða er þörf.
+**Svar:** Nei Undantekning er ekki nauðsynleg fyrir umhverfi á staðnum. Hægt er að halda áfram að nota úrelta aðaláætlunarvél. Stjórnandi umhverfisins fær upplýsingar um ef einhverra aðgerða er þörf.
 
 ### <a name="production-scenarios"></a>Framleiðsluaðstæður
 
 Við notum áætlaðar framleiðslupantanir en ég hef áhyggjur af því hvað gerist þegar við uppfærðum í útgáfu 10.0.16. Ætti ég að grípa til aðgerða?
 
-**Svar:** Þú ættir ekki að hafa áhyggjur af þessu. Þú getur haldið áfram að nota úreltu aðalskipulagsvélina í útgáfu 10.0.16. Hins vegar er ráðlegt að meta hvort flutningur yfir í fínstillingu skipulagningar geti hafist með núverandi virkni. Einnig er ráðlegt að kynna sér nýju virknina til hlítar.
+**Svar:** Þú ættir ekki að hafa áhyggjur af þessu. Hægt er að halda áfram að nota úrelta aðaláætlunarvél í útgáfu 10.0.16. Hins vegar er ráðlegt að meta hvort flutningur yfir í fínstillingu skipulagningar geti hafist með núverandi virkni. Einnig er ráðlegt að kynna sér nýju virknina til hlítar.
 
 ### <a name="email-from-microsoft"></a>Tölvupóstur frá Microsoft
 
@@ -110,9 +110,9 @@ Stjórnandi umhverfis okkar fékk tölvupóst frá Microsoft. Í tölvupóstinum
 
 Ég nota útgáfu 10.0.16 eða nýrri og ég fæ eftirfarandi villuboð þegar aðaláætlanagerð er keyrð. Er aðaláætlanagerð lokuð?
 
-> Þú færð þessi villuboð vegna þess að úrelta aðalskipulagsvélin var notuð fyrir aðstæður sem studdar eru af áætlanagerð fínstillingu. Þú ættir að flytja yfir í áætlanagerð fínstillingu núna, þar sem innbyggða aðalskipulagsvélin hefur verið úrelt. Athugaðu að þessi áætlanakeyrsla var keyrð.
+> Þú færð þessi villuskilaboð vegna þess að úrelt aðaláætlunarvél var notuð fyrir aðstæður sem eru studdar fínstillingu skipulagningar. Þú ættir að flytja þig yfir í fínstillingu áætlanagerðar núna, þar sem innbyggð aðaláætlanavél hefur verið gerð úreld. Athugaðu að þessi áætlanakeyrsla var keyrð.
 >
-> Ef flutningur þinn er mjög háður eiginleikum í bið er hægt að biðja um undantekningu frá áframhaldandi notkun á úreltu aðalskipulagsvélinni.
+> Ef flutningurinn þinn inniheldur sterk tengsl um eiginleika sem bíða er hægt að biðja um undantekningu á áframhaldandi notkun á vél fyrir úrelta aðaláætlunarvél.
 >
 > Ljúktu við eftirfarandi spurningalista til að hefjast handa og, ef svo á við, biddu um undantekningu frá yfirfærslu í fínstillingu skipulagningar.
 

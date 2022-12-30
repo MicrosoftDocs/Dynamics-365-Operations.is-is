@@ -18,7 +18,7 @@ ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
 ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740685"
@@ -59,7 +59,7 @@ Til að hafa með beiðnir við þekjuútreikning fyrir aðaláætlun skal fylgj
 1. Endurtakið skref 2 og 3 fyrir hverja aðaláætlun til viðbótar þar sem á að stilla tímamörk samþykktra beiðna.
 
 > [!IMPORTANT]
-> Tímagirðingar fyrir samþykktar beiðnir eru ekki studdar fyrir hagræðingu áætlanagerðar. Þar til þau eru studd verða öll gildin hunsuð sem færð eru inn í reitinn **Tímamörk samþykktra beiðna (dagar)**.
+> Tímamörk samþykktra beiðna eru ekki enn studd fyrir fínstillingu skipulagningar. Þar til þau eru studd verða öll gildin hunsuð sem færð eru inn í reitinn **Tímamörk samþykktra beiðna (dagar)**.
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>Sjálfstætt framboð, óháð þekjukóða
 

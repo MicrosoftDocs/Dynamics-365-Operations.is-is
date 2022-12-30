@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b4a98b90491093f55ce6974b9b11ff326c0c2f5c
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015319"
@@ -117,7 +117,7 @@ Notaðu **Færibreytur viðskiptakrafna** til að tilgreina hvort viðvörun eð
 
 Notið **Viðskiptavinir** til að tilgreina lánamark fyrir tiltekinn viðskiptamann. Þú verður að vera meðlimur í öryggishlutverki sem er með Halda aðalviðskiptavini (CustCustomersMaintain) skyldu tengda við sig til að gera breytingar hér.
 
-1.  Smellur **Reikningur fáanlegur** \> **Viðskiptavinir** \> **Allir viðskiptavinir**. Tvísmellið á viðskiptavinalykil.
+1.  Smellið á **Viðskiptakröfur** \> **Viðskiptavinir** \> **Allir viðskiptavinir**. Tvísmellið á viðskiptavinalykil.
 
 2.  Á **Viðskiptavinir** yfirlitinu í Aðgerðarrúðunni er smellt á **Breyta**.
 
@@ -132,7 +132,7 @@ Notið **Viðskiptavinir** til að tilgreina lánamark fyrir tiltekinn viðskipt
 
 Stundum gætirðu þurft að athuga lánamark viðskiptavinar handvirkt. Til dæmis gætirðu athugað lánamark viðskiptavinar handvirkt áður en þú byrjar að slá inn sölupöntun. Hægt er að nota **Sölupöntun** til að kanna lánamark handvirkt. Þú verður að vera meðlimur í öryggishlutverki sem er með Viðhalda sölupöntun (SalesOrderMaintain) skyldu tengda við sig til að gera breytingar hér.
 
-1.  Smellur **Sala og markaðssetning** \> **Sölupantanir** \> **Allar sölupantanir**. Tvísmelltu á sölupöntun.
+1.  Smellið á **Sölu og markaðssetningu** \> **Sölupöntun** \> **Allar sölupantanir**. Tvísmelltu á sölupöntun.
 
 2.  Á skjámyndinni **Sölupöntun** á Aðgerðasvæðinu, á flipanum **Stjórna** skal smella á **Kanna lánamark**.
 

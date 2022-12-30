@@ -1,6 +1,6 @@
 ---
 title: Aðaláætlanagerð með birgðaspá
-description: Þessi grein lýsir því hvernig tillit er tekið til framboðsspár við aðalskipulagningu.
+description: Í þessari grein er því lýst hvernig birgðaspár eru teknar til skoðunar við aðaláætlanagerð.
 author: t-benebo
 ms.date: 09/21/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2022-09-21
 ms.dyn365.ops.version: 10.0.30
 ms.openlocfilehash: 2bac9355bb1ac00f697ec459f494a64553e0eacc
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740142"
@@ -22,25 +22,25 @@ ms.locfileid: "9740142"
 
 [!include [banner](../../includes/banner.md)]
 
-Framboðsspár gera þér kleift að tilgreina framboðið sem þú býst við að þurfi á einhverju framtíðartímabili. Venjulega byggir þú matið á sölusögu fyrra árs og notar síðan spána í fjárhagsáætlunargerð. Þú getur líka sett upp aðaláætlanir þínar til að taka tillit til spár við skipulagningu.
+Framboðsspár gera þér kleift að tilgreina framboðið sem þú býst við að þurfa á einhverju tímabili í framtíðinni. Venjulega byggir þú áætlunina á söluferli fyrra árs og notar síðan spána í fjárhagsáætlunargerð. Einnig er hægt að setja upp aðaláætlun til að íhuga spá meðan á áætlunargerð stendur.
 
-## <a name="set-up-a-master-plan-to-consider-supply-forecasts"></a>Settu upp aðaláætlun til að huga að framboðsspám
+## <a name="set-up-a-master-plan-to-consider-supply-forecasts"></a>Setja upp aðaláætlun með tilliti til birgðaspár
 
-Hægt er að tilgreina hvort hvert aðalskipulag eigi að taka tillit til spár þegar það keyrir. Notaðu eftirfarandi aðferð til að stilla spámöguleika fyrir hverja áætlun.
+Hægt er að tilgreina hvort hvert aðaláætlun eigi að taka mið af spám þegar það er keyrt. Notið eftirfarandi ferli til að stilla spávalkosti fyrir hverja áætlun.
 
 1. Farið í **Aðaláætlanagerð \> Uppsetning \> Áætlanir \> Aðaláætlanir**.
-1. Veldu annað hvort núverandi aðalskipulag í listaglugganum eða veldu **Nýtt** á aðgerðarrúðunni til að búa til nýjan.
+1. Veldu núverandi aðaláætlun á listasvæðinu eða veldu **Nýtt** á aðgerðasvæðinu til að búa til nýjan.
 1. Á flýtiflipanum **Almennt** stillirðu eftirfarandi reiti:
 
-    - **Spálíkan** – Veldu líkanið sem inniheldur þær framboðs- og/eða eftirspurnarspár sem aðalskipulagið ætti að hafa í huga.
-    - **Látið framboðsspá fylgja með** – Stilltu þennan valkost á *Já* ef rammaáætlun ætti að huga að framboðsspám.
-    - **Látið eftirspurnarspá fylgja með** – Stilltu þennan valkost á *Já* ef rammaáætlun ætti að huga að eftirspurnarspám. Þó að þessi stilling sé óháð **Látið framboðsspá fylgja með** stilling, sumar af öðrum stillingum á síðunni eiga við um bæði framboðsspár og eftirspurnarspár. Fyrir frekari upplýsingar um áætlanagerð sem tekur tillit til eftirspurnarspár, sjá [Aðalskipulag með eftirspurnarspám](demand-forecast.md).
-    - **Aðferð notuð til að draga úr spákröfum** – Veldu aðferðina sem á að nota til að draga úr spákröfum við aðalskipulagningu:
+    - **Spárlíkan** – Veldu líkanið sem inniheldur um framboðs- og/eða eftirspurnarspár sem ætti að taka mið af aðaláætluninni.
+    - **Hafa með birgðaspá -** Stillið þennan valkost á *Já* ef aðaláætlun ætti að taka mið af birgðaspá.
+    - **Hafa með eftirspurnarspá -** Stillið þennan valkost á *Já* ef aðaláætlun ætti að taka mið af eftirspurnarspá. Þrátt fyrir að þessi stilling sé óháð **Hafa með birgðaspá**, þá eiga sumar aðrar stillingar á síðunni bæði við framboðspá og eftirspurnarspá. Frekari upplýsingar um áætlanagerð sem tekur mið af eftirspurnarspám eru í [Aðaláætlanagerð með eftirspurnarspám](demand-forecast.md).
+    - **Aðferð sem er notuð til að minnka spárþarfir** - Veljið aðferðina sem á að nota til að minnka spárþarfir við aðaláætlanagerð:
 
-        - *Enginn* – Kröfur um spár munu ekki minnka við aðalskipulagningu.
-        - *Prósenta - lækkunarlykill* – Spákröfur verða lækkaðar í samræmi við prósentutölur og tímabil sem eru skilgreind í lækkunarlyklinum.
-        - *Viðskipti – lækkunarlykill* – Spáþörf verður minnkuð með þeim viðskiptum sem eiga sér stað á þeim tímabilum sem eru skilgreind í lækkunarlyklinum.
-        - *Viðskipti – kraftmikið tímabil* – Spákröfur verða minnkaðar með pöntunarfærslum sem eiga sér stað á kraftmiklu tímabilinu. Tímabilið nær yfir núverandi spádagsetningar og því lýkur þegar næsta spá hefst. The *Viðskipti – kraftmikið tímabil* aðferðin notar ekki eða þarfnast minnkunarlykils og þegar þú notar hana gilda eftirfarandi skilyrði:
+        - *Ekkert* - Ekki verður dregið úr spákröfum við aðaláætlanagerð.
+        - *Prósenta - minnkunarlykill* - Dregið er úr spáþörfum í samræmi við prósentur og tímabil sem eru skilgreind af minnkunarlykil.
+        - *Færslur - minnkunarlykill* – Dregið er úr spáþörfum í samræmi við færslur sem eiga sér stað á tímabilunum sem eru skilgreind af minnkunarlykil.
+        - *Færslur - breytilegt tímabil* - eru spáþarfir minnkaðar við raunverulega pöntunarfærslur sem koma upp við breytilegt tímabil. Breytilegt tímabil nær yfir núgildandi spá dagsetningar og lýkur þegar næsta spá hefst. Aðferðin *Færslur – breytilegt tímabil* notar ekki eða krefst minnkunarlykils og þegar hann er notaður eiga eftirfarandi skilyrði við:
 
             - Ef spá er alveg minnkuð verða spárþarfir gildandi spár 0 (núll).
             - Ef það er engin komandi spá eru spáþarfir frá síðustu spá sem var færð inn minnkaðar.
@@ -49,189 +49,189 @@ Hægt er að tilgreina hvort hvert aðalskipulag eigi að taka tillit til spár 
             - Ef raunverulegar pöntunarfærslur°fara fram úr spáþörfum, eru eftirstandandi færslur ekki sendar áfram í næsta spátímabil.
 
         > [!NOTE]
-        > The **Aðferð notuð til að draga úr spákröfum** stillingin á einnig við um eftirspurnarspár ef þú hefur virkjað þær fyrir aðalskipulagið og það hefur áhrif á þær á svipaðan hátt. Fyrir frekari upplýsingar, sjá [Aðalskipulag með eftirspurnarspám](demand-forecast.md).
+        > **Aðferðin sem notuð er til að minnka spárkröfur** á einnig við um eftirspurnarspár ef þú hefur virkjað þær fyrir aðaláætlun og það hefur svipuð áhrif. Frekari upplýsingar eru í [Aðaláætlanagerð með eftirspurnarspám](demand-forecast.md).
 
-## <a name="set-reduction-options-for-coverage-groups"></a>Stilltu minnkunarmöguleika fyrir umfjöllunarhópa
+## <a name="set-reduction-options-for-coverage-groups"></a>Veldu minnkunarvalkosti fyrir þekjuflokka
 
-Fylgdu þessum skrefum til að stilla valkosti sem stjórna því hvernig þekjuhópur mun draga úr spákröfum sínum fyrir aðaláætlanir sem nota færslumiðaða lækkun.
+Til að velja valkosti sem stýra því hvernig þekjuflokkur mun draga úr spákröfum sínum fyrir aðaláætlanir sem nota færslubundna minnkun skal fylgja eftirfarandi skrefum.
 
 1. Fara skal í **Aðaláætlanagerð \> Uppsetning \> Áætlanir \> Þekjuflokkar**.
-1. Veldu annað hvort fyrirliggjandi þekjuhóp í listaglugganum eða veldu **Nýtt** á aðgerðarrúðunni til að búa til nýjan.
-1. Á **Annað** Flýtiflipi, í **Draga úr spá um** reit, tilgreinið hvernig draga skuli úr framboðsspákröfum fyrir hluti í þekjuhópnum, fyrir aðaláætlanir þar sem **Aðferð notuð til að draga úr spákröfum** reiturinn er stilltur á *Færslur - lækkunarlykill* eða *Viðskipti - kraftmikið tímabil*. Veljið eitt af eftirfarandi gildum:
+1. Veldu núverandi þekjuflokk á listasvæðinu eða veldu **Nýtt** á aðgerðasvæðinu til að búa til nýjan.
+1. Á flýtiflipanum **Annað** í reitnum **Lækka spá um** skal tilgreina hvernig skuli draga úr þörfum samkvæmt spá fyrir vörur í þekjuflokknum fyrir aðaláætlanir þar sem reiturinn **Aðferð notuð til að minnka þörf samkvæmt spá** er stilltur á *Færslur - minnkunarlykill* eða *Færslur - breytilegt tímabil*. Veljið eitt af eftirfarandi gildum:
 
     - *Allar færslur* – Allar færslur ættu að lækka spána.
-    - *Pantanir* – Aðeins pantanir af sömu gerð ættu að draga úr spánni.
+    - *Pantanir* – Aðeins pantanir af sömu gerð ættu að minnka spána.
 
-    Til dæmis gefa sjálfgefnar pöntunarstillingar fyrir vöru til kynna að það eigi að framleiða hana. Það er framboðsspálína fyrir magnið 50 og það er fyrirliggjandi innkaupapöntun fyrir magnið 20. Ef **Draga úr spá um** reiturinn er stilltur á *Pantanir*, verður fyrirhuguð framleiðslupöntun búin til fyrir magnið 50. Ef það er stillt á *Öll viðskipti*, verður fyrirhuguð framleiðslupöntun lækkuð í 30 magn.
+    Til dæmis gefa sjálfgefnar pantanastillingar fyrir vöru til kynna að það eigi að framleiða. Það er birgðaspárlína fyrir magnið 50, og það er fyrirliggjandi innkaupapöntun fyrir magnið 20. Ef reiturinn **Minnka spá um** er stillt á *Pantanir* verður búin til áætluð framleiðslupöntun fyrir magn 50. Ef það er stillt á *Allar færslur* verður áætluð framleiðslupöntun lækkuð í magn sem nemur 30.
 
-    Þessi stilling á einnig við um lækkun eftirspurnarspár. Fyrir frekari upplýsingar, sjá [Aðalskipulag með eftirspurnarspám](demand-forecast.md).
+    Þessi stilling gildir einnig um minnkun eftirspurnarspáar. Frekari upplýsingar eru í [Aðaláætlanagerð með eftirspurnarspám](demand-forecast.md).
 
-## <a name="enter-a-supply-forecast-for-a-product"></a>Færðu inn framboðsspá fyrir vöru
+## <a name="enter-a-supply-forecast-for-a-product"></a>Færa inn birgðaspá fyrir vöru
 
-Til að slá inn framboðsspá fyrir vöru skaltu fylgja þessum skrefum.
+Til að slá inn birgðaspá fyrir vöru skal fylgja eftirfarandi skrefum.
 
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
-1. Veldu vöruna sem þú vilt slá inn spá fyrir.
-1. Á aðgerðarrúðunni, á **Áætlun** flipa, veldu **Framboðsspá**.
-1. Á **Framboðsspá** síðu, á aðgerðarrúðunni, veldu **Nýtt** til að bæta spá við töfluna.
-1. Sláðu inn upplýsingar á nýju línunni eftir þörfum til að tilgreina spá þína.
+1. Veldu vöru sem þú vilt slá inn spá fyrir.
+1. Á aðgerðasvæðinu, í flipanum **Áætlun** skal velja **Birgðaspá**.
+1. Á síðunni **Birgðaspá**, á aðgerðasvæðinu, skal velja **Nýtt** til að bæta við spá við hnitanetið.
+1. Upplýsingar eru færðar í nýju línuna eins og þörf er á til að tilgreina spá þína.
 
-## <a name="plan-for-an-item-with-supply-forecast-lines"></a>Áætlun fyrir vöru með framboðsspálínum
+## <a name="plan-for-an-item-with-supply-forecast-lines"></a>Skipuleggja vöru með birgðaspárlínum
 
-Þegar þú keyrir aðaláætlun sem inniheldur vöru sem framboðsspá er til fyrir, mun kerfið stofna innkaupapöntun fyrir framboðslínurnar sem hafa verið færðar inn. Sjálfgefnar pöntunarstillingar fyrir hlutinn eru virtar. Ef þessar sjálfgefnu pöntunarstillingar tilgreina a **Sjálfgefin pöntunartegund** verðmæti á *Pöntun*, og enginn lánardrottinsreikningur er tilgreindur á framboðsspálínunni, mun kerfið nota sjálfgefinn lánardrottinn fyrir vöruna.
+Þegar þú keyrir aðaláætlun sem inniheldur vöru sem birgðaspá er til fyrir mun kerfið stofna innkaupapantanir fyrir birgðalínurnar sem slegnar hafa verið inn. Sjálfgefnar pöntunarstillingar fyrir vöruna eru virtar. Ef þessar sjálfgefnu pöntunarstillingar tilgreina **Sjálfgefnar pöntunargerð** gildi *Innkaupapöntunar* og enginn lánardrottnalykill er tilgreindur í birgðaspálínu mun kerfið nota sjálfgefinn lánardrottinn fyrir vöruna.
 
-## <a name="check-whether-a-planned-order-is-a-supply-forecast-order"></a>Athugaðu hvort áætluð pöntun sé framboðsspápöntun
+## <a name="check-whether-a-planned-order-is-a-supply-forecast-order"></a>Athuga hvort áætluð pöntun sé birgðaspárpöntun
 
-Notaðu eftirfarandi ferli til að læra hvort áætlað pöntun hafi verið stofnuð vegna framboðsspár.
+Fylgið eftirfarandi ferli til að fá upplýsingar um hvort áætluð pöntun hafi verið stofnuð vegna birgðaspár.
 
 1. Fara í **Áætlanagerð \> Aðaláætlanagerð \> Áætlaðar pantanir**.
-1. Opnaðu fyrirhugaða pöntun sem þú vilt skoða.
-1. Á **Almennt** Flýtiflipi, skoðaðu verðmæti **Framboðsspá** sviði. Ef pöntunin var stofnuð til að ná yfir framboðsspá verður þessi reitur stilltur á *Já*.
+1. Opna skal áætluð pöntun sem á að skoða.
+1. Á flýtiflipanum **Almennt** er horft á gildi reitsins **Birgðaspá**. Ef röðin var búin til að þekja birgðaspá verður þessi reitur stilltur á *Já*.
 
-## <a name="examples-of-master-planning-with-supply-forecasts"></a>Dæmi um aðalskipulag með framboðsspám
+## <a name="examples-of-master-planning-with-supply-forecasts"></a>Dæmi um aðaláætlanagerð með birgðaspá
 
-Þessi hluti gefur nokkur dæmi sem sýna hvernig framboðsspá hefur áhrif á aðalskipulagningu.
+Í þessum hluta eru nokkur dæmi sem sýna hvernig birgðaspá hafa áhrif á aðaláætlanagerð.
 
-### <a name="example-1-supply-forecast-for-an-item"></a>Dæmi 1: Framboðsspá fyrir vöru
+### <a name="example-1-supply-forecast-for-an-item"></a>Dæmi 1: Birgðaspá fyrir vöru
 
-Þú ert með hlut þar sem sjálfgefin pöntunartegund er *Pöntun* og sjálfgefinn söluaðili er *US-002*. Það hefur eftirfarandi framboðsspálínu.
-
-| Líkan    | Dagsetning     | Lykill lánardrottins | Lánardrottnaflokkur | Magn | Eining | Svæði | Vöruhús |
-|----------|----------|----------------|--------------|----------|------|------|-----------|
-| NúverandiF | 10/10/22 |                |              | 35       | hver   | 1    | 11        |
-
-Þegar þú keyrir aðalskipulagningu verður áætluð innkaupapöntun stofnuð fyrir *35 ea* frá seljanda *US-002*.
-
-### <a name="example-2-several-supply-forecast-lines-with-and-without-a-vendor"></a>Dæmi 2: Nokkrar framboðspálínur, með og án söluaðila
-
-Þú ert með hlut þar sem sjálfgefin pöntunartegund er *Pöntun* og sjálfgefinn söluaðili er *US-002*. Það hefur eftirfarandi framboðsspálínur.
+Þú ert með vöru þar sem sjálfgefna pöntunargerðin *er Innkaupapöntun* og sjálfgefni lánardrottinn er *US-002*. Hún eru með eftirfarandi línu eftirspurnarspár.
 
 | Líkan    | Dagsetning     | Lykill lánardrottins | Lánardrottnaflokkur | Magn | Eining | Svæði | Vöruhús |
 |----------|----------|----------------|--------------|----------|------|------|-----------|
-| NúverandiF | 10/10/22 |                |              | 35       | hver   | 1    | 11        |
-| NúverandiF | 10/10/22 | US-101         |              | 25       | hver   | 1    | 11        |
+| CurrentF | 10/10/22 |                |              | 35       | hver   | 1    | 11        |
 
-Í þessu tilviki meðhöndlar kerfið línuna sem tilgreinir ekki lánardrottinn sem almenna spá og gerir ráð fyrir að línuna sem tilgreinir lánardrottinn ætti að draga frá almennu spánni. Þess vegna mun aðalskipulag stofna eftirfarandi fyrirhugaðar innkaupapantanir fyrir vöruna:
+Þegar aðaláætlunargerð er keyrt verður búið til áætluð innkaupapöntun fyrir *35 ea* frá lánardrottinn *US-002*.
 
-- Fyrirhuguð innkaupapöntun fyrir magn af *25 ea* frá seljanda *US-101* (Lánardrottinn og magnið sem tilgreint er á spálínunni er notað.)
-- Fyrirhuguð innkaupapöntun fyrir magn af *10 ea* frá seljanda *US-002* (Vegna þess að enginn lánardrottinn var tilgreindur á hinni spálínunni er sjálfgefinn lánardrottinn notaður og magn þessarar spálínu er minnkað um magn lánardrottinssértæku spálínunnar.)
+### <a name="example-2-several-supply-forecast-lines-with-and-without-a-vendor"></a>Dæmi 2: Nokkrar birgðaspárlínur, með og án lánardrottins
 
-### <a name="example-3-plans-that-use-the-transactions---dynamic-period-reduction-method-in-a-single-forecast-period"></a>Dæmi 3: Áætlanir sem nota Færslur - breytilegt tímabilslækkunaraðferð á einu spátímabili
-
-Fyrir aðaláætlanir sem nota *Viðskipti - kraftmikið tímabil* sem spálækkunaraðferð mun aðalskipulag minnka spármagn ef það eru fyrirliggjandi færslur sem passa við þá framboðseiginleika.
-
-Til dæmis ertu með vöru þar sem sjálfgefin pöntunartegund er *Pöntun*. Það hefur eftirfarandi framboðsspálínu.
+Þú ert með vöru þar sem sjálfgefna pöntunargerðin *er Innkaupapöntun* og sjálfgefni lánardrottinn er *US-002*. Hún eru með eftirfarandi línur eftirspurnarspár.
 
 | Líkan    | Dagsetning     | Lykill lánardrottins | Lánardrottnaflokkur | Magn | Eining | Svæði | Vöruhús |
 |----------|----------|----------------|--------------|----------|------|------|-----------|
-| NúverandiF | 10/10/22 | US-101         |              | 25       | hver   | 1    | 11        |
+| CurrentF | 10/10/22 |                |              | 35       | hver   | 1    | 11        |
+| CurrentF | 10/10/22 | US-101         |              | 25       | hver   | 1    | 11        |
 
-Vegna þess að það er aðeins ein framboðsspálína er aðeins eitt spátímabil.
+Í þessu tilviki meðhöndlar kerfið línuna sem tilgreinir ekki lánardrottinn sem almenna spá, og gerir ráð fyrir að línan sem tilgreinir lánardrottinn eigi að vera dregin frá almennu spánni. Því mun aðaláætlanagerð búa til eftirfarandi áætlaðar innkaupapantanir á vörunni:
 
-Þegar þú keyrir aðaláætlun sem er sett upp til að nota *Viðskipti – kraftmikið tímabil* sem minnkunaraðferðin getur ein af eftirfarandi niðurstöðum komið fram:
+- Áætluð innkaupapöntun fyrir magnið *25 ea* frá lánardrottinn *US-101* (Lánardrottinn og magnið sem tilgreint er í spálínunni eru notuð).
+- Áætluð innkaupapöntun fyrir magnið *10 ea* frá lánardrottni *US-002* (Þar sem enginn söluaðili var tilgreindur í hinni spálínunni er sjálfgefni lánardrottinn notaður og magnið af þessari spálínu er minnkað um magn spálínu lánardrottins).
 
-- Ef innkaupapöntun er til fyrir lánardrottinn *US-101* og magn af *10 ea*, og **Framboðsspá** reiturinn er stilltur á *Já*, aðalskipulag stofnar nýja áætlaða innkaupapöntun fyrir eftirstandandi magn af *10 ea*. Spálínan minnkar, vegna þess að lánardrottinn passar við núverandi innkaupapöntun.
-- Ef innkaupapöntun er til fyrir lánardrottinn *US-102*, síða *1*, vöruhús *11*, og magn af *10 ea*, og **Framboðsspá** reiturinn er stilltur á *Já*, aðalskipulag stofnar nýja áætlaða innkaupapöntun fyrir allt magn af *25 ea*. Ekki er hægt að minnka spálínuna, vegna þess að hún er með annan lánardrottinn en núverandi innkaupapöntun.
+### <a name="example-3-plans-that-use-the-transactions---dynamic-period-reduction-method-in-a-single-forecast-period"></a>Dæmi 3: Áætlanir sem nota aðferðina Færslur - breytilegt tímabilsminnkun á einu spátímabili
+
+Fyrir aðaláætlanir sem nota *Færslur - breytilegt tímabil* sem aðferð til að minnka spá, mun aðaláætlanagerð draga úr spámagni ef fyrirliggjandi færslur eru til staðar sem samsvara þessum framboðseiginleikum.
+
+Þú ert t.d. með vöru þar sem sjálfgefna gerð pöntunar er *Innkaupapöntun*. Hún eru með eftirfarandi línu eftirspurnarspár.
+
+| Líkan    | Dagsetning     | Lykill lánardrottins | Lánardrottnaflokkur | Magn | Eining | Svæði | Vöruhús |
+|----------|----------|----------------|--------------|----------|------|------|-----------|
+| CurrentF | 10/10/22 | US-101         |              | 25       | hver   | 1    | 11        |
+
+Vegna þess að aðeins er um eina birgðaspárlínu að ræða er aðeins um eitt spártímabil að ræða.
+
+Þegar þú keyrir aðaláætlun sem er sett upp til að nota *Færslur – breytilegt tímabil* sem minnkunaraðferð, skilar slíkt einni af eftirfarandi niðurstöðum:
+
+- Ef innkaupapöntun er til fyrir lánardrottinn *US-101* og magnið er *10 ea* og reiturinn **Birgðaspá** er stillt á *Já*, býr aðaláætlanagerð til nýja áætlaða innkaupapöntun fyrir það magn sem eftir er af *10 ea*. Spárlínan er lækkuð, vegna þess að lánardrottinn passar við núverandi innkaupapöntun.
+- Ef innkaupapöntun er til fyrir lánardrottinn *US-102* svæði *1*, vöruhús *11* og magnið er *10 ea* og reiturinn **Birgðaspá** er stillt á *Já*, býr aðaláætlanagerð til nýja áætlaða innkaupapöntun fyrir það magn sem eftir er af *25 ea*. Ekki er hægt að lækka spárlínuna, því hún er með annan lánardrottin en núverandi innkaupapöntun.
 
 > [!NOTE]
-> Þetta ástand getur komið upp fyrir áætlaðar innkaupapantanir, vegna þess að lánardrottinn er tengdur þeim. Hins vegar, fyrir flutningspantanir og framleiðslupantanir, verða framboðspáupphæðir alltaf lækkaðar um fyrirliggjandi pantanir, vegna þess að enginn lánardrottinn er tilgreindur fyrir þessar tegundir pantana.
+> Þessi staða getur komið upp fyrir áætlaðar innkaupapantanir, vegna þess að lánardrottinn er tengdur þeim. Hins vegar, fyrir flutningspantanir og framleiðslupantanir, mun magn birgðaspáin alltaf lækka með fyrirliggjandi pöntunum, vegna þess að enginn lánardrottinn er tilgreindur fyrir þessar tegundir pantana.
 
-### <a name="example-4-plans-that-use-the-transactions---dynamic-period-reduction-method-over-several-forecast-periods"></a>Dæmi 4: Áætlanir sem nota Færslur - breytilegt tímabilslækkunaraðferð yfir nokkur spátímabil
+### <a name="example-4-plans-that-use-the-transactions---dynamic-period-reduction-method-over-several-forecast-periods"></a>Dæmi 4: Áætlanir sem nota aðferðina Færslur - breytilegt tímabilsminnkunaraðferð á nokkrum spátímabilum
 
-Þú ert með hlut þar sem sjálfgefin pöntunartegund er *Pöntun*. Það hefur eftirfarandi framboðsspálínur.
-
-| Líkan    | Dagsetning     | Lykill lánardrottins | Lánardrottnaflokkur | Magn | Eining | Svæði | Vöruhús |
-|----------|----------|----------------|--------------|----------|------|------|-----------|
-| NúverandiF | 10/10/22 | US-101         |              | 25       | hver   | 1    | 11        |
-| NúverandiF | 10/15/22 | US-101         |              | 25       | hver   | 1    | 11        |
-
-Í þessu dæmi eru tvær spálínur sem hver um sig hefur mismunandi dagsetningu. Þess vegna setja dagsetningar mörk spátímabilanna. Fyrsta tímabilið er frá 10. október til og með 14. október 2022 (10/10/22–10/14/22). Annað er frá 15. október 2022 (10/15/22) og áfram.
-
-Það er fyrirliggjandi innkaupapöntun fyrir lánardrottin *US-101*, magn af *10 ea*, og dagsetninguna *10/12/22* (12. október 2022). Þegar þú keyrir aðaláætlun sem er sett upp til að nota *Viðskipti – kraftmikið tímabil* sem lækkunaraðferðin mun það búa til eftirfarandi pantanir:
-
-- Fyrirhuguð pöntun fyrir magn af *15 ea* og dagsetninguna *10/10/22* (Magnið er minnkað með núverandi innkaupapöntun sem er dagsett á sama spátímabili.)
-- Fyrirhuguð pöntun fyrir magn af *25 ea* og dagsetninguna *15.10.22* (Magnið er allt magn spáarinnar.)
-
-### <a name="example-5-plans-that-use-no-reduction"></a>Dæmi 5: Áætlanir sem nota enga lækkun
-
-Þegar þú keyrir áætlun þar sem spálækkunaraðferðin er *Enginn*, aðalskipulag mun alltaf búa til áætlað framboð fyrir allar framboðsspárlínur. Eftir að fyrirhugað framboð hefur verið samþykkt mun það draga úr pöntunum í framtíðinni. Hins vegar munu innkaupapantanir ekki draga úr framboðsspálínum.
-
-Til dæmis ertu með vöru þar sem sjálfgefin pöntunartegund er *Pöntun*. Það hefur eftirfarandi framboðsspálínu.
+Þú ert með vöru þar sem sjálfgefna gerð pöntunar er *Innkaupapöntun*. Hún eru með eftirfarandi línur eftirspurnarspár.
 
 | Líkan    | Dagsetning     | Lykill lánardrottins | Lánardrottnaflokkur | Magn | Eining | Svæði | Vöruhús |
 |----------|----------|----------------|--------------|----------|------|------|-----------|
-| NúverandiF | 10/10/22 | US-101         |              | 25       | hver   | 1    | 11        |
+| CurrentF | 10/10/22 | US-101         |              | 25       | hver   | 1    | 11        |
+| CurrentF | 15/10/22 | US-101         |              | 25       | hver   | 1    | 11        |
 
-Það er fyrirliggjandi innkaupapöntun fyrir lánardrottinn *US-101*, síða *1*, vöruhús *11*, magn af *25 ea*, og dagsetninguna *10/10/22*. 
+Í þessu dæmi eru tvær spárlínur sem hvor um sig hefur aðra dagsetningu. Þar af leiðandi stilla dagsetningarnar mörk spátímabilanna. Fyrsta tímabil er frá 10. október til og með 14. október 2022 (10/10/22–10/14/22). Sú seinni er frá 15. október 2022 (10/15/22) og seinna.
 
-Þegar þú keyrir aðaláætlun sem er sett upp til að nota *Enginn* sem lækkunaraðferð mun það búa til fyrirhugaða innkaupapöntun fyrir lánardrottinn *US-101*, síða *1*, vöruhús *11*, magn af *25 ea*, og dagsetninguna *10/10/22*. Með öðrum orðum, núverandi innkaupapöntun verður ekki lækkuð, vegna þess að spálækkunaraðferðin er *Enginn*.
+Fyrir liggur innkaupapöntun fyrir lánardrottinn *US-101* magnið er *10 ea* og dagsetningin er *10/12/22* (12. október 2022). Þegar þú keyrir aðaláætlun sem er sett upp til að nota *Færslur – breytilegt tímabil* sem lækkunaraðferð, mun það búa til eftirfarandi pantanir:
 
-Þú breytir nú áætlaðri innkaupapöntun sem var stofnuð eftir síðustu áætlunarkeyrslu og breytir magninu í *15 ea*. Þú samþykkir síðan pöntunina. Næst þegar þú keyrir aðaláætlunina mun hún stofna fyrirhugaða innkaupapöntun fyrir lánardrottinn *US-101*, síða *1*, vöruhús *11*, magn af *10 ea*, og dagsetninguna *10/10/22*. Að þessu sinni verður magnið minnkað til að endurspegla magn núverandi samþykktrar pöntunar frá fyrri áætlunargerð.
+- Fyrirhuguð pöntun fyrir magnið *15 ea* og dagsetninguna *10/10/22* (magnið er lækkað með fyrirliggjandi innkaupapöntun sem er dagsett á sama spátímabili).
+- Fyrirhuguð pöntun fyrir magnið *25 ea* og dagsetninguna *10/15/22* (magnið er allt magn spárinnar).
 
-## <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Munur á hagræðingu áætlanagerðar og úreltu aðalskipulagsvélarinnar
+### <a name="example-5-plans-that-use-no-reduction"></a>Dæmi 5: Áætlanir sem nota enga minnkun
 
-Framboðsspár virka aðeins öðruvísi, allt eftir áætlanagerðarvélinni sem þú ert að nota (Áætlanagerð fínstilling eða úrelt aðalskipulagsvél). Þessi hluti lýsir muninum.
+Þegar keyrð er áætlun þar sem spáminnkunaraðferðin er *Engin*, mun aðaláætlun alltaf búa til áætlað framboð fyrir allar birgðaspárlínur. Eftir að áætlað framboð hefur verið samþykkt mun það draga úr áætluðum pöntunum í framtíðinni. Hins vegar munu innkaupapantanir ekki draga úr birgðaspárlínunum.
+
+Þú ert t.d. með vöru þar sem sjálfgefna gerð pöntunar er *Innkaupapöntun*. Hún eru með eftirfarandi línu eftirspurnarspár.
+
+| Líkan    | Dagsetning     | Lykill lánardrottins | Lánardrottnaflokkur | Magn | Eining | Svæði | Vöruhús |
+|----------|----------|----------------|--------------|----------|------|------|-----------|
+| CurrentF | 10/10/22 | US-101         |              | 25       | hver   | 1    | 11        |
+
+Fyrir liggur innkaupapöntun fyrir lánardrottinn *US-101*, svæði *1*, vöruhús *11* magnið er *25 ea* og dagsetningin er *10/10/22*. 
+
+Þegar þú rekur aðaláætlun sem er sett upp til að nota *Ekkert* sem minnkunaraðferð mun það búa til áætlaða innkaupapöntun fyrir lánardrottinn *US-101*, svæði *1*, vöruhús *11*, magn sem nemur *25 ea* og dagsetninguna *10/10/22*. Með öðrum orðum, núverandi innkaupapöntun verður ekki lækkuð, vegna þess aðferð við lækkun spár er *Engin*.
+
+Þú getur nú breytt áætlaðri innkaupapöntun sem var stofnuð eftir síðustu áætlunarkeyrslu og breytt magninu í *15 ea*. Síðan samþykkir þú pöntunina. Næst þegar þú keyrir aðaláætlun mun það búa til áætlaða innkaupapöntun fyrir lánardrottinn *US-101*, svæði *1*, vöruhús *11*, magn sem nemur *10 ea* og dagsetninguna *10/10/22*. Í þetta sinn verður magnið lækkað í samræmi við magn núverandi samþykkts pöntunar frá fyrri áætlanakeyrslu.
+
+## <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Munur á fínstillingu skipuluagningar og úreltri aðaláætlunarvél
+
+Birgðaspár virka aðeins öðruvísi, eftir því hvaða aðaláætlunarvél þú notar (Fínstilling áætlanagerðar eða úreltu aðaláætlunarvélina). Í þessum hluta er mismuninum lýst.
 
 ### <a name="vendor-groups"></a>Lánardrottnaflokkar
 
-Þegar þú bætir við spálínu er hægt að tilgreina lánardrottinn og lánardrottnahóp. Í úreltu aðalskipulagsvélinni eru áætlaðar pantanir sem eru stofnaðar flokkaðar eftir samsetningu gildi lánardrottins og lánardrottinshóps. Í Hagræðingu áætlanagerðar eru áætlaðar pantanir flokkaðar eftir lánardrottni.
+Þegar áætlaðri línu er bætt við er hægt að tilgreina lánardrottinn eða lánardrottnaflokk. Í aðaláætlunarvélinni eru áætlaðar pantanir sem eru búnar til flokkaðar eftir samsettum gildum lánardrottins og lánardrottnaflokks. Í fínstillingu skipulagningar eru áætlaðar pantanir flokkaðar eftir lánardrottni.
 
-Eftirfarandi tafla gefur nokkur dæmi um framboðsspálínur fyrir vöru.
+Eftirfarandi tafla sýnir nokkur dæmi um birgðaspárlínur fyrir vöru.
 
 | Líkan    | Dagsetning     | Lykill lánardrottins | Lánardrottnaflokkur | Magn | Eining | Svæði | Vöruhús |
 |----------|----------|----------------|--------------|----------|------|------|-----------|
-| NúverandiF | 10/10/22 |                | Seljandi GroupA | 5        | hver   | 1    | 11        |
-| NúverandiF | 10/10/22 |                | Seljandi GroupA | 6        | hver   | 1    | 11        |
-| NúverandiF | 10/10/22 |                |              | 7        | hver   | 1    | 11        |
+| CurrentF | 10/10/22 |                | VendorGroupA | 5        | hver   | 1    | 11        |
+| CurrentF | 10/10/22 |                | VendorGroupA | 6        | hver   | 1    | 11        |
+| CurrentF | 10/10/22 |                |              | 7        | hver   | 1    | 11        |
 
-Seljandi *Seljandi A* er sjálfgefinn lánardrottinn fyrir lánardrottnahóp *Seljandi GroupA*. Það er líka sjálfgefinn söluaðili vörunnar.
+Lánardrottinn *VendorA* er sjálfgefni lánardrottinn fyrir lánardrottnaflokkinn *VendorGroupA*. Hann er einnig sjálfgefinn lánardrottinn vörunnar.
 
-Úrelta aðalskipulagsvélin mun búa til eftirfarandi pantanir:
+Úrelt aðaláætlunarvél býr til eftirfarandi pantanir:
 
-- Fyrirhuguð innkaupapöntun fyrir seljanda *Seljandi A*, söluaðila hópur *Seljandi GroupA*, og magn af *11*
-- Fyrirhuguð innkaupapöntun fyrir seljanda *Seljandi A* og magn af *7*
+- Áætluð innkaupapöntun fyrir lánardrottinn *VendorA*, lánardrottnaflokk *VendorGroupA* og magn sem nemur *11*
+- Áætluð innkaupapöntun fyrir lánardrottinn *VendorA* og magn sem nemur *7*
 
-Hagræðing áætlanagerðar mun aðeins búa til eina pöntun:
+Fínstilling skipulagningar mun búa til bara eina pöntun:
 
-- Fyrirhuguð innkaupapöntun fyrir seljanda *Seljandi A*, söluaðila hópur *Seljandi GroupA*, og magn af *18*
+- Áætluð innkaupapöntun fyrir lánardrottinn *VendorA*, lánardrottnaflokk *VendorGroupA* og magn sem nemur *18*
 
-### <a name="reduction-of-general-forecasts-by-more-specific-forecasts"></a>Fækkun almennra spáa með sértækari spám
+### <a name="reduction-of-general-forecasts-by-more-specific-forecasts"></a>Lækkun almennra spáa með því að nota sértækari spár
 
-Í úreltu aðalskipulagsvélinni er niðurstaðan ófyrirsjáanleg ef sumar spár hafa lánardrottinn en aðrar ekki.
+Í úreltu aðaláætlunarvélinni er niðurstaðan ófyrirsjáanleg ef sumar spár eru með lánardrottinn en aðrar ekki.
 
-Í Hagræðingu áætlanagerðar eru almennar spár alltaf minnkaðar með nákvæmari spám, eins og eftirfarandi dæmi sýnir.
+Í fínstilling skipulagningar eru almennar spár alltaf lækkaðar með sértækari spám, eins og eftirfarandi dæmi sýnir.
 
-Eftirfarandi tafla gefur nokkur dæmi um framboðsspálínur fyrir vöru.
-
-| Dagsetning       | Magn | Lánardrottinn   | Lánardrottnaflokkur  |
-|------------|----------|----------|---------------|
-| 02/11/2022 | 5.00     | Seljandi-A | Seljandi Group-A |
-| 02/11/2022 | 6,00     | Seljandi-A | Seljandi Group-A |
-| 02/11/2022 | 15.00    |          |               |
-
-Almenna spáin (fyrir 15.00 stykki) minnkar með nákvæmari spám (fyrir 5.00 + 6.00 = 11.00 stykki). Afgangurinn er úthlutað til sjálfgefna lánardrottins. Eftirfarandi tafla sýnir fyrirhugaðar pantanir.
+Eftirfarandi tafla sýnir nokkur dæmi um birgðaspárlínur fyrir vöru.
 
 | Dagsetning       | Magn | Lánardrottinn   | Lánardrottnaflokkur  |
 |------------|----------|----------|---------------|
-| 02/11/2022 | 11,00    | Seljandi-A | Seljandi Group-A |
-| 02/11/2022 | 4.00     | Seljandi-A | Seljandi Group-A |
+| 11/02/2022 | 5.00     | Lánardrottinn-A | VendorGroup-A |
+| 11/02/2022 | 6,00     | Lánardrottinn-A | VendorGroup-A |
+| 11/02/2022 | 15.00    |          |               |
 
-### <a name="respect-for-default-order-settings-when-planned-orders-are-generated"></a>Virðing fyrir sjálfgefnum pöntunarstillingum þegar áætlaðar pantanir eru búnar til
+Almenn spá (fyrir 15,00 stykki) er lækkuð með sértækari spám (fyrir 5,00 + 6,00 = 11,00 stykki). Afganginum er úthlutað til sjálfgefins lánardrottins. Eftirfarandi tafla sýnir áætlaðar pantanir.
 
-Hver vara getur haft sjálfgefnar pöntunarstillingar, svo sem lágmarks innkaupapöntunarmagn. Úrelta aðalskipulagsvélin hunsar þessar stillingar og þýðir því spár í áætlaðar pantanir sem hafa sama magn. Hagræðing áætlanagerðar virðir þessar stillingar þegar áætlaðar pantanir eru búnar til úr framboðsspám. 
+| Dagsetning       | Magn | Lánardrottinn   | Lánardrottnaflokkur  |
+|------------|----------|----------|---------------|
+| 11/02/2022 | 11,00    | Lánardrottinn-A | VendorGroup-A |
+| 11/02/2022 | 4.00     | Lánardrottinn-A | VendorGroup-A |
 
-### <a name="aggregation-of-planned-orders-as-a-result-of-reduction-by-approved-orders"></a>Söfnun áætluðum pöntunum vegna lækkunar með samþykktum pöntunum
+### <a name="respect-for-default-order-settings-when-planned-orders-are-generated"></a>Vinnsla á sjálfgefnum pöntunarstillingum þegar áætlaðar pantanir eru stofnaðar
 
-Úrelta aðalskipulagsvélin gerir ráð fyrir að aðeins ein pöntun muni draga úr núverandi framboðsspá. Þess vegna, ef nokkrar pantanir passa við framboðsspálínu, mun aðeins fyrsta pöntunin draga úr henni. Í Hagræðingu áætlanagerðar munu allar pantanir sem passa við framboðsspálínuna draga úr henni.
+Hver vara getur haft sjálfgefnar pöntunarstillingar, eins og til dæmis lágmarksmagn innkaupapöntunar. Úrelt aðaláætlunarvél hunsar þessar stillingar og breytir því áætluðum spám í áætlaðar pantanir sem hafa sama magn. Fínstilling áætlanagerðar tekur mið af þessar stillingar þegar áætlaðar pantanir eru búnar til úr birgðaspám. 
 
-### <a name="reduction-of-forecasts-by-matching-vendors-only"></a>Minnkun á spám með því að passa við söluaðila eingöngu
+### <a name="aggregation-of-planned-orders-as-a-result-of-reduction-by-approved-orders"></a>Uppsöfnun áætlaðra pantana vegna lækkunar af samþykktum pöntunum
 
-Þegar úrelt aðalskipulagsvél dregur úr spá með fyrirliggjandi útgefnum innkaupapantunum, tryggir það ekki að lánardrottinn á innkaupapöntuninni passi við lánardrottinn úr spánni. Hagræðing áætlanagerðar dregur aðeins úr spám með innkaupapöntunum sem hafa samsvarandi gildi í reitnum lánardrottins.
+Úrelt aðaláætlunarvél gerir ráð fyrir að aðeins ein pöntun dragi úr fyrirliggjandi afgreiðsluspá. Þess vegna, ef nokkrar pantanir passa við birgðaspálína, mun aðeins fyrsta pöntunin lækka hana. Í fínstillingu skipulagningar munu allar pantanir sem passa við birgðaspálínuna lækka hana.
 
-Fyrir flutnings- og framleiðslupantanir er reiturinn lánardrottinn alltaf hunsaður, vegna þess að hann á ekki við um þessar pöntunargerðir.
+### <a name="reduction-of-forecasts-by-matching-vendors-only"></a>Aðeins fækka spám samkvæmt samsvarandi lánardrottnum
 
-### <a name="reduction-of-forecasts-by-transfer-orders"></a>Fækkun spár með millifærslupöntunum
+Þegar úrelta aðaláætlunarvélin lækkar spá með því að gefa út fyrirliggjandi innkaupapantanir, tryggir það ekki að lánardrottinn á innkaupapöntuninni passi við lánardrottinn í spánni. Fínstilling áætlanagerðar dregur aðeins úr spám með innkaupapöntunum sem hafa samsvarandi gildi í reit lánardrottins.
 
-Ef sjálfgefin pöntunartegund fyrir vöru er *Flytja*, aðeins er hægt að minnka spár með fyrirliggjandi fyrirhuguðum flutningspöntunum. Hins vegar, fyrir framleiðslupantanir og innkaupapantanir, draga aðeins út pantanir úr framboðsspánni.
+Fyrir flutnings- og framleiðslupantanir er reiturinn fyrir lánardrottinn alltaf hunsaður, því það skiptir ekki máli fyrir þær pöntunartegundir.
 
-Úrelta aðalskipulagsvélin minnkar fyrir öll flutningspöntunarstöður, en áætlanagerð fínstilling dregur aðeins úr spám með flutningspöntunum sem eru í *Gefin út* ríki.
+### <a name="reduction-of-forecasts-by-transfer-orders"></a>Lækkun spáar vegna flutningspantana
+
+Ef sjálfgefna pöntunargerðin fyrir vöru er *Flutningur* er aðeins hægt að lækka spár með fyrirliggjandi áætluðum flutningspöntunum. Hins vegar, fyrir framleiðslupantanir og innkaupapantanir, aðeins losaðar pantanir lækka birgðaspá.
+
+Úrelt aðaláætlunarvél lækkar stöðu allra flutningspantana, en fínstilling skipulagningar lækkar aðeins spár með flutningspöntunum í stöðunni *Losað*.

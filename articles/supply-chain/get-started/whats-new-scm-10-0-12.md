@@ -1,6 +1,6 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.12 (ágúst 2020)
-description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir Dynamics 365 Supply Chain Management 10.0.12.
+description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
 ms.date: 05/29/2020
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
 ms.openlocfilehash: d3bb636ed3b807b6017e70ab2051a414cd69af40
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9123899"
@@ -25,7 +25,7 @@ ms.locfileid: "9123899"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management 10.0.12. Þessi útgáfa er með byggingarnúmer 10.0.507 og er fáanlegt á eftirfarandi hátt:
+Þessi grein lýsir nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management 10.0.12. Þessi útgáfa er með byggingarnúmer 10.0.507 og er fáanlegt á eftirfarandi hátt:
 
 - **Prufuútgáfa:** maí 2020
 - **Almennt framboð (sjálfsuppfærsla):** júlí 2020
@@ -47,7 +47,7 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengj
 
 - [Endurbætur á móttöku númeraplötu fyrir vöruhúsaforrit (framhald)](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Frekari upplýsingar er að finna í [Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Fjölda dreifing fyrir Warehouse mobile app](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Frekari upplýsingar eru í [Setja upp og skilgreina farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md).
+- [Fjöldadreifing fyrir Warehouse mobile app](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Frekari upplýsingar eru í [Setja upp og skilgreina farsímaforrit vöruhúsakerfis](../warehousing/install-configure-warehouse-management-app.md).
 
 - [Hámarkskeyrslutími á hreinsunarvinnslu lagerbirgðafærslna vöruhúsakerfis](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Frekari upplýsingar er að finna í [Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis](../warehousing/onhand-cleanup.md).
 
@@ -55,9 +55,9 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengj
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstraröpp
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir fjármála- og rekstrarforrit.
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.12 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Palluppfærslur fyrir útgáfu 10.0.12 af fjármála- og rekstraröppum (ágúst 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.12 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.12 á forritum fjármála- og reksturs (ágúst 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 
@@ -71,12 +71,12 @@ Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 1 áætlun](/dynamics365-release-p
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 
-The [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein lýsir eiginleikum sem hafa verið eða áætlað er að verði fjarlægðir eða úreltir fyrir Supply Chain Management.
+Greinin [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) lýsir eiginleikum sem hafa verið eða á að fjarlægja eða úrelda fyrir Supply Chain Management.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
 
-Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um úreldingu tilkynnt í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein 12 mánuðum fyrir brottnám.
+Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um afskriftir tilkynnt í greininni [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mánuðum fyrir fjarlægingu.
 
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
 

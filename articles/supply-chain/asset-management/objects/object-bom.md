@@ -1,6 +1,6 @@
 ---
 title: Eignauppskriftir
-description: Þessi grein lýsir eignaskrám (BOMs) í eignastýringu.
+description: Þessi grein lýsir uppskriftum eigna í eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 665c705e3ffb617fc159a1223cb3f776878d5cd2
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016247"
@@ -28,7 +28,7 @@ ms.locfileid: "9016247"
 
  
 
-Þessi grein lýsir eignaskrám (BOMs) í eignastýringu. Síðan **Uppskrift eignar** sýnir lista yfir alla hluti (varahluti og aðra hluti) sem eru notaðir á eign alla sína ævi. Þegar þú býrð til nýja eign, ættir þú að íhuga að setja upp uppskrift eignar sem hluta af uppsetningarferlinu. Á þennan hátt getur þú fylgst með sögu sögu eignarinnar frá stofnunardegi.
+Þessi grein lýsir uppskriftum eigna í eignastýringu. Síðan **Uppskrift eignar** sýnir lista yfir alla hluti (varahluti og aðra hluti) sem eru notaðir á eign alla sína ævi. Þegar þú býrð til nýja eign, ættir þú að íhuga að setja upp uppskrift eignar sem hluta af uppsetningarferlinu. Á þennan hátt getur þú fylgst með sögu sögu eignarinnar frá stofnunardegi.
 
 Eftir að þú hefur lokið viðhaldsstörfum og neysla á hlutum hefur verið skráð í vinnupöntun geturðu fylgst með neyslu varahluta og annarra hluta sem eru notaðir á eignina. Þessi virkni gerir þér kleift að halda fullkomna neysluskrá hluta fyrir allar eignir þínar. Til dæmis er hægt að nota skrána til að fylgjast með því hvort skipt er um ákveðinn varahlut eða oft til að fylgjast með varahlutunum eða öðrum hlutum sem nú eru notaðir á eign.
 
@@ -57,7 +57,7 @@ Uppsetning sögu varahluta er byggð á vöruflokkum sem eru búnir til í einin
 
 Eftir að þú hefur sent vöruneyslu í verkbeiðni geturðu skoðað skráða neyslu hlutar á síðunni **Uppskrift eignar**.
 
-1. Veldu **Eignastýring** \> **Eignir** \> **Virkar eignir**. Veldu eignina á listanum og veldu síðan **Uppskrift eignar**.
+1. Veljið **Eignastýring** \> **Eignir** \> **Virkar eignir**. Veldu eignina á listanum og veldu síðan **Uppskrift eignar**.
 
     > [!NOTE]
     > Veldu til að skoða allar neysluvörur skráningar á allar eignir **Eignastýring** \> **Fyrirspurnir** \> **Eignir** \> **Uppskrift eignar**.

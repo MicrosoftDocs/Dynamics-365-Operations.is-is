@@ -1,6 +1,6 @@
 ---
 title: Blöndun á afurðarvídd staðsetningar
-description: Þessi grein veitir upplýsingar um blöndun staðsetningarvöruvíddar. Þessi virkni staðsetningarforstillingar hjálpar til við að bæta staðsetningarstjórnun þegar afurðarafbrigði eða afurðir með víddir eru notaðar, svo sem í tískuiðnaðinum. Það gerir þér kleift að ákveða hvort hægt sé að blanda stillingum, litum, stílum og stærðum fyrir tiltekna staðsetningarforstillingu, eða hvort hægt sé að setja eina af þessum víddum eða samsetningu þeirra á sömu staðsetninguna.
+description: Þessi grein inniheldur upplýsingar um blöndun á afurðarvídd staðsetningar. Þessi virkni staðsetningarforstillingar hjálpar til við að bæta staðsetningarstjórnun þegar afurðarafbrigði eða afurðir með víddir eru notaðar, svo sem í tískuiðnaðinum. Það gerir þér kleift að ákveða hvort hægt sé að blanda stillingum, litum, stílum og stærðum fyrir tiltekna staðsetningarforstillingu, eða hvort hægt sé að setja eina af þessum víddum eða samsetningu þeirra á sömu staðsetninguna.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
 ms.openlocfilehash: 9daf6061d56ef004753114aaffa8eb580cea1186
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8885726"
@@ -26,9 +26,9 @@ ms.locfileid: "8885726"
 
 Blöndun á afurðarvídd staðsetningar er staðsetningarforstilling sem hjálpar til við að bæta staðsetningarstjórnun þegar afurðarafbrigði eða afurðir með víddir eru notaðar, svo sem í tískuiðnaðinum. Það gerir þér kleift að ákveða hvort hægt sé að blanda stillingum, litum, stílum og stærðum fyrir tiltekna staðsetningarforstillingu, eða hvort hægt sé að setja eina af þessum víddum eða samsetningu þeirra á sömu staðsetninguna.
 
-## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum fyrir blöndun staðsetningarvöruvíddar
+## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Kveikja eða slökkva á eiginleika fyrir blöndun afurðarvíddar á staðsetningu
 
-Til að nota virknina sem lýst er í þessari grein, *Staðsetning vöruvíddarblöndun* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Staðsetning vöruvíddarblöndun* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota virknina sem lýst er í þessari grein verður að vera kveikt á eiginleikanum *Blöndun á afurðarvídd staðsetningar* fyrir kerfið. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Blöndun á afurðarvídd staðsetningar* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Uppsetning
 
@@ -44,7 +44,7 @@ Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu teng
     > [!NOTE]
     > Þú getur aðeins stillt valkostinn á *Já* ef valkosturinn **Leyfa blandaðar afurðir** er stilltur á *Nei*.
 
-1. Á flýtiflipanum **Leyfð blöndun á afurðarvídd** skaltu stilla valkostinn **Stærð** á *Já*. Í atburðarásinni sem lýst er í þessari grein er aðeins hægt að blanda vörum sem hafa mismunandi **Stærð** mál. Aðrir valkostir eru einnig í boði.
+1. Á flýtiflipanum **Leyfð blöndun á afurðarvídd** skaltu stilla valkostinn **Stærð** á *Já*. Við aðstæðurnar sem lýst er í þessari grein er aðeins hægt að blanda afurðum sem hafa mismunandi **Stærðarvíddir**. Aðrir valkostir eru einnig í boði.
 1. Veljið **Vista**.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Stofna nýtt afurðarsniðmát og ný afurðarafbrigði

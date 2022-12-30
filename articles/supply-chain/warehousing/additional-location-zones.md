@@ -1,6 +1,6 @@
 ---
 title: Viðbótargögn um staðsetningu
-description: Þessi grein veitir yfirlit yfir nýju staðsetningarsvæðin sem hefur verið bætt við Microsoft Dynamics 365 Supply Chain Management.
+description: Í þessari grein er að finna yfirlit yfir nýjar staðsetningar sem bætt hefur verið við Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 08/09/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 819330e0f6e6cd419da441f919d68ff996b6475c
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9336516"
@@ -30,9 +30,9 @@ ms.locfileid: "9336516"
 
 Ekki er krafist frekari uppsetningar til að nota svæðareitina.
 
-## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum Viðbótarstaðsetningarsvæði
+## <a name="turn-the-additional-location-zone-feature-on-or-off"></a>Kveikja eða slökkva á eiginleika „Fleiri staðsetningarsvæði“
 
-Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á eiginleikanum. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Viðbótarstaðsetningarsvæði* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika þarf að kveikja á honum fyrir kerfið þitt. Sem hluti af Supply Chain Management, útgáfa 10.0.25, er sjálfgefið kveikt á þessum eiginleika. (Frá og með útgáfu 10.0.29 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á honum.) Ef þú ert að keyra útgáfu sem er eldri en 10.0.29, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Viðbótargögn um staðsetningu* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="use-location-zones"></a>Nota staðsetningar
 

@@ -1,6 +1,6 @@
 ---
 title: Fartækjavinnusvæði samstarfs lánardrottna
-description: Þessi grein veitir upplýsingar um farsímavinnusvæði lánardrottins samstarfs. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
+description: Þessi grein veitir upplýsingar um fartækjavinnusvæðið Samstarf lánardrottna. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 75c044d1133e1c4765cd97f4ab7e2a08ba998c35
 ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/02/2022
 ms.locfileid: "9112151"
@@ -26,9 +26,9 @@ ms.locfileid: "9112151"
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Þessi grein veitir upplýsingar um **Samstarf söluaðila** færanlegt vinnusvæði. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
+Þessi grein veitir upplýsingar um fartækjavinnusvæðið **Samstarf lánardrottna**. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
 
-Þetta farsímavinnusvæði er ætlað til notkunar með fjármála- og rekstrarforritinu (Dynamics 365).
+Þessu fartækjavinnusvæði er ætlað til að nota með farsímaforritum Fjármála- og reksturs (Dynamics 365) .
 
 ## <a name="overview"></a>Yfirlit 
 Fartækjavinnusvæðið **Samstarf lánardrottna** heldur lánardrottnum upplýstum um nýjar innkaupapantanir svo að hægt sé að skoða innkaupapantanir og síðan svara þeim í vefbiðlara. 
@@ -97,7 +97,7 @@ Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 
 </tr>
 <tr class="even">
 <td>Notandi lánardrottins verður að hafa aðgang að vefviðmótinu Samvinnusvæði lánardrottins í vefbiðlaranum og verður að setja upp samvinnusvæði notanda lánardrottins.</td><td>Innkaupasérfræðingar og kerfisstjóri</td>
-<td>Fylgdu skrefunum í eftirfarandi greinum til að setja upp og vinna með samstarfsvefviðmót söluaðila.
+<td>Fylgja skal skrefunum í eftirfarandi greinum til að setja upp og vinna með vefviðmóti samstarfs lánardrottna.
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Nota samstarf lánardrottna við ytri lánardrottna</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Stjórna notendum fyrir samstarf lánardrottna</a></li>
@@ -110,7 +110,7 @@ Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
 
-Sæktu og settu upp fjármála- og rekstrarforritið (Dynamics 365):
+Sækið Fjármála- og rekstrarforrit (Dynamics 365) fyrir fartæki
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)

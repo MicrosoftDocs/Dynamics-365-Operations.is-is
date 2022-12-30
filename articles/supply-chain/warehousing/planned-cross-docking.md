@@ -1,6 +1,6 @@
 ---
 title: Áætluð dreifing frá dreifingarstöð
-description: Þessi grein lýsir háþróaðri skipulögðri bryggju, þar sem birgðamagninu sem þarf fyrir pöntun er beint beint frá móttöku eða stofnun á rétta bryggju á útleið eða stöðvunarsvæði. Öllum eftirstandandi birgðum frá upprunastaðnum á innleið verður beint að réttum geymslustað með hefðbundnu frágangsferli.
+description: Þessi grein lýsir háþróaðri, áætlaðri dreifingu frá dreifingarstöð þar sem birgðamagninu sem þarf til pöntunar er strax við móttöku eða stofnun beint á rétt úthlið eða sviðsetningarsvæði. Öllum eftirstandandi birgðum frá upprunastaðnum á innleið verður beint að réttum geymslustað með hefðbundnu frágangsferli.
 author: Mirzaab
 ms.date: 08/09/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
 ms.openlocfilehash: b530cc1403458775fd330e826a32417d3b03bf25
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9334566"
@@ -24,7 +24,7 @@ ms.locfileid: "9334566"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir háþróaðri fyrirhugaðri krosstengingu. Dreifing frá dreifingarstöð er vöruhúsaferli þar sem birgðamagnið sem þarf til pöntunar er strax við móttöku eða stofnun beint á rétt úthlið eða sviðsetningarsvæði. Öllum eftirstandandi birgðum frá upprunastaðnum á innleið verður beint að réttum geymslustað með hefðbundnu frágangsferli.
+Þessi grein lýsir háþróaðri, áætlaðri dreifingu frá dreifingarstöð. Dreifing frá dreifingarstöð er vöruhúsaferli þar sem birgðamagnið sem þarf til pöntunar er strax við móttöku eða stofnun beint á rétt úthlið eða sviðsetningarsvæði. Öllum eftirstandandi birgðum frá upprunastaðnum á innleið verður beint að réttum geymslustað með hefðbundnu frágangsferli.
 
 Dreifing frá dreifingarstöð gerir starfsmönnum kleift að sleppa frágangi á innleið og tiltekt á útleið á birgðum sem þegar eru merktar fyrir pöntun á útleið. Þar af leiðandi er dregið úr fjölda skipta sem hreyft er við birgðum, þegar slíku er við komið. Þar að auki, vegna þess að minni samskipti eru við kerfið, eykst sparnaður á tíma og rými í vinnusal vöruhússins til muna.
 
@@ -37,10 +37,10 @@ Dreifing frá dreifingarstöð gerir starfsmönnum kleift að sleppa frágangi �
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Kveikja á áætlaðri dreifingu frá dreifingarstöð
 
-Ef þú ert að keyra Supply Chain Management útgáfu 10.0.28 eða eldri gætirðu þurft að virkja fyrirhugaða krosstengingu áður en þú getur notað hana. Fara til [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á eftirfarandi eiginleikum í eftirfarandi röð:
+Ef þú ert að keyra Supply Chain Management útgáfu 10.0.28 eða eldri, gætirðu þurft að virkja fyrirhugaða tengistöð áður en þú getur notað hana. Farðu í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á eftirfarandi eiginleikum í eftirfarandi röð:
 
-1. *Áætluð dreifing frá dreifingarstöð*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er þessi eiginleiki nauðsynlegur og ekki hægt að slökkva á honum.)
-1. *Sniðmát dreifingar frá dreifingarstöð með staðsetningarleiðbeiningum*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á þessum eiginleika.)
+1. *Áætluð dreifing frá dreifingarstöð*<br>(Frá og með útgáfu 10.0.29 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á honum.)
+1. *Sniðmát dreifingar frá dreifingarstöð með staðsetningarleiðbeiningum*<br>(Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á þessum eiginleika.)
     > [!NOTE]
     > Þessi eiginleiki virkjar reitinn **Leiðbeiningarkóði** til að vera tilgreindur í sniðmáti dreifingar frá drefingarstöð á svipaðan hátt og áfyllingarsniðmát eru sett upp. Að virkja þennan eiginleika kemur í veg fyrir að þú bætir við leiðbeiningarkóða í sniðmátslínur dreifingar frá dreifingarstöð fyrir síðustu *Frágangslínuna*. Þetta tryggir að hægt er að ákveða lokastaðsetningu frágangs meðan á stofnun vinnu stendur áður en vinnusniðmát eru tekin til greina.
 
@@ -92,7 +92,7 @@ Ef þú ert að keyra Supply Chain Management útgáfu 10.0.28 eða eldri gætir
 
     - **Leiðbeiningarkóði:** Hafðu þetta svæði autt
 
-        Þessi valkostur er virkjaður af *Cross docking sniðmát með staðsetningarleiðbeiningum* eiginleiki (frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á eiginleikanum). Kerfið notar staðsetningarleiðbeiningar til að finna út bestu staðsetninguna til að dreifa birgðum frá dreifingarstöð. Hægt er að setja það upp með því að úthluta leiðbeiningarkóða á hvert sniðmát dreifingarstöðvar. Ef leiðbeiningarkóði er stilltur leitar kerfið í staðsetningarleiðbeiningum eftir leiðbeiningarkóða þegar vinna er búin til. Þannig er hægt að takmarka staðsetningarleiðbeiningar sem eru notaðar fyrir tiltekið sniðmát dreifingar frá dreifingarstöð.
+        Þessi valkostur er virkjaður af eiginleikanum *Sniðmát dreifingar frá dreifingarstöð með staðsetningarleiðbeiningum* (frá og með útgáfu 10.0.29 af Supply Chain Management er sjálfgefið kveikt á eiginleikanum). Kerfið notar staðsetningarleiðbeiningar til að finna út bestu staðsetninguna til að dreifa birgðum frá dreifingarstöð. Hægt er að setja það upp með því að úthluta leiðbeiningarkóða á hvert sniðmát dreifingarstöðvar. Ef leiðbeiningarkóði er stilltur leitar kerfið í staðsetningarleiðbeiningum eftir leiðbeiningarkóða þegar vinna er búin til. Þannig er hægt að takmarka staðsetningarleiðbeiningar sem eru notaðar fyrir tiltekið sniðmát dreifingar frá dreifingarstöð.
 
     - **Staðfesta tímaglugga:** *Já*
 
@@ -118,7 +118,7 @@ Ef þú ert að keyra Supply Chain Management útgáfu 10.0.28 eða eldri gætir
     - **Birgðauppruni:** *Innkaupapöntun*
 
 > [!NOTE]
-> Hægt er að setja upp fyrirspurn til að stýra hvenær tiltekið sniðmát dreifingarstöðvar er notað. Fyrirspurnin um krosstengingarsniðmát hefur aðeins *InventTable* (hlutir) borð og innri sameinuð *WHSInventTable* (WMS atriði) töflu. Ef þú vilt bæta öðrum töflum við fyrirspurnina geturðu tengt þær með því að nota aðeins *tengingar sem eru til* eða *tengingar sem eru ekki til*. Þegar þú síar sameinaðar töflur er færsla úr aðaltöflunni sótt fyrir hverja færslu samsvörunar í sameinaðri töflu. Ef gerð sameiningar er *tenging sem er til* hættir leitin eftir að fyrsta samsvörun hefur fundist. Ef þú til dæmis sameinar töflu sölupöntunarlínu við vörutöfluna gerir kerfið villuleit og skilar vörum þar sem a.m.k. ein sölupöntunarlína er með skilgreint skilyrði. Í meginatriðum eru gögnin sótt úr yfirtöflunni (vörutöflunni), ekki úr undirtöflunni (sölupöntunarlínu). Því er ekki hægt að gera tilbúna síun eftir upprunaskjölum á borð við sölupöntunarlínum eða viðskiptavinum.
+> Hægt er að setja upp fyrirspurn til að stýra hvenær tiltekið sniðmát dreifingarstöðvar er notað. Fyrirspurnin fyrir sniðmát dreifingarstöðvar er aðeins með töfluna *InventTable* (vörur) og innri tengdu töfluna *WHSInventTable* (WMS vörur). Ef þú vilt bæta öðrum töflum við fyrirspurnina geturðu tengt þær með því að nota aðeins *tengingar sem eru til* eða *tengingar sem eru ekki til*. Þegar þú síar sameinaðar töflur er færsla úr aðaltöflunni sótt fyrir hverja færslu samsvörunar í sameinaðri töflu. Ef gerð sameiningar er *tenging sem er til* hættir leitin eftir að fyrsta samsvörun hefur fundist. Ef þú til dæmis sameinar töflu sölupöntunarlínu við vörutöfluna gerir kerfið villuleit og skilar vörum þar sem a.m.k. ein sölupöntunarlína er með skilgreint skilyrði. Í meginatriðum eru gögnin sótt úr yfirtöflunni (vörutöflunni), ekki úr undirtöflunni (sölupöntunarlínu). Því er ekki hægt að gera tilbúna síun eftir upprunaskjölum á borð við sölupöntunarlínum eða viðskiptavinum.
 
 ### <a name="create-a-work-class"></a>Stofna vinnuklasa
 

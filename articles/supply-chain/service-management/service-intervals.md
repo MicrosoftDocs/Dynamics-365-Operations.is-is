@@ -1,6 +1,6 @@
 ---
 title: Þjónustubil
-description: Þessi grein veitir yfirlit yfir hvernig á að vinna með þjónustutímabil. Þjónustusamningsbilið gefur til kynna þá tíðni sem þjónustupöntunarlínur eru stofnaðar fyrir þjónustusamningalínur þegar þjónustupantanir eru stofnaðar sjálfkrafa.
+description: Þessi grein veitir yfirsýn yfir hvernig á að vinna með þjónustubil. Þjónustusamningsbilið gefur til kynna þá tíðni sem þjónustupöntunarlínur eru stofnaðar fyrir þjónustusamningalínur þegar þjónustupantanir eru stofnaðar sjálfkrafa.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 62708258ac3dca9ac03b44efdc96e3bfd643a255
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8887226"

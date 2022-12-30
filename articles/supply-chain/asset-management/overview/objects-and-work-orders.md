@@ -1,6 +1,6 @@
 ---
 title: Eignir og verkbeiðnir
-description: Þessi grein lýsir eignum og verkbeiðnum í eignastýringu.
+description: Í þessari grein er lýst eignum og verkbeiðnum í Eignastýringu.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: df2d0fcc5162900ad2ad67f2629d14015f694bd4
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8869692"
@@ -28,7 +28,7 @@ ms.locfileid: "8869692"
 
  
 
-Þessi grein lýsir eignum og verkbeiðnum í eignastýringu. Eignir og verkbeiðnir eru meginhlutir eignastýringar. *Eign* er vél eða vélarhluti sem krefst stöðugs viðhalds og þjónustu. Hægt er að búa til eignir í stigveldisskipulagi og þær geta tengst virkum stöðum. Viðhaldsstörf geta verið áætluð á öllum stigum eignaskipulagsins.
+Í þessari grein er lýst eignum og verkbeiðnum í Eignastýringu. Eignir og verkbeiðnir eru meginhlutir eignastýringar. *Eign* er vél eða vélarhluti sem krefst stöðugs viðhalds og þjónustu. Hægt er að búa til eignir í stigveldisskipulagi og þær geta tengst virkum stöðum. Viðhaldsstörf geta verið áætluð á öllum stigum eignaskipulagsins.
 
 Ýmis gögn, svo sem vöruupplýsingar og eignaskilgreining, og nauðsynlegar viðhaldsáætlanir eru settar upp um hverja eign. Eftirfarandi mynd sýnir yfirlit yfir eignargögn og tengingu eigna við starfstegundir. Rauður texti er notaður fyrir dæmi sem sýna arf og háð.
 

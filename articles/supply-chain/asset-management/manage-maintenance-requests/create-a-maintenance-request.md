@@ -1,6 +1,6 @@
 ---
 title: Stofna viðhaldsbeiðnir
-description: Þessi grein útskýrir hvernig á að búa til viðhaldsbeiðni í eignastýringu.
+description: Í þessari grein er útskýrt hvernig stofna á viðhaldsbeiðni í Eignastýringu.
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 92f3a2bc3d2a4d5d1c3be0c6dda2674dc3e7d0bb
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016827"
@@ -32,7 +32,7 @@ Hægt er að nota viðhaldsbeiðnir ef viðhaldsstarfsmenn eða framleiðsluaði
 
 **Dæmi:** Á meðan viðhaldsstarfskraftur sinnir viðgerðum uppgötvar hann að þjónusta þarf aðra eign á sömu staðsetningu. Viðhaldsstarfsmaðurinn hefur þó ekki tíma eða nauðsynlega varahluti til að framkvæma viðgerðarstarfið. Þeir stofna því viðhaldsbeiðni á eigninni og skrá stutta lýsingu á vandamálinu.
 
-The **Virkar viðhaldsbeiðnir** kafla í **Tengdar upplýsingar** rúðu hægra megin við **Allar eignir** eða **Virkar eignir** síða (**Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**) sýnir virkar viðhaldsbeiðnir sem fylgja valda eign.
+Hlutinn **Virkar viðhaldsbeiðnir** á svæðinu **Tengdar upplýsingar** hægra megin á síðunni **Allar eignir** eða **Virkar eignir** (**Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**) sýnir virkar viðhaldsbeiðnir sem eru hengdar við valda eign.
 
 1. Veldu **Eignastýring** \> **Viðhaldsbeiðnir** \> **Allar viðhaldsbeiðnir** eða **Virkar viðhaldsbeiðnir**.
 2. Veljið **Nýtt**.

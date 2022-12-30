@@ -1,6 +1,6 @@
 ---
 title: Stofna verkbeiðnir úr viðhaldsbeiðnum
-description: Þessi grein útskýrir hvernig á að stofna verkbeiðni úr viðhaldsbeiðni í eignastýringu.
+description: Í þessari grein er útskýrt hvernig stofna á verkbeiðni úr viðhaldsbeiðni í Eignastýringu.
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: bb54ec3466086afbd87a023a40e346a6a3464c98
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9017175"
@@ -29,7 +29,7 @@ ms.locfileid: "9017175"
  
 
 
-Eftir að þú hefur búið til viðhaldsbeiðnir geturðu auðveldlega umbreytt þeim í vinnupantanir. Þessi grein lýsir fljótlegasta leiðinni til að vinna með viðhaldsbeiðnir, uppfæra nokkrar viðhaldsbeiðnir á sama tíma og búa svo til verkbeiðni fyrir nokkrar viðhaldsbeiðnir á sama tíma. Á síðunni **Virkar viðhaldsbeiðnir** eða **Mínar viðhaldsbeiðnir á virkri staðsetningu** geturðu líka unnið með eina viðhaldsbeiðni í einu og umbreytt einni viðhaldsbeiðni í vinnupöntun.
+Eftir að þú hefur búið til viðhaldsbeiðnir geturðu auðveldlega umbreytt þeim í vinnupantanir. Þessi grein lýsir fljótlegustu leiðinni til að vinna með viðhaldsbeiðnir, uppfæra nokkrar viðhaldsbeiðnir á sama tíma og búa svo til verkbeiðni fyrir nokkrar viðhaldsbeiðnir á sama tíma. Á síðunni **Virkar viðhaldsbeiðnir** eða **Mínar viðhaldsbeiðnir á virkri staðsetningu** geturðu líka unnið með eina viðhaldsbeiðni í einu og umbreytt einni viðhaldsbeiðni í vinnupöntun.
 
 > [!NOTE]
 > Sérhver viðhaldsbeiðni getur tengst aðeins einni verkbeiðni. Hins vegar geta margar viðhaldsbeiðnir verið með í einni verkbeiðni, jafnvel þó að viðhaldsbeiðnirnar hafi mismunandi eignir.
@@ -48,7 +48,7 @@ Eftir að þú hefur búið til viðhaldsbeiðnir geturðu auðveldlega umbreytt
 
     Að auki, þegar þú býrð til verkbeiðni sem er byggð á viðhaldsbeiðni, ef eignin sem er tengd viðhaldsbeiðninni er innifalin í ábyrgðarsamningi, tilkynnir skilaboðastikan þér um ábyrgðarsamninginn.
 
-6. Veldu **Eignastýring** \> **Verkbeiðnir** \> **Allar vinnupantanir**, og opnaðu nýju verkbeiðnina.
+6. Veldu **Eignastýring** \> **Vinnupantanir** \> **Allar vinnupantanir**, og opnið nýju vinnuskipunina.
 
     ![Opnaðu nýja verkbeiðni.](media/05-manage-maintenance-requests.png)
 

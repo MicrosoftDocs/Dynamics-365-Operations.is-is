@@ -1,6 +1,6 @@
 ---
 title: Sameina sendingar með því að nota samstæðuvinnusvæði sendinga
-description: Þessi grein sýnir atburðarás þar sem margar pantanir eru gefnar út í vöruhúsið og síðan sameinaðar í sendingar síðar með því að nota vinnubekk sendingarsamstæðu.
+description: Þessi grein sýnir aðstæður þar sem margar pantanir eru losaðar í vöruhúsið og síðan sameinaðar í sendingar síðar með því að nota samstæðuvinnusvæði sendingar.
 author: Mirzaab
 ms.date: 08/09/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: eed484cd37b02e58831e0041c3e0625091283b65
 ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/08/2022
 ms.locfileid: "9428118"
@@ -24,21 +24,21 @@ ms.locfileid: "9428118"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir atburðarás þar sem margar pantanir eru gefnar út í vöruhúsið og síðan sameinaðar í sendingar síðar með því að nota vinnubekk sendingarsamstæðu.
+Þessi grein sýnir aðstæður þar sem margar pantanir eru losaðar í vöruhúsið og síðan sameinaðar í sendingar síðar með því að nota samstæðuvinnusvæði sendingar.
 
 ## <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
-Atburðarásin í þessari grein vísar til gilda og skráa sem eru innifalin í stöðluðum kynningargögnum sem eru veitt fyrir Microsoft Dynamics 365 Supply Chain Management. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á **USMF** áður en hafist er handa.
+Aðstæður í þessari grein vísa í gildi og færslur sem eru innifaldar í stöðluðum sýnigögnum fyrir Microsoft Dynamics 365 Supply Chain Management. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á **USMF** áður en hafist er handa.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Setja upp samstæðureglur sendingar og afurðarsíur
 
 Aðstæðurnar sem hér er lýst gera ráð fyrir að þegar hafi verið kveikt á eiginleikanum, farið hafi verið í gegnum æfingarnar í [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md) og reglur og aðrar færslur sem þar er lýst stofnaðar. Gætið þess að gera þessar æfingar áður en haldið er áfram með þessar aðstæður.
 
-## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Kveiktu eða slökktu á handvirkri sendingarsamstæðueiginleika
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Kveikja eða slökkva á eiginleika handvirkrar sameiningar á sendingu
 
-Til að nota handvirka sendingarsamstæðu verður að vera kveikt á henni fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er kveikt á eiginleikanum sjálfgefið. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Handvirk samþjöppun sendingar* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota handvirka sameiningu sendingar þarf að kveikja á því fyrir kerfið. Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að eiginleikanum *Handvirk sameining sendingar* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Þú verður líka að kveikja á *Sameina sendinguna* eiginleika áður en þú getur búið til stefnur (frá og með Supply Chain Management útgáfu 10.0.29 er eiginleikinn skyldur og ekki hægt að slökkva á honum). Fyrir frekari upplýsingar, sjá [Stilltu reglur um samþjöppun sendingar](configure-shipment-consolidation-policies.md).
+Einnig þarf að kveikja á eiginleikanum *Sameina sendingar* áður en hægt er að búa til reglur (frá og með útgáfu 10.0.29 af Supply Chain Management er þessi eiginleiki áskilinn og ekki er hægt að slökkva á honum.) Frekari upplýsingar er að finna í [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Búa til sölupantanir fyrir þessar aðstæður
 
@@ -259,7 +259,7 @@ Fjórar sendingar ættu að hafa verið stofnaðar:
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Yfirlit yfir stefnur um samþjöppun sendingar](about-shipment-consolidation-policies.md)
+- [Yfirlit yfir samstæðureglur sendingar](about-shipment-consolidation-policies.md)
 - [Skilgreina samstæðureglur sendingar](configure-shipment-consolidation-policies.md)
 
 

@@ -1,6 +1,6 @@
 ---
 title: Eftirágreiddur afsláttur lánardrottins
-description: Þessi grein veitir yfirlit yfir algengustu verkefnin sem þú gætir viljað framkvæma þegar þú vinnur með lánardrottnaafslætti. Eftirágreiddur afsláttur lánardrottins hjálpar fyrirtæki að stjórna áætlunum fyrir eftirágreiddan afslátt með því að gera áskilin verk sjálfvirk til að stjórna, rekja og innheimta áunninn eftirágreiddan afslátt.
+description: Þessi grein veitir yfirlit yfir algengustu erkefni sem þú vilt hugsanlega vinna þegar þú vinnur með eftirágreiddur afsláttur lánardrottins. Eftirágreiddur afsláttur lánardrottins hjálpar fyrirtæki að stjórna áætlunum fyrir eftirágreiddan afslátt með því að gera áskilin verk sjálfvirk til að stjórna, rekja og innheimta áunninn eftirágreiddan afslátt.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
 ms.openlocfilehash: 789a58af40595cbb72d55d598510c43315aead2b
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8890800"
@@ -26,7 +26,7 @@ ms.locfileid: "8890800"
 
 Eftirágreiddur afsláttur lánardrottins hjálpar fyrirtæki að stjórna áætlunum fyrir eftirágreiddan afslátt með því að gera áskilin verk sjálfvirk til að stjórna, rekja og innheimta áunninn eftirágreiddan afslátt.
 
-Þessi grein veitir yfirlit yfir algengustu verkefnin sem þú gætir viljað framkvæma þegar þú vinnur með lánardrottnaafslætti. Yfirlitið nær yfir eftirfarandi verk:
+Þessi grein veitir yfirlit yfir algengustu erkefni sem þú vilt hugsanlega vinna þegar þú vinnur með eftirágreiddur afsláttur lánardrottins. Yfirlitið nær yfir eftirfarandi verk:
 
 - Skoða upplýsingar um samning um eftirágreiddan afslátt.
 - Auðkenna pöntun sem uppfyllir skilyrði fyrir eftirágreiddur afsláttur og mynda afsláttarkröfur.
@@ -34,7 +34,7 @@ Eftirágreiddur afsláttur lánardrottins hjálpar fyrirtæki að stjórna áæt
 
 ## <a name="audience-and-purpose"></a>Markhópur og tilgangur
 
-Upplýsingarnar í þessari grein eru ætlaðar þeim sem taka ákvarðanir í viðskiptum í fyrirtækjafyrirtækjum, í stöðum eins og innkaupastjóra, fjármálastjóra (fjármálastjóra) og reikningsstjóra, sem hafa eftirfarandi skyldur:
+Upplýsingar í þessari grein eru ætlaðar stjórnendum viðskipta í stórum fyrritækjum, í stöðum svo sem innkaupastjóri, yfirfjármálastjóri og yfirmaður bókhalds, sem hafa eftirfarandi skyldur:
 
 - Að semja um verð til lánardrottinns og um eftirágreiddur afsláttur.
 - Að stjórna starfsmönnum sem vinna úr kröfum um eftirágreiddur afsláttur og innheimta greiðslur.

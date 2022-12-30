@@ -1,6 +1,6 @@
 ---
 title: Skráning fyrir framkvæmd framleiðslu
-description: Þessi grein lýsir lykilhugtökum og hugtökum sem þú þarft að skilja til að stilla og nota framleiðsluframkvæmd.
+description: Þessi grein lýsir grundvallarhugtökum sem verður að skilja til að skilgreina og nota framkvæmd framleiðslu.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c43a9d847045f2c029f232d6317268d91ee0129a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8907204"
@@ -27,7 +27,7 @@ ms.locfileid: "8907204"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir lykilhugtökum og hugtökum sem þú þarft að skilja til að stilla og nota framleiðsluframkvæmd. 
+Þessi grein lýsir grundvallarhugtökum sem verður að skilja til að skilgreina og nota framkvæmd framleiðslu. 
 
 Framkvæmd framleiðslu er fyrst og fremst ætlað að vera notuð af framleiðslufyrirtækjum. Starfsmenn geta skráð tíma og vörunotkun í framleiðsluvinnslu með því að nota síðuna **Starfsskráning**. Allar skráningar eru samþykktar og síðan fluttar í viðkomandi einingar. Samfelld samþykkt og flutningur skráninga gefa stjórnendum kleift að rekja auðveldlega raunkostnað í framleiðslupöntunum.
 

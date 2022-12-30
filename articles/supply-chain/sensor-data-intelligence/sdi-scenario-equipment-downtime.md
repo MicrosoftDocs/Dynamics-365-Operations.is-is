@@ -1,6 +1,6 @@
 ---
 title: Aðstæður fyrir vélarstöðu
-description: Þessi grein lýsir stöðu atburðarásar vélarinnar, sem gerir þér kleift að nota skynjaragögn til að fylgjast með framboði á búnaði þínum.
+description: Þessi grein lýsir aðstæðum fyrir stöðu vélar, sem gerir þér kleift að nota skynjaragögn til að fylgjast með stöðu búnaðarins.
 author: johanhoffmann
 ms.date: 09/02/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
 ms.openlocfilehash: 30fdfb898384aea4c1f8cb2f36f9e104cd316f90
 ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/18/2022
 ms.locfileid: "9689640"
@@ -24,143 +24,143 @@ ms.locfileid: "9689640"
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 <!-- KFM: Preview until further notice -->
 
-The *stöðu vélarinnar* atburðarás gerir þér kleift að nota skynjaragögn til að fylgjast með framboði á búnaði þínum. Ef þú setur upp skynjara sem sendir merki þegar framleiðsluverk á vélaauðlind framleiðir úttak, en ekkert skynjaramerki er móttekið innan tiltekins bils, birtist tilkynning á mælaborði umsjónarmanns.
+Aðstæður fyrir *vélarstöðu* gerir þér kleift að nota skynjaragögn til að fylgjast með stöðu búnaðarins. Ef þú setur upp skynjara sem sendir merki þegar framleiðsluverk á tilfangi vélar framleiðir úttak, en ekkert skynjaramerki er móttekið innan tiltekins tímabils, er tilkynning sýnd á stjórnborði umsjónarmanns.
 
-## <a name="scenario-dependencies"></a>Ósjálfstæði sviðsmynda
+## <a name="scenario-dependencies"></a>Aðstæður tengsl
 
-The *stöðu vélarinnar* atburðarás hefur eftirfarandi ósjálfstæði:
+Aðstæður fyrir *vélarstöðu* er með eftirfarandi tengsl:
 
-- Aðeins er hægt að kveikja á tilkynningu ef framleiðsluverk er í gangi á kortlagðri vél.
-- Merki sem táknar a *hluta út* merki verður að senda til IoT miðstöðina.
+- Aðeins er hægt að ræsa tilkynningu ef framleiðsluverk er í gangi á tengdri vél.
+- Senda verður merki sem stendur fyrir merkið *hluti-út* til IoT-miðstöðvar.
 
-## <a name="prepare-demo-data-for-the-machine-status-scenario"></a>Undirbúa kynningargögn fyrir stöðu vélarinnar
+## <a name="prepare-demo-data-for-the-machine-status-scenario"></a>Útbúa sýnigögn fyrir aðstæður vélarstöðu
 
-Ef þú vilt nota kynningarkerfi til að prófa *stöðu vélarinnar* atburðarás, notaðu kerfi þar sem [kynningargögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er uppsett skaltu velja *USMF* lögaðila (fyrirtæki), og undirbúa viðbótar kynningargögn eins og lýst er í þessum hluta. Ef þú ert að nota þína eigin skynjara og gögn geturðu sleppt þessum hluta.
+Ef þú vilt nota sýnikerfi til að prófa aðstæður fyrir *stöðu vélar* skaltu nota kerfi þar sem [sýnigögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) eru sett upp, velja lögaðilann (fyrirtæki) *USMF* og útbúa frekari sýnigögn eins og lýst er í þessum hluta. Ef þú notar eigin skynjara og gögn geturðu sleppt þessum hluta.
 
-### <a name="set-up-a-sensor-simulator"></a>Settu upp skynjarahermi
+### <a name="set-up-a-sensor-simulator"></a>Setja upp skynjarahermi
 
-Ef þú vilt prófa þessa atburðarás án þess að nota líkamlegan skynjara geturðu sett upp hermi til að búa til nauðsynleg merki. Fyrir frekari upplýsingar, sjá [Settu upp herma skynjara til að prófa](sdi-set-up-simulated-sensor.md).
+Ef þú vilt prófa þessar aðstæður án þess að nota efnislegan skynjara getur þú sett upp hermi til að búa til nauðsynleg merki. Frekari upplýsingar eru í [Setja upp eftirlíkingarskynjara til prófunar](sdi-set-up-simulated-sensor.md).
 
-### <a name="verify-that-resource-3118-is-used-for-product-p0111"></a>Staðfestu að tilföng 3118 sé notuð fyrir vöru P0111
+### <a name="verify-that-resource-3118-is-used-for-product-p0111"></a>Staðfestu að tilfang 3118 sé notað fyrir vöruna P0111
 
-Framleiðslupöntun verður áætluð og gefin út. Þess vegna losnar framleiðsluverk til tilföngs *3118* (*Froðuskurðarvél*). Fylgdu þessum skrefum til að staðfesta það tilfang *3118* er notað fyrir vöru *P0111* í kynningargögnunum þínum.
+Framleiðslupöntun verður tímasett og losuð. Framleiðsluverk er þar af leiðandi losað til tilfangs *3118* (*Svampskurðarvél*). Fylgdu þessum skrefum til að staðfesta að tilfang *3118* sé notað fyrir framleiðslu *P0111* í sýnigögnunum.
 
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
-1. Finndu og veldu vöruna þar sem **Vörunúmer** reiturinn er stilltur á *P0111*.
-1. Á aðgerðarrúðunni, á **Verkfræðingur** flipa, í **Útsýni** hópur, veldu **Leið**.
-1. Á **Leið** síðu, á **Yfirlit** flipann neðst á síðunni, veldu línuna þar sem **Óper. Nei.** Reiturinn er stilltur á *30*.
-1. Á **Auðlindaþörf** flipann neðst á síðunni, vertu viss um að tilföngin *3118* (*Froðuskurðarvél*) tengist aðgerðinni.
+1. Finnið og veljið afurðina þar sem reiturinn **Vörunúmer** er stilltur á *P0111*.
+1. Á aðgerðasvæðinu, í flipanum **Hönnuður**, í flokknum **Yfirlit**, skal velja **Leið**.
+1. Á síðunni **Leið**, á flipanum **Yfirlit** neðst á síðunni, skaltu velja línuna þar sem **Aðg.nr.** reitur er stilltur á *30*.
+1. Á flipanum **Tilfangaþarfir** neðst á síðunni skaltu ganga úr skugga um að tilfang *3118* (*Svampskurðarvél*) sé tengd aðgerðinni.
 
 ### <a name="create-and-release-a-production-order-for-product-p0111"></a>Stofna og gefa út framleiðslupöntun fyrir vöru P0111
 
-Fylgdu þessum skrefum til að stofna og gefa út framleiðslupöntun fyrir vöru *P0111*.
+Fylgdu eftirfarandi skrefum til að stofna og losa framleiðslupöntun fyrir vöru *P0111*.
 
 1. Fara í **Framleiðslustýringar \> Framleiðslupantanir \> Allar framleiðslupantanir**.
-1. Á **Allar framleiðslupantanir** síðu, á aðgerðarrúðunni, veldu **Ný lotupöntun**.
-1. Í **Búðu til lotu** valmynd, stilltu eftirfarandi gildi:
+1. Á síðunni **Allar framleiðslupantanir**, á aðgerðasvæðinu, skal velja **Ný runupöntun**.
+1. Í svarglugganum **Stofna runu** skal stilla eftirfarandi gildi:
 
     - **Vörunúmer:** *P0111*
     - **Magn:** *10*
 
-1. Veldu **Búa til** til að búa til pöntunina og fara aftur í **Allar framleiðslupantanir** síðu.
-1. Nota **Sía** reit til að leita að framleiðslupöntunum þar sem **Vörunúmer** reiturinn er stilltur á *P0111*. Finndu síðan og veldu framleiðslupöntunina sem þú varst að búa til.
+1. Veldu **Stofna** til að stofna pöntunina og fara aftur á síðuna **Allar framleiðslupantanir**.
+1. Notið reitinn **Sía** til að leita að framleiðslupöntunum þar sem reiturinn **Vörunúmer** er stilltur á *P0111*. Leitaðu síðan að og veljið framleiðslupöntun sem var verið að stofna.
 1. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun**, í flokknum **Uppsetning**, skal velja **Áætla**.
-1. Í **Áætlun** valmynd, veldu **Allt í lagi** til að keyra matið.
-1. Á aðgerðarrúðunni, á **Framleiðslupöntun** flipa, í **Ferli** hópur, veldu **Gefa út**.
-1. Í **Gefa út** í glugganum skaltu skrifa niður númer lotupöntunarinnar sem þú bjóst til.
-1. Veldu **Allt í lagi** að gefa út pöntunina.
+1. Í svarglugganum **Mat** skal velja Í **lagi** til að keyra matið.
+1. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun**, í flokknum **Uppsetning**, skal velja **Losa**.
+1. Í svarglugganum **Losa** skaltu skrá niður númer runupöntunar sem var verið að stofna.
+1. Veldu **Í lagi** til að losa pöntunina.
 
 ### <a name="configure-the-production-floor-execution-interface"></a><a name="config-pfe"></a>Grunnstilla viðmót fyrir framkvæmd á framleiðslugólfi
 
-Þú munt nota framkvæmdarviðmót framleiðslugólfs til að hefja verkið sem var áætlað og gefið út fyrir vörunúmer *P0111* í fyrri hlutanum. Fylgdu þessum skrefum til að stilla framkvæmdarviðmót framleiðslugólfs.
+Þú notar vinnsluviðmót framleiðslugólfs til að hefja verk sem var tímasett og gefið út fyrir vörunúmer *P0111* í hlutanum hér á undan. Fylgdu þessum skrefum til að skilgreina vinnslumiðmót framleiðslugólfsins.
 
 1. Farið í **Framleiðslustýring \> Framkvæmd framleiðslu \> Framkvæmd á framleiðslugólfi**.
-1. Ef þú hefur ekki áður sett upp viðmótið birtist innskráningarsíða. Færðu inn skilríki
-1. Á opnunarsíðunni velurðu **Stilla** að opna **Stilla tæki** galdramaður.
-1. Á **Stilla tæki - Skref 1 - Veldu stillingar** síðu, veldu *Sjálfgefið* uppsetningu.
+1. Ef þú hefur ekki sett upp viðmótið áður birtist innskráningarsíða. Færðu inn skilríki
+1. Veldu **Stilla** til að opna **Stilla tæki** leiðsagnarforritið.
+1. Á síðunni **Grunnstilla tæki - Skref 1 - Velja skilgreiningu** skal velja *Sjálfgefnu* skilgreininguna.
 1. Veljið **Næst**.
-1. Á **Stilla tæki - Skref 2 - Skilgreina gólfflöt framleiðslunnar** síðu, stilltu **Auðlind** sviði til *3118*.
+1. Á síðunni **Grunnstilla tæki - Skref 2 - Skilgreina svæði framleiðslugólfs** skal stilla reitinn **Tilfang** á *3118*.
 1. Veldu **Í lagi**.
 
-### <a name="enable-the-search-option-in-the-production-floor-execution-interface"></a><a name="enable-pfe-search"></a> Virkjaðu leitarmöguleikann í framkvæmdarviðmóti framleiðslugólfs
+### <a name="enable-the-search-option-in-the-production-floor-execution-interface"></a><a name="enable-pfe-search"></a>Virkja leitarvalkostinn í vinnsluviðmóti framleiðslugólfsins
 
-Til að gera það auðveldara að finna framleiðsluverkið fyrir framleiðslupöntunina sem var gefin út fyrr, fylgdu þessum skrefum til að virkja leitarvalkostinn í framkvæmdarviðmóti framleiðslugólfs.
+Til að auðvelda leit að framleiðslugólfinu fyrir framleiðslupöntunina sem var gefin út hér á undan skal fylgja þessum skrefum til að virkja leitarvalkostinn í vinnsluviðmóti framleiðslugólfsins.
 
 1. Farið í **Framleiðslustýring \> Uppsetning \> Framkvæmd framleiðslu \> Grunnstilla framkvæmd á framleiðslugólfi**.
-1. Veldu *Sjálfgefið* uppsetningu.
+1. Veldu *Sjálfgefna* stillingu.
 1. Á aðgerðarúðunni skal velja **Breyta**.
-1. Á **Almennt** flýtiflipann, stilltu **Virkja leit** valmöguleika til *Já*.
+1. Í flýtiflipanum **Almennt** skal stilla valkostinn **Virkja leit** á *Já*.
 1. Lokið síðunni.
 
-### <a name="start-the-first-job-in-the-batch-order"></a>Byrjaðu fyrsta verkið í runupöntuninni
+### <a name="start-the-first-job-in-the-batch-order"></a>Ræsið fyrsta verk runupöntunina
 
-Fylgdu þessum skrefum til að hefja verkið sem áætlað er á tilfangi *3118*.
+Fylgið eftirfarandi skrefum til að hefja verkið á tilfangi *3118*.
 
 1. Farið í **Framleiðslustýring \> Framkvæmd framleiðslu \> Framkvæmd á framleiðslugólfi**.
-1. Í **Merki auðkenni** reit, slá inn *123*. Veldu síðan **skrá inn**.
-1. Ef þú ert beðinn um fjarvistarástæðu skaltu velja eitt af kortunum fyrir fjarveru og síðan velja **Allt í lagi**.
-1. Í **Leita** reit, sláðu inn lotupöntunarnúmerið sem þú skráðir áður. Veldu síðan **Til baka** lykill.
-1. Veldu pöntunina og veldu síðan **Byrja starf**.
-1. Í **Byrja starf** valmynd, veldu **Byrjaðu**.
+1. Í reitnum **Kortkenni** slærðu inn *123*. Veljið síðan **Innskráning**.
+1. Þegar beðið er um ástæðu fjarveru skaltu velja eitt af spjöldunum fyrir fjarveru og velja svo **Í lagi**.
+1. Í reitnum **Leita** er slegið inn lotunúmer pöntunar sem þú skrifaðir áður niður hjá þér. Veldu síðan **færslulykilinn**.
+1. Smelltu á pöntunar og veldu síðan **Hefja vinnslu**.
+1. Í svarglugganum **Hefja vinnslu** velurðu **Ræsa**.
 
-## <a name="set-up-the-machine-status-scenario"></a>Settu upp stöðuatburðarás vélarinnar
+## <a name="set-up-the-machine-status-scenario"></a>Setja upp aðstæður vélarstöðu
 
-Fylgdu þessum skrefum til að setja upp *stöðu vélarinnar* atburðarás í Supply Chain Management.
+Fylgdu þessum skrefum til að setja upp aðstæður fyrir *vélarstöðu* í Supply Chain Management.
 
-1. Fara til **Framleiðslueftirlit \> Uppsetning \> Sensor Data Intelligence \> Sviðsmyndir**.
-1. Í **Staða vélarinnar** atburðarás kassi, veldu **Stilla** til að opna uppsetningarhjálpina fyrir þessa atburðarás.
-1. Á **Skynjarar** síðu, veldu **Nýtt** til að bæta skynjara við ristina. Stilltu síðan eftirfarandi reiti fyrir það:
+1. Farðu í **Framleiðslustýring \> Uppsetning \> Gervigreind skynjaragagna \> Aðstæður**.
+1. Í aðstæðureitnum **Staða vélar** skal velja **Skilgreina** til að opna uppsetningarleiðsögnina fyrir þessar aðstæður.
+1. Á síðunni **Skynjarar** skal velja **Nýtt** til að bæta skynjara við hnitanetið. Stillið svo eftirfarandi reiti fyrir það:
 
-    - **Auðkenni skynjara** – Sláðu inn auðkenni skynjarans sem þú ert að nota. (Ef þú ert að nota Raspberry PI Azure IoT Online Simulator og hefur sett hann upp eins og lýst er í [Settu upp herma skynjara til að prófa](sdi-set-up-simulated-sensor.md), koma inn *Vélarstaða* .)
-    - **Lýsing á skynjara** – Sláðu inn lýsingu á skynjaranum.
+    - **Auðkenni skynjara** – Sláðu inn kenni skynjarans sem þú ert að nota. (Ef þú notar Raspberry PI Azure IoT Online Simulator og hefur sett það upp eins og lýst er í [Setja upp eftirlíkingarskynjara til prófunar](sdi-set-up-simulated-sensor.md), sláðu inn *MachineStatus*.)
+    - **Lýsing á skynjara** – Færið inn lýsingu á skynjari.
 
-1. Endurtaktu fyrra skref fyrir hvern viðbótarskynjara sem þú vilt bæta við núna. Þú getur komið aftur og bætt við fleiri skynjurum hvenær sem er.
+1. Endurtaka á fyrra skref fyrir hvern skynjara sem þú vilt bæta við. Hægt er að koma aftur og bæta við fleiri skynjurum hvenær sem er.
 1. Veljið **Næst**.
-1. Á **Kortlagning viðskiptaskráa** síðu, í **Skynjarar** kafla, veldu skrána fyrir einn af skynjurunum sem þú varst að bæta við.
-1. Í **Kortlagning viðskiptaskráa** kafla, veldu **Nýtt** til að bæta línu við ristina.
-1. Á nýju röðinni skaltu stilla **Viðskiptaskrá** reitnum við auðlindina sem þú notar valinn skynjara til að fylgjast með. (Ef þú ert að nota kynningargögnin sem þú bjóst til fyrr í þessari grein skaltu stilla reitinn á *3118, Froðuskurðarvél* .)
+1. Á síðunni **Vörpun viðskiptafærslu**, í hlutanum **Skynjarar**, skaltu velja færslu fyrir einn af skynjurunum sem þú varst að bæta við.
+1. Í hlutanum **Vörpun viðskiptafærslu** skal velja **Ný** til að bæta línu við hnitanetið.
+1. Á nýju línunni, stilltu reitinn **Viðskiptafærsla** á tilfangið sem þú notar valinn skynjara til að fylgjast með. (Ef þú notar sýnigögnin sem þú bjóst til fyrr í þessari grein skaltu stilla reitinn á *á 3118, svampskurðarvél*.)
 1. Veljið **Næst**.
-1. Á **Vélarstöðuþröskuldur** síðu, tilgreindu hversu lengi eftir síðasta *hluta út* gefa til kynna að kerfið ætti að senda tilkynningu um stöðu vélarinnar. Það eru tvær leiðir til að skilgreina þröskuldinn:
+1. Á síðunni **Þröskuldur vélarstöðu** skal skilgreina hversu langt á eftir síðasta *hluti-út* merkið kerfið á senda tilkynningu um vélarstöðu. Tvær leiðir eru til að skilgreina þröskuldinn:
 
-    - **Sjálfgefinn þröskuldur (mínútur)** – Stilltu þennan reit til að skilgreina sjálfgefna þröskuldinn. Gildið mun þá gilda um allar auðlindir þar sem **Þröskuldur til að ákvarða vél svarar ekki (mínútur)** reiturinn er stilltur á tvær mínútur eða minna. Lágmarksgildið er *2* (mínútur).
-    - **Þröskuldur til að ákvarða vél svarar ekki (mínútur)** – Fyrir hverja tilföng í hnitanetinu sem þú vilt ekki nota sjálfgefna þröskuldinn fyrir skaltu slá inn hnekkjagildi í þessum reit. Tilföng sem eru stillt á að nota þröskuld upp á tvær mínútur eða minna munu nota **Sjálfgefinn þröskuldur (mínútur)** stilling í staðinn.
+    - **Sjálfgefinn þröskuldur (mínútur)** – Stilltu þennan reit til að skilgreina sjálfgefinn þröskuld. Gildið mun síðan eiga við um öll tilföng þar sem reiturinn **Þröskuldur til að ákvarða að vél bregðist ekki við (mínútur)** er stilltur á tvær mínútur eða skemur. Lágmarksgildi er *2* (mínútur).
+    - **Þröskuldur til að ákvarða að vél bregðist ekki við (mínútur)** – Fyrir hvert tilfang í hnitanetinu þar sem ekki á að nota sjálfgefinn þröskuld fyrir skal færa inn hnekkingargildi í þennan reit. Tilföng sem eru stillt á að nota þröskuld sem er tvær mínútur eða styttri munu nota stillinguna **Sjálfgefinn þröskuldur (mínútur)** í staðinn.
 
     > [!NOTE]
-    > Venjulega muntu nota a *hluta út* merki til að fylgjast með stöðu vélarinnar. Þess vegna ættir þú að ganga úr skugga um að þröskuldurinn fyrir hverja vélaauðlind sé lengri en vélin þarfnast til að framleiða hvern hluta.
+    > Yfirleitt er *hluti-út* merkið notað til að fylgjast með vélarstöðu. Því ættir þú að staðfesta að þröskuldurinn fyrir hvert tilfang vélar sé lengri en vélin þarf til að framleiða einn hluta.
 
 1. Veljið **Næst**.
-1. Á **Virkjaðu skynjara** síðu, í hnitanetinu, veldu skynjarann sem þú bættir við og veldu síðan **Virkjaðu**. Fyrir hvern virkan skynjara í ristinni birtist gátmerki í **Virkur** dálki.
+1. Á síðunni **Virkja skynjara**, í hnitanetinu, veldu skynjarann sem þú bættir við og veldu síðan **Virkja**. Fyrir hvern virkan skynjara í hnitanetinu birtist gátmerki í dálkinum **Virkur**.
 1. Veljið **Ljúka**.
 
-## <a name="work-with-the-machine-status-scenario"></a>Vinna með stöðu vélarinnar
+## <a name="work-with-the-machine-status-scenario"></a>Vinna með aðstæður fyrir vélarstöðu
 
-Eftir að þú hefur sett upp skynjarana þína og stillt atburðarásina geturðu skoðað stöðuatburði véla í Supply Chain Management. Þessi hluti lýsir hvar og hvernig á að skoða þessar upplýsingar.
+Eftir að þú hefur sett upp skynjara og stillt aðstæður, getur þú skoðað viðburði vélarstöðu í Supply Chain Management. Þessi kafli lýsir því hvar og hvernig eigi að skoða þessar upplýsingar.
 
-### <a name="view-machine-status-data-on-the-resource-status-page"></a>Skoðaðu gögn um stöðu vélarinnar á síðunni Tilfangsstaða
+### <a name="view-machine-status-data-on-the-resource-status-page"></a>Skoða gögn vélarstöðu á síðu tilfangastöðu
 
-Á **Auðlindastaða** síðu, umsjónarmenn geta fylgst með tímalínu á *hluta út* merki sem er móttekið frá skynjurum sem eru kortlagðar á hverja vélaauðlind. Fylgdu þessum skrefum til að stilla tímalínuna.
+Á síðunni **Staða tilfanga** geta eftirlitsaðilar fylgst með *hlutur-úti*-merkis sem tekið er við frá skynjurunum sem er varpað á hvert tilfang vélarinnar. Fylgja skal þessum skrefum til að skilgreina tímalínu.
 
-1. Fara til **Framleiðslueftirlit \> Framleiðsluframkvæmd \> Auðlindastaða**.
-1. Í **Stilla** valmynd, stilltu eftirfarandi reiti:
+1. Farið í **Framleiðslustýring \> Framkvæmd framleiðslu \> Staða tilfanga**.
+1. Í svarglugganum **Skilgreina** skal stilla eftirfarandi reiti:
 
-    - **Auðlind** - Veldu úrræði sem þú vilt fylgjast með. (Ef þú ert að vinna með kynningargögnin skaltu velja *3118* .)
-    - **Tímaröð 1** – Veldu færsluna (mælingarlykill) sem hefur eftirfarandi snið fyrir nafnið: *MachineReporting Status:&lt; Skynjari&gt;*
-    - **Birta nafn** - Koma inn *Hlutar út merki*.
+    - **Tilfang** – Veldu tilföngin sem á að fylgjast með. (Ef þú ert að vinna með sýnigögnin skaltu velja *3118*).
+    - **Tímaröð 1** – Veldu færslu (mælieiningarlykil) sem hefur eftirfarandi snið fyrir heiti sitt: *MachineReportingStatus:&lt;Sensor&gt;*
+    - **Birtingarheiti** – Færðu inn *Merki um hluti út*.
 
-Eftirfarandi mynd sýnir dæmi um stöðuupplýsingar vélar á vélinni **Auðlindastaða** síðu í hefðbundnum rekstri.
+Eftirfarandi mynd sýnir dæmi um gögn vélarstöðu á síðunni **Staða tilfanga** við hefðbundna vinnslu.
 
-![Vélarstöðugögn á síðunni Tilfangsstaða við venjulega notkun.](media/sdi-resource-status-downtime-up.png "Vélarstöðugögn á síðunni Tilfangsstaða við venjulega notkun")
+![Upplýsingar um stöðu vélar á síðu tilfangastöðu við hefðbundna vinnslu](media/sdi-resource-status-downtime-up.png "Gögn um vélarstöðu á síðu tilfangastöðu við hefðbundna vinnslu")
 
-Eftirfarandi mynd sýnir dæmi um stöðuupplýsingar vélar þegar niðurtími greinist.
+Eftirfarandi mynd sýnir dæmi um gögn um stöðu vélar þegar niðurtími er greindur.
 
-![Vélarstöðugögn á síðunni Tilfangsstaða þegar niðurtími greinist.](media/sdi-resource-status-downtime-down.png "Vélarstöðugögn á síðunni Tilfangsstaða þegar niðurtími greinist")
+![Upplýsingar um stöðu vélarinnar á síðunni Staða tilfanga þegar niðurtími greinist](media/sdi-resource-status-downtime-down.png "Upplýsingar um stöðu vélarinnar á síðunni Staða tilfanga þegar niðurtími greinist")
 
-### <a name="view-machine-status-on-the-notifications-page"></a>Skoðaðu stöðu vélarinnar á tilkynningasíðunni
+### <a name="view-machine-status-on-the-notifications-page"></a>Skoða stöðu vélar á tilkynningarsíðunni
 
-Á **Tilkynningar** síðu geta umsjónarmenn skoðað þær tilkynningar sem myndast þegar of langur tími er liðinn frá því skynjarinn sendi síðast frá sér *hluta út* merki. Hver tilkynning veitir yfirlit yfir framleiðsluverkið sem verður fyrir áhrifum af biluninni og gefur möguleika á að endurúthluta viðkomandi verki til annars tilföngs.
+Á síðunni **Tilkynningar** getur umsjónarmenn skoðað tilkynningar sem eru búnar til þegar of langur tími hefur liðið frá skynjarinn gaf síðast frá sér *hluti-út* merkið. Hver tilkynning veitir yfirlit yfir það framleiðsluverk sem verður fyrir áhrifum af stöðvun og gefur kost á að endurúthluta viðkomandi verki í annað tilfang.
 
-Til að opna **Tilkynning** síðu, farðu á **Framleiðslueftirlit \> Fyrirspurnir og skýrslur \> Skynjargagnagreind \> Tilkynningar**.
+Til að opna síðuna **Tilkynningar** ferðu í **Framleiðslustýring \> Fyrirspurnir og skýrslur \> Gervigreind skynjaragagna \> Tilkynningar**.
 
-Eftirfarandi mynd sýnir dæmi um tilkynningu um stöðu vélarinnar.
+Eftirfarandi mynd sýnir dæmi um tilkynningu um vélarstöðu.
 
-![Dæmi um tilkynningu um stöðu vélar.](media/sdi-resource-status-downtime-notification.png "Dæmi um tilkynningu um stöðu vélar")
+![Dæmi um stöðutilkynningu vélar](media/sdi-resource-status-downtime-notification.png "Dæmi um stöðutilkynningu vélar")

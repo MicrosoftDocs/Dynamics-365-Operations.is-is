@@ -1,6 +1,6 @@
 ---
 title: Notandastillingar fartækis
-description: Þessi grein útskýrir hvernig á að stjórna notendastillingum farsíma fyrir vöruhúsastarfsmenn.
+description: Þessi grein útskýrir hvernig á að stjórna notendastillingum fartækis fyrir starfsmenn í vöruhúsi.
 author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 15f9ce1768e1ed9dc6f7e84d245082b46a7f122c
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8882345"
@@ -39,9 +39,9 @@ Með eiginleikanum *notandastillingar fartækis* er hægt að skilgreina altæka
 > [!IMPORTANT]
 > *Notandastillingar fartækis* eiginleikinn gildir aðeins fyrir nýja farsímaforrit vöruhúsakerfis. Þetta virkar ekki með eldra forriti vöruhússins.
 
-## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Kveiktu eða slökktu á notendastillingum farsímans
+## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Kveikja eða slökkva á eiginleika notandastillinga fartækis
 
-Til að nota virknina sem lýst er í þessari grein, *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota virknina sem lýst er í þessari grein verður að vera kveikt á eiginleikanum *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið* fyrir kerfið. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>Stofna og stjórna notandastillingum
 

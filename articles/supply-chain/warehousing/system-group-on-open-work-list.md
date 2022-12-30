@@ -1,6 +1,6 @@
 ---
 title: Kerfisflokkun á opnum verkefnalista
-description: Þessi grein lýsir því hvernig á að sía opna vinnulistann í farsíma.
+description: Í þessari grein er lýst hvernig á að sía opinn verkefnalista í fartæki.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 42e5862392cff57886c36bcbe138e13a8ce7ef23
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8849098"

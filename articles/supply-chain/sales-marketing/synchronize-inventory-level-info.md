@@ -1,6 +1,6 @@
 ---
 title: Samstilla upplýsingar um birgðastöðu úr Supply Chain Management við Field Service
-description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla upplýsingar á birgðastigi frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+description: Þessi grein fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla upplýsingar á birgðastigi úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 05/07/2019
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: fc14fc63bc1a69a57b10f39b2cb9fb8014e6f70b
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8844794"
@@ -29,7 +29,7 @@ ms.locfileid: "8844794"
 
 
 
-Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla upplýsingar á birgðastigi frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+Þessi grein fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla upplýsingar á birgðastigi úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 
 [![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
@@ -64,7 +64,7 @@ Upplýsingar um birgðastöðu úr Finance and Operations eru sendar til Field S
 
 Supply Chain Management virkar sem aðalsniðmátið fyrir birgðastöður. Því er mikilvægt að setja upp samþættingu fyrir vinnupantanir, flutninga og leiðréttingar úr Field Service við Supply Chain Management ef þessi virkni er notuð í Field Service, ásamt samstillingu á birgðastöðum úr Supply Chain Management.
 
-Hægt er að stjórna vörum og vöruhúsum þar sem birgðastigum er náð frá Supply Chain Management með ítarlegri fyrirspurn og síun (Power Query).
+Afurðir og vöruhús þar sem birgðastöður eru „mastered“ úr Supply Chain Management er hægt að stjórna með ítarlegri fyrirspurn og afmörkun (Power Query).
 
 > [!NOTE]
 > Mögulegt er að búa til mörg vöruhús í Field Services (með **Er viðhaldið utan frá = Nei**) og síðan varpa þeim í stakt vöruhús í Supply Chain Management, með eiginleikanum fyrir ítarlega fyrirspurn og afmörkun. Þetta er notað í kringumstæðum þar sem þú vilt að Field Service sjái um ítarlega birgðastöðu og sendi eingöngu uppfærslur til Supply Chain Management. Í þessu tilfelli fær Field Service ekki uppfærslur á birgðastöðu frá Supply Chain Management. Viðbótarupplýsingar er að finna í [Samstilla birgðaleiðréttingar úr Field Service við Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) og [Samstilla vinnupantanir í Field Service við sölupantanir sem eru tengdar verki í Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).

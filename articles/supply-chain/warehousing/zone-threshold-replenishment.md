@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 44e7dfdbc980c5df6b9426515365611bc0de45c2
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335946"
@@ -38,14 +38,14 @@ Líkt og lágm./hám. áfyllingar sem miðast við staðsetningar, miðast lágm
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Kveikja á eiginleikanum áfyllingarmörk svæðis
 
-Áður en þú getur notað *Endurnýjun svæðisþröskulds* eiginleika, verður að vera kveikt á honum fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en þú getur notað eiginleikann *Áfyllingarmörk svæðis*, verður að vera kveikt á því í kerfinu þínu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Áfyllingarmörk svæðis*
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Uppsetning á áfyllingu miðað við svæði
 
-Til að setja upp áfyllingu miðað við svæði verður þú að grunnstilla nokkra hluta kerfisins. Þessi hluti kynnir hinar ýmsu stillingar og býður upp á kynningargagnagildi sem þú getur slegið inn ef þú vilt vinna í gegnum atburðarásina í lok þessarar greinar.
+Til að setja upp áfyllingu miðað við svæði verður þú að grunnstilla nokkra hluta kerfisins. Þessi grein kynnir ýmsar stillingar og gildi sýnigagna sem þú getur slegið inn ef þú vilt vinna í gegnum aðstæðurnar í lok þessarar greinar.
 
 ### <a name="set-up-directive-codes"></a>Setja upp leiðbeiningarkóða
 
@@ -57,7 +57,7 @@ Opnaðu **Vöruhúsakerfi \> Uppsetning \> Leiðbeiningarkóðar** til að skoð
 
 #### <a name="prepare-demo-data-directive-codes"></a>Búa til leiðbeiningarkóða sýnigagna
 
-Þetta dæmi sýnir hvernig á að búa til leiðbeiningarkóða. Ef þú ætlar að vinna í gegnum atburðarásina í lok þessarar greinar, notaðu kynningargagnagildin sem eru gefin upp hér. Annars skaltu nota þín eigin gildi.
+Þetta dæmi sýnir hvernig á að búa til leiðbeiningarkóða. Ef þú ætlar að vinna í gegnum aðstæðurnar í lok þessarar greinar getur þú notað sýnigögnin sem koma fram hér. Annars skaltu nota þín eigin gildi.
 
 1. Veldu **USMF**-lögaðilann til að vinna með sýnigögnin.
 1. Opnaðu **Vöruhúsakerfi \> Uppsetning \> Leiðbeiningarkóðar**.
@@ -79,7 +79,7 @@ Opnaðu **Vöruhúsakerfi \> Uppsetning \> Leiðbeiningarkóðar** til að skoð
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Undirbúningur áfyllingarsniðmáts með sýnigögnum
 
-Þetta dæmi sýnir hvernig á að undirbúa áfyllingarsniðmát. Ef þú ætlar að vinna í gegnum atburðarásina í lok þessarar greinar, notaðu kynningargagnagildin sem eru gefin upp hér. Annars skaltu nota þín eigin gildi.
+Þetta dæmi sýnir hvernig á að undirbúa áfyllingarsniðmát. Ef þú ætlar að vinna í gegnum aðstæðurnar í lok þessarar greinar getur þú notað sýnigögnin sem koma fram hér. Annars skaltu nota þín eigin gildi.
 
 1. Veldu **USMF**-lögaðilann til að vinna með sýnigögnin.
 1. Fara í **Vöruhúsakerfi \> Uppsetningu \> Áfylling \> Áfyllingarsniðmát**.
@@ -144,7 +144,7 @@ Fyrir dæmi sem sýna hvernig nota á stillingarnar til að búa til áskildar l
 
 #### <a name="prepare-demo-data-location-directives"></a>Undirbúningur staðsetningarleiðbeininga úr sýnigögnum
 
-Til að undirbúa kynningargögn þannig að hægt sé að nota þau í atburðarásinni í lok þessarar greinar verður þú að búa til tvær staðsetningartilskipanir: eina fyrir val og eina fyrir setja.
+Til að útbúa sýnigögn svo hægt sé að nota þau við aðstæðurnar í lok þessarar greinar, verður þú að búa til tvær staðsetningarleiðbeiningar: eina fyrir tiltekt og eina fyrir frágang.
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Búa til leiðbeiningar um tiltekt áfyllingar
 
@@ -258,7 +258,7 @@ Til að undirbúa kynningargögn þannig að hægt sé að nota þau í atburða
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>Undirbúið áskilin sýnigögn fyrir sýniaðstæðurnar
 
-Áður en þú byrjar að vinna í gegnum atburðarásina verður þú að virkja sýnishornsgögn og setja upp eiginleikann eins og lýst er í þessum hluta og í fyrri köflum þessarar greinar.
+Áður en byrjað er að vinna í gegnum aðstæðurnar verður þú að virkja sýnigögn og setja upp eiginleikann eins og lýst er í þessum kafla og fyrri köflum í þessari grein.
 
 #### <a name="use-the-usmf-legal-entity"></a>Nota USMF-lögaðilann
 
@@ -266,7 +266,7 @@ Til að vinna í gegnum aðstæðurnar með því að nota sýnskrárnar og sýn
 
 #### <a name="prepare-additional-sample-data"></a>Undirbúningur viðbótarsýnigagna
 
-Eftir að þú hefur valið **USMF** lögaðila, bæta við viðbótargögnum úrtaksins sem krafist er, eins og lýst er í [Settu upp svæðisbundna áfyllingu](#setup) kafla fyrr í þessari grein.
+Eftir að þú hefur valið **USMF**-lögaðilann skaltu bæta við viðbótarsýnigögnum sem krafist er, eins og lýst er í hlutanum [Uppsetning á áfyllingu miðað við svæði](#setup) fyrr í þessari grein.
 
 #### <a name="check-your-on-hand-inventory"></a>Athuga lagerbirgðir
 

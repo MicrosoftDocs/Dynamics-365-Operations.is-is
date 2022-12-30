@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: c6373679299b68413d75236ca8cc18ceba03e091
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9334986"
@@ -27,7 +27,7 @@ ms.locfileid: "9334986"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að keyra a **Bera saman vöruverð geymsla** tilkynna og gera úttakið aðgengilegt stafrænt, annað hvort sem gagnvirka síðu í Dynamics 365 Supply Chain Management, eða sem útflutt skjal á einhverju af nokkrum sniðum.
+Þessi grein útskýrir hvernig á að keyra **Berðu saman geymsluskýrslu vöruverðs** og gera úttakið aðgengilegt stafrænt, annað hvort sem gagnvirka síðu í Dynamics 365 Supply Chain Management eða á skjali sem hægt er að flytja út á nokkrum sniðum.
 
 Þegar þú skoðar skýrsluna í vafranum er dálkum og samanlögðum stöðum gagnvirkt breytt, allt eftir stilltu skipulagi. Þú getur flokkað niðurstöðurnar, síað þær, borað niður í gögnin og fleira.
 
@@ -35,9 +35,9 @@ Niðurstöður skýrslunnar eru vistaðar í gagnaeiningunni **Bera saman vöruv
 
 Skýrslan **Bera saman vöruverðsgeymslu** er gagnleg í tilfellum þar sem úttakið inniheldur margar línur. Til dæmis mun framleiðsla innihalda margar línur ef þú ert með meira en 40.000 hluti sem eru með verð á vöru í bið í útgáfu kostnaðarútreiknings.
 
-## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum Bera saman vöruverðsgeymslu
+## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>Slökkva/kveikja á geymslueiginleikanum fyrir samanburð vöruverðs
 
-Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Bera saman vöruverð geymsla* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika þarf að kveikja á honum fyrir kerfið þitt. (Frá og með útgáfu 10.0.29 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á honum.) Ef þú ert að keyra útgáfu sem er eldri en 10.0.29, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Bera saman vöruverðsgeymslu* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="generate-a-compare-item-prices-storage-report"></a>Búa til skýrsluna Bera saman vöruverðsgeymslu
 

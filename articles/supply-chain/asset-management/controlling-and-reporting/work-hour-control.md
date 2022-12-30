@@ -1,6 +1,6 @@
 ---
 title: Stjórnun vinnustunda
-description: Þessi grein útskýrir vinnutímastýringu í eignastýringu.
+description: Þessi grein útskýrir stjórnun tímastýringar í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 8f5f5dbb23c4d6c86bee7612c4ade65ef4b1cee8
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8869750"

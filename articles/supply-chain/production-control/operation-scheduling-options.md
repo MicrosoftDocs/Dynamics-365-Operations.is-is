@@ -1,6 +1,6 @@
 ---
 title: Kostir aðgerðaröðunar
-description: Þessi grein lýsir valkostum fyrir aðgerðaáætlun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
+description: Þessi grein lýsir valkostum í aðgerðaröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d2f4d1e74855a0a8f73030c222c3f2fe27ce58a2
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8907262"
@@ -27,7 +27,7 @@ ms.locfileid: "8907262"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir valkostum fyrir aðgerðaáætlun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
+Þessi grein lýsir valkostum í aðgerðaröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
 
 Aðgerðaröðun reiknar eftirfarandi upplýsingar fyrir framleiðslupöntun:
 

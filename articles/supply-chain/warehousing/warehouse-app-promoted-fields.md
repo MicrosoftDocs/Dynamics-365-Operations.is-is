@@ -1,6 +1,6 @@
 ---
 title: Skilgreina stighækkaða reiti fyrir skref í farsímaforriti Warehouse Management
-description: Þessi grein lýsir því hvernig á að kynna og auðkenna sérstakar upplýsingar fyrir hvaða skref sem er í verkefnaflæðinu fyrir vöruhúsastjórnun farsímaforritsins.
+description: Í þessari grein er lýst hvernig á að stighækka og auðkenna tilteknar upplýsingar fyrir hvaða skref sem er í verkflæðum fyrir farsímaforrit vöruhúsakerfis.
 author: Mirzaab
 ms.date: 08/09/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
 ms.openlocfilehash: e2d65f20febaf9bd1d143414054b121f8decb7c0
 ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/18/2022
 ms.locfileid: "9689831"
@@ -23,18 +23,18 @@ ms.locfileid: "9689831"
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Eiginleikarnir sem lýst er í þessari grein eiga aðeins við um nýja vöruhússtjórnun farsímaforritið. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
+> Eiginleikarnir sem lýst er í þessari greineiga aðeins við um nýja farsímaforrit Warehouse Management. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
 
-Þessi grein lýsir því hvernig á að kynna og auðkenna sérstakar upplýsingar fyrir hvaða skref sem er í verkefnaflæðinu fyrir vöruhúsastjórnun farsímaforritsins. Þessi möguleiki getur hjálpað starfsmönnum að einblína á mikilvægustu reitina þegar þeir vinna sig í gegnum flæði. Fyrir hvert skref í öllum ferlum geta stjórnendur valið hvaða reiti á að stighækka og auðkenna.
+Í þessari grein er lýst hvernig á að stighækka og auðkenna tilteknar upplýsingar fyrir hvaða skref sem er í verkflæðum fyrir farsímaforrit vöruhúsakerfis. Þessi möguleiki getur hjálpað starfsmönnum að einblína á mikilvægustu reitina þegar þeir vinna sig í gegnum flæði. Fyrir hvert skref í öllum ferlum geta stjórnendur valið hvaða reiti á að stighækka og auðkenna.
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Virkja stighækkaða reiti í kerfinu þínu
 
-Ef þú ert að keyra Supply Chain Management útgáfu 10.0.28 eða eldri, áður en þú getur sett upp kynnta reiti, verður þú að ljúka eftirfarandi ferli til að virkja nauðsynlega eiginleika og búa til nauðsynleg svæðisnöfn í vöruhúsastjórnun farsímaforritinu. Ef þú ert að keyra Supply Chain Management útgáfu 10.0.29 eða nýrri eru eiginleikarnir nauðsynlegir og ekki er hægt að slökkva á þeim, svo þú getur sleppt þessu ferli.
+Ef þú notar Supply Chain Management útgáfu 10.0.28 eða nýrri þá, áður en hægt er að setja upp stighækkaða reiti, þarf að ljúka eftirfarandi ferli til að virkja nauðsynlega eiginleika og búa til heiti áskildra reita í farsímaforriti vöruhúsakerfis. Ef þú ert að keyra útgáfu 10.0.29 eða nýrri í Supply Chain Management eru eiginleikarnir skyldubundnir og ekki er hægt að slökkva á þeim, svo þú getur sleppt þessu ferli.
 
-1. Opna skal **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**. (Sjá [Yfirlit yfir eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) fyrir frekari upplýsingar um þessa síðu.)
-1. Gakktu úr skugga um að *Skrefleiðbeiningar fyrir vöruhús app* kveikt er á eiginleikanum fyrir kerfið þitt. Þessi eiginleiki er skilyrði fyrir eiginleikann *Stighækkaðir reitir vöruhúsaforrits*. Frá og með Supply Chain Management útgáfu 10.0.29 er það skylda og ekki hægt að slökkva á henni. Frekar upplýsingar um eiginleikann *Leiðbeiningar fyrir skref vöruhúsaforrits* er að finna í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management ](mobile-app-titles-instructions.md).
-1. Gakktu úr skugga um að *Vöruhúsaforrit kynntir reitir* kveikt er á eiginleikanum fyrir kerfið þitt. Þetta er eiginleikinn sem lýst er í þessari grein. Frá og með Supply Chain Management útgáfu 10.0.29 er það skylda og ekki hægt að slökkva á henni.
-1. Uppfærðu heiti reita í farsímaforriti Warehouse Management með því að fara í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Reitarheiti vöruhúsaforrits** og veldu **Búa til sjálfgefna uppsetningu**. Endurtaktu þetta skref fyrir hvern lögaðila (fyrirtæki) þar sem þú notar vöruhúsastjórnun farsímaforritið. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
+1. Opna skal **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**. (Frekari upplýsingar um þessa síðu er að finna í [Yfirlit eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
+1. Gakktu úr skugga um kveikt sé á eiginleikanum *Leiðbeiningar fyrir skref vöruhúsaforrits* fyrir kerfið. Þessi eiginleiki er skilyrði fyrir eiginleikann *Stighækkaðir reitir vöruhúsaforrits*. Frá og með útgáfu 10.0.29 af Supply Chain Management er þetta áskilið og ekki er hægt að slökkva á því. Frekar upplýsingar um eiginleikann *Leiðbeiningar fyrir skref vöruhúsaforrits* er að finna í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management ](mobile-app-titles-instructions.md).
+1. Gakktu úr skugga um kveikt sé á eiginleikanum *Stighækkaðir reitir vöruhúsaforrits* fyrir kerfið. Þetta er aðaleiginleikinn sem lýst er í þessari grein. Frá og með útgáfu 10.0.29 af Supply Chain Management er þetta áskilið og ekki er hægt að slökkva á því.
+1. Uppfærðu heiti reita í farsímaforriti Warehouse Management með því að fara í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Reitarheiti vöruhúsaforrits** og veldu **Búa til sjálfgefna uppsetningu**. Endurtaktu þetta skref fyrir hvern lögaðila (fyrirtæki) þar sem þú notar farsímaforrit Warehouse Management. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-promoted-fields-from-a-menu-specific-override"></a>Skilgreina stighækkaða reiti úr hnekkingu valmyndar
 
@@ -43,7 +43,7 @@ Notaðu eftirfarandi ferli til að setja upp stighækkaða reiti.
 1. Búðu til hnekkingu valmyndar fyrir tiltekna valmynd og skref eins og lýst er í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management](mobile-app-titles-instructions.md).
 1. Finndu samsetningu gilda fyrir **Kenni skrefs** og **Heiti valmyndaratriðis** sem þú vilt breyta og veldu síðan gildið í dálknum **Kenni skrefs**.
 1. Á síðunni sem birtist, á flýtiflipanum **Velja stighækkaða reiti**, skal velja **Velja reiti** á tækjastikunni.
-1. Í svarglugganum **Stighækkaðir reitir** skal velja reitina sem á að stighækka. Þú getur einnig auðkennt allt að tvo stighækkaða reiti. Auðkenndir reitir verða sýndir feitletraðir í farsímaforriti Warehouse Management. Þegar þú velur reiti skaltu hafa í huga þá staðreynd að sumir skjáir geta verið nógu stórir til að sýna aðeins efstu einn eða tvo stighækkaða reiti. Fyrir dæmi sem sýnir hvernig á að nota þessar stillingar, sjá atburðarás síðar í þessari grein.
+1. Í svarglugganum **Stighækkaðir reitir** skal velja reitina sem á að stighækka. Þú getur einnig auðkennt allt að tvo stighækkaða reiti. Auðkenndir reitir verða sýndir feitletraðir í farsímaforriti Warehouse Management. Þegar þú velur reiti skaltu hafa í huga þá staðreynd að sumir skjáir geta verið nógu stórir til að sýna aðeins efstu einn eða tvo stighækkaða reiti. Dæmi sem sýnir hvernig á að nota þessar stillingar er að finna í aðstæðunum síðar í þessari grein.
 
     > [!NOTE]
     > Listinn **Tiltækir reitir** takmarkast við reitina sem geta birst fyrir valmyndaratriðið. Aðrir þættir (t.d. vörusamsetning) skera hinsvegar úr um hvort reitur birtist í raun í farsímaforriti Warehouse Management. Ef þú hefur skilgreint stighækkaða reiti munu aðeins valdir reitir birtast á aðalsíðu farsímaforrits Warehouse Management. Starfsmenn geta hinsvegar enn skoðað hina reitina með því að pikka á upplýsingasíðuna.
@@ -54,7 +54,7 @@ Notaðu eftirfarandi ferli til að setja upp stighækkaða reiti.
 
 ### <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að nota tilgreindar sýnishornsfærslur og gildi til að vinna í gegnum þessa atburðarás verður þú að nota kerfi þar sem staðallinn [kynningargögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
+Til að nota tiltekin dæmi um færslur og gildi til að fara í gegnum þessar aðstæður þarftu að nota kerfi þar sem stöðluð [sýnigögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) eru uppsett. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
 
 ### <a name="configure-sales-picking-with-promoted-steps-on-the-license-plate-step"></a>Skilgreina sölutiltekt með stighækkuðum reitum í skrefi númeraplötu
 

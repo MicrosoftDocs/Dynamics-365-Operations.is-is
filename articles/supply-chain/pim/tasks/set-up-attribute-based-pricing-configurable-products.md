@@ -1,6 +1,6 @@
 ---
 title: Setja upp verð sem byggir á eigindum fyrir skilgreinanlegar afurðir
-description: Þessi grein útskýrir hvernig á að setja upp eiginleika sem byggir á verðlagningu.
+description: Þessi grein útskýrir hvernig á að setja upp verð sem byggir á eigindum.
 author: t-benebo
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ec16a0a8078cddd433c99592aa4a7474cf923aec
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8849388"
@@ -24,7 +24,7 @@ ms.locfileid: "8849388"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp eiginleika sem byggir á verðlagningu. Sem skilyrði, verður að hafa afbrigðalíkan afurðar sem hefur eitt eða fleiri íhluti og eiginleika. Þessi aðferð notar hágæða hátalara líkanið gögn fyrirtækisins sýnigögn USMF. Venjulega notar framleiðslustjóri þetta ferli.
+Þessi grein útskýrir hvernig á að setja upp verð sem byggir á eigindum. Sem skilyrði, verður að hafa afbrigðalíkan afurðar sem hefur eitt eða fleiri íhluti og eiginleika. Þessi aðferð notar hágæða hátalara líkanið gögn fyrirtækisins sýnigögn USMF. Venjulega notar framleiðslustjóri þetta ferli.
 
 
 ## <a name="create-a-new-price-model"></a>Búa til nýtt verðlíkan

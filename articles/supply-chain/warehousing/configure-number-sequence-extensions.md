@@ -1,6 +1,6 @@
 ---
 title: Skilgreina númeraraðir flæði vöruhúss
-description: Þessi grein veitir yfirlit yfir virknina sem veitir númeraraðarviðbætur fyrir auðkenni númeraplötu, auðkenni bylgjumerkja, auðkenni gáma og auðkenni farmskírteina.
+description: Í þessari grein er að finna yfirlit yfir virknina sem býður upp á viðbætur númeraraðar fyrir auðkenni númeraplatna, auðkenni bylgjumerkja, auðkenni gáma og auðkenni farmbréfa.
 author: Mirzaab
 ms.date: 06/10/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
 ms.openlocfilehash: 0b0102bde3548ccf976234e1938114289b80fbba
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335826"
@@ -39,7 +39,7 @@ Hlutar staðlaðrar númeraraðar eru ekki hentugir fyrir GS1-innleiðingu vegna
 
 ## <a name="turn-on-the-number-sequence-extensions-feature"></a>Kveikja á eiginleika númeraraðar fyrir viðbætur
 
-Áður en þú getur notað eiginleikann verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Áður en hægt er að nota eiginleikann verður að vera kveikt á honum í kerfinu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Viðbætur númeraraðar*

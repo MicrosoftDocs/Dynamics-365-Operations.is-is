@@ -1,6 +1,6 @@
 ---
 title: Tegundir viðhaldseiginda
-description: Þessi grein útskýrir hvernig á að búa til eiginleikategundir í eignastýringu.
+description: Þessi grein útskýrir hvernig á að búa til eiginleikategundir í Eignastýringu.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5a0aca3ccf24505c064ad59f0adafb771056ba95
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8887661"
@@ -28,7 +28,7 @@ ms.locfileid: "8887661"
 
  
 
-Þessi grein útskýrir hvernig á að búa til eiginleikategundir í eignastýringu. Eiginleikar eru notaðir til að lýsa eiginleikum ýmissa þátta. Hægt er að setja upp eigindi á eftirfarandi færibreytur:
+Þessi grein útskýrir hvernig á að búa til eiginleikategundir í Eignastýringu. Eiginleikar eru notaðir til að lýsa eiginleikum ýmissa þátta. Hægt er að setja upp eigindi á eftirfarandi færibreytur:
 
 - [Gerðir virkra staðsetninga](../setup-for-functional-locations/functional-location-types.md)
 - [Stofna virkar staðsetningar](../functional-locations/create-functional-locations.md)

@@ -1,6 +1,6 @@
 ---
 title: Taka frá birgðamagn
-description: Þessi grein lýsir mismunandi valkostum sem eru í boði til að panta birgðahald.
+description: Þessi grein útskýrir aðra valkosti sem eru tiltækar fyrir að taka frá birgðir.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e0c0e283189998473469164398fa6f43c8e8825e
 ms.sourcegitcommit: 3a882de1f1c27654a8e92ebc1999c75678cc9a53
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/27/2022
 ms.locfileid: "9201867"
@@ -26,7 +26,7 @@ ms.locfileid: "9201867"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir mismunandi valkostum sem eru í boði til að panta birgðahald.
+Þessi grein útskýrir aðra valkosti sem eru tiltækar fyrir að taka frá birgðir.
 
 Hægt er að taka birgðir sjálfkrafa frá fyrir tiltekna sölupöntun. Það þýðir að ekki er hægt að taka fráteknar birgðir út úr vöruhúsi fyrir aðra pöntun nema birgðafrátektin eða hluti hennar er afturkölluð.
 
@@ -75,7 +75,7 @@ Sölupöntun sem á að vera tekin frá sjálfkrafa og afhent 4. aprí 2016, tek
 
 Það eru tveir valmöguleikar tengdir frátekningar á **færibreytur birgða- og vöruhúsakerfis** síðuna:
 -   Valkosturinn **taka frá pantaðar vörur** á flipanum **almennt** gerir þér kleift að taka frá vöruinnhreyfingar sem eru pantaðar á móti vöruúthreyfingum í Viðskiptakröfum, Verkefnastjórnun og bókhald og Framleiðslustýringu. Ef þessi valkostur er hreinsaður verður aðeins hægt að taka frá vörur sem hafa verið efnislega mótteknar. Ef tiltekin vara hefur verið sett þannig upp að hún samþykki neikvæðar birgðir skiptir þessi reitur ekki máli.
--   The **Pantaðu hluti sjálfkrafa** valmöguleika á **Flytja** flipinn ákvarðar sjálfgefna stillingu ef hlutir eru sjálfkrafa fráteknir fyrir millifærslupantanir. Sjálfgefin stilling er hægt að hnekkja í einstökum flutningspantanir.
+-   **Taka vörur frá sjálfkrafa** valkostinn á **Flytja** flipanum ákvarðar sjálfgefnar stillingar ef vörum er tekið sjálfvirkt frá fyrir flutningspöntun. Sjálfgefin stilling er hægt að hnekkja í einstökum flutningspantanir.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Reglur um birgðafrátekningu á síðunni færibreytur framleiðslu
 

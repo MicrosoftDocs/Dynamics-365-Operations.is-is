@@ -1,6 +1,6 @@
 ---
 title: Uppsetning sendingarupplýsinga
-description: Þessi grein lýsir því hvernig á að setja upp sendingarupplýsingar fyrir kostnaðareininguna Landað.
+description: Þessi grein lýsir því hvernig eigi að setja upp sendingarupplýsingar fyrir Heildarkostnaður eininguna.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 62277f66a36817e83b4c0bf101aa7b6cc14ecccb
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8882635"
@@ -24,7 +24,7 @@ ms.locfileid: "8882635"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að setja upp sendingarupplýsingar fyrir **Landaður kostnaður** mát.
+Þessi grein lýsir því hvernig eigi að setja upp sendingarupplýsingar fyrir **Heildarkostnaður** eininguna.
 
 ## <a name="description-of-goods"></a><a name="description-of-goods"></a>Lýsing á vörum
 

@@ -1,6 +1,6 @@
 ---
 title: Vinna með breytingar á hönnunarafurðum
-description: Þessi grein veitir upplýsingar um verkfræðilega breytingastjórnun. Umsjón hönnunarbreytinga býður upp á skipulagða ferla til að stjórna breytingum á hönnunarafurðum, frá því að stinga upp á, leggja fram beiðni og gera breytingar til yfirferðar og samþykktar á breytingum, leggja mat á áhrif þeirra á fyrirliggjandi færslur og fylgja þeim eftir.
+description: Þessi grein gefur upplýsingar um umsjón hönnunarbreytinga. Umsjón hönnunarbreytinga býður upp á skipulagða ferla til að stjórna breytingum á hönnunarafurðum, frá því að stinga upp á, leggja fram beiðni og gera breytingar til yfirferðar og samþykktar á breytingum, leggja mat á áhrif þeirra á fyrirliggjandi færslur og fylgja þeim eftir.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: 6c578609a64c21a33f10b64a1d77f006b45bac41
 ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/24/2022
 ms.locfileid: "9714737"
@@ -123,7 +123,7 @@ Fylgið eftirfarandi skrefum til að fara yfir viðkomandi færslur, loka á val
     - **Skoða allar færslur** – Opna heildarlista yfir allar færslur, ekki bara opnar færslur.
 
 > [!IMPORTANT]
-> The **Tilkynna framleiðslu** hnappurinn er aðeins tiltækur ef *Verkfræðitilkynningar vegna framleiðslu* kveikt er á eiginleikanum fyrir kerfið þitt. Fyrir leiðbeiningar um hvernig á að kveikja eða slökkva á þessum eiginleika og forsendum hans, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
+> Hnappurinn **Tilkynna framleiðslu** er aðeins í boði ef kveikt er á eiginleikanum *Hönnunartilkynningar fyrir framleiðslu* í kerfinu. Leiðbeiningar um hvernig á að kveikja og slökkva á þessum eiginleika og skilyrðum hans er að finna í [Yfirlit yfir umsjón hönnunarbreytinga](product-engineering-overview.md).
 
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Yfirfara og vinna úr tilkynningum um breytingar á viðskiptum
 
@@ -136,13 +136,13 @@ Fylgið eftirfarandi skrefum til að fara yfir viðkomandi færslur, loka á val
 Þegar þú ert að fara yfir tilkynningar um framleiðslupantanir á síðunni **Tilkynningar um hönnun** geturðu notað tengla til að fara á tengdar breytingapantanir eða framleiðslupantanir með því að velja dálkagildi eða nota tengdar skipanir á aðgerðasvæðinu. Eftir að þú hefur lokið við að meta breytingu og eftir að þú hefur hætt við eða breytt framleiðslupöntunum eftir þörfum geturðu merkt tilkynningu sem leysta. Í aðgerðasvæðinu er síðan smellt á **Leysa úr**. Tilkynningin er fjarlægð úr öllum yfirlitum notenda.
 
 > [!IMPORTANT]
-> Getan til að senda tilkynningar um framleiðslupantanir krefst þess að *Verkfræðitilkynningar vegna framleiðslu* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir leiðbeiningar um hvernig á að kveikja eða slökkva á þessum eiginleika og forsendum hans, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
+> Möguleikinn á að senda tilkynningar fyrir framleiðslupantanir krefst þess að kveikt sé á eiginleikanum *Hönnunartilkynningar fyrir framleiðslu* í kerfinu þínu. Leiðbeiningar um hvernig á að kveikja og slökkva á þessum eiginleika og skilyrðum hans er að finna í [Yfirlit yfir umsjón hönnunarbreytinga](product-engineering-overview.md).
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Stofna breytingapöntun úr breytingabeiðni
 
 Hönnuður sem fer yfir beiðni um hönnunarbreytingu getur stofnað pöntun hönnunarbreytingar beint af síðunni **Beiðnir um breytingu á hönnun**. Á aðgerðasvæðinu, í flipanum **Beiðni um breytingu**, í flokknum **Hönnunarbreytingapöntun**, skal velja **Afrita tengil og afurðir**.
 
-Vertu viss um að velja rétta fyrirtækið fyrir nýju verkfræðibreytingarpöntunina. Ef breytingapöntunin mun leiða til þess að verkfræðivörunni sjálfri er breytt (ný útgáfa, ný vara eða nýtt afbrigði), þá verður að úthluta breytingapöntuninni á verkfræðifyrirtækið. Ef aðeins er þörf á staðbundinni breytingu (**Áhrif** er stillt á *Enginn*), þá er hægt að úthluta breytingapöntuninni á staðbundið fyrirtæki og breytingarnar eiga við um núverandi vöru.
+Gættu þess að velja rétta fyrirtækið fyrir nýju breytingaröðina. Ef breytingabeiðnin mun leiða til þess að sjálfri hönnunarafurðinni verði breytt (ný útgáfa, ný afurð eða nýtt afbrigði) þá verður breytingabeiðninni að vera úthlutað á hönnunarfyrirtækið. Ef aðeins er þörf á staðbundinni breytingu (**Áhrif** eru stillt á *Ekkert*) er hægt að úthluta breytingabeiðninni á staðbundið fyrirtæki og breytingar munu gilda um núverandi afurð.
 
 ## <a name="engineering-change-orders"></a>Raðir hönnunarbreytinga
 
@@ -219,15 +219,15 @@ Flestir reitir hönnunarbreytingapantana eru þeir sömu og reitirnir fyrir útg
 
 Hægt er að nota hnappinn **Vinna með/afrita upplýsingar um breytingu** til að afrita upplýsingar um breytingu milli afurðanna sem er breytt.
 
-## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>Notaðu rafrænar undirskriftir til að samþykkja og virka uppskriftir og leiðir
+## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>Nota rafrænar undirskriftir til að samþykkja og virkja uppskriftir og leiðir
 
-Til að nota rafrænar undirskriftir til að samþykkja og/eða virkja efnisyfirlit (BOM) og/eða leiðabreytingar, farðu á **Stjórn stofnunarinnar \> Uppsetning \> Rafræn undirskrift \> Kröfur um rafrænar undirskriftir**. Gakktu úr skugga um að hvert af eftirfarandi hlutum hafi **Undirskrift krafist** stillt á *Já*:
+Til að nota rafrænar undirskriftir til að samþykkja og/eða virkja breytingar á uppskrift og/eða leið skal fara í **Fyrirtækisstjórnun \> Uppsetning \> Rafræn undirskrift \> Kröfur um rafrænar undirskriftir**. Gakktu síðan úr skugga um að eftirfarandi vörur séu með **Undirskriftar krafist** stillt á *Já*:
 
 - Virkja uppskrift fyrir afurð hönnunarbreytingaraðar
 - Virkja afurðarleið hönnunarbreytingaraðar
 - Samþykkja uppskrift fyrir afurð hönnunarbreytingaraðar
 - Samþykkja afurðarleið hönnunarbreytingaraðar
 - Samþykkja uppskrift hönnunarútgáfu og uppskriftarútgáfur
-- Samþykkja verkfræðiútgáfu og leiðarútgáfu
+- Samþykkja hönnunarútgáfu og leiðarútgáfu
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

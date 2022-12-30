@@ -1,6 +1,6 @@
 ---
 title: Kerfisstýrð klasatiltekt
-description: Þessi grein veitir yfirlit yfir kerfisstýrða klasatínslu í Microsoft Dynamics 365 Supply Chain Management.
+description: Í þessari grein er að finna yfirlit yfir kerfisstýrða klasatiltekt í Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 05/26/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 01ba05224d1aa1de350e5c9a805f128f4e4b11fb
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8844325"

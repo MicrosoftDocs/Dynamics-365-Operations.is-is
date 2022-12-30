@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fb0fbfcceece2883c32a266bcbe659211b0b56ce
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9069727"
@@ -25,7 +25,7 @@ ms.locfileid: "9069727"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi verklýsing sýnir hvernig á að setja upp nýja áfyllingarvinnslu sem notar hámark/lágmark áfyllingaráætlun. Þegar birgðir fara niður fyrir lágmarkið, verður stofnuð vinna til að fylla á staðsetninguna. Ferlið sýnir einnig hvernig á að nota fast tiltektarstaðsetningar til að leyfa endurnýjun stofna jafnvel þótt birgðir fara niður fyrir lágmark stig og hvernig á að virkja áfyllingarvinnslu til að keyra reglulega með því að nota runuvinnslu. Þessi verkefni myndu yfirleitt vera framkvæmd af yfirmanni vöruhúss. Hægt er að keyra þetta ferli á USMF sýnifyrirtæki með dæmagildum hér að neðan eða hægt er að keyra það á eigin gögn. Ef þú ert að nota þín eigin gögn skaltu ganga úr skugga um að þú hafir vöruhús sem er virkt fyrir vöruhúsastjórnunarferli (WMS).
+Þessi verklýsing sýnir hvernig á að setja upp nýja áfyllingarvinnslu sem notar hámark/lágmark áfyllingaráætlun. Þegar birgðir fara niður fyrir lágmarkið, verður stofnuð vinna til að fylla á staðsetninguna. Ferlið sýnir einnig hvernig á að nota fast tiltektarstaðsetningar til að leyfa endurnýjun stofna jafnvel þótt birgðir fara niður fyrir lágmark stig og hvernig á að virkja áfyllingarvinnslu til að keyra reglulega með því að nota runuvinnslu. Þessi verkefni myndu yfirleitt vera framkvæmd af yfirmanni vöruhúss. Hægt er að keyra þetta ferli á USMF sýnifyrirtæki með dæmagildum hér að neðan eða hægt er að keyra það á eigin gögn. Ef verið er að nota eigin gögn, skal ganga úr skugga um að hafa vöruhús sem er virkt fyrir vöruhúsakerfisferli (vöruhúsakerfi).
 
 
 ## <a name="create-a-fixed-picking-location"></a>Stofna fastar tiltektarstaðsetningar

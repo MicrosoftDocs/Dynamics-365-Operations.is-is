@@ -1,6 +1,6 @@
 ---
 title: Stillingar og aðferð flutningsstjórnunar
-description: Þessi grein sýnir hvernig á að setja upp samgöngustjórnunarstillingar og aðferðir.
+description: Þessi grein sýnir hvernig setja á upp stillingar og aðferðir flutningsstjórnunar.
 author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 1daed8940e41af0163b90195eed64464c2dcac0b
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8900739"

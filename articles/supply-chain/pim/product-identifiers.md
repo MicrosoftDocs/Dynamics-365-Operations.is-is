@@ -1,6 +1,6 @@
 ---
 title: Afurðarkenni
-description: Þessi grein veitir upplýsingar um hinar ýmsu tegundir vöruauðkenna og útskýrir hvernig þú getur bætt vöruauðkennum við vörugögnin þín.
+description: Þessi grein veitir upplýsingar um mismunandi tegundir afurðarkenna og útskýrir hvernig hægt er að bæta við afurðarkennum í afurðargögnum þínum.
 author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
 ms.openlocfilehash: 3fc2d5c01209f15a9cb680e3bb569087f08c08d3
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8851711"
@@ -29,7 +29,7 @@ ms.locfileid: "8851711"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um hinar ýmsu tegundir vöruauðkenna og útskýrir hvernig þú getur bætt vöruauðkennum við vörugögnin þín.
+Þessi grein veitir upplýsingar um mismunandi tegundir afurðarkenna og útskýrir hvernig hægt er að bæta við afurðarkennum í afurðargögnum þínum.
 
 Þegar unnið er með afurðir í vinnusal eða í vöruhúsi í Microsoft Dynamics ERP eða Microsoft Dynamics CRM þarf að hafa góða stefnu til að bera kennsl á afurðir og afurðarafbrigði.
 
@@ -39,7 +39,7 @@ ms.locfileid: "8851711"
 
 Í mörgum tilvikum er afurðarnúmerið ekki upphaflega stofnað í Dynamics 365 Supply Chain Management. Þess í stað er það tengt afurð í lífferilssstjórnunarkerfi afurðar (PLM) eða gagnastjórnunarkerfi afurðar (PDM). Í þessu tilviki eru gagnaeiningar notaðar til að flytja inn afurðir og afurðarafbrigði. Supply Chain Management notar síðan tölurnar í öllum aðgerðum.
 
-Þegar Supply Chain Management er innleitt ætti að taka sérstakt tillit til stefnunar er varðar afurðarnúmer. Gott númerakerfi bætir flæði vörustjórnunar og hjálpar til við að koma í veg fyrir villur. Gott vöruauðkenni ætti venjulega að hafa 20 stafi eða færri, en við mælum almennt með því að nota færri en 10 stafi og innihalda ekki fleiri en 5 flokkunarstafi. Einnig er hægt að nota leitarheiti til að virkja flýtileitir. Leitarheiti er viðbótarheiti sem táknar flokkanir afurða.
+Þegar Supply Chain Management er innleitt ætti að taka sérstakt tillit til stefnunar er varðar afurðarnúmer. Gott númerakerfi bætir flæði vörustjórnunar og hjálpar til við að koma í veg fyrir villur. Gott vöruauðkenni ætti yfirleitt að vera með 20 stafi eða færri en við mælum almennt með því að nota færri en 10 stafi og ekki fleiri en 5 flokkandi stafi. Einnig er hægt að nota leitarheiti til að virkja flýtileitir. Leitarheiti er viðbótarheiti sem táknar flokkanir afurða.
 
 Þegar Microsoft Dataverse er notað, er afurðarnúmerið í Supply Chain Management einnig afurðarnúmerið í Microsoft Dataverse. Afurðarafbrigði eru samstillt við Dataverse sem einkvæmar afurðir.
 
@@ -125,7 +125,7 @@ Hægt er að skilgreina ytri kóða fyrir marga aðila. Til dæmis getur þú sk
 | Afurðir V2 | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Það fer eftir stillingum á einingu og númeraröð afurðarnúmers hvort hægt sé að stofna sjálfkrafa afurðarnúmer við innflutning. |
 | Afurðarafbrigði | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Það fer eftir nafnakerfissniði afurðar hvort hægt sé að stofna sjálfkrafa afurðarnúmerið við innflutning. Þó er hægt að flytja inn einkvæmt afurðarnúmer og það afurðarnúmer þarf ekki að fylgja skipulaginu á nafnakerfissniði afurðar. |
 | Þýðingar afurðar | Afurðarheiti, afurðarlýsing | Afurðarheiti, afurðarlýsing | Þessi eining skrifar yfir hvaða tungumál sem er. Þegar skrifað er yfir heitið eða lýsinguna á aðaltungumáli lögaðila, breytist heitið og lýsingin á sjálfri vörunni. |
-| Útgefin stofnun afurðar V2 | Vörunúmer, afurðarnúmer, leitarheiti vöru| Vörunúmer, afurðarnúmer, leitarheiti vöru, leitarheiti afurðar, afurðarheiti | Þessi eining getur verið áskorun þegar númeraraðir eru notaðar við stofnun á nýjum útgefnum afurðum. Báðar númeraraðirnar **Vörunúmer** og **Afurðarnúmer** hafa áhrif. Hins vegar er númeraröðin **Vörunúmer** fyrir hvern lögaðila, en númeraröðin **Afurðarnúmer** er alþjóðleg. Því mælum við með því að þú notir númeraröðina **Vörunúmer** þegar þú setur upp nýjar útgefnar afurðir. Augljóslega, þegar einingin er notuð til að gefa út fyrirliggjandi afurð verður afurðarnúmerið að vera gefið í einingunni. Fyrir frekari upplýsingar, sjá hlutann "Vöru- og vörunúmeraraðir" í þessari grein. |
+| Útgefin stofnun afurðar V2 | Vörunúmer, afurðarnúmer, leitarheiti vöru| Vörunúmer, afurðarnúmer, leitarheiti vöru, leitarheiti afurðar, afurðarheiti | Þessi eining getur verið áskorun þegar númeraraðir eru notaðar við stofnun á nýjum útgefnum afurðum. Báðar númeraraðirnar **Vörunúmer** og **Afurðarnúmer** hafa áhrif. Hins vegar er númeraröðin **Vörunúmer** fyrir hvern lögaðila, en númeraröðin **Afurðarnúmer** er alþjóðleg. Því mælum við með því að þú notir númeraröðina **Vörunúmer** þegar þú setur upp nýjar útgefnar afurðir. Augljóslega, þegar einingin er notuð til að gefa út fyrirliggjandi afurð verður afurðarnúmerið að vera gefið í einingunni. Nánari upplýsingar er að finna í kaflanum „Afurðar- og vörunúmeraraðir" í þessari grein. |
 | Útgefin afurðarafbrigði | Vörunúmer, afurðarvíddir, afurðarnúmer | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing, afurðarvíddir | Eins og einingin **Afurðarafbrigði**, er hægt að nota þessa einingu til að stofna nýjar afurðir sem annaðhvort fylgja nafnakerfissniði afurðar eða nota sín eigin afurðarnúmer fyrir afbrigðið. |
 | Ytri vörulýsing fyrir viðskiptavini | Vörunúmer viðskiptavinar, vöruheiti viðskiptavinar, lýsing viðskiptavinar, viðskiptavinalykill | Vörunúmer viðskiptavinar, vöruheiti viðskiptavinar, lýsing viðskiptavinar, viðskiptavinalykill | Hóp af viðskiptavinum (t.d. samtök kaupenda) er hægt að sameina í einn flokk með því að nota eininguna **Viðskiptavinaflokkar ytri vörulýsinga**. |
 | Ytri vörulýsing fyrir lánardrottna | Vörunúmer lánardrottins, vöruheiti lánardrottins, lýsing lánardrottins, lánardrottnalykill | Vörunúmer lánardrottins, vöruheiti lánardrottins, lýsing lánardrottins, lánardrottnalykill | Hóp af lánardrottnum (t.d. samtök lánardrottna eða iðnaðarsamtök) er hægt að safna saman í einn flokk með því að nota eininguna **Lánardrottnaflokkar ytri vörulýsinga**. |

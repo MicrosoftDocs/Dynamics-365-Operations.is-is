@@ -1,6 +1,6 @@
 ---
 title: Handvirkt stofnaðar verkbeiðnir
-description: Þessi grein útskýrir hvernig á að stofna vinnupantanir handvirkt í eignastýringu.
+description: Þessi grein útskýrir hvernig á að stofna verkbeiðnir handvirkt í eignastýringu.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 5d2cc1f5b8eccb51b6bea8655fdee243c1a2df55
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015028"
@@ -34,7 +34,7 @@ Hægt er að stofna verkbeiðnir handvirkt á tvo vegu:
 
 ## <a name="create-work-order"></a>Stofna verkbeiðni
 
-1. Selece **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
+1. Veljið **Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
 
 2. Veljið **Nýtt**.
 
@@ -82,7 +82,7 @@ Athugið eftirfarandi stig:
 
 Hægt er að stofna verkbeiðni sem tengist fyrirliggjandi verkbeiðni. Þessi afkastageta er gagnleg ef þú vilt til dæmis vinna með aðal- og annars flokks verkbeiðnir. Ný verkbeiðni er byggð á verkbeiðnivinnslu úr fyrirliggjandi verkbeiðni.
 
-1. Veldu **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
+1. Veljið **Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
 
 2. Veldu verkbeiðnina til að stofna tengda verkbeiðni fyrir.
 
@@ -120,7 +120,7 @@ Skýringarmyndin hér að neðan sýnir dæmi um gluggann **Stofna tengda verkbe
 
 Það er mögulegt að fljótt búa til nýja verkbeiðni úr núverandi verkbeiðni. Þessi leið til að vinna með verkbeiðnir er frábrugðin stofnun verkbeiðna samkvæmt [viðhaldsáætlunum](../preventive-and-reactive-maintenance/maintenance-plans.md). Það er gagnlegt ef þú hefur til dæmis verkbeiðni sem inniheldur margar verkbeiðnavinnslur og ljúka skal ýmsum vinnslum á mismunandi eignum með reglulegu millibili.
 
-1. Veldu **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
+1. Veljið **Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
 
 2. Veldu verkbeiðnina til að afrita efni úr.
 

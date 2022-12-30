@@ -1,6 +1,6 @@
 ---
 title: Stofna fjárhagsáætlanir viðhalds
-description: Þessi grein útskýrir hvernig á að búa til viðhaldsáætlun í eignastýringu.
+description: Þessi grein útskýrir hvernig á að búa til fjárhagsáætlun fyrir viðhald í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 1fa5e4c76621634930206c1d89fd8e8f4f541fd5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8858041"

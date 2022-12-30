@@ -1,6 +1,6 @@
 ---
 title: Stækkunarhæfni á fínstillingu áætlanagerðar
-description: Þessi grein lýsir stækkunarsviðsmyndum sem eru studdar í áætlanagerð fínstillingu.
+description: Þessi grein lýsir aðstæðum stækkunarhæfni sem eru studdar í fínstillingu áætlanagerðar.
 author: t-benebo
 ms.date: 08/05/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 7d649110959e6bcfdaeb32dd53c55dbc446ed1be
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8857545"
@@ -27,7 +27,7 @@ ms.locfileid: "8857545"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir stækkanleikasviðsmyndum sem tengjast aðalskipulagi og studdar í áætlanagerð fínstillingu. Þessir möguleikar eru í boði frá og með Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.13.
+Þessi grein lýsir aðstæðum stækkunarhæfni sem eru tengjast aðaláætlanagerð og eru studdar í fínstillingu áætlanagerðar. Þessir möguleikar eru í boði frá og með Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.13.
 
 ## <a name="custom-processing-when-master-planning-is-completed"></a>Sérsniðin vinnsla þegar áætlanagerð lýkur
 

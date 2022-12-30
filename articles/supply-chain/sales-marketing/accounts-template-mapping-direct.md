@@ -1,6 +1,6 @@
 ---
 title: Samstilla lykla beint úr Sales við viðskiptavini í Supply Chain Management
-description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla reikninga frá Dynamics 365 Sales til Supply Chain Management.
+description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla reikninga úr Dynamics 365 Sales í Supply Chain Management.
 author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 8d415174f62c511626852b91f3591f907b4a85ea
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8851566"
@@ -32,7 +32,7 @@ ms.locfileid: "8851566"
 > [!NOTE]
 > Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Microsoft Dataverse fyrir forrit](/powerapps/administrator/data-integrator).
 
-Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla reikninga beint frá Dynamics 365 Sales til Dynamics 365 Supply Chain Management.
+Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla reikninga beint úr Dynamics 365 Sales í Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 

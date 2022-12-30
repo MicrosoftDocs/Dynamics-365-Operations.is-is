@@ -1,6 +1,6 @@
 ---
 title: Markeiningar
-description: Þessi grein útskýrir hvernig á að fá yfirsýn yfir markeiningar í eignastýringu.
+description: Í þessari grein er útskýrt hvernig á að fá yfirlit yfir markeiningar í eignastýringu.
 author: johanhoffmann
 ms.date: 09/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 838e3affd4e782bea463638e28da3943329671d4
 ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/02/2022
 ms.locfileid: "9111857"
@@ -30,7 +30,7 @@ ms.locfileid: "9111857"
 
 Í vinnusvæðinu **Gagnastjórnun** er hægt að fá fengið yfirlit yfir markeiningar, gerðir tengdra aðila og sviðsetningartöflur sem tengjast einingunni **Eignastýring**. 
 
-1. Smelltu á **Fjármál og rekstur** hnappinn í efra vinstra horninu á skjánum og smelltu á **Gagnastjórnun**.
+1. Smelltu á hnappinn **Fjármál og rekstur** uppi í vinstra horni skjásins og smelltu á **Gagnastjórnun**.
 
 2. Í hlutanum **Innflutningur / útflutningur** skaltu smella á **Gagnaeiningar**. 
 

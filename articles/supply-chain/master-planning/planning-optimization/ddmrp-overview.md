@@ -1,6 +1,6 @@
 ---
-title: Eftirspurnardrifið efnisþörf skipulagning (DDMRP) yfirlit
-description: Þessi grein veitir upplýsingar um Demand Driven Material Requirements Planning (DDMRP), skipulagsaðferðafræði sem byggir á aftengingu framboðs og eftirspurnar.
+title: Eftirspurnarstýrð efnisþarfaráætlun (DDMRP) yfirlit
+description: Þessi grein veitir upplýsingar um eftirspurnarstýrða áætlanagerð efnisþarfa (DDMRP), aðferð áætlanagerðar sem byggir á aftengingu framboðs og eftirspurnar.
 author: t-benebo
 ms.date: 06/30/2022
 ms.topic: article
@@ -13,37 +13,37 @@ ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
 ms.openlocfilehash: cf5ca3996a882111b840e3acb5e2a4f3f26ec4b7
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740851"
 ---
-# <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Eftirspurnardrifið efnisþörf skipulagning (DDMRP) yfirlit
+# <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Eftirspurnarstýrð efnisþarfaráætlun (DDMRP) yfirlit
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 <!-- KFM: Preview until further notice -->
 
-Fyrirtæki hafa árum saman notað efniskröfur (MRP) sem kerfi til að reikna út efni og íhluti sem þarf til að framleiða vöru. Hins vegar hafa aðfangakeðjur nú breyst. Varahlutir hafa lengri afgreiðslutíma vegna þess að þeir eru í auknum mæli fengnir erlendis frá. Þess vegna hafa mörg fyrirtæki greint frá því að hafa orðið fyrir lagerútreikningum eða offramboði, vegna þess að þau vita ekki hversu mikið af birgðum á að geyma. Það eru líka meiri sveiflur á markaði (stundum ónákvæmar spár) og viðskiptavinir krefjast vöru á stuttum afgreiðslutíma. Þess vegna er skortur á birgðakeðju um allan heim. Að auki gefa MRP verkfæri skipuleggjendum oft þúsundir aðgerða til að gera. Þess vegna er erfitt að vita hvað á að leggja áherslu á. Oft er lausnin á mörgum þessara mála að skipta yfir í Demand Driven Material Requirements Planning (DDMRP).
+Í mörg ár hafa fyrirtæki notað efnisþarfaáætlun (MRP) sem kerfi til að reikna út hvaða efni og hluti þarf til að framleiða vöru. Hins vegar hafa aðfangakeðjur nú breyst. Hlutir hafa lengri endingartíma vegna þess að þeir eru í auknum mæli sóttir til útlanda. Þar af leiðandi hafa mörg fyrirtæki upplifað efnisskort eða umframefni því þau vita ekki hversu miklar birgðir á að geyma á lager. Einnig er meira flökt á markaðnum (stundum spáð á ónákvæman hátt) og viðskiptavinir eru að krefjast afurða með stuttum fyrirvara. Því er aðfangakeðjuskortur alls staðar í heiminum. Að auki veita MRP verkfæri skipuleggjendum þúsundir aðgerða. Því er erfitt að vita hverju á að einbeita sér að. Oft er lausnin á mörgum þessara vandamála að skipta yfir í eftirspurnarstýrða áætlanagerð efnisþarfa (DDMRP).
 
-DDMRP er skipulagsaðferðafræði sem byggir á því að aftengja framboð og eftirspurn. Þessi aftenging er náð með því að setja upp aftengingarpunkta. Fyrir þá hluti er biðminni viðhaldið til að tryggja að rétt magn af lager sé haldið. Aftenging framboðs og eftirspurnar hjálpar til við að koma í veg fyrir „bullwhip áhrif“ vegna þess að breytileiki fer ekki í gegnum keðjuna. (The *bullwhip áhrif* vísar til þess hvernig litlar sveiflur í eftirspurn á smásölustigi geta valdið sífellt meiri sveiflum í eftirspurn hjá heildsölu-, dreifingaraðila, framleiðanda og hráefnisbirgðastigi.) Hverjum stuðpúða er ætlað að standa undir meðalnotkun hluta og einnig er hægt að aðlaga hana. til að mæta auknum eftirspurn.
+DDMRP er áætlanagerðaraðferð sem byggir á aftengingu framboðs og eftirspurnar. Þessi aftenging næst með því að setja upp vörur aftengingarpunkta. Fyrir þessar vörur er öryggisbirgðum haldið við til að tryggja að rétt magn sé geymt á lager. Aftenging framboðs og eftirspurnar hjálpar til við að koma í veg fyrir „svipuáhrif“ vegna þess að breytileikinn fer ekki í gegnum keðjuna. (*Svipuáhrifin* vísa til þess hvernig litlar sveiflur í eftirspurn á smásölustigi geta valdið smám saman stærri sveiflum í eftirspurn á heildsölu-, dreifingar-, framleiðanda- og hráefnisbirgjastigi.) Hverjum mörkum er ætlað að fullnægja notkun hluta og er einnig hægt að stilla til að bregðast við aukningum.
 
-Sýnt hefur verið fram á að DDMRP sé dýrmæt áætlanagerð fyrir breytilegt umhverfi þar sem þoltími viðskiptavina er styttri en uppsafnaður leiðtími.
+Sannað hefur verið að DDMRP er verðmæt áætlanagerð fyrir breytilegt umhverfi þar sem þoltími viðskiptavina er styttri en uppsafnaður afhendingartími.
 
-## <a name="the-five-components-of-ddmrp"></a>Fimm þættir DDMRP
+## <a name="the-five-components-of-ddmrp"></a>Fimm íhlutir DDMRP
 
-DDMRP hefur fimm raðhluta (þrep). Fyrstu þrír þættirnir skilgreina í meginatriðum upphafs- og þróunarstillingar á eftirspurnardrifnu efnisþörfáætlunarlíkani. Síðustu tveir þættirnir skilgreina daglegan rekstur aðferðafræðinnar.
+DDMRP hefur fimm hluti í röð (skref). Fyrstu þrír hlutarnir skilgreina í meginatriðum upphaflegu og breytilegu skilgreininguna á líkani eftirspurnarstýrðrar áætlanagerðar efnisþarfa. Síðustu tveir hlutarnir skilgreina hversdagslegar aðgerðir aðferðarinnar.
 
-1. **[Stefnumótandi birgðastaða](ddmrp-inventory-positioning.md)** – Þekkja aftengingarpunkta í aðfangakeðjunetinu. Aftengingarpunktar eru sérstakir punktar í aðfangakeðjunni þinni þar sem þú setur birgðapúða sem þú munt fylgjast með og fylla á.
-2. **[Buffer snið og stig](ddmrp-buffer-profile-and-levels.md)** – Fyrir hvern aftengingarpunkt, auðkenndu biðminni (lágmarksmagn, hámarksmagn og endurpöntunarpunkt) og endurpöntunarmagn.
-3. **[Dynamic biðminni stillingar](ddmrp-buffer-profile-and-levels.md#dynamic-adjustments)** - Stilltu biðminni, byggt á mismunandi rekstrarbreytum eða fyrirhuguðum framtíðaratburðum.
-4. **[Eftirspurnarstýrð áætlanagerð](ddmrp-planning.md)** – Búðu til birgðapantanir eins og þær eru nauðsynlegar. Þessar birgðapantanir innihalda framleiðslupantanir, innkaupapantanir og birgðaflutningspantanir
-5. **[Mjög samvinnufús og sýnileg framkvæmd](ddmrp-visual-and-collaborative-execution.md)** - Keyrðu birgðapantanir með hjálp sjónrænnar.
+1. **[Birgðastaðsetning samkvæmt áætlun](ddmrp-inventory-positioning.md)** – Berðu kennsl á aftengingarpunkta í aðfangakeðjunetinu. Tengipunktar eru sérstakir punktar í aðfangakeðju þar sem þú setur upp öryggisbirgðir sem þú munt fylgjast með og fylla á.
+2. **[Forstillingar og stöður öryggisbirgða](ddmrp-buffer-profile-and-levels.md)** – Fyrir hvern aftengingarpunkt skal bera kennsl á stærðir öryggisbirgða (lágmarksmagn, hámarksmagn og endurpöntunarpunkt) og endurpöntunarmagnið.
+3. **[Sveigjanlegar leiðréttingar á öryggisbirgðum](ddmrp-buffer-profile-and-levels.md#dynamic-adjustments)** – Leiðréttu öryggisbirgðastöður, samkvæmt breytilegum færibreytum aðgerða eða áætluðum tilvikum í framtíðinni.
+4. **[Eftirspurnarstýrð áætlanagerð](ddmrp-planning.md)** – Búðu til birgðapantanir eftir þörfum. Þessar birgðapantanir innihalda framleiðslupantanir, innkaupapantanir og birgðaflutningspantanir
+5. **[Sýnileg framkvæmd með mikilli samvinnu](ddmrp-visual-and-collaborative-execution.md)** – Keyrðu birgðapantanirnar með hjálp myndrænnar framsetningar.
 
-DDMRP er venjulega notað af framleiðendum sem eru með fjölþrepa efnisskrá (BOM). Hins vegar er einnig hægt að nota það á dreifingar- og smásölunet.
+DDMRP er yfirleitt notað af framleiðendum sem eru með margs uppskriftir á mörgum stigum. Hins vegar er einnig hægt að nota það á dreifingar- og smásölunet.
 
-## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>DDMRP inn Dynamics 365 Supply Chain Management
+## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>DDMRP í Dynamics 365 Supply Chain Management
 
-DDMRP fylgir Microsoft Dynamics 365 Supply Chain Management og krefst ekki viðbótar leyfisgjalda. Í Supply Chain Management hefur DDMRP virkni verið bætt við núverandi **Aðalskipulag** mát. Hins vegar krefst þess að þú notir áætlanagerð fínstillingarviðbótina.
+DDMRP fylgir með Microsoft Dynamics 365 Supply Chain Management og krefst engra viðbótarleyfisgjalda. Í Supply Chain Management hefur DDMRP-virkninni verið bætt við fyrirliggjandi eininguna **Aðaláætlanagerð**. Hins vegar er þess krafist að þú notir viðbótina fyrir fínstillingu skipulagningar.
 
-DDMRP er samþætt við núverandi skipulagsuppsetningar í Supply Chain Management og er notað ásamt þeim uppsetningum til að komast að réttri skipulagsuppsetningu fyrir fyrirtæki þitt. Það er stjórnað af nýjum þekjukóða sem er allt öðruvísi en tímabil, lágmark/hámark, kröfu og svo framvegis. Það er ekki ný eining og kemur ekki í stað núverandi skipulagsvirkni. Hins vegar gefur það þér meiri virkni til að nota.
+DDMRP er samþætt við núverandi áætlanagerð í Supply Chain Management og er notað ásamt þeim uppsetningum til að koma á réttum áætlanagerðum fyrir fyrirtækið þitt. Henni er stjórnað af nýjum þekjukóða sem er allt öðruvísi en tímabil, hám/lágm, þörf og svo framvegis. Þetta er ekki ný eining og hún kemur ekki í stað núverandi skipulagningar. Hins vegar gefur það þér meiri virkni til að nota.

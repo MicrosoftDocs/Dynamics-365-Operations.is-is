@@ -1,6 +1,6 @@
 ---
 title: Hönnunareigindir og leit að hönnunareigind
-description: Þessi grein útskýrir hvernig þú getur notað verkfræðieiginleika til að tilgreina alla óstöðluðu eiginleika, til að tryggja að hægt sé að skrá öll afurðaraðalgögn í kerfið. Efnisatriðið útskýrir einnig hvernig hægt er að nota leit hönnunareigindar til að leita að afurðum með tilgreinda eiginleika á skjótan hátt.
+description: Þessi grein útskýrir hvernig hægt er að nota hönnunareigindir til að skilgreina alla eiginleika sem ekki eru staðlaðir til að tryggja að hægt sé að skrá öll gögn afurðarsniðmáts í kerfinu. Efnisatriðið útskýrir einnig hvernig hægt er að nota leit hönnunareigindar til að leita að afurðum með tilgreinda eiginleika á skjótan hátt.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: 4b25ab0bfda08b7aa091de8c6833007c586b9c87
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8852564"
@@ -72,9 +72,9 @@ Til að skoða, stofna eða breyta hönnunareigind skal fylgja þessum skrefum.
 
 Fyrir afurðarskipulag á borð við uppskriftir eða formúlur er hægt að flytja valdar eigindir frá undirvörum upp í yfirvörur. Hægt er að líta á þetta ferli sem „öfugar erfðir“.
 
-#### <a name="turn-engineering-attribute-inheritance-on-or-off"></a>Kveiktu eða slökktu á arfleifð verkfræðieiginda
+#### <a name="turn-engineering-attribute-inheritance-on-or-off"></a>Kveikja eða slökkva á erfðum hönnunareiginda
 
-Þessi eiginleiki krefst þess að bæði *Verkfræðibreytingastjórnun* og *Bætt eigindaarf fyrir verkfræðibreytingastjórnun* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
+Þessi eiginleiki krefst þess að kveikt sé á báðum eiginleikunum *Umsjón hönnunarbreytinga* og *Bætt erfðaeigind fyrir umsjón hönnunarbreytinga* fyrir kerfið. Frekari upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum er að finna í [Yfirlit yfir umsjón hönnunarbreytinga](product-engineering-overview.md).
 
 #### <a name="attribute-inheritance-example"></a>Dæmi um erfða eigind
 

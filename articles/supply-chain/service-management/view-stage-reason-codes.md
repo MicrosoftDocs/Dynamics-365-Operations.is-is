@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c44b896895817beee61fc96861631743fc2481ba
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015115"
@@ -29,7 +29,7 @@ ms.locfileid: "9015115"
 
 Skoðaðu og breyttu listanum yfir ástæður stigs fyrir þjónustupöntun. Notaðu ástæður stigs til að tilgreina ástæðuna fyrir stöðu þjónustupöntunar. Til dæmis getur þú búið til stigið **Hætt við** sem er úthlutað ástæðukóðanum **Viðskiptavinur hætti við**.
 
-  - Smellur **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**. Opna þjónustupöntun.
+  - Smelltu á **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**. Opna þjónustupöntun.
 
   - Í skjámyndinni **Þjónustupantanir** á **Aðgerðarsvæði**, á flipanum **Sending** skaltu smella á **Ástæður stigs**.
 

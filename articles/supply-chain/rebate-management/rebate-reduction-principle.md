@@ -1,6 +1,6 @@
 ---
 title: Minnkunarregla eftirágreidds afsláttar
-description: Þessi grein lýsir því hvernig á að setja upp lækkunarreglur. Minnkunarreglur stjórna hegðuninni þegar margir eftirágreiddir afslættir gilda um sömu vöruna eða færsluna.
+description: Þessi grein lýsir því hvernig á að setja upp minnkunarreglur. Minnkunarreglur stjórna hegðuninni þegar margir eftirágreiddir afslættir gilda um sömu vöruna eða færsluna.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: 5ccf8dc555862d87e8dc6f5b46e3045c72e88945
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8844823"

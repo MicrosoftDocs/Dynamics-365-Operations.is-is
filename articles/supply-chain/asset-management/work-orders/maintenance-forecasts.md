@@ -1,6 +1,6 @@
 ---
 title: Viðhaldsspár
-description: Þessi grein útskýrir viðhaldsspár í eignastýringu.
+description: Þessi grein útskýrir viðhaldsspár í Eignastýringu.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 4e3da8ab9a739c8455d2c1d2720f94f91a42927d
 ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/02/2022
 ms.locfileid: "9111601"
@@ -32,7 +32,7 @@ ms.locfileid: "9111601"
 
 Hugsanlega er hægt að bæta spálínum við verkbeiðni eða eyða þeim úr verkbeiðni. Uppsetning á líftímastöðu verkbeiðni, tengdri verkefnisgerð og stigareglum sem tengjast verkgerðinni ákvarðar hvort þú getur bætt við eða breytt spárlínum. Nánari upplýsingar um líftímastöður verkbeiðna og tengd verkefnastig, sjá [Spár, verkbeiðnir og verk](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. Veldu **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
+1. Veljið **Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
 
 2. Veldu verkbeiðni á listanum og síðan á aðgerðarrúðunni > flipanmu **Verkbeiðni** > hópnum **Verk**, velurðu **Spá**. Síðan **Viðhaldsspá verkbeiðni** sýnir spálínur úr gerð viðhaldsverks sem er valið í verkbeiðnivinnslunni.
 
@@ -107,7 +107,7 @@ Skýringarmyndin hér að neðan sýnir dæmi um síðuna **Viðhaldsspá verkbe
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Sjálfvirk uppfærsla á spám um verkbeiðnir
 
-Ef klukkutímakostnaður, vörukostnaður og kostnaður er uppfærður í öðrum einingum, er hægt að uppfæra vinnupöntunarspár í eignastýringu sjálfkrafa til að endurspegla þessar breytingar. Þessi afkastageta tryggir að nýjustu kostnaðarverðin séu ávallt notuð í spám þínum um verkbeiðnir. Einnig er hægt að gera svipaðar uppfærslur fyrir [spár um viðhaldverk](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Ef tímakostnaður, vörukostnaður og útgjöld eru uppfærð í öðrum einingum er sjálfkrafa hægt að uppfæra verkbeiðni í Eignastýringu í samræmi við þær breytingar. Þessi afkastageta tryggir að nýjustu kostnaðarverðin séu ávallt notuð í spám þínum um verkbeiðnir. Einnig er hægt að gera svipaðar uppfærslur fyrir [spár um viðhaldverk](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. Veldu **Eignastjórnun** > **Reglubundið** > **Spá** > **Uppfæra spá um verkbeiðni**.
 

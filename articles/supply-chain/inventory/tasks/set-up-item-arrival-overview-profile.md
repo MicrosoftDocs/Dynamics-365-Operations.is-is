@@ -1,6 +1,6 @@
 ---
 title: Setja upp komuyfirlitsreglu fyrir vöru
-description: Þessi grein fjallar um uppsetningu yfirlitsprófíls fyrir komu.
+description: Í þessari grein er lögð áhersla á uppsetningu komuyfirlitsregla.
 author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8517710f5d0be1859f86449152712d950281769a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8872008"
@@ -26,7 +26,7 @@ ms.locfileid: "8872008"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein fjallar um uppsetningu yfirlitsprófíls fyrir komu. Komuyfirlitsreglu er safn reglna sem verður notað þegar síðan Komuyfirlit er opnað af notanda. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF. Þetta verk myndi venjulega vera framkvæmt af starfsmanni í móttöku.
+Í þessari grein er lögð áhersla á uppsetningu komuyfirlitsregla. Komuyfirlitsreglu er safn reglna sem verður notað þegar síðan Komuyfirlit er opnað af notanda. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF. Þetta verk myndi venjulega vera framkvæmt af starfsmanni í móttöku.
 
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Birgðastýring > Uppsetning > Dreifing > Komuyfirlitsreglur**.
 2. Veljið **Nýtt**. Þar er þú vinnur nánast alltaf í sama vöruhús við hlaða af fullhlöðnum vörubíl , ætti að stofna komuyfirlitsregla til að auðvelda ferlið við að skrá mótteknar vörur.  

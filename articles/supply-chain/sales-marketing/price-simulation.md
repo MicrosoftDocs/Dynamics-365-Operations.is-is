@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d206654dcb7964ac2ed9aa9ccf7cec709e1bd38c
 ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/04/2022
 ms.locfileid: "8689679"
@@ -33,7 +33,7 @@ Verðherming fyrir tilboð sýnir nýja heildarupphæð, á grundvelli tillögu 
 Verðherming breyta ekki verðið í tilboðið. Ef verðhermun er beitt á allt tilboðið, er hún meðhöndluð sem sérstakur afsláttur í tilboðshausnum. Ef verðhermun er beitt á tiltekna vöru, er hún meðhöndluð sem sérstakur afsláttur í tilboðslínunum. Einingarsöluverð á tilboðslínunni sem er stofnuð breytist ekki þegar verðherming er notuð. Þess í stað er notuð afsláttarprósenta sem samsvarar verðlækkuninni í tilboðslínunni. Þegar verðhermingin er notuð, er einingarsöluverð og afsláttarprósentan flutt í tilboðslínuna eða tilboðshausinn.  
 
 >[!NOTE]
->Þegar þú keyrir verðhermun er aðeins núverandi sölugjaldmiðill notaður til að búa til uppgerðina. Hinsvegar, Þegar samtölur tilboða eru skoðaðar sjást hins vegar samsetning sölugjaldmiðils og fyrirtækisgjaldmiðils.  
+>Þegar verðherming er framkvæmd er eingöngu gildandi sölugjaldmiðill notaður til þess að stofna herminguna. Hinsvegar, Þegar samtölur tilboða eru skoðaðar sjást hins vegar samsetning sölugjaldmiðils og fyrirtækisgjaldmiðils.  
 
 Fylgivörur sem bætt er við tilboðslínur gæti sett af stað línuafsláttar eða samvalsafsláttar. Þær gætu einnig virkja heildarafslátt sem breyta framlegð og framlegðarstigi tilboðslínanna tilboðslína og alls afsláttarins.  
 

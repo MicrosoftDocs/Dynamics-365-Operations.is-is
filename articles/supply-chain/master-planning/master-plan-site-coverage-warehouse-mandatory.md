@@ -1,6 +1,6 @@
 ---
 title: Aðaláætlanagerð fyrir svæðistryggingu, vöruhús áskilið
-description: Þessi grein lýsir því hvernig hlutur sem hefur síðuna sem þekjuvídd er skipulögð. Vöruhúsavíddin er skyldug.
+description: Þessi grein lýsir því hvernig vöru sem hefur svæði sem þakningarvídd er áætluð. Vöruhúsavíddin er skyldug.
 author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: df58017c25737cc946d09bf86ff7ad8bd33f4176
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9741041"
@@ -27,7 +27,7 @@ ms.locfileid: "9741041"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig hlutur sem hefur síðuna sem þekjuvídd er skipulögð. Vöruhúsavíddin er skyldug.
+Þessi grein lýsir því hvernig vöru sem hefur svæði sem þakningarvídd er áætluð. Vöruhúsavíddin er skyldug.
 
 Eftirfarandi aðstæður eru í þessu dæmi um aðaláætlunargerð:
 

@@ -1,6 +1,6 @@
 ---
 title: Þjónustustig eignar
-description: Þessi grein útskýrir þjónustustig eigna í eignastýringu.
+description: Þessi grein útskýrir þjónustustig eigna í Eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1f7429b30253f540925e67ff9239667a0a404f26
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8908686"
@@ -28,7 +28,7 @@ ms.locfileid: "8908686"
 
  
 
-Þessi grein útskýrir þjónustustig eigna í eignastýringu. Stig eignaþjónustunnar eru tengd eignum og eru færð yfir í viðhaldsbeiðnir og verkbeiðnir. Þau eru notuð til að reikna út forgang verkbeiðna við tímasetningu verkbeiðna. Hægt er að breyta þjónustustigum eigna ef þörf er á.
+Þessi grein útskýrir þjónustustig eigna í Eignastýringu. Stig eignaþjónustunnar eru tengd eignum og eru færð yfir í viðhaldsbeiðnir og verkbeiðnir. Þau eru notuð til að reikna út forgang verkbeiðna við tímasetningu verkbeiðna. Hægt er að breyta þjónustustigum eigna ef þörf er á.
 
 Nánari upplýsingar um uppsetninguna sem er tengd útreikningi á matseinkunnum fyrir tímasetningar verkbeiðni, sjá [Færibreytur eignastýringar](../setup-for-objects/enterprise-asset-management-parameters.md). Þú verður að setja upp að minnsta kosti eina sjálfgefna skrá fyrir þjónustustig eigna. Þessi sjálfgefna skrá er notuð ef engin önnur samsvörun finnst við tímasetningu verkbeiðni.
 

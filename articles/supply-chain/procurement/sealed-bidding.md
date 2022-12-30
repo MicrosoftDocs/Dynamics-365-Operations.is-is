@@ -1,6 +1,6 @@
 ---
 title: Lokuð tilboð fyrir tilboðsbeiðnir
-description: Þessi grein lýsir því hvernig á að setja upp innsigluð tilboð til að halda tilboðssvörum lánardrottins leyndum þar til innkaupastarfsmenn hafa lokað þeim.
+description: Í þessari grein er lýst hvernig setja skal upp innsiglað tilboð til að halda svörum við tilboði söluaðila leyndum þar til þau eru óinnsigluð af starfsfólki kaupanda.
 author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
 ms.openlocfilehash: 40f1735d7efa5131b1462963758b6b48eec78fea
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8890887"
@@ -148,7 +148,7 @@ Ferlið við að búa til tilboðsbeiðni fyrir innsiglað kauptilboð er næstu
 Tilboðsbeiðnir fyrir innsigluð kauptilboð verða að vera með gildið **Gerð kauptilboðs** sem *Innsiglað*. Það eru þrjár leiðir til að úthluta þessu gildi til tilboðsbeiðni-máls:
 
 - Stilltu gildið í tilboðsbeiðninni eftir að þú stofnar hana.
-- Skilgreindu innsiglað kauptilboð sem sjálfgefna kauptilboðsgerð fyrir allar tilboðsbeiðnir í færibreytum innkaupa og aðfanga. (Sjá [Stilltu sjálfgefna tilboðsgerð](#set-default-bid-type) kafla fyrr í þessari grein.)
+- Skilgreindu innsiglað kauptilboð sem sjálfgefna kauptilboðsgerð fyrir allar tilboðsbeiðnir í færibreytum innkaupa og aðfanga. (Sjá kaflann [Setja sjálfgefna tilboðsgerð](#set-default-bid-type) fyrr í þessari grein.)
 - Þegar þú stofnar nýja tilboðsbeiðni skaltu velja beiðnigerðina sem er sett upp fyrir innsigluð kauptilboð. (Sjá hlutann [Stilla sjálfgefna gerð kauptilboðs](#set-default-bid-type).)
 
 Fyrir innsiglað tilboð er það gildið **Lokadagur og -tími** sem sker úr um hvenær opna má innsend tilboð. Gildið **Lokadagur og -tími** í hverri línu mun passa við gildið í hausnum.

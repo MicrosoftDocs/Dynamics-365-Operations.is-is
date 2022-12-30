@@ -1,6 +1,6 @@
 ---
 title: Upplýsingar um vinnulínu
-description: Þessi grein veitir upplýsingar um síðuna Vinnulínuupplýsingar, sem sýnir yfirgripsmikinn, flokkanlegan og síunarhæfan lista yfir einstakar vinnulínur í kerfinu þínu.
+description: Þessi grein inniheldur upplýsingar um upplýsingasíðu vinnulínu sem sýnir heildstæðan, raðanlegan og síanlegan lista yfir einstakar vinnulínur í kerfinu.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 1017527419acc2e4cb42b2bcb83131339d82b665
 ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/02/2022
 ms.locfileid: "9218883"
@@ -28,7 +28,7 @@ Síðan **Upplýsingar um vinnulínu** sýnir heildstæðan, raðanlegan og sía
 
 ## <a name="turn-on-the-work-line-details-feature"></a>Kveikja á eiginleika vinnulínuupplýsinga
 
-Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
+Sem hluti af Supply Chain Management, útgáfa 10.0.21, er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og virkjað eða óvirkjað hann ef þörf krefur. Hérna er eiginleikinn skráður sem:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Upplýsingar um vinnulínu*

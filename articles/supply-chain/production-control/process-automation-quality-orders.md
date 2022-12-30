@@ -1,6 +1,6 @@
 ---
 title: Kalla fram sjálfvirkniflæði ferlis til að stofna gæðapantanir
-description: Þessi grein veitir úrræði til að nota Power Automate að gera sjálfvirkan viðskiptaferla, með því að nota dæmi um gæðapantanir.
+description: Þessi grein inniheldur úrræði til að nota Power Automate til að gera viðskiptaferla sjálfvirka með því að nota dæmið um gæðapantanir.
 author: johanhoffmann
 ms.date: 05/28/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: a9c1cb7664963e60dcf6e50c7367f33382373832
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8890713"

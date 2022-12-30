@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6934c1147de79c24eb66127d2e08ae8b627bc744
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8849359"
@@ -89,7 +89,7 @@ Eftirfarandi dæmi sýnir hvernig einstakar innkaupabeiðnilínur má setja í l
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Skilgreina verkflæði fyrir innkaupabeiðnir
 Til að vísa innkaupabeiðnina til endurskoðunar, þarf að skilgreina ferli verkflæðiferli innkaupabeiðninnar. Verkflæðisskilgreiningin sem þú skilgreinir stjórnar samspilinu milli notandans sem bað um vörurnar (umsækjandans) og yfirlesarans og samþykkjandans í verkflæðinu. Leið sem innkaupabeiðnin fer fer eftir skilyrðum sem eru tilgreind í verkflæðisskilgreiningunni. Til dæmis þessara skilyrða ákvarða hvenær innkaupabeiðnir ætti að setja í leið, notandi eða hlutverk sem ætti að leiða hana til, og aðgerðir sem notendur geta framkvæmt.  
 
-Dæmin í þessari grein sýna hvernig hægt er að beina innkaupabeiðni í gegnum verkflæði sem eitt skjal eða sem einstakar innkaupabeiðnilínur. Einnig er hægt að skilgreina verkflæði fyrir innkaupabeiðnir til að endurspegla yfirferð innra eftirlits fyrir innkaupabeiðnir sem er skilgreind fyrir fyrirtækið.  
+Dæmin í þessari grein lýsa hvernig innkaupabeiðni er hægt að setja í leið í gegnum verkflæði sem eitt skjal eða einstakar innkaupabeiðnilínur. Einnig er hægt að skilgreina verkflæði fyrir innkaupabeiðnir til að endurspegla yfirferð innra eftirlits fyrir innkaupabeiðnir sem er skilgreind fyrir fyrirtækið.  
 
 Yfirlesarar eða þáttakendur sem verkefni er úthlutað til í verkflæðis geta verið meðlimir tiltekinn notendaflokk, notendur sem hafa tiltekna öryggishlutverk, notendum sem tengjast innsendingaraðila í á stjórnendastigveldi eða nefndir notendur eða notendur sem hafa ábyrgð á tiltekinni útgjöld.
 

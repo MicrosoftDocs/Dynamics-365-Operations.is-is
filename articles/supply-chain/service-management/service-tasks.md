@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fc0dee0747c26b073d750d19328a6a59c234fd3f
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016401"
@@ -82,7 +82,7 @@ Tvö þjónustuverk eru tengd þjónustusamningslínunum fyrir verkin tvö. Þj�
 
 **Flokka eftir þjónustuverki**
 
-1. Smellur **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
+1. Veljið **Þjónustustjórnun** \> **Þjónustusamningar** \> **þjónustusamningar**.
 2. Í flipanum **Uppsetning** skal velja **Eftir þjónustuverki** í reitnum **Sameina þjónustupantanir**.
 
 

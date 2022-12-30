@@ -1,6 +1,6 @@
 ---
 title: Flokkun tiltektarlínu
-description: Þessi grein veitir yfirlit yfir flokkun vallínu.
+description: Þessi grein veitir yfirlit yfir flokkun tiltektarlínu.
 author: Mirzaab
 ms.date: 12/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 00a4e07ac38a83cd4569006f3b6e2bdd59ed1a42
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9334536"
@@ -30,7 +30,7 @@ Flokkun tiltektarlínu gerir kleift að sameina margar vinnulínur sem eru með 
 
 ## <a name="turn-on-the-pick-line-grouping-feature"></a>Kveikja á eiginleika fyrir flokkun tiltektarlínu
 
-Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað vinnusvæðið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæðið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Flokkun tiltektarlínu*

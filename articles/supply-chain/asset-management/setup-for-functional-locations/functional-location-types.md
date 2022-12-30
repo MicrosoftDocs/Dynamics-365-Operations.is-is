@@ -1,6 +1,6 @@
 ---
 title: Gerðir virkra staðsetninga
-description: Þessi grein lýsir því hvernig á að búa til virkar staðsetningargerðir í eignastýringu.
+description: Í þessari grein er því lýst hvernig hægt er að búa til virkar staðsetningargerðir í Eignastýringu.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0c44e503900bd157d7f0159cdf2b2d0c1fb3393f
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015784"
@@ -28,7 +28,7 @@ ms.locfileid: "9015784"
 
  
 
-Þessi grein lýsir því hvernig á að búa til virkar staðsetningargerðir í eignastýringu. Gerðir virkra staðsetninga eru notaðar til að stjórna kröfum um virkar staðsetningar, þar með talið hvernig eignir eru settar upp á virkri staðsetningu. Þú getur sett upp eignategundir, viðhaldsáætlanir, eigindi virkrar staðsetninga og eignaeigindakröfur til að nota á virkri staðsetningu sem notar sérstaka gerð virkrar staðsetningar. Þegar þú býrð til virka staðsetningu er gerð virkrar staðsetningar lögboðin.
+Í þessari grein er því lýst hvernig hægt er að búa til virkar staðsetningargerðir í Eignastýringu. Gerðir virkra staðsetninga eru notaðar til að stjórna kröfum um virkar staðsetningar, þar með talið hvernig eignir eru settar upp á virkri staðsetningu. Þú getur sett upp eignategundir, viðhaldsáætlanir, eigindi virkrar staðsetninga og eignaeigindakröfur til að nota á virkri staðsetningu sem notar sérstaka gerð virkrar staðsetningar. Þegar þú býrð til virka staðsetningu er gerð virkrar staðsetningar lögboðin.
 
 >[!NOTE] 
 >Til að vinna með virkar staðsetningar verður þú að búa til sjálfgefna virka staðsetningu sem eingöngu er notuð í þeim tilgangi að búa til nýjar eignir. Fyrir þá sjálfgefnu virku staðsetningu sem þú notar ættir þú að búa til sjálfgefna gerð virkrar staðsetningar sem er mjög einföld og gerir kleift að setja upp margar eignir á sjálfgefna virka staðsetningu. Sjá [Stofna virkar staðsetningar](../functional-locations/create-functional-locations.md) fyrir frekari upplýsingar um hvernig á að setja upp virkar staðsetningar.
@@ -57,7 +57,7 @@ Núna hefur sjálfgefin gerð virkrar staðsetningar sem aðeins á að nota fyr
 7. Reiturinn **Gerð eigna** er notaður ef þú vilt búa til sjálfkrafa *eina* eign fyrir virka staðsetningu með sama kenni og heiti og virka staðsetningin sem þú ert að búa til. Til dæmis getur þetta skipt máli ef þú býrð til kyrrstæða virka staðsetningu, svo sem byggingu eða leiðslu. Í því tilfelli skaltu velja eignategundina sem þú vilt nota fyrir sjálfvirkt stofnaða eignina. Mundu að ef þú gerir val á þessu sviði, þá verður skiptihnappurinn **Margar eignir** að vera stilltur á „Nei“.
 8. Á flýtiflipanum **Gerðir eigna** veldu þá eignategund sem á að tengjast gerð virku staðsetningarinnar. Veldu **Bæta við línu** og veldu eignagerðirnar. Ef þú bætir við eignategundum hér er aðeins hægt að setja upp eignir sem nota þessar eignategundir á virkri staðsetningu með því að nota þessa gerð virkrar staðsetningar. Ef engar eignategundir eru valdar á flýtiflipanum **Gerðir eigna** kunna allar eignategundir að vera settar upp.
 9. Á flýtiflipanum **Viðhaldsáætlanir** veldu viðhaldsáætlanir sem sjálfkrafa ætti að setja upp á nýjum virkum staðsetningum með því að nota þessa gerð virkrar staðsetningar. Veldu **Bæta við línu** og veldu viðhaldsáætlanir. Ef þú bætir við viðhaldsáætlunum hér, er aðeins hægt að nota þessar áætlanir á virkri staðsetningu með því að nota þessa gerð virkrar staðsetningar.
-10. Á flýtiflipanum **Kröfur eignaeiginda** seturðu upp eignaeigindi sem sjálfkrafa ætti að setja upp á nýjum virkum staðsetningum með því að nota þessa gerð virkrar staðsetningar. Veldu **Bæta við línu** og veldu eigindina. Þessar eigindakröfur virka sem leiðbeiningar. Þau eru ekki fullgilt gegn eiginleikum sem settar eru upp á eign (**Eignastýring** > **Eignir** > **Allar eignir** > veldu eign á listasíðunni >**Almennt** flipann >**Eiginleikar** takki). Eigindkröfurnar eru sýndar þegar þú setur upp eignir á virkum stöðum.
+10. Á flýtiflipanum **Kröfur eignaeiginda** seturðu upp eignaeigindi sem sjálfkrafa ætti að setja upp á nýjum virkum staðsetningum með því að nota þessa gerð virkrar staðsetningar. Veldu **Bæta við línu** og veldu eigindina. Þessar eigindakröfur virka sem leiðbeiningar. Þær eru ekki sannprófaðar gagnvart eigindum sem settar eru upp í eign (**Eignastýring** > **Eignir** > **Allar eignir** > velja eign á listasíðunni > **Almennt** flipi > **Eigindir** hnappur). Eigindkröfurnar eru sýndar þegar þú setur upp eignir á virkum stöðum.
 11. Á flýtiflipanum **Leyfðar gerðir** veldu gerðir virkrar staðsetningar sem ættu að gilda fyrir gerðir virkra undirstaðsetninga sem tengjast gerð virkrar yfirstaðsetningar sem notar valda gerð virkrar staðsetningar.
 12. Á flýtiflipanum **Eigindir** veldu eigindir virkrar staðsetningar sem sjálfkrafa ætti að setja upp á nýjum virkum staðsetningum með því að nota þessa gerð virkrar staðsetningar. Veldu **Bæta við línu** og veldu eigindina.
 

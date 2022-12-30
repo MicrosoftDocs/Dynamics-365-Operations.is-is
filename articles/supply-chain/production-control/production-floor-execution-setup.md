@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: 0ae9ca901a7af8275db419e25a7297a77aab284e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8857403"
@@ -28,9 +28,9 @@ Keyrsluviðmót framleiðslugólfsins er sett upp fyrir sérhvert tæki á framl
 
 ## <a name="set-the-configuration-and-filters-for-a-specific-device"></a>Stilla skilgreiningu og síur fyrir tiltekið tæki
 
-Til að stilla stillingar og vinnusíur fyrir tæki skaltu skrá þig inn á **Framleiðslugólf framkvæmd** síðu með því að nota reikning sem hefur öryggishlutverk sem inniheldur *Halda tímaeftirliti* skylda. (Á meðal tilbúnu öryggishlutverkanna, þá hefur aðeins *Umsjónarmaður vinnusalar* þessa aðgangsheimild.) Síðan skal fylgja þessum skrefum.
+Til að stilla skilgreiningu og vinnusíur fyrir tæki þarf að skrá sig inn á síðuna **Keyrsla framleiðslugólfs** með því að nota reikning sem er með öryggishlutverk sem inniheldur aðgangsheimildina *Vinna með tímastjórnun*. (Á meðal tilbúnu öryggishlutverkanna, þá hefur aðeins *Umsjónarmaður vinnusalar* þessa aðgangsheimild.) Síðan skal fylgja þessum skrefum.
 
-1. Farið í tækið sem á að setja upp og skráið ykkur inn í Microsoft Dynamics 365 Supply Chain Management sem umsjónarmaður vinnusalar. (Notaðu reikning sem inniheldur *Halda tímaeftirliti* skylda.)
+1. Farið í tækið sem á að setja upp og skráið ykkur inn í Microsoft Dynamics 365 Supply Chain Management sem umsjónarmaður vinnusalar. Notið reikning sem inniheldur aðgangsheimildina *Vinna með tímastjórnun*.
 1. Ganga skal úr skugga um að skilgreining sé tiltæk fyrir tækið sem verið er að setja upp. Ef engin skilgreining er þegar til er sjálfgefin skilgreining gefin upp. Frekari upplýsingar um hvernig setja á upp skilgreiningu er að finna í [Skilgreina keyrsluviðmót framleiðslugólfs](production-floor-execution-configure.md).
 1. Farið í **Framleiðslustýring \> Framkvæmd framleiðslu \> Framkvæmd á framleiðslugólfi**.
 

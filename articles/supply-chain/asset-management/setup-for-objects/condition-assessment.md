@@ -1,6 +1,6 @@
 ---
 title: Ástandsmat
-description: Þessi grein útskýrir hvernig á að búa til ástandsmatssniðmát og skráningu á eign í eignastýringu.
+description: Í þessari grein er útskýrt hvernig búa á til sniðmát fyrir ástandsmat og skráningu á eign í Eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c43424a0955d7a046186e8a4120c050990df6060
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015057"
@@ -28,7 +28,7 @@ ms.locfileid: "9015057"
 
  
 
-Þessi grein útskýrir hvernig á að búa til ástandsmatssniðmát og skráningu á eign í eignastýringu. Ástandsmat er framkvæmt með reglulegu millibili og meginmarkmiðið er að búa til og viðhalda skilyrðum um eignir. Séð frá fyrirbyggjandi viðhaldssjónarmiði er mikilvægt að fylgjast með lykilupplýsingum eins og núverandi ástandi og endingartíma. Enn fremur, ef þú framkvæmir ástandsmat með reglulegu millibili, muntu geta fylgst með og borið saman aðstæður á vélum í verksmiðjunni.
+Í þessari grein er útskýrt hvernig búa á til sniðmát fyrir ástandsmat og skráningu á eign í Eignastýringu. Ástandsmat er framkvæmt með reglulegu millibili og meginmarkmiðið er að búa til og viðhalda skilyrðum um eignir. Séð frá fyrirbyggjandi viðhaldssjónarmiði er mikilvægt að fylgjast með lykilupplýsingum eins og núverandi ástandi og endingartíma. Enn fremur, ef þú framkvæmir ástandsmat með reglulegu millibili, muntu geta fylgst með og borið saman aðstæður á vélum í verksmiðjunni.
 
 Hægt er að nota ástandsmat til að mæla og hafa eftirlit með mörgum aðstæðum á búnaði þínum. Dæmi: Þú gætir mælt titring á vélunum þínum. Eftir að þú hefur skráð titringsmælingar í Eignastjórnun á ýmsum gerðum búnaðar geturðu leitað að nýjasta skráða matinu og skoðað titringsmælingar.
 
@@ -62,7 +62,7 @@ Skilyrðamat er búið til á eignir. Þú setur upp sniðmát fyrir mat á ást
 Eftir að þú ert búinn að gera skráningu á ástandsmati á eign geturðu prentað skýrslu um ástandsmat.
 
 >[!NOTE]
->Einnig er hægt að skrá ástandsmat á verkbeiðni (**Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** > **Ástandsmat** takki.)
+>Einnig er hægt að skrá ástandsmat á verkbeiðni (**Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir** > **Ástandsmat** hnappur.)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

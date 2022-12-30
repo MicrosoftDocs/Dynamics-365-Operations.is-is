@@ -1,6 +1,6 @@
 ---
 title: Stöður eftirágreidds afsláttar
-description: Þessi grein lýsir því hvernig á að setja upp afsláttarstöður. Stöður eftirágreidds afsláttar aðstoða þig við að fylgjast með stöðu hvers tilboðs. Þú getur einnig notað þá fyrir skýrslur og fyrirspurnir.
+description: Þessi grein lýsir því hvernig á að setja upp stöður eftirágreidds afsláttar. Stöður eftirágreidds afsláttar aðstoða þig við að fylgjast með stöðu hvers tilboðs. Þú getur einnig notað þá fyrir skýrslur og fyrirspurnir.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: 86da2dfe3d398ac12dcff45b579a572e31d6a90d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8901880"

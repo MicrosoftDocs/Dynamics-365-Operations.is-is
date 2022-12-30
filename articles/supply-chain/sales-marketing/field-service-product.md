@@ -1,6 +1,6 @@
 ---
 title: Samstilla vörur í Supply Chain Management við vörur í Field Service
-description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla vörur frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+description: Þessi grein fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla vörur úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 114550f01f3aed197480fb6830fe913dbfa7b570
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8860552"
@@ -27,11 +27,11 @@ ms.locfileid: "8860552"
 
 [!include[banner](../includes/banner.md)]
 
-Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla vörur frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+Þessi grein fjallar um sniðmátin og undirliggjandi verk sem notuð eru til að samstilla vörur úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 
 Notaða sniðmátið **Afurðir Field Service (Supply Chain Management til Field Service)** er byggt á sniðmátinu **Afurðir (Supply Chain Management til Sales) - Beint** frá Prospect to Cash. Nánari upplýsingar er að finna í [Afurðir (Supply Chain Management til Sales) - Beint](/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
 
-Þessi grein lýsir aðeins muninum á milli **Field Service Products (Aðfangakeðjustjórnun til Field Service)** og **Vörur (stjórnun aðfangakeðju til sölu) - Bein** sniðmát.
+Í þessari grein er aðeins lýst muninum á sniðmátunum **Afurðir Field Service (Supply Chain Management til Field Service)** og **Afurðir (Supply Chain Management til Sales) – Beint**.
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 

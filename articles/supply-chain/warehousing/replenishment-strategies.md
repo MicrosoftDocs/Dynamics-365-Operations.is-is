@@ -1,6 +1,6 @@
 ---
 title: Áfyllingaráætlanir
-description: Þessi grein veitir upplýsingar um áfyllingaraðferðir og útskýrir hvernig hægt er að nota reitinn Áfyllingaráætlun á sniðmátslínum fyrir endurnýjun eftirspurnar til að velja hvernig áfylling er gerð.
+description: Þessi grein veitir upplýsingar um áfyllingaráætlanir og útskýrir hvernig hægt er að nota svæðið áfyllingaráætlun í sniðmátslínum eftirspurnaráfyllingar bylgju til að velja hvernig áfyllingu er háttað.
 author: Mirzaab
 ms.date: 10/29/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: 10.0.16
 ms.openlocfilehash: 1245d07436a9b57ee4f0402687e7a4367668cbfa
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9336276"
@@ -36,7 +36,7 @@ Háannatími er eitt dæmi um aðstæður þar sem áætlunin *Hámarksafkastage
 
 ## <a name="turn-on-the-replenish-to-max-based-on-stocking-limits-feature"></a>Kveikið á Áfylling að hámarki samkvæmt eiginleikum birgðamarka
 
-Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Áfylling að hámarki samkvæmt birgðamörkum*

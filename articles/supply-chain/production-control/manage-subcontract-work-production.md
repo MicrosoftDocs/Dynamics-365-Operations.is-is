@@ -1,6 +1,6 @@
 ---
 title: Stjórnun úthýsingarvinnu í framleiðslu
-description: Þessi grein útskýrir hvernig undirverktakastarfsemi er stjórnað í Dynamics 365 Supply Chain Management. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
+description: Þessi grein skýrir hvernig aðgerðum undirverktaka er stjórnað í Dynamics 365 Supply Chain Management. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a0021d409f9f4a9b36effbd80a99766812572d5b
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8863796"
@@ -27,7 +27,7 @@ ms.locfileid: "8863796"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig undirverktakastarfsemi er stjórnað í Dynamics 365 Supply Chain Management. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
+Þessi grein skýrir hvernig aðgerðum undirverktaka er stjórnað í Dynamics 365 Supply Chain Management. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
 
 Í [framleiðsluferli](production-process-overview.md) er hægt að framkvæma vinnu með tilföngum sem eru í eigu eða er stjórnað af lánardrottni. Yfirleitt eru tilföng lánardrottins notuð til að jafna út tímabundna umfram eftirspurn sem fer yfir tiltækt framboð eigin tilfanga fyrirtækis. Lánardrottinn gæti einnig verið fær um að bjóða tiltekna [tilfangagetu](resource-capabilities.md) eða tilföng á lægra verði.  
 
@@ -63,7 +63,7 @@ Til að vera talið með í áætlaun og kostnaðarútreikningi verður að bæt
 Framleiðslupöntun getur innihaldið margar aðgerðir og hverri aðgerð má úthluta á mismunandi lánardrottinn. Þar af leiðandi er hugsanlegt að framleiðslupöntun sem tekur til alls ferlisins geti orðið til að stofna margar innkaupapantanir.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Úthýsing á framleiðsluflæðiaðgerðum
-The [lean framleiðsla](lean-manufacturing-overview.md) lausnarlíkön undirverktakavinnu sem þjónustu sem tengist starfsemi a [framleiðsluflæði](tasks/create-production-flow-version.md) (Grein um verkefnaleiðbeiningar). Þess vegna er þessi gerð úthýsingar einnig kölluð [Verkþáttarbyggð úthýsing.](activity-based-subcontracting.md) Sérstök gerð kostnaðarflokks sem kallast **Bein útvistun** hefur verið kynnt til sögunnar og úthýsingarþjónusta er ekki lengur hluti af uppskrift (BOM) fulllunnu vörunnar. Þegar lean manufacturing er notað er öll virkni skilgrein með kanbönum sem hægt er að tengja við einn eða fleiri virkniþætti framleiðsluflæðis. Fram að þessu hljómar sú útskýring bara eins og skýring á framleiðslupöntunum. Hinsvegar, á meðan framleiðslupöntunum lýkur alltaf með fullunni vöru er hægt að stofna kanbön til að útvega hálfunna vöru. Ekki þarf að koma með nýtt framleiðslustig eða uppskriftarstig.  
+Í [lean manufacturing](lean-manufacturing-overview.md) er úthýsingarvinna byggð upp sem þjónusta sem er tengd við verkþátt [framleiðsluflæðis](tasks/create-production-flow-version.md) (grein í Verkefnaleiðbeiningum). Þess vegna er þessi gerð úthýsingar einnig kölluð [Verkþáttarbyggð úthýsing.](activity-based-subcontracting.md) Sérstök gerð kostnaðarflokks sem kallast **Bein útvistun** hefur verið kynnt til sögunnar og úthýsingarþjónusta er ekki lengur hluti af uppskrift (BOM) fulllunnu vörunnar. Þegar lean manufacturing er notað er öll virkni skilgrein með kanbönum sem hægt er að tengja við einn eða fleiri virkniþætti framleiðsluflæðis. Fram að þessu hljómar sú útskýring bara eins og skýring á framleiðslupöntunum. Hinsvegar, á meðan framleiðslupöntunum lýkur alltaf með fullunni vöru er hægt að stofna kanbön til að útvega hálfunna vöru. Ekki þarf að koma með nýtt framleiðslustig eða uppskriftarstig.  
 
 Kanbanreglur geta verið mjög gagnvirkar og því er hægt að byggja mismunandi afbrigði birgða fyrir sömu vöruna á framleiðsluflæði. Þegar notuð er lean úthýsing eru efnisflæði og fjárhagslegt flæði aðskilin með skýrum hætti. Allt efnisflæði er táknað með kanban-virkniþáttum. Innkaupapantanir fyrir þjónustuvörurnar og bókanir á móttöku slíkrar þjónustu má gera sjálfvirkar, á grundvelli stöðu kanban-vinnslu í framleiðsluflæðinu. Kanban-vinnslu má hefja og ljúka jafnvel þótt ekki sé búið að stofna innkaupapantanir. Fylgiskjöl úthýsingar (innkaupapöntun og innkaupakvittun þjónustunnar) er hægt að safna upp eftir tímabili og þjónustu. Því er hægt að halda fjölda innkaupaskjala og -lína í lágmarki, jafnvel í margendurteknum aðgerðum þar sem lánardrottnar útvega úthýsta þjónustu í eins þáttar flæði.
 

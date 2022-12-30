@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.7
 ms.openlocfilehash: 559ca80976955d6328cb4d6b2020d5662460cef9
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8863651"
@@ -25,9 +25,9 @@ ms.locfileid: "8863651"
 
 Frágangsklasar bjóða upp á leið til að tína margar númeraplötur samtímis og ganga síðan frá þeim á mörgum staðsetningum. Þetta ferli er oft kallað *samflutningur*. Frágangsklasar geta verið mjög gagnlegir fyrir smásölufyrirtæki þar sem númeraplötur eru yfirleitt ekki heil bretti af birgðum. 
 
-## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Kveiktu eða slökktu á cluster putaway eiginleikanum
+## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Kveikja eða slökkva á eiginleika klasafrágangs
 
-Til að nota virknina sem lýst er í þessari grein, *Cluster putaway lögun* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Cluster putaway lögun* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota virkni sem lýst er í þessari verður að vera kveikt á *Eiginleiki fyrir frágang klasa* fyrir kerfið þitt. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Frágangur klasa* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Uppsetning fyrir dæmi um aðstæður
 

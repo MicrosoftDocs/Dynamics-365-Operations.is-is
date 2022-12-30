@@ -1,6 +1,6 @@
 ---
 title: Skoða áætlaða eftirspurn á útleið innan samstæðu
-description: Þessi grein veitir verklag sem sýnir hvernig á að skoða áætlaða eftirspurn milli fyrirtækja á útleið.
+description: Þessi grein gefur upp ferli sem sýnir hvernig á að skoða áætlaða eftirspurn á útleið innan samstæðu.
 author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dcdea0af5cb522646bc63c7e5ef1d4e54e0a3547
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8895642"

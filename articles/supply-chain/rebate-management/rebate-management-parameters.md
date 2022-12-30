@@ -1,6 +1,6 @@
 ---
 title: Færibreytur fyrir stjórnun eftirágreidds afsláttar
-description: Þessi grein lýsir síðunni Færibreytur afsláttarstjórnunar. Þessi síða inniheldur stillingar sem hafa áhrif á bókanir, stöðuuppfærslur, númeraraðir og annars konar hegðun.
+description: Þessi grein lýsir færibreytusíðu fyrir stjórnun eftirágreidds afsláttar. Þessi síða inniheldur stillingar sem hafa áhrif á bókanir, stöðuuppfærslur, númeraraðir og annars konar hegðun.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: 218c54d97f3ac204e8613f5efdda0cc9d713ee04
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8895526"
@@ -45,7 +45,7 @@ Eftirfarandi tafla lýsir reitunum sem eru í boði í flipanum **Stjórnun efti
 
 ## <a name="number-sequences-tab"></a>Flipinn Númeraraðir
 
-Notið flipann **Númeraraðir** á síðunni **Færibreytur fyrir stjórnun eftirágreidds afsláttar** til að úthluta kóðum númeraraðar á mismunandi númeraraðir sem stjórnun eftirágreidds afsláttar notar. Eftirfarandi tafla lýsir tilgangi hverrar númeraraðar. Fyrir frekari upplýsingar um númeraraðir, sjá [Yfirlit yfir númeraraðir](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) og það eru tengdar greinar.
+Notið flipann **Númeraraðir** á síðunni **Færibreytur fyrir stjórnun eftirágreidds afsláttar** til að úthluta kóðum númeraraðar á mismunandi númeraraðir sem stjórnun eftirágreidds afsláttar notar. Eftirfarandi tafla lýsir tilgangi hverrar númeraraðar. Nánari upplýsingar um númeraraðir er að finna í [Yfirlit númeraraða](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) og í tengdum greinum.
 
 | Tilvísun | Lýsing |
 |---|---|

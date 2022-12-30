@@ -1,6 +1,6 @@
 ---
 title: Gæðatengingar
-description: Þessi grein lýsir því hvernig þú getur notað gæðasambönd í Microsoft Dynamics 365 Supply Chain Management til að mynda sjálfkrafa gæðapantanir sem tengjast sölu-, innkaupa- og framleiðsluferlum þínum.
+description: Þessi grein lýsir því hvernig er hægt að nota gæðatengingar í Microsoft Dynamics 365 Supply Chain Management til að búa til gæðapantanir sjálfkrafa sem tengjast sölum þínum, innkaupum og framleiðsluferlum.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-06-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4e96f301d8dec255e57f0f0fbfa9c8e1a5922ae9
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8887516"
@@ -27,7 +27,7 @@ ms.locfileid: "8887516"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig þú getur notað gæðasambönd í Microsoft Dynamics 365 Supply Chain Management til að mynda sjálfkrafa gæðapantanir sem tengjast sölu-, innkaupa- og framleiðsluferlum þínum.
+Þessi grein lýsir því hvernig er hægt að nota gæðatengingar í Microsoft Dynamics 365 Supply Chain Management til að búa til gæðapantanir sjálfkrafa sem tengjast sölum þínum, innkaupum og framleiðsluferlum.
 
 Gæðatenging skilgreinir allar eftirfarandi upplýsingar fyrir gæðapöntun sem er mynduð:
 

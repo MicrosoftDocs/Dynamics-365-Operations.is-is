@@ -1,6 +1,6 @@
 ---
 title: Skilgreina dæmi um bylgjuvinnslu
-description: Þessi grein gefur dæmi um hvernig á að setja upp viðmiðin sem ákvarða hvaða vinna verður til fyrir vöruhús þegar bylgja er unnin og hvort bylgjur eru unnar handvirkt eða sjálfvirkt.
+description: Þessi grein inniheldur dæmi um hvernig eigi að setja upp skilyrði sem ákvarða hvort bylgjur eru unnar handvirkt eða sjálfvirkt og vinnu sem er mynduð fyrir vöruhús þegar unnið er úr bylgju.
 author: Mirzaab
 ms.date: 03/17/2021
 ms.topic: business-process
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9a8c088f8726573e4b1fcad1944676547391a9bf
 ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/02/2022
 ms.locfileid: "9219629"
@@ -25,11 +25,11 @@ ms.locfileid: "9219629"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein gefur dæmi um hvernig á að setja upp viðmiðin sem ákvarða hvaða vinna verður til fyrir vöruhús þegar bylgja er unnin og hvort bylgjur eru unnar handvirkt eða sjálfvirkt. Tilgreina skal skilyrði með því að setja upp bylgjusniðmát og fyrirspurnir sem samsvara bylgju með losaðar línur í sölupantanir, framleiðslupantanir og kanban pantanir.
+Þessi grein inniheldur dæmi um hvernig eigi að setja upp skilyrði sem ákvarða hvort bylgjur eru unnar handvirkt eða sjálfvirkt og vinnu sem er mynduð fyrir vöruhús þegar unnið er úr bylgju. Tilgreina skal skilyrði með því að setja upp bylgjusniðmát og fyrirspurnir sem samsvara bylgju með losaðar línur í sölupantanir, framleiðslupantanir og kanban pantanir.
 
 ## <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að vinna í gegnum þessa atburðarás með því að nota sýnishornsfærslurnar og gildin sem tilgreind eru hér, verður þú að nota kerfi þar sem staðallinn [kynningargögn](../../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
+Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér er nauðsynlegt að vera á kerfi þar sem venjuleg [sýnigögn](../../../fin-ops-core/fin-ops/get-started/demo-data.md) eru sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
 
 ## <a name="example-scenario-configure-wave-processing"></a>Dæmi um aðstæður: skilgreina bylgjuvinnslu
 

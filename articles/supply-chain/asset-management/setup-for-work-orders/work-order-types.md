@@ -1,6 +1,6 @@
 ---
 title: Gerðir vinnupöntunar
-description: Þessi grein útskýrir gerðir verkbeiðna í eignastýringu.
+description: Þessi grein útskýrir gerðir verkbeiðni í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 12745960f903ebc14208f2c8a01f076ed27a38d3
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8891177"

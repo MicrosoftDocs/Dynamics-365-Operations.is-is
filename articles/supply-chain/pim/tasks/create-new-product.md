@@ -1,6 +1,6 @@
 ---
 title: Stofna nýja afurð
-description: Þessi grein lýsir því hvernig á að búa til nýja sameiginlega vöru.
+description: Þessi grein sýnir hvernig á að stofna nýja samnýttra afurðar.
 author: t-benebo
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 75490661bf6f1e3dc0655cf9bd79316194c63820
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8887342"
@@ -24,7 +24,7 @@ ms.locfileid: "8887342"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að búa til nýja sameiginlega vöru. Því er yfirleitt framkvæmd af vöruhönnuður. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.
+Þessi grein sýnir hvernig á að stofna nýja samnýttra afurðar. Því er yfirleitt framkvæmd af vöruhönnuður. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.
 
 
 ## <a name="create-a-product"></a>Stofna afurð

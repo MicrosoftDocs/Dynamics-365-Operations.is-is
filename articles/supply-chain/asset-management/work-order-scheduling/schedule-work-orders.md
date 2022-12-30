@@ -1,6 +1,6 @@
 ---
 title: Áætla verkbeiðnir
-description: Þessi grein útskýrir hvernig á að tímasetja vinnupantanir í eignastýringu.
+description: Þessi grein útskýrir hvernig á að tímasetja verkbeiðnir í eignastýringu.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 6592b94105777525c777950132d5099d1e8abb0e
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016740"
@@ -28,13 +28,13 @@ ms.locfileid: "9016740"
 
  
 
-Þessi grein útskýrir hvernig á að tímasetja vinnupantanir í eignastýringu. 
+Þessi grein útskýrir hvernig á að tímasetja verkbeiðnir í eignastýringu. 
 
-Nauðsynlegur fjöldi klukkustunda fyrir verkbeiðni er skilgreindur af summunni yfir spáða tíma að frádregnum bókuðum tímum. Ef þörf er á meiri tíma verður að aðlaga spána til samræmis. Í **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**, þú getur skoðað eða breytt spám á verkbeiðni með því að velja verkbeiðnina og smella **Spá** á **Vinnupöntun** flipa. Þegar vinnupantanir hafa verið stofnaðar og áætlaðar er næsta skref að ljúka verkbeiðnunum að úthluta nauðsynlegum viðhaldsstarfsmönnum og verkfærum.
+Nauðsynlegur fjöldi klukkustunda fyrir verkbeiðni er skilgreindur af summunni yfir spáða tíma að frádregnum bókuðum tímum. Ef þörf er á meiri tíma verður að aðlaga spána til samræmis. Í **Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir** er hægt að skoða eða breyta spám í verkbeiðni með því að velja verkbeiðnina og smella á **Spá** í flipanum **Verkbeiðni**. Þegar verkbeiðnir hafa verið stofnaðar og áætlaðar skal ljúka við verkbeiðnirnar með því að úthluta nauðsynlegum viðhaldsstarfskröftum og verkfærum.
 
 Aðeins er hægt að skipuleggja verkbeiðnir með líftímastöðu verkbeiðni sem gerir ráð fyrir tímasetningu. Leyfa tímasetningu er sett upp á flýtiflipanum **Eignastjórnun** > **Uppsetning** > **Verkbeiðnir** > **Líftímastöður** > **Almennt** > skiptihnappnum **Leyfa tímasetningu**.
 
-1. Smellur **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir**.
+1. Smelltu **Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir**.
 
 2. Veldu verkbeiðnirnar sem þú vilt raða í listanum. Til dæmis geturðu raðað listanum eftir **Núverandi líftímastöðu**.
 

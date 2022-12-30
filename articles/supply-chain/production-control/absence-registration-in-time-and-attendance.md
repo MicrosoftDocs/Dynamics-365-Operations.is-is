@@ -1,6 +1,6 @@
 ---
 title: Fjarvistarskráning í Tími og mæting
-description: Í þessari grein er útskýrt hvernig eigi að standa að fjarvistaskráningum í Tíma- og viðveru.
+description: Í þessari grein er útskýrt hvernig á að meðhöndla fjarvistarskráningu í Tími og mæting.
 author: johanhoffmann
 ms.date: 05/26/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9a613edbe42d1bfb1d2ee43ee1cb2f1e0ab49a05
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8890771"
@@ -25,7 +25,7 @@ ms.locfileid: "8890771"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir hugtökum fyrir fjarvistir og útskýrir hvernig eigi að meðhöndla fjarveru í Tíma og viðveru.
+Þessi grein lýsir hugtökunum um fjarveru og útskýrir hvernig á að meðhöndla fjarveru í Tíma og mætingu.
 
 ## <a name="absence-that-is-based-on-regular-work-hours"></a>Fjarvist sem er byggður á venjulegum vinnustundum
 

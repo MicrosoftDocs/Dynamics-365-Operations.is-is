@@ -1,6 +1,6 @@
 ---
 title: Meðhöndla, yfirfara og bóka eftirágreiddan afslátt
-description: Þessi grein lýsir því hvernig á að vinna úr afsláttarstjórnunartilboðum þínum, reikna út afslætti þeirra, fara yfir færslurnar sem myndast, bóka færslur og skoða færslurnar.
+description: Þessi grein lýsir því hvernig á að vinna úr tilboðum eftirágreidds afsláttar, reikna út afslættina, fara yfir færslurnar sem eru búnar til, bóka færslur og fara yfir bókanirnar.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: e63f02e5e93ec2ce8c321a20c2a0c5886edcbe42
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8901938"
@@ -24,7 +24,7 @@ ms.locfileid: "8901938"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að vinna úr afsláttarstjórnunartilboðum þínum, reikna út afslætti þeirra, fara yfir færslurnar sem myndast, bóka færslur og skoða færslurnar.
+Þessi grein lýsir því hvernig á að vinna úr tilboðum eftirágreidds afsláttar, reikna út afslættina, fara yfir færslurnar sem eru búnar til, bóka færslur og fara yfir bókanirnar.
 
 ## <a name="change-the-status-of-a-deal"></a>Breyta stöðu tilboðs
 
@@ -45,7 +45,7 @@ Farið í **Stjórnun eftirágreidds afsláttar \> Reglubundin verk \> Reikna ú
 
 Þú getur stofnað sölupantanir eða innkaupapantanir sem eru með upprunalegar færslur annaðhvort fyrir eða eftir að þú býrð til viðeigandi tilboð fyrir stjórnun á eftirágreiddum afslætti.
 
-Hægt er að setja upp hverja tilboðslínu þannig að hún búi sjálfkrafa til úthlutun eftirágreidds afsláttar með því að bóka afhendinguna eða reikninginn fyrir sölupöntun eða innkaupapöntun. Stilltu reitinn **Færslugerð** fyrir tilboðslínuna á *Afhendingu* eða *Reikning* og stilltu valkostinn **Afgreiða við bókun** á *Já*. Ef reiturinn **Færslugerð** er stilltur á *Pöntun* er slökkt á afgreiðslu við bókun. Fyrir upprunafærslur sem voru búnar til eftir að samningur var virkjaður geturðu samt unnið úr ákvæðinu eins og lýst er í [Samningar um stjórnun endurgreiðsluafsláttar](#process-deals) kafla síðar í þessari grein.
+Hægt er að setja upp hverja tilboðslínu þannig að hún búi sjálfkrafa til úthlutun eftirágreidds afsláttar með því að bóka afhendinguna eða reikninginn fyrir sölupöntun eða innkaupapöntun. Stilltu reitinn **Færslugerð** fyrir tilboðslínuna á *Afhendingu* eða *Reikning* og stilltu valkostinn **Afgreiða við bókun** á *Já*. Ef reiturinn **Færslugerð** er stilltur á *Pöntun* er slökkt á afgreiðslu við bókun. Fyrir upprunafærslur sem voru stofnaðar eftir að tilboð var virkjað geturðu enn afgreitt úthlutunina eins og lýst er í hlutanum [Vinna úr tilboðum fyrir stjórnun eftirágreidds afsláttar](#process-deals) síðar í þessari grein.
 
 ### <a name="enable-price-details"></a>Virkja verðupplýsingar
 

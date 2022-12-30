@@ -1,6 +1,6 @@
 ---
 title: Samstilla vöruhús úr Supply Chain Management við Field Service
-description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla vöruhús frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+description: Þessi grein lýsir sniðmátunum og undirliggjandi verkefnum sem notuð eru til að samstilla vöruhús úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 03/13/2019
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: 8b86b6a59344299a7a2d277543c3186ed2b8cee4
 ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/01/2022
 ms.locfileid: "9103234"
@@ -29,7 +29,7 @@ ms.locfileid: "9103234"
 
 
 
-Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla vöruhús frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+Þessi grein lýsir sniðmátunum og undirliggjandi verkefnum sem notuð eru til að samstilla vöruhús úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 
 [![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 

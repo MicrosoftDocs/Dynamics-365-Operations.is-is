@@ -1,6 +1,6 @@
 ---
 title: Fjárhagur altæks birgðabókhalds
-description: Þessi grein lýsir alþjóðlegum birgðabókhaldsbókhaldi, sem eru skilgreindar af samsetningu gjaldmiðils, dagatals, samnings og tengsla við lögaðila.
+description: Í þessari grein er fjárhagsbókum altæks birgðabókhalds lýst, sem eru skilgreindar út frá samsetningu gjaldmiðils, dagatals, viðtekinni reglu og tengingu við lögaðila.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: 4f860e0c64573ccfe60e4854697c1e06feeed0c2
 ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/11/2022
 ms.locfileid: "9135390"

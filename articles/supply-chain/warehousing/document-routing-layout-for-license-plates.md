@@ -1,6 +1,6 @@
 ---
-title: Uppsetning skjalaleiðarmerkja
-description: Þessi grein lýsir því hvernig á að nota sniðaðferðir til að prenta gildi á merkimiða.
+title: Útlit merkimiða skjalasendinga
+description: Þessi grein lýsir því hvernig á að nota sniðsaðferðir til að prenta gildi á merki.
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
 ms.openlocfilehash: a4e0c16b71c257cae832870ca58679884047ea16
 ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/20/2022
 ms.locfileid: "9708646"
 ---
-# <a name="document-routing-label-layout"></a>Uppsetning skjalaleiðarmerkis
+# <a name="document-routing-label-layout"></a>Útlit merkimiða skjalasendinga
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að búa til útlit fyrir númeraplötu, gáma og bylgjumerki. Það veitir einnig leiðbeiningar um notkun Zebra Programming Language (ZPL) sem notað er til að búa til útlitin.
+Í þessari grein er því lýst hvernig á að búa til útlit fyrir númeraplötu, geyma og bylgjumerki. Þar er einnig að finna leiðbeiningar um notkun Zebra-forritunarmálsins (ZPL) sem notað er til að búa til útlit.
 
-Uppsetning skjalaleiðarmerkja skilgreinir hvernig merki eru sett upp og gögnin sem eru prentuð á þau. Þú stillir prentunarkveikipunkta þegar þú setur upp valmyndaratriði farsíma og vinnusniðmát.
+Merkjaútlit skjalaleiðar skilgreinir hvernig merkin eru sýnd og gögnin sem prentuð eru á þau. Þú stillir prentunarkveikipunkta þegar þú setur upp valmyndaratriði farsíma og vinnusniðmát.
 
-Upplýsingarnar í þessari grein eiga við um öll útlit skjalaleiðarmerkja, þar á meðal útlit fyrir [númeraplötur](tasks/license-plate-label-printing.md),[gámamerki](print-container-labels.md), og [bylgjumerki](configure-wave-label-printing.md).
+Upplýsingarnar í þessari grein eiga við um öll merkjaútlit skjalaleiðar, þ.m.t. útlitin fyrir [númeraplötumerki](tasks/license-plate-label-printing.md), [gámamerki](print-container-labels.md) og [bylgjumerki](configure-wave-label-printing.md).
 
-Þú getur prentað mjög flókna merkimiða, að því tilskildu að prentunarbúnaðurinn geti túlkað textann sem er sendur til hans. Til dæmis gæti ZPL skipulag sem inniheldur strikamerki líkst eftirfarandi dæmi.
+Þú getur prentað mjög flókna merkimiða, að því tilskildu að prentunarbúnaðurinn geti túlkað textann sem er sendur til hans. Til dæmis gæti ZPL-útlit sem inniheldur strikamerki líkst eftirfarandi dæmi.
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -52,7 +52,7 @@ Til að sjá gildin sem verða prentuð ferðu á **Vöruhúsastjórnun \> Fyrir
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Kveikja á þessum eiginleika fyrir kerfið
 
-Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein skaltu fara á [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á *Endurbætt útsetning númeraplötumerkja* eiginleiki. (Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum.)
+Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessari grein skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Aukið skipulag á númeraplötumerki*. (Sem hluti af Supply Chain Management, útgáfa 10.0.21, er sjálfgefið kveikt á þessum eiginleika. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni.
 
 ## <a name="custom-number-formats"></a>Sérsniðin tölusnið
 
@@ -128,7 +128,7 @@ Einhver borg, eitthvað ríki
 $DisplayMethod()$
 ```
 
-Þú getur sameinað þetta snið með öðrum gerðum sem lýst var fyrr í þessari grein. Til dæmis ertu með skjáaðferð sem heitir `DisplayListOfItemsNumbers()` og þú vilt prenta fyrsta vörunúmer þessarar aðferðar. Í þessu tilviki er hægt að nota eftirfarandi kóða.
+Þú getur sameinað þetta snið og aðrar tegundir sem lýst var fyrr í þessari grein. Til dæmis ertu með skjáaðferð sem heitir `DisplayListOfItemsNumbers()` og þú vilt prenta fyrsta vörunúmer þessarar aðferðar. Í þessu tilviki er hægt að nota eftirfarandi kóða.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$
@@ -136,10 +136,10 @@ $DisplayListOfItemsNumbers()[1]$
 
 ## <a name="more-information-about-how-to-print-labels"></a>Nánari upplýsingar um hvernig á að prenta merkingar
 
-Fyrir frekari upplýsingar um hvernig á að setja upp og prenta merki, sjá eftirfarandi greinar:
+Frekari upplýsingar um hvernig setja á upp og prenta merki er að finna í eftirfarandi greinum:
 
-- [Prentun á númeraplötum](tasks/license-plate-label-printing.md)
-- [Prentaðu gámamiða](print-container-labels.md)
+- [Prentun númeraplötumerkis](tasks/license-plate-label-printing.md)
+- [Prenta merkimiða gáms](print-container-labels.md)
 - [Prentun bylgjumerkis](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

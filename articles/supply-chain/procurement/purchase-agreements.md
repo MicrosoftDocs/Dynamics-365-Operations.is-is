@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 188a71ec660787b0b942a3d3bf4967b747c4469f
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335886"
@@ -41,7 +41,7 @@ Til að koma í veg fyrir að innkaupasamningur þinn sé notaður og staðfestu
 Þú getur borið kennsl á aðalábyrgðan starfskraft og annan ábyrgðan starfskraft í flokkun innkaupasamningsins. Þessi gildi efast með innkaupasamningi sem af því leiðir. Þú þarft ekki að bæta ábyrgum starfskröftum við innkaupasamninginn og þeim er hægt að breyta beint hverju sinni í innkaupasamningnum sjálfum. Þú getur ekki tilgreint annan ábyrgðan starfskraft án aðalábyrgs starfskrafts, jafnvel þó að þú sért ekki með annan ábyrgðan starfskraft. Þú getur ekki tilgreint sama starfskraft sem bæði aðal- og annan ábyrgan starfskraft.
 
 > [!IMPORTANT]
-> Til að nota eiginleikann fyrir ábyrgðaraðila verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á eiginleikanum. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Ábyrgðaraðili kaupsamnings* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+> Til að nota eiginleika ábyrgs aðila þarf að vera kveikt á honum í kerfinu. Sem hluti af Supply Chain Management, útgáfa 10.0.25, er sjálfgefið kveikt á þessum eiginleika. (Frá og með útgáfu 10.0.29 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á honum.) Ef þú ert að keyra útgáfu sem er eldri en 10.0.29, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Ábyrgðaraðili innkaupasamnings* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="commitment-types"></a>Ráðstöfunargerðir
 Hver lína í innkaupasamningi er skuldbinding til að kaupa eitthvað. Þú getur notað línur frá mörgum innkaupapöntununum til að uppfylla skuldbindingar. Til eru fjórar tegundir skuldbindinga:

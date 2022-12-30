@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 228b76d6f6f0bb048662c8e82df76f51b7cb3652
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9017377"
@@ -36,11 +36,11 @@ ms.locfileid: "9017377"
 
 ## <a name="cancel-a-service-order-in-the-service-orders-form"></a>Hætta við þjónustupöntun í skjámyndinni Þjónustupantanir
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**. Veldu þjónustupöntunina og smelltu svo á **Hætta við pöntun** á aðgerðarúðunni.
+1.  Smelltu á **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**. Veldu þjónustupöntunina og smelltu svo á **Hætta við pöntun** á aðgerðarúðunni.
 
 ## <a name="cancel-a-service-order-line"></a>Hætta við þjónustupöntunarlínu
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**. Tvísmella á þjónustupöntunina sem inniheldur línuna sem þú vilt hætta við.
+1.  Smelltu á **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**. Tvísmella á þjónustupöntunina sem inniheldur línuna sem þú vilt hætta við.
 
 2.  Veldu þjónustupöntunarlínuna sem þú vilt hætta við og smelltu síðan á **Hætta við pöntunarlínu** til að breyta stöðu línunnar í **Hætt við**.
 

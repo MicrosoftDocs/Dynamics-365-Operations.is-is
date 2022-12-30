@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 750776412ce9d87389a635ef108a34cffe12b68b
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015813"
@@ -26,7 +26,7 @@ ms.locfileid: "9015813"
 
 [!include [banner](../../includes/banner.md)]
 
-Í eignastýringu verður að setja upp almennar breytur sem varða eignir, verkbeiðnir og tímasetningu vinnutilboða. Þessi grein útskýrir hvernig á að setja þau upp. Veldu **Eignastýringu** > **Uppsetningu** > **Færibreytur eignastýringar** til að opna síðuna.
+Í eignastýringu verður að setja upp almennar breytur sem varða eignir, verkbeiðnir og tímasetningu vinnutilboða. Þessi grein útskýrir hvernig á að setja þetta upp. Veldu **Eignastýringu** > **Uppsetningu** > **Færibreytur eignastýringar** til að opna síðuna.
 
 > [!NOTE]
 > Ef þú vilt setja upp kerfi sem inniheldur kynningu gagna til að prófa eiginleika Eignastýringar, sjá [Uppsetning sýniútgáfuumhverfis](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) fyrir leiðbeiningar.
@@ -37,7 +37,7 @@ ms.locfileid: "9015813"
 
 - **Sjálfgefin staðsetning** er staðalbúnaðurinn, sem er sjálfkrafa valinn á eignir þegar þú býrð til nýjar eignir.  
 - Í reitnum **Venjulegt dagatal** velurðu dagatal sem á að nota til að reikna KPI eigna ef engin auðlind er valin á eign.  
-- Í **Útsýni** reit, veldu staðlaða skjáinn sem birtist þegar þú opnar **Eignasýn** (**Eignastýring** > **Eignir** > **Eignasýn**).
+- Í reitnum **Skoða** veldu staðalskjáinn sem sýndur er þegar þú opnar **Eignasýn** (**Eignastýring** > **Eignir** > **Eignasýn**).
 - **Sjálfgefin tegund beiðni** er venjuleg tegund viðhaldsbeiðni, sem er sjálfkrafa valin þegar þú býrð til nýja beiðni.  
 - Spár um vinnslugerðir eru vistaðar í verkinu sem valið var í reitnum **Spáð verk**. Fyrir hverja verkgerð er ný virkni búin til í spáverkefninu. Spár um verkgerðina eru síðan vistaðar í spáverkefninu.  
 - Í reitnum **Líkan** veldu spálíkanið sem notað er við verkgerð og verkbeiðnispár.
@@ -49,7 +49,7 @@ Flipinn **Verkbeiðnir** býður upp á eftirfarandi stillingar:
 - **Sjálfgefin gerð verkbeiðna** skilgreinir staðlaðar stillingar við stofnun verkbeiðni.  
 - **Gerð fyrirbyggjandi verkbeiðni** skilgreinir gerð verkbeiðni sem notuð er við stofnun verkbeiðna úr viðhaldsáætlunum. Ef þessi reitur er látinn vera auður er gerð verkbeiðnar í reitnum **Sjálfgefin gerð verkbeiðni** notaður.  
 - Í reitnum **Tengd sía verkbeiðni** skilgreinir þú hámarksfjölda verkbeiðna sem geta tengst verkbeiðni. Til dæmis gerir ## þér kleift að hafa allt að 99 verkbeiðnir tengdar. Ef þú skilgreinir síu eins og lýst er hér, verða tengdar verkbeiðnir tölusettar [verkskilríki verkbeiðninnar sem verkbeiðni tengist] -01, -02, -03, og svo framvegis. Ef þú skilgreinir ekki síu á þenan reit fær tengd verkbeiðni næsta röð verkskilríkja.  
-- Veldu **Já** fyrir **Afrita galla** ef þú vilt afrita sjálfkrafa bilanir sem skráðar eru á viðhaldsbeiðnum yfir í tengdar verkbeiðnir. 
+- Veldu **Já** fyrir **Afrita bilanir** ef þú vilt sjálfkrafa afrita bilanir sem eru skráðar í verkbeiðnum í tengdar viðhaldsbeiðnir. 
 - Í reitnum **Stig** skilgreinir þú virkt staðsetningarstig sem er sjálfkrafa sett inn í verkbeiðni ef öll tengd verkpöntunarstörf vísa til sömu virku staðsetningar. Ef verkbeiðnistörfin tengjast ekki öll sama virku staðsetningu á skilgreindu stigi er reiturinn **Virk staðsetning** hafður auður í verkbeiðninni. Til dæmis, ef þú setur töluna „1“ inn í þennan reit, þá er það efsta stigið í virkri staðsetningu. Ef þú setur inn töluna „0“ í þennan reit hefur þú ekki skilgreint sérstakt virkni staðsetningarstig, aðeins að öll verkbeiðnistörf í verkbeiðni verða að tengjast sama virku staðsetningu fyrir þá virku staðsetningu til að vera bætt við verkbeiðni.  
 - Hægt er að velja bækur sem notuð eru þegar neysla er lögð í verkbeiðni á flýtiflipanum **Almennt** í reitunum **Klukkustund**, **Liður**, og **Kostnaður**.  
 - Í retinum **Upprunamál afurðar** velurðu hvaða tungumál á að nota fyrir vöruheiti í eignastjórnunarskýrslum. Þú getur valið tungumálið sem sett er upp á fyrirtækjareikningnum, eða tungumálið sem sett er upp fyrir notandann sem er skráður inn.  

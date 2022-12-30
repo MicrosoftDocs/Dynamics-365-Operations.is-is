@@ -1,6 +1,6 @@
 ---
 title: Hlaupandi meðaltal, röð varakostnaðar
-description: Þessi grein veitir upplýsingar um varakostnaðarraðir fyrir útreikninga á hlaupandi meðaltali í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein veitir upplýsingar um  varakostnaðarraðir fyrir útreikning hlaupandi meðaltals í Microsoft Dynamics 365 Supply Chain Management.
 author: JennySong-SH
 ms.date: 03/25/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: 10.0.11
 ms.openlocfilehash: ad67828e2608f4754a3dffd76c64292f6a91e95f
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8868015"

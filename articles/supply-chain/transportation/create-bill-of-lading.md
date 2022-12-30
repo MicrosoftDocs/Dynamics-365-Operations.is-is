@@ -1,6 +1,6 @@
 ---
 title: Stofna farmbréf
-description: Þessi grein lýsir því hvernig á að búa til farmskírteini þegar notuð eru vöruhúsastjórnunarferli (WMS).
+description: Þessi grein lýsir því hvernig á að stofna farmbréf þegar verið er að nota vöruhúsakerfisferli.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 68a703475191255ff6ceaee25ef8e2bdf33ba0c2
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9069697"
@@ -26,7 +26,7 @@ ms.locfileid: "9069697"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að búa til farmskírteini þegar notuð eru vöruhúsastjórnunarferli (WMS).  
+Þessi grein lýsir því hvernig á að stofna farmbréf þegar verið er að nota vöruhúsakerfisferli.  
 
 Farmbréf er lagagerningur milli flytjanda sem sendir vörur og flutningsaðila. Skjalið fylgir sendum vörum, og það gegnir hlutverki kvittunar fyrir sendingu þegar vörur eru afhentar á ákvörðunarstað. Ef verið er að nota vöruhúsakerfi, eru tvær leiðir til að mynda farmbréf:
 

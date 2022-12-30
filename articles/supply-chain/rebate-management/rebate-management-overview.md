@@ -1,6 +1,6 @@
 ---
 title: Yfirlit einingar fyrir stjórnun eftirágreidds afsláttar
-description: Þessi grein veitir yfirlit yfir endurgreiðslustjórnunareininguna fyrir Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein býður upp á yfirlit yfir stjórnunareiningu eftirágreidds afsláttar fyrir Microsoft Dynamics 365 Supply Chain Management.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: overview
@@ -14,7 +14,7 @@ ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: cfba391536559ed3a967d0aafe2e352486777dda
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8873638"

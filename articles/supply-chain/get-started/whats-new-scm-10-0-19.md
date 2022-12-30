@@ -1,6 +1,6 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management útgáfu 10.0.19 (júní 2021)
-description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir Dynamics 365 Supply Chain Management 10.0.19.
+description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.19.
 author: kamaybac
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
 ms.openlocfilehash: de9d20ba7ffc0bc5201ccafc2157a13983923249
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9125023"
@@ -21,7 +21,7 @@ ms.locfileid: "9125023"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfa 10.0.19. Þessi útgáfa er með byggingarnúmer 10.0.837 og er fáanlegt á eftirfarandi hátt:
+Í þessari grein er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.19. Þessi útgáfa er með byggingarnúmer 10.0.837 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðun útgáfu:** Apríl 2021
 - **Almennt framboð losunar (handvirk uppfærsla):** Júní 2021
@@ -50,14 +50,14 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 
 | Kerfiseining | Eiginleika&nbsp;heiti&nbsp;í eiginleika&nbsp;stjórnun | Meiri upplýsingar |
 |---|---|---|
-| Sala og markaðsstarf | Endurbætur á afköstum hreinsunar á söluferli | Hreinsun söluferils getur tekið langan tíma ef hún er sjaldan keyrð í umhverfum þar sem er mikið um söluuppfærslur. Til að stytta tímann og auka áreiðanleikann mun þessi eiginleiki skipta hreinsun niður í runur og keyra þær í stuttan tíma í einu. Ef mögulegt mun geta gagnagrunnsins vera notuð til að lágmarka læsingu og forðast að sameina færslutöflur við hreinsun. Fyrir frekari upplýsingar, sjá [Tímasettu hreinsun sölusögugagna](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
+| Sala og markaðsstarf | Endurbætur á afköstum hreinsunar á söluferli | Hreinsun söluferils getur tekið langan tíma ef hún er sjaldan keyrð í umhverfum þar sem er mikið um söluuppfærslur. Til að stytta tímann og auka áreiðanleikann mun þessi eiginleiki skipta hreinsun niður í runur og keyra þær í stuttan tíma í einu. Ef mögulegt mun geta gagnagrunnsins vera notuð til að lágmarka læsingu og forðast að sameina færslutöflur við hreinsun. Frekari upplýsingar eru í [Tímasetja gagnahreinsun söluferils](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Sala og markaðsstarf | Uppfæra umbeðna móttökudagsetningu með staðfestri dagsetningu fyrir pantanir innan samstæðu | Þessi eiginleiki gerir kleift að stjórna því hvað gerist fyrir reitargildi sölu- og innkaupadagsetninga þegar beinar afhendingar innan samstæðu eru notaðar. Hægt er að velja hvort kerfið uppfæri umbeðnar dagsetningar eða sleppi því að uppfæra þær. Ef uppfærslunni er sleppt munu umbeðnar dagsetningar sýna það sem viðskiptavinurinn hefur óskað eftir. Ef uppfærslur eru virkjaðar munu umbeðnar dagsetningar (þegar stjórnun afhendingardagsetningar er notuð) aðeins sýna í upphafi það sem viðskiptavinurinn hefur óskað eftir. Stjórnun afhendingardags, þegar hann er annar en *Enginn*, mun hnekkja því sem var óskað eftir í upphafi. Hægt er að stjórna þessum valkosti með nýju stillingunni **Uppfæra umbeðna móttökudagsetningu með staðfestri dagsetningu** í stillingum lánardrottins eða viðskiptavinar innan samstæðu.<br><br>Ef slökkt er á eiginleikanum mun kerfið skrifa yfir umbeðna móttökudagsetningu á upprunalegum sölupöntunum samkvæmt reglu um stjórnun afhendingardagsetningar, en umbeðin flutningsdagsetning helst óbreytt. |
 | Vöruhúsakerfi | Slétta magn niður í næstu sölueiningu við losun í vöruhús | Þessi eiginleiki bætir við valkosti sem getur takmarkað pöntunarmagn við losun í vöruhús. Þegar hann er virkur verður pöntunarmagn sléttað niður í næstu heilu sölueiningu og losun á pöntunum sem innihalda magn sem nemur minna en einni sölueiningu verður hafnað. |
 | Vöruhúsakerfi | Bylgjuaðferðin „Áætla stofnun vinnu“ fyrir allt fyrirtækið | Við virkjun á þessum eiginleika verður bylgjuaðferðin *Áætla stofnun vinnu* skilgreind til að keyra samhliða í öllum lögaðilum. Nokkrar stillingar í viðbót verða einnig fyrir áhrifum. Fyrir ítarlegar upplýsingar skal skoða [Áætla stofnun vinnu í bylgju](../warehousing/configure-wave-schedule-work-creation.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 
-Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargreinar. Þær eru ekki endilega tengdar við nýja eiginleika sem bætt er við fyrir þessa útgáfu, eins og kemur fram í fyrri hluta, en þær geta hjálpað notendum að fá meira út úr fyrirliggjandi eiginleikum.
+Nýlega hefur eftirfarandi hjálpargreinum verið bætt við eða þau uppfærð. Þær eru ekki endilega tengdar við nýja eiginleika sem bætt er við fyrir þessa útgáfu, eins og kemur fram í fyrri hluta, en þær geta hjálpað notendum að fá meira út úr fyrirliggjandi eiginleikum.
 
 | Eiginleikasvæði | Nýjar eða uppfærðar greinar |
 |---|---|
@@ -70,9 +70,9 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstraröpp
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir fjármála- og rekstrarforrit.
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.19 af fjármála- og rekstraröppum (júní 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.19 á forritum fjármála- og reksturs (júní 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 
@@ -86,12 +86,12 @@ Skoðaðu [Dynamics 365: 2021 útgáfu bylgju 1 áætlun](/dynamics365-release-p
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 
-The [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein lýsir eiginleikum sem hafa verið eða áætlað er að verði fjarlægðir eða úreltir fyrir Supply Chain Management.
+Greinin [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) lýsir eiginleikum sem hafa verið eða á að fjarlægja eða úrelda fyrir Supply Chain Management.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
 
-Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um úreldingu tilkynnt í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein 12 mánuðum fyrir brottnám.
+Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um afskriftir tilkynnt í greininni [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mánuðum fyrir fjarlægingu.
 
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
 

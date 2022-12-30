@@ -1,6 +1,6 @@
 ---
 title: Setja upp æskilega viðhaldsstarfskrafta
-description: Þessi grein útskýrir hvernig á að setja upp valinn viðhaldsstarfsmenn í eignastýringu.
+description: Þessi grein útskýrir hvernig á að setja upp æskilega viðhaldsstarfsmenn í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 72f545b952e72412fc05239ed90e2cbbf2c11437
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8846243"

@@ -1,6 +1,6 @@
 ---
 title: Setja upp og uppfæra viðskiptavinagátt
-description: Þessi grein veitir leyfisupplýsingar og uppsetningarleiðbeiningar fyrir viðskiptavinagáttina.
+description: Þessi grein inniheldur upplýsingar um leyfi og uppsetningarleiðbeiningar fyrir viðskiptavinagáttina.
 author: Henrikan
 ms.date: 06/08/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 8344212e66cb57ea8c9d4e8c2cdfbf022bc199c5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8850584"

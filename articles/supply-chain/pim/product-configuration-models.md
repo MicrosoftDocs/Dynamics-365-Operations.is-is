@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9bee2d68a2ed2aa339ddf8232bba4541f4fe52b8
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8871921"
@@ -75,7 +75,7 @@ Ef gerð eigindar er <strong>Boole</strong>, <strong>Heiltala</strong> með svi�
 <td>Takmarkanir</td>
 <td>Skorður lýsa takmörkunum á skilgreiningu framleiðslulíkans. Skorður eru notaðar til þess að tryggja að aðeins gild gildi séu valinn þegar afurð er sett upp. Skorður geta annað hvort verið segðarskorður eða töfluskorður:
 <ul>
-<li>Einungis er hægt að nota segðarskorður fyrir íhlutina sem þær eru bundnar. Segðarskorðurnar fyrir íhlut geta vísað í eigindir undiríhluta íhlutarins.&#39; Leysir afurðarafbrigðis er notað til að leysa skorðurnar og þú verður að nota málskipan leysis þegar skorður eru skrifaðar. Nánari upplýsingar er að finna í greinartenglinum um tjáningartakmarkanir og töflutakmarkanir.</li>
+<li>Einungis er hægt að nota segðarskorður fyrir íhlutina sem þær eru bundnar. Segðarskorðurnar fyrir íhlut geta vísað í eigindir undiríhluta íhlutarins.&#39; Leysir afurðarafbrigðis er notað til að leysa skorðurnar og þú verður að nota málskipan leysis þegar skorður eru skrifaðar. Fyrir frekari upplýsingar skal skoða greinartengla um segðaskorður og töfluskorður.</li>
 <li>Skilgreina verður töfluskorðum áður en hægt er að nota þær á íhlut í afbrigðalíkani afurðar. Töfluskorður geta verið notandaskilgreindar eða kerfisskilgreindar. Notandaskilgreind töfluskorða er gerð fylkis sem má nota til að lýsa samstæðu samsetninga fyrir eigindagildin sem eru skilgreind í eigindagerðum. Ef hátalarar eru t.d. framleidd gæti fylki fyrir notendaskilgreindrar töfluskorðu haft dálka fyrir áferð og grill.</li>
 </ul>
 <strong>Dæmi</strong> Hátalarar eru tiltækar í fjórum áferðum: Svart, eik, rósarviður og Hvítum. Hátalarar getur haft eina af þremur framgrillum: Svartur, Málmi eða Hvítum. Svart áferð er tiltækur fyrir öll grill en aðrar áferðir takmarkast við tiltekin grill. Eftirfarandi tafla sýnir dæmi um upplýsingar sem birtast í <strong>Leyfðar samsetningar</strong> flipanum á <strong>Breyta töfluskorðu</strong> síðunni.

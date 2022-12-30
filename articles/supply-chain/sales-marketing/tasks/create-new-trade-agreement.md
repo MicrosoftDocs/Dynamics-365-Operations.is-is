@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 24290ec873da9e871c001bcdc97e14dcad0e3d1e
 ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/02/2022
 ms.locfileid: "9111108"
@@ -78,7 +78,7 @@ Frekari upplýsingar er að hlaða niður eftirfarandi hvítbók (skrifuð til a
 
 ### <a name="community-blogs"></a>Samfélagsblogg
 
-- [Söluverð í fjármálum og rekstri](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+- [Söluverð í fjármála- og rekstrarforritum](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

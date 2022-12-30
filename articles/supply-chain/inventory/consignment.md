@@ -1,6 +1,6 @@
 ---
 title: Uppsetning vörusendingar
-description: Þessi grein útskýrir hvernig á að nota birgðaferla vörusendinga á innleið.
+description: Í þessari grein er útskýrt hvernig á að nota ferli vörusendingabirgða á innleið.
 author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 0087abebccca107a094a40d3e2d5a5de330532af
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9014910"
@@ -26,9 +26,9 @@ ms.locfileid: "9014910"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að nota birgðaferla vörusendinga á innleið.
+Í þessari grein er útskýrt hvernig á að nota ferli vörusendingabirgða á innleið.
 
-Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á þínu svæði. Þegar þú ert tilbúinn að nota eða neyta birgða, tekurðu yfir eignarhald birgðanna. Þessi grein inniheldur upplýsingar um hvernig eigi að taka á móti birgðum í eigu lánardrottins á hendi án þess að stofna fjárhagsfærslur, hvernig eigi að hefja framleiðsluferli þar sem hægt er að frátekna birgðir í eigu lánardrottins. og hvernig á að breyta eignarhaldi á hráefni til að vera fær um að vinna úr notkun sem hluta af vinnslu framleiðslupöntunar. Það er líka einhverjar upplýsingar um hvernig lánardrottinn getur fylgst notkun á birgðum þeirra með því að nota viðmót fyrir samstarf lánardrottna.
+Vörusendingarbirgðir eru birgðir sem eru í eigu lánardrottinn en geymd á þínu svæði. Þegar þú ert tilbúinn að nota eða neyta birgða, tekurðu yfir eignarhald birgðanna. Þessi grein inniheldur upplýsingar um hvernig á að efnislega að taka á móti birgðum á lager í eigu lánardrottins án þess að stofna almenna fjárhagsfærslur, hvernig á að hefja framleiðsluferli þar sem birgðir í eigu lánardrottins má taka efnislega frá. og hvernig á að breyta eignarhaldi á hráefni til að vera fær um að vinna úr notkun sem hluta af vinnslu framleiðslupöntunar. Það er líka einhverjar upplýsingar um hvernig lánardrottinn getur fylgst notkun á birgðum þeirra með því að nota viðmót fyrir samstarf lánardrottna.
 
 ## <a name="overview-of-the-consignment-process"></a>Yfirlit yfir ferli vörusendingar
 
@@ -84,7 +84,7 @@ Ef lánardrottnana þínir nota viðmót fyrir samstarf lánardrottna, geta þei
 - **Afurðir mótteknar frá vörusendingabirgðum** -Sýnir upplýsingar um vörur og magn sem hefur innhreyfingar afurða uppfært á meðan stendur á ferli eignarhaldsbreytingar.
 - **Vörusendingarbirgðir á lager** - Sýnir upplýsingar um vörurnar vörusendingar sem þeir áætlað að afhenda og vörurnar sem eru þegar efnislega tiltækt á svæði viðskiptavinar.
 
-Fyrir frekari upplýsingar um uppsetningu lánardrottna til að nota lánardrottinssamvinnu, sjá [Stjórna notendum samstarfsaðila](../procurement/manage-vendor-collaboration-users.md).
+Nánari upplýsingar um uppsetningu á lánardrottnum til að nota samstarf lánardrottna er að finna í [Stjórna notendum fyrir samstarf lánardrottna](../procurement/manage-vendor-collaboration-users.md).
 
 ## <a name="inventory-owners"></a>Birgðaeigendur
 

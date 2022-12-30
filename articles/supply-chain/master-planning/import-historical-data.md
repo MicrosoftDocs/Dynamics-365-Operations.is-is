@@ -1,6 +1,6 @@
 ---
 title: Gögn flutt út fyrir eftirspurnarspár
-description: Til að fá nákvæmar spár um eftirspurn þarf að hafa söguleg eftirspurnargögn fyrir hverja vöru eða vöruúthlutunarlykil. Þessi grein útskýrir hvernig á að nota gagnaeiningar til að flytja inn söguleg eftirspurnargögn úr hvaða kerfi sem er, þannig að þú hafir lengri sögu um eftirspurnarspárgögn.
+description: Til að fá nákvæmar spár um eftirspurn þarf að hafa söguleg eftirspurnargögn fyrir hverja vöru eða vöruúthlutunarlykil. Þessi grein útskýrir hvernig á að nota gagnaeiningar til að flytja inn söguleg eftirspurnargögn úr hvaða kerfi sem er þannig að notandi hafi lengri sögu yfir eftirspurnargögn.
 author: t-benebo
 ms.date: 05/10/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e36ea72322c31f7e0ea3377b474cd148d78bdd3d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8877596"
@@ -37,7 +37,7 @@ Til að tryggja aukna nákvæmni spár um eftirspurn þarf að hafa eins mikið 
 
 Til að nota gagnaeininguna verður að hafa annað hvort Microsoft Excel-skrá eða skrá með gildum aðgreindum með kommum (CSV) sem inniheldur sögulegu eftirspurnargögnin. Eftirfarandi dæmi sýnir hvernig á að flytja gögn úr CSV-skrá.
 
-Fyrir frekari upplýsingar um hvernig á að flytja inn gögn, þar á meðal hvernig á að hreinsa gögn eftir innflutning, sjá [Gagnainnflutningur og -útflutningur yfirlit yfir störf](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) og það eru tengdar greinar.
+Frekari upplýsingar um hvernig á að flytja inn gögn, þar á meðal hvernig á að hreinsa gögn eftir innflutning, má finna í [Yfirlit yfir inn- og útflutningsvinnslu gagna](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) og tengdar greinar.
 
 Sjá einnig [Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md).
 

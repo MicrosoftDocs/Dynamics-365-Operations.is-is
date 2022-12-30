@@ -1,6 +1,6 @@
 ---
 title: Veita starfsfólki í framleiðslu leiðarvísa með blönduðum veruleika
-description: Þessi grein útskýrir hvernig á að samþætta framleiðslustjórnunareininguna í Microsoft Dynamics 365 Supply Chain Management með Dynamics 365 Guides.
+description: Þessi grein útskýrir hvernig á að samþætta framleiðslustýringareininguna í Microsoft Dynamics 365 Supply Chain Management við Dynamics 365 Guides.
 author: johanhoffmann
 ms.date: 11/13/2020
 ms.topic: article
@@ -20,7 +20,7 @@ ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
 ms.openlocfilehash: 3f29fad004631e336fad06260d0a0951743525d1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8869605"

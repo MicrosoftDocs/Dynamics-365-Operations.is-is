@@ -1,6 +1,6 @@
 ---
 title: Staðfesting lotu og númeraplötu
-description: Þessi grein lýsir því hvernig á að setja upp og nota lotu- og númeraplötustaðfestingu úr farsíma.
+description: Þessi grein lýsir því hvernig eigi að setja upp og nota staðfestingu runu og númeraplötu úr fartæki.
 author: Mirzaab
 ms.date: 11/11/2020
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ef0d528d23c1ee9424e35e29d39121d42ba548e5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8903725"

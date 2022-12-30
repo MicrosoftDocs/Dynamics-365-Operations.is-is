@@ -1,6 +1,6 @@
 ---
 title: Niðurtími vegna viðhalds fyrir verkbeiðnir
-description: Þessi grein lýsir því hvernig á að stofna viðhaldsniðurtímaskráningar á eigninni sem er valin í verkbeiðni.
+description: Þessi grein lýsir því hvernig á að stofna niðurtímaskráningar vegna viðhalds á eigninni sem er valin í verkbeiðni.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 4a310152685f733093cc7e50404c23b6f24c40cc
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016653"
@@ -52,7 +52,7 @@ Myndin hér að neðan sýnir dæmi um síðuna **Ástæðukóðar niðurtíma v
 
 ## <a name="create-maintenance-downtime-registrations"></a>Stofna skráningar niðurtíma vegna viðhalds
 
-1. Smellur **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
+1. Smellið á **Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
 
 2. Veldu verkbeiðni og síðan á flipanum **Verkbeiðni**, í hópnum **Eign**, velurðu **Niðurtími vegna viðhalds**.
 

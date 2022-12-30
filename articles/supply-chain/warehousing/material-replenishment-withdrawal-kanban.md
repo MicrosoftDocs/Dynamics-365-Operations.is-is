@@ -1,6 +1,6 @@
 ---
 title: Áfylling með afturkölluðum kanban
-description: Þessi grein lýsir því hvernig afturköllunarkanban er notað fyrir efnisuppfyllingu fyrir framleiðslustarfsemi.
+description: Í þessari grein er lýst hvernig afturköllunartafla er notuð fyrir áfyllingu efnis fyrir framleiðsluaðgerðir.
 author: perlynne
 ms.date: 06/16/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 517b2eeb3b218fe0820ffa4e1d19b20841837b92
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8863709"
@@ -27,7 +27,7 @@ ms.locfileid: "8863709"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig afturköllunarkanban er notað fyrir efnisuppfyllingu fyrir framleiðslustarfsemi.
+Í þessari grein er lýst hvernig afturköllunartafla er notuð fyrir áfyllingu efnis fyrir framleiðsluaðgerðir.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Verkflæði fyrir áfyllingu hráefnis sem notast við kanban-úttekt
 

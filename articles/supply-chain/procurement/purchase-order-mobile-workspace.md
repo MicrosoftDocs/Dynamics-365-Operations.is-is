@@ -1,6 +1,6 @@
 ---
 title: Fartækjavinnusvæði fyrir samþykkt innkaupapöntunar
-description: Þessi grein veitir upplýsingar um farsímavinnusvæðið fyrir samþykki innkaupapöntunar, sem gerir þér kleift að skoða innkaupapantanir og svara þeim með aðgerðum. Til dæmis er hægt að samþykkja eða hafna innkaupapöntun.
+description: Þessi grein veitir upplýsingar um fartækjavinnusvæðið fyrir samþykkt innkaupapöntunar sem gerir þér kleift að skoða innkaupapantanir og svara þeim með aðgerðum. Til dæmis er hægt að samþykkja eða hafna innkaupapöntun.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: b5336549937edca6beb94137896f84b460f257f7
 ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/02/2022
 ms.locfileid: "9111331"
@@ -26,7 +26,7 @@ ms.locfileid: "9111331"
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Þessi grein veitir upplýsingar um **Samþykki innkaupapöntunar** færanlegt vinnusvæði. Þetta vinnusvæði gerir kleift að skoða innkaupapantanir og bregðast við þeim með aðgerðum. Til dæmis er hægt að samþykkja eða hafna innkaupapöntun.
+Þessi grein veitir upplýsingar um fartækjavinnusvæðið **Samþykki innkaupapöntunar**. Þetta vinnusvæði gerir kleift að skoða innkaupapantanir og bregðast við þeim með aðgerðum. Til dæmis er hægt að samþykkja eða hafna innkaupapöntun.
  
 ## <a name="overview"></a>Yfirlit 
 Innkaupapantanir sem þarfnast samþykkis fara í gegnum samþykktarverkflæði. Verkflæðið getur innihaldið ýmis þrep sem krefjast þess að einn eða fleiri einstaklingar grípi til aðgerða. Til dæmis gæti einstaklingur þurft að ljúka við verk eða samþykkja innkaupapöntunina. 
@@ -71,7 +71,7 @@ Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
-Sæktu og settu upp fjármála- og rekstrarfarsappið:
+Sæktu og settu upp fartækjaforrit fyrir fjármál- og rekstur:
 
 - [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)

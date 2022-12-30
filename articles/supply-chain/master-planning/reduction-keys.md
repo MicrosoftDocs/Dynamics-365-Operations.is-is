@@ -1,6 +1,6 @@
 ---
 title: Minnkunarlyklar samkvæmt spá
-description: Þessi grein gefur dæmi sem sýna hvernig á að setja upp minnkunarlykil. Hún felur í sér upplýsingar um mismunandi stillingar minnkunarlykla og niðurstöður hverrar fyrir sig. Hægt er að nota minnkunarlykil til að skilgreina hvernig á að lækka spárþarfir.
+description: Þessi grein gefur dæmi um hvernig eigi að setja upp minnkunarlykil. Hún felur í sér upplýsingar um mismunandi stillingar minnkunarlykla og niðurstöður hverrar fyrir sig. Hægt er að nota minnkunarlykil til að skilgreina hvernig á að lækka spárþarfir.
 author: t-benebo
 ms.date: 04/15/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0efd7245d100730622e9862554f484ed6b17d1ed
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9739925"
@@ -27,7 +27,7 @@ ms.locfileid: "9739925"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um mismunandi aðferðir sem eru notaðar til að draga úr spákröfum. Það inniheldur dæmi um niðurstöður hverrar aðferðar. Það útskýrir einnig hvernig á að búa til, setja upp og nota minnkunarlykil samkvæmt spá. Hægt er að nota minnkunarlykil samkvæmt spá til að draga úr þörfum samkvæmt spá.
+Þessi grein veitir upplýsingar um ólíkar aðferðir sem eru notaðar til að minnka þarfir samkvæmt spá. Það inniheldur dæmi um niðurstöður hverrar aðferðar. Það útskýrir einnig hvernig á að búa til, setja upp og nota minnkunarlykil samkvæmt spá. Hægt er að nota minnkunarlykil samkvæmt spá til að draga úr þörfum samkvæmt spá.
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Aðferðir sem eru notaðar til að draga úr þörfum samkvæmt spá
 
@@ -133,7 +133,7 @@ Ef þú velur **Færslur - breytilegt tímabil** eru spáþarfir minnkaðar við
 - Minnkunarlyklar eru hvorki nauðsynlegir né notaðir. 
 - Ef spá er alveg minnkuð verða spárþarfir gildandi spár 0 (núll).
 - Ef það er engin komandi spá eru spáþarfir frá síðustu spá sem var færð inn minnkaðar.
-- Tímagirðing eftirspurnarspár minnkunar er ekki innifalin í útreikningi á spá um minnkun. Þess í stað er tímagirðing umfjöllunarhóps notuð til að draga úr spám.
+- Tímamörk fyrir lækkun eftirspurnarspár eru ekki höfð með í útreikningi á lækkun spár. Þess í stað eru tímamörk þekjuflokksins notuð fyrir lækkun spár.
 - Jákvæðir dagar eru hafðir með í útreikningi á lækkun spár.
 - Ef raunverulegar pöntunarfærslur°fara fram úr spáþörfum, eru eftirstandandi færslur ekki sendar áfram í næsta spátímabil.
 

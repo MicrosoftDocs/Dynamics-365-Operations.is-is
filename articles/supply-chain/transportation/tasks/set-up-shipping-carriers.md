@@ -1,6 +1,6 @@
 ---
 title: Setja upp farmflytjendur
-description: Þessi grein sýnir hvernig á að setja upp flutningsaðila og skilgreina upplýsingar eins og þjónustu, sendingarmáta, flutningsútboð, flutningstakmarkanir og sendingarhlutfall.
+description: Í þessari grein er lýst hvernig eigi að setja upp flytjanda og skilgreina upplýsingar eins og þjónustu, afhendingarmáta sendingar, flutningstilboð, takmarkanir fyrir flutningsstöðu og flutningstaxta.
 author: Weijiesa
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 48586a0ddaa7cd95a81380dadffef8f276076dd2
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8858973"
@@ -25,7 +25,7 @@ ms.locfileid: "8858973"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein sýnir hvernig á að setja upp flutningsaðila og skilgreina upplýsingar eins og þjónustu, sendingarmáta, flutningsútboð, flutningstakmarkanir og sendingarhlutfall. Samræmingaraðili við flutninga getur þá úthluta farmflytjanda á hleðslu á inn eða útleið.
+Í þessari grein er lýst hvernig eigi að setja upp flytjanda og skilgreina upplýsingar eins og þjónustu, afhendingarmáta sendingar, flutningstilboð, takmarkanir fyrir flutningsstöðu og flutningstaxta. Samræmingaraðili við flutninga getur þá úthluta farmflytjanda á hleðslu á inn eða útleið.
 
 ## <a name="create-a-new-shipping-carrier"></a>Stofna nýtt farmflytjandi
 
@@ -49,7 +49,7 @@ ms.locfileid: "8858973"
 2. Veljið **Nýtt**.
 3. Í reitinn **Flutningsþjónusta** skal slá inn gildi.
 4. Í reitinn **Heiti** skal slá inn gildi.
-5. Í **Hlaða auðkenni sniðmáts** reit, veldu hleðslusniðmát til að tengja við þjónustuna. Hleðslusniðmátið skilgreinir hámarksmælingar fyrir þyngd og rúmmál heilrar farms. Til dæmis gæti hleðslusniðmátsins staðið fyrir stærð vörubíls eða gáms. Auðkenni hleðslusniðmáts eru einnig tilgreind í hleðslusniðmátum og þegar þú notar [hlaða bygging vinnubekkur](load-building-workbench.md), sem hjálpar þér að beita álagsuppbyggingaraðferðum til að búa til álag. Fyrir vikið mun kerfið geta samræmt hverja nýja farm við viðeigandi flutningsþjónustu með því að bera saman tilgreind hleðslusniðmátsauðkenni.
+5. Í reitnum **Auðkenni hleðslusniðmáts** skal velja hleðslusniðmát til að tengja við þjónustuna. Hleðslusniðmátið skilgreinir hámarksmælingar fyrir þyngd og rúmmál heillar hleðslu. Til dæmis gæti hleðslusniðmátsins staðið fyrir stærð vörubíls eða gáms. Auðkenni hleðslusniðmáta eru einnig tilgreind í sniðmátum hleðsluáætlunar og þegar notað er [vinnubekkur hleðslusniðmáts](load-building-workbench.md) sem hjálpar þér að nota aðferðir hleðsluáætlunar til að búa til hleðslur. Þá getur kerfið stemmt hverja nýja hleðslu við hentuga farmflutningsþjónustu með því að bera saman tiltekin auðkenni hleðslusniðmáta.
 6. Í reitnum **Flutningsaðferð** velurðu valkost úr fellivalmyndinni.
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>Setja upp aðsetur fyrir flutningsaðila (valfrjálst)

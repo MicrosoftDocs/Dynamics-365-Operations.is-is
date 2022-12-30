@@ -1,6 +1,6 @@
 ---
 title: Nýliðun lánardrottna
-description: Þessi grein lýsir ferlinu við inngöngu í nýja söluaðila. Það útskýrir aðgerðirnar sem krafist er af ýmsum hlutverkum meðan á þessu ferli stendur.
+description: Þessi grein lýsir ferlinu við nýliðun lánardrottna. Það útskýrir aðgerðirnar sem krafist er af ýmsum hlutverkum meðan á þessu ferli stendur.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 8b3660e1c7a0e236456d1a16c628fd5d538f045f
 ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/02/2022
 ms.locfileid: "9111362"
@@ -46,7 +46,7 @@ Eftirfarandi tafla sýnir skrefin og hlutverkin sem eru innifalin í ferlinu.
 | Stjórnandi            | | | Búðu til notanda í Supply Chain Management og Microsoft Azure. | | | |
 | Tengiliður lánardrottins    | | | Senda tölvupóst til tengiliðsins. | Skrá upplýsingar um lánardrottinn. | | |
 
-Til að fá skjóta sýningu á inngönguferli söluaðila, horfðu á þessa stuttu YouTube myndband um [Hvernig á að taka inn nýjan söluaðila í fjármálum og rekstri](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Til að fá snögga sýnikennslu um innleiðingarferli lánardrottins skal horfa á þetta stutta YouTube myndband um [Hvernig á að innleiða nýjan lánardrottin í fjármál- og rekstur](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Flytja inn skráningarbeiðni væntanlegs lánardrottins
 

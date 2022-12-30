@@ -1,6 +1,6 @@
 ---
 title: Upprunaland
-description: Mörg fyrirtæki gefa út vottorð til lánardrottna sinna til að tryggja að afurðir uppfylli tiltekna vottunarstaðla. Þessi vottorð eru oft háð upprunalandi. Þessi grein veitir upplýsingar um upprunalandseiginleikann, sem gerir þér kleift að tengja vöru við upprunalandið og halda utan um vöruvottorð hennar.
+description: Mörg fyrirtæki gefa út vottorð til lánardrottna sinna til að tryggja að afurðir uppfylli tiltekna vottunarstaðla. Þessi vottorð eru oft háð upprunalandi. Í þessari grein er að finna upplýsingar um eiginleika upprunalands, sem gerir þér kleift að tengja afurð við upprunaland hennar og fylgjast með afurðarvottorðum þess.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 60d5a2067b8e3d311af89fb09cfa3b5c007db219
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8882519"
@@ -28,7 +28,7 @@ Mörg fyrirtæki gefa út vottorð til lánardrottna sinna til að tryggja að a
 
 ## <a name="turn-on-the-country-of-origin-feature"></a>Kveikja á eiginleika upprunalands
 
-Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) síðu til að athuga stöðu eiginleika og virkja eða slökkva á honum ef þörf krefur. Hérna er eiginleikinn skráður sem:
+Sem hluti af Supply Chain Management, útgáfa 10.0.21, er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta notað síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og virkjað eða óvirkjað hann ef þörf krefur. Hérna er eiginleikinn skráður sem:
 
 - **Eining:** *Afurðaupplýsingastjórnun*
 - **Heiti eiginleika:** *Stjórnunareiginleiki fyrir upprunaland*

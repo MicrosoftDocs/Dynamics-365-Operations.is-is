@@ -1,6 +1,6 @@
 ---
 title: Úrvinnsla á afurð í framleiðsluþyngd með vöruhúsakerfi
-description: Þessi grein lýsir því hvernig á að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar unnið er í vöruhúsinu.
+description: Þessi grein lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
 author: perlynne
 ms.date: 08/13/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
 ms.openlocfilehash: 881c3c4aa655a5ad30adffce108ba2fc3e6691c5
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9070410"
@@ -82,7 +82,7 @@ Ef raunveruleg þyngd er sótt á pökkunarstöðinni við pökkunarferli gáms,
 > [!NOTE]
 > Vegna þess að valkosturinn **Pökkun** veldur því að birgðir eru uppfærðar með meðaltali tiltekinnar þyngdar gæti það kallað fram misræmi sem gæti valdið leiðréttingu á hagnaði/tapi framleiðsluþyngdar og/eða mun á lagerbirgðaþyngd og merki framleiðsluþyngdar.
 
-Fyrir innri ferla, eins og talningu og leiðréttingar, er hægt að skilgreina hvort þyngdin skuli tekin. Ef hún er ekki sótt er nafnþyngdin notuð. Aðrir valkostir gera þér kleift að ná þyngd á hverja einingu framleiðsluþyngdar og fyrir talningarmagn.
+Fyrir innri ferli, svo sem talningu og leiðréttingar, er hægt að tilgreina hvort þyngdin eigi að vera tekin. Ef hún er ekki sótt er nafnþyngdin notuð. Aðrir valkostir gera þér kleift að ná þyngd á hverja einingu framleiðsluþyngdar og fyrir talningarmagn.
 
 Þú getur einnig skilgreint hvernig þyngdin er sótt. Í einum af tveimur helstu flæðunum er fylgst með merkjum fyrir framleiðsluþyngd og þau notuð til að sækja þyngdina. Í hinu flæðinu er ekki fylgst með merkjum fyrir framleiðsluþyngd.
 
@@ -183,7 +183,7 @@ Ekki öll verkflæði styðja úrvinnslu á afurð í framleiðsluþyngd með v�
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Aðrar takmarkanir og hegðun við vinnslu í vöruhúsakerfi á afurðum með framleiðsluþyngd
 
 - Í tiltektarferlum, þegar notandinn er ekki beðinn um að bera kennsl á rakningarvíddir, miðast þyngdarúthlutunin við meðalþyngd. Þessi hegðun kemur fram þegar til dæmis samsetning af rakningarvíddum er notuð í sömu staðsetningunni og, eftir að notandi vinnur úr tiltekt, er aðeins eitt rakningarvíddargildi eftir í staðsetningunni.
-- Þegar birgðir eru fráteknar fyrir aflaþyngdarvöru sem er stillt fyrir vöruhússtjórnunarferli (WMS), er frátektin gerð á grundvelli lágmarksþyngdar sem er skilgreind, jafnvel þó að þetta magn sé síðasta afgreiðslumagn. Þessi hegðun er frábrugðin hegðun fyrir hluti sem eru ekki stilltir fyrir WMS. Það er ein undantekning frá þessari takmörkun. Fyrir framleiðslutiltekt, þegar síðasta meðhöndlunarmagn afurðar sem er stjórnað með raðnúmeri er valið, er raunveruleg þyngd notuð.
+- Þegar birgðir eru fráteknar fyrir afurð í framleiðsluþyngd sem er stillt fyrir vöruhúsakerfisferli (WMS), er frátektin gerð með hliðsjón af lágmarksþyngd sem er skilgreind, jafnvel þó að þetta magn sé síðasta afgreiðslumagnið á lager. Þessi hegðun er frábrugðin hegðun fyrir vörur sem eru ekki stilltar fyrir WMS. Það er ein undantekning frá þessari takmörkun. Fyrir framleiðslutiltekt, þegar síðasta meðhöndlunarmagn afurðar sem er stjórnað með raðnúmeri er valið, er raunveruleg þyngd notuð.
 - Ferli sem nota þyngdina sem hluta af útreikningi á afköstum (bylgjuþröskuldar, hámarkshlé vinnu, hámark af gámum, afkastagetu staðsetningar o.s.frv.) nota ekki raunþyngd birgðanna. Þess í stað eru ferlarnir byggðir á efnislegri meðhöndlunarþyngd sem er skilgreind fyrir afurðina.
 - Almennt er Commerce-virknin ekki studd fyrir afurðir í framleiðsluþyngd.
 - Fyrir afurðir framleiðsluþyngdar er ekki hægt að uppfæra birgðastöðu úr **Breyting á stöðu vöruhúsa**.

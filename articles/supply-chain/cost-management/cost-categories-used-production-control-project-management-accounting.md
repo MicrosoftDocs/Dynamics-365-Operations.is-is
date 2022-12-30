@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 09a808c91ece25a9a40f662e0aca2c504246fc0a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8854501"
@@ -31,7 +31,7 @@ Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur. Þes
 
 Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur. Í þessu tilfelli er kostnaðartegundar krafist fyrir framleiðslu og verk. Þegar kostnaðartegund er notuð í framleiðslu og verk, verður að skilgreina viðbótarupplýsingar tengdar verki. Til dæmis getur tímakostnaðurinn sem er tengdur verkum verið annar en sá sem tengist framleiðslu. Hægt er að nota síðuna **Kostnaðartegundir** til að skilgreina kostnaðartegund sem er notuð í bókhaldi Framleiðslustýringar og Verkefnastjórnunar. 
 
-**Athugið:** Kostnaðarbókhald hefur a **Verkefnaflokkar** síðu, en þessi síða hefur engin tengsl við þá virkni sem lýst er í þessari grein. Þegar kostnaðartegund er notuð í verk, hefur síðan **Kostnaðartegundir** viðbótarflipa sem birta nánari verktengdar upplýsingar. Þessar upplýsingar innihalda tegundaflokkinn, línueiginleika og fjárhagslykla sem eru úthlutaðir á kostnaðartegund.
+**Athugasemd:** Kostnaðarbókhald hefur síðuna **Verktegundir** en þessi síða tengist á engan hátt þeim aðgerðum sem er lýst í þessari grein. Þegar kostnaðartegund er notuð í verk, hefur síðan **Kostnaðartegundir** viðbótarflipa sem birta nánari verktengdar upplýsingar. Þessar upplýsingar innihalda tegundaflokkinn, línueiginleika og fjárhagslykla sem eru úthlutaðir á kostnaðartegund.
 
 -   Kostnaðartegund verður að úthluta á tegundarflokk sem styður færslugerðina **Klukkustundir**.
 -   Línueiginleiki tilgreinir sjálfgefnar upplýsingar um hvernig tilkynntur tími verður reikningshæfur á verk.

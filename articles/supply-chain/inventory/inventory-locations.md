@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bd5ad086cadd2e49585614e7650bb7e30a4e7328
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8888587"
@@ -29,7 +29,7 @@ ms.locfileid: "8888587"
 
 Birgðastaðsetningar eru notaðar með grunnvöruhúsi (WMS I) til að ákveða hvar geyma skuli vörur og hvar vörur eru teknar til í WMS I vöruhúsi.
 
-Þessi grein á við um eiginleika í birgðastjórnunareiningunni. Það á ekki við um aðgerðir í kerfiseiningu vöruhúsastjórnunar.
+Þessi grein á við aðgerðir í kerfiseiningu vöruhúsastjórnunar. Það á ekki við um aðgerðir í kerfiseiningu vöruhúsastjórnunar.
 
 Hugtakið staðsetning vísar til staðurinn sem vörur eru geymdar og gefnar út úr.
 

@@ -1,6 +1,6 @@
 ---
 title: Kóðar bylgjuskrefs
-description: Þessi grein veitir yfirlit yfir bylgjuskrefkóða og hvernig þeir eru notaðir.
+description: Í þessari grein er að finna yfirlit yfir bylgjuskrefakóða og hvernig þeir eru notaðir.
 author: Mirzaab
 ms.date: 09/06/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 4d25f1211db949b38232f945f69f197d5eda9a11
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8900478"

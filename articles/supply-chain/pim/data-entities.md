@@ -1,6 +1,6 @@
 ---
 title: Afurðagagnaeiningar
-description: Þessi grein veitir upplýsingar um mismunandi einingar sem hægt er að nota til að flytja inn og flytja út vörugögn.
+description: Þessi grein veitir upplýsingar um mismunandi aðila sem hægt er að nota til að flytja inn og flytja út afurðagögn.
 author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
 ms.openlocfilehash: e37e0928d8633a81d3a736527f2545cd61055a78
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8859199"

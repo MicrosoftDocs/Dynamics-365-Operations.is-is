@@ -1,6 +1,6 @@
 ---
 title: Verkuppsetning verkbeiðni
-description: Þessi grein útskýrir uppsetningu verkbeiðniverkefna í eignastýringu.
+description: Þessi grein útskýrir verkuppsetningu verkbeiðni í eignastýringu.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 31d8f42eb5753ea2656d502d2670a6cf7683c0f2
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8874131"
@@ -80,7 +80,7 @@ Uppsetningin gerir ráð fyrir fullkominni samþættingu við eininguna **Verkef
 ![Síða fyrir verkuppsetningu verkbeiðni, Bæta við verkbeiðni.](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
-> Í hvert skipti sem verkbeiðnilína er búin til leitar Eignastjórnun að verkefnahópi sem ætti að tengjast verkbeiðniverkefninu. Leitin er byggð á uppsetningunni sem lýst er í þessari grein. Sérhver verkefnahópur er með tilheyrandi verkefnisgerð. Verkefnahópar sem hafa verkgerðina **Tími og efni** eða **Fast verð** gilda aðeins fyrir eignir sem tengjast viðskiptamannareikningi.
+> Í hvert skipti sem verkbeiðnilína er búin til leitar Eignastjórnun að verkefnahópi sem ætti að tengjast verkbeiðniverkefninu. Leitin er byggð á þeirri uppsetningu sem lýst er í þessari grein. Sérhver verkefnahópur er með tilheyrandi verkefnisgerð. Verkefnahópar sem hafa verkgerðina **Tími og efni** eða **Fast verð** gilda aðeins fyrir eignir sem tengjast viðskiptamannareikningi.
 >
 > Fyrir yfirverk og verkefnahópa, þegar kerfið velur fyrirliggjandi verkþáttarverk eða verkefnahóp, er valið byggt á skrám sem þú stofnaðir með því að nota fyrra ferli. Eignastýring fer í gegnum skrár sem tengjast verkbeiðnaverki til að leita að mögulegri samsvörun. Það athugar alltaf sértækustu samsetninguna fyrst. Með öðrum orðum, fyrir yfirverk verkbeiðninnar kannar Eignastjórnun fyrst hvort möguleg samsvörun finnist fyrir reitinn **Eign**. Ef engin samsvörun finnst leitar hún að samsvörun fyrir reitinn **Eignagerð**. Ef engin samsvörun finnst leitar hún að samsvörun fyrir reitinn **Virk staðsetning** og svo framvegis. Eins og þú sérð á skipulagi síðunnar **Verkuppsetning verkbeiðni** þýðir þessi hegðun að til að finna sértækustu samsetninguna, þá velur eignastjórnun hverja skrá frá hægri til vinstri fyrir leik. Ef engin samsvörun finnst er sjálfgefna skráin þar sem aðeins verkkenni er valið notuð. Ferlið til að finna tengdan verkefnahóp er svipað. Eignastýring leitar fyrst að mögulegri samsvörun við reitinn **Eign**, síðan reitinn **Gerð eigna** og síðan reitinn **Gerð verkbeiðni**. Ef engin samsvörun finnst er sjálfgefna skráin þar sem aðeins verkhópur er valinn notuð.
 

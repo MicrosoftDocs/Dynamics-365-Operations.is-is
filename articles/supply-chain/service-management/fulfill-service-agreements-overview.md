@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir uppfyllta þjónustusamninga
-description: Þessi grein veitir yfirlit yfir verkefnin til að uppfylla þjónustusamninga.
+description: Í þessari grein má fá yfirlit yfir verkþætti til uppfyllingar þjónustusamninga.
 author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 920ac245c94d87ac692b173012e88dc8c1352f8f
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8852100"
@@ -25,7 +25,7 @@ ms.locfileid: "8852100"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir verkefnin til að uppfylla þjónustusamninga. Í greininni eru einnig talin upp eyðublöð sem tengjast hverjum viðskiptaferlishluta og fjallað um verkefnin sem tengjast hverjum viðskiptaferlishluta.
+Í þessari grein má fá yfirlit yfir verkþætti til uppfyllingar þjónustusamninga. Í þessari grein er einnig farið yfir skjámyndir sem tengjast hverjum hluta viðskiptaferlis og fjallað um þá verkþætti sem tengjast hverjum hluta viðskiptaferlis.
 
 ## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a>Skjámyndir fyrir Uppfyllingu þjónustusamninga hluta viðskiptaferlis
 

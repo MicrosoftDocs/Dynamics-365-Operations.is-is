@@ -1,6 +1,6 @@
 ---
 title: Skýrsla verkbeiðni
-description: Þessi grein lýsir verkbeiðnaskýrslum í eignastýringu.
+description: Þessi grein lýsir skýrslum verkbeiðni í Eignastýringu.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 4230b4c55e05cb2c860d77ef5a938bf2d5c04980
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8851827"

@@ -1,6 +1,6 @@
 ---
 title: Gjöld vegna ósamkvæmniaðgerða
-description: Þessi grein lýsir því hvernig á að búa til gæðagjöld sem hægt er að nota með aðgerðum fyrir ósamræmi.
+description: Þessi grein lýsir því hvernig á að stofna gæðagjöld sem hægt er að nota við aðgerðir vegna ósamkvæmni.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 29520afca07adee49846d1be987685a1ece8283c
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8850729"
@@ -27,7 +27,7 @@ ms.locfileid: "8850729"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að búa til gæðagjöld sem hægt er að nota með aðgerðum fyrir ósamræmi.
+Þessi grein lýsir því hvernig á að stofna gæðagjöld sem hægt er að nota við aðgerðir vegna ósamkvæmni.
 
 Þú notar síðuna **Gæðagjöld** til að skilgreina gerðir gjalda sem hægt er að bæta við aðgerðir vegna ósamkvæmi. Gjöld gera þér kleift að fylgjast með upplýsingum um þóknanir eða gjöld sem þú skuldar viðskiptavini fyrir afurðir sem eru ekki í samræmi eða sem lánardrotinn skuldar þér fyrir afurðir sem eru ekki í samræmi við það sem þú fékkst. Þú gætir einnig notað gjöld til að fylgjast með kostnaði sem þarf fyrir ytri lánardrottna eða þjónustu til að framkvæma aðgerð.
 

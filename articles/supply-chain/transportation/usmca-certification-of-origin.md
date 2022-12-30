@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
 ms.openlocfilehash: c67fd12c31b475b323bc4c7feee4cc5267da7793
 ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/24/2022
 ms.locfileid: "9714700"
@@ -34,9 +34,9 @@ Skjalið er aðeins aðgengilegt þegar land á aðalaðsetri lögaðilans er Ba
 
 Hægt er að forfylla skjalið með gögnum úr kerfinu þínu, háð því hvernig skjalið er prentað út. Hægt er að breyta eða bæta gögnum við skjalið sem á að prenta út með því að flytja prentaða skjalið út á breytanlegu sniði, t.d. Microsoft Word. Eftir útflutning er hægt að nota allar nauðsynlegar breytingar áður en yfirlýsing er gerð.
 
-## <a name="turn-the-usmca-feature-on-or-off"></a>Kveiktu eða slökktu á USMCA eiginleikanum
+## <a name="turn-the-usmca-feature-on-or-off"></a>Kveikir eða slekkur á USMCA eiginleikanum
 
-Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á eiginleikanum. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *USMCA vottun upprunaskjals* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika þarf að kveikja á honum fyrir kerfið þitt. Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að eiginleikanum *Skjal USMCA-upprunavottorðs* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="document-content"></a>Innihald skjals
 
@@ -51,14 +51,14 @@ Skjal USMCA-upprunavottorðsins inniheldur eftirfarandi gagnastök:
 - Undirskrift vottunaraðila
 - Blaðsíðufjöldi
 
-Fyrir frekari upplýsingar um hvern þessara þátta og hvernig gildi þeirra finnast, sjá þá hluta sem eftir eru í þessari grein.
+Frekari upplýsingar um hverja þessa einingu og hvernig skal finna gildi þeirra er að finna í köflum þessar greinar hér á eftir.
 
 ## <a name="print-a-usmca-certification-of-origin-document"></a>Prenta skjal USMCA-upprunavottorðs
 
 Gerðu eftirfarandi til að prenta út skjal USMCA-upprunavottorðs fyrir sendingu:
 
 1. Gerið eitt af eftirfarandi:
-    - Fara til **Samgöngustjórnun \> Skipulag \> Sendingar \> Allar sendingar** og veldu þá sendingu sem þú vilt prenta skjalið fyrir.
+    - Farðu í **Flutningsstjórnun \> Áætlanagerð \> Sendingar \> Allar sendingar** og veldu sendinguna sem á að prenta út skjalið fyrir.
     - Opnaðu síðuna **Frekari upplýsingar um sendingu** fyrir sendinguna sem á að prenta skjalið út fyrir (hægt er nota nokkrar aðferðir við að komast á þennan stað, þ. á m. af síðunni **Allar sendingar**).
 1. Í aðgerðasvæði skal opna flipann **Sendingar** og í hópnum **Prentun** skal velja **USMCA-upprunavottorð**.
 1. Svarglugginn **Upprunavottorð** opnast. Framkvæmdu stillingarnar sem lýst er í eftirfarandi undirköflum og veldu því næst **Í lagi** til að mynda skjalið.

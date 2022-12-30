@@ -1,6 +1,6 @@
 ---
 title: Kynning á virkum staðsetningum
-description: Þessi grein veitir yfirlit yfir virkar staðsetningar í eignastýringu.
+description: Í þessari grein er að finna yfirlit yfir virkar staðsetningar í eignastýringu.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a94b366dc725db3af01c156ae517a241213f7d52
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016044"
@@ -30,7 +30,7 @@ ms.locfileid: "9016044"
 
  
 
-Þessi grein veitir yfirlit yfir virkar staðsetningar í eignastýringu. Virkar staðsetningar eru þættir í tæknilegri uppbyggingu, svo sem virkar einingar í kerfi. Virkar staðsetningar eru búnar til með stigveldi og þú setur upp eignir á þeim. Uppsetning virkra staðsetninga í fyrirtækinu þínu fer eftir kröfum fyrirtækisins.
+Í þessari grein er að finna yfirlit yfir virkar staðsetningar í eignastýringu. Virkar staðsetningar eru þættir í tæknilegri uppbyggingu, svo sem virkar einingar í kerfi. Virkar staðsetningar eru búnar til með stigveldi og þú setur upp eignir á þeim. Uppsetning virkra staðsetninga í fyrirtækinu þínu fer eftir kröfum fyrirtækisins.
 
 Hér eru nokkur dæmi um hvernig þú getur notað virkar staðsetningar:
 
@@ -59,7 +59,7 @@ Eftir að þú hefur búið til virka staðsetningarveldi er næsta skref að se
 
 ## <a name="all-functional-locations"></a>Allar virkar staðsetningar
 
-Veldu **Eignastýring** \> **Virkir staðir** \> **Allir virkir staðir** að opna **Allir virkir staðir** listasíðu. Þessi síða sýnir allar virkar staðsetningar og nokkrar af þeim upplýsingum sem tengjast hverri. Til að skoða aðeins virkar virkar staðsetningar skaltu velja **Virkar virkar staðsetningar**. Til að skoða aðeins þær virku staðsetningar sem þú tengist sem starfskraftur skaltu velja **Mínar virku virku staðsetningar**. (Þessi tengsl eru sett upp á síðunni **Starfskraftar**. Sjá frekari upplýsingar [Viðhaldsstarfsmenn og starfsmannahópar](../setup-for-objects/workers-and-worker-groups.md).)
+Veldu **Eignastýring** \> **Virkar staðsetningar** \> **Allar virkar staðsetningar** til að opna listasíðuna **Allar virkar staðsetningar**. Þessi síða sýnir allar virkar staðsetningar og nokkrar af þeim upplýsingum sem tengjast hverri. Til að skoða aðeins virkar virkar staðsetningar skaltu velja **Virkar virkar staðsetningar**. Til að skoða aðeins þær virku staðsetningar sem þú tengist sem starfskraftur skaltu velja **Mínar virku virku staðsetningar**. (Þessi tengsl eru sett upp á síðunni **Starfskraftar**. Sjá frekari upplýsingar [Viðhaldsstarfsmenn og starfsmannahópar](../setup-for-objects/workers-and-worker-groups.md).)
 
 Á listasíðunni **Allar virkar staðsetningar** velurðu tengil í dálkinum **Virk staðsetning** til að skoða upplýsingar um valinn skrá. Til að breyta virkri staðsetningu skaltu velja hnappinn **Breyta**. Í smáatriðinu eru ítarlegar upplýsingar sem tengjast staðsetningu. Það felur einnig í sér gluggann **Tengdar upplýsingar** til hægri. Þessi gluggi sýnir stigveldi virkrar staðsetningarinnar. Þú getur stækkað og fellt saman gluggann **Tengdar upplýsingar**.
 

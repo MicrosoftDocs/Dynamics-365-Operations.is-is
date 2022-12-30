@@ -1,6 +1,6 @@
 ---
 title: Rekja ferðir á innleið og ferðir gáma
-description: Þessi grein útskýrir hvernig þú getur notað rakningarsíðuna á heimleið til að fylgjast með framvindu ferðanna þinna og gámaferða.
+description: Þessi grein útskýrir hvernig hægt er að nota rakningarsíðuna á innleið til að fylgjast með framvindu ferðanna og gámaleiðum.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 17874f984945b27e036eafda841ec1fd95d345be
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8854356"

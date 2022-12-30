@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: ebf58067754dbca0e93b5477b2fbee361355e029
 ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9538649"
@@ -30,7 +30,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | Efni | Lýsing | Snið | Lengd |
 |---------|-------------|--------|--------|
 | [Dynamics 365 og Power Platform grundvallaratriði](/training/paths/dyn-power-plat-bus-app-fundamentals/) | Hefur þú áhuga á að læra um viðskiptaforrit? Byrjaðu á þessari námsleið til að sjá hvernig Dynamics 365 forrit eru notuð. Lærðu um skýjahugtök, Power Platform og hvernig hægt er að byrja með Dynamics 365 forrit. | Ókeypis, sjálfstýr skref á námsleið | 5.5 klst. |
-| [Byrjaðu með fjármála- og rekstraröppum](/training/paths/get-started-finance-operations/) | Lærðu hvernig fjármála- og rekstrarforrit styðja fyrirtæki við að stjórna alþjóðlegum fjármálakerfum sínum, rekstri viðskiptaferla og straumlínulagaðar aðfangakeðjur til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum við að vinna með fjármála- og rekstraröppum, verður þú að kynna þér eiginleika þess og virkni, hvaða hlutverki sem þú vilt. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
+| [Hefjast handa með forrit fjármála- og reksturs](/training/paths/get-started-finance-operations/) | Lærðu hvernig forrit fjármála- og reksturs styðja fyrirtæki við að stjórna fjármálum sínum á alþjóðavísu, rekstrarferlum og straumlínulagaðri birgðakeðju til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum í að vinna með forrit fjármála- og reksturs verður þú að kynna þér eiginleika þeirra og virkni, óháð hlutverki þeirra. | Ókeypis, sjálfstýr skref á námsleið | 2 klst. |
 | [Námskeið MB-900T01-A: Grundvallaratriði Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Þetta námskeið kynnir nemandanum Dynamics 365 virkni og viðskiptagildi. Námskeiðið mun fjalla um Dynamics 365 forrit, Power Platform, skýjahugtök, öryggislíkanið og leyfissjónarmið. | Leiðbeinandi í eigin persónu eða þjálfun á netinu; kostnaður er breytilegur eftir svæðum og félagi | 1 dagur |
 
 ## <a name="exam"></a>Próf<a name="exam"></a>

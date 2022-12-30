@@ -1,6 +1,6 @@
 ---
 title: Verkþáttarbyggð úthýsing
-description: Þessi grein lýsir í smáatriðum hvernig á að nota undirverktakastarfsemi í framleiðsluflæði fyrir lean manufacturing.
+description: Þessi grein lýsir ítarlega hvernig á að nota undirverktaka aðgerðir í framleiðsluflæði fyrir lean-framleiðslu.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e53da46a27fd573ae7f7450fcf34ffd8ef43e3fe
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8890742"
@@ -27,7 +27,7 @@ ms.locfileid: "8890742"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir í smáatriðum hvernig á að nota undirverktakastarfsemi í framleiðsluflæði fyrir lean manufacturing.
+Þessi grein lýsir ítarlega hvernig á að nota undirverktaka aðgerðir í framleiðsluflæði fyrir lean-framleiðslu.
 
 Í Microsoft Dynamics 365 Supply Chain Management eru tvær nálganir við úthýsingu: framleiðslupantanir og lean-framleiðsla. Í lean-framleiðslu er úthýsingarvinna byggðt upp sem þjónusta sem er tengd við verkþátt framleiðsluflæðis. Sérstök gerð kostnaðarflokks sem kallast **Bein útvistun** hefur verið kynnt til sögunnar og úthýsingarþjónusta er ekki lengur hluti af uppskrift (BOM). Kostnaðarbókhald vinnu undirverktaka er samþætt að fullu inn í kostnaðarútreikningslausn fyrir lean-framleiðslu.
 

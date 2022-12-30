@@ -1,6 +1,6 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.9. (apríl 2020)
-description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir Dynamics 365 Supply Chain Management 10.0.9.
+description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.9.
 author: kamaybac
 ms.date: 02/19/2020
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 5d7035a7034d084a9bec453557694ce7f29ad347
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740372"
@@ -25,7 +25,7 @@ ms.locfileid: "9740372"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management, forskoðunarútgáfa 10.0.9. Þessi útgáfa er með byggingarnúmer 10.0.383 og er fáanlegt á eftirfarandi hátt:
+Í þessari grein er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management forútgáfu 10.0.9. Þessi útgáfa er með byggingarnúmer 10.0.383 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðunarútgáfa:** Febrúar 2020
 - **Almennt framboð (sjálf uppfærsla):** Mars 2020
@@ -33,7 +33,7 @@ ms.locfileid: "9740372"
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
-Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Sumir þessara eiginleika kunna einnig að hafa verið með í fyrri stigvaxandi útgáfu, en voru ekki tilkynntir í fyrri *Hvað er nýtt* grein, svo við bætum þeim við hér. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
+Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Sumir þessara eiginleika gætu einnig hafa verið innifaldir í fyrri útgáfu en voru ekki tilkynntir í fyrri greininni *Hvað er nýtt*, þannig að við erum að bæta þeim við hér. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
 - [Ítarlegar hleðsluáætlanir í bylgju](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - Frekari upplýsingar er að finna í [Viðbótarhleðsluáætlanir í bylgju](../warehousing/advanced-load-building-during-wave.md).
 
@@ -73,7 +73,7 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengj
 
 - [Samhliðuð staðfesting á áætluðum pöntunum](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Frekari upplýsingar er að finna í [Staðfesting á tillögum](../master-planning/planning-optimization/planned-order-firming.md) og myndbandinu [Endurbætur á MRP-afköstum og notagildi](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 
-- [Fínstilling áætlanagerðar fyrir dreifingu](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Fyrir frekari upplýsingar, sjá [Heimasíða aðalskipulags](../master-planning/master-planning-home-page.md).
+- [Fínstilling áætlanagerðar fyrir dreifingu](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Frekari upplýsingar, sjá [Upphafssíðu aðaláætlanagerðar](../master-planning/master-planning-home-page.md).
 
 - [Endurbætur á innkaupasamningi](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements)<br> - Frekari upplýsingar er að finna í [Innkaupasamningar](../procurement/purchase-agreements.md).
 
@@ -113,12 +113,12 @@ Skoðaðu [Dynamics 365: 2020 útgáfu bylgju 1 áætlun](/dynamics365-release-p
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 
-The [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein lýsir eiginleikum sem hafa verið eða áætlað er að verði fjarlægðir eða úreltir fyrir Supply Chain Management.
+Greinin [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) lýsir eiginleikum sem hafa verið eða á að fjarlægja eða úrelda fyrir Supply Chain Management.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
 
-Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um úreldingu tilkynnt í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein 12 mánuðum fyrir brottnám.
+Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um afskriftir tilkynnt í greininni [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mánuðum fyrir fjarlægingu.
 
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
 

@@ -1,6 +1,6 @@
 ---
 title: Gerðir viðhaldsbeiðna
-description: Þessi grein útskýrir hvernig á að setja upp gerðir viðhaldsbeiðna í eignastýringu.
+description: Í þessari grein er útskýrt hvernig á að setja upp viðhaldsbeiðnigerðir í Eignastýringu.
 author: johanhoffmann
 ms.date: 07/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0a2d707cc9c0aa4863968651a8434883cc1322eb
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8888702"

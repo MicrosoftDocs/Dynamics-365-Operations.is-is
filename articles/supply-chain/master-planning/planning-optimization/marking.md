@@ -1,6 +1,6 @@
 ---
 title: Birgðamerking
-description: Þessi grein veitir upplýsingar um valkostina sem eru tiltækir til að merkja birgðahald í staðfestum pöntunum.
+description: Þessi grein inniheldur upplýsingar um valkostina sem eru tiltækir til að merkja birgðir í staðfestum pöntunum.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: c86db6a670d7d0f7bfe74b7466b9bce766e4a08d
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740578"
@@ -27,7 +27,7 @@ ms.locfileid: "9740578"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um valkostina sem eru tiltækir til að merkja birgðahald í staðfestum pöntunum.
+Þessi grein inniheldur upplýsingar um valkostina sem eru tiltækir til að merkja birgðir í staðfestum pöntunum.
 
 *Merking* er notuð til að tengja framboð og eftirspurn. Slíkt er svipað og *þarfarakning*, sem gefur til kynna hvernig aðaláætlanagerð gerir ráð fyrir því að uppfylla eftirspurn. Frá áætlunarsjónarmiði séð er helsti munurinn sá að merking er varanlegri en þarfarakning.
 
@@ -46,12 +46,12 @@ Um leið og áætluð pöntun er staðfest veitir svarglugginn **Staðfesting** 
 - *Nei* – Engar birgðir eru merktar.
 - *Staðlað* – Birgðamerking er uppfærð í samræmi við jöfnun. Þarfapöntun (þarfir) er merkt gagnvart fullnaðarpöntun (birgðir). Þegar eitthvað magn er eftir í fullnaðarpöntuninni er það ekki merkt og tilvísunarupplýsingarnar eru skildar eftir auðar. Þegar t.d. pöntun á 100 EA er fest við innkaupapöntun fyrir 150 EA verður tilvísunarupplýsingum aðeins úthlutað á sölupöntunina.
 - *Útvíkkað* – Bæði þarfapöntun (eftirspurn) og fullnaðarpöntun (framboð) er merkt, burtséð frá því hvort eitthvert magn er eftir í fullnaðarpöntuninni. Þegar t.d. pöntun á 100 EA er fest við innkaupapöntun fyrir 150 EA verður tilvísunarupplýsingum bæði úthlutað á sölupöntunina og innkaupapöntunina.
-- *Staðall á einu stigi* – Einstigs merking er notuð. Einþreps merking merkir aðeins aðalhlutinn, ekki efnisskrá (BOM) íhluti hans. Þess vegna er hægt að halda íhlutaúthlutun fyrir framleiðslupantanir sveigjanlegan eftir styrkingu. Eins stigs merking gerir kerfinu kleift að hagræða fyrir breytingar á eftirspurn á síðustu stundu. Í *staðall* eins stigs merking, kröfupantanir eru merktar við uppfyllingarpantanir þeirra, en uppfyllingarpantanir eru ekki merktar ef þær hafa eftirstandandi magn.
-- *Einhæð stækkuð* – Einstigs merking er notuð. Í *framlengdur* eins stigs merking, kröfupantanir eru merktar við uppfyllingarpantanir þeirra og uppfyllingarpantanir eru alltaf merktar, óháð því hvort eitthvað magn er eftir.
+- *Staðlað eitt stig* – Merking fyrir eitt stig notuð. Merking fyrir eitt stig merkir aðeins aðalvöruna, ekki íhluti uppskrift þess (BOM). Því er hægt að halda íhlutum til úthlutunar fyrir framleiðslupantanir breytilegum eftir staðfestingu. Merking fyrir eitt stig gerir kerfinu kleift að fínstilla fyrir breytingar á eftirspurn á síðustu stundu. Í *hefðbundinni* eins stigs merkingu eru þarfapantanir merktar gegn fullnaðarpöntunum þeirra en fullnaðarpantanir eru ekki merktar ef þær hafa eftirstandandi magn.
+- *Eitt stig framlengt* – Merking fyrir eitt stig notuð. Í *framlengdri* eins stigs merkingu eru þarfapantanir merktar gegn fullnaðarpöntunum þeirra, og fullnaðarpantanir eru alltaf merktar, burtséð frá því hvort eitthvert magn er eftir.
 
-Til að stilla sjálfgefna merkingarvalkost fyrir kerfið þitt skaltu fara á **Aðalskipulag \> Uppsetning \> Aðalskipulagsbreytur**. Síðan, á **Hefðbundin uppfærsla** flipann, stilltu **Uppfæra merkingu** reit í valinn valkost.
+Til að stilla sjálfgefinn merkingarvalkost fyrir kerfið skal fara í **Aðaláætlanagerð \> Uppsetning \> Færibreytur aðaláætlanagerðar**. Síðan skal í flipanum **Stöðluð uppfærsla** stilla reitinn **Uppfæra merkingu** á æskilegan valkost.
 
 > [!NOTE]
-> The *Staðall á einu stigi* og *Einhæð stækkuð* valkostir eru aðeins í boði ef *Sjálfvirkni framboðs eftir pöntun* eiginleiki er virkur á kerfinu þínu. Fyrir frekari upplýsingar um þennan eiginleika og hvernig á að virkja hann, sjá [Sjálfvirkni framboðs eftir pöntun](../make-to-order-supply-automation.md).
+> Valkostirnir *Staðlað eitt stig* og *Stækkað eitt stig* eru aðeins í boði ef eiginleikinn *Sjálfvirkt framboð með „framleiða eftir pöntun“* er virkjaður í kerfinu. Frekari upplýsingar um þennan eiginleika og hvernig á að virkja hann má finna í [Sjálfvirkt framboð með „framleiða eftir pöntun](../make-to-order-supply-automation.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

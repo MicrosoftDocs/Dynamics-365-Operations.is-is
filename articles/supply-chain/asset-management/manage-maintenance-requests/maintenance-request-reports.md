@@ -1,6 +1,6 @@
 ---
 title: Skýrslur yfir viðhaldsbeiðnir
-description: Þessi grein útskýrir hvernig á að búa til viðhaldsbeiðnaskýrslur í eignastýringu.
+description: Þessi grein útskýrir hvernig á að búa til viðhaldsbeiðniskýrslur í Eignastýringu.
 author: johanhoffmann
 ms.date: 10/31/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 5ea2b6af1717ca447c06311a24bfa7c9b1f0d084
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8862773"

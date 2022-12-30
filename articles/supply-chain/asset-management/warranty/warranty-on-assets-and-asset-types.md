@@ -1,6 +1,6 @@
 ---
 title: Ábyrgðir á eignum og eignagerðum
-description: Þessi grein útskýrir hvernig á að setja upp ábyrgðir á eignum og eignategundum í eignastýringu.
+description: Í þessari grein er útskýrt hvernig á að setja upp ábyrgðir á eignum og eignategundum í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/30/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 2e63161aa32ecbc99baace9bb0cc649aedc600ed
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015993"
@@ -29,7 +29,7 @@ ms.locfileid: "9015993"
  
 
 
-Þessi grein útskýrir hvernig á að setja upp ábyrgðir á eignum og eignategundum í eignastýringu.
+Í þessari grein er útskýrt hvernig á að setja upp ábyrgðir á eignum og eignategundum í Eignastýringu.
 
 ## <a name="set-up-a-warranty-on-an-asset-type"></a>Settu upp ábyrgð á eignagerð
 

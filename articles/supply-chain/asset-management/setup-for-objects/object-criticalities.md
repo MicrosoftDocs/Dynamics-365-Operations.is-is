@@ -1,6 +1,6 @@
 ---
 title: Mikilvægisgerðir eigna
-description: Greinin útskýrir gerðir eigna í eignastýringu.
+description: Í greininni er gerð grein fyrir mikilvægisgerðum eigna í Eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cfde9a9bc681c0d758491fc5c361b5b046e20d9d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8899499"
@@ -28,7 +28,7 @@ ms.locfileid: "8899499"
 
  
 
-Greinin útskýrir gerðir eigna í eignastýringu. Mikilvægi eigna er tengd eignum og færð yfir í verkbeiðnum. Það er ekki hægt að breyta því í verkbeiðni. Skilvirkni eigna er notuð til að reikna út gagnrýni á verkþörf meðan á tímasetningu verkbeiðni stendur. Með öðrum orðum, það er notað til að reikna út að hve miklu leyti viðhaldsstörf á eign hafa áhrif á framleiðsluáætlun og framleiðni fyrirtækisins. Nánari upplýsingar um uppsetninguna sem er tengd útreikningi á matseinkunnum fyrir tímasetningar verkbeiðni, sjá [Færibreytur eignastýringar](../setup-for-objects/enterprise-asset-management-parameters.md).
+Í greininni er gerð grein fyrir mikilvægisgerðum eigna í Eignastýringu. Mikilvægi eigna er tengd eignum og færð yfir í verkbeiðnum. Það er ekki hægt að breyta því í verkbeiðni. Skilvirkni eigna er notuð til að reikna út gagnrýni á verkþörf meðan á tímasetningu verkbeiðni stendur. Með öðrum orðum, það er notað til að reikna út að hve miklu leyti viðhaldsstörf á eign hafa áhrif á framleiðsluáætlun og framleiðni fyrirtækisins. Nánari upplýsingar um uppsetninguna sem er tengd útreikningi á matseinkunnum fyrir tímasetningar verkbeiðni, sjá [Færibreytur eignastýringar](../setup-for-objects/enterprise-asset-management-parameters.md).
 
 Til að setja upp gagnrýni skaparðu fyrst þær tegundir gagnrýni sem ætti að nota í uppsetningu eigna. Þú setur síðan upp eignamikilvægi.
 

@@ -1,6 +1,6 @@
 ---
 title: Viðmót efnismeðhöndlunarbúnaðar (MHAX)
-description: Þessi grein lýsir því hvernig á að setja upp efnismeðferðarbúnaðarviðmótið (MHAX) þannig að þú getir tengst ytri efnismeðferðarkerfi (MH).
+description: Þessi grein lýsir því hvernig á að setja upp viðmót efnismeðhöndlunarbúnaðar (MHAX) þannig að hægt sé að tengjast við ytra efnismeðhöndlunarkerfi (MH).
 author: Mirzaab
 ms.date: 08/09/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 1056c7aee3ea96ddcb012704be40bef6c363f323
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9334356"
@@ -24,7 +24,7 @@ ms.locfileid: "9334356"
 
 [!include [banner](../../includes/banner.md)]
 
-Þú getur notað *viðmót efnismeðferðarbúnaðar* (MHAX) til að tengja ytri efnismeðferðarkerfi (MH) við vöruhús sem er stjórnað af vöruhúsastjórnunarferlum (WMS) í Microsoft Dynamics 365 Supply Chain Management. Viðmótið á milli WMS og MH-kerfa samanstendur af tveimur biðröðum: ein fyrir tilvik á útleið (WMS to MH) og ein fyrir tilvik á innleið (MH til WMS). WMS-kerfið myndar tilvik á útleið út frá vinnulínum sem eru stofnaðar þegar ýmsar vinnur eru stofnaðar og framkvæmdarferlar. MH-kerfið athugar síðan reglulega WMS-kerfið fyrir nýjum tilvikum og vinnur úr svörunum. Þegar MH-kerfið hefur lokið við meðhöndlun tilvikanna í samræmi við verkleiðbeiningar, sendir það tilvik á innleið, svo sem vinnulínulok og of lítil tiltekt.
+Hægt er að nota *viðmót efnismeðhöndlunarbúnaðar* (MHAX) til tengja ytri efnismeðhöndlunarkerfi (MH) við vöruhús sem er stjórnað af vöruhúsakerfisferli (WMS) í Microsoft Dynamics 365 Supply Chain Management. Viðmótið á milli WMS og MH-kerfa samanstendur af tveimur biðröðum: ein fyrir tilvik á útleið (WMS to MH) og ein fyrir tilvik á innleið (MH til WMS). WMS-kerfið myndar tilvik á útleið út frá vinnulínum sem eru stofnaðar þegar ýmsar vinnur eru stofnaðar og framkvæmdarferlar. MH-kerfið athugar síðan reglulega WMS-kerfið fyrir nýjum tilvikum og vinnur úr svörunum. Þegar MH-kerfið hefur lokið við meðhöndlun tilvikanna í samræmi við verkleiðbeiningar, sendir það tilvik á innleið, svo sem vinnulínulok og of lítil tiltekt.
 
 Eftirfarandi mynd sýnir ýmsar einingar og röðina sem unnið er úr í þegar MHAX-samþættingu er notuð.
 
@@ -41,9 +41,9 @@ Hér er útskýring á samskiptum sem birtast í fyrri mynd:
 
 Áður en hægt er að nota MHAX-eiginleikann verður að kveikja á bæði eiginleikann og skilgreiningarlyklinum.
 
-1. Ef þú ert að keyra Supply Chain Management útgáfu 10.0.28 eða eldri, gerðu eftirfarandi skref:
+1. Ef þú ert að keyra útgáfu 10.0.28 eða eldri af Supply Chain Management skaltu gera eftirfarandi skref:
     1. Opna skal **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**.
-    1. Á vinnusvæðinu **[Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** skal kveikja á eiginleikanum sem heitir *Viðmót efnismeðhöndlunarbúnaðar*. (Frá og með Supply Chain Management 10.0.29 er þessi eiginleiki nauðsynlegur og ekki hægt að slökkva á honum.)
+    1. Á vinnusvæðinu **[Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** skal kveikja á eiginleikanum sem heitir *Viðmót efnismeðhöndlunarbúnaðar*. Frá og með útgáfu 10.0.29 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni.
 1. Setjið kerfið í viðhaldsstillingu eins og lýst er í [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Opnið **Kerfisstjórnun \> Setja upp \> Skilgreining leyfis**.
 1. Stækkið **Viðskipti \> Vöruhúsakerfi og flutningsstjórnun** og veljið siðan gátreitinn **Viðmót efnismeðhöndlunarbúnaðar**.
@@ -89,7 +89,7 @@ Til að stofna áskrift skal fara í **Viðmót efnismeðhöndlunarbúnaðar \> 
 
 Hægt er að tengja fyrirspurn við hverja áskrift. Þessi fyrirspurn síar vinnulínur og hausa til að takmarka enn frekar vinnuna sem notar áskriftina til að mynda tilvik. Til að bæta fyrirspurn við áskrift skal velja gátreitinn **Keyra fyrirspurn** fyrir viðeigandi áskrift á síðunni **Áskriftir** og síðan velja **Breyta fyrirspurn** á aðgerðasvæðinu. Hefðbundinn fyrirspurnarritill Supply Chain Management birtist.
 
-Þar að auki inniheldur áskriftin *áskriftarvörpun* sem varpar reitum úr annaðhvort vinnuhausnum eða vinnulínunni í einhver eða öll 10 lausu gagnasvæðin í tilvikinu á útleið eftir þörfum. Til að skila upplýsingum til MHAX-þjónustunnar er færslukenni vinnulínunnar yfirleitt haft með eða *pörunarkenni vinnulínunnar*. (Pörunarkenni vinnulínunnar er nýr eiginleiki sem gerir kerfinu kleift að nota eina skilaskipun til að vinna úr tiltektar- og frágangslínum.) Reitirnir sem eftir standa fara eftir notkunartilfellinu. Nokkur dæmi eru veitt síðar í þessari grein.
+Þar að auki inniheldur áskriftin *áskriftarvörpun* sem varpar reitum úr annaðhvort vinnuhausnum eða vinnulínunni í einhver eða öll 10 lausu gagnasvæðin í tilvikinu á útleið eftir þörfum. Til að skila upplýsingum til MHAX-þjónustunnar er færslukenni vinnulínunnar yfirleitt haft með eða *pörunarkenni vinnulínunnar*. (Pörunarkenni vinnulínunnar er nýr eiginleiki sem gerir kerfinu kleift að nota eina skilaskipun til að vinna úr tiltektar- og frágangslínum.) Reitirnir sem eftir standa fara eftir notkunartilfellinu. Nokkur dæmi eru gefin síðar í þessari grein.
 
 Til að setja upp áskriftarvörpun skal velja viðeigandi áskrift á síðunni **Áskriftir** og síðan velja **Áskriftarvörpun** á aðgerðasvæðinu. Í svarglugganum **Áskriftarvörpun** sem birtist er hægt að úthluta töflu og reit fyrir hvert tiltækt gagnasvæði eftir þörfum.
 
@@ -162,7 +162,7 @@ Ef auðkenni vinnulínupars er útvegað verður öll tiltekt, frágangur eða s
 
 Tiltektarlínur frá númeraplötustýrðum staðsetningum krefjast þess að **data03** tilgreinni númeraplötuna sem á að tína úr, óháð því hvort línurnar séu merktar af færslukenni vinnulínunnar eða pörunarkenni vinnulínunnar. Reiturinn **data04** verður að tilgreina númeraplötu markmiðs í vinnuhaus fyrir tiltektina.
 
-Frágangslínur taka ekki við ekki frekari upplýsingar. Þær eru aðeins keyrðar út frá núverandi staðsetningu vinnulínunnar og marknúmeraplötu vinnunnar. Ef setja þarf á annan stað, breyttu staðsetningu vinnulínunnar eins og lýst er í [Hneka atburði](#override-events) kafla síðar í þessari grein.
+Frágangslínur taka ekki við ekki frekari upplýsingar. Þær eru aðeins keyrðar út frá núverandi staðsetningu vinnulínunnar og marknúmeraplötu vinnunnar. Ef gera þarf fráganginn á annarri staðsetningu skal breyta staðsetningu vinnulínunnar eins og lýst er í hlutanum [Hnekkja tilvikum](#override-events) síðar í þessari grein.
 
 Sérsniðnar vinnulínur hvorki þurfa né styðja við frekari upplýsingar í tilvikinu á innleið.
 
@@ -221,7 +221,7 @@ Að lokum mun biðröðin á innleið smám saman fyllast af atriðum biðraðar
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Fá flýtiyfirlit með því að nota biðraðarstjórann
 
-Til að fá flýtiyfirlit yfir allar aðgerðir sem tengjast biðröðum á innleið og útleið skal fara í **Viðmót efnismeðhöndlunarbúnaðar \> Vinnusvæði \> Biðraðarstjóri**. Síðan **Biðraðarstjóri** býður upp á safn af flipum og reitum sem er hægt að nota til að fylgjast með og fletta í biðröðum. Það veitir einnig gagnlega tengla á flestar aðrar síður sem nefndar eru í þessari grein.
+Til að fá flýtiyfirlit yfir allar aðgerðir sem tengjast biðröðum á innleið og útleið skal fara í **Viðmót efnismeðhöndlunarbúnaðar \> Vinnusvæði \> Biðraðarstjóri**. Síðan **Biðraðarstjóri** býður upp á safn af flipum og reitum sem er hægt að nota til að fylgjast með og fletta í biðröðum. Þar er einnig að finna gagnlega tengla á flestar aðrar síður sem minnst er á í þessari grein.
 
 ## <a name="connect-to-the-mhax-service"></a>Tengjast MHAX-þjónustu
 

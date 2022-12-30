@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um afbrigðalíkan afurðar
-description: Þessi grein lýsir útreikningum fyrir vörustillingarlíkön og útskýrir hvernig á að nota útreikninga ásamt takmörkunum.
+description: Þessi grein lýsir útreikningum fyrir afbrigðalíkönum afurðar og útskýrir hvernig á að nota útreikninga með skorðum.
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4424ebbf64ccdcb9bffc840520952ac915606209
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015494"
@@ -27,7 +27,7 @@ ms.locfileid: "9015494"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir útreikningum fyrir vörustillingarlíkön og útskýrir hvernig á að nota útreikninga ásamt takmörkunum.
+Þessi grein lýsir útreikningum fyrir afbrigðalíkönum afurðar og útskýrir hvernig á að nota útreikninga með skorðum.
 
 Hægt er að nota útreikninga fyrir útreiknings eða rökaðgerðir. Þeir bæta segðaskorður í afbrigðalíkönum afurðar Hægt er að skilgreina útreikninga á **afbrigðalíkan afurðar sem byggist á skorðum** skjámyndinni og síðan byggja segðir fyrir útreikninga í segðaritlinum. Nánari upplýsingar sjá stofna útreikninga.
 
@@ -73,7 +73,7 @@ Hægt er að skrifa yfir gildi sem er reiknuð fyrir markmiðseigindina nema ef 
 ## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Hvernig get ég sett inn markmiðseigind sem er falin eða aðeins til lestrar?
 Til að setja eigind sem falin eða aðeins til lestrar skal fylgja þessum skrefum:
 
-1.  Smellur **Vöruupplýsingastjórnun** &gt; **Vörur** &gt; **Vörustillingarlíkön**.
+1.  Smellið á **upplýsingastjórnun afurða** &gt; **Afurðir** &gt; **Afurðarupplýsingastjórnun**.
 2.  Veldu afbrigðalíkan afurðar og smellið síðan á **breyta** á aðgerðarúðu.
 3.  Á **upplýsingum afbrigðalíkans afurðar sem byggir á Skorðum** síðunni, veljið eigindina sem nota á sem markeigind.
 4.  Á **Eigindir** flýtiflipi, veljið **Falið** eða **skrifvarið**.
@@ -96,7 +96,7 @@ Ef fjarlægt er innsett gildi í útreikningi, er gildi markmiðseigindin einnig
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Af hverju kemur villuskilaboð jafnvel þótt ég hafi sannreynt framleiðslulíkanið mitt?
 Útreikningar eru ekki teknar með í villuleit. Er þarf að prófa afbrigðalíkan afurðar til að finna villur í útreikningum. Til að prufa afbrigðalíkans afurðar skal fylgja þessum skrefum:
 
-1.  Smellur **Vöruupplýsingastjórnun** &gt; **Vörur** &gt; **Vörustillingarlíkön**.
+1.  Smellið á **upplýsingastjórnun afurða** &gt; **Afurðir** &gt; **Afurðarupplýsingastjórnun**.
 2.  Veldu afbrigðalíkan afurðar og smellið síðan á Aðgerðasvæðinu skal í **keyrslu** flokkur skal smella á **prófun**.
 
 

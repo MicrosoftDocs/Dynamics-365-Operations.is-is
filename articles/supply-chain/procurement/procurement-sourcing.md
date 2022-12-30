@@ -1,6 +1,6 @@
 ---
 title: Heimasíða innkaup og aðföng
-description: Þessi grein veitir lista yfir hjálpargreinar og önnur úrræði sem eru tiltæk fyrir innkaup og innkaup.
+description: Í þessari grein er að finna skrá yfir hjálparatriði og önnur tilföng sem eru tiltæk fyrir „Innkaup og aðföng“.
 author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b0d3869b93f6ecf4f70df6b394ce18a77318b83c
 ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/02/2022
 ms.locfileid: "9111785"
@@ -27,7 +27,7 @@ ms.locfileid: "9111785"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir lista yfir hjálpargreinar og önnur úrræði sem eru tiltæk fyrir innkaup og innkaup.
+Í þessari grein er að finna skrá yfir hjálparatriði og önnur tilföng sem eru tiltæk fyrir „Innkaup og aðföng“.
 
 Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyrir vöru og þjónustu þar til afurð er keypt, innhreyfingar, reiknings og vinnsla á greiðslu með lánardrottnum. Hægt er að stilla innkaupaferli að þörfum tiltekins fyrirtækis með því að skilgreina innkaupa reglur og verkflæði. Almennar upplýsingar sjá [yfirlit Innkaupa og aðfanga](procurement-sourcing-overview.md). Viðbótartilföng eru að skráð að neðan.
 
@@ -54,7 +54,7 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Samstarf lánardrottna við viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md)
 -   [Uppsetning og viðhald samstarfs lánardrottna](set-up-maintain-vendor-collaboration.md)
--   [Birgðaforskrift á heimleið](https://www.microsoft.com/download/details.aspx?id=101945) (hvítur pappír)
+-   [Dæmi um forskrift fyrir vörusendingabirgðir á innleið](https://www.microsoft.com/download/details.aspx?id=101945) (hvítbók)
 -   [Fylgjast með vörusendingabirgðum með samstarfi lánardrottna](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Fartækjavinnusvæði samstarfs lánardrottna](vendor-collaboration-mobile-workspace.md)
 

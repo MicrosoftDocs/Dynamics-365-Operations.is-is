@@ -1,6 +1,6 @@
 ---
 title: fjárhagslegar og efnislegar uppfærslur
-description: Þessi grein veitir yfirlit yfir hvaða tegundir færslna auka eða minnka birgðamagn.
+description: Þessi grein veitir yfirlit yfir hvaða gerðir færslna auka eða minnka birgðamagn.
 author: JennySong-SH
 ms.date: 06/20/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 345f07e7ba55f567c9956539241c080db958c848
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8895845"
@@ -27,7 +27,7 @@ ms.locfileid: "8895845"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir hvaða tegundir færslna auka eða minnka birgðamagn. 
+Þessi grein veitir yfirlit yfir hvaða gerðir færslna auka eða minnka birgðamagn. 
 
 Birgðafærslur er hægt að uppfæra efnislega og fjárhagslega í Dynamics 365 Supply Chain Management. Sumar gerðir efnislegra og fjárhagsfærslna auka birgðamagn, á meðan aðrar draga úr magninu.
 

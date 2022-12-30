@@ -1,6 +1,6 @@
 ---
 title: Útiloka afurðir sem hafa tilteknar líftímastöður afurðar
-description: Þessi grein útskýrir hvernig á að útiloka vörur út frá líftímastöðu þeirra.
+description: Þessi grein útskýrir hvernig á að útiloka afurðir miðað við líftímastöðu þeirra.
 author: t-benebo
 ms.date: 11/13/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2019-11-13
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: 647e2cf4f14dbdfc3e7f04f43dcbd7115f19e8dc
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740766"

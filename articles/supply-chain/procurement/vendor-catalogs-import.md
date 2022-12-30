@@ -1,6 +1,6 @@
 ---
 title: Flytja inn vörulista lánardrottins
-description: Þessi grein lýsir ferlinu við að flytja inn vörulistagögn lánardrottins.
+description: Þessi grein lýsir ferlinu til að flytja inn vörulistagögn lánardrottins.
 author: GalynaFedorova
 ms.date: 03/20/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 923715893b9f1c4b87d7bbb67e200f8cb8f92e6b
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015556"
@@ -46,7 +46,7 @@ Til að flytja inn vörulistagögn lánardrottins þarf að ljúka eftirfarandi 
 
 4. Stilla verkflæði fyrir vörulistainnflutning. Stofna CMR-skráarsniðmát og deila því með lánardrottni.
 
-5. Veldu **Innkaup og innkaup** \> **Vörulistar** \> **Sölubækur** til að búa til vörulista söluaðila. Skrárnar fyrir viðhaldsbeiðni vörulista (CMR) sem þú færð frá lánardrottni eru flokkaðar í þessum vörulista.
+5. Veldu **Innkaup og aðföng** \> **Vörulistar** \> **Vörulistar lánardrottins**  Vörulistar lánardrottins til að stofna vörulista lánardrottins. Skrárnar fyrir viðhaldsbeiðni vörulista (CMR) sem þú færð frá lánardrottni eru flokkaðar í þessum vörulista.
 
 6. Hlaða upp CMR-skránni.
 

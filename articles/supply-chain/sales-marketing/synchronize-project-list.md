@@ -1,6 +1,6 @@
 ---
 title: Samstilla verklista úr Supply Chain Management við Field Service
-description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla verkefni frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+description: Þessi grein lýsir sniðmátunum og undirliggjandi verkefnum sem notuð eru til að samstilla verk úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 03/13/2019
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: 71c0580953f01c2d29e99fa2928a0b4a3937d5c5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8899354"
@@ -27,7 +27,7 @@ ms.locfileid: "8899354"
 
 [!include[banner](../includes/banner.md)]
 
-Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla verkefni frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+Þessi grein lýsir sniðmátunum og undirliggjandi verkefnum sem notuð eru til að samstilla verk úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 
 [![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/FSProjectOW.png)](./media/FSProjectOW.png)
 

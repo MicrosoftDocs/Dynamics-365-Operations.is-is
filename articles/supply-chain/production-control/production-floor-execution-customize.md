@@ -1,6 +1,6 @@
 ---
 title: Sérsníða viðmót fyrir framkvæmd á framleiðslugólfi
-description: Þessi grein útskýrir hvernig á að framlengja núverandi eyðublöð eða búa til ný eyðublöð og hnappa fyrir framkvæmdarviðmót framleiðslugólfs.
+description: Þessi grein útskýrir hvernig á að stækka núverandi skjámyndir eða búa til nýjar skjámyndir fyrir keyrsluviðmót framleiðslugólfs.
 author: johanhoffmann
 ms.date: 05/04/2022
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2021-11-08
 ms.dyn365.ops.version: 10.0.25
 ms.openlocfilehash: 13fa6c2f3c30a820585d1b5a758f57ec563664d1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8845983"
@@ -23,41 +23,41 @@ ms.locfileid: "8845983"
 
 [!include [banner](../includes/banner.md)]
 
-Hönnuðir geta framlengt núverandi eyðublöð eða búið til sín eigin eyðublöð og hnappa fyrir framkvæmdarviðmót framleiðslugólfsins. Eftir að þú hefur bætt kóðanum fyrir þessa nýju þætti geta stjórnendur eða verslunarstjórar auðveldlega bætt þeim við viðmótið með því að nota staðlaðar stillingarstýringar.
+Hönnuðir geta framlengt núverandi form eða búið til eigin form og hnappa fyrir viðmót fyrir framkvæmd á framleiðslugólfi. Eftir að þú hefur bætt kóðanum fyrir þessa nýju þætti geta stjórnendur eða stjórnendur í vinnusal auðveldlega bætt þeim við viðmótið með því að nota hefðbundnar stillingarstýringar.
 
-Hér eru til dæmis nokkrar mögulegar lausnir ef þörf er á nýjum dálkum í aðalformi:
+Hér eru t.d. nokkrar mögulegar lausnir ef þörf er á nýjum dálkum á aðalformi:
 
-- Framlengdu`JmgProductionFloorExecutionMainGrid` eyðublað og bættu við reitunum sem þú vilt.
-- Búðu til nýtt eyðublað og bættu því við sem nýjum aðalskjá (flipi).
+- Lengja `JmgProductionFloorExecutionMainGrid` formið og bæta við reitum sem óskað er eftir.
+- Búa til nýtt form og bæta því við sem nýju yfirliti (flipa).
 
 ## <a name="add-a-new-button-action"></a>Bæta við nýjum hnappi (aðgerð)
 
-Til að bæta við nýjum hnappi (aðgerð) skaltu fylgja þessum skrefum til að búa til flokk sem útfærir sérsniðna aðgerð þína.
+Til að bæta við nýjum hnappi (aðgerð) skal fylgja þessum skrefum til að búa til klasa sem innleiðir sérsniðnu aðgerðina þína.
 
-1. Búðu til nýjan flokk sem heitir`<ExtensionPrefix>_JmgProductionFloorExecution<ActionName>Action`, hvar:
+1. Búðu til nýjan flokk sem heitir `<ExtensionPrefix>_JmgProductionFloorExecution<ActionName>Action`, þar sem:
 
-    - `<ExtensionPrefix>` auðkennir lausnina þína einstaklega, venjulega með því að nota nafn fyrirtækis þíns.
-    - `<ActionName>` er einstakt nafn fyrir bekkinn. Það auðkennir venjulega tegund aðgerða.
+    - `<ExtensionPrefix>` auðkennir lausnina þína á einkvæman hátt, yfirleitt með því að nota heiti fyrirtækis þíns.
+    - `<ActionName>` er einstakt heiti fyrir flokkinn. Það greinir yfirleitt hvers konar aðgerðir.
 
-1. Nýi flokkurinn verður að lengja`JmgProductionFloorExecutionAction` bekk.
-1. Hneka allar nauðsynlegar aðferðir.
+1. Nýi flokkurinn verður að lengja `JmgProductionFloorExecutionAction` flokkinn.
+1. Hunsa allar nauðsynlegar aðferðir.
 
-Fyrir dæmi, skoðaðu kóðann fyrir eftirfarandi flokka:
+Til dæmis skaltu skoða kóðann fyrir eftirfarandi flokka:
 
-- `JmgProductionFloorExecutionBreakAction`– Flokkur fyrir einfalda aðgerð sem þarfnast engar skrár.
-- `JmgProductionFloorExecutionReportFeedbackAction`– Klassi sem veitir flóknari virkni.
+- `JmgProductionFloorExecutionBreakAction` – Flokkur fyrir einfalda aðgerð sem þarfnast engra skráa.
+- `JmgProductionFloorExecutionReportFeedbackAction` – Flokkur sem veitir flóknari virkni.
 
-Þegar þú ert búinn verður nýi hnappurinn (aðgerðin) sjálfkrafa skráður á **Hönnunarflipar** síðu í Microsoft Dynamics 365 Supply Chain Management. Þar getur þú (eða stjórnandi eða gólfstjóri) auðveldlega bætt því við aðal- eða aukatækjastikuna, rétt eins og þú getur bætt við stöðluðum hnöppum. Fyrir leiðbeiningar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md).
+Að því loknu verður nýi hnappurinn (aðgerð) sjálfkrafa birtur á síðunni **Hönnunarflipar** í Microsoft Dynamics 365 Supply Chain Management. Þar getur þú (eða stjórnandi eða yfirmaður á gólfi) auðveldlega bætt honum við aðal- eða aukatækjastiku, rétt eins og hægt er að bæta við stöðluðum hnöppum. Frekari leiðbeiningar er að finna í [Hanna keyrsluviðmót framleiðslugólfs](production-floor-execution-tabs.md).
 
-## <a name="add-a-new-main-view"></a>Bættu við nýjum aðalskjá
+## <a name="add-a-new-main-view"></a>Bæta við nýrri aðalsýn
 
-1. Búðu til nýtt eyðublað sem hefur viðeigandi þætti og virkni. Athugaðu að þetta eyðublað er nýtt eyðublað, ekki viðbót. Nefndu formið`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`, hvar:
+1. Búa til nýtt form sem hefur þá þætti og virkni sem óskað er eftir. Hafðu í huga að þetta eyðublað er nýtt eyðublað, ekki framlenging. Heiti forms `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`, þar sem:
 
-    - `<ExtensionPrefix>` auðkennir lausnina þína einstaklega, venjulega með því að nota nafn fyrirtækis þíns.
+    - `<ExtensionPrefix>` auðkennir lausnina þína á einkvæman hátt, yfirleitt með því að nota heiti fyrirtækis þíns.
     - `<FormName>` er einstakt heiti á forminu.
 
-1. Búðu til valmyndaratriði sem er nefnt `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`.
-1. Búðu til viðbót sem er nefnd`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, þar sem`getMainMenuItemsList` aðferð er framlengd með því að bæta nýja valmyndaratriðinu við listann. Eftirfarandi kóði sýnir dæmi.
+1. Stofnið valmyndaratriði með heitinu `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>`.
+1. Búa til viðbót sem heitir`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, þar sem `getMainMenuItemsList` aðferðin er framlengd með því að bæta nýja valmyndarhlutnum við listann. Eftirfarandi kóði sýnir dæmi.
 
     ```xpp
     [ExtensionOf(classStr(JmgProductionFloorExecutionMenuItemProvider))]
@@ -70,25 +70,25 @@ Fyrir dæmi, skoðaðu kóðann fyrir eftirfarandi flokka:
         }
     ```
 
-Þegar þú ert búinn verður nýja aðalskjárinn sjálfkrafa skráður í **Aðalsýn** combo kassi á **Hönnunarflipar** síðu í Supply Chain Management. Þar getur þú (eða stjórnandi eða gólfstjóri) auðveldlega bætt því við nýja eða núverandi flipa, rétt eins og þú getur bætt við venjulegum aðalsýnum. Fyrir leiðbeiningar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md).
+Að því loknum verður nýja aðalyfirlitið sjálfkrafa sýnt í samsetta glugganum **Aðalyfirlit** á síðunni **Hönnunarflipar** í Supply Chain Management. Þar getur þú (eða stjórnandi eða yfirmaður á gólfi) auðveldlega bætt við nýjum eða fyrirliggjandi flipum, rétt eins og hægt er bæta við stöðluðum aðalyfirlitum. Frekari leiðbeiningar er að finna í [Hanna keyrsluviðmót framleiðslugólfs](production-floor-execution-tabs.md).
 
-## <a name="add-a-details-view"></a>Bættu við upplýsingaskjá
+## <a name="add-a-details-view"></a>Bæta við upplýsingaglugga
 
-1. Búðu til nýtt eyðublað sem hefur viðeigandi þætti og virkni. Athugaðu að þetta eyðublað er nýtt, ekki viðbót. Nefndu formið`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`, hvar: 
+1. Búa til nýtt form sem hefur þá þætti og virkni sem óskað er eftir. Hafðu í huga að þetta eyðublað er nýtt, ekki framlenging. Heiti forms `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`, þar sem: 
 
-    - `<ExtensionPrefix>` auðkennir lausnina þína einstaklega, venjulega með því að nota nafn fyrirtækis þíns.
+    - `<ExtensionPrefix>` auðkennir lausnina þína á einkvæman hátt, yfirleitt með því að nota heiti fyrirtækis þíns.
     - `<FormName>` er einstakt heiti á forminu.
 
-1. Búðu til valmyndaratriði sem er nefnt `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`.
-1. Búðu til viðbót sem er nefnd`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, þar sem`getDetailsMenuItemList` aðferð er framlengd með því að bæta nýja valmyndaratriðinu við listann.
+1. Stofnið valmyndaratriði með heitinu `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>Detail`.
+1. Búa til viðbót sem heitir`<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, þar sem `getDetailsMenuItemList` aðferðin er framlengd með því að bæta nýja valmyndarhlutnum við listann.
 
-Þegar þú ert búinn verður nýja upplýsingaskjárinn sjálfkrafa skráður í **Upplýsingar skoða** combo kassi á **Hönnunarflipar** síðu í Supply Chain Management. Þar getur þú (eða stjórnandi eða gólfstjóri) auðveldlega bætt því við nýja eða núverandi flipa, rétt eins og þú getur bætt við stöðluðum upplýsingasýnum. Fyrir leiðbeiningar, sjá [Hannaðu framkvæmdarviðmót framleiðslugólfsins](production-floor-execution-tabs.md).
+Að því loknum verður nýja aðalyfirlitið sjálfkrafa sýnt í samsetta glugganum **Upplýsingayfirlit** á síðunni **Hönnunarflipar** í Supply Chain Management. Þar getur þú (eða stjórnandi eða yfirmaður á gólfi) auðveldlega bætt því við nýja eða fyrirliggjandi flipa, rétt eins og hægt er að bæta við stöðluðum upplýsingayfirlitum. Frekari leiðbeiningar er að finna í [Hanna keyrsluviðmót framleiðslugólfs](production-floor-execution-tabs.md).
 
-## <a name="add-a-numeric-keypad-to-a-form-or-dialog"></a>Bættu talnatakkaborði við eyðublað eða glugga
+## <a name="add-a-numeric-keypad-to-a-form-or-dialog"></a>Bæta við talnaborði í glugga eða formi
 
-Eftirfarandi dæmi sýnir hvernig á að bæta tölutakkaborðum við eyðublað.
+Eftirfarandi dæmi sýnir hvernig á að bæta við talnalyklaborðum á eyðublað.
 
-1. Fjöldi talnatakkaborðsstýringa sem hvert eyðublað inniheldur verður að jafna fjölda talnatakkaborða á því formi.
+1. Fjöldi talnaborðsstýringa sem hver skjámynd inniheldur verður að vera jafn fjölda talnaborða í skjámyndinni.
 
     ```xpp
     private JmgProductionFloorExecutionNumpadController   numpadController1;
@@ -96,7 +96,7 @@ Eftirfarandi dæmi sýnir hvernig á að bæta tölutakkaborðum við eyðublað
     private JmgProductionFloorExecutionNumpadController   numpadController3;
     ```
 
-1. Settu upp hegðun hvers talnatakkaborðsstýringar og tengdu hvern talnatakkaborðsstýringu við talnatakkaborðshluta.
+1. Setja upp hegðun hverrar talnalyklaborðsstýringar og tengja hverja talnalyklaborðsstýringu við formhluta talnaborðs.
 
     ```xpp
     /// <summary>
@@ -116,9 +116,9 @@ Eftirfarandi dæmi sýnir hvernig á að bæta tölutakkaborðum við eyðublað
     }
     ```
 
-## <a name="use-a-numeric-keypad-as-a-pop-up-dialog"></a>Notaðu talnatakkaborð sem sprettiglugga
+## <a name="use-a-numeric-keypad-as-a-pop-up-dialog"></a>Nota talnaborð sem sprettiglugga
 
-Eftirfarandi dæmi sýnir eina leið til að setja upp talnatakkaborðsstýringu fyrir sprettiglugga.
+Eftirfarandi dæmi sýnir eina leið til að setja upp talnahnappastýringu fyrir sprettiglugga.
 
 ```xpp
 private void setupNumpadController()
@@ -129,7 +129,7 @@ private void setupNumpadController()
 }
 ```
 
-Eftirfarandi dæmi sýnir eina leið til að hringja í sprettigluggan talnaborðsins.
+Eftirfarandi dæmi sýnir eina leið til að kalla á sprettiglugga talnaborðsins.
 
 ```xpp
 Args args = new Args();
@@ -143,19 +143,19 @@ numpadController.setValueToNumpad(333.56);
 formRun.run();
 ```
 
-## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>Bættu dagsetningar- og tímastýringum við eyðublað eða glugga
+## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>Bæta við dagsetningu og for í glugga
 
-Þessi hluti sýnir hvernig á að bæta dagsetningar- og tímastýringum við eyðublað eða glugga. Snertivænu dagsetningar- og tímastýringarnar gera starfsmönnum kleift að tilgreina dagsetningar og tíma. Eftirfarandi skjámyndir sýna hvernig stýringarnar birtast venjulega á síðunni. Tímastýringin veitir bæði 12 tíma og 24 tíma útgáfur; útgáfan sem sýnd er mun fylgja forstillingunum fyrir notendareikninginn sem viðmótið er í gangi undir.
+Þessi hluti sýnir hvernig á að bæta dagsetningar- og tímastýringum við skjámynd eða svarglugga. Snertivænar stýringar fyrir dag og tíma gera starfskröftum kleift að tilgreina dagsetningar og tíma. Eftirfarandi skjámyndir sýna hvernig stjórntækin birtast yfirleitt á síðunni. Tímastýringin býður upp á bæði 12 tíma og 24 tíma útgáfur; birt útgáfa mun fylgja kjörstillingum fyrir notandareikninginn þar sem viðmótið er keyrt.
 
 ![Dæmi um dagsetningarstýringu.](media/pfe-customize-date-control.png "Dæmi um dagsetningarstýringu")
 
 ![Tímastýringardæmi með 12 tíma klukku.](media/pfe-customize-time-control-12h.png "Tímastýringardæmi með 12 tíma klukku")
 
-![Dæmi um tímastýringu með 24 tíma klukku.](media/pfe-customize-time-control-24h.png "Dæmi um tímastýringu með 24 tíma klukku")
+![Tímastýringardæmi með 24 tíma klukku.](media/pfe-customize-time-control-24h.png "Tímastýringardæmi með 24 tíma klukku")
 
-Eftirfarandi aðferð sýnir dæmi um hvernig á að bæta dagsetningar- og tímastýringum við eyðublað.
+Aðferðin sem notuð er hér á eftir sýnir dæmi um hvernig hægt er að bæta dagsetninga- og tímastýringum við eyðublað.
 
-1. Bættu stjórnanda við eyðublaðið fyrir hverja dagsetningar- og tímastýringu sem eyðublaðið ætti að innihalda. (Fjöldi stjórnenda verður að vera jöfn fjölda dagsetningar- og tímastýringa á eyðublaðinu.)
+1. Bætið stýringu við formið fyrir hverja stýringu dagsetningar og tíma sem formið ætti að innihalda. (Fjöldi stýringa verður að vera jafn og fjöldi dag- og tímastýringa á forminu.)
 
     ```xpp
     private JmgProductionFloorExecutionDateTimeController  dateFromController; 
@@ -164,14 +164,14 @@ Eftirfarandi aðferð sýnir dæmi um hvernig á að bæta dagsetningar- og tím
     private JmgProductionFloorExecutionDateTimeController  timeToController;
     ```
 
-1. Lýstu yfir nauðsynlegum breytum (af tegund`utcdatetime`).
+1. Lýsið nauðsynlegum breytum (af gerð `utcdatetime`).
 
     ```xpp
     private utcdatetime fromDateTime;
     private utcdatetime toDateTime;
     ```
 
-1. Búðu til aðferðir þar sem datetime verður uppfært af datetime stýringar. Eftirfarandi dæmi sýnir eina slíka aðferð.
+1. Búa til aðferðir þar sem gagnatíminn verður uppfærður af stýringum dagsetninga og díma. Eftirfarandi dæmi sýnir eina slíka aðferð.
 
     ```xpp
     private void setFromDateTime(utcdatetime _value)
@@ -180,7 +180,7 @@ Eftirfarandi aðferð sýnir dæmi um hvernig á að bæta dagsetningar- og tím
         }
     ```
 
-1. Settu upp hegðun hvers dagsetningarstýringar og tengdu hvern stjórnanda við formhluta. Eftirfarandi dæmi sýnir hvernig á að setja upp gögn fyrir dagsetningu-frá og tíma-frá stýringar. Þú gætir bætt við svipuðum kóða fyrir dagsetningar- og tímastillingar (ekki sýnt).
+1. Setja upp hegðun hvers gagnatímastjórnborðs og tengja hverja stýringu við formhluta. Eftirfarandi dæmi sýnir hvernig á að setja upp gögn fyrir dagsetningar og tíma frá stjórntækjum. Hægt er að bæta svipuðum kóða fyrir dagsetning-til og tími-til við stýringar (ekki sýnt).
 
     ```xpp
     /// <summary>
@@ -204,7 +204,7 @@ Eftirfarandi aðferð sýnir dæmi um hvernig á að bæta dagsetningar- og tím
     }
     ```
 
-    Ef allt sem þú þarft er dagsetningarstýring geturðu sleppt uppsetningu tímastýringar og í staðinn sett upp dagsetningarstýringu eins og sýnt er í eftirfarandi dæmi:
+    Ef þú þarft bara dagastýringu geturðu sleppt uppsetningu tímastýringar og sett upp dagastýringu eins og sýnt er í eftirfarandi dæmi:
 
     ```xpp
     {

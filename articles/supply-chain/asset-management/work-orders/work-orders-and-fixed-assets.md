@@ -1,6 +1,6 @@
 ---
 title: Verkbeiðnir og eignir
-description: Þessi grein útskýrir verkbeiðnir og fastafjármuni í eignastýringu.
+description: Þessi grein útskýrir verkbeiðnir og eignir í Eignastýringu.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: ed83450592d85205743c9ff1aefd0e66e5d2b90c
 ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/02/2022
 ms.locfileid: "9111989"
@@ -27,7 +27,7 @@ ms.locfileid: "9111989"
 [!include [banner](../../includes/banner.md)]
 
 
-Í eignastýringu geta eignir verið tengdar fastafjármunum og þú getur búið til verkbeiðnir fyrir þessar eignir. Ef þú notar þessa virkni geturðu fengið heildaryfirlit yfir fastafjármuni, tengd fjárfestingarverkefni og þann kostnað sem skráður er á fjárfestingarverkefnin í **Verkefnastjórnun og bókhald** og **Fastafjármunir** einingar í fjármála- og rekstraröppunum.
+Í eignastýringu geta eignir verið tengdar fastafjármunum og þú getur búið til verkbeiðnir fyrir þessar eignir. Ef þessi virkni er notuð er hægt að fá ítarlegt yfirlit yfir eignir, tengd fjárfestingarverk og kostnað sem er skráður á fjárfestingarverkin í einingunum **Verkefnastjórnun og bókhald** og **Eignir** í forritum fjármála- og reksturs.
 
 >[!NOTE]
 >Reiturinn **Númer eignar** í vinnslu verkbeiðni er aðeins stilltur ef **Fjárfesting** er valin sem verkgerð í verkbeiðnivinnslu.

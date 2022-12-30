@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c0aac9bf0f312052160b29be606ba587f2de0184
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9014667"
@@ -31,7 +31,7 @@ Hægt er að skrá sögu einingar innan þjónustuuppskriftar. Í hvert skipti s
 
 ## <a name="update-a-service-bom-element"></a>Uppfæra þjónustuuppskriftareiningu
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
+1.  Veljið **Þjónustustjórnun** \> **Þjónustusamningar** \> **þjónustusamningar**.
 
 2.  Smelltu á **Breyta** til að opna upplýsingaskjámyndina **Þjónustusamningar**.
 
@@ -52,7 +52,7 @@ Hægt er að skrá sögu einingar innan þjónustuuppskriftar. Í hvert skipti s
 
 ## <a name="delete-a-service-bom-line"></a>Eyða þjónustuuppskriftarlínu
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
+1.  Veljið **Þjónustustjórnun** \> **Þjónustusamningar** \> **þjónustusamningar**.
 
 2.  Smelltu á **Breyta** til að opna upplýsingaskjámyndina **Þjónustusamningar**.
 

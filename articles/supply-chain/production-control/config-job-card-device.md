@@ -1,6 +1,6 @@
 ---
 title: Skilgreina verkspjald fyrir tæki
-description: Þessi grein lýsir hinum ýmsu valkostum til að stilla vinnukortatækið.
+description: Í þessari grein er lýst ýmsum valkostum til að stilla verkspjaldstækið.
 author: johanhoffmann
 ms.date: 05/29/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
 ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
 ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/20/2022
 ms.locfileid: "9708618"
@@ -24,29 +24,29 @@ ms.locfileid: "9708618"
 
 [!include [banner](../includes/banner.md)]
 
-Verkspjaldstækið er notað af starfsmönnum í vinnusal til að skrá dagleg störf, t.d. hvenær störf hefjast, athugasemdir um störf tilkynntar, skráning afleiddra verkþátta og tilkynningar um fjarvistir. Þessar skráningar eru grundvöllur þess að fylgjast með framvindu og kostnaði framleiðslupantana og til að reikna út grunn fyrir laun starfsmanna. Þessi grein lýsir hinum ýmsu valkostum til að stilla vinnukortatæki.
+Verkspjaldstækið er notað af starfsmönnum í vinnusal til að skrá dagleg störf, t.d. hvenær störf hefjast, athugasemdir um störf tilkynntar, skráning afleiddra verkþátta og tilkynningar um fjarvistir. Þessar skráningar eru grundvöllur þess að fylgjast með framvindu og kostnaði framleiðslupantana og til að reikna út grunn fyrir laun starfsmanna. Í þessari grein er lýst ýmsum valkostum til að stilla verkspjaldstækin.
 
 ## <a name="enable-new-features-in-feature-management"></a>Virkja nýja eiginleika í eiginleikastjórnun
 
-Nokkrar af stillingunum sem lýst er í þessari grein verða að vera virkjaðar á kerfinu þínu áður en þær verða aðgengilegar þér. Notið síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að virkja einhverja eða alla eftirfarandi eiginleika eins og þörf krefur.
+Nokkrar af stillingunum sem lýst er í þessari grein verða að vera virkar í kerfinu áður en boðið er upp á þær. Notið síðuna [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að virkja einhverja eða alla eftirfarandi eiginleika eins og þörf krefur.
 
 ### <a name="generate-license-plate"></a>Mynda númeraplötu
 
 Til að gera þennan eiginleika tiltækan skal virkja eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (í röð):
 
-1. *Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið*<br>(Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management útgáfu 10.0.25 er þessi eiginleiki nauðsynlegur.)
-1. *Kveiktu á sjálfvirkri myndun á númeraplötunúmeri þegar tilkynnt er um lok í verkspjaldstækinu.*<br>(Frá og með Supply Chain Management útgáfu 10.0.25 er þessi eiginleiki nauðsynlegur.)
+1. *Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið*<br>(Sem hluti af Supply Chain Management, útgáfa 10.0.21, er sjálfgefið kveikt á þessum eiginleika. Sem hluti af Supply Chain Management, útgáfa 10.0.25, er þessi eiginleiki áskilinn.)
+1. *Kveiktu á sjálfvirkri myndun á númeraplötunúmeri þegar tilkynnt er um lok í verkspjaldstækinu.*<br>(Frá og með Supply Chain Management, útgáfa 10.0.25, er þessi eiginleiki áskilinn.)
 
 ### <a name="print-label"></a>Prenta merki
 
 Til að gera þennan eiginleika tiltækan skal virkja eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (í röð):
 
-1. *Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið*<br>(Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management útgáfu 10.0.25 er þessi eiginleiki nauðsynlegur.)
-1. *Prenta merki úr verkspjaldstæki*<br>(Frá og með Supply Chain Management útgáfu 10.0.25 er þessi eiginleiki nauðsynlegur.)
+1. *Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið*<br>(Sem hluti af Supply Chain Management, útgáfa 10.0.21, er sjálfgefið kveikt á þessum eiginleika. Sem hluti af Supply Chain Management, útgáfa 10.0.25, er þessi eiginleiki áskilinn.)
+1. *Prenta merki úr verkspjaldstæki*<br>(Frá og með Supply Chain Management, útgáfa 10.0.25, er þessi eiginleiki áskilinn.)
 
 ### <a name="allow-locking-of-touch-screen"></a>Leyfa læsingu á snertiskjá
 
-Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Eiginleiki til að læsa vinnukortabúnaði og vinnukortastöð svo hægt sé að hreinsa þau* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Sem hluti af Supply Chain Management, útgáfa 10.0.21, er sjálfgefið kveikt á þessum eiginleika. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Til að læsa vinnsluspjaldstæki og afgreiðslustöð svo hægt sé að hreinsa tækin* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="manage-your-device-configurations"></a>Umsjón með tækjaskilgreiningum
 
@@ -73,7 +73,7 @@ Flýtiflipinn **Almennt** gerir þér kleift að skilgreina sérhvern valkost se
 - **Tilfangaflokkur** - Veljið tilfangaflokk sem á að nota sem sjálfgefið síuskilyrði fyrir lista yfir verk sem eru sýnd hverjum starfsmanni. Aðeins verk sem eru áætluð í tilföngum sem flokkuð eru undir völdum tilfangaflokki birtast upphaflega í tækinu. Ef **Leyfa starfsmönnum að stilla persónulegar síur** er virkjað, geta starfsmenn breytt þessu gildi, annars á þessi sía alltaf við þegar þessi tækjaskilgreining er virk.
 - **Tilfang** - Veljið tilfang sem á að nota sem sjálfgefið síuskilyrði fyrir lista yfir verk sem eru sýnd hverjum starfsmanni. Aðeins verk sem eru áætluð í völdu tilfangi birtast upphaflega í tækinu. Ef **Leyfa starfsmönnum að stilla persónulegar síur** er virkjað, geta starfsmenn breytt þessu gildi, annars á þessi sía alltaf við þegar þessi tækjaskilgreining er virk.
 - **Mynda númeraplötu** - Stillið þennan valkost á **Já** til að mynda nýja númeraplötu í hvert sinn sem starfsmaður notar verkspjaldstækið til að skrá sem lokið. Númeraplötunúmerið er myndað úr númeraröð sem er sett upp á síðunni **Færibreytur vöruhúsakerfis**. Þegar stillt er á **Nei** verða starfsmenn að tilgreina fyrirliggjandi númeraplötu þegar skráð sem lokið.
-- **Prenta merki** - Stillið þennan valkost á **Já** til að prenta nýja númeraplötumerki í hvert sinn sem starfsmaður notar verkspjaldstækið til að skrá sem lokið. Uppsetning merkisins er sett upp í skjalaleiðingu, eins og lýst er í [Uppsetning skjalaleiðarmerkja](../warehousing/document-routing-layout-for-license-plates.md).
+- **Prenta merki** - Stillið þennan valkost á **Já** til að prenta nýja númeraplötumerki í hvert sinn sem starfsmaður notar verkspjaldstækið til að skrá sem lokið. Skilgreining merkisins er sett upp í skjalaleið, eins og lýst er í [Útlit merkimiða skjalasendinga](../warehousing/document-routing-layout-for-license-plates.md).
 
 <a name="assigned-users"></a>
 

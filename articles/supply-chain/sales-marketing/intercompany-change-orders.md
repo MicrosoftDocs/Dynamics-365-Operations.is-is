@@ -1,6 +1,6 @@
 ---
 title: Breyta pöntunum innan samstæðu
-description: Þessi grein útskýrir breytta virkni pantana innan fyrirtækja
+description: Þessi grein útskýrir hvernig á að breyta pöntunarvirkni innan samstæðu
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
 ms.openlocfilehash: f139678fbb59b9132ece1ab758e141ec7cdb7a19
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8852187"

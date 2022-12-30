@@ -1,6 +1,6 @@
 ---
 title: Áætluð keyrsla
-description: Þessi grein útskýrir áætlaða framkvæmd í eignastýringu.
+description: Þessi grein útskýrir áætlaðar keyrslur í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 5e9d6af5c224f683481378da57708fda3c1b7207
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8848050"

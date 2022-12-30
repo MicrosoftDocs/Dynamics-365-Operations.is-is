@@ -1,6 +1,6 @@
 ---
 title: Hópar fyrir stjórnun eftirágreidds afsláttar
-description: Þessi grein lýsir því hvernig á að setja upp afsláttarstjórnunarhópa. Hægt er að nota hópa fyrir stjórnun eftirágreidds afsláttar í útreikningum eftirágreidds afsláttar og hengja þá við aðalfærslu.
+description: Þessi grein lýsir því hvernig á að setja upp hópa fyrir stjórnun eftirágreidds afsláttar. Hægt er að nota hópa fyrir stjórnun eftirágreidds afsláttar í útreikningum eftirágreidds afsláttar og hengja þá við aðalfærslu.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: 2b948e994783d6ec6f00b77d12bd2594a29f6512
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8851537"

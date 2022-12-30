@@ -1,6 +1,6 @@
 ---
 title: Vinnureglur
-description: Þessi grein útskýrir hvernig á að setja upp vinnustefnur.
+description: Í þessari grein er útskýrt hvernig á að setja upp vinnureglur.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 7637ef908ffa6e79f81e4ecfb8afac4e3e3fed26
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8855849"
@@ -24,7 +24,7 @@ ms.locfileid: "8855849"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp kerfið og vöruhússtjórnun farsímaforritið þannig að þau styðji vinnustefnur. Hægt er að nota þessa virkni til að skrá birgðir á fljótlegan hátt án þess að stofna frágangsvinnu þegar tekið er á móti innkaupa- eða flutningspöntun, eða þegar lokið er við framleiðsluferla. Þessi grein veitir almennar upplýsingar. Ítarlegar upplýsingar sem tengjast móttöku á númeraplötu er að finna í [Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis](warehousing-mobile-device-app-license-plate-receiving.md).
+Þessi grein útskýrir hvernig á að setja upp kerfið og farsímaforrit vöruhúsakerfis þannig að þau styðji vinnureglur. Hægt er að nota þessa virkni til að skrá birgðir á fljótlegan hátt án þess að stofna frágangsvinnu þegar tekið er á móti innkaupa- eða flutningspöntun, eða þegar lokið er við framleiðsluferla. Þessi grein veitir almennar upplýsingar. Ítarlegar upplýsingar sem tengjast móttöku á númeraplötu er að finna í [Móttaka númeraplötu í gegnum farsímaforrit vöruhúsakerfis](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Vinnuregla stjórnar því hvort vöruhúsavinna sé stofnuð þegar framleidd vara er tilkynnt sem lokið eða þegar tekið er á móti vörum með því að nota farsímaforrit vöruhúsakerfis. Setja skal upp hverja vinnureglu með því að skilgreina skilyrðin þar sem það á við: gerðir verkbeiðna og ferlar, birgðastaðsetningar og (valfrjálst) afurðirnar. Til dæmis þarf að móttaka innkaupapöntun fyrir afurð *A0001* á staðsetningu *RECV* í vöruhúsi *24*. Síðar er afurðin notuð í öðru ferli á staðsetningu *RECV*. Í slíku tilfelli er hægt að setja upp vinnureglu til að koma í veg fyrir að frágangsvinna verði stofnuð þegar starfsmaður tilkynnir afurð *A0001* sem móttekna á staðsetningu *RECV*.
 
@@ -35,7 +35,7 @@ Vinnuregla stjórnar því hvort vöruhúsavinna sé stofnuð þegar framleidd v
 
 ## <a name="activate-the-features-in-your-system"></a>Gera eiginleikana virka í kerfinu
 
-Til að gera alla þá virkni sem lýst er í þessari grein aðgengileg í kerfinu þínu skaltu kveikja á eftirfarandi tveimur eiginleikum í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Til að bjóða upp á alla þá virkni sem lýst er í þessari grein í kerfinu, skal kveikja á eftirfarandi tveimur eiginleikum í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Viðbætur við móttöku á númeraplötu
 - Endurbætur á vinnureglu fyrir vinnu á innleið

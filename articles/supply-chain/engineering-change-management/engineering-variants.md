@@ -1,6 +1,6 @@
 ---
 title: Búa til afbrigði fyrir hönnunarafurðir
-description: Þessi grein lýsir því hvernig á að búa til afbrigði fyrir verkfræðivörur
+description: Þessi grein lýsir hvernig á að búa til afbrigði fyrir hönnunarafurðir.
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: 08feb66dedfa79f5a21a7723a22f3bef883431e6
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8870754"
@@ -21,11 +21,11 @@ ms.locfileid: "8870754"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að búa til afbrigði fyrir verkfræðivörur.
+Þessi grein lýsir hvernig á að búa til afbrigði fyrir hönnunarafurðir.
 
-## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Kveiktu eða slökktu á framleiðslu afbrigða fyrir verkfræðivörur
+## <a name="turn-variant-generation-for-engineering-products-on-or-off"></a>Kveikja eða slökkva á mynd afbrigðis fyrir hönnunarafurðir
 
-Virknin sem lýst er í þessari grein krefst þess að bæði *Verkfræðibreytingastjórnun* og *Afbrigði kynslóð fyrir verkfræðivörur* kveikt er á eiginleikum fyrir kerfið þitt. Fyrir upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum, sjá [Yfirlit yfir verkfræðibreytingastjórnun](product-engineering-overview.md).
+Virkninni sem lýst er í þessari grein krefst þess að kveikt sé á báðum eiginleikunum *Umsjón hönnunarbreytinga* og *Afbrigði útbúið fyrir hönnunarafurðir* fyrir kerfið. Frekari upplýsingar um hvernig á að kveikja eða slökkva á þessum eiginleikum er að finna í [Yfirlit yfir umsjón hönnunarbreytinga](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Búa til eitt eða fleiri ný afbrigði af hönnunarafurð
 

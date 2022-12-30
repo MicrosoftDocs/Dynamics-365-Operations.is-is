@@ -1,6 +1,6 @@
 ---
 title: Stofna innkaupapöntun með afhendingaráætlun
-description: Þessi grein sýnir hvernig á að búa til afhendingaráætlun fyrir innkaupapöntun.
+description: Þessi grein sýnir hvernig á að stofna afhendingaráætlun fyrir innkaupapöntun.
 author: GalynaFedorova
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e13103f374be838a5ea0fb5e08c449b419905cab
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8875247"
@@ -24,7 +24,7 @@ ms.locfileid: "8875247"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein sýnir hvernig á að búa til afhendingaráætlun fyrir innkaupapöntun. Afhendingaráætlun er notaður þegar magn í pöntun eða færslubók er beðið um að sé afhent í margar sendingar. Dæmi sem eru sýnd í þessari handbók er hægt að nota sýnigögn USMF-fyrirtækisins. Þetta ferli myndi yfirleitt gert af innkaupaaðila.
+Þessi grein sýnir hvernig á að stofna afhendingaráætlun fyrir innkaupapöntun. Afhendingaráætlun er notaður þegar magn í pöntun eða færslubók er beðið um að sé afhent í margar sendingar. Dæmi sem eru sýnd í þessari handbók er hægt að nota sýnigögn USMF-fyrirtækisins. Þetta ferli myndi yfirleitt gert af innkaupaaðila.
 
 ## <a name="create-a-delivery-schedule"></a>Stofna afhendingaráætlun
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Innkaup og aðföng > Innkaupapantanir > Allar innkaupapantanir**.

@@ -1,6 +1,6 @@
 ---
 title: Skrá efnisnotkun með fartæki
-description: Þessi grein lýsir verkflæði sem gerir skráningu á hráefnisnotkun í framleiðslu með því að nota handfesta tæki.
+description: Þessi grein útskýrir verkflæði sem virkjar skráningu á hráefnisnotkun í framleiðslu með því að nota lófatæki.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1e1dbc399eb06d1049950bbdd755b479ef275563
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8849243"
@@ -26,7 +26,7 @@ ms.locfileid: "8849243"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir verkflæði sem gerir skráningu á hráefnisnotkun í framleiðslu með því að nota handfesta tæki.
+Þessi grein útskýrir verkflæði sem virkjar skráningu á hráefnisnotkun í framleiðslu með því að nota lófatæki.
 
 ## <a name="introduction"></a>Inngangur
 

@@ -1,6 +1,6 @@
 ---
 title: Reikningaeiningar lánardrottins
-description: Þessi grein veitir upplýsingar um reikningseiningar lánardrottins, sem gera kleift að stilla kostnaðartegundakóða fyrir innri kostnað eða kostnað sem er afleiddur að utan.
+description: Í þessari grein er að finna upplýsingar um einingar lánardrottnareikninga sem gera kleift að skilgreina kóða kostnaðargerðar fyrir innri kostnað eða ytri afleiddan kostnað.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
 ms.openlocfilehash: f0371cf9862afaf3bc43a44def725c420e9aaf56
 ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/15/2022
 ms.locfileid: "9166744"
@@ -22,119 +22,119 @@ ms.locfileid: "9166744"
 
 [!include [banner](../includes/banner.md)]
 
-The **Landaður kostnaður** eining gerir kleift að stilla kostnaðartegundarkóða fyrir innri kostnað eða kostnað sem er afleiddur að utan. Ef kostnaður er utan fyrirtækis er gert ráð fyrir reikningi frá þjónustuveitanda. Þessi reikningur er unninn sem reikningsbók sem hægt er að tengja við ferð og hægt er að dreifa verðmæti reikningsins á einn eða fleiri kostnað við ferðina.
+Einingin **Heildarkostnaður** gerir kleift að skilgreina kóða kostnaðargerðar fyrir innri kostnað eða ytri afleiddan kostnað. Ef kostnaður er utanaðkomandi fyrir fyrirtæki er reikningur væntanlegur frá þjónustuveitunni. Unnið er úr þessum reikningi sem reikningabók sem hægt er að tengja við ferð og virði reikningsins er hægt að dreifa yfir einn eða fleiri kostnaði vegna ferðarinnar.
 
-Reikningseiningar lánardrottins gera kleift að úthluta verðmæti færslubókarlínu yfir einn eða fleiri kostnað í ferð sem deila sama kostnaðartegundarkóða.
+Einingar lánardrottnareikninga gera kleift að úthluta virðinu í færslubókarlínu á einn eða fleiri kostnaði vegna ferðar sem deilir sama kóða kostnaðargerðar.
 
-Kostnaði er aðeins hægt að úthluta ef haus reikningsbókar og reikningsbókarlínur eru til.
+Kostnaðaráætlun er aðeins hægt að úthluta ef haus reikningabókar og línur reikningabókar eru til staðar.
 
-## <a name="vendor-voyage-cost-allocations-itmledgerjournalcostlinesvoyagesentity"></a>Úthlutun ferðakostnaðar söluaðila (ITMLedgerJournalCostLinesVoyagesEntity)
+## <a name="vendor-voyage-cost-allocations-itmledgerjournalcostlinesvoyagesentity"></a>Kostnaðarúthlutanir vegna ferðar lánardrottins (ITMLedgerJournalCostLinesVoyagesEntity)
 
-Gagnaeiningin um úthlutun ferðakostnaðar lánardrottins gerir kleift að úthluta reikningslínu lánardrottins á einn eða fleiri kostnað sem er notaður á ferðakostnaðarsvæðið. Þessi virkni er studd af`ITMLedgerJournalCostLinesVoyagesEntity` aðila. Eftirfarandi tafla sýnir reiti og vörp sem mynda þessa einingu.
-
-| Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
-|---|---|---|---|---|
-| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Númeric(32, 6) | Nr. | Nr. |
-| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar (20) | **Já** | Nr. |
-| Ferð | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar (20) | **Já** | Nr. |
-
-## <a name="vendor-shipping-container-cost-allocations-itmledgerjournalcostlinescontainersentity"></a>Sendingargámakostnaðarúthlutun seljanda (ITMLedgerJournalCostLinesContainersEntity)
-
-Gagnaeiningin um úthlutun flutningsgámakostnaðar lánardrottins gerir kleift að úthluta reikningslínu lánardrottins á einn eða fleiri kostnað sem er notaður á kostnaðarsvæði sendingargáma. Þessi virkni er studd af`ITMLedgerJournalCostLinesContainersEntity` aðila. Eftirfarandi tafla sýnir reiti og vörp sem mynda þessa einingu.
+Gagnaeining fyrir kostnaðarúthlutanir vegna ferðar lánardrottins gerir kleift að úthluta línum lánardrottnareiknings á einn eða fleiri kostnaði sem eru notaðir á kostnaðarþátt ferðar. Þessi virkni er studd af `ITMLedgerJournalCostLinesVoyagesEntity`-einingunni. Eftirfarandi tafla sýnir reitina og vörpun sem mynda þessa einingu.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
-| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Númeric(32, 6) | Nr. | Nr. |
-| Gámur | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar (20) | **Já** | Nr. |
-| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar (20) | **Já** | Nr. |
-| Ferð | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar (20) | **Já** | Nr. |
+| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Tölustafir(32; 6) | Nr. | Nr. |
+| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar(20) | **Já** | Nr. |
+| Ferð | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar(20) | **Já** | Nr. |
 
-## <a name="vendor-folio-cost-allocations-itmledgerjournalcostlinesfoliosentity"></a>Kostnaðarúthlutun seljanda (ITMLedgerJournalCostLinesFoliosEntity)
+## <a name="vendor-shipping-container-cost-allocations-itmledgerjournalcostlinescontainersentity"></a>Kostnaðarúthlutanir á flutningsgámum lánardrottins (ITMLedgerJournalCostLinesContainersEntity)
 
-Gagnaeining lánardrottins kostnaðarúthlutunar gerir kleift að úthluta reikningslínu lánardrottins á einn eða fleiri kostnað sem er notaður á kostnaðarsvæðið blaðsíðu. Þessi virkni er studd af`ITMLedgerJournalCostLinesFoliosEntity` aðila. Eftirfarandi tafla sýnir reiti og vörp sem mynda þessa einingu.
-
-| Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
-|---|---|---|---|---|
-| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Númeric(32, 6) | Nr. | Nr. |
-| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Fólíó | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar (20) | **Já** | Nr. |
-| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar (20) | **Já** | Nr. |
-
-## <a name="vendor-purchase-order-cost-allocations-itmledgerjournalcostlinespurchtableentity"></a>Úthlutun kostnaðar innkaupapöntunar lánardrottins (ITMLedgerJournalCostLinesPurchTableEntity)
-
-Gagnaeiningin um úthlutun kostnaðar innkaupapöntunar lánardrottins gerir kleift að úthluta reikningslínu lánardrottins á einn eða fleiri kostnað sem er notaður á kostnaðarsvæði innkaupapöntunar. Þessi virkni er studd af`ITMLedgerJournalCostLinesPurchTableEntity` aðila. Eftirfarandi tafla sýnir reiti og vörp sem mynda þessa einingu.
+Gagnaeining fyrir kostnaðarúthlutanir á flutningsgámum lánardrottins gerir kleift að úthluta línum lánardrottnareiknings á einn eða fleiri kostnaði sem eru notaðir á kostnaðarþátt flutningsgáms. Þessi virkni er studd af `ITMLedgerJournalCostLinesContainersEntity`-einingunni. Eftirfarandi tafla sýnir reitina og vörpun sem mynda þessa einingu.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
-| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Númeric(32, 6) | Nr. | Nr. |
-| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar (20) | **Já** | Nr. |
-| Innkaupapöntun | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar (20) | **Já** | Nr. |
+| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Tölustafir(32; 6) | Nr. | Nr. |
+| Gámur | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar(20) | **Já** | Nr. |
+| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar(20) | **Já** | Nr. |
+| Ferð | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar(20) | **Já** | Nr. |
 
-## <a name="vendor-item-cost-allocations-itmledgerjournalcostlinespurchlineentity"></a>Kostnaðarúthlutun söluaðila (ITMLedgerJournalCostLinesPurchLineEntity)
+## <a name="vendor-folio-cost-allocations-itmledgerjournalcostlinesfoliosentity"></a>Kostnaðarúthlutanir lánardrottnafólíó (ITMLedgerJournalCostLinesFoliosEntity)
 
-Gagnaeining kostnaðarúthlutunar lánardrottins gerir kleift að úthluta reikningslínu lánardrottins á einn eða fleiri kostnað sem er notaður á vörukostnaðarsvæðið. Kostnaðarsvæði vöru nær yfir kostnað á innkaupapöntunarlínunni. Þessi virkni er studd af`ITMLedgerJournalCostLinesPurchLineEntity` aðila. Eftirfarandi tafla sýnir reiti og vörp sem mynda þessa einingu.
-
-| Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
-|---|---|---|---|---|
-| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Númeric(32, 6) | Nr. | Nr. |
-| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar (20) | **Já** | Nr. |
-| Innkaupapöntun | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar (20) | **Já** | Nr. |
-| Númer innkaupapöntunarlínu | ITMLedgerJournalCostLines.CostTransRefRecId | Númeric(32, 16) | **Já** | Nr. |
-
-## <a name="vendor-transfer-order-line-cost-allocations-itmledgerjournalcostlinestransferlineentity"></a>Úthlutun kostnaðarlínu fyrir millifærslu lánardrottins (ITMLedgerJournalCostLinesTransferLineEntity)
-
-Gagnaeiningin fyrir kostnaðarúthlutun millifærslupöntunar lánardrottins gerir kleift að úthluta reikningslínu lánardrottins á einn eða fleiri kostnað sem er notaður á kostnaðarsvæði millifærslulínunnar. Þessi virkni er studd af`ITMLedgerJournalCostLinesTransferLineEntity` aðila. Eftirfarandi tafla sýnir reiti og vörp sem mynda þessa einingu.
+Gagnaeining fyrir kostnaðarúthlutanir á fólíói lánardrottins gerir kleift að úthluta línum lánardrottnareiknings á einn eða fleiri kostnaði sem eru notaðir á kostnaðarþátt fólíós. Þessi virkni er studd af `ITMLedgerJournalCostLinesFoliosEntity`-einingunni. Eftirfarandi tafla sýnir reitina og vörpun sem mynda þessa einingu.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
-| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Númeric(32, 6) | Nr. | Nr. |
-| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Númeric(32, 16) | **Já** | Nr. |
-| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar (20) | **Já** | Nr. |
-| Flutningspöntun | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar (20) | **Já** | Nr. |
-| Flytja pöntunarlínunúmer | ITMLedgerJournalCostLines.CostTransRefRecId | Númeric(32, 16) | **Já** | Nr. |
+| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Tölustafir(32; 6) | Nr. | Nr. |
+| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Fólíó | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar(20) | **Já** | Nr. |
+| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar(20) | **Já** | Nr. |
+
+## <a name="vendor-purchase-order-cost-allocations-itmledgerjournalcostlinespurchtableentity"></a>Kostnaðarúthlutanir vegna innkaupapöntunar lánardrottins (ITMLedgerJournalCostLinesPurchTableEntity)
+
+Gagnaeining fyrir kostnaðarúthlutanir á innkaupapöntun lánardrottins gerir kleift að úthluta línum lánardrottnareiknings á einn eða fleiri kostnaði sem eru notaðir á kostnaðarþátt innkaupapöntunar. Þessi virkni er studd af `ITMLedgerJournalCostLinesPurchTableEntity`-einingunni. Eftirfarandi tafla sýnir reitina og vörpun sem mynda þessa einingu.
+
+| Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
+|---|---|---|---|---|
+| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Tölustafir(32; 6) | Nr. | Nr. |
+| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar(20) | **Já** | Nr. |
+| Innkaupapöntun | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar(20) | **Já** | Nr. |
+
+## <a name="vendor-item-cost-allocations-itmledgerjournalcostlinespurchlineentity"></a>Kostnaðarúthlutanir á vöru lánardrottins (ITMLedgerJournalCostLinesPurchLineEntity)
+
+Gagnaeining fyrir kostnaðarúthlutanir á vöru lánardrottins gerir kleift að úthluta línum lánardrottnareiknings á einn eða fleiri kostnaði sem eru notaðir á kostnaðarþátt vöru. Kostnaðarsvæðið nær yfir kostnað á innkaupapöntunarlínunni. Þessi virkni er studd af `ITMLedgerJournalCostLinesPurchLineEntity`-einingunni. Eftirfarandi tafla sýnir reitina og vörpun sem mynda þessa einingu.
+
+| Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
+|---|---|---|---|---|
+| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Tölustafir(32; 6) | Nr. | Nr. |
+| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar(20) | **Já** | Nr. |
+| Innkaupapöntun | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar(20) | **Já** | Nr. |
+| Númer innkaupapöntunarlínu | ITMLedgerJournalCostLines.CostTransRefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+
+## <a name="vendor-transfer-order-line-cost-allocations-itmledgerjournalcostlinestransferlineentity"></a>Kostnaðarúthlutanir vegna flutningspöntunarlínu lánardrottins (ITMLedgerJournalCostLinesTransferLineEntity)
+
+Gagnaeining fyrir kostnaðarúthlutanir á flutningspöntunarlínu lánardrottins gerir kleift að úthluta línum lánardrottnareiknings á einn eða fleiri kostnaði sem eru notaðir á kostnaðarþátt flutningspöntunarlínu. Þessi virkni er studd af `ITMLedgerJournalCostLinesTransferLineEntity`-einingunni. Eftirfarandi tafla sýnir reitina og vörpun sem mynda þessa einingu.
+
+| Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
+|---|---|---|---|---|
+| Úthlutuð upphæð | ITMLedgerJournalCostLines.Amount | Tölustafir(32; 6) | Nr. | Nr. |
+| Línunúmer kostnaðarfærslu | ITMLedgerJournalCostLines.CostTransRefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Númer færslubókarlínu | ITMLedgerJournalCostLines.RefRecId | Tölustafir(32; 16) | **Já** | Nr. |
+| Færslubókarnúmer | ITMLedgerJournalCostLines.RefRecId | Nvarchar(20) | **Já** | Nr. |
+| Flutningspöntun | ITMLedgerJournalCostLines.CostTransRefRecId | Nvarchar(20) | **Já** | Nr. |
+| Númer flutningspöntunarlínu | ITMLedgerJournalCostLines.CostTransRefRecId | Tölustafir(32; 16) | **Já** | Nr. |
 
 ### <a name="reference-table"></a>Tilvísanatafla
 
-Ferðakostnaðarlínur hafa bein tengsl við kostnaðarfærsluskrá. Þessi skrá inniheldur **Auðkenni tilvísunartöflu** gildi. Þetta gildi er einstakt fyrir hvert kostnaðarsvæði (sigling, flutningsgámur og svo framvegis). Þegar vísað er til tiltekinna töflunúmera fyrir gögn sem eru búin til með því að nota gagnaeiningar, er einingunum skipt á grundvelli **Auðkenni tilvísunartöflu** gildi.
+Kostnaðarlínur ferðar tengjast skrá kostnaðarfærslu á beinan hátt. Þessi skrá inniheldur **Kenni tilvísunartöflu** gildi. Þetta gildi er einkvæmt fyrir hvern kostnaðarþátt (ferð, flutningsgámur og svo framvegis). Þegar vísað er í tiltekin töflunúmer fyrir gögn sem eru búin til með því að nota gagnaeiningar er einingunum skipt samkvæmt gildunum **Auðkenni tilvísanatöflu**.
 
-Gildin fyrir viðmiðunartöfluna (`RefTableId`) og tegund viðskipta (`TransType`) eru óbein í vali á annaðhvort landaða kostnaðarkaupalínu eða landaða kostnaðartilfærslulínu.
+Gildin fyrir viðmiðunartöfluna (`RefTableId`) og færslugerðina (`TransType`) eru sjálfgefin á annaðhvort í innkaupalínu heildarkostnaðar eða einingu flutningslínu heildarkostnaðar.
 
-## <a name="vendor-invoice-journal-lines-vendorinvoicejournallineentity"></a>Reikningsbókarlínur lánardrottins (VendorInvoiceJournalLineEntity)
+## <a name="vendor-invoice-journal-lines-vendorinvoicejournallineentity"></a>Línur reikningabókar lánardrottins (VendorInvoiceJournalLineEntity)
 
-Áður en hægt er að úthluta færslubókarlínugildi á einn eða fleiri kostnað í **Landaður kostnaður** mát, færslubókarlínan verður að vera tengd við kostnaðarsvæði. Til að styðja þessa virkni, er **Landaður kostnaður** mát bætir nokkrum nýjum reitum við töfluna færslubókarlínur (`LedgerJournalTrans`).
+Áður en hægt er að úthluta gildi færslubókarlínu á einn eða fleiri kostnaði í einingunni **Heildarkostnaður** verður færslubókarlínan að tengjast kostnaðarþætti. Til að styðja við þessa virkni bætir einingin **Heildarkostnaður** nokkrum nýjum reitum við töflu færslubókarlína (`LedgerJournalTrans`).
 
-### <a name="fields-added-to-the-vendor-invoice-journal-line-entity"></a>Reitum bætt við línueininguna reikningsbók lánardrottins
+### <a name="fields-added-to-the-vendor-invoice-journal-line-entity"></a>Reitum bætt við einingu reikningabókarlínu lánardrottins
 
-Eftirfarandi tafla sýnir reitina sem **Landaður kostnaður** eining bætist við línueininguna reikningsbók lánardrottins (`VendorInvoiceJournalLineEntity`). Þessir reitir gera kerfinu kleift að búa til færslubókarlínur og úthluta kostnaði á móti þeim.
+Eftirfarandi tafla sýnir reitina sem einingin **Heildarkostnaður** bætir við einingu reikningabókarlínu lánadrottins (`VendorInvoiceJournalLineEntity`). Þessir reitir gera kerfinu kleift að búa til færslubókarlínur og úthluta kostnaði á móti þeim.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
 | Kostnaðarsvæði | LedgerJournalTrans.ITMCostArea | Int | Nr. | Nr. |
-| Kostnaðargerðarkóði | LedgerJournalTrans.ITMCostTypeId | Nvarchar (20) | Nr. | Nr. |
+| Kostnaðargerðarkóði | LedgerJournalTrans.ITMCostTypeId | Nvarchar(20) | Nr. | Nr. |
 
-### <a name="mainoffset-account"></a>Aðal/jöfnunarreikningur
+### <a name="mainoffset-account"></a>Aðal/Mótlykill
 
-Aðal-/jöfnunarreikningur fyrir reikningsbókarlínu sem er tengd við landaða kostnaðarferð ræðst af kóða kostnaðartegundar. Þegar kostnaðartegundarkóði er innifalinn í reikningsbókarlínunni verður jöfnunarreikningur kóðans notaður sem annað hvort aðalreikningur eða mótreikningur, allt eftir atburðarásinni:
+Aðallykill/mótlykill fyrir reiknisdagbókarlínu sem er tengd við heildarkostnað ferðar ræðst af tegund kostnaðarkóða. Þegar kóði kostnaðargerðar er hafður með í línu reikningabókar verður millireikningur fyrir kóðann notaður sem annaðhvort aðallykill eða mótlykill eftir því hverjar aðstæðurnar eru:
 
-- **Einlínu dagbók** – Ef aðalreikningur (með öðrum orðum lánardrottinsreikningur) er skilgreindur og kostnaðartegundarkóði er gefinn upp, verður virðisaukareikningsgildi fyrir þann kostnaðartegundarkóða færð inn á mótreikninginn.
-- **Marglínu dagbók** – Ef aðalreikningur er ekki skilgreindur, en kostnaðartegundarkóði er gefinn upp, verður verðmæti jöfnunarreiknings fyrir þann kostnaðartegundarkóða fært inn á aðalreikninginn. Færslubókarlínan sem lánar lánardrottinn mun ekki vísa til kostnaðartegundarkóða.
+- **Færslubók með einni línu** – Ef aðallykill (þ.e. lánardrottnalykillinn) er skilgreindur og kóði kostnaðargerðar er gefinn upp verður gildi millireiknings fyrir þann kóða kostnaðargerðar fært inn í mótlykilinn.
+- **Færslubók með mörgum línum** – Ef aðallykill er ekki skilgreindur en kóði kostnaðargerðar er gefinn upp verður gildi millireiknings fyrir kóða kostnaðargerðar fært inn á aðallykilinn. Færslubókarlínan sem veitir lánardrottninum inneign mun ekki vísa í tegundarkóða kostnaðar.
 
 ## <a name="sequencing"></a>Röðun
 
-Vegna ósjálfstæðis milli færslubókar- og færslubókarlínatöflunnar verður að stofna ferðina fyrst. Aðeins er hægt að búa til ferðalínur eftir að ferðin, flutningsgámurinn og blöðin hafa verið búin til.
+Vegna tengsla á milli taflna færslubókar og færslubókarlína verður að stofna ferðafærsluna fyrst. Aðeins er hægt að búa til línur ferðar eftir að ferðin, gámurinn og fólíóin hafa verið búin til.
 
-Til að úthluta ferðareikningi verður kerfið að vinna einingarnar í eftirfarandi röð:
+Til að úthluta ferðareikningi verður kerfið að vinna úr einingum á eftirfarandi hátt:
 
-1. Haus reikningsbókar (`VendInvoiceJournalHeaderEntity`)
-1. Reikningsbókarlína (`VendInvoiceJournalLineEntity`)
-1. Landað kostnaðarúthlutun (`ITMLedgerJournalEntities`)
+1. Haus reikningabókar (`VendInvoiceJournalHeaderEntity`)
+1. Reikningabókarlína (`VendInvoiceJournalLineEntity`)
+1. Úthlutun heildarkostnaðar (`ITMLedgerJournalEntities`)

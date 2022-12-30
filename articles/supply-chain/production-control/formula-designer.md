@@ -1,6 +1,6 @@
 ---
 title: Formúluhönnuður
-description: Þessi grein útskýrir hvernig á að nota formúluhönnuðinn til að greina og viðhalda formúlum í tréyfirliti.
+description: Í þessari grein er útskýrt hvernig á að nota formúluhönnuðinn til að greina og viðhalda formúlum í trjáskipulagi.
 author: johanhoffmann
 ms.date: 06/01/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 247f41b43030d392df67275e6e7db1bea5df1847
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8849272"
@@ -27,7 +27,7 @@ ms.locfileid: "8849272"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að nota formúluhönnuðinn til að greina og viðhalda formúlum í tréyfirliti.
+Í þessari grein er útskýrt hvernig á að nota formúluhönnuðinn til að greina og viðhalda formúlum í trjáskipulagi.
 
 Þegar síðan **Reikniformúluhönnuður** er opnup af síðunni **Losaðar vörur** sýnir tréð á vinstri rúðunni lista yfir samafurðir og stigveldi innihaldsefna fyrir losaðar vörur. Skipanin er fengin úr stigveldi formúla sem eru virkar og samþykktar fyrir valda vöru og innihaldsefni hennar, sjálfgefið röðunarsvæði vörunnar og raunverulega dagsetningu.
 

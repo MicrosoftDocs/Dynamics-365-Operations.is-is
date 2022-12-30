@@ -1,6 +1,6 @@
 ---
 title: Yfirlit flutningsstjórnunar
-description: Þessi grein gefur yfirlit yfir virkni flutningsstjórnunar í Supply Chain Management.
+description: Í þessari grein er að finna yfirlit yfir Flutningar Stjórnun virkni í  Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8897459"
@@ -28,7 +28,7 @@ ms.locfileid: "8897459"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein gefur yfirlit yfir virkni flutningsstjórnunar í Supply Chain Management.
+Í þessari grein er að finna yfirlit yfir Flutningar Stjórnun virkni í  Supply Chain Management.
 
 Flutningsstjórnun leyfir þér að nota flutninga innan fyrirtækis þíns, og þekkja lausnir lánardrottna og leiðir fyrir pantanir á inn og útleið. Til dæmis er hægt að auðkenna hraðast leið eða ódýrast taxta fyrir sendingu. Eftirfarandi tafla lýsir helstu aðstæðum þar sem hægt er að nota flutningsstjórnun.
 

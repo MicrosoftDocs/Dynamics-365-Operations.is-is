@@ -1,6 +1,6 @@
 ---
-title: Uppsetningarhjálp fyrir aðalskipulag (inniheldur myndband)
-description: Þessi grein lýsir því hvernig á að keyra uppsetningarhjálp aðalskipulags til að setja upp aðalskipulagningu.
+title: Uppsetningarhjálp fyrir aðalskipulag (inniheldur myndskeið)
+description: Í þessari grein er því lýst hvernig á að keyra leiðsagnarforrit fyrir uppsetningu aðaláætlanagerðar til að setja upp aðaláætlanagerð.
 author: t-benebo
 ms.date: 10/21/2019
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: a53dfd02ac2f42fd680eb71509dbd41214160f19
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9066019"
@@ -27,11 +27,11 @@ ms.locfileid: "9066019"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir leiðbeiningar fyrir **Uppsetningarhjálp fyrir aðalskipulagningu**. Það útskýrir hvernig færibreytutillögur eru reiknaðar og einnig eru dæmi sem sýna hvernig mismunandi fyrirtæki setja upp aðalskipulagningu, byggt á viðskiptaþörf þeirra.
+Þessi grein gefur upp leiðbeiningar fyrir **Leiðsagnarforrit fyrir uppsetningu áætlanagerðar**. Það útskýrir hvernig færibreytutillögur eru reiknaðar og einnig eru dæmi sem sýna hvernig mismunandi fyrirtæki setja upp aðalskipulagningu, byggt á viðskiptaþörf þeirra.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-The [Uppsetningarhjálp fyrir aðalskipulagningu í Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) myndbandið (sýnt hér að ofan) er innifalið í [lagalista um fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) fáanleg á YouTube.
+Myndbandið [Leiðsagnarforrit fyrir uppsetningu áætlanagerðar í Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (sýnt hér að ofan) er innifalið í [spilunarlistum fjármála- og reksturs](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er í boði í YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Sérstakar kröfur fyrirtækisins

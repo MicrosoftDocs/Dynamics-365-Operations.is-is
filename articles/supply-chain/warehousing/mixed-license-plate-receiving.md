@@ -1,6 +1,6 @@
 ---
 title: Móttaka blandaðrar númeraplötu
-description: Þessi grein lýsir því hvernig á að nota blandaða númeraplötumóttöku til að skrá og búa til vinnu fyrir marga hluti með farsíma.
+description: Í þessari grein er lýst hvernig á að nota blandaða númeraplötu til að skrá og stofna vinnu fyrir margar vörur með fartæki.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 76ba316a5ed55902aed35acb4ef21623c7676b38
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8907059"

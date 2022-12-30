@@ -1,6 +1,6 @@
 ---
 title: Skilgreina starfsmann með fartæki
-description: Þessi grein útskýrir hvernig á að úthluta réttum hlutverkum á notandareikning starfsmanns og gera starfsmanninum síðan kleift að gera verkstæðisskráningar.
+description: Þessi grein sýnir hvernig á að úthluta rétt hlutverk notandareikningurinn starfsmanns og virkja síðan starfsmanns til að gera skráningu í vinnslusalarstjórnun.
 author: johanhoffmann
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3f6f51a66d49cafd172ba123bf883fb41cdcb5c3
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8844306"
@@ -25,7 +25,7 @@ ms.locfileid: "8844306"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að úthluta réttum hlutverkum á notandareikning starfsmanns og gera starfsmanninum síðan kleift að gera verkstæðisskráningar.
+Þessi grein sýnir hvernig á að úthluta rétt hlutverk notandareikningurinn starfsmanns og virkja síðan starfsmanns til að gera skráningu í vinnslusalarstjórnun.
 
 ## <a name="verify-that-a-worker-is-assigned-a-certain-role"></a>Gakktu úr skugga um að starfsmanni sé úthlutað ákveðið hlutverk
 

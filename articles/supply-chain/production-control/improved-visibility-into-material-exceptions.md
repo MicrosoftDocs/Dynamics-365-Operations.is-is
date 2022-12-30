@@ -1,6 +1,6 @@
 ---
 title: Innsýn í efnisundantekningar
-description: Þessi grein lýsir því hvernig þú getur fengið betri sýnileika í undantekningar fyrir hráefni fyrir framleiðslupantanir og lotupantanir.
+description: Þessi grein lýsir því hvernig hægt er að fá betri innsýn í hráefnisundantekningar fyrir framleiðslupantanir og runupantanir.
 author: johanhoffmann
 ms.date: 10/30/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: a7877743a9ebd98263bc5614c0015bf33d463832
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8863825"

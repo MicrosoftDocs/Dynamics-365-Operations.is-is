@@ -1,6 +1,6 @@
 ---
 title: Áætla verkbeiðni á ákveðnum degi og tíma
-description: Þessi grein útskýrir hvernig á að skipuleggja verkbeiðni á tiltekinni dagsetningu og tíma í eignastýringu.
+description: Í þessari grein er útskýrt hvernig á að áætla verkbeiðni á tiltekinni dagsetningu og tíma í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: e25d1c108e5cc90fcedc7e8f7e4bbc14052719f1
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015957"
@@ -30,7 +30,7 @@ ms.locfileid: "9015957"
 
 Ef þarf að skipuleggja verkbeiðni á tilteknum degi *og* tíma er hægt að hnekkja stöðluðu skipulagningarferli í Eignastjórnun og búa til tiltekna áætlun fyrir verkbeiðni.
 
-1. Smellur **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
+1. Smellið á **Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
 
 2. Í verkbeiðnilistanum skaltu smella á verkbeiðnikennið í dálkinum **Verkbeiðni**.
 

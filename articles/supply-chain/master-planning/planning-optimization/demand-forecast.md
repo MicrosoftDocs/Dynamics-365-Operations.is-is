@@ -1,6 +1,6 @@
 ---
 title: Aðaláætlanagerð með eftirspurnarspá
-description: Þessi grein útskýrir hvernig á að hafa eftirspurnarspár við aðalskipulagningu.
+description: Þessi grein útskýrir hvernig á að bæta við eftirspurnarspár við aðaláætlanagerð.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9739784"
@@ -27,7 +27,7 @@ ms.locfileid: "9739784"
 
 [!include [banner](../../includes/banner.md)]
 
-Þú getur notað eftirspurnarspá til að gera grein fyrir væntanlegri eftirspurn í aðalskipulagningu. Hægt er að stofna eftirspurnarspá handvirkt, flytja hana inn eða mynda hana með því að nota virkni eftirspurnarspár í Microsoft Dynamics 365 Supply Chain Management. Frekari upplýsingar um eftirspurnarspár er að finna í [Yfirlit eftirspurnarspár](../introduction-demand-forecasting.md).
+Hægt er að nota eftirspurnarspá til að gera grein fyrir væntanlegri eftirspurn í aðaláætlanagerð. Hægt er að stofna eftirspurnarspá handvirkt, flytja hana inn eða mynda hana með því að nota virkni eftirspurnarspár í Microsoft Dynamics 365 Supply Chain Management. Frekari upplýsingar um eftirspurnarspár er að finna í [Yfirlit eftirspurnarspár](../introduction-demand-forecasting.md).
 
 > [!NOTE]
 > Aðskilin spáráætlun er ekki studd í fínstillingu skipulagningar. Þess vegna hefur stillingin **Núgildandi spáráætlun** á síðunni **Færibreytur áætlanagerðar** engin áhrif þegar verið er að nota fínstillingu skipulagningar.
@@ -42,7 +42,7 @@ Til að skilgreina aðaláætlun þannig að hún feli í sér eftirspurnarspá 
 
     - **Spárlíkan** – Veljið spálíkanið sem á að nota. Þetta líkan verður tekið með þegar framboðstillögur eru myndaðar fyrir núverandi aðaláætlun.
     - **Taka með eftirspurnarspá** – Stillið þennan valkost á *Já* til að taka með eftirspurnarspá í gildandi aðaláætlun. Ef það er stillt á *Nei* eru eftirspurnarspárfærslur ekki teknar með í aðaláætluninni.
-    - **Aðferð sem er notuð til að minnka spárþarfir** -Veljið aðferðina sem á að nota til að minnka spárþarfir. Fyrir frekari upplýsingar, sjá [Spálækkunarlyklar](#reduction-keys) kafla síðar í þessari grein.
+    - **Aðferð sem er notuð til að minnka spárþarfir** -Veljið aðferðina sem á að nota til að minnka spárþarfir. Nánari upplýsingar eru í efnisþættinum [Minnkunarlyklar samkvæmt spá](#reduction-keys) síðar í þessari grein.
 
 1. Á flipanum **Tímamörk í dögum** er hægt að stilla eftirfarandi reiti til að tilgreina tímabilið sem eftirspurnarspáin er höfð með í:
 
@@ -50,7 +50,7 @@ Til að skilgreina aðaláætlun þannig að hún feli í sér eftirspurnarspá 
     - **Spátímatímabil** – Ef **Spáráætlun** valkosturinn er stilltur á *Já* skal tilgreina dagafjöldann (frá deginum í dag) sem á að nota eftirspurnarspá fyrir.
 
     > [!IMPORTANT]
-    > The **Spááætlun** stilling er ekki studd með áætlanagerð fínstillingu.
+    > Stillingin **Spáráætlun** er ekki enn studd í fínstillingu skipulagningar.
 
 ## <a name="set-up-a-coverage-group-to-include-a-demand-forecast"></a>Setja upp þekjuflokk með eftirspurnarspá
 
@@ -61,7 +61,7 @@ Til að skilgreina þekjuhóp þannig að hann feli í sér eftirspurnarspá ska
 1. Á flipanum **Annað** skal stilla eftirfarandi reiti.
 
     - **Tímamörk spáráætlunar** – Sláið inn dagafjöldann (frá deginum í dag) sem á að nota eftirspurnarspá fyrir. Hægt er að hnekkja þessu gildi með því að nota valkostinn **Spáráætlun** í aðaláætluninni, eins og lýst er í fyrri hluta.
-    - **Minnkunarlykill** – Veljið minnkunarlykilinn sem á að nota. Fyrir frekari upplýsingar, sjá [Búðu til og settu upp spálækkunarlykil](#create-reduction-key) og [Notaðu lækkunarlykil](#use-reduction-key) kafla síðar í þessari grein.
+    - **Minnkunarlykill** – Veljið minnkunarlykilinn sem á að nota. Frekari upplýsingar er að finna í skjámyndinni [Stofna og setja upp minnkunarlykil samkvæmt spá](#create-reduction-key) og [Nota minnkunarlykil](#use-reduction-key) hlutunum síðar í þessari grein.
     - **Lækka spá um** – Fyrir aðaláætlanir þar sem reiturinn **Aðferð notuð til að minnka þörf samkvæmt spá** er stilltur á *færslur - minnkunarlykill* eða *Færslur - breytilegt tímabil* skal tilgreina hvaða færslur eiga að draga úr spánni. Veljið eitt af eftirfarandi gildum:
 
         - **Allar færslur** – Allar færslur ættu að lækka spána.

@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d1e0fe6c1f49bc0f6887f1b29118c1fee7a6222f
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9739757"
@@ -64,13 +64,13 @@ Hægt er að nota eftirfarandi þekjukóða:
 
 ## <a name="examples-of-replenishment-that-use-the-minmax-coverage-code"></a>Dæmi um áfyllingu sem notar hám./lágm. þekjukóði
 
-Ef ekkert gildi er tilgreint í reitnum **Margfeldi** fyrir afurð á síðunni **Sjálfgefin pöntunarstilling** og ef notuð er *Hám./lágm.* áfyllingaraðferð mun aðalskipulag endurnýja birgðahaldið upp að tilteknu stigi þegar spáð neyðarstig er undir tilteknum viðmiðunarmörkum.
+Ef ekkert gildi er tilgreint í reitnum **Margfeldi** fyrir afurð á síðunni **Sjálfgefin pöntunarstilling** og ef notuð er *Hám./lágm.* áfyllingaraðferðin mun aðaláætlanagerð fylla á birgðirnar upp að tiltekinni stöðu þegar spáð lagerstaða er undir tilteknum þröskuldi.
 
 Ef skilgreint er meira en eitt magn fyrir afurð mun *Hám./lágm.* áfyllingaraðferðin breyta hegðun sinni og taka til greina gildið **Margfeldi**.
 
-Með öðrum orðum, aðaláætlanagerð mun samt fylla á birgðahaldið upp að skilgreindu hámarksstigi þegar spáð neyðarstig er minna en skilgreint lágmarksstig. Hinsvegar verður áfyllingarmagnið að vera margfeldi af gildinu **Margfeldi**.
+Með öðrum orðum mun aðaláætlanagerð ennþá fylla á birgðirnar upp að skilgreindri hámarksstöðu þegar spáð lagerstaða er minni en skilgreind lágmarksstaða. Hinsvegar verður áfyllingarmagnið að vera margfeldi af gildinu **Margfeldi**.
 
-Ef áfyllingarmagnið (mismunurinn á milli hámarksstigs og spáðs álagsstigs) er ekki margfeldi af skilgreindu margfeldismagni, notar aðalskipulag fyrsta mögulega gildið sem ásamt áætluðu magni fyrir hendi verður fyrir neðan hámarksstigið. Ef summan er lægri en lágmarksstigið notar aðalskipulag fyrsta gildið sem ásamt áætluðu fyrirliggjandi stigi verður yfir hámarksstigi.
+Ef áfyllingarmagnið (munurinn á hámarksstöðu og spáðri lagerstöðu) er ekki margfeldi af skilgreindu margfeldismagni, notar aðaláætlanagerð fyrsta mögulega gildið sem, ásamt spáðri lagerstöðu, verður undir hámarksstöðunni. Ef samtalan er minni en lágmarksstaðan notar aðaláætlanagerð fyrsta gildið sem, ásamt spáðri lagerstöðu, verðu fyrir ofan hámarksstöðuna.
 
 Eftirfarandi undirhlutar sýna dæmi um hvernig margfeldi af pöntunarmagni fyrir afurð hefur áhrif á niðurstöðuna fyrir *Lágm./hám.* áfyllingaraðferð.
 

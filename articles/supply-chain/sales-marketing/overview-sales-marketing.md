@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 25b87f45e43350f6c5e6ea775ebc3fcd74ec5187
 ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/01/2022
 ms.locfileid: "9103801"
@@ -122,7 +122,7 @@ Bráðabirgðareikningur er reikningur sem er útbúinn sem mat á raunverulegu 
 
 #### <a name="blogs"></a>Blogg
 
-Þú getur fundið yfirlit yfir söluferli í færslunni [Hvernig sala virkar í Dynamics 365 Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
+Þú getur fundið yfirlit yfir söluferli í póstinum [Hvernig sala gengur fyrir sig í Dynamics 365 Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

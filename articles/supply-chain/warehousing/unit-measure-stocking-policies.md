@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ca1c18a293d66ab78f41cac857461249826ce4c9
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9069123"
@@ -28,7 +28,7 @@ ms.locfileid: "9069123"
 
 Þessi grein lýsir því hvernig sjálfgefnar einingar, röðunarflokkar eininga og umreikningur eininga eru notaðar í vöruhúsaferlum.
 
-Eining röðunarflokks tilgreinir röð einingar sem hægt er að nota í vöruhúsaaðgerðir. Þær eru stofnaðar á síðunni **Röðunarflokkar eininga**. Röðin sýnir sambandið á milli ýmissa eininga. Til dæmis þú geymir bretti sem innihalda reiti sem innihalda einstök stykki af vörum. Í þessu tilfelli verður að veita þriggja ólíkra eininga og röklega röðun laga. Röðunarflokkar eininga gerir þér mögulegt að skilgreina reglur fyrir flokkun á númeraplötum, og sjálfgefnar einingar sem á að nota fyrir ýmis vöruhúsaferli . Þessi grein á bæði við um vöruhúsastjórnunarferla (WMS) sem eru fáanleg í Vöruhúsastjórnunareiningunni og einfaldari vöruhúsalausnina sem er tiltæk í Birgðastjórnunareiningunni.
+Eining röðunarflokks tilgreinir röð einingar sem hægt er að nota í vöruhúsaaðgerðir. Þær eru stofnaðar á síðunni **Röðunarflokkar eininga**. Röðin sýnir sambandið á milli ýmissa eininga. Til dæmis þú geymir bretti sem innihalda reiti sem innihalda einstök stykki af vörum. Í þessu tilfelli verður að veita þriggja ólíkra eininga og röklega röðun laga. Röðunarflokkar eininga gerir þér mögulegt að skilgreina reglur fyrir flokkun á númeraplötum, og sjálfgefnar einingar sem á að nota fyrir ýmis vöruhúsaferli . Þessi grein á bæði við ítarlega vöruhúsalausn sem er tiltæk í vöruhúsakerfi og einfaldari vöruhúsalausn sem er tiltæk í birgðastjórnun.
 
 ## <a name="unit-sequence-groups-for-released-products"></a>röðunarflokkar eininga fyrir útgefnar afurðir
 Ef óskað er að nota útgefin afurð í vinnuferlum vöruhúss, þarf að úthluta röðunarflokki eininga til þeirra. Ef að þú villuleitar afurð sem tengist geymsluvíddaflokk, og **Nota vöruhúsakerfisferli** valkosturinn fyrir  geymsluvíddaflokkinn er stillt á **Já**, færðu villuskilaboð ef Auðkenni röðunarflokks einingar er ekki skilgreind fyrir vöruna. Ef röðunarflokks einingarinnar sem þú ert að nota inniheldur margar línur (og þar af leiðandi margar einingar), verður að setja upp einingaumreikning milli eininga. Þessari uppsetningu er lokið á síðunni **Umreikningur eininga**. Lægsta eining röðunarflokks sem hægt er að tengja við útgefna afurð verður að samsvara birgðaeiningunni sem er skilgreint til úr samsvarandi afurð. Birgðaeiningin er einingin sem er notað fyrir grunnútreikning á birgðum á lager. Einnig er hægt að setja upp mælieiningarumreikninga fyrir afurðarafbrigði fyrir afurðarsniðmát með því að nota í **Virkja umreikning mælieiningar** valkost.

@@ -1,6 +1,6 @@
 ---
 title: Viðteknar reglur
-description: Þessi grein lýsir því hvernig á að setja upp venjur til að ákvarða hvernig kostnað ætti að færa í alþjóðlegt birgðabókhald.
+description: Þessi grein lýsir því hvernig setja skal upp viðteknar reglur til að ákveða hvernig gera á grein fyrir kostnaði í altæku birgðabókhaldi.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: f148d4c6ece543c8a11eee3e6dcdff47b3767936
 ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/11/2022
 ms.locfileid: "9135501"

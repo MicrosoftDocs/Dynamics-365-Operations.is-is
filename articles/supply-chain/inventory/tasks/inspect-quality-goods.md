@@ -1,6 +1,6 @@
 ---
 title: Kanna vörugæði
-description: Þessi grein lýsir því hvernig á að vinna gæðapantanir.
+description: Þessi grein lýsir því hvernig á að vinna úr gæðapöntunum.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b881f9c6f872061864d4254ce880d981ca71c479
 ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/02/2022
 ms.locfileid: "9219035"
@@ -25,9 +25,9 @@ ms.locfileid: "9219035"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að vinna gæðapantanir. Gæðaskoðanir eru vanalega gerðar af gæðastarfsmanni.
+Þessi grein lýsir því hvernig á að vinna úr gæðapöntunum. Gæðaskoðanir eru vanalega gerðar af gæðastarfsmanni.
 
-Ef staðallinn [kynningargögn](../../../fin-ops-core/fin-ops/get-started/demo-data.md) er uppsett geturðu notað það til að klára ferlið í þessari grein. Til að nota sýnigögnin skal velja lögaðilann *USMF* áður en hafist er handa. Þú verður síðan að staðfesta innkaupapöntun *000016* og bóka innhreyfingarskjal afurðar. Gæðapöntun myndast sjálfkrafa.
+Ef stöðluð [sýnigögn](../../../fin-ops-core/fin-ops/get-started/demo-data.md) eru uppsett er hægt að nota þau til að ljúka ferlunum í þessari grein. Til að nota sýnigögnin skal velja lögaðilann *USMF* áður en hafist er handa. Þú verður síðan að staðfesta innkaupapöntun *000016* og bóka innhreyfingarskjal afurðar. Gæðapöntun myndast sjálfkrafa.
 
 ## <a name="step-1-select-a-quality-order"></a>Skref 1: Velja gæðapöntun
 

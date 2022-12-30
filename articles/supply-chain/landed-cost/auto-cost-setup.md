@@ -1,6 +1,6 @@
 ---
-title: Uppsetning sjálfvirks kostnaðar
-description: Þessi grein lýsir því hvernig á að setja upp kostnaðarreglur fyrir mismunandi siglingastig. Á grundvelli þessara reglna reiknar kerfið út kostnað og bætir þeim sjálfkrafa við. Því þurfa notendur ekki að bæta kostnaði við handvirkt.
+title: Sjálfvirkur kostnaður við uppsetningu
+description: Þessi grein lýsir því hvernig setja á upp kostnaðarreglur fyrir mismunandi ferðastig á innleið. Á grundvelli þessara reglna reiknar kerfið út kostnað og bætir þeim sjálfkrafa við. Því þurfa notendur ekki að bæta kostnaði við handvirkt.
 author: Weijiesa
 ms.date: 01/21/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 02c78789fc7531c267cee936fa30a395e6d0b62f
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8852390"
@@ -26,7 +26,7 @@ ms.locfileid: "8852390"
 
 Hægt er að nota síðuna **Sjálfvirkur kostnaður** til að setja upp kostnaðarreglur fyrir ýmsa kostnaðarþætti (t.d. ferðir, sendingu, gáma, fólíó, innkaupapantanir, vörur eða flutningspöntunarlínur). Út frá reglunum og reitunum sem notendur velja þegar þeir stofna færslur fyrir einn kostnaðarþáttinn mun kerfið reikna kostnaðinn og bæta honum sjálfkrafa við. Því þurfa notendur ekki að bæta kostnaði við handvirkt.
 
-Til að vinna með sjálfvirkan kostnað er farið í **Heildarkostnaður \> Kostnaðaruppsetning \> Sjálfvirkur kostnaður**. Settu síðan upp sjálfvirka kostnaðarreglur þínar eins og lýst er í restinni af þessari grein.
+Til að vinna með sjálfvirkan kostnað er farið í **Heildarkostnaður \> Kostnaðaruppsetning \> Sjálfvirkur kostnaður**. Setjið síðan upp sjálfvirkrar kostnaðarreglur eins og lýst er hér á eftir í greininni.
 
 ## <a name="work-with-cost-areas"></a>Unnið með kostnaðarþætti
 

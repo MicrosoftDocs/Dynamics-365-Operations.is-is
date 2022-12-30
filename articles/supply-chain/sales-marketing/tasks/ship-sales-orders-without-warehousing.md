@@ -1,6 +1,6 @@
 ---
 title: Senda sölupantanir án vöruhúsa
-description: Þessi grein útskýrir hvernig á að uppfæra sölupöntun þegar vörur eru sendar til viðskiptavinarins.
+description: Þessi grein sýnir hvernig á að uppfæra sölupöntun þegar vörur eru sendar til viðskiptavinarins.
 author: Henrikan
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2bb4115a486fbfe7287c9b183224699de4dfd456
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335526"
@@ -24,7 +24,7 @@ ms.locfileid: "9335526"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að uppfæra sölupöntun þegar vörur eru sendar til viðskiptavinarins. Leiðbeiningin á við um uppfyllingarflæðið sem er ekki sett upp fyrir vöruhúsastjórnun (hvorki grunn- eða vöruhússtjórnunarferli (WMS)), og krefst þess vegna ekki að vörutínsla sé skráð fyrir sendingu. Hægt er að keyra þetta ferli á eigin gögn eða í sýnigögn USMF fyrirtækis. Í báðum tilvikum, áður en þú ræsir þetta verk, skal stofna sölupöntun fyrir afurð á lager sem hefur magn sem er meira en 1. Til að forðast bókunarvillu þarf að athuga að afurðamagn á lager á því svæði og vöruhúsi sem var valið í pöntuninni nái yfir pöntunarmagnið.
+Þessi grein sýnir hvernig á að uppfæra sölupöntun þegar vörur eru sendar til viðskiptavinarins. Leiðbeiningarnar eiga við um flæði uppfyllingar sem er ekki sett upp fyrir vöruhúsakerfi (hvorki grunnur eða vöruhúsakerfisferli (WMS)), og krefst þar af leiðandi ekki að afurð tiltektarlista sé skráð fyrir sendingu. Hægt er að keyra þetta ferli á eigin gögn eða í sýnigögn USMF fyrirtækis. Í báðum tilvikum, áður en þú ræsir þetta verk, skal stofna sölupöntun fyrir afurð á lager sem hefur magn sem er meira en 1. Til að forðast bókunarvillu þarf að athuga að afurðamagn á lager á því svæði og vöruhúsi sem var valið í pöntuninni nái yfir pöntunarmagnið.
 
 ## <a name="post-packing-slip-for-an-order"></a>Bóka fylgiseðil fyrir pöntun
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Sala og markaðssetning > Sölupantanir > Allar sölupantanir**.
@@ -45,7 +45,7 @@ ms.locfileid: "9335526"
 14. Veldu **Breyta skjámynd**.
 15. Veldu **Hausyfirlit**.
     - Ef allar línur í pöntun hafa verið afgreiddar að fullu breytist staða pöntunar úr Opið í Afhent.  
-    - Í þessu dæmi hefur pöntunarlínan verið send að hluta. Þess vegna er pöntunarstaðan áfram Opin.     
+    - Í þessu dæmi hefur pöntunarlínan verið send að hluta. Þess vegna helst pöntunarstaðan opin.     
     - Reiturinn **Staða skjals** er stilltur á fylgiseðil þar sem að minnsta kosti ein af pöntunarlínunum hefur verið send.  
 16. Í aðgerðasvæðinu velurðu **Almennt**.
 17. Velja **Línumagn**.

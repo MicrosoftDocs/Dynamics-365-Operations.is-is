@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um afurðartengdar þýðingar
-description: Þessi grein lýsir því hvernig á að stjórna þýðingum fyrir vörur, vöruvíddargildi og vörueiginleika.
+description: Þessi grein lýsir því lýsir því hvernig stjórna þýðingar fyrir afurðir, afurðarvíddargildi og afurðaeigindir.
 author: t-benebo
 ms.date: 08/06/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 079e6de00d1a946d998648378d5ca24c1fd26218
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015407"
@@ -27,7 +27,7 @@ ms.locfileid: "9015407"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að stjórna þýðingum fyrir vörur, vöruvíddargildi og vörueiginleika. 
+Þessi grein lýsir því lýsir því hvernig stjórna þýðingar fyrir afurðir, afurðarvíddargildi og afurðaeigindir. 
 
 ## <a name="what-product-related-data-can-be-translated"></a>Hægt er að þýða yfir hvaða tengjast gögn?
 
@@ -43,20 +43,20 @@ Hægt er að skoða þýðingar upplýsingar sem tengjast hvaða ytri uppruna sk
 
 ## <a name="how-do-i-create-translations-for-product-related-information"></a>Hvernig get ég stofnað þýðingar fyrir upplýsingar sem tengjast vöru?
 Til að stofna þýðingar afurðar, skal fylgja þessum skrefum:
-1.  Smellur **Vöruupplýsingastjórnun** &gt; **Vörur** &gt; **Útgefnar vörur**.
+1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Afurðir** &gt; **Losaðar afurðir**.
 2.  Velja afurð, og á Aðgerðarúðu í flokknum **Tungumál** er smellt á **Þýðingar**.
 3.  Á síðunni **Textaþýðing** á svæðinu **Tungumál** skal velja tungumál. Til að bæta við fleiri tungumálum skal útvíkka svæðið **Tungumál** og smella síðan á **Í lagi**.
 4.  Í hópnum **Þýddur texti** skal slá inn þýðingar í svæðunum **Lýsing** og **Afurðaheiti**.
 
 Til að stofna þýðingar fyrir afurðareigindir, skal fylgja þessum skrefum:
-1.  Smellur **Vöruupplýsingastjórnun** &gt; **Vörur** &gt; **Útgefnar vörur**.
+1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Afurðir** &gt; **Losaðar afurðir**.
 2.  Undir **Uppsetning**, smellið á **Eigindir**, og smellið síðan á **Eigindir**.
 3.  Á síðunni **Eigindir**, smellið á **Þýða**.
 4.  Á síðunni **Textaþýðing** á svæðinu **Tungumál** skal velja tungumál. Til að bæta við fleiri tungumálum skal útvíkka svæðið **Tungumál** og smella síðan á **Í lagi**.
 5.  Í hópnum **Þýddur texti** skal slá þýðingar inn í svæðin **Lýsing**, **Stutt heiti** og **Hjálpartexti**.
 
 Fylgið eftirfarandi skrefum til að stofna víddargildi þýðingar afurðar:
-1.  Smellur **Vöruupplýsingastjórnun** &gt; **Vörur** &gt; **Útgefnar vörur**.
+1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Afurðir** &gt; **Losaðar afurðir**.
 2.  Veljið afurð og smellið síðan á **Afurðarvíddir**.
 3.  Veljið einn af tenglunum fyrir afurðavíddir: **Stillingar**, **Stærðir**, **Litir**, eða **Stíll**.
 4.  Veljið víddargildi og smellið síðan á **Þýða**.

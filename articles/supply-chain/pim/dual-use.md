@@ -1,6 +1,6 @@
 ---
 title: Vörur með tvíþætt notagildi
-description: Þessi grein útskýrir hvernig á að halda utan um vörur sem eru auðkenndar sem tvínota vörur, geyma vottorðsnúmer fyrir hverja viðeigandi vöru og ákvörðunarland og prenta gild vottorðsnúmer á viðeigandi reikninga, fylgiseðla og/eða sölupantanir.
+description: Þessi grein útskýrir hvernig á að halda utan um vörur sem eru auðkenndar sem vörur með tvíþætt notagildi, geyma vottorðanúmer fyrir hverja viðeigandi afurð og land áfangastaðar, og prenta gild vottorðanúmer á viðeigandi reikninga, fylgiseðla og/eða sölupantanir.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
 ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/09/2022
 ms.locfileid: "9460549"
@@ -34,7 +34,7 @@ Eiginleiki tvíþætts notagildis auðveldar fyrirtækjum að halda utan um afur
 2. Síðan **Upplýsingasíða um losaðar afurðir** fyrir afurð X-100 sýnir að hún er vara með tvíþætt notagildi. Saman sýna kóðinn, tegundin, flokkurinn og fyrirkomulagið flokkun útflutningseftirlits sem afurðin tilheyrir.
 3. Síðan **Vottorð fyrir tvíþætt notagildi** inniheldur vottor fyrir afurð X-100 þegar hún er send til Frakklands. Þetta vottorð rennur út 1. janúar 2020.
 4. 17. júní 2020, stofnar þú sölupöntun fyrir fyrirtæki viðskiptavinar sem er staðsett í Frakklandi og pöntunin inniheldur afurð X-100.
-5. Þegar þú staðfestir sölupöntunina ákvarðar kerfið eftirfarandi upplýsingar:
+5. Þegar sölupöntunin er staðfest ákvarðar kerfið eftirfarandi upplýsingar:
 
     1. Inniheldur pöntunin afurðir sem eru vörur með tvíþætt notagildi?
     2. Ef pöntunin inniheldur vörur með tvíþætt notagildi, þarf land áfangastaðar á vottorði tvíþætts notagildis að halda?
@@ -42,7 +42,7 @@ Eiginleiki tvíþætts notagildis auðveldar fyrirtækjum að halda utan um afur
 
 6. Pöntunin inniheldur afurð X-100, afurðin er send til Frakklands og franskt vottorð er til fyrir afurðina. Vottorðið er hins vegar útrunnið. Þar af leiðandi birtast eftirfarandi viðvörunarskilaboð: „Vottorð fyrir tvíþætt notagildi fyrir eina eða fleiri vörur með tvíþætt notagildi í þessari sölupöntun eru ógildar. Á að halda áfram með staðfestinguna?“
 
-Þessi grein útskýrir hvernig á að stilla allar stillingar sem þarf til að setja upp tvínota vörur og styðja þessa atburðarás.
+Þessi grein útskýrir hvernig á að skilgreina allar stillingar sem þarf til að setja upp vörur með tvíþætt notagildi og styðja þessa atburðarás.
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>Skilgreina kröfur um tvíþætt notagildi fyrir hvert land sem á við
 
@@ -87,12 +87,12 @@ Til að auðkenna afurð sem vara með tvíþætt notagildi og nota flokk tvíþ
 
 > [!NOTE]
 >
-> Kerfið gerir eftirfarandi tvínota athuganir þegar það býr til sölustaðfestingu:
+> Kerfið gerir eftirfarandi athuganir á tvíþættri notkun þegar það býr til sölustaðfestingu:
 >
-> 1. Inniheldur pöntunin einhverjar tvínota vörur?
-> 1. Ef svo er, krefst ákvörðunarlandið vottorð fyrir tvöfalda notkun?
-> 1. Ef svo er, eru skírteini til fyrir hverja tvínota vöru fyrir ákvörðunarlandið og eru þau skírteini gild fyrir staðfesta sendingardaga?
-> 1. Ef svörin við spurningum 1 og 2 eru "Já" og svarið við spurningu 3 er "Nei", þá sýnir kerfið viðvörun til að tilkynna notandanum að vottorð fyrir tvöfalda notkun vantar fyrir eina eða fleiri tvínota vörur í Sölupöntun. Notandinn ætti líklega að fá tilskilin vottorð og reyna aftur, en gæti þess í stað hafnað viðvöruninni og haldið áfram með sölustaðfestinguna ef hann vill.
+> 1. Inniheldur pöntunin einhverjar tvíþættar vörur?
+> 1. Þarf land áfangastaðar á vottorði með tvíþætt notagildi að halda?
+> 1. Ef svo er, eru til vottorð fyrir hverja tvíþætta vöru fyrir ákvörðunarlandið, og gilda þau skírteini fyrir staðfestar endadagsetningar?
+> 1. Ef svörin við spurningum 1 og 2 eru „Já“ og svarið við spurningu 3 er „Nei“, þá sýnir kerfið viðvörun til að láta notandann vita að það vanti tvíþætt vottorð fyrir eina eða fleiri tvíþættar vörur í sölupöntuninni. Notandinn ætti líklega að fá tilskilin vottorð og reyna aftur, en gæti þess í stað hunsað viðvörunina og haldið áfram með sölustaðfestinguna ef hann vill.
 
 ## <a name="set-up-dual-use-certificates"></a>Setja upp vottorð fyrir tvíþætt notagildi
 

@@ -1,6 +1,6 @@
 ---
 title: Birgðastaðsetning
-description: Þessi grein veitir upplýsingar um stefnumótandi birgðastaðsetningu, sem felur í sér að auðkenna aftengingarpunkta í aðfangakeðjunni þinni, þar sem þú getur byggt upp á lager til að hjálpa til við að þjappa saman afgreiðslutíma og taka á móti áföllum í aðfangakeðjuna þína.
+description: Þessi grein veitir upplýsingar um birgðastaða samkvæmt áætlun, sem felur í sér að auðkenna aftengingarpunkta í aðfangakeðjunni þinni, þar sem þú getur byggt upp birgðir á lager til að þjappa afhendingartími og draga úr áföllum í aðfangakeðjunni þinni.
 author: t-benebo
 ms.date: 06/30/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
 ms.openlocfilehash: 847108575cbf7207282db00d731363c8cfad883a
 ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/18/2022
 ms.locfileid: "9689539"
@@ -24,110 +24,110 @@ ms.locfileid: "9689539"
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 <!-- KFM: Preview until further notice -->
 
-Stefnumótuð birgðastaða felur í sér að bera kennsl á aftengingarpunkta í aðfangakeðjunni þinni, þar sem þú getur byggt upp birgðir fyrir hendi. Þessi nálgun er aðallega notuð til að hjálpa til við að þjappa leiðtíma og taka á móti áföllum í aðfangakeðjuna þína. Það gerir þér kleift að draga úr „bullwhip-áhrifum“ vegna þess að breytileiki eftirspurnar fer ekki alla leið niður aðfangakeðjuna. (The *bullwhip áhrif* vísar til þess hvernig litlar sveiflur í eftirspurn á smásölustigi geta valdið sífellt meiri sveiflum í eftirspurn hjá heildsölu-, dreifingaraðila-, framleiðanda- og hráefnisbirgðastigi.)
+Birgðastaða samkvæmt áætlun felur í sér að finna aftengingarpunktur í birgðakeðjunni þinni þar sem þú getur byggt upp birgðir á lager. Þessi aðferð er aðallega notuð til að þjappa afhendingartími og draga úr áföllum í aðfangakeðjunni. Það gerir þér kleift að draga úr „svipuáhrifunum“, vegna þess að breytileiki eftirspurnar berst ekki alla leið niður aðfangakeðjuna. (*Svipuáhrifin* vísa til þess hvernig litlar sveiflur í eftirspurn á smásölustigi geta valdið smám saman stærri sveiflum í eftirspurn á heildsölu-, dreifingar-, framleiðanda- og hráefnisbirgjastigi).
 
-Birgðastaða er fyrsta skrefið í Demand Driven Materials Resource Planning (DDMRP).
+Birgðastaðsetning er fyrsta skrefið í eftirspurnardrifinni áætlunargerð tilfanga (DDMRP).
 
-## <a name="inventory-positioning-for-manufacturing"></a>Birgðastaða fyrir framleiðslu
+## <a name="inventory-positioning-for-manufacturing"></a>Staðsetning birgða fyrir framleiðslu
 
-Þessi hluti gefur dæmi sem sýnir hvernig á að taka ákvarðanir um staðsetningu birgða ef þú framleiðir dæmigerða koddavöru. Púðinn er með fjölþrepa efnisskrá (BOM), eins og sýnt er á eftirfarandi mynd.
+Í þessum hluta er dæmi sem sýnir hvernig á að taka ákvarðanir um staðsetningu birgða ef þú framleiðir dæmigerða koddavöru. Koddinn hefur fjölþrepa uppskrift, eins og sýnt er á eftirfarandi skýringamynd.
 
-![Dæmi um fjölþrepa efnisskrá (BOM) fyrir koddavöru.](media/ddmrp-bom-example.png "Dæmi um fjölþrepa efnisskrá (BOM) fyrir koddavöru")
+![Dæmi um fjölþrepa uppskriftir (BOM) fyrir kodda.](media/ddmrp-bom-example.png "Dæmi um fjölþrepa uppskriftir (BOM) fyrir kodda")
 
-### <a name="choose-your-decoupling-points"></a>Veldu aftengingarpunktana þína
+### <a name="choose-your-decoupling-points"></a>Veldu aftengingarpunkta
 
-Þegar þú ert að velja hvar á að setja aftengingarpunktana þína skaltu íhuga alla eftirfarandi þætti hvers atriðis í uppskriftinni sem viðmið:
+Þegar þú velur hvar þú setur aftengingarpunktana skaltu líta á eftirfarandi atriði fyrir hverja vöru í uppskrift sem viðmið:
 
 - Ytri breytileiki
-- Birgðaáhrif og sveigjanleiki
-- Mikilvæg rekstrarvernd
-- Umburðarlyndistími viðskiptavina
-- Sýnilegur sjóndeildarhringur sölupöntunar
-- Markaðsmögulegur afgreiðslutími
+- Vogun og sveigjanleiki birgða
+- Vernd mikilvægrar aðgerðar
+- Tímaþol viðskiptavina
+- Sýnileikatími sölupantana
+- Mögulegur afhendingartími markaðssvæðis
 
-Í koddadæminu gætirðu sett fyrsta aftengingarpunktinn þinn á *froðublöð* af eftirfarandi ástæðum:
+Í dæminu um koddann kunna eftirfarandi ástæður að vera fyrir því að þú setjir fyrsta aftengingarpunkt við *svamphlutana*:
 
-- Það er erfitt að fá efnin sem eru notuð til að búa til froðuplöturnar og framboðið er óstöðugt. Þess vegna er *ytri breytileiki* skilyrði er uppfyllt.
-- Hægt er að skera froðuplöturnar í margar mismunandi gerðir og stærðir til að búa til froðuinnlegg fyrir aðrar vörur sem þú framleiðir, auk koddans. Þess vegna er *birgðaskiptingu og sveigjanleika* skilyrði er uppfyllt.
+- Það er erfitt að finna uppsprettu þeirra efna sem eru notuð til að gera svampbútana og tiltækileiki er óstöðugt. Þar af leiðir er skilyrðum um *ytri breytileika* uppfyllt.
+- Svamphlutana er hægt að skera í mörg mismunandi form og stærðir til að búa til svampinnlegg fyrir aðrar vörur sem þú framleiðir, til viðbótar við koddann. Því skilyrði um *Vogun og sveigjanleiki birgða* er fullnægt.
 
-Þú gætir þá sett næsta aftengingarpunkt þinn á *dúkasett*, sem er forklippt koddaefni. Þú gætir valið þennan punkt vegna þess að þú ert aðeins með eina dúkaskurðarvél. Þess vegna er *mikilvæg rekstrarvernd* skilyrði er uppfyllt.
+Þú gætir þá sett næsta aftengingarpunkt þinn við *efnissettið*, sem er fyrirfram sniðið koddaefni. Þú gætir valið þennan punkt af því að þú átt aðeins eina vél til að klippa niður efni. Því er skilyrðinu um *Vernd mikilvægrar aðgerðar* fullnægt.
 
-Að lokum gætirðu sett síðasta aftengingarpunktinn þinn á fullunna góða koddahlutinn. Þú gætir valið þennan punkt vegna þess að þú ert með mjög lágt *þoltími viðskiptavina* á sölu, og vegna þess að þinn *sýnileikasvið sölupöntunar* er frekar stutt. Þess vegna viltu tryggja að þú hafir tiltækar birgðir til að mæta pöntunum sem berast. Þú getur líka sett hærra verð með því að hafa afgreiðslutímann svona stuttan, sem er það sem er *markaðsmögulegur leiðtími* viðmið vísar til.
+Að lokum gætirðu sett síðustu aftengingarpunktinn á koddavöru fullunnu vörunnar. Þú gætir valið þetta atriði vegna þess að þú ert með mjög lágt *tímaþol viðskiptavina* á sölu, og vegna þess að *sýnileikatími sölupantana* er mjög stuttur. Þess vegna, þú vilja tryggja að þú hefur á hendi lagerbirgðir til að uppfylla komandi pantanir. Þú getur einnig stillt hærra verð með því að halda afhendingartími svona stuttum, sem er það sem viðmiðið fyrir *mögulegur afhendingartími markaðssvæðis* vísar til.
 
-Byggt á þessari greiningu sýnir eftirfarandi mynd hvernig koddauppskriftin mun líta út. Gul birgðatákn auðkenna aftengingarpunktana.
+Samkvæmt þessari greiningu sýnir eftirfarandi skýringarmynd hvernig uppskrift koddans mun líta út. Gul birgðatákn merkja aftengingarpunkta.
 
-![Dæmi um uppskrift með aftengingarpunktum auðkenndum.](media/ddmrp-bom-decoupling-example.png "Dæmi um uppskrift með aftengingarpunktum auðkenndum")
+![Dæmi um uppskrift með merktum aftengingarpunktum.](media/ddmrp-bom-decoupling-example.png "Dæmi um uppskrift með merktum aftengingarpunktum")
 
-### <a name="calculate-your-decoupled-lead-time"></a>Reiknaðu aftengdan leiðtíma þinn
+### <a name="calculate-your-decoupled-lead-time"></a>Reikna út aftengdan afhendingartíma
 
-Þessi hluti sýnir hvernig á að reikna út nýja afgreiðslutíma eftir að þú hefur kynnt aftengingarpunkta.
+Þessi hluti sýnir hvernig eigi að reikna út nýja afhendingartíma eftir að þú hefur sett inn aftengingarpunkta.
 
-Í eftirfarandi mynd fyrir koddadæmið sem byrjað var í fyrri hlutanum eru afgreiðslutímar sýndir í gráum kössum efst til vinstri á hverjum uppskriftarhluta. Kassar sem eru með rauðum útlínum gefa til kynna atriði sem reka uppsafnaðan afgreiðslutíma (summa lengsta afgreiðslutíma á hverju stigi uppskriftarinnar). Þessi afgreiðslutími er 21 dagur þegar byrjað er frá grunni.
+Á eftirfarandi mynd fyrir koddadæmið sem byrjað var á hlutanum hér á undan eru afhendingartímar sýndir í gráum reitum efst til vinstri í hverri einingu uppskriftar. Kassar sem hafa rauða útlínur tilgreina vörur sem keyra uppsafnaðan afhendingartími (summa lengstu afhendingartíma á hverju uppskriftarstigi). Þessi afhendingartími er 21 dagur þegar þú byrjar frá grunni.
 
-![Dæmi um uppskrift með afgreiðslutíma.](media/ddmrp-bom-lead-times-example.png "Dæmi um uppskrift með afgreiðslutíma")
+![Dæmi um uppskrift með afhendingartíma.](media/ddmrp-bom-lead-times-example.png "Dæmi um uppskrift með afhendingartíma")
 
-Hins vegar, ef þú notar aftengingarpunktana sem þú valdir áður, verða aftengdu vörurnar alltaf til á lager. Þess vegna munu þeir hafa afgreiðslutíma 0 (núll). Nýr afgreiðslutími fyrir koddann er nú aðeins fimm dagar: tveir dagar til að kaupa þráðinn og þrír dagar til að framleiða koddann. Þessi leiðtími er þekktur sem *aftengdur leiðtími*.
+Ef þú hins vegar notar aftengingarpunktana sem þú valdir áður verða aftengdu hlutirnir alltaf til á lager. Því munu þeir hafa afhendingartímann 0 (núll). Nýi afhendingartími fyrir koddann nú aðeins fimm dagar: tveir dagar til að kaupa tvinna og þrír dagar til að framleiða koddann. Þessi afhendingartími er þekktur *aftengdi afhendingartíminn*.
 
-![Dæmi um ótengdan leiðtíma.](media/ddmrp-bom-decoupled-lead-time-example.png "Dæmi um ótengdan leiðtíma")
+![Dæmi um aftengdan afhendingartíma.](media/ddmrp-bom-decoupled-lead-time-example.png "Dæmi um aftengdan afhendingartíma")
 
-## <a name="strategic-inventory-positioning-in-a-retail-model"></a>Stefnumótandi birgðastaða í smásölumódeli
+## <a name="strategic-inventory-positioning-in-a-retail-model"></a>Birgðastaða samkvæmt áætlun í smásölulíkani
 
-Vegna þess að smásalar geyma aðeins fullunnar vörur eru uppskriftir ekki vandamál. Hins vegar geta smásalar enn notað DDMRP með því að stilla stefnumótandi birgðastöðu og biðminni út frá geymslustöðum í dreifikerfinu.
+Uppskriftir eru ekki úthreyfingar vegna þess að smásalar eru aðeins með fullunnar vörur á lager. Hins vegar geta smásalar enn notað DDMRP með því að stilla áætlaða staðsetningu birgða og stig öryggisbirgða sem byggjast á geymslustöðum í dreifikerfinu.
 
-Eftirfarandi mynd sýnir dæmi um fyrirtæki sem er með dreifingarmiðstöð í Seattle og verslanir í Boston, Atlanta og Portland.
+Eftirfarandi skýringarmynd sýnir dæmi um fyrirtæki sem er með dreifingarmiðstöð í Seattle og verslanir í Boston, Atlanta og Portland.
 
-![Aftengingarpunktar byggðir á staðsetningu í smásölulíkani.](media/ddmrp-retail-decoupl-points-example.png "Aftengingarpunktar byggðir á staðsetningu í smásölulíkani")
+![Aftengingarpunktar miðað við staðsetningu í smásölulíkani.](media/ddmrp-retail-decoupl-points-example.png "Aftengingarpunktar miðað við staðsetningu í smásölulíkani")
 
-Þú gætir ákveðið að flutningstíminn til að flytja teppi vöru á milli dreifingarmiðstöðvar og verslana brjóti í bága við þinn *þoltími viðskiptavina*, vegna þess að viðskiptavinir þínir búast við að teppið sé til á lager þegar þeir heimsækja. Í þessu tilviki muntu setja upp aftengingarpunkt fyrir teppihlutinn í hverri af verslununum þremur. Hver verslun mun hafa mismunandi biðminni, byggt á afgreiðslutíma hennar, eftirspurnarmynstri og svo framvegis.
+Þú gætir ákveðið að flutningstími til að færa teppavöru á milli dreifingarmiðstöðvarinnar og verslana brjóti í bága við *tímaþol viðskiptavinar* þíns vegna þess að viðskiptavinir þínir búast við því að teppið sé til á lager þegar þeir koma í heimsókn. Í því tilviki er settur upp aftengingarpunktur fyrir teppið í hverri af verslununum þremur. Í hverri verslun eru mismunandi magn öryggisbirgða, miðað við endingartíma, eftirspurnarmynstur og svo framvegis.
 
-## <a name="implement-inventory-positioning-in-dynamics-365-supply-chain-management"></a>Innleiða birgðastaðsetningu í Dynamics 365 Supply Chain Management
+## <a name="implement-inventory-positioning-in-dynamics-365-supply-chain-management"></a>Innleiða birgðarstöðu í Dynamics 365 Supply Chain Management
 
-Þessi hluti lýsir því hvernig á að innleiða birgðastaðsetningarstefnu þína í Microsoft Dynamics 365 Supply Chain Management.
+Í þessum kafla er lýst hvernig á að framkvæma áætlun um birgðarstaðsetningar í Microsoft Dynamics 365 Supply Chain Management.
 
-### <a name="set-up-item-coverage-groups-that-create-decoupling-points"></a>Settu upp vöruþekjuhópa sem búa til aftengingarpunkta
+### <a name="set-up-item-coverage-groups-that-create-decoupling-points"></a>Setja upp vöruþekjuflokka sem búa til aftengingarpunkta
 
-Hlutir verða aftengingarpunktar þegar þeir tilheyra þekjuhópi sem er stilltur með a **Umfjöllunarkóði** verðmæti á *Aftengingarpunktur*. Þess vegna er fyrsta skrefið í því að setja upp DDMRP að ákveða hvaða þekjuhópa þú verður að innleiða fyrir DDMRP stefnu þína og búa þá til með því að fylgja þessum skrefum.
+Vörur verða aftengingarpunktar þegar þeir tilheyra þekjuflokki sem er stilltur með gildi **Þekjukóða** fyrir *Aftengingarpunkt*. Því er fyrsta skrefið í ferlinu að setja upp DDMRP að ákveða hvaða þekjuflokka þú verður að innleiða fyrir DDMRP áætlunina og búa þá síðan til með því að fylgja þessum skrefum.
 
 1. Fara skal í **Aðaláætlanagerð \> Uppsetning \> Þekja \> þekjuflokkar**.
-1. Á aðgerðarrúðunni velurðu **Nýtt** að búa til umfjöllunarhóp.
-1. Sláðu inn upplýsingar sem auðkenna umfjöllunarhópinn og veldu síðan dagatalið sem á að nota.
-1. Á **Almennt** flipann, stilltu **Umfjöllunarkóði** sviði til *Aftengingarpunktur*. Þessi stilling mun valda því að allir hlutir sem tilheyra þessum þekjuhópi verða meðhöndlaðir sem aftengingarpunktar fyrir DDMRP. Það gerir einnig allar DDMRP stillingar virkar fyrir þennan hóp, eins og lýst er síðar í þessari aðferð.
-1. Á **Annað** flipa, í **DDMRP breytur** kafla, stilltu eftirfarandi reiti:
+1. Á aðgerðasvæðinu skal velja **Nýtt** til að búa til þekjuflokkur.
+1. Sláðu inn upplýsingar sem auðkenna þekjuflokkinn og veldu síðan dagatalið sem á að nota.
+1. Á flipanum **Almennt** er reiturinn **Þekjukóði** stilltur á *Aftengingarpunktur*. Þessi stilling mun valda því að allar vörur sem tilheyra þessum þekjuflokki verða meðhöndlaðir sem aftengingarpunktar fyrir DDMRP. Það virkjar einnig allar DDMRP-stillingar fyrir þennan flokk eins og lýst er síðar í þessu ferli.
+1. Á flipanum **Annað** í hlutanum **DDMRP færibreytur** skal stilla eftirfarandi reiti:
 
-    - **Leiðslutími þáttur** – Tilgreindu þátt (sem aukastaf á milli 0 og 1) til að stjórna áhrifunum sem afgreiðslutími ætti að hafa þegar lágmarks- og hámarksbirgðir eru reiknaðar fyrir vörur í þessum þekjuflokki. Almennt séð, því lengri afgreiðslutími sem vara hefur, því lægri ætti afgreiðslutímastuðull hennar að vera. Lægri afgreiðslutímastuðull framleiðir lægri lágmarks- og hámarksbirgðir og veldur því minni og tíðari pöntunum. DDMRP aðferðafræði mælir með gildi á milli 0,20 og 0,40 fyrir vörur sem hafa langan afgreiðslutíma, á milli 0,41 og 0,60 fyrir vörur sem hafa miðlungs afgreiðslutíma og á milli 0,61 og 1,00 fyrir vörur sem hafa stuttan afgreiðslutíma. Fyrir frekari upplýsingar, sjá [Stuðpúðarsnið og stig](ddmrp-buffer-profile-and-levels.md).
-    - **Breytileikastuðull** – Tilgreindu þátt (sem aukastaf á milli 0 og 1) til að stjórna áhrifunum sem mismunandi eftirspurn ætti að hafa þegar lágmarksbirgðastaða er reiknuð fyrir vörur í þessum þekjuflokki. Almennt séð, því breytilegri sem eftirspurn vöru er, því hærri ætti breytileikastuðull hans að vera. Hærri breytileikastuðull gefur af sér hærra lágmarksbirgðir. DDMRP aðferðafræði mælir með gildi á milli 0,00 og 0,40 fyrir vörur sem hafa litla breytileika, á milli 0,41 og 0,60 fyrir vörur sem hafa miðlungs breytileika og á milli 0,61 og 1,00 fyrir vörur sem hafa mikla breytileika. Fyrir frekari upplýsingar, sjá [Stuðpúðarsnið og stig](ddmrp-buffer-profile-and-levels.md).
-    - **Lágm., hámark og endurpöntunarpunktatímabil** - Tilgreindu hversu oft á að reikna biðminni gildi (*Daglega* eða *Vikulega*).
+    - **Stuðull afhendingartíma** – Tilgreindu stuðul (sem tugabrot á milli 0 og 1) til að stjórna því hvaða áhrif afhendingartími á að hafa þegar reiknað er út lágmark birgðastöðu fyrir vörur í þessum þekjuflokki. Almennt gildir að því lengri sem afhendingartími vöru er því lægri á afhendingartími hennar að vera. Lægri stuðull afhendingartíma hefur í för með sér lægra lágmark og hámark á birgðastöðu og leiðir því til minni og tíðari pantana. DDMRP aðferðafræðin mælir með gildi á bilinu 0,20 til 0,40 fyrir vörur sem hafa langan afhendingartími, á bilinu 0,41 til 0,60 fyrir vörur sem hafa meðallangan afhendingartíma og á bilinu 0,61 til 1,00 fyrir vörur sem hafa stuttan afhendingartíma. Frekari upplýsingar eru í [Forstilling öryggisbirgða og gildi](ddmrp-buffer-profile-and-levels.md).
+    - **Breytileikastuðull** – Tilgreindu stuðul (sem tugabrot á milli 0 og 1) til að stjórna því hvaða áhrif breytileg eftirspurn á að hafa þegar reiknað er út lágmark birgðastöðu fyrir vöruna í þessum þekjuflokki. Almennt gildir að því breytilegri sem eftirspurn eftir vöru er því hærri ætti breytileikastuðullinn að vera. Meiri breytileikastuðull leiðir til hærra lágmarks birgðastöðu. Aðferðafræði DDMRP mælir með gildi á bilinu 0,00 til 0,40 fyrir vörur með lítinn breytileika, á bilinu 0,41 til 0,60 fyrir vörur með miðlungs breytileika og á bilinu 0,61 til 1,00 fyrir vörur með mikinn breytileika. Frekari upplýsingar eru í [Forstilling öryggisbirgða og gildi](ddmrp-buffer-profile-and-levels.md).
+    - **Lágmark, hámark og endurpöntunarmark** - Tilgreinið hversu oft á að reikna öryggisbirgðir (*Daglega* eða *Vikulega*).
 
-1. Á **Annað** flipa, í **Dagleg meðalnotkun** kafla, stilltu eftirfarandi reiti:
+1. Á flipann **Annað**, í hlutanum **Meðaltal daglegrar notkunar**, skal stilla eftirfarandi reiti:
 
-    - **Dagleg meðalnotkun miðað við** – Veldu hvaða tímabil útreikningur á meðaltali daglegrar notkunar (ADU) ætti að byggja á. Veljið eitt af eftirfarandi gildum:
+    - **Dagleg meðalnotkun samkvæmt** – Velja skal tímabil sem útreikningur daglegrar meðalnotkunar (ADU) skal byggjast á. Veljið eitt af eftirfarandi gildum:
 
-        - *Fortíð* – Horfðu aðeins á fyrri notkun fyrir þann fjölda daga sem tilgreindir eru í **Síðasta tímabil (dagar)** sviði. ADU er reiknað sem heildareftirspurn eftir vöru á útreikningstímabilinu (í birgðaeiningum) deilt með fjölda daga á útreikningstímabilinu.
-        - *Áfram* – Horfðu aðeins á áætluð framtíðarnotkun (þar á meðal spár) fyrir þann fjölda daga sem tilgreindir eru í **Framvirkt tímabil (dagar)** sviði. ADU er reiknað sem heildareftirspurn eftir vöru á útreikningstímabilinu (í birgðaeiningum) deilt með fjölda daga á útreikningstímabilinu. 
-        - *Blandað* – Horfðu á bæði fortíð og framtíðarnotkun. Stillingar fyrir **Síðasta tímabil (dagar)** sviði, the **Framvirkt tímabil (dagar)** reit og blöndunarvalkostir eiga allir við. 
+        - *Fyrri notkun* – Skoðaðu aðeins fyrri notkun fyrir þann dagafjölda sem tilgreindur er í reitnum **Liðið tímabil (dagar)**. Dagleg notkun að meðaltali (ADU) er reiknuð sem heildareftirspurn eftir vörunni á tímabili útreiknings (í birgðaeiningum) deilt með fjölda daga á tímabili útreiknings.
+        - *Framvirkt* – Skoðið aðeins áætlaða framtíðarnotkun (þ.m.t. spá) fyrir dagafjölda sem tilgreindur er í reitnum **Framvirkt tímabil (dagar)**. Dagleg notkun að meðaltali (ADU) er reiknuð sem heildareftirspurn eftir vörunni á tímabili útreiknings (í birgðaeiningum) deilt með fjölda daga á tímabili útreiknings. 
+        - *Blandað* – Skoðaðu notkun í fortíð og framtíð. Stillingar fyrir reitinn **Liðið tímabil (dagar)**, reitinn **Framvirkt tímabil (dagar)** og blöndunarvalkostir eiga allir við. 
 
-            *Blandað ADU* = (\[*Fyrri vigtun* ×*Fyrri ADU*\] + \[*Áframvigtun* ×*Áfram ADU*\]) ÷ (*Fyrri vigtun* + *Áframvigtun*)
+            *Blandað meðaltal daglegrar notkunar* = (\[*Fyrri vigtun* × *Fyrra meðaltal daglegrar notkunar*\] + \[*Framvirk vigtun* × *Framvirkt meðaltal daglegrar notkunar*\]) ÷ (*Fyrri vigtun* + *Framvirk vigtun*)
 
-    - **Síðasta tímabil (dagar)** – Sláðu inn fjölda liðinna daga (til og með deginum í dag) sem kerfið ætti að hafa í huga þegar það reiknar út ADU hluta í þessum þekjuhópi. Þessi stilling á aðeins við þegar **Dagleg meðalnotkun miðað við** reiturinn er stilltur á *Fortíð* eða *Blandað*.
-    - **Framvirkt tímabil (dagar)** – Sláðu inn fjölda framtíðardaga (frá deginum í dag og fram að tilgreindum degi) sem kerfið ætti að hafa í huga þegar það reiknar út ADU fyrir hluti í þessum þekjuhópi. Þessi stilling á aðeins við þegar **Dagleg meðalnotkun miðað við** reiturinn er stilltur á *Áfram* eða *Blandað*.
-    - **Hlutfallsleg þyngd liðins tímabils fyrir blönduð daglega meðalnotkun** – Sláðu inn þyngdina (sem hlutfall) sem á að gilda um síðasta tímabil þegar blandað ADU er reiknað út. Þessi stilling á aðeins við þegar **Dagleg meðalnotkun miðað við** reiturinn er stilltur á *Blandað*.
-    - **Hlutfallslegt vægi framvirkt tímabils fyrir blönduð meðaltal daglegrar notkunar** – Sláðu inn þyngdina (sem hlutfall) sem á að gilda um framvirka tímabilið þegar blandað ADU er reiknað. Þessi stilling á aðeins við þegar **Dagleg meðalnotkun miðað við** reiturinn er stilltur á *Blandað*.
+    - **Liðið tímabil (dagar)** - Sláðu inn fjölda undanfarinna daga (frá og með deginum í dag) sem kerfið ætti að hafa í huga við útreikning á daglega notkun að meðaltali í þessum þekjuflokki. Þessi stilling á aðeins við þegar reiturinn **Dagleg meðalnotkun samkvæmt** er stilltur á *Afturvirkt* eða *Blandað*.
+    - **Framvirkt tímabil (dagar)** - Sláðu inn fjölda daga í framtíð (frá og með deginum í dag að tilgreindum degi) sem kerfið ætti að hafa í huga við útreikning á daglega notkun að meðaltali í þessum þekjuflokki. Þessi stilling á aðeins við þegar reiturinn **Meðaltal daglegrar notkunar miðað við** er stilltur á *Framvirkt* eða *Blandað*.
+    - **Hlutfallslegt vægi liðins tímabils fyrir blandaða daglega meðalnotkun** – Sláðu inn þyngd (sem prósentuhlutfall) sem á við um undangengið tímabil þegar blandaða ADU er reiknað. Þessi stilling á aðeins við þegar reiturinn **Dagleg meðalnotkun samkvæmt** er stilltur á *Blandað*.
+    - **Hlutfallslegt vægi ókomins tímabils fyrir blandaða daglega meðalnotkun** – Sláðu inn þyngd (sem prósentuhlutfall) sem á við framvirk tímabilið þegar blandaða ADU er reiknað. Þessi stilling á aðeins við þegar reiturinn **Dagleg meðalnotkun samkvæmt** er stilltur á *Blandað*.
 
-1. Fyrir alla aðra flipa og reiti skaltu slá inn ítarlegar stillingar sem eru notaðar til að reikna út kröfur fyrir hlutina sem eru tengdir þessum þekjuhópi.
+1. Á öllum öðrum flipum og reitum eru færðar inn ítarlegar stillingar sem eru notaðar til að reikna út þörf á vörum sem eru tengdar þekjuflokknum.
 
-### <a name="set-an-item-as-a-decoupling-point"></a>Stilltu hlut sem aftengingarpunkt
+### <a name="set-an-item-as-a-decoupling-point"></a>Velja atriði sem aftengingarpunkt
 
-Til að stilla hlut sem aftengingarpunkt skaltu fylgja þessum skrefum.
+Til að stilla vöru sem aftengingarpunkt skal fylgja þessum skrefum.
 
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
-1. Finndu og veldu útgefið atriði sem þú vilt setja upp fyrir DDMRP.
-1. Á aðgerðarrúðunni, á **Áætlun** flipa, veldu **Vöruumfjöllun**.
-1. Á **Vöruumfjöllun** síðu, gætu nokkrar vöruþekjufærslur þegar verið skráðar, sem hver um sig á við um mismunandi samsetningu geymslu- og vörustærða. Þú getur valið fyrirliggjandi vöruþekjufærslu sem á við um víddir þar sem þú vilt stofna aftengingarpunkt. Að öðrum kosti geturðu valið **Nýtt** á aðgerðarrúðunni til að búa til nýja vöruþekjufærslu.
-1. Settu upp vöruþekjuskrá eins og venjulega. Að minnsta kosti verður þú að tilgreina síðuna og vöruhús þar sem aftengingarpunkturinn á við.
-1. Á meðan viðeigandi skráning er enn valin skaltu velja **Almennt** flipa.
-1. Veldu **Notaðu sérstakar stillingar** gátreit.
-1. Stilltu **Umfjöllunarhópur** reit til umfjöllunarhóps sem er settur upp til að búa til aftengingarpunkta (eins og lýst er í fyrri hlutanum).
-1. Hluturinn er nú stilltur sem aftengingarpunktur. Venjulega, þegar þú notar DDMRP, muntu einnig stilla stillingar hér sem hafa áhrif á biðminni og endurpöntunarmagn. Hins vegar geturðu lokið þeirri stillingu síðar. Fyrir frekari upplýsingar um stillingarnar, sjá [Settu upp biðminni fyrir hlut aftengingarpunkts](ddmrp-buffer-profile-and-levels.md#set-up-buffers).
+1. Finna og velja losað atriði sem á að setja upp fyrir DDMRP.
+1. Á aðgerðasvæðinu, í flipanum **Áætlun** skal velja **Vöruþekja**.
+1. Á síðunni **Vöruþekja** gætu þegar verið skráðar nokkrar þekjufærslur vöru, sem hver um sig á við um mismunandi samsetningu geymslu- og vöruvídda. Þú getur valið fyrirliggjandi þekjufærsla vöru sem á við um víddirnar þar sem þú vilt búa til aftengingarpunkt. Einnig er hægt að velja **Nýtt** á aðgerðasvæðinu til að búa til nýja vöruþekjufærslu.
+1. Setja upp þekjufærsla vöru eins og venjulega. Að minnsta kosti verður að tilgreina svæðið og vöruhúsið þar sem aftengingarpunkturinn á við.
+1. Á meðan viðeigandi færsla er enn valin skal velja flipann **Almennt**.
+1. Merkið í gátreitinn **Nota sérstakar stillingar**.
+1. Stilla reit **Þekjuflokkur** á þekjuflokk sem er settur upp til að búa til aftengingarpunkta (eins og lýst er í fyrri hluta).
+1. Varan er nú stillt sem aftengingarpunktur. Venjulega, þegar þú notar DDMRP, munt þú einnig stilla stillingar hér sem hafa áhrif á stærðir öryggisbirgða og endurraða magni. Þú getur þó lokið þeirri stillingu síðar. Nánari upplýsingar um stillingar eru í [Setja upp öryggisbirgðir fyrir vöru aftengingarpunkts](ddmrp-buffer-profile-and-levels.md#set-up-buffers).
 
 > [!NOTE]
-> Til að skipuleggja hluti sem eru ekki aftengingarpunktar skaltu fylgja sömu skrefum og þú fylgir þegar staðlað efnisþörf áætlanagerð (MRP) er notuð.
+> Til að áætla vörur sem ekki eru aftengingarpunktar skaltu fylgja sömu skrefum og þú fylgir þegar hefðbundin efnisþarfaáætlun (MRP) er notuð.

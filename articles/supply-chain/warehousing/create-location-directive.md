@@ -1,6 +1,6 @@
 ---
 title: Vinna með staðsetningarleiðbeiningar
-description: Þessi grein lýsir því hvernig á að vinna með staðsetningarleiðbeiningar. Staðsetningarleiðbeiningar eru notandaskilgreindar reglur sem hjálpa við auðkenningu tiltektar- og frágangsstaðsetninga fyrir birgðahreyfingar.
+description: Þessi grein útskýrir hvernig á að vinna með staðsetningarleiðbeiningar. Staðsetningarleiðbeiningar eru notandaskilgreindar reglur sem hjálpa við auðkenningu tiltektar- og frágangsstaðsetninga fyrir birgðahreyfingar.
 author: Mirzaab
 ms.date: 09/28/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: 4ef8ec0732cd3bd50bca8d334c43d0354e9e3316
 ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/18/2022
 ms.locfileid: "9689667"
@@ -27,7 +27,7 @@ ms.locfileid: "9689667"
 Staðsetningarleiðbeiningar eru reglur sem hjálpa við auðkenningu tiltektar- og frágangsstaðsetninga fyrir birgðahreyfingar. Til dæmis, í sölupöntunarfærslu, ákvarða staðsetningarleiðbeiningar hvar vörurnar verða teknar til og hvar tilteknar vörur verða að setja. Staðsetningarleiðbeiningar samanstanda af haus og tengdum línum. Þær eru búnar til fyrir tilteknar *verkbeiðnigerðir*.
 
 > [!NOTE]
-> Þessi grein á við um eiginleika í **Vöruhússtjórnun** mát. Það á ekki við um eiginleika í einingunni [Birgðastjórnun](../inventory/inventory-home-page.md).
+> Þessi grein á við um aðgerðir í á **Vöruhúsakerfi** einingunni. Það á ekki við um eiginleika í einingunni [Birgðastjórnun](../inventory/inventory-home-page.md).
 
 Hægt er að nota staðsetningarleiðbeiningar til að framkvæma eftirfarandi verk:
 
@@ -47,19 +47,19 @@ Hægt er að nota staðsetningarleiðbeiningar til að framkvæma eftirfarandi v
 1. Stofna staðsetningar, staðsetningargerðir, staðsetningarforstillingar og staðsetningarsnið. Frekari upplýsingar er að finna í [Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](./tasks/configure-locations-wms-enabled-warehouse.md).
 1. Stofna svæði og svæðisflokka. Frekari upplýsingar er að finna í [Uppsetning vöruhúss](../../commerce/channels-setup-warehouse.md) og [Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](./tasks/configure-locations-wms-enabled-warehouse.md).
 
-## <a name="turn-the-location-directive-scopes-feature-on-or-off"></a><a name="scopes-feature"></a> Kveiktu eða slökktu á eiginleikanum Staðsetningarleiðbeiningar umfangs
+## <a name="turn-the-location-directive-scopes-feature-on-or-off"></a><a name="scopes-feature"></a>Kveikja eða slökkva á eiginleika fyrir umfang staðsetningarleiðbeininga
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 <!-- KFM: Preview until 10.0.31 GA -->
 
-The *Gildissvið staðsetningartilskipunar* eiginleiki gefur þér meira frelsi þegar þú hannar staðsetningarleiðbeiningar og hjálpar til við að draga úr óþarfa stillingum. Það bætir við a **Gildissvið** valmöguleika, sem kemur í stað fyrri **Margir SKU** valmöguleika. Þar sem **Margir SKU** valkostinn er aðeins hægt að stilla á *Já* eða *Nei*, hinn **Gildissvið** valkosturinn veitir ekki aðeins þessar tvær stillingar (í gegnum *Einn hlutur* og *Margir hlutir* gildi) en einnig tvö í viðbót (í gegnum *Einn vara eða pöntun* og *Allt* gildi). Fyrir frekari upplýsingar um þessar stillingar, sjá [Staðsetningarleiðbeiningar flýtiflipinn](#location-directives-tab).
+Eiginleikinn *Umfang staðsetningarleiðbeininga* gefur þér meira frelsi þegar þú hannar staðsetningarleiðbeiningar og hjálpar til við að draga úr óþarfa skilgreiningum. Hann bætir við valkostinum **Umfang** sem kemur í staðinn fyrir fyrri valkostinn **Margar birgðahaldseiningar**. Á meðan aðeins er hægt að stilla valkostinn **Margar birgðahaldseiningar** á *Já* eða *Nei* býður valkosturinn **Umfang** ekki bara upp á þessar tvær stillingar (í gegnum gildin *Ein vara* og *Margar vörur*) heldur líka tvær í viðbót (í gegnum gildin *Ein vara eða pöntun* og *Allt*). Til að fá nánari upplýsingar um þessar stillingar, sjá [Flýtiflipi staðsetningarleiðbeininga](#location-directives-tab).
 
-Þegar það er virkt, er **Umfang** valkostur kemur í stað **Margir SKU** valkostur og er 100 prósent samhæft við núverandi stillingar.
+Þegar hann er virkjaður mun valkosturinn **Umfang** koma í staðinn fyrir valkostinn **Margar birgðahaldseiningar** og er 100 prósent samhæfur við fyrirliggjandi skilgreiningar.
 
-Til að nota þennan eiginleika þarftu að kveikja á honum í kerfinu þínu. Stjórnendur geta notað [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) stillingar til að athuga stöðu eiginleikans og kveikja eða slökkva á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Ef þú vilt nota þennan eiginleika þarftu að kveikja á honum í kerfinu þínu. Stjórnendur geta notað stillingarnar [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að skoða stöðu eiginleikans og kveikja á honum eða slökkva. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
-- **Eiginleikaheiti:** *Gildissvið staðsetningartilskipunar*
+- **Heiti eiginleika:** *Umfang staðsetningarleiðbeininga*
 
 ## <a name="work-order-types-for-location-directives"></a>Verkbeiðnigerðir fyrir staðsetningarleiðbeiningar
 
@@ -82,7 +82,7 @@ Töflurnar í eftirfarandi undirköflum sýna sameiginlega reiti og sérreit ver
 | Staðsetningarleiðbeiningar | Vefsvæði |
 | Staðsetningarleiðbeiningar | Vöruhús |
 | Staðsetningarleiðbeiningar | Leiðbeiningarkóði |
-| Staðsetningarleiðbeiningar | Umfang *eða* Margir SKU |
+| Staðsetningarleiðbeiningar | Umfang *eða* margar birgðahaldseiningar |
 | Línur | Raðnúmer |
 | Línur | Frá-magn |
 | Línur | Til magn |
@@ -123,7 +123,7 @@ Töflurnar í eftirfarandi undirköflum sýna sameiginlega reiti og sérreit ver
 
 Til að opna síðuna **Staðsetningarleiðbeiningar** er farið í **Vöruhúsakerfi \> Uppsetning \> Staðsetningarleiðbeiningar**.
 
-Þaðan er hægt að skoða, búa til og breyta staðsetningarleiðbeiningum með því að nota skipanirnar á aðgerðasvæði. Sjáðu hluta þessarar greinar sem eftir eru til að fá upplýsingar um hvernig á að nota alla reiti sem eru tiltækir á síðunni.
+Þaðan er hægt að skoða, búa til og breyta staðsetningarleiðbeiningum með því að nota skipanirnar á aðgerðasvæði. Í eftirstandandi hlutum í þessari grein er að finna upplýsingar um hvernig á að nota alla reitina sem eru í boði á síðunni.
 
 ## <a name="action-pane"></a>Aðgerðasvæði
 
@@ -131,9 +131,9 @@ Aðgerðasvæðið á síðunni **Staðsetningarleiðbeiningar** inniheldur hnap
 
 - **Færa upp** – Færið völdu staðsetningarleiðbeininguna upp í röðinni. Til dæmis er hægt að færa hana úr raðnúmeri 4 í raðnúmer 3.
 - **Færa niður** – Færið völdu staðsetningarleiðbeininguna niður í röðinni. Til dæmis er hægt að færa hana úr raðnúmeri 4 í raðnúmer 5.
-- **Afrita** - Opnaðu glugga þar sem þú getur búið til nákvæmt afrit af núverandi staðsetningartilskipun.
+- **Afrita** – Opna svarglugga þar sem hægt er að búa til nákvæmt afrit af núverandi staðsetningarleiðbeiningum
 - **Breyta fyrirspurn** – Opnið svarglugga þar sem hægt er að skilgreina skilyrðin sem valin staðsetningarleiðbeining á að vera unnin undir. Til dæmis er hægt að nota hana eingöngu í ákveðnu vöruhúsi.
-- **Viðtökupróf** - Opnaðu síðu þar sem þú getur sett upp sjálfvirk próf til að ákvarða hvernig staðsetningartilskipanir þínar munu haga sér við mismunandi upphafsskilyrði. Á þennan hátt geturðu fljótt staðfest tilskipanir þínar þegar þú býrð til og viðheldur þeim. Fyrir frekari upplýsingar, sjá [Prófstaðsetningarleiðbeiningar með staðfestingarprófum](location-directive-acceptance-tests.md).
+- **Samþykkispróf** – Opnaðu síðu þar sem þú getur sett upp sjálfvirkar prófanir til að ákvarða hvernig staðsetningarleiðbeiningarnar þínar muni hegða sér undir mismunandi upphafsskilyrðum. Þannig getur þú fljótt staðfest leiðbeiningarnar þínar þegar þú býrð þær til og viðheldur þeim. Frekari upplýsingar er að finna í [Prófa staðsetningarleiðbeiningar með samþykkisprófum](location-directive-acceptance-tests.md).
 
 ## <a name="location-directives-header"></a>Haus staðsetningarleiðbeininga
 
@@ -161,29 +161,29 @@ Reitirnir í flýtiflipanum **Staðsetningarleiðbeiningar** eru sértækir fyri
     > [!TIP]
     > Ef leiðbeiningarkóði er stilltur leitar kerfið ekki í staðsetningarleiðbeiningum eftir raðnúmeri þegar búa þarf til vinnu. Þess í stað leitar það eftir leiðbeiningarkóða. Á þennan hátt er hægt að vera nákvæmari í staðsetningarleiðbeiningum sem eru notaðar fyrir tiltekið skref í vinnusniðmáti, eins og skrefið fyrir geymslu á efni.
 
-- **Umfang** – Notaðu þennan valkost til að tilgreina aðstæðurnar sem staðsetningartilskipuninni verður beitt á. Þessi valkostur kemur í stað **Margir SKU** valkostur og er aðeins í boði ef *Gildissvið staðsetningartilskipunar* kveikt er á eiginleikanum í kerfinu þínu. (Nánari upplýsingar er að finna í [Kveiktu eða slökktu á eiginleikanum Staðsetningarleiðbeiningar umfangs](#scopes-feature) .)
+- **Umfang** – Notaðu þennan valkost til að tilgreina aðstæður sem staðsetningarleiðbeiningin verður notuð í. Þessi valkostur kemur í staðinn fyrir valkostinn **Margar birgðahaldseiningar** og er aðeins í boði ef kveikt er á eiginleikanum *Umfang staðsetningarleiðbeininga* í kerfinu. (Frekari upplýsingar er að finna í [Kveikja eða slökkva á eiginleika fyrir umfang staðsetningarleiðbeininga](#scopes-feature)).
 
-    | Umfangsstilling | Ein pöntun með einum hlut | Margar pantanir með sama hlut | Ein pöntun með mörgum hlutum | Margar pantanir með mörgum hlutum |
+    | Stillingar umfangs | Ein pöntun með einu atriði | Margar pantanir með sama hlut | Ein pöntun með mörgum atriðum | Margar pantanir með mörgum atriðum |
     |---|---|---|---|---|
     | Ein vara | Já | Já | Nr. | Nr. |
     | Margar vörur | Nr. | Nr. | Já | Já |
     | Ein vara eða pöntun | Já | Já | Já | Nr. |
     | Allir | Já | Já | Já | Já |
 
-    Eftirfarandi tafla lýsir því hvenær umfangið er tiltækt og hvort það leyfir **Breyta fyrirspurn** virka.
+    Eftirfarandi tafla lýsir því hvenær umfangið er í boði og hvort það leyfir aðgerðina **Breyta fyrirspurn**.
 
-    | Umfang | Stydd vinnutegund | Stuðlar gerðir verkbeiðna | Leyfa Breyta fyrirspurn |
+    | Umfang | Studd vinnugerð | Tegundir studdra verkbeiðna | Leyfa fyrirspurn um breytingu |
     |---|---|---|---|
     | Ein vara | Allir | Allir | Já |
     | Margar vörur | Allir | Allir | Nr. |
-    | Ein vara eða pöntun | Setur | Sam- og aukaafurð sett í burtu, fullunnar vörur settar í burtu, kanban settar í burtu, innkaupapantanir, gæðapantanir, áfyllingar, skilapantanir, sölupantanir, flutningsútgáfa og flutningskvittun | Já |
-    | Allir | Setur | Allir | Nr. |
+    | Ein vara eða pöntun | Frágangur | Aukaafurð og frágangur aukaafurðar, frágangur fullunninar vöru, frágangur kanban, innkaupapantanir, gæðapantanir, áfylling, skilapantanir, sölupantanir, flutningsútgáfa og flutningskvittun | Já |
+    | Allir | Frágangur | Allir | Nr. |
 
     > [!NOTE]
-    > - Til að gera útsetningar fyrir bæði marga hluti og staka hluti verður þú að tryggja að staðsetningartilskipanir séu til sem ná yfir báðar aðstæður. Til dæmis gætirðu sett upp einn eða fleiri *Einn vara eða pöntun* staðsetningartilskipanir til að ná yfir aðstæður sem krefjast fínstillingar (svo sem með breytingum á fyrirspurninni), og síðan eina eða fleiri *Allt* staðsetningartilskipanir til að ná yfir þær aðstæður sem eftir eru.
-    > - Samt *Einn hlutur* og *Margir hlutir* Hægt er að nota svigrúm til að setja, þessi nálgun leiðir venjulega til óþarfa stillingar. Íhugaðu að nota *Einn vara eða pöntun* og *Allt* svigrúm í staðinn, vegna þess að þessi aðferð mun framleiða hreinni uppsetningu.
+    > - Til að gera frágang fyrir bæði margar vörur og stakar vörur þarf að ganga úr skugga um að staðsetningarleiðbeiningin sé til sem nær yfir báðar aðstæðurnar. Þú gætir til dæmis sett upp eina eða fleiri *Ein vara eða pöntun* staðsetningarleiðbeiningar til að ná yfir aðstæður sem krefjast fínstillingar (t.d. í gegnum breytingar á fyrirspurninni) og síðan eina eða fleiri *Allt* staðsetningarleiðbeiningar til að ná yfir eftirstandandi aðstæður.
+    > - Þótt hægt sé að nota umfangið *Ein vara* og *Margar vörur* fyrir frágang, leiðir þessi nálgun yfirleitt til óþarfa skilgreininga. Íhugaðu að nota umfangið *Ein vara eða pöntun* og *Allt* í staðinn því að þessi nálgun mun framleiða hreinni uppsetningu.
 
-- **Margir SKU** – Notaðu þennan valkost til að tilgreina atburðarásina sem staðsetningartilskipuninni verður beitt á. Þessari stillingu er skipt út fyrir **Umfang** stilling ef *Gildissvið staðsetningartilskipunar* kveikt er á eiginleikanum í kerfinu þínu. (Nánari upplýsingar er að finna í [Kveiktu eða slökktu á eiginleikanum Staðsetningarleiðbeiningar umfangs](#scopes-feature) .) Stilltu þennan valkost á *Já* til að gera kleift að nota margar lagerhaldseiningar (SKUs) á staðsetningu. Til dæmis verður að virkja margar birgðahaldseiningar fyrir staðsetningu útskots. Ef margar birgðahaldseiningar eru virkjaðar verður frágangsstaðsetningin tilgreind í vinnu eins og ætlast er til. Hins vegar getur frágangsstaðsetningin aðeins höndlað frágang á mörgum vörum (ef vinna felur í sér mismunandi birgðahaldseiningar sem þarf að taka til og ganga frá). Hún getur ekki höndlað frágang á einni birgðahaldseiningu. Ef þessi valkostur er stilltur á *Nei* verður frágangsstaðsetningin aðeins tilgreind ef frágangurinn er með aðeins eina birgðahaldseiningu.
+- **Margar birgðahaldseiningar** – Notaðu þennan valkost til að tilgreina aðstæður þar sem staðsetningarleiðbeiningin verður notuð í. Þessari stillingu er skipt út fyrir stillinguna **Umfang** ef kveikt er á eiginleikanum *Umfang staðsetningarleiðbeininga* í kerfinu. (Frekari upplýsingar er að finna í [Kveikja eða slökkva á eiginleika fyrir umfang staðsetningarleiðbeininga](#scopes-feature).) Stilltu þennan valkost á *Já* til að virkja margar birgðahaldseiningar til að nota á staðsetningu. Til dæmis verður að virkja margar birgðahaldseiningar fyrir staðsetningu útskots. Ef margar birgðahaldseiningar eru virkjaðar verður frágangsstaðsetningin tilgreind í vinnu eins og ætlast er til. Hins vegar getur frágangsstaðsetningin aðeins höndlað frágang á mörgum vörum (ef vinna felur í sér mismunandi birgðahaldseiningar sem þarf að taka til og ganga frá). Hún getur ekki höndlað frágang á einni birgðahaldseiningu. Ef þessi valkostur er stilltur á *Nei* verður frágangsstaðsetningin aðeins tilgreind ef frágangurinn er með aðeins eina birgðahaldseiningu.
 
     > [!IMPORTANT]
     > Til að geta notað bæði frágang á mörgum vörum og einni birgðahaldseiningu þarf að tilgreina tvær línur sem eru með sama skipulag og uppsetningu, en stilla þarf valkostinn **Margar birgðahaldseiningar** á *Já* fyrir eina línu og *Nei* fyrir hinar. Þar af leiðandi þarf fyrir frágangsaðgerðir að hafa tvær eins staðsetningarleiðbeiningar, jafnvel þótt ekki þurfi að greina á milli einnar birgðahaldseiningar og margra birgðahaldseininga á verkkenni. Ef báðar þessar staðsetningarleiðbeiningar eru ekki settar upp birtast oft óvæntar staðsetningar viðskiptaferla frá notaðri staðsetningarleiðbeiningu. Nota þarf sams konar uppsetningu fyrir staðsetningarleiðbeiningar sem eru með **Verkgerðina** *tiltekt* ef þarf að vinna úr pöntunum sem innihalda margar birgðahaldseiningar.
@@ -200,7 +200,7 @@ Reitirnir í flýtiflipanum **Staðsetningarleiðbeiningar** eru sértækir fyri
 - **Viðeigandi ráðstöfunarkóði** - Tilgreinið ef ráðstöfunarkóði staðsetningarleiðbeiningar þarf að samræmast ráðstöfunarkóðanum sem er notaður þegar varan er móttekin eða hvort hægt er að velja staðsetningarleiðbeininguna út frá hvaða ráðstöfunarkóða sem er. Ef valið er *Nákvæmt samræmi* og reitur fyrir **ráðstöfunarkóða** er auður, koma aðeins auðir ráðstöfunarkóðar til greina fyrir þessa staðsetningartilskipun.
 
     > [!NOTE]
-    > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Fyrir heildarlista, sjá [Reitir sem eru sérstakir fyrir gerðir verkbeiðna](#fields-specific-types) kafla fyrr í þessari grein.
+    > Þessi reitur er aðeins í boði fyrir valdar gerðir verkbeiðni þar sem áfylling er leyfð. Ítarlegan lista er að finna í hlutanum [Reitir sem eru sértækir fyrir verkbeiðnigerðir](#fields-specific-types) fyrr í þessari grein.
 
 - **Staðsetja eftir** - Tilgreinið hvort frágangsmagnið eigi að vera allt magnið í númeraplötunni eða hvort það eigi að vera vöru eftir vöru. Nota skal þennan reit til að tryggja að allt innihaldið á númeraplötu sé sett á eina staðsetningu og að kerfið leggi ekki til að skipt verði upp innihaldinu á nokkrar staðsetningar fyrir **ASN** (móttaka númeraplötu), móttaka **Blandaðrar númeraplötu** og móttökuferli **Klasa**. (Móttökuferli **Klasa** krefst þess að kveikt verði á eiginleikanum [Klasafrágangur](putaway-clusters.md).) Hegðun fyrirspurnar staðsetningarleiðbeiningar, línanna og aðgerðir staðsetningarleiðbeiningar verða mismunandi, eftir því hvaða gildi er valið. Flýtiflipinn **Línur** er aðeins notaður þegar **Staðsetja eftir** er stilltur á *Vara*.
 
@@ -292,6 +292,6 @@ Eftir að þú stofnar staðsetningarleiðbeiningar getur þú tengir hvert tils
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - Myndskeið: [Ítarleg greining á grunnstillingum vöruhúsastjórnunar](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Hjálpargrein: [Stjórna vöruhúsavinnu með því að nota vinnusniðmát og staðsetningarleiðbeiningar](control-warehouse-location-directives.md)
+- Hjálpargrein: [Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar](control-warehouse-location-directives.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

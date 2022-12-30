@@ -1,6 +1,6 @@
 ---
 title: Staðfesta og flytja
-description: Þessi grein útskýrir hvernig á að nota eiginleikann Staðfesta og flytja, sem gerir notendum kleift að senda farm út úr vöruhúsinu áður en þeir ljúka allri vinnu sem tengist þessum farmi.
+description: Í þessari grein útskýrt hvernig á að nota eiginleikann „Staðfesta og flytja“, sem gerir notendum kleift að senda farma úr vöruhúsinu áður en allri vinnu er lokið sem tengist þessum förmum.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 9257d8f9e6ed62ac0b19b0cdc8fd858e8b2f97a3
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8900565"
@@ -53,13 +53,13 @@ Aðeins er hægt að skipta upp farmi sem uppfyllir öll eftirfarandi skilyrði:
 >
 > Notið eiginleikann *Staðfesta og flytja* í aðstæðum þar sem farmar eru venjulega áætlaðir og búnir til fyrir tíma, en þar sem undantekningar koma stundum fyrir þar sem farmurinn passar ekki í tiltækan flutning (t.d. í flutningabíl).
 
-## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Kveiktu eða slökktu á staðfestingar- og flutningsaðgerðinni
+## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Kveikir eða slekkur á staðfestingar- og flutningseiginleikanum
 
-Til að nota virknina sem lýst er í þessari grein, *Staðfesta og flytja* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Staðfesta og flytja* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota virknina sem lýst er í þessari grein þarf að kveikja á eiginleikanum *Staðfesta og flytja* fyrir kerfið. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Staðfesta og flytja* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-confirm-and-transfer"></a>Setja upp staðfesta og flytja
 
-Til að nota eiginleikann *Staðfesta og flytja* þarf að kveikja á honum í öllum hleðslusniðmátum sem eiga við. Það fer eftir þörfum, en að auki gæti verið gott að undirbúa vinnusniðmátin til að styðja við eiginleikann. Ef þú vilt vinna í gegnum dæmið sem er að finna síðar í þessari grein skaltu setja upp kerfið eins og lýst er í þessum hluta. (Þessar aðstæður byggja á **USMF** sýnigögnum.)
+Til að nota eiginleikann *Staðfesta og flytja* þarf að kveikja á honum í öllum hleðslusniðmátum sem eiga við. Það fer eftir þörfum, en að auki gæti verið gott að undirbúa vinnusniðmátin til að styðja við eiginleikann. Ef á að vinna í gegnum sýniaðstæðurnar sem boðið er upp á seinna í þessari grein, skal setja kerfið eins og lýst er í þessum hluta. (Þessar aðstæður byggja á **USMF** sýnigögnum.)
 
 ### <a name="prepare-your-load-templates"></a>Undirbúið hleðslusniðmátin
 
@@ -69,7 +69,7 @@ Til að nota eiginleikann *Staðfesta og flytja* þarf að kveikja á honum í �
 
 ### <a name="prepare-your-work-templates"></a>Undirbúið vinnusniðmátið
 
-Þessi uppsetning er ekki nauðsynleg í öllum aðstæðum. Dæmið sem sýnt er hér tryggir að hægt sé að rjúfa vinnu með sendingu til að styðja dæmið sem er að finna síðar í þessari grein. Einnig eru aðrar leiðir til að ná þessari útkomu.
+Þessi uppsetning er ekki nauðsynleg í öllum aðstæðum. Dæmið sem hér er sýnt tryggir að hægt sé að skipta verki eftir sendingu til að styðja sýniaðstæðurnar sem boðið er upp á seinna í þessari grein. Einnig eru aðrar leiðir til að ná þessari útkomu.
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vinna \> Vinnusniðmát**.
 1. Í hnitanetinu í efri hluta síðunnar skal velja fyrirliggjandi vinnusniðmát þar sem á að setja upp eiginleikann *Staðfesta og flytja*. (Ef unnið er með **USMF** sýnigögnin skal velja vinnusniðmátið **51 Tína fyrir geymslustað**.) Annars skal stofna nýtt vinnusniðmát.

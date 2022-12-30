@@ -1,6 +1,6 @@
 ---
 title: Losunarreglur
-description: Þessi grein lýsir fjórum skolunarreglunum sem eru notaðar við hráefnisnotkun.
+description: Þessi grein útskýrir fjórar losunarreglur sem eru notaðar fyrir hráefnisnotkun.
 author: johanhoffmann
 ms.date: 04/04/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 89fd38ea6d2c1635e9d8974ab99c2e4cdae4d6be
 ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9266429"
@@ -50,7 +50,7 @@ Losunarreglurnar eru skilgreindar í stigveldi sjálfgilda. Stigveldi byrjar á 
 ## <a name="description-of-the-flushing-principles"></a>Lýsing á losunarreglum
 
 ### <a name="manual"></a>Handvirkt
-Handvirka losunarregla gefur til kynna að skráning á efnisnotkun sé handvirk aðgerð. Þessi regla á við ef þú vilt til dæmis geta rakið tíma, og fjöldi notaðra rununúmera eða raðnúmera þarf að vera tekinn með í rakninguna. Handvirk notkun er skráð í tiltektarlista framleiðslubókar. Fyrir vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli (WMS) er hægt að beita handflæði.
+Handvirka losunarregla gefur til kynna að skráning á efnisnotkun sé handvirk aðgerð. Þessi regla á við ef þú vilt til dæmis geta rakið tíma, og fjöldi notaðra rununúmera eða raðnúmera þarf að vera tekinn með í rakninguna. Handvirk notkun er skráð í tiltektarlista framleiðslubókar. Fyrir hluti sem eru virkjaðir fyrir vöruhúsakerfisferli (WMS) er hægt að beita handstýrðu flæði.
 
 ### <a name="start"></a>Hefst
 Losunarreglan Ræsa gefur til kynna að efni verði sjálfkrafa notað þegar framleiðslupöntun er ræst. Magn efnis sem er notað er í hlutfalli við magnið sem er ræst. Þegar losunarreglan Ræsa er notuð ásamt framleiðslukerfinu er einnig hægt að nota hana til að losa efni þegar aðgerð eða ferlisvinnsla er ræst. Þessi regla á til dæmis við ef frávik í notkuninni eru lítil, efnið er lágvirðisefni, það eru engar rakningarkröfur eða ef aðgerðir hafa stuttan keyrslutíma. 
@@ -59,7 +59,7 @@ Losunarreglan Ræsa gefur til kynna að efni verði sjálfkrafa notað þegar fr
 Losunarreglan Ljúka gefur til kynna að efni verði sjálfkrafa notað þegar tilkynnt er að framleiðslupöntun sé lokið, eða þegar skráð er að aðgerð sem ætlað er að nota efnið sé lokið. Magn efnis sem er notað er í hlutfalli við magnið sem er skráð sem lokið. Þegar losunarreglan Ljúka er notuð ásamt framleiðslukerfinu er einnig hægt að nota hana til að losa efni þegar aðgerð eða ferlisvinnslu er lokið. Þessi regla á við við sömu aðstæður og reglan Ræsa. Aftur á móti er reglan Ljúka fyrir aðgerðir sem hafa lengri keyrslutíma, þar sem ekki ætti að stilla efni á VÍV áður en aðgerðinni er lokið.
 
 > [!NOTE]
-> Þú getur ekki notað klára skolunarregluna ásamt skipulagshlutum. Þess í stað mælum við með því að þú notir Start skolunarregluna. Skipulagsatriði hafa framleiðslutegund af *skipulagsliður*, og aðeins er hægt að tilkynna sam- og aukaafurðir sem fullunnar á runupantanir sem eru búnar til fyrir áætlunarvörur.
+> Ekki er hægt að nota losunarregluna „Ljúka“ saman með vörum áætlanagerðar. Í staðinn er mælt með að nota losunarregluna „Byrja“. Áætlunarvörur eru með framleiðslugerðina *áætlunarvara* og aðeins er hægt að tilkynna aukaafurðir og hliðarafurður sem loknar í runupöntunum sem eru stofnaðar fyrir áætlunarvörurnar.
 
 ### <a name="available-at-location"></a>Tiltækt í staðsetningu
 Losunarreglan Tiltækt í staðsetningu gefur til kynna að efnið verði sjálfkrafa notað þegar það er skráð sem tekið til fyrir framleiðslu. Efnið er skráð sem tekið til frá staðsetningu þegar vinnu við tiltekt á hráefni er lokið, eða þegar efni er tiltækt á staðsetningu framleiðsluinntaks og efnislínan er losuð til vöruhússins. Tiltektarlistinn sem verður til í ferlinu er birtur í runuvinnslu. Þessi regla á til dæmis við ef ert með marga tiltektarverkþætti á móti einni framleiðslupöntun. Í þessu tilfelli þarf ekki að uppfæra tiltektarlistann handvirkt, og þú færð núverandi yfirlit yfir VÍV-stöðuna.

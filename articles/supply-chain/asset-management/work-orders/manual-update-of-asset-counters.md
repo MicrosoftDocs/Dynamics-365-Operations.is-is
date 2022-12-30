@@ -1,6 +1,6 @@
 ---
 title: Handvirk uppfærsla á eignateljurum
-description: Þessi grein lýsir handvirkri uppfærslu á eignateljara í eignastýringu.
+description: Þessi grein lýsir handvirkri uppfærslu á eignateljurum í Eignastýringu.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 30c672286c16a4353556a507019960edb93f8b1b
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016595"

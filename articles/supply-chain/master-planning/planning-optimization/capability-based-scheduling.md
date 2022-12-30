@@ -1,6 +1,6 @@
 ---
 title: Áætlun með vali á tilföngum út frá getu
-description: Þessi grein lýsir vali á tilföngum við óendanlega afkastagetu tímasetningu þegar þú tilgreinir getu sem tilfangaþörf fyrir aðgerð.
+description: Þessi grein lýsir val á tilfangi í áætlanagerð ótakmarkaðrar afkastagetu þegar möguleikar eru tilgreindir sem tilfangaþarfir fyrir aðgerð.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: 176f40ad8cd1aa1831bbe50c0ebd91ec0cc3bc89
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9739899"
@@ -22,11 +22,11 @@ ms.locfileid: "9739899"
 
 [!include [banner](../../includes/banner.md)]
 
-Með því að tilgreina tilfangaþarfir fyrir aðgerð framleiðsluleiðar skilgreinir þú það sem þarf til að framkvæma aðgerðina. Til dæmis gæti aðgerð þurft tiltekið tilfang eða tilfangaflokk eða samsetningu af hæfni eða getu. Þessi grein lýsir vali á tilföngum við óendanlega afkastagetu tímasetningu þegar þú tilgreinir getu sem tilfangaþörf fyrir aðgerð.
+Með því að tilgreina tilfangaþarfir fyrir aðgerð framleiðsluleiðar skilgreinir þú það sem þarf til að framkvæma aðgerðina. Til dæmis gæti aðgerð þurft tiltekið tilfang eða tilfangaflokk eða samsetningu af hæfni eða getu. Þessi grein lýsir val á tilfangi í áætlanagerð ótakmarkaðrar afkastagetu þegar möguleikar eru tilgreindir sem tilfangaþarfir fyrir aðgerð.
 
-## <a name="turn-the-capability-based-scheduling-feature-on-or-off"></a>Kveiktu eða slökktu á aðgerðinni sem byggir á getu
+## <a name="turn-the-capability-based-scheduling-feature-on-or-off"></a>Kveikir eða slekkur á áætlun sem byggir á getu
 
-Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er kveikt á eiginleikanum sjálfgefið. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Óendanlega getu tímaáætlun fyrir áætlanagerð hagræðingu* eiginleiki í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika þarf að kveikja á honum fyrir kerfið þitt. Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að eiginleikanum *Takmörkuð afkastagetuáætlun fyrir fínstillingu áætlanagerðar* á vinnusvæðinu [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Nánari upplýsingar um þennan eiginleika má finna í [Röðun með ótakmarkaða getu](infinite-capacity-planning.md).
 
@@ -43,7 +43,7 @@ Til að úthluta getu á tilfang aðgerðar skal nota flýtiflipann **Geta** á 
 - **Gildistími** – Tilgreindu fyrstu dagsetninguna þegar úthlutun tilfangs eða getu á við. Meðan á áætlanagerð stendur mun kerfið ekki nota tilfang eða getu sem er með útrunna úthlutun á getu, jafnvel þótt þetta tilfang uppfyllir kröfurnar að öðru leyti.
 - **Fyrning** – Tilgreindu síðustu dagsetninguna þegar úthlutun tilfangs eða getu á við. Meðan á áætlanagerð stendur mun kerfið ekki nota tilfang eða getu sem er með útrunna úthlutun á getu, jafnvel þótt þetta tilfang uppfyllir kröfurnar að öðru leyti.
 - **Stig** – Tilgreindu hversu mikla færni tilfangið verður að vera með fyrir getuna. Ef þú tilgreinir síðan gildi fyrir **Lágmarksstig sem þarf** fyrir kröfu tilfangs eða getu tekur röðunarvélin til greina stig færni við val á tilfangi. Kerfið velur þá aðeins°tilföng°sem hafa nauðsynlega getu á stigi sem er jafnt eða°meira en lágmarksstig sem tilgreint er í tilfangakröfunni.
-- **Forgangur** – Þessi reitur er enn ekki studdur af fínstillingu áætlanagerðar. Hins vegar, ef þú ert að nota úreltu aðalskipulagsvélina geturðu notað **Forgangur** reit í auðlindinni eða getuúthlutuninni til að skilgreina auðlindaforganginn. Ef *Forgangur* er valinn á svæðinu **Aðalval tilfanga** á síðunni **Röðunarfæribreytur** velur kerfið fyrst það tilfang sem hefur mestan forgang (það er lægsta tölulegt gildi á reitnum **Forgangur** i) við röðun.
+- **Forgangur** – Þessi reitur er enn ekki studdur af fínstillingu áætlanagerðar. Ef þú ert hins vegar að nota úreltu áætlunarvélina getur þú notað reitinn **Forgangur** í úthlutun tilfangs eða getu til að skilgreina forgang tilfangs. Ef *Forgangur* er valinn á svæðinu **Aðalval tilfanga** á síðunni **Röðunarfæribreytur** velur kerfið fyrst það tilfang sem hefur mestan forgang (það er lægsta tölulegt gildi á reitnum **Forgangur** i) við röðun.
 
 ## <a name="example"></a>Dæmi
 

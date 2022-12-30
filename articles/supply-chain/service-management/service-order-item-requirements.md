@@ -1,6 +1,6 @@
 ---
 title: Vöruþörf þjónustupantana
-description: Þessi grein lýsir kröfum um þjónustupöntunarvöru.
+description: Þessi grein lýsir vöruþörfum þjónustupöntunar.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 376cda6bbe1800611e6f24c347b9035469a30a14
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015173"
@@ -36,7 +36,7 @@ Um leið og vöruþörf er stofnuð fyrir þjónustupöntun er hægt að skoða 
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Skoða vöruþörf úr þjónustupöntun
 
-1. Fara til **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1. Velji **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 1. Veldu **Afgreiða** og veldu síðan **Vöruþörf** til að opna skjámyndina **Vöruþarfir**.
 1. Veldu flipann **Verkefni** og athugaðu reitinn **Þjónustupöntun** til að sjá þjónustupantanir vörukröfunnar.
 
@@ -44,7 +44,7 @@ Um leið og vöruþörf er stofnuð fyrir þjónustupöntun er hægt að skoða 
 
 Ef vöruþörf er búin til í þjónustupöntun er ekki hægt að eyða þjónustupöntuninni. Fyrst þarf að eyða vöruþörfinni áður en hægt er að eyða þjónustupöntuninni.
 
-1. Fara til **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1. Velji **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 1. Veldu **Afgreiða** og veldu síðan **Vöruþörf** til að opna skjámyndina **Vöruþarfir**. Skjámyndin birtir lista yfir vöruþarfir sem eru myndaðar á þjónustupöntun.
 1. Veldu vöruþörfina sem á að eyða og veldu síðan **Eyða**.
 

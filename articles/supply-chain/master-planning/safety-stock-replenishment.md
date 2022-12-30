@@ -1,6 +1,6 @@
 ---
 title: Uppfylling öryggisbirgða fyrir vörur
-description: Þessi grein fjallar um uppfyllingu öryggisbirgða og hvernig á að setja upp öryggisbirgðamagn fyrir vörur.
+description: Þessi grein fjallar um uppfylling öryggisbirgða og hvernig á að setja upp magn öryggis birgðir fyrir vörur.
 author: t-benebo
 ms.date: 8/23/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
 ms.openlocfilehash: 70461ad1de94c984cb41e6b1d46af9e310a928d6
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8887400"
@@ -88,7 +88,7 @@ Ef **Lágmarkslyklar** eru notaðir skal velja gátreitinn **Lágmarkstímabil**
 Eftirfarandi atburðarás sýnir hvernig þessi breytur virkar og hvað er munurinn á gildum þess.
 
 > [!NOTE]
-> Fyrir allar myndirnar í þessari grein táknar x-ásinn birgðahald, y-ásinn táknar daga, súlurnar tákna birgðastigið, örvarnar tákna færslur, eins og sölupöntunarlínur, innkaupapöntunarlínur eða áætlaðar pantanir.
+> Fyrir allar myndirnar í þessari grein táknar x-ásinn birgðir, y-ásinn táknar daga, strikin tákna birgðastigið, örvarnar tákna færslur, svo sem sölupöntunarlínur, innkaupapöntunarlínur eða áætlaðar pantanir.
 
 [![Algengar aðstæður fyrir uppfyllingu öryggisbirgða.](media/Scenario1.png)](media/Scenario1.png)
 

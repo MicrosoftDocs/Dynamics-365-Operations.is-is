@@ -1,6 +1,6 @@
 ---
 title: Þekjutímamörk
-description: Þessi grein lýsir því hvernig á að setja upp verndartímagirðingar. Þekjutímamörk gefa til kynna áætlunartímabilið og mörkin.
+description: Þessi grein lýsir því hvernig afurðir eru settar upp í þekjutímamörkum. Þekjutímamörk gefa til kynna áætlunartímabilið og mörkin.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 987dea4c1b693fc1bb687f97d51288d5e51e7d4c
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740114"
@@ -27,7 +27,7 @@ ms.locfileid: "9740114"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að setja upp *umfjöllunartíma girðingar*. Skipuleggjendur geta skilgreint áætlunartímabilið (þekjutímamörkin í dögum) og sleppt framboði og eftirspurn sem fellur utan tímabilsins. Þekjutímamörk hjálpa þar af leiðandi til við að koma í veg fyrir „hávaða“ af völdum tillagna um framboð sem þarf ekki að bregðast við næstu mánuðina. Sem dæmi má nefna spá næsta ár og pantanir viðskiptavina sem eru settar langt umfram venjulegs afhendingartíma.
+Þessi grein lýsir því hvernig afurðir eru settar upp í *þekjutímamörkum* . Skipuleggjendur geta skilgreint áætlunartímabilið (þekjutímamörkin í dögum) og sleppt framboði og eftirspurn sem fellur utan tímabilsins. Þekjutímamörk hjálpa þar af leiðandi til við að koma í veg fyrir „hávaða“ af völdum tillagna um framboð sem þarf ekki að bregðast við næstu mánuðina. Sem dæmi má nefna spá næsta ár og pantanir viðskiptavina sem eru settar langt umfram venjulegs afhendingartíma.
 
 Þekjutímamörk er fjöldi daga eftir daginn í dag (m.ö.o. dagsetningin þegar áætlunarkeyrslan er sett í gang) sem framboði og eftirspurn er sleppt. Til að koma í veg fyrir tafir þarf að ganga úr skugga um að tímamörk fyrir umfang séu lengri en afhendingartími alls. Sjálfgefna kerfisgildið er 100 dagar.
 
@@ -82,9 +82,9 @@ Til að tilgreina Þekjutímamörk fyrir tiltekna aðaláætlun skal fylgja þes
 - Þarfafærslur verða ekki myndaðar fyrir neitt framboð og eftirspurn sem fellur utan við þekjutímamörk.
 - Ef samþykkt framboð og eftirspurn fellur utan þekjutímamörkin verður því ekki hlaðið inn í vélina. Því kveikir það ekki á neinni áfyllingu og tafir verða ekki reiknaðar. Engu að síður ætti þessu framboði og eftirspurn ekki að vera eytt úr kerfinu.
 - Frávik á magni öryggisbirgða (úr lágmarkslyklum) verður hunsað ef það fellur utan þekjutímamarka.
-- Eftirspurn innan samstæðu verður hunsuð ef umbeðin sendingardagsetning sem er reiknuð er ekki innan þekjutímamarka. Athugaðu að fyrir úrelda aðalskipulagsvél er eftirspurn milli fyrirtækja ekki takmörkuð af þekjutíma.
-- Eftirspurnarspár verða hunsaðar ef dagsetning fjárhagsáætlunar er ekki innan þekjutímamarka. Athugaðu að, fyrir úrelda aðalskipulagsvél, takmarkast eftirspurnarspár ekki af þekjutíma.
-- Fínstilling skipulagningar tekur tillit til tímabeltis. Hún tekur tillit til tímabeltis á svæðum framboðs og eftirspurn og tíma áætlunarkeyrslu. Til dæmis er aðaláætlanagerð ræst klukkan 11:00 þann 15. október frá svæði í Danmörku (tímabelti GMT+1) og Þekjutímamörk upp á tíu daga eru notuð. Í slíku tilfelli er framboð og eftirspurn frá svæði í Seattle (tímabelti GMT-8) haft með þangað til kl. 02:00 þann 25. október (= tíu sólarhringa eftir að aðaláætlanagerð var ræst mínus tímamismunur upp á níu klukkustundir). Athugaðu að úrelta aðalskipulagsvélin tekur aðeins til greina dagsetningu tímagirðingar. Þess vegna getur útkoman verið önnur.
+- Eftirspurn innan samstæðu verður hunsuð ef umbeðin sendingardagsetning sem er reiknuð er ekki innan þekjutímamarka. Athugaðu að fyrir úrelta aðaláætlunarvél takmarkast eftirspurn innan samstæðu ekki af þekjutímamörkum.
+- Eftirspurnarspár verða hunsaðar ef dagsetning fjárhagsáætlunar er ekki innan þekjutímamarka. Athugaðu að fyrir úrelta aðaláætlunarvél takmarkast eftirspurnarspár innan samstæðu ekki af þekjutímamörkum.
+- Fínstilling skipulagningar tekur tillit til tímabeltis. Hún tekur tillit til tímabeltis á svæðum framboðs og eftirspurn og tíma áætlunarkeyrslu. Til dæmis er aðaláætlanagerð ræst klukkan 11:00 þann 15. október frá svæði í Danmörku (tímabelti GMT+1) og Þekjutímamörk upp á tíu daga eru notuð. Í slíku tilfelli er framboð og eftirspurn frá svæði í Seattle (tímabelti GMT-8) haft með þangað til kl. 02:00 þann 25. október (= tíu sólarhringa eftir að aðaláætlanagerð var ræst mínus tímamismunur upp á níu klukkustundir). Athugið að úrelt aðaláætlunarvél tekur aðeins tillit til dagsetningu tímamarkanna. Þess vegna getur útkoman verið önnur.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

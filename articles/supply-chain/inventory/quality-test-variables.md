@@ -1,6 +1,6 @@
 ---
 title: Prófunarbreytur gæðastjórnunar
-description: Þessi grein lýsir því hvernig á að búa til prófunarbreytur sem hægt er að nota fyrir eigindlegar prófanir á gæðapöntunum í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir því hvernig eigi að stofna prufubreytur sem hægt er að nota til eðlisbundinna prófana á gæðapöntunum í Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 10fe206b76f2e50e09cb6aaa6055614c2fe9425d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8857635"
@@ -27,7 +27,7 @@ ms.locfileid: "8857635"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að búa til prófunarbreytur sem hægt er að nota fyrir eigindlegar prófanir á gæðapöntunum í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein lýsir því hvernig eigi að stofna prufubreytur sem hægt er að nota til eðlisbundinna prófana á gæðapöntunum í Microsoft Dynamics 365 Supply Chain Management.
 
 Fyrir hvert gæðapróf sem er skilgreint á síðunni **Prófanir** þarf að skilgreina prófunarbreytu og mögulegar útkomur hennar (niðurstöður). (Fyrir gæðaprófanir er reiturinn **Gerð** á síðunni **Prófanir** stilltur á *Valkostur*.)
 

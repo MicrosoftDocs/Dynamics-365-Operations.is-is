@@ -1,6 +1,6 @@
 ---
 title: Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu
-description: Þessi grein útskýrir hvernig á að nota fyrst inn, fyrst út (FIFO) og síðast inn, fyrst út (LIFO) staðsetningarleiðbeiningar við tínslu.
+description: Þessi grein útskýrir hvernig á að nota fyrst inn, fyrst út (FIFO) og síðast inn , fyrst út (LIFO) aðferðir staðsetningarleiðbeiningarinnar við tiltekt.
 author: Mirzaab
 ms.date: 08/09/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 4ed1308ea36b731b156b518182846b60a59528d5
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335616"
@@ -24,7 +24,7 @@ ms.locfileid: "9335616"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að nota fyrst inn, fyrst út (FIFO) og síðast inn, fyrst út (LIFO) staðsetningarleiðbeiningar við tínslu. Þessar aðferðir vinna saman með aldursdagsetningarnar sem eru skráðar fyrir staðsetningar til að rekja þegar birgðir voru fyrst færðar inn í vöruhúsið. Eiginleikinn *Staðsetningarleiðbeining fyrir aldursgreiningu birgðatínslu* notar dagsetningu í staðsetningunni til að ákvarða aldur. Eiginleikinn *Staðsetningarstaða vöruhúss* uppfærir dagsetninguna í staðsetningunni út frá dagsetningunni í númeraplötunni.
+Þessi grein útskýrir hvernig á að nota fyrst inn, fyrst út (FIFO) og síðast inn , fyrst út (LIFO) aðferðir staðsetningarleiðbeiningarinnar við tiltekt. Þessar aðferðir vinna saman með aldursdagsetningarnar sem eru skráðar fyrir staðsetningar til að rekja þegar birgðir voru fyrst færðar inn í vöruhúsið. Eiginleikinn *Staðsetningarleiðbeining fyrir aldursgreiningu birgðatínslu* notar dagsetningu í staðsetningunni til að ákvarða aldur. Eiginleikinn *Staðsetningarstaða vöruhúss* uppfærir dagsetninguna í staðsetningunni út frá dagsetningunni í númeraplötunni.
 
 Hægt er að nota FIFO og LIFO-áætlanir til að senda bæði runuraktar vörur og ekki runuraktar vörur, byggt á dagsetningunni þegar birgðir voru færðar inn í vöruhúsið. Þessi eiginleiki getur verið mjög gagnlegur fyrir birgðir án runurakningar þar sem enga lokadagsetningu er hægt að nota til að raða eftir.
 
@@ -34,7 +34,7 @@ Hægt er að nota FIFO og LIFO-áætlanir til að senda bæði runuraktar vörur
 
 Til að gera þennan eiginleika tiltækan skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) í þessari röð:
 
-1. *Staða vöruhúss* (Frá og með útgáfu 10.0.29 er þessi eiginleiki nauðsynlegur og ekki hægt að slökkva á honum. Fyrir frekari upplýsingar, sjá [Staða vöruhúss](warehouse-location-status.md) .)
+1. *Staðsetningarstaða vöruhúss* (Frá og með útgáfu 10.0.29 er þessi eiginleiki áskilinn og ekki er hægt að slökkva á honum. Frekari upplýsingar er að finna í [Staðsetningarstaða vöruhúss](warehouse-location-status.md).)
 1. *Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu*
 
 ## <a name="feature-requirements"></a>Kröfur eiginleika

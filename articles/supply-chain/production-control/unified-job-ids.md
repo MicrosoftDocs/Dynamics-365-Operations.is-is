@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.16
 ms.openlocfilehash: 301a4bb58f896a2dc0f0cddcd2e29344865ca898
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8897546"
@@ -25,7 +25,7 @@ ms.locfileid: "8897546"
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Kveikja á þessum eiginleika fyrir kerfið
 
-Ef kerfið þitt inniheldur ekki eiginleikann sem lýst er í þessari grein, farðu á [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveiktu á *Sameinuð númeraröð fyrir starfsauðkenni* eiginleiki.
+Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessari grein skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Samræmd númeraröð fyrir vinnslukenni*.
 
 ## <a name="set-up-the-unified-number-sequence-for-job-ids"></a>Setja upp samræmda númeraröð fyrir vinnslukenni
 

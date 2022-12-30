@@ -1,6 +1,6 @@
 ---
 title: Samstilla birgðaflutninga og leiðréttingar úr Field Service við Supply Chain Management
-description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla birgðaleiðréttingar og flutning frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+description: Þessi grein lýsir sniðmátunum og undirliggjandi verkefnum sem notuð eru til að samstilla birgðaleiðréttingar og flutninga úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 04/30/2019
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: e59e50a4f54bac749b3d860404a3ecd444d99a89
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8854095"
@@ -29,7 +29,7 @@ ms.locfileid: "8854095"
 
 
 
-Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla birgðaleiðréttingar og flutning frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+Þessi grein lýsir sniðmátunum og undirliggjandi verkefnum sem notuð eru til að samstilla birgðaleiðréttingar og flutninga úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 
 [![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/FSTransAdjOW.png)](./media/FSTransAdjOW.png)
 

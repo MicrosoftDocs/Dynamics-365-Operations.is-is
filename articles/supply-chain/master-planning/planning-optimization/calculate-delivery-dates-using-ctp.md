@@ -1,6 +1,6 @@
 ---
 title: Reikna afhendingardaga sölupöntunar með CTP
-description: Capable-to-promise (CTP) virkni gerir þér kleift að gefa viðskiptavinum raunhæfar dagsetningar fyrir hvenær þú getur lofað tilteknum vörum. Þessi grein lýsir því hvernig á að setja upp og nota CTP fyrir hverja áætlunarvél (Áætlanagerð fínstilling og úrelt aðalskipulagsvél).
+description: Með CTP-afhendingargeta (Óhætt að lofa) getur þú gefið viðskiptavinum raunhæfar dagsetningar fyrir hvenær þú getur lofað tilteknum vörum. Í þessari grein er því lýst hvernig á að setja upp og nota CTP-afhendingargetu fyrir hverja áætlunarvél (Fínstilling áætlanagerðar og aðaláætlunarvél).
 author: t-benebo
 ms.date: 07/20/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2022-07-20
 ms.dyn365.ops.version: 10.0.28
 ms.openlocfilehash: 4a3b8ba89d9fb224026cf32cad89d7f28321ee79
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9741204"
@@ -25,111 +25,111 @@ ms.locfileid: "9741204"
 <!-- KFM: Preview until further notice -->
 <!-- KFN: Split into two topics, one for PO and one for classic. -->
 
-Capable-to-promise (CTP) virkni gerir þér kleift að gefa viðskiptavinum raunhæfar dagsetningar fyrir hvenær þú getur lofað tilteknum vörum. Fyrir hverja sölulínu er hægt að gefa upp dagsetningu sem tekur mið af fyrirliggjandi lagerbirgðum, framleiðslugetu og flutningstíma.
+Með CTP-afhendingargeta (Óhætt að lofa) getur þú gefið viðskiptavinum raunhæfar dagsetningar fyrir hvenær þú getur lofað tilteknum vörum. Fyrir hverja sölulínu getur þú gefið upp dagsetningu sem tekur mið af lagerbirgðum, framleiðslugetu og flutningstíma.
 
-CTP framlengir [í boði að lofa](../../sales-marketing/delivery-dates-available-promise-calculations.md) (ATP) virkni með því að huga að getuupplýsingum. Á meðan ATP lítur aðeins á efnisframboð og gerir ráð fyrir óendanlegum getuauðlindum, þá lítur CTP á framboð á bæði efni og getu. Þess vegna gefur það raunsærri mynd af því hvort hægt sé að fullnægja eftirspurn innan ákveðins tímaramma.
+CTP endurbætir virkni ATP [(](../../sales-marketing/delivery-dates-available-promise-calculations.md)tiltækt-til-loforðs) með því að greina upplýsingar um afköst. Þar sem ATP tekur aðeins til greina efnislegt framboð og gerir ráð fyrir ótakmörkuðum afkastatilföngum tekur CTP tillit til bæði efnis og afkastagetu. Því gefur það raunhæfari mynd af því hvort hægt sé að fullnægja eftirspurn innan ákveðins tímaramma.
 
-CTP virkar aðeins öðruvísi, allt eftir aðalskipulagsvélinni sem þú ert að nota (Planning Optimization eða úrelta aðalskipulagsvélin). Þessi grein lýsir því hvernig á að setja það upp fyrir hverja vél. CTP fyrir fínstillingu áætlanagerðar styður sem stendur aðeins undirmengi af CTP-sviðsmyndum sem eru studdar af úreltu aðalskipulagsvélinni.
+CTP-afhendingargeta virka aðeins öðruvísi, eftir því hvaða aðaláætlunarvél þú notar (Fínstilling áætlanagerðar eða úreltu aðaláætlunarvélina). Í þessari grein er því lýst hvernig á að setja það upp fyrir hverja vél. CTP-afhendingargeta fyrir fínstilling skipulagningar styður eins og er aðeins hluta af þeim aðstæðum CTP-afhendingargetu sem eru studdar af úreltu aðaláætlunarvélinni.
 
-## <a name="turn-on-ctp-for-planning-optimization"></a>Kveiktu á CTP fyrir áætlanagerð fínstillingu
+## <a name="turn-on-ctp-for-planning-optimization"></a>Kveikja á CTP-afhendingargeta fyrir fínstillingu áætlanagerðar
 
-CTP fyrir úrelta aðalskipulagsvél er alltaf tiltæk. Hins vegar, ef þú vilt nota CTP fyrir áætlanagerð fínstillingu, verður að snúa því fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+CTP-afhendingargeta fyrir úreltu aðaláætlunarvélina er alltaf tiltækt. Ef þú vilt hins vegar nota CTP fyrir fínstillingu áætlanagerðar verður að slökkva á því fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Aðaláætlanagerð*
-- **Eiginleikaheiti:** *(Forskoðun) CTP fyrir hagræðingu áætlanagerðar*
+- **Heiti eiginleika:** *(Forútgáfa) CTP-afhendingargeta fyrir fínstillingu áætlanagerðar*
 
-## <a name="how-ctp-compares-to-atp"></a>Hvernig CTP er í samanburði við ATP
+## <a name="how-ctp-compares-to-atp"></a>Hvernig CTP er borið saman við ATP
 
-CTP og ATP eru svipaðar, en CTP getur oft gefið nákvæmari niðurstöðu eins og eftirfarandi dæmi sýnir.
+CTP og ATP eru svipuð, en CTP getur oft gefið nákvæmari niðurstöðu, eins og eftirfarandi dæmi sýnir.
 
-Atriði A er hlutur sem er samsettur úr liðum B og C, og birgðamagn vöru A er 0 (núll). Ef þú gerir ATP-athugun sem tekur aðeins til efnis verður ATP-magnið einnig 0 (núll). Hins vegar, ef þú gerir CTP-athugun, mun kerfið athuga hvort atriði B og C séu tiltækir, athuga tilföngin sem þarf til að gera þau að lið A og reikna út hversu mörg atriði A er hægt að gera. Að auki getur CTP útreikningurinn athugað þau tilföng og efni sem þarf til að gera meira úr atriðum B og C og nota þau til að gera meira úr liði A.
+Vara A er vara sem er samsettur úr vöru B og C og lagerbirgðir A-vöru eru 0 (núll). Ef þú gerir athugun á ATP sem tekur aðeins til efna verður magn ATP einnig 0 (núll). Ef þú hins vegar framkvæmir athugun CTP-afhendingargeta mun kerfið athuga hvort atriði B og C séu til staðar, athuga tilföngin sem þarf til að setja þau inn í vöru A og reikna út hversu mörg af vörum A er hægt að gera. Að auki getur útreikningur CTP-afhendingargetu athugað tilföng og efni sem þarf til að gera meira af vörum B og C, og til að nota þá til að gera meira af vöru A.
 
-CTP útreikningur sem tekur bæði til efnis og tilföngs gæti sýnt stærra magn en útreikningur sem athugar eingöngu efni, sérstaklega þegar varan sem verið er að athuga er samsett eftir pöntun. Með öðrum orðum, CTP virkni er byggð á sprengiaðgerðinni og hægt er að keyra hana fyrir valda sölupöntunarlínu til að reikna út áætlaðan afhendingardag.
+Útreikningur CTP-afhendingargetu sem telur að bæði efni og tilföng gætu sýnt stærra magn en útreikningur sem athugar aðeins efni, sérstaklega þegar varan sem er verið að athuga er vara sett saman í pöntun. Með öðrum orðum, er virkni CTP-afhendingargeta byggð á niðurbrotsaðgerðinni og hægt er að keyra fyrir valda sölupöntunarlínu til að reikna út væntanlegan afhendingardag.
 
-## <a name="how-ctp-differs-depending-on-the-master-planning-engine-that-you-use"></a>Hvernig CTP er mismunandi eftir aðalskipulagsvélinni sem þú notar
+## <a name="how-ctp-differs-depending-on-the-master-planning-engine-that-you-use"></a>Hvernig CTP-afhendingargeta er mismunandi eftir því hvaða aðaláætlunarvél þú notar
 
-Eftirfarandi tafla dregur saman muninn á CTP fyrir áætlanagerð fínstillingu og CTP fyrir úrelda aðalskipulagsvélina.
+Eftirfarandi tafla dregur saman muninn á CTP-afhendingargeta fyrir áætlanagerð og CTP-afhendingargeta fyrir úreltu aðaláætlunarvélina.
 
-| Eining | Fínstilling áætlanagerðar | Úrelt aðalskipulagsvél |
+| Eining | Fínstilling áætlanagerðar | Úrelt aðaláætlunarvél |
 |---|---|---|
-| **Stýring á afhendingardagsetningu** stilling fyrir pantanir, pöntunarlínur og vörur | *CTP fyrir fínstillingu áætlanagerðar* | *CTP* |
-| Tími útreiknings | Útreikningurinn er settur af stað með því að keyra kraftmikla áætlun sem áætlað verkefni. | Útreikningurinn fer strax í gang í hvert skipti sem þú slærð inn eða uppfærir sölupöntunarlínu. |
-| **CTP fyrir áætlanagerð hagræðingu stöðu** reit gildi | <p>Verðmæti á *Ekki tilbúinn* er sýnt fyrir pantanir og pöntunarlínur þar sem kvika áætlunin hefur ekki keyrt síðan pantanir og línur voru búnar til eða síðast uppfærðar.</p><p>Verðmæti á *Tilbúið* er sýnd fyrir pantanir og línur þar sem CTP hefur verið notað til að reikna út staðfestar afhendingardagsetningar með því að keyra kraftmiklu áætlunina.</p> | Verðmæti á *Tilbúið* er alltaf sýndur. |
+| Stilling **Stýring afhendingardagsetninga** fyrir pantanir, pöntunarlínur og vörur | *CTP fyrir fínstillingu áætlanagerðar* | *CTP-afhendingargeta* |
+| Tími útreiknings | Útreikningurinn er settur af stað með því að keyra sveigjanlega áætlun sem áætlað verk. | Útreikningurinn er strax virkjaður í hvert sinn sem þú slærð inn eða uppfærir sölupöntunarlínu. |
+| Reitargildi **Staða CTP fyrir fínstillingu áætlanagerðar** | <p>Gildi *Ekki tilbúið* er sýnt fyrir pantanir og pöntunarlínur þar sem breytileg áætlun hefur ekki verið keyrð síðan pantanir og línur voru búnar til eða uppfærðar síðast.</p><p>Gildið *Tilbúið* er sýnt fyrir pantanir og línur þar sem CTP-afhendingargeta hefur verið notað til að reikna út staðfesta afhendingardaga með því að keyra breytilegu áætlunina.</p> | Gildið *Tilbúið* er alltaf sýnt. |
 
-## <a name="set-default-delivery-date-control-methods"></a><a name="default-methods"></a> Stilltu sjálfgefna afhendingardagsetningaraðferðir
+## <a name="set-default-delivery-date-control-methods"></a><a name="default-methods"></a>Velja sjálfgefna stýring afhendingardagsetninga
 
-Kerfið getur notað einhverja af nokkrum aðferðum til að reikna út afhendingardagsetningaráætlun fyrir hverja pöntun og pöntunarlínu. Þú ættir að stilla afhendingardagsetningaraðferðina sem þú vilt nota oftast sem alþjóðlega sjálfgefna aðferð. Þú getur líka stillt einstakar hnekkjanir fyrir hverja vöru. Síðar muntu geta hnekið sjálfgefnum aðferðum fyrir hverja pöntun og/eða pöntunarlínu eftir þörfum.
+Kerfið getur notað hvaða af nokkrum aðferðum sem er til að reikna út áætlanir um afhendingardag fyrir hverja pöntun og pöntunarlínu. Þú ættir að velja stjórnunaraðferð afhendingardags sem oftast er notuð sem altæk sjálfgefin aðferð. Einnig er hægt að stilla einstakar hnekkingar fyrir hverja vöru. Seinna verður hægt að hnekkja sjálfgefnar aðferðir fyrir hverja pöntun og/eða pöntunarlínu eins og þú krefst.
 
-### <a name="set-the-global-default-delivery-date-control"></a><a name="global-default"></a> Stilltu alþjóðlega sjálfgefna afhendingardagsetningarstýringu
+### <a name="set-the-global-default-delivery-date-control"></a><a name="global-default"></a>Stilla altæka, sjálfgefna stýringu afhendingardagsetninga
 
-Sjálfgefin aðferð til að stjórna afhendingardagsetningu verður notuð á allar nýjar pöntunarlínur þar sem hnekking á ekki við. Til að velja einn skaltu fylgja þessum skrefum.
+Sjálfgefin stjórnunaraðferð fyrir afhendingardag verða notuð fyrir allar nýjar pöntunarlínur þar sem hnekking á ekki við. Til að velja einn skaltu fylgja þessum skrefum.
 
 1. Opnið **Viðskiptakröfur \> Setja upp \> Færibreytur viðskiptakrafna**.
-1. Á **Sendingar** flipa, á **Afhendingareftirlit** Flýtiflipi, í **Stýring á afhendingardagsetningu** reit, veldu aðferðina sem þú vilt nota sem sjálfgefna aðferð fyrir fyrirtæki þitt:
+1. Á flipanum **Sendingar** á flýtiflipanum **Afhendingarstýring**, í reitnum **Stýring afhendingardags** er valin sú aðferð sem á að nota sem sjálfgefna aðferð fyrir fyrirtækið þitt:
 
-    - *Enginn* – Ekki reikna út afhendingardaga.
-    - *Afhendingartími sölu* – afhendingartími sölu er tíminn milli stofnunar sölupöntunarinnar og sendingu vara. Útreikningur á afhendingardagsetningu byggir á sjálfgefnum fjölda daga og tekur ekki tillit til lagerframboðs, þekktrar eftirspurnar eða fyrirhugaðs framboðs.
-    - *ATP* – ATP er magn vöru sem er tiltækt og hægt er að lofa viðskiptavinum á tilteknum degi. ATP útreikningur felur í sér óstaðfestar birgðir, afhendingartími , áætlaðar innhreyfingar og úthreyfingar.
-    - *ATP + Útgáfubil* – Sendingardagsetningin jafngildir ATP dagsetningunni auk útgáfuframlegðar vörunnar. Mörk úthreyfinga er sá tími sem þarf að undirbúa þær vörur sem á að senda.
-    - *CTP* – Notaðu CTP útreikninginn sem er veittur af úreltu aðalskipulagsvélinni. Ef þú ert að nota áætlanagerð hagræðingu, the *CTP* aðferð til að stjórna afhendingardagsetningu er ekki leyfð og ef hún er valin mun hún valda villu þegar útreikningurinn keyrir.
-    - *CTP fyrir hagræðingu áætlanagerðar* – Notaðu CTP-útreikninginn sem er veittur af Planning Optimization. Þessi valkostur hefur engin áhrif ef þú ert að nota úrelta aðalskipulagsvélina.
+    - *Ekkert* – Ekki reikna afhendingardaga.
+    - *Afhendingartími sölu* – afhendingartími sölu er tíminn milli stofnunar sölupöntunarinnar og sendingu vara. Útreikningur afhendingardags er á grundvelli sjálfgefinn fjölda daga, og tekur ekki tillit til birgðastöðu, , þekktrar eftirspurnar eða áætlað framboð.
+    - *ATP* – ATP er magn vöru sem er tiltækur og hægt er að lofa viðskiptavini á tiltekinni dagsetningu. ATP útreikningur felur í sér óstaðfestar birgðir, afhendingartími , áætlaðar innhreyfingar og úthreyfingar.
+    - *ATP + mörk úthreyfinga*, sendingardagsetning er sú sama og dagsetning sem er tiltækt-til-loforðs (ATP) auk marka úthreyfinga fyrir vöruna. Mörk úthreyfinga er sá tími sem þarf að undirbúa þær vörur sem á að senda.
+    - *CTP* – Notaðu CTP útreikninginn sem er gefinn upp af úreltu aðaláætlunarvélinni. Ef þú ert að nota fínstilling áætlanagerðar er ekki heimilt að nota *CTP-afhendingargetu* sem stýringaraðferð afhendingardags og ef hún er valin mun það valda villu þegar útreikningur er keyrður.
+    - *CTP fyrir fínstillingu skipulagningar -* Notaðu CTP útreikninginn sem er gefinn upp með fínstillingu skipulagningar. Þessi valkostur hefur engin áhrif ef þú notar úreltu aðaláætlunarvélina.
 
-### <a name="set-delivery-date-control-overrides-for-individual-products"></a>Stilltu afhendingardagsetningarstýringar fyrir einstakar vörur
+### <a name="set-delivery-date-control-overrides-for-individual-products"></a>Stilla stýringu afhendingardags fyrir einstakar vörur
 
-Þú getur úthlutað hnekkingum fyrir tilteknar vörur þar sem þú vilt nota aðra afhendingardagastýringaraðferð en þá sem er stillt sem altæk sjálfgefna aðferð.
+Þú getur úthlutað hnekkingum fyrir tilteknar vörur þar sem þú vilt nota aðra stýringaraðferð fyrir afhendingardag en þá sem er skilgreind sem altæk sjálfgefin aðferð.
 
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
-1. Veldu vöruna sem þú vilt setja upp.
+1. Veljið vöruna sem á að setja upp.
 1. Á aðgerðasvæðinu, í flipanum **Stjórna birgðum**, í flokknum **Pöntunarstillingar**, skal velja **Sjálfgefnar pöntunarstillingar**.
-1. Á **Sjálfgefnar pöntunarstillingar** síðu, á **Sölupöntun** flýtiflipann, stilltu **Hneka afhendingarstýringu** valmöguleika til *Já*.
-1. Í **Stýring á afhendingardagsetningu** reit, veldu aðferðina sem á að nota fyrir valda vöru. Sömu valkostir og lýst er í [Stilltu alþjóðlega sjálfgefna afhendingardagsetningarstýringu](#global-default) kafla eru í boði.
+1. Á síðunni **Stillingar hefðbundinnar pöntunar**, á flýtiflipanum **Sölupöntun** stillir þú valkostinn **Hnekkja afhendingarstýringu** á *Já*.
+1. Í reitnum **Stýring afhendingardagsetningar** er valin sú aðferð sem nota á fyrir valda vöru. Sömu valkostir og lýst er í hlutanum [Stilla altæka, sjálfgefna stýringu afhendingardagsetninga](#global-default) eru tiltækir.
 
-## <a name="schedule-ctp-for-planning-optimization-calculations"></a><a name="batch-job"></a> Tímasettu CTP fyrir útreikninga á hagræðingu áætlanagerðar
+## <a name="schedule-ctp-for-planning-optimization-calculations"></a><a name="batch-job"></a>Áætlun CTP-afhendingargeta fyrir fínstillingu áætlanagerðar
 
-Þegar þú notar CTP fyrir áætlanagerð fínstillingu verður þú að keyra kraftmikla áætlun til að kveikja á kerfinu til að gera CTP útreikninga og stilla síðan staðfestar sendingar og móttökudagsetningar fyrir allar viðeigandi pantanir. Áætlunin verður að innihalda alla hluti sem staðfestar sendingar og móttökudagsetningar eru nauðsynlegar fyrir. (Þegar þú notar CTP fyrir úreltu aðalskipulagsvélina, eru CTP útreikningar strax gerðir á staðnum. Þess vegna þarftu ekki að keyra kraftmikla áætlun til að sjá CTP niðurstöðurnar.)
+Þegar þú notar CTP-afhendingargeta til fínstillingar skipulagningar verður þú að keyra breytilega áætlun til að ræsa kerfið til að gera útreikninga CTP-afhendingargeta og stilla síðan staðfesta sendingar- og móttökudaga fyrir allar viðeigandi pantanir. Áætlunin verður að innihalda allar vörur sem staðfestar sendingar- og móttökudagsetningar eru nauðsynlegar fyrir. (Þegar þú notar CTP-afhendingargeta fyrir úrelta aðaláætlunarvél eru CTP-afhendingargeta útreikningarnir gerðir strax á staðnum. Þar af leiðandi þarftu ekki að keyra sveigjanlega áætlun til að sjá CTP-afhendingargeta niðurstöðurnar.)
 
-Til að tryggja að dagsetningar séu tiltækar tímanlega fyrir alla notendur mælum við með að þú setjir upp runuvinnu til að keyra viðeigandi áætlanir reglulega. Til dæmis, runuvinna sem er sett upp til að keyra kraftmikla áætlun á 30 mínútna fresti mun setja staðfesta skipið og fá dagsetningar á 30 mínútna fresti. Þess vegna þurfa notendur sem setja inn og flytja inn pantanir að hámarki að bíða í 30 mínútur til að fá staðfesta skipið og fá dagsetningar.
+Til að tryggja að dagsetningarnar séu tiltækar í tæka tíð fyrir alla notendur mælum við með því að þú setjir upp runuvinnsla til að framkvæma endurteknar áætlanir. Til dæmis, runuvinnsla sem er sett upp til að keyra breytilega áætlun á 30 mínútna fresti mun stilla staðfesta sendingar- og móttökudagsetningar á 30 mínútna fresti. Notendur sem slá inn og flytja inn pantanir þurfa því að bíða í að hámarki 30 mínútur til að fá staðfestar sendingar- og móttökudagsetningar.
 
-Fylgdu þessum skrefum til að setja upp runuvinnu til að keyra kraftmikla áætlun á reglulegri áætlun.
+Til að setja upp runuvinnslu til að keyra breytilega áætlun á venjulegri áætlun skal fylgja þessum skrefum.
 
-1. Fara til **Aðalskipulag \> Aðalskipulag \> Hlaupa \> Aðalskipulag**.
-1. Í **Aðalskipulag** valmynd, á **Færibreytur** flýtiflipann, stilltu **Snilldaráætlun** reit í kraftmiklu áætlunina sem þú vilt keyra.
-1. Á **Hlaupa í bakgrunni** flýtiflipann, stilltu **Lotuvinnsla** valmöguleika til *Já*.
-1. Veldu **Endurkoma**, og settu upp áætlunina eftir þörfum.
-1. Veldu **Allt í lagi** til að vista áætlunina.
-1. Veldu **Allt í lagi** til að búa til runuvinnuna og loka glugganum.
+1. Farið í **Aðaláætlanagerð \> Aðaláætlanagerð \> Keyra \> Aðaláætlanagerð**.
+1. Í svarglugganum **Aðaláætlanagerð**, í flýtiflipanum **Færibreytur** stillirðu reitinn **Aðaláætlun** á breytilegu áætlunina sem á að keyra.
+1. Á flýtiflipanum **Keyra í bakgrunni** skal stilla valkostinn **Runuvinnsla** á *Já*.
+1. Veldu **Endurtekning** og settu upp áætlun eftir þörfum.
+1. Veldu **Í lagi** til að vista áætlunina.
+1. Veljið **Í lagi** til að stofna runuvinnsla og loka svarglugganum.
 
-## <a name="use-ctp-for-the-deprecated-master-planning-engine"></a>Notaðu CTP fyrir úrelta aðalskipulagsvélina
+## <a name="use-ctp-for-the-deprecated-master-planning-engine"></a>Nota CTP-afhendingargetu fyrir úrelta aðaláætlunarvél
 
-### <a name="create-a-new-order-by-using-ctp-for-the-deprecated-master-planning-engine"></a>Stofna nýja pöntun með því að nota CTP fyrir úrelta aðalskipulagsvélina
+### <a name="create-a-new-order-by-using-ctp-for-the-deprecated-master-planning-engine"></a>Stofna nýja pöntun með því að nota CTP fyrir úreltu aðaláætlunarvélina
 
-Í hvert skipti sem þú bætir við nýrri sölupöntun eða pöntunarlínu, úthlutar kerfið sjálfgefna afhendingardagsetningaraðferð til þess. Pöntunarhausinn byrjar alltaf á alþjóðlegu sjálfgefna aðferðinni. Ef hnekkja er úthlutað á pantaða vöru mun nýja pöntunarlínan nota þá hnekun. Annars mun nýja pöntunarlínan einnig nota alþjóðlegu sjálfgefna aðferðina. Þess vegna ættir þú að stilla sjálfgefnar aðferðir þannig að þær passi við afhendingardagsetningaraðferðina sem þú notar oftast. Eftir að þú hefur búið til pöntun geturðu hnekkt sjálfgefna aðferð á pöntunarhaus og/eða pöntunarlínustigi eins og þú þarfnast. Fyrir frekari upplýsingar, sjá [Stilltu sjálfgefna afhendingardagsetningaraðferðir](#default-methods) og [Breyttu núverandi sölupöntunum til að nota CTP](#change-orders).
+Í hvert sinn sem nýrri sölupöntun eða pöntunarlínu er bætt við úthlutar kerfið sjálfgefna stýringaraðferð fyrir afhendingardag. Pöntunarhausinn byrjar alltaf á altæku sjálfgefnu aðferðinni. Ef hnekkingu er úthlutað á pantaða vöru mun nýja pöntunarlínan nota þessa hnekkingu. Annars mun nýja pöntunarlínan einnig nota altæku sjálfgefnu aðferðina. Þess vegna ættir þú að stilla sjálfgefnu aðferðirnar þannig að þær passi við stýringaraðferð afhendingardags sem þú notar oftast. Eftir að pöntun er stofnuð er hægt að hnekkja sjálfgefinni aðferð í haus pöntunar og/eða pöntunarlínustigi eins og krafist er. Frekari upplýsingar eru í [Velja sjálfgefna stýring afhendingardagsetninga](#default-methods) og [Breyta núverandi sölupöntunum til að nota CTP-afhendingargetu](#change-orders).
 
-### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-the-deprecated-master-planning-engine"></a>Skoðaðu staðfestar afhendingardagsetningar þegar þú notar CTP fyrir úrelda aðalskipulagsvélina
+### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-the-deprecated-master-planning-engine"></a>Skoða staðfestar afhendingardaga þegar CTP-afhendingargeta er notað fyrir aðaláætlunarvélina
 
-Ef þú ert að nota úreltu aðalskipulagsvélina eru CTP útreikningar notaðir á pantanir og/eða pöntunarlínur þar sem **Stýring á afhendingardagsetningu** reiturinn er stilltur á *CTP*.
+Ef þú notar úreltu aðaláætlunarvélina eru útreikningar CTP-afhendingargeta notaðir á pantanir og/eða pöntunarlínur þar sem reiturinn **Stýring afhendingardagsetninga** er stilltur á *CTP-afhendingargeta*.
 
-Fyrir sölulínur sem nota CTP fyrir úrelda aðalskipulagsvél, setur kerfið sjálfkrafa **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning** reiti í hvert skipti sem þú vistar sölulínu. Ef þú gerir síðar viðeigandi breytingu á sölulínu (til dæmis með því að breyta magni hennar eða síðu) verða dagsetningarnar strax endurreiknaðar.
+Fyrir sölulínur sem nota CTP-afhendingargeta fyrir úreltu aðaláætlunarvélina, stillir kerfið sjálfkrafa reitina **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning** í hvert skipti sem þú vistar sölulínu. Ef þú gerir síðar viðeigandi breytingu á sölulínu (til dæmis með því að breyta magni hennar eða svæði) verða dagsetningarnar samstundis endurreiknaðar.
 
-- Til að skoða staðfestar afhendingardagsetningar fyrir sölupöntunarlínu, opnaðu sölupöntunina og veldu sölulínuna. Síðan, á **Upplýsingar um línu** flýtiflipann, á **Afhending** flipann, skoðaðu **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning** gildi.
-- Til að skoða staðfestar afhendingardagsetningar fyrir heila pöntun skaltu opna sölupöntunina og velja **Fyrirsögn** útsýni. Síðan, á **Afhending** Flýtiflipi, skoðaðu **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning** gildi.
+- Til að skoða staðfesta afhendingardaga sölupöntunarlínu skaltu opna sölupöntunina og velja sölulínuna. Síðan í flýtiflipanum **Upplýsingar um línu**, í flipanum **Afhending**, skal stilla gildin **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning**.
+- Til að skoða staðfesta afhendingardaga fyrir heila pöntun skaltu opna sölupöntunina og velja yfirlitið **Haus**. Í flýtiflipanum **Afhending** skal stilla gildin **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning**.
 
-## <a name="use-ctp-for-planning-optimization"></a>Notaðu CTP til að hagræða skipulagningu
+## <a name="use-ctp-for-planning-optimization"></a>Nota CTP fyrir fínstillingu áætlanagerðar
 
-### <a name="create-a-new-order-by-using-ctp-for-planning-optimization"></a>Búðu til nýja pöntun með því að nota CTP fyrir áætlanagerð fínstillingu
+### <a name="create-a-new-order-by-using-ctp-for-planning-optimization"></a>Stofna nýja pöntun með því að nota CTP fyrir fínstillingu áætlanagerðar
 
-Í hvert skipti sem þú bætir við nýrri sölupöntun eða pöntunarlínu, úthlutar kerfið sjálfgefna afhendingardagsetningaraðferð til þess. Pöntunarhausinn byrjar alltaf á alþjóðlegu sjálfgefna aðferðinni. Ef hnekkja er úthlutað á pantaða vöru mun nýja pöntunarlínan nota þá hnekun. Annars mun nýja pöntunarlínan einnig nota alþjóðlegu sjálfgefna aðferðina. Þess vegna ættir þú að stilla sjálfgefnar aðferðir þannig að þær passi við afhendingardagsetningaraðferðina sem þú notar oftast. Eftir að þú hefur búið til pöntun geturðu hnekkt sjálfgefna aðferð á pöntunarhaus og/eða pöntunarlínustigi eins og þú þarfnast. Fyrir frekari upplýsingar, sjá [Stilltu sjálfgefna afhendingardagsetningaraðferðir](#default-methods) og [Breyttu núverandi sölupöntunum til að nota CTP](#change-orders).
+Í hvert sinn sem nýrri sölupöntun eða pöntunarlínu er bætt við úthlutar kerfið sjálfgefna stýringaraðferð fyrir afhendingardag. Pöntunarhausinn byrjar alltaf á altæku sjálfgefnu aðferðinni. Ef hnekkingu er úthlutað á pantaða vöru mun nýja pöntunarlínan nota þessa hnekkingu. Annars mun nýja pöntunarlínan einnig nota altæku sjálfgefnu aðferðina. Þess vegna ættir þú að stilla sjálfgefnu aðferðirnar þannig að þær passi við stýringaraðferð afhendingardags sem þú notar oftast. Eftir að pöntun er stofnuð er hægt að hnekkja sjálfgefinni aðferð í haus pöntunar og/eða pöntunarlínustigi eins og krafist er. Frekari upplýsingar eru í [Velja sjálfgefna stýring afhendingardagsetninga](#default-methods) og [Breyta núverandi sölupöntunum til að nota CTP-afhendingargetu](#change-orders).
 
-### <a name="view-confirmed-delivery-dates-when-using-ctp-for-planning-optimization"></a>Skoðaðu staðfesta afhendingardagsetningar þegar þú notar CTP fyrir áætlanagerð fínstillingu
+### <a name="view-confirmed-delivery-dates-when-using-ctp-for-planning-optimization"></a>Skoða staðfesta afhendingardaga þegar CTP-afhendingargeta er notað til að fínstilla skipulagningu
 
-Ef þú ert að nota hagræðingu áætlanagerðar, eru CTP útreikningar notaðir á pantanir og/eða pöntunarlínur þar sem **Stýring á afhendingardagsetningu** reiturinn er stilltur á *CTP fyrir hagræðingu áætlanagerðar*.
+Ef þú notar fínstilling skipulagningar eru útreikningar CTP-afhendingargeta notaðir á pantanir og/eða pöntunarlínur þar sem reiturinn **Stýring afhendingardagsetninga** er stilltur á *CTP-afhendingargeta fyrir fínstilling skipulagningar*.
 
-Fyrir sölulínur sem nota CTP fyrir hagræðingu áætlanagerðar, **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning** reitirnir verða auðir þar til þú keyrir viðeigandi kraftmikla áætlun (venjulega með því að nota reglubundið runuverk). Þeir eru þá sjálfkrafa stilltir. Fyrir frekari upplýsingar sjá [Tímasettu CTP fyrir útreikninga á hagræðingu áætlanagerðar](#batch-job).
+Fyrir sölulínur sem nota CTP-afhendingargeta til fínstillingar skipulagningar eru reitirnir **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning** auðir þar til keyrð er viðeigandi breytileg áætlun (yfirleitt með því að nota venjulega runuvinnslu). Þær eru þá sjálfkrafa stilltar. Frekari upplýsingar er að finna í [Áætlun CTP-afhendingargeta fyrir fínstillingu áætlanagerðar](#batch-job).
 
-The **CTP fyrir áætlanagerð hagræðingu stöðu** reiturinn gefur til kynna hvort staðfestar dagsetningar hafi verið reiknaðar út fyrir hverja línu sem notar CTP fyrir áætlanagerð fínstillingu. Reiturinn sýnir gildi fyrir *Ekki tilbúinn* fyrir línur og pantanir þar sem staðfestir afhendingardagar hafa annaðhvort ekki verið reiknaðir út eða eru ekki lengur í gildi vegna annarra breytinga. Það sýnir gildi á *Tilbúið* fyrir línur og pantanir sem hafa verið reiknaðar. Hægt er að skoða stöðuna fyrir hverja línu og fyrir alla pöntunina.
+**CTP-afhendingargeta fyrir fínstilling skipulagningar** segir til um hvort staðfestar dagsetningar hafi enn verið reiknaðar fyrir hverja línu sem notar CTP-afhendingargetu fyrir fínstillingu skipulagningar. Reiturinn sýnir gildi *Ekki tilbúið* fyrir línur og pantanir þar sem staðfestar afhendingardagsetningar hafa annað hvort ekki enn verið reiknaðar út eða eru ekki lengur í gildi vegna annarra breytinga. Það sýnir gildið *Tilbúið* fyrir línur og pantanir sem hafa verið reiknaðar. Hægt er að skoða stöðuna fyrir hverja línu og fyrir alla pöntunina.
 
-- Til að skoða stöðu sölupöntunarlínu, opnaðu sölupöntunina og veldu sölulínuna. Síðan, á **Upplýsingar um línu** flýtiflipann, á **Afhending** flipann, skoðaðu **CTP fyrir áætlanagerð hagræðingu stöðu** gildi. The **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning** reitir fyrir línuna eru einnig sýndir á þessum flipa eftir að þeir hafa verið reiknaðir út.
-- Til að skoða stöðu fyrir heila pöntun skaltu opna sölupöntunina og velja **Fyrirsögn** útsýni. Síðan, á **Afhending** Flýtiflipi, skoðaðu **CTP fyrir áætlanagerð hagræðingu stöðu** gildi. The **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning** fyrir röð eru einnig sýndar á þessum flipa eftir að þær hafa verið reiknaðar.
+- Til að skoða stöðuna fyrir sölupöntunarlínu skaltu opna sölupöntunina og velja sölulínuna. Síðan, á flýtiflipanum **Upplýsingar um línu** á flipanum **Afhending** skaltu fara yfir gildið **CTP-afhendingargeta fyrir fínstilling skipulagningar**. Reitirnir **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning** fyrir línuna eru einnig sýndir á þessum flipa eftir að þeir hafa verið reiknaðir út.
+- Til að skoða stöðuna fyrir alla pöntunina skaltu opna sölupöntunina og velja yfirlitið **Haus**. Síðan, á flýtiflipanum **Afhending** skaltu fara yfir gildið **CTP-afhendingargeta fyrir fínstilling skipulagningar**. Reitirnir **Staðfest sendingardagsetning** og **Staðfest móttökudagsetning** fyrir pöntunina eru einnig sýndir á þessum flipa eftir að þeir hafa verið reiknaðir út.
 
 <!-- KFM: The following text may be untrue and needs to be reviewed with the PM for next revision:
 
@@ -138,44 +138,44 @@ The sales orders that are *Ready* or *Not ready* are shown in the **All sales or
 -->
 
 > [!NOTE]
-> - Ef þú uppfærir sölupöntunarlínu eftir að CTP for Planning Optimization hefur reiknað út staðfestar dagsetningar fyrir hana, mun kerfið hreinsa þessar dagsetningar þar til næst þegar viðeigandi kraftmikil áætlun er keyrð.
-> - Ef þú breytir tengdri stillingu sem gæti haft áhrif á núverandi staðfestar dagsetningar (til dæmis með því að breyta afgreiðslutíma, pöntunum eða merkingum), ættir þú að hreinsa staðfestar dagsetningar fyrir viðeigandi fyrirliggjandi pantanir. Þessi aðgerð mun valda því að stöðu hverrar viðeigandi línu verður breytt í *Ekki tilbúinn*. Þessi breyting mun aftur á móti valda því að kerfið endurreikur staðfestar dagsetningar næst þegar það keyrir kraftmiklu áætlunina.
+> - Ef þú uppfærir sölupöntunarlínu eftir að CTP-afhendingargeta fyrir fínstilling skipulagningar hefur reiknað út staðfestar dagsetningar fyrir hana hreinsar kerfið dagsetningar þar til næst þegar viðeigandi breytileg áætlun er keyrð.
+> - Ef þú breytir tengdri stillingu sem gæti haft áhrif á núverandi staðfestar dagsetningar (til dæmis með því að breyta afhendingartími, bókunum eða merkingum) ættir þú að hreinsa staðfestar dagsetningar fyrir núverandi pantanir. Þessi aðgerð verður til þess að stöðu hverrar línu verður breytt í *Ekki tilbúin*. Þessi breyting mun síðan valda því að kerfið getur endurreiknað staðfestar dagsetningar næst þegar það keyrir breytilegu áætlunina.
 
-## <a name="change-existing-sales-orders-so-that-they-use-ctp"></a><a name="change-orders"></a> Breyta núverandi sölupöntunum þannig að þær noti CTP
+## <a name="change-existing-sales-orders-so-that-they-use-ctp"></a><a name="change-orders"></a>Breyta núverandi sölupöntunum þannig að þær noti CTP-afhendingargetu
 
-Þú getur breytt **Stýring á afhendingardagsetningu** gildi fyrir hvaða opna pöntun hvenær sem er. Þú getur breytt gildinu á hausstigi og/eða fyrir hverja línu eftir þörfum.
+Hægt er að breyta **Stýringu afhendingardagsetningar** fyrir hvaða opna pöntun sem er hvenær sem er. Hægt er að breyta gildi í hausstigi og/eða fyrir hverja línu eins og þú krefst.
 
-### <a name="change-to-ctp-at-the-order-header-level"></a>Breyttu í CTP á pöntunarhausstigi
+### <a name="change-to-ctp-at-the-order-header-level"></a>Breyta í CTP-afhendingargeta á stigi pöntunarhaussins
 
 <!-- KFM: Would be nice to mention how changing this setting on the header affects the individual lines. -->
 
-Til að breyta pöntun þannig að hún noti CTP á pöntunarhausstigi skaltu fylgja þessum skrefum.
+Til að breyta pöntun þannig að hún noti CTP-afhendingargeta á hausstigi pöntunar skal fylgja þessum skrefum.
 
 1. Opna **Viðskiptakröfur \> Pantanir \> Allar sölupantanir**.
-1. Opnaðu sölupöntunina sem þú vilt setja upp eða búðu til nýja.
-1. Veldu **Fyrirsögn** til að opna hausupplýsingarnar á **Upplýsingar um sölupöntun** síðu.
-1. Á **Afhending** flýtiflipann, stilltu **Stýring á afhendingardagsetningu** reit í eitt af eftirfarandi gildum, allt eftir skipulagsvélinni sem þú ert að nota:
+1. Opnaðu sölupöntunina sem þú vilt setja upp eða stofnaðu nýja.
+1. Veldu **Haus** til að opna upplýsingar um haus á síðunni **Upplýsingar um sölupöntun**.
+1. Í flýtiflipi **Afhending** skal stilla reitinn **Stýring afhendingardagsetninga** á eitt af eftirfarandi gildum, eftir því hvaða áætlunarvél þú ætlar að nota:
 
-    - *CTP* – Notaðu CTP útreikninginn sem er veittur af úreltu aðalskipulagsvélinni. Ef þú ert að nota áætlanagerð hagræðingu, the *CTP* aðferð til að stjórna afhendingardagsetningu er ekki leyfð. Þess vegna, ef þú velur þetta gildi, mun villa koma upp þegar útreikningurinn keyrir.
-    - *CTP fyrir hagræðingu áætlanagerðar* – Notaðu CTP-útreikninginn sem er veittur af Planning Optimization. Þessi stilling hefur engin áhrif ef þú ert að nota úreltu aðalskipulagsvélina.
+    - *CTP* – Notaðu CTP útreikninginn sem er gefinn upp af úreltu aðaláætlunarvélinni. Ef þú ert að nota fínstilling skipulagningar er ekki heimilt að stjórna *CTP-afhendingargeta* afhendingardegi. Ef þetta gildi er valið kemur því upp villa þegar útreikningurinn er keyrður.
+    - *CTP fyrir fínstillingu skipulagningar -* Notaðu CTP útreikninginn sem er gefinn upp með fínstillingu skipulagningar. Þessi stilling hefur engin áhrif ef þú notar úreltu aðaláætlunarvélina.
 
 <!-- KFM: Additional dialogs are shown here. Review these with the PM and expand this procedure at next revision. -->
 1. Veldu **Í lagi** til að gera breytinguna.
 
-### <a name="change-to-ctp-at-the-order-line-level"></a>Breyta í CTP á pöntunarlínustigi
+### <a name="change-to-ctp-at-the-order-line-level"></a>Skipta yfir í CTP-afhendingargetu á stigi pöntunarlínu
 
-Ef þú bjóst til pöntunarlínu með því að nota aðra afhendingardagastýringaraðferð geturðu breytt í CTP hvenær sem er. Breytingar sem þú gerir á línustigi hafa ekki áhrif á neinar aðrar línur. Hins vegar gætu þær valdið því að heildarafhendingardagsetningar pöntunar færast fram eða aftur, allt eftir því hvernig hver uppfærður línuútreikningur breytist. <!-- KFM: Confirm this intro at next revision -->
+Ef þú bjóst til pöntunarlínu með því að nota aðra stýriaðferð fyrir afhendingardag getur þú breytt í CTP-afhendingargeta hvenær sem er. Breytingar sem gerðar eru á línustigi hafa ekki áhrif á aðrar línur. Hins vegar gætu þær valdið því að heildar afhendingardagur pöntunar færast fram eða til baka, eftir því hvernig hver uppfærður línuútreikningur breytist. <!-- KFM: Confirm this intro at next revision -->
 
-Til að breyta pöntun þannig að hún noti CTP fyrir úrelta aðalskipulagsvél á línustigi, fylgdu þessum skrefum.
+Fylgið eftirfarandi skrefum til að breyta pöntun þannig að hún noti CTP-afhendingargeta fyrir úrelta aðaláætlunarvél á línustigi.
 
 1. Opna **Viðskiptakröfur \> Pantanir \> Allar sölupantanir**.
-1. Opnaðu sölupöntunina sem þú vilt setja upp eða búðu til nýja.
-1. Á **Upplýsingar um sölupöntun** síðu, á **Sölupöntunarlína** Flýtiflipi, veldu sölupöntunarlínuna sem þú vilt setja upp.
-1. Á **Upplýsingar um línu** flýtiflipann, á **Afhending** flipann, stilltu **Stýring á afhendingardagsetningu** reit í eitt af eftirfarandi gildum, allt eftir skipulagsvélinni sem þú ert að nota:
+1. Opnaðu sölupöntunina sem þú vilt setja upp eða stofnaðu nýja.
+1. Á síðunni **Upplýsingar um sölupöntun**, í flýtiflipanum **Sölupöntunarlínur**, skal velja sölupöntunarlínurnar sem á að setja upp.
+1. Í flýtiflipa **Upplýsingar um línu** á flipanum **Afhending** skal stilla reitinn **Stýring afhendingardagsetninga** á eitt af eftirfarandi gildum, eftir því hvaða áætlunarvél þú ætlar að nota:
 
-    - *CTP* – Notaðu CTP útreikninginn sem er veittur af úreltu aðalskipulagsvélinni. Ef þú ert að nota áætlanagerð hagræðingu, the *CTP* aðferð til að stjórna afhendingardagsetningu er ekki leyfð. Þess vegna, ef þú velur þetta gildi, mun villa koma upp þegar útreikningurinn keyrir.
-    - *CTP fyrir hagræðingu áætlanagerðar* – Notaðu CTP-útreikninginn sem er veittur af Planning Optimization. Þessi stilling hefur engin áhrif ef þú ert að nota úreltu aðalskipulagsvélina.
+    - *CTP* – Notaðu CTP útreikninginn sem er gefinn upp af úreltu aðaláætlunarvélinni. Ef þú ert að nota fínstilling skipulagningar er ekki heimilt að stjórna *CTP-afhendingargeta* afhendingardegi. Ef þetta gildi er valið kemur því upp villa þegar útreikningurinn er keyrður.
+    - *CTP fyrir fínstillingu skipulagningar -* Notaðu CTP útreikninginn sem er gefinn upp með fínstillingu skipulagningar. Þessi stilling hefur engin áhrif ef þú notar úreltu aðaláætlunarvélina.
 
-    The **Tiltækar sendingar- og kvittunardagsetningar** svarglugginn birtist og sýnir tiltækar skips- og kvittunardagsetningar. Þessi svargluggi virkar á sama hátt fyrir pöntunarlínur og hann gerir fyrir pöntunarhaus, eins og lýst er í fyrri hlutanum.
+    Svarglugginn **Tiltækar sendingar- og móttökudagsetningar sendingar- og** birtist og sýnir Tiltækar sendingar- og móttökudagsetningar. Þessi svargluggi virkar á sama hátt fyrir pöntunarlínur og fyrir haus pöntunar, eins og lýst er í fyrri hluta.
 
 1. Í aðgerðarúðunni skal velja **Vista**.

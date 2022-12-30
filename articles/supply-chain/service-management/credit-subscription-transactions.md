@@ -1,6 +1,6 @@
 ---
 title: Kreditfæra áskriftarfærslur
-description: Þessi grein sýnir hvernig á að lána áskriftarfærslur.
+description: Þessi grein sýnir hvernig á að kreditfæra áskriftarfærslur.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 482a276a86d4b4174d276d775513069d423c17a4
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015900"
@@ -29,7 +29,7 @@ ms.locfileid: "9015900"
 
 ## <a name="credit-subscription-transactions"></a>Kreditfæra áskriftarfærslur
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustuáskrift** \> **Allar þjónustuáskriftir**.
+1.  Smelltu á **Þjónustustjórnun** \> **Þjónustuáskriftir** \> **Allar þjónustuáskriftir**.
 
 2.  Veljið áskriftina sem tengd er áskriftarfærslunni sem stofna á kreditnótu fyrir.
 

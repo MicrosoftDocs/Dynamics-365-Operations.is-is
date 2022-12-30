@@ -1,6 +1,6 @@
 ---
 title: Kostnaðar- og dagsetningarstýring
-description: Þessi grein útskýrir kostnaðar- og dagsetningarstýringu í eignastýringu.
+description: Þessi grein útskýrir kostnaðar- og dagsetningastýringu í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 643e5afda7d3abaff926e81ff75186ca195a8cb1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8861044"

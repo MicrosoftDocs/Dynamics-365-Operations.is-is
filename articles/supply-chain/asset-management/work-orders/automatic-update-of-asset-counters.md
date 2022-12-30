@@ -1,6 +1,6 @@
 ---
 title: Sjálfvirk uppfærsla á eignateljurum
-description: Þessi grein lýsir sjálfvirkri uppfærslu eignateljara í eignastýringu.
+description: Þessi grein lýsir sjálfvirkri uppfærslu á eignateljurum í eignastýringu.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 8ea84259eb8f12becdcf008ed9222a44b2626a0d
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016218"
@@ -53,7 +53,7 @@ Eins og getið er hér að ofan er hægt að uppfæra sjálfvirka teljara úr fr
 
 5. Veldu **Í lagi**. 
 
-Eftir að sjálfvirkri uppfærslu á eignateljurum er lokið geturðu skoðað gagnaskráningar sem tengjast eigninni á síðunni **Eignateljarar**. Veldu **Eignastýring** > **Eignir** > **Allar eignir**, veldu eignina og síðan, á aðgerðarrúðunni, á **Eign** flipa, í **Fyrirbyggjandi** hópur, veldu **Teljarar**.
+Eftir að sjálfvirkri uppfærslu á eignateljurum er lokið geturðu skoðað gagnaskráningar sem tengjast eigninni á síðunni **Eignateljarar**. Veldu **Eignastýring** > **Eignir** > **Allar eignir**, veldu eignina og síðan á aðgerðasvæðinu, í flipanum **Eign**, í hópnum **Fyrirbyggjandi**, skal velja **Teljarar**.
 
 Á síðunni **Samanlagt verðmæti eigna** er hægt að fá yfirlit yfir nýjustu skráningu sem hafa verið gerðar á öllum teljaragerðum á öllum eignum. Veldu **Eignastýringu** > **Fyrirspurnir** > **Eignir** > **Uppsafnað gildi eigna**. Þessi síða líkist síðunni **Eignateljar** en þú getur ekki bætt við eða breytt skráningum. Hún er aðeins til yfirlits.
 

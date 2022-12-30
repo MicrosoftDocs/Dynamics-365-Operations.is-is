@@ -1,6 +1,6 @@
 ---
 title: Stofna tímaglugga
-description: Þessi grein veitir aðferð sem sýnir hvernig á að búa til tímaglugga.
+description: Þessi grein er gefið upp ferli sem sýnir hvernig á að stofna tímaglugga.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5575102163ea273e5ec8437c027b56368370e09a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8900768"

@@ -1,6 +1,6 @@
 ---
 title: Starfsmenn ábyrgir fyrir samþykki ósamkvæmni
-description: Þessi grein lýsir því hvernig á að stilla starfsmenn sem bera ábyrgð á að samþykkja frávik.
+description: Þessi grein lýsir því hvernig á að skilgreina starfsmenn sem bera ábyrgð á að samþykkja ósamkvæm atriði.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a108fc1f8954e32719c93656a64d1d27fda03fb6
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8907407"
@@ -27,7 +27,7 @@ ms.locfileid: "8907407"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að stilla starfsmenn sem bera ábyrgð á að samþykkja frávik.
+Þessi grein lýsir því hvernig á að skilgreina starfsmenn sem bera ábyrgð á að samþykkja ósamkvæm atriði.
 
 Samþykkja verður ósamkvæmni áður en notendur geta byrjað að færa inn upplýsingar á borð við leiðréttingar eða aðgerðir. Áður en notendur geta samþykkt eða hafnað ósamkvæmni verður að tengja notandakenni (notandafærslu) þeirra við starfsmannaskrá. Þú getur valið að velja starfskrafta sem bera ábyrgð á gæðum og leyfa síðan einum starfsmanni að samþykkja vinnu fyrir hönd annars starfsmanns.
 

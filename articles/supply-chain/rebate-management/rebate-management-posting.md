@@ -1,6 +1,6 @@
 ---
 title: Uppsetning bókunar fyrir stjórnun eftirágreidds afsláttar
-description: Þessi grein lýsir því hvernig á að setja upp færslusnið. Bókunarreglur eru notaðar til að ákvarða bókunarfærslur fyrir útreikningslínur í stjórnun eftirágreidds afsláttar.
+description: Í þessari grein er lýst hvernig á að setja upp bókunarreglur. Bókunarreglur eru notaðar til að ákvarða bókunarfærslur fyrir útreikningslínur í stjórnun eftirágreidds afsláttar.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: 7a519b7153b307bf7d8cc9093572ca2711432970
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8873580"
@@ -30,7 +30,7 @@ Bókunarreglur í stjórnun eftirágreidds afsláttar eru notaðar til að ákva
 
 Til að setja upp bókunarreglur í stjórnun eftirágreidds afsláttar fyrir viðskiptavini og lánardrottna skal fara í **Stjórnun eftirágreidds afsláttar \> Uppsetning bókunar fyrir stjórnun eftirágreidds afsláttar \> Bókunarreglur fyrir stjórnun eftirágreidds afsláttar**. Síðan **Bókunarreglur fyrir stjórnun eftirágreidds afsláttar** inniheldur listasvæði sem sýnir allar fyrirliggjandi reglur. Hægt er að nota hnappana í aðgerðarúðunni til að bæta sniðmátum við listann eða fjarlægja þau.
 
-Hlutarnir sem eftir eru af þessari grein lýsa því hvernig á að nota tiltæka reiti þegar þú býrð til eða breytir prófíl.
+Þeir hlutar sem eftir eru í þessari grein lýsa hvernig á að nota tiltæka reiti þegar regla er búin til eða breytt.
 
 ## <a name="posting-profile-header"></a>Haus bókunarreglu
 

@@ -1,6 +1,6 @@
 ---
 title: Dæmi um aðstæður reglulegrar talningar
-description: Þessi grein veitir safn af atburðarásum sem skoða lotutalningareiginleika Microsoft Dynamics 365 Supply Chain Management.
+description: Í þessari grein er að finna ýmsar aðstæður sem skoða eiginleika reglulegrar talningar frá Microsoft Dynamics 365 Supply Chain Management.
 author: GalynaFedorova
 ms.date: 06/08/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: 91a18b6deade6d67fce6b90308671910a4196104
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335736"
@@ -22,17 +22,17 @@ ms.locfileid: "9335736"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir safn af atburðarásum sem skoða lotutalningareiginleika Microsoft Dynamics 365 Supply Chain Management. Þar er fyrst lýst kröfum fyrir núverandi umhverfi Supply Chain Management. Síðan er útskýrt hvernig á að skilgreina reglulega talningu og öllum stigum reglulegrar talningar er lýst. Þegar því er lokið ættir þú að hafa góðan skilning á reglulegri talningu, þ.m.t. leiðbeindri reglulegri talningu, blindri reglulegri talningu, reglulegri talningu á staðnum, þröskuldi reglulegrar talningar og áætlunum reglulegrar talningar.
+Í þessari grein er að finna ýmsar aðstæður sem skoða eiginleika reglulegrar talningar frá Microsoft Dynamics 365 Supply Chain Management. Þar er fyrst lýst kröfum fyrir núverandi umhverfi Supply Chain Management. Síðan er útskýrt hvernig á að skilgreina reglulega talningu og öllum stigum reglulegrar talningar er lýst. Þegar því er lokið ættir þú að hafa góðan skilning á reglulegri talningu, þ.m.t. leiðbeindri reglulegri talningu, blindri reglulegri talningu, reglulegri talningu á staðnum, þröskuldi reglulegrar talningar og áætlunum reglulegrar talningar.
 
 ## <a name="prerequisites"></a>Forkröfur
 
 ### <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
 
-Hver atburðarás í þessari grein vísar til gilda og færslur sem eru innifalin í stöðluðum kynningargögnum sem eru veitt fyrir Supply Chain Management. Ef nota á gildin sem er boðið upp á hér þegar farið er í gegnum aðstæðurnar skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann (fyritækið) á **USMF** áður en hafist er handa.
+Allar aðstæður í þessari grein vísa í gildi og færslur sem eru innifaldar í stöðluðum sýnigögnum sem veitt eru Supply Chain Management. Ef nota á gildin sem er boðið upp á hér þegar farið er í gegnum aðstæðurnar skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann (fyritækið) á **USMF** áður en hafist er handa.
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Kveikja á stuðningi fyrir farsímaforrit Warehouse Management
 
-Til að nota Warehouse Management farsímaforritið, *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota farsímaforrit vöruhúsakerfis verður að vera kveikt á eiginleikanum *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið* fyrir kerfið. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="prepare-demo-data-for-the-scenarios"></a><a name= "prepare-demo-data"></a>Útbúa sýningargögn fyrir aðstæður
 
@@ -127,7 +127,7 @@ Fylgið þessum skrefum til að staðfesta að öll sýnigögn sem þarf fyrir a
 1. Á listasvæðinu skal velja vöruhús *61*. Ef engin fyrirliggjandi færsla er með það heiti skal búa hana til.
 1. Í flýtiflipanum **Vöruhús** skal stilla eftirfarandi gildi:
 
-    - **Notaðu vöruhússtjórnunarferli:** *Já* (Þetta gildi gerir vöruhúsinu kleift fyrir vöruhússtjórnunarferli (WMS).)
+    - **Nota vöruhúsakerfisferli:** *Já* (Þetta gildi virkjar vöruhúsið fyrir vöruhúsakerfisferli (WMS).)
     - **Leyfa hreyfingar númeraplötu við reglulega talningu:** *Já* (Þetta gildi gerir starfsmönnum kleift að flytja númeraplötur við reglulega talningu.)
 
 ## <a name="scenario-1-guided-cycle-counting"></a>Aðstæður 1: Regluleg talning með leiðsögn
@@ -158,7 +158,7 @@ Fylgið þessum skrefum til að stofna vinnu reglulegrar talningar frá vörusta
 
 Þegar búið er að stofna vinna reglulegrar talningar er hægt að gera vinnuna með því að telja vörur á staðsetningu vöruhúss og síðan nota fartæki til að færa niðurstöðurnar inn í Supply Chain Management. Fylgið þessum skrefum til að gera vinna reglulegrar talningar í farsímaforriti Warehouse Management.
 
-1. Skráðu þig inn í Vöruhússtjórnun farsímaforritið sem vinnunotandinn sem þú setur upp í [Undirbúa kynningargögn fyrir atburðarásina](#prepare-demo-data) kafla fyrr í þessari grein. Fyrir dæmið í þessari grein er notandinn nefndur *Julia Funderburk* og er sett upp fyrir lager *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
+1. Skráið ykkur inn í farsímaforrit vöruhúsakerfis sem vinnunotandann sem var settur upp í hlutanum [Undirbúa sýnigögn fyrir aðstæður](#prepare-demo-data) fyrr í þessari grein. Í dæminu í þessari grein heitir notandinn *Julia Funderburk* og er settur upp fyrir vöruhús *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
 1. Í aðalvalmyndinni skal velja **Birgðir**.
 1. Í valmyndinni **Birgðir** skal velja **Regluleg talning með leiðsögn**.
 1. Veljið reitinn **Magn**, færið inn *9* með því að nota talnaborðið og veljið síðan **Í lagi** (gátmerkishnappinn).
@@ -227,7 +227,7 @@ Fylgið þessum skrefum til að fara yfir mismun á reglulegri talningu.
 
 Þegar búið er að stofna vinna reglulegrar talningar skal fylgja þessum skrefum til að gera vinnuna í farsímaforrit Warehouse Management.
 
-1. Skráðu þig inn í Vöruhússtjórnun farsímaforritið sem vinnunotandinn sem þú setur upp í [Undirbúa kynningargögn fyrir atburðarásina](#prepare-demo-data) kafla fyrr í þessari grein. Fyrir dæmið í þessari grein er notandinn nefndur *Julia Funderburk* og er sett upp fyrir lager *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
+1. Skráið ykkur inn í farsímaforrit vöruhúsakerfis sem vinnunotandann sem var settur upp í hlutanum [Undirbúa sýnigögn fyrir aðstæður](#prepare-demo-data) fyrr í þessari grein. Í dæminu í þessari grein heitir notandinn *Julia Funderburk* og er settur upp fyrir vöruhús *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
 1. Í aðalvalmyndinni skal velja **Birgðir**.
 1. Í valmyndinni **Birgðir** skal velja **Blind regluleg talning**.
 1. Veljið reitinn **Svæðiskenni**, færið inn *BULK06* og veljið síðan **Í lagi** (gátmerkishnappurinn).
@@ -259,7 +259,7 @@ Lagerfærslurnar segja að til eru lagerbirgðir af vöru *L0101* á staðsetnin
 
 Fylgið þessum skrefum til að gera vinna reglulegrar talningar í farsímaforriti Warehouse Management.
 
-1. Skráðu þig inn í Vöruhússtjórnun farsímaforritið sem vinnunotandinn sem þú setur upp í [Undirbúa kynningargögn fyrir atburðarásina](#prepare-demo-data) kafla fyrr í þessari grein. Fyrir dæmið í þessari grein er notandinn nefndur *Julia Funderburk* og er sett upp fyrir lager *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
+1. Skráið ykkur inn í farsímaforrit vöruhúsakerfis sem vinnunotandann sem var settur upp í hlutanum [Undirbúa sýnigögn fyrir aðstæður](#prepare-demo-data) fyrr í þessari grein. Í dæminu í þessari grein heitir notandinn *Julia Funderburk* og er settur upp fyrir vöruhús *61*. (Sýnigögn USMF leyfa þér að skrá þig inn sem þessi vinnunotandi með því að slá inn *61* sem notandakennið og *1* sem aðgangsorð.)
 1. Í aðalvalmyndinni skal velja **Birgðir**.
 1. Í valmyndinni **Birgðir** skal velja **Talning á staðnum**.
 1. Veldu reitinn **Staðsetning**, sláið inn *01A02R2S1B* og veljið svo **Í lagi** (gátmerkishnappurinn).

@@ -1,6 +1,6 @@
 ---
 title: Eignayfirlit
-description: Þessi grein lýsir eignayfirlitinu í eignastýringu.
+description: Þessi grein útskýrir eignayfirlitinu í eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 495f3dbf9bab9d550ebdbb7dda52aca80d5ea635
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9017117"
@@ -28,9 +28,9 @@ ms.locfileid: "9017117"
 
  
 
-Þessi grein lýsir eignayfirlitinu í eignastýringu. Síðan **Eignasýn** sýnir virkar eignir og virkar staðsetningar í trjáskoðun. Þess vegna geturðu auðveldlega fengið yfirlit yfir eignatengsl við virka staði. Að auki geturðu skoðað nákvæmar upplýsingar um virka staði, eignir og tengda uppskriftir (BOMs). Þú getur líka fengið fljótt yfirlit yfir virkar viðhaldsbeiðnir og verkbeiðnir sem tengjast eign.
+Þessi grein útskýrir eignayfirlitinu í eignastýringu. Síðan **Eignasýn** sýnir virkar eignir og virkar staðsetningar í trjáskoðun. Þess vegna geturðu auðveldlega fengið yfirlit yfir eignatengsl við virka staði. Að auki geturðu skoðað nákvæmar upplýsingar um virka staði, eignir og tengda uppskriftir (BOMs). Þú getur líka fengið fljótt yfirlit yfir virkar viðhaldsbeiðnir og verkbeiðnir sem tengjast eign.
 
-1. Veldu **Eignastýring** \> **Eignir** \> **Eignasýn**.
+1. Veldu **Eignastýring** \> **Eignir** \> **Eignayfirlit**.
 2. Til að breyta skjánum sem sést á síðunni velurðu nýtt gildi í reitnum **Skoða**.
 
     > [!NOTE]

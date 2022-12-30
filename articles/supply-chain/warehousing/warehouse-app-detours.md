@@ -1,6 +1,6 @@
 ---
 title: Skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis
-description: Þessi grein lýsir því hvernig á að stilla krókaleiðir fyrir valmyndaratriði þannig að starfsmenn geti lagt núverandi verkefni, framkvæmt annað verk og farið síðan aftur í upprunalega verkið án þess að tapa neinum upplýsingum.
+description: Þessi grein lýsir því hvernig á að skilgreina hjáleiðir fyrir valmyndaratriði þannig að starfsmenni geta sett núverandi verk „í bið“, sinnt öðru verki og farið svo aftur í upprunalegt verk án þess að glata upplýsingum.
 author: Mirzaab
 ms.date: 09/01/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.30
 ms.openlocfilehash: 2e387dd4e6499912f2d53dddc17ccc053f1ca699
 ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/18/2022
 ms.locfileid: "9689311"
@@ -25,9 +25,9 @@ ms.locfileid: "9689311"
 <!--KFM: Preview until 10.0.31 GA -->
 
 > [!IMPORTANT]
-> Eiginleikarnir sem lýst er í þessari grein eiga aðeins við um nýja vöruhússtjórnun farsímaforritið. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
+> Eiginleikarnir sem lýst er í þessari greineiga aðeins við um nýja farsímaforrit Warehouse Management. Þeir hafa ekki áhrif á gamla vöruhúsaforrið, sem nú er úrelt.
 
-Þessi grein lýsir því hvernig á að stilla krókaleiðir fyrir valmyndaratriði þannig að starfsmenn geti "lagað" núverandi verkefni, framkvæmt annað verkefni og farið síðan aftur í upprunalega verkefnið án þess að tapa neinum upplýsingum.
+Þessi grein lýsir því hvernig á að skilgreina hjáleiðir fyrir valmyndaratriði þannig að starfsmenni geta sett núverandi verk „í bið“, sinnt öðru verki og farið svo aftur í upprunalegt verk án þess að glata upplýsingum.
 
 Hjáleið er aðskilið valmyndaratriði sem hægt er að opna í skrefi í aðalverki. Undir lok hjáleiðar er starfsmaður sendur aftur á staðinn þar sem hann fór úr aðalverkinu. Í grunnstillingunni tilgreinir þú valmyndaratriðið sem á að vera hjáleið. Einnig velur þú hvaða reitargildi á að framsenda (afrita) sjálfkrafa úr aðalverkinu í hjáleiðina og færa inn þar. Þar af leiðandi verður þú að skilja hvar í verkflæðinu þú vilt að hjáleiðin sé tiltæk starfsmönnum. Þú verður einnig að tryggja að upplýsingarnar sem á að afrita í hjáleiðina séu tiltækar fyrir það skref verkflæðisins.
 
@@ -36,12 +36,12 @@ Hjáleið er aðskilið valmyndaratriði sem hægt er að opna í skrefi í aða
 Áður en hægt er að skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis þarf að ljúka eftirfarandi ferli til að virkja nauðsynlega eiginleika og búa til heiti áskildra reita í fartækjaforriti Warehouse Management.
 
 1. Opna skal **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**.
-1. Gakktu úr skugga um að *Skrefleiðbeiningar fyrir vöruhús app* kveikt er á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á þessum eiginleika. Frekar upplýsingar um eiginleikann *Leiðbeiningar fyrir skref vöruhúsaforrits* er að finna í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management ](mobile-app-titles-instructions.md). Þessi eiginleiki er skilyrði fyrir eiginleikann *Hjáleiðir forrits vöruhúsakerfis*.
-1. Kveiktu á eftirfarandi eiginleikum, sem veita þá virkni sem lýst er í þessari grein:
-    - *Hjáleiðir forrits Warehouse Management*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á þessum eiginleika.)
+1. Gakktu úr skugga um kveikt sé á eiginleikanum *Leiðbeiningar fyrir skref vöruhúsaforrits* fyrir kerfið. Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á þessum eiginleika. Frekar upplýsingar um eiginleikann *Leiðbeiningar fyrir skref vöruhúsaforrits* er að finna í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management ](mobile-app-titles-instructions.md). Þessi eiginleiki er skilyrði fyrir eiginleikann *Hjáleiðir forrits vöruhúsakerfis*.
+1. Kveiktu á eftirfarandi eiginleikum, sem veita virkni sem lýst er í þessari grein:
+    - *Hjáleiðir forrits Warehouse Management*<br>(Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á þessum eiginleika.)
     - *Fjölþrepa hjáleiðir fyrir fartækjaforrit Warehouse Management*
     - *Sendi sjálfvirkt hjáleiðarskref í farsímaforriti Warehouse Management*
-1. Ef *Vöruhússtjórnun app krókaleiðir* og/eða *Fjölþrepa krókaleiðir fyrir vöruhússtjórnun farsímaforritið* Ekki var þegar kveikt á eiginleikum, uppfærðu reitnöfnin í vöruhúsastjórnun farsímaforritinu með því að fara á **Vöruhússtjórnun \> Uppsetning \> Farsímatæki \> Reitaheiti vöruhúsaapps** og velja **Búðu til sjálfgefna uppsetningu**. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
+1. Ef ekki var þegar kveikt á eiginleikunum *Hjáleiðir forrits vöruhúsakerfis* og *Fjölþrepa hjáleiðir fyrir fartækjaforrit vöruhúsakerfis* skaltu uppfærða heiti reita í farsímaforriti vöruhúsaskerfis með því að fara í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Reitarheiti vöruhúsaforrits** og veldu **Búa til sjálfgefna uppsetningu**. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
 1. Endurtaktu fyrra skrefið fyrir hvern lögaðila (fyrirtæki) þar sem þú notar farsímaforrit Warehouse Management.
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Skilgreina hjáleið úr hnekkingu valmyndar
@@ -50,7 +50,7 @@ Notaðu eftirfarandi ferli til að setja upp hjáleið úr hnekkingu valmyndar.
 
 1. Búðu til hnekkingu valmyndar fyrir tiltekna valmynd og skref eins og lýst er í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management](mobile-app-titles-instructions.md).
 1. Finndu samsetningu gilda fyrir **Kenni skrefs** og **Heiti valmyndaratriðis** sem þú vilt breyta og veldu síðan gildið í dálknum **Kenni skrefs**.
-1. Á síðunni sem birtist, á flýtiflipanum **Hjáleiðir í boði (valmyndaratriði)**, er hægt að tilgreina valmyndaratriðið sem á að vera hjáleið. Einnig er hægt að velja hvaða reitargildi úr aðalverkinu eigi að vera sjálfkrafa afrituð í og úr hjáleiðinni. Fyrir dæmi sem sýna hvernig á að nota þessar stillingar, sjá aðstæður síðar í þessari grein.
+1. Á síðunni sem birtist, á flýtiflipanum **Hjáleiðir í boði (valmyndaratriði)**, er hægt að tilgreina valmyndaratriðið sem á að vera hjáleið. Einnig er hægt að velja hvaða reitargildi úr aðalverkinu eigi að vera sjálfkrafa afrituð í og úr hjáleiðinni. Dæmi sem sýna hvernig á að nota þessar stillingar er að finna í aðstæðum síðar í þessari grein.
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a><a name="scenario-1"></a>Sýnidæmi 1: Tiltekt sölu þar sem fyrirspurn staðsetningar virkar sem hjáleið
 
@@ -58,11 +58,11 @@ Notaðu eftirfarandi ferli til að setja upp hjáleið úr hnekkingu valmyndar.
 
 ### <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að nota tilgreindar sýnishornsfærslur og gildi til að vinna í gegnum þessa atburðarás verður þú að nota kerfi þar sem staðallinn [kynningargögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
+Til að nota tiltekin dæmi um færslur og gildi til að fara í gegnum þessar aðstæður þarftu að nota kerfi þar sem stöðluð [sýnigögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) eru uppsett. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Búa til hnekkingu valmyndar og skilgreina hjáleið fyrir aðstæður 1
 
-Í þessari aðferð muntu stilla krók fyrir **Útsölutínsla** valmyndaratriði í númeraplötuþrepinu.
+Í þessu ferli verður skilgreind hjáleið fyrir valmyndaratriðið **Tiltekt sölu** í skrefi númeraplötu.
 
 1. Farðu í **Warehouse Management \> Uppsetning \> Fartæki \> Skref fartækis**.
 1. Finndu skrefakennið sem heitir *LicensePlateId* og veldu það.
@@ -73,17 +73,17 @@ Til að nota tilgreindar sýnishornsfærslur og gildi til að vinna í gegnum þ
 1. Í svarglugganum **Bæta við hjáleið** skal velja **Staðsetningarfyrirspurn** sem hjáleiðina sem verður gerð tiltæk í farsímaforriti Warehouse Management.
 1. Veldu **Í lagi**.
 1. Á flýtiflipanum **Hjáleiðir í boði (valmyndaratriði)** skal velja hjáleiðina sem var bætt við og velja síðan **Velja reiti til að senda** á tækjastikunni.
-1. Í svarglugganum **Velja reiti til að senda** skal tilgreina upplýsingar sem senda til og frá hjáleiðinni. Í þessari atburðarás ertu að gera starfsmönnum kleift að nota staðsetninguna sem þeir eiga að velja úr sem inntak fyrir staðsetningarfyrirspurnarleiðina. Í hlutanum **Senda úr sölutiltekt** skal því velja **Bæta við** á tækjastikunni til að bæta línu við hnitanetið. Stilltu síðan eftirfarandi gildi fyrir nýju línuna:
+1. Í svarglugganum **Velja reiti til að senda** skal tilgreina upplýsingar sem senda til og frá hjáleiðinni. Í þessum aðstæðum gerir þú starfsmönnum kleift að nota staðsetningu sem þeir eiga að tína úr sem inntak fyrir hjáleið staðsetningarfyrirspurnar. Í hlutanum **Senda úr sölutiltekt** skal því velja **Bæta við** á tækjastikunni til að bæta línu við hnitanetið. Stilltu síðan eftirfarandi gildi fyrir nýju línuna:
 
     - **Afrita úr sölutiltekt:** *Staðsetning*
     - **Líma í staðsetningarfyrirspurn:** *Staðsetning*
-    - **Sjálfvirk innsending:** *Valið* (síðan verður endurnýjuð með límdu *Staðsetning* gildi)
+    - **Sjálfvirk innsending:** *Valið* (síðan verður uppfærð með límda gildinu *Staðsetning*)
 
 1. Þar sem hjáleiðin í þessum aðstæðum er skilgreind í skrefi númeraplötu reynist það gagnlegt ef starfsmenn geta fengið númeraplötuna úr fyrirspurninni aftur í aðalflæðið. Í hlutanum **Sækja aftur úr staðsetningarfyrirspurn** skal því velja **Bæta við** á tækjastikunni til að bæta línu við hnitanetið. Stilltu síðan eftirfarandi gildi fyrir nýju línuna:
 
     - **Afrita úr fyrirspurn staðsetningar:** *Númeraplata*
     - **Líma í sölutiltekt:** *Númeraplata*
-    - **Sjálfvirk innsending:** *Hreinsað* (engin sjálfvirk uppfærsla mun eiga sér stað þegar komið er til baka frá króknum með a *Númeraplata* gildi)
+    - **Sjálfvirk innsending:** *Hreinsað* (engin sjálfvirk uppfærsla kemur fram þegar komið er til baka úr hjáleið með gildi fyrir *Númeraplötu*)
 
 1. Veldu **Í lagi**.
 
@@ -91,7 +91,7 @@ Hjáleiðin er nú skilgreind að fullu. Hnappur til að hefja hjáleiðina **St
 
 ### <a name="complete-a-sales-pick-on-a-mobile-device-and-use-the-detour"></a>Ljúka tiltekt sölu á fartæki og nota hjáleiðina
 
-Í þessu ferli lýkur þú söluvali með því að nota Vöruhússtjórnun farsímaforritið. Þú munt nota krókaleiðina sem þú varst að stilla til að finna númeraplötuna sem þú munt nota til að ljúka valsskrefinu.
+Í þessu ferli er sölutiltekt lokið með farsímaforriti vöruhúsakerfis. Þú notar hjáleiðina sem þú varst að skilgreina til að finna númeraplötuna sem þú notar til að ljúka við tiltektarskrefið.
 
 1. Í Microsoft Dynamics 365 Supply Chain Management skal stofna sölupöntun sem þarf tiltektarskref til að tína úr staðsetningu sem er rakin með númeraplötu. Losaðu svo sölupöntunina í vöruhúsið. Skráið niður vinnuauðkennið sem er myndað.
 1. Opnaðu farsímaforrit Warehouse Management og skráðu þig inn í vöruhús 24. (Í stöðluðum kynningargögnum skráirðu þig inn með því að nota *24* sem notandakenni og *1* sem lykilorð.)
@@ -113,11 +113,11 @@ Vöruhúsavinnu er nú lokið. Starfsmaðurinn opnaði hjáleið til að framkv�
 
 ### <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að nota tilgreindar sýnishornsfærslur og gildi til að vinna í gegnum þessa atburðarás verður þú að nota kerfi þar sem staðallinn [kynningargögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
+Til að nota tiltekin dæmi um færslur og gildi til að fara í gegnum þessar aðstæður þarftu að nota kerfi þar sem stöðluð [sýnigögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) eru uppsett. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Búa til hnekkingu valmyndar og skilgreina hjáleið fyrir aðstæður 2
 
-Í þessari aðferð muntu stilla krók fyrir **Útsölutínsla** valmyndaratriði í númeraplötuþrepinu.
+Í þessu ferli verður skilgreind hjáleið fyrir valmyndaratriðið **Tiltekt sölu** í skrefi númeraplötu.
 
 1. Farðu í **Warehouse Management \> Uppsetning \> Fartæki \> Skref fartækis**.
 1. Leitaðu að og veldu skrefakennið sem heitir *LocationInquiryList*.
@@ -136,7 +136,7 @@ Til að nota tilgreindar sýnishornsfærslur og gildi til að vinna í gegnum þ
 
     - **Afrita úr staðsetningarfyrirspurn:** *Staðsetning*
     - **Líma í hreyfingu:** *Staðs / NP*
-    - **Sjálfvirk innsending:** *Hreinsað* (engin sjálfvirk uppfærsla mun eiga sér stað)
+    - **Sjálfvirk innsending:** *Hreinsað* (engin sjálfvirk uppfærsla á sér stað)
 
     Í þessari hjáleið býstu ekki við að neinar upplýsingar séu afritaðar til baka vegna þess að aðalflæðið var fyrirspurn þar sem ekki er þörf á neinum viðbótarskrefum.
 
@@ -146,7 +146,7 @@ Hjáleiðin er nú skilgreind að fullu. Hnappur til að hefja hjáleiðina **Hj
 
 ### <a name="do-a-location-inquiry-on-a-mobile-device-and-use-the-detour"></a>Spyrjast fyrir um staðsetningu í fartæki og nota hjáleiðina
 
-Í þessari aðferð muntu gera staðsetningarfyrirspurn með því að nota vöruhússtjórnun farsímaforritið. Þú munt síðan nota krókinn til að ljúka vöruflutningi.
+Í þessu ferli er fyrirspurn um staðsetningu send með farsímaforriti vöruhúsakerfis. Þú notar síðan hjáleiðina til að ljúka vöruhreyfingu.
 
 1. Opnaðu farsímaforrit Warehouse Management og skráðu þig inn í vöruhús 24. (Í stöðluðum kynningargögnum skráirðu þig inn með því að nota *24* sem notandakenni og *1* sem lykilorð.)
 1. Veldu valmyndina **Birgðir** og veldu svo valmyndaratriðið **Staðsetningarfyrirspurn**.
@@ -158,6 +158,6 @@ Hjáleiðin er nú skilgreind að fullu. Hnappur til að hefja hjáleiðina **Hj
 1. Þú ert komin(n) aftur á síðuna **Staðsetningarfyrirspurn**. Athugaðu að gildin eru ekki uppfærð sjálfkrafa. Þar af leiðandi þarf að endurhlaða síðuna handvirkt til að sjá breytingarnar úr hjáleið hreyfingar.
 
 > [!NOTE]
-> The *Fjölþrepa krókaleiðir fyrir vöruhússtjórnun farsímaforritið* eiginleiki gerir þér kleift að skilgreina krókaleiðir á mörgum hæðum (krókaleiðir innan krókaleiða), sem gerir starfsmönnum kleift að hoppa frá núverandi krókaleið, tvo aðra og svo til baka. Eiginleikinn styður tvö stig af krókaleiðum úr kassanum og, ef nauðsyn krefur, geturðu sérsniðið kerfið þitt til að styðja við þrjú eða fleiri stig krókaleiða með því að búa til kóðaviðbætur á`WHSWorkUserSessionState` borð.
+> Eiginleikinn *Fjölþrepa hjáleiðir fyrir fartækjaforrit vöruhúsakerfis* gerir þér kleift að skilgreina fjölþrepa hjáleiðir (hjáleiðir með hjáleiðum) sem gerir starfsmönnum kleift að hoppa úr fyrirliggjandi hjáleið yfir í aðra og síðan aftur til baka. Þessi eiginleiki styður tvö tilbúin stig hjáleiða og ef þörf krefur er hægt að sérsníða kerfið til að styðja þrjú eða fleiri stig af hjáleiðum með því að búa til kóðaviðbætur í töflunni `WHSWorkUserSessionState`.
 >
-> The *Sendu sjálfkrafa krókaskref fyrir vöruhússtjórnun farsímaforritið* eiginleiki getur gert það hraðara og auðveldara fyrir starfsmenn að klára krókaflæði í vöruhúsastjórnun farsímaforritinu. Það gerir kleift að sleppa sumum flæðisskrefum með því að láta appið fylla út krókagögn á bakendanum og fara síðan sjálfkrafa í næsta skref með því að senda síðuna sjálfkrafa, eins og sýnt er í [*Dæmi um atburðarás 1: Söluval þar sem staðsetningarfyrirspurn virkar sem krókur*](#scenario-1).
+> Eiginleikinn *Senda sjálfvirkt hjáleiðarskref fyrir farsímaforrit vöruhúsakerfis* getur flýtt fyrir og auðveldað starfsmönnum að ljúka hjáleiðarflæðum í farsímaforriti vöruhúsakerfis. Með því er hægt að sleppa sumum flæðisskrefum með því að láta forritið fylla út hjáleiðargögn á bakendanum og fara svo sjálfkrafa í næsta skref með því að senda síðuna inn sjálfkrafa eins og sýnt er í [*Dæmi um aðstæður 1: Tiltekt sölu þar sem fyrirspurn staðsetningar virkar sem hjáleið*](#scenario-1).

@@ -1,6 +1,6 @@
 ---
 title: Festing
-description: Þessi grein útskýrir hvernig á að virkja og nota festingu.
+description: Þessi grein lýsir hvernig á að kveikja á og nota festingu.
 author: GalynaFedorova
 ms.date: 07/29/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
 ms.openlocfilehash: 8a0fa849f07f0cc0a41a663fc97b5aba927700b1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8903812"
@@ -22,7 +22,7 @@ ms.locfileid: "8903812"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um festingarferlið. Það útskýrir uppsetningu sem krafist er og rökin sem eru keyrð þegar starfsmaður í vöruhúsi breytir annaðhvort bráðabirgðarstaðsetningu eða hleðslustaðsetningu.
+Þessi grein veitir upplýsingar um ferli festingar. Það útskýrir uppsetningu sem krafist er og rökin sem eru keyrð þegar starfsmaður í vöruhúsi breytir annaðhvort bráðabirgðarstaðsetningu eða hleðslustaðsetningu.
 
 Eiginleiki festingar gerir þér kleift að hnekkja bráðabirgðar- eða hleðslustaðsetningu. Öllum opnum frágangi verður þá vísað á nýja bráðabirgðar- eða hleðslustaðsetningu sem þú tilgreinir.
 
@@ -36,11 +36,11 @@ Eiginleiki festingar gerir þér kleift að hnekkja bráðabirgðar- eða hleðs
 > [!IMPORTANT]
 > Staðsetningunni fyrir opinn frágang sem fylgir í kjölfarið verður breytt í vinnulínurnar sem eru búnar til úr sömu vinnusniðmátslínunni. Með öðrum orðum mun kerfið festa frágangslínurnar sem koma upprunalega úr sömu vinnusniðmátslínunni.
 
-Þessi grein veitir atburðarás sem sýnir hvernig festing virkar. Í aðstæðunum verða söfn sölupantana stofnuð og þau losuð til vöruhússins. Þú hnekkir síðan ráðlagðri bráðabirgðarstaðsetningu og staðfestir að allri eftirstandandi frágangsvinnu er beint á nýju staðsetninguna.
+Í þessari grein er að finna aðstæður sem sýna hvernig festing virkar. Í aðstæðunum verða söfn sölupantana stofnuð og þau losuð til vöruhússins. Þú hnekkir síðan ráðlagðri bráðabirgðarstaðsetningu og staðfestir að allri eftirstandandi frágangsvinnu er beint á nýju staðsetninguna.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Skilyrði fyrir aðstæðurnar: Bjóða upp á sýnigögn
 
-Atburðarásin í þessari grein vísar til gilda og skráa sem eru innifalin í stöðluðum kynningargögnum sem eru veitt fyrir Microsoft Dynamics 365 Supply Chain Management. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á *USMF* áður en hafist er handa.
+Aðstæður í þessari grein vísa í gildi og færslur sem eru innifaldar í stöðluðum sýnigögnum fyrir Microsoft Dynamics 365 Supply Chain Management. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á *USMF* áður en hafist er handa.
 
 ## <a name="scenario-setup"></a>Uppsetning sviðsmyndar
 

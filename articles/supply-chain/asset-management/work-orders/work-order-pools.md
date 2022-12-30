@@ -1,6 +1,6 @@
 ---
 title: Verkbeiðnihópar
-description: Þessi grein lýsir því hvernig á að vinna með verkbeiðnasamstæður í eignastýringu.
+description: Í þessari grein er útskýrt hvernig á að vinna með verkbeiðnihópa í eignastýringu.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: dc9eaf82c2f3336f8c3400fcd3f1165ed4fa56d8
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9014970"
@@ -44,7 +44,7 @@ Hægt er að setja eina verkbeiðni í mörg verkbeiðnisöfn, eftir þörfum.
 
 Á listasíðunni **Öll verkbeiðnisöfn** eða **Virk verkbeiðnisöfn** geturðu fengið yfirlit yfir verkbeiðnisöfn þín og búið til ný söfn.
 
-1. Veldu **Eignastýring** > **Vinnupöntunarlaugar** > **Allar vinnupöntunarlaugar** eða **Virkir verkbeiðnapottar**.
+1. Veldu **Eignastýring** > **Verkbeiðnihópar** > **Allir verkbeiðnihópar** eða **Virkir verkbeiðnihópar**.
 
 2. Veljið **Nýtt**.
 

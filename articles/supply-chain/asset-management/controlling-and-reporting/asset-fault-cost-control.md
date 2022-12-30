@@ -1,6 +1,6 @@
 ---
 title: Kostnaðarstýring eignavillu
-description: Þessi grein útskýrir eignabilunarkostnaðarstjórnun í eignastýringu.
+description: Þessi grein útskýrir eigna- og kostnaðarstýringu bilana í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 553b89a43b656669b7730b19898f3a5d81a3873a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8889665"
@@ -58,7 +58,7 @@ ms.locfileid: "8889665"
 
     ![Mynd 1.](media/05-controlling-and-reporting.png)
 
-Fyrir upplýsingar um hvernig á að setja upp villur, sjá [Bilanastjórnun](../setup-for-work-orders/fault-management.md) grein.
+Upplýsingar um hvernig á að setja upp villur er að finna í greininni [Villustjórnun](../setup-for-work-orders/fault-management.md).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

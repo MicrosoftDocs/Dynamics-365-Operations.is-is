@@ -1,6 +1,6 @@
 ---
 title: Röðun virkra efna í uppskrift
-description: Þessi grein lýsir lotujöfnunarferlinu.
+description: Í þessari grein er runujöfnunarferlinu lýst.
 author: johanhoffmann
 ms.date: 01/04/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 939066fbf4ab7b316283d406c321f1a7936c187f
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9066547"
@@ -26,7 +26,7 @@ ms.locfileid: "9066547"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig runujöfnunarferlið er stutt.
+Í þessari grein er því lýst hvernig röðunarferli virkra efna í uppskrift er studd.
 
 Fyrir frekari upplýsingar skaltu horfa á [myndband um jöfnun virkra efna í uppskrift](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
@@ -149,7 +149,7 @@ Jafnað magn fylliefnisins er reiknað sem mismunurinn á lotustærðinni 100 l�
 Röðunarferli virkra efna í uppskrift er framkvæmt á síðunni **Röðun virkra efna í uppskrift**.
 Veljið **Kostnaðarstjórnun \> Runupantanir** og þá á flipanum **Ferli** skal velja **Röðun virkra efna í uppskrift**. Röðun virkra efna í uppskrift er tiltæk fyrir runupantanir sem hafa stöðuna **Byrjað**.
 
-Almennt er hægt að nota röðun virkra efna í uppskrift á runupantanir ef formúlan hefur a.m.k. eina formúlulínu þar sem **Gerð innihaldsefnis** er *Virk*. (Fyrir undantekningu frá þessari reglu, sjá kaflann „Runnupantanir sem eiga ekki við um runujöfnun“ síðar í þessari grein.)
+Almennt er hægt að nota röðun virkra efna í uppskrift á runupantanir ef formúlan hefur a.m.k. eina formúlulínu þar sem **Gerð innihaldsefnis** er *Virk*. (Fyrir utantekningar á þessari reglu, sjáðu kaflann „Runupantanir sem ekki eiga við um runujöfnun“ seinna í þessari grein.)
 
 Röðunarferli virkra efna í uppskrift er hægt að skipta niður í tvo undirferla:
 
@@ -165,22 +165,22 @@ Röðunarferli virkra efna í uppskrift er hægt að skipta niður í tvo undirf
 
 ### <a name="confirm-and-release-the-formula"></a>Staðfesta og losa formúluna
 
-Eftir að magn innihaldsefnisins hefur verið reiknað, getur þú staðfest og losað formúluna. Útgáfuferlið er mismunandi, eftir því hvort vörurnar eru virkjaðar fyrir vöruhúsastjórnunarferli (WMS):
+Eftir að magn innihaldsefnisins hefur verið reiknað, getur þú staðfest og losað formúluna. Losunarferlið er mismunandi eftir því hvort afurðirnar eru virkar fyrir vöruhúsakerfisferla (WMS):
 
-- Ef vara er virkjuð fyrir WMS er formúlulínan gefin út í vöruhúsið í samræmi við meginreglur WMS. Formúlulínan er losuð í magni sem passar við jafnaða magnið og það er gefið út fyrir tilteknar runur sem eru valdir fyrir virku innihaldsefnin.
+- Ef afurð er virkjuð fyrir vöruhúsakerfi er formúlulínan losuð í vöruhúsið í samræmi við meginreglur vöruhúsakerfis. Formúlulínan er losuð í magni sem passar við jafnaða magnið og það er gefið út fyrir tilteknar runur sem eru valdir fyrir virku innihaldsefnin.
 
     > [!NOTE]
     > Aðeins er hægt að losa formúlulínur í vöruhús sem hluta af röðunarferli virkra efna í uppskrift. Þrátt fyrir að það séu aðrir möguleikar til að losa efni til framleiðslu í vöruhús, þá er ekki hægt að nota þessa valkosti fyrir formúlulínur.
 
-- Ef vara er ekki virkjuð fyrir WMS er framleiðslutínslulisti búinn til fyrir vöruna þegar þú staðfestir og gefur út formúluna.
+- Ef afurð er ekki virk fyrir WMS er tiltektarlisti framleiðslu stofnaður fyrir afurðina þegar formúlan er staðfest og losuð.
 
-Í stakri formúlu er hægt að sameina afurðir sem eru virkjaðar fyrir vöruhúsakerfisferla og afurðir sem ekki eru virkjaðar fyrir vöruhúsakerfisferlana. Þegar tvær tegundir af vörum eru innifaldar í einni formúlu eru vörurnar sem eru virkjaðar fyrir WMS gefnar út í vöruhús. Fyrir vörurnar sem eru ekki virkjaðar fyrir WMS er vallisti búinn til þegar formúlan er staðfest og gefin út.
+Í stakri formúlu er hægt að sameina afurðir sem eru virkjaðar fyrir vöruhúsakerfisferla og afurðir sem ekki eru virkjaðar fyrir vöruhúsakerfisferlana. Þegar tvær gerðir afurða eru hluti af einni formúlu eru afurðirnar sem eru gerðar virkar fyrir WMS losaðar í vöruhús. Fyrir vörur sem eru ekki virkar fyrir WMS er búinn til vallisti þegar formúlan er staðfest og losuð.
 
 ### <a name="batch-orders-that-arent-applicable-for-batch-balancing"></a>Runupantanir sem ekki eiga við um röðun virkra efna í uppskrift
 
 Það eru tvær undantekningar frá þeirri reglu að runupantanir eiga við fyrir röðun virkra efna í uppskrift ef formúlan hefur a.m.k. eina formúlulínu þar sem **Gerð innihaldsefnis** er *Virk*.
 
-1. Ef formúla inniheldur virkt innihaldsefni fyrir vöru sem er virkjuð fyrir WMS, en lotunúmer er fyrir neðan staðsetningu í frátekningarstigveldinu, á lotupöntunin ekki við fyrir lotujöfnun.
+1. Ef formúla inniheldur virkt efni fyrir afurð sem er virkjuð fyrir vöruhúsakerfisferlana, en rununúmer er undir staðsetningu í frátekningarstigveldinu, á runupöntunin ekki við um röðun virkra efna í uppskrift.
 1. Ef formúlumælieining er frábrugðin birgðamælieiningu virks innihaldsefnis, á tunupöntunin ekki við um röðun virkra efna í uppskrift.
 
 Runupöntun sem á ekki við um röðun virkra efna í uppskrift fer í gegnum reglulega vinnuferilinn fyrir runupantanir.

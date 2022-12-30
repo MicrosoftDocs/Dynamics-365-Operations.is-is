@@ -1,6 +1,6 @@
 ---
 title: Breyta vinnuhópi á vinnu
-description: Þessi grein útskýrir hvernig þú getur notað hnappinn Breyta vinnuhópi fyrir verkþætti til að breyta vinnuhópi fyrirliggjandi vinnu.
+description: Þessi grein útskýrir hvernig hægt er að nota hnappinn „Breyta vinnuhópi“ fyrir vinnuliði til að breyta vinnuhópi fyrirliggjandi vinnu.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 817b45e8f5af957801a0af04e50acf20ba16c26d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8900623"
@@ -28,20 +28,20 @@ Hægt er að nota vinnuhópa til að skipuleggja vinnu í flokka. Til dæmis er 
 
 Eiginleikinn *Breyta vinnuhópi á vinnu* bætir hnappnum **Breyta vinnuhópi** við aðgerðasvæðið fyrir vinnuliði. Stjórnendur vöruhúss geta þar af leiðandi auðveldlega breytt vinnuhópi fyrirliggjandi vinnu. Þessi eiginleiki gerir stjórnendum kleift að bregðast hratt við breytingum í vinnusal vöruhúss og hann eykur getu þeirra til að aðlagast breyttum aðstæðum og þörfinni til að flytja vinnu á annan vinnuhóp.
 
-## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>Kveiktu eða slökktu á Breyta vinnulaug á vinnu eiginleikanum
+## <a name="turn-the-change-work-pool-on-work-feature-on-or-off"></a>Kveikja eða slökkva á eiginleikanum „Breyta vinnuhópi á vinnu“
 
-Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Breyta vinnulaug á vinnu* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Breyta vinnuhópi á vinnu* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Setja upp eiginleikann „Breyta vinnuhópi á vinnu“
 
-Til að nota þennan eiginleika þarf að hafa einhverja vinnuhópa uppsetta. Einnig er hægt að setja upp vinnusniðmátin til að þau úthluti hópi sjálfkrafa. Ef þú vilt vinna í gegnum dæmið sem er að finna síðar í þessari grein skaltu setja upp kerfið eins og lýst er í þessum hluta.
+Til að nota þennan eiginleika þarf að hafa einhverja vinnuhópa uppsetta. Einnig er hægt að setja upp vinnusniðmátin til að þau úthluti hópi sjálfkrafa. Ef á að vinna í gegnum sýniaðstæðurnar sem boðið er upp á seinna í þessari grein, skal setja kerfið eins og lýst er í þessum hluta.
 
 ### <a name="set-up-work-pools"></a>Setja upp vinnuhópa
 
 Vinnuhópar gera þér kleift að skipuleggja vinnuliði eftir gerð. Til að vinna með eiginleikann *Breyta vinnuhópi á vinnu* þarf að hafa a.m.k. tvo vinnuhópa tiltæka. Til að skoða og bæta við vinnuhópum skal fylgja þessum skrefum.
 
 1. Fara í **Vöruhúsakerfi \> Uppsetning \> Vinna \> Vinnuhópar**.
-1. Ef þú ert að vinna með kynningargögn frá **USMF** fyrirtæki og mun vinna í gegnum dæmi atburðarás síðar í þessari grein, bæta við tveimur vinnulaugum sem hafa eftirfarandi stillingar:
+1. Ef unnið er með sýnigögn úr fyrirtækinu **USMF** og farið verður í gegnum atburðarásina seinna í þessari grein, skal bæta við tveimur vinnuhópum sem eru með eftirfarandi stillingum:
 
     - Vinnuhópur 1:
 
@@ -57,7 +57,7 @@ Vinnuhópar gera þér kleift að skipuleggja vinnuliði eftir gerð. Til að vi
 
 ### <a name="set-up-work-templates"></a>Setja upp vinnusniðmát
 
-Fyrir hvert vinnusniðmát er hægt að stilla sjálfgefinn vinnuhóp eftir þörfum. Fyrir hvert viðeigandi sniðmát er vinnuhópi úthlutað í dálknum **Auðkenni vinnuhóps**. Í þessu tilviki erfa sjálfkrafa allir vinnuliðir sem búnir eru til með því að nota uppgefið sniðmát úthlutaðan vinnuhóp. Ef þú ert að vinna með kynningargögnin frá **USMF** fyrirtæki og mun vinna í gegnum dæmi atburðarás síðar í þessari grein, fylgdu þessum skrefum.
+Fyrir hvert vinnusniðmát er hægt að stilla sjálfgefinn vinnuhóp eftir þörfum. Fyrir hvert viðeigandi sniðmát er vinnuhópi úthlutað í dálknum **Auðkenni vinnuhóps**. Í þessu tilviki erfa sjálfkrafa allir vinnuliðir sem búnir eru til með því að nota uppgefið sniðmát úthlutaðan vinnuhóp. Ef unnið er með sýnigögn úr fyrirtækinu **USMF** og farið verður í gegnum dæmi um aðstæður síðar í þessari grein skal fylgja þessum skrefum.
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Vinna \> Vinnusniðmát**.
 1. Á aðgerðasvæðinu skal velja **Breyta** til að færa síðuna yfir í breytingastillingu.
@@ -70,7 +70,7 @@ Fyrir hvert vinnusniðmát er hægt að stilla sjálfgefinn vinnuhóp eftir þö
 
 ## <a name="example-scenario"></a>Dæmi
 
-Þessi atburðarás sýnir hvernig á að breyta flæði úrvinnslunnar fyrir fyrirliggjandi vinnulið með því að breyta vinnuhóp hans. Það notar kynningargögn frá **USMF** fyrirtæki og stillingar sem stungið var upp á fyrr í þessari grein.
+Þessi atburðarás sýnir hvernig á að breyta flæði úrvinnslunnar fyrir fyrirliggjandi vinnulið með því að breyta vinnuhóp hans. Hún notar sýnigögn úr fyrirtækinu **USMF** og stillingarnar sem mælt var með fyrr í þessari grein.
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Stofna sölupöntun og losa hana í vöruhúsið.
 

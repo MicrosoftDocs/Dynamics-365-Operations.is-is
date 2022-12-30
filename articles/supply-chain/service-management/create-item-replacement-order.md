@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 14751fb0e0632ca986d6eddf55c93d44fbd68276
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015465"
@@ -31,7 +31,7 @@ Vöruskilapantanir eru yfirleitt stofnaðar eftir að vöru hefur verið skilað
 
 ## <a name="create-a-replacement-order-after-you-receive-an-item-that-is-returned"></a>Stofna skal skiptipöntun eftir að skilavara hefur verið móttekin
 
-1.  Smellur **Sala og markaðssetning** \> **Söluskil** \> **Allar skilapantanir**.
+1.  Smelltu á **Sala og markaðsstarf** \> **Söluvöruskil** \> **Allar skilapantanir**.
 
 2.  Búðu til nýtt skilapöntun, eða veldu skilapöntun frá listanum til að opna **Skilapöntun - RMA númer: %1, %2** skjámynd.
 
@@ -45,7 +45,7 @@ Vöruskilapantanir eru yfirleitt stofnaðar eftir að vöru hefur verið skilað
 
 ## <a name="create-a-replacement-order-before-you-receive-an-item-that-will-be-returned"></a>Stofna skal skiptipöntun áður en þú móttekur vöru sem verður skilað
 
-1.  Smellur **Sala og markaðssetning** \> **Söluskil** \> **Allar skilapantanir**.
+1.  Smelltu á **Sala og markaðsstarf** \> **Söluvöruskil** \> **Allar skilapantanir**.
 
 2.  Búðu til nýja skilapöntun, eða veldu skilapöntun af listanum til að opna skjámyndina **Skilapöntun - RMA númer: %1, %2**.
 

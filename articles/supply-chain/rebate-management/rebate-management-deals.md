@@ -1,6 +1,6 @@
 ---
 title: Tilboð fyrir stjórnun eftirágreidds afsláttar
-description: Þessi grein lýsir því hvernig á að búa til afsláttarstjórnunarsamninga. Tilboð eru notuð til að stjórna mismunandi aðferðum og grunnum til að reikna út eftirágreiddan afslátt og afnotagreiðslur. Þau fela í sér reglur um það sem er innifalið og ekki innifalið.
+description: Þessi grein lýsir hvernig á að stofna tilboð fyrir stjórnun eftirágreidds afsláttar. Tilboð eru notuð til að stjórna mismunandi aðferðum og grunnum til að reikna út eftirágreiddan afslátt og afnotagreiðslur. Þau fela í sér reglur um það sem er innifalið og ekki innifalið.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: 28cfff69ab4e528c146ccbf6a34548a819c99522
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8851595"
@@ -24,7 +24,7 @@ ms.locfileid: "8851595"
 
 [!include [banner](../includes/banner.md)]
 
-Tilboð vegna stjórnunar eftirágreidds afsláttar eru notuð til að stjórna mismunandi aðferðum og grunnum til að reikna út eftirágreiddan afslátt og afnotagreiðslur. Þau fela í sér reglur um það sem er innifalið og ekki innifalið. Til eru þrjár gerðir tilboða fyrir stjórnun eftirágreidds afsláttar: eftirágreiddir afslættir viðskiptavinar, afnotagreiðslur viðskiptavinar og eftirágreiddir afslættir lánardrottins. Allar þrjár gerðirnar nota svipaðar stillingar. Þessi grein bendir á mun þar sem hann er til staðar.
+Tilboð vegna stjórnunar eftirágreidds afsláttar eru notuð til að stjórna mismunandi aðferðum og grunnum til að reikna út eftirágreiddan afslátt og afnotagreiðslur. Þau fela í sér reglur um það sem er innifalið og ekki innifalið. Til eru þrjár gerðir tilboða fyrir stjórnun eftirágreidds afsláttar: eftirágreiddir afslættir viðskiptavinar, afnotagreiðslur viðskiptavinar og eftirágreiddir afslættir lánardrottins. Allar þrjár gerðirnar nota svipaðar stillingar. Þessi grein sýnir mismun þar sem hann er til staðar.
 
 ## <a name="create-a-deal"></a>Stofna tilboð
 
@@ -118,7 +118,7 @@ Flipinn **Almennt** í flýtiflipanum **Upplýsingar um stjórnun eftirágreidds
 
 | Svæði | lýsing |
 |---|---|
-| Útreikningsaðferð | Veljið aðferðina sem á að nota þegar valin tilboðslína er sameinuð við aðrar tilboðslínur (*Þrepaskipt*, *Uppsafnað*, *Hlaupandi* eða *Samtala*). Gildið í þessum reit getur haft umtalsverð áhrif á niðurstöðu útreikninga eftirágreidds afsláttar. Sjá ítarlega lýsingu á hverri aðferð og dæmi sem sýna hvernig hún hefur áhrif á afsláttarútreikninginn [Útreikningsaðferðir fyrir viðskiptalínur](#calc-methods) kafla síðar í þessari grein. |
+| Útreikningsaðferð | Veljið aðferðina sem á að nota þegar valin tilboðslína er sameinuð við aðrar tilboðslínur (*Þrepaskipt*, *Uppsafnað*, *Hlaupandi* eða *Samtala*). Gildið í þessum reit getur haft umtalsverð áhrif á niðurstöðu útreikninga eftirágreidds afsláttar. Nánari lýsing á hverri aðferð og dæmi sem sýna hvernig þær hafa áhrif á útreikning eftirágreidds afsláttar er að finna í hlutanum [Útreikningsaðferðir fyrir tilboðslínur](#calc-methods) síðar í þessari grein. |
 | Grunnur | Veljið hvort eftirágreiddur afsláttur sé notaður miðað við magn (þ.e. heildarfjölda eininga sem eru keyptar eða seldar) eða virði (þ.e. heildarverð varanna sem eru keyptar eða seldar). |
 | Færslugerð | <p>Veljið hvenær í ferlinu útreikningurinn á að eiga sér stað:</p><ul><li>*Pöntun* – Notið pantað magn eða virði sem grundvöll útreiknings.</li><li>*Afhent* – Notið afhent magn eða virði sem grundvöll útreiknings.</li><li>*Reikningur* – Notið reikningsfært magn eða virði sem grundvöll útreiknings.</li></ul> |
 | Eining | Ef valið var *Magn* í reitnum **Grunnur** skal velja eininguna sem magnið á að vera í. |

@@ -1,6 +1,6 @@
 ---
 title: Færibreytur ekki notaðar af fínstillingu áætlanagerðar
-description: Þessi grein listar færibreytur sem áætlanagerð fínstilling tekur ekki til greina eins og er þegar hún er í gangi.
+description: Í þessari grein er að finna lista yfir færibreytur sem fínstilling skipulagningar tekur ekki til greina sem stendur meðan á aðgerð stendur.
 author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: db8a8e929bf75c4d1dac0c1b0a7cbc848ff291a9
 ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/14/2022
 ms.locfileid: "9682669"
@@ -22,7 +22,7 @@ ms.locfileid: "9682669"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein listar færibreytur sem áætlanagerð fínstilling tekur ekki til greina eins og er þegar hún er í gangi. Þjónustuáætlun gæti sleppt færibreytu vegna þess að tengd virkni er til að mynda ekki studd. Að öðrum kosti gæti færibreytan hafa úrelst vegna breytinga á virkni.
+Í þessari grein er að finna lista yfir færibreytur sem fínstilling skipulagningar tekur ekki til greina sem stendur meðan á aðgerð stendur. Þjónustuáætlun gæti sleppt færibreytu vegna þess að tengd virkni er til að mynda ekki studd. Að öðrum kosti gæti færibreytan hafa úrelst vegna breytinga á virkni.
 
 Eftirfarandi hlutar telja upp þær breytur sem fínstilling skipulagningar notar ekki á tilteknum síðum. Þeir útskýra einnig hvers vegna hver færibreyta er ekki notuð.
 
@@ -60,7 +60,7 @@ Fínstilling skipulagningar notar ekki eftirfarandi færibreytur eða valkosti �
 
 - Flýtiflipinn **Almennt**
 
-  - **Jákvæðir dagar** — Hið *Jákvæðir dagar* gildi er ekki notað. Með hagræðingu áætlanagerðar eru jákvæðir dagar taldir óendanlegir.
+  - **Jákvæðir dagar** – Gildið *Jákvæðir dagar* er ekki notað. Með fínstillingu áætlanagerðar eru jákvæðir dagar álitnir ótakmarkaðir.
   - **Nota lagerbirgðir** – Bíður stuðnings frá *Notkun lagerbirgða*.
   - **Nota tilgreinda uppskriftar- eða formúluútgáfu** – Bíður stuðnings frá *Formúluútgáfur með auka-/hliðarafurðum*.
   - **Nota tilgreinda leiðarútgáfu** – Bíður stuðnings frá *Eftirspurn með tiltekna kröfu uppskriftar eða leiðar skilgreinda*.
@@ -146,9 +146,9 @@ Fínstilling skipulagningar notar ekki eftirfarandi færibreytur eða valkosti �
   - **Bæta við reiknaðri seinkun á dagsetningu þarfa** (í hlutanum **Áætlaður flutningur**) – Bíður stuðnings frá *Reiknaðar seinkanir*.
   - **Bæta við reiknaðri seinkun á dagsetningu þarfa** (í hlutanum **Áætlað kanban**) – Bíður stuðnings frá *Reiknaðar seinkanir*.
 
-- **Aðgerðarboð** flýtiflipi:
+- Flýtiflipinn **Aðgerðaboð**:
 
-  - **Uppfærðu frestað dagsetningu sem kröfudagsetningu** - Þessi færibreyta er hætt með áætlanagerð fínstillingu.
+  - **Uppfæra frestaða dagsetningu sem þarfadagsetningu** - Þessari færibreytu er hætt fínstillingu áætlanagerðar.
 
 - Flýtiflipinn **Röðun**:
 

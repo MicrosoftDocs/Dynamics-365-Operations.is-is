@@ -1,6 +1,6 @@
 ---
 title: Sniðmát hleðslu
-description: Þessi grein lýsir því hvernig á að setja upp hleðslusniðmát og hvernig á að tengja hleðslusniðmát við nýtt hleðslu.
+description: Þessi grein lýsir því hvernig eigi að setja upp farmsniðmát og hvernig á að tengja farmsniðmát við í nýjan farm.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -16,7 +16,7 @@ ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: 47b4925c528b64b835ce3e88659ee6ab0572eb2b
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8844181"
@@ -27,7 +27,7 @@ ms.locfileid: "8844181"
 
 Þegar ný hleðsla er búin til er hægt að úthluta hleðslusniðmáti. Hleðslusniðmátið inniheldur upplýsingar um búnað, og um mælingar á borð við hæð, breidd, dýpt og rúmmál hleðslunnar.
 
-Þessi grein lýsir því hvernig á að setja upp hleðslusniðmát og hvernig á að tengja hleðslusniðmát við nýtt hleðslu.
+Þessi grein lýsir því hvernig eigi að setja upp farmsniðmát og hvernig á að tengja farmsniðmát við í nýjan farm.
 
 ## <a name="set-up-a-load-template"></a>Setja upp hleðslusniðmát
 

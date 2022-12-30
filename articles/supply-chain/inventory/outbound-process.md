@@ -1,6 +1,6 @@
 ---
 title: Yfirlit útleiðarferlis
-description: Þessi grein veitir yfirlit yfir ferlið á útleið í birgðastjórnun.
+description: Þessi grein veitir yfirsýn yfir útleiðarferli í birgðastjórnun.
 author: yufeihuang
 ms.date: 07/25/2019
 ms.topic: overview
@@ -20,7 +20,7 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.openlocfilehash: 4e3c97862858e219d98b4ef9a81b52c6ab1623ab
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8852477"
@@ -29,7 +29,7 @@ ms.locfileid: "8852477"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir ferlið á útleið í birgðastjórnun.
+Þessi grein veitir yfirsýn yfir útleiðarferli í birgðastjórnun.
 
 ## <a name="output-orders"></a>Úttakspantanir
 
@@ -63,7 +63,7 @@ Farðu í **Birgðastjórnun** \> **Uppsetning** \> **Færibreytur birgða- og v
 
 Þegar starfsmaður vöruhúss minnkar magn á tiltektarlista, þá verður samsvarandi magn birgðapantana fjarlægt úr sendingu. Þegar tiltektarlistinn er uppfærður á einhverjum tímapunkti, verða eftirstandandi magn tilkynnt aftur á pöntunarstig ef valkosturinn **Ljúka úttaksbirgðapöntun** er stillt á **Já**. Ef valkosturinn **Ljúka úttaksbirgðapöntun** er stilltur á **Nei**, er eftirstandandi magn geymt sem opið úttakspöntunarmagn og verður að vera bætt við nýjan tiltektarlista, sem hluta af virkninni **Opna úttakspantanir**. 
 
-Skipunin [![Opna úttakspantanir á valmynd fyrir Aðgerðir.](./media/open-output-order.png)](./media/open-output-order.png)
+[![Skipunin Opna úttakspantanir á valmynd fyrir Aðgerðir.](./media/open-output-order.png)](./media/open-output-order.png)
 
 [![Aðgerðavalmyndin á síðunni Opna úttakspantanir.](./media/open-output-order-function.png)](./media/open-output-order-function.png)
 

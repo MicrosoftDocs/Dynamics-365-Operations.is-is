@@ -1,6 +1,6 @@
 ---
 title: Reikna álag á áætlaðar verkbeiðnir
-description: Þessi grein útskýrir hvernig á að reikna út afkastagetuálag á áætlaðar verkbeiðnir í eignastýringu.
+description: Í þessari grein er útskýrt hvernig hægt er að reikna út álag á verkbeiðnir á áætlun í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 53b147198f6aa9e0254312e5ea48b9ae616a79a9
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8857954"

@@ -1,6 +1,6 @@
 ---
 title: Uppfæra rakningu fyrir frágang
-description: Þessi grein lýsir því hvernig á að setja upp og keyra uppfærslurakningu fyrir reglubundið verkefni.
+description: Þessi grein lýsir því hvernig á að setja upp og keyra uppfærslu rakningu fyrir reglubundið verk frágangs.
 author: Weijiesa
 ms.date: 08/02/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
 ms.openlocfilehash: b36fe5a9828ea018881f08b8af27d77cdf0babc1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8882606"

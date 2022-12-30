@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1764d97d4492e7b982a5d2c9f7e7f1c15380be1d
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9014852"
@@ -34,7 +34,7 @@ ms.locfileid: "9014852"
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Búðu til þjónustupöntun handvirkt út frá þjónustusamningi
 
-1.  Veldu **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
+1.  Veljið **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
 
 2.  Veljið þjónustusamning eða stofnið nýjan þjónustusamning.
 
@@ -42,7 +42,7 @@ ms.locfileid: "9014852"
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Stofna þjónustupöntun handvirkt í skjámyndinni Þjónustupantanir
 
-1.  Veldu **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1.  Veljið **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
 2.  Veljið **Nýtt** til að stofna nýja þjónustupöntun.
 

@@ -1,6 +1,6 @@
 ---
 title: Þjónustustig og lýsing
-description: Þessi grein útskýrir þjónustustig og lýsingu í eignastýringu.
+description: Þessi grein útskýrir þjónustustig og lýsingu í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 753ad36b1d01d1ce0594f477cf863ca0e4a1ac75
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8879193"

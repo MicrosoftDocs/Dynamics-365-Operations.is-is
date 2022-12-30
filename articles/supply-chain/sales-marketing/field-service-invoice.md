@@ -1,6 +1,6 @@
 ---
 title: Samþætta reikningssamkomulag í Field Service við reikninga með frjálsum texta í Supply Chain Management
-description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla samningsreikninga í Dynamics 365 Field Service við frjálsa textareikninga í Dynamics 365 Supply Chain Management.
+description: Þessi grein fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla samningsreikninga í Dynamic 365 Field Service við reikninga með frjálsum texta í Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 04/10/2018
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: c4ef70af71ae223baaa2abb2b64428beab946e3d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8900884"
@@ -29,7 +29,7 @@ ms.locfileid: "8900884"
 
 
 
-Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla samningsreikninga inn Dynamics 365 Field Service til ókeypis textareikninga í Dynamics 365 Supply Chain Management.
+Þessi grein fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla samningsreikninga úr Dynamics 365 Field Service við reikninga með frjálsum texta í Dynamics 365 Supply Chain Management.
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 

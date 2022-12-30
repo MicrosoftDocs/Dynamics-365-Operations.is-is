@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir beiðnir um tilboð
-description: Þessi grein veitir yfirlit yfir beiðnir um tilboð (RFQs). Fyrirtæki gefa út beiðni um tilboð (BUT) þegar þau vilja taka á móti tilboðum frá mörgum lánardrottnum fyrir þær vörur eða þá þjónustu sem þau þurfa að kaupa inn.
+description: Í þessari grein er að finna yfirlit yfir beiðnir um tilboð (BUT). Fyrirtæki gefa út beiðni um tilboð (BUT) þegar þau vilja taka á móti tilboðum frá mörgum lánardrottnum fyrir þær vörur eða þá þjónustu sem þau þurfa að kaupa inn.
 author: GalynaFedorova
 ms.date: 10/05/2020
 ms.topic: overview
@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 89abf82879ab08f2341ce5b14e6af1d5c42140b1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8895584"
@@ -28,7 +28,7 @@ ms.locfileid: "8895584"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir beiðnir um tilboð (RFQs). Fyrirtæki gefa út beiðni um tilboð (BUT) þegar þau vilja taka á móti tilboðum frá mörgum lánardrottnum fyrir þær vörur eða þá þjónustu sem þau þurfa að kaupa inn. Í beiðni um tilboð, eru lánardrottnar beðnir um að leggja fram verð og afhendingartíma fyrir magn þeirra vara sem er tilgreint.
+Í þessari grein er að finna yfirlit yfir beiðnir um tilboð (BUT). Fyrirtæki gefa út beiðni um tilboð (BUT) þegar þau vilja taka á móti tilboðum frá mörgum lánardrottnum fyrir þær vörur eða þá þjónustu sem þau þurfa að kaupa inn. Í beiðni um tilboð, eru lánardrottnar beðnir um að leggja fram verð og afhendingartíma fyrir magn þeirra vara sem er tilgreint.
 Einnig er hægt að biðja lánardrottna að tilgreina hvort einhver tilfallandi gjöld eru, eins og sendingarkostnaður, eða hvort lánardrottinn býður upp á afslátt fyrir stórar pantanir eða flýtigreiðslu reiknings lánardrottins.
 
 BUT ferlið samanstendur af eftirfarandi verkefnum:
@@ -45,7 +45,7 @@ Hægt er að stofna BUT-verk úr áætluðum pöntunum, úr innkaupabeiðni eða
 
 Eftir að búið er að útbúa BUT-verk og bæta við lánardrottnum skal velja **Senda** (**Senda og birta** fyrir hið opinbera) á BUT-verkinu. BUT færslubók er mynduð fyrir hvern lánardrottinn sem BUT er send til. Hægt er að skilgreina prentvalkost fyrir Senda aðgerðina þannig að hún annað hvort prentar skýrslu fyrir hvern lánardrottin í safn eða sendir skýrslu á tölvupóstfang hvers lánardrottins. Þar að auki er hægt að nota BUT færslubók fyrir hvern lánardrottinn til að mynda skýrslu sem hægt er að senda eða endursenda seinna til lánardrottins. Einnig er hægt að skilgreina aðgerðina Senda til að mynda svarblað sem lánardrottinn getur fyllt út.
 
-Þessi grein fjallar um ferlið við að meðhöndla beiðnir um beiðnir þegar samstarf lánardrottins er ekki notað. Ef kerfið þitt er uppsett fyrir samstarf lánardrottna, geta lánardrottnar fært kauptilboð beint inn í Supply Chain Management. Nánari upplýsingar er að finna í [Samstarf lánardrottna við viðskiptavini](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) og [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md).
+Þessi grein fjallar um ferlið við meðhöndlun BUT þegar lánardrottinn samstarf er ekki notað. Ef kerfið þitt er uppsett fyrir samstarf lánardrottna, geta lánardrottnar fært kauptilboð beint inn í Supply Chain Management. Nánari upplýsingar er að finna í [Samstarf lánardrottna við viðskiptavini](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) og [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md).
 
 Ef þarf að lagfæra BUT þegar búið er að senda hana, er hægt að endursenda BUT til lánardrottna þegar því hefur verið lokið með því að nota tvær lagfæringaraðgerðir: Stofna og Fullvinna.
 
@@ -59,7 +59,7 @@ Eftir að tilboð er valið eða fjöldi lína í tilboði getur þú samþykkt 
 
 BUT-verk hefur tvær stöður: lægstu og hæstu, hægt er að skoða stöðuna á listasíðunni fyrir **Allar beiðni um tilboð**. Lægsta staðan er minnst þróaða stigið af öllum línum sem eru í BUT-verki og hæsta staðan er mest þróaða stigið af öllum línum sem eru í BUT-verki. Segjum sem dæmi að BUT-verk með þremur línum sé sent til tveggja lánardrottna, þannig að það eru tvær BUT hvor með þrjár línur. Allar línur eru **Sendar**. Nú er tilboð slegið inn frá einum lánardrottnanna og BUT-línurnar fá stöðuna **Móttekið**. Þetta þýðir að af línunum þremur í BUT-verkinu eru þær allar **Sendar** fyrir eina BUT og **Mótteknar** fyrir aðrar BUT. Lægsta staða verður þá **Sent** og hæsta staða er **Móttekið.**
 
-Þessum stöðum verður lýst nánar síðar í þessari grein.
+Stöðunum verður lýst nánar í seinni hlutum þessarar greinar.
 
 ## <a name="setting-up-rfq-functionality"></a>Setja upp virkni BUT
 

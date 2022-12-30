@@ -1,6 +1,6 @@
 ---
 title: Skilgreiningar lánardrottinsbeiðni
-description: Þessi grein lýsir reitunum sem þarf að fylla út í nýrri beiðni lánardrottins.
+description: Þessi grein lýsir svæðunum sem nauðsynlegt er að fylla í nýrri lánardrottnabeiðni.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 0f583caaaf4909918fafc0e8ef08490e25057561
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8890858"

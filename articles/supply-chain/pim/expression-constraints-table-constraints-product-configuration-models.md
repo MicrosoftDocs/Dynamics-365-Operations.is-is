@@ -1,6 +1,6 @@
 ---
 title: Segðarskorður og töfluskorður í afbrigðalíkönum afurðar
-description: Þessi grein lýsir notkun tjáningartakmarkana og töflutakmarkana. Skorður stjórna eigindargildin sem hægt er að velja þegar afurðir fyrir sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun. Hægt er að nota skorður segð eða töfluskorðum, eftir því hvernig óskað er að byggja á skorðum.
+description: Þessi grein lýsir notkun skorður segð og töfluskorðum. Skorður stjórna eigindargildin sem hægt er að velja þegar afurðir fyrir sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun. Hægt er að nota skorður segð eða töfluskorðum, eftir því hvernig óskað er að byggja á skorðum.
 author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e504f6996b401e72792d910c8df74bb9611c4d60
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8895555"
@@ -27,7 +27,7 @@ ms.locfileid: "8895555"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir notkun tjáningartakmarkana og töflutakmarkana. Skorður stjórna eigindargildin sem hægt er að velja þegar afurðir fyrir sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun. Hægt er að nota skorður segð eða töfluskorðum, eftir því hvernig óskað er að byggja á skorðum. 
+Þessi grein lýsir notkun skorður segð og töfluskorðum. Skorður stjórna eigindargildin sem hægt er að velja þegar afurðir fyrir sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun. Hægt er að nota skorður segð eða töfluskorðum, eftir því hvernig óskað er að byggja á skorðum. 
 
 Skorður eru notaðar til að stjórna eigindargildin sem hægt er að velja þegar afurðir fyrir sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun. Hægt er að nota skorður segð eða töfluskorðum, eftir því hvernig óskað er að byggja á skorðum.
 
@@ -106,7 +106,7 @@ Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þeg
 <tbody>
 <tr class="odd">
 <td>Felur í sér</td>
-<td>Ef skilyrði a er satt, notaðu þá mótbáru b.</td>
+<td>Ef skilyrði er satt, þá skal beita takmörkun b.</td>
 <td>Felur í sér [a, b], infix: a -: b</td>
 <td><ul>
 <li><strong>Operator:</strong> Bendir til[x != 0, y &gt;= 0]</li>

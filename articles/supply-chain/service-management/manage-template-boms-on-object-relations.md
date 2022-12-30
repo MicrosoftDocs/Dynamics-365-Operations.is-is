@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4f2b4213574a2d84089ab20ab1a584e1ab894ad9
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016363"
@@ -29,7 +29,7 @@ ms.locfileid: "9016363"
 
 ## <a name="attach-a-template-bom-to-a-service-object"></a>Hengja sniðmátsuppskrift við þjónustuhlut
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
+1.  Veljið **Þjónustustjórnun** \> **Þjónustusamningar** \> **þjónustusamningar**.
 
 2.  Tvísmellið á þjónustusamninginn þar sem tengja á sniðmáts-BOM við hlutatengsl.
 
@@ -43,7 +43,7 @@ ms.locfileid: "9016363"
 
 ## <a name="delete-a-service-bom-from-a-service-object"></a>Eyða þjónustuuppskrift úr þjónustuhlut
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
+1.  Veljið **Þjónustustjórnun** \> **Þjónustusamningar** \> **þjónustusamningar**.
 
 2.  Tvísmellið á þjónustusamninginn þar sem á að eyða þjónustuuppskrift úr hlutatengslum.
 
@@ -55,7 +55,7 @@ ms.locfileid: "9016363"
 
 ## <a name="move-the-service-bom-history-from-one-service-agreement-to-another"></a>Færa feril þjónustuuppskriftar frá einum þjónustusamningi í annan
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
+1.  Veljið **Þjónustustjórnun** \> **Þjónustusamningar** \> **þjónustusamningar**.
 
 2.  Tvísmella á þjónustusamning sem á að færa þjónustuuppskrift úr.
 

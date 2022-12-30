@@ -1,6 +1,6 @@
 ---
 title: Stigskiptar eignir
-description: Þessi grein útskýrir hvernig á að búa til og eyða fjölþrepa eignum.
+description: Þessi grein útskýrir hvernig á að búa til og eyða eignum á mörgum stigum.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5b13db8b8b12aaef2e067f9a55eb8754333eb16b
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9017146"
@@ -28,9 +28,9 @@ ms.locfileid: "9017146"
 
  
 
-Þessi grein útskýrir hvernig á að búa til og eyða fjölþrepa eignum. Þú getur búið til eignir og tengdar undireignir í stigskiptri trjábyggingu. Á þennan hátt geturðu sýnt sambönd og ósjálfstæði meðal eigna. Viðhaldsstörf geta tengst öllum stigum trébyggingarinnar. Einnig er hægt að búa til tölfræði fyrir einstaklingstig eða sem summa af öllum undireignarstigum.
+Þessi grein útskýrir hvernig á að búa til og eyða eignum á mörgum stigum. Þú getur búið til eignir og tengdar undireignir í stigskiptri trjábyggingu. Á þennan hátt geturðu sýnt sambönd og ósjálfstæði meðal eigna. Viðhaldsstörf geta tengst öllum stigum trébyggingarinnar. Einnig er hægt að búa til tölfræði fyrir einstaklingstig eða sem summa af öllum undireignarstigum.
 
-Á **Allar eignir** listasíða (**Eignastýring** \> **Eignir** \> **Allar eignir**), the **Eign** dálki listar eignir í stigveldisröð. Dálkurinn **Yfireining** sýnar tengdar yfireiningar. Að auki, ef eignir og undireignir hafa þegar verið stofnaðar sýnir hlutinn **Eignatré** í glugganum **Tengdar upplýsingar** eignirnar í trjábyggingu.
+Á síðunni **Allar eignir** **(Eignastýring** \> **Eignir** \> **Allar eignir**) sýnir dálkurinn **Eignir** eignir í stigveldi. Dálkurinn **Yfireining** sýnar tengdar yfireiningar. Að auki, ef eignir og undireignir hafa þegar verið stofnaðar sýnir hlutinn **Eignatré** í glugganum **Tengdar upplýsingar** eignirnar í trjábyggingu.
 
 Nánari upplýsingar um hvernig stofna eigi eign, sjá [Stofna eign](../objects/create-an-object.md). Til að búa til undireign skal velja yfireignina í reitnum **Yfireining** á flýtiflipanum **Almennt**.
 

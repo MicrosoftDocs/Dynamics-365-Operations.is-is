@@ -1,6 +1,6 @@
 ---
 title: Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
-description: Þessi grein lýsir því hvernig á að stjórna ferlinu við víxltengingu efnis sem tilkynnt er sem fullunnið frá framleiðslulínu til flutningsbryggju á útleið.
+description: Þessi grein lýsir því hvernig á að stjórna ferlinu við að dreifa efni frá dreifingarstöð sem hefur verið tilkynnt sem lokið frá framleiðslulínu til flutningsstöðvar.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ea3ae6cb83d6577ba76d7e2aff9a05973b314cfe
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8849330"
@@ -26,7 +26,7 @@ ms.locfileid: "8849330"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að stjórna ferlinu við víxltengingu efnis sem tilkynnt er sem fullunnið frá framleiðslulínu til flutningsbryggju á útleið.
+Þessi grein lýsir því hvernig á að stjórna ferlinu við að dreifa efni frá dreifingarstöð sem hefur verið tilkynnt sem lokið frá framleiðslulínu til flutningsstöðvar.
 
 ## <a name="introduction"></a>Inngangur
 

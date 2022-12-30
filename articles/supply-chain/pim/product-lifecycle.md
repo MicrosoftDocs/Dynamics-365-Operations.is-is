@@ -17,7 +17,7 @@ ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
 ms.openlocfilehash: 5d1ea1517c75393b1c8d7c95c8aa2405042b4532
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8850642"
@@ -74,7 +74,7 @@ Líftímastöður afurðar eru ekki studdar af gagnaeiningum og líftímastöðu
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Finna úreltar afurðir og afurðarafbrigði
 
-Þú getur keyrt hermigreiningu til að finna úreltar afurðir eða afurðaafbrigði og síðan uppfæra lífferilsstaða afurðar þeirra. Til að finna úreldar afurðir, sjá [Finna úrelt afurðaafbrigði og úthluta lífferilsstöðu afurðar](tasks/obsolete-product-variants.md). Þessi grein sýnir hvernig á að finna úreltar útgefnar vörur eða vöruafbrigði og hvernig á að tengja lífsferilsstöðu vöru við úreltar vörur. Það sýnir einnig hvernig skal skoða herminiðurstöðurnar og meta hversu margar afurðir og afurðaafbrigði verða tengd nýjum lífferilsstaða afurðar þegar keyrð er uppfærslan án hermunar.  
+Þú getur keyrt hermigreiningu til að finna úreltar afurðir eða afurðaafbrigði og síðan uppfæra lífferilsstaða afurðar þeirra. Til að finna úreldar afurðir, sjá [Finna úrelt afurðaafbrigði og úthluta lífferilsstöðu afurðar](tasks/obsolete-product-variants.md). Þessi grein sýnir hvernig á að finna úreltar afurðir eða afurðaafbrigði og hvernig á að tengja lífferilsstöðu afurðar við úreltar afurðir. Það sýnir einnig hvernig skal skoða herminiðurstöðurnar og meta hversu margar afurðir og afurðaafbrigði verða tengd nýjum lífferilsstaða afurðar þegar keyrð er uppfærslan án hermunar.  
 
 Með því að keyra greininguna í hermistillingu, birtist afurðir og afurðaafbrigði sem eru úreltar á tilteknu formi, þar sem hægt er að endurskoða þær auðveldlega. Greiningin leitar að færslum og tilteknum aðalgögnum til að bera kennsl á afurðir sem hafa enga eftirspurn innan breytilegs tímabils og engar aðalgögn sem geta leitt til eftirspurnar. Nýjar afurðir sem gefnar eru út innan breytilegs tíma má útiloka frá greiningunni. Þegar hermigreiningin skilar áætluðum niðurstöðum getur notandinn keyrt greininguna og sett nýtt lífferilsstaða afurðar til allra afurða sem auðkenndar eru úreltar með greiningunni.  
 

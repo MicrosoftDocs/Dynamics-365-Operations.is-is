@@ -1,6 +1,6 @@
 ---
 title: Sjónræn framkvæmd og samvinnuframkvæmd
-description: Þessi grein lýsir því hvernig á að fylgjast með eftirspurnardrifnu efnisþörfskipulagi (DDMRP) aftengingarpunktum, biðminni, fyrirhuguðum pöntunum og sögu.
+description: Í þessari grein er útskýrt hvernig á að fylgjast með aftengingarpunktum eftirspurnardrifinnar efnisþarfaáætlunar (DDMRP), svæðum öryggisbirgða, áætluðum pöntunum og ferli.
 author: t-benebo
 ms.date: 06/30/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
 ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740824"
@@ -24,62 +24,62 @@ ms.locfileid: "9740824"
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 <!-- KFM: Preview until further notice -->
 
-Þessi grein lýsir því hvernig á að fylgjast með eftirspurnardrifnu efnisþörfskipulagi (DDMRP) aftengingarpunktum, biðminni, fyrirhuguðum pöntunum og sögu.
+Í þessari grein er útskýrt hvernig á að fylgjast með aftengingarpunktum eftirspurnardrifinnar efnisþarfaáætlunar (DDMRP), svæðum öryggisbirgða, áætluðum pöntunum og ferli.
 
-## <a name="visually-track-buffers-and-quantities-for-a-selected-item"></a>Fylgstu sjónrænt með biðmunum og magni fyrir valinn hlut
+## <a name="visually-track-buffers-and-quantities-for-a-selected-item"></a>Fylgjast myndrænt með öryggisbirgðum og magni fyrir valda vöru
 
-Í Microsoft Dynamics 365 Supply Chain Management, þú getur sjónrænt fylgst með því hvernig stuðpúðar, magn á lager og nettóflæðisstig breytast með tímanum fyrir hvaða útgefna vöru sem er valin. Fylgdu þessum skrefum til að opna og skoða töflurnar.
+Í Microsoft Dynamics 365 Supply Chain Management er hægt að fylgjast myndrænt með því hvernig öryggisbirgðir, lagermagn og stig nettóflæðis breytast með tímanum fyrir hvaða valda útgefna afurð sem er. Fylgið eftirfarandi skrefum til að opna og yfirfara línuritin.
 
 1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
-1. Veldu útgefinn hlut sem er settur upp sem aftengingarpunktur. (Nánari upplýsingar er að finna í [Staðsetning birgða](ddmrp-inventory-positioning.md) .)
-1. Á aðgerðarrúðunni, á **Áætlun** flipa, veldu **Vöruumfjöllun**.
-1. Á **Vöruumfjöllun** síðu, veldu vöruþekjuskrá sem býr til aftengingarpunkt. (Þessi skrá mun sýna nafn umfjöllunarhóps sem er settur upp til að búa til aftengingarpunkta.)
-1. Veldu **Á hendi** flipa. Þessi flipi inniheldur myndrit sem sýnir hvernig birgðamagn breyst með tímanum, ásamt gildi birgðastigsins sem var skráð fyrir tiltekið tímabil í hvert skipti sem aðalskipulag er keyrt. Flipinn inniheldur einnig töflu sem sýnir hvaða af eftirtöldum flokkum hvert skráð stig fellur inn í:
+1. Veldu losaða vöru sem er sett upp sem aftengingarpunktur. (Frekari upplýsingar eru í [Birgðastaðsetning](ddmrp-inventory-positioning.md)).
+1. Á aðgerðasvæðinu, í flipanum **Áætlun** skal velja **Vöruþekja**.
+1. Á síðunni **Vöruþekja** skal velja færslu vöruþekju sem býr til aftengingarpunkt. (Þessi færsla mun sýna nafn þekjuflokks sem er settur upp til að búa til aftengingarpunkta).
+1. Veldu flipann **Á lager**. Þessi flipi inniheldur graf sem sýnir hvernig lagermagn breytist með tímanum, ásamt gildinu fyrir lagerstöðuna sem var skráð fyrir tiltekið tímabil í hvert skipti sem aðaláætlanagerð var keyrð. Flipinn inniheldur líka töflu sem sýnir hvað af eftirfarandi flokkum hverrar skráðrar lagerstöðu hún tilheyrir:
 
-    - **Krítískt lágt** – Innan við helmingur lágmarks á tímabilinu.
-    - **Lágt** – Á milli helmings lágmarks og lágmarks.
-    - **Meðaltal við höndina** – Á milli lágmarks og lágmarks plús græna svæðið.
-    - **Hærri en meðaltal** - Hærra en meðaltal.
+    - **Mjög lítið** – Minna en helmingur af lágmarki tímabilsins.
+    - **Lágmark** – Á milli helmings lágmarksins og lágmarksins.
+    - **Meðaltal á lager** – Á milli lágmarks og lágmarks plús græna svæðið.
+    - **Hærra en meðaltal** – Hærra en meðaltal.
 
-    ![Söguleg stig á hendi á flipanum Til staðar.](media/ddmrp-on-hand-graph.png "Söguleg stig á hendi á flipanum Til staðar")
+    ![Söguleg gildi á lager á flipanum Á lager.](media/ddmrp-on-hand-graph.png "Söguleg gildi á lager á flipanum Á lager")
 
     > [!NOTE]
-    > Litirnir sem eru notaðir á **Á hendi** flipinn tákna önnur svið en svipaðir litir sem notaðir eru á **Buffer gildi** flipa.
+    > Litirnir sem eru notaðir í flipanum **Á lager** standa fyrir mismunandi svið en svipaðir litir sem notaðir eru í flipanum **Stöður öryggisbirgða**.
 
-1. Til að skoða hvernig biðminnisgildin þín breyttust með tímanum og hvernig þau eru í samanburði við álags- og netflæðisstig skaltu velja **Buffer gildi** flipa.
+1. Til að sjá hvernig stöður öryggisbirgða breytast með tímanum og hvernig þær eru í samanburði við lagerstöðu og stöðu nettóflæðis skal velja flipann **Stöður öryggisbirgða**.
 
-    ![Söguleg álags- og netflæðisstig á flipanum Buffer values.](media/ddmrp-buffer-values-graph.png "Söguleg álags- og netflæðisstig á flipanum Buffer values")
+    ![Söguleg gildi á lager og netflæði á flipanum Biðminnisgildi](media/ddmrp-buffer-values-graph.png "Söguleg gildi á lager og netflæði á flipanum Biðminnisgildi")
 
-## <a name="track-the-status-and-planned-orders-for-all-decoupling-points"></a>Fylgstu með stöðu og fyrirhuguðum pöntunum fyrir alla aftengingarpunkta
+## <a name="track-the-status-and-planned-orders-for-all-decoupling-points"></a>Fylgjast með stöðu og áætluðum pöntunum fyrir aftengingarpunkta
 
-The **Eftirspurnardrifið MRP** vinnusvæði býður upp á nokkur verkfæri, ásamt lykilframmistöðuvísum (KPIs) og yfirlitum yfir stöðu aftengingarpunkta þinna og tengdra fyrirhugaðra pantana. Til að opna það skaltu fara á **Aðalskipulag \> Vinnurými \> Eftirspurnardrifið MRP**.
+Vinnusvæðið **Eftirspurnarstýrt MRP** býður upp á ýmis verkfæri ásamt afkastamælikvörðum (KPI) og yfirlitum yfir stöðu á vörum og tengdum áætluðum pöntunum aftengingarpunktsins. Til að opna það skal fara í **Aðaláætlanagerð \> Vinnusvæði \> Eftirspurnarstýrt MRP**.
 
-![Eftirspurnardrifið MRP vinnusvæði.](media/ddmrp-workspace.png "Eftirspurnardrifið MRP vinnusvæði")
+![Eftirspurnarstýrt MRP vinnusvæði.](media/ddmrp-workspace.png "Eftirspurnarstýrt MRP vinnusvæði.")
 
-## <a name="get-overviews-of-decoupling-points-and-planned-orders"></a>Fáðu yfirlit yfir aftengingarpunkta og fyrirhugaðar pantanir
+## <a name="get-overviews-of-decoupling-points-and-planned-orders"></a>Fá yfirlit yfir tengipunkta og áætlaðar pantanir
 
-Í viðbót við **Eftirspurnardrifið MRP** vinnusvæði býður Supply Chain Management upp á nokkrar síður þar sem þú getur skoðað upplýsingar um DDMRP uppsetningu þína, aftengingarpunkta og fyrirhugaðar pantanir. Sumar þessara síðna bjóða einnig upp á þægilega hnappa á aðgerðarrúðunni sem gerir þér kleift að stjórna biðmunum, keyra aðalskipulagningu og opna aðrar tengdar skoðanir.
+Auk vinnusvæðisins **Eftirspurnarstýrt MRP** býður Supply Chain Management upp á nokkrar síður þar sem hægt er að skoða upplýsingar um uppsetningu DDMRP, aftengingarpunkta og áætlaðar pantanir. Sumar af þessum síðum bjóða einnig upp á þægilega hnappa á aðgerðasvæðinu sem gera þér kleift að stjórna öryggisbirgðum, keyra aðaláætlanagerð og opna tengd yfirlit.
 
-- Til að skoða stöðu aftengingarpunkta eftir nettóflæðisstigi, farðu á **Aðalskipulag \> Aðalskipulag \> DDMRP \> Staða aftengingarpunkta eftir nettóflæði**.
-- Til að skoða stöðu aftengingarpunkta eftir birgðastigi á lager, farðu á **Aðalskipulag \> Aðalskipulag \> DDMRP \> Staða aftengingar punkta á hendi**.
-- Til að skoða fyrirhugaðar pantanir fyrir aftengingarpunkta, farðu á **Aðalskipulag \> Aðalskipulag \> DDMRP \> Skipulagðar pantanir fyrir aftengingarpunkta**.
-- Til að skoða aftengdan afgreiðslutíma, farðu á **Aðalskipulag \> Aðalskipulag \> DDMRP \> Aftengdur leiðtími**.
+- Til að skoða stöðu aftengingarpunkts eftir stigi nettóflæðis skal fara í **Aðaláætlanagerð \> Aðaláætlanagerð \> DDMRP \> Staða aftengingarpunkta eftir nettóflæði**.
+- Til að skoða stöðu aftengingarpunkts eftir lagerbirgðum skal fara í **Aðaláætlanagerð \> Aðaláætlanagerð \> DDMRP \> Staða aftengingarpunkta eftir lagerstöðu**.
+- Til að skoða áætlaðar pantanir fyrir aftengingarpunkta skal fara í **Aðaláætlanagerð \> Aðaláætlanagerð \> DDMRP \> Áætlaðar pantanir fyrir aftengingarpunkta**.
+- Til að skoða aftengda afhendingartíma skal fara í **Aðaláætlanagerð \> Aðaláætlanagerð \> DDMRP \> Aftengdur afhendingartími**.
 
-## <a name="clean-up-decoupling-point-buffer-values"></a>Hreinsaðu upp aftengingarpunkta biðminni
+## <a name="clean-up-decoupling-point-buffer-values"></a>Hreinsun á öryggisbirgðastöðum aftengingarpunkts
 
-Með tímanum mun kerfið þitt byggja upp mikið magn af sögulegum gögnum sem tengjast áframhaldandi biðminniútreikningum. Þessi söguleg gögn munu valda því að gagnamagn þitt eykst og geta að lokum haft áhrif á afköst kerfisins þíns. Þess vegna mælum við með að þú hreinsir af og til upp gömlu aftengingarpunkta biðminni gildi.
+Kerfið þitt mun með tímanum byggja upp mikið magn af sögulegum gögnum sem tengjast áframhaldandi útreikningum á öryggisbirgðum. Þessi sögulegu gögn valda því að gagnamagnið eykst og getur að lokum haft áhrif á afköst kerfisins. Þess vegna er mælt með því að hreinsa af og til upp gamlar öryggisbirgðastöður aftengingarpunkts.
 
 > [!WARNING]
-> Hreinsunarstarfið mun fjarlægja sögulegar biðminnigildistillingar og sögulegar upplýsingar um áhald/netflæði. Það er ekki afturkræft.
+> Hreinsunarvinnslan fjarlægir stillingar á sögulegri öryggisbirgðastöðu og upplýsingar um sögulegar lagerbirgðir/nettóflæði. Það er ekki afturkræft.
 
-Fylgdu þessum skrefum til að hreinsa upp aftengingarpunkta biðminni.
+Fylgið eftirfarandi leiðbeiningum til að hreinsa biðminnisgildi aftengingarpunkts.
 
-1. Fara til **Aðalskipulag \> Aðalskipulag \> DDMRP \> Hreinsaðu upp aftengingarpunkta biðminni**.
-1. Í **Hreinsaðu upp aftengingarpunkta biðminni** valmynd, stilltu eftirfarandi reiti:
+1. Farðu í **Aðaláætlanagerð \> Aðaláætlanagerð \> DDMRP \> Hreinsa upp öryggisbirgðastöðu aftengingarpunkts**.
+1. Í svarglugganum **Hreinsa upp öryggisbirgðastöður aftengingarpunkts** skal stilla eftirfarandi reiti:
 
-    - **Eyða skrám eldri en (dögum)** – Tilgreindu aldur yngstu skránna sem á að halda, í dögum. Öllum aftengingarpunkta biðminni gildisfærslum sem eru eldri en þetta gildi verður eytt.
-    - **Snilldaráætlun** – Veldu aðalskipulag sem inniheldur hluti sem ætti að verða fyrir áhrifum af þessari hreinsun. Hreinsunin mun gilda um alla hluti áætlunarinnar eftir kl **Sía** stillingar sem þú tilgreinir í þessum glugga eru notaðar.
+    - **Eyða skrám sem eru eldri en (dagar)** – Tilgreindu aldur yngstu skránna sem á að geyma, í dögum. Öllum færslum um öryggisbirgðastöðu aftengingarpunkts sem eru eldri en þetta gildi verður eytt.
+    - **Aðaláætlun** – Veldu aðaláætlun sem inniheldur vörur sem þessi hreinsun á að hafa áhrif á. Hreinsunin mun gilda um allar vörur í áætluninni eftir að **Síustillingarnar** sem þú tilgreinir í þessum svarglugga eru notaðar.
 
-1. Til að takmarka safnið af færslum sem runuvinnan ætti að keyra á, á **Skrár til að hafa með** Flýtiflipi, veldu **Sía** að opna **Fyrirspurn** valmynd. Þessi gluggi virkar alveg eins og hann gerir fyrir aðrar gerðir af [bakgrunnsstörf](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) í birgðakeðjustjórnun.
-1. Á **Hlaupa í bakgrunni** Flýtiflipi, tilgreinið hvernig, hvenær og hversu oft skal hreinsa. Reitirnir virka eins og þeir virka fyrir aðrar gerðir [bakgrunnsvinnsla](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) í Supply Chain Management.
-1. Veldu **Allt í lagi** til að bæta nýja verkinu við hópröð fyrir framkvæmd.
+1. Til að takmarka þann fjölda færslna sem þessi runuvinnsla ætti að keyra á skal velja á flýtiflipanum **Færslur til að taka með** valkostinn **Sía** til að opna svargluggann **Fyrirspurn**. Svargluggi virka rétt eins og þeir virka fyrir aðrar gerðir [bakgrunnsvinnsla](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) í Supply Chain Management.
+1. Í flýtiflipanum **Keyra í bakgrunni** skal tilgreina hvernig, hvenær og hversu oft á að gera hreinsun. Reitirnir virka eins og þeir virka fyrir aðrar gerðir [bakgrunnsvinnsla](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) í Supply Chain Management.
+1. Veljið **Í lagi** til að bæta nýja verkinu við runubiðröð fyrir keyrslu.

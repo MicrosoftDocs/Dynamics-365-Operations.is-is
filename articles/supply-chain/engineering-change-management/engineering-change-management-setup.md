@@ -1,6 +1,6 @@
 ---
 title: Setja upp algeng gildi fyrir umsjón hönnunarbreytinga
-description: Þessi grein lýsir því hvernig á að koma á sameiginlegum gildum sem eru notuð fyrir færibreytur í ýmsum hlutum verkfræðilegrar breytingastjórnunar.
+description: Þessi grein lýsir því hvernig á að koma á algengum gildum sem eru notuð fyrir færibreytur í ýmsum hlutum umsjónar hönnunarbreytinga.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: 376e3f209109d36e5a18b11d81afc55ba509e3e4
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8852535"

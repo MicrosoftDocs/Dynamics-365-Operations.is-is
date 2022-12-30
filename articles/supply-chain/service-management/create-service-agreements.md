@@ -1,6 +1,6 @@
 ---
 title: Þjónustusamningar stofnaðir
-description: Þessi grein lýsir því hvernig á að nota eiginleika í Þjónustustjórnun og Verkefnastjórnun og bókhaldseiningum til að búa til þjónustusamninga.
+description: Þessi grein lýsir því hvernig á að nota aðgerðir þjónustustjórnunar og verkefnastjórnunar- og bókhaldskerfis til að stofna þjónustusamninga.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8901764"
@@ -26,7 +26,7 @@ ms.locfileid: "8901764"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að nota eiginleika í Þjónustustjórnun og Verkefnastjórnun og bókhaldseiningum til að búa til þjónustusamninga.
+Þessi grein lýsir því hvernig á að nota aðgerðir þjónustustjórnunar og verkefnastjórnunar- og bókhaldskerfis til að stofna þjónustusamninga.
 
 ## <a name="create-a-service-agreement-from-service-management"></a>Stofna þjónustusamning úr þjónustustjórnun.
 
@@ -51,7 +51,7 @@ ms.locfileid: "8901764"
 2. Veljið **Öll verk**.
 3. Veljið verkið úr listanum.
 4. Í **aðgerðarúðunni** skal velja **Stjórna**. Í **Nýja** aðgerðarhópnum skal velja **Þjónusta** og **Þjónustusamningur**.
-5. Fylgdu skrefunum í kaflanum sem heitir **Búðu til þjónustusamning** eins og lýst er fyrr í þessari grein til að slá inn verkefnatilvísunina.
+5. Fylgið skrefunum í hlutanum sem heitir **Stofna þjónustusamning** eins og áður var lýst í þessari grein til að færa inn verktilvísunina.
 
 
 ## <a name="related-articles"></a>Tengdar greinar

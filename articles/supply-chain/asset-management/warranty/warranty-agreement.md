@@ -1,6 +1,6 @@
 ---
 title: Ábyrgðarsamningar
-description: Þessi grein útskýrir ábyrgðarsamninga í eignastýringu.
+description: Þessi grein útskýrir ábyrgðarsamninga í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/24/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 32e5ba8bf87d7bcd30e7f1493540317764d347ad
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8864028"

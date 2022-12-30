@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bfde8b40927ceaa216878d58ef72c5d91e9ebe01
 ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 01/13/2022
 ms.locfileid: "7968797"
@@ -39,7 +39,7 @@ Setja verður upp upplýsingar í öðrum einingum áður en hægt er að vinna 
 -   Skilgreina vöruflokka.
 -   Setja upp fjárhagslykla fyrir vöruflokka.
 -   Setja upp töflu fyrir birgðavörur í Birgðastjórnun.
--   Búðu til efnisyfirlit (BOMs) og BOM útgáfur í Vöruupplýsingastjórnun.
+-   Stofna uppskriftir (BOMs) og uppskriftaútgáfur í afurðaupplýsingastjórnun.
 
 ## <a name="required-calendar-and-resource-setup"></a>Skyldug uppsetning dagatals og tilfanga
 Áður en þú notar framleiðslustýring, opnaðu Fyrirtækisstjórnun og stofna og skilgreina dagatal og rekstrartilföng í eftirfarandi röð:

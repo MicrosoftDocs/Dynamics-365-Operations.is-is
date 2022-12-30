@@ -1,6 +1,6 @@
 ---
 title: Samstilla vinnupantanir við verk úr Field Service í Supply Chain Management
-description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla verkbeiðnir við verknúmer frá Dynamics 365 Field Service til Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir sniðmátum og undirliggjandi verkefnum sem notuð eru til að samstilla vinnupantanir með verknúmeri úr Dynamics 365 Field Service við Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 03/12/2019
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: a43a7f7e900205bdb23fb9a35ca1518369683a42
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8860494"
@@ -27,13 +27,13 @@ ms.locfileid: "8860494"
 
 [!include[banner](../includes/banner.md)]
 
-Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla verkbeiðnir við verknúmer frá Dynamics 365 Field Service til Dynamics 365 Supply Chain Management.
+Þessi grein lýsir sniðmátum og undirliggjandi verkefnum sem notuð eru til að samstilla vinnupantanir með verknúmeri úr Dynamics 365 Field Service við Dynamics 365 Supply Chain Management.
 
 [![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
 Notaða sniðmátið **Vinnupantanir með Project (Field Service til Supply Chain Management)** er byggt á sniðmátinu **Vinnupantanir (Field Service til Supply Chain Management)**. Frekari upplýsingar er að finna í [Samstilla vinnupantanir úr Field Service við sölupantanir í Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
-Þessi grein lýsir aðeins muninum á sniðmátunum tveimur:
+Þessi grein útskýrir muninn milli sniðmátanna tveggja:
 - **Verkbeiðnir við verk úr (Field Service í Supply Chain Management)**
 - **Verkbeiðnir verk úr (Field Service í Supply Chain Management)**
 

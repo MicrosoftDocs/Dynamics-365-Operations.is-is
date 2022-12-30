@@ -1,6 +1,6 @@
 ---
 title: Stofna beiðni sem notar tilboðsbeiðni
-description: Þessi grein útskýrir hvernig á að bæta verð- og lánardrottinsupplýsingum við innkaupabeiðni úr beiðni um beiðni.
+description: Þessi grein útskýrir hvernig á að bæta verð og upplýsingar um lánardrottin við innkaupabeiðni úr Tilboðsbeiðniferli.
 author: GalynaFedorova
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5ecde250e3517464611b68fe3c960bfbfdf06319
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8846012"
@@ -24,7 +24,7 @@ ms.locfileid: "8846012"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að bæta verð- og lánardrottinsupplýsingum við innkaupabeiðni úr beiðni um beiðni. Dæmi sem sýnd eru í þessari handbók má nota í USMF fyrirtækisins sýnigögnum og þú verður að vera skráður inn sem Kerfisstjóra til að ljúka við skrefin. Verkin í þessari handbók væri yfirleitt gert af innkaupasérfræðingum.
+Þessi grein útskýrir hvernig á að bæta verð og upplýsingar um lánardrottin við innkaupabeiðni úr Tilboðsbeiðniferli. Dæmi sem sýnd eru í þessari handbók má nota í USMF fyrirtækisins sýnigögnum og þú verður að vera skráður inn sem Kerfisstjóra til að ljúka við skrefin. Verkin í þessari handbók væri yfirleitt gert af innkaupasérfræðingum.
 
 
 ## <a name="create-a-requisition"></a>Stofna nýja beiðni

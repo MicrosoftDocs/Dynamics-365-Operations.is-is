@@ -1,6 +1,6 @@
 ---
 title: Fyrirspurnir og skýrslur um hættuleg efni
-description: Þessi grein útskýrir hvernig á að vinna með hinar ýmsu skýrslur sem tengjast hættulegum efnum. Margar þessara skýrslna eru nauðsynlegar svo að þú fylgir ýmsum reglugerðum varðandi hættuleg efni við sendingu og geymslu.
+description: Þessi grein útskýrir hvernig á að vinna með ýmsar skýrslur sem tengjast hættulegum efnum. Margar þessara skýrslna eru nauðsynlegar svo að þú fylgir ýmsum reglugerðum varðandi hættuleg efni við sendingu og geymslu.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
 ms.openlocfilehash: 784361f4e715921890ecff784b62935988732464
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335166"
@@ -63,7 +63,7 @@ Til að skoða þessa skýrslu skal fara á **Afurðarupplýsingastjórnun \> Fy
 
 Frekari upplýsingar um hvernig á að stilla birgðamörk á útgefna afurð er að finna á [Stilla birgðamörk fyrir hættulegar afurðir](hazmat-items.md#stock-limits).
 
-Reglugerðin sem er notuð fyrir birgðamörk er skilgreind á síðunni **Færibreytur vöruhúsakerfis**. Farið í **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsastjórnunar** og síðan, í **Skýrslur** , í **Birgðamörk hættulegra efna** skal tilgreina reglukóða. Fyrir frekari upplýsingar, sjá [Settu upp tilkynningar um hættuleg efni](#set-up) kafla fyrr í þessari grein.
+Reglugerðin sem er notuð fyrir birgðamörk er skilgreind á síðunni **Færibreytur vöruhúsakerfis**. Farið í **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsastjórnunar** og síðan, í **Skýrslur** , í **Birgðamörk hættulegra efna** skal tilgreina reglukóða. Frekari upplýsingar er að finna í hlutanum [Setja upp skýrslur fyrir hættuleg efni](#set-up) fyrr í þessari grein.
 
 ## <a name="verified-gross-mass-report"></a>Staðfest skýrsla brúttómassa
 
@@ -101,11 +101,11 @@ Til að mynda og prenta þessa skýrslu skal fara í **Vöruhúsastjórnun \> Se
 
 ## <a name="bill-of-lading-report"></a>farmbréfaskýrsla
 
-Þegar kveikt er á eiginleikanum fyrir hættuleg efni fyrir kerfið þitt, **farmbréf** skýrslu inniheldur a **Hættuleg efni** dálk sem gefur til kynna hvort hleðsla inniheldur hættuleg efni. Þessi skýrsla er í boði á síðunni **Allar hleðslur**, eins og venjulega.
+Þegar kveikt er á eiginleikann fyrir hættuleg efni í kerfinu er **farmbréf** skýrslan með dálkinn **Hættuleg efni** sem gefur til kynna hvort farmur inniheldur hættuleg efni. Þessi skýrsla er í boði á síðunni **Allar hleðslur**, eins og venjulega.
 
 ## <a name="packing-list-report"></a>Skýrsla pökkunarskráar
 
-Þegar kveikt er á eiginleikanum fyrir hættuleg efni fyrir kerfið þitt, innihalda pökkunarlistar viðbótarupplýsingar sem tengjast sendingarprentunartexta vöru. Þessi skýrsla er í boði á síðunni **Allar hleðslur**, eins og venjulega.
+Þegar kveikt er á eiginleikann fyrir hættuleg efni í kerfinu er inniheldur pökkunarlistinn viðbótarupplýsingar sem tengjast prenttexta sendingar fyrir vöru. Þessi skýrsla er í boði á síðunni **Allar hleðslur**, eins og venjulega.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

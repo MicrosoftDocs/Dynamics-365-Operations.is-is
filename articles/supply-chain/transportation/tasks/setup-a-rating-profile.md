@@ -1,6 +1,6 @@
 ---
 title: Taxtaforstillingar
-description: Þessi grein lýsir því hvernig á að setja upp gögn fyrir einkunnasnið.
+description: Í þessari grein er lýst hvernig eigi að setja upp gögn fyrir taxtaforstillingar.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -16,7 +16,7 @@ ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1f7408574187ddb099181bd2566c46c52307f603
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8850468"
@@ -56,7 +56,7 @@ Taxtaforstilling er einkvæm fyrir farmflytjanda. Í forstillingunni er hægt a�
 1. Opnið **Flutningsstjórnun \> Uppsetning \> Flutningsaðilar \> Farmflytjendur**.
 1. Veldu farmflytjanda í listanum.
 1. Í flýtiflipanum **Taxtaforstilling** velur þú **Nýtt** til að búa til taxtaforstillingu.
-1. Stillið reitina fyrir nýja taxtaforstilling. Þessir reitir samsvara reitunum á **Einkunnasnið** síðu, eins og lýst er í fyrri hluta þessarar greinar.
+1. Stillið reitina fyrir nýja taxtaforstilling. Þessir reitir samsvara reitum á síðunni **Taxtasniðmátum**, eins og lýst er í fyrri hluta greinarinnar.
 
 > [!NOTE]
 > Forstillingar sem búnar eru til á síðunni **Farmflytjendur** eru einnig sýndar á síðunni **Taxtaforstillingar**.

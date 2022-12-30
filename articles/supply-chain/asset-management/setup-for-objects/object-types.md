@@ -1,6 +1,6 @@
 ---
 title: Eignagerðir
-description: Þessi grein útskýrir hvernig á að búa til eignagerðir í eignastýringu. Það lýsir einnig þeim þáttum sem tengjast eignategundum.
+description: Þessi grein útskýrir hvernig á að búa til eignategundir í Eignastýringu. Það lýsir einnig þeim þáttum sem tengjast eignategundum.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: d3a51fdb55e9158e88e89549e3d0049e699c233e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8887632"
@@ -28,7 +28,7 @@ ms.locfileid: "8887632"
 
 
 
-Þessi grein útskýrir hvernig á að búa til eignagerðir. Það lýsir einnig þeim þáttum sem tengjast eignategundum. Tegundir eigna eru notaðar sem almennir flokkar eigna. Sem dæmi má nefna CNC vélar, mælitæki og vélar vörubíla. Eignategundir eru notaðar til að stjórna gerðum viðhaldsverka (viðhaldsverkefnum), eignalífsferli, teljurum, eignareiginleikum, sniðmátum fyrir ástandsmat og eignalíkönum sem hægt er að velja fyrir eign. Þegar eign er stofnuð verður að tilgreina eignagerð.
+Þessi grein útskýrir hvernig á að stofna eignagerðir. Það lýsir einnig þeim þáttum sem tengjast eignategundum. Tegundir eigna eru notaðar sem almennir flokkar eigna. Sem dæmi má nefna CNC vélar, mælitæki og vélar vörubíla. Eignategundir eru notaðar til að stjórna gerðum viðhaldsverka (viðhaldsverkefnum), eignalífsferli, teljurum, eignareiginleikum, sniðmátum fyrir ástandsmat og eignalíkönum sem hægt er að velja fyrir eign. Þegar eign er stofnuð verður að tilgreina eignagerð.
 
 Fyrir hverja eignategund er hægt að búa til afbrigði af skipulagi eignategundarinnar. Til dæmis, ef þú ert með eignategund sem er nefnd **Vörubílar**, geturðu búið til afbrigði af þeirri eignategund fyrir mismunandi eignaframleiðendur og eignamódel. Þú getur bætt við tilskildum varahlutum og viðhaldsáætlunum við hverja uppsetningu eigna.
 

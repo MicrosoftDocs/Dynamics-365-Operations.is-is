@@ -1,6 +1,6 @@
 ---
 title: Viðburðir vöruhúsaforrits
-description: Þessi grein lýsir atburðavinnslu vöruhúsaforrits sem notuð er til að vinna úr vöruhúsaforritsviðburðaskilaboðum sem hluta af runuvinnu.
+description: Þessi grein lýsir úrvinnslu á viðburðum vöruhúsaforrits sem notaðir eru til að vinna úr skilaboðum um viðburð vöruhúsaforrits sem hluti af runuvinnslu.
 author: perlynne
 ms.date: 09/02/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: 2dc24fed1ec71432d9e2a3e1cb5b366267c2938b
 ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/02/2022
 ms.locfileid: "9218743"
@@ -26,9 +26,9 @@ ms.locfileid: "9218743"
 
 Runuvinnslur sem keyra í Supply Chain Management geta notað gögn úr þessari biðröð til að vinna úr viðburðum sem farsímaforrit vöruhúsakerfis gefur út til að bregðast við tilkynntum viðburðum eftir því sem þörf krefur. Þessi eiginleiki bætir viðeigandi viðburðum við biðröðina sem svar við tilteknum gerðum aðgerða sem starfsmenn sem nota forritið grípa til. Dæmi er þegar verið er að nota eiginleikann *Stofna og vinna úr flutningspöntunum úr vöruhúsaforriti*, verða haus og línur flutningspöntunar stofnaðar og uppfærðar í bakvinnslunni þegar kerfið keyrir runuvinnsluna **Vinna úr viðburðum vöruhúsaforrits**.
 
-## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum Process warehouse app events
+## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Kveikja eða slökkva á eiginleikanum „Vinna úr viðburðum vöruhúsaforrits“
 
-Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management útgáfu 10.0.29 er þessi eiginleiki nauðsynlegur. Þess vegna er sjálfgefið kveikt á því og ekki er hægt að slökkva á því aftur. Ef þú ert að keyra útgáfu sem er eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Vinnsla vöruhúsaappsviðburða* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Sem hluti af Supply Chain Management, útgáfa 10.0.25, er sjálfgefið kveikt á þessum eiginleika. Sem hluti af Supply Chain Management, útgáfa 10.0.29, er þessi eiginleiki áskilinn. Því er sjálfgefið að kveikt sé á henni og ekki er hægt að slökkva á henni aftur. Ef þú ert að keyra útgáfu sem er eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Vinna úr viðburðum vöruhúsaforrits* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Setja upp runuvinnslu til að vinna úr viðburðum vöruhúsaforrits
 

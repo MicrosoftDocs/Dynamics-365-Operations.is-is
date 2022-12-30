@@ -1,6 +1,6 @@
 ---
 title: Yfirlit hættulegra efna
-description: Þessi grein veitir yfirlit yfir eiginleika sem tengjast meðhöndlun og skráningu hættulegra efna við stjórnun vöruupplýsinga og vöruhúsastjórnun.
+description: Í þessari grein er að finna yfirlit yfir eiginleika sem tengjast meðhöndlun og skráningu hættulegra efna við afurðarupplýsingastjórnun og vöruhúsastjórnun.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: overview
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
 ms.openlocfilehash: c2cae4cb65dd163e9fbf1d24cff5a0a040e3ce3a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8905806"
@@ -50,7 +50,7 @@ Vísað var til eftirfarandi sameiginlegra reglugerða þegar þessi virkni var 
 
 Í öllum reglugerðum er sýndur staðlaður listi yfir hættulegan varning og tilvísunarkóða. Þess vegna býður Supply Chain Management upp á tilvísunartöflu fyrir algengu kóðana í þessum listum. Hver listi er einnig með nokkra einkvæma kóða sem hægt er að skilgreina.
 
-Fyrir frekari upplýsingar um hvernig á að setja upp reglugerðir og gildi fyrir hættuleg efni, og hvernig á að úthluta gildunum til viðeigandi vara, sjá eftirfarandi greinar:
+Frekari upplýsingar um hvernig setja á upp reglugerðir og gildi fyrir hættuleg efni, og hvernig á að úthluta gildunum á viðeigandi afurðir er að finna í eftirfarandi greinum:
 
 - [Setja upp hættuleg efni](hazmat-setup.md)
 - [Hættuleg efni í afurðum, pöntunum, sendingum og förmum](hazmat-items.md)

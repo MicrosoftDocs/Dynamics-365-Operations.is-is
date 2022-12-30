@@ -1,6 +1,6 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.6. (nóvember 2019)
-description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir Dynamics 365 Supply Chain Management 10.0.6.
+description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.6.
 author: kamaybac
 ms.date: 10/28/2019
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 8c97e4e5544c49d2e6a13b34061abfbf50e2932a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8844439"
@@ -25,7 +25,7 @@ ms.locfileid: "8844439"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management 10.0.6. Þessi útgáfa er með byggingarnúmer 10.0.234. Þótt almennur framboðsdagur sé í nóvember eru nýju eiginleikarnir tiltækir til snemmbærrar útgáfu í október. Frekari upplýsingar um útgáfu 10.0.6 er að finna í [Frekari upplýsingar](whats-new-scm-10-0-6.md#additional-resources).
+Þessi grein lýsir nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management 10.0.6. Þessi útgáfa er með byggingarnúmer 10.0.234. Þótt almennur framboðsdagur sé í nóvember eru nýju eiginleikarnir tiltækir til snemmbærrar útgáfu í október. Frekari upplýsingar um útgáfu 10.0.6 er að finna í [Frekari upplýsingar](whats-new-scm-10-0-6.md#additional-resources).
 
 ## <a name="product-configuration-models-v2-data-entity"></a>V2 gagnaeining afbrigðalíkana afurðar
 
@@ -60,12 +60,12 @@ Skoðaðu [Dynamics 365: 2019 útgáfu bylgju 2 áætlun](/dynamics365-release-p
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 
-The [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein lýsir eiginleikum sem hafa verið eða áætlað er að verði fjarlægðir eða úreltir fyrir Supply Chain Management.
+Greinin [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) lýsir eiginleikum sem hafa verið eða á að fjarlægja eða úrelda fyrir Supply Chain Management.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
 
-Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um úreldingu tilkynnt í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein 12 mánuðum fyrir brottnám.
+Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um afskriftir tilkynnt í greininni [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mánuðum fyrir fjarlægingu.
 
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
 

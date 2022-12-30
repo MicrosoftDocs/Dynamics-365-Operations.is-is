@@ -1,6 +1,6 @@
 ---
 title: Setja upp klasatiltekt
-description: Þessi grein lýsir því hvernig á að setja upp klasatínslu og hvernig á að beita vörustaðfestingu með klasatínslu.
+description: Í þessari grein er því lýst hvernig á að setja upp klasatiltekt og hvernig á að nota vörustaðfestingu með klasatiltekt.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9014721"
@@ -25,7 +25,7 @@ ms.locfileid: "9014721"
 
 [!include[banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að gera starfsmönnum kleift að nota fartæki sín til að flokka tínsluvinnu í klasa, þannig að þeir geti valið vörur frá einni staðsetningu fyrir margar vinnupantanir á sama tíma. Þetta er kallað *klasatínslu*.
+Þessi grein lýsir því hvernig virkja má starfsmenn til að nota fartæki sín við tiltekt í klasa, þannig að þeir geti tekið vörur frá einum stað fyrir margar vinnupantanir á sama tíma. Þetta er kallað *klasatínslu*.
 
 ## <a name="about-cluster-picking"></a>Um klasatiltekt
 
@@ -74,13 +74,13 @@ Til að setja upp forstillingu sem klasa, skal fylgja þessum skrefum:
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Setja upp vörustaðfestingu með klasatiltekt
 
-1. Fara til **Vöruhússtjórnun** > **Uppsetning** > **Farsímatæki** > **Valmyndaratriði fartækis**.
-1. Í listaglugganum skaltu velja valmyndaratriðið sem þú vilt setja upp.
-1. Á aðgerðarrúðunni velurðu **Uppsetning vinnustaðfestingar**.
-1. Gerðu eina af eftirfarandi aðgerðum:
-    - Ef það er þegar til lína fyrir **Tegund vinnu** þú vilt setja upp, veldu það og veldu síðan **Breyta** á aðgerðasvæðinu.
-    - Ef viðeigandi lína er ekki til skaltu velja **Nýtt** á aðgerðarrúðunni og stilltu síðan **Tegund vinnu** í viðeigandi gerð.
-1. Merktu við **Vara staðfest** gátreitinn fyrir nýju eða valda línuna þína. Þetta gerir starfsmönnum kleift að sannreyna hvert birgðastykki með því að nota farsímann.
+1. Farðu í **Vöruhúsastjórnun**  >  **Uppsetning**  >  **Fartæki**  >  **Valmyndaratriði fartækis**.
+1. Á listasvæðinu skaltu velja valmyndaratriðið sem þú vilt setja upp.
+1. Á aðgerðasvæðinu skal velja **Uppsetning vinnustaðfestingar**.
+1. Gerðu svo eitt af eftirfarandi:
+    - Ef nú þegar er til lína fyrir **Vinnugerð** sem á að setja upp skal velja hana og síðan velja **Breyta** á aðgerðasvæðinu.
+    - Ef viðeigandi lína er ekki til skaltu velja **Nýtt** á Aðgerðasvæði og stilla síðan **Vinnutegund** á viðeigandi tegund.
+1. Merktu gátreitinn **Staðfesting afurðar** fyrir nýja eða valda línu. Þetta gerir starfsmönnum kleift að staðfesta allar birgðir með fartækinu.
 
 
 

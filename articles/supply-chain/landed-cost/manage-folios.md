@@ -1,6 +1,6 @@
 ---
 title: Vinna með fólíó
-description: Þessi grein lýsir því hvernig á að vinna með folio. Fólíó inniheldur yfirleitt eina vöru lánardrottins fyrir eina einingu eða fyrirtæki á hverja sendingu. Vörur í fólíói geta verið í einum gámi eða dreift á marga gáma.
+description: Þessi grein útskýrir hvernig á að vinna með fólíó. Fólíó inniheldur yfirleitt eina vöru lánardrottins fyrir eina einingu eða fyrirtæki á hverja sendingu. Vörur í fólíói geta verið í einum gámi eða dreift á marga gáma.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: ab5729cd441246a6c04ac060d5a69f949bfe47c5
 ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/27/2022
 ms.locfileid: "9725478"
@@ -24,7 +24,7 @@ ms.locfileid: "9725478"
 
 [!include [banner](../../includes/banner.md)]
 
-Fólíó er oft ákvarðað samkvæmt tollreglugerðum. Það getur innihaldið eina vöru lánardrottins fyrir eina einingu eða fyrirtæki fyrir hverja sendingu. Vörunum í folio er stjórnað í einum íláti.
+Fólíó er oft ákvarðað samkvæmt tollreglugerðum. Það getur innihaldið eina vöru lánardrottins fyrir eina einingu eða fyrirtæki fyrir hverja sendingu. Vörurnar í fólíó eru meðhöndlaðar í einum geymi.
 
 Til að opna síðun **Öll fólíó** skal fara á **Heildarkostnaður \> Fólíó \> Öll fólíó**. Þessi síða sýnir lista yfir öll núgildandi fólíó. Hægt er að nota hnappana á aðgerðasvæðinu til að stofna, eyða eða vinna með fólíó. Veljið hvaða fólíó sem er á listanum til að skoða upplýsingar á síðunni **Fólíó**.
 
@@ -132,7 +132,7 @@ Til að opna yfirlitið **Línur** skal opna ferð og síða velja flipann **Lí
 
 ### <a name="information-on-the-folio-fasttab"></a>Upplýsingar á flýtiflipanum Fólíó
 
-Flýtiflipinn **Fólíó** í yfirlitinu **Línur** sýnir upplýsingar um fólíóið. Flestar þessar upplýsingar birtast einnig í **Fyrirsögn** skoða, eins og lýst er fyrr í þessari grein.
+Flýtiflipinn **Fólíó** í yfirlitinu **Línur** sýnir upplýsingar um fólíóið. Flestar þessara upplýsinga birtast einnig í yfirlitinu **Haus** eins og lýst er hér á undan í þessari grein.
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>Upplýsingar og hnappar í flýtiflipanum fyrir línur
 

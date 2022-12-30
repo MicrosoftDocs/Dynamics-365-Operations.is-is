@@ -1,6 +1,6 @@
 ---
 title: Villuleita verðmisræmi í samstæðupöntunum
-description: Þessi grein útskýrir hvernig á að athuga verðmisræmi milli fyrirtækja
+description: Þessi grein útskýrir hvernig á að athuga verðmisræmi í samstæðupöntun
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
 ms.openlocfilehash: ca27e86545ba8179c595e55487dbbf49cd9ec528
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8890684"

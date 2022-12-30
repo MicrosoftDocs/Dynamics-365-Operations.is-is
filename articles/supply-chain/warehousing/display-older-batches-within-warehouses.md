@@ -1,6 +1,6 @@
 ---
 title: Stilla „Birta eldri keyrslur“ innan vöruhúss á fartæki
-description: Þessi grein lýsir því hvernig á að setja upp farsíma til að birta lista yfir staðsetningar með runum sem eru eldri en núverandi staðsetning vinnulínu.
+description: Þessi grein lýsir því hvernig á að setja upp fartæki til að birta lista yfir staðsetningar með runum sem eru eldri en núverandi staðsetning vinnulínu.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5788b42483f2c3046b0d20f45115b98d62cce213
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8900536"

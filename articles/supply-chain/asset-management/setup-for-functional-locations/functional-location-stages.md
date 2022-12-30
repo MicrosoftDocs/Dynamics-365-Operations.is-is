@@ -1,6 +1,6 @@
 ---
 title: Líftímastöður virkra staðsetninga
-description: Þessi grein lýsir því hvernig á að setja upp virka staðsetningarstöðu og líftímalíkön í eignastýringu.
+description: Þessi grein lýsir því hvernig á að setja upp virkar stöður staðsetningar og líftímalíkön í eignastýringu.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ae56c2b734339343b134be95abe0ce40b70c8a0e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8934730"
@@ -28,7 +28,7 @@ ms.locfileid: "8934730"
 
  
 
-Þessi grein lýsir því hvernig á að setja upp virka staðsetningarlífferilsstöðu og lífferilslíkön í eignastýringu. Líftímastöður virkra staðsetninga skilgreina þau ríki sem hagnýtur staðsetning getur farið í gegnum, til dæmis búið til, virkan og endað. Þú getur skoðað allar virkar staðsetningar, óháð líftímastöðu þeirra, á listasíðunni **Allar virkar staðsetningar**. Þú getur breytt stöðu virkrar staðsetningar með því að velja hana á listasíðunni **Allar virkar staðsetningar** og velja **Uppfæra stöðu virkar staðsetningar**.
+Þessi grein útskýrir hvernig á að setja upp virka staðsetningu fyrir líftímastöður og líftímalíkön í eignastýringu. Líftímastöður virkra staðsetninga skilgreina þau ríki sem hagnýtur staðsetning getur farið í gegnum, til dæmis búið til, virkan og endað. Þú getur skoðað allar virkar staðsetningar, óháð líftímastöðu þeirra, á listasíðunni **Allar virkar staðsetningar**. Þú getur breytt stöðu virkrar staðsetningar með því að velja hana á listasíðunni **Allar virkar staðsetningar** og velja **Uppfæra stöðu virkar staðsetningar**.
 
 ## <a name="set-up-functional-location-lifecycle-states"></a>Setja upp líftímastöður virkra staðsetninga
 

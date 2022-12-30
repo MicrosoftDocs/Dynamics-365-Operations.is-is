@@ -1,6 +1,6 @@
 ---
 title: Setja upp valmyndaratriði fartækis til að ljúka vinnu af gerðinni innkaupapöntun
-description: Þessi grein sýnir hvernig á að setja upp valmyndaratriði fyrir farsíma.
+description: Þessi grein sýnir hvernig á að setja upp valmyndaratriði fartækis.
 author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 09286e8e482780523b61006081205868be487755
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8882287"
@@ -25,7 +25,7 @@ ms.locfileid: "8882287"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein sýnir hvernig á að setja upp valmyndaratriði fyrir farsíma. Í þessu dæmi er Þetta valmyndaratriði notuð til að framkvæma vinnu með gerðinni innkaupapöntun. Vinnuklasi sem er tengdur við valmyndaratriði ákvarðar hvaða vinna er gild. Hægt er að nota þessar leiðbeiningar í sýnifyrirtækinu USMF. Þetta ferli er yfirleitt framkvæmt af stjórnandi vöruhúss.
+Þessi grein sýnir hvernig á að setja upp valmyndaratriði fartækis. Í þessu dæmi er Þetta valmyndaratriði notuð til að framkvæma vinnu með gerðinni innkaupapöntun. Vinnuklasi sem er tengdur við valmyndaratriði ákvarðar hvaða vinna er gild. Hægt er að nota þessar leiðbeiningar í sýnifyrirtækinu USMF. Þetta ferli er yfirleitt framkvæmt af stjórnandi vöruhúss.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Stofna valmyndaratriði fartækis

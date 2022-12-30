@@ -1,6 +1,6 @@
 ---
 title: Prentun bylgjumerkis
-description: Þessi grein lýsir bylgjumerkisprentun og útskýrir hvernig á að setja það upp.
+description: Þessi grein lýsir prentun bylgjumerkja og útskýrir hvernig á að setja hana upp.
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
 ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8901822"
@@ -49,11 +49,11 @@ Prentun bylgjumerkis býður upp á eftirfarandi viðbætur:
 Þessar endurbætur gera það skilvirkara að merkja kassa fyrir röðun á bretti. Þær gagnast sérstaklega fyrirtækjum sem senda til stórra smásala sem staðfesta sjálfkrafa innhreyfingar pantana með því að skanna hvern kassa fyrir sig.
 
 > [!NOTE]
-> Þú getur útfært stillingarsviðsmyndirnar sem lýst er í þessari grein annað hvort sérstaklega eða í samsetningu, allt eftir viðskiptaþörfum þínum. Þú getur hannað nokkur sniðmát bylgjumerkis sem virka í röð (eins og sýnt er í atburðarás 3). Til dæmis er hægt að nota atburðarás 1 til að prenta kassamiða og atburðarás 2 til að prenta brettamiða (ef bretti á lager eru mismunandi að stærð og samsetningu).
+> Þú getur innleitt stillingar atburðarásina sem lýst er í þessari grein annaðhvort hvort fyrir sig eða í samsetningu, fer allt eftir kröfum fyrirtækisins. Þú getur hannað nokkur sniðmát bylgjumerkis sem virka í röð (eins og sýnt er í atburðarás 3). Til dæmis er hægt að nota atburðarás 1 til að prenta kassamiða og atburðarás 2 til að prenta brettamiða (ef bretti á lager eru mismunandi að stærð og samsetningu).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Kveikja á prentunareiginleika bylgjumerkis
 
-Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að hann er sjálfgefið kveiktur og ekki er hægt að slökkva á honum aftur. Hins vegar er eiginleikinn enn skráður inn [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) á eftirfarandi hátt:
+(Frá og með útgáfu 10.0.21 af Supply Chain Management er sjálfkrafa kveikt á þessum eiginleika og ekki er hægt að slökkva á honum aftur.) Eiginleikinn er hins vegar enn sýndir í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Prentun bylgjumerkis*

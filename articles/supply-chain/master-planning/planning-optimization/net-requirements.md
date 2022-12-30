@@ -1,6 +1,6 @@
 ---
-title: Nettókröfur og tengingarupplýsingar
-description: Þessi grein veitir upplýsingar um reiknaðar nettóþarfir og tengiupplýsingar.
+title: Nettóþarfir og upplýsingar um þarfarakningu
+description: Í þessari grein er að finna upplýsingar um útreiknaðar nettóþarfir og upplýsingar um þarfarakningu.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
 ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/07/2022
 ms.locfileid: "9748439"
 ---
-# <a name="net-requirements-and-pegging-information"></a>Nettókröfur og tengingarupplýsingar
+# <a name="net-requirements-and-pegging-information"></a>Nettóþarfir og upplýsingar um þarfarakningu
 
 [!include [banner](../../includes/banner.md)]
 
 Þegar aðaláætlanagerð er keyrð í aðaláætlanagerð er mikilvægt að þú skiljir úttak hennar, hvernig fyrirliggjandi framboð dekkar eftirspurn og hvers vegna tiltekið framboð var búið til. Hægt er að nota síðuna **Nettóþarfir** til að átta sig betur á útreiknuðum kröfum sem aðaláætlanagerð gerir.
 
-The **Nettókröfur** síða sýnir nettóþörf sem aðalskipulag reiknaði fyrir vöruna. Hún sýnir einnig þekjustillingarnar sem voru notaðar við keyrslu aðaláætlanagerðar, sundurliðun á samtals þörfum eftir færslugerð og upplýsingum um þarfarakningu.
+Síðan **Nettóþarfir** sýnir nettóþarfir sem aðaláætlanagerð reiknaði út fyrir afurðina. Hún sýnir einnig þekjustillingarnar sem voru notaðar við keyrslu aðaláætlanagerðar, sundurliðun á samtals þörfum eftir færslugerð og upplýsingum um þarfarakningu.
 
 ## <a name="open-the-net-requirements-page"></a>Opna síðu nettóþarfa
 
@@ -64,8 +64,8 @@ Síðan **Nettóþarfir** samanstendur af efri og neðri hluta. Á aðgerðarrú
 Eftirfarandi skipanir eru í boði á aðgerðasvæði:
 
 - **Uppfæra \> Aðaláætlanagerð** – Keyrðu aðaláætlanagerð beint af síðunni **Nettóþarfir**.
-- **Uppfæra \> Spáráætlun** – Keyrðu spáráætlun beint af síðunni **Nettóþarfir**. Áætlanagerð fínstilling styður ekki þessa aðgerð.
-- **Uppfæra \> Samfelldniáætlunargerð** – Keyrðu samfellda áætlunargerð beint af síðunni **Nettóþarfir**. Áætlanagerð fínstilling styður ekki þessa aðgerð.
+- **Uppfæra \> Spáráætlun** – Keyrðu spáráætlun beint af síðunni **Nettóþarfir**. Fínstilling áætlanagerðar styður ekki þessa aðgerð.
+- **Uppfæra \> Samfelldniáætlunargerð** – Keyrðu samfellda áætlunargerð beint af síðunni **Nettóþarfir**. Fínstilling áætlanagerðar styður ekki þessa aðgerð.
 
 ## <a name="example-scenario"></a>Dæmi
 
@@ -133,6 +133,6 @@ Næst skal opna síðuna **Nettóþarfir** fyrir afurð *1000* til að yfirfara 
     ![Festa upplýsingar fyrir sölupöntunina](media/pegging-planned-purchase-order.png "Festir upplýsingar fyrir sölupöntunina")
 
 > [!NOTE]
-> The *Öryggisbirgðir* krafan er ekki innifalin í **Nettókröfur** síðu.
+> Þarfir *Öryggisbirgða* eru ekki teknar með á síðunni **Nettóþarfir**.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

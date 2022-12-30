@@ -1,6 +1,6 @@
 ---
 title: Áætlaðar pantanir einfaldaðar
-description: Þessi grein lýsir því hvernig þú getur skoðað, stjórnað og staðfest áætlaðar pantanir með því að nota einfaldaða síðuna Fyrirhugaðar pantanir.
+description: Í þessari grein er því lýst hvernig þú getur skoðað, stjórnað og staðfest áætlaðar pantanir með því að nota einfaldaða síðu áætlaðra pantana.
 author: t-benebo
 ms.date: 01/24/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2022-01-24
 ms.dyn365.ops.version: 10.0.25
 ms.openlocfilehash: 5f207fa1edb11d05910e22732cf54e100e4e3489
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8887371"
@@ -22,26 +22,26 @@ ms.locfileid: "8887371"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig þú getur skoðað, stjórnað og staðfest fyrirhugaðar pantanir með því að nota **Skipulagðar pantanir einfaldaðar** síðu.
+Í þessari grein er því lýst hvernig þú getur skoðað, stjórnað og staðfest áætlaðar pantanir með því að nota síðuna **Einfaldaðar áætlaðar pantanir**.
 
-The **Skipulagðar pantanir einfaldaðar** síða er einfölduð útgáfa af **Skipulagðar pantanir** síðu. Það veitir færri valkosti en er fljótlegra að vinna með þegar allt sem þú þarft að gera er að skoða, samþykkja og staðfesta fyrirhugaðar pantanir.
+Síðan **Einfaldaða áætlaðar pantanir** er einfölduð útgáfa af síðunni **Áætlaðar pantanir**. Það býður upp á færri valkosti en er fljótlegra að vinna með þegar þú þarft aðeins að fara yfir, samþykkja og staðfesta áætlaðar pantanir.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Kveikja á þessum eiginleika fyrir kerfið
 
-Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein, farðu á [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), og kveiktu á *Skipulagðar pantanir einfaldaðar* eiginleiki.
+Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessari grein skal fara í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Einfaldaðar áætlaðar pantanir*.
 
-## <a name="view-manage-and-firm-planned-orders"></a>Skoðaðu, stjórnaðu og staðfestu skipulagðar pantanir
+## <a name="view-manage-and-firm-planned-orders"></a>Skoða, stjórna og staðfesta áætlaðar pantanir
 
-The **Skipulagðar pantanir einfaldaðar** síða er fyrst og fremst hönnuð til að styrkja virkni. Það sýnir allar áætlaðar pantanir sem hafa verið búnar til fyrir valda áætlun, rétt eins og staðallinn **Skipulagðar pantanir** síða gerir. Þess vegna er hægt að nota það sem fínstilltan val til að skoða niðurstöður aðalskipulagskeyrslu.
+Síðan **Einfaldaðar áætlaðar pantanir** er aðallega hönnuð fyrir staðfestingaraðgerðir. Það sýnir allar áætlaðar pantanir sem hafa verið myndaðar fyrir valda áætlun, rétt eins og hefðbundin síða fyrir **Áætlaðar pantanir** gerir. Þar af leiðandi er hægt að nota hana sem fínstilltan valmöguleika til að skoða niðurstöður á keyrslu aðaláætlanagerðar.
 
-Til að opna **Skipulagðar pantanir einfaldaðar** síðu, farðu á **Aðalskipulag \> Aðalskipulag \> Skipulagðar pantanir einfaldaðar**. Þú getur notað þessa síðu til að klára eftirfarandi verkefni:
+Til að opna síðuna **Einfaldaðar áætlaðar pantanir** skal fara í **Aðaláætlanagerð \> Aðaláætlanagerð \> Einfaldaðar áætlaðar pantanir**. Þú getur notað þessa síðu til að ljúka eftirfarandi verkum:
 
-- Skoða allar fyrirhugaðar pantanir fyrir tiltekna áætlun.
-- Búðu til nýjar skipulagðar pantanir.
-- Eyða einni eða mörgum skipulögðum pöntunum.
-- Fastar stakar eða margar skipulagðar pantanir.
-- Breyta áætlunarstöðu fyrir stakar eða margar áætlaðar pantanir.
-- Opnaðu óaðfinnanlega upplýsingar um skipulagða pöntun fyrir einstaka fyrirhugaða pöntun til að skoða allar upplýsingar um pöntunina.
-- Búðu til sérsniðnar skoðanir með því að nota vistaðar skoðanir.
+- Skoða allar áætlaðar pantanir fyrir tiltekna áætlun.
+- Stofna nýja áætlaðar pantanir.
+- Eyða stökum eða mörgum áætluðum pöntunum.
+- Ein föst eða margar áætlaðar pantanir.
+- Breyta stöðu áætlaðrar pöntunar fyrir stakar eða margar áætlaðar pantanir.
+- Opnaðu upplýsingar um áætlaða pöntun fyrir staka áætlaða pöntun til að skoða allar upplýsingar um pöntunina.
+- Búa til sérsniðna skjái með því að nota vistaða skjái.
 
-Viðbótarsviðsmyndir, svo sem skiptingu, eru studdar af staðlinum **Skipulagðar pantanir** síðu.
+Fleiri sviðsmyndir, svo sem skipting, eru studdar af hefðbundnu síðunni **Áætlaðar pantanir**.

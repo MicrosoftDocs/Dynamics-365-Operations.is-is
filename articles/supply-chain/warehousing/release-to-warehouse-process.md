@@ -1,6 +1,6 @@
 ---
 title: Losa í vöruhús
-description: Þessi grein veitir upplýsingar um ferli útgáfu í vöruhús. Það lýsir einingum sem eru búnar til þegar þú sendir pöntun í vöruhúsið og valkostum sem hægt er að nota til að hefja ferlið.
+description: Þessi grein veitir upplýsingar um losun í vöruhúsaferli. Það lýsir einingum sem eru búnar til þegar þú sendir pöntun í vöruhúsið og valkostum sem hægt er að nota til að hefja ferlið.
 author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: caa38c4ed1c7fb8cf1ead3ba6534f8405a5ff57f
 ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/08/2022
 ms.locfileid: "9428037"
@@ -22,11 +22,11 @@ ms.locfileid: "9428037"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um ferli útgáfu í vöruhús. Það lýsir einingum sem eru búnar til þegar þú sendir pöntun í vöruhúsið og valkostum sem hægt er að nota til að hefja ferlið.
+Þessi grein veitir upplýsingar um losun í vöruhúsaferli. Það lýsir einingum sem eru búnar til þegar þú sendir pöntun í vöruhúsið og valkostum sem hægt er að nota til að hefja ferlið.
 
 ## <a name="release-to-warehouse-overview"></a>Yfirlit yfir losun í vöruhús
 
-Losun í vöruhús er ferlið við að gera birgðir tilbúnar fyrir úrvinnslu sendingar. Þegar þú losar pöntun í vöruhúsið býr kerfið til hleðslulínur og sendingar. Ef sjálfvirk bylgjuvinnsla er sett upp eru hleðslur og nauðsynleg vinna líka stofnuð. Það fer eftir kerfisstillingum hver skilgreiningin er á einingunum. Í þessum hluta greinarinnar er farið yfir einingarnar sem eru búnar til við útgáfu í vöruhúsaferli og kerfisstillingarnar sem skilgreina þær.
+Losun í vöruhús er ferlið við að gera birgðir tilbúnar fyrir úrvinnslu sendingar. Þegar þú losar pöntun í vöruhúsið býr kerfið til hleðslulínur og sendingar. Ef sjálfvirk bylgjuvinnsla er sett upp eru hleðslur og nauðsynleg vinna líka stofnuð. Það fer eftir kerfisstillingum hver skilgreiningin er á einingunum. Í þessum hluta greinarinnar er farið yfir einingarnar sem eru stofnaðar við losun í vöruhúsaferlið og kerfisstillingarnar sem skilgreina þær.
 
 *Sending* er hópur af sölupöntunar- eða flutningspöntunarlínum fyrir sama viðskiptavininn eða sama afhendingaraðsetrið.
 
@@ -34,7 +34,7 @@ Losun í vöruhús er ferlið við að gera birgðir tilbúnar fyrir úrvinnslu 
 
 *Vinna* vöruhúss er allar vöruhúsaaðgerðir sem starfsmaður í vöruhúsi framkvæmir. Yfirleitt samanstanda vinnsluaðgerðir vöruhúss af tveimur samhangandi aðgerðum: starfsmaður í vöruhúsi tekur til lagerbirgðir á einni staðsetningu og setur þær síðan á aðra staðsetningu.
 
-Þegar pantanir eru losaðar í vöruhúsið býr kerfið til *hleðslulínur* og flokkar þær niður í sendingar. Sameiningarferli sendingar leyfir sjálfvirka sameiningu sendingar meðan á losunarferlinu stendur til vöruhússins. Fyrir frekari upplýsingar, sjá [Yfirlit yfir stefnur um samþjöppun sendingar](about-shipment-consolidation-policies.md).
+Þegar pantanir eru losaðar í vöruhúsið býr kerfið til *hleðslulínur* og flokkar þær niður í sendingar. Sameiningarferli sendingar leyfir sjálfvirka sameiningu sendingar meðan á losunarferlinu stendur til vöruhússins. Frekari upplýsingar er að finna í [Yfirlit yfir samstæðureglur sendingar](about-shipment-consolidation-policies.md).
 
 Kerfið notar *bylgjur* til að búa til tiltektarvinnu og hleðslur fyrir sendingu. *Bylgjusniðmát* verður að vera tiltækt fyrir gerð bylgju sem á að stofna og fyrir vöruhús pöntunarlínunnar. Bylgjusniðmát af gerðinni *Sending* eru notuð til að senda vörur fyrir sölupantanir og flutningspantanir.
 
@@ -67,7 +67,7 @@ Af því leiðir að þegar pöntun er losuð í vöruhúsið, virkar mest sjál
 
 Það fer eftir bylgjusniðmátum, vinnusniðmátum og stillingum fyrir staðsetningarleiðbeiningar hvort sum skrefin í þessu flæði verða handvirk. Heildarflæðið helst þó óbreytt.
 
-Þú hefur nokkra valkosti um hvernig þú losar pöntun í vöruhúsið. Hægt er að framkvæma aðgerðina handvirkt eða setja upp runuvinnslu. Hlutarnir sem eftir eru af þessari grein fara ítarlega yfir hinar ýmsu leiðir sem hægt er að framkvæma losun í vöruhús.
+Þú hefur nokkra valkosti um hvernig þú losar pöntun í vöruhúsið. Hægt er að framkvæma aðgerðina handvirkt eða setja upp runuvinnslu. Farið er ítarlega yfir þá hluta þessarar greinar sem eftir eru, ýmsar leiðir til að framkvæma losunaraðgerð í vöruhús.
 
 ## <a name="manual-release-to-the-warehouse-from-the-sales-orders-and-transfer-orders-pages"></a>Handvirk losun í vöruhúsið af sölupöntunar- og flutningspöntunarsíðum
 
@@ -125,7 +125,7 @@ Til að setja upp runuvinnslu sem losar sölupantanir skal fylgja þessum skrefu
     - **Magn sem á að losa** – Veldu hvort eigi að losa allt magnið eða aðeins efnislega frátekið magn í vöruhúsið.
     - **Leyfa losun pantana sem hafa verið losaðar að hluta** – Tilgreindu hvort eftirstandandi magn fyrir pantanir sem hafa verið losaðar að hluta til eigi að vera losaðar í vöruhúsið.
     - **Halda frátekningum á losun sem mistekst** – Tilgreindu hvort magn sem var sjálfkrafa tekið frá fyrir sölupöntun eigi að vera áfram frátekið ef losunarferlið í vöruhúsið mistekst.
-    - **Flokkaðu útgáfur eftir viðskiptavinum** – Tilgreina hvort kerfið eigi að vinna losun í vöruhúsarekstur sérstaklega fyrir hvern viðskiptavin eða losa allar sölupantanir á sama tíma. Þegar þessi valkostur er stilltur á *Já*, mun kerfið safna öllum sölupöntunarlínum fyrir valinn viðskiptavin, losa þær pantanir í vöruhúsið og vinna síðan úr næsta viðskiptavin. Þegar þessi valkostur er stilltur á *Nei*, kerfið mun gefa út allar tiltækar sölupöntunarlínur í einni útgáfu í vöruhúsarekstur. Með því að virkja þennan valmöguleika geturðu hjálpað til við að bæta afköst og seiglu losunar í vöruhús ferli. Hins vegar verður þú að vera varkár þegar þú notar þennan valmöguleika ásamt bylgjusniðmátum sem eru stillt til að vinna úr bylgjum við losun í vöruhús, því þessi samsetning gæti myndað margar eins viðskiptavinar bylgjur, sem hver um sig hefur verk sem hefur aðeins verið framleidd fyrir þann viðskiptavin. . Ef þú vilt búa til vinnu sem sameinar sendingar fyrir marga viðskiptavini, ættir þú annað hvort að slökkva á *Flokkaðu útgáfur eftir viðskiptavinum* valmöguleika eða stilltu bylgjusniðmátið þitt til að nota frestað vinnslu.
+    - **Flokka losanir eftir viðskiptavini** – Tilgreinið hvort kerfið eigi að vinna birgðasendingar í vöruhúsarekstur sérstaklega fyrir hvern viðskiptavin eða gefa út allar sölupantanir á sama tíma. Þegar þessi valkostur er stilltur á *Já* mun kerfið safna öllum sölupöntunarlínum fyrir valinn viðskiptavin, losa þessar pantanir í vöruhúsið og síðan afgreiða næsta viðskiptavin. Þegar þessi valkostur er stilltur á *Nei* mun kerfið losa allar tiltækar sölupöntunarlínur í einni losun í vöruhúsaaðgerð. Með því að virkja þennan valkost getur þú hjálpað til við að bæta árangur og viðnámsþrótt losunarinnar í vöruhúsaferlinu. Hins vegar verður þú að fara varlega þegar þú notar þennan valkost með bylgjusniðmátum sem eru skilgreind til að vinna úr bylgjum við losun í vöruhús því að þessi samsetning gæti búið til margar bylgjur fyrir stakan viðskiptavin, sem hver fyrir sig er með vinnu sem hefur verið búin til eingöngu fyrir þann viðskiptavin. Ef þú vilt búa til vinnu sem sameinar sendingar fyrir marga viðskiptavini ættir þú annaðhvort að slökkva á valkostinum *Flokka losanir eftir viðskiptavini* eða stilla bylgjusniðmátin til að nota frestaðar vinnslur.
     - **Meðhöndlun læstra pantana** – Veldu hvernig kerfið á að meðhöndla sölupantanir sem eru læstar vegna þess að aðrir notendur eða ferlar eru að breyta þeim:
 
         - *Bíða eftir því að pantanir fari úr lás* – Kerfið ætti að bíða eftir að pantanirnar verði teknar úr lás áður en það losar þær í vöruhúsið. Í því tilviki gæti losunarferli í vöruhús tekið lengri tíma.

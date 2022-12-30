@@ -1,6 +1,6 @@
 ---
 title: Stilla mismunandi víddir fyrir pakka og geymslu
-description: Þessi grein sýnir hvernig á að tilgreina hvaða ferli (pökkun, geymsla eða hreiður pökkun) hver tilgreind vídd er notuð fyrir.
+description: Þessi grein sýnir hvernig á að tilgreina hvaða vinnslu (pökkun, geymsla eða földuð pökkun) hver tilgreind vídd er notuð fyrir.
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: e2cfcc13f397f57413be1773683daf1f828beaf8
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9334446"
@@ -33,11 +33,11 @@ Sumar vörur eru pakkaðar eða geymdar á þann hátt að nauðsynlegt kann að
 *Geymsluvíddir* eru studdar hvort sem eiginleikinn *Afurðarvíddir pökkunar* er virkur eða ekki. Þetta er sett upp með síðunni **Efnisleg vídd** í Supply Chain Management. Þessar stærðir eru í notaðar af öllum ferlum þar sem víddir pökkunar og faldaðrar pökkunar eru ekki tilgreindar.
 
 Víddir *pökkunar* og *faldaðrar pökkunar* eru settar upp á síðunni **Efnislegar afurðarvíddir** sem er bætt við þegar eiginleikinn *Afurðarvíddir pökkunar* er virkjaður.
-Þessi grein veitir atburðarás sem sýnir hvernig á að nota þennan eiginleika.
+Í þessari grein er að finna aðstæður sem lýsa því hvernig á að nota þennan eiginleika.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Kveikja á eiginleika afurðarvíddar pökkunar
 
-Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Afurðarvíddir pökkunar*

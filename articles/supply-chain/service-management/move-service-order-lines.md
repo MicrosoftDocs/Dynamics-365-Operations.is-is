@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b8d3599e13573ab7a9883f79b17e0eb267025483
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015231"
@@ -27,7 +27,7 @@ ms.locfileid: "9015231"
 [!include [banner](../includes/banner.md)]
 
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1.  Smelltu á **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
 2.  Tvísmelltu á þjónustupöntunina sem inniheldur línurnar sem þú vilt flytja í aðra þjónustupöntun.
 

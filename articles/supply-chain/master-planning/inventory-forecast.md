@@ -1,6 +1,6 @@
 ---
 title: Birgðaspár
-description: Þessi grein lýsir virkni framboðs og eftirspurnarspár sem hægt er að nota til að búa til birgðaspár í Microsoft Dynamics 365 Supply Chain Management.
+description: Í þessari grein er útskýrð virkni framboðs og eftirspurnar sem hægt er að nota til að búa til birgðaspár í Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
 ms.openlocfilehash: 16e806de9014e76404ee2807ec9132ae836e300f
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9739979"
@@ -22,7 +22,7 @@ ms.locfileid: "9739979"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að skoða og búa til birgðaspár. Hægt er að stofna og skoða framboðs- og eftirspurnarspárlínur fyrir vörur, vöruflokka, úthlutunarlykla vöru, viðskiptavinalykla, viðskiptavinaflokka, lánardrottnalykla og lánardrottnaflokka.
+Í þessari grein er útskýrt hvernig á að skoða og búa til birgðaspár. Hægt er að stofna og skoða framboðs- og eftirspurnarspárlínur fyrir vörur, vöruflokka, úthlutunarlykla vöru, viðskiptavinalykla, viðskiptavinaflokka, lánardrottnalykla og lánardrottnaflokka.
 
 Fyrir hverja spárlínu er hægt að velja spárlíkanið sem er notað. Síðan er hægt að tilgreina vöruna eða vöruflokkinn auk magns eða færsluupphæðar. Einnig er hægt að setja upp tímaáætlun fyrir úthlutun spármagns.
 
@@ -60,7 +60,7 @@ Eins og taflan í skrefi 1 sýnir eru mismunandi leiðir til að nálgast síðu
     Síðan **Framboðsspá** eða **Eftirspurnarspá** birtist eftir því hvað valið er. Hún sýnir allar spárlínur færslunnar sem voru valdar áður en síðan var opnuð.
 
 1. Á aðgerðasvæðinu skal velja **Ný** til að bæta spárlínu við hnitanetið á efri hluta síðunnar.
-1. Á nýju línunni í reitnum **Líkan** skal velja spárlíkanið sem á að nota. Færið síðan inn aðrar upplýsingar eftir þörfum, t.d. vöru, vöruflokk, viðskiptavin eða lánardrottnalykil eða -flokk, vörumagn eða heildarupphæð færslu. Fyrir allar upplýsingar um reiti sem eru tiltækar á **Framboðsspá** og **Eftirspurnarspá** síður, sjá síðari hluta þessarar greinar.
+1. Á nýju línunni í reitnum **Líkan** skal velja spárlíkanið sem á að nota. Færið síðan inn aðrar upplýsingar eftir þörfum, t.d. vöru, vöruflokk, viðskiptavin eða lánardrottnalykil eða -flokk, vörumagn eða heildarupphæð færslu. Allar upplýsingar um reitina sem eru í boði á síðunum **Framboðsspá** og **Eftirspurnarspá** er að finna í síðari hlutum í þessari grein.
 1. Til að dreifa spánni yfir tímabilið, í flipanum **Yfirlit**, skal velja **Úthluta spá** á tækjastikunni.
 1. Nota skal reitinn **Úthlutun** til að setja upp hámarkstíma og tímabil sem eru notuð til að dreifa spármagni.
 
@@ -68,7 +68,7 @@ Eins og taflan í skrefi 1 sýnir eru mismunandi leiðir til að nálgast síðu
 
 Framboðsspáin gerir kleift að stofna áætlun fyrir vörur sem þarf að kaupa. Hún segir starfsfólki innkaupa og aðfanga hvaða ætlast er til að sé pantað.
 
-Hægt er að slá inn framboðsspá eftir vöru, vöruflokki, vöruúthlutunarlykli, lánardrottni og lánardrottnaflokki. Fyrir upplýsingar um allar leiðir til að opna **Framboðsspá** síðu fyrir ýmsar einingar og skrár, sjá [Skoðaðu og sláðu inn spálínur handvirkt](#manual-entry) kafla fyrr í þessari grein.
+Hægt er að slá inn framboðsspá eftir vöru, vöruflokki, vöruúthlutunarlykli, lánardrottni og lánardrottnaflokki. Upplýsingar um allar leiðir til að opna síðuna **Framboðsspá** fyrir ýmsar einingar og færslur er að finna í hlutanum [Skoða og færa handvirkt inn spárlínur](#manual-entry) fyrr í þessari grein.
 
 Efri hluti síðunnar **Framboðsspá** býður upp á hnitanet yfir framboðsspárlínur og safn af flipum sem hægt er að nota til að skoða og setja inn frekari upplýsingar um valda spárlínu. Í neðri hluta síðunnar er að finna hnitanet fyrir **Úthlutun**.
 
@@ -94,9 +94,9 @@ Eftirfarandi tafla lýsir þeim skipunum sem eru tiltækar á tækjastiku flipan
 
 | Skipun | lýsing |
 |---|---|
-| Úthluta spá | Ef notuð er úthlutunaraðferð skal mynda hverja áætlunarlínu fyrir sig fyrir spáfærsluna. Magni línunnar er síðan dreift eftir dagsetningu (samkvæmt völdu tímabili), magni og upphæð fyrir allan tímann. (Sjá [Úthluta spá](#allocate-forecast) kafla síðar í þessari grein.) |
-| Magnuppfærsla | Opnið síðuna **Breyta spáfærslum**. (Sjá [Magnuppfærsla spáviðskipta](#bulk-update) kafla síðar í þessari grein.) |
-| Birgðaspá | Opnið yfirlit síðunnar **Birgðaspá** sem er síuð fyrir valda samsetningu vöru/líkans. (Sjá [Birgðaspá](#inventory-forecast) kafla síðar í þessari grein.) |
+| Úthluta spá | Ef notuð er úthlutunaraðferð skal mynda hverja áætlunarlínu fyrir sig fyrir spáfærsluna. Magni línunnar er síðan dreift eftir dagsetningu (samkvæmt völdu tímabili), magni og upphæð fyrir allan tímann. (Sjá hlutann [Úthluta spá](#allocate-forecast) síðar í þessari grein.) |
+| Magnuppfærsla | Opnið síðuna **Breyta spáfærslum**. (Sjá hlutann [Spárfærslur magnuppfærslu](#bulk-update) síðar í þessari grein.) |
+| Birgðaspá | Opnið yfirlit síðunnar **Birgðaspá** sem er síuð fyrir valda samsetningu vöru/líkans. (Sjá hlutann [Birgðaspá](#inventory-forecast) síðar í þessari grein.) |
 | Stofna vöruþörf | Opnið svarglugga þar sem hægt er að búa til vöruþörf og sölupöntun eða færslubókarlínur vöru fyrir spáfærslur sem tengjast verki. Þótt þessi skipun sé tiltæk fyrir bæði framboðsspárlínur og eftirspurnarspárlínur, er ekki hægt að nota hana á síðunni **Framboðsspá**. |
 
 ### <a name="the-overview-tab-on-the-supply-forecast-page"></a>Yfirlitsflipinn á síðu framboðsspár
@@ -173,7 +173,7 @@ Ef notaður er úthlutunarlykill vöru eða ef færð hefur verið inn vöruspá
 
 Framboðsspáin gerir kleift að færa inn eða búa til framboð fyrir viðskiptavin. Hún hjálpar starfsfólki sölu- og markaðsmála að láta starfsfólk aðaláætlanagerðar vita um væntanlegt framboð á komandi spártímabili.
 
-Hægt er að slá inn eftirspurnarspá eftir vöru, vöruflokki, vöruúthlutunarlykli, viðskiptavini eða viðskiptavinaflokki. Fyrir upplýsingar um allar leiðir til að opna **Eftirspurnarspá** síðu fyrir ýmsar einingar og skrár, sjá [Skoðaðu og sláðu inn spálínur handvirkt](#manual-entry) kafla fyrr í þessari grein.
+Hægt er að slá inn eftirspurnarspá eftir vöru, vöruflokki, vöruúthlutunarlykli, viðskiptavini eða viðskiptavinaflokki. Upplýsingar um allar leiðir til að opna síðuna **Eftirspurnarspá** fyrir ýmsar einingar og færslur er að finna í hlutanum [Skoða og færa handvirkt inn spárlínur](#manual-entry) fyrr í þessari grein.
 
 Efri hluti síðunnar **Eftirspurnarspá** býður upp á hnitanet yfir eftirspurnarspárlínur og safn af flipum sem hægt er að nota til að skoða og setja inn frekari upplýsingar um valda spárlínu. Í neðri hluta síðunnar er að finna hnitanet fyrir **Úthlutun**.
 
@@ -201,9 +201,9 @@ Eftirfarandi tafla lýsir þeim skipunum sem eru tiltækar á tækjastiku flipan
 
 | Skipun | lýsing |
 |---|---|
-| Úthluta spá | Ef notuð er úthlutunaraðferð skal mynda hverja áætlunarlínu fyrir sig fyrir spáfærsluna. Magni línunnar er síðan dreift eftir dagsetningu (samkvæmt völdu tímabili), magni og upphæð fyrir allan tímann. (Sjá [Úthluta spá](#allocate-forecast) kafla síðar í þessari grein.)|
-| Magnuppfærsla | Opnið síðuna **Breyta spáfærslum**. (Sjá [Magnuppfærsla spáviðskipta](#bulk-update) kafla síðar í þessari grein.) |
-| Birgðaspá | Opnið yfirlit síðunnar **Birgðaspá** sem er síuð fyrir valda samsetningu vöru/líkans. (Sjá [Birgðaspá](#inventory-forecast) kafla síðar í þessari grein.) |
+| Úthluta spá | Ef notuð er úthlutunaraðferð skal mynda hverja áætlunarlínu fyrir sig fyrir spáfærsluna. Magni línunnar er síðan dreift eftir dagsetningu (samkvæmt völdu tímabili), magni og upphæð fyrir allan tímann. (Sjá hlutann [Úthluta spá](#allocate-forecast) síðar í þessari grein.)|
+| Magnuppfærsla | Opnið síðuna **Breyta spáfærslum**. (Sjá hlutann [Spárfærslur magnuppfærslu](#bulk-update) síðar í þessari grein.) |
+| Birgðaspá | Opnið yfirlit síðunnar **Birgðaspá** sem er síuð fyrir valda samsetningu vöru/líkans. (Sjá hlutann [Birgðaspá](#inventory-forecast) síðar í þessari grein.) |
 | Stofna vöruþörf | Opnið svarglugga þar sem hægt er að búa til vöruþörf og sölupöntun eða færslubókarlínur vöru fyrir spáfærslur sem tengjast verki. |
 
 ### <a name="the-overview-tab-on-the-demand-forecast-page"></a>Yfirlitsflipinn á síðu eftirspurnarspár
@@ -296,7 +296,7 @@ Flipinn **Birgðavíddir** sýnir öll birgðavíddargildi fyrir línuna sem er 
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>Úthlutunarhnitið á síðu eftirspurnarspár
 
-Ef notaður er úthlutunarlykill vöru eða ef færð hefur verið inn vöruspá fyrir eitt eða fleiri tímabil fram í tímann, er hægt að úthluta spánni með því að velja **Úthluta spá** á tækjastikunni í flipanum **Yfirlit**. Magninu er þá úthlutað samkvæmt því sem tilgreint er í línunum í hnitanetinu **Úthlutun**. (Sjá [Úthluta spá](#allocate-forecast) kafla síðar í þessari grein.)
+Ef notaður er úthlutunarlykill vöru eða ef færð hefur verið inn vöruspá fyrir eitt eða fleiri tímabil fram í tímann, er hægt að úthluta spánni með því að velja **Úthluta spá** á tækjastikunni í flipanum **Yfirlit**. Magninu er þá úthlutað samkvæmt því sem tilgreint er í línunum í hnitanetinu **Úthlutun**. (Sjá hlutann [Úthluta spá](#allocate-forecast) síðar í þessari grein.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Birgðaspá
 
@@ -395,7 +395,7 @@ Til að setja upp aðaláætlun þannig að hún taki með birgðaspá skal fylg
     - **Spátímatímabil** – Ef **Spáráætlun** valkosturinn er stilltur á *Já* skal tilgreina dagafjöldann (frá deginum í dag) sem á að nota eftirspurnarspá fyrir.
 
     > [!IMPORTANT]
-    > The **Spááætlun** valkosturinn er ekki studdur með áætlanagerð fínstillingu.
+    > Valkosturinn **Spáráætlun** er ekki studdur í fínstillingu skipulagningar.
 
 ### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Keyra aðaláætlun sem inniheldur birgðaspá
 

@@ -1,6 +1,6 @@
 ---
 title: Samþætta Dynamics 365 Supply Chain Management (eignastýringu) við Dynamics 365 Guides
-description: Þessi grein útskýrir hvernig á að samþætta eignastjórnunareininguna í Microsoft Dynamics 365 Supply Chain Management með Dynamics 365 Guides til að nýta leiðbeiningar um blandaðan veruleika í daglegu verkflæði fyrir þjónustu og viðhald.
+description: Í þessari grein er útskýrt hvernig á að samþætta einingu eignastýringar í Microsoft Dynamics 365 Supply Chain Management við Dynamics 365 Guides til að nýta leiðarvísa blandaðs veruleika í daglegum þjónustu- og viðhaldsverkflæðum.
 author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: 10.0.12
 ms.openlocfilehash: d06978bcbd6205111384f5c7cefdf34fdbdbfbf5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8875685"
@@ -47,7 +47,7 @@ Til að tengja leiðarvísi er notuð lína viðhaldsgátlista í eignastýringu
 
 Til að tengja leiðarvísi við sniðmát viðhaldsgátlista skal fylgja þessum skrefum.
 
-1. Búðu til leiðarvísi með því að nota Dynamics 365 Guides tölvuna og HoloLens forritin. Fyrir upplýsingar um hvernig á að búa til handbók, sjá eftirfarandi greinar:
+1. Búðu til leiðarvísi með því að nota Dynamics 365 Guides tölvuna og HoloLens forritin. Nánari upplýsingar um hvernig á að búa til leiðarvísi er að finna í eftirfarandi greinum:
 
     - [Notaðu tölvuforritið til að búa til leiðarvísi](/dynamics365/mixed-reality/guides/pc-app-overview)
     - [Nota HoloLens-forritið til að staðsetja heilmyndirnar](/dynamics365/mixed-reality/guides/hololens-app-overview)

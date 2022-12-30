@@ -1,6 +1,6 @@
 ---
 title: Safnvista birgðafærslur
-description: Þessi grein lýsir því hvernig á að geyma birgðafærslugögn til að bæta afköst kerfisins.
+description: Þessi grein lýsir því hvernig á að safnvista birgðafærslugögn til að hjálpa við að auka afköst kerfisins.
 author: yufeihuang
 ms.date: 05/10/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: c63cdee862e2e22649a3eb58ae37597741770e14
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8874102"
@@ -24,7 +24,7 @@ ms.locfileid: "8874102"
 
 [!include [banner](../../includes/banner.md)]
 
-Með tímanum mun birgðafærslutaflan (`InventTrans`) vaxa og nota meira pláss í gagnagrunni. Þess vegna verða fyrirspurnir þar sem sækja þarf upplýsingar úr töflunni smám saman hægari. Þessi grein lýsir því hvernig þú getur notað *Skjalasafn birgðafærslur* eiginleiki til að geyma gögn um birgðafærslur til að bæta afköst kerfisins.
+Með tímanum mun birgðafærslutaflan (`InventTrans`) vaxa og nota meira pláss í gagnagrunni. Þess vegna verða fyrirspurnir þar sem sækja þarf upplýsingar úr töflunni smám saman hægari. Þessi grein lýsir því hvernig hægt er að nota *Safnvistun á birgðafærslum* eiginleikann til að safnvista gögn um birgðafærslur til að aðstoða við að auka afköst kerfisins.
 
 > [!NOTE]
 > Aðeins er hægt að safnvista fjárhagslega uppfærðum birgðafærslum á völdu lokuðu fjárhagstímabili. Til að vera safnvistað verða fjárhagslega uppfærðar birgðafærslur að vera með úthreyfingarstöðuna *Selt* og birgðafærslur á innleið verða að vera með nnhreyfingarstöðuna *Keypt*.
@@ -35,7 +35,7 @@ Ef `itemId` `inventDimId` samsetningin inniheldur aðeins eina kvittun eða úth
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Kveikja á eiginleikanum í kerfinu
 
-Ef kerfið þitt inniheldur ekki þá eiginleika sem lýst er í þessari grein, farðu á [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), og kveiktu á *Skjalasafn birgðafærslur* eiginleiki. Ekki er hægt að slökkva á þessum eiginleika þegar hann hefur verið gerður virkur.
+Ef kerfið inniheldur ekki eiginleikana sem lýst er í þessari grein skal fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og kveikja á eiginleikanum *Safnvistun á birgðafærslum*. Ekki er hægt að slökkva á þessum eiginleika þegar hann hefur verið gerður virkur.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Það sem þarf að hafa í huga áður en birgðafærslur eru safnvistaðar
 
@@ -117,14 +117,14 @@ Tækjastikan fyrir ofan hnitanetið býður upp á eftirfarandi hnappa sem hægt
 - **Halda áfram safnvistun** – Halda áfram safnvistun fyrir valda safnvistun sem gert var hlé á.
 - **Bakfæra** – Bakfæra valið safn. Aðeins er hægt að bakfæra safn ef **Staða** þess er stillt á *Lokið*. Ef safn hefur verið bakfært birtist gátmerki í reitnum **Bakfæra**.
 
-## <a name="extend-your-code-to-support-custom-fields"></a>Framlengdu kóðann þinn til að styðja sérsniðna reiti
+## <a name="extend-your-code-to-support-custom-fields"></a>Útvíkkaðu kóðann til að styðja sérstillta reiti
 
-Ef`InventTrans` Taflan inniheldur einn eða fleiri sérsniðna reiti, þá gætir þú þurft að lengja kóðann til að styðja þá, allt eftir því hvernig þeir eru nefndir.
+Ef `InventTrans` taflan inniheldur einn eða fleiri sérsniðna reiti gætirðu þurft að framlengja kóðann til að styðja þá, allt eftir því hvernig þeir eru nefndir.
 
-- Ef sérsniðnu reitirnir frá`InventTrans` taflan hafa sömu reitnöfn og í`InventtransArchive` töflu, það þýðir að þeir eru 1:1 kortlögð. Þess vegna geturðu bara sett sérsniðnu reiti inn í`InventoryArchiveFields` reiti hópur af`inventTrans` borð.
-- Ef sérsniðnu reitnöfnin í`InventTrans` taflan passa ekki við reitnöfnin í`InventtransArchive` töflu, þá þarftu að bæta við kóða til að kortleggja þá. Til dæmis, ef þú ert með kerfisreit sem heitir`InventTrans.CreatedDateTime`, þá verður þú að búa til reit í`InventTransArchive` borð með öðru nafni (svo sem`InventtransArchive.InventTransCreatedDateTime`) og bæta við viðbótum við`InventTransArchiveProcessTask` og`InventTransArchiveSqlStatementHelper` bekkjum, eins og sýnt er í eftirfarandi sýnishornskóða.
+- Ef sérsniðnu reitirnir í `InventTrans` töflunni hafa sömu heiti og í `InventtransArchive` töflunni, þýðir það að þeir eru 1:1 kortlagðir. Þar af leiðandi er einfaldlega hægt að setja sérsniðnu reitina í `InventoryArchiveFields` reitarhópinn í `inventTrans` töflunni.
+- Ef sérsniðnu reitanöfnin í `InventTrans` töflunni passa ekki við reitanöfnin í `InventtransArchive` töflunni, þá þarftu að bæta við kóða til að kortleggja þau. Ef þú ert til dæmis með kerfisreit sem kallast `InventTrans.CreatedDateTime` þá þarftu að búa til reit í `InventTransArchive` töflunni með öðru heiti (t.d. `InventtransArchive.InventTransCreatedDateTime`) og bæta viðbótum við `InventTransArchiveProcessTask` og `InventTransArchiveSqlStatementHelper` klasana eins og sýnt er í eftirfarandi sýnikóða.
 
-Eftirfarandi sýnishornskóði sýnir dæmi um hvernig á að bæta nauðsynlegri viðbót við`InventTransArchiveProcessTask` bekk.
+Eftirfarandi sýnishornskóði sýnir dæmi um hvernig á að bæta nauðsynlegri viðbót við `InventTransArchiveProcessTask` flokkinn.
 
 ```xpp
 [ExtensionOf(classStr(InventTransArchiveProcessTask))]
@@ -150,7 +150,7 @@ Final class InventTransArchiveProcessTask_Extension
 }
 ```
 
-Eftirfarandi sýnishornskóði sýnir dæmi um hvernig á að bæta nauðsynlegri viðbót við`InventTransArchiveSqlStatementHelper` bekk.
+Eftirfarandi sýnishornskóði sýnir dæmi um hvernig á að bæta nauðsynlegri viðbót við `InventTransArchiveSqlStatementHelper` flokkinn.
 
 ```xpp
 [ExtensionOf(classStr(InventTransArchiveSqlStatementHelper))]

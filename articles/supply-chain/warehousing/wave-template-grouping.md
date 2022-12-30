@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: a48e6a81299badf4b811e1cf905beb06099e5a24
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335976"
@@ -31,7 +31,7 @@ Flokkun bylgjusniðmáts gerir kerfinu kleift að nota uppsetningar [bylgjusnið
 
 ## <a name="turn-on-the-wave-template-grouping-feature"></a>Kveikja á eiginleika bylgjusniðmátsflokkunar
 
-Áður en þú getur notað *Bylgjusniðmátflokkun* eiginleika, verður að vera kveikt á honum fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en hægt er að nota eiginleikann *Flokkun bylgjusniðmáts* verður að vera kveikt á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Flokkun bylgjusniðmáts*
@@ -41,7 +41,7 @@ Flokkun bylgjusniðmáts gerir kerfinu kleift að nota uppsetningar [bylgjusnið
 Til að gera bylgjusniðmátsflokkun tiltæka skal fylgja þessum skrefum til að setja upp [bylgjusniðmát](tasks/configure-wave-processing.md).
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**.
-1. Vinstra megin á svæðinu skal velja bylgjusniðmátið sem á að setja upp. Ef þú ert að undirbúa að vinna í gegnum atburðarásina síðar í þessari grein með því að nota kynningargögn skaltu velja **62 Sendingar sjálfgefið** sniðmát.
+1. Vinstra megin á svæðinu skal velja bylgjusniðmátið sem á að setja upp. Ef verið er að undirbúa vinnu í gegnum atburðarásina síðar í þessari grein með því að nota sýnigögn skal velja sniðmátið **62 Sjálfgefin sending**.
 1. Veldu **Breyta** til að setja síðuna í breytingastillingu.
 1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
 
@@ -84,7 +84,7 @@ Einnig er hægt að nota þessar aðstæður sem leiðsögn um notkun á eiginle
 
 Þessar aðstæður sýna hvernig nota má flokkun bylgjusniðmáts til að stofna sjálfkrafa margar bylgjur, byggðar á flokkunarskilyrðum sem eru skilgreind í bylgjusniðmáti. Í þessum aðstæðum er bylgjusniðmátið sett upp í kerfinu til að búa til eina bylgju á flutningsþjónustu.
 
-Áður en þú byrjar skaltu undirbúa bylgjusniðmátið eins og lýst er í [Stilltu bylgjusniðmát til að nota bylgjusniðmátflokkun](#set-up-template) kafla fyrr í þessari grein. Ef unnið verður með sýnigögn fyrir þetta dæmi skal gæta þess að nota gildi sýnigagnanna sem stungið er upp á í því ferli. Þessi uppsetning mun flokka bylgjurnar samkvæmt flutningsþjónustunni sem er stillt fyrir hverja sölupöntun.
+Áður en hafist er handa þarf að undirbúa bylgjusniðmátið eins og lýst er í hlutanum [Stilla bylgjusniðmát til að nota flokkun bylgjusniðmáts](#set-up-template) fyrr í þessari grein. Ef unnið verður með sýnigögn fyrir þetta dæmi skal gæta þess að nota gildi sýnigagnanna sem stungið er upp á í því ferli. Þessi uppsetning mun flokka bylgjurnar samkvæmt flutningsþjónustunni sem er stillt fyrir hverja sölupöntun.
 
 #### <a name="create-sales-order-1"></a>Stofna sölupöntun 1
 

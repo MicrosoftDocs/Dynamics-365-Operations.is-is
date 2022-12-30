@@ -1,6 +1,6 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management
-description: Þessi grein bendir á greinar sem lýsa nýjum og breyttum eiginleikum í hverri útgáfu af Dynamics 365 Supply Chain Management.
+description: Þessi grein bendir á efni sem lýsir nýjum og breyttum eiginleikum í hverri útgáfu af Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
 ms.openlocfilehash: 69103a02d7fb4487429bba18fb0f660a1acac8f2
 ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/18/2022
 ms.locfileid: "9689515"
@@ -27,7 +27,7 @@ ms.locfileid: "9689515"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>Útgáfur af Dynamics 365 Supply Chain Management
 
-Til að sjá hvað er nýtt eða breytt í hverri útgáfu af Dynamics 365 Supply Chain Management, sjá eftirfarandi greinar.
+Til að sjá hvað er nýtt eða breytt í hverri útgáfu af Dynamics 365 Supply Chain Management, sjá eftirfarandi grein.
 
 | Útgáfa | Smíðarnúmer | Framboð sjálfuppfærslu | Frekari upplýsingar |
 |---|---|---|---|
@@ -60,23 +60,23 @@ Til að sjá hvað er nýtt eða breytt í hverri útgáfu af Dynamics 365 Suppl
 
 ## <a name="releases-before-november-2019"></a>Útgáfur fyrir nóvember 2019
 
-Til að sjá hvað er nýtt eða breytt í útgáfum fyrir nóvember 2019, skoðaðu eftirfarandi greinar.
+Til að sjá hvað er nýtt eða breytt útgáfum á undan nóvember 2019, sjá eftirfarandi grein.
 
 | Losa | Útgáfa | Smíðarnúmer | Framboð | Frekari upplýsingar |
 |---|---|---|---|---|
-| Microsoft Dynamics 365 Fjármál og rekstur | 10.0.5 | 10.0.197 | 2019. október | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations útgáfu 10.0.5 (október 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur | 10.0.4 | 10.0.136 | Júlí 2019 | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations útgáfu 10.0.4 (júlí 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur | 10.0.3 | 10.0.107 | 2019. júní | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations útgáfu 10.0.3 (júní 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur | 10.0.2 | 10.0.80 | 2019. maí | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations útgáfu 10.0.2 (maí 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-2.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur | 10.0.1 | 10.0.51 | 2019. apríl | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations útgáfu 10.0.1 (apríl 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur | 10.0 | 10.0.8 | 2019. apríl | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations útgáfu 10.0 (apríl 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur | 8.1.3 | 8.1.227 | Janúar 2019 | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations útgáfu 8.1.3 (janúar 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-3.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur | 8,1,2 | 8,1,195 | 2018. desember | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations útgáfu 8.1.2 (desember 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-2.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur | 8,1,1 | 8,1,170 | 2018. október | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations útgáfu 8.1.1 (október 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-1.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur | 8.1 | 8,1,136 | 2018. október | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations útgáfu 8.1 (október 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-october-2018.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur | 8.0 | 8.0.30, 8.0.35 | 2018. apríl | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations útgáfu 8.0 (apríl 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-0-april-2018.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur, Enterprise útgáfa | 7.3 | 7.3.11971.56116 | 2017. desember | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations, Enterprise útgáfa 7.3](../../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md) |
-| Microsoft Dynamics 365 Fjármál og rekstur, Enterprise útgáfa | Júlí 2017 | 7.2.11792.56024 | 2017. júní | [Hvað er nýtt eða breytt í Dynamics 365 Finance and Operations, Enterprise útgáfu (júlí 2017)](../../fin-ops-core/fin-ops/get-started/whats-new-application-july-2017-update.md) |
+| Microsoft Dynamics 365 Finance and Operations | 10.0.5 | 10.0.197 | 2019. október | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations útgáfa 10.0.5 (október 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md) |
+| Microsoft Dynamics 365 Finance and Operations | 10.0.4 | 10.0.136 | Júlí 2019 | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations útgáfa 10.0.4 (júlí 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md) |
+| Microsoft Dynamics 365 Finance and Operations | 10.0.3 | 10.0.107 | 2019. júní | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations útgáfa 10.0.3 (júní 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-3.md) |
+| Microsoft Dynamics 365 Finance and Operations | 10.0.2 | 10.0.80 | 2019. maí | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations útgáfa 10.0.2 (maí 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-2.md) |
+| Microsoft Dynamics 365 Finance and Operations | 10.0.1 | 10.0.51 | 2019. apríl | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations útgáfa 10.0.1 (apríl 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md) |
+| Microsoft Dynamics 365 Finance and Operations | 10.0 | 10.0.8 | 2019. apríl | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations útgáfa 10.0 (apríl 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-1.md) |
+| Microsoft Dynamics 365 Finance and Operations | 8.1.3 | 8.1.227 | Janúar 2019 | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations útgáfa 8.1.3 (janúar 2019)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-3.md) |
+| Microsoft Dynamics 365 Finance and Operations | 8,1,2 | 8,1,195 | 2018. desember | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations útgáfa 8.1.2 (desember 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-2.md) |
+| Microsoft Dynamics 365 Finance and Operations | 8,1,1 | 8,1,170 | 2018. október | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations útgáfa 8.1.1 (október 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-1.md) |
+| Microsoft Dynamics 365 Finance and Operations | 8.1 | 8,1,136 | 2018. október | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations útgáfa 8.1 (október 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-1-october-2018.md) |
+| Microsoft Dynamics 365 Finance and Operations | 8.0 | 8.0.30, 8.0.35 | 2018. apríl | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations útgáfa 8.0 (apríl 2018)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-8-0-april-2018.md) |
+| Microsoft Dynamics 365 Finance and Operations, Enterprise Edition | 7.3 | 7.3.11971.56116 | 2017. desember | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations, Enterprise Edition 7.3](../../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md) |
+| Microsoft Dynamics 365 Finance and Operations, Enterprise Edition | Júlí 2017 | 7.2.11792.56024 | 2017. júní | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 Finance and Operations, Enterprise edition (júlí 2017)](../../fin-ops-core/fin-ops/get-started/whats-new-application-july-2017-update.md) |
 | Microsoft Dynamics 365 for Operations | 1611 | 7.1.1541.3036 | Nóvember 2016 | [Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md) |
 | Microsoft Dynamics AX | 7.0.1 | 7.0.1265.23014 | 2016. maí | [Hvað er nýtt og hvað hefur breyst í Dynamics AX forritaútgáfa 7.0.1 (maí 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md) |
 | Microsoft Dynamics AX | 7.0 | 7.0.1265.3015 | 2016. febrúar | [Hvað er nýtt og hvað hefur breyst í AX 7.0 (febrúar 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md) |

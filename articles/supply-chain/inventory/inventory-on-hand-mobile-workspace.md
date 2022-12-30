@@ -1,6 +1,6 @@
 ---
 title: Birgðir á lager eftir fartækjavinnusvæði
-description: Þessi grein veitir upplýsingar um birgðavinnusvæðið fyrir farsíma. Þetta vinnusvæði hjálpar þér að fá yfirsýn gegnum fartæki yfir pantaðar og tiltækar birgðir, hvar og hvenær sem er.
+description: Þessi grein veitir upplýsingar um fartækjavinnusvæðið lagerbirgða. Þetta vinnusvæði hjálpar þér að fá yfirsýn gegnum fartæki yfir pantaðar og tiltækar birgðir, hvar og hvenær sem er.
 author: yufeihuang
 ms.date: 05/24/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 640a45e29627ffe56535c7d05419309688e8ecb6
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9069817"
@@ -27,9 +27,9 @@ ms.locfileid: "9069817"
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Þessi grein veitir upplýsingar um **Birgðir til staðar** færanlegt vinnusvæði. Þetta vinnusvæði hjálpar þér að fá yfirsýn yfir fráteknar og tiltækar birgðir, hvar og hvenær sem er.
+Þessi grein veitir upplýsingar um fartækjavinnusvæðið **Lagerbirgðir**. Þetta vinnusvæði hjálpar þér að fá yfirsýn yfir fráteknar og tiltækar birgðir, hvar og hvenær sem er.
 
-Þetta farsímavinnusvæði er ætlað til notkunar með fjármála- og rekstrarforritinu (Dynamics 365).
+Þessu fartækjavinnusvæði er ætlað til að nota með farsímaforritum Fjármála- og reksturs (Dynamics 365) .
 
 ## <a name="overview"></a>Yfirlit
 Yfirleitt eru fyrirtæki með margar sendingar og margar vörumóttökur á degi hverjum. Slíkar hreyfingar breyta birgðastöðu á lager sífellt. Fartækjavinnusvæðið **Birgðir á lager** gerir þér kleift að sjá birgðastöðu á lager þvert á fyrirtæki og fá nýjasta yfirlit yfir birgðastöðugögn á fartækinu sem þú vilt helst nota. Hvort sem þú vinnur í vöruhúsi, í innkaupum, sölu, framleiðslu eða stjórnun eða hefur önnur hlutverk getur þú fengið yfirlit yfir birgðastöðu á lager hvar og hvenær sem er. 
@@ -94,7 +94,7 @@ Ef verkvangsuppfærsla 3 eða síðar hefur verið sett upp fyrir fyrirtækið �
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
 
-Sæktu og settu upp fjármála- og rekstrarforritið (Dynamics 365):
+Sækið Fjármála- og rekstrarforrit (Dynamics 365) fyrir fartæki
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)

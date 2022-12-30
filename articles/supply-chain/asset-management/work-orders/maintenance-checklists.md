@@ -1,6 +1,6 @@
 ---
 title: Viðhaldsgátlistar
-description: Þessi grein lýsir viðhaldsgátlistum í eignastýringu.
+description: Í þessari grein er viðhaldsgátlistum í Eignastýringu lýst.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 70b83de50105cf664bbc6b6095203d01d83cd79b
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016682"
@@ -35,7 +35,7 @@ Viðhaldsgátlistar eru settir upp á tegundum viðhaldsverka. Þú fyllir út v
 
 ## <a name="fill-in-a-maintenance-checklist"></a>Fylltu út viðhaldsgátlista
 
-1. Smellur **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
+1. Smellið á **Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
 
 2. Veldu verkbeiðni og síðan á aðgerðarrúðunni, á flipanum **Verkbeiðni**, í hópnum **Línur**, velurðu **Viðhaldsgátlisti**.
 

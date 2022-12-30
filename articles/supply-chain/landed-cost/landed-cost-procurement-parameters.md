@@ -1,6 +1,6 @@
 ---
 title: Færibreytur innkaupa og aðfanga fyrir heildarkostnað
-description: Þessi grein lýsir því hvernig á að setja upp viðeigandi innkaupa- og innkaupafæribreytur þegar þú notar landkostnaðareininguna.
+description: Þessi grein lýsir því hvernig setja á upp viðeigandi færibreytur fyrir innkaup og aðföng þegar Heildarkostnaður einingin er notuð.
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 92ce3e3d09bed15970375735f680b1b8348bbca8
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8905980"

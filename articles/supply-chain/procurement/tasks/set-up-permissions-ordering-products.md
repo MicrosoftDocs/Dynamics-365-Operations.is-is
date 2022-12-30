@@ -1,6 +1,6 @@
 ---
 title: Setja upp heimildir fyrir pöntun afurða fyrir hönd annarra
-description: Þessi grein útskýrir hvernig á að veita starfsmönnum leyfi til að útbúa innkaupabeiðnir fyrir hönd annarra starfsmanna.
+description: Þessi grein útskýrir hvernig á að veita starfskröftum heimild til að undirbúa innkaupabeiðnir fyrir hönd annarra starfskrafta.
 author: GalynaFedorova
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3053f28fdf97637b1da5f644f64676bfd10fb6a0
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8854211"
@@ -24,7 +24,7 @@ ms.locfileid: "8854211"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að veita starfsmönnum leyfi til að útbúa innkaupabeiðnir fyrir hönd annarra starfsmanna. Með öðrum orðum getur „undirbúningsaðili“ innkaupabeiðni stofnað beiðni fyrir annan „umsækjanda.“ Ferlið sýnir einnig hvernig á að veita starfskrafti heimild til að panta vörur og þjónustu í öðrum lögaðilum eða rekstrareiningum. Þessi verk eru yfirleitt gert af innkaupastjóra. Hægt er að nota þetta ferli í annað hvort fyrir gögn fyrir sýnigögn USMF- fyrirtækisins eða þín eigin gögn.
+Þessi grein útskýrir hvernig á að veita starfskröftum heimild til að undirbúa innkaupabeiðnir fyrir hönd annarra starfskrafta. Með öðrum orðum getur „undirbúningsaðili“ innkaupabeiðni stofnað beiðni fyrir annan „umsækjanda.“ Ferlið sýnir einnig hvernig á að veita starfskrafti heimild til að panta vörur og þjónustu í öðrum lögaðilum eða rekstrareiningum. Þessi verk eru yfirleitt gert af innkaupastjóra. Hægt er að nota þetta ferli í annað hvort fyrir gögn fyrir sýnigögn USMF- fyrirtækisins eða þín eigin gögn.
 
 
 ## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a>Veita heimildir til að færa inn innkaupabeiðnir fyrir hönd annan starfsmann

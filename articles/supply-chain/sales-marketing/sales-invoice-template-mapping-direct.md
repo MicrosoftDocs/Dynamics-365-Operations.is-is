@@ -1,6 +1,6 @@
 ---
 title: Samstilla hausa og línur sölureiknings beint úr Supply Chain Management í Sales
-description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla hausa og línur sölureikninga beint frá Dynamics 365 Supply Chain Management til Dynamics 365 Sales.
+description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur reikninga beint úr Dynamics 365 Supply Chain Management við Dynamics 365 Sales.
 author: Henrikan
 ms.date: 10/26/2017
 ms.topic: article
@@ -18,16 +18,16 @@ ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 421d84b739faacbade711b01bfccb9f4efe6de32
 ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/01/2022
 ms.locfileid: "9103276"
 ---
-# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Samstilltu hausa og línur sölureikninga beint frá fjármálum og rekstri yfir í sölu
+# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Samstilla hausa og línur sölureiknings beint úr Sales við fjármála- og rekstrarforrit
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla hausa og línur sölureikninga beint frá Dynamics 365 Supply Chain Management til Dynamics 365 Sales.
+Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur reikninga beint úr Dynamics 365 Supply Chain Management við Dynamics 365 Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 

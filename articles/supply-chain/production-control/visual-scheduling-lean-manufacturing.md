@@ -1,6 +1,6 @@
 ---
 title: Sjónræn röðun fyrir lean-framleiðslu
-description: Þessi grein veitir upplýsingar um Kanban áætlunartöfluna, sem framleiðsluskipuleggjandinn getur notað til að stjórna og fínstilla framleiðsluáætlunina fyrir kanban störf.
+description: Þessi grein veitir upplýsingar um Kanban-áætlunartöflu sem framleiðslustjórinn getur notað til að stjórna og fínstilla framleiðsluáætlunina fyrir kanban-vinnslur.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a743be96867c1f325e6fe01f23355c27cb4d0cc0
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8875189"
@@ -27,9 +27,9 @@ ms.locfileid: "8875189"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um Kanban áætlunartöfluna, sem framleiðsluskipuleggjandinn getur notað til að stjórna og fínstilla framleiðsluáætlunina fyrir kanban störf.
+Þessi grein veitir upplýsingar um Kanban-áætlunartöflu sem framleiðslustjórinn getur notað til að stjórna og fínstilla framleiðsluáætlunina fyrir kanban-vinnslur.
 
-Þessi grein veitir upplýsingar um Kanban áætlunartöfluna, sem framleiðsluskipuleggjandinn getur notað til að stjórna og fínstilla framleiðsluáætlunina fyrir kanban störf.
+Þessi grein veitir upplýsingar um Kanban-áætlunartöflu sem framleiðslustjórinn getur notað til að stjórna og fínstilla framleiðsluáætlunina fyrir kanban-vinnslur.
 
 Áætlunarborð Kanban gerir framleiðsluskipuleggjanda stýra og hámarka framleiðsluáætlunina fyrir kanbanvinnslur. Það gerir flæði kanban-vinnsla gegnsætt og gefur skipuleggjanda framleiðslu verkfæri sem hámarkar og leiðréttir framleiðsluáætlunina fyrir vinnureitinn lean manufacturing.
 

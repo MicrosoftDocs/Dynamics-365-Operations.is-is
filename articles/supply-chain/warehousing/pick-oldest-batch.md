@@ -1,6 +1,6 @@
 ---
 title: Taka til elstu runu í fartæki
-description: Þessi grein lýsir því hvernig þú setur upp og notar valkostina til að velja elstu lotuna úr farsíma.
+description: Í þessari grein er lýst hvernig á að setja upp og nota valkostina til að tína elstu rununa úr fartækinu.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ad1f2cfd029d71784d5efcc169178a791f0ae077
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8885639"

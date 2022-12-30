@@ -1,6 +1,6 @@
 ---
 title: Prófunartæki gæðastjórnunar
-description: Þessi grein lýsir því hvernig á að búa til prófunartæki sem hægt er að nota fyrir prófanir á gæðapöntunum í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir því hvernig á að stofna prufubreytur sem hægt er að nota í prófunum gæðapantana í Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 36b712e6a99a0625af28ef121d0c9c39c1e32603
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8857664"
@@ -27,7 +27,7 @@ ms.locfileid: "8857664"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að búa til prófunartæki sem hægt er að nota fyrir prófanir á gæðapöntunum í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein lýsir því hvernig á að stofna prufubreytur sem hægt er að nota í prófunum gæðapantana í Microsoft Dynamics 365 Supply Chain Management.
 
 Þú notar síðuna **Prófunartæki** til að skilgreina og skoða upplýsingar um tækin sem eru notuð til að framkvæma prófanir á gæðapöntunum. Prófunartæki eru valfrjáls. Hins vegar geta þeir hjálpað gæðastarfsmönnum að vita hvaða tæki eða tól þeir ættu að nota til að framkvæma sérstakt próf.
 

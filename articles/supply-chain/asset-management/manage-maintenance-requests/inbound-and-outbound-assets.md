@@ -1,6 +1,6 @@
 ---
 title: Eignir á innleið og útleið
-description: Þessi grein útskýrir hvernig á að skrá inn- og útleiðareignir í eignastýringu.
+description: Þessi grein útskýrir hvernig á að skrá eignir á inn- og útleið í Eignastýringu.
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: fd7482cfe943347840e9fb070151d66fbe5ef9ca
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016537"
@@ -46,7 +46,7 @@ Uppsetning eignastýringar ákvarðar hvort þú getur unnið eignir á innleið
 
 ## <a name="register-inbound-assets-as-received"></a>Skrá eignir á innleið sem mótteknar
 
-1. Veldu **Eignastýring** \> **Á heimleið/útleið** \> **Eignir á heimleið**.
+1. Veldu **Eignastýring** \> **Á innleið/útleið** \> **Eignir á innleið**.
 2. Veljið eignina eða viðhaldsbeiðnina.
 3. Veldu **Taka á móti eignum**.
 4. Í reitnum **Móttekið** skaltu slá inn dagsetningu og tíma. Veljið síðan **Í lagi**. Gögnin eru tekin af listasíðunni **Eignir á innleið**.
@@ -64,7 +64,7 @@ Uppsetning eignastýringar ákvarðar hvort þú getur unnið eignir á innleið
 
 ## <a name="register-outbound-assets-as-delivered"></a>Skráðu eignir á útleið sem afhentar
 
-1. Veldu **Eignastýring** \> **Á heimleið/útleið** \> **Eignir á útleið**.
+1. Veldu **Eignastýring** \> **Á innleið/útleið** \> **Eignir á útleið**.
 2. Veljið eignina eða viðhaldsbeiðnina.
 3. Veldu **Skila eignum**.
 4. Í reitnum **Afhent** skaltu slá inn dagsetningu og tíma. Veljið síðan **Í lagi**. Gögnin eru tekin af listasíðunni **Eignir á útleið**.

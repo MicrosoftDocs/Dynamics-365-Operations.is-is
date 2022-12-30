@@ -1,6 +1,6 @@
 ---
 title: Samstilling sölupantana beint á milli Sales og Supply Chain Management
-description: Greinin fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
+description: Þessi grein fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 63a9be9bedabe1f15ad8db583151aa7fa480473b
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8854153"
@@ -29,7 +29,7 @@ ms.locfileid: "8854153"
 
 
 
-Greinin fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
+Þessi grein fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Dynamics 365 Sales og Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 

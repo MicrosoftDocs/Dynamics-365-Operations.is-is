@@ -1,6 +1,6 @@
 ---
 title: Listi yfir birgðir á lager
-description: Þessi grein lýsir því hvernig á að nota síðuna á lagerlista til að skoða upplýsingar um birgðahald. Það sýnir nokkrar af þeim leiðum þar sem ýmsir síunar- og flokkunarvalkostir vinna saman og hvernig þessir valkostir geta stundum leitt til óvæntra niðurstaðna þegar þeir eru sameinaðir.
+description: Þessi grein lýsir því hvernig á að nota síðuna Lagerlisti til að skoða upplýsingar um lagerbirgðir. Það sýnir nokkrar af þeim leiðum þar sem ýmsir síunar- og flokkunarvalkostir vinna saman og hvernig þessir valkostir geta stundum leitt til óvæntra niðurstaðna þegar þeir eru sameinaðir.
 author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.12
 ms.openlocfilehash: 5747ae985e1791de8ddd93b678c2449a4a1802da
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8879049"
@@ -24,7 +24,7 @@ ms.locfileid: "8879049"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að nota **Á-hand listi** síðu til að skoða upplýsingar um birgðahald. Það sýnir nokkrar af þeim leiðum þar sem ýmsir síunar- og flokkunarvalkostir vinna saman og hvernig þessir valkostir geta stundum leitt til óvæntra niðurstaðna þegar þeir eru sameinaðir.
+Þessi grein lýsir því hvernig á að nota síðuna **Lagerlisti** til að skoða upplýsingar um lagerbirgðir. Það sýnir nokkrar af þeim leiðum þar sem ýmsir síunar- og flokkunarvalkostir vinna saman og hvernig þessir valkostir geta stundum leitt til óvæntra niðurstaðna þegar þeir eru sameinaðir.
 
 ## <a name="query-your-on-hand-inventory"></a>Fyrirspurn send á lagerbirgðir
 
@@ -35,9 +35,9 @@ Síðan **Lagerlisti** er sjálfkrafa uppfærð þegar færslur eru gerðar í b
 Notið eftirfarandi verkfæri til að finna safn af afurðum sem leitað er að:
 
 - Á aðgerðasvæðinu skal velja [**Víddir**](#dimensions) til að opna svarglugga þar sem hægt er að bæta við eða fjarlægja dálka sem eru sýndir í hnitanetinu **Á lager**.
-- Á [**Síur** svæðinu](#filters-pane) skal færa inn gildi fyrir tiltekna reiti til að sýna aðeins færslur sem samsvara þessum gildum. Athugið að síur sem eru skilgreindar hér eiga við um upprunatöflur sem gæti seinna verið safnað saman, samkvæmt víddunum sem var valið að sýna. Fyrir upplýsingar um hvernig þessi hegðun getur haft áhrif á niðurstöður þínar, sjáðu [dæmi](#examples) síðar í þessari grein.
+- Á [**Síur** svæðinu](#filters-pane) skal færa inn gildi fyrir tiltekna reiti til að sýna aðeins færslur sem samsvara þessum gildum. Athugið að síur sem eru skilgreindar hér eiga við um upprunatöflur sem gæti seinna verið safnað saman, samkvæmt víddunum sem var valið að sýna. Upplýsingar um hvernig þessi hegðun getur haft áhrif á niðurstöðurnar er að finna í [dæmunum](#examples) seinna í þessari grein.
 - Á svæðinu **Síur** skal velja **Nota** til að búa til listann yfir samsvarandi lagerbirgðir í hnitanetinu **Á lager**.
-- Í hnitanetinu **Á lager** skal velja einhvern dálkahaus til að raða eða sía eftir gildum í þeim dálki. QuickFilter efst í hnitanetinu býður upp á fleiri síuvalkosti. Þessar síur eiga við um niðurstöðurnar, ekki upprunatöfluna. Fyrir upplýsingar um hvernig þessi hegðun getur haft áhrif á niðurstöður þínar, sjáðu [dæmi](#examples) síðar í þessari grein.
+- Í hnitanetinu **Á lager** skal velja einhvern dálkahaus til að raða eða sía eftir gildum í þeim dálki. QuickFilter efst í hnitanetinu býður upp á fleiri síuvalkosti. Þessar síur eiga við um niðurstöðurnar, ekki upprunatöfluna. Upplýsingar um hvernig þessi hegðun getur haft áhrif á niðurstöðurnar er að finna í [dæmunum](#examples) seinna í þessari grein.
 
 Fyrir hverja samsvarandi vöru býður hnitanetið **Á lager** upp á eftirfarandi dálka af birgðaupplýsingum.
 
@@ -64,7 +64,7 @@ Notið svæðið **Síur** til að sía lista yfir lagerbirgðir þannig að han
 > [!IMPORTANT]
 > Síðan **Lagerlisti** er sett saman úr ítarlegri töflu yfir lagerbirgðir sem inniheldur allar tiltækar víddir. Listinn á þessari síðu er hins vegar samantekt. Hann gæti þar af leiðandi sameinað línur úr upprunatöflunni með því að leggja saman gildi samkvæmt víddunum sem eru sýndar.
 >
-> Síurnar sem eru skilgreindar á svæðinu **Síur** eiga við um upprunatöfluna, ekki samanlagða listann. Þessi hegðun getur stundum leitt til óvæntrar niðurstöðu. Fyrir upplýsingar um hvernig þessi hegðun getur haft áhrif á niðurstöður þínar, sjáðu [dæmi](#examples) síðar í þessari grein.
+> Síurnar sem eru skilgreindar á svæðinu **Síur** eiga við um upprunatöfluna, ekki samanlagða listann. Þessi hegðun getur stundum leitt til óvæntrar niðurstöðu. Upplýsingar um hvernig þessi hegðun getur haft áhrif á niðurstöðurnar er að finna í [dæmunum](#examples) seinna í þessari grein.
 > 
 > [Síurnar sem gefnar eru upp í hnitanetinu](#grid-filters) *eiga* hinsvegar við samanlagða listann. Þessar síur fela í sér bæði QuickFilter efst í hnitanetinu og síuna fyrir hvern dálkahaus.
 
@@ -75,7 +75,7 @@ Hægt er að breyta síusafninu sem er í boði á svæðinu **Síur** með þv�
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Velja hvaða víddir á að sýna
 
-Víddir segja meira til um hverja vöru í listanum yfir lagerbirgðir og bjóða upp á fleiri leiðir til að raða og sía listann. Víddirnar sem valið er að sýna hefur einnig áhrif á það hvernig línum er safnað saman á síðunni **Lagerlisti**. Þessi uppsöfnun getur í framhaldinu haft áhrif á það hvernig línur úr upprunatöflunum eru sameinaðar í niðurstöðunum sem birtast. Fyrir upplýsingar um hvernig þessi hegðun getur haft áhrif á niðurstöður þínar, sjáðu [dæmi](#examples) síðar í þessari grein.
+Víddir segja meira til um hverja vöru í listanum yfir lagerbirgðir og bjóða upp á fleiri leiðir til að raða og sía listann. Víddirnar sem valið er að sýna hefur einnig áhrif á það hvernig línum er safnað saman á síðunni **Lagerlisti**. Þessi uppsöfnun getur í framhaldinu haft áhrif á það hvernig línur úr upprunatöflunum eru sameinaðar í niðurstöðunum sem birtast. Upplýsingar um hvernig þessi hegðun getur haft áhrif á niðurstöðurnar er að finna í [dæmunum](#examples) seinna í þessari grein.
 
 Til að sérstilla val á birgðavíddum sem eru sýndar skal fylgja þessum skrefum.
 
@@ -89,7 +89,7 @@ Til að sérstilla val á birgðavíddum sem eru sýndar skal fylgja þessum skr
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Sía útkomu listans yfir lagerbirgðir
 
-Hægt er að velja hvaða dálkahaus sem er í hnitanetinu **Á lager** til að raða eða sía eftir gildum í þeim dálki. QuickFilter efst í hnitanetinu býður upp á fleiri síuvalkosti. Þessar síur eiga við um niðurstöðurnar, ekki upprunatöfluna. Fyrir upplýsingar um hvernig þessi hegðun getur haft áhrif á niðurstöður þínar, sjáðu [dæmi](#examples) síðar í þessari grein.
+Hægt er að velja hvaða dálkahaus sem er í hnitanetinu **Á lager** til að raða eða sía eftir gildum í þeim dálki. QuickFilter efst í hnitanetinu býður upp á fleiri síuvalkosti. Þessar síur eiga við um niðurstöðurnar, ekki upprunatöfluna. Upplýsingar um hvernig þessi hegðun getur haft áhrif á niðurstöðurnar er að finna í [dæmunum](#examples) seinna í þessari grein.
 
 > [!NOTE]
 > Ekki er hægt að sía og raða eftir öllum dálkum. Flestir magndálkar innihalda ekki röðunar- og síunarstjórnun því að þeir eru reiknaðir reitir. Dálkurinn **Í pöntun** er undantekning.

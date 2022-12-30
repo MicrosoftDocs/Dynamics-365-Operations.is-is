@@ -1,6 +1,6 @@
 ---
 title: Bóka sem tilbúið úr verkspjaldstæki
-description: Þessi grein lýsir því hvernig á að stilla kerfið þannig að notendur vinnukortatækis geti tilkynnt fullunnar vörur frá framleiðslupöntun til birgða.
+description: Þessi grein lýsir því hvernig skilgreina á kerfið þannig að notendur verkspjaldtækis geti bókað tilbúnar afurðir úr framleiðslupöntun í birgðir.
 author: johanhoffmann
 ms.date: 08/05/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 56d19a966d93202668c34ffaaef561d72b7669ff
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9334626"
@@ -24,7 +24,7 @@ ms.locfileid: "9334626"
 
 [!include [banner](../includes/banner.md)]
 
-Starfsmenn nota síðuna **Tilkynna um framvindu** í verkspjaldstækinu til að tilkynna magn sem hefur verið lokið fyrir framleiðsluverk. Þessi grein lýsir því hvernig á að setja upp ýmsa valkosti sem ákvarða hvernig starfsmenn geta tilkynnt að þeir séu búnir að nota þessa síðu og hvað gerist næst. Á meðal valkosta er:
+Starfsmenn nota síðuna **Tilkynna um framvindu** í verkspjaldstækinu til að tilkynna magn sem hefur verið lokið fyrir framleiðsluverk. Þessi grein lýsir því hvernig setja á upp ýmsa valmöguleika sem ákveða hvernig starfsmenn geta tilkynnt um að eitthvað sé búið með þessari síðu og hvað gerist næst. Á meðal valkosta er:
 
 - Stjórna því hvort og hvernig magn sem tilkynnt er sem búið er bætt við birgðir.
 - Stjórna því hvort og hvernig rununúmer eru mynduð og notuð þegar tilkynnt er um að eitthvað sé búið.
@@ -50,7 +50,7 @@ Frekari upplýsingar um hvernig á að vinna með síðuna **Sjálfgildi framlei
 
 ## <a name="report-batch-controlled-items-as-finished"></a>Skrá runustýrðar vörur sem tilbúnar
 
-Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á vörum með runu. Þessar aðstæður eiga bæði við um vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli (WMS) og um vörur sem eru ekki virkjaðar fyrir WMS.
+Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á vörum með runu. Þessar aðstæður eiga bæði við um vörur sem eru virkjaðar fyrir vöruhúsakerfisferla og vörur sem ekki eru virkjaðar fyrir vöruhúsakerfisferla.
 
 - **Rununúmer úthlutuð handvirkt** - Starfsmenn slá inn sérsniðið rununúmer. Þetta rununúmer gæti komið frá ytri uppruna sem kerfið þekkir ekki.
 - **Fyrirframskilgreind rununúmer** - Starfsmenn velja rununúmer í lista yfir rununúmer sem kerfið myndar sjálfkrafa áður en framleiðslupöntunin er losuð í verkspjaldstækið.
@@ -58,10 +58,10 @@ Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á vörum me
 
 ### <a name="enable-the-feature-on-your-system"></a>Virkja eiginleikann í kerfinu
 
-Til að gera vinnukortatækjunum þínum kleift að samþykkja lotunúmer meðan á skýrslugerð stendur sem lokið verður þú að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum:
+Til að gera verkspjaldstæki kleift að samþykkja rununúmer við tilkynningu um lokið þarf að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum:
 
 - *Enn notandavænni svargluggi fyrir gerð framvinduskýrslu á verkspjaldstækinu.*
-- *Virkjið til að færa inn runu og raðnúmer þegar tilkynnt er um lok í verkspjaldstækinu*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er þessi eiginleiki sjálfkrafa virkur.)
+- *Virkjið til að færa inn runu og raðnúmer þegar tilkynnt er um lok í verkspjaldstækinu*<br>(Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á þessum eiginleika.)
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Skilgreina afurðir sem krefjast tilkynningu um rununúmer
 
@@ -128,7 +128,7 @@ Ef úthluta á rununúmerum sjálfkrafa, án innsláttar starfsmanns, skal fylgj
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Skrá runustýrðar vörur sem tilbúnar
 
-Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á runustýrðum vörum. Þessar aðstæður eiga bæði við um vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli (WMS) og um vörur sem eru ekki virkjaðar fyrir WMS.
+Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á runustýrðum vörum. Þessar aðstæður eiga bæði við um vörur sem eru virkjaðar fyrir vöruhúsakerfisferla og vörur sem ekki eru virkjaðar fyrir vöruhúsakerfisferla.
 
 - **Raðnúmerum úthlutað handvirkt** - Starfsmenn færa inn sérsniðið raðnúmer. Þetta raðnúmer gæti komið frá ytri uppruna sem kerfið þekkir ekki.
 - **Fyrirframskilgreind raðnúmer** - Starfsmenn velja raðnúmer í lista yfir raðnúmer sem kerfið myndar sjálfkrafa áður en framleiðslupöntunin er losuð í verkspjaldstækið.
@@ -136,10 +136,10 @@ Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á runustýr
 
 ### <a name="enable-the-feature-on-your-system"></a>Virkja eiginleikann í kerfinu
 
-Til að gera vinnukortatækjunum þínum kleift að samþykkja raðnúmer meðan á tilkynningu stendur sem lokið verður þú að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum:
+Til að gera verkspjaldstæki kleift að samþykkja raðnúmer við tilkynningu um að eitthvað sé búið þarf að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum:
 
 - *Enn notandavænni svargluggi fyrir gerð framvinduskýrslu á verkspjaldstækinu.*
-- *Virkjið til að færa inn runu og raðnúmer þegar tilkynnt er um lok í verkspjaldstækinu*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er þessi eiginleiki sjálfkrafa virkur.)
+- *Virkjið til að færa inn runu og raðnúmer þegar tilkynnt er um lok í verkspjaldstækinu*<br>(Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á þessum eiginleika.)
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Skilgreina afurðir sem krefjast tilkynningu um raðnúmer
 
@@ -211,15 +211,15 @@ Ef úthluta á raðnúmeri sjálfkrafa, án innsláttar starfsmanns, skal fylgja
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Tilkynna sem lokið til númeraplötu
 
-Vöruhússtjórnunarferli (WMS) geta notað númeraplötuvíddina til að rekja birgðir á vöruhúsastöðum sem hafa verið settar upp í þessum tilgangi. Í þessu tilvikum er krafist númer númeraplötu starfskraftur tilkynnir magn sem lokið.
+Vöruhúsakerfisferli (WMS) geta notað númeraplötuvídd til að rekja birgðir í vöruhúsastaðsetningum sem hafa verið settar upp í þessum tilgangi. Í þessu tilvikum er krafist númer númeraplötu starfskraftur tilkynnir magn sem lokið.
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>Virkja tilkynningu númeraplötu og prentun merkis
 
 Til að nota eiginleikana sem lýst er í þessum hluta þarf að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum (í þessari röð):
 
-1. *Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið*<br>(Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management útgáfu 10.0.25 er þessi eiginleiki nauðsynlegur.)
-1. *Kveiktu á sjálfvirkri myndun á númeraplötunúmeri þegar tilkynnt er um lok í verkspjaldstækinu.*<br>(Frá og með Supply Chain Management útgáfu 10.0.25 er þessi eiginleiki nauðsynlegur.)
-1. *Prenta merki úr verkspjaldstæki*<br>(Frá og með Supply Chain Management útgáfu 10.0.25 er þessi eiginleiki nauðsynlegur.)
+1. *Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið*<br>(Sem hluti af Supply Chain Management, útgáfa 10.0.21, er sjálfgefið kveikt á þessum eiginleika. Sem hluti af Supply Chain Management, útgáfa 10.0.25, er þessi eiginleiki áskilinn.)
+1. *Kveiktu á sjálfvirkri myndun á númeraplötunúmeri þegar tilkynnt er um lok í verkspjaldstækinu.*<br>(Frá og með Supply Chain Management, útgáfa 10.0.25, er þessi eiginleiki áskilinn.)
+1. *Prenta merki úr verkspjaldstæki*<br>(Frá og með Supply Chain Management, útgáfa 10.0.25, er þessi eiginleiki áskilinn.)
 
 ### <a name="set-up-reporting-as-finished-to-a-license-plate"></a>Setja upp tilkynna sem lokið til númeraplötu
 

@@ -1,6 +1,6 @@
 ---
 title: Skrá söluþóknun
-description: Þessi grein útskýrir hvernig söluþóknun er reiknuð og skráð.
+description: Þessi grein útskýrir hvernig sölulaun eru reiknuð og skráð.
 author: Henrikan
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b15ca78da14068fd2f3275e7aff04852625db7ee
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8862512"
@@ -24,7 +24,7 @@ ms.locfileid: "8862512"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig söluþóknun er reiknuð og skráð. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Áður en þessari handbók er ræst þarf að keyra leiðbeiningar sem kallast "Setja upp reglur um söluþóknun" til að tryggja að allar nauðsynlegar uppsetningar á útreikningi sölulauna séu til staðar.
+Þessi grein útskýrir hvernig sölulaun eru reiknuð og skráð. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Áður en þessari handbók er ræst þarf að keyra leiðbeiningar sem kallast "Setja upp reglur um söluþóknun" til að tryggja að allar nauðsynlegar uppsetningar á útreikningi sölulauna séu til staðar.
 
 Athugið þær tölur viðskiptavina og vara sem voru valdar fyrir sölulaunaferlið og notið þær þegar beðið er um að stofna sölupöntun í þessari handbók.
 

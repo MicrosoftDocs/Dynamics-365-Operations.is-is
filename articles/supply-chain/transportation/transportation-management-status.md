@@ -1,6 +1,6 @@
 ---
 title: Flutningsstjórnunarstöður
-description: Þessi grein útskýrir hvernig á að búa til flutningsstöðu og kortleggja þá stöðu við flutningsstöðu.
+description: Þessi grein útskýrir hvernig á að búa til flutningsstöðu og varpa þeirri stöðu á stöðu flutningsaðila.
 author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 9b20570a87a9f8969ca6dcf898176fd40f88eeca
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8897372"

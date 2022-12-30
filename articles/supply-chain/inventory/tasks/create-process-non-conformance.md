@@ -1,6 +1,6 @@
 ---
 title: Stofna og meðhöndla ósamkvæmi
-description: Þessi grein lýsir því hvernig á að framkvæma ósamræmisstjórnun byggt á fyrirliggjandi gæðapöntun.
+description: Þessi grein lýsir því hvernig á að nota framkvæma stjórnun ósamkvæmis, samkvæmt fyrirliggjandi gæðapöntun.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dd8a10e88ab4d1be24a11739dddd7619b3fa6bbc
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8901967"
@@ -24,7 +24,7 @@ ms.locfileid: "8901967"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að framkvæma ósamræmisstjórnun byggt á fyrirliggjandi gæðapöntun. Yfirleitt er stjórnun ósamkvæmi framkvæmd af eftirlitsaðila. Þess er krafist að hægt sé að panta gæðapöntun. (Nánari upplýsingar um hvernig á að stofna gæðapöntun eru í [Skoða gæði vara](inspect-quality-goods.md).)
+Þessi grein lýsir því hvernig á að nota framkvæma stjórnun ósamkvæmis, samkvæmt fyrirliggjandi gæðapöntun. Yfirleitt er stjórnun ósamkvæmi framkvæmd af eftirlitsaðila. Þess er krafist að hægt sé að panta gæðapöntun. (Nánari upplýsingar um hvernig á að stofna gæðapöntun eru í [Skoða gæði vara](inspect-quality-goods.md).)
 
 Áður en notandi getur unnið úr samþykki ósamkvæmis verður að úthluta honum starfsmanni í reitnum **Einstaklingur** á síðunni **Notendur**. Auk þess, áður en notandinn getur notað athugasemdir skjalsins, verður að stilla valkostinn **Virkja skjalastjórnun** á *Já* í valkostum notanda.
 

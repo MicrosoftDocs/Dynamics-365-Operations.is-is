@@ -1,6 +1,6 @@
 ---
 title: Niðurtímaaðgerðir vegna viðhalds
-description: Þessi grein útskýrir hvernig viðhaldstími er notaður til að fá yfirsýn yfir getu sem þarf til að framkvæma viðhaldsstörf á tilteknum eignum á tilteknu tímabili.
+description: Þessi grein útskýrir hvernig niðurtími viðhalds er notaður til að fá yfirlit yfir afkastagetu sem er nauðsynleg til að framkvæma viðhaldsverk á tilteknum eignum á tilteknu tímabili.
 author: johanhoffmann
 ms.date: 08/27/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 42e8ba4e19333cb25464203a2583175ef082ad98
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016479"
@@ -38,14 +38,14 @@ Niðurtími vegna viðhalds er notaður til að fá yfirsýn yfir álag sem þar
 
 ## <a name="maintenance-downtime-activities"></a>Niðurtímaaðgerðir vegna viðhalds
 
-Smellur **Eignastýring** > **Viðhaldsstarfsemi í miðbæ** > **Öll starfsemi í niðri í viðhaldi** til að opna lista yfir alla starfsemi í niðri í viðhaldi og sjá hluta af þeim upplýsingum sem tengjast starfseminni. Smelltu á tengil í dálkinum **Aðgerðir niðurtíma vegna viðhalds** til að opna smáatriðið. Myndin hér að neðan sýnir dæmi um listann **Niðurtímaaðgerðir vegna viðhalds**.
+Smelltu á **Eignastýring** > **Niðurtímaaðgerðir vegna viðhalds** > **Allar niðurtímaaðgerðir vegna viðhalds** til að opna lista yfir allar niðurtímaaðgerðir vegna viðhalds og sjá upplýsingar sem tengjast aðgerðunum. Smelltu á tengil í dálkinum **Aðgerðir niðurtíma vegna viðhalds** til að opna smáatriðið. Myndin hér að neðan sýnir dæmi um listann **Niðurtímaaðgerðir vegna viðhalds**.
 
 ![Mynd 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Stofna aðgerð niðurtíma vegna viðhalds
 
-1. Smellur **Eignastýring** > **Viðhaldsstarfsemi í miðbæ** > **Öll starfsemi í niðri í viðhaldi** eða **Virk viðhaldsstarfsemi í miðbæ**.
+1. Smelltu á **Eignastýring** > **Niðurtímaaðgerðir vegna viðhalds** > **Allar niðurtímaaðgerðir vegna viðhalds** eða **Virkar niðurtímaaðgerðir vegna viðhalds**.
 
 2. Smellt er á **Nýtt**.
 

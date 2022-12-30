@@ -1,6 +1,6 @@
 ---
 title: Heildarkostnaður í samanburði við flutningsstjórnun
-description: 'Microsoft Dynamics 365 Supply Chain Management býður upp á tvær mismunandi einingar fyrir vinnu með flutningi: Flutningsstjórnun (TMS) og Heildarkostnað. Þessi grein tekur saman virknina sem einingarnar tvær eiga sameiginlega og dregur fram muninn á þeim.'
+description: 'Microsoft Dynamics 365 Supply Chain Management býður upp á tvær mismunandi einingar fyrir vinnu með flutningi: Flutningsstjórnun (TMS) og Heildarkostnað. Þessi grein tekur saman þá virkni sem einingarnar tvær eiga sameiginlegt og helsta muninn á þeim.'
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 40489ff8d8683d19a5f726546cc4c43cc3e7a05d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8905922"
@@ -23,9 +23,9 @@ ms.locfileid: "8905922"
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management býður upp á tvær mismunandi einingar fyrir vinnu með flutningi: **Flutningsstjórnun** (TMS) og **Heildarkostnað**. Þessi grein tekur saman virknina sem einingarnar tvær eiga sameiginlega og dregur fram muninn á þeim. Hægt er að nota þessar upplýsingar til að ákveða hvor einingin hentar þínum viðskiptaháttum. Þú gætir fundið fyrir því að einhverjir viðskiptahættir virka betur með flutningsstjórnun á meðan aðrir virka best með heildarkostnaði. Því næst er hægt að nota eina einingu eða að sameina einingarnar tværm, allt eftir þörfum fyrirtækisins.
+Microsoft Dynamics 365 Supply Chain Management býður upp á tvær mismunandi einingar fyrir vinnu með flutningi: **Flutningsstjórnun** (TMS) og **Heildarkostnað**. Þessi grein tekur saman þá virkni sem einingarnar tvær eiga sameiginlegt og helsta muninn á þeim. Hægt er að nota þessar upplýsingar til að ákveða hvor einingin hentar þínum viðskiptaháttum. Þú gætir fundið fyrir því að einhverjir viðskiptahættir virka betur með flutningsstjórnun á meðan aðrir virka best með heildarkostnaði. Því næst er hægt að nota eina einingu eða að sameina einingarnar tværm, allt eftir þörfum fyrirtækisins.
 
-Þessi grein er ekki yfirgripsmikil úttekt á öllum eiginleikum hvorrar einingarinnar. Þess í stað varpar það ljósi á tiltæka virkni sem tengist flutningi á vörum frá lánardrottni til vöruhúss fyrirtækis þíns þar sem hægt er að nota þær.
+Þessi grein er ekki ítarleg yfirferð yfir alla eiginleika í hvorri einingu. Þess í stað varpar það ljósi á tiltæka virkni sem tengist flutningi á vörum frá lánardrottni til vöruhúss fyrirtækis þíns þar sem hægt er að nota þær.
 
 ## <a name="terminology-reference-data-and-reporting-differences"></a>Hugtök, tilvísunargögn og skýrslumismunur
 

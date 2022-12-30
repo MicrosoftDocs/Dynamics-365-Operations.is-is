@@ -1,6 +1,6 @@
 ---
 title: Hólfaskipting vöruhúss
-description: Þessi grein veitir upplýsingar um rifa í vöruhúsum. Hólfaskipting vöruhúss gerir þér kleift að sameina eftirspurn eftir vöru og mælieiningu frá pöntunum með stöðuna Pöntuð, Frátekin eða Sleppt. Slíkt aðstoðar stjórnendur vöruhúsa að skipuleggja betur tiltektarstaðsetningar áður en þeir sleppa pöntunum til vöruhússins og búa til tiltektarvinnu.
+description: Þessi grein veitir upplýsingar um hólfaskiptingu vöruhúss. Hólfaskipting vöruhúss gerir þér kleift að sameina eftirspurn eftir vöru og mælieiningu frá pöntunum með stöðuna Pöntuð, Frátekin eða Sleppt. Slíkt aðstoðar stjórnendur vöruhúsa að skipuleggja betur tiltektarstaðsetningar áður en þeir sleppa pöntunum til vöruhússins og búa til tiltektarvinnu.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: bb86800f1491e8cb9ad629ed6cc1c76e9393e945
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9336036"
@@ -34,7 +34,7 @@ Eiginleikinn *Endurbætur á úthlutun hólfaskiptingar í vöruhúsi* bætir vi
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>Kveikja á eiginleikum fyrir hólfaskiptingu vöruhúss
 
-Áður en þú getur notað þessa eiginleika verður að kveikja á þeim fyrir kerfið þitt. Stjórnendur geta notað stillingar [eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikanna og kveikja á þeim ef þörf krefur. Kveikja skal á eftirfarandi eiginleikum eftir því sem þörf krefur:
+Áður en hægt er að nota þessa eiginleika verður að vera kveikt á þeim í kerfinu. Stjórnendur geta notað stillingar [eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikanna og kveikja á þeim ef þörf krefur. Kveikja skal á eftirfarandi eiginleikum eftir því sem þörf krefur:
 
 - Hólfaröðunareiginleiki vöruhúss
 - Vöruhúsahólf fyrir flutningspantanir
@@ -156,7 +156,7 @@ Fylgdu þessum skrefum fyrir hvert pöntunarsniðmát sem þú býrð til að b�
 
     - **Mælieiningarlag:** _EaBoxPl_
 
-        Þetta svæði skilgreinir mælieiningar eftirspurnar sem gilda fyrir línuna. (Nánari upplýsingar er að finna í [Settu upp mælieiningarþrep fyrir rifa](#unit-tiers) kafla fyrr í þessari grein.)
+        Þetta svæði skilgreinir mælieiningar eftirspurnar sem gilda fyrir línuna. (Frekari upplýsingar er að finna í hlutanum [Uppsetning á mælieiningarlögum fyrir hólfaskiptingu](#unit-tiers) fyrr í þessari grein).
 
     - **Skilyrði úthlutunar hólfa:** _Taka mið af magni_
 

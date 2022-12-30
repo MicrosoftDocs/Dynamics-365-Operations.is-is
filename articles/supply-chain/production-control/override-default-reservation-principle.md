@@ -1,6 +1,6 @@
 ---
 title: Hnekkja sjálfgefinni frátekningarreglu fyrir efni í framleiðslu
-description: Þessi grein lýsir því hvernig á að stilla sjálfgefna frátekningarreglu fyrir hvern vörulíkanaflokk, þannig að hægt sé að beita mismunandi frátekningarreglum sjálfkrafa fyrir hverja vöru sem er hluti af framleiðsluskýrslu (BOM) eða runupöntunarformúlu.
+description: Þessi grein lýsir því hvernig á að setja upp sjálfgefna frátekningarreglu fyrir hvern vörulíkanaflokk, svo hægt sé að nota mismunandi frátekningarreglur sjálfkrafa fyrir hverja vöru sem er hluti af formúlu framleiðsluuppskriftar eða runupöntunar.
 author: johanhoffmann
 ms.date: 08/05/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 87f10efd7eebdc034af3f7c9081d2674a6190b38
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9334596"
@@ -30,9 +30,9 @@ Eiginleikinn *Hnekkja sjálfgefinni frátekningu framleiðslu* gerir kleift að 
 
 Til dæmis, ef um er að ræða hráefni eða innihaldsefni sem krefjast tiltektar, krefjast uppskriftar- eða formúlulínur sem stofnaðar eru fyrir þessar afurðir efnislega frátekningu vegna þess að efnisleg frátekning er skilyrði fyrir myndun vöruhúsavinnu. Yfirleitt, ef frátekningin á að gerast sjálfkrafa, skal velja eina af eftirfarandi frátekningarreglum: *mat*, *áætlanagerð*, *losun* eða *upphaf*. Hins vegar, ef til staðar er efni eða innihald sem krefst ekki tiltektar vegna þess að það er notað beint frá staðsetningunni, er yfirleitt valin frátekningarreglan *handvirkt* sem gerir engar efnislegar frátekningar eða býr til tiltekt.
 
-## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum Hneka sjálfgefna framleiðslupöntun
+## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Kveikja eða slökkva á eiginleikanum „Hnekkja sjálfgefinni framleiðslufrátekningu“
 
-Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.25 er sjálfgefið kveikt á eiginleikanum. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Hneka sjálfgefna framleiðslupöntun* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika þarf að kveikja á honum fyrir kerfið þitt. Sem hluti af Supply Chain Management, útgáfa 10.0.25, er sjálfgefið kveikt á þessum eiginleika. (Frá og með útgáfu 10.0.29 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á honum.) Ef þú ert að keyra útgáfu sem er eldri en 10.0.29, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Hnekkja sjálfgefinni framleiðslufrátekningu* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Úthluta reglu framleiðslufrátekningar á vörulíkanaflokk
 

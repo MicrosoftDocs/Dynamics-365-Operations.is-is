@@ -1,6 +1,6 @@
 ---
 title: Reikna álag
-description: Þessi grein útskýrir hvernig á að reikna út afkastagetu í eignastýringu.
+description: Í þessari grein er útskýrt hvernig hægt er að reikna út álag í Eignastýringu.
 author: johanhoffmann
 ms.date: 08/16/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 95d1e38db8e4658a57f36139836264b87d525e61
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016131"
@@ -35,7 +35,7 @@ ms.locfileid: "9016131"
 
 Þetta er gagnlegt ef þú vilt fá yfirsýn yfir áætlað álag yfir ákveðið tímabil. Hægt er að gera útreikning á álagi á allar eignir eða valdar eignir. Þú getur líka gert útreikning á aðgerðum niðurtíma vegna viðhalds eða verkbeiðnahópum.
 
-1. Smellur **Eignastýring** > **Fyrirspurnir** > **Afkastagetu álag**, eða **Eignastýring** > **Vinnupöntunarlaugar** > **Allar vinnupöntunarlaugar** / **Virkir verkbeiðnapottar** > veldu verkbeiðnasafn á listanum >**Afkastagetu álag** hnappinn, eða **Eignastýring** > **Viðhaldsstarfsemi í miðbæ** > **Öll starfsemi í niðri í viðhaldi** / **Virk viðhaldsstarfsemi í miðbæ** > veldu viðhaldsvirkni á listanum >**Afkastagetu álag** takki.
+1. Smelltu á **Eignastýring** > **Fyrirspurnir** > **Álag** eða **Eignastýring** > **Verkbeiðnihópar** > **Allir verkbeiðnihópar** / **Virkir verkbeiðnihópar** > veldu verkbeiðnihóp í listanum > hnappurinn **Álag** eða **Eignastýring** > **Niðurtímaaðgerðir vegna viðhalds** > **Allar niðurtímaaðgerðir vegna viðhalds** / **Virkar niðurtímaaðgerðir vegna viðhalds** > velja niðurtímaaðgerð vegna viðhalds í listanum > hnappurinn **Álag**.
 
 2. Í glugganum **Reikna álag** velurðu tímabil fyrir útreikninginn í reitunum **Upphafsdagsetning/-tími** og **Lokadagsetning/-tími**.
 

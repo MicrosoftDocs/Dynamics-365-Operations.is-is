@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6891fc4472e714133a7d0cdf77f2908becc0547c
 ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/03/2022
 ms.locfileid: "8672431"
@@ -25,11 +25,11 @@ ms.locfileid: "8672431"
 
 Uppsetning á kostnaðarskjali felur í sér tvö viðföng. Fyrsta viðfangið er að skilgreina sniðið til að birta upplýsingar um kostnað af seldum vörum um framleidda vöru eða framleiðslupöntun. Sniðna skjámyndin nefnist kostnaðarskjal. Annað viðfangið er að skilgreina grunn útreiknings óbeins kostnaðar. Uppsetning kostnaðarskjals byggir á aðgerðum kostnaðarflokka til að birta upplýsingar og reikniformúlur óbeins kostnaðar. Tveimur viðföngum uppsetningar kostnaðarskjals er lýst í þessari grein. 
 
-Eftirfarandi tafla sýnir þau öryggishlutverk sem eru utan kassa sem hafa aðgang að kostnaðarblöðum, þar á meðal aðgangsstigið sem veitt er hverju hlutverki með sjálfgefnum stillingum.
+Eftirfarandi tafla sýnir tilbúin öryggishlutverk sem geta opnað kostnaðarskjöl, þ.m.t. aðgangsstigið sem gefið er hverju hlutverki samkvæmt sjálfgefnum stillingum.
 
 | Hlutverk | Aðgangur
 |---|---|
-| Bókhaldsstjóri | Virk útgáfa |
+| Bókhaldsstjóri | Breyta |
 | Starfsmaður birgðabókhaldara | Skoða |
 | Bókhaldari birgða | Skoða |
 

@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bca0e1786adb08a7cd4795b49c974ab95183b1dd
 ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 03/23/2022
 ms.locfileid: "8469323"
@@ -114,6 +114,6 @@ Stofnaðu þekjureglur vöru með því að gera eftirfarandi:
 1. Veldu **Vista**.
 
 > [!NOTE]
-> Fyrir framleidda hluti, **Framleiðslutími** er notað ef engin leið er fyrir hlutinn. Ef virk leið hefur verið tengd vörunni mun aðalskipulag tímasetja pöntunina og reikna út dagsetningar hennar í samræmi við leiðartíma og getu tilfönganna (ef við á).
+> Fyrir framleidda hluti er **Afhendingartími framleiðslu** notaður ef engin leið er fyrir vöruna. Ef virk leið hefur verið tengd við hlutinn mun aðalskipulagið áætla pöntunina og reikna út dagsetningar hennar í samræmi við leiðartíma og getu tilfanganna (ef við á).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

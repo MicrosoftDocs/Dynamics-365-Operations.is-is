@@ -1,6 +1,6 @@
 ---
 title: Setja á vegg - setja í verslun
-description: Þessi grein veitir upplýsingar um Set to wall - set to store virknina. Þessi virkni gerir þér kleift að takast á við atburðarásir þar sem þú verður að sameina vöru á biðsvæði forpökkunar, byggt á stillanlegu skilyrði. Hún hjálpar til við að draga úr tiltektartímanum vegna þess að hún gerir kleift að tína á eina marknúmeraplötu og getur notað fleiri frágangsstaðsetningar en klasatiltektir.
+description: Þessi grein veitir upplýsingar um aðgerðina Setja á vegg - setja í verslun. Þessi virkni gerir þér kleift að takast á við atburðarásir þar sem þú verður að sameina vöru á biðsvæði forpökkunar, byggt á stillanlegu skilyrði. Hún hjálpar til við að draga úr tiltektartímanum vegna þess að hún gerir kleift að tína á eina marknúmeraplötu og getur notað fleiri frágangsstaðsetningar en klasatiltektir.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: af6dcb6d822ab14b0b4b881ca32626ea6eae4c28
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9334507"
@@ -32,7 +32,7 @@ Verkflæðið fyrir þessa virkni beinir valdri vöru á röðunarstaðsetningu 
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Kveikja á eiginleika flokkunar á útleið
 
-Áður en þú getur notað *Sett á vegg - sett í geymslu* virkni, the *Flokkun á útleið* kveikt verður á eiginleikanum fyrir kerfið þitt. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Áður en hægt er að nota virknina *Setja á vegg - setja í verslun*, verður að vera kveikt á eiginleikanum *Flokkun á útleið* í kerfinu. Stjórnendur geta notað vinnusvæði [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Flokkun á útleið*

@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016950"
@@ -34,14 +34,14 @@ Liður kröfur um þjónustu pantanir eru unnin í gegnum verkefni. Til að stof
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Stofna vöruþörf fyrir þjónustupöntun
 
-1. Fara til **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1. Velji **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 1. Valin þjónustupöntunin sem útbúa á vöruþörf fyrir.
 1. Á **Aðgerðasvæðinu**, í flipanum **Senda**, skal velja **Vöruþörf**.
 1. Í **Vörukröfur** skjámynd, sláðu inn upplýsingar um vöruna sem krafist er. Fyrir frekari upplýsingar um tiltekna reiti, sjá [Vörukröfur (skjámynd)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Stofna vöruþörf fyrir þjónustusamning
 
-1. Fara til **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
+1. Veljið **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
 1. Opnaðu þjónustusamninginn sem stofna á vörukröfu fyrir.
 1. Í flýtiflipanum **Línur** skal velja **Bæta við** til að búa til nýja línu.
 1. Í **Færslugerð** reitnum skaltu velja **Vara**.

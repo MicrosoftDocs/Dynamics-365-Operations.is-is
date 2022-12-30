@@ -1,6 +1,6 @@
 ---
 title: Úthýsing
-description: Þessi grein mun hjálpa þér að byggja upp leiðsögn um undirverktaka í framleiðslu í Dynamics 365 Supply Chain Management.
+description: Þessi grein aðstoðar þig við að búa til kynningu á úthýsingu framleiðslu í Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 09/28/2018
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: ef8f30e934ece4a148c6f5259d74f8f67799999d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8854178"
@@ -23,11 +23,11 @@ ms.locfileid: "8854178"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein mun hjálpa þér að byggja upp leiðsögn um undirverktaka í framleiðslu í Microsoft Dynamics 365 Supply Chain Management. Fyrri hluti þessarar greinar lýsir uppsetningu gagnanna. Annar hlutinn fer með þig í gegnum skref kynningarinnar.
+Þessi grein aðstoðar þig við að búa til kynningu á úthýsingu framleiðslu í Microsoft Dynamics 365 Supply Chain Management. Fyrsti hlutinn í þessari grein lýsir uppsetningu á gögnum. Annar hlutinn fer með þig í gegnum skref kynningarinnar.
 
 ## <a name="target-audience"></a>Markhópur
 
-Í þessari grein munt þú læra hvernig á að setja upp undirverktaka í framleiðslu. Þú notar fyrirliggjandi gögn í HQUS-lögaðilanum til að búa til grunnuppsetningu á aðgerðaflæði úthýsingar. Sýnigögnin í HQUS-lögaðilanum innihalda færibreytur uppsetningar sem hafa verið forstilltar til að styðja við skrefin í kynningunni. Jafnvel þótt kynningin fjallar um helstu vandamál og áskoranir fyrir mismunandi hlutverk, getur kerfisstjóri lokið henni.
+Í þessari grein muntu fræðast um uppsetningu úthýsingar í framleiðslu. Þú notar fyrirliggjandi gögn í HQUS-lögaðilanum til að búa til grunnuppsetningu á aðgerðaflæði úthýsingar. Sýnigögnin í HQUS-lögaðilanum innihalda færibreytur uppsetningar sem hafa verið forstilltar til að styðja við skrefin í kynningunni. Jafnvel þótt kynningin fjallar um helstu vandamál og áskoranir fyrir mismunandi hlutverk, getur kerfisstjóri lokið henni.
 
 ## <a name="demo-scenario"></a>Sýnikennsla
 

@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: da7aef93cf994c40410598ab9c4ff2b21f4750e7
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9065929"
@@ -52,11 +52,11 @@ Eftirfarandi tafla sýnir skilyrði sem verða að vera til staðar áður en by
 <tbody>
 <tr class="odd">
 <td>Vara</td>
-<td>Atriðið verður að vera virkt fyrir vöruhúsastjórnunarferli (WMS).</td>
+<td>Þetta atriði verður að vera virkt fyrir vöruhúsastjórnunarferli (WMS).</td>
 </tr>
 <tr class="even">
 <td>Vöruhús</td>
-<td>Vöruhúsið verður að vera virkt fyrir vöruhússtjórnunarferli (WMS). Til að virkja vöruhúsið fyrir WMS, á<strong>Vöruhús</strong> síðu, veldu vöruhúsið og veldu síðan<strong>Notaðu vöruhússtjórnunarferli</strong> valmöguleika. Þar að auki, ef óskað er að virkja starfsmenn til tilfærslu bretta við reglulega talningu, á flýtiflipanum <strong>Vöruhúsakerfi</strong>, veljið valkostinn <strong>Leyfa tilfærslu bretta við reglulega talningu</strong>.</td>
+<td>Vöruhús verður að vera virkur fyrir vöruhúsakerfisferli (WMS). Til að virkja vöruhús fyrir vöruhúsakerfi, skal velja vöruhús í skjámyndinni <strong>Vöruhús</strong> og velja síðan valkostinn <strong>Nota vöruhúsakerfisferli</strong>. Þar að auki, ef óskað er að virkja starfsmenn til tilfærslu bretta við reglulega talningu, á flýtiflipanum <strong>Vöruhúsakerfi</strong>, veljið valkostinn <strong>Leyfa tilfærslu bretta við reglulega talningu</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Vinnuhópar</td>

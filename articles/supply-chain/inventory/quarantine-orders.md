@@ -1,6 +1,6 @@
 ---
 title: Biðgeymslupantanir
-description: Þessi grein lýsir því hvernig á að nota sóttkví pantanir til að loka á birgðum.
+description: Í þessari grein er lýst hvernig eigi að nota biðgeymslupantanir til að loka fyrir birgðaskráningu.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7e18735117d1f671e0efc0947248bbe266fa0ca6
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9065600"
@@ -26,12 +26,12 @@ ms.locfileid: "9065600"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að nota sóttkví pantanir til að loka á birgðum.
+Í þessari grein er lýst hvernig eigi að nota biðgeymslupantanir til að loka fyrir birgðaskráningu.
 
 Með biðgeymslupöntun geturðu lokað á birgðir. Til dæmis gætir þú viljað láta vörur í biðgeymslu vegna gæðaeftirlits. Birgðir sem hafa verið settar í biðgeymslu eru fluttar í biðgeymsluvöruhús.
 
 > [!NOTE]
-> Ef þú ert að nota vöruhúsastjórnunarferli (í Vöruhúsastjórnunareiningunni), er sóttkvípöntunarvinnsla aðeins notuð fyrir skilasölupantanir.
+> Ef verið er að nota vöruhúsakerfisferli (í einingu vöruhúsakerfis) er vinnsla pantana í biðgeymslu einungis notuð fyrir skil á sölupöntunum.
 
 ## <a name="quarantine-on-hand-inventory-items"></a>Vörur biðgeymslubirgða á lager
 

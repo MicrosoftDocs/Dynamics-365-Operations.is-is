@@ -1,6 +1,6 @@
 ---
 title: Uppfærðu vörugeymslu frá Microsoft Dynamics AX 2012 við Supply Chain Management
-description: Þessi grein veitir yfirlit yfir flutningsvalkosti vöru- og vöruhúsastjórnunar.
+description: Í þessari grein er að finna yfirlit yfir vörur og valkosti flutnings vöruhúsastjórnunar.
 author: perlynne
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7a88c5a615ec860890578873eaee736fabbeaf08
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9065811"
@@ -27,7 +27,7 @@ ms.locfileid: "9065811"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir ferlið við að uppfæra frá Microsoft Dynamics AX 2012 R3, keyrir WMSII eininguna, til Supply Chain Management.
+Þessi grein veitir yfirlit yfir uppfærsluferlið frá Microsoft Dynamics AX 2012 R3, sem keyrir WMSII-eininguna, í Supply Chain Management.
 
 Supply Chain Management styður ekki lengur eldri einingu **WMSII** frá Microsoft Dynamics AX 2012. Í staðinn er hægt að nota eininguna **Vöruhúsakerfi**. Í WMSII-einingunni var hægt að velja birgðavíddir staðsetningar og brettakennis fyrir fjárhagslegar birgðir, en þó er ekki hægt að nota birgðavíddir brettakennis fyrir fjárhagslegar birgðir í Supply Chain Management.
 
@@ -37,11 +37,11 @@ Við uppfærslu eru allar vörur sem tengjast geymsluvíddarflokki sem notar bir
 Eftir uppfærsluna geturðu notað nokkra valkosti í skjámyndinni **Breyta geymsluvíddarflokki fyrir vörur** til að opna vörur sem voru útlokaðar meðan á uppfærslu stóoð og síðan vinna úr færslum fyrir þessar vörur.
 
 ### <a name="enabling-items-in-supply-chain-management"></a>Virkja hluti í Supply Chain Management 
-Þessi breyting er nauðsynleg vegna þess að í Supply Chain Management er vörurakning hluti af vöruhúsastjórnunarferlum (WMS). Þessi ferli fyrir öll vöruhús og staðsetningar þeirra verður að tengja við forstillingu staðsetningu. Ef þú vilt nota WMS verður eftirfarandi að vera stillt:
--   Núverandi vöruhús verða að vera virkt til að nota WMS 
--   Fyrirliggjandi vörur verða að vera tengdar geymsluvíddarhópi sem notar WMS 
+Þessi breyting er nauðsynleg vegna þess að í Supply Chain Management er vörurakning hluti af vöruhúsakerfisferlum. Þessi ferli fyrir öll vöruhús og staðsetningar þeirra verður að tengja við forstillingu staðsetningu. Ef þú vilt nota vöruhúsakerfi verður eftirfarandi að vera skilgreint:
+-   Gera þarf núverandi vöruhús virkt til að nota WMS 
+-   Fyrirliggjandi losaðar vörur verða að vera tengdar við geymsluvíddarflokk sem notar WMS 
 
-Ef uppruni geymsluvíddarflokka notar birgðavíddir brettakennis verður staðsetning núverandi lagerbirgða sem notaði birgðavíddir brettakennis að vera tengt við staðsetningarforstillingu þar sem færibreytan **Nota rakningu númeraplötu** er valin. Ef ekki ætti að virkja núverandi vöruhús til að nota WMS, geturðu breytt geymsluvíddarhópum fyrirliggjandi lagerbirgða í hópa sem meðhöndla aðeins birgðavíddir Staðar, Vöruhúss og Staðsetningar. 
+Ef uppruni geymsluvíddarflokka notar birgðavíddir brettakennis verður staðsetning núverandi lagerbirgða sem notaði birgðavíddir brettakennis að vera tengt við staðsetningarforstillingu þar sem færibreytan **Nota rakningu númeraplötu** er valin. Ef ekki á að virkja núverandi vöruhús til að nota WMS er hægt að breyta geymsluvídd núverandi birgða í hópa sem sjá aðeins um birgðavídd svæðið, vöruhúsið og staðsetningar. 
 
 > [!NOTE] 
 >  Þú getur breytt geymslumvíddarflokknum fyrir vörur, jafnvel þó að opnar birgðafærslur séu til staðar.
@@ -56,12 +56,12 @@ Til að nota sem hluta af vöruhúsakerfisferli verður vara að vera tengd við
 Til að opna vörurnar sem voru lokaðar á meðan á uppfærslu stendur, verður að velja nýtt geymslu víddarflokk fyrir vörurnar. Athugið að hægt er að breyta geymslu vídd flokki jafnvel þó að opnar birgðafærslur eru til staðar. Til þess að vörurnar sem voru læst þegar uppfærsla er notuð, þarf tveir:
 
 -   Breyta geymslu birgðavíddarflokk sem notar aðeins Setur, Vöruhús og Staðsetning birgðavíddir geymslu víddarflokki fyrir vöruna. Komið sem afleiðing þessari breytingu Brettakenni birgðavídd er ekki notuð lengur.
--   Breyttu geymsluvíddarhópnum fyrir vöruna í geymsluvíddarhóp sem notar WMS. Komið sem afleiðing þessari breytingu birgðavídd Leyfi plate nú notuð.
+-   Breyttu geymsluvíddaflokknum fyrir vöruna í geymsluvíddaflokk sem notar vöruhúsakerfi. Komið sem afleiðing þessari breytingu birgðavídd Leyfi plate nú notuð.
 
 ## <a name="configure-wms"></a>Grunnstilla WMS
 Áður en hægt er að nota losa vöru í við **Vöruhúsastjórnun** einingunni sem vara verður að nota geymsluvídd flokka þar sem er **Nota þjónustustýringar vöruhús** færibreytan er valin.
 
-### <a name="enable-warehouses-to-use-wms"></a>Virkjaðu vöruhús til að nota WMS
+### <a name="enable-warehouses-to-use-wms"></a>Virkja vöruhús til að nota WMS
 
 1.  Stofna að minnsta kosti eina nýju staðsetningu reglu.
 2.  Smellt er á **Vöruhúsastjórnun** &gt; **Uppsetningu** &gt; **Virkja vöruhúsakerfisferli** &gt; **Leyfa uppsetningu vöruhúss**.
@@ -70,7 +70,7 @@ Til að opna vörurnar sem voru lokaðar á meðan á uppfærslu stendur, verðu
 5.  Villuleita breytingarnar. Hluti af villuleit í mismunandi fjarvistarkóðann heilleiki eiga sér stað. Hluti af stærri uppfærsluferlið vandamál koma upp þurfi leiðrétt uppruna innleiðingar. Í þessu tilfelli viðbótar gagnauppfærslu þarf.
 6.  Vinna breytingarnar.
 
-### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-wms"></a>Breyttu geymsluvíddarhópnum fyrir hluti, þannig að hann noti WMS
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-wms"></a>Breyta geymsluvíddarflokki fyrir vörur, þannig að hann noti WMS
 
 1.  Búa til nýtt **Birgða stöðu** gildi, og tengið það sem er **Sjálfgefin staða Verslunar** í í **Vöruhús færibreytur birgðastjórnunar** stillingar.
 2.  Stofna nýjan víddaflokk geymslu þar sem það **Nota þjónustustýringar vöruhús** færibreytan er valin.

@@ -1,6 +1,6 @@
 ---
 title: Skilgreina afurðarsíur fyrir vöruhúsakerfifærslur
-description: Þessi grein lýsir því hvernig á að stilla vörusíur og síunarkóða til að flokka birgðavörur í vöruhúsi. Einnig er hægt að nota síur til að tilgreina hvaða viðskiptavinir geta pantað tiltekna vöru og tilgreina hvaða vörur er hægt að kaupa frá tilteknum lánardrottni.
+description: Þessi grein lýsir því hvernig skilgreina afurðarsíur og síukóða til að flokka birgðavara í vöruhúsi. Einnig er hægt að nota síur til að tilgreina hvaða viðskiptavinir geta pantað tiltekna vöru og tilgreina hvaða vörur er hægt að kaupa frá tilteknum lánardrottni.
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
 ms.openlocfilehash: 7d6524cb9109263ad62d221ec98e546b962b89ee
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9067529"
@@ -24,7 +24,7 @@ ms.locfileid: "9067529"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að stilla vörusíur og síunarkóða til að flokka birgðavörur í vöruhúsi. Einnig er hægt að nota síur til að tilgreina hvaða viðskiptavinir geta pantað tiltekna vöru og tilgreina hvaða vörur hægt er að kaupa frá tilteknum lánardrottni.
+Þessi grein lýsir því hvernig skilgreina afurðarsíur og síukóða til að flokka birgðavara í vöruhúsi. Einnig er hægt að nota síur til að tilgreina hvaða viðskiptavinir geta pantað tiltekna vöru og tilgreina hvaða vörur hægt er að kaupa frá tilteknum lánardrottni.
 
 Þar að auki er hægt að setja upp og nota afurðarsíur til að skipuleggja birgðavöru í vöruhúsi og sameina síaða vörur í síuflokka. Hægt er að nota síur til að setja vörur í flokka fyrir meðhöndlun, innkaup og söluferli. Hægt er að flokka vörur saman eða aðgreina þær hver frá annarri þegar þær eru meðhöndlaðar samkvæmt þyngdar- eða afgreiðslutakmörkunum. Einnig er hægt að tilgreina hvaða viðskiptavini eða lánardrottnum er hægt að kaupa vöru frá eða selja til.
 
@@ -48,7 +48,7 @@ Afurðarsíur bjóða upp á allt að 10 **Síuheiti**, sem eru fasttextagildi (
 
     ![Uppsetning afurðarsíu.](media/Product_Filters10.png "Uppsetning afurðarsíu")
 
-1. Í reitnum **Lýsing** er fært inn heiti fyrir kóðann. Til dæmis gæti *Kóði 2* táknað lánardrottna. Síðan er hægt að stofna afurðassíu fyrir tiltekinn lánardrottin eða hóp lánardrottna. Fyrir frekari upplýsingar, sjá [Settu upp síukóða söluaðila](#vendor-product-filters) kafla síðar í þessari grein.
+1. Í reitnum **Lýsing** er fært inn heiti fyrir kóðann. Til dæmis gæti *Kóði 2* táknað lánardrottna. Síðan er hægt að stofna afurðassíu fyrir tiltekinn lánardrottin eða hóp lánardrottna. Nánari upplýsingar eru í hlutanum [Setja upp síukóða lánardrottins](#vendor-product-filters) seinna í þessari grein.
 
     ![Safn afurðarsía.](media/Product_Filters.png "Sett afurðarsía")
 
@@ -95,7 +95,7 @@ Til að setja upp síukóða í vöruflokkum, skal fylgja þessum skrefum:
     Ef til dæmis gátreitirnir **Nota síukóða 1** og **Nota síukóða 2** eru valdir, verða bæði síukóði 1 og síukóði 2 fyrir vöruna að passa við uppsetningu síuflokksins fyrir vöruflokkinn áður en hægt verður að velja síuflokkinn. Þegar ný vara er stofnuð verður valinn síuflokkur að sjálfgefnum síuflokki í reitunum **Flokkur 1** og **Flokkur 2** í flýtiflipanum **Vöruhús** á síðunni **Upplýsingar um útgefnar afurðir**.
 
 > [!IMPORTANT]
-> Vörusíukóðar eru aðeins virkir fyrir vörur sem nota vöruhússtjórnunarferli (WMS).
+> Afurðasíukóðar eru aðeins virkjaðir fyrir vörur sem nota ítarlegt vöruhúsakerfi (WMS)
 
 ## <a name="specify-filter-codes-for-released-products"></a>Tilgreina síukóða fyrir útgefin afurðir
 
@@ -158,7 +158,7 @@ Til að setja upp síukóða lánardrottins skal fylgja þessum skrefum.
 1. Í reitunum **Kóði 1** til **Kóði 10** skal velja síukóða til að nota sem skilyrði til að takmarka vörur sem eru tiltækar fyrir lánardrottna í völdum vöruhóp. Velja verður fyrir hvern síukóða sem er settur upp fyrir vöruflokkinn.
 
 > [!NOTE]
-> Uppsetning afurðasía lánardrottins á við um útgefnar vörur þar sem vöruhúsastjórnunarferli (WMS) eru virkjuð fyrir tengda geymsluvíddarhóp. Síukóðar eru notaðir til að ákvarða hvort kerfið geri notendum kleift að kaupa tiltekna vöru frá tilteknum lánardrottni þegar þeir stofna innkaupapöntunarlínur. Microsoft Dynamics 365 Supply Chain Management inniheldur tvær leiðir til að meðhöndla samþykki lánardrottins. Ef ein eða fleiri útgefnar afurðir eru til staðar þar sem reiturinn **Samþykkt prófunaraðferð lánadrottins** er stilltur á *Aðeins viðvörun* eða *Ekki leyft*, væri hægt að virkja báðar samþykktaraðferðir lánardrottins fyrir þessar vörur. Þetta gæti valdið vandamálum þegar notendur búa til innkaupapöntunarlínur.
+> Uppsetning afurðarsía lánardrottins á við útgefnar afurðir þar sem vöruhúsakerfisferli (WMS) eru virkjuð fyrir tengdan geymsluvíddaflokk. Síukóðar eru notaðir til að ákvarða hvort kerfið geri notendum kleift að kaupa tiltekna vöru frá tilteknum lánardrottni þegar þeir stofna innkaupapöntunarlínur. Microsoft Dynamics 365 Supply Chain Management inniheldur tvær leiðir til að meðhöndla samþykki lánardrottins. Ef ein eða fleiri útgefnar afurðir eru til staðar þar sem reiturinn **Samþykkt prófunaraðferð lánadrottins** er stilltur á *Aðeins viðvörun* eða *Ekki leyft*, væri hægt að virkja báðar samþykktaraðferðir lánardrottins fyrir þessar vörur. Þetta gæti valdið vandamálum þegar notendur búa til innkaupapöntunarlínur.
 
 ## <a name="see-also"></a>Sjá einnig
 

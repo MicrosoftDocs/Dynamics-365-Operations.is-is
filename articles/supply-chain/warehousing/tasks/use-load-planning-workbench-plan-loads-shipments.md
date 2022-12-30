@@ -1,6 +1,6 @@
 ---
 title: Áætla farm og sendingar með vinnusvæðinu Farmáætlun
-description: Þessi grein sýnir hvernig á að nota álagsáætlunarvinnubekkinn til að búa til álag fyrir sölupöntun.
+description: Þessi grein sýnir hvernig á að nota vinnusvæði farmáætlunar til að stofna hleðslu fyrir sölupöntun.
 author: Mirzaab
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0e53b7667dd4589a7c6c14b8aaf8ba51017eee0d
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9068331"
@@ -25,7 +25,7 @@ ms.locfileid: "9068331"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein sýnir hvernig á að nota álagsáætlunarvinnubekkinn til að búa til álag fyrir sölupöntun. Sem frumskilyrði stofnum við sölupöntunina fyrst. Þetta ferli er hluti af daglega vinnu fyrir samræmingaraðili flutninga. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Þessi grein sýnir hvernig á að nota vinnusvæði farmáætlunar til að stofna hleðslu fyrir sölupöntun. Sem frumskilyrði stofnum við sölupöntunina fyrst. Þetta ferli er hluti af daglega vinnu fyrir samræmingaraðili flutninga. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
 
 ## <a name="create-a-sales-order"></a>Stofna sölupöntun
@@ -38,7 +38,7 @@ ms.locfileid: "9068331"
 7. Velja vöru **A0001**. **A0001** er virkt fyrir flutningsstjórnun.  
 8. Í reitnum **Svæði** velurðu fellilistahnappinn til að opna leitina og velur síðan vöruna.
 9. Í reitnum **Magn** slærðu inn tölu.
-10. Í **Vöruhús** reitinn, sláðu inn '24' fyrir þetta dæmi. Þetta vöruhús er virkt fyrir flutningsstjórnun og vöruhússtjórnunarferli (WMS).  
+10. Í **Vöruhús** reitinn, sláðu inn '24' fyrir þetta dæmi. Þetta vöruhús er virkt fyrir flutningsstjórnun og vöruhúsakerfisferli (WMS).  
 11. Veldu **Vista**.
 12. Lokið síðunni.
 

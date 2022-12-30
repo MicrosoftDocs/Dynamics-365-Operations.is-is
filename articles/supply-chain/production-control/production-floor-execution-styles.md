@@ -1,6 +1,6 @@
 ---
 title: Hanna viðmót fyrir framkvæmd á framleiðslugólfi
-description: Greinin útskýrir hvernig á að stilla eyðublaðastýringar þannig að sjálfgefna framleiðslugólfsframkvæmdastíllinn sé notaður á þær.
+description: Þessi grein útskýrir hvernig á að skilgreina skjámyndastýringar þannig að sjálfgefnir stílar fyrir framkvæmd framleiðslugólfs eru notaðir í þeim.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8859141"
@@ -22,16 +22,16 @@ ms.locfileid: "8859141"
 
 [!include [banner](../includes/banner.md)]
 
-Greinin útskýrir hvernig á að stilla eyðublaðastýringar þannig að sjálfgefna framleiðslugólfsframkvæmdastíllinn sé notaður á þær.
+Þessi grein útskýrir hvernig á að skilgreina skjámyndastýringar þannig að sjálfgefnir stílar fyrir framkvæmd framleiðslugólfs eru notaðir í þeim.
 
 ## <a name="forms-and-dialogs"></a>Eyðublöð og gluggar
 
 Aðeins er hægt að nota stíla á skjámynd eða svarglugga ef eftirfarandi kröfur eru uppfylltar:
 
-- Ef eyðublaðið ætti að líkjast núverandi eyðublaði fyrir framvindu skýrslu verður nafn eyðublaðsins eða gluggans að byrja á `JmgProductionFloorExecutionCustomInputDialog`.
-- Skjámyndin eða svarglugginn getur innihaldið upplýsingahluta skjámyndar. Til að beita stílum á það verður nafn smáatriðahlutans að byrja á `JmgProductionFloorExecutionCustomDetailsDialog`.
-- Ef eyðublaðið eða svarglugginn ætti að hafa einfalda yfirsýn, þá verður nafn einfalda yfirlitsins að byrja á `JmgProductionFloorExecutionCustomDialog`. Dæmi um skjámyndir sem eru með einfalt yfirlit eru til að mynda upphafsskjámyndin og skjámynd óbeinna verkþátta.
-- Allar stýringar í glugganum verða að vera stilltar eins og lýst er í þessari grein.
+- Ef skjámyndin á að líkjast fyrirliggjandi skjámynd framvinduskýrslu, þá verður heiti skjámyndarinnar eða svargluggans að byrja á `JmgProductionFloorExecutionCustomInputDialog`.
+- Skjámyndin eða svarglugginn getur innihaldið upplýsingahluta skjámyndar. Til að nota stíla í henni verður heiti upplýsingaskjámyndar að byrja á `JmgProductionFloorExecutionCustomDetailsDialog`.
+- Ef skjámyndin eða svarglugginn á að vera með einfalt yfirlit verður heiti einfalda yfirlitsins að byrja á `JmgProductionFloorExecutionCustomDialog`. Dæmi um skjámyndir sem eru með einfalt yfirlit eru til að mynda upphafsskjámyndin og skjámynd óbeinna verkþátta.
+- Allar stýringar í svarglugganum verða að vera skilgreindar eins og lýst er í þessari grein.
 
 > [!IMPORTANT]
 > Eiginleikarnir sem eru nefndir í fyrstu áherslupunktunum í þessum lista þurfa útgáfu 10.0.19 af Supply Chain Management eða nýrri.
@@ -39,24 +39,24 @@ Aðeins er hægt að nota stíla á skjámynd eða svarglugga ef eftirfarandi kr
 Aðeins er hægt að nota stíla á hnappinn **Í lagi** í svarglugga ef eftirfarandi kröfur eru uppfylltar:
 
 - Hnappurinn er geymdur í skjámyndaflokki.
-- Hópnafnið byrjar á `OkButtonGroup`.
+- Heiti flokksins byrjar á `OkButtonGroup`.
 
 Aðeins er hægt að nota stíla á hnappinn **Hætta við** í svarglugga ef eftirfarandi kröfur eru uppfylltar:
 
 - Hnappurinn er geymdur í skjámyndaflokki.
-- Hópnafnið byrjar á `CancelButtonGroup`.
+- Heiti flokksins byrjar á `CancelButtonGroup`.
 
 ### <a name="header"></a>Haus
 
-Eftirfarandi mynd sýnir dæmigert eyðublað eða gluggahaus.
+Eftirfarandi mynd sýnir dæmigerðan haus skjámyndar eða svarglugga.
 
-![Dæmigert form eða gluggahaus.](media/pfe-styles-header.png "Dæmigert form eða gluggahaus")
+![Hefðbundið form eða haus glugga](media/pfe-styles-header.png "Hefðbundið form eða haus glugga")
 
-Í Visual Studio, hausar eru búnir til með því að nota uppbyggingu eins og þá sem er sýnd á eftirfarandi mynd.
+Í Visual Studio eru hausar búnir til með því að nota uppbyggingu eins og þá sem er sýnd á eftirfarandi mynd.
 
-![Dæmigerð kóðauppbygging til að búa til haus.](media/pfe-styles-header-code-structure.png "Dæmigerð kóðauppbygging til að búa til haus")
+![Hefðbundin uppbygging kóða til að búa til haus.](media/pfe-styles-header-code-structure.png "Hefðbundin uppbygging kóða til að búa til haus")
 
-Til að bæta texta við hausinn þinn skaltu nota kóða eins og eftirfarandi dæmi.
+Til að bæta texta við haus þinn skaltu nota kóða eins og í eftirfarandi dæmi.
 
 ```xpp
 private void setCaption()
@@ -70,26 +70,26 @@ private void setCaption()
 }
 ```
 
-Þegar þú skrifar hauskóðann þinn skaltu nota eftirfarandi reglur:
+Þegar hausakóðinn er skrifaður skal nota eftirfarandi reglur:
 
-- Nafn aðalhóps verður að vera `TableRowHeaderGroup`.
-- Hver textablokk (aðskilin með byssukúlum) verður að byrja á `HeaderFieldWithSeparatorText`.
-- Síðasta textanafnið verður að byrja á `HeaderFieldText`.
+- Nafn aðalflokks þarf að vera `TableRowHeaderGroup`.
+- Hver textablokk (aðskilin með táknum) verður að byrja á `HeaderFieldWithSeparatorText`.
+- Eftirnafnið verður að byrja á `HeaderFieldText`.
 - `CaptionImage` hægt að sleppa.
 
 ### <a name="progress-indicator"></a>Framvinduvísir
 
-Þú getur fylgt með framvinduvísi, sem sést hægra megin við hausinn. Eftirfarandi mynd sýnir framfaravísi.
+Þú getur látið fylgja með framvinduvísi, sem birtist hægra megin við hausinn. Eftirfarandi mynd sýnir framvinduvísi.
 
-![Dæmigerður framfaravísir.](media/pfe-styles-header-progress.png "Dæmigerður framfaravísir")
+![Dæmigerður framvinduvísir.](media/pfe-styles-header-progress.png "Dæmigerður framvinduvísir")
 
-Til að sýna framvinduvísinn verður textareiturinn að vera nefndur `ShowProgress`.
+Til að sýna framvinduvísinn þarf að geta textareitnum heitið `ShowProgress`.
 
 ## <a name="grid"></a>Hnitanet
 
 Stílar eru sjálfkrafa notaðir. Engin sérstök stilling er nauðsynleg.
 
-Ratið ætti að hafa a`TabularView` stíll, og`run()` aðferð á sérsniðnu eyðublaði verður að skrifa yfir, vegna þess að nýtt rist er ekki enn stutt. Bættu við eftirfarandi kóða.
+Hnitanetið á að vera með `TabularView` stíl og skrifa þarf yfir `run()` aðferðina í sérsniðnu skjámyndinni því að nýja hnitanetið er ekki stutt enn sem komið er. Bættu við eftirfarandi kóða.
 
 ```xpp
 public void run()
@@ -100,14 +100,14 @@ public void run()
 }
 ```
 
-Til að endurnýja gögn í aðalskjá gætirðu viljað nota eitthvað eins og`this.parmParentForm().updateLayout();` í`click` aðferð við aðgerð þína. (Til dæmis, skoðaðu`JmgProductionFloorExecutionReportFeedbackAction` bekk.) Gakktu úr skugga um það`parmDataSource` er sett í`init` aðferð við nýja eyðublaðið þitt (`formCaller.parmDataSource(this.dataSource(1));`). Til dæmis, skoðaðu`JmgProductionFloorExecutionMainGrid` formi.
+Til að endurhlaða gögn í aðalyfirliti gætirðu viljað nota eitthvað eins og `this.parmParentForm().updateLayout();` í `click` aðferð aðgerðarinnar. (Skoðaðu t.d. `JmgProductionFloorExecutionReportFeedbackAction` klasann.) Gakktu bara úr skugga um að `parmDataSource` sé stillt í `init` aðferðinni í nýju skjámyndinni (`formCaller.parmDataSource(this.dataSource(1));`). Skoðið til dæmis `JmgProductionFloorExecutionMainGrid` eyðublaðið.
 
 ## <a name="card-view"></a>Spjaldyfirlit
 
 Aðeins er hægt að nota stíla á stýringar spjaldyfirlits ef eftirfarandi kröfur eru uppfylltar:
 
 - Hvert spjaldyfirlit er geymt í skjámyndaflokki.
-- Hópnafnið byrjar á`CardGroup` (til dæmis,`CardGroupJobsView`).
+- Heiti flokksins byrjar á `CardGroup` (til dæmis `CardGroupJobsView`).
 
 Eftirfarandi mynd sýnir spjaldyfirlit sem er með engar stýringar innan þess.
 
@@ -124,14 +124,14 @@ Eftirfarandi skýringarmyndir sýna spjaldyfirlit sem eru með stýringar innan 
 Aðeins er hægt að nota stíla á stýringar nafnspjalds ef eftirfarandi kröfur eru uppfylltar:
 
 - Hvert nafnspjald er geymt í skjámyndaflokki.
-- Hópnafnið byrjar á`BusinessCardGroup` (til dæmis,`BusinessCardGroupJobsList`).
+- Heiti flokksins byrjar á `BusinessCardGroup` (til dæmis `BusinessCardGroupJobsList`).
 
 Stilltu eftirfarandi eiginleika á nafnspjaldinu:
 
-- **Stíll:** *lista*
-- **Útbreiddur stíll:** *kortalisti*
+- **Stíll:** *listi*
+- **Útvíkkaður stíll:** *cardList*
 - **Fjölval:** *Nei*
-- **Sýna Col merki:** *Nei*
+- **Sýna litamerki:** *Nei*
 
 ![Nafnspjald.](media/pfe-styles-business-card.png)
 
@@ -140,12 +140,12 @@ Stilltu eftirfarandi eiginleika á nafnspjaldinu:
 Aðeins er hægt að nota stíla á hringhnappa ef eftirfarandi kröfur eru uppfylltar:
 
 - Hver hringhnappur er geymdur í skjámyndaflokki.
-- Hópnafnið byrjar á`RadioTextBelow` eða`RadioTextRight`, eftir því hvar þú vilt að textinn birtist.
+- Heiti flokksins byrjar á `RadioTextBelow` eða `RadioTextRight`, eftir því hvar textinn á að birtast.
 
 Stilltu eftirfarandi eiginleika á hringhnappnum:
 
-- **Skiptahnappur:** *Athugaðu*
-- **Skipta gildi:** *Á* ef valhnappur ætti að vera valinn; annars, *Af*
+- **Breytihnappur**: *Haka við*
+- **Breytigildi**: *Kveikt* ef velja á hringhnappinn; annars *Slökkt*
 
 Eftirfarandi mynd sýnir dæmi þar sem textinn birtist fyrir neðan hringhnappinn.
 
@@ -170,18 +170,18 @@ Aðeins er hægt að nota stíla á hnappa ef eftirfarandi kröfur eru uppfyllta
 
 Stilltu eftirfarandi eiginleika hnappa:
 
-- **Hnappaskjár:** *TextWithImageLeft*
-- **Venjuleg mynd:** Þessi eign má ekki vera auð. Notaðu t.d. *CoffeeScript*.
-- **Texti:** Þessi eign má ekki vera auð. Notaðu t.d. *Hefja vinnuhlé*.
-- **Breidd:** *Sjálfvirk* eða *SizeToContent*
-- **Hæð:** *Sjálfvirk* eða *SizeToContent*
+- **Útlit hnapps:** *TextWithImageLeft*.
+- **Venjuleg mynd:** Þessi eiginleiki má ekki vera auður. Notaðu t.d. *CoffeeScript*.
+- **Texti**: Þessi eiginleiki má ekki vera auður. Notaðu t.d. *Hefja vinnuhlé*.
+- **Breidd:** *Sjálfvirkt* eða *SizeToContent*
+- **Hæð:** *Sjálfvirkt* eða *SizeToContent*
 
 ### <a name="primary-button"></a>Aðalhnappur
 
 Aðeins er hægt að nota stíla á aðalhnappa ef eftirfarandi kröfur eru uppfylltar:
 
 - Hnappurinn er geymdur í skjámyndaflokki.
-- Hópnafnið byrjar á`DefaultButtonGroup` eða`PrimaryButtonGroup` (til dæmis,`DefaultButtonGroup10`).
+- Heiti hópsins byrjar á `DefaultButtonGroup` eða `PrimaryButtonGroup` (til dæmis`DefaultButtonGroup10`).
 
 ![Aðalhnappur.](media/pfe-styles-first.png)
 
@@ -190,7 +190,7 @@ Aðeins er hægt að nota stíla á aðalhnappa ef eftirfarandi kröfur eru uppf
 Aðeins er hægt að nota stíla á aukahnappa ef eftirfarandi kröfur eru uppfylltar:
 
 - Hnappurinn er geymdur í skjámyndaflokki.
-- Hópurinn er nefndur **Hægri spjaldið**, eða hópnafnið byrjar á `SecondaryButtonGroup`.
+- Hópurinn er nefndur **Hægra svæði** eða heiti hópsins byrjar á `SecondaryButtonGroup`.
 
 ![Aukahnappur.](media/pfe-styles-second.png)
 
@@ -199,7 +199,7 @@ Aðeins er hægt að nota stíla á aukahnappa ef eftirfarandi kröfur eru uppfy
 Aðeins er hægt að nota stíla á hnappa þriðja hóps ef eftirfarandi kröfur eru uppfylltar:
 
 - Hnappurinn er geymdur í skjámyndaflokki.
-- Hópurinn er nefndur **Vinstri spjaldið**, eða hópnafnið byrjar á `ThirdButtonGroup`.
+- Hópurinn er nefndur **Vinstra svæði** eða heiti hópsins byrjar á `ThirdButtonGroup`.
 
 ![Hnappur þriðja hóps.](media/pfe-styles-third.png)
 
@@ -208,15 +208,15 @@ Aðeins er hægt að nota stíla á hnappa þriðja hóps ef eftirfarandi kröfu
 Aðeins er hægt að nota stíla á hnappa fjórða hóps ef eftirfarandi kröfur eru uppfylltar:
 
 - Hnappurinn er geymdur í skjámyndaflokki.
-- Hópnafnið byrjar á `FourthButtonGroup`.
+- Heiti flokksins byrjar á `FourthButtonGroup`.
 
 Stilltu eftirfarandi eiginleika hnappsins:
 
-- **Hnappaskjár:** *Aðeins texti*
-- **Venjuleg mynd:** Þessi eign verður að vera auð.
-- **Texti:** Þessi eign má ekki vera auð. Notaðu t.d. *Skoða* eða *Breyta*.
-- **Breidd:** *Sjálfvirk*
-- **Hæð:** *Sjálfvirk*
+- **Útlit hnapps:** *TextOnly*.
+- **Venjuleg mynd:** Þessi eiginleiki verður að vera auður.
+- **Texti**: Þessi eiginleiki má ekki vera auður. Notaðu t.d. *Skoða* eða *Breyta*.
+- **Breidd:** *Sjálfvirk*.
+- **Hæð:** *Sjálfvirk*.
 
 ![Hnappur fjórða hóps.](media/pfe-styles-fourth.png)
 
@@ -225,34 +225,34 @@ Stilltu eftirfarandi eiginleika hnappsins:
 Aðeins er hægt að nota stíla á slétta hnappa ef eftirfarandi kröfur eru uppfylltar:
 
 - Hnappurinn er geymdur í skjámyndaflokki.
-- Hópnafnið byrjar á `FlatButtonGroup`.
+- Heiti flokksins byrjar á `FlatButtonGroup`.
 
 Stilltu eftirfarandi eiginleika hnappsins:
 
-- **Hnappaskjár:** *Aðeins mynd*
-- **Venjuleg mynd:** Þessi eign má ekki vera auð. Notaðu t.d. *CoffeeScript*.
-- **Texti:** Þessi eign verður að vera auð.
-- **Breidd:** *Sjálfvirk* eða *SizeToContent*
-- **Hæð:** *Sjálfvirk* eða *SizeToContent*
+- **Útlit hnapps:** *ImageOnly*.
+- **Venjuleg mynd:** Þessi eiginleiki má ekki vera auður. Notaðu t.d. *CoffeeScript*.
+- **Texti**: Þessi eiginleiki verður að vera auður.
+- **Breidd:** *Sjálfvirkt* eða *SizeToContent*
+- **Hæð:** *Sjálfvirkt* eða *SizeToContent*
 
 ![Sléttur hnappur.](media/pfe-styles-flat-button.png)
 
-### <a name="continue-button"></a>Halda áfram hnappur
+### <a name="continue-button"></a>Hnappur til að halda áfram
 
-Aðeins er hægt að nota stíla á hnappinn Halda áfram ef eftirfarandi kröfur eru uppfylltar:
+Aðeins er hægt að nota stíla á framhaldshnappa ef eftirfarandi kröfur eru uppfylltar:
 
 - Hnappurinn er geymdur í skjámyndaflokki.
-- Hópnafnið byrjar á `ContinueButtonGroup`.
+- Heiti flokksins byrjar á `ContinueButtonGroup`.
 
 Stilltu eftirfarandi eiginleika hnappsins:
 
-- **Hnappaskjár:** *Aðeins mynd*
+- **Útlit hnapps:** *ImageOnly*.
 - **Venjuleg mynd:** *Áfram*
-- **Texti:** Þessi eign verður að vera auð.
-- **Breidd:** *Sjálfvirk* eða *SizeToContent*
-- **Hæð:** *Sjálfvirk* eða *SizeToContent*
+- **Texti**: Þessi eiginleiki verður að vera auður.
+- **Breidd:** *Sjálfvirkt* eða *SizeToContent*
+- **Hæð:** *Sjálfvirkt* eða *SizeToContent*
 
-![Halda áfram hnappur.](media/pfe-styles-continue-button.png)
+![Hnappur til að halda áfram.](media/pfe-styles-continue-button.png)
 
 ## <a name="combo-box"></a>Samtvinnaður listi
 
@@ -261,9 +261,9 @@ Samsettur gluggi er samsetning þriggja stýringa: innsláttarstýringar, hnapps
 Aðeins er hægt að nota stíla á samsetta glugga ef eftirfarandi kröfur eru uppfylltar:
 
 - Samsetti glugginn er geymdur í skjámyndaflokki.
-- Hópnafnið byrjar á `Combobox`.
-- Inni í hópnum er fyrsta stjórnin an`AxFormStringControl` stjórna. Þessi stýring sýnir núverandi gildi og það er þar sem notandinn slær inn nauðsynlegt gildi.
-- Önnur stjórnin er a`CommonButton` stjórna, og nafn þess byrjar á `ClearButton`. Þessi hnappur verður að innihalda kóða sem notar`enable` eign til að sýna eða fela hnappinn. Til dæmis til að sýna eða fela hnappinn **Hreinsa** meðan notandinn er að slá inn upplýsingar í innsláttarstýringuna geturðu notað eftirfarandi kóða.
+- Heiti flokksins byrjar á `Combobox`.
+- Innan hópsins er fyrsta stýringin `AxFormStringControl` stýring. Þessi stýring sýnir núverandi gildi og það er þar sem notandinn slær inn nauðsynlegt gildi.
+- Önnur stýringin er `CommonButton` stýring og nafnið byrjar á `ClearButton`. Þessi hnappur verður að innihalda kóða sem notar eiginleikann `enable` til að sýna eða fela hnappinn. Til dæmis til að sýna eða fela hnappinn **Hreinsa** meðan notandinn er að slá inn upplýsingar í innsláttarstýringuna geturðu notað eftirfarandi kóða.
 
     ```xpp
     public void textChange()
@@ -288,7 +288,7 @@ Aðeins er hægt að nota stíla á samsetta glugga ef eftirfarandi kröfur eru 
     }
     ```
 
-    Notaðu eftirfarandi kóða fyrir`clicked` aðferð við **Hreinsa** takki.
+    Notið eftirfarandi kóða fyrir aðferðina `clicked` fyrir hnappinn **Hreinsa**.
 
     ```xpp
     public void clicked()
@@ -298,9 +298,9 @@ Aðeins er hægt að nota stíla á samsetta glugga ef eftirfarandi kröfur eru 
     }
     ```
 
-    Stilltu gildi inntaksstýringarinnar,`AxFormStringControl`, þegar eyðublaðið er frumstillt með því að nota`init` aðferð. Ef gildið er ekki autt skaltu virkja hnappinn **Hreinsa**. Ef gildið er autt skaltu gera hnappinn **Hreinsa** óvirkan.
+    Stilltu gildi inntaksstýringarinnar, `AxFormStringControl`, þegar skjámyndin er frumstillt með því að nota `init`-aðferðina. Ef gildið er ekki autt skaltu virkja hnappinn **Hreinsa**. Ef gildið er autt skaltu gera hnappinn **Hreinsa** óvirkan.
 
-- Þriðja stjórnin er a`CommonButton` stjórna, og nafn þess byrjar á `SearchButton`.
+- Þriðja stýringin er `CommonButton`stýring og nafnið byrjar á `SearchButton`.
 
 Eftirfarandi mynd sýnir tvær stýringar fyrir samsettan glugga. Samsetti glugginn vinstra megin er með auðan textareit og hnappurinn **Hreinsa** er óvirkur. Samsetti glugginn hægra megin er með texta í textareitnum og hnappurinn **Hreinsa** er virkur.
 
@@ -311,36 +311,36 @@ Eftirfarandi mynd sýnir tvær stýringar fyrir samsettan glugga. Samsetti glugg
 Stýring flýtiafmörkun bætir leitarreiti við síðuna. Hægt er að nota stíla á flýtiafmörkun ef eftirfarandi kröfur eru uppfylltar:
 
 - Flýtiafmörkunin er geymd í skjámyndaflokki.
-- Hópnafnið byrjar á `SearchInputGroup`.
-- Inni í hópnum er fyrsta stjórnin a`QuickFilter` stjórna. (Þessi stjórn er þar sem notandinn slær inn leitarstrenginn.)
-- Önnur stjórnin er a`FormStaticTextControl` sem heitir `NumberOfResults`. (Þessi stjórn er valfrjáls. Ef það er innifalið sýnir það fjölda fundna hluta.)
-- Þriðja stjórnin er a`CommonButton` stjórna, og nafn þess byrjar á `ClearButton`.
+- Heiti flokksins byrjar á `SearchInputGroup`.
+- Innan hópsins er fyrsta stýringin `QuickFilter` stýring. (Í þessa stýringu slær notandinn inn leitarstrenginn.)
+- Önnur stýringin er `FormStaticTextControl` sem kallast `NumberOfResults`. (Þessi stýring er valfrjáls. Ef það er innifalið sýnir það fjölda fundinna hluta.)
+- Þriðja stýringin er `CommonButton`stýring og nafnið byrjar á `ClearButton`.
 
 Eftirfarandi mynd sýnir tvær stýringar flýtiafmörkunar. Flýtiafmörkunin vinstra megin er með auða flýtiafmörkun og fjöldi niðurstaðna er ekki sýnileg. Flýtiafmörkunin til hægri inniheldur leitarstreng og sýnir fjölda niðurstaðna.
 
 ![Dæmi um stýringu flýtiafmörkunar með og án leitarstrengs.](media/pfe-styles-quick-filter.png "Dæmi um stýringu flýtiafmörkunar með og án leitarstrengs")
 
-## <a name="center-align-elements-on-a-tab"></a>Miðjaðu þætti á flipa
+## <a name="center-align-elements-on-a-tab"></a>Miðjujafna einingar í flipa
 
-Til að samræma þætti í miðju flipa verður hópnafnið að byrja á`TabContentGroup`, og hópurinn verður að hafa eftirfarandi eiginleika:
+Til að miðjujafna einingar í flipa verður heiti hópsins að byrja á `TabContentGroup` og hópurinn verður að vera með eftirfarandi eiginleika:
 
-- **Breiddarstilling:**`SizeToAvailable`
-- **Hæðarstilling:**`SizeToAvailable`
+- **Breiddarstilling:** `SizeToAvailable`
+- **Hæðarstilling:** `SizeToAvailable`
 
-## <a name="align-a-grid-detail-part-and-quick-filter"></a>Samræmdu rist, smáatriði og hraðsíu
+## <a name="align-a-grid-detail-part-and-quick-filter"></a>Jafna hnitanet, upplýsingahluta og flýtiafmörkun
 
-Til að raða sérsniðnu ristli, smáatriðum og hraðsíu þannig að þau líkist stöðluðu hönnuninni skaltu hafa eftirfarandi atriði í huga þegar þú setur þá alla saman:
+Til að raða upp sérsniðnu hnitaneti, upplýsingahluta og flýtiafmörkun þannig að það líkist staðlaðri hönnun skal hafa eftirfarandi punkta í huga þegar allt er sett saman:
 
-- Ef ristið er með hraðsíu ættu bæði ristið og hraðsían að vera inni í hópnum sem hefur nafn sem byrjar á `GridGroup`.
-- Til að beita stílum á smáatriði verður hópnafnið að byrja á`DetailInformationGroup`,
+- Ef hnitanetið er með flýtisíu ætti bæði netið og flýtisían að vera inni í hópnum sem er með heiti sem byrjar á `GridGroup`.
+- Til að setja stíla á upplýsingahluta verður heiti hópsins að byrja á `DetailInformationGroup`,
 
-Eftirfarandi mynd sýnir dæmigert rist sem inniheldur hraðsíu og smáatriði til hægri.
+Eftirfarandi mynd sýnir dæmigert net sem inniheldur flýtisíu og upplýsingahluta hægra megin.
 
-![Dæmigert rist sem inniheldur fljótlega síu og smáatriði.](media/pfe-styles-align-grid.png "Dæmigert rist sem inniheldur fljótlega síu og smáatriði")
+![Dæmigert hnitanet sem inniheldur flýtiafmörkun og upplýsingahluta.](media/pfe-styles-align-grid.png "Dæmigert hnitanet sem inniheldur flýtiafmörkun og upplýsingahluta")
 
-Í Visual Studio Hægt er að búa til rist, smáatriði og hraðsíu með því að nota uppbyggingu eins og þá sem sýnd er á eftirfarandi mynd.
+Í Visual Studio er hægt að búa til hnitanet, upplýsingahluta og flýtiafmörkun með því að nota skipulag eins og það sem er sýnt á eftirfarandi mynd.
 
-![Dæmigert kóðauppbygging sem stillir saman rist, smáatriði og hraðsíu.](media/pfe-styles-header-code-structure2.png "Dæmigert kóðauppbygging sem stillir saman rist, smáatriði og hraðsíu")
+![Dæmigerð kóðauppsetning sem jafnar hnitanet, upplýsingahluta og flýtiafmörkun.](media/pfe-styles-header-code-structure2.png "Dæmigerð kóðauppsetning sem jafnar hnitanet, upplýsingahluta og flýtiafmörkun")
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

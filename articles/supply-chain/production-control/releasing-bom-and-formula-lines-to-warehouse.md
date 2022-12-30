@@ -1,6 +1,6 @@
 ---
 title: Losa uppskriftar- og formúlulínur í vöruhúsið
-description: Þessi grein lýsir ferlinu við að losa hráefni fyrir uppskriftarlínur og formúlulínur í vöruhúsið.
+description: Þessi grein lýsir ferlinu fyrir losun hráefnis fyrir uppskriftar- og formúlulína í vöruhúsið.
 author: johanhoffmann
 ms.date: 10/30/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 53e3a943dbd6cf982101f42ed8f94b7e0f46597c
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8860610"
@@ -25,7 +25,7 @@ ms.locfileid: "8860610"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir ferlinu við að losa hráefni fyrir efnistykkjulínur (BOM) og formúlulínur í vöruhúsið. Þegar þú losar uppskriftar- eða formúlulínu í vöruhúsið ákvarðar kerfið fyrst hvort efni sé þegar í boði á staðsetningu framleiðsluinntaks í vinnusalnum þar sem efnið verður notað fyrir framleiðsluferlið.
+Þessi grein lýsir ferlinu fyrir losun hráefnis fyrir uppskriftar- (BOM) og formúlulína í vöruhúsið. Þegar þú losar uppskriftar- eða formúlulínu í vöruhúsið ákvarðar kerfið fyrst hvort efni sé þegar í boði á staðsetningu framleiðsluinntaks í vinnusalnum þar sem efnið verður notað fyrir framleiðsluferlið.
 
 - Ef efnið er í boði á staðsetningu framleiðsluinntaks, er það tiltekið frá þeirri staðsetningu strax eftir að merki er gefið fyrir losun efnis í vöruhúsið.
 - Ef efnið er ekki tiltækt á staðsetningu framleiðsluinntaks, gefur losun efnis til kynna að efni skuli flutt frá staðsetningu í vöruhúsinu til staðsetningu framleiðsluinntaks. Efnið er flutt með vinnu vöruhúss fyrir tiltekt hráefnis. Þ.a.l. þarf vinnsla vöruhúss fyrir tiltekt hráefnis að vera grunnstillt. Frekari upplýsingar, sjá [Yfirlit áfyllingar](../warehousing/replenishment.md) og [Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar](../warehousing/control-warehouse-location-directives.md).

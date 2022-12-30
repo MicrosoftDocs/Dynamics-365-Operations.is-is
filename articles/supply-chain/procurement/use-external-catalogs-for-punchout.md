@@ -1,6 +1,6 @@
 ---
 title: Nota ytri vörulista fyrir PunchOut e-Procurement
-description: Þessi grein útskýrir hvernig þú getur notað ytri vörulista til að búa til og senda inn beiðnir.
+description: Þessi grein útskýrir hvernig hægt er að nota utanaðkomandi skrár til að búa til og senda inn beiðnir.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b3ef0a144cd1a893f08c73c3b00fa3cf6ae8f7bc
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8851682"

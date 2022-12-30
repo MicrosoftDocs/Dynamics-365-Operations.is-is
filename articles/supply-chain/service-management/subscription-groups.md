@@ -1,6 +1,6 @@
 ---
 title: Áskriftarflokkar
-description: Þessi grein útlistar hvað er skilgreint í áskriftarhópi.
+description: Þessi grein sýnir hvað er skilgreint í áskriftarflokki.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4a3e5a321aa275213e81bc69120368d3ef5809eb
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8859057"

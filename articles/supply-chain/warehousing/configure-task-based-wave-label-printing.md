@@ -1,6 +1,6 @@
 ---
 title: Tímasetja prentun bylgjumerkis í bylgju
-description: Þessi grein lýsir því hvernig á að setja upp og nota virknina fyrir verkefnabundna bylgjumerkisprentun.
+description: Í þessari grein er því lýst hvernig á að setja upp og nota virknina fyrir verktengda prentun á bylgjumerki.
 author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
 ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8889458"
@@ -30,10 +30,10 @@ Aðferðin við að stilla prentun bylgjumerkis er flókin og reiðir sig á ná
 
 ## <a name="turn-on-the-task-based-wave-label-printing-feature-in-feature-management"></a>Kveikja á eiginleika fyrir prentun á verkefnaháðu bylgjumerki í eiginleikastjórnun
 
-Til að nota eiginleikana sem lýst er í þessari grein verður að kveikja á þeim fyrir kerfið þitt. Notið vinnusvæði [Eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eiginleikunum í eftirfarandi röð:
+Til að nota eiginleikana sem lýst er í þessari grein verður að kveikja á þeim fyrir kerfið. Notið vinnusvæði [Eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eiginleikunum í eftirfarandi röð:
 
 1. *Prentun bylgjumerkis* – Þennan eiginleika þarf til að virkja aðferð bylgjuvinnslunnar fyrir prentun bylgjumerkis.
-1. *Vinnulokun fyrir allt fyrirtækið* – Þennan eiginleika þarf fyrir bæði handvirka og sjálfvirka skilgreiningu á tímasettri vinnustofnun. (Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að það er sjálfgefið kveikt á honum og ekki er hægt að slökkva á honum aftur.)
+1. *Vinnulokun fyrir allt fyrirtækið* – Þennan eiginleika þarf fyrir bæði handvirka og sjálfvirka skilgreiningu á tímasettri vinnustofnun. (Frá og með útgáfu 10.0.21 af Supply Chain Management er sjálfkrafa kveikt á þessum eiginleika og ekki er hægt að slökkva á honum aftur.)
 1. *Prentun á verkefnaháðu bylgjumerki* – Þennan eiginleika þarf til að skipta niður prentun bylgjumerkis til að dreifa álaginu.
 
 ## <a name="manually-enable-the-new-wave-step-method"></a>Virkja nýja aðferð bylgjuskrefs handvirkt

@@ -1,6 +1,6 @@
 ---
 title: Geymar til sendingar
-description: Þessi grein lýsir pökkunarferlinu sem gerir þér kleift að staðfesta birgðavörur og pakka þeim í ílát.
+description: Þessi grein lýsir pökkunarferlinu sem gerir þér kleift að staðfesta birgðavörur og pakka þeim í gáma.
 author: perlynne
 ms.date: 7/13/2022
 ms.topic: business-process
@@ -13,7 +13,7 @@ ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
 ms.openlocfilehash: 118b1c79d23cd1b5044ede9aa9c469409cd22166
 ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/20/2022
 ms.locfileid: "9708784"
@@ -22,281 +22,281 @@ ms.locfileid: "9708784"
 
 [!include [banner](../../includes/banner.md)]
 
-Gámapökkunarferlið gerir þér kleift að staðfesta birgðavörur og pakka þeim í gáma. Meðan á þessu ferli stendur velja vöruhúsastarfsmenn venjulega birgðavörur úr magngeymslusvæðum og flytja þær á pökkunarsvæði. Þar athuga margir vöruhúsastarfsmenn vörumagn og -gerðir og úthluta þeim á viðeigandi gámastærðir. Þegar gámur er fullpakkaður er hann lokaður og færður á bryggjusvæðið á útleið, þar sem hann er tilbúinn til sendingar.
+Pökkunarferlið fyrir gáma gerir þér kleift að staðfesta birgðavörur og pakka þeim í gáma. Á meðan á þessu ferli stendur taka vöruhúsastarfskraftar yfirleitt upp birgðavörur af geymslusvæðum og flytja þær á pökkunarsvæði. Þar geta margir vöruhúsastarfskraftar athugað magn og tegundir vöru og úthlutað þeim í viðeigandi stærð gáma. Þegar gámi er pakkað að fullu er það lokað og flutt á úthlið, þar sem það er gert tilbúið til sendingar.
 
-Gámar tákna líkamlega uppbyggingu sem hlutum er pakkað í og þú getur fylgst með gámaupplýsingum í kerfinu. Þessar upplýsingar geta verið gagnlegar við skipulagningu flutninga, sérstaklega ef þú reiknar út sendingargjöld út frá gámum. Áður en þú sendir er hægt að skoða fjölda gáma sem eru notaðir í sendingu, gerðir gáma sem eru notaðar og líkamlegar stærðir hvers gáms (svo sem heildarrúmmál og þyngd).
+Gámar tákna efnislegar einingar sem vörum er pakkað í og hægt er að fylgjast með upplýsingum um gáma í kerfinu. Þessar upplýsingar geta verið gagnlegar við skipulagningu flutninga, sérstaklega ef þú reiknar sendingargjöld miðað við gáma. Áður en þú sendir, getur þú skoðað fjölda gáma sem eru notuð í sendingu, tegundir gáma sem eru notuð og efnislegar víddir hvers gáms (eins og heildarrúmmál og þyngd).
 
-Hægt er að nota nokkra tengda vöruhúsagetu á útleið með gámum. Frekari upplýsingar er hægt að finna í eftirfarandi greinum:
+Hægt er að nota nokkra tengda vöruhúsaaðgerðir á útleið með gámum. Frekari upplýsingar er hægt að finna í eftirfarandi greinum:
 
-- [Bylgjugámavæðing](wave-containerization.md)
+- [Bylgja gámun](wave-containerization.md)
 - [Flokkun á útleið](outbound-sorting.md)
 - [Sending lítilla pakka](small-parcel-shipping.md)
 - [Staðfesta og flytja](confirm-and-transfer.md)
 - [Stilla mismunandi víddir fyrir pakka og geymslu](packing-vs-storage-dimensions.md)
 - [Pökkunarvinna fyrir pökkunargáma og vinnslusendingar á útleið](packing-work.md)
-- [Pökkun gáma með Warehouse Management farsímaappinu](warehouse-app-packing-containers.md)
-- [Dæmi um atburðarás - Pakkaðu gámum með vöruhúsastjórnunarforritinu](warehouse-app-pack-containers-scenario.md)
-- [Prentaðu gámamiða](print-container-labels.md)
+- [Gámum pakkað með farsímaforriti Warehouse Management](warehouse-app-packing-containers.md)
+- [Dæmi –gámum pakkað með farsímaforriti Warehouse Management](warehouse-app-pack-containers-scenario.md)
+- [Prenta merkimiða gáms](print-container-labels.md)
 
 ## <a name="set-up-your-warehouse-to-use-manual-packing-operations"></a>Settu upp vöruhúsið þitt til að nota handvirkar pökkunaraðgerðir
 
-Það eru tvær helstu leiðir til að skipuleggja aðgerðirnar á útleið:
+Hægt er að skipuleggja aðgerðir á útleið á tvo vegu:
 
-- **Bylgjusköpun og vinnsla** – Starfsmenn velja vörur á grundvelli vöruhúsavinnu á útleið. Þeir setja síðan hlutina beint á útflutningsstað þar sem þeir eru tilbúnir til sendingar strax. Fyrir upplýsingar um hvernig á að setja upp og nota þetta ferli, sjá [Bylgjusköpun og vinnsla](wave-processing.md).
-- **Handvirk pökkun á pökkunarstöðvum** – Þetta ferli hefur aukaaðgerð á milli tínslu og sendingaraðgerða. Í stað þess að setja vöruna í a *flóahurð sendingarstaður*, verkamenn settu það í a *pökkunarstað*. Þeir stjórna síðan pökkunarferlinu á pökkunarstöðinni með því að nota **Pakki** síðu í vefþjóninum. Til að virkja þetta ferli verður þú að stilla kerfið þitt eins og lýst er í þessum hluta.
+- **Stofnun og meðhöndlun bylgju** – Starfskraftar taka til vörur miðað við vinnu í vöruhúsi á útleið. Síðan setja þeir vörurnar beint á úthlið, þar sem þeir eru tilbúnir til tafarlausrar sendingar. Upplýsingar um hvernig á að setja upp og nota þetta ferli er að finna [Stofnun og meðhöndlun bylgju](wave-processing.md).
+- **Handvirk pökkun á pökkunarstöðvum** – Þetta ferli hefur viðbótaraðgerð milli pökkunar og sendingar. Í stað þess að setja birgðirnar á *úthlið* setja starfskraftar þær á *pökkunarstað*. Þeir stjórna síðan pökkunarferlinu á pökkunarstöðinni með því að nota síðuna **Pakka** í vefbiðlaranum. Til að virkja þetta ferli verður þú að stilla kerfið þitt eins og lýst er í þessum hluta.
 
-### <a name="set-up-warehouse-locations-for-packing"></a>Settu upp vöruhús fyrir pökkun
+### <a name="set-up-warehouse-locations-for-packing"></a>Setja upp vöruhúsastaðsetningar fyrir pökkun
 
-Þú verður að hafa að minnsta kosti einn pökkunarstað þar sem starfsmenn setja birgðavörur svo hægt sé að pakka þeim í gáma. Fyrir frekari upplýsingar um hvernig á að stofna vöruhúsastaðsetningar, sjá [Stilltu staðsetningar í WMS-virku vöruhúsi](tasks\configure-locations-wms-enabled-warehouse.md). Eftirfarandi undirkaflar lýsa því hvernig á að búa til og setja upp pökkunarstaði.
+Nauðsynlegt er að hafa að minnsta kosti einn pökkunarstað þar sem starfskraftar munu setja birgðavörur svo hægt sé að pakka þeim í gáma. Frekari upplýsingar um hvernig á að stofna staðsetningar í vöruhúsi er að finna í [Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](tasks\configure-locations-wms-enabled-warehouse.md). Eftirfarandi undirhlutar útskýra hvernig á að stofna og úthluta þessum pökkunarstaðsetningum.
 
-#### <a name="set-up-location-types-for-packing"></a>Settu upp staðsetningargerðir fyrir pökkun
+#### <a name="set-up-location-types-for-packing"></a>Setja upp staðsetningagerðir fyrir pökkun
 
-Þú verður að skilgreina a *staðsetningargerð* fyrir pökkunarstaði. Hægt er að nota gerðir staðsetninga sem síunarvalkosti til að stýra mismunandi vöruhúsakerfisferlum. Nafn hverrar staðsetningartegundar lýsir venjulega einhverju um hvernig ætti að nota þá staðsetningargerð. Staðsetningargerðin sem þú setur upp hér verður að vera tengd hverri staðsetningu sem er notuð fyrir pökkunaraðgerðir.
+Skilgreina verður *staðsetningartegund* fyrir pökkunarstaðsetningar. Hægt er að nota gerðir staðsetninga sem síunarvalkosti til að stýra mismunandi vöruhúsakerfisferlum. Nafn hverrar staðsetningargerðar lýsir yfirleitt einhverju um hvernig sú staðsetningargerð ætti að vera notuð. Staðsetningargerðin sem þú setur upp hér verður að vera tengd við hverja staðsetningu sem er notuð fyrir pökkunaraðgerðir.
 
-Fylgdu þessum skrefum til að setja upp staðsetningargerð.
+Fylgið þessum skrefum til að setja upp staðsetningargerð.
 
 1. Opnaðu **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Gerðir staðsetninga**.
-1. Á aðgerðarrúðunni velurðu **Nýtt** til að bæta staðsetningargerð við hnitanetið.
-1. Stilltu eftirfarandi reiti fyrir nýju staðsetningargerðina:
+1. Á aðgerðasvæðinu skal velja **Nýtt** til að bæta staðsetningargerð við hnitanetið.
+1. Stillið eftirfarandi reiti fyrir nýju staðsetningargerðina:
 
-    - **Staðsetningargerð** – Sláðu inn heiti fyrir staðsetningargerðina. Hvert nafn verður að vera einstakt og ætti að lýsa einhverju um hvernig staðsetningargerðinni er ætlað að nota.
-    - **Lýsing** – Sláðu inn stutta lýsingu á staðsetningargerðinni.
+    - **Staðsetningargerð** – Slá inn heiti fyrir staðsetningargerðina. Hvert nafn verður að vera einkvæmt og ætti að lýsa einhverju um hvernig staðsetningargerðin er ætluð til notkunar.
+    - **Lýsing** – Færðu inn stutta lýsingu á staðsetningargerðinni.
 
-#### <a name="inform-the-system-about-the-packing-location-type"></a>Láttu kerfið vita um gerð pökkunarstaðsetningar
+#### <a name="inform-the-system-about-the-packing-location-type"></a>Upplýsa kerfið um gerð pökkunarstaðsetningar
 
-Eftir að þú hefur búið til staðsetningargerð verður þú að setja upp kerfið þitt til að þekkja það sem staðsetningargerðina til að nota fyrir pökkunaraðgerðir.
+Eftir að staðsetningargerð hefur verið búin til verður að stilla kerfið þannig að það þekkist sem sú staðsetningargerð sem á að nota við pökkunaraðgerðir.
 
-Fylgdu þessum skrefum til að stilla staðsetninguna sem er notuð fyrir pökkunaraðgerðir.
+Fylgið þessum skrefum til að stilla staðsetningartegundina sem er notuð fyrir pökkunaraðgerðir.
 
-1. Fara til **Vöruhússtjórnun \> Uppsetning \> Vöruhússtjórnunarfæribreytur**
-2. Á **Almennt** flipa, á **Staðsetningargerðir** flýtiflipann, stilltu **Gerð pökkunarstaðsetningar** reitnum að staðsetningargerðinni sem þú munt nota til að auðkenna pökkunarstöðvar.
+1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**
+2. Í flipanum **Almennt**, í flýtiflipanum **Gerðir staðsetninga**, skal stilla reitinn **Gerð pökkunarstaðsetningar** á staðsetningargerðina sem á að nota til að auðkenna pökkunarstöðvar.
 
 > [!NOTE]
-> Ef þú ert að uppfæra úr útgáfu af Microsoft Dynamics AX, hinn *Í pökkun* Staðan hefur verið fjarlægð úr sendingum og farmi, vegna þess að það virkaði ekki stöðugt og olli óþarfi gögnum. Þess vegna er **Í sendingum** og **Hleðsla í pökkun** listasíður hafa verið úreltar. Gámar sem þarf að pakka eru raktar á staðsetningarstigi.
+> Ef þú ert að uppfæra úr nýrri útgáfu af Microsoft Dynamics AX, þá hefur staðan *Í pökkun* verið fjarlægð úr sendingum og förmum, því það virkaði ekki af fullri samkvæmni og bjó til umframgögn. Því hafa listasíðurnar **Í afhendingu** og **Farmur í pökkun** verið gerðar úreltar. Gámar sem verður að pakka eru raktir á birgðageymslustigi.
 >
-> Í fyrri útgáfum skilgreindirðu pökkunarstaðinn með því að nota **Prófílauðkenni fyrir pökkunarstað** sviði á **Pökkun** flipi á **Stærðir vöruhúsastjórnunar** síðu til að tilgreina a *staðsetningarsnið*. Í núverandi útgáfu notarðu **Gerð pökkunarstaðsetningar** sviði á **Almennt** flipi á **Stærðir vöruhúsastjórnunar** síðu til að tilgreina a *staðsetningargerð*, eins og lýst er í þessari grein. Nýi reiturinn er betur í takt við ferlið við að bera kennsl á stöðvunarstaði og endanlega sendingarstaði.
+> Í fyrri útgáfum hefur þú skilgreint pökkunarstaðsetninguna með því að nota reitinn **Auðkenni notendaupplýsinga fyrir pökkunarstaðsetningar** á flipanum **Pökkun** á síðunni **Færibreytur vöruhúsakerfis** til að tilgreina *staðsetningarsnið*. Í núverandi útgáfu, getur þú notað reitinn fyrir **Gerð pökkunarstaðsetningar** á flipanum **Almennt** á síðunni **Færibreytur vöruhúsakerfis** til að tilgreina *tegund staðsetningar*, eins og lýst er í þessari grein. Nýi reiturinn er í betra samræmi við ferlið við að finna sviðsetningarstaðsetningar og endanlegar sendingarstaðsetningar.
 >
-> Þó þú getir haldið áfram að nota gamla **Prófílauðkenni fyrir pökkunarstað** reit, mælum við með að þú byrjar að nota nýja **Gerð pökkunarstaðsetningar** reit í staðinn, vegna þess að gamli reiturinn verður að lokum úreltur.
+> Þrátt fyrir að þú getir haldið áfram að nota gamla **Auðkenni notendaupplýsinga fyrir pökkunarstaðsetningar**, mælum við með því að þú byrjir að nota nýja reitinn **Gerð pökkunarstaðsetningar** í staðinn vegna þess gamli reiturinn verður að lokum úreltur.
 >
-> Ef þú hreinsar stillinguna á gamla **Prófílauðkenni fyrir pökkunarstað** reitinn og vistaðu síðan síðuna, reiturinn verður varanlega óvirkur. Fyrir uppsetningar þar sem **Prófílauðkenni fyrir pökkunarstað** reiturinn hefur aldrei verið notaður, hann verður alltaf óvirkur. Eftir að þú hefur hreinsað stillinguna á **Prófílauðkenni fyrir pökkunarstað** reit, notaðu stillingarnar sem lýst er í þessari grein til að setja upp og bera kennsl á pökkunarstaðinn þinn.
+> Ef þú hreinsar stillingar á gamla reitnum **Auðkenni notendaupplýsinga fyrir pökkunarstaðsetningar** og vistar síðan síðuna verður reiturinn gerður óvirkur til frambúðar. Fyrir uppsetningar þar sem reiturinn **Auðkenni notendaupplýsinga fyrir pökkunarstaðsetningar** hefur aldrei verið notað verður hann alltaf gerður óvirkur. Eftir að þú hefur hreinsað reitinn **Auðkenni notendaupplýsinga fyrir pökkunarstaðsetningar** skaltu nota stillingarnar sem lýst er í þessari grein til að setja upp og auðkenna pökkunarstaðsetninguna þína.
 
-#### <a name="set-up-location-profiles-for-packing-locations"></a>Settu upp staðsetningarsnið fyrir pökkunarstaði
+#### <a name="set-up-location-profiles-for-packing-locations"></a>Setja upp staðsetningarforstillingar fyrir pökkunarstaðsetningar
 
-Hver *staðsetningarsnið* setur upplýsingar og reglur sem gilda um tengda staði. Þar sem þú þarft að minnsta kosti eina staðsetningu til að nota fyrir pökkunaraðgerðir, verður þú að búa til staðsetningarsnið fyrir hana til viðbótar við staðsetningargerð. Hvert snið er hægt að nota af hvaða fjölda staða sem er. Staðsetningar sem eru notaðar til pökkunar verða að vera settar upp til að rekja númeraplötur.
+Á hverjum *staðsetningarforstillingu* eru upplýsingar og reglur sem gilda um tengdar staðsetningar. Þar sem þú þarft að hafa að minnsta kosti eina staðsetningu til að nota fyrir pökkunaraðgerðir, verður þú að búa til staðsetningarforstilling fyrir hana til viðbótar við staðsetningargerð. Hægt er að nota hvern prófíl fyrir sig eftir fjölda staðsetninga. Staðsetningar sem eru notaðar til pökkunar verða að vera settar upp til að rekja númeraplötur.
 
-Fylgdu þessum skrefum til að setja upp staðsetningarsnið fyrir pökkunarstað.
+Fylgið þessum skrefum til að setja upp staðsetningarforstillingu fyrir pökkunarstaðsetningu.
 
 1. Fara í **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Forstillingar staðsetningar**.
-1. Veldu annað hvort fyrirliggjandi prófíl af listaglugganum eða veldu **Nýtt** á aðgerðarrúðunni til að búa til nýjan.
-1. Á haus nýja eða valda sniðsins skaltu stilla eftirfarandi reiti:
+1. Veldu núverandi forstilling á listasvæðinu eða veldu **Nýtt** á aðgerðasvæðinu til að búa til nýjan.
+1. Í haus nýja eða valda sniðsins skal stilla eftirfarandi reiti:
 
-    - **Auðkenni staðsetningarprófíls** – Sláðu inn einstakt auðkenni fyrir prófílinn.
-    - **Nafn** – Sláðu inn lýsandi heiti fyrir prófílinn.
+    - **Kenni staðsetningarforstillingar** Sláið inn einkvæmt kenni fyrir forstillinguna.
+    - **Heiti** - Færið inn lýsandi heiti á forstillingunni.
 
 1. Á flýtiflipanum **Almennt** stillirðu eftirfarandi reiti:
 
-    - **Staðsetningarsnið** – Veldu staðsetningarsniðið sem á að nota fyrir núverandi staðsetningu. Staðsetningarsnið eru nafnakerfi sem er notað til að búa til einstök og samræmd nöfn fyrir mismunandi staðsetningarhólfsstöður sem eru notaðar í vöruhúsi. Ef þú ert ekki þegar með sniðið sem þú þarft geturðu búið það til með því að fara á **Vöruhússtjórnun \> Uppsetning \> Vöruhús \> Staðsetningarsnið**. Frekari upplýsingar er að finna í [Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](tasks/configure-locations-wms-enabled-warehouse.md).
-    - **Staðsetningargerð** – Veldu staðsetningargerðina sem er sett upp sem gerð pökkunarstaðsetningar á **Vöruhússtjórnunarfæribreytur** síðu, eins og lýst er fyrr í þessari grein.
-    - **Notaðu númeraplötumælingu** – Fyrir pökkunarstaði, stilltu þennan valkost á *Já*. Kerfið verður að geta fylgst með auðkenni númeraplötu á pökkunarstöðum, svo það geti stjórnað pökkunarferlinu.
-    - **Leyfa neikvæðar birgðir** – Fyrir pökkunarstaði, stilltu þennan valkost á *Nei*.
-    - **Leyfa blandað atriði** – Fyrir pökkunarstaði, stilltu þennan valkost á *Já*. Þessi stilling er nauðsynleg vegna þess að mörg mismunandi vörunúmer eru venjulega færð á pökkunarstaðina á sama tíma.
-    - **Leyfa blandaðar birgðastöður** – Fyrir pökkunarstaði, stilltu þennan valkost á *Já*. Þessi stilling er nauðsynleg vegna þess að vörur sem hafa mismunandi birgðastöðu eru venjulega fluttar á pökkunarstaðina á sama tíma.
-    - **Leyfa blandaðar birgðalotur** – Fyrir pökkunarstaði, stilltu þennan valkost á *Já*. Þessi valkostur er sjálfkrafa stilltur á *Já* hvenær sem **Leyfa blandað atriði** valkostur er stilltur á *Já*.
+    - **Staðsetningarsnið** – Velja staðsetningarsniðið sem á að nota fyrir núverandi staðsetningu. Staðsetningarsnið eru nafngiftarkerfi sem eru notuð til að stofna einkvæm og samræmd heiti fyrir mismunandi staðsetningar karfa sem eru notað innan vöruhúss. Ef þú ert ekki nú þegar með sniðið sem þú þarft geturðu búið það til með því að opna **Vöruhúsastjórnun \> Uppsetning \> Vöruhús \> Staðsetningarsnið**. Frekari upplýsingar er að finna í [Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](tasks/configure-locations-wms-enabled-warehouse.md).
+    - **Tegund staðsetningar** – Veldu tegund staðsetningar sem er sett upp sem tegund pökkunarstaðsetningar á síðunni **Færibreytur vöruhúsakerfis**, eins og lýst var fyrr í þessari grein.
+    - **Nota rakningu númeraplötu** – Fyrir pökkunarstaðsetningar skal stilla þennan valkost á *Já*. Kerfið verður að geta fylgst með númeraplötuauðkennum á pökkunarstöðum svo það geti stjórnað pökkunarferlinu.
+    - **Leyfa neikvæðar birgðir** – Fyrir pökkunarstaðsetningar, stillið þennan valkost á *Nei*.
+    - **Leyfa blönduð atriði** – Fyrir pökkunarstaðsetningar skal stilla þennan valkost á *Já*. Þessarar stillingar er krafist vegna þess að mörg mismunandi vörunúmer eru yfirleitt færð á pökkunarstaðina á sama tíma.
+    - **Leyfa blandaðar birgðastöðu** – Fyrir pökkunarstaðsetningar skal stilla þennan valkost á *Já*. Þessi stilling er nauðsynleg vegna þess að vörur með mismunandi birgðastöðu eru yfirleitt færðir á pökkunarstaðina á sama tíma.
+    - **Leyfa blandaðar birgðarunur** – Fyrir pökkunarstaðsetningar skal stilla þennan valkost á *Já*. Þegar þessi valkostur er sjálfkrafa stilltur á *Já* í hvert sinn þegar valkosturinn **Leyfa blandaðar vörur** er stilltur á *Já*.
 
-#### <a name="set-up-packing-locations"></a>Settu upp pökkunarstaði
+#### <a name="set-up-packing-locations"></a>Setja upp pökkunarstaðsetningar
 
-Þú verður að hafa að minnsta kosti einn *staðsetningu* þar sem starfsmenn munu setja birgðahluti sem þarf að pakka í gáma.
+Nauðsynlegt er að vera með minnst eina *staðsetningu* þar sem starfskraftar setja birgðir sem þarf að pakka niður í gáma.
 
-Fylgdu þessum skrefum til að bæta við pökkunarstað.
+Fylgið eftirfarandi skrefum til að bæta við pökkunarstaðsetningu.
 
 1. Opnaðu **Vöruhúsakerfi \> Uppsetning \> Vöruhús \> Staðsetningar**.
-1. Á aðgerðarrúðunni velurðu **Nýtt** til að bæta við staðsetningu.
-1. Stilltu eftirfarandi reiti fyrir nýju staðsetninguna:
+1. Á aðgerðasvæðinu skal velja **Nýr** til að bæta við staðsetningu.
+1. Stillið svo eftirfarandi reiti fyrir nýju staðsetninguna:
 
-    - **Vöruhús** – Tilgreindu vöruhúsið þar sem pökkunarstaðurinn verður að vera til.
-    - **Staðsetning** – Sláðu inn nafn fyrir nýja staðsetninguna.
-    - **Auðkenni staðsetningarprófíls** – Vertu viss um að tilgreina auðkennið sem þú bjóst til í fyrri hlutanum.
+    - **Vöruhús** – Tilgreinið vöruhúsið þar sem pökkunarstaðsetning þarf að vera.
+    - **Staðsetning** – Færðu inn heiti fyrir nýja staðsetningu.
+    - **Auðkenni staðsetningarforstillingar** – Gættu þess að tilgreina auðkennið sem var búið til í fyrri hlutanum.
 
-## <a name="set-up-the-packing-process"></a>Settu upp pökkunarferlið
+## <a name="set-up-the-packing-process"></a>Setja upp pökkunarferlið
 
-Þessi hluti lýsir því hvernig á að stilla stillingar sem virkja pökkunarferlið og leyfa starfsmönnum að pakka birgðum í gáma.
+Þessi hluti lýsir því hvernig stilla skuli stillingar sem virkja pökkunarferlið og láta starfskrafta pakka birgðum í gám.
 
 ### <a name="set-up-container-packing-policies"></a><a name="packing-policy"></a>Setja upp pökkunarreglur geymis
 
-Hver *gámapökkunarstefnu* skilgreinir hvernig ílát á að vinna. Í hvert skipti sem þú býrð til nýjan gám muntu einnig velja gámapökkunarstefnu til að eiga við hann.
+Hver *Pökkunarregla gáms* skilgreinir hvernig vinna skal úr gámi. Í hvert sinn sem nýr gámur eru stofnuð er einnig valin pökkunarregla fyrir gáminn til að nota í þau.
 
 Fylgið þessum skrefum til að setja upp pökkunarreglur gáms.
 
 1. Fara í **Vöruhúsakerfi \> Uppsetning \> Gámar \> Pökkunarreglur gáms**.
-1. Veldu annaðhvort núverandi stefnu af listaglugganum eða veldu **Nýtt** á aðgerðarrúðunni til að búa til nýjan.
+1. Veldu núverandi reglu á listasvæðinu eða veldu **Nýtt** á aðgerðasvæðinu til að búa til nýjan.
 1. Í haus nýju eða völdu reglunnar skal stilla eftirfarandi gildi:
 
-    - **Gámapökkunarstefna** – Sláðu inn einstakt heiti fyrir stefnuna.
-    - **Lýsing** – Sláðu inn lýsandi heiti fyrir stefnuna.
+    - **Pökkunarregla gáms** – Slá inn einkvæmt heiti reglunnar.
+    - **Lýsing** - Færið inn lýsandi heiti á reglunni.
 
-1. Á **Yfirlit** flipanum, stilltu eftirfarandi reiti. Þessir reitir gera þér kleift að tilgreina hvaða aðgerðir eigi að grípa til þegar gámurinn er lokaður, hvort á að starfa með eða án vinnusköpunar og hvenær ílátið á að losa frá pökkunarstöðinni.
+1. Í flipanum **Yfirlit** skal stilla eftirfarandi reiti. Þessir reitir gera þér kleift að tilgreina til hvaða aðgerða skal grípa þegar gám er lokað, hvort það eigi að starfa með eða án vinnustofnunar og hvenær losa eigi gám úr pökkunarstöðinni.
 
-    - **Vöruhús** – Veldu vöruhúsið þar sem pökkunarstefnan á við.
-    - **Sjálfgefin staðsetning fyrir endanlega sendingu** – Tilgreindu ákjósanlega staðsetningu fyrir ílátið eftir að honum hefur verið lokað. Þessi reitur er aðeins tiltækur þegar **Gámaútgáfustefna** reiturinn er stilltur á *Gera tiltækt á endanlegum sendingarstað*.
-    - **Sjálfgefin staðsetning fyrir flokkun** – Þessi reitur er notaður með [flokkun á útleið](outbound-sorting.md) getu.
-    - **Þyngdareining** – Veldu sjálfgefna mælieiningu sem á að nota þegar ílát er lokað og birtist. Venjulega mun þessi mælieining vera mælieiningin sem er notuð af kvarða á pökkunarstöðinni. Þessi reitur á við um stefnur með eða án vinnusköpunar.
-    - **Stefna um lokun gáma** – Veldu einn af eftirfarandi valkostum til að skilgreina hvað ætti að gerast þegar ílátið er lokað:
+    - **Vöruhús** – Veljið vöruhúsið þar sem pökkunarreglan gildir.
+    - **Sjálfgefin staðsetning lokasendingar -** Tilgreindu ákjósanlega staðsetningu gáms eftir að því er lokað. Þessi reitur er einungis í boði þegar reiturinn **Losunarregla geymis** er stillt á *Gera tiltækt á endanlegum sendingarstað*.
+    - **Sjálfgefin staðsetning fyrir röðun** – Þessi reitur er notaður með eiginleikanumm [raða á útleið](outbound-sorting.md).
+    - **Þyngdareining** – Veldu sjálfgefna mælieiningu til að nota þegar gámi er lokað og skráður. Venjulega er þessi mælieining mælieiningin sem er notuð af vog á pökkunarstöðinni. Þessi reitur á við reglur með eða án sköpunar vinnu.
+    - **Reglur um lokun gáms** – Veljið einn af eftirfarandi valkostum til að skilgreina hvað á að eiga sér stað þegar gámnum er lokað:
 
-        - *Sjálfvirk losun* – Gámurinn verður talinn losaður frá pökkunarstöðinni og aðgerðin sem tilgreind er í **Gámaútgáfustefna** reiturinn verður ræstur.
-        - *Seinkun á útgáfu* – Gámurinn losnar ekki strax frá pökkunarstöðinni. Vöruhússtarfsmaður verður að losa það handvirkt síðar.
-        - *Valfrjálst* – Á meðan starfsmaður er að loka gámnum mun hann geta valið hvort gámnum skuli sleppt.
+        - *Sjálfvirk losun* – Gámur verður talið laust frá pökkunarstöðinni og aðgerðin sem tilgreind er í reitnum **Losunarregla gáms** verður virkjuð.
+        - *Seinkuð losun* – Gámurinn verður ekki tafarlaust losaður úr pökkunarstöðinni. Starfsmaður í vöruhúsi verður að losa það handvirkt síðar.
+        - *Valfrjálst* – Þegar starfskraftur lokar gámnum getur hann valið hvort losa skuli gáminn.
 
-        Ef pökkunarstöðin meðhöndlar aðallega staka gáma sem eru fluttir beint til viðskiptavina er eðlilegast að losa gámana strax. Ef pökkunarstöðin sér um sendingar sem samanstanda af mörgum gámum eða jafnvel brettum er líklega best að fresta losun þar til allri sendingunni eða brettinu hefur verið pakkað og tilbúið til afhendingar.
+        Ef pökkunarstöðin meðhöndlar aðallega staka gáma sem eru sendir beint til viðskiptavina er eðlilegasta aðferðin að losa gámana strax. Ef pökkunarstöðin sér um sendingar sem samanstanda af mörgum gámum eða jafnvel vörubrettum er líklega best að fresta losuninni þar til allri sendingunni eða vörubrettinu hefur verið pakkað og er tilbúinn til afhendingar.
 
-    - **Gámaútgáfustefna** – Veldu einn af eftirfarandi valkostum til að skilgreina hvað ætti að gerast þegar ílátið er losað af pökkunarstaðnum:
+    - **Losunarregla gáms** – Veljið einn af eftirfarandi valkostum til að skilgreina hvað á að eiga sér stað þegar gámur er losað frá pökkunarstað:
 
-        - *Gera tiltækt á endanlegum sendingarstað* – Uppfærðu gáminn á endanlegan sendingarstað. Ef þú velur þennan valkost skaltu nota **Sjálfgefin staðsetning fyrir endanlega sendingu** reit til að tilgreina valinn stað fyrir gáminn eftir að honum er lokað.
-        - *Búðu til verk til að flytja gám frá pökkunarstöð* – Búðu til vinnu til að flytja gáminn frá pökkunarstöðinni á uppsetningarsvæðið eða beint að flóahurðinni. Nota **Vinnusniðmát** reit til að tilgreina vinnusniðmátið sem ætti að nota þegar verk er búið til fyrir ílátið.
-        - *Úthlutaðu íláti á flokkunarstöðu á útleið* – Þessi valkostur er notaður með [flokkun á útleið](outbound-sorting.md) getu.
+        - *Gera tiltækt á endanlegum sendingarstað* – Uppfærðu gáminn á endanlegan sendingarstað. Ef þessi kostur er valinn skaltu nota reitinn **Sjálfgefin staðsetning lokasendingar** til að tilgreina ákjósanlega staðsetningu fyrir gáminn eftir að því hefur verið lokað.
+        - *Stofna vinnu til að færa geymi af pökkunarstöð* – Stofna vinnu til að færa geymi af pökkunarstöð yfir á biðsvæði eða beint á útkeyrsluhurð. Notaðu reitinn **Vinnusniðmát** til að tilgreina vinnusniðmátið sem á að nota þegar vinna er búin til fyrir gám.
+        - *Úthluta gámi flokkaðri staðsetningu á útleið* – Þessi valkostur er notaður með eiginleikanum [flokkun á útleið](outbound-sorting.md).
 
-        Í flestum tilfellum mælum við með því að þú stofnir verk til að færa gáma, því þessi nálgun endurspeglar betur raunveruleg handvirk ferla í vöruhúsinu. Hins vegar, fyrir einfaldar aðstæður, eða aðstæður þar sem pökkunarstöðin er staðsett beint á flóadyrasvæðinu, gæti verið æskilegt að gámurinn sé strax tiltækur á loka sendingarstaðnum.
+        Í flestum tilvikum er mælt með því að þú búir til verk til að færa gáma, vegna þess að þessi aðferð sýnir betur raunverulega handvirka ferla í vöruhúsinu. Hins vegar, við einfaldar aðstæður, eða aðstæður þar sem pökkunarstöðin er staðsett beint á úthliði, gæti verið æskilegt að gámurinn sé tiltækt strax á endanlegum sendingarstað.
 
-    - **Vinnusniðmát** – Veldu vinnusniðmátið sem á að nota þegar verk er búið til fyrir ílátið. Þessi reitur er aðeins tiltækur þegar **Gámaútgáfustefna** reiturinn er stilltur á *Búðu til verk til að flytja gám frá pökkunarstöð* og tengist tegund verkbeiðni sem er nefnd *Pökkuð gámatínsla*. Fyrir frekari upplýsingar, sjá [Vinnusniðmát og staðsetningarleiðbeiningar](control-warehouse-location-directives.md).
+    - **Vinnusniðmát** – Veldu vinnusniðmátið sem á að nota þegar vinna er búin til fyrir gáminn. Þetta svæði er aðeins tiltækt þegar reiturinn **Losunarregla gáms** er stillt á *Stofna vinnu til að færa gám frá pökkunarstöð* og tengist verkbeiðnigerð sem er nefnd *Tiltekt pakkaðs gáms*. Frekari upplýsingar eru í [Vinnusnið og staðsetningarleiðbeiningar](control-warehouse-location-directives.md).
 
-    Í þeim skrefum sem eftir eru muntu stilla stillingar sem tengjast *birtast*. Birting er ferlið við að tilgreina þyngd gáms, gámahóps eða sendingar ásamt rakningarauðkenni sem er móttekið frá flutningsaðila. Dynamics 365 Supply Chain Management er ekki samþætt við ytri flutningsþjónustukerfi. Þess í stað verða starfsmenn vöruhúsa að prenta út merkimiða sem berast frá flutningsaðilanum og skanna síðan rakningarnúmer þegar þeir ljúka upplýsingaskránni.
+    Í næstu skrefum stillir þú stillingar sem varða *skráningu*. Skráning er ferlið við að tilgreina þyngd gáms, gámaflokks eða sendingar, ásamt rakningarkennum sem berast frá flutningsaðila. Dynamics 365 Supply Chain Management er ekki hægt að samþætta ytri kerfum flutningsaðila. Þess í stað verða vöruhúsastarfskraftar að prenta merkimiða sem berast frá flutningafyrirtækinu og skanna síðan rakningarnúmer þegar þeir fylla út farmskrána.
 
-    Vegna þess að kröfur eru mismunandi frá viðskiptavinum til viðskiptavina, og jafnvel frá sendingu til sendingar, leyfa pökkunarstefnur verulegan sveigjanleika í verkflæðinu. Þú getur sett upp upplýsingaskrá fyrir gáma, gámahópa og sendingar í hvaða samsetningu sem er.
+    Vegna þess að skráningarkröfur eru mismunandi frá viðskiptavini til viðskiptavinar, og jafnvel frá sendingu til sendingar, veita pökkunarreglur verulegan sveigjanleika í verkflæðinu. Hægt er að setja upp farmskrár fyrir gáma, gámaflokka og sendingar í hvaða samsetningu sem er.
 
-    Ef þú ert að nota margþrepa upplýsingaskrá, verða starfsmenn að birta alla gáma áður en þeir birta tengda gámahópinn og þeir verða að birta alla gámahópa áður en þeir birta tengda sendinguna.
+    Ef þú ert að nota fjölþrepa verklag við skráningu verða starfskraftar að skrá öll gáma áður en þeir skrá tengdan gámaflokk og þeir verða að skrá alla gámaflokka áður en þeir skrá tengda sendingu.
 
-1. Á **Gámaskrá** Flýtiflipi, stilltu eftirfarandi reiti:
+1. Stilltu eftirfarandi reiti á flýtiflipanum **Skrá geymis**:
 
-    - **Sjálfvirk upplýsingaskrá við lokun gáma** – Stilltu þennan valkost á *Já* að beita upplýsingaskrá sem hluta af lokunarferli gáma. Ef þú ert ekki að nota samþættingu flutninga verður að skrá upplýsingarnar handvirkt.
-    - **Augljósar kröfur um ílát** – Veldu einn af eftirfarandi valkostum:
+    - **Sjálfvirk skrá við lokun gáms** – Stillið þennan valkost á *Já* til að skrá upplýsingum um skráningarupplýsingar sem hluta af lokunarferli gámsins. Ef þú ert ekki að nota samþættingu flutninga verður að skrá upplýsingarnar handvirkt.
+    - **Skráarkröfur fyrir gám** – Veljið einn af eftirfarandi valkostum:
 
-        - *Enginn* – Ekkert birtingarferli verður notað.
-        - *Handbók* - Krafist er opinberunar í pökkunarvinnuflæðinu. Kerfið mun ekki leyfa að ílát sé lokað eða sleppt fyrr en birtingu er lokið.
-        - *Samgöngustjórnun* - Birting verður unnin með flutningsstjórnunarvélum (TMS). Vegna þess að þessi valkostur krefst sérsniðinnar þróunar til að innleiða ákveðna vél fyrir flutningsaðilann mun hann ekki virka beint úr kassanum í núverandi útgáfu.
+        - *Ekkert* - Ekkert kynningarferli verður notað.
+        - *Handvirkt* – Verkflæði pökkunar krefst skráningar. Kerfið leyfir ekki að gámi sé lokað eða losað fyrr en skráningu er lokið.
+        - *Flutningsstjórnun* – Skráning verður gerð í gegnum taxtavélar flutningsstjórnunar (TMS). Þar sem þessi valkostur krefst sérsniðinnar þróunar til að framkvæma tiltekna vél fyrir flutningafyrirtækið mun hún ekki virka eins og hún kemur fyrir í núverandi útgáfu.
 
-    - **Prentaðu innihald ílátsins** – Stilltu þennan valkost á *Já* til að prenta sjálfkrafa skýrslu um innihald gáma þegar gámur er skráður sem lokaður. Skýrsluna er einnig hægt að prenta eftir beiðni.
+    - **Prenta innihald gámsins** – Stillið þennan valkost á *Já* til að prenta sjálfkrafa innihaldsskýrslu gáms þegar gámur er skráð lokað. Einnig er hægt að prenta skýrsluna eftir þörfum.
 
-1. Á **Upplýsingaskrá gámahóps** Flýtiflipi, í **Augljósar kröfur til gámahóps** reit, veldu einn af eftirfarandi valkostum:
+1. Á flýtiflipanum **Skráning geymaflokks**, í reitnum **Skráarkröfur fyrir geymaflokk** skal velja einn eftirfarandi valkosta:
 
-    - *Enginn* – Upplýsingaskrá gámahópsins verður ekki tekin með sem krafa í pökkunarverkflæðinu.
-    - *Handbók* – Upplýsingaskrá gámahópsins verður innifalin sem krafa í pökkunarvinnuflæðinu. Loka þarf öllum ílátum sem eru í hópnum áður en hægt er að birta hópinn. Veldu þennan valkost ef þú þarft að fylla út upplýsingaskrá fyrir hvern gámahóp sem er pakkaður á pökkunarstöðinni. Þú velur venjulega þennan valkost ef gámum er pakkað á bretti og allt brettið kemur fram.
+    - *Ekkert* – Farmskrá geymaflokks verður ekki tekin með sem skilyrði í verkflæði pöntunar.
+    - *Handbók* – Farmskrá geymaflokks verður tekin með sem krafa í verkflæði pökkunar. Allir gámar í hópnum verða að vera lokað áður en hægt er að skrá flokkinn. Veljið þennan valkost ef fylla þarf út farmskrá fyrir hvern gámaflokk sem er pakkað á pökkunarstöðinni. Þennan kost velur þú yfirleitt ef gámum er pakkað á vörubretti og allt vörubrettið er skráð.
 
     > [!NOTE]
-    > Núverandi útgáfa styður ekki upplýsingaskrár fyrir gámahópa og það er enginn TMS vélstuðningur fyrir gámahópa.
+    > Núverandi útgáfa styður ekki farmskrár fyrir gámaflokka og engin TMS-vél styður við gámaflokka.
 
-1. Á **Sendingarskrá** Flýtiflipi, stilltu eftirfarandi reiti:
+1. Á flýtiflipanum **Farmskrá sendingar** stillirðu eftirfarandi reiti:
 
-    - **Augljósar kröfur um sendingu** – Veldu einn af eftirfarandi valkostum:
+    - **Skráarkröfur fyrir sendingu** – Veljið einn af eftirfarandi valkostum:
 
-        - *Enginn* – Upplýsingaskrá sendingar verður ekki innifalin sem krafa í pökkunarferlinu.
-        - *Handbók* – Upplýsingaskrá sendingar verður innifalin sem krafa í pökkunarferlinu. Engum gámum fyrir sendingu er hægt að losa fyrr en birtingu er lokið.
-        - *Samgöngustjórnun* - Birting verður gerð í gegnum TMS hraðavélar. Vegna þess að þessi valkostur krefst sérsniðinnar þróunar til að innleiða ákveðna vél fyrir flutningsaðilann mun hann ekki virka beint úr kassanum í núverandi útgáfu.
+        - *Ekkert* – Farmskrá sendingar verður ekki tekin með sem skilyrði í verkflæði pöntunar.
+        - *Handbók* – Farmskrá sendingar verður tekin með sem krafa í verkflæði pökkunar. Engum gámum fyrir sendingu er hægt að sleppa fyrr en að skráningu lokinni.
+        - *Flutningsstjórnun* – Skráning verður gerð í gegnum TMS-taxtavélar. Þar sem þessi valkostur krefst sérsniðinnar þróunar til að framkvæma tiltekna vél fyrir flutningafyrirtækið mun hún ekki virka eins og hún kemur fyrir í núverandi útgáfu.
 
-        Sendingarskráning ætti að vera virkjuð ef þú þarft að fylla út upplýsingaskrá fyrir alla sendinguna sem er pakkað á pökkunarstöðinni. Það er venjulega notað þegar krafist er einnar samstæðu upplýsingaskrár jafnvel þó að sendingin samanstandi af mörgum gámum eða gámahópum.
+        Skráning sendingar ætti að vera virk ef þú þarft að fylla út farmskrá fyrir alla sendinguna sem er pökkuð á pökkunarstöðinni. Það er yfirleitt notað þegar þörf er á einni samstæðri farmskrá jafnvel þótt sendingin samanstandi af mörgum gámum eða gámaflokkum.
 
-    - **Prentaðu fylgiseðil** – Stilltu þennan valkost á *Já* til að prenta fylgiseðilinn sjálfkrafa sem hluta af sendingarskránni. Einnig er hægt að prenta fylgiseðilinn ef óskað er.
+    - **Prenta fylgiseðil** – Stillið þennan valkost á *Já* til að prenta sjálfkrafa út fylgiseðil sem hluta af farmskrá. Einnig er hægt að prenta út fylgiseðilinn eftir þörfum.
 
 ### <a name="set-up-container-types"></a>Setja upp gámagerðir
 
-Í handvirku pökkunarferlinu verður að búa til ílát áður en hægt er að pakka hlutum inn í þá. Hver ílát verður að byggjast á a *gerð gáma*, sem skilgreinir hámarks líkamlegt rúmmál og þyngdargetu gáms.
+Á meðan á handvirka pökkunarferlinu stendur verður að búa til gáma áður en hægt er að pakka vörum í þau. Hver gámur verður að vera byggður á *gámagerð*, sem skilgreinir hámarks efnislegt rúmmál gáms og burðargetu.
 
 Fylgdu þessum skrefum til að búa til gámagerð.
 
-1. Fara til **Vöruhússtjórnun \> Uppsetning \> Gámar \> Gámategundir**.
-1. Á aðgerðarrúðunni velurðu **Nýtt** til að bæta við gerð gáma.
-1. Stilltu eftirfarandi reiti fyrir nýju gámagerðina:
+1. Fara í **Vöruhúsakerfi \> Uppsetning \> Gámar \> Gámagerðir**.
+1. Á aðgerðasvæðinu skal velja **Nýtt** til að bæta við gámagerð.
+1. Stillið svo eftirfarandi reiti fyrir nýju gámagerðina:
 
-    - **Gámategundarkóði** – Sláðu inn einstakt auðkenni fyrir gámagerðina.
-    - **Lýsing** – Færið inn lýsingu á nýju gámagerðinni.
-    - **Tare þyngd** – Sláðu inn raunverulega eða áætlaða þyngd ílátsins.
-    - **Hámarks nettóþyngd** – Sláðu inn hámarksþyngd sem ílátið getur haldið.
+    - **Kóði fyrir gámagerð** – Sláið inn einkvæmt auðkenni fyrir gámagerð.
+    - **Lýsing** - Færðu inn lýsingu á nýju gámagerð.
+    - Í **Umbúðaþyngd** skal færa inn raunverulega eða áætlaða þyngd gámsins.
+    - **Hámarks nettóþyngd** - Sláðu inn þá hámarksþyngd sem gámur getur haldið.
 
-1. Í **Stærðir gáma** kafla, í **Lengd**, **·**, **·**, og **Bindi** reiti, sláðu inn líkamlegar stærðir ílátsins sjálfs.
-1. Í **Hámark** kafla, í **Lengd**, **·**, **·**, og **Bindi** reiti, sláðu inn hámarks efnisstærðir sem ílátið getur séð um.
-1. Hægt er að skilgreina viðbótareiginleika fyrir gámagerðir sem eru tengdar öðrum aðgerðum sem nota gáma. Fyrir frekari upplýsingar, sjá [Gámavæðing](wave-containerization.md).
+1. Í hlutanum **Gámavíddir** í reitunum **Lengd**, **Breidd**, **Hæð** og **Rúmmál**, skal færa inn efnislegar víddir gámsins.
+1. Í hlutanum **Hámark** í reitunum **Lengd**, **Breidd**, **Hæð** og **Rúmmál**, skal færa inn hámarks efnislegar víddir gámsins.
+1. Þú getur skilgreint viðbótareiginleika fyrir gámagerðir sem tengjast öðrum aðgerðum sem nota gáma. Frekari upplýsingar eru í [Gámun](wave-containerization.md).
 
 > [!NOTE]
-> Fyrir handvirka pökkunarferlið notar kerfið aðeins verðmæti **Hámarks nettóþyngd** sviði og verðmæti **Bindi** sviði í **Hámark** kafla.
+> Fyrir handvirka pökkunarferlið notar kerfið aðeins gildið í reitnum **Hámarks nettóþyngd** og gildið í reitnum **Rúmmál** í hlutanum **Hámark**.
 
 ### <a name="set-up-packing-profiles"></a>Setja upp pökkunarforstillingar
 
-*Pökkunarsnið* eru nauðsynlegar fyrir pökkunarferlið. Þeir geta verið valdir eða stilltir sjálfgefið þegar þú byrjar pökkunaraðgerð á **Pakki** síðu.
+*Pökkunarsnið* eru nauðsynleg fyrir pökkunarferlið. Hægt er að velja þær eða stilla þær sjálfgefið þegar pökkun er hafin á síðunni **Pökkun**.
 
 Fylgið þessum skrefum til að setja upp forstillingu umbúða.
 
 1. Fara í **Vöruhúsakerfi \> Uppsetning \> Pökkun \> Forstillingar umbúða**.
-1. Veldu annað hvort fyrirliggjandi prófíl af listaglugganum eða veldu **Nýtt** á aðgerðarrúðunni til að búa til nýjan.
-1. Á haus nýja eða valda sniðsins skaltu stilla eftirfarandi reiti:
+1. Veldu núverandi forstilling á listasvæðinu eða veldu **Nýtt** á aðgerðasvæðinu til að búa til nýjan.
+1. Í haus nýja eða valda sniðsins skal stilla eftirfarandi reiti:
 
-    - **Pökkunarprófílauðkenni** – Sláðu inn stutt auðkenni fyrir prófílinn.
-    - **Lýsing** – Sláðu inn lýsingu á pökkunarsniðinu.
-    - **Gámapökkunarstefna** – Veldu pökkunarstefnuna sem á við um prófílinn. Fyrir frekari upplýsingar, sjá [Settu upp gámapökkunarreglur](#packing-policy) kafla þessarar greinar.
-    - **Gámaauðkennisstilling** – Veldu hvort gámaauðkenni eigi að mynda sjálfkrafa þegar gámur er búinn til, eða hvort það þarf að búa til handvirkt.
-    - **Gerð gáma** – Veldu gámagerðina sem er sjálfgefið notuð þegar nýr gámur er búinn til.
-    - **Búðu til gám sjálfkrafa við lok gámsins** – Veljið þennan gátreit til að búa til nýjan gám sjálfkrafa ef fyrri gámurinn er lokaður og ein eða fleiri línur eru eftir í núverandi sendingu.
+    - **Pökkunarforstillingakenni.** – Sláðu inn stutt kenni fyrir forstillinguna.
+    - **Lýsing** – Færið inn lýsingu á pökkunarforstillingu.
+    - **Pökkunarstefna gáms** – Veljið pökkunarstefnu sem á við prófílinn. Frekari upplýsingar eru í hlutanum [Setja upp pökkunarreglur geymis](#packing-policy) í þessari grein.
+    - **Auðkennisstilling gáms** Veldu hvort auðkenni gáms eigi sjálfkrafa að myndast þegar gámur er búið til eða hvort það verði að vera búið til handvirkt.
+    - **Gámagerð** – Veldu gámagerð sem er sjálfgefið notuð þegar nýjum gámi er stofnuð.
+    - **Stofna sjálfkrafa gám við lokun gáms** – Veljið þennan gátreit til að búa sjálfkrafa til nýjan gám ef fyrra gámur er lokað, og ein eða fleiri línur eru eftir í núverandi sendingu.
 
-### <a name="set-up-warehouse-workers"></a>Settu upp lagerstarfsmenn
+### <a name="set-up-warehouse-workers"></a>Setja upp starfsmenn í vöruhúsi
 
-Sérhver notandi eða starfsmaður sem pakkar gámum með því að nota **Pakki** síðu vefþjónsins eða *Pökkun* virknikóði í Warehouse Management farsímaforritinu verður að hafa notandareikning sem er tengdur við a *starfsmaður/manneskja* skrá sem nauðsynlegum öryggisaðgangsréttindum er úthlutað til. (Fyrir frekari upplýsingar um hvernig á að setja upp notendur, sjá [Búðu til nýja notendur](../../fin-ops-core/dev-itpro/sysadmin/tasks/create-new-users.md) .)
+Allir notendur eða starfskraftar sem pakka gámum með því að nota síðuna **Pökkun** í vefbiðlararanum eða aðgerðarkóðann *Pökkun* í farsímaforriti vöruhúsastjórnunar verða að hafa notendareikning sem tengist *starfskrafti/einstaklingi* og skrá að tilskildum aðgangsréttindum að öryggi sé úthlutað. (Nánari upplýsingar um hvernig setja á upp nýja notendur eru í [Setja upp notendur](../../fin-ops-core/dev-itpro/sysadmin/tasks/create-new-users.md).)
 
-Fylgdu þessum skrefum til að setja upp a *starfsmaður/manneskja* skrá fyrir pökkunarferlið.
+Fylgið þessum skrefum til að setja upp skrá *starfskraft/einstakling* fyrir pökkunarferlið.
 
 1. Fara í **Vöruhúsakerfi \> Uppsetning \> Starfskraftur**.
-1. Á aðgerðarrúðunni velurðu **Nýtt** til að bæta við vinnunotanda.
-1. Stilltu **Vinnumaður** reit í núverandi starfsmannsskrá sem er skilgreind í **Mannauður** mát fyrir notandann sem mun ljúka pökkunarferlinu.
+1. Á aðgerðasvæðinu skal velja **Nýtt** til að bæta við vinnunotanda.
+1. Stilltu reitinn **Starfskraftur** á núverandi starfskrafts sem skilgreind er í eininguni **Mannauður** fyrir notandann sem mun ljúka pökkunarferlinu.
 1. Á flýtiflipanum **Forstilling** skal stilla eftirfarandi reiti:
 
-    - **Regla gámapökkunar** – Veldu gámapökkunarreglu sem skilgreinir hvernig á að afgreiða gáma á pökkunarstöðinni. Gámapökkunarstefnan sem þú velur verður forvalin fyrir starfsmanninn þegar hann opnar pökkunarstöðina. Fyrir frekari upplýsingar, sjá eftirfarandi bloggfærslu: [Bætt pökkunarvirkni](https://cloudblogs.microsoft.com/dynamics365/no-audience/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611).
-    - **Pökkunarprófílauðkenni** – Veldu auðkenni pökkunarprófíls sem skilgreinir pökkunarstefnuna og gámastillingarnar sem ætti að nota. Ef valið auðkenni pökkunarsniðs er tengt gámapökkunarstefnu muntu ekki geta breytt stillingum **Gámapökkunarstefna** reit á þessari síðu.
+    - **Regla gámapökkunar** – Veldu gámapökkunarreglu sem skilgreinir hvernig á að afgreiða gáma á pökkunarstöðinni. Regla gámapökkunar sem er valin hér verður valin fyrirfram fyrir starfskraftinn þegar viðkomandi opnar pökkunarstöðina. Frekari upplýsingar er að finna í eftirfarandi bloggfærslu: [Bætt pökkunaraðferð](https://cloudblogs.microsoft.com/dynamics365/no-audience/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611).
+    - **Auðkenni pökkunarforstillingar** – Veldu auðkenni pökkunarforstillingar sem skilgreinir pökkunarreglu og gámastillingar sem ætti að nota. Ef valið auðkenni pökkunarforstillingar er tengt við reglu gámapökkunar verður ekki hægt að breyta stillingunni **Regla gámapökkunar** reitsins á þessari síðu.
 
-1. Á **Sjálfgefin pökkunarstöð** Flýtiflipi, veldu sjálfgefna síðu, vöruhús og staðsetningu sem eiga við starfsmanninn.
-1. Ef starfsmaðurinn mun nota Vöruhússtjórnun farsímaforritið til að stjórna og skrá gámapökkunarvinnu sína, á **Notendur** Flýtiflipi, settu upp einn eða fleiri reikninga sem starfsmaðurinn getur notað til að skrá sig inn í appið. Fyrir frekari upplýsingar, sjá [Notendareikningar farsíma](mobile-device-work-users.md).
+1. Á flýtiflipanum **Sjálfgefin pökkunarstöð** skal velja sjálfgefið svæði, vöruhús og staðsetningu sem á við starfskraftinn.
+1. Ef starfskraftur mun nota farsímaforrit vöruhúsakerfis til að hafa umsjón með og skrá pökkunarvinnu sína í gám, á flýtiflipanum **Notendur**, skaltu setja upp einn eða fleiri reikninga sem starfskraftur getur notað til að skrá sig inn í forritið. Frekari upplýsingar er að finna í [Notendareikningar fartækis](mobile-device-work-users.md).
 
 ## <a name="example-scenario"></a><a name="scenario"></a>Dæmi
 
-Þessi hluti gefur dæmi um atburðarás sem sýnir hvernig á að búa til pöntun og pakka hlutunum.
+Þessi hluti sýnir dæmi um aðstæður sem sýna hvernig á að búa til pöntun og pakka vörum.
 
 ### <a name="make-sample-data-available"></a>Gera sýnigögn tiltæk
 
 Til að vinna í gegnum þessar aðstæður með því að nota sýnigögnin og gildin sem eru tilgreind hér verður þú að vera á kerfi þar sem venjuleg [sýnigögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þar að auki verður þú að velja **USMF**-lögaðila áður en þú byrjar.
 
-Þú getur líka notað þessa atburðarás sem leiðbeiningar til að nota eiginleikann á framleiðslukerfi. Hins vegar, í því tilfelli, verður að skipta út eigin gildi fyrir hverja stillingu sem er lýst hér.
+Einnig er hægt að nota þessa atburðarás sem leiðsögn fyrir notkun eiginleikans í framleiðslukerfi. Hins vegar, í því tilfelli, verður að skipta út eigin gildi fyrir hverja stillingu sem er lýst hér.
 
-### <a name="sign-in-as-a-user-that-can-do-packing-work"></a>Skráðu þig inn sem notandi sem getur unnið pökkunarvinnu
+### <a name="sign-in-as-a-user-that-can-do-packing-work"></a>Skrá inn sem notandi sem getur unnið pökkunarvinnu
 
-Skráðu þig inn á Supply Chain Management með því að nota notandareikning sem hefur þær heimildir sem þarf til að pakka ílátum. Notandinn *Julia Funderburk* er innifalinn sem hluti af kynningargögnum og hefur nauðsynlegar heimildir. Þessi notandi hefur notandakennið *Admin*.
+Skráðu þig inn í Supply Chain Management með því að nota notandareikning sem hefur þær heimildir sem þarf til að pakka í gáma. Notandinn *Julia Funderburk* fylgir með sem hluti af sýningargögnunum og hefur tilskildar heimildir. Þessi notandi er með notandaauðkennið *Stjórnandi*.
 
-### <a name="create-a-sales-order-and-complete-the-work"></a>Búðu til sölupöntun og kláraðu verkið
+### <a name="create-a-sales-order-and-complete-the-work"></a>Stofna sölupöntun og ljúka verkinu
 
-Fylgdu þessum skrefum til að búa til sölupöntun og ljúka vinnu við að flytja pantaðar vörur á pökkunarstöðina.
+Fylgið eftirfarandi skrefum til að stofna sölupöntun og ljúka vinnu við að færa pantaðar vörur á pökkunarstöð.
 
 1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
 1. IÍ svarglugganum **Búa til sölupöntun** í svæðinu **Viðskiptavinalykill** skaltu velja *US-005*.
 1. Veldu **Í lagi** til að loka svarglugganum.
-1. Nýja sölupöntunin er opnuð og inniheldur eina tóma línu á **Sölupöntunarlínur** Hraðflipi. Stilltu eftirfarandi gildi fyrir nýju pöntunarlínuna:
+1. Nýja sölupöntunin er opnuð og inniheldur eina, auða línu á flýtiflipanum **Sölupöntunarlínur**. Stillið eftirfarandi gildi fyrir nýju pöntunarlína:
 
     - **Vörunúmer:** *A0001*
     - **Magn:** *2*
     - **Svæði:** *6*
     - **Vöruhús:** *62*
 
-1. Á meðan pöntunarlínan er enn valin skaltu velja **Birgðir \> Fyrirvari** á tækjastikunni á **Sölupöntunarlínur** Hraðflipi.
+1. Á meðan nýja línan er enn valin skal velja **Birgðir \> Frátekning** on á verkstiku flýtiflipans **Sölupöntunarlínur**.
 1. Á síðunni **Frátekning**, á aðgerðasvæðinu, skal velja **Frátektarlota** til að taka frá heildarmagn valdrar línu í vöruhúsinu.
 1. Lokið síðunni **Frátekning** til að fara aftur í sölupöntunina.
 1. Á aðgerðasvæðinu, í flipanum **Vöruhús**, skal velja **Losa í vöruhús**.
 
-    Skilaboð sýna sendinguna og veifuauðkenni pöntunarinnar.
+    Skilaboð sýna sendinguna og bylgjukenni fyrir pöntunina.
 
-1. Á meðan pöntunarlínan er enn valin skaltu velja **Vöruhús** \> **Upplýsingar um vinnu** á tækjastikunni á **Sölupöntunarlínur** Hraðflipi. Ef þú notar lotuvinnslu til að keyra bylgjur þínar gætirðu þurft að bíða í stuttan tíma þar til verkið er búið til.
-1. Á **Vinna** síðu, á aðgerðarrúðunni, á **Vinna** flipa, veldu **Fullkomið verk**.
-1. Á **Verklok** síðu, stilltu **notandanafn** sviði til *62*.
-1. Á aðgerðarrúðunni velurðu **Staðfesta vinnu**.
-1. Þegar þú færð skilaboð sem gefa til kynna að vinnan þín sé gild skaltu velja **Fullkomið verk** til að ljúka ferlinu við að tína birgðahlutina og setja þá í *Pakki* staðsetningu.
-1. Taktu eftir **Sendingarauðkenni** gildi sem er sýnt fyrir verkið í efri ristinni.
+1. Á meðan pöntunarlínan sé enn valin skaltu velja **Vöruhús** \> **Vinnuupplýsingar** á tækjastikunni á flýtiflipanum **Sölupöntunarlínur**. Ef þú notar lotuvinnslu til að keyra bylgjurnar gæti þurft að bíða í stuttan tíma eftir að vinnan sé búin til.
+1. Á síðunni **Vinna** á aðgerðasvæðinu, í flipanum **Vinna**, skal velja **Ljúka vinnu**.
+1. Á síðunni **Verki lokið** stillir þú reitinn **Notandakenni** á *62*.
+1. Veldu **Villuleita verk** á aðgerðasvæðinu.
+1. Þegar þú færð skilaboð sem gefa til kynna að vinnan þín sé gild skaltu velja **Ljúka vinnu** til að ljúka við að taka til birgðavörurnar og setja þær í staðsetninguna *Pökkun*.
+1. Gera skal athugasemd um **Auðkenni sendingar** sem sýnt er fyrir verkið á efra hnitanetinu.
 
-### <a name="pack-the-ordered-items-into-a-container"></a>Pakkaðu pöntuðu hlutunum í ílát
+### <a name="pack-the-ordered-items-into-a-container"></a>Pakkið pöntuðu hlutunum í gám
 
-Nú er búið að koma birgðahlutunum á pökkunarsvæðið og tilbúið til að pakka þeim í gáma. Fylgdu þessum skrefum til að búa til nýjan ílát í kerfinu og pakka honum.
+Birgðavörur hafa nú verið færðar á pökkunarsvæðið og eru tilbúnar til pökkunar í gáma. Fylgdu þessum skrefum til að búa til nýjan gám í kerfinu og pakka því.
 
 1. Fara skal í **Vöruhúsakerfi \> Pökkun og gámun \> Pakka**.
 1. Í svarglugganum **Velja pökkunarstöð** skal stilla eftirfarandi gildi:
@@ -304,28 +304,28 @@ Nú er búið að koma birgðahlutunum á pökkunarsvæðið og tilbúið til a�
     - **Svæði:** *6*
     - **Vöruhús:** *62*
     - **Staðsetning:** *Pakka*
-    - **Pökkunarprófílauðkenni:** *WH62*
+    - **Forstillingarkenni pökkunar:** *WH62*
 
 1. Veldu **Í lagi**.
-1. Á **Pakki** síðu, í **Skráningarnúmer eða sending** reit skaltu slá inn sendingarauðkenni sem þú skráðir áðan. Þú ættir nú að sjá hlutina sem eftir eru ópakkaðir á **Opnar línur** Hraðflipi.
-1. Á aðgerðarrúðunni velurðu **Nýr gámur** að búa til gám í kerfinu.
-1. Í **Auðkenni nýja gámsins** valmynd, stilltu **Gerð gáma** sviði til *Small Box*.
-1. Veldu **Allt í lagi** til að búa til ílátið.
-1. Veldu **Allt í lagi** að fara aftur til **Pakki** síðu. The **Opna ílát** Flýtiflipi sýnir nú **Gámaauðkenni** gildi ílátsins sem þú bjóst til.
-1. Fyrir þessa atburðarás muntu pakka aðeins einum af pöntuðu hlutunum í bili. Þess vegna, á **Atriðapökkun** Flýtiflipi, stilltu eftirfarandi gildi:
+1. Á síðuna **Pakka**, í reitinn **Númeraplata eða sending**, skal slá inn kenni sendingar sem þú skrifaðir niður hjá þér áður. Þú ættir að sjá vörurnar sem á eftir að pakka á flýtiflipanum **Opin lína**.
+1. Á aðgerðasvæðinu skal velja **Nýr gámur** til að stofna nýjan gám í kerfinu.
+1. Í svarglugganum **Kenni nýja gámsins** skal stilla reitinn fyrir **Gámagerð** á *SmallBox*.
+1. Velja skal **Í lagi** til að stofna gáminn.
+1. Veldu **Í lagi** til að fara aftur á síðuna **Pakka**. Nú sýni flýtiflipinn **Opnir gámar** gildi **Auðkenni gáms** gámsins sem var búið til.
+1. Í þessum aðstæðum pakkið þið bara einu af pöntuðu vörunum í bili. Í flýtiflipanum **Vörupökkun** skal því stilla eftirfarandi gildi:
 
     - **Magn:** *1.00*
     - **Auðkenni:** *A0001*
 
-    Strax eftir að þú hefur valið **Auðkenni** gildi, síðan uppfærir **Opnar línur** og **Allar línur** Flýtiflipar til að gefa til kynna að einum hlut hafi verið pakkað. Þú ættir nú að hafa pakkað einum af tveimur hlutum *A0001*.
+    Strax eftir að **Auðkennið** auðkennið hefur verið valið uppfærir síðan flýtiflipana **Opnar línur** og **Allar línur** til að sýna að einni vöru hafi verið pakkað. Nú átt þú að vera búin(n) að pakka öðru af tveimur hlutum vöru *A0001*.
 
 1. Á aðgerðasvæðinu skal velja **Loka gámi**.
-1. Í **Lokaðu ílátinu** valmynd, veldu **Fáðu kerfisþyngd** til að fylla út sjálfgefið **Heildarþyngd** gildi.
-1. Veldu **Allt í lagi** að loka ílátinu.
+1. Í svarglugganum **Loka gámi** skal velja **Sækja kerfisþyngd** til að fá fylla út sjálfgefna gildið **Brúttóþyngd**.
+1. Velja skal **Í lagi** til að loka geyminum.
 
 > [!TIP]
-> Það eru ýmsar leiðir til að skoða gáma út frá samhengi. Til dæmis, þegar þú pakkar sendingu, er oft gagnlegt að skoða annað hvort gáma sem eru hluti af sendingunni eða alla gáma sem eru líkamlega á pökkunarstöð. The **Pökkunarstöð** á síðunni eru hnappar sem þú getur notað til að skoða alla opna og lokaða ílát á pökkunarstöð. Þessar skoðanir eru ekki bundnar við tiltekna sendingu. Þeir geta verið mjög hjálpsamir í aðstæðum þar sem einn starfsmaður er að pakka ílát og annar starfsmaður er að sýna og losa ílátið.
+> Til eru ýmsar leiðir til að skoða gáma út frá samhengi. Þegar þú pakkar til dæmis sendingu er oft gagnlegt að skoða annað hvort gáma sem eru hluti af sendingunni eða alla gáma sem eru efnislega í pökkunarstöð. Á síðunni **Pökkunarstöð** eru hnappar sem hægt er að nota til að skoða öll opin og lokuð gáma á pökkunarstöð. Þessi yfirlit eru ekki bundnar við tiltekna sendingu. Þeir geta verið mjög gagnlegir við aðstæður þar sem einn starfskraftur er að pakka gámi og annar starfskraftur er að setja upp og losa gáminn.
 >
-> Samstæða yfirsýn yfir alla gáma er einnig fáanleg. Þetta útsýni er aðallega gagnlegt fyrir notendur sem vinna utan samhengis eins pökkunarstöðvar. Til að sjá það, farðu til **Vöruhússtjórnun \> Pökkun og gámavæðing \> Gámar**.
+> Einnig er í boði samantekið yfirlit yfir alla gáma. Þetta yfirlit er mest gagnleg fyrir notendur sem vinna ekki með staka pökkunarstöðvar. Fara skal í **Vöruhúsakerfi \> Pökkun og gámun \> Gámar**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

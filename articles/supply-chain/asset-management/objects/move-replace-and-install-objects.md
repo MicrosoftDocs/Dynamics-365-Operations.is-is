@@ -1,6 +1,6 @@
 ---
 title: Færa, skipta út og setja upp eignir
-description: Þessi grein útskýrir hvernig á að færa, skipta út og setja upp eignir í eignastýringu.
+description: Í þessari grein er útskýrt hvernig á að færa, skipta út og setja upp eignir í Eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0a6b5a2904d21782ae422d06eaaf03c5d5e51ab9
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015580"
@@ -28,7 +28,7 @@ ms.locfileid: "9015580"
 
  
 
-Þessi grein útskýrir hvernig á að færa, skipta út og setja upp eignir í eignastýringu. Þú getur búið til einstakar eignir sem hafa engin tengsl við aðrar eignir, eða þú getur búið til eignaskipulag sem felur í sér yfireign (efsta eign) og tengdar undireignir (undireignir). Í eignastýringu eru þrjár leiðir til að færa og breyta staðsetningu eignar:
+Í þessari grein er útskýrt hvernig á að færa, skipta út og setja upp eignir í Eignastýringu. Þú getur búið til einstakar eignir sem hafa engin tengsl við aðrar eignir, eða þú getur búið til eignaskipulag sem felur í sér yfireign (efsta eign) og tengdar undireignir (undireignir). Í eignastýringu eru þrjár leiðir til að færa og breyta staðsetningu eignar:
 
 - **Færa** - Færa eign annaðhvort í aðra eignaskipan eða á annan stað í sömu eignaskipan.
 - **Skipta út** - Fjarlægðu eign tímabundið úr eignaskipan svo hægt sé að gera við eða endurnýja hana og bæta síðan endurnýjuðu eigninni aftur við eignaskipan síðar. Að öðrum kosti, skipta varanlega notuðu eign út fyrir nýja eign.
@@ -42,9 +42,9 @@ ms.locfileid: "9015580"
 Notaðu virknina **Færa eign** til að færa eign annaðhvort í aðra eignaskipan eða á annan stað í sömu eignaskipan. Þú getur líka fært eign út úr eignaskipan þannig að hún verði sjálfstæða eign sem hefur engin tengsl við uppbyggingu.
 
 > [!NOTE]
-> Ekki nota þessa aðgerð ef verið er að gera við eignir eða skipta tímabundið út. Í staðinn skaltu nota **Skiptu um eign** virkni sem lýst er síðar í þessari grein.
+> Ekki nota þessa aðgerð ef verið er að gera við eignir eða skipta tímabundið út. Þess í stað skal nota virknina **Skipta út eign** sem lýst er síðar í þessari grein.
 
-1. Veldu **Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
+1. Smellið á **Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
 2. Á listanum, veljið eign til að færa. Ef eignin er með undireignir þá færir þú líka þessar eignir.
 3. Velja **Færa eign**.
 4. Til að færa eignina þannig að hún verði hluti af eignaskipan skaltu velja nýju yfireignina í reitnum **Yfireign**. Ef þú ert að flytja undireign, og þú vilt gera hana að sjálfstæða eign sem hefur engin tengsl við uppbyggingu, skaltu hafa reitinn **Yfireign** auður.
@@ -58,7 +58,7 @@ Notaðu virknina **Skipta út eign** í tengslum við viðgerðir, endurbætur e
 > [!NOTE]
 > Ef viðgerðarverkstæði er tengd framleiðsludeildinni þinni geturðu búið til virkar staðsetningar eins og **Viðger**, **Rusl**, og **Geymsla** til að sjá um viðgerðir og skipti á eignum.
 
-1. Veldu **Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
+1. Smellið á **Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
 2. Á listanum, veljið undireign til að skipta út. Ef eignin er með undireignir þá skiptir þú um þessar eignir.
 3. Veldu **Skipta út eign**.
 
@@ -79,7 +79,7 @@ Notaðu aðgerðina **Setja upp eign** til að setja upp eignaskipulag á virkan
 > [!NOTE]
 > Veldu alltaf yfireign. Yfireignin og tengdar undireignir verða færðar á valda staðsetningu.
 
-1. Veldu **Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
+1. Smellið á **Eignastýring** \> **Eignir** \> **Allar eignir** eða **Virkar eignir**.
 2. Veldu listann á yfireignina sem á að setja upp á öðrum virkum stað.
 3. Velja **Setja upp eign**.
 

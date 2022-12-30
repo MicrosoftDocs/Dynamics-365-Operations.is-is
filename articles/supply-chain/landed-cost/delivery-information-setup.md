@@ -1,6 +1,6 @@
 ---
 title: Uppsetning afhendingarupplýsinga
-description: Þessi grein lýsir því hvernig á að setja upp afhendingarupplýsingar fyrir kostnaðareininguna Landað.
+description: Þessi grein lýsir því hvernig setja á upp afhendingarupplýsingar í gegnum Heildarkostnaður eininguna.
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 5bf9c700ecd327ab3b3948f38dc60e24efbda94c
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8895613"
@@ -24,7 +24,7 @@ ms.locfileid: "8895613"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að setja upp upplýsingar um afhendingu fyrir **Landaður kostnaður** mát.
+Þessi grein lýsir því hvernig setja á upp afhendingarupplýsingar í gegnum **Heildarkostnaður** eininguna.
 
 ## <a name="shipping-ports"></a>Afhendingarhafnir
 

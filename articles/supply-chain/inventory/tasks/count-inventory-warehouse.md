@@ -1,6 +1,6 @@
 ---
 title: Telja birgðir í vöruhúsi
-description: Þessi grein lýsir ferlinu við að stofna og bóka birgðatalningarbók til að telja tiltekna vöru á staðsetningu í vöruhúsinu.
+description: Þessi grein útskýrir ferlið fyrir stofnun og bókun birgðatalningabók til að telja tiltekinnar vöru á staðsetningu í vöruhúsinu.
 author: yufeihuang
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7c8712b88867dc4be48bbdb4b905993e3ccbc73f
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8870638"
@@ -25,7 +25,7 @@ ms.locfileid: "8870638"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir ferlinu við að stofna og bóka birgðatalningarbók til að telja tiltekna vöru á staðsetningu í vöruhúsinu. Ferlið á við virkni „grunnvöruhúss”, sem er tiltækt í birgðastjórnunareiningunni, ekki við vöruhúsavirknina sem er tiltæk í kerfiseiningunni vöruhúsakerfi. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ef verið er að nota eigin gögn, tryggja þarf afurðir og staðsetningar eru uppsettar og að hefur verið stofnað heiti birgðabókar fyrir talningarbækur. Birgðatalning er yfirleitt framkvæmd af starfsmanni í vöruhúsi.
+Þessi grein útskýrir ferlið fyrir stofnun og bókun birgðatalningabók til að telja tiltekinnar vöru á staðsetningu í vöruhúsinu. Ferlið á við virkni „grunnvöruhúss”, sem er tiltækt í birgðastjórnunareiningunni, ekki við vöruhúsavirknina sem er tiltæk í kerfiseiningunni vöruhúsakerfi. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ef verið er að nota eigin gögn, tryggja þarf afurðir og staðsetningar eru uppsettar og að hefur verið stofnað heiti birgðabókar fyrir talningarbækur. Birgðatalning er yfirleitt framkvæmd af starfsmanni í vöruhúsi.
 
 
 ## <a name="create-an-inventory-counting-journal"></a>Stofna færslubóka fyrir birgðatalningu

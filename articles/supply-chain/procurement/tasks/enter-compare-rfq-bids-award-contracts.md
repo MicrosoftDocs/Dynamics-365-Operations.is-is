@@ -1,6 +1,6 @@
 ---
 title: Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
-description: Þessi grein útskýrir hvernig á að slá inn svör við beiðni um tilboð (RFQ), skora og bera saman tilboð og síðan úthluta samningnum til eins af söluaðilum.
+description: Þessi grein útskýrir hvernig á að færa inn svör við Tilboðsbeiðni, gefa stig og bera saman tilboð, og veita síðan einum lánardrottninum samning.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d3ef754f2d5d58254a7c6f0e572115f8a2981ad9
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8893382"
@@ -24,7 +24,7 @@ ms.locfileid: "8893382"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að slá inn svör við beiðni um tilboð (RFQ), skora og bera saman tilboð og síðan úthluta samningnum til eins af söluaðilum. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins **USMF**.
+Þessi grein útskýrir hvernig á að færa inn svör við Tilboðsbeiðni, gefa stig og bera saman tilboð, og veita síðan einum lánardrottninum samning. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins **USMF**.
 
 Áður en byrjað er verður að hafa beiðni um tilboð með tveimur línum og sem hefur verið sent til a.m.k. tveggja lánardrottna. Til að stofna þessa tilboðsbeiðni skal ljúka ferlinu [Stofna beiðni um tilboð](create-request-quotation.md). Einnig þarf að setja upp skilyrði fyrir stigagjöf áður en lokið er við þetta ferli.
 

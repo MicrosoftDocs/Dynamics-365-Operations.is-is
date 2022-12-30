@@ -1,6 +1,6 @@
 ---
 title: Skrá notkun
-description: Þessi grein útskýrir hvernig á að skrá neyslu í eignastýringu.
+description: Þessi grein útskýrir hvernig á að skrá notkun í eignastýringu.
 author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 729ef6aae228ad1e528945031567b92c44cdf256
 ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/02/2022
 ms.locfileid: "9111755"
@@ -35,7 +35,7 @@ ms.locfileid: "9111755"
 >[!NOTE]
 >Það er mögulegt að setja upp sjálfvirka bókun færslubóka í líftímastöður verkbeiðni. Sjá [Líftímastöður verkbeiðni](../setup-for-work-orders/work-order-lifecycle-states.md) fyrir meiri upplýsingar.
 
-1. Smellur **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
+1. Smellið á **Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
 
 2. Veldu verkbeiðnina og smelltu á **Færslubækur**.
 
@@ -61,7 +61,7 @@ Skjámyndin hér að neðan sýnir dæmi um skráningu klukkutíma og vöru í v
 
 Ef verkbeiðni inniheldur nokkur verkbeiðniverk geturðu skráð vinnutíma með því að nota virknina **Skipta tímum**, sem þýðir að klukkustundar skráningarlínu má dreifa jafnt um hvert verkbeiðniverk.
 
-1. Smellur **Eignastýring** > **Verkbeiðnir** > **Allar vinnupantanir** eða **Virkar vinnupantanir**.
+1. Smellið á **Eignastýring** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
 
 2. Veldu verkbeiðnina og smelltu á **Færslubækur**.
 
@@ -90,7 +90,7 @@ Ef verkbeiðni inniheldur nokkur verkbeiðniverk geturðu skráð vinnutíma me�
 - *Vöruskráningar:* Í fyrsta lagi er fjárhagsvíddum úr færslubókarhaus bætt við, ef einhver er. Síðan er fjárhagsvíddum úr tengdri verkbeiðniverki bætt við. Næst er fjárhagsvíddum af svæðinu bætt við. Að lokum er fjárhagsvíddum úr vörunni bætt við.
 
 >[!NOTE]
->Fyrir allar þrjár skráningargerðirnar er samsetning fjárhagsvíddar staðfest og ógildar samsetningar eru auðar. Þetta er staðlað uppsetning með öðrum fjármála- og rekstraröppum.
+>Fyrir allar þrjár skráningargerðirnar er samsetning fjárhagsvíddar staðfest og ógildar samsetningar eru auðar. Þetta er hefðbundin uppsetning með öðrum forritum fyrir fjármál og rekstur.
 
 
 

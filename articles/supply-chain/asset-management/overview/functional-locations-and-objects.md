@@ -1,6 +1,6 @@
 ---
 title: Virkar staðsetningar og eignir
-description: Þessi grein lýsir virkum staðsetningum og eignum í eignastýringu. Eignastýring er ítarleg eining til að stjórna eignum og viðhaldsstörfum í Dynamics 365 Supply Chain Management.
+description: Í þessari grein er lýst virkum staðsetningum og eignum í eignastýringu. Eignastýring er ítarleg eining til að stjórna eignum og viðhaldsstörfum í Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0d8d155b8bbf981408f6f15e914fc3bb1da25c9c
 ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/02/2022
 ms.locfileid: "9111077"
@@ -28,11 +28,11 @@ ms.locfileid: "9111077"
 
  
 
-Þessi grein lýsir virkum staðsetningum og eignum í eignastýringu. Eignastýring er ítarleg eining til að stjórna eignum og viðhaldsstörfum í Dynamics 365 Supply Chain Management.
+Í þessari grein er lýst virkum staðsetningum og eignum í eignastýringu. Eignastýring er ítarleg eining til að stjórna eignum og viðhaldsstörfum í Dynamics 365 Supply Chain Management.
 
 ## <a name="overview"></a>Yfirlit
 
-Eignastýring er samþætt óaðfinnanlega nokkrum einingum með öðrum fjármála- og rekstraröppum. Eftirfarandi mynd sýnir viðmót við aðrar einingar.
+Eignastýring er samþætt snurðulaust við nokkrar einingar með öðrum fjármála- og rekstrarforritum. Eftirfarandi mynd sýnir viðmót við aðrar einingar.
 
 ![Skýringarmynd sem sýndir hvernig viðmót eignastýringar tengist öðrum einingum.](media/01-overview-image.png)
 

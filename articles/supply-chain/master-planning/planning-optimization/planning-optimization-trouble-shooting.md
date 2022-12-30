@@ -1,6 +1,6 @@
 ---
 title: Úrræðaleit fínstillingar áætlanagerðar
-description: Þessi grein lýsir því hvernig á að laga vandamál sem þú gætir lent í þegar þú vinnur með áætlanagerð fínstillingu.
+description: Þessi grein lýsir því hvernig á að leysa vandamál sem kunna að koma upp á meðan unnið er með fínstillingu áætlanagerðar.
 author: t-benebo
 ms.date: 05/07/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: 37c38ab9cec8ae3c9d4decf8043b43ea2251083e
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9739730"
@@ -27,7 +27,7 @@ ms.locfileid: "9739730"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að laga algeng vandamál sem þú gætir lent í þegar þú vinnur með áætlanagerð fínstillingu.
+Þessi grein lýsir því hvernig á að laga almenn vandamál sem kunna að koma upp þegar unnið er með fínstillingu áætlanagerðar.
 
 ## <a name="installation-of-the-planning-optimization-add-in-doesnt-complete"></a>Uppsetningu á innbót fínstilling áætlanagerðar er ekki lokið
 
@@ -37,13 +37,13 @@ Fínstilling áætlanagerðar krefst þess að kveikt sé á Lifecycle Services 
 
 ## <a name="planning-of-batch-jobs-fails-when-planning-optimization-is-enabled"></a>Áætlun um runuvinnslur mistekst þegar fínstilling áætlanagerðar er virk
 
-Þegar þú virkjar áætlanagerð fínstillingu er úrelta aðalskipulagsvélin sjálfkrafa óvirk. Aðalskipulagsrunuvinnslur sem voru búnar til fyrir úreltu aðalskipulagsvélina munu mistakast ef þau eru ræst á meðan áætlanagerð fínstilling er virkjuð. Hugsanlega birtast villuboð á borð við *Þessi aðgerð ræsti aðaláætlanagerð sem er ekki studd þegar fínstilling áætlunar er virk*.
+Þegar fínstilling áætlanagerðar er gerð virk er úrelt aðaláætlunargerðarkerfi sjálfkrafa gerð óvirk. Runuvinnslur aðaláætlanagerðar sem voru búnar til fyrir úrelda aðaláætlunarvél Supply Chain Management mistekst ef þær eru ræstar þegar fínstilling áætlanagerðar er virk. Hugsanlega birtast villuboð á borð við *Þessi aðgerð ræsti aðaláætlanagerð sem er ekki studd þegar fínstilling áætlunar er virk*.
 
-**Laga** : Hætta við öll aðalskipulag runuvinnslur sem voru stofnaðar fyrir úrelta aðalskipulagsvél.
+**Lagfæra**: Hætta við allar runuvinnslur aðaláætlanagerðar sem voru búnar til fyrir úrelta aðaláætlunarvél.
 
 ## <a name="planning-optimization-results-are-different-from-earlier-results"></a>Niðurstöður fínstillingar áætlunargerðar eru frábrugðnar fyrri niðurstöðum
 
-Hagræðing áætlanagerðar er frábrugðin úreltri hönnun aðalskipulagsvéla á sumum sviðum. Þetta getur einnig stafað af eiginleikum í bið.
+Fínstilling áætlanagerðar er frábrugðin hönnun úreltrar aðaláætlunarvélar á sumum svæðum. Þetta getur einnig stafað af eiginleikum í bið.
 
 **Lagfæra**: keyra samræmisgreiningu á fínstillingu áætlanagerðar og greina síðan niðurstöðurnar þegar vísað er í tengd fylgiskjöl til að skilja áhrifin. Frekari upplýsingar er að finna í [Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md).
 
@@ -63,7 +63,7 @@ Ef reynt er að keyra afhendingargetu (CTP) frá sölupöntun þegar fínstillin
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Byrjaðu á aðalskipulagi](get-started.md)
+- [Hafist handa með aðaláætlanagerð](get-started.md)
 - [Samræmisgreining á fínstillingu áætlanagerðar](planning-optimization-fit-analysis.md)
 
 

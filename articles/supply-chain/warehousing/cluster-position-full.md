@@ -1,6 +1,6 @@
 ---
 title: Staðsetning klasa er full
-description: Þessi grein veitir upplýsingar um alla eiginleika klasastöðu. Þessi eiginleiki býður upp á aðra leið í stað ósveigjanlegar framkvæmdar á reglum um vinnuskiptingu þegar klasatiltekt er notuð, því að leyfð skekkjumörk rúmmálsins eru víðari fyrir gáma eða farm.
+description: Þessi grein veitir upplýsingar um eiginleikann fyrir fulla staðsetningu klasa. Þessi eiginleiki býður upp á aðra leið í stað ósveigjanlegar framkvæmdar á reglum um vinnuskiptingu þegar klasatiltekt er notuð, því að leyfð skekkjumörk rúmmálsins eru víðari fyrir gáma eða farm.
 author: Mirzaab
 ms.date: 08/25/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 9361448ba7993ba7cc126d6dd60a45fe497b2e84
 ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/02/2022
 ms.locfileid: "9218771"
@@ -28,9 +28,9 @@ Eiginleikinn *Staðsetning klasa er full* býður upp á aðra leið í stað ó
 
 Þessi eiginleiki kynnir möguleikann á því að keyra hnappinn **Fullur** í einni vinnueiningunni í klasa. Í eldri útgáfum var þessi valkostur aðeins tiltækur fyrir reglubundna tiltekt á pöntun, ekki fyrir klasatiltekt. Þessi eiginleiki er hins vegar frábrugðinn hefðbundna hnappnum **Fullur** að því leyti að hann hættir við eftirstandandi vinnu. Hann stingur ekki upp á að notandinn bæti öðru hólfi við sama klasann og hann stofnar ekki sjálfkrafa nýja vinnu.
 
-## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Kveiktu eða slökktu á Cluster position fullri eiginleikanum
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Kveikir eða slekkur á klasastöðu
 
-Til að nota virknina sem lýst er í þessari grein, *Klasastaða full* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Klasastaða full* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota virkni sem lýst er í þessari verður að vera kveikt á *Staðsetning klasa er full* fyrir kerfið þitt. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Staðsetning klasa er full* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Uppsetning
 

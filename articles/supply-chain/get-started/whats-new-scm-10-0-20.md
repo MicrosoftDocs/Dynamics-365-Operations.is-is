@@ -1,6 +1,6 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.20 (ágúst 2021)
-description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir Dynamics 365 Supply Chain Management 10.0.20.
+description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
 ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/02/2022
 ms.locfileid: "9219155"
@@ -21,7 +21,7 @@ ms.locfileid: "9219155"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfa 10.0.20. Þessi útgáfa er með byggingarnúmer 10.0.886 og er fáanlegt á eftirfarandi hátt:
+Í þessari grein er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.20. Þessi útgáfa er með byggingarnúmer 10.0.886 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðun á útgáfu:** maí 2021
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** Júlí 2021
@@ -59,21 +59,21 @@ Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](..
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 
-Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargreinar. Þær eru ekki endilega tengdar við nýja eiginleika sem bætt er við fyrir þessa útgáfu, eins og kemur fram í fyrri hluta, en þær geta hjálpað notendum að fá meira út úr fyrirliggjandi eiginleikum.
+Nýlega hefur eftirfarandi hjálpargreinum verið bætt við eða þau uppfærð. Þær eru ekki endilega tengdar við nýja eiginleika sem bætt er við fyrir þessa útgáfu, eins og kemur fram í fyrri hluta, en þær geta hjálpað notendum að fá meira út úr fyrirliggjandi eiginleikum.
 
 | Eiginleikasvæði | Nýjar eða uppfærðar greinar |
 |---|---|
 | Umsjón hönnunarbreytinga | [Líftímastöður afurðar og færslur](../engineering-change-management/product-lifecycle-state-transactions.md) |
-| Birgðir | [Innbót fyrir sýnileika birgða](../inventory/inventory-visibility.md)<br><br>[Yfirlit yfir gæða- og ósamræmisstjórnun](../inventory/quality-management-processes.md) (ásamt öllum tengdum gæðastjórnunargreinum) |
+| Birgðir | [Innbót fyrir sýnileika birgða](../inventory/inventory-visibility.md)<br><br>[Stjórnunaryfirlit gæða og ósamkvæmni](../inventory/quality-management-processes.md) (ásamt öllum tengdum gerinum gæðastjórnunar) |
 | Innkaup og aðföng | [Vinna með lánardrottnavottorð](../../finance/public-sector/manage-vendor-certification.md) |
 | Framleiðslustýring | [Hanna keyrsluviðmót framleiðslugólfsins](../production-control/production-floor-execution-styles.md) |
 | Vöruhúsakerfi | [Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið](../warehousing/step-icons-titles.md)<br><br>[Frestun á úrvinnslu handvirkrar birgðahreyfingar](../warehousing/deferred-processing-manual-inventory-movement.md) |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstrarforrit
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir fjármála- og rekstrarforrit.
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.20 af fjármála- og rekstraröppum (júlí 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.20 á fjármála- og rekstrarforritum (júlí 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 
@@ -87,12 +87,12 @@ Skoðaðu [Dynamics 365: 2021 útgáfu bylgju 1 áætlun](/dynamics365-release-p
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 
-The [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein lýsir eiginleikum sem hafa verið eða áætlað er að verði fjarlægðir eða úreltir fyrir Supply Chain Management.
+Greinin [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) lýsir eiginleikum sem hafa verið eða á að fjarlægja eða úrelda fyrir Supply Chain Management.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
 
-Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um úreldingu tilkynnt í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein 12 mánuðum fyrir brottnám.
+Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um afskriftir tilkynnt í greininni [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mánuðum fyrir fjarlægingu.
 
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
 

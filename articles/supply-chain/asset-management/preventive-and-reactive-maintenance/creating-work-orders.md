@@ -1,6 +1,6 @@
 ---
 title: Verkbeiðnir stofnaðar
-description: Þessi grein útskýrir hvernig á að stofna verkpantanir í eignastýringu.
+description: Þessi grein útskýrir hvernig á að stofna verkbeiðnir í eignastýringu.
 author: johanhoffmann
 ms.date: 02/01/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: ba01a90f805300a27e4550e1371fb55d5e3a7536
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335046"
@@ -60,11 +60,11 @@ Til að stofna verkbeiðnir sem byggja á viðhaldsáætluninni skal fylgja þes
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Flokka verkbeiðnilínur sem eru sjálfkrafa stofnaðar meðan á viðhaldsáætlun stendur
 
-Þessi eiginleiki gerir kleift að skilgreina reglur fyrir flokkun verkbeiðnilína undir einni verkbeiðni þegar kerfið er stillt á að búa sjálfkrafa til verkbeiðnir sem byggja á viðhaldsáætlun. Áður gátu sjálfkrafa myndaðar verkbeiðnir aðeins innihaldið eina línu. Nú er hins vegar hægt að flokka verkbeiðnir eftir til dæmis eign, eignagerð eða virkri staðsetningu. (Handvirkt myndaðar verkbeiðnir gætu nú þegar verið flokkaðar á þennan hátt, eins og lýst er í fyrri hluta þessarar greinar.)
+Þessi eiginleiki gerir kleift að skilgreina reglur fyrir flokkun verkbeiðnilína undir einni verkbeiðni þegar kerfið er stillt á að búa sjálfkrafa til verkbeiðnir sem byggja á viðhaldsáætlun. Áður gátu sjálfkrafa myndaðar verkbeiðnir aðeins innihaldið eina línu. Nú er hins vegar hægt að flokka verkbeiðnir eftir til dæmis eign, eignagerð eða virkri staðsetningu. (Handvirkt myndaðar verkbeiðnir var aðeins hægt að flokka á þennan hátt eins og lýst er í hlutanum hér á undan í þessari grein.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Virkja flokkun fyrir sjálfkrafa myndaðar verkbeiðnir
 
-Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Eignastjórnun*
 - **Heiti eiginleika:** *Notið reglur fyrir flokkun verkbeiðna á meðan viðhaldsáætlun er keyrð*

@@ -1,6 +1,6 @@
 ---
 title: Flutningsstjórnunarafslættir
-description: Þessi grein lýsir valmöguleikum til að setja upp afslátt fyrir flutningsgjöld.
+description: Þessi grein lýsir valkostunum fyrir uppsetningu afslátta fyrir flutningsgjöld.
 author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 2c2032fd26d0c90e35219144385ac2e75a0a9525
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8851392"

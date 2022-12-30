@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d617637f56e23440f6d8da313788a7866cad244e
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9015668"
@@ -27,7 +27,7 @@ ms.locfileid: "9015668"
 [!include [banner](../includes/banner.md)]
 
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustuáskrift** \> **Allar þjónustuáskriftir**.
+1.  Smelltu á **Þjónustustjórnun** \> **Þjónustuáskriftir** \> **Allar þjónustuáskriftir**.
 
 2.  Veldu áskriftina til að uppfæra vísitölu eða grunnverð fyrir.
 

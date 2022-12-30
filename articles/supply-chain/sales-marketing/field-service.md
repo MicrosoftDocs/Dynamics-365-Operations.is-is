@@ -17,7 +17,7 @@ ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 12a9c57e2587150914c6087c041d63af9783c1f3
 ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/01/2022
 ms.locfileid: "9103698"
@@ -73,7 +73,7 @@ Viðbótarvirknin í þessum seinni áfanga lagði áherslu á að veita tæknim
 ### <a name="system-requirements-for-supply-chain-management"></a>Kerfiskröfur fyrir Supply Chain Management
 Samþætting Field Service styður eftirfarandi útgáfur:
 
-- Dynamics 365 Finance and Operations útgáfa 8.1.2 (desember 2018) var gefin út í desember 2018 og hefur forritssmíðanúmer 8.1.195 með pallauppfærslu 22 (7.0.5095). 
+- Dynamics 365 Finance and Operations útgáfa 8.1.2 (desember 2018) var gefin út í desember 2018 og hefur útgáfunúmer forrits 8.1.195 með verkvangsuppfærslu 22 (7.0.5095). 
 
 ### <a name="system-requirements-for-field-service"></a>Kerfisskilyrði fyrir Field Service
 Til að nota samþættingarlausn Field Service verður að setja upp eftirfarandi hluti:

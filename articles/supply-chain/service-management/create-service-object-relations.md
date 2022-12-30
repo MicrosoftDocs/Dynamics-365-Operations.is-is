@@ -1,6 +1,6 @@
 ---
 title: Um tengsl þjónustuhluta
-description: Þessi grein lýsir því hvernig á að stofna þjónustuhlutatengsl fyrir þjónustusamning og þjónustupöntun.
+description: Þessi grein lýsir því hvernig á að stofna tengsl þjónustuhlutar í þjónustusamningi og þjónustupöntun.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b4d9424b5678a6f37d46203e5d4e359b020fda7a
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016971"
@@ -27,13 +27,13 @@ ms.locfileid: "9016971"
 [!include [banner](../includes/banner.md)]
 
 
-Þessi grein lýsir því hvernig á að stofna þjónustuhlutatengsl fyrir þjónustusamning og þjónustupöntun. Þegar þú býrð til þjónustuhlutvensl tengirðu þjónustuhlutinn við þjónustusamning eða þjónustupöntun. Þegar beiðnir þjónustu viðskiptavinar fyrir vöru sem þjónustuhlut, hægt er að velja þá þjónustuhlutar af lista yfir tengsl þjónustuhluta.
+Þessi grein lýsir því hvernig á að stofna tengsl þjónustuhlutar í þjónustusamningi og þjónustupöntun. Þegar þú býrð til þjónustuhlutvensl tengirðu þjónustuhlutinn við þjónustusamning eða þjónustupöntun. Þegar beiðnir þjónustu viðskiptavinar fyrir vöru sem þjónustuhlut, hægt er að velja þá þjónustuhlutar af lista yfir tengsl þjónustuhluta.
 
 ## <a name="create-a-service-object-relation-for-a-service-agreement"></a>Stofna tengsl þjónustuhlutar fyrir þjónustusamning
 
 Fylgið eftirfarandi skrefum til að stofna þjónustuhlutatengsl fyrir þjónustusamning:
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustusamningar** \> **Þjónustusamningar**.
+1.  Veljið **Þjónustustjórnun** \> **Þjónustusamningar** \> **þjónustusamningar**.
 
 2.  Í **Þjónustusamningar** listanum, velja núverandi þjónustusamning eða smella á **Nýtt** til að búa til nýjan þjónustusamning.
 
@@ -47,7 +47,7 @@ Fylgið eftirfarandi skrefum til að stofna þjónustuhlutatengsl fyrir þjónus
 
 Fylgið eftirfarandi skrefum til að stofna tengsl þjónustuhlutar í þjónustupöntun:
 
-1.  Smellur **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
+1.  Smelltu á **Þjónustustjórnun** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
 2.  Í **þjónustupantanir** listanum, velja núverandi þjónustupöntun, eða búa til nýja þjónustupöntun.
 

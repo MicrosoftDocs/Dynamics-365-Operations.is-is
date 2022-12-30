@@ -1,6 +1,6 @@
 ---
 title: Færibreytur dagsetningar og tíma sem fínstilling áætlanagerðar notar
-description: Þessi grein veitir upplýsingar um dagsetningar- og tímafæribreytur sem áætlanagerð hagræðing notar við rekstur hennar.
+description: Þessi grein veitir upplýsingar um færibreytur dagsetningar og tíma sem fínstilling áætlanagerðar notar í sinni aðgerð.
 author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740905"
@@ -21,9 +21,9 @@ ms.locfileid: "9740905"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um dagsetningar- og tímafæribreytur sem áætlanagerð hagræðing notar við rekstur hennar.
+Þessi grein veitir upplýsingar um færibreytur dagsetningar og tíma sem fínstilling áætlanagerðar notar í sinni aðgerð.
 
-Þar sem úrelda aðalskipulagsvélin notar viðskiptadagsetningar í öllum útreikningum vinnur áætlanagerð fínstilling með dagsetningar- og tímagildum sem eru umreiknuð í dagsetningar. Þessi munur í hegðun getur leitt til kringumstæðna þar sem til dæmis spáfærslur sem stofnaðar eru á miðnætti á deginum sem aðaláætlanagerð er keyrð eru ekki hafðar með vegna þess að fínstilling áætlanagerðar lítur svo á að þær hafi verið stofnaðar á undan núverandi degi.
+Úrelt aðaláætlunarvél notar færsludagsetningar í öllum útreikningum, en fínstilling áætlanagerðar vinnur með gildum dagsetningar og tíma sem eru umbreytt í dagsetningar. Þessi munur í hegðun getur leitt til kringumstæðna þar sem til dæmis spáfærslur sem stofnaðar eru á miðnætti á deginum sem aðaláætlanagerð er keyrð eru ekki hafðar með vegna þess að fínstilling áætlanagerðar lítur svo á að þær hafi verið stofnaðar á undan núverandi degi.
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>Færibreytur fyrir úthreyfingar- og eftirspurnarfærslur
 

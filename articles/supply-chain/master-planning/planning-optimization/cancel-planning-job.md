@@ -1,6 +1,6 @@
 ---
 title: Hætta við áætlunarverk
-description: Þessi grein útskýrir hvernig á að hætta við virka áætlunarvinnu sem notar hagræðingaraðgerðina áætlanagerð.
+description: Þessi grein útskýrir hvernig er hægt að hætta við virka áætlunarvinnslu sem notar virknina fínstillingu skipulagningar.
 author: t-benebo
 ms.date: 02/18/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: f5f1f2c8e3e43e36d837ebf989422b0dca7819d6
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9741177"

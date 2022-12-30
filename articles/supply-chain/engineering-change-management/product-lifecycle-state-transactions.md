@@ -1,6 +1,6 @@
 ---
 title: Líftímastöður afurðar og færslur
-description: Þessi grein útskýrir hvernig þú getur stjórnað hvaða færslur eru leyfðar fyrir hvert líftímaástand þar sem verkfræðivara fer í gegnum líftíma sinn.
+description: Þessi grein útskýrir hvernig skal stjórna hvaða færslur eru leyfðar fyrir hverja líftímastöðu sem hönnunarafurð fer í gegnum á líftíma hennar.
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8867957"
@@ -37,7 +37,7 @@ Til að vinna með líftímastöðu afurðar er farið í **Umsjón hönnunarbre
 - Til að eyða fyrirliggjandi líftímastöðu skal velja hana á aðgerðasvæðinu og velja svo **Eyða** á aðgerðasvæðinu.
 
 > [!NOTE]
-> Hönnunarafurðir nota sömu líftímastöður og staðlaðar afurðir (ekki hönnunarafurðir). Þú getur líka opnað **Lífferilsástand vöru** síðu sem lýst er í þessari grein með því að fara á **Vöruupplýsingastjórnun \> Uppsetning \> Lífferilsástand vöru**. Frekari upplýsingar um líftímastöður afurðar, bæði fyrir hönnunarafurðir og staðlaðar afurðir, er að finna í [Yfirliti líftímastöðu afurðar](../pim/product-lifecycle.md).
+> Hönnunarafurðir nota sömu líftímastöður og staðlaðar afurðir (ekki hönnunarafurðir). Einnig er hægt að opna **Líftímastaða afurðar** sem er lýst í þessari grein með því að opna **Afurðaupplýsingastjórnun \> Uppsetning \> Líftímastaða afurðar**. Frekari upplýsingar um líftímastöður afurðar, bæði fyrir hönnunarafurðir og staðlaðar afurðir, er að finna í [Yfirliti líftímastöðu afurðar](../pim/product-lifecycle.md).
 
 ### <a name="header"></a>Haus
 
@@ -94,12 +94,12 @@ Gefum okkur til dæmis að aðeins eigi að selja eitt afbrigði (rautt) af tilt
 - Tilgreindu líftímastöðu fyrir seljanlegt afbrigði sem leyfir ferlið. Einnig er t.d. hægt að úthluta rauða afbrigðinu líftímastpðunni *Seljanlegt*.
 - Öll önnur afbrigði verða úthlutuð í aðra líftímastöðu þar sem ferlið er lokað. Til dæmis, úthlutaðu hvíta afbrigðinu (og öllum öðrum afbrigðum) líftímastöðunni *Ekki seljanlegt*, sem lokar fyrir viðskiptaferlið *Sölupöntun*.
 
-## <a name="default-product-lifecycle-states"></a>Sjálfgefin líftímastöður vöru
+## <a name="default-product-lifecycle-states"></a>Sjálfgefin lífsferlisstaða afurðar
 
-Sjálfgefið líftímaástand fyrir verkfræðiútgáfu er tilgreint af verkfræðiflokki hennar. Ríkið verður sjálfgefið þegar þú býrð til nýja verkfræðiútgáfu, þar á meðal fyrstu útgáfu nýrrar vöru.
+Sjálfgefin líftímastaða fyrir hönnunarútgáfu er tilgreind af hönnunarflokki hennar. Staðan verður sjálfgefin þegar þú býrð til nýja hönnunarútgáfu, þar á meðal fyrstu útgáfu af nýrri vöru.
 
-Þegar þú býrð til nýja vöru eða verkfræðivöru geturðu einnig stillt sjálfgefna líftímastöðu með því að tilgreina það á sniðmátsútgáfu vöru útgáfustefnunnar sem er úthlutað til vörunnar.
+Þegar ný afurð eða hönnunarafurð er búin til er einnig hægt að stilla sjálfgefna líftímastöðu með því að tilgreina hana í sniðmáti útgefinnar afurðar fyrir losunarreglu sem afurðinni er úthlutað.
 
-Í þessu tilviki er mögulegt fyrir varan að hafa annað líftímaástand en útgáfan þegar þú býrð til nýja verkfræðivöru.
+Í þessu tilviki er mögulegt að varan hafi aðra líftímastöðu en útgáfan þegar þú býrð til nýja hönnunarafurð.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

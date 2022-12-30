@@ -1,6 +1,6 @@
 ---
 title: Ýmis gjöld flutningsstjórnunar
-description: Þessi grein útskýrir hvernig flutningsmynduð gjöld verða að tengjast gjaldkóða.
+description: Þessi grein útskýrir hvernig gjöld sem myndast vegna flutninga verða að vera tengd við gjaldakóða.
 author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 8cc4c595d8b61cb9b6c81af4bf7f03faa1a12960
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8849214"

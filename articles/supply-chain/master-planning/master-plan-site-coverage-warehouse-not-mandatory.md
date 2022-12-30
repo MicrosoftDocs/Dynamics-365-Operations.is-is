@@ -1,6 +1,6 @@
 ---
 title: Aðaláætlanagerð fyrir svæðistryggingu, vöruhús ekki áskilið
-description: Þessi grein lýsir því hvernig hlutur sem hefur svæðisvíddarstillingu fyrir þekju er skipulögð.
+description: Þessi grein lýsir því hvernig vöru sem hefur svæði sem þakningarvídd er áætluð.
 author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6b03bd1970aa7a2f3276186a0a9f8c2cd2880956
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9741150"
@@ -27,7 +27,7 @@ ms.locfileid: "9741150"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig hlutur sem hefur svæðisvíddarstillingu fyrir þekju er skipulögð.
+Þessi grein lýsir því hvernig vöru sem hefur svæði sem þakningarvídd er áætluð.
 
 Eftirfarandi aðstæður eru í þessu dæmi um aðaláætlunargerð:
 

@@ -1,6 +1,6 @@
 ---
 title: Færibreytur vöruhúss fyrir bylgjuvinnslu
-description: Þessi grein lýsir því hvernig á að setja upp vöruhúsfæribreytur fyrir bylgjuvinnslu. Hægt er að nota bylgjuvinnslu til að flokka tiltekt fyrir margar vinnupantanir í einni bylgju.
+description: Þessi grein lýsir því hvernig á að setja upp færibreytur vöruhúss fyrir bylgjuvinnslu. Hægt er að nota bylgjuvinnslu til að flokka tiltekt fyrir margar vinnupantanir í einni bylgju.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9067852"
@@ -23,7 +23,7 @@ ms.locfileid: "9067852"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að setja upp vöruhúsfæribreytur fyrir bylgjuvinnslu. Hægt er að nota bylgjuvinnslu til að flokka tiltekt fyrir margar vinnupantanir í einni bylgju.
+Þessi grein lýsir því hvernig á að setja upp færibreytur vöruhúss fyrir bylgjuvinnslu. Hægt er að nota bylgjuvinnslu til að flokka tiltekt fyrir margar vinnupantanir í einni bylgju.
 
 Til að nota bylgjuvinnslu skal tilgreina eftirfarandi á síðunni **Færibreytur vöruhúsakerfis**:
 
@@ -52,7 +52,7 @@ Til að setja upp færibreytur vöruhúss til bylgjuvinnslu skal fylgja þessum 
 > [!NOTE]
 > Á bylgjusniðmátið sem er notað til að vinna úr bylgja, getur þú tilgreint stillingarnar sem gera sjálfvirka bylgjuvinnslu. Ef sett er upp áætlun fyrir runuvinnsluna ætti að samstilla tímasetningu með stillingar fyrir sjálfvirkni í bylgjusniðmátið. Frekari upplýsingar eru í [Stofna bylgjusniðmát](wave-templates.md).
 >
-> Ef þú ert að nota *Samgöngustjórnun* og *vöruhúsastjórnunarferli (WMS)*, þú getur tilgreint hvort á að sameina álag þegar þú vinnur bylgju. Í þessu dæmi er gagnlegt þegar hægt er að senda nokkrar litlar hleðslur samtímis. Til að sameina hleðslur við bylgjuvinnslu, á **Hleðslur** flipanum, skal velja gátreitinn **Sameina hleðslur við framkvæmd bylgju** .</P>
+> Ef notað er *Flutningsstjórnun* og *vöruhúsakerfisferli (WMS)* er hægt að tilgreina hvort eigi að sameina hleðslur þegar unnið er úr bylgju. Í þessu dæmi er gagnlegt þegar hægt er að senda nokkrar litlar hleðslur samtímis. Til að sameina hleðslur við bylgjuvinnslu, á **Hleðslur** flipanum, skal velja gátreitinn **Sameina hleðslur við framkvæmd bylgju** .</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>Setja upp alla eða hluta frátekning fyrir framleiðslubylgjur
 

@@ -1,6 +1,6 @@
 ---
 title: Klasar sem eru minni en fullhlaðinn trukkur (LTL)
-description: Þessi grein útskýrir hvað flokkar fyrir minna en vöruflutninga (LTL) eru og lýsir því hvernig á að setja þá upp í Microsoft Dynamics 365 Supply Chain Management.
+description: Í þessari grein er gerð grein fyrir klösum sem eru minna en fullhlaðinn trukkur (LTL) og útskýrt hvernig á að setja þá upp í Microsoft Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 04/05/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8857200"
@@ -33,7 +33,7 @@ Klasi sem er minna en fullhlaðinn trukkur (LTL) er klasi farmsendingar sem er n
 - Takið ákvörðun um kröfur pökkunar fyrir hvern LTL-klasa með því að athuga alþjóðlega LTL-staðla. Á þennan hátt er tryggt að vörurnar séu vel varðar og sendar á öruggan hátt.
 - Fáið nákvæmt mát á sendingu út frá LTL-farmklasa hverrar afurðar.
 
-Þessi grein lýsir því hvernig á að búa til LTL flokka í Microsoft Dynamics 365 Supply Chain Management.
+Í þessari grein er lýst hvernig á að stofna LTL-klasa í Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="create-an-ltl-class"></a>Stofna LTL-klasa
 

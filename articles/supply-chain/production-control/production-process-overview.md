@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir framleiðsluferli
-description: Þessi grein gefur yfirlit yfir framleiðsluferlana. Hún lýsir mismunandi stigum framleiðslupantana, runupantana og kanbana, frá stofnun pöntunar til lokunar fjárhagstímabilsins.
+description: Þessi grein veitir yfirlit yfir framleiðsluferlið. Hún lýsir mismunandi stigum framleiðslupantana, runupantana og kanbana, frá stofnun pöntunar til lokunar fjárhagstímabilsins.
 author: johanhoffmann
 ms.date: 09/13/2019
 ms.topic: overview
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a8ebf0418a7d8b93e2ac58f90a686c63fd859355
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8852216"
@@ -25,7 +25,7 @@ ms.locfileid: "8852216"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein gefur yfirlit yfir framleiðsluferlana. Hún lýsir mismunandi stigum framleiðslupantana, runupantana og kanbana, frá stofnun pöntunar til lokunar fjárhagstímabilsins.
+Þessi grein veitir yfirlit yfir framleiðsluferlið. Hún lýsir mismunandi stigum framleiðslupantana, runupantana og kanbana, frá stofnun pöntunar til lokunar fjárhagstímabilsins.
 
 Framleiðsla á vörum, ferli sem er einnig þekkt sem líftími framleiðslu, fylgir ákveðnum skrefum sem þarf að ljúka við framleiðslu á vöru. Líftími hefst með stofnun framleiðslupöntunar, runupöntun eða kanban. Líftíma lýkur með lokinni, framleiddri vöru sem er tilbúin fyrir annaðhvort viðskiptavininn eða annan áfanga framleiðslu. Hvert skref í líftíma krefst mismunandi gerða upplýsinga til að ljúka ferlinu. Þegar hverju skrefi er lokið sýnir framleiðslupöntun, runupöntun eða kanban breytingu á framleiðslustöðu. Mismunandi gerðir afurða krefjast mismunandi framleiðsluferla.
 

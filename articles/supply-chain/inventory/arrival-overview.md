@@ -1,6 +1,6 @@
 ---
 title: Komuyfirlit
-description: Þessi grein veitir upplýsingar um eiginleikann Komuyfirlit. Komuyfirlitssíðan er hluti þessa eiginleika og sýnir yfirlit yfir allar vörur sem eru væntanlegar.
+description: Þessi grein veitir upplýsingar um komuyfirlitseiginleikann. Komuyfirlitssíðan er hluti þessa eiginleika og sýnir yfirlit yfir allar vörur sem eru væntanlegar.
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -20,7 +20,7 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.openlocfilehash: 8118db9469c01c43b23c64ee383ac1d383a0ba7a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8874073"
@@ -29,7 +29,7 @@ ms.locfileid: "8874073"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um eiginleikann Komuyfirlit. Komuyfirlitssíðan er hluti þessa eiginleika og sýnir yfirlit yfir allar vörur sem eru væntanlegar.
+Þessi grein veitir upplýsingar um komuyfirlitseiginleikann. Komuyfirlitssíðan er hluti þessa eiginleika og sýnir yfirlit yfir allar vörur sem eru væntanlegar.
 
 Síðan **Komuyfirlit** sýnir yfirlit yfir allar væntanlegar vörur. Hún sýnir einnig komur sem hægt er að ræsa byggt á yfirlitinu. Þessi grein fjallar um móttökuferlið.
 

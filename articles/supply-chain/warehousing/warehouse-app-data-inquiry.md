@@ -1,6 +1,6 @@
 ---
 title: Fyrirspurn um gögn með farsímaforriti vöruhúsakerfis
-description: Þessi grein lýsir því hvernig á að stilla gagnafyrirspurnir í valmyndarhlutum farsíma og nota þau sem hluta af krókaleiðum.
+description: Í þessari grein er lýst hvernig á að stilla í valmyndaratriði gagnafyrirspurna í fartæki og nota þau sem hluta af hjáleiðum.
 author: perlynne
 ms.date: 08/09/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
 ms.openlocfilehash: 39677ebfb9babeb7246ece4d27ab1813435ca12e
 ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/08/2022
 ms.locfileid: "9427849"
@@ -22,252 +22,252 @@ ms.locfileid: "9427849"
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="feature-introduction"></a>Eiginleikakynning
+## <a name="feature-introduction"></a>Kynnning á eiginleika
 
-Með því að bjóða upp á strikamerkjaskönnunargetu gefur Warehouse Management farsímaforritið þér auðvelda og nákvæma leið til að fanga gögn sem hluta af vöruhúsaferlum þínum. Hins vegar eru strikamerki stundum skemmd og verða ólæsileg, eða nauðsynlegar gagnaupplýsingar gætu ekki verið til sem strikamerki í viðskiptaferlinu þínu. Í þessum tilfellum getur handvirk innsláttur gagna tekið langan tíma og getur jafnvel valdið því að rangar upplýsingar eru teknar. Árangurinn getur verið minni skilvirkni og lægra þjónustustig.
+Með því að bjóða upp á eiginleika til skönnunar strikamerkja gefur farsímaforrit vöruhúsakerfis þér auðvelda og nákvæma leið til að taka upp gögn sem hluta af vöruhúsaferlum þínum. Strikamerkin eru hins vegar stundum skemmd og ólæsileg eða nauðsynlegar upplýsingar um gögnin eru mögulega ekki til sem strikamerki í viðskiptaferlinu þínu. Í slíkum tilvikum getur handvirkur innsláttur gagnanna tekið langan tíma og jafnvel valdið því að rangar upplýsingar eru teknar upp. Niðurstöður kunna að vera minnkuð afköst og lægra þjónustustig.
 
-Með því að nota sveigjanlegt gagnafyrirspurnarferli geta starfsmenn auðveldlega flett upp nauðsynlegum upplýsingum sem hluta af innbyggða vöruhúsastjórnun farsímaforritinu og beitt síunarvalkostum þannig að aðeins viðeigandi gögn séu sýnd. Þess vegna er handvirkt val hraðara og nákvæmara.
+Með því að nota sveigjanlegt fyrirspurnarferli gagna geta starfskraftar auðveldlega flett upp nauðsynlegum upplýsingum sem hluta af innbyggðu farsímaforrit vöruhúsakerfis og beitt síunarvalkostum þannig að aðeins viðeigandi gögn séu sýnd. Þar af leiðir er handvirkt val hraðvirkara og nákvæmara.
 
-Til dæmis, í móttökuflæði innkaupapöntunar, þarf innkaupapöntunarnúmer til að passa við komandi birgðir. Sem hluti af þessu ferli geturðu auðveldlega stillt valmyndaratriði til að gefa upp kortalista yfir viðkomandi innkaupapöntunarnúmer. Á þennan hátt geturðu haldið áfram móttökuflæðinu með því að nota fljótlega punkt-til-velja nálgun. Þessi grein veitir dæmi um atburðarás, en virknina er einnig hægt að nota í einhverju eða öllum vöruhúsastjórnun farsímaforritinu þínu.
+Til dæmis, í móttökuflæði innkaupapöntunar, þarf innkaupapöntunarnúmer til að passa við komandi birgðir. Í þessu ferli getur þú auðveldlega stillt valmyndaratriði til að veita kortayfirlit yfir viðeigandi innkaupapöntunarnúmer. Á þennan hátt er hægt að halda áfram að taka á móti flæði með því að nota fljótlega benda til að velja aðferð. Þessi grein gefur dæmi um aðstæður, en einnig er hægt að nota eiginleikann innan hvers farsímaforrits sem er eða í öllum farsímaforritum vöruhúsakerfis.
 
-## <a name="turn-on-the-data-inquiry-flow-feature-and-its-prerequisites"></a>Kveiktu á gagnafyrirspurnarflæðiseiginleikanum og forsendum hans
+## <a name="turn-on-the-data-inquiry-flow-feature-and-its-prerequisites"></a>Kveikja á eiginleikanum flæði gagnafyrirspurnar og skilyrðum hans
 
-Áður en þú getur notað virknina sem lýst er í þessari grein verður þú að ljúka eftirfarandi ferli til að kveikja á nauðsynlegum eiginleikum.
+Áður en hægt er að nota eiginleikann sem lýst er í þessari grein verður að ljúka við eftirfarandi ferli til að kveikja á nauðsynlegum eiginleikum.
 
-1. Opna skal **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**. (Til að fá frekari upplýsingar um hvernig á að nota **Eiginleikastjórnun** vinnurými, sjá [Yfirlit yfir eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) .)
-1. Ef þú ert að keyra Supply Chain Management útgáfu 10.0.28 eða eldri, kveiktu á eiginleikanum sem er skráður á eftirfarandi hátt:
+1. Opna skal **Kerfisstjórnun \> Vinnusvæði \> Eiginleikastjórnun**. (Nánari upplýsingar um notkun vinnusvæðisins **Eiginleikastjórnun** er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
+1. Ef þú ert að keyra útgáfu 10.0.28 eða fyrr af Supply Chain Management skaltu kveikja á eiginleikanum sem er skráður á eftirfarandi hátt:
 
     - **Eining:** *Vöruhúsakerfi*
     - **Heiti eiginleika:** *Leiðbeiningar fyrir skref vöruhúsaforrits*
 
-    Þessi eiginleiki er forsenda fyrir *Fyrirspurnarflæði vöruhúsastjórnunarapps* eiginleiki. Frá og með Supply Chain Management útgáfu 10.0.29 er það skylda og ekki hægt að slökkva á henni. Frekar upplýsingar um eiginleikann *Leiðbeiningar fyrir skref vöruhúsaforrits* er að finna í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management ](mobile-app-titles-instructions.md).
+    Þessi eiginleiki er skilyrði fyrir eiginleikann *Flæði gagnafyrirspurnar forritsins Warehouse Management*. Frá og með útgáfu 10.0.29 af Supply Chain Management er þetta áskilið og ekki er hægt að slökkva á því. Frekar upplýsingar um eiginleikann *Leiðbeiningar fyrir skref vöruhúsaforrits* er að finna í [Sérsníða þrepatitla og leiðbeiningar fyrir farsímaforrit Warehouse Management ](mobile-app-titles-instructions.md).
 
-1. Kveiktu á eiginleikanum sem er skráður á eftirfarandi hátt:
+1. Virkjaðu eiginleikann sem er sýndur á eftirfarandi hátt:
 
     - **Eining:** *Vöruhúsakerfi*
     - **Heiti eiginleika:** *Hjáleiðir forrits vöruhúsakerfis*
 
-    Þessi eiginleiki er forsenda fyrir *Fyrirspurnarflæði vöruhúsastjórnunarapps* eiginleiki. Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á henni. Fyrir frekari upplýsingar um *Vöruhússtjórnun app krókaleiðir* eiginleiki, sjá [Stilltu krókaleiðir fyrir skref í valmyndaratriðum farsíma](warehouse-app-detours.md).
+    Þessi eiginleiki er skilyrði fyrir eiginleikann *Flæði gagnafyrirspurnar forritsins Warehouse Management*. Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á því. Frekari upplýsingar um eiginleikann *Hjáleiðir forrits vöruhúsakerfis* sjá [Skilgreina hjáleiðir fyrir skref í valmyndaratriðum fartækis](warehouse-app-detours.md).
 
-1. Ef *Vöruhússtjórnun app krókaleiðir* Ekki var þegar kveikt á eiginleikanum, uppfærðu reitnöfnin í Vöruhússtjórnun farsímaforritinu með því að fara á **Vöruhússtjórnun \> Uppsetning \> Farsímatæki \> Reitaheiti vöruhúsaapps** og velja **Búðu til sjálfgefna uppsetningu**. Endurtaktu þetta skref fyrir hvern lögaðila (fyrirtæki) þar sem þú notar vöruhúsastjórnun farsímaforritið. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
-1. Kveiktu á eiginleikanum sem er skráður á eftirfarandi hátt:
+1. Ef ekki var þegar kveikt á eiginleikanum *Hjáleiðir forrits vöruhúsakerfis* skaltu uppfærða heiti reita í farsímaforriti Warehouse Management með því að fara í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Reitarheiti vöruhúsaforrits** og veldu **Búa til sjálfgefna uppsetningu**. Endurtaktu þetta skref fyrir hvern lögaðila (fyrirtæki) þar sem þú notar farsímaforrit Warehouse Management. Frekari upplýsingar eru í [Skilgreina reiti fyrir farsímaforrit vöruhúsakerfis](configure-app-field-names-priorities-warehouse.md).
+1. Virkjaðu eiginleikann sem er sýndur á eftirfarandi hátt:
 
     - **Eining:** *Vöruhúsakerfi*
-    - **Eiginleikaheiti:** *Fyrirspurnarflæði vöruhúsastjórnunarapps*
+    - **Heiti eiginleika:** *Flæði gagnafyrirspurnar forritsins Warehouse Management*
 
-    Þessi eiginleiki er sá sem lýst er í þessari grein.
+    Þessi eiginleiki er eiginleikinn sem lýst er í þessari grein.
 
 ## <a name="example-scenarios"></a>Dæmi um aðstæður
 
-Þessi grein notar dæmi atburðarás til að sýna hvernig þú getur notað *Fyrirspurnarflæði vöruhúsastjórnunarapps* eiginleika til að bæta innkaupakvittunarflæðið. Aðstæðurnar nota staðlað sýnishornsgögn, sem innihalda flæði sem er nefnt *Kaup fá*. Þetta flæði byrjar á því að hvetja starfsmenn til að auðkenna innkaupapöntunarnúmer sem þeir fá á móti. Til að auðvelda starfsmönnum að bera kennsl á innkaupapöntunina muntu bæta fyrstu síðu flæðisins með því að bæta við eftirfarandi nýjum fyrirspurnarvalkostum sem [krókaleiðir](warehouse-app-detours.md):
+Þessi grein notar dæmi um aðstæður til að sýna hvernig hægt er *Flæði gagnafyrirspurnar forritsins Warehouse Management* til að bæta flæði innkaupakvittunar. Aðstæðurnar nota hefðbundin sýnisgögn, sem innihalda flæði sem er nefnt *Innkaup móttekin*. Þetta flæði hefst með því að hvetja starfskrafta til að auðkenna innkaupapöntunarnúmer sem þeir jafna við. Til að auðvelda starfskröftum að bera kennsl á innkaupapöntunina bætir þú við fyrstu síðu flæðisins með því að bæta við eftirfarandi nýjum fyrirspurnarmöguleikum sem [Hjáleiðum](warehouse-app-detours.md):
 
-- **Leitaðu að innkaupapöntunum eftir söluaðila** – Opnaðu síðu sem biður starfsmenn um að slá inn nafn lánardrottins eða hluta af nafni lánardrottins. Hægt er að nota jokerstafi. Til dæmis, ef starfsmaður á von á afhendingu á heimleið í dag frá seljanda sem inniheldur *Snúður* í nafni þess geta þeir farið inn **Hala\*** til að skoða kortasett fyrir opnar innkaupapantanir sem innihalda þennan texta. Hvert kort hefur nokkra reiti sem veita upplýsingar um hverja innkaupapöntun. Auk nafns lánardrottins er hægt að hanna kortin þannig að þau sýni reikningsnúmer lánardrottins, afhendingardag og skjalastöðu.
-- **Leitaðu að söluaðilum í dag** – Opnaðu síðu sem biður starfsmenn ekki um að slá inn gögn en sýnir í staðinn forstilltar síur (eins og dagsetningu í dag). Síðan sýnir síðan sett af spilum sem passa við síuna. Starfsmenn halda áfram með því að velja kort fyrir innkaupapöntunina sem þeir vilja skrá birgðavörur á.
-- **Flettu upp pöntunum eftir hlut** - Opnaðu síðu sem biður starfsmenn um að skanna strikamerkið fyrir hvaða hlut sem er í komandi birgðum. Flæðið listar síðan allar opnar innkaupapantanir sem innihalda línur fyrir skannað vörunúmer. Til að ná yfir aðstæður þar sem strikamerki er ekki hægt að lesa, geturðu bætt annarri krókaleit við þessa síðu sem gerir starfsmönnum kleift að leita að vörunúmerum innan ákveðinnar innkaupapöntunar.
+- **Flettu upp framleiðslupöntunum eftir lánardrottni** – Opnaðu síðu sem biður starfskrafta um að slá inn nafn lánardrottins eða hluta af nafni lánadrottins. Hægt er að nota algildisstafi. Til dæmis, ef starfskraftur á von á afhendingu á innleið í dag frá lánardrottni sem er með *Tailspin* í nafninu sínu, getur hann slegið inn **Tail\*** til að skoða spjald yfir opnar innkaupapantanir með þessum texta. Á hverju spjaldi eru nokkrir reitir sem gefa upplýsingar um hverja innkaupapöntun. Auk nafns lánardrottins getur þú hannað spjöldin þannig að þau sýni reikningsnúmer lánardrottnins, afhendingardag og stöðu skjalsins.
+- **Fletta upp innkaupapöntunum fyrir daginn í dag** – Opnaðu síðu sem hvetur starfsmenn ekki til að slá inn gögn en sýnir í staðinn forstilltar síur (eins og dagsetningin í dag). Síðan sýnir síðan spjöld sem passa við síuna. Starfskraftar halda áfram með því að velja spjald fyrir innkaupapöntunina sem þeir vilja skrá birgðavörur á móti.
+- **Fletta upp innkaupapöntunum eftir vöru** – Opnaðu síðu sem biður starfskrafta um að skanna strikamerki hvaða vöru sem er í birgðunum sem komu. Flæðið skráir svo allar opnar innkaupapantanir sem innihalda línur fyrir skannaða vörunúmerið. Til að fjalla um aðstæður þar sem ekki er hægt að lesa strikamerki er hægt að bæta annarri uppflettingu hjáleiðar við þessa síðu sem gerir starfskröftum kleift að leita að vörunúmerum í tiltekinni innkaupapöntun.
 
-Í hverju tilviki auðkennir starfsmaðurinn innkaupapöntun með því að velja kort og er síðan farið aftur á fyrstu síðu sem sýnir valið innkaupapöntunarnúmer. Starfsmaðurinn getur síðan haldið áfram skráningarflæði birgðavöru á innleið.
+Í hverju tilviki auðkennir starfskraftur innkaupapöntun með því að velja spjald og síðan er farið aftur á fyrstu síðu, sem sýnir valið innkaupapöntunarnúmer. Starfskraftur getur þá haldið áfram skráningarflæði birgðavöru á innleið.
 
 ## <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að vinna í gegnum dæmið atburðarás sem lýst er í þessari grein verður þú að vera á kerfi þar sem staðalinn [kynningargögn](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) er sett upp. Að auki verður þú að velja *USMF* lögaðila (fyrirtæki) áður en þú byrjar.
+Til að vinna í gegnum sýniaðstæðurnar sem eru kynnt í þessu efnisatriði verður þú að vinna á kerfi þar sem venjulegu [sýnigögnin](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) eru sett upp. Þar að auki verður þú að velja *USMF*-lögaðila (fyrirtæki) áður en þú byrjar.
 
-## <a name="configure-the-mobile-device-menu-items"></a>Stilltu valmyndaratriði fartækisins
+## <a name="configure-the-mobile-device-menu-items"></a>Grunnstilling valmyndaatriði fartækisins
 
-Til að búa til hvern og einn af nýju fyrirspurnarvalkostunum sem þú þarft að bæta við fyrstu síðu flæðisins verður þú að setja það upp sem valmyndaratriði fyrir farsíma. Síðar muntu gera fyrirspurnarmöguleikana tiltæka sem krókaleiðir að *Kaup fá* flæði.
+Til að búa til hverja nýja fyrirspurnarvalkosti sem þú þarft að bæta við fyrstu síðu flæðisins verður þú að setja hana upp sem valmyndaratriði fartækis. Síðar verður hægt að gera fyrirspurnarvalkostina aðgengilega sem hjáleið frá flæðinu *Innkaup móttekin*.
 
-### <a name="create-the-look-up-pos-by-vendor-menu-item"></a>Búðu til valmyndaratriðið „Flita inn pöntunum eftir söluaðila“
+### <a name="create-the-look-up-pos-by-vendor-menu-item"></a>Stofna valmyndaratriðið „Fletta upp innkaupapöntunum eftir lánardrottni“
 
-Búðu til **Leitaðu að innkaupapöntunum eftir söluaðila** valmyndaratriði með því að fylgja þessum skrefum.
+Stofna valmyndaratriðið **Fletta upp innkaupapöntunum eftir lánardrottni** með því að fylgja þessum skrefum.
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Valmyndaratriði fartækis**.
-1. Á aðgerðarrúðunni velurðu **Nýtt** til að bæta við valmyndaratriði fyrir farsíma.
-1. Stilltu eftirfarandi gildi fyrir nýja valmyndaratriðið:
+1. Á aðgerðasvæðinu skal velja **Nýtt** til að bæta valmyndaratriði fartæki við hnitanetið.
+1. Stillið eftirfarandi gildi fyrir nýju valmyndaratriði:
 
-    - **Heiti valmyndaratriðis:** *Leitaðu að innkaupapöntunum eftir söluaðila*
-    - **Titill:** *Leitaðu að innkaupapöntunum eftir söluaðila*
+    - **Heiti valmyndaratriðis:** *Fletta upp innkaupapöntunum eftir lánardrottnum*
+    - **Titill:** *Flettu upp innkaupapöntunum eftir lánardrottni*
     - **Stilling:** *Óbein*
 
 1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
 
-    - **Virknikóði:** *Gagnafyrirspurn*
-    - **Notaðu aðferðarleiðbeiningar:** *Já* (Þetta gildi er sjálfkrafa valið.)
-    - **Nafn töflu:** *PurchTable* (Þú vilt fletta upp innkaupapöntunarnúmerum úr þessari töflu.)
+    - **Aðgerðarkóði:** *Fyrirspurn um gögn*
+    - **Nota leiðbeiningar fyrir ferli:** *Já* (Þetta gildi er valið sjálfkrafa.)
+    - **Töfluheiti:** *PurchTable* (Þú munt fletta innkaupapöntunarnúmerum úr þessari töflu).
 
-1. Á aðgerðarrúðunni velurðu **Breyta fyrirspurn** til að skilgreina fyrirspurn sem er byggð á valinni grunntöflu (í þessu tilviki innkaupapantanatöfluna).
-1. Í fyrirspurnaritlinum, á **Svið** flipanum skaltu bæta eftirfarandi línum við ristina.
+1. Í aðgerðasvæði velurðu **Breyta fyrirspurn** til að skilgreina fyrirspurn sem er byggð á valinni grunntöflu (í þessu tilviki töflu innkaupapöntunar).
+1. Í fyrirspurnarritlinum, á flipanum **Svið**, bætið eftirfarandi línum við hnitanetið.
 
-    | Tafla | Afleidd tafla | Reitur | Skilyrði |
+    | Tafla | Afleidd tafla | Svæði | Skilyrði |
     |---|---|---|---|
     | Innkaupapantanir | Innkaupapantanir | Staða innkaupapöntunar | Opin pöntun |
-    | Innkaupapantanir | Innkaupapantanir | Afhendingardagur | (dagasvið(-10,10)) |
+    | Innkaupapantanir | Innkaupapantanir | Afhendingardagur | (dayRange(-10,10)) |
     | Innkaupapantanir | Innkaupapantanir | Nafn lánardrottins | |
 
 1. Veldu **Í lagi**.
 
-    Í þessu dæmi er nýja valmyndaratriðið stillt til að finna opnar innkaupapantanir sem búist er við að berist hvenær sem er á milli 10 daga í fortíðinni og 10 daga í framtíðinni.
+    Í þessu dæmi er nýi valmyndaratriðið stilltur til að finna opnar innkaupapantanir sem eru væntanlegar hvenær sem er á milli 10 daga í fortíðinni og 10 daga í framtíðinni.
 
-    Í fyrirspurninni er **Viðmið** dálkur fyrir *Nafn söluaðila* hefur verið skilið eftir autt. Þess vegna munu starfsmenn geta tilgreint þetta gildi á meðan þeir nota vöruhússtjórnun farsímaforritið.
+    Í fyrirspurninni hefur dálkurinn **Skilyrði** fyrir *Nafn lánardrottins* verið skilinn eftir auður. Því munu starfskraftar geta tilgreint þetta gildi á meðan þeir nota farsímaforrit vöruhúsakerfis.
 
-    Ef þú vilt tilgreina hvernig listinn verður flokkaður geturðu sett upp flokkunina á **Flokkun** flipa.
+    Ef þú vilt tilgreina hvernig listanum verður raðað getur þú sett upp röðunina á flipanum **Flokkun**.
 
-1. Auk þess að skilgreina fyrirspurnina þarf að velja hvaða reitir munu birtast á spjöldum á fyrirspurnarlistasíðunni. Því skaltu velja á aðgerðarrúðunni **Vallarlisti**.
-1. Á **Vallarlisti** síðu, stilltu eftirfarandi gildi:
+1. Auk þess að skilgreina fyrirspurnina verður þú að velja hvaða reitir verða sýndir á spjöldum fyrirspurnarlistasíðunnar. Veljið því **Reitalisti** á aðgerðasvæðinu.
+1. Á síðunni **Reitalisti** skal stilla eftirfarandi gildi:
 
-    - **Sýnareit 1:** *PurchId* (Þessi reitur verður sýndur sem haus fyrir hvert kort.)
-    - **Sýnareit 2:** *Staða kaups*
-    - **Sýnareit 3:** *PurchName*
-    - **Sýnareit 4:** *OrderAccount*
-    - **Sýnareit 5:** *Afhendingardagur*
-    - **Sýnareit 6:** *sýnaDocumentStatus()* (Þetta gildi er birtingaraðferð eins og „()“ í lokin gefur til kynna.)
+    - **Birta reit 1:** *PurchId* (Þessi reitur verður birtur sem haus fyrir hvert spjald).
+    - **Upplýsingasvæði 2:** *PurchStatus*
+    - **Upplýsingasvæði 3:** *PurchName*
+    - **Upplýsingasvæði 4:** *OrderAccount*
+    - **Upplýsingasvæði 5:** *DeliveryDate*
+    - **Sýna reit 6:** *displayDocumentStatus()* (Þetta gildi er birtingaraðferð, eins og "()" í lokin gefur til kynna.)
 
 1. Í aðgerðarúðunni skal velja **Vista**. Því næst skal loka síðunni.
 
-### <a name="create-the-look-up-pos-for-today-menu-item"></a>Búðu til valmyndaratriðið „Flita inn pöntunum í dag“
+### <a name="create-the-look-up-pos-for-today-menu-item"></a>Stofna valmyndaratriðið „Flettu upp innkaupapöntunum fyrir daginn í dag“
 
-Búðu til **Leitaðu að söluaðilum í dag** valmyndaratriði með því að fylgja þessum skrefum.
+Stofna valmyndaratriðið **Flettu upp innkaupapöntunum fyrir daginn í dag** með því að fylgja þessum skrefum.
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Valmyndaratriði fartækis**.
-1. Á aðgerðarrúðunni velurðu **Nýtt** til að bæta við valmyndaratriði fyrir farsíma.
-1. Stilltu eftirfarandi gildi fyrir nýja hlutinn:
+1. Á aðgerðasvæðinu skal velja **Nýtt** til að bæta valmyndaratriði fartæki við hnitanetið.
+1. Stillið eftirfarandi gildi fyrir nýju vöruna:
 
-    - **Heiti valmyndaratriðis:** *Leitaðu að söluaðilum í dag*
-    - **Titill:** *Leitaðu að söluaðilum í dag*
+    - **Heiti valmyndaratriðis:** *Flettu upp innkaupapöntunum fyrir daginn í dag*
+    - **Titill:** *Flettu upp innkaupapöntunum fyrir daginn í dag*
     - **Stilling:** *Óbein*
 
 1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
 
-    - **Virknikóði:** *Gagnafyrirspurn*
-    - **Notaðu aðferðarleiðbeiningar:** *Já* (Þetta gildi er sjálfkrafa valið.)
-    - **Nafn töflu:** *PurchTable* (Þú vilt fletta upp innkaupapöntunarnúmerum úr þessari töflu.)
+    - **Aðgerðarkóði:** *Fyrirspurn um gögn*
+    - **Nota leiðbeiningar fyrir ferli:** *Já* (Þetta gildi er valið sjálfkrafa.)
+    - **Töfluheiti:** *PurchTable* (Þú munt fletta innkaupapöntunarnúmerum úr þessari töflu).
 
-1. Á aðgerðarrúðunni velurðu **Breyta fyrirspurn** til að skilgreina fyrirspurn sem er byggð á valinni grunntöflu (í þessu tilviki innkaupapantanatöfluna).
-1. Í fyrirspurnaritlinum, á **Svið** flipanum skaltu bæta eftirfarandi línum við ristina.
+1. Í aðgerðasvæði velurðu **Breyta fyrirspurn** til að skilgreina fyrirspurn sem er byggð á valinni grunntöflu (í þessu tilviki töflu innkaupapöntunar).
+1. Í fyrirspurnarritlinum, á flipanum **Svið**, bætið eftirfarandi línum við hnitanetið.
 
-    | Tafla | Afleidd tafla | Reitur | Skilyrði |
+    | Tafla | Afleidd tafla | Svæði | Skilyrði |
     |---|---|---|---|
     | Innkaupapöntun | Innkaupapöntun | Staða innkaupapöntunar | Opin pöntun |
-    | Innkaupapöntun | Innkaupapöntun | Afhendingardagur | (Dagur (0)) |
+    | Innkaupapöntun | Innkaupapöntun | Afhendingardagur | (Dagur(0)) |
 
 1. Veldu **Í lagi**.
 
-    Í þessu dæmi er nýja valmyndaratriðið stillt til að finna opnar innkaupapantanir sem búist er við að berist í dag.
+    Í þessu dæmi er nýi valmyndaratriðið stilltur til að finna opnar innkaupapantanir sem eru væntanlegar í dag.
 
-    Ef þú vilt tilgreina hvernig listinn verður flokkaður geturðu sett upp flokkunina á **Flokkun** flipa.
+    Ef þú vilt tilgreina hvernig listanum verður raðað getur þú sett upp röðunina á flipanum **Flokkun**.
 
-1. Auk þess að skilgreina fyrirspurnina þarf að velja hvaða reitir munu birtast á spjöldum á fyrirspurnarlistasíðunni. Því skaltu velja á aðgerðarrúðunni **Vallarlisti**.
-1. Á **Vallarlisti** síðu, stilltu eftirfarandi gildi:
+1. Auk þess að skilgreina fyrirspurnina verður þú að velja hvaða reitir verða sýndir á spjöldum fyrirspurnarlistasíðunnar. Veljið því **Reitalisti** á aðgerðasvæðinu.
+1. Á síðunni **Reitalisti** skal stilla eftirfarandi gildi:
 
-    - **Sýnareit 1:** *PurchName* (Þessi reitur verður sýndur sem haus fyrir hvert kort.)
-    - **Sýnareit 2:** *PurchId*
-    - **Sýnareit 3:** *Staða kaups*
-    - **Sýnareit 4:** *DlvMode*
-    - **Sýnareit 5:** *DlvTerm*
-    - **Sýnareit 6:** *OrderAccount*
-    - **Sýnareit 7:** *VendorName()* (Þetta gildi er birtingaraðferð eins og „()“ í lokin gefur til kynna.)
+    - **Birta reit 1** *PurchName* (Þessi reitur verður birtur sem haus fyrir hvert spjald).
+    - **Upplýsingasvæði 2:** *PurchId*
+    - **Upplýsingasvæði 3:** *PurchStatus*
+    - **Upplýsingasvæði 4:** *DlvMode*
+    - **Upplýsingasvæði 5:** *DlvTerm*
+    - **Sýna reit 6:** *OrderAccount*
+    - **Sýna reit 7:** *VendorName()* (Þetta gildi er birtingaraðferð, eins og "()" í lokin gefur til kynna.)
 
 1. Í aðgerðarúðunni skal velja **Vista**. Því næst skal loka síðunni.
 
-### <a name="create-the-look-up-pos-by-item-menu-item"></a>Búðu til valmyndaratriðið „Flita inn pöntunum eftir atriði“
+### <a name="create-the-look-up-pos-by-item-menu-item"></a>Stofna valmyndaratriðið „Fletta upp innkaupapöntunum eftir vörum“
 
-Búðu til **Flettu upp pöntunum eftir hlut** valmyndaratriði með því að fylgja þessum skrefum.
+Stofna valmyndaratriðið **Fletta upp innkaupapöntunum eftir vörum** með því að fylgja þessum skrefum.
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Valmyndaratriði fartækis**.
-1. Á aðgerðarrúðunni velurðu **Nýtt** til að bæta við valmyndaratriði fyrir farsíma.
-1. Stilltu eftirfarandi gildi fyrir nýja hlutinn:
+1. Á aðgerðasvæðinu skal velja **Nýtt** til að bæta valmyndaratriði fartæki við hnitanetið.
+1. Stillið eftirfarandi gildi fyrir nýju vöruna:
 
-    - **Heiti valmyndaratriðis:** *Flettu upp pöntunum eftir hlut*
-    - **Titill:** *Flettu upp pöntunum eftir hlut*
+    - **Heiti valmyndaratriðis:** *Flettu upp stöðlum eftir atriðum*
+    - **Titill:** *Fletta upp innkaupapöntunum eftir vörum*
     - **Stilling:** *Óbein*
 
 1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
 
-    - **Virknikóði:** *Gagnafyrirspurn*
-    - **Notaðu aðferðarleiðbeiningar:** *Já* (Þetta gildi er sjálfkrafa valið.)
-    - **Nafn töflu:** *PurchLine* (Þú vilt fletta upp innkaupapöntunarnúmerum byggt á vörunúmeri í gegnum línugögnin.)
+    - **Aðgerðarkóði:** *Fyrirspurn um gögn*
+    - **Nota leiðbeiningar fyrir ferli:** *Já* (Þetta gildi er valið sjálfkrafa.)
+    - **Töfluheiti:** *PurchLine* (Þú vilt fletta upp innkaupapöntunarnúmerum miðað við vörunúmer í gegnum línugögnin).
 
-1. Á aðgerðarrúðunni velurðu **Breyta fyrirspurn** til að skilgreina fyrirspurn sem er byggð á völdum grunntöflu (í þessu tilviki, innkaupapöntunarlínutöfluna, en þú getur notað hvaða gildi sem tengjast hausnum með því að tengja við *PurchTable*).
-1. Í fyrirspurnaritlinum, á **Svið** flipanum skaltu bæta eftirfarandi línum við ristina.
+1. Í aðgerðasvæði velurðu **Breyta fyrirspurn** til að skilgreina fyrirspurn sem er byggð á valinni grunntöflu (í þessu tilviki töflu innkaupapöntunarlínu, en hægt er að nota hvaða gildi sem er tengt hausnum með því að tengjast *PurchTable*).
+1. Í fyrirspurnarritlinum, á flipanum **Svið**, bætið eftirfarandi línum við hnitanetið.
 
-    | Tafla | Afleidd tafla | Reitur | Skilyrði |
+    | Tafla | Afleidd tafla | Svæði | Skilyrði |
     |---|---|---|---|
     | Innkaupapöntunarlínur | Innkaupapöntunarlínur | Staða línu | Opin pöntun |
-    | Innkaupapöntunarlínur | Innkaupapöntunarlínur | Afhendingardagur | (dagasvið(-10,10)) |
+    | Innkaupapöntunarlínur | Innkaupapöntunarlínur | Afhendingardagur | (dayRange(-10,10)) |
     | Innkaupapöntunarlínur | Innkaupapöntunarlínur | Vörunúmer | |
 
 1. Veldu **Í lagi**.
 
-    Í þessu dæmi er nýja valmyndaratriðið stillt til að finna opnar innkaupapöntunarlínur sem búist er við að berist hvenær sem er á milli 10 daga í fortíðinni og 10 daga í framtíðinni.
+    Í þessu dæmi er nýi valmyndaratriðið stilltur til að finna opnar innkaupapantanalínur sem eru væntanlegar hvenær sem er á milli 10 daga í fortíðinni og 10 daga í framtíðinni.
 
-    Í fyrirspurninni er **Viðmið** dálkur fyrir *Vörunúmer* hefur verið skilið eftir autt. Þess vegna munu starfsmenn geta tilgreint þetta gildi á meðan þeir nota vöruhússtjórnun farsímaforritið.
+    Í fyrirspurninni hefur dálkurinn **Skilyrði** fyrir *Vörunúmer* verið skilinn eftir auður. Því munu starfskraftar geta tilgreint gildið á meðan þeir nota farsímaforrit vöruhúsakerfis.
 
-    Ef þú vilt tilgreina hvernig listinn verður flokkaður geturðu sett upp flokkunina á **Flokkun** flipa.
+    Ef þú vilt tilgreina hvernig listanum verður raðað getur þú sett upp röðunina á flipanum **Flokkun**.
 
-1. Auk þess að skilgreina fyrirspurnina þarf að velja hvaða reitir munu birtast á spjöldum á fyrirspurnarlistasíðunni. Því skaltu velja á aðgerðarrúðunni **Vallarlisti**.
-1. Á **Vallarlisti** síðu, stilltu eftirfarandi gildi:
+1. Auk þess að skilgreina fyrirspurnina verður þú að velja hvaða reitir verða sýndir á spjöldum fyrirspurnarlistasíðunnar. Veljið því **Reitalisti** á aðgerðasvæðinu.
+1. Á síðunni **Reitalisti** skal stilla eftirfarandi gildi:
 
-    - **Sýnareit 1:** *PurchId* (Þetta svæðisgildi verður notað sem haus fyrir hvert kort.)
-    - **Sýnareit 2:** *VendAccount*
-    - **Sýnareit 3:** *KaupMagn*
-    - **Sýnareit 4:** *PurchUnit*
-    - **Sýnareit 5:** *Staða kaups*
+    - **Sýna reit 1** *:* PurchId (Þetta reitagildi verður notað sem haus fyrir hvert spjald).
+    - **Upplýsingasvæði 2:** *VendAccount*
+    - **Upplýsingasvæði 3:** *PurchQty*
+    - **Upplýsingasvæði 4:** *PurchUnit*
+    - **Upplýsingasvæði 5:** *PurchStatus*
 
 1. Í aðgerðarúðunni skal velja **Vista**. Því næst skal loka síðunni.
 
-## <a name="add-the-new-mobile-device-menu-items-to-a-menu"></a>Bættu nýjum valmyndarhlutum farsíma við valmynd
+## <a name="add-the-new-mobile-device-menu-items-to-a-menu"></a>Bæta nýjum valmyndaratriði fartækis við valmynd
 
-Þrír nýju valmyndaratriðin þín fyrir farsíma eru nú tilbúin til að bæta við valmynd farsímans. Þessu verkefni verður að ljúka áður en hægt er að nota valmyndaratriðin sem hluta af krókaferli. Í þessu dæmi muntu búa til nýja undirvalmynd og bæta nýjum valmyndaratriðum við hana.
+Nú er hægt að bæta þremur nýjum valmyndaratriðum fyrir fartæki við valmyndina fyrir fartæki. Þessu verki verður að ljúka áður en hægt er að nota valmyndaratriðin sem hluta af ferli hjáleiðar. Í þessu dæmi býrðu til nýja undirvalmynd og bætir nýju valmyndaratriðunum við hana.
 
 1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Valmynd fartækis**.
 1. Í aðgerðarúðunni velurðu **Nýtt**.
-1. Stilltu eftirfarandi gildi í haus nýju færslunnar:
+1. Í haus nýju færslunnar skal stilla eftirfarandi gildi:
 
-    - **Nafn:** *Spyrjið*
-    - **Lýsing:** *Spyrjið*
+    - **Nafn:** *Senda fyrirspurn*
+    - **Lýsing:** *Senda fyrirspurn*
 
-1. Í **Valmyndir og valmyndir í boði** lista, veldu fyrsta valmyndaratriði farsíma sem þú bjóst til. Veldu síðan hægri örvarhnappinn til að færa hlutinn í **Uppbygging matseðils** lista.
-1. Endurtaktu fyrra skrefið fyrir hina tvo nýju valmyndaratriðin.
-1. Í listaglugganum vinstra megin velurðu **Aðal** matseðill.
-1. Í **Valmyndir og valmyndaratriði í boði** listann, skrunaðu niður að **Matseðlar** kafla og veldu nýja **Spyrjið** matseðill. Veldu síðan hægri örvarhnappinn til að færa hlutinn í **Uppbygging matseðils** lista.
+1. Á listanum **Tiltækar valmyndir og valmyndaratriði** skal finna og velja fyrsta valmyndaratriði fartækis sem var búið til. Smellið á hægri örvarhnappinn til að færa vöruna í yfir á listann **Valmyndarskipan**.
+1. Endurtaka skal fyrri skref fyrir hina tvo nýju valmyndina.
+1. Veljið **Aðalvalmyndina** á listasvæðinu vinstra megin.
+1. Á listanum **Tiltækar valmyndir og valmyndaratriði** flettirðu niður að hlutanum **Valmyndir** og veljið nýja valmynd **Fyrirspurn**. Smellið á hægri örvarhnappinn til að færa vöruna í yfir á listann **Valmyndarskipan**.
 
-## <a name="configure-detours-in-your-mobile-device-steps"></a>Stilltu krókaleiðir í skrefum farsímans þíns
+## <a name="configure-detours-in-your-mobile-device-steps"></a>Stilla hjáleiðir í skrefum fartækisins
 
-Til að ljúka uppsetningunni verður þú nú að nota krókastillingu á **Skref fyrir farsíma** síðu til að bæta þremur nýjum valmyndaratriðum farsíma við núverandi auðkenningarskref innkaupapöntunar í *Kaup fá* flæði.
+Til að ljúka uppsetningunni verður þú nú að nota stillingar hjáleiða á síðu **Skref fartækis** til að bæta þremur nýjum valmyndaratriðum í valmynd fartækis við fyrirliggjandi auðkenningarskref fyrir flæðið *Innkaup móttekin*.
 
-1. Fara til **Vöruhússtjórnun \> Uppsetning > Farsímatæki \> Skref fyrir farsíma**.
-1. Í **Sía** reit, slá inn *PONum*. Veldu síðan *Skref auðkenni: "PONum"* í fellilistanum.
-1. Á meðan skráin sem finnst er valin í hnitanetinu skaltu velja **Bættu við þrepastillingu** á aðgerðasvæðinu. Í fellivalmyndinni sem birtist skaltu stilla **Valmyndaratriði** sviði til *Kaup móttaka*. Veldu síðan **Allt í lagi** til að loka glugganum.
-1. Á upplýsingasíðunni fyrir nýju skrefastillinguna (**Móttaka kaup: PONum**), á **Tiltækar krókaleiðir (valmyndaratriði)** Flýtiflipi, veldu **Bæta við** á tækjastikunni.
-1. Í **Bæta við krók** valmynd, finndu og veldu **Leitaðu að innkaupapöntunum eftir söluaðila** valmyndaratriði sem þú bjóst til áður.
-1. Veldu **Allt í lagi** til að loka glugganum og bæta völdum valmyndaratriði við krókalistann.
-1. Veldu nýju hjáleiðina og veldu síðan **Veldu reiti til að senda** á tækjastikunni.
-1. Í **Veldu reiti til að senda** valmynd, ekki bæta neinu við **Senda frá kaupum fá** kafla, vegna þess að þú vilt ekki senda nein gildi yfir í krókavalmyndaratriðið. Hins vegar, í **Komdu til baka frá því að fletta upp pöntunum eftir söluaðila** kafla, stilltu eftirfarandi gildi fyrir tómu línuna sem þegar hefur verið bætt við þar:
+1. Farðu í **Warehouse Management \> Uppsetning > Fartæki \> Skref fartækis**.
+1. Í reitnum **Sía** slærðu inn *PONum*. Veljið svo *Skrefakennið: „PONum“* í fellilistanum.
+1. Meðan færslan sem finnst er valin í hnitanetinu skal velja **Bæta við skilgreiningu skrefa** á Aðgerðasvæði. Í fellilista svargluggans sem birtist, skal stilla reitinn **Valmyndaratriði** á *Móttaka innkaupa*. Veldu svo **Í lagi** til að loka svarglugganum.
+1. Á upplýsingasíðu nýju skilgreiningu skrefs (**Móttaka innkaupa: PONum**) á flýtiflipanum **Hjáleiðir í boði (valmyndaratriði)** skal velja **Bæta við** á tækjastikunni.
+1. Í svarglugganum **Bæta við hjáleið** skaltu finna og velja valmyndaratriðið **Leita að innkaupapöntunum eftir lánardrottni** sem þú bjóst áður til.
+1. Veldu **Í lagi** til að loka svarglugganum og bæta valda valmyndaratriði á hjáleiðalistann.
+1. Veljið nýju hjáleiðina og veljið svo **Velja reiti til að senda** á tækjastikunni.
+1. Í reitnum **Velja reiti til að senda** skaltu ekki bæta neinu við í hlutann **Senda frá innkaup móttekin** því þú vilt ekki senda nein gildi í valmyndaratriði hjáleiðarinnar. Hins vegar í hlutanum **Sækja í uppflettingu innkaupapantana eftir lánardrottni** skaltu stilla eftirfarandi gildi í auðu línunni sem þegar hefur verið bætt við þar:
 
-    - **Afritaðu frá Leitaðu að innkaupapöntunum eftir söluaðila:** *Pöntun*
-    - **Límdu í innkaupamóttöku:** *Pöntun*
+    - **Afrit úr Flettu upp innkaupapöntunum eftir lánardrottni:** *Innkaupapöntun*
+    - **Líma í Móttaka innkaupa:** *Innkaupapöntun*
 
 1. Veldu **Í lagi** til að loka svarglugganum.
-1. Endurtaktu skref 4 til 9 fyrir hina tvo nýju valmyndaratriðin (**Leitaðu að söluaðilum í dag** og **Flettu upp pöntunum eftir hlut**). Hvað varðar **Leitaðu að innkaupapöntunum eftir söluaðila** valmyndaratriði, þú vilt ekki senda nein gögn á þessar krókaleiðir, en þú vilt skila innkaupapöntunarnúmeri.
+1. Endurtakið skref 4 til 9 fyrir hin tvö nýju valmyndaratriðin (**Flettið upp innkaupapöntunum fyrir daginn í dag** og **flettið upp innkaupapöntunum eftir vörum**). Eins og á við um valmyndaratriðið **Fletta upp innkaupapöntunum eftir lánardrottni** þá viltu ekki senda nein gögn til þessara hjáleiða, en þú vilt skila inn innkaupapöntunarnúmeri.
 1. Lokið síðunni.
 
-## <a name="try-a-purchase-receiving-flow-that-has-a-data-inquiry-as-part-of-a-detour"></a>Prófaðu innkaupamóttökuflæði sem hefur gagnafyrirspurn sem hluta af krók
+## <a name="try-a-purchase-receiving-flow-that-has-a-data-inquiry-as-part-of-a-detour"></a>Prófaðu að kaupa móttökuflæði sem er með gagnafyrirspurn sem hjáleið
 
-Fylgdu þessum skrefum til að prófa nýja uppsetningu farsímaforritsins.
+Fylgdu eftirfarandi skrefum til að prófa nýju uppsetninguna á farsímaforritinu þínu.
 
 1. Stofna nokkrar innkaupapantanir sem hafa línur fyrir vöruhús 51.
 1. Farðu í fartæki eða hermi sem keyrir farsímaforrit vöruhúsakerfis og skráðu þig inn í vöruhús 51 með því að nota *51* sem notandakenni og *1* sem aðgangsorð.
-1. Veldu í valmynd farsímaforritsins **Á heimleið** og svo **Kaup fá**.
+1. Á valmynd farsímaforritsins velurðu **Á innleið** og síðan **Innkaup móttekin**.
 
-    Þú ættir að sjá eftirfarandi síðu, sem inniheldur þrjú nýju valmyndaratriðin.
+    Þú ættir að sjá eftirfarandi síðu sem inniheldur þrjú ný valmyndaratriði.
 
-    ![Móttaka kaups með því að nota innkaupanúmer.](media/wma-purchase-receive-po-num-with-detours.png "Móttaka kaups með því að nota innkaupanúmer")
+    ![Móttaka innkaupa með innkaupapöntunarnúmeri.](media/wma-purchase-receive-po-num-with-detours.png "Móttaka innkaupa með innkaupapöntunarnúmeri")
 
-1. Prófaðu mismunandi möguleika og taktu eftir því að þú getur sent innkaupapöntunarnúmer til baka með því að velja eitt af kortunum á listanum.
+1. Prófaðu mismunandi eiginleika og taktu eftir að þú getur sent innkaupapöntunarnúmer til baka með því að velja eitt af spjöldunum í listanum.
 
-    ![Móttaka innkaupa með því að nota PO leit eftir söluaðila, dæmi 1.](media/wma-purchase-receive-lookup-po-vendor-keyin-detours.png "Móttaka innkaupa með því að nota PO leit eftir söluaðila, dæmi 1")
+    ![Móttaka innkaupa með því að nota uppflettingu sölupantana eftir lánardrottni, dæmi 1.](media/wma-purchase-receive-lookup-po-vendor-keyin-detours.png "Móttaka innkaupa með því að nota uppflettingu sölupantana eftir lánardrottni, dæmi 1")
 
-    ![Móttaka innkaupa með því að nota PO leit eftir söluaðila, dæmi 2.](media/wma-purchase-receive-lookup-po-vendor-detours.png "Móttaka innkaupa með því að nota PO leit eftir söluaðila, dæmi 2")
+    ![Móttaka innkaupa með því að nota uppflettingu sölupantana eftir lánardrottni, dæmi 2.](media/wma-purchase-receive-lookup-po-vendor-detours.png "Móttaka innkaupa með því að nota uppflettingu sölupantana eftir lánardrottni, dæmi 2")
 
 > [!TIP]
-> Í stað þess að keyra móttökuflæðið með því að fletta frá **Kaup fá** valmyndaratriði, þú getur byrjað á fyrirspurnarflæði (**Aðal \> Spyrjið \> Leitaðu að innkaupapöntunum eftir söluaðila**) og kalla fram hjáleið til að keyra æskilegt flæði með því að velja eitt af spilunum á listanum. Til að nota þessa nálgun geturðu skilgreint krók á **Skref fyrir farsíma** síðu fyrir skrefið sem hefur a **Skref auðkenni** verðmæti á *GenericDataInquiryList*. Að því gefnu [*Fjölþrepa krókaleiðir fyrir vöruhússtjórnun farsímaforritið*](warehouse-app-detours.md) kveikt er á eiginleikum fyrir kerfið þitt, þú getur líka bætt við auka krókaleið ef þörf krefur (þessi eiginleiki bætir við stuðningi við allt að tvö krókastig og hægt er að aðlaga hann til að styðja við fleiri stig).
+> Í stað þess að keyra móttökuflæðið með uppflettingu á valmyndaratriðinu **Innkaup móttekin** getur þú byrjað á fyrirspurnarflæði (**Aðal \> Fyrirspurn \> Leita að innkaupapöntunum eftir lánardrottni**) og kallað fram hjáleið til að keyra viðkomandi flæði með því að velja spjald á listanum. Til að nota þessa aðferð er hægt að skilgreina hjáleið á síðunni **Skref fyrir fartæki** fyrir skrefið sem hefur gildið **Skrefakenni** fyrir *GenericDataInquiryList*. Að því tilskildu að kveikt sé á eiginleikanum [*Fjölþrepa hjáleiðir fyrir fartækjaforrit Warehouse Management*](warehouse-app-detours.md) fyrir kerfið þitt getur þú einnig bætt við viðbótarhjáleið ef þörf krefur (þessi eiginleiki bætir við stuðningi við allt að tvö stig hjáleiða og má sérsníða hann til að styðja við fleiri stig).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

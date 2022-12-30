@@ -1,6 +1,6 @@
 ---
 title: Bæta frammistöðu aðaláætlunargerðar
-description: Þessi grein útskýrir hina ýmsu valkosti sem geta hjálpað þér að bæta árangur aðalskipulags eða leysa vandamál.
+description: Þessi grein útskýrir ýmsa valkosti sem geta hjálpað þér að bæta afköst aðaláætlanagerðar eða villuleita vandamál.
 author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: b2c4b7e2197d312d22f9851121a9e6d4d4d03ba3
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8897604"
@@ -27,9 +27,9 @@ ms.locfileid: "8897604"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hina ýmsu valkosti sem geta hjálpað þér að bæta árangur aðalskipulags eða leysa vandamál. Það felur í sér upplýsingar um færibreytur og stillingar, ásamt ráðlögðum skilgreiningum og aðgerðum. Það felur einnig í sér samantekt á öllum mikilvægum færibreytum sem þú ættir að íhuga þegar þú ert með tímafrekar aðaláætlunargerðarvinnslur.
+Þessi grein útskýrir ýmsa valkosti sem geta hjálpað þér að bæta afköst aðaláætlanagerðar eða villuleita vandamál. Það felur í sér upplýsingar um færibreytur og stillingar, ásamt ráðlögðum skilgreiningum og aðgerðum. Það felur einnig í sér samantekt á öllum mikilvægum færibreytum sem þú ættir að íhuga þegar þú ert með tímafrekar aðaláætlunargerðarvinnslur.
 
-Þessi grein er ætluð kerfisstjórnendum eða upplýsingatækninotendum sem hafa getu til að leysa úr vandamálum. Það er einnig ætlað fyrir framleiðslu- eða framkvæmdaáætlanagerð, þar sem það inniheldur upplýsingar um færibreytur sem tengjast viðskiptaáætlunarþörfum. 
+Þessi grein er ætluð kerfisstjórum eða upplýsingatækninotendum sem hafa möguleika á að villuleita. Það er einnig ætlað fyrir framleiðslu- eða framkvæmdaáætlanagerð, þar sem það inniheldur upplýsingar um færibreytur sem tengjast viðskiptaáætlunarþörfum. 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>Færibreytur sem tengjast frammistöðu aðaláætlanagerðar
 
@@ -151,9 +151,9 @@ Valkosturinn **Eftirvinnsla: Sía sjálfkrafa eftir atriðum með beinni eftirsp
 ## <a name="performance-checklist-summary"></a>Tékklistasamantekt frammistöðu
 
 - **Fjöldi þráða** – Stilltu á gildi sem er hærra en **0** (núll).
-- **Fjöldi verka í hjálparverkabúnti** – Stilltu á gildi sem er hærra en **0** (núll). (Notaðu formúlurnar sem eru gefnar fyrr í þessari grein.)
+- **Fjöldi verka í hjálparverkabúnti** – Stilltu á gildi sem er hærra en **0** (núll). (Notaðu formúlurnar sem eru gefnar upp fyrr í þessari grein.)
 - **Notkun skyndiminnis** – Stilltu á **Hámark** nema kerfið hafi lítið minni.
-- **Fjöldi pantana í staðfestingarbúnti** – Stilltu á gildi sem er hærra en **0** (núll). (Notaðu formúluna sem er gefin upp fyrr í þessari grein.)
+- **Fjöldi pantana í staðfestingarbúnti** – Stilltu á gildi sem er hærra en **0** (núll). (Notaðu formúluna sem gefin er upp fyrr í þessari grein.)
 - **Tímamörk** – Stilltu eftir þörfum fyrirtækisins.
 - **Aðgerðir og framvirkir samningar** – Slökktu á aðgerðum og framvirkum samningum ef þú notar þau ekki.
 - **Ein þung rútína í einu** – Keyrðu ekki aðaláætlanagerð ásamt öðrum þungum rútínum.

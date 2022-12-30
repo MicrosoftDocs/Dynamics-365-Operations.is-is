@@ -1,6 +1,6 @@
 ---
 title: Setja upp aðaláætlanir
-description: Þessi grein lýsir ýmsum mikilvægum aðferðum og færibreytum sem eru notaðar til að setja upp aðaláætlanir.
+description: Þessi grein lýsir ýmsum mikilvægum aðferðum og breytum sem eru notaðar til að setja upp aðaláætlanir.
 author: t-benebo
 ms.date: 07/01/2019
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: 150e02916e056946016155d1b4969e99fbd47af5
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740658"
@@ -27,7 +27,7 @@ ms.locfileid: "9740658"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir ýmsum mikilvægum aðferðum og færibreytum sem eru notaðar til að setja upp aðalskipulagningu. Hún felur í sér yfirlit yfir þær gerðir áætlana sem eru notaðar af aðaláætlanagerð og útskýrir hvaða áætlunarstefnu ætti að nota, allt eftir þörfum fyrirtækisins. Hún lýsir einnig helstu færibreytum sem hafa áhrif á áætlunina og útskýrir hvernig þessar færibreytur hafa áhrif á áætlaðar pantanir sem eru leiðbeinandi.
+Þessi grein lýsir ýmsum mikilvægum aðferðum og breytum sem eru notaðar til að setja upp aðaláætlanagerðþ Hún felur í sér yfirlit yfir þær gerðir áætlana sem eru notaðar af aðaláætlanagerð og útskýrir hvaða áætlunarstefnu ætti að nota, allt eftir þörfum fyrirtækisins. Hún lýsir einnig helstu færibreytum sem hafa áhrif á áætlunina og útskýrir hvernig þessar færibreytur hafa áhrif á áætlaðar pantanir sem eru leiðbeinandi.
 
 ## <a name="types-of-master-plans"></a>Tegundir aðaláætlana
 

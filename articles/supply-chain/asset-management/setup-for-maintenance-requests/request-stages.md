@@ -1,6 +1,6 @@
 ---
 title: Líftímastöður viðhaldsbeiðni
-description: Þessi grein lýsir því hvernig á að setja upp líftímastöðu viðhaldsbeiðna í eignastýringu.
+description: Í þessari grein er lýst hvernig á að setja upp líftímastöður viðhaldsbeiðni í eignastýringu.
 author: johanhoffmann
 ms.date: 04/20/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 81b30820adf11f0239ea8ff9d1886b5738e38162
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8862715"

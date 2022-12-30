@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um flipa umsjónar hönnunarbreytinga
-description: Þessi grein veitir svör við algengum spurningum um verkfræðilega breytingastjórnunareiginleika.
+description: Í þessari grein verða veitt svör við algengum spurningum um eiginleika hönnunarbreytingastjórnunar.
 author: t-benebo
 ms.date: 03/25/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: 16d29fa6485bae866a5209a855dfb928e8bc4783
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8870783"
@@ -21,7 +21,7 @@ ms.locfileid: "8870783"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir svör við algengum spurningum um verkfræðilega breytingastjórnunareiginleika.
+Í þessari grein verða veitt svör við algengum spurningum um eiginleika hönnunarbreytingastjórnunar.
 
 ## <a name="should-i-track-the-version-in-transactions"></a>Á ég að rekja útgáfuna í færslum?
 
@@ -66,8 +66,8 @@ Auk reitanna sem sýndir eru í fyrri töflunni eru allar sjálfgefnar pöntunar
 
 > [!NOTE]
 >
-> - Einingin er sjálfgefið frá sniðmátinu.
-> - Fyrir smásala sem nota Dynamics 365 Commerce virkni, þegar smásöluflokki er úthlutað á vöru, notar smásöluflokkurinn sjálfgefna gildi fyrir marga reitina fyrir útgefið vörustig. Þessar sjálfgefnar skrifa yfir sjálfgefin gildi sem kunna að hafa þegar verið stillt af sniðmátinu eða afrituð úr verkfræði.
+> - Einingin er sjálfgefin úr sniðmátinu.
+> - Fyrir smásala sem nota þessa Dynamics 365 Commerce virkni, þegar smásöluflokki er úthlutað til vöru, notar smásöluflokkurinn sjálfgefin gildi fyrir mörg svið fyrir losað vörustig. Þessar sjálfgefnu stillingar skrifa yfir sjálfgefin gildi sem sniðmátið eða afritið hefur þegar valið úr hönnun.
 
 ## <a name="should-i-create-a-separate-legal-entity-for-engineering-products-or-use-an-existing-legal-entity"></a>Á ég að stofna sérstakan lögaðila fyrir hönnunarafurðir eða nota fyrirliggjandi lögaðila?
 

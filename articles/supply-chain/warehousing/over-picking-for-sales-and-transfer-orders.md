@@ -1,6 +1,6 @@
 ---
 title: Umframtiltekt fyrir sölupantanir og flutningspantanir
-description: Þessi grein útskýrir hvernig á að virkja yfirtínslu fyrir sölupantanir og millifærslupantanir.
+description: Í þessari grein er útskýrt hvernig á að virkja umframtiltekt fyrir sölupantanir og flutningspantanir.
 author: GalynaFedorova
 ms.date: 07/06/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-07-06
 ms.dyn365.ops.version: 10.0.21
 ms.openlocfilehash: b8bbc7d532f910edfb442831d6c906f253dee06c
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8897285"
@@ -22,7 +22,7 @@ ms.locfileid: "8897285"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir atburðarás sem sýnir hvernig á að gera annað hvort tilteknum starfsmanni eða öllum starfsmönnum kleift að ofvelja. Ferli umframtiltektar leyfir stýrða umframtiltekt í tiltektinni.
+Í þessari grein eru aðstæður sem sýna hvernig á að virkja annaðhvort ákveðinn starfsmann eða alla starfsmenn til að gera umframtiltekt. Ferli umframtiltektar leyfir stýrða umframtiltekt í tiltektinni.
 
 Hugmyndin á bak við umframtiltekt vöruhúss er einföld. Kerfið gerir starfsmönnum kleift að velja fleiri hluti en eru tilgreindir fyrir pöntun. Enn er þó tekið tillit til mörk umframtiltektar sem eru stillt á línustigi fyrir flutningspöntun eða sölupöntun. Ef farið er yfir þau mörk tilkynnir forrit Warehouse Management starfsmanninum að hann sé að fara yfir mörk umframtiltektar.
 
@@ -41,11 +41,11 @@ Eiginleiki umframtiltektar getur sparað starfsmönnum tíma og orku þegar þei
 > [!IMPORTANT]
 > Eiginleiki umframtiltektar gildir aðeins um tiltekt og úrvinnslu sölupöntunar og flutningspöntunar. Áfylling styður ekki umframtiltekt. Þegar áfyllingarvinnan er keyrð leyfir kerfið notendum ekki að tína of mikið.
 
-Þessi atburðarás í þessari grein sýnir hvernig á að setja upp og nota ofvalseiginleikann.
+Þessar aðstæður í þessari grein sýna hvernig á að setja upp og nota eiginleika umframtiltektar.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Skilyrði fyrir aðstæðurnar: Bjóða upp á sýnigögn
 
-Atburðarásin í þessari grein vísar til gilda og skráa sem eru innifalin í stöðluðum kynningargögnum sem eru veitt fyrir Microsoft Dynamics 365 Supply Chain Management. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á *USMF* áður en hafist er handa.
+Aðstæður í þessari grein vísa í gildi og færslur sem eru innifaldar í stöðluðum sýnigögnum fyrir Microsoft Dynamics 365 Supply Chain Management. Ef nota á gildin sem er boðið upp á hér eins og í æfingunum skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett og stilla lögaðilann á *USMF* áður en hafist er handa.
 
 ## <a name="scenario-setup"></a>Uppsetning sviðsmyndar
 

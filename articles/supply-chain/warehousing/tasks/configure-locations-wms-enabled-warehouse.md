@@ -1,6 +1,6 @@
 ---
 title: Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
-description: Þessi handbók sýnir þér hvernig á að stilla staðsetningaruppsetningu fyrir nýtt WMS-virkt vöruhús (vöruhús sem notar vöruhússtjórnunarferli (WMS)).
+description: Þessi handbók sýnir hvernig á að grunnstilla uppsetningu á staðsetningu fyrir nýtt vöruhúsakerfisvirkjað vöruhús (vöruhús sem notar vöruhúsaferli (WMS)).
 author: perlynne
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4cce7ea0c06938d2ce038853a262f843ec76fe4c
 ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/02/2022
 ms.locfileid: "9219659"
@@ -25,7 +25,7 @@ ms.locfileid: "9219659"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi handbók sýnir þér hvernig á að stilla staðsetningaruppsetningu fyrir nýtt WMS-virkt vöruhús (vöruhús sem notar vöruhússtjórnunarferli (WMS)). Ferlið er yfirleitt gert af stjórnanda vöruhúss. Hægt er að keyra þessa handbók í sýnifyrirtækinu USMF eða í eigin gögnum. Forkröfur eru að minnsta kosti eitt svæði sé grunnstillt.
+Þessi handbók sýnir hvernig á að grunnstilla uppsetningu á staðsetningu fyrir nýtt vöruhúsakerfisvirkjað vöruhús (vöruhús sem notar vöruhúsaferli (WMS)). Ferlið er yfirleitt gert af stjórnanda vöruhúss. Hægt er að keyra þessa handbók í sýnifyrirtækinu USMF eða í eigin gögnum. Forkröfur eru að minnsta kosti eitt svæði sé grunnstillt.
 
 
 ## <a name="create-a-new-warehouse"></a>Stofna nýtt vöruhús
@@ -35,11 +35,11 @@ ms.locfileid: "9219659"
 4. Í reitinn **Heiti** skal slá inn gildi.
 5. Í reitnum **Svæði** skal velja eða slá inn fyrirliggjandi svæðisgildi.
 6. Víkkið út hlutann **Vöruhús**.
-7. Stilltu valkostinn **Nota ferli vöruhúsastjórnunar** á Já. Þessi stilling gerir þér kleift að keyra vöruhúsastjórnunarferli (WMS) með því að nota vöruhúsavinnu og fartæki.
+7. Stilltu valkostinn **Nota ferli vöruhúsastjórnunar** á Já. Þessi stilling gerir þér kleift að keyra vöruhúsakerfisferla með vöruhúsavinnu og fartækjum.
 8. Lokið síðunni.
 
 ## <a name="define-a-location-format"></a>Skilgreina snið staðsetningar
-1. Farðu í **Skoðunnarúðu > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Vöruhús > Staðsetningarsnið**. Staðsetningarsnið eru nafnakerfi sem notað er til að búa til einstök og samræmd nöfn fyrir mismunandi staðsetningarhólf sem notaðar eru innan vöruhúss. Það getur verið gagnlegt að nota skiltákn sem hluta af staðsetningarsniði til að auðvelda auðkenningu íhluta staðsetningar eins og númer gangs. Í þessu dæmi stofnum við heiti með fjórum íhlutum. Til dæmis, þetta gæti verið gangur, rekki, hilla og karfa.
+1. Farðu í **Skoðunnarúðu > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Vöruhús > Staðsetningarsnið**. Staðsetningarsnið eru nafngiftarkerfi sem eru notuð til að stofna einkvæm og samræmd heiti fyrir aðrar staðsetningu karfa stöður notað innan vöruhúss. Það getur verið gagnlegt að nota skiltákn sem hluta af staðsetningarsniði til að auðvelda auðkenningu íhluta staðsetningar eins og númer gangs. Í þessu dæmi stofnum við heiti með fjórum íhlutum. Til dæmis, þetta gæti verið gangur, rekki, hilla og karfa.
 2. Smellt er á **Nýtt**.
 3. Í reitinn **Staðsetningarsnið** skal slá inn gildi.
 4. Í reitinn **Heiti** skal slá inn gildi.
@@ -68,7 +68,7 @@ ms.locfileid: "9219659"
 5. Lokið síðunni.
 
 ## <a name="define-location-profile"></a>Skilgreina forstillingu staðsetningar
-1. Farðu í **Skoðunnarúðu > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Vöruhús > Staðsetningarforstillingar**. Skilgreining á forstillingum staðsetningar er mjög mikilvæg. Hægt er að stýra afkastagetu flokkaðra staðsetninga hér, ásamt reglum sem tengjast hvaða birgðir eru vistaðar og hvernig þær eru vistaðar. Hægt er að nota forstillingar staðsetninga sem síunarvalkosti til að stýra mismunandi vöruhúsakerfisferlum. Að lágmarki verður þú að búa til notendastaðsetningarsnið til að virkja WMS.
+1. Farðu í **Skoðunnarúðu > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Vöruhús > Staðsetningarforstillingar**. Skilgreining á forstillingum staðsetningar er mjög mikilvæg. Hægt er að stýra afkastagetu flokkaðra staðsetninga hér, ásamt reglum sem tengjast hvaða birgðir eru vistaðar og hvernig þær eru vistaðar. Hægt er að nota forstillingar staðsetninga sem síunarvalkosti til að stýra mismunandi vöruhúsakerfisferlum. Sem lágmark verður að stofna forstillingu fyrir staðsetningu notanda til að virkja vöruhúsakerfi.
 2. Smellt er á **Nýtt**.
 3. Í reitnum **Kenni staðsetningarforstillingar**.
 4. Í reitinn **Heiti** skal slá inn gildi.

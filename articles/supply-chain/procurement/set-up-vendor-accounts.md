@@ -1,6 +1,6 @@
 ---
 title: Setja upp lánardrottnalykla
-description: Þessi grein lýsir tegundum upplýsinga sem þú verður að tilgreina þegar þú stofnar nýjan lánardrottnareikning.
+description: Þessi grein lýsir gerðum upplýsinga sem þarf að tilgreina þegar þú stofnar nýjan lykil lánardrottins.
 author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d1ddf126305f39a35f61b9a98da1c6bce29372cf
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8875276"
@@ -26,7 +26,7 @@ ms.locfileid: "8875276"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir tegundum upplýsinga sem þú verður að tilgreina þegar þú stofnar nýjan lánardrottnareikning.
+Þessi grein lýsir gerðum upplýsinga sem þarf að tilgreina þegar þú stofnar nýjan lykil lánardrottins.
 
 Þegar lánardrottnalykill er stofnaður eru færðar inn upplýsingar um lánardrottinn. Þessar upplýsingar eru notaðar til að fylla út skjöl sjálfvirkt og rekja aðgerðir með þeim lánardrottni. Til dæmis er hægt að stilla eftirfarandi upplýsingar fyrir lánardrottinn:
 

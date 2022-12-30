@@ -1,6 +1,6 @@
 ---
 title: Móttaka númeraplötu með farsímaforriti Warehouse Management
-description: Þessi grein útskýrir hvernig á að setja upp vöruhúsastjórnun farsímaforritið til að styðja við notkun númeraplötumóttökuferlis til að taka á móti efnislegum birgðum.
+description: Þessi grein útskýrir hvernig á að setja upp farsímaforrit vöruhúsakerfis til að styðja notkun móttökuferlis númeraplötu til að taka á móti efnislegum birgðum.
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
 ms.openlocfilehash: 657c29ec6ddfb2be918424e06eaf219f51a30a02
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9069063"
@@ -24,9 +24,9 @@ ms.locfileid: "9069063"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp Vöruhússtjórnun farsímaforritið þannig að það styðji við notkun númeraplötumóttökuferlis til að taka á móti efnislegum birgðum.
+Þessi grein útskýrir hvernig á að setja upp farsímaforrit vöruhúsakerfis þannig að það styðji notkun móttökuferlis númeraplötu til að taka á móti efnislegum birgðum.
 
-Þú getur notað þessa aðgerð til að skrá fljótt móttöku á birgðum á innleið sem tengjast tilkynningu um sendingu (ASN). Kerfið býr sjálfkrafa til ASN þegar vöruhússtjórnunarferli (WMS) eru notuð til að senda flutningspöntun. Fyrir innkaupapöntunarferlið er hægt að skrá ASN handvirkt eða flytja það sjálfkrafa inn með því að nota ASN gagnaeiningarferli á innleið.
+Þú getur notað þessa aðgerð til að skrá fljótt móttöku á birgðum á innleið sem tengjast tilkynningu um sendingu (ASN). Kerfið býr sjálfkrafa til ASN þegar vörustjórnunarferli (WMS) eru notuð til að senda flutningspöntun. Fyrir innkaupapöntunarferlið er hægt að skrá ASN handvirkt eða flytja það sjálfkrafa inn með því að nota ASN gagnaeiningarferli á innleið.
 
 ASN gögnin eru tengd við farm og sendingar um *pakkaskipan*, þar sem bretti (yfirnúmeraplötur) geta innihaldið mál (faldaðar númeraplötur).
 
@@ -77,13 +77,13 @@ Hægt er að nota eiginleikann *Stjórna því hvort á að birta yfirlitssíðu
 - **Birta ítarlegt yfirlit** - Við móttöku númeraplötu munu starfsmenn sjá auka síðu sem sýnir allar ASN upplýsingar.
 - **Sleppa yfirlitinu** - Starfsmenn sjá ekki allar ASN upplýsingar. Starfsmenn vörugeymsluhússins ekki heldur sett upp ráðstöfunarkóða eða bætt við undantekningum meðan á móttökuferlinu stendur.
 
-Til að nota þessa virkni, er *Stjórnaðu því hvort birta eigi yfirlitssíðu fyrir móttöku í farsímum* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Stjórnaðu því hvort birta eigi yfirlitssíðu fyrir móttöku í farsímum* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þessa virkni verður að vera kveikt á eiginleikanum *Stjórna því hvort á að birta yfirlitssíðu móttöku í fartækjum* fyrir kerfið. Sem hluti af Supply Chain Management, útgáfa 10.0.21, er sjálfgefið kveikt á þessum eiginleika. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að eiginleikanum *Stjórna því hvort á að birta yfirlitssíðu móttöku í fartækjum* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Komdu í veg fyrir að númeraplötur með flutningspöntunum–sent séu notaðar í vöruhúsum öðrum en ákvörðunarvöruhúsinu
 
 Ekki er hægt að nota móttökuferli númeraplötu ef ASN inniheldur númeraplötukenni sem er þegar til og er með gögn efnislegra lagerbirgða á staðsetningu vöruhúss, önnur en staðsetningu vöruhúss þar sem skráning á númeraplötunni fer fram.
 
-Fyrir aðstæður flutningspöntunar þar sem flutningsvöruhúsið rekur ekki númeraplöturnar (og rekur þar af leiðandi ekki heldur efnislegar lagerbirgðir á hverja númeraplötu) er hægt að nota eiginleikann *Koma í veg fyrir að númeraplötur með sendum flutningspöntunum séu notaðar í öðrum vöruhúsum en ákvörðunarvöruhúsinu* til að koma í veg fyrir efnislegar birgðauppfærslur á númeraplötum sem eru í flutningi. Til að gera þessa virkni aðgengilega, er *Koma í veg fyrir að númeraplötur sem sendar eru með flutningspöntun séu notaðar á öðrum vöruhúsum en áfangageymslunni* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að honum í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Fyrir aðstæður flutningspöntunar þar sem flutningsvöruhúsið rekur ekki númeraplöturnar (og rekur þar af leiðandi ekki heldur efnislegar lagerbirgðir á hverja númeraplötu) er hægt að nota eiginleikann *Koma í veg fyrir að númeraplötur með sendum flutningspöntunum séu notaðar í öðrum vöruhúsum en ákvörðunarvöruhúsinu* til að koma í veg fyrir efnislegar birgðauppfærslur á númeraplötum sem eru í flutningi. Til að bjóða upp á þessa virkni verður að kveikja á eiginleikanum *Koma í veg fyrir að númeraplötur, sem afgreiddar voru með flutningspöntun verði notaðar í öðrum vöruhúsum en vöruhúsi áfangastaðar* fyrir kerfið. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Fylgdu þessum skrefum til að stjórna virkni þegar þessi eiginleiki er tiltækur.
 

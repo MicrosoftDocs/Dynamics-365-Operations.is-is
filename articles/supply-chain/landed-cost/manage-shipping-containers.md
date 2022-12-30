@@ -1,6 +1,6 @@
 ---
 title: Stjórna gámum
-description: Þessi grein lýsir því hvernig á að vinna með flutningsgáma. Gámar eru notaðir til að flokka saman vörur sem eru efnislega flokkaðar saman. Þeir eru einnig notaðir í tilvikum þar sem aðeins er hægt að deila kostnaði niður á þessar vörur, yfirleitt vegna þess að þær eru efnislega saman.
+description: Þessi grein útskýrir hvernig á að vinna með gáma. Gámar eru notaðir til að flokka saman vörur sem eru efnislega flokkaðar saman. Þeir eru einnig notaðir í tilvikum þar sem aðeins er hægt að deila kostnaði niður á þessar vörur, yfirleitt vegna þess að þær eru efnislega saman.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: b409017407ce1c027184bdc2292197840c61e04a
 ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/27/2022
 ms.locfileid: "9725444"
@@ -142,7 +142,7 @@ Til að opna yfirlitið **Línur** skal opna ferð og síðan velja flipann **L�
 
 ### <a name="information-on-the-shipping-container-fasttab"></a>Flýtiflipi gámaupplýsinga
 
-Flýtiflipinn **Gámur** í yfirlitinu **Línur** sýnir upplýsingar um fólíóið. Flestar þessar upplýsingar birtast einnig í **Fyrirsögn** skoða, eins og lýst er fyrr í þessari grein.
+Flýtiflipinn **Gámur** í yfirlitinu **Línur** sýnir upplýsingar um fólíóið. Flestar þessara upplýsinga birtast einnig í yfirlitinu **Haus** eins og lýst er hér á undan í þessari grein.
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>Upplýsingar og hnappar í flýtiflipanum fyrir línur
 

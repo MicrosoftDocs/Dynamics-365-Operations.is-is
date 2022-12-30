@@ -1,6 +1,6 @@
 ---
 title: Áfylling yfir staðsetningargetu
-description: Þessi grein veitir upplýsingar um eiginleikann Endurnýjun yfir staðsetningargetu. Þessi eiginleiki gerir kleift að búa til alla áfyllingarvinnu sem krafist er fyrir daginn og stjórnar framboði þessarar áfyllingarvinnu til að tryggja að birgðir í tiltektarstaðsetningunni hvorki tæmist né fari yfir getu.
+description: Í þessari grein er að finna upplýsingar um eiginleikann fyrir áfyllingu yfir staðsetningargetu. Þessi eiginleiki gerir kleift að búa til alla áfyllingarvinnu sem krafist er fyrir daginn og stjórnar framboði þessarar áfyllingarvinnu til að tryggja að birgðir í tiltektarstaðsetningunni hvorki tæmist né fari yfir getu.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
 ms.openlocfilehash: 543afe2e689fa787158551bec64e2458141be71c
 ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/02/2022
 ms.locfileid: "9220088"
@@ -32,12 +32,12 @@ Eiginleikinn gerir klefit að búa til meiri áfyllingarvinnu en staðsetningin 
 
 Til að gera þennan eiginleika tiltækan skaltu kveikja á eftirfarandi eiginleika í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (í þessari röð):
 
-1. Verklokun fyrir alla stofnunina (Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að það er sjálfgefið kveikt á honum og ekki er hægt að slökkva á honum aftur.)
+1. Vinnulokun fyrir allt fyrirtækið: (Frá og með útgáfu 10.0.21 af Supply Chain Management er sjálfkrafa kveikt á þessum eiginleika og ekki er hægt að slökkva á honum aftur.)
 1. Áfylling yfir staðsetningargetu
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Setja upp eiginleikann fyrir þetta sýnidæmi
 
-Þessi hluti veitir leiðbeiningar og dæmi sem sýnir hvernig á að setja upp þennan eiginleika og undirbúa sýnishornsgögn fyrir dæmið sem er að finna síðar í þessari grein.
+Í þessum hluta eru leiðbeiningar og dæmi sem sýna hvernig á að setja upp þennan eiginleika og undirbúa sýnigögn fyrir sýnidæmið sem kemur fyrir seinna í þessari grein.
 
 ### <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
@@ -145,7 +145,7 @@ Kveikið á virkninni fyrir áfyllingu yfir staðsetningargetu í staðsetningar
 
 ## <a name="example-scenario"></a>Dæmi
 
-Þegar búið er að gera öll sýnigögnin hér á undan tiltæk og setja þau upp, er hægt að fara í gegnum þetta sýnidæmi til að prófa eiginleikann *Áfylling yfir staðsetningargetu*. Gildin sem eru sýnd í þessari atburðarás gera ráð fyrir að þú sért að vinna með stöðluðu kynningargögnin, að þú hafir valið **USMF** lögaðila og að þú hafir útbúið sýnishornsskrárnar sem lýst er fyrr í þessari grein. Þetta sýnidæmi er einnig dæmi um hvernig hægt er að nota eiginleikann í framleiðsluumhverfi.
+Þegar búið er að gera öll sýnigögnin hér á undan tiltæk og setja þau upp, er hægt að fara í gegnum þetta sýnidæmi til að prófa eiginleikann *Áfylling yfir staðsetningargetu*. Gildin sem eru sýnd í þessu sýnidæmi gera ráð fyrir því að verið sé að vinna með stöðluð sýnigögn, að lögaðilinn **USMF** hafi verið valinn og að sýniskrárnar sem lýst var fyrr í þessari grein hafi verið undirbúnar. Þetta sýnidæmi er einnig dæmi um hvernig hægt er að nota eiginleikann í framleiðsluumhverfi.
 
 ### <a name="create-replenishment-work"></a>Stofna áfyllingarvinnu
 

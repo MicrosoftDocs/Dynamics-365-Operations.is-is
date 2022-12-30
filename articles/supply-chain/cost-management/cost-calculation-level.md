@@ -1,6 +1,6 @@
 ---
 title: Kostnaðarútreikningsstig
-description: Þessi grein lýsir efnisskrá (BOM) stigi sem er nefnt Kostnaðarútreikningsstig. Þetta uppskriftarstig tekur ekki mið af framleiðslu og runupöntunum í útreikningum sínum.
+description: Þessi grein útskýrir uppskriftarstig sem heitir kostnaðarútreikningsstig. Þetta uppskriftarstig tekur ekki mið af framleiðslu og runupöntunum í útreikningum sínum.
 author: JennySong-SH
 ms.date: 08/05/2022
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: 10.0.12
 ms.openlocfilehash: e63a868696e36c1d4f5d19ea87bdf4d682c39f8c
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9334956"
@@ -25,9 +25,9 @@ ms.locfileid: "9334956"
 
 Uppskriftarstigið sem heitir **Kostnaðarútreikningsstig** tekur ekki mið af framleiðslupöntunum og runupöntunum í útreikningum sínum. Kerfið notar þetta stig þegar kostnaðarútreikningar eru keyrðir í kostnaðarútgáfum. Í úrvinnslum á borð við endurútreikningum og birgðalokunum notar kerfið uppskriftarstigið **Kostnaðarútreikningsstig** í staðinn.
 
-## <a name="turn-the-cost-calculation-level-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikanum Kostnaðarútreikningsstig
+## <a name="turn-the-cost-calculation-level-feature-on-or-off"></a>Kveikja eða slökkva á eiginleika kostnaðarútreikningsstigs
 
-Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á eiginleikanum. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Kostnaðarútreikningsstig* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika þarf að kveikja á honum fyrir kerfið þitt. Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að eiginleikanum *Kostnaðarútreikningsstig* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="example-scenario"></a>Dæmi
 

@@ -1,6 +1,6 @@
 ---
 title: Viðfang til sjóðstreymis
-description: Þessi grein veitir yfirlit yfir Prospect to cash lausn á milli Dynamics 365 Supply Chain Management og Dynamics 365 Sales.
+description: Þessi grein veitir yfirlit yfir Prospect to cash lausnarinnar á milli Dynamics 365 Supply Chain Management og Dynamics 365 Sales.
 author: Henrikan
 ms.date: 04/25/2018
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: ea07b40c0a1a7eae7cd167f46796556b1e0ecc46
 ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/01/2022
 ms.locfileid: "9103595"
@@ -43,13 +43,13 @@ Frekari upplýsingar um samþættingu Prospect to cash er hægt að skoða í st
 ## <a name="system-requirements-for-supply-chain-management"></a>Kerfiskröfur fyrir Supply Chain Management
 Prospect to cash samþætting er studd í eftirfarandi útgáfum:
 
-### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 Finance and Operations, Enterprise útgáfa 7.3 (desember 2017)
+### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 Finance and Operations, Enterprise Edition 7.3 (desember 2017)
 
-- Dynamics 365 Finance and Operations, Enterprise útgáfa (desember 2017) - Forritsgerð 7.3.11971.56116 með pallauppfærslu 12 (7.0.4709.41129)
+- Dynamics 365 Finance and Operations, Enterprise Edition (desember 2017) - Smíðun forrits 7.3.11971.56116 með verkvangsuppfærslu 12 (7.0.4709.41129)
 
-### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>Dynamics 365 Finance, Enterprise útgáfa (júlí 2017)
+### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>Dynamics 365 Finance, Enterprise Edition (júlí 2017)
 
-- Dynamics 365 Finance and Operations, Enterprise útgáfa (júlí 2017) - með vettvangsuppfærslu 8 (forritsgerð 7.2.11792.56024 með vettvangsbyggingu 7.0.4565.16212).
+- Dynamics 365 Finance and Operations, Enterprise Edition (July 2017) með verkvangsuppfærslu 8 (Forrit smíð 7.2.11792.56024 með verkvangur smíð 7.0.4565.16212)
 - Eftirtaldir bráðabætur eru nauðsynlegar:
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** - Þessi bráðabót gerir mögulega samstillingu sölupantana frá Sales til Supply Chain Management gegnum gagnasamþættingareiginleikann. Það veitir einnig nokkrar aðrar endurbætur.
@@ -61,7 +61,7 @@ Prospect to cash samþætting er studd í eftirfarandi útgáfum:
 
 ### <a name="dynamics-365-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 Finance and Operations útgáfa 1611 (nóvember 2016)
 
-- Dynamics 365 Finance and Operations útgáfa 1611 (nóvember 2016) með vettvangsuppfærslu 8 eða hærri
+- Dynamics 365 Finance and Operations útgáfa 1611 (nóvember 2016) með verkvangsuppfærslu 8 eða hærra
 
 - Eftirtaldir bráðabætur eru nauðsynlegar:
 

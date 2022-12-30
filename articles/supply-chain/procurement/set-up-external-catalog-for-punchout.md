@@ -1,6 +1,6 @@
 ---
 title: Setja upp ytri vörulista fyrir PunchOut e-procurement
-description: Þessi grein lýsir notkun ytri vörulista eða PunchOut vörulista til að safna tilboðsupplýsingum frá lánardrottni og bæta þeim við beiðni.
+description: Þessi grein lýsir notkun á ytri vörulista eða PunchOut-vörulista til að safna upplýsingum um tilboð frá lánardrottni og bæta þeim við beiðni.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5b109ec1db39240e6816d79092763b4686857676
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8882490"

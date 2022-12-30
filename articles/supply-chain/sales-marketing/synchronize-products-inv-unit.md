@@ -1,6 +1,6 @@
 ---
 title: Samstilla afurðir með birgðaeiningu úr Supply Chain Management við Field Service
-description: Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla vörur við birgðaeiningu frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+description: Þessi grein fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla vörur við birgðaeiningar úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 03/13/2019
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: 5f7658eacd20aa69a64d6288e9d29e53b6ccb002
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8887255"
@@ -27,13 +27,13 @@ ms.locfileid: "8887255"
 
 [!include[banner](../includes/banner.md)]
 
-Þessi grein fjallar um sniðmát og undirliggjandi verkefni sem eru notuð til að samstilla vörur við birgðaeiningu frá Dynamics 365 Supply Chain Management til Dynamics 365 Field Service.
+Þessi grein fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla vörur við birgðaeiningar úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 
 [![Samstilling viðskiptaferla milli Supply Chain Management og Field Service.](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
 Notaða sniðmátið **Afurðir Field Service með birgðaeiningu (Supply Chain Management til Field Service)** byggist á sniðmátinu **Afurðir Field Service (Supply Chain Management til Field Service)**. Frekari upplýsingar er að finna í [Samstilla vörur í Supply Chain Management við vörur í Field Service](field-service-product.md).
 
-Þessi grein lýsir aðeins muninum á sniðmátunum tveimur: 
+Þessi grein útskýrir muninn milli sniðmátanna tveggja: 
 - **Afurðir Field Service við birgðaeiningu (Supply Chain Management við Sales)**
 - **Vöruþjónustuvörur (Supply Chain Management til Field Service)** 
 

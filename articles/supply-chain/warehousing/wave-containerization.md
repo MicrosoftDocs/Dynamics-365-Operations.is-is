@@ -1,6 +1,6 @@
 ---
 title: Gámun
-description: Þessi grein lýsir því hvernig á að gera sjálfvirkan gámaflutning á farmi. Sjálfvirk gámun stofnar gáma- og tínsluvinnu fyrir sendingar þegar bylgja er afgreidd.
+description: Þessi grein lýsir því hvernig á að gera gámun farms sjálfvirka. Sjálfvirk gámun stofnar gáma- og tínsluvinnu fyrir sendingar þegar bylgja er afgreidd.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: 4bdd13d794f01c9971ee1bcbdf206bff6b526afa
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8880423"
@@ -24,7 +24,7 @@ ms.locfileid: "8880423"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að gera sjálfvirkan gámaflutning á farmi. Sjálfvirk gámun stofnar gáma- og tínsluvinnu fyrir sendingar þegar bylgja er afgreidd.
+Þessi grein lýsir því hvernig á að gera gámun farms sjálfvirka. Sjálfvirk gámun stofnar gáma- og tínsluvinnu fyrir sendingar þegar bylgja er afgreidd.
 
 Til að setja upp gámun þarf að stofna eftirfarandi:
 

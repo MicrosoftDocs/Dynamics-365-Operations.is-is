@@ -1,6 +1,6 @@
 ---
 title: Umbúðaefni og gjöld
-description: Þessi grein veitir upplýsingar um pökkunarefnisgjöld sem greidd eru til endurvinnslufyrirtækja með ákveðnu millibili.
+description: Þessi grein veitir upplýsingar um umbúðaefnisgjöld sem eru greidd til endurvinnslufyrirtækja með reglulegu millibili.
 author: Mirzaab
 ms.date: 02/19/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 584bddeaedd461803bb9d62421cbb646178164a3
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8901735"

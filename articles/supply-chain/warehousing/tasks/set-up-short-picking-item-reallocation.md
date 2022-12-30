@@ -1,6 +1,6 @@
 ---
 title: Setja upp endurúthlutun fyrir stutta vörutiltekt
-description: Þessi grein sýnir hvernig á að gera vöruhúsastarfsmönnum kleift að finna fljótt aðrar staðsetningar ef ekki er nægjanlegt birgðahald á staðsetningunni sem þeim hefur verið vísað til.
+description: Þessi grein sýnir hvernig á að gera starfsmönnum vöruhúss kleift að finna aðrar staðsetningar á fljótlegan hátt ef ekki eru nægar birgðir á staðsetningunni sem þeim var vísað á.
 author: Mirzaab
 ms.date: 06/29/2020
 ms.topic: business-process
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a4e6d7f9b09434346cb0f3670d10437ef8197822
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8875015"

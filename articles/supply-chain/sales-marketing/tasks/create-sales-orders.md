@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 462f47ab5d85665ed8132e5bfb6dd945c537c1ef
 ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 04/06/2022
 ms.locfileid: "8551725"
@@ -67,6 +67,6 @@ Afurðir sem eru seldar af fyrirtækið þínu koma hugsanlega í afbrigðum sem
 3. Veldu **Í lagi**.
 
 ## <a name="sales-order-creation-performance-enhancement"></a>Afkastaaukning við stofnun sölupöntunar
-Nýi eiginleikinn sem kynntur er með útgáfu 10.0.26 forritsins dregur úr auka skráningarsköpun fyrir töflur **SourceDocumentHeader** og **SourceDocumentLine**. Afköst eru betri og geymslustærð minnkar vegna þess að þessar færslur eru ekki búnar til. Þessar undirliggjandi rammatöflur frumskjala eru ekki notaðar fyrir sölupantanir í vörunni eins og er og engar áætlaðar áætlanir eru um að nýta þær. Að virkja þennan eiginleika er talin örugg breyting fyrir bætta frammistöðu. 
+Nýi eiginleikinn sem kynntur var í forritsútgáfu 10.0.26 dregur úr aukalegum færslustofnunum fyrir töflur **SourceDocumentHeader** og **SourceDocumentLine**. Árangurinn er betri og stærð geymslu minnkar vegna þess að þessar færslur eru ekki búnar til. Þessar undirliggjandi rammatöflur upprunaskjals eru ekki notaðar fyrir sölupantanir í vörunni á þessum tíma og engar tímasettar áætlanir eru um að nota þær. Að virkja þennan eiginleika er talið örugg breyting fyrir bætta frammistöðu. 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

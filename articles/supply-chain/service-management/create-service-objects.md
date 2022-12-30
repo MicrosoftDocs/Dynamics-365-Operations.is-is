@@ -1,6 +1,6 @@
 ---
 title: Stofna þjónustuhluti
-description: Þessi grein veitir verklag sem sýnir hvernig á að búa til þjónustuhluti.
+description: Þessi grein gefur upp ferli sem sýnir hvernig á að stofna þjónustuhluti.
 author: sorenva
 ms.date: 02/21/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6c2a1a30fe3f1c86d316cc04bf88b428369e7f14
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9014793"

@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: db15ad94355823c699e83c9e3f47660f813e1c9a
 ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/09/2022
 ms.locfileid: "8103464"
@@ -64,7 +64,7 @@ Hægt er að breyta birgðastöðu annaðhvort með því að nota síðuna **Á
 - Til að breyta birgðastöðu sem tilfallandi ferli skaltu opna síðuna **Á lager eftir staðsetningu**, velja viðeigandi færslur og síðan smella á hnappinn **Breyting á birgðastöðu**.
 
 > [!NOTE]
-> Eiginleiki *Breyta birgðastöðu atriða sem er stjórnað af rakningarvíddum* gerir notendum kleift að breyta birgðastöðu á vörum sem rakningarvíddir stýra, þ.m.t. möguleikanum á að uppfæra aðeins valdar færslur. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Breyta birgðastöðu vara sem stjórnað er af rakningarvíddum* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými. Ef eiginleikinn er virkur geturðu gert eftirfarandi:
+> Eiginleiki *Breyta birgðastöðu atriða sem er stjórnað af rakningarvíddum* gerir notendum kleift að breyta birgðastöðu á vörum sem rakningarvíddir stýra, þ.m.t. möguleikanum á að uppfæra aðeins valdar færslur. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Breyta birgðastöðu á vörum sem er stjórnað af rakningarvíddum* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Þegar eiginleikinn er virkur er hægt að gera eftirfarandi:
 >
 > - Á síðunni **Á lager eftir staðsetningu** er hægt að flokka línurnar út frá birtum víddunum með því að nota hnappinn **Sýna víddir** og breyta stöðunni fyrir völdu línurnar.
 > - Á síðunni **Á lager eftir staðsetningu** er hægt að velja margar færslur og nota svo hnappinn **Breyting á birgðastöðu** til að breyta öllum í einu.

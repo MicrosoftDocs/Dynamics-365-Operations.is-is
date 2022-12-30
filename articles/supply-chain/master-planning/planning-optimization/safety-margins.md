@@ -1,6 +1,6 @@
 ---
 title: Öryggismörk
-description: Þessi grein lýsir því hvernig öryggismörk virka við aðalskipulag.
+description: Í þessari grein er því lýst hvernig öryggismörk virka við aðaláætlanagerð.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740442"
@@ -27,7 +27,7 @@ ms.locfileid: "9740442"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig öryggismörk virka við aðalskipulag.
+Í þessari grein er því lýst hvernig öryggismörk virka við aðaláætlanagerð.
 
 ## <a name="safety-margins-overview"></a>Yfirlit yfir öryggismörk
 
@@ -79,9 +79,9 @@ Taktu eftir því að þegar mörk úthreyfinga eru notuð, passa tengdar þarfa
 
 ## <a name="set-up-safety-margins"></a>Setja upp öryggismörk
 
-### <a name="turn-safety-margins-on-or-off"></a>Kveiktu eða slökktu á öryggismörkum
+### <a name="turn-safety-margins-on-or-off"></a>Kveikja eða slökkva á öryggismörkum
 
-Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Framlegð fyrir hagræðingu áætlanagerðar* eiginleiki í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika þarf að kveikja á honum fyrir kerfið þitt. (Frá og með útgáfu 10.0.29 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á honum.) Ef þú ert að keyra útgáfu sem er eldri en 10.0.29, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Hlutfall fyrir fínstillingu áætlanagerðar* á vinnusvæðinu [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="define-safety-margins"></a>Skilgreina öryggismörk
 

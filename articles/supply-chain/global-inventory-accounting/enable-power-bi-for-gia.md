@@ -1,6 +1,6 @@
 ---
 title: Virkja Power BI fyrir altækt birgðabókhald
-description: Þessi grein lýsir því hvernig á að virkja Microsoft Power BI fyrir alþjóðlegt birgðabókhald.
+description: Þessi grein lýsir hvernig á að virkja Microsoft Power BI fyrir altækt birgðabókhald.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
 ms.openlocfilehash: b1edfa314d2810bff4cf02762aeb66bee801858d
 ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/11/2022
 ms.locfileid: "9135426"
@@ -49,9 +49,9 @@ Fylgið þessum skrefum til að setja upp Power BI-samþættingu.
 
     1. Farið á **Vinnusvæðið mitt**, finnið gagnasafnið fyrir altækt birgðabókhald og síðan í valmyndinni **Valkostir** skal velja **Stillingar**.
     1. Í **Stillingar fyrir altækt birgðabókhald** skal víkka út **Færibreytur** og uppfæra allar færibreytur eftir þörfum. Einkum skal gæta þess að skoða eftirfarandi stillingar:
-        1. Skrifaðu yfir sjálfgefið **Dataverse URL** gildi með því að nota gildin sem finnast undir **Umhverfisupplýsingar um kraftpalla** í LCS (í **Power pallur samþætting** kafla).
-        1. Skrifaðu yfir sjálfgefið **Umhverfiskenni** gildi með því að nota gildin sem finnast undir **Umhverfisupplýsingar** í LCS (í **Stjórna umhverfi** kafla).
-        1. Veldu **Breyta skilríkjum** hlekkur við hliðina á **Geisladiskar** merki í **Skilríki gagnagjafa** kafla. Skráðu þig síðan inn á Dataverse reikninginn þinn með **OAuth2** sannvottunaraðferðinni.
+        1. Skrifaðu yfir sjálfgefnu gildin fyrir **Dataverse vefslóð** með gildunum sem finnast undir **Upplýsingar um umhverfi Power Platform** í LCS (í hlutanum **Samþætting Power Platform**).
+        1. Skrifaðu yfir sjálfgenfu gildin fyrir **Auðkenni umhverfis** með gildunum sem finnast undir **Umhverfisupplýsingar** í LCS (í hlutanum **Stjórna umhverfi**).
+        1. Veldu tengilinn **Breyta skilríkjum** við hliðina á **CDS**-merkinu í hlutanum **Skilríki gagnagjafa**. Skráðu þig síðan inn á Dataverse reikninginn þinn með **OAuth2** sannvottunaraðferðinni.
     1. Staðfestu að Power BI skýrslurnar á **vinnusvæðinu mínu \> Skýrslur \> altækt birgðabókhald** virki nú rétt og sýni efni úr kerfinu.
 
 1. Skrá forritið eins og lýst er í [Stilla PowerBI.com samþættingu](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).

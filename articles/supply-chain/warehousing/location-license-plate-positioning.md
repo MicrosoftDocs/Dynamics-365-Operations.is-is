@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
 ms.openlocfilehash: e52b313e0a00c04edf9003aa6292146936f837d4
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8889429"
@@ -28,11 +28,11 @@ Númeraplötustaða staðsetningar gerir þér kleift að sjá hvar tiltekin nú
 
 Eiginleikinn bætir raðnúmeri við hverja númeraplötu sem er sett á geymslustað. Þetta raðnúmer er notað til að raða númeraplötunum á geymslustaðnum. Þar af leiðandir styður eiginleikinn á snjallan hátt aðstæður þar sem viðskiptavinir nota hallandi hillukerfi og þurfa að vita hvaða númeraplata snýr fram við tiltekt.
 
-Þessi grein sýnir atburðarás sem sýnir hvernig á að setja upp og nota eiginleikann.
+Þessi grein kynnir aðstæður sem sýna hvernig á að setja upp og nota eiginleikann.
 
-## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Kveiktu eða slökktu á staðsetningareiginleikanum fyrir númeraplötustaðsetningu
+## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Kveikja eða slökkva á eiginleikanum „Númeraplötustaða staðsetningar“
 
-Til að nota virknina sem lýst er í þessari grein, *Staðsetning númeraplötu* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Staðsetning númeraplötu* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota virknina sem lýst er í þessari grein verður að vera kveikt á eiginleikanum *Númeraplötustaða staðsetningar* fyrir kerfið. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Númeraplötustaða staðsetningar* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="example-scenario"></a>Dæmi
 
@@ -42,7 +42,7 @@ Til að vinna í gegnum þessar aðstæður með því að nota gildin sem hér 
 
 ### <a name="set-up-the-feature-for-this-scenario"></a>Setja upp eiginleikann fyrir þessar aðstæður
 
-Ljúktu við eftirfarandi aðferðir til að setja upp *Staðsetning númeraplötu* eiginleiki fyrir atburðarásina sem er kynnt í þessari grein.
+Ljúktu eftirfarandi aðferðum til að setja upp eiginleikann *Númeraplötustaða staðsetningar* fyrir aðstæðurnar sem eru kynntar í þessari grein.
 
 #### <a name="location-profiles"></a>Forstillingar staðsetningar
 

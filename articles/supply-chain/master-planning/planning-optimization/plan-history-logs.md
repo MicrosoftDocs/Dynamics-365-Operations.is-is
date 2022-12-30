@@ -1,6 +1,6 @@
 ---
 title: Skoða áætlunarsögu og skipulagsskrár
-description: Þessi grein útskýrir hvernig á að skoða sögu skipulagsstarfa.
+description: Í þessari grein er sagt frá því hvernig skoða má sögu áætlunarverka.
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740932"
@@ -27,11 +27,11 @@ ms.locfileid: "9740932"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að skoða sögu skipulagsvinnu í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein útskýrir hvernig á að skoða sögu áætlunarverka í Microsoft Dynamics 365 Supply Chain Management.
 
 Til að skoða sögu fyrir áætlun, opnaðu áætlunina með því að fara til **Aðaláætlunargerð** \> **Uppsetning** \> **Áætlanir** \> **Aðaláætlanir** og velja **Saga**. Í sögunni eru allar vinnslur fyrir valda áætlun. Listinn nær yfir loknar og virkar vinnslur.
 
-Kerfið geymir að hámarki 60 söguskrár í hverju aðalskipulagi og eyðir færslum eldri en 30 daga. Í hvert skipti sem þú keyrir nýjan aðalskipulagsútreikning bætir kerfið við nýrri söguskrá og hreinsar síðan upp elstu færslurnar eftir þörfum.
+Kerfið heldur að hámarki 60 ferilfærslur samkvæmt aðalskipulagi og eyðir skrám sem eru eldri en 30 daga. Í hvert sinn sem nýtt aðalskipulag er keyrt bætir kerfið við nýrri ferilskrá og hreinsar síðan upp elstu skrárnar eftir þörfum.
 
 Auk þess að sjá upphafstíma og stöðu á vinnslum geturðu skoðað kladda fyrir tiltekna vinnslu. Í kladdanum eru viðbótarupplýsingar og viðvaranir. Ekki eru allar vinnslur með kladda. Til að skoða kladda fyrir vinnslu velurðu **Kladdi**. Kladdafærslur eru aðeins geymdar í 30 daga frá deginum sem verkið klárast og er eytt sjálfkrafa eftir það.
 

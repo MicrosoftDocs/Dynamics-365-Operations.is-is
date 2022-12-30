@@ -1,6 +1,6 @@
 ---
 title: Skipta vinnu
-description: Þessi grein veitir upplýsingar um verkskiptingarvirkni. Þessi virkni gerir þér kleift að skipta stórum verkbeiðnum niður í nokkrar smærri verkbeiðnir sem síðan er hægt að úthluta á marga vöruhúsastarfskrafta. Á þennan hátt er hægt að velja sömu vinnu samtímis af nokkrum starfskröftum í vöruhúsi.
+description: Þessi grein veitir upplýsingar um virkni vinnuskiptingar. Þessi virkni gerir þér kleift að skipta stórum verkbeiðnum niður í nokkrar smærri verkbeiðnir sem síðan er hægt að úthluta á marga vöruhúsastarfskrafta. Á þennan hátt er hægt að velja sömu vinnu samtímis af nokkrum starfskröftum í vöruhúsi.
 author: Mirzaab
 ms.date: 10/15/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
 ms.openlocfilehash: 83333f4d8c755bc0ca4b2d141a5591ef43501b64
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8857026"
@@ -33,7 +33,7 @@ Virkni vinnuskiptingar gerir þér kleift að skipta stórum vinnukennum (þ.e. 
 
 Áður en hægt er að nota virkni vinnuskiptingar þarf að kveikja á eiginleikanum og eiginleika forsendanna í kerfinu. Stjórnendur geta notað stillingar [eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikanna og kveikja á þeim ef þörf krefur.
 
-Fyrst skal kveikja á forsendueiginleikanum *Vinnulokun fyrir allt fyrirtækið* ef ekki er nú þegar kveikt á honum. Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að hann er sjálfgefið kveiktur og ekki er hægt að slökkva á honum aftur. Hins vegar er eiginleikinn enn skráður inn [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) á eftirfarandi hátt:
+Fyrst skal kveikja á forsendueiginleikanum *Vinnulokun fyrir allt fyrirtækið* ef ekki er nú þegar kveikt á honum. (Frá og með útgáfu 10.0.21 af Supply Chain Management er sjálfkrafa kveikt á þessum eiginleika og ekki er hægt að slökkva á honum aftur.) Eiginleikinn er hins vegar enn sýndir í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) á eftirfarandi hátt:
 
 - **Eining:** *Vöruhúsakerfi*
 - **Heiti eiginleika:** *Vinnulokun fyrir allt fyrirtækið*

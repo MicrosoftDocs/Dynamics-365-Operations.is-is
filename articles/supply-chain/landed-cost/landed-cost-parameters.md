@@ -1,6 +1,6 @@
 ---
 title: Uppsetning á færibreytum heildarkostnaðar
-description: Þessi grein lýsir því hvernig á að setja upp almennar upplýsingar og stillingar sem eru notaðar í kostnaðareiningu landaðs fyrir bókun, stöðuuppfærslur, númeraraðir og hegðun.
+description: Þessi grein lýsir því hvernig setja á upp almennar upplýsingar og skilgreiningar sem eru notaðar í Heildarkostnaður einingunni fyrir bókun, stöðuuppfærslur, númeraraðir og hegðun.
 author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 609403b251338b7e792f3ab624fb37a1833c919b
 ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/27/2022
 ms.locfileid: "9725522"

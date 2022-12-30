@@ -1,6 +1,6 @@
 ---
 title: Reikningur vegna viðhalds á eignum viðskiptavinar
-description: Þessi grein útskýrir hvernig á að búa til, vinna úr og innheimta viðhaldsvinnu sem er unnin á eignum sem viðskiptavinir þínir eiga.
+description: Þessi grein útskýrir hvernig á að stofna, vinna úr og rukka fyrir viðhaldsvinnu sem gerð er á eignum sem viðskiptavinir eiga.
 author: johanhoffmann
 ms.date: 01/28/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: c0d067ec4f2110b1c146ef0229b90e309578eaa7
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335076"
@@ -40,7 +40,7 @@ Að auki býður eiginleikinn upp á eftirfarandi virkni:
 
 ## <a name="turn-on-the-customer-billing-feature"></a>Kveikja á reikningseiginleika viðskiptavinar
 
-Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Verkefnastjórnun og bókhald*
 - **Heiti eiginleika:** *Innheimta verkbeiðni*

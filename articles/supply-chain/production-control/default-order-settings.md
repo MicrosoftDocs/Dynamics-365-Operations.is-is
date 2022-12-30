@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 106da56ed1de7d9e555cfdd63f19687d7e17599a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8862570"
@@ -38,7 +38,7 @@ Til að skilgreina sjálfgefnar pöntunarstillingar fyrir afurð skal fylgja þe
     - Í flipanum **Áætlun**, í flokknum **Pöntunarstillingar**, skal velja **Sjálfgefnar pöntunarstillingar**.
     - Í flipanum **Stjórna birgðum**, í flokknum **Pöntunarstillingar**, skal velja **Sjálfgefnar pöntunarstillingar**.
 
-1. Stilltu stillingarnar eins og lýst er í restinni af þessari grein.
+1. Skilgreinið stillingarnar eins og lýst er í þessari grein.
 
 ## <a name="default-order-settings"></a>Sjálfgefnar pöntunarstillingar
 
@@ -186,9 +186,9 @@ Hægt er að velja hversu ítarlegt kerfið á að vera þegar það staðfestir
 
 Ítarleg staðfesting nær yfir gildi **Staðlaðs magn í pöntun** sem tiltekið er í flýtiflipunum **Innkaupapöntun**, **Birgðir** og **Sölupöntun** á síðunni **Sjálfgefnar pöntunarstillingar**. Hver flýtiflipi er með eigin stillingu á **Margfeldi**, sem er notað til að staðfesta gildið **Staðlað magn í pöntun** sem tiltgreint er fyrir þann flýtiflipa.
 
-### <a name="turn-the-strict-validation-option-on-or-off"></a>Kveiktu eða slökktu á stranga staðfestingarvalkostinum
+### <a name="turn-the-strict-validation-option-on-or-off"></a>Kveikja eða slökkva á ströngum staðfestingarvalkosti
 
-Til að nota stranga staðfestingu, *Strangt löggilding á sjálfgefnu pöntunarmagni* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geturðu kveikt eða slökkt á þessari virkni með því að fara á [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og að leita að *Strangt löggilding á sjálfgefnu pöntunarmagni* eiginleiki.
+Til að nota stranga staðfestingu verður að kveikja á eiginleikanum *Ströng staðfesting á sjálfgefnu pöntunarmagni* fyrir kerfið. Sem hluti af Supply Chain Management, útgáfa 10.0.21, er sjálfgefið kveikt á þessum eiginleika. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geturðu kveikt eða slökkt á þessum eiginleika með því að fara í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) og leita að eiginleikanum *Ströng staðfesting á sjálfgefnu pöntunarmagni*.
 
 ### <a name="set-the-validation-option"></a>Stilla valkost staðfestingar
 

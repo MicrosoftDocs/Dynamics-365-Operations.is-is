@@ -1,6 +1,6 @@
 ---
 title: Kynning á eignum
-description: Þessi grein veitir yfirlit yfir eignir í eignastýringu.
+description: Í þessari grein er að finna yfirlit yfir eiginleika eigna í Eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d8498d6099112cea2c57a6387e7596adb5bcd84e
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016015"
@@ -30,9 +30,9 @@ ms.locfileid: "9016015"
 
  
 
-Þessi grein veitir yfirlit yfir eignir í eignastýringu. *Eign* er hvers konar búnaður, svo sem vél eða vélahlutur, sem krefst viðhalds, þjónustu eða viðgerða.
+Í þessari grein er að finna yfirlit yfir eiginleika eigna í Eignastýringu. *Eign* er hvers konar búnaður, svo sem vél eða vélahlutur, sem krefst viðhalds, þjónustu eða viðgerða.
 
-Eign er sjálfkrafa uppfærð með tengdum upplýsingum. Til dæmis gætu þessar tengdar upplýsingar snúist um nýjar eða uppfærðar verkbeiðnir. Þú getur búið til eignir með því að nota annaðhvort valmyndaratriðið **Allar eignir** eða valmyndaratriðið **Eignir í bið**. Þessi grein útskýrir hvernig á að búa til eignir með því að nota **Allar eignir** valmyndaratriði. Fyrir upplýsingar um hvernig á að búa til eignir með því að nota valmyndaratriðið **Eignir í bið**, sjá [Stofna eignir byggðar á innkaupapöntunum](../objects/create-objects-based-on-purchase-orders.md).
+Eign er sjálfkrafa uppfærð með tengdum upplýsingum. Til dæmis gætu þessar tengdar upplýsingar snúist um nýjar eða uppfærðar verkbeiðnir. Þú getur búið til eignir með því að nota annaðhvort valmyndaratriðið **Allar eignir** eða valmyndaratriðið **Eignir í bið**. Þessi grein útskýrir hvernig á að búa til eignir með því að nota **Allar eignir** valmyndaatriðið. Fyrir upplýsingar um hvernig á að búa til eignir með því að nota valmyndaratriðið **Eignir í bið**, sjá [Stofna eignir byggðar á innkaupapöntunum](../objects/create-objects-based-on-purchase-orders.md).
 
 ## <a name="all-assets"></a>Allar eignir
 

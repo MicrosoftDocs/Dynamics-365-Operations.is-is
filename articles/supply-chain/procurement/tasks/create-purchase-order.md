@@ -1,6 +1,6 @@
 ---
 title: Stofna innkaupapöntun
-description: Þessi grein sýnir þér hvernig á að búa til innkaupapöntun handvirkt.
+description: Þessi grein sýnir hvernig á að stofna innkaupapöntun handvirkt.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2a04a9f4a512a307efecb19703cd3df638ba5ff5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8856078"
@@ -24,7 +24,7 @@ ms.locfileid: "8856078"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein sýnir þér hvernig á að búa til innkaupapöntun handvirkt. Dæmigerðara er fyrir innkaupapantanir að stofnast sjálfkrafa sem afleiðing af aðaláætlanagerð, beinni afhendingu og öðrum ferlum. Innkaupapöntun eru yfirleitt stofnaðar af innkaupastjórar. Dæmi sýnd hér er hægt að nota í USMF sýnigögn fyrirtækis með gildum sem eru lögð til í athugasemdir fyrir mismunandi skref.
+Þessi grein sýnir hvernig á að stofna innkaupapöntun handvirkt. Dæmigerðara er fyrir innkaupapantanir að stofnast sjálfkrafa sem afleiðing af aðaláætlanagerð, beinni afhendingu og öðrum ferlum. Innkaupapöntun eru yfirleitt stofnaðar af innkaupastjórar. Dæmi sýnd hér er hægt að nota í USMF sýnigögn fyrirtækis með gildum sem eru lögð til í athugasemdir fyrir mismunandi skref.
 
 
 ## <a name="create-the-purchase-order-header"></a>Stofna haus innkaupapöntunar

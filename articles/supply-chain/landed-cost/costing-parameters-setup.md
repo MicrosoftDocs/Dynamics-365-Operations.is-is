@@ -1,6 +1,6 @@
 ---
 title: Uppsetning gilda fyrir kostnaðarfæribreytu
-description: Þegar sett er upp eining heildarkostnaðar er hægt að skilgreina nokkur sett af algengum gildum sem verða í boði þegar ákveðnar gerðir af gildum kostnaðarfæribreyta eru valdar í öðrum hlutum forritsins. Þessi grein útskýrir hvernig á að setja upp þessi gildi.
+description: Þegar sett er upp eining heildarkostnaðar er hægt að skilgreina nokkur sett af algengum gildum sem verða í boði þegar ákveðnar gerðir af gildum kostnaðarfæribreyta eru valdar í öðrum hlutum forritsins. Í þessari grein er útskýrt hvernig á að setja upp þessi sett af gildum.
 author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: ca3633cd8a3fb053bda597b968003685aa2326ef
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8852332"
@@ -24,7 +24,7 @@ ms.locfileid: "8852332"
 
 [!include [banner](../../includes/banner.md)]
 
-Þegar einingin **Heildarkostnaður** er sett upp er hægt að skilgreina ýmis sett af algengum gildum og tengdar stillingar fyrir hvert gildi. Þessi gildi verða þá tiltæk þegar valdar eru tilteknar gerðir af gildum kostnaðarfæribreyta í öðrum hlutum forritsins. Þessi grein útskýrir hvernig á að setja upp þessi gildi.
+Þegar einingin **Heildarkostnaður** er sett upp er hægt að skilgreina ýmis sett af algengum gildum og tengdar stillingar fyrir hvert gildi. Þessi gildi verða þá tiltæk þegar valdar eru tilteknar gerðir af gildum kostnaðarfæribreyta í öðrum hlutum forritsins. Í þessari grein er útskýrt hvernig á að setja upp þessi sett af gildum.
 
 ## <a name="set-up-cost-type-codes"></a>Hvernig á að setja upp kóða kostnaðargerðar
 
@@ -124,7 +124,7 @@ Eftirfarandi tafla lýsir stillingunum sem eru tiltækar fyrir hvert sniðmát.
 
 Deilar rúmmálsmælinga eru notaðir til að reikna út rúmmálsþyngdina. Hvert flutningafyrirtæki notar sýna eigin deila rúmmálsmælinga. Auk þess fara deilar fyrirtækisins yfirleitt eftir því hver flutningsmátinn er. Til dæmis eru flutningar loftleiðis og sjóleiðis oft og tíðum með mismunandi deila. Fyrirtæki getur einnig gert reglurnar flóknari, allt eftir því hvaðan sendingin kemur. Kerfið notar eftirfarandi formúlu til að finna rúmmálsþyngd: VolumetricWeight = Volume ÷ VolumetricDivisor.
 
-Til dæmis er pakki sem er sendur með flugvél 3 rúmmetrar (m³). Fyrirtækið rukkar eftir rúmmálsþyngd og notar deili rúmmálsmælingar upp á 6. Þessum deili er deilt með rúmmálinu til að ákvarða rúmmálsþyngd. Þess vegna er rúmmálsþyngdin fyrir þetta dæmi 3 ÷ 6 = 0,5 kíló (kg).
+Til dæmis er pakki sem er sendur með flugvél 3 rúmmetrar (m³). Fyrirtækið rukkar eftir rúmmálsþyngd og notar deili rúmmálsmælingar upp á 6. Deilt er í þennan deili með rúmmálinu til að finna út rúmmálsþyngdina. Þess vegna er rúmmálsþyngdin fyrir þetta dæmi 3 x 6 = 0,5 kílógrömm (kg).
 
 Til að setja upp deili rúmmálsmælinga skal fara í **Heildarkostnaður \> Kostnaðaruppsetning \> Deilar rúmmálsmælinga**. Síðan **Deilar rúmmálsmælinga** sýnir hnitanet með lista yfir alla núgildandi deila rúmmálsmælinga. Hægt er að nota hnappana í aðgerðarúðunni til að bæta við, fjarlægja og breyta línum í töflunni.
 
@@ -135,7 +135,7 @@ Eftirfarandi tafla lýsir reitum sem eru tiltækir í hverri línu í töflunni.
 | Flutningsfyrirtæki | Veljið lánardrottnalykil flutningsfyrirtækisins sem tengist rúmmálsdeili. |
 | Kostnaðargerðarkóði | Veljið kóða kostnaðargerðar sem tengist deili rúmmálsmælingar. Notið þennan reit til að setja kostnaðargerðir inn í skýrslugerðarramma. Hægt er að prenta skýrslur annaðhvort út frá skýrsluflokkum eða eftir kostnaðargerð. |
 | Frá höfn | Veljið „frá“ höfn sem deilir rúmmálsmælingar á við um. |
-| Deilir rúmmálsmælingar | Færið inn gildi fyrir deili rúmmálsmælingar sem á við um línuna. Rúmmáli hvers pakka verður deilt með gildi sem þú slærð inn hér til að ákvarða rúmmálsþyngd pakkans. |
+| Deilir rúmmálsmælingar | Færið inn gildi fyrir deili rúmmálsmælingar sem á við um línuna. Rúmmál hvers pakka verður deilt eftir gildinu sem fært er inn hér til að ákvarða rúmmálsþyngd pakkans. |
 
 > [!NOTE]
-> Kerfið mun nota hámarksgildi á milli **raunveruleg þyngd** og **rúmmálsþyngd**.
+> Kerfið mun nota hámarksgildið milli **raunverulegrar þyngdar** og **rúmmálsþyngdar**.

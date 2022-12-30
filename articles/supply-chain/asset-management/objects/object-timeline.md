@@ -1,6 +1,6 @@
 ---
 title: Viðburðarferill eignar
-description: Þessi grein útskýrir hvernig á að fá aðgang að sögu eignaviðburða í eignastýringu.
+description: Þessi grein útskýrir hvernig hægt er að nálgast viðburðasögu eigna í Eignastýringu.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 63045cf2fc493144897b8a857f615105f6d7b50f
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8865296"
@@ -28,7 +28,7 @@ ms.locfileid: "8865296"
 
  
 
-Þessi grein útskýrir hvernig á að fá aðgang að sögu eignaviðburða í eignastýringu. Síðan **Saga eignatilvika** sýnir skráningarsögu sem hefur verið gerð á líftíma eignar. Þú getur fengið aðgang að þessari síðu frá **Allar eignir**, **Virkar eignir**, og **Virku eignir mínar** valmyndaratriðin. Veldu eign og veldu síðan **Tilvikasaga**.
+Þessi grein útskýrir hvernig hægt er að nálgast viðburðasögu eigna í Eignastýringu. Síðan **Saga eignatilvika** sýnir skráningarsögu sem hefur verið gerð á líftíma eignar. Þú getur fengið aðgang að þessari síðu frá **Allar eignir**, **Virkar eignir**, og **Virku eignir mínar** valmyndaratriðin. Veldu eign og veldu síðan **Tilvikasaga**.
 
 Á flýtiflipanum **Upplýsingar** á síðunni **Saga eignatilvika**, þú getur leitað að öllum tiltækum upplýsingum. Til dæmis er hægt að nota sögu eignatburða til að finna eftirfarandi upplýsingar:
 

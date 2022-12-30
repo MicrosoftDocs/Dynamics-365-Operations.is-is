@@ -1,6 +1,6 @@
 ---
 title: Tímasetja gagnahreinsun söluferils
-description: Þessi grein lýsir því hvernig þú getur hjálpað til við að bæta afköst kerfisins með því að skipuleggja reglubundið hreinsunarverkefni Söluuppfærsluferils til að keyra með reglulegu millibili.
+description: Þessi grein lýsir því hvernig þú getur hjálpað til við að bæta árangur kerfisins með því að skipuleggja reglulegt hreinsunarverkefni vegna söluuppfærsluferlis sem á að keyra með reglulegu millibili.
 author: myvakalo
 ms.date: 08/09/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
 ms.openlocfilehash: e9a4dd5372afa8a0452449d1cb9121107e6e1610
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335504"
@@ -22,13 +22,13 @@ ms.locfileid: "9335504"
 
 [!include [banner](../includes/banner.md)]
 
-Sem hluti af staðlaðri starfsemi sinni, Microsoft Dynamics 365 Supply Chain Management býr til og geymir uppfærsluuppfærslugögn sölusögu stöðugt. Með tímanum gæti mikið magn af úreltum sölusögugögnum safnast fyrir í kerfinu þínu. Þessi uppsöfnuðu gögn geta valdið afköstum og virknivandamálum þegar skjöl sem tengjast sölupöntunum eru bókuð. (Þessi skjöl innihalda staðfestingar á sölupöntunum, sölu fylgiseðla, sölutínslulista og reikninga). Þess vegna ættir þú að setja upp og tímasetja *Hreinsun söluuppfærslusögu* reglubundið verkefni til að keyra með reglulegu millibili. Þetta verkefni mun fjarlægja öll uppfærslugögn sölusögu sem ekki er lengur þörf á.
+Sem hluti af hefðbundinni starfsemi sinni býr Microsoft Dynamics 365 Supply Chain Management til og geymir sölusögu og uppfærslugögn í sífellu. Með tímanum gæti mikið af úreltum sölugögnum safnast upp í kerfinu þínu. Þessi uppsöfnuðu gögn geta valdið vandamálum varðandi frammistöðu og virkni þegar skjöl sem tengjast sölupöntunum eru birt. (Þessi skjöl eru m.a. staðfestingar á sölupöntunum, fylgiseðlar sölu, tínslulistar fyrir sölu og reikningar). Því ættir þú að setja upp og tímasetja *Hreinsa sögu söluuppfærslna* á sölusögu til að keyra með reglulegu millibili. Þetta verkefni mun fjarlægja öll uppfærslugögn sölusögu sem ekki er lengur þörf fyrir.
 
-Ef þú notar *Hreinsun söluuppfærslusögu* reglubundið verkefni, mælum við með að þú kveikir á *Endurbætur á árangri í hreinsun sölusögu* eiginleiki, sem gerir verkefnið skilvirkara. (Engu að síður geturðu líka keyrt verkefnið án þess að virkja þennan eiginleika.)
+Ef þú notar *Hreinsa sögu söluuppfærslna* reglulega mælum við með því að þú virkjir eiginleika fyrir *Endurbætur á afköstum hreinsunar á söluferli* svo að verkefnið gangi betur fyrir sig. (Engu að síður getur þú einnig keyrt verkefnið án þess að virkja þennan eiginleika.)
 
-## <a name="turn-on-the-sales-history-cleanup-features"></a>Kveiktu á hreinsunareiginleikum sölusögu
+## <a name="turn-on-the-sales-history-cleanup-features"></a>Kveiktu á hreinsunareiginleikum söluferlis
 
-Til að setja upp og nota *Hreinsun söluuppfærslusögu* reglubundið verkefni ásamt öllum þeim eiginleikum sem lýst er í þessari grein, þú verður að virkja *Endurbætur á árangri í hreinsun sölusögu* og *Hreinsaðu upp söluuppfærsluferil byggt á aldri* eiginleikar í Eiginleikastjórnun, eins og lýst er í eftirfarandi undirköflum.
+Til að setja upp og nota reglulegt verkefni til að *Hreinsa sögu söluuppfærslna* ásamt öllum eiginleikum sem lýst er í þessari grein verður þú að virkja *Endurbætur á afköstum hreinsunar á söluferli* til að *Hreinsa uppfærsluferil sölu eftir aldri* í Eiginleikastjórnun, eins og lýst er í eftirfarandi undirköflum.
 
 ### <a name="sales-history-cleanup-performance-improvements"></a>Afkastaendurbætur á hreinsun söluferils
 
@@ -42,38 +42,38 @@ Reglubundin runuvinnsla **Hreinsun uppfærsluferils sölu** getur tekið langan 
 
 Eftir að eiginleikinn er virkjaður verður runuvinnslan **Hreinsun uppfærsluferils sölu** (**Sala og markaðssetning \> Tímabilsverk \> Hreinsun \> Hreinsun uppfærsluferils sölu**) keyrð eins og áður en með betri afköstum og að hámarki í 2 klukkustundir. Þetta þýðir að hún þarf kannski að keyra nokkrum sinnum til að hreinsa öll gögn fyrir tiltekinn varðveislutímaramma.
 
-Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** *Sala og markaðssetning*
 - **Heiti eiginleika:** *Endurbætur á afköstum hreinsunar á söluferli*
 
 ### <a name="clean-up-sales-update-history-based-on-age"></a>Hreinsa uppfærsluferil sölu eftir aldri
 
-The *Hreinsaðu upp söluuppfærsluferil byggt á aldri* eiginleiki gerir þér kleift að tilgreina hámarksaldur skráa sem á að geyma þegar *Hreinsun söluuppfærslusögu* reglubundið verkefni er keyrt. Eldri skrám verður eytt. Þessi eiginleiki er gagnlegur þegar þú setur verkefnið upp til að keyra reglulega, því aldurinn er alltaf reiknaður miðað við dagsetninguna þegar verkefnið er keyrt. Ef þú notar ekki þennan eiginleika geturðu aðeins stillt ákveðna dagsetningu fyrir elstu skrárnar til að halda.
+Með eiginleikanum *Hreinsa uppfærsluferil sölu eftir aldri* er hægt að tilgreina hámarksaldur færsla þegar *Hreinsa sögu söluuppfærslna* er keyrt. Eldri færslum verður eytt. Þessi eiginleiki er gagnlegur þegar þú setur upp verkefni sem á að keyra reglulega, því aldurinn er alltaf reiknaður út miðað við þann dag sem verkið er keyrt. Ef þessi aðgerð er ekki notuð er aðeins hægt að velja ákveðna dagsetningu fyrir elstu færslurnar.
 
-Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er aðgerðin skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu sem er eldri en 10.0.29 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Hreinsaðu upp söluuppfærsluferil byggt á aldri* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika þarf að kveikja á honum fyrir kerfið þitt. (Frá og með útgáfu 10.0.29 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á honum.) Ef þú ert að keyra útgáfu sem er eldri en 10.0.29, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Hreinsa uppfærsluferil sölu eftir aldri* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>Settu upp og tímasettu reglubundið hreinsunarverkefni sölusögu
+## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>Setja upp og raða reglubundnu hreinsunarverkefni fyrir sölusögu
 
-Til að setja upp og tímasetja *Hreinsun sölusögu* reglubundið verkefni, fylgdu þessum skrefum.
+Til að setja upp og tímasetja *Hreinsun söluferlis* reglubundið verkefni skal fylgja þessum skrefum.
 
-1. Greindu þarfir fyrirtækisins til að ákvarða hversu marga daga af sögulegum sölupöntunargögnum þú verður að geyma. Við mælum venjulega með því að þú keyrir hreinsunarverkefnið á þriggja mánaða fresti og að hámarki á sex mánaða fresti.
-1. Fara til **Sala og markaðssetning \> Tímabundið verkefni \> Hreinsun \> Hreinsun söluuppfærslusögu**.
-1. Í **Hreinsaðu upp söluuppfærslusögu** valmynd, á **Færibreytur** Flýtiflipi, stilltu eftirfarandi reiti:
+1. Greina þarf rekstur til að ákvarða hversu marga daga af sögulegum sölupöntunum og birtingargögnum verður að geyma. Við mælum yfirleitt með því að þú framkvæmir hreinsunina á þriggja mánaða fresti og að hámarki á sex mánaða fresti.
+1. Farið í **Sala og markaðssetning \> Reglubundin verk \> Hreinsun \> Hreinsa sögu söluuppfærslna cleanup**.
+1. Í svarglugganum **Hreinsa sögu söluuppfærslna** í flýtiflipanum **Færibreytur** skal stilla eftirfarandi reiti.
 
-    - **Hreinsaðu til** – Veldu eitt af eftirfarandi gildum til að tilgreina tegund skráa sem á að hreinsa til:
+    - **Hreinsa** – Veljið eitt af eftirfarandi gildum til að tilgreina hvers konar færslur á að hreinsa:
 
-        - **Framkvæmt** – Eyða aðeins skrám sem hafa verið fullunnar. Vegna þess að ólíklegt er að þú hafir frekari notkun á þessum gögnum er þessi valkostur sá öruggasti.
-        - **Framkvæmt og rangt** – Eyða bæði fullunnnum skrám og skrám þar sem villa hefur átt sér stað. Þessi valkostur er oftast notaður. Þú gætir viljað skoða og jafnvel laga rangar skrár í stað þess að láta hreinsa þær sjálfkrafa. Hins vegar kjósa mörg fyrirtæki að hreinsa þessar skrár líka eftir um það bil mánuð, vegna þess að þær eru líklega ekki lengur viðeigandi fyrir þann tíma.
-        - **Allt** - Eyða framkvæmdum, röngum og biðskrám. Biðfærslur eru gildar en hafa ekki enn verið unnar að fullu. Í flestum tilfellum vilt þú líklega ekki að þeim verði eytt sjálfkrafa. Hins vegar, í sumum tilfellum, gætirðu valið að láta eyða þeim sjálfkrafa eftir að ákveðinn tími er liðinn.
+        - **Keyrt** – Eyða aðeins skrám sem hafa verið fullunnnar. Þar sem ólíklegt er að þú hafir frekari not fyrir þessar skrár er þessi kostur öruggastur.
+        - **Keyrt og með villum** – Eyða bæði fullunnum skrám og skrám þar sem villa kom upp. Þessi valkostur er oftast notaður. Þú gætir viljað skoða og jafnvel laga rangar skrár í stað þess að láta hreinsa þær sjálfkrafa. Mörg fyrirtæki velja hins vegar að hreinsa þessar færslur líka eftir um það bil mánuð því þær eiga líklega ekki lengur við eftir þann tíma.
+        - **Allt** – Eyða keyrðum skrám, villum og biðskrám. Biðfærslur eru gildar en hafa ekki enn verið unnar að fullu. Í flestum tilfellum viltu ekki að þeim sé eytt sjálfkrafa. Í sumum tilvikum er þó hægt að eyða þeim sjálfkrafa að tilteknum tíma liðnum.
 
-    - **Geymdu skrár byggðar á aldri** – Tilgreindu hvort þú vilt hreinsa upp færslur miðað við aldur þeirra á þeim degi þegar verkefnið er keyrt eða eyða færslum sem voru búnar til fyrir fasta dagsetningu. Ef þú ert að skipuleggja hreinsunina sem endurtekið verkefni ættirðu að stilla þennan valkost á *Já*, vegna þess að aldurinn er alltaf reiknaður miðað við dagsetninguna þegar verkefnið er keyrt.
+    - **Geyma færslur eftir aldri** – Tilgreindu hvort þú viljir hreinsa færslur miðað við aldur þeirra á þeim degi þegar verkefnið er keyrt eða eyða skrám sem voru búnar til fyrir ákveðinn dag. Ef þú ert að skipuleggja hreinsun sem endurtekið verkefni ættir þú að stilla þennan valkost á *Já*, því aldurinn er alltaf reiknaður miðað við þann dag sem verkið er keyrt.
 
-        - Stilltu þennan valkost á *Já* til að virkja **Hámarksaldur** sviði. Þú notar þennan reit til að tilgreina hámarksaldur skránna sem á að geyma í hvert skipti sem verkefnið er keyrt. The **Búið til til** reiturinn er hunsaður.
-        - Stilltu þennan valkost á *Nei* til að virkja **Búið til til** sviði. Þú notar þennan reit til að tilgreina elstu stofnunardagsetningu gagna sem á að geyma þegar verkefnið er keyrt. The **Hámarksaldur** reiturinn er hunsaður.
+        - Stillið þennan valkost á *Já* til að virkja reitinn **Hámarksaldur**. Tilgreinið í þessum reit hámarksaldur færsla sem á að geyma í hvert sinn sem verkið er keyrt. Reiturinn **Búið til** er hunsaður.
+        - Stillið þennan valkost á *Nei* til að nota reitinn **Stofnað fram að**. Tilgreinið í þessum reit elsta stofndag færslu til að geyma þegar verkið er keyrt. Reiturinn **Hámarksaldur** er hunsaður.
 
-    - **Búið til til** – Þessi stilling á aðeins við þegar **Geymdu skrár byggðar á aldri** valkostur er stilltur á *Nei*. Tilgreindu elstu stofnunardagsetningu gagna sem á að geyma þegar verkefnið er keyrt. Færslum sem voru búnar til fyrir þessa dagsetningu verður eytt.
-    - **Hámarksaldur** – Þessi stilling á aðeins við þegar **Geymdu skrár byggðar á aldri** valkostur er stilltur á *Já*. Tilgreindu hámarksaldur (í dögum) skránna sem á að geyma í hvert skipti sem verkefnið er keyrt. Eldri skrám verður eytt.
+    - **Stofnað fram að** – Þessi stilling á aðeins við þegar valkosturinn **Geyma færslur eftir aldri**“ er stilltur á *Nei*. Tilgreinið elsta stofndag skrár til að geyma þegar verkið er keyrt. Færslum sem voru búnar til fyrir þessa dagsetningu verður eytt.
+    - **Hámarksaldur** – Þessi stilling á aðeins við þegar valkosturinn **Geyma færslur eftir aldri**“ er stilltur á *Já*. Tilgreinið hámarksaldur (í dögum) skrárinnar sem á að geyma í hvert sinn sem verkið er keyrt. Eldri færslum verður eytt.
 
-1. Á **Hlaupa í bakgrunni** Flýtiflipi, tilgreinið hvernig, hvenær og hversu oft verkefnið er keyrt. Notaðu þessar stillingar til að útfæra áætlunina sem þú ákvaðst í skrefi 1. Reitirnir virka alveg eins og þeir gera fyrir aðrar tegundir af [lotustörf](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) í birgðakeðjustjórnun.
+1. Á flýtiflipanum **Keyra í bakgrunni** skaltu tilgreina hvernig, hvenær og hversu oft þetta er keyrt. Notaðu þessar stillingar til að framkvæma áætlunina sem þú ákvarðaðir í skrefi 1. Reitirnir virka eins og þeir virka fyrir aðrar gerðir [runuvinnslu](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) í Supply Chain Management.
 1. Veldu **Í lagi** til að beita stillingum þínum og loka svarglugganum.

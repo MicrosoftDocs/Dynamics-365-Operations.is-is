@@ -1,6 +1,6 @@
 ---
 title: Stofna innkaupasamning
-description: Þessi grein leiðir þig í gegnum gerð kaupsamnings.
+description: Þessi grein leiðbeinir við stofnun innkaupasamnings.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 108c3a47132b262ebe2e15f00d26191b75469959
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8877567"
@@ -24,7 +24,7 @@ ms.locfileid: "8877567"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein leiðir þig í gegnum gerð kaupsamnings. Þetta verk myndi yfirleitt gert af innkaupastjóra. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Þú Þarft að hafa sett upp flokkanir innkaupasamnings áður en byrjað er. Þegar Innkaupapöntun er stofnuð og hægt er að nota hana þegar þú stofnar innkaupapöntun, og það afrita skilyrði innkaupasamnings í haus og allar línur í pöntun sem verða fyrir áhrifum af samninginn.
+Þessi grein leiðbeinir við stofnun innkaupasamnings. Þetta verk myndi yfirleitt gert af innkaupastjóra. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Þú Þarft að hafa sett upp flokkanir innkaupasamnings áður en byrjað er. Þegar Innkaupapöntun er stofnuð og hægt er að nota hana þegar þú stofnar innkaupapöntun, og það afrita skilyrði innkaupasamnings í haus og allar línur í pöntun sem verða fyrir áhrifum af samninginn.
 
 
 ## <a name="create-a-new-purchase-agreement"></a>Stofna nýjan innkaupasamning

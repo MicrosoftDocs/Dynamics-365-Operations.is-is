@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9334686"
@@ -98,9 +98,9 @@ Athugið muninn á færslustöðu og víddunum á milli þessara tveggja tilvika
 
 ## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>Gera væntanlegar innhreyfingar úr gæðapöntunum óvirkar sem taka sýni af læstum birgðum
 
-Til að einfalda birgðafærslur þegar um er að ræða gæðapantanir sem sýnishorn af birgðum er lokað vegna birgðastöðu, býður kerfið upp á eiginleika sem slekkur á væntanlegum innhreyfingum frá slíkum gæðapöntunum. Vegna þess að væntanleg innhreyfing er umsvifalaust læst með birgðastöðulokun, er engin minnkun á birgðum á lager vegna þessarar breytingar.
+Til að einfalda birgðafærslur þegar gæðapantanir sem taka sýni af læstum birgðum vegna birgðastöðunnar, býður kerfið upp á eiginleika sem gerir væntanlegar innhreyfingar óvirkar frá slíkum gæðapöntunum. Þar sem væntanleg móttaka er stöðvuð strax vegna birgðastöðulokunar er engin minnkun á birgðum á hendi vegna þessarar breytingar.
 
-Til að nota þennan eiginleika verður að vera kveikt á honum fyrir kerfið þitt. Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á eiginleikanum. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að *Slökktu á væntanlegum innhreyfingum frá gæðapöntunum sem taka sýnishorn af lokuðum birgðum* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota þennan eiginleika þarf að kveikja á honum fyrir kerfið þitt. Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á þessum eiginleika. Stjórnendur geta kveikt eða slökkt á þessari virkni með því að leita að eiginleikanum *Gera væntanlegar innhreyfingar úr gæðapöntunum óvirkar sem taka sýni af læstum birgðum* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

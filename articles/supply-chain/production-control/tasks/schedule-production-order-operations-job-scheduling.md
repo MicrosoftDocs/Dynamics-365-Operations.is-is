@@ -1,6 +1,6 @@
 ---
 title: Áætla framleiðslupöntun með rekstrar- og vinnuröðun
-description: Þessi grein fjallar um tímasetningu framleiðslupöntunar með aðgerðaáætlun og verkáætlun.
+description: Í þessari grein er lögð áhersla á röðun á framleiðslupöntun með aðgerðaröðun og vinnsluröðun.
 author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d82d5439e57c02ddc9db4222a946bd15f4ed67e4
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8903928"
@@ -24,7 +24,7 @@ ms.locfileid: "8903928"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein fjallar um tímasetningu framleiðslupöntunar með aðgerðaáætlun og verkáætlun. Engar vinnslur eru stofnaðar með aðgerðaröðun meðan störf eru stofnuð með vinnsluröðun. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta ferli er ætluð fyrir framleiðslustjóri skipuleggjandi framleiðslu eða vinnusalarstjórnun yfirmaður sem unnið er í framleiðsluumhverfi afmörkuð.
+Í þessari grein er lögð áhersla á röðun á framleiðslupöntun með aðgerðaröðun og vinnsluröðun. Engar vinnslur eru stofnaðar með aðgerðaröðun meðan störf eru stofnuð með vinnsluröðun. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF. Þetta ferli er ætluð fyrir framleiðslustjóri skipuleggjandi framleiðslu eða vinnusalarstjórnun yfirmaður sem unnið er í framleiðsluumhverfi afmörkuð.
 
 
 ## <a name="create-a-production-order"></a>Stofna framleiðslupöntun

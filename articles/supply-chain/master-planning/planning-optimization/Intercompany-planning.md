@@ -1,6 +1,6 @@
 ---
 title: Áætlanagerð innan samstæðu
-description: Þessi grein lýsir áætlanagerð milli fyrirtækja og útskýrir hvernig á að stilla áætlanagerð milli fyrirtækja í Microsoft Dynamics 365 Supply Chain Management.
+description: Þessi grein lýsir áætlanagerð innan samstæðu og útskýrir hvernig á að skilgreina áætlanagerð innan samstæðu með fínstillingu skipulagningar í Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 3d1c82aa3810b37b06b9d9157e73588fc1727348
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740033"
@@ -29,9 +29,9 @@ ms.locfileid: "9740033"
 
 Í sumum fyrirtækjum eru aðgerðir vörustjórnunar háðar öðrum lögaðilum (fyrirtækjum) innan fyrirtækisins. Þessar aðgerðir eru meðhöndlaðar með sölu og innkaupum innan samstæðu, vegna þess að hver lögaðili hefur aðskilda bókhaldslykla.
 
-Þessi grein lýsir áætlanagerð milli fyrirtækja og útskýrir hvernig á að stilla áætlanagerð milli fyrirtækja í Microsoft Dynamics 365 Supply Chain Management.
+Þessi grein lýsir áætlanagerð innan samstæðu og útskýrir hvernig á að skilgreina áætlanagerð innan samstæðu með fínstillingu skipulagningar í Microsoft Dynamics 365 Supply Chain Management.
 
-Þessi grein notar eftirfarandi mikilvæga samstæðuskilmála:
+Í þessari grein er notast við eftirfarandi mikilvæga samstæðuskilmála:
 
 - **Fyrir ofan** – Afstæð tilvísun í fyrirtæki eða aðfangakeðju. Gefur til kynna hreyfingu í áttina að hráefnisbirgi.
 - **Fyrir neðan** – Afstæð tilvísun í fyrirtæki eða aðfangakeðju. Gefur til kynna hreyfingu í áttina að viðskiptavininum.
@@ -45,8 +45,8 @@ Við aðaláætlanagerð getur áætlun í einu fyrirtæki falið í sér áætl
 
 Til að nota samstæðuáætlun verður þú að undirbúa kerfið þitt á eftirfarandi hátt:
 
-1. Losa verður viðeigandi afurðir í öllum viðeigandi fyrirtækjum. Fyrir frekari upplýsingar, sjá [Stilltu og notaðu viðskipti milli fyrirtækja í Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
-1. Eftirspurn fyrir neðan verður að svara með innkaupum af lánardrottinn sem er með samstæðutengsl við fyrirtækið fyrir ofan og viðeigandi sjálfgefnar birgðavíddir (svæði og vöruhús) viðskiptavinarins. Fyrir frekari upplýsingar, sjá [Stilltu og notaðu viðskipti milli fyrirtækja í Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. Losa verður viðeigandi afurðir í öllum viðeigandi fyrirtækjum. Frekari upplýsingar er að finna í [skilgreina og nota samstæðuviðskipti í Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. Eftirspurn fyrir neðan verður að svara með innkaupum af lánardrottinn sem er með samstæðutengsl við fyrirtækið fyrir ofan og viðeigandi sjálfgefnar birgðavíddir (svæði og vöruhús) viðskiptavinarins. Frekari upplýsingar er að finna í [skilgreina og nota samstæðuviðskipti í Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. Aðaláætlunin í fyrirtækinu fyrir ofan verður að innihalda áætlaða eftirspurn fyrir neðan og tilgreina verður viðeigandi fyrirtæki og aðaláætlun í áætlunum fyrir neðan.
 
 ## <a name="include-planned-downstream-demand"></a>Þ.m.t. áætluð eftirspurn forstreymis

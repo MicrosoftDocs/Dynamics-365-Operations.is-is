@@ -1,6 +1,6 @@
 ---
 title: Fylgjast með keyrslu áætlanagerðar
-description: Þessi grein útskýrir hvernig framleiðsluskipuleggjandi getur séð hvort aðalskipulagskeyrsla sé í gangi.
+description: Í þessari grein er útskýrt hvernig skipuleggjandi framleiðslunnar getur séð hvort keyrsla aðaláætlanagerðar sé í gangi.
 author: t-benebo
 ms.date: 11/04/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: da04ef95f2f7e411ecea3fadf7ff31b3502d3d99
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8860755"
@@ -28,11 +28,11 @@ ms.locfileid: "8860755"
 
 Af síðunni **Skoða framvindu aðaláætlunargerðar** geturðu skoðað upplýsingar um sögulegar keyrslur aðaláætlunargerðar sem Gantt kort. Þessi virkni getur hjálpað þér að skilja tímann sem er eytt í hina ýmsu áfanga aðaláætlunargerðar. Fyrir núverandi virkt skipulagsstarf er hægt að nota síðuna **Skoða framvindu aðaláætlunargerðar** til að fylgjast með framvindu mála og skoða þann áætlaða tíma sem eftir er.
 
-### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>Kveiktu eða slökktu á eiginleikum aðalskipulagsframvindu
+### <a name="turn-the-master-plan-progress-visualization-feature-on-or-off"></a>Kveikja eða slökkva á eiginleika myndrænnar framsetningar á framvindu aðaláætlunar
 
-Frá og með Supply Chain Management útgáfu 10.0.21 er sjálfgefið kveikt á þessum eiginleika. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Framfarasýn aðalskipulags* eiginleiki í [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Sem hluti af Supply Chain Management, útgáfa 10.0.21, er sjálfgefið kveikt á þessum eiginleika. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25, þá geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Myndræn framsetning á ferli aðaláætlanagerðar* á vinnusvæðinu [Eiginleikastjórnun](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="use-the-master-plan-progress-visualization-feature"></a>Notaðu framvindu sjónrænnar eiginleika aðaláætlunar
+### <a name="use-the-master-plan-progress-visualization-feature"></a>Nota eiginleika myndrænnar framsetningar á framvindu aðaláætlunar
 
 Síðan **Skoða framvindu aðaláætlunargerðar** getur sýnt bæði sögulegar vinnslur áætlunargerðar og virkar vinnslur áætlunargerðar. 
 

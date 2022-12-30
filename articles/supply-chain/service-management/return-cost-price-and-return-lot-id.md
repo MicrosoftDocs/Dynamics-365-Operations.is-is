@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4c1d236918eddf3203a544a6b047f8ccac777971
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9017241"
@@ -38,7 +38,7 @@ Til að nota annan kostnað en núverandi kostnað vegna skila viðskiptavinar s
 
 Að sjálfgefnu, þegar þú bætir vörum við skilapöntun, er vörunum skilað til birgða á núverandi kostnaðarverði. Til að tilgreina annað kostnaðarverð skila skaltu fylgja þessum skrefum.
 
-1.  Smellur **Sala og markaðssetning** \> **Söluskil** \> **Allar skilapantanir**.
+1.  Smelltu á **Sala og markaðsstarf** \> **Söluvöruskil** \> **Allar skilapantanir**.
 
 2.  Í **Aðgerðarsvæði**, í flokknum **Nýtt**, skaltu smella á **Skilapöntun**.
 
@@ -54,7 +54,7 @@ Að sjálfgefnu, þegar þú bætir vörum við skilapöntun, er vörunum skila�
 
 Þetta er æskilega aðferðin til að búa til skilalínur. Til að nota kostnað vörunnar á þeim tíma sem þú seldir vörurnar til viðskiptavinarins skaltu búa til skilapöntun og tilgreina sölulínu til að skila.
 
-1.  Smellur **Sala og markaðssetning** \> **Söluskil** \> **Allar skilapantanir**.
+1.  Smelltu á **Sala og markaðsstarf** \> **Söluvöruskil** \> **Allar skilapantanir**.
 
 2.  Í **Aðgerðarsvæði**, í flokknum **Nýtt**, skaltu smella á **Skilapöntun**.
 

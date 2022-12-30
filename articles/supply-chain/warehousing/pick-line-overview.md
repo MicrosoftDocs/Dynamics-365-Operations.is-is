@@ -1,6 +1,6 @@
 ---
 title: Setja upp valmyndaratriði fartækis til að birta yfirlit yfir val á línu
-description: Þessi grein útskýrir hvernig á að skilgreina hvenær listi yfir allar vinnulínur verður sýndur vöruhúsastarfsmönnum sem eru að vinna úr vöruhúsavinnu í fartæki. Þessi möguleiki getur gagnast starfsmönnum vöruhúss sem þurfa oft að sjá yfirlit yfir tínslulínur í vinnupöntun þannig að þeir geti hagrætt tínsluröðinni.
+description: Þessi grein útskýrir hvernig á að skilgreina þegar listi yfir allar vinnulínur verður sýndur starfsmönnum vöruhúss sem eru að vinna úr vöruhúsavinnu í fartæki. Þessi möguleiki getur gagnast starfsmönnum vöruhúss sem þurfa oft að sjá yfirlit yfir tínslulínur í vinnupöntun þannig að þeir geti hagrætt tínsluröðinni.
 author: Mirzaab
 ms.date: 09/03/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: aeadca6f3c31d5d8c1ef9d334b0e531896ac99b1
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9336306"
@@ -24,13 +24,13 @@ ms.locfileid: "9336306"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að stilla valkosti sem tengjast vallínuyfirliti fyrir valmyndaratriði farsíma sem eru notuð til að vinna úr tínsluvinnu. Yfirlit tiltektarlínu gerir starfsmönnum vöruhúss kleift að skoða og velja úr lista yfir allar vinnulínur sem tengjast núverandi verki. Þessi möguleiki getur hjálpað starfsmönnum að hagræða tínsluröðinni. Þessi eiginleiki býður upp á valmöguleika sem koma í staðinn fyrir hefðbundna hnappinn **Sleppa** sem gerir starfsmönnum kleift að fara á milli línanna eina í einu í ákveðinni röð. (Hins vegar er valkosturinn til að nota þann hnapp enn tiltækur.)
+Þessi grein útskýrir hvernig skilgreina á valkosti sem tengjast yfirliti tiltektarlínu fyrir valmyndaratriði fartækis sem eru notuð til að vinna úr tiltektarvinnu. Yfirlit tiltektarlínu gerir starfsmönnum vöruhúss kleift að skoða og velja úr lista yfir allar vinnulínur sem tengjast núverandi verki. Þessi möguleiki getur hjálpað starfsmönnum að hagræða tínsluröðinni. Þessi eiginleiki býður upp á valmöguleika sem koma í staðinn fyrir hefðbundna hnappinn **Sleppa** sem gerir starfsmönnum kleift að fara á milli línanna eina í einu í ákveðinni röð. (Hins vegar er valkosturinn til að nota þann hnapp enn tiltækur.)
 
 Stjórnendur geta skilgreint hvert valmyndaratriði út af fyrir sig til að stjórna því hvernig, hvenær og hvar farsímaforrit vöruhúsakerfis sýnir yfirlit tínslulína.
 
 ## <a name="turn-on-the-work-pick-line-overview-feature"></a>Kveikja á eiginleika fyrir yfirlit yfir tiltektarlínu vinnu
 
-Áður en þú getur notað þennan eiginleika verður að kveikja á honum fyrir kerfið þitt. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
 - **Eining:** _Vöruhúsakerfi_
 - **Heiti eiginleika:** _Yfirlit yfir tiltektarlínu vinnu_

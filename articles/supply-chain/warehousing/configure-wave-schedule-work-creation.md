@@ -1,6 +1,6 @@
 ---
 title: Áætla stofnun vinnu í bylgju
-description: Þessi grein lýsir því hvernig á að setja upp og nota bylgjuvinnsluaðferðina til að búa til tímaáætlun fyrir vinnu.
+description: Þessi grein lýsir því hvernig á að setja upp og nota vinnsluaðferð bylgju fyrir áætla stofnun vinnu.
 author: Mirzaab
 ms.date: 01/14/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 8b4505d66c37134bc8f672b38d195f4f677df9bc
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8852071"
@@ -30,9 +30,9 @@ Notið eiginleikann *Áætla stofnun vinnu* sem hluta af bylgjuferlinu til að a
 
 ## <a name="turn-on-the-scheduled-work-creation-features-in-feature-management"></a>Kveikja á eiginleikum áætlaðrar vinnustofnunar í eiginleikastjórnun
 
-Til að nota eiginleikana sem lýst er í þessari grein verður að kveikja á þeim fyrir kerfið þitt. Notið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnusvæðið til að kveikja á eftirfarandi eiginleikum í eftirfarandi röð:
+Til að nota eiginleikana sem lýst er í þessari grein verður að kveikja á þeim fyrir kerfið. Notið [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnusvæðið til að kveikja á eftirfarandi eiginleikum í eftirfarandi röð:
 
-1. **Vinnulokun fyrir allt fyrirtækið** - Nauðsynlegt fyrir bæði handvirka og sjálfvirkra grunnstillingu fyrir áætlaða vinnu með áætlaða vinnustofnun. (Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að það er sjálfgefið kveikt á honum og ekki er hægt að slökkva á honum aftur.)
+1. **Vinnulokun fyrir allt fyrirtækið** - Nauðsynlegt fyrir bæði handvirka og sjálfvirkra grunnstillingu fyrir áætlaða vinnu með áætlaða vinnustofnun. (Frá og með útgáfu 10.0.21 af Supply Chain Management er sjálfkrafa kveikt á þessum eiginleika og ekki er hægt að slökkva á honum aftur.)
 1. **Áætla stofnun vinnu** - Nauðsynlegt fyrir bæði handvirka og sjálfvirkra grunnstillingu fyrir áætlaða vinnu með áætlaða vinnustofnun.
 1. **Vinnulokun fyrir allt fyrirtækið** - Nauðsynlegt fyrir sjálfvirkra grunnstillingu fyrir áætlaða vinnu með áætlaða vinnustofnun. Ekki þarf að nota þennan eiginleika aðeins er notuð handvirk grunnstilling.
 
@@ -53,7 +53,7 @@ Fyrirliggjandi skilgreiningum verks og bylgjuúrvinnslu verður einnig haldið f
 Ef þörf er á er hægt að snúa við öllum stillingum sem voru gerðar sjálfkrafa þegar eiginleikinn *Bylgjuaðferðin „Áætla stofnun vinnu“ fyrir allt fyrirtækið* var virkjaður með því að gera eftirfarandi:
 
 - Fyrir bylgjusniðmát skal fara í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Bylgjusniðmát**. Skipta út aðferðinni *Áætla stofnun vinnu* fyrir *Stofna vinnu*.
-- Fyrir vöruhúsabreytur, farðu í **Vöruhússtjórnun \> Uppsetning \> Vöruhússtjórnunarfæribreytur**. Í flipanum **Bylgjuvinnsla** skal nota æskileg gildi fyrir **Vinna bylgjur í runu** og **Bíða eftir læsingu (ms)**.
+- Fyrir færibreytur vöruhúss skal fara í **Vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**. Í flipanum **Bylgjuvinnsla** skal nota æskileg gildi fyrir **Vinna bylgjur í runu** og **Bíða eftir læsingu (ms)**.
 - Fyrir bylgjuaðferðir skal fara í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Vinnsluaðferðir bylgju**. Veljið `WHSScheduleWorkCreationWaveStepMethod` og á aðgerðasvæðinu velja **Skilgreining verks**. Breytið eða eyðið fjölda runuverka og úthlutuðum runuflokki fyrir hvert birt vöruhús eftir þörfum.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Skilgreina handvirkt áætlaða vinnustofnun
@@ -73,7 +73,7 @@ Til að nýta sér samhliða ósamstillta aðferð til að stofna vöruhúsavinn
 Byrjið á því að stofna nýja bylgjuskrefsaðferð og virkið hana fyrir ósamstillta verkvinnslu.
 
 1. Farið í **Vöruhúsakerfi \> Uppsetning \> Bylgjur \> Vinnsluaðferðir bylgju**.
-1. Veldu **Endurnýjunaraðferð** og athugaðu það *WHSScheduleWorkCreationWaveStepMethod* hefur verið bætt við listann yfir bylgjuferlisaðferðir sem þú getur notað í sendingarbylgjusniðmátunum þínum.
+1. Veljið **Endurgera aðferð** og athugið að *WHSScheduleWorkCreationWaveStepMethod* hefur verið bætt við listann yfir aðferðir bylgjuferlis sem hægt er að nota í bylgjusniðmátum sendingar.
 1. Veljið færsluna með **Heiti aðferðar** *WHSScheduleWorkCreationWaveStepMethod* og veljið **Verkskilgreiningu**.
 1. Til að bæta nýrri línu við hnitanetið skal velja **Ný** á aðgerðasvæðinu og nota eftirfarandi stillingar:
 

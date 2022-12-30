@@ -1,6 +1,6 @@
 ---
 title: Uppskriftir og formúlur
-description: Þessi grein veitir upplýsingar um efnisskrár og formúlur, sem eru miðlægur hluti af skilgreiningu á vörum og vöruafbrigðum.
+description: Þessi grein veitir upplýsingar um uppskriftir (BOM) og formúlur, sem eru miðpunktur í skilgreiningu á afurðum og afurðaafbrigðum.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 57a30aba3b0a37d939d0747b2dd305a92c82ae23
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8887284"
@@ -27,7 +27,7 @@ ms.locfileid: "8887284"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um efnisskrár og formúlur, sem eru miðlægur hluti af skilgreiningu á vörum og vöruafbrigðum. Uppskriftir og formúlur tilgreina áskilið hráefni eða innihaldsefni fyrir tilgreinda afurð. Formúlur tilgreina einnig aukaafurðir og hliðarafurðir sem eru mótteknar í tilgreindu framleiðslusamhengi. 
+Þessi grein veitir upplýsingar um uppskriftir (BOM) og formúlur, sem eru miðpunktur í skilgreiningu á afurðum og afurðaafbrigðum. Uppskriftir og formúlur tilgreina áskilið hráefni eða innihaldsefni fyrir tilgreinda afurð. Formúlur tilgreina einnig aukaafurðir og hliðarafurðir sem eru mótteknar í tilgreindu framleiðslusamhengi. 
 
 ## <a name="bills-of-materials"></a>Uppskriftir
 

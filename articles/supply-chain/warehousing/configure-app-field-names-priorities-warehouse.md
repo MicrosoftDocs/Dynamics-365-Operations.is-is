@@ -1,6 +1,6 @@
 ---
 title: Skilgreina reiti fyrir farsímaforrit Warehouse Management
-description: Þessi grein lýsir því hvernig á að skilgreina og stilla nöfn og forgangsröðun reita sem sýndir eru í vöruhúsastjórnun farsímaforritinu.
+description: Þessi grein lýsir því hvernig á að skilgreina og grunnstilla heiti og forgangsröð reita sem sýndir eru í farsímaforrit vöruhúsakerfis.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 00a20faaa05a9d0891ee202951b1ca50d0176c83
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9065959"
@@ -27,10 +27,10 @@ ms.locfileid: "9065959"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að skilgreina og stilla nöfn og forgangsröðun reita sem sýndir eru í vöruhúsastjórnun farsímaforritinu.
+Þessi grein lýsir því hvernig á að skilgreina og grunnstilla heiti og forgangsröð reita sem sýndir eru í farsímaforrit vöruhúsakerfis.
 
 > [!NOTE]
-> Þessi grein á við um eiginleika í vöruhúsastjórnun. Það á ekki við um aðgerðir í birgðastjórnun. Farsímaforrit vöruhúsakerfis er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þessi grein útskýrir hvernig á að skilgreina og stilla þessi vöruhúsastjórnunarnöfn og forgangsröðun farsímaforrita og hvernig þau eru notuð.
+> Þessi grein á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Farsímaforrit vöruhúsakerfis er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þessi grein útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang farsímaforrit vöruhúsakerfis og hvernig þau eru notuð í Warehousing.
 
 ## <a name="configure-warehouse-app-field-names"></a>Grunnstilla reitarheiti vöruhúsaforrits
 

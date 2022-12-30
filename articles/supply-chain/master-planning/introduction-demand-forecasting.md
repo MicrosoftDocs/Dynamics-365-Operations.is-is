@@ -20,7 +20,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5c764cc186b5c8742ccfd90b5928f6625f3360c8
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9065598"
@@ -56,7 +56,7 @@ Hér eru sumar aðal aðgerðir eftirspurnarspár:
 - **Einingastig** – eftirspurnarspár eru°uppbyggðar úr einingum og auðvelt að skilgreina. Hægt er að kveikja og slökkva á virkninni með því að breyta skilgreiningarlyklinum á **Viðskipti** &gt; **Birgðaspá** &gt; **Eftirspurnarspár**.
 - **Endurnýting stafla Microsoft** – Vélnám sem er nú hluti af Microsoft Cortana Greiningarsafni gerir kleift á fljótlegan og auðveldan hátt að stofna spágreiningartilraunir, svo sem eftirspurnaráætlunartilraunir, með því að nota°algoritma R eða Python forritunartungumál og einfalt draga-sleppa viðmót.
   - Hægt er að hlaða niður Eftirspurnarspátilraunum, breyta þeim til að uppfylla þínar viðskiptaþarfir, °gefa þau út sem vefþjónustu á Azure og nota þau°til að mynda eftirspurnarspár. Tilraunirnar eru tiltækar fyrir niðurhal ef áskrift að Supply Chain Management á skipulagningu framleiðslu hefur verið keypt fyrir notanda á fyrirtækissviði.
-  - Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Aftur á móti, þar sem eftirspurnarspártilraunir eru sjálfkrafa samþættar Supply Chain Management, þurfa viðskiptavinir og samstarfsaðilar að beita samþættingu tilrauna sem þeir hlaða niður úr [Cortana-greiningasafni](https://gallery.cortanaanalytics.com/). Þess vegna eru tilraunir frá [Cortana Analytics gallerí](https://gallery.cortanaanalytics.com/) eru ekki eins einföld í notkun og fjármál og rekstur Krafaspátilraunir. Þú verður að breyta kóða tilraunanna þannig að þær noti fjármála- og rekstrarforritunarviðmót (API).
+  - Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Aftur á móti, þar sem eftirspurnarspártilraunir eru sjálfkrafa samþættar Supply Chain Management, þurfa viðskiptavinir og samstarfsaðilar að beita samþættingu tilrauna sem þeir hlaða niður úr [Cortana-greiningasafni](https://gallery.cortanaanalytics.com/). Þess vegna eru tilraunir úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/) ekki jafn einfaldar í notkun og fjármála- og rekstrarforrit eftirspurnarspátilraunir. Þa °þarf að breyta kóða á tilraununum þannig að þær nota forritunarviðmót (API) fjármála- og rekstrarforritsins.
   - Hægt er að stofna eigin tilraunir í Microsoft Azure Machine Learning Studio (hefðbundið), birta þær sem þjónustu á Azure og nota þær til að stofna eftirspurnarspár.
   - Ef ekki er krafist mikilla afkasta eða ef ekki þarf að vinna°mikið af gögnum er hægt að nota ókeypis Vélnáms Lag. Mælt er með að alltaf ræsa úr°þessu lagi,°sérstaklega°við innleiðingu og prófana áfanga. Ef°krafist er meiri afkasta og°viðbótar geymslu, hægt er að nota staðlaða lags Vél Nám. Þetta lag krefst Azure áskriftar og felur í sér auka kostnað. Nánari upplýsingar um verðlagningu Vélnáms er að finna í [Verðlagning vélnámsstúdíós](https://aka.ms/machine-learning-price-info).
 - **Lækkun spár á hvaða aftengingarpunkti sem er** – Eftirspurnarspár byggir á þessari virkni, sem gerir kleift að spá bæði háðri og óháðri eftirspurn á hvaða aftengingarpunkti sem er.
@@ -97,8 +97,8 @@ Athugið að mælieining eftirspurnarspár þarf ekki að hafa neina sérstaka m
 - [Leiðrétt spá heimiluð](authorize-adjusted-forecast.md)
 - [Eftirlit með nákvæmni spár](monitor-forecast-accuracy.md)
 - [Fjarlægja einfara úr sögulegum færslugögnum við útreikning á eftirspurnarspá](remove-historical-outliers-calculating-demand-forecast.md)
-- [Myndband: Framlengdu virkni eftirspurnarspár](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-- [Vefnámskeið: Eftirspurnarspá með Azure Machine Learning Series](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
+- [Myndskeið: Framlengja virkni eftirspurnarspár](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+- [Vefnámskeið: Eftirspurnarspá með Azure Machine Learning Series.](https://aka.ms/DemandForecastingwithAzureMachineLearningSeries)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir
-description: Þessi grein lýsir vöruhúsameðferðarferli fyrir hleðslu á innleið fyrir innkaupapantanir.
+description: Þessi grein útskýrir afgreiðsluferli vöruhússins fyrir hleðslur á innleið fyrir innkaupapantanir.
 author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
 ms.openlocfilehash: 38d5ba96690dd855556a7f69591ef5b9ee5f9d7b
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9335676"
@@ -24,7 +24,7 @@ ms.locfileid: "9335676"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir vöruhúsameðferðarferli fyrir hleðslu á innleið fyrir innkaupapantanir.
+Þessi grein útskýrir afgreiðsluferli vöruhússins fyrir hleðslur á innleið fyrir innkaupapantanir.
 
 Fyrir hvern farm á innleið ætti kerfið þitt nú þegar að innihalda tengda sölupöntun og hún gæti einnig innihaldið tengda forskrift og/eða flutningsáætlun farms. Nánari upplýsingar um hvernig á að stofna og stjórna farmi á innleið, sjá [Viðskiptaferli: Áætlun flutningsstjórnunar fyrir farma á innleið](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
@@ -56,7 +56,7 @@ Eftirfarandi mynd sýnir dæmigert flæði til að meðhöndla farma á innleið
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Skráðu vörumagn sem berst í farmi á innleið
 
-Microsoft Dynamics 365 Supply Chain Management styður nokkrar rekstraraðferðir við skráningu á komu pantaðra vara. Þess vegna geturðu stillt kerfið þannig að það passi við sérstakar viðskiptakröfur þínar. Þessi hluti lýsir því hvernig á að skrá innkomið vörumagn með því að nota farsíma þegar kveikt er á vöruhúsastjórnunarferlum (WMS) í kerfinu. Hins vegar er annað flæði til sem byggist á því að nota komubókar vöru í stað fartækis. Fyrir frekari upplýsingar um það flæði, sjá [Skrá vörur sem eru virkjaðar fyrir vöruhúsastjórnunarferli með því að nota komufærslubók vöru](tasks/register-items-advanced-warehousing.md).
+Microsoft Dynamics 365 Supply Chain Management styður nokkrar rekstraraðferðir við skráningu á komu pantaðra vara. Þess vegna geturðu stillt kerfið þannig að það passi við sérstakar viðskiptakröfur þínar. Í þessum hluta er útskýrt hvernig á að skrá vörumagn á innleið með því að nota fartæki þegar kveikt er á vöruhúsakerfisferlum í kerfinu. Hins vegar er annað flæði til sem byggist á því að nota komubókar vöru í stað fartækis. Frekari upplýsingar um þetta flæði er að finna í [Nota vörukomubók til að skrá vörur sem eru virkar fyrir vöruhúsakerfisferli](tasks/register-items-advanced-warehousing.md).
 
 Þegar farmur á innleið berst fyrst í vöruhúsið verða starfsmenn vöruhússins að skrá það vörumagnið sem er innifalið í sendingunni. Yfirleitt nota þeir lófatölvuskanna. Þetta verkflæði er aðeins tiltækt ef eftirfarandi vörur eru til staðar í kerfinu:
 
@@ -209,7 +209,7 @@ Eftirfarandi tafla dregur saman áhrif af stillingunni **Leyfa mörg innhreyfing
 | Já | Engar uppfærslur | _Móttekið_, ef heildarmagn farmmagns er jafnt eða meira en farmmagnið | |
 | Já | Engar uppfærslur | _Sent_ eða _Í vinnslu_, ef heildarmagn farmmagns er minna en farmmagnið | |
 
-Þegar reiturinn **Farmstaða** hefur verið stilltur á _Móttekið_ er ekki hægt að gera fleiri bókanir innhreyfingarskjala afurða fyrir þann farm. Samt sem áður getur starfskrafturinn skráð eftirstöðvar pöntunarinnar á móti mótteknum farmi við eftirfarandi skilyrði. (Nánari upplýsingar er að finna í [Ofmóttaka álags](#load-over-receiving) kafla fyrr í þessari grein.)
+Þegar reiturinn **Farmstaða** hefur verið stilltur á _Móttekið_ er ekki hægt að gera fleiri bókanir innhreyfingarskjala afurða fyrir þann farm. Samt sem áður getur starfskrafturinn skráð eftirstöðvar pöntunarinnar á móti mótteknum farmi við eftirfarandi skilyrði. (Frekari upplýsingar er að finna í hlutanum [Umframmóttaka hleðslu](#load-over-receiving) fyrr í þessari grein.)
 
 - Útgáfan af Supply Chain Management er eldri en útgáfa 10.0.11.
 - Kveikt er á eiginleikanum _Ofmóttaka farmmagns_ og reiturinn **Farmlínumagn ofmóttöku** í valmyndaratriði fartækisins fyrir móttökuaðgerð farmvörunnar er stilltur á _Leyfa_.
@@ -259,7 +259,7 @@ Fyrirtækjum sem nota álag til að áætlan og stjórna flutningum og meðhönd
 
 ### <a name="prepare-your-system-to-run-the-sample-scenarios"></a>Undirbúðu kerfið þitt til að keyra dæmi um aðstæður
 
-Til að vinna í gegnum sýnishornin sem lýst er í þessum hluta verður þú fyrst að ganga úr skugga um að kveikt sé á öllum nauðsynlegum eiginleikum fyrir kerfið þitt. Nauðsynleg kynningargögn verða einnig að vera tiltæk í kerfinu.
+Til að vinna í gegnum sýniaðstæðurnar sem lýst er í þessari grein þarf fyrst að ganga úr skugga um að kveikt sé á öllum nauðsynlegum eiginleikum fyrir kerfið. Nauðsynleg kynningargögn verða einnig að vera tiltæk í kerfinu.
 
 #### <a name="turn-on-the-required-features"></a>Kveiktu á nauðsynlegum eiginleikum
 
@@ -267,7 +267,7 @@ Til að vinna í gegnum sýnishornin sem lýst er í þessum hluta verður þú 
 
 1. Opnaðu vinnusvæðið **Eiginleikastjórnun**. (Nánari upplýsingar um hvernig á að finna og nota þetta vinnusvæði er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) .)
 
-1. Gakktu úr skugga um að _Tengja innkaupapöntun birgðafærslur við hleðslu_ kveikt er á eiginleikanum. Frá og með Supply Chain Management útgáfu 10.0.21 er þessi eiginleiki nauðsynlegur, þannig að hann er sjálfgefið kveiktur og ekki er hægt að slökkva á honum aftur. Hins vegar er eiginleikinn enn skráður inn [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) á eftirfarandi hátt:
+1. Gakktu úr skugga um að kveikt sé á eiginleikanum _Tengja birgðafærslur innkaupapöntunar við farm_. (Frá og með útgáfu 10.0.21 af Supply Chain Management er sjálfkrafa kveikt á þessum eiginleika og ekki er hægt að slökkva á honum aftur.) Eiginleikinn er hins vegar enn sýndir í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) á eftirfarandi hátt:
 
     - **Eining:** _Vöruhúsakerfi_
     - **Heiti eiginleika:** _Tengja birgðafærslu innkaupapöntunar við farm_
@@ -279,7 +279,7 @@ Til að vinna í gegnum sýnishornin sem lýst er í þessum hluta verður þú 
 
 #### <a name="enable-sample-data"></a>Virkja gögn sýnishorna
 
-Til að vinna í gegnum þessar aðstæður með því að nota tilgreindar sýnishornsfærslur og gildi verður þú að nota kerfi þar sem staðalinn [kynningargögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) er sett upp. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
+Til að vinna sig í gegnum þessar aðstæður með því að nota tiltekin dæmi um færslur og gildi þarf að nota kerfi þar sem stöðluð [sýnigögn](../../fin-ops-core/fin-ops/get-started/demo-data.md) eru uppsett. Þú verður einnig að velja lögaðilann **USMF** áður en þú byrjar.
 
 #### <a name="add-a-menu-item-for-receiving-load-items-when-a-mobile-device-is-used"></a>Bættu við valmyndaratriði fyrir móttöku farmvara þegar fartæki er notað
 

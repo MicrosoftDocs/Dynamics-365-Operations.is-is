@@ -1,6 +1,6 @@
 ---
 title: Samþætta eignastýringu með eignum
-description: Þessi grein útskýrir hvernig á að samþætta eignastýringu og fastafjármuni, þannig að þú getir tengt fastafjármuni við viðhaldseignir.
+description: Þessi grein útskýrir hvernig á að samþætta einingar eignastýringar og eigna til að tengja saman eignir og viðhaldseignir.
 author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
 ms.openlocfilehash: d5dfaaf9e4cd989ad6b993e8d152f4713c0d3aa4
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8874218"
@@ -26,7 +26,7 @@ ms.locfileid: "8874218"
 Með því að samþætta einingar **Eignastýringar** og **Eigna**, geturðu tengt eignir við viðhaldseignir. Notendur eigna geta síðan búið til viðhaldseign úr nýrri eða núverandi eign og notendur eignastýringar geta tengt viðhaldseign við núverandi eign. Þessi eiginleiki gerir það einnig auðvelt fyrir notendur eigna að skoða kostnaðinn sem var bókaður úr verkbeiðnum vegna tengdra viðhaldseigna.
 
 > [!NOTE]
-> Í þessari grein, *viðhaldseignir* vísa til eigna úr **Eignastýring** mát, og *fastafjármunir* vísa til eigna úr **Fastafjármunir** mát.
+> Í þessari grein vísa *viðhaldseignir* til eigna úr einingu **Eignastýringar** og *eignir* vísa til eigna úr einingunni **Eignir**.
 
 ## <a name="set-a-default-location-for-new-maintenance-assets-that-are-created-from-fixed-assets-optional"></a>Veldu sjálfgefna staðsetningu að eigin vali fyrir nýjar viðhaldseignir sem eru búnar til úr eignum (valfrjálst)
 

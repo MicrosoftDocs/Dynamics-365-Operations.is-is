@@ -1,6 +1,6 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.21 (október 2021)
-description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir Dynamics 365 Supply Chain Management 10.0.21.
+description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
 ms.date: 10/28/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
 ms.openlocfilehash: 91462cc589be6170418f7f78267feea5e25c037d
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9123779"
@@ -21,7 +21,7 @@ ms.locfileid: "9123779"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir eiginleika sem eru annað hvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfa 10.0.21. Þessi útgáfa er með byggingarnúmer 10.0.960 og er fáanlegt á eftirfarandi hátt:
+Í þessari grein er að finna eiginleika sem eru annaðhvort nýir eða breyttir í Microsoft Dynamics 365 Supply Chain Management útgáfu 10.0.21. Þessi útgáfa er með byggingarnúmer 10.0.960 og er fáanlegt á eftirfarandi hátt:
 
 - **Forskoðun á útgáfu:** ágúst 2021
 - **Almennt framboð útgáfu (sjálfvirk uppfærsla):** September 2021
@@ -69,10 +69,10 @@ Eftirfarandi tafla sýnir eiginleika sem sjálfgefið er kveikt á í 10.0.21. H
 | Afturköllun á flutningspöntun | 1/9/2021 | 13/7/2020 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
 | Aflæsa birgðabók | 1/9/2021 | 17/8/2020 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
 | Vistuð yfirlit fyrir birgðastjórnun | 1/9/2021 | 30/9/2020 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
-| Leiðsögn í uppskriftarútgáfu frá uppskriftarlínum | 1/9/2021 | 11/11/2019 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
-| Notkun mælieininga og einingarmagns í birgðabókum | 1/9/2021 | 11/11/2019 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
+| Fara í uppskriftarútgáfu úr uppskriftarlínum | 1/9/2021 | 11/11/2019 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
+| Notkun mælieiningar og einingarmagns í birgðabókum. | 1/9/2021 | 11/11/2019 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
 | Leyfa auð gildi á runueigindum | 1/9/2021 | 11/11/2019 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
-| Sjálfvirk aukning á línunúmerum birgðaflutningspöntunarlína | 1/9/2021 | 11/10/2019 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
+| Fjölga línunúmerum sjálfkrafa fyrir flutningspöntunarlínur birgða | 1/9/2021 | 11/10/2019 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
 | Samþykktarverkflæði birgðabókar | 1/9/2021 | 6/1/2020 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
 | Virkja viðvörunareiginleika fyrir færibreytur gæðastjórnunar birgða | 1/9/2021 | 7/10/2019 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
 | Búa til flutningspöntun úr sölulínu | 1/9/2021 | 31/8/2019 | Sjálfgefið kveikt | Birgða- og vöruhúsakerfi |
@@ -92,7 +92,7 @@ Eftirfarandi tafla sýnir eiginleika sem sjálfgefið er kveikt á í 10.0.21. H
 | Vistuð yfirlit fyrir útgefnar afurðir | 1/9/2021 | 30/9/2020 | Sjálfgefið kveikt | Vöruupplýsingastjórnun |
 | Endurbætur á svargluggum fyrir að samþykkt og flutning vinnsla | 1/9/2021 | 11/10/2019 | Sjálfgefið kveikt | Framleiðslustýring |
 | Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið | 1/9/2021 | 31/8/2019 | Sjálfgefið kveikt | Framleiðslustýring |
-| Nýr hnappur fyrir Stöðva hlé hefur verið bætt við síðu Starfskortastöðvar | 1/9/2021 | 19/2/2020 | Sjálfgefið kveikt | Framleiðslustýring |
+| Nýjum hnappi sem stöðvar vinnuhlé hefur verið bætt við verkspjaldssíðu afgreiðslustöðvar | 1/9/2021 | 19/2/2020 | Sjálfgefið kveikt | Framleiðslustýring |
 | Virkjaðu hlutamóttöku á vörum undirverktaka og lagfærðu vandamál varðandi útreikning á rýrnun fyrir uppskriftarlínur af lánardrottnagerðinni. | 1/9/2021 | 11/11/2019 | Sjálfgefið kveikt | Framleiðslustýring |
 | Vistuð yfirlit fyrir framleiðslustýringu | 1/9/2021 | 17/8/2020 | Sjálfgefið kveikt | Framleiðslustýring |
 | Dynamics 365 Guides fyrir Framleiðslu | 1/9/2021 | 13/7/2020 | Sjálfgefið kveikt | Framleiðslustýring |
@@ -119,7 +119,7 @@ Eftirfarandi tafla sýnir eiginleika sem sjálfgefið er kveikt á í 10.0.21. H
 
 ## <a name="new-and-updated-documentation-resources"></a>Tilföng fyrir ný og uppfærð skjöl
 
-Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargreinar. Þær eru ekki endilega tengdar við nýja eiginleika sem bætt er við fyrir þessa útgáfu, eins og kemur fram í fyrri hluta, en þær geta hjálpað notendum að fá meira út úr fyrirliggjandi eiginleikum.
+Nýlega hefur eftirfarandi hjálpargreinum verið bætt við eða þau uppfærð. Þær eru ekki endilega tengdar við nýja eiginleika sem bætt er við fyrir þessa útgáfu, eins og kemur fram í fyrri hluta, en þær geta hjálpað notendum að fá meira út úr fyrirliggjandi eiginleikum.
 
 | Eiginleikasvæði | Nýjar eða uppfærðar greinar |
 |---|---|
@@ -137,9 +137,9 @@ Við höfum nýlega bætt við eða uppfært umtalsvert eftirfarandi hjálpargre
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Palluppfærslur fyrir fjármála- og rekstraröpp
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir fjármála- og rekstrarforrit.
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.21 inniheldur verkvangsuppfærslur. Til að læra meira, sjá [Uppfærslur á vettvangi fyrir útgáfu 10.0.21 af fjármála- og rekstrarforritum (október 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.21 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.21 á forritum fjármála- og reksturs (október 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 
@@ -153,12 +153,12 @@ Kíktu á [Dynamics 365 og rekstrarský: 2021 útgáfubylgja 2 áætlun](/dynami
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Fjarlægðir og úreltir eiginleikar Supply Chain Management
 
-The [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein lýsir eiginleikum sem hafa verið eða áætlað er að verði fjarlægðir eða úreltir fyrir Supply Chain Management.
+Greinin [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) lýsir eiginleikum sem hafa verið eða á að fjarlægja eða úrelda fyrir Supply Chain Management.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
 
-Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um úreldingu tilkynnt í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) grein 12 mánuðum fyrir brottnám.
+Áður en einhver eiginleiki er fjarlægður úr vörunni verður tilkynning um afskriftir tilkynnt í greininni [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mánuðum fyrir fjarlægingu.
 
 Til að brjóta breytingar sem hafa aðeins áhrif á samantektartíma, en eru tvöfaldar samhæfðir við sandkassa og framleiðsluumhverfi, verður afskriftartíminn innan við 12 mánuði. Venjulega eru þetta hagnýtar uppfærslur sem þarf að gera við þýðandann.
 

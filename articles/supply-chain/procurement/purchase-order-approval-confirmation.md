@@ -1,6 +1,6 @@
 ---
 title: Samþykkt og staðfesting innkaupapanta
-description: Þessi grein lýsir stöðunum sem innkaupapöntun fer í gegnum eftir að hún hefur verið stofnuð og áhrifum þess að virkja breytingastjórnun á innkaupapöntunum.
+description: Þessi grein lýsir stöðum sem innkaupapöntunina (PO) fer í gegnum þegar hún hefur verið stofnuð og áhrif þess virkja breytingastjórnun á innkaupapöntunum.
 author: GalynaFedorova
 ms.date: 04/02/2020
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: af33dbd38b1eb70e79392860e48c6943a4192f78
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016450"
@@ -50,7 +50,7 @@ Innkaupapantanir sem ekki nota breytingastjórnun hafa stöðuna **Samþykkt** u
 ## <a name="confirming-purchase-orders"></a>Staðfesta innkaupapantanir
 Innkaupapantanir með stöðu samþykkis **Samþykkt** geta fara gegnum viðbótarskref áður en þær eru staðfestar. Til dæmis gæti þurft að senda fyrirspurn um innkaup til lánardrottins til að spyrjast fyrir um verð, afslættir eða afhendingardagsetningar. Í þessu tilfelli er hægt að stilla Innkaupapöntun á **í ytri yfirferð** stöðu með því að nota í **Innkaupafyrirspurn** aðgerð.
 
-Seljendur sem eru settir upp til að nota samstarfseininguna lánardrottna geta skoðað pantanir á gáttinni og samþykkt eða hafnað þeim. Á meðan þetta endurskoðunarferli fer fram hefur Innkaupapöntunin stöðuna **í ytri yfirferð**. Samstarfseining lánardrottins er hægt að stilla þannig að staðfesting frá lánardrottni staðfesti pöntunina sjálfkrafa í Supply Chain Management. Einnig er hægt handvirkt að staðfesta Innkaupapöntun eftir að staðfesting berst frá lánardrottni. Ef lánardrottinn hafnar Innkaupapöntun, er höfnunin móttekin ásamt ástæðan fyrir höfnun og tillögur fyrir breytingum. Í þessu tilfelli, helst stöðu Innkaupapöntunin **í ytri yfirferð**.
+Lánardrottna sem eru sett upp til að geta nota samstarfsgátt lánardrottna getur að endurskoða pantanir í gátt og samþykkja eða hafna þeim. Á meðan þetta endurskoðunarferli fer fram hefur Innkaupapöntunin stöðuna **í ytri yfirferð**. Hægt er að skilgreina einingu lánardrottnasamstarfs þannig að staðfestingin frá lánardrottni staðfestir sjálfkrafa pöntunina í Supply Chain Management. Einnig er hægt handvirkt að staðfesta Innkaupapöntun eftir að staðfesting berst frá lánardrottni. Ef lánardrottinn hafnar Innkaupapöntun, er höfnunin móttekin ásamt ástæðan fyrir höfnun og tillögur fyrir breytingum. Í þessu tilfelli, helst stöðu Innkaupapöntunin **í ytri yfirferð**.
 
 Einnig er kostur að mynda bráðabirgða staðfesting fyrir pöntun áður en raunveruleg staðfesting hefur verið unnin. Þessi valkostur stofnar einfaldlega skýrslu sem er hægt að deila með lánardrottins. Hann stofnar ekki neinar færslubókarupplýsingar.
 

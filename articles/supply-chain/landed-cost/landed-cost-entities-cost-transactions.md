@@ -1,6 +1,6 @@
 ---
 title: Kostnaðarfærslueiningar
-description: Þessi grein veitir upplýsingar um kostnaðarfærslueiningar, sem gera kleift að skipta verðmæti kostnaðar á innihald kostnaðarsvæðis með vali á úthlutunaraðferð.
+description: Í þessari grein er að finna upplýsingar um kostnaðarfærslur, sem gera kleift að skipta virði kostnaðar á milli innihalds kostnaðarsvæðis með vali á skiptingaraðferð.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
 ms.openlocfilehash: 0084d47bf85050749b2668d273db07670aaeae2a
 ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/15/2022
 ms.locfileid: "9166804"
@@ -24,171 +24,171 @@ ms.locfileid: "9166804"
 
 ## <a name="apportionment"></a>Skipting
 
-Landaður kostnaður gerir kleift að skipta verðmæti kostnaðar á innihald kostnaðarsvæðis (sigling, flutningsgámur og svo framvegis) með því að velja úthlutunaraðferð. Úthlutunaraðferðin er stillt sem hluti af uppsetningu sjálfvirks kostnaðar sem byggir á viðskiptareglum. Það er dreginn í gegn sem hluti af kostnaði þegar ferðalína er búin til.
+Heildarkostnaður gerir kleift að skipta verðmæti kostnaðar á milli innihalds kostnaðarsvæðis (ferð, sendingargeymsla og svo framvegis) með því að velja úthlutunaraðferð. Skiptingaraðferðin er sett upp sem hluti af uppsetningu sjálfvirks kostnaðar sem byggir á viðskiptareglum. Það er dregið í gegn sem hluti af kostnaði þegar ferðalína er búin til.
 
-### <a name="configure-the-apportionment-mapping-for-use-with-data-entities"></a>Stilltu úthlutunarvörpunina til notkunar með gagnaeiningum
+### <a name="configure-the-apportionment-mapping-for-use-with-data-entities"></a>Stilla skiptingaraðferð til notkunar með gagnaeiningum
 
-Þegar kostnaður er búinn til úr utanaðkomandi uppsprettu eins og flutningsmiðlara, getur þessi ytri uppspretta ekki tilgreint ákjósanlega aðferð til að skipta kostnaðarverðmæti. Úthlutunarvörpunin skilgreinir sjálfgefna skiptingaraðferð fyrir hvern kostnaðartegundarkóða. Hægt er að nálgast úthlutunarkortatöfluna frá **Úthlutunarkortlagning** síðu í Microsoft Dynamics 365 Supply Chain Management (**Landaður kostnaður \> Kostnaðaruppsetning \> Úthlutunarkortlagning**).
+Þegar kostnaður er búinn til frá utanaðkomandi uppruna, svo sem flutningamiðlara, getur sá ekki tilgreint hvaða aðferð er valin til að skipta kostnaðarverðinu. Skiptingaraðferðin skilgreinir sjálfgefna skiptingaraðferðaðferð fyrir hverja kostnaðargerðarkóða. Tafla skiptingaraðferðar er aðgengileg á síðunni **Skiptingaraðferð** í Microsoft Dynamics 365 Supply Chain Management (**Heildarkostnaður \> Kostnaðaruppsetning \> Skiptingaraðferð**).
 
-Ef vörpunarsamsetning hefur verið skilgreind og kostnaður sem passar við kostnaðartegundarkóðann er búinn til með því að nota kostnaðarfærslueiningu, verður kortlagða úthlutunaraðferðin notuð í stað hvers konar gildis sem hefur verið veitt einingunni.
+Ef skiptingarsamsetning hefur verið skilgreind og kostnaður sem samsvarar kostnaðartegund er búinn til með því að nota kostnaðarfærslueiningu verður vörpuð skiptingaraðferð notuð í stað hvers gildis sem hefur verið veitt í einingunni.
 
-Ef ekkert gildi er til staðar í vörpunartöflunni, en gildi hefur verið veitt einingunni, verður uppgefið gildi notað.
+Ef ekkert gildi er til staðar í vörpunartöflunni, en verðmæti hefur verið gefið upp til einingar, verður uppgefið gildi notað.
 
-Ef ekkert gildi er til í hvorki vörpunartöflunni né færslunni sem hefur verið send til einingarinnar mun sköpun mistakast.
+Ef ekkert gildi er til í vörpunartöflunni eða færslunni sem hefur verið send til einingar er ekki hægt að búa þetta til.
 
-### <a name="apportionment-mapping-itmapportionmentmapping"></a>Úthlutunarkortlagning (ITMApportionmentMapping)
+### <a name="apportionment-mapping-itmapportionmentmapping"></a>Skiptingaraðferð (ITMApportionmentMapping)
 
-Úthlutunarkortunareiningin (`ITMApportionmentMapping`) býr til tengslakortunarsambönd og gerir notendum kleift að búa til eða uppfæra færslur.
+Skiptingaraðferðeiningin (`ITMApportionmentMapping`) býr til tenda skiptingaraðferð og gerir notendum kleift að búa til eða uppfæra færslur.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
 | Skiptingaraðferð | ITMApportionmentMapping.ApportionmentMethod | Int | Nr. | Nr. |
-| Kostnaðargerðarkóði | ITMApportionmentMapping.ShipCostTypeId | Nvarchar (20) | **Já** | Nr. |
+| Kostnaðargerðarkóði | ITMApportionmentMapping.ShipCostTypeId | Nvarchar(20) | **Já** | Nr. |
 
-## <a name="voyage-costs-itmcosttransvoyageentity"></a>Ferðakostnaður (ITMCostTransVoyageEntity)
+## <a name="voyage-costs-itmcosttransvoyageentity"></a>Kostnaður ferðar (ITMCostTransVoyageEntity)
 
-Ferðakostnaður eining (`ITMCostTransVoyageEntity`) býr til ferðakostnaðarfærslur sem eru notaðar á ferðastigi. Í innflutningsferlinu notar kerfið **Flokkur** og **Úthlutunaraðferð** gildi sem eru innifalin í einingunni til að ákvarða hvernig verðmæti kostnaðar er skipt yfir innihald ferðarinnar.
+Ferðakostnaðareiningin (`ITMCostTransVoyageEntity`) býr til ferðakostnaðarfærslur sem eru notaðar á ferðastigi. Meðan á innflutningsferlinu stendur notar kerfið **Flokkur** og **Skiptingaraðferð** gildin sem eru innifalin í einingunni til að ákvarða hvernig verðmæti kostnaðarins skiptist á milli innihalds ferðarinnar.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
 | Skiptingaraðferð | ITMCostTrans.ApportionmentMethod | Int | Nr. | Nr. |
-| Kostnaðarvirði | ITMCostTrans.CostValue | Númeric(32, 6) | Nr. | Nr. |
+| Kostnaðarvirði | ITMCostTrans.CostValue | Tölustafir(32; 6) | Nr. | Nr. |
 | Gjaldmiðill | ITMCostTrans.CurrencyCode | Nvarchar(3) | Nr. | **Já** |
-| Línunúmer | ITMCostTrans.LineNum | Númeric(32, 16) | **Já** | Nr. |
-| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar (20) | Nr. | Nr. |
-| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Númeric(32, 6) | Nr. | Nr. |
+| Línunúmer | ITMCostTrans.LineNum | Tölustafir(32; 16) | **Já** | Nr. |
+| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar(20) | Nr. | Nr. |
+| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Tölustafir(32; 6) | Nr. | Nr. |
 | Flokkur | ITMCostTrans.ShipCostCategory | Int | Nr. | Nr. |
-| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar (20) | Nr. | Nr. |
+| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar(20) | Nr. | Nr. |
 | Fyrirtæki | ITMCostTrans.ShipDataArea | Nvarchar(4) | Nr. | **Já** |
-| Ferð | ITMCostTrans.TransRecId | Nvarchar (20) | **Já** | Nr. |
+| Ferð | ITMCostTrans.TransRecId | Nvarchar(20) | **Já** | Nr. |
 | VSK-flokkur vöru | ITMCostTrans.TaxItemGroup | Nvarchar(10) | Nr. | Nr. |
 
-## <a name="shipping-container-costs-itmcosttransshippingcontainerentity"></a>Sendingargámakostnaður (ITMCostTransShippingContainerEntity)
+## <a name="shipping-container-costs-itmcosttransshippingcontainerentity"></a>Kostnaðarfærslur gáms (ITMCostTransShippingContainerEntity)
 
-Sendingargámakostnaður eining (`ITMCostTransShippingContainerEntity`) býr til flutningsgámakostnað sem er notaður á flutningsgámastigi. Í innflutningsferlinu notar kerfið **Flokkur** og **Úthlutunaraðferð** gildi sem eru innifalin í einingunni til að ákvarða hvernig verðmæti kostnaðar er skipt yfir innihald flutningsgámsins.
+Kostnaðareining sendingargáms (`ITMCostTransShippingContainerEntity`) býr til sendingargámskostnað sem leggst á sendingargámastigi. Meðan á innflutningsferlinu stendur notar kerfið **Flokkur** og **Skiptingaraðferð** gildin sem eru innifalin í einingunni til að ákvarða hvernig verðmæti kostnaðarins skiptist á milli gámsins.
 
-The **Samanlagt**, **·**, og **Tengdur fótur** reitir eru sérstakir fyrir færslur þar sem **Kostnaðarsvæði** gildi er *Sendingargámur*. Þess vegna eru þau ekki til staðar í gagnaeiningum fyrir önnur kostnaðarsvæði.
+Reitirnir **Samanlagt**, **Leggur** og **Tengdur leggur** eiga sérstaklega við um færslur þar sem gildið **Kostnaðarsvæði** er *Flutningsgámur*. Því eru þau ekki til staðar í gagnaeiningum fyrir önnur kostnaðarsvæði.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
 | Samanlagt | ITMCostTrans.AggregatedCost | Int | Nr. | Nr. |
 | Skiptingaraðferð | ITMCostTrans.ApportionmentMethod | Int | Nr. | Nr. |
-| Kostnaðarvirði | ITMCostTrans.CostValue | Númeric(32, 6) | Nr. | Nr. |
+| Kostnaðarvirði | ITMCostTrans.CostValue | Tölustafir(32; 6) | Nr. | Nr. |
 | Gjaldmiðill | ITMCostTrans.CurrencyCode | Nvarchar(3) | Nr. | **Já** |
-| Línunúmer | ITMCostTrans.LineNum | Númeric(32, 16) | **Já** | Nr. |
-| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar (20) | Nr. | Nr. |
-| Tengdur leggur | ITMCostTrans.LinkLegId | Nvarchar (20) | Nr. | Nr. |
-| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Númeric(32, 6) | Nr. | Nr. |
-| Sendingargámur | ITMCostTrans.TransRecId | Nvarchar (20) | **Já** | Nr. |
+| Línunúmer | ITMCostTrans.LineNum | Tölustafir(32; 16) | **Já** | Nr. |
+| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar(20) | Nr. | Nr. |
+| Tengdur leggur | ITMCostTrans.LinkLegId | Nvarchar(20) | Nr. | Nr. |
+| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Tölustafir(32; 6) | Nr. | Nr. |
+| Gámur | ITMCostTrans.TransRecId | Nvarchar(20) | **Já** | Nr. |
 | Flokkur | ITMCostTrans.ShipCostCategory | Int | Nr. | Nr. |
-| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar (20) | Nr. | Nr. |
+| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar(20) | Nr. | Nr. |
 | Fyrirtæki | ITMCostTrans.ShipDataArea | Nvarchar(4) | Nr. | **Já** |
-| Ferð | ITMCostTrans.TransRecId | Nvarchar (20) | **Já** | Nr. |
-| Leggur | ITMCostTrans.ShipLegId | Nvarchar (20) | Nr. | Nr. |
+| Ferð | ITMCostTrans.TransRecId | Nvarchar(20) | **Já** | Nr. |
+| Leggur | ITMCostTrans.ShipLegId | Nvarchar(20) | Nr. | Nr. |
 | VSK-flokkur vöru | ITMCostTrans.TaxItemGroup | Nvarchar(10) | Nr. | Nr. |
 
-## <a name="folio-costs-itmcosttransfolioentity"></a>Folio kostnaður (ITMCostTransFolioEntity)
+## <a name="folio-costs-itmcosttransfolioentity"></a>Kostnaður fólíó (ITMCostTransFolioEntity)
 
-Folio kostnaðareiningin (`ITMCostTransFolioEntity`) býr til kostnaðarfærslur sem eiga við folio-stigið. Í innflutningsferlinu notar kerfið **Flokkur** og **Úthlutunaraðferð** gildi sem eru innifalin í einingunni til að ákvarða hvernig verðmæti kostnaðar er skipt yfir innihald hverrar blaðsíðu.
+Eining fyrir kostnað fólíó (`ITMCostTransFolioEntity`) býr til kostnaðarfærsluskrár sem eiga við um fólíóstigið. Meðan á innflutningsferlinu stendur notar kerfið **Flokkur** og **Skiptingaraðferð** gildin sem eru innifalin í einingunni til að ákvarða hvernig verðmæti kostnaðarins skiptist á milli hvers fólíó.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
 | Skiptingaraðferð | ITMCostTrans.ApportionmentMethod | Int | Nr. | Nr. |
-| Kostnaðarvirði | ITMCostTrans.CostValue | Númeric(32, 6) | Nr. | Nr. |
+| Kostnaðarvirði | ITMCostTrans.CostValue | Tölustafir(32; 6) | Nr. | Nr. |
 | Gjaldmiðill | ITMCostTrans.CurrencyCode | Nvarchar(3) | Nr. | **Já** |
-| Línunúmer | ITMCostTrans.LineNum | Númeric(32, 16) | **Já** | Nr. |
-| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar (20) | Nr. | Nr. |
-| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Númeric(32, 6) | Nr. | Nr. |
+| Línunúmer | ITMCostTrans.LineNum | Tölustafir(32; 16) | **Já** | Nr. |
+| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar(20) | Nr. | Nr. |
+| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Tölustafir(32; 6) | Nr. | Nr. |
 | Flokkur | ITMCostTrans.ShipCostCategory | Int | Nr. | Nr. |
-| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar (20) | Nr. | Nr. |
+| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar(20) | Nr. | Nr. |
 | Fyrirtæki | ITMCostTrans.ShipDataArea | Nvarchar(4) | Nr. | **Já** |
-| Fólíó | ITMCostTrans.TransRecId | Nvarchar (20) | **Já** | Nr. |
+| Fólíó | ITMCostTrans.TransRecId | Nvarchar(20) | **Já** | Nr. |
 | VSK-flokkur vöru | ITMCostTrans.TaxItemGroup | Nvarchar(10) | Nr. | Nr. |
 
-## <a name="purchase-order-costs-itmcosttranspurchaseentity"></a>Innkaupapöntunarkostnaður (ITMCostTransPurchaseEntity)
+## <a name="purchase-order-costs-itmcosttranspurchaseentity"></a>Kostnaður innkaupapöntunar (ITMCostTransPurchaseEntity)
 
-Kostnaðareining innkaupapöntunar (`ITMCostTransPurchaseEntity`) býr til kostnaðarfærslur sem eiga við haus innkaupapöntunar. Í innflutningsferlinu notar kerfið **Flokkur** og **Úthlutunaraðferð** gildi sem eru innifalin í einingunni til að ákvarða hvernig verðmæti kostnaðar er skipt yfir innihald hverrar blaðsíðu.
+Eining kostnaðar einnkaupapöntunar (`ITMCostTransPurchaseEntity`) býr til kostnaðarfærslur sem eiga við um haus innkaupapöntunar. Meðan á innflutningsferlinu stendur notar kerfið **Flokkur** og **Skiptingaraðferð** gildin sem eru innifalin í einingunni til að ákvarða hvernig verðmæti kostnaðarins skiptist á milli hvers fólíó.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
 | Skiptingaraðferð | ITMCostTrans.ApportionmentMethod | Int | Nr. | Nr. |
-| Kostnaðarvirði | ITMCostTrans.CostValue | Númeric(32, 6) | Nr. | Nr. |
+| Kostnaðarvirði | ITMCostTrans.CostValue | Tölustafir(32; 6) | Nr. | Nr. |
 | Gjaldmiðill | ITMCostTrans.CurrencyCode | Nvarchar(3) | Nr. | **Já** |
-| Línunúmer | ITMCostTrans.LineNum | Númeric(32, 16) | **Já** | Nr. |
-| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar (20) | Nr. | Nr. |
-| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Númeric(32, 6) | Nr. | Nr. |
-| Innkaupapöntun | ITMCostTrans.TransRecId | Nvarchar (20) | **Já** | Nr. |
+| Línunúmer | ITMCostTrans.LineNum | Tölustafir(32; 16) | **Já** | Nr. |
+| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar(20) | Nr. | Nr. |
+| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Tölustafir(32; 6) | Nr. | Nr. |
+| Innkaupapöntun | ITMCostTrans.TransRecId | Nvarchar(20) | **Já** | Nr. |
 | Flokkur | ITMCostTrans.ShipCostCategory | Int | Nr. | Nr. |
-| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar (20) | Nr. | Nr. |
+| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar(20) | Nr. | Nr. |
 | Fyrirtæki | ITMCostTrans.ShipDataArea | Nvarchar(4) | Nr. | **Já** |
 | VSK-flokkur vöru | ITMCostTrans.TaxItemGroup | Nvarchar(10) | Nr. | Nr. |
 
 ## <a name="item-costs-itmcosttransitementity"></a>Vörukostnaður (ITMCostTransItemEntity)
 
-Kostnaðareiningin (`ITMCostTransItemEntity`) stofnar kostnaðarfærslur sem eiga við vörustigið. Þessi eining er sértæk fyrir vörur á innkaupapöntunarlínum. Verðmæti kostnaðar er lagt að fullu á línuna.
+Kostnaðareining vöru (`ITMCostTransItemEntity`) býr til kostnaðarfærslur sem eiga við um vörustig. Þessi eining á við um vörur á innkaupapöntunarlínum. Virði kostnaðarins leggst að fullu á línuna.
 
-The **Leiðréttingarupphæð** og **Verðmætisaðlögun** reitir eru sérstakir fyrir kostnaðarsvæðin á línustigi. Þess vegna eru þau ekki til staðar í gagnaeiningum fyrir önnur kostnaðarsvæði.
+**Leiðréttingarupphæð** og **Leiðrétting virðis** eru sérgreindir fyrir kostnaðarsvæði á línustigi. Því eru þau ekki til staðar í gagnaeiningum fyrir önnur kostnaðarsvæði.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
-| Leiðréttingarupphæð | ITMCostTrans.AdjustmentAmount | Númeric(32, 6) | Nr. | Nr. |
-| Kostnaðarvirði | ITMCostTrans.CostValue | Númeric(32, 6) | Nr. | Nr. |
+| Leiðréttingarupphæð | ITMCostTrans.AdjustmentAmount | Tölustafir(32; 6) | Nr. | Nr. |
+| Kostnaðarvirði | ITMCostTrans.CostValue | Tölustafir(32; 6) | Nr. | Nr. |
 | Gjaldmiðill | ITMCostTrans.CurrencyCode | Nvarchar(3) | Nr. | **Já** |
-| Línunúmer | ITMCostTrans.LineNum | Númeric(32, 16) | **Já** | Nr. |
-| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar (20) | Nr. | Nr. |
-| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Númeric(32, 6) | Nr. | Nr. |
-| Innkaupapöntun | ITMCostTrans.TransRecId | Nvarchar (20) | **Já** | Nr. |
-| Númer innkaupapöntunarlínu | ITMCostTrans.TransRecId | Nvarchar (20) | **Já** | Nr. |
+| Línunúmer | ITMCostTrans.LineNum | Tölustafir(32; 16) | **Já** | Nr. |
+| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar(20) | Nr. | Nr. |
+| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Tölustafir(32; 6) | Nr. | Nr. |
+| Innkaupapöntun | ITMCostTrans.TransRecId | Nvarchar(20) | **Já** | Nr. |
+| Númer innkaupapöntunarlínu | ITMCostTrans.TransRecId | Nvarchar(20) | **Já** | Nr. |
 | Flokkur | ITMCostTrans.ShipCostCategory | Int | Nr. | Nr. |
-| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar (20) | Nr. | Nr. |
+| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar(20) | Nr. | Nr. |
 | Fyrirtæki | ITMCostTrans.ShipDataArea | Nvarchar(4) | Nr. | **Já** |
 | VSK-flokkur vöru | ITMCostTrans.TaxItemGroup | Nvarchar(10) | Nr. | Nr. |
 | Leiðrétting virðis | ITMCostTrans.ValueAdjustmentMethod | Int | Nr. | Nr. |
 
-## <a name="transfer-line-costs-itmcosttranstransferlineentity"></a>Flutningslínukostnaður (ITMCostTransTransferLineEntity)
+## <a name="transfer-line-costs-itmcosttranstransferlineentity"></a>Kostnaðarfærslur flutningslínu (ITMCostTransTransferLineEntity)
 
-Flutningslínukostnaðareiningin (`ITMCostTransTransferLineEntity`) býr til kostnaðarfærslur sem eiga við línustig millifærslupöntunar. Verðmæti þessa kostnaðar er sett að fullu á millifærslupöntunarlínuna.
+Eining flutningskostnaðarlínu (`ITMCostTransTransferLineEntity`) býr til kostnaðarfærslur sem gilda um flutningspöntunarlínustigið. Virði þessa kostnaðar leggst að fullu á flutningspöntunarlínuna.
 
-The **Leiðréttingarupphæð** og **Verðmætisaðlögun** reitir eru sérstakir fyrir kostnaðarsvæðin á línustigi. Þess vegna eru þau ekki til staðar í gagnaeiningum fyrir önnur kostnaðarsvæði.
+**Leiðréttingarupphæð** og **Leiðrétting virðis** eru sérgreindir fyrir kostnaðarsvæði á línustigi. Því eru þau ekki til staðar í gagnaeiningum fyrir önnur kostnaðarsvæði.
 
 | Nafn | Vörpun | Gagnagerð | Lykill | Skylda |
 |---|---|---|---|---|
-| Leiðréttingarupphæð | ITMCostTrans.AdjustmentAmount | Númeric(32, 6) | Nr. | Nr. |
-| Kostnaðarvirði | ITMCostTrans.CostValue | Númeric(32, 6) | Nr. | Nr. |
+| Leiðréttingarupphæð | ITMCostTrans.AdjustmentAmount | Tölustafir(32; 6) | Nr. | Nr. |
+| Kostnaðarvirði | ITMCostTrans.CostValue | Tölustafir(32; 6) | Nr. | Nr. |
 | Gjaldmiðill | ITMCostTrans.CurrencyCode | Nvarchar(3) | Nr. | **Já** |
-| Línunúmer | ITMCostTrans.LineNum | Númeric(32, 16) | **Já** | Nr. |
-| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar (20) | Nr. | Nr. |
-| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Númeric(32, 6) | Nr. | Nr. |
+| Línunúmer | ITMCostTrans.LineNum | Tölustafir(32; 16) | **Já** | Nr. |
+| Tengd kostnaðargerð | ITMCostTrans.LinkCostTypeId | Nvarchar(20) | Nr. | Nr. |
+| Lágmarkskostnaður | ITMCostTrans.MinCostAmount | Tölustafir(32; 6) | Nr. | Nr. |
 | Flokkur | ITMCostTrans.ShipCostCategory | Int | Nr. | Nr. |
-| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar (20) | Nr. | Nr. |
+| Kostnaðargerðarkóði | ITMCostTrans.ShipCostTypeId | Nvarchar(20) | Nr. | Nr. |
 | Fyrirtæki | ITMCostTrans.ShipDataArea | Nvarchar(4) | Nr. | **Já** |
-| Flutningspöntun | ITMCostTrans.TransRecId | Nvarchar (20) | **Já** | Nr. |
-| Flytja pöntunarlínunúmer | ITMCostTrans.TransRecId | Nvarchar (20) | **Já** | Nr. |
+| Flutningspöntun | ITMCostTrans.TransRecId | Nvarchar(20) | **Já** | Nr. |
+| Númer flutningspöntunarlínu | ITMCostTrans.TransRecId | Nvarchar(20) | **Já** | Nr. |
 | VSK-flokkur vöru | ITMCostTrans.TaxItemGroup | Nvarchar(10) | Nr. | Nr. |
 | Leiðrétting virðis | ITMCostTrans.ValueAdjustmentMethod | Int | Nr. | Nr. |
 
 ### <a name="transaction-table"></a>Færslutafla
 
-Kostnaðarfærsluskrá er tengd við kostnaðarsvæði með úthlutun á færslutöflunúmeri (`TransTableId`). Þegar krafist er sérstakra töfluauðkennisnúmera er einingunum skipt út frá þessum gildum, þannig að eining er til fyrir hvert kostnaðarsvæði.
+Kostnaðarfærsluskrá er tengd við kostnaðarsvæði með úthlutun á færslutöflunúmeri (`TransTableId`). Þegar krafist er sérstakra auðkennisnúmera fyrir töflu er einingu skipt á grundvelli þessara gilda, þannig að til sé eining fyrir hvert kostnaðarsvæði.
 
-Gildi fyrir færslutöfluna (`TransTableId`) er óbeint í vali á kostnaðarfærslueiningunni.
+Gildið fyrir færslutöfluna (`TransTableId`) er undirliggjandi í vali á einingu kostnaðarfærslu.
 
 ### <a name="calculated-fields"></a>Reiknuð svæði
 
-Eftirfarandi reitir eru ekki tiltækir til innsetningar eða uppfærslu þegar kostnaðarfærslueining er notuð, vegna þess að þessir reitir eru aðeins stilltir þegar tilteknar aðgerðir eru gerðar gegn ferðaskránni:
+Eftirfarandi reitir eru ekki tiltækir fyrir innsetningu eða uppfærslu þegar kostnaðarliðir eru notaðir, vegna þess að þessir reitir eru aðeins stilltir þegar gripið er til sérstakra aðgerða gegn ferðafærslunni:
 
-- **Áætlaður kostnaður** – Þessi reitur er stilltur þegar reikningur er bókaður fyrir ferðina (innkaupapöntun) eða millifærsla er móttekin.
-- **Áætlaður kostnaðargjaldmiðill** – Þessi reitur er stilltur þegar reikningur er bókaður fyrir ferðina (innkaupapöntun) eða millifærsla er móttekin.
-- **Raunverulegur kostnaður** – Þessi reitur er stilltur þegar reikningur lánardrottins er bókaður. Það tengist kostnaðinum.
+- **Áætlaður kostnaður** – Þessi reitur er stilltur þegar reikningur er birtur fyrir ferðina (innkaupapöntun) eða millifærsla er móttekin.
+- **Gjaldmiðill áætlaðs kostnaðar** – Þessi reitur er stilltur þegar reikningur er birtur fyrir ferðina (innkaupapöntun) eða flutningur er móttekinn.
+- **Raunkostnaður** – Þessi reitur er stilltur þegar sölureikningur er bókaður. Þetta tengist kostnaðinum.
 
 ### <a name="find-auto-costs"></a>Leita að sjálfvirkum kostnaði
 
-A **Finndu bílakostnað** hnappur sem er tiltækur fyrir hvert kostnaðarsvæði (sigling, sendingargámur og svo framvegis) veitir leið til að uppfæra kostnaðarfærslur fyrir það kostnaðarsvæði út frá upplýsingum í stillingatöflunum. Þegar þú velur hnappinn fyrir kostnaðarsvæði, hreinsar kerfið núverandi kostnað fyrir það kostnaðarsvæði og býr til nýjar færslur, byggðar á núverandi uppsetningu sjálfvirkrar kostnaðaruppsetningartöflur.
+**Leita að sjálfvirkum kostnaði** hnappurinn er tiltækur fyrir hvert kostnaðarsvæði (ferð, sendingargeymir og svo framvegis) til að uppfæra kostnaðarfærslur fyrir það kostnaðarsvæði frá upplýsingunum í stillitöflunum. Þegar þú velur hnappinn fyrir kostnaðarsvæði hreinsar kerfið núverandi kostnað fyrir það kostnaðarsvæði og býr til nýjar skrár, byggt á núverandi uppsetningu á sjálfvirkum kostnaðarborðum.
 
-Kostnaðarfærslur sem eru búnar til með því að nota gagnaeiningu eru merktar sem innfluttar. Þessum skrám er ekki eytt þegar þú velur **Finndu bílakostnað**, vegna þess að þau verða ekki endurgerð úr sjálfvirku kostnaðaruppsetningartöflunum. Hins vegar er enn hægt að eyða kostnaðarfærsluskrá sem er merkt innflutt.
+Færsluskrár vegna kostnaðar sem stofnað er til með því að nota gagnaeiningu eru flaggaðar sem fluttar inn. Þessum skrám er ekki eytt þegar þú velur **Finna sjálfvirkan kostnað** vegna þess að þær verða ekki endurskapaðar úr uppsetningartöflum fyrir sjálfvirkan kostnað. Hins vegar er enn hægt að eyða kostnaðarfærsluskrá sem er flaggað sem innflutt.
 
 ### <a name="linked-fields"></a>Tengdir reitir
 
-Hægt er að tengja hverja kostnaðarfærslu við aðra færslu á sama kostnaðarsvæði. Þetta félag er stofnað í gegnum **Tengd kostnaðartegund** sviði. Það gerir kleift að reikna kostnaðargildi sem hlutfall af öðrum kostnaði.
+Hægt er að tengja hverja kostnaðarfærslu við aðra færslu á sama kostnaðarsvæði. Þessi tengsl eru stofnuð í gegnum reitinn **Tengd kostnaðargerð**. Þetta gerir kleift að reikna út kostnaðarvirði sem prósentu af öðrum kostnaði.
 
-The **Tengd kostnaðartegund** Aðeins er hægt að staðfesta reitinn ef færsluna sem vísað er til er unnin fyrst eða ef hún er þegar til í töflunni. Sama krafa á við um **Tengdur fótur** reit sem er eingöngu notaður fyrir kostnað á kostnaðarsvæði sendingargáma.
+Reitinn **Tengd kostnaðargerð** er aðeins hægt að staðfesta ef fyrst er unnið úr færslunni sem vísað er í, eða ef hún er þegar til í töflunni. Sama krafa á við um **Tengda legginn** sem er eingöngu notaður fyrir kostnaðarsvæði sendingargeymis.

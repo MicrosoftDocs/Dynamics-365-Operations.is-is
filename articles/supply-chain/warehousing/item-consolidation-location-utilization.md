@@ -1,6 +1,6 @@
 ---
 title: Vörusameining - nýting á staðsetningu
-description: Þessi grein veitir upplýsingar um virkni sem auðveldar vöruhúsastjórnendum að skoða og sía rúmmálsnýtingu staðsetningar yfir vöruhúsið. Stjórnendur geta valið staðsetningar og búið til birgðahreyfingarvinnu beint úr síðu Vörusameiningar til að sameina vörur og þar af leiðandi nýta betur rými vöruhússins.
+description: Í þessari grein er að finna upplýsingar um virkni sem auðveldar stjórnendum vöruhúss að skoða og sía rúmmálsnýtingu staðsetninga í öllu vöruhúsinu. Stjórnendur geta valið staðsetningar og búið til birgðahreyfingarvinnu beint úr síðu Vörusameiningar til að sameina vörur og þar af leiðandi nýta betur rými vöruhússins.
 author: Mirzaab
 ms.date: 08/09/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
 ms.openlocfilehash: d0e52769de3f200e2bb3060b3d9cb19dc0847b69
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9336424"
@@ -24,14 +24,14 @@ ms.locfileid: "9336424"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um virkni sem auðveldar vöruhúsastjórnendum að skoða og sía rúmmálsnýtingu staðsetningar yfir vöruhúsið. Stjórnendur geta valið staðsetningar og búið til birgðahreyfingarvinnu beint úr síðunni **Vörusameining** til að sameina vörur og þar af leiðandi nýta betur rými vöruhússins.
+Í þessari grein er að finna upplýsingar um virkni sem auðveldar stjórnendum vöruhúss að skoða og sía rúmmálsnýtingu staðsetninga í öllu vöruhúsinu. Stjórnendur geta valið staðsetningar og búið til birgðahreyfingarvinnu beint úr síðunni **Vörusameining** til að sameina vörur og þar af leiðandi nýta betur rými vöruhússins.
 
 ## <a name="turn-on-the-features"></a>Kveikja á eiginleikum
 
-Áður en þú getur notað eiginleikana sem lýst er í þessari grein verður þú að kveikja á þeim í kerfinu þínu. Stjórnendur geta notað vinnusvæðið [Eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu þessara eiginleika og kveikja á þeim ef þörf krefur. Kveikja á báðum eiginleikum, í þeirri röð sem þeir eru sýndir. (Báðir eiginleikarnir eru fyrir eininguna **Vöruhúsastjórnun**.)
+Áður en hægt er að nota eiginleikana sem lýst er í þessari grein þarf að kveikja á þeim í kerfinu. Stjórnendur geta notað vinnusvæðið [Eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu þessara eiginleika og kveikja á þeim ef þörf krefur. Kveikja á báðum eiginleikum, í þeirri röð sem þeir eru sýndir. (Báðir eiginleikarnir eru fyrir eininguna **Vöruhúsastjórnun**.)
 
-1. *Staðsetningarstaða vöruhúss*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er þessi eiginleiki nauðsynlegur og ekki hægt að slökkva á honum. Fyrir frekari upplýsingar, sjá [Staða vöruhúss](warehouse-location-status.md) .)
-2. *Nýting á staðsetningu samstæðuvöru*<br>(Frá og með Supply Chain Management útgáfu 10.0.29 er sjálfgefið kveikt á þessum eiginleika.)
+1. *Staðsetningarstaða vöruhúss*<br>(Frá og með útgáfu 10.0.29 af Supply Chain Management er hún skylda og ekki er hægt að slökkva á henni.) Frekari upplýsingar er að finna í [Staðsetningarstaða vöruhúss](warehouse-location-status.md).)
+2. *Nýting á staðsetningu samstæðuvöru*<br>(Sem hluti af Supply Chain Management, útgáfa 10.0.29, er sjálfgefið kveikt á þessum eiginleika.)
 
 ## <a name="warehouse-location-status"></a>Staðsetningarstaða vöruhúss
 
@@ -51,7 +51,7 @@ Eiginleikinn *Staðsetningarstaða vöruhúss* bætir fjórum nýjum reitum við
 
 ## <a name="set-up-item-consolidation-and-location-utilization"></a>Setja upp vörusameiningu og nýtingu staðsetningar
 
-Þessi hluti lýsir því hvernig á að búa kerfið undir að nota vörusameiningu og nýtingu staðsetningar. Aðferðirnar nota sýnigildi úr stöðluðu sýnigögnunum. Ef þú ætlar að vinna í gegnum dæmið sem er að finna síðar í þessari grein skaltu velja **USMF** lögaðila (sem inniheldur stöðluð kynningargögn), og búa til hverja skrá sem lýst er í þessum hluta. Ef ætlunin er ekki að fara í gegnum dæmið, er hægt að líta á gildin sem boðið er upp á hér sem dæmi um gerð uppsetningar sem þarf að ljúka til að geta notað eiginleikana.
+Þessi hluti lýsir því hvernig á að búa kerfið undir að nota vörusameiningu og nýtingu staðsetningar. Aðferðirnar nota sýnigildi úr stöðluðu sýnigögnunum. Ef ætlunin er að fara í gegnum dæmið sem boðið er upp á síðar í þessari grein, skal velja lögaðilann **USMF** (sem inniheldur stöðluðu sýnigögnin) og búa til hverja færslu sem er lýst í þessari grein. Ef ætlunin er ekki að fara í gegnum dæmið, er hægt að líta á gildin sem boðið er upp á hér sem dæmi um gerð uppsetningar sem þarf að ljúka til að geta notað eiginleikana.
 
 ### <a name="released-product"></a>Útgefin afurð
 

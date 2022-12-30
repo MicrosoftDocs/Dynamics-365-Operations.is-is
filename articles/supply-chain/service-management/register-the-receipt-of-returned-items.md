@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f4942e455350844ac5614e70fef21b37461540a6
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9017290"
@@ -87,7 +87,7 @@ ms.locfileid: "9017290"
 
 Til viðbótar við að nota skjámyndina **Komuyfirlit** getur þú notað skjámyndina **Skráning** til að skrá komu skilavara.
 
-1.  Smellur **Sala og markaðssetning** \> **Söluskil** \> **Allar skilapantanir**. Stofna nýja skilapöntun eða opna vöruskilapöntunina frá listanum. Á flýtiflipanum **Línur** skal velja skilapöntunarlínuna. Smelltu á **Uppfæra línu** og smelltu síðan á **Skráning**.
+1.  Smelltu á **Sala og markaðsstarf** \> **Söluvöruskil** \> **Allar skilapantanir**. Stofna nýja skilapöntun eða opna vöruskilapöntunina frá listanum. Á flýtiflipanum **Línur** skal velja skilapöntunarlínuna. Smelltu á **Uppfæra línu** og smelltu síðan á **Skráning**.
 
 2.  Úthlutaðu ráðstöfunarkóða í reitnum **Ráðstöfunarkóði** og smelltu síðan á **Í lagi**.
     

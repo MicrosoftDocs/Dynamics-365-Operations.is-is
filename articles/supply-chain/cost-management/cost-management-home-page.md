@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8891148"
@@ -53,7 +53,7 @@ Bókhald framleiðslu leyfir notanda að sjá um [Kostnaðaraðferð vinnupöntu
 
 #### <a name="white-paper"></a>Hvítbók
 
-[Útreikningur uppskriftar með notkun kostnaðarskjals](https://www.microsoft.com/download/details.aspx?id=101937) lýsir því hvernig á að setja upp kostnaðarskjal sem nær yfir efni og framleiðslu og hvernig uppsetningin hefur áhrif á niðurstöður útreiknings á uppskrift. Til að útskýra greinarnar betur veitir hún áþreifanleg atburðarás og gögn sem sýna fram á áhrif hinna ýmsu stillinga og stillinga.
+[Útreikningur uppskriftar með notkun kostnaðarskjals](https://www.microsoft.com/download/details.aspx?id=101937) lýsir því hvernig á að setja upp kostnaðarskjal sem nær yfir efni og framleiðslu og hvernig uppsetningin hefur áhrif á niðurstöður útreiknings á uppskrift. Til að útskýra betur greinarnar þá útvegar hann heildstæð dæmi og gögn sem sýna fram á áhrif hinna ýmsu stillinga og skilgreininga.
 
 #### <a name="blogs"></a>Blogg
 

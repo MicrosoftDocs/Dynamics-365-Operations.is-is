@@ -1,6 +1,6 @@
 ---
 title: Úthluta skrefatáknum og titlum fyrir Warehouse Management farsímaforritið
-description: Þessi grein lýsir því hvernig á að úthluta skreftáknum og titlum fyrir nýtt eða sérsniðið verkflæði fyrir vöruhúsastjórnun farsímaforritið.
+description: Í þessari grein er því lýst hvernig á að úthluta skrefatáknum og titlum fyrir ný eða sérstillt verkflæði fyrir farsímaforrit vöruhúsakerfis.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: 2ed2baff1851eba488233c050cef1f8f73b6bcee
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9067303"
@@ -21,15 +21,15 @@ ms.locfileid: "9067303"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að úthluta skreftáknum og þrepaheitum fyrir nýtt eða sérsniðið verkflæði fyrir vöruhússtjórnun farsímaforritið.
+Í þessari grein er því lýst hvernig á að úthluta skrefatáknum og skrefatitlum fyrir ný eða sérstillt verkflæði fyrir farsímaforrit vöruhúsakerfis.
 
 Eftirfarandi mynd sýnir hvernig skrefatákn og titlar birtast í Warehouse Management farsímaforritinu.
 
 ![Dæmi um skrefatákn og skrefatitil í farsímaforriti Warehouse Management.](media/step-icon-example.png "Dæmi um skrefatákn og skrefatitil í Warehouse Management farsímaforritinu")
 
-## <a name="turn-this-feature-on-or-off"></a>Kveiktu eða slökktu á þessum eiginleika
+## <a name="turn-this-feature-on-or-off"></a>Kveikir eða slekkur á þessum eiginleika
 
-Til að nota virknina sem lýst er í þessari grein, *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* kveikt verður á eiginleikanum fyrir kerfið þitt. Frá og með Supply Chain Management 10.0.25 er þessi eiginleiki skylda og ekki hægt að slökkva á honum. Ef þú ert að keyra útgáfu eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessari virkni með því að leita að *Notendastillingar, tákn og þrepaheiti fyrir nýja vöruhúsaforritið* eiginleiki í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) vinnurými.
+Til að nota virknina sem lýst er í þessari grein verður að vera kveikt á eiginleikanum *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið* fyrir kerfið. Frá og með útgáfu 10.0.25 af Supply Chain Management er þessi eiginleiki skylda og ekki er hægt að slökkva á henni. Ef þú ert að keyra útgáfu sem er eldri en 10.0.25 geta stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita að eiginleikanum *Notandastillingar, tákn og titlar skrefa fyrir nýja vöruhúsaforritið* á vinnusvæðinu [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="standard-step-ids-classes-and-icons"></a>Stöðluð kenni, klasar og tákn skrefa
 
@@ -39,7 +39,7 @@ Hvert skref í verkflæði er auðkennt með skrefakenni og hvert skrefakenni er
 
 Eftirfarandi tafla sýnir hvert skrefakenni sem er í boði eins og er og samsvarandi skrefaklasa. Stýringarheiti aðalfærslureitsins er notað sem skrefakennið.
 
-Fyrir dæmi sem sýnir hvernig þessi skrefakenni og flokkar eru notaðir, sjá útfærslu á`WHSMobileAppStepInfoBuilder.stepId()` aðferð í [Dæmi: Úthlutaðu skrefatáknum og titlum fyrir sérsniðið flæði](#example) kafla síðar í þessari grein.
+Fyrir dæmi sem sýnir hvernig þessi skrefakenni og -klasar eru notuð skal sjá innleiðingu `WHSMobileAppStepInfoBuilder.stepId()` aðferðarinnar í hlutanum [Dæmi: Úthluta táknum og titlum skrefa fyrir sérstillt flæði](#example) síðar í þessari grein.
 
 | Kenni skrefs | Klasi skrefs |
 |-|-|
@@ -317,8 +317,8 @@ Eftirfarandi tafla sýnir hvert staðlað skrefatákn sem er í boði sem stendu
 <td><img src="media/step-icons-weight-to-consume.png" alt="Weight to consume step icon" title="Skrefatákn notkunarþyngdar"><br>WeightToConsume</td>
 </tr>
 <tr>
-<td><img src="media/step-icons-whs-adjustment-type.png" alt="WMS adjustment type step icon" title="Skreftákn fyrir WMS aðlögunargerð"><br>WHSAdjustmentType</td>
-<td><img src="media/step-icons-whs-receiving-exception.png" alt="WMS receiving exception step icon" title="Skref tákn fyrir WMS móttöku undantekningar"><br>WHSReceivingException</td>
+<td><img src="media/step-icons-whs-adjustment-type.png" alt="WMS adjustment type step icon" title="Skrefatákn leiðréttingargerðar vöruhúsakerfis"><br>WHSAdjustmentType</td>
+<td><img src="media/step-icons-whs-receiving-exception.png" alt="WMS receiving exception step icon" title="Skrefatákn móttökufráviks vöruhúsakerfis"><br>WHSReceivingException</td>
 <td><img src="media/step-icons-wms-location-id.png" alt="WMS location ID step icon" title="Skrefatákn staðsetningarkennis vöruhúsakerfis"><br>WMSLocationID</td>
 <td><img src="media/step-icons-work-id.png" alt="Work ID step icon" title="Skrefatákn vinnukennis"><br>WorkId</td>
 </tr>
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 Kennimerki skrefatáknsins er geymt í `defaultStepIcon` klasameðlimnum og titill skrefsins er geymt í `defaultStepTitle` klasameðlimnum.
 
-Til að úthluta skrefartákn skaltu stilla`defaultStepIcon` í eitt af auðkenni táknanna sem eru skráð í [Tiltæk skref tákn](#step-icons) kafla fyrr í þessari grein.
+Til að úthluta skrefatákni skal stilla `defaultStepIcon` á eitt af kennum táknsins sem eru sýnd í hlutanum [Tiltæk skrefatákn](#step-icons) fyrr í þessari grein.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>Nota staðlað eða sérstillt tákn og titil skrefs fyrir innslátt þyngdar
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-Þú býrð svo til skrefflokk fyrir `NewWeight` skrefið. Kóðinn ætti að líkjast kóðanum fyrir`ContainerId` dæmi sem var sýnt fyrr í þessari grein.
+Þú býrð svo til skrefflokk fyrir `NewWeight` skrefið. Kóðinn ætti að líkjast kóðanum fyrir `ContainerId` dæmið sem sýnt var fyrr í þessari grein.
 
 #### <a name="override-the-stepinfo-method"></a>Hnekkja stepInfo() aðferðinni
 

@@ -1,6 +1,6 @@
 ---
 title: Líftímastöður verkbeiðni
-description: Þessi grein útskýrir lífsferilsstöðu verkbeiðna í eignastýringu.
+description: Þessi grein útskýrir líftímastöður verkbeiðni í eignastýringu.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 9c6a7c204370542353e9b629b78091972f8ce9a1
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9017088"
@@ -46,7 +46,7 @@ Eftirfarandi tafla lýsir valkostunum í hlutunum **Verkbeiðni** og **Tímasetj
 | Leyfa áætlanagerð              | Stilltu þennan möguleika á **Já** ef hægt er að tímastilla verkbeiðni meðan hún er í þessari líftímastöðu. |
 | Stilla raunverulegt upphaf              | Stilltu þennan möguleika á **Já** ef notandi ætti að vera beðinn um að velja raunverulegan upphafsdag og tíma fyrir verkbeiðni þegar hann er uppfærður í þessa líftímastöðu. |
 | Stilla raunveruleg lok                | Stilltu þennan möguleika á **Já** ef notandi ætti að vera beðinn um að velja raunverulegan lokadag og -tíma fyrir verkbeiðni þegar hann er uppfærður í þessa líftímastöðu. |
-| Bóka færslubækur                 | Stilltu þennan möguleika á **Já** ef hægt er að bæta við færslubækur verkbeiðna skulu bókaðar sjálfvirkt þegar verkbeiðni er uppfærð í þessa líftímastöðu. Ef villa kemur upp við bókun færslubókar birtast skilaboð og hætt er við uppfærslu á líftímastöðu verkbeiðni. Til að skoða færslubókarlínur fyrir verkbeiðni skaltu velja **Eignastýring** \> **Verkbeiðnir** \> **Allar vinnupantanir**, **vinnupantanir**, eða **Virku vinnupantanir mínar**, veldu vinnupöntunina á listanum og veldu síðan **Tímarit**. Þessi uppsetning á sjálfvirkri færslubókarbókun verkbeiðni í tiltekinni líftímastöðu er sú saman og þegar þú velur **Bóka færslubækur** á síðunni **Færslubækur verkbeiðna**.<p>**Athugasemd:** Ef þú stillir þennan möguleika á **Já** eru færslubækur sjálfkrafa settar upp ef ekkert samþykktarverkflæði hefur verið sett upp. Ef fyrirtækið notar samþykktaruppsetningu færslubóka sem er skilgreind á síðunni **Færslubókarsamþykkt** (**Verkefnisstjórnun og bókhald** \> **Uppsetning** \> **Færslubækur** \> **Færslubókarsamþykkt**), verður stjórnandi eða starfsmaður að staðfesta og bóka skráningar á notkun.</p> |
+| Bóka færslubækur                 | Stilltu þennan möguleika á **Já** ef hægt er að bæta við færslubækur verkbeiðna skulu bókaðar sjálfvirkt þegar verkbeiðni er uppfærð í þessa líftímastöðu. Ef villa kemur upp við bókun færslubókar birtast skilaboð og hætt er við uppfærslu á líftímastöðu verkbeiðni. Til að skoða færslubókarlínur fyrir verkbeiðni skal velja **Eignastýring** \> **Verkbeiðnir** \> **Allar verkbeiðnir**, **Virkar verkbeiðnir** eða **Virku verkbeiðnirnar mínar**, velja verkbeiðnina í listanum og síðan velja **Færslubækur**. Þessi uppsetning á sjálfvirkri færslubókarbókun verkbeiðni í tiltekinni líftímastöðu er sú saman og þegar þú velur **Bóka færslubækur** á síðunni **Færslubækur verkbeiðna**.<p>**Athugasemd:** Ef þú stillir þennan möguleika á **Já** eru færslubækur sjálfkrafa settar upp ef ekkert samþykktarverkflæði hefur verið sett upp. Ef fyrirtækið notar samþykktaruppsetningu færslubóka sem er skilgreind á síðunni **Færslubókarsamþykkt** (**Verkefnisstjórnun og bókhald** \> **Uppsetning** \> **Færslubækur** \> **Færslubókarsamþykkt**), verður stjórnandi eða starfsmaður að staðfesta og bóka skráningar á notkun.</p> |
 | Vinna úr viðhaldsgátlista | Stilltu þennan valkost á **Já** ef allir viðhengdir viðhaldsgátlistar skulu unnir þegar verkbeiðni er uppfærð í þessa líftímastöðu. Sem hluti af þessari vinnslu eru allar teljaraskráningar sem gerðar voru á viðhaldsgátlista bókaðar og niðurstöður alls viðhaldsgátlistans eru metnar. Viðhaldsgátlistalínur sem hafa niðurstöðurnar **Stóðst** og **Tókst ekki** og ef að minnsta kosti ein lína tekst ekki er allur viðhaldsgátlistinn merktur sem **Tókst ekki** í eignastýringu. |
 | Tilbúið                         | Stilltu þennan valkost á **Já** ef röðunarstaða verkbeiðniverks fyrir öll verkbeiðniverk sem eru stofnuð í verkbeiðni skulu sjálfkrafa vera uppfærð í **Tilbúið** þegar verkbeiðnin er uppfærð í þessa líftímastöðu. |
 | Ræsa                         | Stilltu þennan valkost á **Já** ef röðunarstaða verkbeiðniverks fyrir öll verkbeiðniverk sem eru stofnuð í verkbeiðni skulu sjálfkrafa vera uppfærð í **Hófst** þegar verkbeiðnin er uppfærð í þessa líftímastöðu. |
@@ -69,18 +69,18 @@ Eftirfarandi tafla lýsir valkostunum í hlutunum **Verkbeiðni** og **Tímasetj
 
     Á flýtiflipanum **Upplýsingar** sýnir reiturinn **Líftímalíkön** fjölda líftímalíkana verkbeiðna sem nota þessa líftímastöðu.
 
-8. Á flýtiflipanum **Almennt**, í hlutanum **Verkbeiðni**, velurðu aðgerðir sem skulu vera tiltækar fyrir þessa líftímastöðu með því að stilla viðeigandi valkosti á **Já**. Fyrir lýsingar á valkostunum, sjá töfluna fyrr í þessari grein.
+8. Á flýtiflipanum **Almennt**, í hlutanum **Verkbeiðni**, velurðu aðgerðir sem skulu vera tiltækar fyrir þessa líftímastöðu með því að stilla viðeigandi valkosti á **Já**. Lýsingar á valkostunum er að finna í sniðvalkostunum síðar í þessari grein.
 9. Í hlutanum **Verk**, í reitnum **Stig** veldu verkefnastigið sem ætti að tengjast þessari líftímastöðu.
 10. Í hlutanum **Verk** stillirðu valkostinn **Lokunarverkþætti** á **Já** ef verkþáttum sem tengjast hverju verkbeiðniverki skal sjálfkrafa lokað þegar verkbeiðnin er í þessari líftímastöðu.
 
     > [!NOTE]
-    > Til að finna númer verksins sem tengist verkbeiðni, velurðu **Eignastýring** \> **Verkbeiðnir** \> **Allar vinnupantanir**, **vinnupantanir**, eða **Virku vinnupantanir mínar**. Opnaðu verkbeiðnina og veldu síðan verkbeiðniverkið. Verkþáttanúmerið er sýnt í reitnum **Verkþáttanúmer** í hlutanum **Verk** á flipanum **Almennt** á flýtiflipanum **Línuupplýsingar**.
+    > Til að finna númer verkþáttarins sem tengist vinnslu verkbeiðninnar skal velja **Eignastýring** \> **Verkbeiðnir** \> **Allar verkbeiðnir**, **Virkar verkbeiðnir** eða **Virku verkbeiðnirnar mínar**. Opnaðu verkbeiðnina og veldu síðan verkbeiðniverkið. Verkþáttanúmerið er sýnt í reitnum **Verkþáttanúmer** í hlutanum **Verk** á flipanum **Almennt** á flýtiflipanum **Línuupplýsingar**.
 
 11. Í hlutanum **Spá** stillirðu valkostinn **Afrita tímaspá**, **Afrita vöruspá**, og/eða **Afrita kostnaðarspá** á **Já** ef sjálfkrafa ætti að afrita spár verkbeiðniverka í færslubækur verkbeiðna þegar verkbeiðnin er í þessari líftímastöðu.
-12. Í hlutanum **Tímastilla** stillirðu einn af valkostunum á **Já** ef uppfæra skal röðunarstöðu fyrir verkbeiðniverk þegar verkbeiðnin er í þessari líftímastöðu. Fyrir lýsingar á **Tilbúið**, **·**, **·**, og **Eyða áætlunarlínum** valkosti, sjá töfluna fyrr í þessari grein.
+12. Í hlutanum **Tímastilla** stillirðu einn af valkostunum á **Já** ef uppfæra skal röðunarstöðu fyrir verkbeiðniverk þegar verkbeiðnin er í þessari líftímastöðu. Fyrir lýsingar á valkostunum **Tilbúið**, **Byrja**, **Ljúka** og **Eyða áætlunarlínum** skal skoða töfluna fyrr í þessari grein.
 
     > [!NOTE]
-    > Til að skoða áætlunarlínur sem tengjast verkbeiðniverkum skaltu velja **Eignastýring** \> **Verkbeiðnir** \> **Allar vinnupantanir**, **vinnupantanir**, eða **Virku vinnupantanir mínar**. Opnaðu verkbeiðnina, veldu verkbeiðniverkið á flýtiflipanum **Verkbeiðniverk** og skoðaðu tengdar upplýsingar á flýtiflipanum **Línuupplýsingar**. Reiturinn **Staða** á flipanum **Tímasetja** sýnir stöðu verkbeiðniverksins. Reitinn **Stöðu** má stilla á eftirfarandi gildi: **Raðað**, **Tilbúið**, **Hafið**, **Stöðvað**, og **Lokið**.
+    > Til að skoða áætlunarlínur sem tengjast vinnslum verkbeiðni skal velja **Eignastýring** \> **Verkbeiðnir** \> **Allar verkbeiðnir**, **Virkar verkbeiðnir** eða **Virku verkbeiðnirnar mínar**. Opnaðu verkbeiðnina, veldu verkbeiðniverkið á flýtiflipanum **Verkbeiðniverk** og skoðaðu tengdar upplýsingar á flýtiflipanum **Línuupplýsingar**. Reiturinn **Staða** á flipanum **Tímasetja** sýnir stöðu verkbeiðniverksins. Reitinn **Stöðu** má stilla á eftirfarandi gildi: **Raðað**, **Tilbúið**, **Hafið**, **Stöðvað**, og **Lokið**.
 
 13. Í hlutanum **Viðhaldsbeiðnir**, í reitnum **Líftímastöðu** velurðu líftímasöðu viðhaldsbeiðni sem tengdar viðhaldsbeiðnir skulu uppfærðar í. Þessi uppfærsla á sér stað sjálfkrafa. Hana er aðeins hægt að gera ef líftímastaða viðhaldsbeiðni er valin í líftímalíkani viðhaldsbeiðni sem er notað fyrir viðhaldsbeiðnina.
 14. Í hlutanum **Eign** stillirðu valkostinn **Uppfæra uppskrift eignar** á **Já** ef allir hlutir sem eru notaðir í vinnupöntun ættu sjálfkrafa að vera uppfærðir á síðunni **Uppskrift eignar** þegar verkbeiðnin er uppfærð í þessa líftímastöðu. Þessi stilling gæti skipt máli ef til dæmis líftímastaða verkbeiðni skilgreinir verkbeiðnina sem lokið eða lokið.
@@ -98,7 +98,7 @@ Eftirfarandi tafla lýsir valkostunum í hlutunum **Verkbeiðni** og **Tímasetj
 > [!NOTE]
 > Ef líftímastaðan sem þú uppfærir verkbeiðni í er óvirk, er færslubókum sem tengjast verkbeiðninni en hafa ekki enn verið bókaðar sjálfkrafa eytt. Þessi hegðun hjálpar til við að tryggja sjálfvirka hreinsun ónotaðra gagna. (Líftímastaða er óvirk ef valkosturinn **Virkt** fyrir hana stilltur á **Nei** á flýtiflipanum **Almennt** á síðunni **Líftímastaða verkbeiðni**.)
 >
-> Hinsvegar, ef þú stillir verkbeiðni þannig að hún sé óvirk, er færslubókum sem tengjast verkbeiðninni en hafa ekki enn verið bókaðar **ekki** sjálfkrafa eytt. (Til að óvirkja handvirkt verkbeiðni skaltu velja **Eignastýring** \> **Verkbeiðnir** \> **Allar vinnupantanir** eða **Virkar vinnupantanir**. Opnaðu verkbeiðnina og skiptu yfir í sýnina **Haus**. Á flýtiflipanum **Almennt** velurðu **Breyta** og stillir síðan valkostinn **Virkt** á **Nei** .)
+> Hinsvegar, ef þú stillir verkbeiðni þannig að hún sé óvirk, er færslubókum sem tengjast verkbeiðninni en hafa ekki enn verið bókaðar **ekki** sjálfkrafa eytt. (Til að gera verkbeiðni óvirka á handvirkan hátt skal velja **Eignastýring** \> **Verkbeiðnir** \> **Allar verkbeiðnir** eða **Virkar verkbeiðnir**. Opnaðu verkbeiðnina og skiptu yfir í sýnina **Haus**. Á flýtiflipanum **Almennt** velurðu **Breyta** og stillir síðan valkostinn **Virkt** á **Nei** .)
 
 ## <a name="relations-among-work-order-lifecycle-models-work-order-types-and-work-order-lifecycle-states"></a>Vensl á milli og líftímalíkana verkbeiðna, verkbeiðnigerða og líftímastaða verkbeiðna.
 

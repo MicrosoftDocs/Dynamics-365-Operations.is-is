@@ -1,6 +1,6 @@
 ---
 title: Skoða, stjórna og samþykkja áætlaðar pantanir
-description: Þessi grein veitir upplýsingar um hvernig á að skoða, stjórna og samþykkja fyrirhugaðar pantanir.
+description: Þessi grein veitir upplýsingar um hvernig eigi að skoða, stjórna og samþykkja áætlaðar pantanir.
 author: t-benebo
 ms.date: 04/07/2021
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: a4c3b6c2dd149d3fedf1dc3dc418541961ad1a73
 ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/03/2022
 ms.locfileid: "9740959"
@@ -27,7 +27,7 @@ ms.locfileid: "9740959"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um hvernig á að skoða, stjórna og samþykkja fyrirhugaðar pantanir.
+Þessi grein veitir upplýsingar um hvernig eigi að skoða, stjórna og samþykkja áætlaðar pantanir.
 
 ## <a name="view-and-manage-planned-orders"></a><a name="view-planned-orders"></a>Skoða og hafa umsjón með áætluðum pöntunum
 

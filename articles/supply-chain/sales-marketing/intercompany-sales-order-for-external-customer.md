@@ -1,6 +1,6 @@
 ---
 title: Stofna og reikningsfæra samstæðusölupöntun fyrir ytri viðskiptavin
-description: Þessi grein útskýrir hvernig á að stofna og reikningsfæra innbyrðis sölupöntun fyrir utanaðkomandi viðskiptavin
+description: Þessi grein útskýrir hvernig á að stofna og reikningsfæra samstæðusölupöntun fyrir ytri viðskiptavin
 author: Henrikan
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: 10.0.22
 ms.openlocfilehash: cd42551730ab0123813a3b5a0b5a4b1c334e9d30
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8852158"
@@ -77,16 +77,16 @@ Gerðu þessi skref í lögaðila B. Þetta ferli samsvarar reitnum sem er merkt
 Reikningur viðskiptavinar fyrir samstæðusölupöntunina er sjálfkrafa bókaður í lögaðila B. Reikningur samstæðulánardrottins er þá sjálfkrafa stofnaður og bókaður í lögaðila A. Ef upprunaleg sölupöntun er sett upp sem bein afhending er reikningur viðskiptavinar stofnaður fyrir upprunalegu sölupöntunina í lögaðila A.
 
 > [!NOTE]
-> Áður, fyrir samstæðusölusviðsmyndir, ef verkflæði lánardrottinsreiknings var stillt í innkaupafyrirtækinu innan samstæðu, var ekki hægt að reikningsfæra samstæðusölupöntunina. Því þurfti að slökkva á verkflæði lánardrottinsreiknings fyrir innkaupafyrirtækið. 
+> Áður, fyrir samstæðusölusviðsmyndir, ef reikningsferli söluaðila var stillt í samstæðusölufyrirtækinu, var ekki hægt að reikna samstæðusölupöntunina með góðum árangri. Því þurfti að slökkva á verkflæði lánardrottnareiknings fyrir innkaupafyrirtæki samstæðunnar. 
 > 
-> Þessi takmörkun hefur verið lagfærð með nýlegum eiginleika í útgáfu 10.0.25. Nú er hægt að reikningsfæra sölupantanir milli fyrirtækja þegar verkflæði lánardrottinsreiknings er stillt í innkaupafyrirtækinu.
+> Þessi takmörkun hefur verið löguð af nýlegum eiginleika í útgáfu 10.0.25. Sölupantanir innan samstæðu geta nú verið reikningsfærðar þegar verkflæði lánardrottnareiknings er skilgreint í innkaupafyrirtæki samstæðunnar.
 > 
-> Til að virkja þennan eiginleika skaltu fylgja þessum skrefum.
+> Ef þú vilt virkja þennan eiginleika skaltu fylgja þessum skrefum.
 >
-> 1. Veljið innbyrðis sölu lögaðila.  
+> 1. Veldu lögaðila samstæðusölunnar.  
 > 2. Farðu í **Viðskiptakröfur \> Viðskiptavinir \> Alla viðskiptavini**.
-> 3. Veldu viðskiptavin fyrir innkaupafyrirtækið milli fyrirtækja.
-> 4. Fara til **Almennt \> Settu upp \> Millifyrirtæki**.
-> 5. Á **Innkaupapöntunarreglur** flipann, veldu **Framhjá verkflæði lánardrottinsreiknings fyrir reikninga lánardrottna milli fyrirtækja** færibreytu.
+> 3. Veldu viðskiptavin fyrir innkaupafyrirtæki samstæðunnar.
+> 4. Fara í **Almennt \> Setja upp \> Innan samstæðu**.
+> 5. Í flipanum **Innkaupapöntunarreglur** skal velja færibreytuna **Sneiða hjá verkflæði lánardrottnareiknings fyrir lánardrottnareikninga innan samstæðu**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

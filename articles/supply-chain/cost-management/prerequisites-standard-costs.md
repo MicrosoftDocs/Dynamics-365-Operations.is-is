@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir skilyrði fyrir staðalkostnað
-description: Þessi grein lýsir grunnskrefum til að nota staðlaðan kostnað.
+description: Þessi grein fjallar um grundvallarskref við notkun staðalkostnaðar.
 author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2c36ebe0957cff85fff6af1d979503f9e6e60d28
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9066731"
@@ -26,7 +26,7 @@ ms.locfileid: "9066731"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir grunnskrefum til að nota staðlaðan kostnað. Eftirfarandi skref fara eftir starfsemi fyrirtækisins. Til dæmis eru skrefin mismunandi fyrir umhverfi sem er ekki með framleiðslu, framleiðsluumhverfi sem notar ekki leiðir og framleiðsluumhverfi sem notar leiðir. 
+Þessi grein fjallar um grundvallarskref við notkun staðalkostnaðar. Eftirfarandi skref fara eftir starfsemi fyrirtækisins. Til dæmis eru skrefin mismunandi fyrir umhverfi sem er ekki með framleiðslu, framleiðsluumhverfi sem notar ekki leiðir og framleiðsluumhverfi sem notar leiðir. 
 
 Til að setja upp staðalkostnað skal fylgja þessum skrefum.
 
@@ -73,8 +73,8 @@ Viðskiptavinir sem vilja til að breyta núverandi vörum sínum yfir í birgð
 
 #### <a name="community-blogs"></a>Samfélagsblogg
 
-- [Hvernig á að setja upp staðalkostnað fyrir bein efni í fjármálum og rekstri](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
-- [Hefðbundinn beinn launakostnaður í fjármálum og rekstri](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
+- [Hvernig á að setja upp staðalkostnað fyrir beint efni í fjármála- og rekstrarforrit](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
+- [Beinn launakostnaður í fjármálum- og rekstri](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

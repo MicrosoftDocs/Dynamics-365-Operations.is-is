@@ -1,6 +1,6 @@
 ---
-title: Bóka til gjaldfærslu reikningsskilareglu
-description: Þessi grein veitir yfirlit yfir bókhaldsregluna um færslu til gjaldfærslu.
+title: Reikningsskilaregla bóka á gjaldalykil
+description: Þessi grein veitir yfirlit yfir bókhaldsregluna „bóka á gjaldalykil“.
 author: rachel-profitt
 ms.date: 05/02/2022
 ms.topic: article
@@ -13,132 +13,132 @@ ms.search.validFrom: 2022-05-02
 ms.dyn365.ops.version: 10.0.27
 ms.openlocfilehash: c03109baaa341b25af70840b791ddf04f692fb1a
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9016566"
 ---
-# <a name="post-to-charge-account-accounting-principle"></a>Bóka til gjaldfærslu reikningsskilareglu
+# <a name="post-to-charge-account-accounting-principle"></a>Reikningsskilaregla bóka á gjaldalykil
 
-The *pósta til gjaldfærslureiknings* Bókhaldsreglan gerir þér kleift að gera grein fyrir og á auðveldara með að jafna mismun sem verður á einingarverði milli bókunar og fjárhagsbókunar, óbeins kostnaðar á keyptum vörum eða kostnaðar á innkaupapöntun.
+Bókhaldsreglan *bóka á gjaldalykil* gerir þér kleift að gera grein fyrir og afstemma á auðveldari hátt mismun á einingarverðinu á milli efnislegrar bókunar og fjárhagslegrar bókunar, óbeins kostnaðar og keyptra vara eða gjalda á innkaupapöntun.
 
-Tvær stillingar fyrir kóða viðskiptaskulda á **Gjaldkóði** síða (**Viðskiptaskuldir \> Uppsetning gjalda \> Gjaldkóði**) getur valdið því að innkaupapöntun hefur áhrif á verðmat á birgðaeignum:
+Tvær skilgreiningar fyrir gjaldakóða viðskiptaskulda á síðunni **Gjaldakóði** (**Viðskiptaskuldir \> Uppsetning gjalda \> Gjaldakóðar**) geta orðið til þess að innkaupapöntun hafi áhrif á verðmat birgðaeigna:
 
-- Fyrir gjaldkóða þar sem **Debettegund** reiturinn er stilltur á *Atriði* og **Kredittegund** reiturinn er stilltur á *Fjárhagsreikningur*, fjárhagsreikningurinn sem er valinn sem frásogsreikningur virkar sem birgðabreytingareikningur.
-- Fyrir gjaldkóða þar sem **Debettegund** reiturinn er stilltur á *Atriði* og **Kredittegund** reiturinn er stilltur á *Viðskiptavinur/seljandi*, gjaldið verður bókfært sem efniskostnaður og birgðabreytingareikningur vörunnar verður notaður.
+- Fyrir gjaldakóða þar sem reiturinn **Debetgerð** er stilltur á *Vöru* og reiturinn **Kreditgerð** er stilltur á *Fjárhagslykil* virkar fjárhagslykillinn eins og hagnýtur lykill virkar eins og birgðaafbrigðislykill.
+- Fyrir gjaldakóða þar sem reiturinn **Debetgerð** er stilltur á *Vöru* og reiturinn **Kreditgerð** er stilltur á *Viðskiptavinur/Lánardrottinn* verður gerð greint fyrir gjaldinu sem efniskostnað og birgðaafbrigðislykill vörunnar verður notaður.
 
-## <a name="european-special-accounting-rule"></a>Evrópsk sérbókhaldsregla
+## <a name="european-special-accounting-rule"></a>Sérstök evrópsk bókhaldsregla
 
-Í Evrópu er *pósta til gjaldfærslureiknings* reikningsskilaaðferð er oft notuð til að fella sérstaka reikningsskilareglu. Til dæmis er ein af eftirfarandi aðferðum venjulega notuð til að gera grein fyrir birgðabreytingum:
+Í Evrópu er bókhaldsreglan *bóka á gjaldalykil* oft notuð til að innleiða sérstaka bókhaldsreglu. Ein af eftirfarandi aðferðum er til dæmis yfirleitt notuð til að reikna birgðabreytingar:
 
-- **Kostnaðaraðferð við sölu** – Stöðluð uppsetning birgðabókunarsniðs styður þessa aðferð. The *pósta til gjaldfærslureiknings* reikningsskilareglu er ekki krafist.
-- **Eðli kostnaðaraðferðar** – Minni stofnanir nota oft þessa aðferð. Það felur venjulega í sér eftirfarandi skref:
+- **Kostnaður við söluaðferð** – Staðlaðar stillingar á birgðabókunarsniði styðja þessa aðferð. Ekki er þörf á bókhaldsreglunni *bóka á gjaldalykil*.
+- **Eðli kostnaðaraðferðar** – Minni fyrirtæki nota oft þessa aðferð. Það felur yfirleitt í sér eftirfarandi skref:
 
-    1. Vörur eða þjónusta er gjaldfærð að fullu við móttöku.
-    2. Í lok tímabilsins fer fram lotutalning.
-    3. Handvirk leiðrétting fyrir magn og gildi er bókað í birgðahald. (Móðureikningurinn er birgðabreytingareikningur sem jafnar kostnaðinn sem var bókaður í skrefi 1. Þess vegna sérðu aðeins breytileika í hlutabréfaverðmæti á þessum reikningi.)
+    1. Vörur eða þjónusta eru gjaldfærðar að fullu við móttöku.
+    2. Við lok tímabils er regluleg talning framkvæmd.
+    3. Handvirk leiðrétting fyrir magn og virði er birt í birgðum. (Mótlykill er birgðabreytingareikningur sem jafnar út kostnaðinn sem var birtur í skrefi 1. Þar af leiðandi sérðu aðeins afbrigðið í birgðagildinu í þessum lykli.)
 
-The *pósta til gjaldfærslureiknings* meginreglan gerir þér kleift að gera þessar tvær færslur fullkomlega sjálfvirkar. Á þennan hátt er hægt að útrýma handvirkri leiðréttingarbókun við lok tímabilsloka.
+Reglan *bóka á gjaldakóða* gerir þér kleift að sjálfvirknivæða báðar bókanir að fullu. Þannig er hægt að útrýma leiðréttingarbókun við lokun tímabils.
 
-## <a name="enable-the-post-to-charge-account-accounting-principle"></a>Virkja bókhaldsregluna fyrir færslu til að gjaldfæra reikning
+## <a name="enable-the-post-to-charge-account-accounting-principle"></a>Virkja bókunarregluna „bóka á gjaldalykil“
 
-Til að virkja *pósta til gjaldfærslureiknings* reikningsskilareglu, fylgdu þessum skrefum.
+Til að virkja bókhaldsregluna *bóka á gjaldalykil* skal fylgja þessum skrefum.
 
 1. Farðu í **Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**.
-2. Á **Reikningur** flipa, á **Reikningur** flýtiflipann, stilltu **Bókaðu á gjaldfærslureikning í höfuðbók** valmöguleika til *Já*.
+2. Í flipanum **Reikningur**, í flýtiflipanum **Reikningur**, skal stilla valkostinn **Bóka á gjaldalykil í fjárhag** á *Já*.
 3. Lokið síðunni.
 
-## <a name="prerequisites-and-recommended-parameters-for-the-post-to-charge-account-accounting-principle"></a>Forsendur og ráðlagðar færibreytur fyrir bókhaldsreglu færslu til gjaldfærslu
+## <a name="prerequisites-and-recommended-parameters-for-the-post-to-charge-account-accounting-principle"></a>Skilyrði og ráðlagðar færibreytur fyrir bókhaldsregluna „bóka á gjaldalykil“
 
-Ef þú ætlar að gera grein fyrir innkaupagjöldum og lagerafbrigðum verða eftirfarandi forsendur að vera til staðar:
+Ef þú hyggst reikna með innkaupagjöldum og brigðaafbrigðum þurfa eftirfarandi skilyrði að vera til staðar:
 
-- Á **Reikningur** flipi á **Færibreytur viðskiptaskulda** síða (**Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**), the **Bókaðu á gjaldfærslureikning í höfuðbók** valkostur verður að vera stilltur á *Já*.
-- Á **Hlutamódelhópar** síða (**Kostnaðarstjórnun \> Uppsetning reikningsskilaaðferða birgða \> Hlutamódelhópar**), allir eftirfarandi valkostir verða að vera stilltir á *Já* fyrir hvern viðeigandi tegundarhóp sem inniheldur hluti sem eru innifalin í innkaupapöntun:
+- Í flipanum **Reikningur** á síðunni **Færibreytur viðskiptaskulda** (**Viðskiptaskuldir \> Uppsetning \> Færibreytur viðskiptaskulda**) verður að stilla valkostinn **Bóka á gjaldalykil í fjárhag** á *Já*.
+- Á síðunni **Vörulíkanaflokkar** (**Kostnaðarstjórnun \> Uppsetning á birgðabókhaldsreglum \> Vörulíkanaflokkar**) þarf að stilla alla eftirfarandi valkosti á *Já* fyrir alla viðeigandi líkanaflokka sem innihalda vörur sem eru hluti af innkaupapöntun:
 
     - Bóka raunverulegar birgðir
     - Bóka fjárhagslegar birgðir
     - Safna upp skuld á innhreyfingarskjali afurða
 
-- Á **Afhending** flipi á **Innkaupa- og innkaupabreytur** síða (**Innkaup og innkaup \> Uppsetning \> Innkaupa- og innkaupabreytur**), the **Búðu til gjöld á vörumóttöku** valkostur verður að vera stilltur á *Já*.
-- Á **Birgðabókhald** flipi á **Birgða- og vöruhúsastjórnunarfæribreytur** síða (**Vörustjórnun \> Uppsetning \> Birgða- og vöruhúsastjórnunarfæribreytur**), the **Bókaðu fylgiseðil í höfuðbók** valkostur verður að vera stilltur á *Já*.
-- Á **Pöntun** flipi á **Birting** síða (**Vörustjórnun \> Uppsetning \> Birting \> Birting**), verður að tilgreina aðalreikninga sem eiga við um hvern viðkomandi lið fyrir hverja af eftirfarandi bókunartegundum:
+- Í flipanum **Afhenda** á síðunni **Færibreytur innkaupa og aðfanga** (**Innkaup og aðföng \> Uppsetning \> Færibreytur innkaupa og aðfanga**) verður að stilla valkostinn **Mynda gjöld á innhreyfingarskjali afurða** á *Já*.
+- Í flipanum **Birgðabókhald** á síðunni **Færibreytur birgða- og vöruhúsakerfis** (**Birgðastjórnun \> Uppsetning \> Færibreytur birgða- og vöruhúsakerfis**) verður að stilla valkostinn **Bóka fylgiseðil í fjárhag** á *Já*.
+- Í flipanum **Innkaupapöntun** á síðunni **Bókun** (**Birgðastjórnun \> Uppsetning \> Bókun \> Bókun**) verður að tilgreina aðallykla sem gilda um allar viðeigandi vörur fyrir hverja af eftirfarandi bókunargerðum:
 
     - Útgjöld innkaupa, óreikningsfærð
     - Innkaupaútgjöld afurðar
     - Birgðaafbrigði
 
-## <a name="example-scenario-1-change-in-unit-cost-price"></a>Dæmi sviðsmynd 1: Breyting á kostnaðarverði eininga
+## <a name="example-scenario-1-change-in-unit-cost-price"></a>Dæmi 1: Breyting á kostnaðarverði einingar
 
-Þetta dæmi atburðarás hefur eftirfarandi forsendur:
+Þessar dæmiaðstæður hafa eftirfarandi skilyrði:
 
-- Fyrst inn, fyrst út (FIFO) kostnaðarlíkan
+- FIFO (first in, first out) kostnaðarlíkan
 
-Eftirfarandi ferli gefur dæmi sem sýnir hvað gerist þegar kostnaðarverði eininga er breytt í innkaupapöntun.
+Eftirfarandi ferli sýnir hvað gerist þegar einingarkostnaði er breytt í innkaupapöntun.
 
-1. Stofna innkaupapöntun fyrir 1 magn af vöru sem hefur einingarverðið 100,00.
+1. Stofna innkaupapöntun fyrir magnið 1 á vöru sem er með einingarverðið 100,00.
 2. Staðfesta innkaupapöntun.
-3. Bókaðu vörukvittun fyrir innkaupapöntunina.
-4. Staðfestu skírteinið á vörukvittuninni. Eftirfarandi tafla sýnir sýnishorn af skírteini.
+3. Bóka innhreyfingarskjal afurða fyrir innkaupapöntunina.
+4. Staðfesta fylgiskjal á innhreyfingarskjali. Eftirfarandi tafla sýnir dæmi um fylgiskjal.
 
-    | Bókunargerð | Aðallykill | Heiti aðallykils | Lykilgerð | Debet/kredit? | Millireikningur | Líkamlegt/fjárhagslegt? | Upphæð |
+    | Bókunargerð | Aðallykill | Heiti aðallykils | Lykilgerð | Debet/Kredit? | Millireikningur | Efnislegt/fjárhagslegt? | Upphæð |
     |---|---|---|---|---|---|---|---|
-    | Innkaup, birgðaafbrigði | 600170 | Lagerafbrigði efni | Kostnaður | Kredit | Nr. | Efnislegt | -100,00 |
-    | Kostnaður vegna keypts efnis sem er móttekið | 140100 | Efnisskrá | Eign | Debet | Já | Efnislegt | 100.00 |
-    | Útgjöld innkaupa, óreikningsfærð | 600180 | Efniskvittanir | Kostnaður | Debet | Já | Efnislegt | 100.00 |
-    | Innkaup, uppsöfnun | 200140 | Uppsöfnuð kaup | Bótaábyrgð | Kredit | Já | Efnislegt | -100,00 |
+    | Innkaup, birgðaafbrigði | 600170 | Efni birgðaafbrigðis | Kostnaður | Kredit | Nr. | Efnislegt | -100,00 |
+    | Kostnaður vegna keypts efnis sem er móttekið | 140100 | Efnisbirgðir | Eign | Debet | Já | Efnislegt | 100.00 |
+    | Útgjöld innkaupa, óreikningsfærð | 600180 | Efnisinnhreyfingar | Kostnaður | Debet | Já | Efnislegt | 100.00 |
+    | Innkaup, uppsöfnun | 200140 | Uppsöfnuð innkaup | Bótaábyrgð | Kredit | Já | Efnislegt | -100,00 |
 
-5. Bókaðu reikninginn fyrir innkaupapöntunina sem hefur uppfært einingarverð 110,00.
-6. Staðfestu skírteinið á reikningnum. Eftirfarandi tafla sýnir sýnishorn af skírteini.
+5. Bókaðu reikninginn fyrir innkaupapöntunina sem er með uppfært einingarverð upp á 110,00.
+6. Staðfestu fylgiskjalið á reikningnum. Eftirfarandi tafla sýnir dæmi um fylgiskjal.
 
-    | Bókunargerð | Aðallykill | Heiti aðallykils | Lykilgerð | Debet/kredit? | Millireikningur | Líkamlegt/fjárhagslegt? | Upphæð |
+    | Bókunargerð | Aðallykill | Heiti aðallykils | Lykilgerð | Debet/Kredit? | Millireikningur | Efnislegt/fjárhagslegt? | Upphæð |
     |---|---|---|---|---|---|---|---|
-    | Innkaup, birgðaafbrigði | 600170 | Lagerafbrigði efni | Kostnaður | Kredit | Nr. | Fjármál | -10,00 |
-    | Kostnaður vegna keypts efnis sem er móttekið | 140100 | Efnisskrá | Eign | Debet | Já | Fjármál | -100,00 |
-    | Útgjöld innkaupa, óreikningsfærð | 600180 | Efniskvittanir | Kostnaður | Debet | Já | Fjármál | -100,00 |
-    | Innkaup, uppsöfnun | 200140 | Uppsöfnuð kaup | Bótaábyrgð | Kredit | Já | Fjármál | 100.00 |
-    | Kostnaður vegna keypts reikningsfærðs efnis | 140100 | Efnisskrá | Eign | Debet | Nr. | Fjármál | 110,00 |
-    | Innkaupaútgjöld afurðar | 600180 | Efniskvittun | Kostnaður | Kredit | Nr. | Fjármál | 110,00 |
-    | Staða lánardrottins | 211000 | Viðskiptaskuldir | Bótaábyrgð | Kredit | Nr. | Fjármál | -110.00 |
+    | Innkaup, birgðaafbrigði | 600170 | Efni birgðaafbrigðis | Kostnaður | Kredit | Nr. | Fjármál | -10,00 |
+    | Kostnaður vegna keypts efnis sem er móttekið | 140100 | Efnisbirgðir | Eign | Debet | Já | Fjármál | -100,00 |
+    | Útgjöld innkaupa, óreikningsfærð | 600180 | Efnisinnhreyfingar | Kostnaður | Debet | Já | Fjármál | -100,00 |
+    | Innkaup, uppsöfnun | 200140 | Uppsöfnuð innkaup | Bótaábyrgð | Kredit | Já | Fjármál | 100.00 |
+    | Kostnaður vegna keypts reikningsfærðs efnis | 140100 | Efnisbirgðir | Eign | Debet | Nr. | Fjármál | 110,00 |
+    | Innkaupaútgjöld afurðar | 600180 | Efnisinnhreyfing | Kostnaður | Kredit | Nr. | Fjármál | 110,00 |
+    | Staða lánardrottins | 211000 | Viðskiptalykill viðskiptaskulda | Bótaábyrgð | Kredit | Nr. | Fjármál | -110,00 |
 
-## <a name="example-2-charges-and-indirect-costs-on-the-purchase-order"></a>Dæmi 2: Gjöld og óbeinn kostnaður á innkaupapöntun
+## <a name="example-2-charges-and-indirect-costs-on-the-purchase-order"></a>Dæmi 2: Gjöld og óbeinn kostnaður á innkaupapöntunina
 
-Þetta dæmi atburðarás hefur eftirfarandi forsendur:
+Þessar dæmiaðstæður hafa eftirfarandi skilyrði:
 
-- FIFO kostnaðarlíkan
-- **Gjaldkóði 1:** Debetatriði og kreditbók eru 10%
-- **Gjaldkóði 2:** Debethlutur og kreditviðskiptavinur/seljandi fyrir 10.00 hlutfallslega
-- **Óbeinn kostnaður:** 2,00% bætt við kaupverð
+- FIFO kostnaðarmódel
+- **Gjaldakóði 1:** Debetvara og kreditfjárhagslykill fyrir 10%
+- **Gjaldakóði 2:** Debetvara og kreditviðskiptavinur/lánardrottinn fyrir 10,00 hlutfallslega
+- **Óbeinn kostnaður:** 2,00% bætt við innkaupsverð
 
-Eftirfarandi ferli gefur dæmi sem sýnir hvað gerist þegar gjöld og óbeinn kostnaður eru teknir með í innkaupapöntun.
+Eftirfarandi ferli gefur dæmi sem sýnir hvað gerist þegar gjöld og óbeinn kostnaður eru innifalin í innkaupapöntun.
 
-1. Stofna innkaupapöntun fyrir 1 magn af vöru sem hefur einingarverðið 100,00.
-2. Bættu við einum gjaldakóða fyrir 10 prósent sem skuldfæra vöruna og skuldfæra höfuðbókina.
-3. Bættu við einum gjaldakóða fyrir 10.00 sem skuldfærir vöruna og skuldfærir viðskiptavininn/söluaðilann.
-4. Úthluta gjöldum á innkaupapöntunarlínur.
+1. Stofna innkaupapöntun fyrir magnið 1 á vöru sem er með einingarverðið 100,00.
+2. Bæta við einum gjaldakóða fyrir 10 prósent sem skuldfærir hlutinn og inneignir í fjárhaginn.
+3. Bæta við einum kóða fyrir 10,00 sem skuldfærir hlutinn og kreditfærir viðskiptavina/lánardrottinn.
+4. Úthluta gjöldunum á innkaupapöntunarlínurnar.
 5. Staðfesta innkaupapöntun.
-6. Bókaðu vörukvittun fyrir innkaupapöntunina.
-7. Staðfestu skírteinið á vörukvittuninni. Eftirfarandi tafla sýnir sýnishorn af skírteini.
+6. Bóka innhreyfingarskjal afurða fyrir innkaupapöntunina.
+7. Staðfesta fylgiskjal á innhreyfingarskjali. Eftirfarandi tafla sýnir dæmi um fylgiskjal.
 
-    | Bókunargerð | Aðallykill | Heiti aðallykils | Lykilgerð | Debet/kredit? | Millireikningur | Líkamlegt eða fjárhagslegt | Upphæð |
+    | Bókunargerð | Aðallykill | Heiti aðallykils | Lykilgerð | Debet/kredit? | Millireikningur | Efnislegt eða fjárhagslegt | Upphæð |
     |---|---|---|---|---|---|---|---|
-    | Innkaup, birgðaafbrigði | 600170 | Lagerafbrigði efni | Kostnaður | Kredit | Nr. | Efnislegt | -110.00 |
-    | Áætlaður óbeinn kostnaður notaður | 600520 | Upptekinn óbeinn kostnaður | Kostnaður | Kredit | Já | Efnislegt | -2.40 |
-    | Farmur í innkaupum | 600120 | Frakt/flutningskostnaður | Kostnaður | Kredit | Nr. | Efnislegt | -10,00 |
-    | Kostnaður vegna keypts efnis sem er móttekið | 140100 | Efnisskrá | Eign | Debet | Já | Efnislegt | 122,40 |
-    | Útgjöld innkaupa, óreikningsfærð | 600180 | Efniskvittanir | Kostnaður | Debet | Já | Efnislegt | 110,00 |
-    | Innkaup, uppsöfnun | 200140 | Uppsöfnuð kaup | Bótaábyrgð | Kredit | Já | Efnislegt | -110.00 |
+    | Innkaup, birgðaafbrigði | 600170 | Efni birgðaafbrigðis | Kostnaður | Kredit | Nr. | Efnislegt | -110,00 |
+    | Áætlaður óbeinn kostnaður notaður | 600520 | Notaður óbeinn kostnaður | Kostnaður | Kredit | Já | Efnislegt | -2,40 |
+    | Farmur í innkaupum | 600120 | Farm-/flutningskostnaður | Kostnaður | Kredit | Nr. | Efnislegt | -10,00 |
+    | Kostnaður vegna keypts efnis sem er móttekið | 140100 | Efnisbirgðir | Eign | Debet | Já | Efnislegt | 122,40 |
+    | Útgjöld innkaupa, óreikningsfærð | 600180 | Efnisinnhreyfingar | Kostnaður | Debet | Já | Efnislegt | 110,00 |
+    | Innkaup, uppsöfnun | 200140 | Uppsöfnuð innkaup | Bótaábyrgð | Kredit | Já | Efnislegt | -110,00 |
 
-8. Bókaðu reikninginn fyrir innkaupapöntunina.
-9. Staðfestu skírteinið á reikningnum. Eftirfarandi tafla sýnir sýnishorn af skírteini.
+8. Bóka reikninginn fyrir innkaupapöntunina.
+9. Staðfestu fylgiskjalið á reikningnum. Eftirfarandi tafla sýnir dæmi um fylgiskjal.
 
-    | Bókunargerð | Aðallykill | Heiti aðallykils | Lykilgerð | Debet/kredit? | Millireikningur | Líkamlegt/fjárhagslegt? | Upphæð |
+    | Bókunargerð | Aðallykill | Heiti aðallykils | Lykilgerð | Debet/Kredit? | Millireikningur | Efnislegt/fjárhagslegt? | Upphæð |
     |---|---|---|---|---|---|---|---|
-    | Innkaup, birgðaafbrigði | 600170 | Lagerafbrigði efni | Kostnaður | Kredit | Nr. | Fjármál | 0,00 |
-    | Áætlaður óbeinn kostnaður notaður | 600520 | Upptekinn óbeinn kostnaður | Kostnaður | Debet | Já | Fjármál | 2,40 |
-    | Óbeinn kostnaður notaður | 600520 | Upptekinn óbeinn kostnaður | Kostnaður | Debet | Nr. | Fjármál | -2.40 |
-    | Kostnaður vegna keypts efnis sem er móttekið | 140100 | Efnisskrá | Eign | Kredit | Já | Fjármál | -110.00 |
-    | Útgjöld innkaupa, óreikningsfærð | 600180 | Efniskvittanir | Kostnaður | Kredit | Já | Fjármál | -110.00 |
-    | Innkaup, uppsöfnun | 200140 | Uppsöfnuð kaup | Bótaábyrgð | Debet | Já | Fjármál | 110,00 |
-    | Kostnaður vegna keypts reikningsfærðs efnis | 140100 | Efnisskrá | Eign | Debet | Nr. | Fjármál | 110,00 |
-    | Innkaupaútgjöld afurðar | 600180 | Efniskvittun | Kostnaður | Kredit | Nr. | Fjármál | 110,00 |
-    | Staða lánardrottins | 211000 | Viðskiptaskuldir | Bótaábyrgð | Kredit | Nr. | Fjármál | -110.00 |
+    | Innkaup, birgðaafbrigði | 600170 | Efni birgðaafbrigðis | Kostnaður | Kredit | Nr. | Fjármál | 0,00 |
+    | Áætlaður óbeinn kostnaður notaður | 600520 | Notaður óbeinn kostnaður | Kostnaður | Debet | Já | Fjármál | 2,40 |
+    | Óbeinn kostnaður notaður | 600520 | Notaður óbeinn kostnaður | Kostnaður | Debet | Nr. | Fjármál | -2,40 |
+    | Kostnaður vegna keypts efnis sem er móttekið | 140100 | Efnisbirgðir | Eign | Kredit | Já | Fjármál | -110,00 |
+    | Útgjöld innkaupa, óreikningsfærð | 600180 | Efnisinnhreyfingar | Kostnaður | Kredit | Já | Fjármál | -110,00 |
+    | Innkaup, uppsöfnun | 200140 | Uppsöfnuð innkaup | Bótaábyrgð | Debet | Já | Fjármál | 110,00 |
+    | Kostnaður vegna keypts reikningsfærðs efnis | 140100 | Efnisbirgðir | Eign | Debet | Nr. | Fjármál | 110,00 |
+    | Innkaupaútgjöld afurðar | 600180 | Efnisinnhreyfing | Kostnaður | Kredit | Nr. | Fjármál | 110,00 |
+    | Staða lánardrottins | 211000 | Viðskiptalykill viðskiptaskulda | Bótaábyrgð | Kredit | Nr. | Fjármál | -110,00 |

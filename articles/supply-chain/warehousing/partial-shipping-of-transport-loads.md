@@ -1,6 +1,6 @@
 ---
 title: Hlutaafhending á flutningsfarmi
-description: Þessi grein útskýrir hvernig hægt er að senda farm að hluta og fresta skipulagningu á afkastagetu fyrir farminn.
+description: Þessi grein útskýrir hvernig hægt er að afhenda hluta úr farmi og fresta áætlun um afkastagetu farmsins.
 author: Mirzaab
 ms.date: 03/15/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 09e35b8ee39b3635938f46e174e6ba98db7fa627
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8907030"
