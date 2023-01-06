@@ -1,6 +1,6 @@
 ---
 title: Greining á Power BI-efni kostnaðarbókhalds
-description: Þessi grein lýsir því sem er innifalið í kostnaðarbókhaldsgreiningunni Power BI efni.
+description: Þessi grein lýsir því hvað er innifalið í Kostnaðarbókhaldsgreiningu Power BI efni.
 author: AndersGirke
 ms.date: 10/02/2019
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
 ms.openlocfilehash: 7339d0abf8d087ca8fcc8f46dc91a5e78ec0f325
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9269726"
@@ -25,7 +25,7 @@ ms.locfileid: "9269726"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því sem er innifalið í **Kostnaðarbókhaldsgreining** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þessi grein lýsir því hvað er innifalið í **Kostnaðarbókhaldsgreiningu** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 

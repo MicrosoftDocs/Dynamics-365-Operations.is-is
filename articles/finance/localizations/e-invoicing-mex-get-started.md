@@ -1,6 +1,6 @@
 ---
 title: Hafist handa með rafrænar reikningsfærslur fyrir Mexíkó
-description: Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikninga fyrir Mexíkó.
+description: Í þessari grein er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Mexíkó.
 author: gionoder
 ms.date: 12/01/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ''
 ms.openlocfilehash: 46dfa03a3c90eea2d732f355396d148f475429d7
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9283117"
@@ -27,21 +27,21 @@ ms.locfileid: "9283117"
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Rafræn reikningur fyrir Mexíkó styður ef til vill ekki allar aðgerðir sem eru tiltækar í Comprobante Fiscal Digital por Internet (CFDI) skjalinu og í tengdri samþættingu sem er innbyggður í Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management.
+> Rafræn reikningsfærsla fyrir Mexíkó styður hugsanlega ekki sem stendur allar aðgerðir sem eru í boði í skjalinu Comprobante Fiscal Digital por Internet (CFDI) og í tengdri samþættingu sem er byggð inn í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
 
-Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikninga fyrir Mexíkó. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS) og Finance. Það fer einnig í gegnum skrefin sem þarf að fylgja í Finance til að senda inn CFDI-reikninga í gegnum þjónustuna og það útskýrir hvernig á að fara yfir niðurstöður vinnslunnar og stöður CFDI-reikninga.
+Í þessari grein er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Mexíkó. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS) og Finance. Það fer einnig í gegnum skrefin sem þarf að fylgja í Finance til að senda inn CFDI-reikninga í gegnum þjónustuna og það útskýrir hvernig á að fara yfir niðurstöður vinnslunnar og stöður CFDI-reikninga.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú lýkur skrefunum í þessari grein verður þú að klára skrefin í [Byrjaðu með þjónustustjórnun rafrænna reikninga](e-invoicing-get-started-service-administration.md) og [Byrjaðu með rafræna reikningagerð](e-invoicing-get-started.md).
+Áður en farið er í gegnum skrefin í þessari grein þarf að ljúka skrefunum í  [Hafist handa með stjórnun þjónustu rafrænnar reikningsfærslu](e-invoicing-get-started-service-administration.md) og [Hafist handa með rafrænar reikningsfærslur](e-invoicing-get-started.md).
 
-## <a name="set-up-the-cadena-xslt"></a>Settu upp Cadena XSLT
+## <a name="set-up-the-cadena-xslt"></a>Setja upp Cadena XSLT
 
-Til að bæta Cadena XSLT stefinu við hnattvæðingareiginleikann fyrir CFDI vinnslu skaltu ljúka eftirfarandi skrefum.
+Ljúkið við eftirfarandi til að bæta Cadena XSLT skema við hnattrænan eiginleika fyrir CFDI úrvinnslu.
 
-1. Sækja skema frá [Vefsíða SAT](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
-2. Þjappaðu skemanu í ZIP skrá.
-3. Vistaðu xslt skrána á Azure Storage reikningnum þínum sem settur var upp í þjónustuumhverfinu þínu fyrir nýja ílátið.
+1. Sækja skema af [SAT vefsvæði ](http://www.sat.gob.mx/sitio_internet/cfd/3/cadenaoriginal_3_3/cadenaoriginal_3_3.xslt).
+2. Þjappaðu skema í ZIP-skrá.
+3. Vista xslt-skrána á Azure-geymslureikninginn sem settur er upp í þjónustuumhverfinu fyrir nýja gáminn.
 
 ## <a name="rcs-setup"></a>RCS-uppsetning
 
@@ -134,16 +134,16 @@ Til að senda inn afturköllun á CFDI-reikningi þarf að setja upp eiginleikan
 > [!NOTE]
 > Notið sömu skrefin til að uppfæra vefslóðina fyrir aðgerðina **Hringja í mexíkóska PAC-þjónustu** fyrir uppsetninga á eiginleikunum **Hætta við** og **Afturköllunarbeiðni**.
 
-### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Settu upp slóðina fyrir Cadena XLST stefið
+### <a name="set-up-the-path-for-the-cadena-xlst-schema"></a>Setja upp slóðina fyrir Cadena XLST skemað
 
-1. Á **Uppsetning eiginleikaútgáfu** síðu, á **Breytur** flipa, veldu breytuheitið, **DigitalSignatureXSLT**.
-2. Í **Gildi** reit slá inn:{ "containerUrl":"https://&lt; AccountStorageName&gt; .blob.core.windows.net/&lt; ContainerName&gt; ","leið":"&lt; RelativePath&gt; "}
+1. Á síðunni **Uppsetning útgáfu eiginleika**, í flipanum **Breytur**, skal velja heiti breytunnar, **DigitalSignatureXSLT**.
+2. Í **Gildi** reitnum skaltu slá inn: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","path":"&lt;RelativePath&gt;"}
    
-    hvar:\<RelativePath\> = mappa\\ möppu\\ skráarnafn með tvöföldum bakstökkum, ContainerName verður að tákna ílátið sem er notað fyrir þjónustuna.
+    þar sem: \<RelativePath\> = folder\\folder\\filename með tveimur öfugum skástrikum, ContainerName þarf að merkja hólfið sem er notað fyrir þjónustuna.
    
     Dæmi um breytuna væri:
     
-    {"slóð": "x xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\ dev\\ cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
+    {"path":"xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx\\dev\\cadena_xslt","containerUrl":https://yyyyyyyyyy.blob.core.windows.net/containername}
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Úthluta útgáfudrögum á umhverfi rafrænnar reikningsfærslu
 

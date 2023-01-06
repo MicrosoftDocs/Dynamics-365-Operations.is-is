@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Varpa gagnalíkani í valda gagnagjafa
-description: Þessi grein lýsir því hvernig á að kortleggja rafræn skýrslugerð (ER) gagnalíkan við valið Microsoft Dynamics 365 Fjármál gagnaheimildir.
+description: Í þessari grein er útskýrt hvernig á að varpa gagnalíkani rafrænnar skýrslugerðar til að velja gagnagjafa Microsoft Dynamics 365 Finance.
 author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner
 ms.openlocfilehash: 7d4dcc9b4e4e1128c8d1abee93b2f7affe711643
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290185"

@@ -17,7 +17,7 @@ ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.form: FinanicalReportingSetup
 ms.openlocfilehash: e7a31f44acafc7703f6d82ad0271fde0d0bb7906
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9280062"

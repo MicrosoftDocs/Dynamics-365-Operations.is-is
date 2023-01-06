@@ -1,6 +1,6 @@
 ---
 title: Bóka komur og sendingar fyrir Intrastat
-description: Þessi grein gefur dæmi sem sýnir hvernig á að bóka komur og sendingar fyrir Intrastat.
+description: Þessi grein sýnir hvernig á að bóka komur og sendingar fyrir Intrastat.
 author: AdamTrukawka
 ms.date: 08/23/2021
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: atrukawk
 ms.search.validFrom: ''
 ms.openlocfilehash: b6d46efd477f526c4bec3515086e10aa8172c579
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9280688"
@@ -20,7 +20,7 @@ ms.locfileid: "9280688"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein gefur dæmi sem sýnir hvernig á að bóka komur og sendingar fyrir Intrastat. Í dæminu er notast við lögaðilann **ITCO**.
+Þessi grein sýnir hvernig á að bóka komur og sendingar fyrir Intrastat. Í dæminu er notast við lögaðilann **ITCO**.
 
 ## <a name="setup"></a>Setja upp
 
@@ -32,7 +32,7 @@ ms.locfileid: "9280688"
 
     Þú finnur frekari upplýsingar í [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-2. Í Microsoft Dynamics 365 Finance, skilgreindu eftirfarandi númeraraðir sem samfelldar: **Gen\_ 397**, **\_ 16403**, **\_ 407**, og **PUR\_ ESB**.
+2. Í Microsoft Dynamics 365 Finance skal skilgreina eftirfarandi númeraraðir sem samfelldar: **Gene\_397**, **Acco\_16403**, **Gene\_407** og **PUR\_EU**.
 
     1. Farðu í **Fyrirtækisstjórnun** > **Númeraraðir** > **Númeraraðir**.
     2. Í hnitanetinu skal velja einn af kóðum númeraraðar.
@@ -66,7 +66,7 @@ ms.locfileid: "9280688"
 5.  Setja upp færibreytur erlendra viðskipta.
 
     1. Farið í **Skattur** > **Uppsetning** > **Erlend viðskipti** > **Færibreytur erlendra viðskipta**.
-    2. Í flýtiflipanum **Intrastat** á **Almennt** flipanum í **Færslukóði** reitknum velurðu **1**.
+    2. Í flipanum **Intrastat** á flýtiflipanum **Almennt** í **Færslu** **kóði** reitnum velurðu **1**.
     3. Í reitnum **Kreditnóta** skal velja **2**.
     4. Í reitnum **Skýrslutímabil sölu** skal velja **Mánuður**.
     5. Í reitnum **Skýrslutímabil innkaupa** skal velja **Mánuður**.

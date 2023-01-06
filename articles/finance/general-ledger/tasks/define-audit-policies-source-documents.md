@@ -1,6 +1,6 @@
 ---
 title: Skilgreina reglur endurskoðunarstefnu fyrir upprunaskjöl
-description: Þessi grein útskýrir hvernig á að setja upp og keyra reglur um endurskoðunarstefnu.
+description: Þessi grein sýnir hvernig á að setja upp og keyra reglu endurskoðunarstefnu.
 author: panolte
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b8aa106cd5a5596f6b9a6663390e03ebc3f91a7b
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8872529"
@@ -24,7 +24,7 @@ ms.locfileid: "8872529"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp og keyra reglur um endurskoðunarstefnu. Dæmi notar kostnaðarskýrslur með hótel kostnaðargerð. Þessi aðferð notar sýnigögn USMF fyrirtækisins. Endurskoðandahlutverkið inniheldur réttar heimildir til að framkvæma þessi verk.
+Þessi grein sýnir hvernig á að setja upp og keyra reglu endurskoðunarstefnu. Dæmi notar kostnaðarskýrslur með hótel kostnaðargerð. Þessi aðferð notar sýnigögn USMF fyrirtækisins. Endurskoðandahlutverkið inniheldur réttar heimildir til að framkvæma þessi verk.
 
 1. Í skoðunarrúðunni ferðu í **Einingar > Vinnusvæði endurskoðunar > Uppsetning > Stefnureglugerð**.
 2. Veljið **Nýtt**.

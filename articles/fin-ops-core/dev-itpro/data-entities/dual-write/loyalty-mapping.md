@@ -1,6 +1,6 @@
 ---
 title: Vildarkort og vildarpunktar viðskiptavinar
-description: Þessi grein lýsir samþættingu gagna um vildarkort viðskiptavina og verðlaunapunkta í tvískrift.
+description: Þessi grein lýsir samþættingu gagna um vildarkort viðskiptavinar og vildarpunkta í tvöfaldri skráningu.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2019
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: ramasri
 ms.search.validFrom: 2020-03-10
 ms.openlocfilehash: 399682b3042c32fbf6fa200213f1b4982ed97174
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289115"

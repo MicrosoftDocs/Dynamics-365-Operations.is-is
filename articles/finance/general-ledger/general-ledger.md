@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6cceabe652429e1c50d27db865700926e211958a
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9066360"
@@ -57,11 +57,11 @@ Hvert fyrirtæki innheimtir og greiðir skatta til ýmissa skattyfirvalda. Reglu
 Í [útgáfuáætlunum Microsoft Dynamics 365](/dynamics365/release-plans/) sérðu hvaða nýju eiginleikar hafa verið fyrirhugaðir. 
 
 #### <a name="financial-reporting"></a>Fjárhagsskýrslugerð
-Farðu í [Fjárhagsskýrsluyfirlit](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) grein fyrir upplýsingar um fjárhagsskýrslur.
+Farið í greinina [Yfirlit Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) til að fá upplýsingar um fjárhagsskýrslur.
 
 #### <a name="blogs"></a>Blogg
 
-Þú getur fundið skoðanir, fréttir og aðrar upplýsingar um [Microsoft Dynamics 365 blogg](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 fjármál og rekstur - Fjárhagsblogg](https://community.dynamics.com/365/financeandoperations/b/financials).
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 fjármál og rekstur – Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar.
 
 Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika Dynamics 365 á einum stað.
 
@@ -71,7 +71,7 @@ Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 
 
 #### <a name="community-blogs"></a>Samfélagsblogg
 
-- [Það sem þú ættir að vita um fjárhagsbók í Dynamics 365 Finance](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
+- [Það sem þú ættir að vita um fjárhag í Dynamics 365 Finance](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
 
 

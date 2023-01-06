@@ -1,6 +1,6 @@
 ---
 title: TABLENAME2ID ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig TABLENAME2ID rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig TABLENAME2ID rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 12/12/2019
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: fe7ed336f2264e15e0a8a7305e1bcebb75b2cd07
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9268057"
@@ -47,7 +47,7 @@ Tölugildið sem verður til.
 
 ## <a name="usage-notes"></a>Notkunarbréf
 
-Framkvæmd þessarar aðgerð getur haft mismunandi niðurstöður í mismunandi tilfellum af Microsoft Dynamics 365 Fjármál, jafnvel þótt sama firmaheiti sé notað.
+Framkvæmd þessarar aðgerðar getur leitt til mismunandi niðurstaðna í mismunandi tilvikum af Microsoft Dynamics 365 Finance jafnvel þótt sama heiti fyrirtækis er notað.
 
 ## <a name="example"></a>Dæmi
 

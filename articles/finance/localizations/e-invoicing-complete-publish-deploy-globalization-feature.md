@@ -1,6 +1,6 @@
 ---
 title: Ljúka við, birta og setja upp altækan eiginleika
-description: Þessi grein veitir upplýsingar um líftíma hnattvæðingareiginleika.
+description: Í þessari grein er að finna upplýsingar um stuðningstíma altækra eiginleika.
 author: gionoder
 ms.date: 12/15/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ''
 ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
 ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/21/2022
 ms.locfileid: "9710836"
@@ -26,69 +26,69 @@ ms.locfileid: "9710836"
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="electronic-invoicing-feature-versions"></a>Útgáfur fyrir eiginleika rafrænna reikninga
+## <a name="electronic-invoicing-feature-versions"></a>Eiginleikaútgáfur rafrænnar reikningsfærslu
 
-Aðgerðir rafrænna reikninga eru útfærðar. Þegar ný útgáfa er búin til hækkar útgáfunúmerið sjálfkrafa.
+Eiginleikar rafrænnar reikningsfærslu fá úthlutað útgáfu. Þegar ný útgáfa er búin til hækkar útgáfunúmerið sjálfkrafa.
 
 Eiginleikaútgáfur rafrænnar reikningsfærslu fylgja stuðningstíma sem er með allt að þrjár stöður:
 
-- **Drög** – Þegar eiginleikaútgáfa hefur þessa stöðu geturðu breytt stillingareigindum hennar og gripum (til dæmis stillingum skráarsniðs).
-- **Heill** – Þessi staða gefur til kynna að þú hafir lokið við að breyta eiginleika útgáfunni og ætlar ekki að gera fleiri uppfærslur á henni. Þegar eiginleikaútgáfa hefur þessa stöðu geturðu ekki lengur breytt henni eða einhverjum af íhlutum hennar.
-- **Birt** – Þessi staða gefur til kynna að eiginleikaútgáfan hafi verið birt í alþjóðlegu geymslunni sem tengist fyrirtækinu þínu. Þegar eiginleikaútgáfa hefur þessa stöðu geturðu ekki lengur breytt henni eða einhverjum af íhlutum hennar.
+- **Drög** – Þegar útgáfa eiginleika hefur þessa stöðu er hægt að breyta skilgreiningareigindum og gervingum hennar (til dæmis skilgreiningum skráarsniðs).
+- **Lokið** – Þessi staða gefur til kynna að þú hafir lokið við að breyta útgáfu eiginleikans og ætlar ekki að gera fleiri uppfærslur á honum. Þegar eiginleikaútgáfa hefur þessa stöðu er ekki lengur hægt að breyta henni eða neinum þáttum hennar.
+- **Birt** – Þessi staða gefur til kynna að útgáfa eiginleika hafi verið birt í altækri geymslu sem tengist fyrirtækinu. Þegar eiginleikaútgáfa hefur þessa stöðu er ekki lengur hægt að breyta henni eða neinum þáttum hennar.
 
-Þú getur tilgreint an **Gildir frá** dagsetningu fyrir nýja útgáfu af eiginleikum rafrænna reikninga. Á þennan hátt er hægt að skilgreina sjálfgefna útgáfu sem hægt er að nota, eða sem hægt er að skrifa yfir þegar eiginleikinn er settur í þjónustuumhverfið.
+Hægt er að tilgreina dagsetningu í **Gildir frá** fyrir nýja útgáfu eiginleika fyrir rafræna reikningsgerð. Þannig getur þú skilgreint sjálfgefna útgáfu sem hægt er að nota eða sem hægt er að skrifa yfir þegar eiginleikinn er settur upp í þjónustuumhverfið.
 
-Fylgdu þessum skrefum til að breyta stöðu eiginleika útgáfu rafrænna reikninga.
+Til að breyta stöðu eiginleikaútgáfu rafrænnar reikningagerðar skal fylgja þessum skrefum.
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
 2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
-3. Vinstra megin við **Eiginleikar rafrænna reikninga** síðu, veldu rafræna reikningseiginleikann.
-4. Á **Útgáfur** flipann hægra megin á síðunni, veldu útgáfuna.
-5. Veldu **Breyta stöðu**, og veldu síðan **Heill** (ef núverandi staða er **Drög**) eða **Birt** (ef núverandi staða er **Heill**).
-6. Veldu í skilaboðareitnum **Já** til að staðfesta beiðnina.
+3. Vinstra megin við síðuna **Eiginleikar rafrænnar reikningsfærslu** skal velja eiginleika rafrænnar reikningsfærslu.
+4. Veljið flipann **Útgáfur** hægra megin á síðunni, veljið útgáfu.
+5. Veldu **Breyta stöðu** og veldu síðan **Ljúka** (ef núverandi staða er **Drög**) eða **Birt** (ef núverandi stöðu er **Lokið**).
+6. Veljið **Já** í skilaboðaglugganum til að staðfesta beiðnina.
 
-Handbók breyting frá **Heill** stöðu til **Birt** staða er valkvæð. Útgáfur rafrænna reikningaeiginleika eru sjálfkrafa uppfærðar í **Birt** stöðu þegar þeim er dreift í þjónustuumhverfið.
+Handvirk breyting úr **Ljúka** stöðu í **Birt** stöðu. Útgáfur eiginleika rafrænnar reikningagerðar eru sjálfkrafa uppfærðar **Birt** þegar þær eru settar upp í þjónustuumhverfið.
 
-Þú getur fylgst með stöðunni í **Staða eiginleika útgáfu** dálki á **Útgáfur** flipa.
+Hægt er að fylgjast með stöðunni í dálkinum **Staða útgáfu eiginleika** á flipanum **Útgáfur**.
 
-## <a name="deploy-feature-versions"></a>Settu upp eiginleikaútgáfur
+## <a name="deploy-feature-versions"></a>Eiginleikaútgáfur notaðar
 
-Í RCS notarðu **Dreifa** skipun til að birta eiginleika útgáfu rafrænna reikninga í markþjónustuumhverfið eða tengda forritið.
+Í RCS er skipunin **Nota** notuð til að birta eiginleikaútgáfu rafrænnar reikningsfærslu í markþjónustuumhverfinu eða tengdu forriti
 
-1. Vinstra megin við **Eiginleikar rafrænna reikninga** síðu, veldu rafræna reikningseiginleikann.
-2. Á **Útgáfur** flipann hægra megin á síðunni, veldu útgáfu rafrænna reikningaeiginleika sem þú vilt nota í þjónustuumhverfið eða tengda forritið. Valin útgáfa verður að hafa stöðuna **Heill** eða **Birt**.
-3. Veldu **Dreifa**, og veldu síðan einn eða báða eftirfarandi valkosta til að skilgreina markmið dreifingarinnar:
+1. Vinstra megin við síðuna **Eiginleikar rafrænnar reikningsfærslu** skal velja eiginleika rafrænnar reikningsfærslu.
+2. Á flipanum **Útgáfur** hægra megin á síðunni velurðu útgáfu rafræns reikningagerðareiginleika sem þú vilt nota í þjónustuumhverfið eða tengt forrit. Valin útgáfa verður að hafa stöðuna **Lokið** eða **Birt**.
+3. Veljið **Nota** og veljið síðan einn eða báða af eftirfarandi valkosta til að skilgreina markmið uppsetningarinnar:
 
-    - **Tengt forrit** – Þetta er valfrjálst, en verður að nota ef þú vilt að stillingarnar sem uppsetning forritsins býður upp á sé skrifuð í tilviki Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management sem áður var tengdur því. Til að sleppa þessari tegund af dreifingu þarf handvirka uppsetningu á færibreytunum sem skilgreindar eru í uppsetningu forritsins í Finance eða Supply Chain Management.
-    - **Þjónustuumhverfi** – Þetta setur upp útgáfu rafrænna innheimtuaðgerða í þjónustuumhverfið. Rafrænn reikningur er þá tilbúinn til að taka á móti og vinna úr rafrænum skjölum sem fjármála- eða birgðakeðjustjórnun sendir.
+    - **Tengt forrit** – Þetta er valfrjálst, en verður að nota ef þú vilt að skilgreining sem fylgja uppsetningu forritsins séu skrifaðar í tilfelli Microsoft Dynamics 365 Finance eða Dynamics 365 Supply Chain Management sem áður voru tengdar við það. Sleppa þessari tegund af útfærslu krefst handvirkrar skilgreiningar á færibreytum sem skilgreindar eru í uppsetningu forrits Finance eða Supply Chain Management.
+    - **Þjónustuumhverfi** - þetta setur upp eiginleika rafrænnar reikningsfærslu í þjónustuumhverfi Rafræn reikningsfærsla er þá tilbúin til að taka við og vinna úr rafrænum skjölum sem Finance eða Supply Chain Management sendir.
 
 > [!NOTE]
-> Venjulega muntu breyta færibreytum rafrænnar skýrslugerðar (ER) eiginleikans sem þarf að nota í þjónustuumhverfið. Breytingar á tengdu forriti verða sjaldgæfar. Þú ættir aðeins að dreifa nýjum útgáfum á tengda forritið þegar þú breytir samsvarandi breytum forritsins þíns.
+> Venjulega breytir þú færibreytum eiginleika rafrænnar skýrslugerðar sem verður að setja inn í þjónustuumhverfið. Breytingar á tengdu forriti eru sjaldgæfar. Þú ættir aðeins að setja inn nýjar útgáfur í tengda forritið þegar þú breytir samsvarandi færibreytum í forritinu þínu.
 
-Til að ákvarða hvort tiltekin útgáfa af eiginleikum rafrænna reikninga sé notuð í tiltekið umhverfi, skoðaðu upplýsingarnar á **Umhverfi** flipa.
+Til að ákvarða hvort tiltekin útgáfa af eiginleika rafrænnar reikningagerðar sé notuð í tilteknu umhverfi skaltu fara yfir upplýsingarnar á flipanum **Umhverfi**.
 
-## <a name="remove-feature-versions"></a>Fjarlægðu eiginleika útgáfur
+## <a name="remove-feature-versions"></a>Fjarlægja eiginleikaútgáfur
 
-Í RCS geturðu valið **Hætta við** að fjarlægja tiltekna útgáfu rafrænna reikningaeiginleika úr þjónustuumhverfi, ef hún var notuð þar.
+Í RCS er hægt að velja **Hætta við** til að fjarlægja tiltekna eiginleikaútgáfu rafrænnar reikningsfærslu úr þjónustuumhverfi, ef hún var notuð þar.
 
 > [!IMPORTANT]
-> The **Hætta við** hnappur virkar aðeins fyrir þjónustuumhverfi. Það fjarlægir ekkert úr tengdu forritinu fyrir núverandi rafræna reikningseiginleika.
+> Hnappurinn **Hætta við** virkar aðeins fyrir þjónustuumhverfi. Þetta fjarlægir ekki neitt úr tengdu forriti fyrir núverandi rafræna reikningagerð.
 
-## <a name="rebase-electronic-invoicing-features"></a>Endurbæta eiginleika rafrænna reikninga
+## <a name="rebase-electronic-invoicing-features"></a>Eiginleikar endurreikningur grunns rafrænnar reikningsfærslu
 
-Þegar einn eiginleiki rafrænna reikninga er fenginn frá öðrum geturðu valið **Endurbasa** að uppfæra afleidda eiginleikann með þeim breytingum sem hafa verið gerðar á upprunalega (foreldri) eiginleikanum.
+Þegar einn eiginleiki rafrænnar reikningsfærslu er tekinn frá öðrum, er hægt að velja **Endurreikna grunn** til að uppfæra afleiddan eiginleika með breytingunum sem hafa verið gerðar á upprunalega (yfir) eiginleikanum.
 
-Til að endurbæta afleidda útgáfu af eiginleika sem þú bjóst til skaltu fylgja þessum skrefum.
+Til að endurreikna grunn afleiddrar útgáfu af eiginleika sem þú bjóst til skaltu fylgja þessum skrefum.
 
-1. Fáðu nýjustu útgáfuna af eiginleikanum með því að flytja hann inn úr alþjóðlegu geymslunni. Fyrir frekari upplýsingar, sjá [Flytja inn eiginleiki frá alþjóðlegri geymslu](e-invoicing-import-feature-global-repository.md).
+1. Sækið nýjustu útgáfuna eiginleikans með því að flytja hana inn úr altæku geymslunni. Frekari upplýsingar er að finna í [Flytja inn eiginleika úr altækri geymslu](e-invoicing-import-feature-global-repository.md).
 2. Í listanum yfir eiginleika skal velja eiginleikann sem á að endurreikna grunn fyrir.
-3. Á **Útgáfur** flipa, veldu **Nýtt** til að búa til drög að útgáfu.
+3. Í flipanum **Útgáfur** skal velja **Ný** til að búa til drög að útgáfu.
 4. Veldu **Endurreikna grunn**.
-5. Í **Endurbasa** valmynd, veldu útgáfu eiginleikans sem þú vilt endurbyggja á.
+5. Í svarglugganum **Endurreikna grunn** skal velja útgáfu eiginleikans til að endurreikna til.
 6. Veldu **Í lagi**.
 7. Farið yfir íhluti eiginleikans og gerið allar nauðsynlegar breytingar.
 8. Veljið **Breyta stöðu** til að ljúka við eiginleika með endurreiknaðan grunn. Þegar endurreikning grunns er lokið er hægt að framkvæma fleiri aðgerðir.
 
-## <a name="get-a-specific-version-of-electronic-invoicing-features"></a>Fáðu sérstaka útgáfu af eiginleikum rafrænna reikninga
+## <a name="get-a-specific-version-of-electronic-invoicing-features"></a>Fáðu tiltekna útgáfu af eiginleikum rafrænnar reikningagerðar
 
-Þegar þú býrð til nýja útgáfu af eiginleikum rafrænna reikninga, býr kerfið til afrit af nýjustu eiginleikaútgáfunni. Til að nota eldri útgáfu af eiginleikanum sem grunn fyrir nýja útgáfu skaltu velja útgáfuna og svo **Fáðu þessa útgáfu skipun**. Ný drög að útgáfu eiginleikans eru búin til sem er afrit af völdu útgáfunni.
+Þegar ný útgáfa af eiginleika rafrænnar reikningargerðar er búin til býr kerfið til afrit af nýjustu útgáfu eiginleikans. Til að nota eldri útgáfu af eiginleikanum sem grunn fyrir nýja útgáfu skaltu velja útgáfuna og velja svo **Sækja þessa útgáfuskipun**. Ný uppkastsútgáfa af eiginleikanum er búin til sem er afrit af valda útgáfunni.

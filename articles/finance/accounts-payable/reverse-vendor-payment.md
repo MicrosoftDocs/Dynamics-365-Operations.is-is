@@ -1,6 +1,6 @@
 ---
 title: Bakfæra greiðslu lánardrottins
-description: Þessi grein lýsir muninum á því að bakfæra, eyða, ógilda og hafna greiðslu og hvernig á að bakfæra ávísun lánardrottins.
+description: Þessi grein lýsir muninum á að bakfæra, eyða, ógilda og hafna greiðslu og hvernig á að bakfæra ávísun lánardrottins.
 author: angelad116
 ms.date: 10/24/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: db82446d42a6d6fd69757d837fb8544e9b2fb224
 ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/25/2022
 ms.locfileid: "9715803"

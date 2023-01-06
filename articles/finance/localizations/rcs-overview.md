@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service
-description: Þessi grein veitir yfirlit yfir getu Regulatory Configuration Service (RCS) og útskýrir hvernig á að fá aðgang að þjónustunni.
+description: Í þessari grein er sýnt yfirlit yfir möguleika Regulatory Configuration Service (RCS) og útskýrt hvernig á að nálgast þessa þjónustu.
 author: kfend
 ms.date: 06/04/2021
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization
 ms.openlocfilehash: c04b13ef05424b27b5abcc2ac7490a7b75797bf5
 ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/22/2022
 ms.locfileid: "9713918"
@@ -63,7 +63,7 @@ RCS er almennt í boði á eftirfarandi svæðum:
 Fyrir heildarlista yfir svæði skal skoða [Dynamics 365 og Power Platform: Aðgengileiki, staðsetning gagna, tungumál og staðfærsla](https://aka.ms/dynamics_365_international_availability_deck).
 
 > [!NOTE] 
-> RCS er ekki í boði eins og er fyrir Government Community Cloud (GCC).
+> RCS er ekki í boði fyrir Government Community Cloud (GCC) eins og stendur.
 
 ## <a name="rcs-default-company"></a>Sjálfgefið fyrirtæki RCS
 

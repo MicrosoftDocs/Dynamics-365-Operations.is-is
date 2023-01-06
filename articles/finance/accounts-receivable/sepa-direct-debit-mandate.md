@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0bea974750a6ac62d8ddeea5d9d4457f4846cb79
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8891639"
@@ -26,7 +26,7 @@ ms.locfileid: "8891639"
 
 [!include [banner](../includes/banner.md)]
 
-SEPA-beingreiðsla (Single Euro Payment Area ) gerir kleift að safna fjármagn frá bankareikningi viðskiptavinar hjá lánardrottni svo lengi sem undirrituð umboðið hefur verið veitt af viðskiptavini í lánardrottins. Viðskiptavinurinn skrifar umboð sem heimilar lánardrottins til að innheimta greiðslu og veitir banka viðskiptavinar fyrirmæli um að greiða innheimtuna. Þessi grein er skipulögð til að sýna ferlið við að setja upp SEPA beingreiðsluheimildir.
+SEPA-beingreiðsla (Single Euro Payment Area ) gerir kleift að safna fjármagn frá bankareikningi viðskiptavinar hjá lánardrottni svo lengi sem undirrituð umboðið hefur verið veitt af viðskiptavini í lánardrottins. Viðskiptavinurinn skrifar umboð sem heimilar lánardrottins til að innheimta greiðslu og veitir banka viðskiptavinar fyrirmæli um að greiða innheimtuna. Þessari grein er raðað þannig að það sýnir ferli fyrir uppsetningu SEPA-umboð fyrir beingreiðslu.
 
 ## <a name="prerequisites"></a>Forkröfur
 Eftirfarandi tafla sýnir forkröfur sem verður að vera til staðar áður en byrjað er.

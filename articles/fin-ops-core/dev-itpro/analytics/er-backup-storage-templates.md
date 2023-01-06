@@ -1,6 +1,6 @@
 ---
 title: Öryggisafrit sniðmáta rafrænnar skýrslugerðar
-description: Þessi grein útskýrir hvernig á að nota rafræna skýrslugerð (ER) öryggisafrit til að endurheimta sniðmát.
+description: Þessi grein útskýrir hvernig á að nota varabúnaðargeymslu rafrænnar skýrslugerðar (ER) til að endurheimta sniðmát.
 author: kfend
 ms.date: 04/29/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERWorkspace, ERSolutionTable
 ms.openlocfilehash: 61e6119c50ee79d8623d1b49d273fb8c07f88944
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9281903"
@@ -28,11 +28,11 @@ ms.locfileid: "9281903"
 
 [Yfirlit rafrænnar skýrslugerðar (ER)](general-electronic-reporting.md) gerir fyrirtækjanotendum kleift að skilgreina snið fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa og svæða. Stillt ER-snið geta notað fyrirfram skilgreind sniðmát til að búa til útgönguskjöl á ýmsum sniðum, svo sem Microsoft Excel vinnubækur, Microsoft Word skjöl, eða PDF-skjöl. Sniðmátin eru fyllt með gögnum sem skilgreint gagnaflæði fyrir mynduð skjöl krefst.
 
-Hægt er að birta hvert skilgreint snið sem hluta af ER-lausn. Hverja ER lausn er hægt að flytja út úr einu tilviki fjármála og rekstrar og flytja inn í annað tilvik.
+Hægt er að birta hvert skilgreint snið sem hluta af ER-lausn. Hægt er að flytja út hverja lausn rafrænnar skýrslugerðar úr einu tilviki af fjármála- og reksturs og flytja hana inn í annað tilvik.
 
-ER ramminn notar [Stilla skjalastjórnun](../../fin-ops/organization-administration/configure-document-management.md) að geyma nauðsynleg sniðmát fyrir núverandi fjármála- og rekstrartilvik. Það fer eftir stillingum ER-ramma, Microsoft Azure Blob-geymslu eða Microsoft SharePoint hvort hægt er að velja möppu sem aðal geymslupláss fyrir sniðmát. (Sjá frekari upplýsingar [Stilla ramma rafrænnar skýrslugerðar (ER)](electronic-reporting-er-configure-parameters.md).) DocuValue taflan hefur einstaka skrá fyrir hvert sniðmát. Í hverri skrá geymir reiturinn **AccessInformation** slóð sniðmátaskrár sem er staðsett á skilgreindum geymslustað.
+Rammi rafrænnar skýrslugerðar notar [Stilla skjalastjórnun](../../fin-ops/organization-administration/configure-document-management.md) til að halda nauðsynlegum sniðmátum fyrir núverandi fjármála- og reksturs tilvik. Það fer eftir stillingum ER-ramma, Microsoft Azure Blob-geymslu eða Microsoft SharePoint hvort hægt er að velja möppu sem aðal geymslupláss fyrir sniðmát. (Sjá frekari upplýsingar [Stilla ramma rafrænnar skýrslugerðar (ER)](electronic-reporting-er-configure-parameters.md).) DocuValue taflan hefur einstaka skrá fyrir hvert sniðmát. Í hverri skrá geymir reiturinn **AccessInformation** slóð sniðmátaskrár sem er staðsett á skilgreindum geymslustað.
 
-Þegar þú stjórnar fjármálum og rekstrartilvikum gætirðu ákveðið að flytja núverandi tilvik á annan stað. Til dæmis gætirðu flutt framleiðslutilvikið í nýtt sandkassaumhverfi. Ef þú stillir ER-ramma til að geyma sniðmát í Blob-geymslu, vísar DocuValue-taflan í nýja sandkassaumhverfi til tilviks Blob-geymslu í framleiðsluumhverfi. Hins vegar er ekki hægt að fá aðgang að þessu tilviki úr sandkassanumhverfinu, vegna þess að flutningsferlið styður ekki flutning á gripum í Blob-geymslu. Þess vegna, ef þú reynir að keyra ER-snið sem notar sniðmát til að búa til viðskiptaskjöl, kemur undantekning fyrir, og þér er tilkynnt um það sniðmát sem vantar. Þér er einnig leiðbeint um að nota ER-hreinsunartólið til að eyða og flytja síðan aftur upp skilgreiningu ER-sniðsins sem inniheldur sniðmátið. Vegna þess að þú gætir haft nokkrar stillingar á ER-sniði, getur þetta ferli verið tímafrekt.
+Þegar þú stjórnar fjármála- og reksturs tilvikum þínum gætir þú ákveðið að flytja núverandi tilvik á aðra staðsetningu. Til dæmis gætirðu flutt framleiðslutilvikið í nýtt sandkassaumhverfi. Ef þú stillir ER-ramma til að geyma sniðmát í Blob-geymslu, vísar DocuValue-taflan í nýja sandkassaumhverfi til tilviks Blob-geymslu í framleiðsluumhverfi. Hins vegar er ekki hægt að fá aðgang að þessu tilviki úr sandkassanumhverfinu, vegna þess að flutningsferlið styður ekki flutning á gripum í Blob-geymslu. Þess vegna, ef þú reynir að keyra ER-snið sem notar sniðmát til að búa til viðskiptaskjöl, kemur undantekning fyrir, og þér er tilkynnt um það sniðmát sem vantar. Þér er einnig leiðbeint um að nota ER-hreinsunartólið til að eyða og flytja síðan aftur upp skilgreiningu ER-sniðsins sem inniheldur sniðmátið. Vegna þess að þú gætir haft nokkrar stillingar á ER-sniði, getur þetta ferli verið tímafrekt.
 
 Afritunargeymsla ER-sniðmátsaðgerðar getur hjálpað þér að búa til sniðmát þannig að þau eru alltaf tiltæk til að búa til viðskiptaskjöl.
 
@@ -46,7 +46,7 @@ Fyrir þennan möguleika er hvert sniðmát nýrrar stillingar ER snið í núve
 - Þú flytur inn nýja ER snið stillingu sem inniheldur sniðmát.
 - Þú klárar drög að útgáfu ER sniðstillingar sem inniheldur sniðmát.
 
-Öryggisafrit af sniðmátum eru flutt yfir í nýtt tilvik af fjármálum og rekstri sem hluti af forritagagnagrunninum.
+Afrit af sniðmátum eru flutt á nýtt tilvik af fjármála- og reksturs sem hluta af gagnagrunni forritsins.
 
 Ef sniðmáts með ER sniði er krafist til að búa til skjöl á útleið, til að vinna úr greiðslum lánardrottins, þ.m.t. myndun greiðsluráðgjafar og eftirlitsskýrslna, til dæmis, en nauðsynleg sniðmát er ekki að finna á aðalgeymslustaðnum, gerast eftirfarandi tilvik:
 
@@ -58,7 +58,7 @@ Ef sniðmáts með ER sniði er krafist til að búa til skjöl á útleið, til
 
 Til að setja upp **Keyra sjálfkrafa aðferðina við að endurheimta skemmd sniðmát í runu** færibreytuna skal ljúka eftirfarandi skrefum:
 
-1. Í fjármálum og rekstri, opnaðu **Stjórn stofnunarinnar \> Rafræn skýrslugerð \> Stillingar síða**.
+1. Í fjármála- og reksturs opnaðu síðuna **Fyrirtækisstjórnun \> Rafræn skýrslugerð \> Skilgreiningar**.
 2. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, í flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.
 3. Í valmyndinni **Færibreytur notanda** stillirðu nauðsynleg gildi fyrir færibreytuna **Keyra ferlið sjálfkrafa til að endurheimta brotin sniðmát í runu**.
 
@@ -83,7 +83,7 @@ Sjálfgefið er að kveikt er á ferlinu við að búa sjálfkrafa til afrit af 
 
 Ef þú stillir valkostinn **Hætta að búa til afrit af sniðmátum** á **Já** og vilt ekki geyma afrit sem áður voru gerð af sniðmátum skaltu velja **Hreinsa upp afritunargeymslu** á síðunni **Rafrænar skýrslufæribreytur**.
 
-Ef þú uppfærðir umhverfið þitt í fjármála- og rekstrarútgáfu 10.0.5 (október 2019) og vilt flytja í nýtt umhverfi sem inniheldur ER sniðstillingar sem hægt er að keyra, veldu **Fylltu út öryggisafrit** á **Rafrænar skýrslubreytur** síðu áður en flutningurinn á sér stað. Þessi hnappur hefur ferlið við að stofna afrit af öllum tiltækum sniðmátum svo hægt sé að geyma þau í varabúnaðargeymslu ER fyrir sniðmát.
+Ef umhverfi er uppfært í fjármála- og reksturs útgáfa 10.0.5 (október 2019) og ætlunin er að fara í nýtt umhverfi sem inniheldur skilgreiningar fyrir snið rafrænnar skýrslugerðar sem hægt er að keyra skal velja **Fylla út geymslu öryggisafrita** á síðunni **Rafrænar skýrslugerðarfæribreytur** áður en flutningurinn á sér stað. Þessi hnappur hefur ferlið við að stofna afrit af öllum tiltækum sniðmátum svo hægt sé að geyma þau í varabúnaðargeymslu ER fyrir sniðmát.
 
 ![Færibreytusíða rafrænnar skýrslugerðar.](./media/GER-BackupTemplates-5.png)
 
@@ -93,7 +93,7 @@ Farið í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Endurheimta
 
 ## <a name="supported-deployments"></a>Studdar uppsetninar
 
-Í fjármála- og rekstrarútgáfu 10.0.5 er eiginleikinn Backup storage of ER templates aðeins fáanlegur í skýjauppfærslum.
+Í fjármála- og reksturs útgáfu 10.0.5 er öryggisafritunargeymsla á sniðmátseiginleika rafrænnar skýrslugerðar aðeins tiltæk í skýjauppsetningu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

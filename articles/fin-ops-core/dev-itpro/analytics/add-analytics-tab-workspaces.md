@@ -1,6 +1,6 @@
 ---
 title: Bæta greiningu við vinnusvæði með Power BI Embedded
-description: Þessi grein sýnir hvernig á að fella inn a Power BI skýrslu á Analytics flipanum á vinnusvæði.
+description: Þessi grein sýnir hvernig á að fella inn Power BI skýrslu í flipann Greiningar á vinnusvæði.
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: b06821f02e6a80f2e15db7d0dd95ef6c9a30d5bc
 ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/28/2022
 ms.locfileid: "9206417"
@@ -24,10 +24,10 @@ ms.locfileid: "9206417"
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Þessi eiginleiki er studdur í fjármálum og rekstri (útgáfa 7.2 og nýrri).
+> Þessi eiginleiki er studdur í fjármálum- og rekstri (útgáfa 7.2 og síðar).
 
 ## <a name="introduction"></a>Kynning
-Þessi grein sýnir hvernig á að fella inn a Microsoft Power BI skýrslu um **Greining** flipa á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á **Greiningarflipa**.
+Þessi grein sýnir hvernig á að fella inn Microsoft Power BI skýrslu í flipann **Greiningar** á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á **Greiningarflipa**.
 
 ## <a name="prerequisites"></a>Frumskilyrði
 + Aðgangur að þróunarumhverfi sem keyrir á Verkvangsuppfærslu 8 eða nýrri.

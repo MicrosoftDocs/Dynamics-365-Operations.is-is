@@ -1,6 +1,6 @@
 ---
 title: NEWGUID-aðgerð rafrænnar skýrslugerðar
-description: Þessi grein veitir upplýsingar um hvernig NEWGUID rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig NEWGUID rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 09/09/2021
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 381dbcbe816c189c1966ffe962020d5aa2b1f3eb
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9274773"

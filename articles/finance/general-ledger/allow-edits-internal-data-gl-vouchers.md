@@ -17,7 +17,7 @@ ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
 ms.openlocfilehash: 6e346c6ff881d3a33743196b45247493fd19ed1d
 ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/22/2022
 ms.locfileid: "9573252"
@@ -27,27 +27,27 @@ ms.locfileid: "9573252"
 [!include[banner](../includes/banner.md)]
 
 
-Þegar þú bókar bókhaldsfærslur í fjárhag, **Lýsing** reiturinn er oft notaður til að geyma innri athugasemdir eða skjöl. Ef upplýsingarnar eru rangar getur það valdið ruglingi og gert tímabilslok erfiðari. Þessi eiginleiki gerir bókhaldsstjóra eða bókhaldsstjóra kleift að laga mistök með því að breyta **Lýsing** reit á bókuðum fylgiskjölum í aðalbók.
+Þegar bókhaldsfærslur eru bókaðar í fjárhag er reiturinn **Lýsing** oft notaður til að geyma innri athugasemdir eða gögn. Ef upplýsingarnar eru rangar getur það valdið ruglingi og gert lokun tímabils erfiðari. Þessi eiginleiki gerir bókhaldsstjórnanda eða yfirmanni bókhalds kleift að laga mistök með því að breyta reitnum **Lýsing** á bókuðum fylgiskjölum fjárhags.
 
-Breytingar á bókuðum fylgiskjölum í fjárhag takmarkast við gögn sem eru innri í eðli sínu. Þessi eiginleiki mun aldrei leyfa þér að breyta gögnum eins og upphæðum, bókunardagsetningum, fjárhagsreikningum og viðskiptagjaldmiðlinum. Breytingar á þeim gögnum munu hafa áhrif á ytri skýrslugerð reikningsskila og verður aðeins að gera með nýjum fylgiskjölum í aðalbók.
+Breytingar á birtum fylgiskjölum í fjárhaginum takmarkast við gögn sem eru innri. Þessi eiginleiki leyfir þér aldrei að breyta gögnum eins og upphæðum, bókunardagsetningum, fjárhagslyklum og gjaldmiðli færslu. Breytingar á þeim gögnum hafa áhrif á ytri skýrslugjöf fyrir fjárhagsskýrslur og verða aðeins gerðar með nýjum fylgiskjölum fjárhags.
 
 > [!NOTE]
-> Fyrir Dynamics 365 Finance útgáfu 10.0.29 er þessi eiginleiki takmarkaður við breytingar á **Lýsing** sviði.
+> Fyrir Dynamics 365 Finance útgáfu 10.0.29 er þessi eiginleiki takmarkaður við breytingar á reitnum **Lýsing**.
 
-## <a name="edit-internal-data-on-general-ledger-vouchers"></a>Breyta innri gögnum á fylgiskjölum í aðalbók
+## <a name="edit-internal-data-on-general-ledger-vouchers"></a>Breyta innri gögnum á fylgiskjölum fjárhags
 
-Áður en hægt er að breyta innri gögnum á fylgiskjölum í aðalbók verður þú að virkja **Leyfa breytingar á innri gögnum á fylgiskjölum í aðalbók** eiginleiki í **Eiginleikastjórnun** vinnurými.
-Eftir að eiginleikinn hefur verið virkjaður verður notandinn sem mun breyta innsendum fylgiskjölum að vera úthlutað í hlutverk bókhaldsstjóra eða bókhaldsstjóra. Þú getur bætt heimildum við önnur hlutverk líka með því að sérsníða öryggishlutverkin.
+Áður en hægt er að breyta innri gögnum á fylgiskjölum í fjárhag verður þú að virkja **Leyfa breytingar á innri gögnum á fylgiskjölum fjárhags** á vinnusvæðinu **Eiginleikastjórnun**.
+Eftir að eiginleikinn er virkur verður notandinn sem mun breyta bókuðum fylgiskjölum að fá úthlutað hlutverki bókhaldsstjórnanda eða yfirmanns bókhalds. Hægt er að bæta heimildum við önnur hlutverk með því að sérsníða öryggishlutverkin.
 
-Breytingarferlið er aðeins leyft frá færslumiðasíðunni.
+Aðeins er heimilt að breyta á síðunni „Færslur á fylgiskjal“.
 
-1. Fara til **Aðalbók** > **Fyrirspurnir og skýrslur** > **Viðskipti með skírteini**.
-2. Í **SysQuery** valmynd, sláðu inn leitarskilyrði til að velja fylgiskjöl.
-3. Veldu línurnar fyrir fylgiskjölin sem þú vilt breyta og veldu síðan **Breyta skírteini** > **Breyta innri fylgiskjalsgögnum**.
+1. Opnið **Fjárhag** > **Fyrirspurnir og skýrslur** > **Fylgiskjalafærslur**.
+2. Í svarglugganum **SysQuery** skaltu slá inn leitarskilyrði til að velja fylgiskjöl.
+3. Veljið línurnar fyrir fylgiskjölin sem á að breyta og síðan er valið **Breyta fylgiskjali** > **Breyta innri gögnum fylgiskjals**.
 
-    [![Vörubréfaviðskipti síða.](./media/voucher-transactions-page.png)](./media/voucher-transactions-page.png)
+    [![Síðan Færslur fylgiskjals.](./media/voucher-transactions-page.png)](./media/voucher-transactions-page.png)
     
-Á **Breyta innri fylgiskjalsgögnum** síðu eru eftirfarandi gögn sýnd fyrir hverja línu sem þú valdir:
+Á síðunni **Breyta innri gögnum fylgiskjals** eru eftirfarandi upplýsingar sýndar fyrir hverja línu sem þú valdir:
   
   - Fjárhagslykill
   - Heiti lykils
@@ -58,42 +58,42 @@ Breytingarferlið er aðeins leyft frá færslumiðasíðunni.
     [![Fylgiskjal færslubókar.](./media/edit-internal-voucher-data.png)](./media/edit-internal-voucher-data.png)
     
 > [!NOTE]
-> Aðeins **Ný lýsing** reit er hægt að breyta. Sjálfgefið passar gildið við gildið á **Núverandi lýsing** reit, svo að þú getir fljótt lagað minniháttar mistök í lýsingunni.
+> Aðeins er hægt að breyta reitnum **Ný lýsing**. Gildið samsvarar sjálfgefið gildinu í reitnum **Núverandi lýsing**, þannig að þú getur fljótt lagað minniháttar mistök í lýsingunni.
 
-4. Breyttu **Ný lýsing** reit í hverri röð, eða eyða lýsingunni úr hverri línu.
+4. Breyttu reitnum **Ný lýsing** í hverri línu, eða eyddu lýsingunni úr hverri línu.
 
-   Að öðrum kosti, ef uppfæra þarf margar línur með sama gildi, fylgdu þessum skrefum:
+   Ef uppfæra þarf margar línur með sama gildi er einnig hægt að fylgja þessum skrefum:
 
-      1. Veldu línurnar til að breyta og veldu síðan **Magnuppfæra valdar færslur**.
-      2. Í **Reitur til að breyta** reit, veldu reitinn sem á að breyta. Eins og er inniheldur uppflettingin aðeins **Ný lýsing** sviði.
-      3. Í **Nýtt gildi** reit, sláðu inn nýja lýsingu.
-      4. Veldu **Uppfæra**. Allar valdar færslur eru uppfærðar með nýja gildinu.
+      1. Veljið línurnar sem á að breyta og veljið síðan **Magnuppfæra valdar færslur**.
+      2. Í reitnum **Reitur til að breyta** skal velja reitinn sem á að breyta. Sem stendur inniheldur uppflettingin aðeins reitinn **Ný lýsing**.
+      3. Í reitinn **Nýtt gildi** er færð inn ný lýsing.
+      4. Veldu **Uppfæra**. Allar völdu færslurnar eru uppfærðar með nýja gildinu.
 
-      [![Magnuppfærslu valinna færsluglugga.](./media/bulk-update-selected-records.png)](./media/bulk-update-selected-records.png)
+      [![Svargluggi magnuppfærslu valdra færsla.](./media/bulk-update-selected-records.png)](./media/bulk-update-selected-records.png)
     
-5. Í **Ástæða fyrir breytingu** reit skaltu slá inn athugasemd til að útskýra hvers vegna breytingin var gerð. Þessi athugasemd er sýnd á **Endurskoðunarslóð breytinga á fylgiskjölum** síðu.
+5. Í reitnum **Ástæða breytinga** er sett inn athugasemd til að útskýra hvers vegna breytingin var gerð. Þessi athugasemd birtist á síðunni **Endurskoðunarslóð fylgiskjalsbreytinga**.
 
-   Hægt er að gera margar breytingar á sama skírteini og fylgst verður með hverri breytingu.
+   Hægt er að gera margar breytingar á sama fylgiskjalinu og fylgjast með hverri breytingu.
 
 ## <a name="audit-trail-of-voucher-edits"></a>Endurskoðunarslóð fylgiskjalsbreytinga
 
-Úttektarslóð er viðhaldið sérstaklega til að fylgjast með breytingunum sem eru gerðar með þessum eiginleika. Þú getur fengið aðgang að endurskoðunarferil breytinga á fylgiskjölum á tvo vegu:
+Slóð færslna er haldið sérstaklega til að fylgjast með þeim breytingum sem eru gerðar með þessum eiginleika. Hægt er að fá aðgang að endurskoðunarslóð fylgiskjalsbreytinga á tvo vegu:
 
-  - Fara til **Aðalbók** > **Fyrirspurnir og skýrslur** > **Viðskipti með skírteini**. Á **Fyrirspurnir um fylgiskjöl** síðu, veldu **Breyta skírteini** > **Endurskoðunarslóð breytinga á fylgiskjölum**. Endurskoðunarferillinn er aðeins sýndur fyrir valda fylgiskjalaskrá. 
+  - Opnið **Fjárhag** > **Fyrirspurnir og skýrslur** > **Fylgiskjalafærslur**. Á síðunni **Fylgiskjalsfyrirspurnir** skaltu velja **Breyta fylgiskjali** > **Endurskoðunarslóð fylgiskjalsbreytinga**. Endurskoðunarslóðin birtist aðeins fyrir valda fylgiskjalsfærslu. 
    
-    Með því að opna fyrirspurnina á þennan hátt geturðu einbeitt þér að öllum breytingum sem gerðar voru á einni fylgiskjalsskrá.
+    Með því að opna fyrirspurnina á þennan hátt getur þú einbeitt þér að öllum breytingum sem gerðar voru á einni fylgiskjalsfærslu.
   
-  - Farðu í **Fjárhagsbók** >**Reglubundin verkefni** > **Endurskoðunarslóð breytinga á fylgiskjölum**. Í svarglugganum, sláðu inn skilyrði til að tilgreina fylgiskjölin sem þú vilt skoða endurskoðunarferil breytinga fyrir. Til að skoða endurskoðunarferil allra fylgiskjala, skildu viðmiðin eftir auð og veldu **Allt í lagi**. 
+  - Farðu í**Fjárhagur** > **Reglubundin verkefni** > **Endurskoðunarslóð fylgiskjalsbreytinga**. Færið inn skilyrði í svargluggann til að tilgreina fylgiskjölin sem á að skoða endurskoðunarslóð breytinga fyrir. Til að skoða endurskoðunarslóð fyrir öll fylgiskjöl skaltu skilja viðmiðin eftir auð og velja **Í lagi**. 
     
-    Með því að opna fyrirspurnina á þennan hátt er hægt að sía eftir breytingum sem gerðar voru á tilteknum degi eða af tilteknum notanda.
+    Með því að opna fyrirspurnina á þennan hátt er hægt að sía eftir breytingum sem voru gerðar á tilteknum degi eða af tilteknum notanda.
 
-The **Endurskoðunarslóð breytinga** síða sýnir eftirfarandi upplýsingar:
+Á síðunni **Endurskoðunarslóð breytinga** birtast eftirfarandi upplýsingar:
 
-- **Búin til dagsetning og tími** - Dagsetning og tími breytingarinnar.
-- **Ástæða fyrir breytingu** – Ástæðan fyrir því að notandinn kom inn fyrir breytinguna.
-- **Búið til af** - Notandinn sem gerði breytinguna.
+- **Stofnuð dagsetning og tími** – Dagsetning og tími breytingar.
+- **Ástæða breytingar** – Ástæðan fyrir því að notandinn sló inn fyrir breytinguna.
+- **Búið til af** – Notandinn sem gerði breytinguna.
 
-Til að skoða upplýsingar um hverja endurskoðunarslóð skaltu kafara niður í **Búin til dagsetning og tími** gildi. The **Skoðaðu breytta fylgiseiginleika** síða sýnir sömu upplýsingar og upprunalega breytingasíðan, þar á meðal fyrri lýsing og uppfærða lýsing.
+Til að skoða upplýsingar um hverja endurskoðunarslóð, kafa niður á gildið **Stofnuð dagsetning og tími**. Síðan **Skoða breytta eiginleika fylgiskjals** sýnir sömu upplýsingar og á upphaflega síðunni, þar á meðal fyrri lýsinguna og uppfærðu lýsinguna.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

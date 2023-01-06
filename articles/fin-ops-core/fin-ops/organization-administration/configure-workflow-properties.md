@@ -1,6 +1,6 @@
 ---
 title: Skilgreining verkflæðiseiginleika
-description: Þessi grein útskýrir hvernig á að stilla ýmsa eiginleika verkflæðis.
+description: Þessi grein útskýrir hvernig skilgreina á mismunandi eiginleika verkflæðis.
 author: ChrisGarty
 ms.date: 07/07/2020
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ec604ed9614b80b3b24c670911b4ea480d6131e2
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8876442"
@@ -28,7 +28,7 @@ ms.locfileid: "8876442"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þessi grein útskýrir hvernig á að stilla ýmsa eiginleika verkflæðis.
+Þessi grein útskýrir hvernig skilgreina á mismunandi eiginleika verkflæðis.
 
 Opna verkflæðið í verkflæðisritlinum til að skilgreina eiginleika verkflæðis. Smellið á vinnusvæði verkflæðisritlinum, og smellið síðan á **Eiginleika** til að opna **Eiginleika** síðu. Notið síðan eftirfarandi ferli til að stilla mismunandi eiginleika fyrir verkflæðið.
 

@@ -1,6 +1,6 @@
 ---
 title: Sniðmát áfanga
-description: Þessi grein útskýrir hvernig á að setja upp áfangainnheimtuvirkni í áskriftarinnheimtu.
+description: Þessi skrá útskýrir hvernig á að setja upp áfangainnheimtuvirkni í áskriftarinnheimtu.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
 ms.openlocfilehash: d3c2cf751e4998c73bc3816e5b81e8d5963c8e53
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8856771"
@@ -25,103 +25,103 @@ ms.locfileid: "8856771"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að skilgreina sniðmát fyrir áfangareikningavirkni í áskriftarreikningi. Fyrir hverja línu í áfangasniðmátinu er hægt að skilgreina úthlutunarprósentu eða upphæð. Þú getur síðan úthlutað áfangasniðmátinu til greiðsluáætlunarliða sem nota áfangareikningavirknina.
+Í þessari grein er útskýrt hvernig á að skilgreina sniðmát fyrir aðgerð áfangagreiðslu í áskriftargreiðslu. Fyrir hverja línu í áfangasniðmátinu er hægt að skilgreina úthlutunarhlutfall eða upphæð. Síðan er hægt að úthluta áfangasniðmáti á vörur greiðsluáætlunar sem nota aðgerð áfangagreiðslu.
 
 ## <a name="add-a-template"></a>Bæta við sniðmáti
 
-Til að bæta við áfangasniðmáti skaltu fylgja þessum skrefum.
+Til að bæta við áfangasniðmáti skal fylgja þessum skrefum.
 
-1. Fara til **Innheimta áskriftar \> Endurtekinn samningsreikningur \> Uppsetning \> Áfangasniðmát**.
+1. Opnið **Áskriftargreiðslur \> Endurteknar samningsgreiðslur \> Uppsetning \> Áfangasniðmát**.
 2. Veljið **Nýtt**.
-3. Í **Áfangasniðmát** reit, sláðu inn einstakt auðkenni fyrir nýja sniðmátið.
+3. Einkvæmt kenni fyrir nýju mælinguna er fært í reitinn **Sniðmát áfanga**.
 4. Í reitnum **Lýsing** skal færa inn lýsingu.
-5. Í **Úthlutunaraðferð** reit, veldu úthlutunaraðferð.
-6. Valfrjálst: Í **Heildarupphæð** reit, tilgreinið heildarupphæð fyrir sniðmátið.
-7. Til að bæta við línu skaltu velja **Bæta við**. Þá, í **Vörunúmer** reit, veldu vörunúmerið fyrir nýju línuna.
-8. Fylgdu einu af þessum skrefum, allt eftir gildinu sem þú valdir í **Úthlutunaraðferð** reit:
+5. Í svæðinu **Úthlutunaraðferð** skal velja úthlutunaraðferð.
+6. Valfrjálst: Í reitnum **Heildarupphæð** skal tilgreina heildarupphæð fyrir sniðmátið.
+7. Veljið **Bæta við** til að bæta við línu. Síðan skal velja vörunúmerið fyrir nýju línuna á svæðinu **Vörunúmer**.
+8. Fylgdu einu af þessum skrefum, allt eftir gildinu sem þú valdir á svæðinu **Úthlutunaraðferð**:
 
-    - Ef þú valdir **Hlutfall** sem úthlutunaraðferð, í **Hlutfall** reit, tilgreinið úthlutunarprósentu fyrir hverja línu. Ef þú tilgreinir prósentur er summan af prósentum sem eru sýnd í **Heildarhlutfall** sviði verður að vera jafn **100**.
-    - Ef þú valdir **Breytileg upphæð** sem úthlutunaraðferð, í **Magn** reit, tilgreinið upphæðina fyrir hverja línu.
-    - Ef þú valdir **Jöfn upphæð** sem úthlutunaraðferð þarftu ekki að tilgreina upphæð. Hver lína verður uppfærð með réttri prósentu og upphæð, byggt á fjölda hluta sem bætt er við sniðmátið.
+    - Ef **Prósenta** var valin sem úthlutunaraðferð skal í reitnum **Prósenta** tilgreina úthlutunarprósentu fyrir hverja línu. Ef prósentur eru tilgreindar verður samanlögð prósenta sem sýnt er í reitnum **Samtals prósenta** að vera jafnt og **100**.
+    - Ef **Breytileg upphæð** er valið sem úthlutunaraðferð skal í reitnum **Upphæð** tilgreina upphæðina fyrir hverja línu.
+    - Ef þú valdir **Jöfn upphæð** sem úthlutunaraðferð þarftu ekki að tilgreina upphæð. Hver lína verður uppfærð með réttri prósentu og upphæð samkvæmt vörufjölda sem bætt er við sniðmátið.
 
 9. Veldu **Vista**.
 
-## <a name="delete-a-template"></a>Eyða sniðmáti
+## <a name="delete-a-template"></a>Sniðmáti eytt
 
-Til að eyða áfangasniðmáti skaltu fylgja þessum skrefum.
+Til að eyða áfangasniðmáti skal fylgja þessum skrefum.
 
-1. Veldu eina eða fleiri línur til að eyða og veldu síðan **Eyða**.
-2. Þegar þú ert beðinn um að staðfesta aðgerðina skaltu velja **Já**.
+1. Veljið eina eða fleiri línur til að eyða og veljið svo **Eyða**.
+2. Ef þú færð kvaðningu um að staðfesta aðgerðina velurðu **Já**.
 
-## <a name="milestone-template-fields"></a>Áfangasniðmátareiti
+## <a name="milestone-template-fields"></a>Áfangasniðmátsreitir
 
-The **Áfangasniðmát** síða inniheldur eftirfarandi reiti.
+Síðan **Sniðmát áfanga** inniheldur eftirfarandi reiti.
 
-| Reitur | Lýsing |
+| Svæði | Lýsing |
 |-------|-------------| 
-| Sniðmát áfanga | Einstakt auðkenni áfangasniðmátsins. |
-| Lýsing | Lýsing á áfangasniðmáti. |
-| Úthlutunaraðferð | <p>Veldu úthlutunaraðferð:</p><ul><li>**Prósenta af verklokum** – Uppsafnað fullnaðargildi er notað fyrir hverja línu.</li><li>**Hlutfall** – Hægt er að tilgreina prósentuupphæð fyrir úthlutunina. Summa allra prósenta verður að vera 100.</li><li>**Breytileg upphæð** – Hægt er að tilgreina upphæð fyrir úthlutunina. Úthlutunarupphæð er tilgreind á viðskiptastigi.</li><li>**Jöfn upphæð** – Úthlutunarprósenturnar eru sjálfkrafa reiknaðar og skipt jafnt á milli liða í sniðmátinu.</li></ul> |
-| Heildarfjöldi daga, heildarfjöldi tíma | Tilgreindu áfangaupphæð fyrir sniðmátið. |
+| Sniðmát áfanga | Einkvæmt auðkenni áfangasniðmáts. |
+| Lýsing | Lýsing á áfangasniðinu. |
+| Úthlutunaraðferð | <p>Velja úthlutunaraðferð:</p><ul><li>**Prósentum lokið** – Uppsafnað lokagildi er notað fyrir hverja línu.</li><li>**Prósenta** – Hægt er að tilgreina prósentuupphæð fyrir úthlutunina. Samtala allra prósenta verður að vera jöfn 100.</li><li>**Breytileg upphæð** – Hægt er að tilgreina upphæð fyrir úthlutunina. Úthlutunarupphæð er tilgreind á færslustigi.</li><li>**Jöfn upphæð** – Úthlutunarprósenturnar eru reiknaðar sjálfkrafa og skipt jafnt á vörurnar í sniðmátinu.</li></ul> |
+| Heildarfjöldi daga, heildarfjöldi tíma | Tilgreinið áfangaupphæð fyrir sniðmátið. |
 | **Línur** | |
-| Vörunúmer | Veldu vörunúmer fyrir áfangasniðmátið. |
+| Vörunúmer | Velja vörunúmerið fyrir áfangasniðmátið. |
 | Afurðarheiti | Heiti vörunnar. |
-| Prósenta | <p>Sláðu inn úthlutunarprósentu fyrir línuna:</p><ul><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Hlutfall**, tilgreindu prósentuna fyrir línuna.</li><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Jöfn upphæð**, hlutfallinu er sjálfkrafa skipt í jafna prósentu, byggt á fjölda atriða í sniðmátinu.</li></ul><p>Summa allra prósentanna verður að vera 100.</p><p>Ef að **Heildarupphæð** gildi er tilgreint í hausnum og þú breytir **Hlutfall** gildi fyrir línuna, the **Magn** gildi er uppfært. Aftur á móti, ef þú breytir **Magn** gildi, the **Hlutfall** gildi er uppfært.</p> |
-| Upphæð | <p>Úthlutunarupphæð fyrir línuna:</p><ul><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Breytileg upphæð**, tilgreindu upphæðina fyrir línuna.</li><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Jöfn upphæð**, upphæðinni er sjálfkrafa skipt í jafnar upphæðir, byggt á fjölda hluta í sniðmátinu og **Heildarupphæð** gildi sem er tilgreint í hausnum.</li></ul><p>Summa allra upphæðanna verður að vera jafngild **Heildarupphæð** gildi sem er tilgreint í hausnum.</p><p>Ef að **Heildarupphæð** gildi er tilgreint í hausnum og þú breytir **Magn** gildi fyrir línuna, the **Hlutfall** gildi er uppfært. Aftur á móti, ef þú breytir **Hlutfall** gildi, the **Magn** gildi er uppfært.</p> |
+| Prósenta | <p>Sláðu inn úthlutunarprósenta fyrir línuna:</p><ul><li>Ef reiturinn **Úthlutunaraðferð** er stilltur á **Prósenta** skal tilgreina prósentuna fyrir línuna.</li><li>Ef reiturinn **Úthlutunaraðferð** er stilltur á **Jöfn upphæð** er prósentunni sjálfkrafa skipt niður í jafnar prósentur út frá vörufjölda í sniðmátinu.</li></ul><p>Samtala allra hlutfalla verður að vera jöfn 100.</p><p>Ef gildið **Heildarupphæð** er tilgreint í hausnum og gildinu **Prósenta** er breytt fyrir línuna er gildið **Upphæð** uppfært. Ef þú breytir aftur á móti gildi **Upphæð** er gildi **Prósenta** uppfært.</p> |
+| Upphæð | <p>Úthlutunarupphæðin fyrir línuna:</p><ul><li>Ef reiturinn **Úthlutunaraðferð** er stilltur á **Breytileg upphæð**, tilgreinið upphæð fyrir línuna.</li><li>Ef reiturinn **Úthlutunaraðferð** er stilltur á **Jöfn upphæð** er upphæðinni sjálfkrafa skipt niður í jafnar upphæðir út frá vörufjöldanum í sniðmátinu og gildinu **Heildarupphæð** sem er tilgreint í hausnum.</li></ul><p>Samtala allra upphæðanna verður að vera jöfn gildi **Heildarupphæð** sem er tilgreind í hausnum.</p><p>Ef gildið **Heildarupphæð** er tilgreint í hausnum og gildinu **Upphæð** er breytt fyrir línuna er gildið **Prósenta** uppfært. Ef þú breytir aftur á móti gildi **Prósenta** er gildi **Upphæð** uppfært.</p> |
 | **Samtala** | |
-| Prósentusamtala | Summa prósenta. Summa allra prósenta verður að vera 100. |
-| Heildarfjöldi daga, heildarfjöldi tíma | Summan af **Magn** gildi fyrir allar línur. Þessi summa verður að vera jafngild **Heildarupphæð** gildi sem er tilgreint í hausnum. |
-| Upphæð eftirstöðva | Eftirstandandi upphæð. Gildið er reiknað sem **Heildarupphæð** gildi frá haus að frádregnum summan af **Magn** gildi fyrir allar línur.|
+| Prósentusamtala | Samtala prósenta. Samtala allra prósenta verður að vera jöfn 100. |
+| Heildarfjöldi daga, heildarfjöldi tíma | Summa gilda fyrir **Upphæð** fyrir allar línur. Þessi summa verður að vera jöfn gildi **Heildarupphæð** sem er tilgreind í hausnum. |
+| Upphæð eftirstöðva | Upphæð eftirstöðvanna. Gildið er reiknað sem gildið **Heildarupphæð** úr hausnum mínus summan af gildunum **Upphæð** fyrir allar línurnar.|
 
 ## <a name="milestone-allocation"></a>Úthlutun áfanga
 
-Áður en þú byrjar að nota áfangavirkni, ættir þú að klára þessi verkefni.
+Áður en byrjað er að nota áfangavirkni ætti að ljúka þessum verkefnum.
 
-1. Bættu við einu eða fleiri áfangasniðmátum.
-2. Búðu til greiðsluáætlunarhóp. Tilgreindu **Áfangi** sem vörutegund og veldu sniðmát.
-3. Á **Uppsetning hlutar** síða (**Innheimta áskriftar \> Endurtekinn samningsreikningur \> Uppsetning \> Hlutir**), veldu vörutengsl og áfangasniðmát fyrir vöruuppsetninguna.
+1. Bæta við einum eða fleiri áfangasniðmátum.
+2. Stofnið greiðsluáætlunarflokk. Tilgreinið **Áfangi** sem vörutegund og veljið sniðmát.
+3. Á **Vöruuppsetning** síðunni (**Áskriftargreiðslur \> Endurteknar samningsgreiðslur \> Uppsetning \> Vörur**), sskal velja vöruvensl og áfangasniðmát fyrir uppsetningu vörunnar.
 
-Eftir að þú hefur búið til áfangasniðmát, innheimtuáætlunarhópa og hluti geturðu búið til innheimtuáætlun sem notar áfangaaðgerðina.
+Þegar áfangasniðmátið, greiðsluáætlunarflokkarnir og vörurnar hafa verið búin til er hægt að búa til greiðsluáætlun sem notar áfangaaðgerðina.
 
-Til að setja upp innheimtuáætlun sem notar áfangastaði skaltu fylgja þessum skrefum.
+Til að setja upp greiðsluáætlun sem notar áfanga skal fylgja þessum skrefum.
 
-1. Frá **Allar/virkar innheimtuáætlanir** lista á **Innheimtuáætlanir** síðu, veldu **Nýtt**.
-2. Á **Allar innheimtuáætlanir** síðu, búðu til nýja innheimtuáætlun og tilgreindu viðskiptavinareikning og upphafsdag.
-3. Í **Innheimtuáætlunarlínur** kafla, veldu **Bæta við línu**. Bættu síðan við vörunúmeri og stilltu **Tegund vöru** sviði til **Áfangi**.
+1. Á listanum **Allar/Virkar greiðsluáætlanir** á síðunni **Greiðsluáætlun** skal velja **Ný**.
+2. Á síðunni **Allar greiðsluáætlanir** skal búa til nýja greiðsluáætlun og tilgreina viðskiptavinalykil og upphafsdagsetningu.
+3. Í hlutanum **Greiðsluáætlunarlínur** skal velja **Bæta við línu**. Bætið síðan við vörunúmeri og stillið svæðið **Vörutegund** á **Áfangi**.
 
-    Ef sjálfgefið áfangasniðmát er sett upp fyrir vöruna er áfangaviðburðum sjálfkrafa bætt við innheimtuáætlunarlínurnar. Lokadagsetningar eru auðar fyrir áfangalínur.
+    Ef sjálfgefið áfangasniðmát er sett upp fyrir vöruna er áfangatilvikunum sjálfkrafa bætt við greiðsluáætlunarlínurnar. Lokadagsetningar eru auðar fyrir áfangalínur.
 
-    Ef ekkert áfangasniðmát er sett upp fyrir hlutinn skaltu velja **Áfangaúthlutun**. Síðan, á **Áfangaúthlutun** síðu, veldu áfangasniðmát og gerðu allar nauðsynlegar uppfærslur. Veldu síðan **Loka** til að fara aftur í innheimtuáætlunina og klára að búa til innheimtuáætlunina.
+    Ef ekkert áfangasniðmát er sett upp fyrir vöruna skal velja **Úthlutun áfanga**. Á síðunni **Áfangaúthlutun** skal síðan velja áfangasniðmát og gera nauðsynlegar uppfærslur. Veldu síðan **Loka** til að fara aftur í greiðsluáætlunina og kláraðu að búa til greiðsluáætlunina.
 
-4. Til að búa til reikninga fyrir innheimtuáætlunina verður þú að uppfæra lokadagsetningu fyrir hvern áfangaviðburð. Fyrir eina innheimtuáætlun geturðu uppfært lokadagsetningu tímamótaviðburðarins á innheimtuáætlunarlínunum. Til að uppfæra margar innheimtuáætlanir skaltu velja **Uppfærsla lokadagsetningarferlis**.
-5. Eftir að lokadagsetningin er uppfærð geturðu búið til reikninginn. Fyrir eina innheimtuáætlun, veldu **Búðu til reikning** á **Allar innheimtuáætlanir** síðu. Til að búa til reikninga fyrir margar innheimtuáætlanir skaltu velja **Búðu til reikning** eða **Búðu til lotuvinnslu reikninga** undir **Reglubundin verkefni**.
+4. Til að búa til reikninga fyrir greiðsluáætlunina þarf að uppfæra lokadagsetningu fyrir hvert áfangatilvik. Fyrir eina greiðsluáætlun er hægt að uppfæra lokadagsetningu fyrir áfangatilvik í greiðsluáætlunarlínum. Veljið **Uppfæra ferli fyrir dagsetningu loka** til að uppfæra margar greiðsluáætlanir.
+5. Þegar lokadagur hefur verið uppfærður er hægt að stofna reikninginn. Fyrir eina greiðsluáætlun skaltu velja **Mynda reikning** á síðunni **Allar greiðsluáætlanir**. Til að búa til reikninga fyrir margar greiðsluáætlanir skal velja **Búa til reikning** eða **Búa til runuvinnslu reiknings** undir **Reglubundin verk**.
 
-## <a name="edit-milestone-allocation-on-a-billing-schedule-line"></a>Breyta áfangaúthlutun á innheimtuáætlunarlínu
+## <a name="edit-milestone-allocation-on-a-billing-schedule-line"></a>Breyta áfangaúthlutun á greiðsluáætlunarlínu
 
-Fylgdu þessum skrefum til að breyta áfangaúthlutun á greiðsluáætlunarlínu.
+Til að breyta áfangaúthlutun á greiðsluáætlunarlínu skaltu fylgja þessum skrefum.
 
-1. Á **Innheimtuáætlanir** síðu >**Allar eða virkar innheimtuáætlanir**, í **Dagskrá númer** reit, veldu áætlunarnúmer innheimtuáætlunarinnar.
-2. Í **Innheimtuáætlunarlínur** kafla, slá inn hlut, tilgreina **Áfangi** sem hlutinn og veldu **Áfangaúthlutun**.
-3. Í **Áfangasniðmát** reit, veldu áfangasniðmát.
-4. Veldu **Ferli**. Áfangasniðmátslínunum er sjálfkrafa bætt við innheimtuáætlunarlínurnar.
+1. Á síðunni **Greiðsluáætlanir** > **Allar eða virkar greiðsluáætlanir**, í reitnum **Númer áætlunar**, skal velja áætlunarnúmer greiðsluáætlunarinnar.
+2. Í hlutanum **Greiðsluáætlunarlínur** skal færa inn vöru, tilgreina **Áfanga** sem vöruna og velja **Úthlutun áfanga**.
+3. Í reitnum **Sniðmát áfanga** skal velja áfangasniðmát.
+4. Veljið **Ferli**. Línum fyrir áfangasniðmát er sjálfkrafa bætt við línur greiðsluáætlunarinnar.
 
-## <a name="milestone-allocation-fields"></a>Áfangaúthlutunarreitir
+## <a name="milestone-allocation-fields"></a>Reitir áfangaúthlutunar
 
-The **Áfangaúthlutun** síða inniheldur eftirfarandi reiti.
+Á síðunni **Úthlutun áfanga** eru eftirfarandi reitir.
 
-| Reitur | Lýsing |
+| Svæði | Lýsing |
 |-------|-------------|
-| Yfirvara | Vörunúmer foreldris. |
-| Útvíkkað verð | <p>Hækkað verð á hlutnum. Gildið samsvarar **Virði** gildi innheimtuáætlunarlínunnar.</p></p>Fyrir áfanga yfirliði er sjálfgefið gildi **Heildarupphæð** gildi sem er tilgreint fyrir áfangasniðmátið. Ef heildarupphæðin er 0 (núll), er sjálfgefið gildi **Virði** gildi innheimtuáætlunarlínunnar.</p> |
-| Sniðmát áfanga | Auðkenni áfangasniðmáts línunnar. |
-| Lýsing sniðmáts | Lýsing á áfangasniðmáti. |
+| Yfirvara | Vörunúmer yfireiningarinnar. |
+| Útvíkkað verð | <p>Reiknað verð vörunnar. Gildið samsvarar gildi **Nettóupphæð** á greiðsluáætlunarlínunni.</p></p>Fyrir yfirvöru áfanga er sjálfgefna gildið **Heildarupphæð** sem er tilgreint fyrir áfangasniðmátið. Ef heildarupphæðin er 0 (núll) er sjálfgefið gildi gildið **Nettóupphæð** fyrir greiðsluáætlunarlínuna.</p> |
+| Sniðmát áfanga | Auðkenni áfangasniðmáts línuvörunnar. |
+| Lýsing sniðmáts | Lýsing á áfangasniðinu. |
 | Úthlutunaraðferð | Úthlutunaraðferðin sem er notuð fyrir áfangasniðmátið. |
-| **Línur** | Sjálfgefin gildi fyrir allar línur eru byggðar á völdum áfangasniðmáti. Þú getur breytt þeim eftir þörfum. |
-| Vörunúmer | Vörunúmer fyrir áfangaúthlutunarsniðmát. |
-| Afurðarheiti | Vöruheitið. |
-| Prósenta | <p>Úthlutunarprósenta fyrir línuna. Summa allra prósentanna verður að vera 100.</p><p>Ef þú breytir **Hlutfall** gildi fyrir línuna, the **Virði** gildi er uppfært. Aftur á móti, ef þú breytir **Virði** gildi, the **Hlutfall** er uppfært.</p> |
-| Nettóupphæð | <p>Úthlutunarupphæð fyrir línuna. Summa nettóupphæða fyrir allar línur verður að vera jöfn **Framlengt verð** gildi sem er tilgreint í hausnum.</p><p>Ef þú breytir **Virði** gildi fyrir línuna, the **Hlutfall** gildi er uppfært. Aftur á móti, ef þú breytir **Hlutfall** gildi, the **Virði** gildi er uppfært.</p> |
+| **Línur** | Sjálfgefin gildi fyrir allar línur er byggð á völdu áfangasniðmáti. Hægt er að breyta þeim eftir þörfum. |
+| Vörunúmer | Vörunúmerið fyrir sniðmátið áfangaúthlutunar. |
+| Afurðarheiti | Afurðarheitið. |
+| Prósenta | <p>Úthlutunarprósenta fyrir línuna. Samtala allra hlutfalla verður að vera jöfn 100.</p><p>Ef gildi **Prósenta** er breytt fyrir línuna er gildið **Nettóupphæð** uppfært. Ef þú breytir aftur á móti gildi **Nettóupphæð** er **Prósenta** uppfært.</p> |
+| Nettóupphæð | <p>Úthlutunarupphæðin fyrir línuna. Summa nettóupphæða fyrir allar línurnar verður að vera jafnt og gildið **Heildarverð** sem tilgreint er í hausnum.</p><p>Ef gildinu **Nettóupphæð** er breytt fyrir línuna er gildið **Prósenta** uppfært. Á hinn bóginn, ef **Prósenta** er breytt er gildið **Nettóupphæð** uppfært.</p> |
 | **Samtala** | |
-| Heildarprósenta | Summan af **Hlutfall** gildi fyrir allar línur. Þessi summa verður að vera 100. |
-| Heildarfjöldi daga, heildarfjöldi tíma | Summan af **Virði** gildi fyrir allar línur. Þessi summa verður að vera jafngild **Framlengt verð** gildi sem er tilgreint í hausnum. |
-| Upphæð eftirstöðva | Eftirstandandi upphæð. Gildið er reiknað sem **Framlengt verð** gildi frá haus að frádregnum summan af **Virði** gildi fyrir allar línur. Lokaupphæðin verður að vera 0 (núll). |
+| Heildarprósenta | Summa gilda **Prósenta** fyrir allar línur. Þessi summa verður að vera 100. |
+| Heildarfjöldi daga, heildarfjöldi tíma | Summa gilda **Nettóupphæð** fyrir allar línur. Þessi summa verður að vera jöfn gildinu **Heildarverð** sem er tilgreint í hausnum. |
+| Upphæð eftirstöðva | Upphæð eftirstöðvanna. Gildið er reiknað sem gildið **Heildarverð** úr hausnum mínus summan af gildunum **Nettóupphæð** fyrir allar línur. Lokaupphæð verður að vera 0 (núll). |

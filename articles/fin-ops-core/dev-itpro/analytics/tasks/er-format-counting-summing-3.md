@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð skilgreingasnið sér um að telja og leggja saman (Hluti 3 - Nota útreikninga til að búa til úttak)
-description: Þessi grein lýsir því hvernig á að stilla rafrænt skýrslusnið til að telja og leggja saman byggt á gögnum um þegar myndaðan textaúttak. (Hluti 3)
+description: Þessi grein útskýrir hvernig á að skilgreina snið rafrænnar skýrslugerðar til að telja og gera samantekt sem byggist á gögnum fyrir þegar myndað úttak texta. (Hluti 3)
 author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula, ERComponentTypeDropDialog
 ms.openlocfilehash: 818c48f8c9ac874a36c741e59061d79fb34995ce
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290635"

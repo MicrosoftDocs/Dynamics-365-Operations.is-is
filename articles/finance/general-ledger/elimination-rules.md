@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8864311"
@@ -34,7 +34,7 @@ ms.locfileid: "8864311"
 -   Fjárhagsskýrslu má nota til að sýna útilokunarlykla og víddir á tiltekinni röð eða dálki.
 -   Sérstakan lögaðila má nota til að bóka færslur handvirkt til að rekja losun.
 
-Þessi grein fjallar um afnámsreglur sem eru unnar í samstæðu- eða brottnámsfyrirtæki. Þú getur sett upp losunarreglur til að búa til losunarfærslur í lögaðila sem er tilgreindur sem ákvörðunarlögaðili fyrir losun. Viðtökulögaðilann er einnig þekktur sem losunarlögaðili. Hægt er að mynda útilokunarbækur annaðhvort í samstæðuferlinu eða með því að nota tillögu útilokunarbókar. Áður en losunarreglur eru settar upp er gott að þekkja eftirfarandi hugtök:
+Þessi grein leggur áherslu á losunarreglur sem eru myndaðar í samstæðu- eða losunarfyrirtæki. Þú getur sett upp losunarreglur til að búa til losunarfærslur í lögaðila sem er tilgreindur sem ákvörðunarlögaðili fyrir losun. Viðtökulögaðilann er einnig þekktur sem losunarlögaðili. Hægt er að mynda útilokunarbækur annaðhvort í samstæðuferlinu eða með því að nota tillögu útilokunarbókar. Áður en losunarreglur eru settar upp er gott að þekkja eftirfarandi hugtök:
 
 -   **Upprunalegur lögaðili** - Lögaðili þar sem upphæðir sem á að eyða voru bókaðar.
 -   **Viðtökulögaðili** – Lögaðili þar sem losunarreglur eru bókaðar.

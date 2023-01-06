@@ -1,6 +1,6 @@
 ---
 title: Aðgerð Base64StringToContainer í rafrænni skýrslugerð
-description: Þessi grein veitir upplýsingar um hvernig Base64StringToContainer rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Þessi grein inniheldur upplýsingar um hvernig aðgerðin Base64StringToContainer í rafrænni skýrslugerð er notuð.
 author: kfend
 ms.date: 12/14/2020
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 96dfffc3d899f1106c6c931efb08c941f5b3c1a6
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291235"

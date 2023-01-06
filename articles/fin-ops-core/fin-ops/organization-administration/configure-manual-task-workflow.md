@@ -1,6 +1,6 @@
 ---
 title: Skilgreina handvirk verk í verkflæði
-description: Þessi grein útskýrir hvernig á að stilla eiginleika fyrir handvirkt verkefni.
+description: Þessi grein útskýrir hvernig skilgreina á eiginleika handvirks verks.
 author: ChrisGarty
 ms.date: 08/23/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 265f127f948aa7425c5eb523abe18986a942cfb0
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8889208"
@@ -28,7 +28,7 @@ ms.locfileid: "8889208"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þessi grein útskýrir hvernig á að stilla eiginleika fyrir handvirkt verkefni.
+Þessi grein útskýrir hvernig skilgreina á eiginleika handvirks verks.
 
 Til að skilgreina handvirkt verk í verkflæðisritlinum, hægrismellt er á verkið og smellið síðan á **Eiginleika** til að opna **Eiginleika** síðu. Notið síðan eftirfarandi ferli til að stilla eiginleika fyrir handvirkt verk.
 

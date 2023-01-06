@@ -17,7 +17,7 @@ ms.assetid: 018a11ae-854c-4f36-9358-8c39baca882d
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 ms.openlocfilehash: 1be618d16be2ce9e50c2a43864040dfd23a8ff69
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9269662"

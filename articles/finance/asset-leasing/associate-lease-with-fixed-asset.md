@@ -1,6 +1,6 @@
 ---
 title: Tengja eignir við leigu
-description: Greinin útskýrir hvernig á að tengja núverandi fastafjármuni við nýjan leigusamning.
+description: Þessi grein útskýrir hvernig á að tengja fyrirliggjandi eign við nýja leigu.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 5cc341008d25da544ec35d5660b5ff0b38f2287b
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8895110"
@@ -27,7 +27,7 @@ ms.locfileid: "8895110"
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Greinin útskýrir hvernig á að tengja núverandi fastafjármuni við nýjan leigusamning. Þegar eign er tengd við leigu verður eignarvirði afnotaréttar af eign (ROU) við fyrstu viðurkenningu kaupverð eignarinnar.
+Þessi grein útskýrir hvernig á að tengja fyrirliggjandi eign við nýja leigu. Þegar eign er tengd við leigu verður eignarvirði afnotaréttar af eign (ROU) við fyrstu viðurkenningu kaupverð eignarinnar.
 
 Áður en hægt er að tengja eign við leigusamning þarf að stofna færslu fyrir eignina í „Eignir“. Á síðunni **Samantekt leigu** þarf að stofna leigusamning og tengja eignina við viðkomandi leigusamning.
 

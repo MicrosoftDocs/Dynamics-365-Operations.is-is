@@ -1,6 +1,6 @@
 ---
 title: Felldu inn myndir og form í skjöl sem þú myndar með því að nota ER
-description: Þessi grein útskýrir hvernig á að nota rafræna skýrslugerðina til að búa til viðskiptaskjöl sem hafa innfelldar myndir og form.
+description: Þessi grein útskýrir hvernig á að nota verkfæri rafrænnar skýrslugerðar til að búa til viðskiptaskjöl sem eru með innfelldar myndir og form.
 author: kfend
 ms.date: 04/23/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: EROperationDesigner, ERParameters
 ms.openlocfilehash: 0bb652f245db93424aeadcaadf2ad393945e616b
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9280989"

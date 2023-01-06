@@ -1,6 +1,6 @@
 ---
 title: Fresta keyrslu raðeininga á sniði rafrænnar skýrslugerðar
-description: Þessi grein útskýrir hvernig á að fresta framkvæmd raðþáttar á rafrænu skýrslusniði (ER).
+description: Þessi grein útskýrir hvernig á að fresta framkvæmd raðarþáttar á ER-sniði
 author: kfend
 ms.date: 04/23/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: EROperationDesigner
 ms.openlocfilehash: bb42da7b17713430c6143444d87d6fe187dd1124
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9281843"
@@ -28,11 +28,11 @@ ms.locfileid: "9281843"
 
 ## <a name="overview"></a>Yfirlit
 
-Þú getur notað rekstrarhönnuðinn á [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) ramma til [stilla](tasks/er-format-configuration-2016-11.md) sniðhluti ER lausnar sem er notaður til að búa til skjöl á útleið á textasniði. Stigveldi uppsetts sniðhlutans samanstendur af sniðþáttum af ýmsum gerðum. Þessir sniðþættir eru notaðir til að fylla mynda skjöl með tilskildum upplýsingum á keyrslutíma. Sjálfgefið að þegar þú keyrir ER-snið eru sniðþættirnir keyrðir í sömu röð og þeir eru settir fram í sniðveldinu: eitt af öðru, frá toppi til botns. Hins vegar er á hönnunartíma hægt að breyta framkvæmdaröð fyrir hvaða röð þætti í samstillta sniðihlutanum.
+Þú getur notað Operations-hönnuð í ramma [Rafrænnar skýrslugerðar](general-electronic-reporting.md) til að [skilgreina](tasks/er-format-configuration-2016-11.md) sniðsþátt rafrænnar skýrslugerðarlausnar sem er notaður til að mynda skjöl á útleið á textasniði. Stigveldi uppsetts sniðhlutans samanstendur af sniðþáttum af ýmsum gerðum. Þessir sniðþættir eru notaðir til að fylla mynda skjöl með tilskildum upplýsingum á keyrslutíma. Sjálfgefið að þegar þú keyrir ER-snið eru sniðþættirnir keyrðir í sömu röð og þeir eru settir fram í sniðveldinu: eitt af öðru, frá toppi til botns. Hins vegar er á hönnunartíma hægt að breyta framkvæmdaröð fyrir hvaða röð þætti í samstillta sniðihlutanum.
 
 Með því að kveikja á valkostinum <a name="DeferredSequenceExecution"></a>**Frestuð framkvæmd** fyrir þáttaröð í röð sem er stillt á stillta sniði, þú getur frestað (frestað) framkvæmd þess þáttar. Í þessu tilfelli er þátturinn ekki keyrður fyrr en allir aðrir þættir yfirhluta hans hafa verið keyrðir.
 
-Til að læra meira um þennan eiginleika skaltu klára dæmið í þessari grein.
+Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í þessari grein.
 
 ## <a name="limitations"></a>Takmarkanir
 
@@ -44,7 +44,7 @@ Valkosturinn **Frestuð framkvæmd** á ekki við um raðir sem hafa verið stil
 
 Eftirfarandi skref útskýra hvernig notandi í kerfisstjóra eða rafrænni skýrslugerð virkur ráðgjafi [hlutverk](../sysadmin/tasks/assign-users-security-roles.md) getur stillt ER snið sem inniheldur röð frumefnis þar sem framkvæmd röð er frábrugðin röðinni í snið stigveldisins.
 
-Þessi skref er hægt að framkvæma í **USMF** fyrirtæki í Microsoft Dynamics 365 Fjármál.
+Hægt er að framkvæma þessi skref í fyrirtækinu **USMF** í Microsoft Dynamics 365 Finance.
 
 ### <a name="prerequisites"></a>Forkröfur
 
@@ -53,7 +53,7 @@ Til að ljúka þessu dæmi verður þú að hafa aðgang að **USMF** fyrirtæk
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
 - Kerfisstjóri
 
-Ef þú hefur ekki enn lokið við dæmið í [Fresta framkvæmd XML þátta í ER sniðum](er-defer-xml-element.md#Example) grein, hlaðið niður eftirfarandi [stillingar](general-electronic-reporting.md#Configuration) af ER-sýnislausninni.
+Ef þú hefur ekki enn lokið við dæmið í greininni [Fresta keyrslu XML-eininga í sniði rafrænnar skýrslugerðar](er-defer-xml-element.md#Example) skaltu hlaða niður eftirfarandi [skilgreiningum](general-electronic-reporting.md#Configuration) á sýnilausn rafrænnar skýrslugerðar.
 
 | Lýsing á efni            | Skrárnafn |
 |--------------------------------|-----------|
@@ -93,7 +93,7 @@ Ef þú hefur ekki enn lokið við dæmið í [Fresta framkvæmd XML þátta í 
 ### <a name="activate-a-configurations-provider"></a>Kveikja á stillingaveitu
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar staðsetningar**, í hlutanum **Skilgreiningaveitur**, skaltu passa að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið Litware, Inc. (`http://www.litware.com`) sé skráð og að hún sé merkt sem virk. Ef þessi stillingarveita er ekki á listanum eða ef hún er ekki merkt sem virk skaltu fylgja skrefunum í [Búðu til stillingarveitu og merktu hana sem virkan](./tasks/er-configuration-provider-mark-it-active-2016-11.md) grein.
+2. Á síðunni **Skilgreiningar staðsetningar**, í hlutanum **Skilgreiningaveitur**, skaltu passa að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið Litware, Inc. (`http://www.litware.com`) sé skráð og að hún sé merkt sem virk. Ef skilgreiningarveita er ekki skráð, eða ef hún er ekki merkt sem virk, skal fylgja skrefunum í greininni [Stofna skilgreiningaveitu og merkja hana sem virka](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![Litware, Inc. sýnifyrirtæki á skilgreiningasíðu staðfæringar.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 

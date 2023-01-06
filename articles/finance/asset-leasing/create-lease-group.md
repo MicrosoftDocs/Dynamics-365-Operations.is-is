@@ -1,6 +1,6 @@
 ---
 title: Stofna leiguhóp
-description: Þessi grein útskýrir hvernig á að setja upp leiguhópa. Leigusamningsflokkar eru nauðsynlegir til að búa til nýja leigusamninga.
+description: Í þessari grein er útskýrt hvernig á að setja upp leigusamningsflokka. Leigusamningsflokkar eru nauðsynlegir til að búa til nýja leigusamninga.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: cd1a6f61346233bf205657917c65fccd82167f7f
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8895023"
@@ -26,7 +26,7 @@ ms.locfileid: "8895023"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp leiguhópa. Leigusamningsflokkar eru nauðsynlegir til að búa til nýja leigusamninga. Leigubækur eru tengdar við hvern leigusamningsflokk. Leigubækur ákvarða sjálfgefnu bækurnar sem þarf að stofna fyrir hverja leigu. Hægt er að úthluta tilteknum lyklum á leiguflokk á síðunni **Færibreytur leigubókunar**.
+Í þessari grein er útskýrt hvernig á að setja upp leigusamningsflokka. Leigusamningsflokkar eru nauðsynlegir til að búa til nýja leigusamninga. Leigubækur eru tengdar við hvern leigusamningsflokk. Leigubækur ákvarða sjálfgefnu bækurnar sem þarf að stofna fyrir hverja leigu. Hægt er að úthluta tilteknum lyklum á leiguflokk á síðunni **Færibreytur leigubókunar**.
 
 ## <a name="create-a-lease-book-and-add-a-lease-group"></a>Stofna leigubók og bæta við leigusamningsflokki
 

@@ -1,6 +1,6 @@
 ---
 title: Stjórna nokkrum afleiddum vörpunum fyrir eina rót líkans
-description: Þessi grein útskýrir hvernig á að stjórna nokkrum afleiddum vörpum sem voru stilltar fyrir einni líkanrót.
+description: Þessi grein útskýrir hvernig á að stjórna nokkrum afleiddum vörpunum sem voru skilgreindar fyrir eina rót líkans.
 author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERSolutionTable, ERModelMappingTable
 ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9277509"
@@ -24,17 +24,17 @@ ms.locfileid: "9277509"
 
 [!include [banner](../includes/banner.md)]
 
-An [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) gagnalíkahlutur er notaður í öllum stilltum ER-sniðshlutum sem gagnagjafi til að búa til skjöl á útleið. Til að lýsa einu viðskiptaléni skal skilgreina gagnalíkanshlut sem er með margar rótarskilgreiningar. 
+Gagnalíkanshluti [rafrænnar skýrslugerðar](general-electronic-reporting.md) er notaður í öllum skilgreindum hlutum rafræns skýrslugerðarsniðs sem gagnagjafinn til að mynda skjöl á útleið. Til að lýsa einu viðskiptaléni skal skilgreina gagnalíkanshlut sem er með margar rótarskilgreiningar. 
 
-Allar rótarskilgreiningar gera notanda kleift að tákna gögn í þessu léni sem hentar best tilteknum markmiðum skýrslugerðar. Fyrir hverja rótarskilgreiningu geturðu stillt ER líkanakortlagningarhluta sem Microsoft Dynamics 365 Fjármál-sértæk útfærsla á gagnalíkaninu þínu. Á þennan hátt er lýst hvernig gagnalíkanið verður fyllt út við keyrslu.
+Allar rótarskilgreiningar gera notanda kleift að tákna gögn í þessu léni sem hentar best tilteknum markmiðum skýrslugerðar. Fyrir hverja rótarskilgreiningu er hægt að skilgreina gagnalíkanshlut rafrænnar skýrslugerðar sem tiltekna samþættingu Microsoft Dynamics 365 Finance á gagnalíkaninu. Á þennan hátt er lýst hvernig gagnalíkanið verður fyllt út við keyrslu.
 
 Gagnalíkanshlutar rafrænnar skýrslugerðar geta verið í [skilgreiningum](general-electronic-reporting.md#Configuration) gagnalíkans rafrænnar skýrslugerðar og skilgreiningum gagnavörpunar rafrænnar skýrslugerðar. Ein skilgreining rafrænnar skýrslugerðar getur innihaldið vörpunarhluta sem hver fyrir sig er skilgreindur fyrir eina rótarskilgreiningu. Að öðrum kosti getur ein skilgreining rafrænnar skýrslugerðar innihaldið aðeins einn vörpunarhluta sem er skilgreindur fyrir eina rótarskilgreiningu.
 
 Margar skilgreiningarveitur bjóða mögulega upp á skilgreiningar líkanavörpunar rafrænnar skýrslugerðar fyrir sama gagnalíkan rafrænnar skýrslugerðar. Þessar skilgreiningar líkanavörpunar gætu innihaldið vörpunarhluta fyrir mismunandi rótarskilgreiningar. Hugsanlega er hægt að nota líkanavörpun fyrir eina rótarskilgreiningu sem er ein [veita](general-electronic-reporting.md#Provider) býður upp á og nota líkanavörpun fyrir aðra rótarskilgreiningu sem önnur veita býður upp á.
 
-Verklagsreglurnar í þessari grein útskýra hvernig á að stjórna mörgum ER líkanavörpunarstillingum ER gagnalíkans þegar þær innihalda mismunandi líkanavörpunaríhluti sem eru stilltir fyrir sömu rótarskilgreiningu. 
+Ferlin í þessari grein útskýra hvernig á að stjórna mörgum skilgreiningum líkanavörpunar rafrænnar skýrslugerðar fyrir gagnalíkan rafrænnar skýrslugerðar þegar þær innihalda mismunandi þætti líkanavörpunar fyrir sömu rótarskilgreininguna. 
 
-Til að ljúka verklagsreglunum í þessari grein verður þú að vera úthlutað í hlutverk kerfisstjóra eða þróunaraðila rafrænna skýrslugerðar.
+Til að ljúka ferlinu í þessari grein þarf notanda að vera úthlutað hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar.
 
 Öll eftirfarandi ferli er hægt að vinna í USMF fyrirtækinu. Ekki er þörf á neinni kóðun.
 

@@ -1,6 +1,6 @@
 ---
 title: Víddarstigveldi
-description: Þessi grein veitir upplýsingar um víddarstigveldi. Víddastigveldi eru notuð til að skilgreina skipulag skýrslugerðar, kostnaðarreglur og öryggisuppsetningu í kostnaðarbókhaldi.
+description: Þessi grein inniheldur upplýsingar um víddastigveldi. Víddastigveldi eru notuð til að skilgreina skipulag skýrslugerðar, kostnaðarreglur og öryggisuppsetningu í kostnaðarbókhaldi.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 60585690a2cf5962d4ad562c3a01b675a0588263
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8848636"
@@ -27,7 +27,7 @@ ms.locfileid: "8848636"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um víddarstigveldi. Víddastigveldi eru notuð til að skilgreina skipulag skýrslugerðar, kostnaðarreglur og öryggisuppsetningu í kostnaðarbókhaldi.  
+Þessi grein inniheldur upplýsingar um víddastigveldi. Víddastigveldi eru notuð til að skilgreina skipulag skýrslugerðar, kostnaðarreglur og öryggisuppsetningu í kostnaðarbókhaldi.  
 
 ## <a name="overview"></a>Yfirlit
 
@@ -328,7 +328,7 @@ Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum
 - Power BI:
 
     - Gögn sem eru sýnd í Power BI myndrænum framsetningum
-    - Gögn Power BI sjónmyndir sem eru felldar inn í Dynamics 365 Finance biðlarann
+    - Myndræn Power BI gagnaframsetning sem er felld inn í Dynamics 365 Finance biðlarann
 
 > [!NOTE] 
 > - Áður en stigveldi aðgangslista getur haft áhrif á gögnin í Power BI, verður að para saman stigveldi og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

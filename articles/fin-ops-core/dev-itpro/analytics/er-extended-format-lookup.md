@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð (ER) útbreidd snið leit
-description: Þessi grein lýsir því hvernig hægt er að setja upp ER-sniðstilvísun í ER-sniðsuppflettingunni þegar nauðsynlegt snið er geymt í alþjóðlegu geymslunni.
+description: Þessi grein lýsir því hvernig hægt er að setja upp ER-snið tilvísun í leit að ER-sniði þegar tilskilið snið er geymt í altæku geymslunni.
 author: kfend
 ms.date: 03/17/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 ms.openlocfilehash: 624f5c347c27cc2075f9602087c1c49e84340565
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9274920"
@@ -26,7 +26,7 @@ ms.locfileid: "9274920"
 
 [!include [banner](../includes/banner.md)]
 
-Þú getur notað [Rafræn skýrslugerð](general-electronic-reporting.md) (ER) ramma til að stilla snið fyrir skjöl á útleið í samræmi við lagalegar kröfur ýmissa landa/svæða. Þú getur líka notað ER ramma til að stilla snið til að flokka á heimleið skjöl og nota upplýsingar úr skjölunum til að bæta við eða uppfæra gögn umsóknar. Hvert þessara sniða er hægt að nota í Dynamics 365 Finance tilvikinu þínu til að meðhöndla viðskiptaskjöl á innleið eða útleið sem hluta af ákveðnu viðskiptaferli.
+Hægt er að nota ramma [Rafrænnar skýrslugerðar](general-electronic-reporting.md) (ER) til að skilgreina snið fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa/svæða. Þú getur líka notað ER ramma til að stilla snið til að flokka á heimleið skjöl og nota upplýsingar úr skjölunum til að bæta við eða uppfæra gögn umsóknar. Hægt er að nota hvert þessara sniða í Dynamics 365 Finance-tilvikinu til að meðhöndla viðskiptaskjöl á innleið eða útleið sem hluta af ákveðnu viðskiptaferli.
 
 Venjulega verður þú að tilgreina hvaða ER snið verður að nota í ákveðnu viðskiptaferli. Til að gera það skaltu velja eitt ER snið í uppflettigrein sem er stillt sem hluti af viðskiptaferlum sem eru sértækir. Þessir uppflettingarreitir eru venjulega útfærðir með því að nota viðeigandi API í ER ramma. Fyrir frekari upplýsingar, sjá [ER ramma API - kóða til að sýna sniðkortagerð](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 

@@ -1,6 +1,6 @@
 ---
 title: TDS-útreikningur á reikningum
-description: Þessi grein veitir tilvísun fyrir færslur þar sem skattur sem dreginn er af uppruna (TDS) er reiknaður á reikningsstigi.
+description: Í þessari grein er að finna tilvísun í færslur þar sem skattur sem dreginn er frá í uppruna (TDS) er reiknaður á reikningsstigi.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: efc12e0839fe87e9db435f481ce1fd733c286d6c
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8855364"
@@ -26,7 +26,7 @@ ms.locfileid: "8855364"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir tilvísun fyrir færslur þar sem skattur sem dreginn er af uppruna (TDS) er reiknaður á reikningsstigi.
+Í þessari grein er að finna tilvísun í færslur þar sem skattur sem dreginn er frá í uppruna (TDS) er reiknaður á reikningsstigi.
 
 | Raðnúmer | Færslugerð                                 | Færsluupphæð | Síðuheiti og valslóð                                 | Gerð lykils og gerð mótlykils                         |
 | ------------- | ------------------------------------------------ | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |

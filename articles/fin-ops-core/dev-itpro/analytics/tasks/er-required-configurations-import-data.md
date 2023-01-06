@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Stofna nauðsynlegt grunnstillingar til að flytja inn gögn úr ytri skrá
-description: Þessi grein lýsir því hvernig á að hanna rafrænar skýrslugerðarstillingar til að flytja gögn inn í Microsoft Dynamics 365 Finance app frá ytri skrá.
+description: Í þessari grein er útskýrt hvernig á að hanna skilgreiningar rafrænnar skýrslugerðar til að flytja gögn inn í Microsoft Dynamics 365 Finance-forritið úr ytri skrá.
 author: kfend
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 ms.openlocfilehash: 199873af83ec14d441aa3927dc84509486e4927a
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290155"
@@ -241,7 +241,7 @@ Framkvæmið þessar vörpun sniðs til prófunar. Notið skrána 1099entries.xm
 19. Lokið síðunni.
 20. Smella á Breyta.
 
-    Ef þú settir upp flýtileiðréttinguna „KB 4012871 Stuðningur við GER líkanavörp í aðskildum stillingum með getu til að tilgreina mismunandi tegundir af forsendum til að dreifa þeim á mismunandi útgáfum af Dynamics 365 Finance“ ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), keyrðu næsta skref „Kveiktu á fánanum „Sjálfgefið fyrir líkanavörpun“ fyrir innsláttar sniðstillingar. Annars skal sleppa næsta skrefi.  
+    Ef bráðabótin „KB 4012871 Stuðningur fyrir GER líkanavörpun í aðskildum grunnstillingum með getu til að tilgreina ólíkar gerðir af frumskilyrðum til að nota þær á ólíkar gerðir af Dynamics 365 Finance „ ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), skal framkvæma næsta skref „Kveikja á flagginu „Sjálfgefið fyrir líkanavörpun““ fyrir grunnstillingu sniðs sem slegin inn. Annars skal sleppa næsta skrefi.  
 
 21. Veljið Já í reitnum „Sjálfgefið fyrir líkanavörpun“.
 22. Í tré skal velja '1099 Greiðslulíkan'.

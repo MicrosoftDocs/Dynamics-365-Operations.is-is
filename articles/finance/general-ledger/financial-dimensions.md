@@ -1,6 +1,6 @@
 ---
 title: Fjárhagsvíddir
-description: Þessi grein lýsir hinum ýmsu gerðum fjárhagsvídda og hvernig þær eru settar upp.
+description: Þessi grein lýsir mismunandi gerðum fjárhagsvídda og hvernig þær eru settar upp.
 author: aprilolson
 ms.date: 03/07/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
 ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/13/2022
 ms.locfileid: "9680359"
@@ -25,13 +25,13 @@ ms.locfileid: "9680359"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir ýmsar gerðir fjárhagsvídda og hvernig þær eru settar upp.
+Þessi grein útskýrir mismunandi gerðir fjárhagsvídda og hvernig þær eru settar upp.
 
 Nota skal skjámyndina **Fjárhagsvíddir** til að stofna fjárhagsvíddir sem nota má sem hluta lykils fyrir bókhaldslykla. Til eru tvær gerðir fjárhagsvídda: sérsniðnar víddir og afritaðar víddir. Sérsniðnar víddir eru samnýttar á milli lögaðila og gildi eru færð inn og þeim stjórnað af notendum. Fyrir afritaðar víddir eru gildin skilgreind annars staðar í kerfinu, t.d. í viðskiptavina- eða verslunareiningu. Sumar afritaðar víddir eru samnýttar á milli lögaðila, en aðrar afritaðar víddir eru bundnar fyrirtækjum.
 
 Eftir að búið er að stofna fjárhagsvíddir skal nota síðuna **Fjárhagsvíddargildi** til að úthluta fleiri eiginleikum fyrir hverja fjárhagsvídd.
 
-Hægt er að nota fjárhagsvíddir til að tákna lögaðila. Þú þarft ekki að stofna lögaðilana í Dynamics 365 Finance. Hins vegar eru fjárhagsvíddir ekki hannaðar til að takast á við rekstrar- eða viðskiptaskilyrði lögaðila. Interunit úthlutunarkostnaðar í Finance er hannað til að aðsetur aðeins bókhaldsfærslur sem eru stofnaðar eftir hverja færslu.
+Hægt er að nota fjárhagsvíddir til að tákna lögaðila. Ekki þarf að stofna lögaðila í Dynamics 365 Finance. Hins vegar eru fjárhagsvíddir ekki hannaðar til að takast á við rekstrar- eða viðskiptaskilyrði lögaðila. Interunit úthlutunarkostnaðar í Finance er hannað til að aðsetur aðeins bókhaldsfærslur sem eru stofnaðar eftir hverja færslu.
 
 Áður en fjárhagsvíddir eru settar upp sem lögaðilar skal meta viðskiptaferli á eftirfarandi svæðum til að ákvarða hvort þessi uppsetning muni gagnast fyrirtækinu:
 
@@ -79,12 +79,12 @@ Til að viðhalda heilleika gagna er sjaldan hægt að eyða fjárhagsvíddum. E
 - Er fjárhagsvíddin notuð í öllu virku lykilskipulagi, ítarleg reglu skipulag fjárhagsvídd eða fjárhagsvídd set?
 - Er fjárhagsvídd hluti af sjálfgefinu samþættingarsniði fjárhagsvíddar?
 - Hefur fjárhagsvídd verið uppsett sem sjálfgefin vídd?
-- Hefur fjárhagsvíddin verið valin úr uppsetningu fjárhagsskýrslu? 
+- Hefur verið hætt við val fjárhagsvíddarinnar úr uppsetningu Financial Reporting? 
 
 Ef einhverjum skilyrðum er mætt er ekki hægt að eyða fjárhagsvíddinni.
 
 > [!NOTE]
-> Frá og með Finance útgáfu 10.0.27 verða fjárhagsvíddir ekki lengur sjálfkrafa valdar fyrir uppsetningu fjárhagsskýrslu þegar þær eru búnar til.
+> Frá og með Finance útgáfu 10.0.27 verða fjárhagsstærðir ekki lengur valdar sjálfkrafa fyrir uppsetningu fjárhagsskýrslna þegar þær eru búnar til.
 
 ## <a name="default-dimension-values"></a>Sjálfgefin víddargildi
 

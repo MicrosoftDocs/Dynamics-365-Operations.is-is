@@ -1,6 +1,6 @@
 ---
 title: Staðfesting sérsniðins NF-e vottorðs
-description: Þessi grein veitir upplýsingar um að virkja og nota sérsniðna NF-e vottorðið.
+description: Í þessari grein er að finna upplýsingar um hvernig á að virkja og nota sérsniðið vottorð NF-e.
 author: gionoder
 ms.date: 07/29/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ''
 ms.openlocfilehash: f78fdbd133aecaf9dbf8abe0006abd6deb1b1b15
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9288545"

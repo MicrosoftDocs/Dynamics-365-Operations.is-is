@@ -1,6 +1,6 @@
 ---
 title: Fyrirframdagsettar ávísanir
-description: Þessi grein veitir upplýsingar um stuðning fyrir fyrirframdagsettar ávísanir. Úthlutaðar ávísanir eru gefnar út til að inna af hendi og taka á móti greiðslum á framtíðardegi.
+description: Þessi grein veitir upplýsingar um stuðning fyrir fyrirframdagsettar ávísanir. Fyrirframdagsettar ávísanir eru gefnar út til að greiða og taka á móti greiðslum í framtíðinni.
 author: angelad116
 ms.date: 01/12/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4d32ed9de66bc92e17c5515a4266f41aaeb9f2c1
 ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/14/2022
 ms.locfileid: "9151362"
@@ -28,7 +28,7 @@ ms.locfileid: "9151362"
 
 Þessi grein veitir upplýsingar um stuðning fyrir fyrirframdagsettar ávísanir. Fyrirframdagsettar ávísanir eru ávísanir sem eru gefnar út til að greiða og taka á móti greiðslum í framtíðinni. Þess vegna er ekki hægt að leysa út ávísun fram að tilgreindri dagsetningu.
 
-Dynamics 365 Finance styður alla stjórnunarferilinn fyrir eftirteknar athuganir bæði á viðskiptakröfum og viðskiptaskuldum, eins og sýnt er í eftirfarandi töflu.
+Dynamics 365 Finance styður ferli fullrar stjórnunar fyrir fyrirframdagsettar ávísanir bæði í Viðskiptakröfum og Viðskiptaskuldum, eins og sýnt er í eftirfarandi töflu.
 <table>
 <colgroup>
 <col width="50%" />

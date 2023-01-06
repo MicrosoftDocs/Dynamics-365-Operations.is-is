@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.openlocfilehash: 0691c65e6a499f713952070811cefaa7a213af7b
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
+ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901285"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787554"
 ---
 # <a name="ledger-allocation-rules"></a>Úthlutunarreglur fjárhags
 
@@ -28,7 +28,7 @@ ms.locfileid: "8901285"
 
 Þessi grein gefur upplýsingar um úthlutunarreglur fjárhags. Hún lýsir hinum ýmsu þáttum þessara úthlutunarreglna og úthlutunaraðferðunum sem hægt er að nota fyrir þær.
 
-Úthlutunarreglur fjárhags eru notaðar til að reikna sjálfkrafa og búa til úthlutunarbækur og færslur í lykil fyrir úthlutun á fjárhagsstöðum eða föstum upphæðum Úthlutunaraðferðir geta verið breytilegar eða fastar. Hægt er að nota eftirfarandi úthlutunaraðferðir fyrir úthlutunarreglur fjárhags:
+Úthlutunarreglur fjárhags eru notaðar til að reikna sjálfkrafa og búa til úthlutunarbækur og færslur í lykil fyrir úthlutun á fjárhagsstöðum eða föstum upphæðum Úthlutunaraðferðir geta verið breytilegar eða fastar. Úthlutunin er byggð á gjaldmiðilsvirði færslunnar. Til dæmis eru færslur um hagnað/tap í erlendum gjaldmiðlum birtar til að breyta bókhalds- og skýrslugjaldmiðilsupphæðum. Þessar færslur falla ekki undir úthlutunarreglur vegna þess að færsluvirði þeirra er 0,00. Hægt er að nota eftirfarandi úthlutunaraðferðir fyrir úthlutunarreglur fjárhags:
 
 -   **Grunnur** – Þessi breytuaðferð er notuð þegar úthlutun fer eftir raunverulegri fjárhagsstöðu, byggt á skilyrðum síunnar. Til dæmis væri hægt að úthluta auglýsingakostnaði byggt á sölu hverrar deildar í samræmi við heildarsölu deildar.
 -   **Föst prósenta** og **Föst þyngd** – Fyrir þessar aðferðir er úthlutunarhlutfall eða þyngd skilgreind beint fyrir regluna. Til dæmis er hægt að úthluta auglýsingakostnaði þannig að Deild A taki 70 prósent auglýsingakostnaðar og Deild B fái 30 prósent.

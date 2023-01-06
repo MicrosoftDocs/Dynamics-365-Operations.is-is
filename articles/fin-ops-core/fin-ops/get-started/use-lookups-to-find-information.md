@@ -1,6 +1,6 @@
 ---
 title: Leita að upplýsingum með uppflettingum
-description: Í þessari grein muntu fræðast um uppflettingareiginleika og færð gagnleg ráð til að nýta uppflettingar í kerfinu sem best.
+description: Í þessari grein muntu læra um uppflettingaraðgerðir og færð nokkur góð ráð til að ná ákjósanlegri notkun úr uppflettingum í kerfinu.
 author: jasongre
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ee309330c165dfb0b67f647afc3514d4c827dad1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8901524"
@@ -28,7 +28,7 @@ ms.locfileid: "8901524"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Mörg svæði hafa uppflettingar sem getur hjálpað við að finna auðveldlega rétt eða viðeigandi gildi. Nokkrum viðbótum hefur verið bætt við uppflettingar sem gera þessar stýringar nothæfari og auka framleiðni notenda. Í þessari grein muntu fræðast um þessa nýju uppflettingareiginleika og færð nokkur gagnleg ráð til að nýta uppflettingar í kerfinu sem best.
+Mörg svæði hafa uppflettingar sem getur hjálpað við að finna auðveldlega rétt eða viðeigandi gildi. Nokkrum viðbótum hefur verið bætt við uppflettingar sem gera þessar stýringar nothæfari og auka framleiðni notenda. Í þessari grein muntu læra um þessar nýju uppflettingaraðgerðir og færð nokkur góð ráð til að ná ákjósanlegri notkun úr uppflettingum í kerfinu.
 
 ## <a name="responsive-lookups"></a>Gagnvirkar uppflettingar
 

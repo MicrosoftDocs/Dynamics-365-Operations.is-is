@@ -1,6 +1,6 @@
 ---
 title: Skipa notendum í öryggishlutverk
-description: Til að fá aðgang að fjármála- og rekstraröppum verður að úthluta notendum í öryggishlutverk.
+description: Til að fá aðgang að forritum fjármála- og reksturs þarf að úthluta notendum á öryggishlutverk.
 author: Peakerbl
 ms.date: 02/09/2022
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b5e69a79f123daff3f85d0100647615ad818288e
 ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/01/2022
 ms.locfileid: "9103869"
@@ -24,7 +24,7 @@ ms.locfileid: "9103869"
 
 [!include [banner](../../includes/banner.md)]
 
-Til að nota eitthvað annað en algenga eiginleika í fjármála- og rekstrarforritum verður að úthluta notendum í öryggishlutverk. Hægt er að úthluta notendum á hlutverk sjálfkrafa, byggt á reglum og viðskiptagögnum, útiloka notendur frá sjálfvirkri hlutverkaúthlutun eða bæta notendum við hlutverk handvirkt.
+Til að nota eitthvað annað en algengan eiginleika í forritum fjármála- og reksturs þarf að úthluta notendum á öryggishlutverk. Hægt er að úthluta notendum á hlutverk sjálfkrafa, byggt á reglum og viðskiptagögnum, útiloka notendur frá sjálfvirkri hlutverkaúthlutun eða bæta notendum við hlutverk handvirkt.
 
 ## <a name="automatically-assign-users-to-roles"></a>Sjálfkrafa skipa notendum í hlutverkin
 Þessu ferli útskýrt hvernig kerfisstjórum geta sjálfvirkt úthlutað notendum á hlutverk, byggt á viðskiptagögnum. 
@@ -40,7 +40,7 @@ Til að nota eitthvað annað en algenga eiginleika í fjármála- og rekstrarfo
 10. Farðu yfir hlutverkin sem úthlutað var ýmsum notendum til að staðfesta að fyrirspurnin um hlutverkaskiptin hafi verið rétt. Stilla og keyra aftur ef þörf krefur.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Útiloka notendum frá sjálfvirka hlutverkaúthlutun
-Þessi aðferð útskýrir hvernig á að útiloka notendur frá sjálfvirkri hlutverkaúthlutun.
+Þetta ferli útskýrir hvernig á að útiloka notendur frá sjálfvirkri hlutverkaúthlutun
 
 1. Lokið síðunni.
 2. Farðu í **Skoðunarrúða > Kerfiseiningar > Kerfisstjórnun > Ötyggi > Úthluta notendum á hlutverk**.
@@ -58,19 +58,19 @@ Stjórnandi þarf einnig að fjarlægja notendur sem er úthlutað handvirkt á 
 4. Í **Úthluta eða útiloka notendum frá hlutverki** eru notendur sem hafa ekki fengið hlutverkið birtir þar sem **Úthlutunarstillingu** er stillt á **Ekkert**. Velja einn eða fleiri notendur sem á að úthluta hlutverkinu.
 5. Á **Aðgerðarsvæði** skal velja **Úthluta hlutverki**. **Úthlutunarstilling** er uppfærð í **Handvirkt** og notendur hafa nú nýtt hlutverk.
 
-## <a name="manually-remove-users-from-roles"></a>Fjarlægðu notendur handvirkt úr hlutverkum
+## <a name="manually-remove-users-from-roles"></a>Fjarlægja notendur handvirkt úr hlutverkum
 Stjórnandi þarf einnig að fjarlægja notendur sem er úthlutað handvirkt á öryggishlutverk. Þessir notendur eru ekki fjarlægðir úr hlutverkum eftir reglum fyrir sjálfvirka hlutverkaúthlutun.
 
 1. Farðu í **Skoðunarrúða > Kerfiseiningar > Kerfisstjórnun > Ötyggi > Úthluta notendum á hlutverk**.
-2. Til að fjarlægja einn notanda skaltu fylgja þessum skrefum:
-   1. Veldu hlutverk í trénu. 
-   2. Í **Notendum úthlutað hlutverki** svæði, veldu notandann sem ætti að fjarlægja.
+2. Til að fjarlægja einn notanda þarf að fylgja þessum skrefum:
+   1. Í trénu skal velja hlutverk. 
+   2. Í svæðinu **Notendur sem úthlutað er á hlutverk** skal velja notandann sem á að fjarlægja.
    3. Veldu **Fjarlægja** og notandinn er fjarlægður úr hlutverkinu.
-3. Til að fjarlægja marga notendur skaltu fylgja þessum skrefum:
-   1. Veldu hlutverk í trénu. 
-   2. Í **Notendum úthlutað hlutverki** svæði, veldu **Úthluta / útiloka notendur handvirkt**.
-   3. Í **Úthluta notendum til eða útiloka notendur frá hlutverki** síðu, notendur sem ekki hafa verið úthlutað hlutverkinu **Enginn** í **Úthlutunarhamur** dálki. Veldu þá notendur sem ætti að útiloka frá hlutverkinu.
-   4. Í **Aðgerðarsvæði** velurðu **Útiloka frá hlutverki**. The **Úthlutunarhamur** dálkurinn er nú uppfærður í **Handbók** og notendur eru nú útilokaðir frá hlutverkinu.
+3. Til að fjarlægja marga notendur skal fylgja þessum skrefum:
+   1. Í trénu skal velja hlutverk. 
+   2. Á svæðinu **Notendur sem úthlutað er á hlutverk** skaltu velja **Úthluta/útiloka notendur handvirkt**.
+   3. Á síðunni **Úthluta eða útiloka notendum frá hlutverki** eru notendur sem hafa ekki fengið hlutverk birtir í **Úthlutunarstilling** með merkinguna **Ekkert**. Veldu notendur sem eiga að vera útilokaðir frá hlutverki.
+   4. Í **Aðgerðarsvæði** velurðu **Útiloka frá hlutverki**. Dálkur **Úthlutunarstilling** hefur nú verið uppfærður í **Handvirkt** og notendur eru nú útilokaðir frá hlutverki.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

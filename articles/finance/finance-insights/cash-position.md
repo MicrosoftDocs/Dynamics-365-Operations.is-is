@@ -1,6 +1,6 @@
 ---
 title: Staða reiðufjár
-description: Þessi grein lýsir því hvernig sjóðstreymisspá eiginleikinn spáir fyrir um sjóðsstöðu fyrirtækis fyrir tiltekna tíma. Efnisatriðið lýsir einnig valkostunum sem eru í boði til að sýna spár fyrir mismunandi tímabil.
+description: Þessi grein lýsir því hvernig eiginleikinn fyrir sjóðstreymisspá spáir fyrir um reiðufjárstöðu fyrirtækis á tilteknum tímum. Efnisatriðið lýsir einnig valkostunum sem eru í boði til að sýna spár fyrir mismunandi tímabil.
 author: ShivamPandey-msft
 ms.date: 12/21/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
 ms.openlocfilehash: 7581142348d91b3a37cc75cf801e7bfc098cd604
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8870250"
@@ -47,14 +47,14 @@ Til að vista og breyta sjóðsstöðu skal búa til skyndimynd. Frekari upplýs
 
 ## <a name="details-of-the-cash-position-capability"></a>Upplýsingar um getu reiðufjárstöðu 
 
-Eiginleiki reiðufjárstaða felur í sér eftirfarandi virkni. 
+Eiginleiki reiðufjárstöðu inniheldur eftirfarandi virkni. 
 
-- Eiginleiki reiðufjárstaða sýnir sjóðstreymi byggt á fyrirliggjandi skjölum í kerfinu og innstreymi og útflæðislínum sjóðs sem fluttar eru inn frá ytri kerfum.
-- Gerir það auðvelt að samþætta sjóðstreymisgögn frá ytri kerfum við Dynamics 365 Finance. Handbært fé getur einnig notað innflutnings- og útflutningsramma gagna. Þessi rammi auðveldar samþættingu við Excel OData. Þú getur líka sameinað gögn frá mörgum aðilum til að búa til alhliða lausn á reiðufé.
-- Kynnir til sögunnar snjalla reiðufjárstöðu. Reiðufé er búið til út frá greiðsluhegðun viðskiptavinarins til að spá fyrir um hvenær fyrirtæki getur búist við því að reiðufé berist á reikninga þeirra.
-- Fyrir pantanir og reikninga viðskiptavina er gervigreindarvirkni greiðsluspá viðskiptavinar notuð til að ákvarða sögulega greiðsluhegðun viðskiptavina þegar pöntun eða reikningur verður greiddur.
-- Fyrir pantanir og reikninga lánardrottins notum við meðaltíma milli sendingar og reiknings og greiðslu reiknings á hvern seljanda til að ákvarða hvenær pöntun eða reikningur frá lánardrottni verður greiddur og gerir útflæði reiðufé nákvæmara.
+- Eiginleiki reiðufjárstöðu sýnir sjóðsstreymi byggt á fyrirliggjandi skjölum í kerfinu og sjóðsinnstreymis- og útstreymislínum sem fluttar eru inn úr ytri kerfum.
+- Auðveldar samþættingu sjóðsstreymisgagna úr ytri kerfum í Dynamics 365 Finance. Reiðufjárstöður geta einnig notað inn-útflutningsramma gagna. Þessi rammi auðveldar samþættingu við Excel OData. Einnig er hægt að sameina gögn af ólíkum uppruna til að stofna heildstæða lausn reiðufjárstöðu.
+- Kynnir til sögunnar snjalla reiðufjárstöðu. Staða reiðufjár er stofnuð á grundvelli greiðsluhegðunar viðskiptavinar til að spá fyrir um hvenær fyrirtæki getur búist við því að fá greitt reiðufé á reikninga sína.
+- Fyrir pantanir og reikninga viðskiptavina er gervigreindarvirkni fyrir greiðsluspá viðskiptavinar notuð til að ákvarða sögulega greiðsluhegðun viðskiptavina þegar pöntun eða reikningur er greiddur.
+- Fyrir pantanir og reikninga lánardrottins notum við meðaltíma milli afhendingar og innheimtu og greiðslu reiknings á hvern lánardrottinn þegar pöntun eða reikningur lánardrottins verður greiddur sem gerir ráðstöfun handbærs fjár nákvæmara.
 
-Þetta skapar nákvæmari sýn á sjóðstreymi byggt á sögulegri greiðsluhegðun fyrir gjaldkera. 
+Þetta skapar nákvæmari yfirsýn yfir sjóðstreymi miðað við sögulega greiðsluhegðun hjá fjármálastjóranum. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

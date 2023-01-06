@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1ada6dfc9b227c7ae4ca873e8354d1fcc11ecbaf
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8910320"
@@ -25,7 +25,7 @@ ms.locfileid: "8910320"
 # <a name="manage-recruiting-processes"></a>Stjórna ráðningarferlum
 
 > [!IMPORTANT]
-> Ráðningarvirknin í þessari grein verður nefnd ráðningarverkefni og beinist að umsækjendum, umsóknum og ráðningarverkefnum. 
+> Ráðningaraðgerðin í þessari grein verður kölluð ráðningarverk og einblínir á umsækjendur, umsóknir og ráðningarverk. 
 
 
 Þessi skrá lýsir hugmyndinni sem ráðningaraðilar geta nota til að rekja skref í ráðningarferli, þar með talið viðleitni til að auglýsa opnar stöður og ráða umsækjendur, rekja upplýsingar um umsækjandann og umsóknina, taka viðtöl við umsækjendur og að velja einn eða fleiri umsækjendur að fylla opnar stöður í fyrirtækinu.
@@ -44,7 +44,7 @@ Ráðningarverk leyfa ráðningaraðilum að rekja framvindu gegn fyllingu einna
 - Tímamörk umsóknar
 - Áætlaður upphafsdagur
 
-Ráðningarverkefnið inniheldur **Atvinnuauglýsing** gildi sem er notað á **Sjálfsafgreiðsla starfsmanna** síðu til að auglýsa opnunina. Aðeins er hægt að sýna starfsmönnum opnunina ef ráðningarverkefnið hefur a **Atvinnuauglýsing** gildi, the **Birting á sjálfsafgreiðslu starfsmanna** reiturinn er stilltur á **Já**, hinn **Umsóknarfrestur** reit er stillt á framtíðardagsetningu og ráðningarverkefnið hefur a **Staða verkefnisins** verðmæti á **Byrjað**. Í eftirfarandi töflu er listi yfir möguleg ráðningarverk verkstöðu og lýsingu þeirra.
+Ráðningarverkið inniheldur **Starfsauglýsinguna** gildið sem notað á síðu **Sjálfsafgreiðsla starfsmanns** til að auglýsa stöðurnar. Hægt er að birta starfsmönnum stöðurnar ef ráðningarverkið hefur gildið **Starfsauglýsing**, reitinn **Birta í sjálfsafgreiðslu starfsmanns** stilltan á **Já**, **Tímamörk umsóknar** verður að vera stillt á dagsetningu í framtíðinni, og ráðningarverkið verður að hafa í **Staða verkefnis** sem **Byrjað**. Í eftirfarandi töflu er listi yfir möguleg ráðningarverk verkstöðu og lýsingu þeirra.
 
 | Staða    | Gefur til kynna að...                                                                         |
 |-----------|-----------------------------------------------------------------------------------------|
@@ -57,7 +57,7 @@ Ráðningaraðilar geta einnig skráð fyrir **Miðla** sem notaðir voru til a�
 
 ## <a name="applicants"></a>Umsækjendur
 
-Umsækjandi er sá einstaklingur sem sækir um starf í fyrirtækinu. Umsækjendum er deilt á milli allra lögaðila í fyrirtækinu þínu. Þess vegna hefur þú stóran hóp af hæfileikum til að leita í. Hægt er að viðhalda færni, meðmælum, og beiðnum um aðlögun og persónulegum upplýsingum fyrir umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni. Hægt er að nota síðuna **Umsækjandi** til að uppfæra eftirfarandi altækar aðsetursbókarupplýsingar fyrir einstaklinga sem eru umsækjendur:
+Umsækjandi er sá einstaklingur sem sækir um starf í fyrirtækinu. Umsækjendur eru samnýttir á milli allra lögaðila í fyrirtækinu. Því hefur þú stóran pott af hæfileika til að leita í. Hægt er að viðhalda færni, meðmælum, og beiðnum um aðlögun og persónulegum upplýsingum fyrir umsækjendur. Þegar færsla umsækjanda er stofnuð, tengiliðafærslu fyrir umsækjanda er stofnuð í altæku aðsetursbókinni. Hægt er að nota síðuna **Umsækjandi** til að uppfæra eftirfarandi altækar aðsetursbókarupplýsingar fyrir einstaklinga sem eru umsækjendur:
 
 - Upplýsingar um aðsetur
 - Tengslaupplýsingar
@@ -86,7 +86,7 @@ Staða umsóknar gefur til kynna hvar umsókn er í ráðningarferlinu. Í eftir
 
 ### <a name="correspondence-actions"></a>Samskiptaaðgerðir
 
-Samskiptaaðgerð umsóknar ákvarðar skjalið eða tölvupóstsniðmátið sem þú notar til að eiga samskipti við umsækjanda sem lagði inn umsóknina. Með því að tengja **bókamerki forrita** með samskiptaaðgerðum geturðu notað gildi úr **Umsókn**, **·**, **·**, og **Ráðningarverkefni** síður í samskiptum þínum við umsækjendur. Með því að búa til **umsóknarsniðmát fyrir tölvupóst** fyrir bréfaskiptaaðgerðirnar geturðu sent tölvupóst á fljótlegan hátt til umsækjenda þar sem umsóknir hafa ákveðna blöndu af stöðu og bréfaskiptaaðgerð. Til dæmis er hægt að senda staðfestingarpóst á öll forrit sem hafa a **Staða** verðmæti á **Tekið á móti** og a **Bréfaaðgerðir** verðmæti á **Tekið á móti**. Eftir að þú hefur sent tölvupóstinn hefurðu möguleika á að uppfæra sjálfkrafa stöðu forritanna.
+Samskiptaaðgerð forrits ákvarðar sniðmát skjals eða tölvupóstsniðmát sem notað er til að eiga samskipti við umsækjandann sem sendi inn umsóknina. Hægt er að tengja **Bókamerki umsókna** við samskiptaaðgerðir til að leyfa að gildi séu notuð af síðunum **Umsókn**, **Umsækjandi**, **Viðtal** og **Ráðningarverk** í samskiptum við umsækjendur. Með því að búa til **sniðmát fyrir tölvupóst umsóknar** fyrir samskiptaaðgerðir geturðu sent tölvupósta á fljótlegan hátt til umsækjenda sem eru með umsóknir með ákveðna samsetningu af stöðu og samskiptaaðgerð. Til dæmis er hægt að senda staðfestingarpóst á allar umsóknir sem eru gildi fyrir **Stöðu** sem er **Móttekið** og gildi fyrir **Samskiptaaðgerð** sem **Móttekið**. Þegar tölvupósturinn hefur verið sendur þarf að uppfæra sjálfkrafa stöðu umsókna.
 
 ## <a name="application-routing"></a>Leiðir umsókna
 

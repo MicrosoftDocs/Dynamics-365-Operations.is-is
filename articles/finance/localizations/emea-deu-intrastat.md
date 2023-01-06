@@ -1,6 +1,6 @@
 ---
 title: German Intrastat
-description: Þessi grein inniheldur upplýsingar um Intrastat yfirlýsingu í Þýskalandi.
+description: Þessi grein inniheldur upplýsingar um Intrastat-skattskýrslu í Þýskalandi.
 author: AdamTrukawka
 ms.date: 09/09/2021
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: atrukawk
 ms.search.validFrom: ''
 ms.openlocfilehash: ae978b28098d92d84415c29bbe76157144f862d8
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9269435"
@@ -68,7 +68,7 @@ Eftirfarandi tafla sýnir reitina sem eru innifaldir í þýsku Intrastat-skatts
 
 3. Setja upp færibreytur erlendra viðskipta:
 
-    1. Í Dynamics 365 Finance, farðu til **Skattur** > **Uppsetning** > **Viðskipti utanríkisviðskipta**.
+    1. Í Dynamics 365 Finance skal fara í **Skattur** > **Uppsetning** > **Færibreytur erlendra viðskipta**.
     2. Í flipanum **Intrasta**, í flýtiflipanum **Rafræn skýrslugerð**, í reitnum **Vörpun skráarsniðs**, skal velja **Intrastat XML (DE)**.
     3. Í reitnum **Vörpun skýrslusniðs** skal velja **Intrastat skýrslu**.
     4. Í flýtiflipanum **Stigveldi vörukóða**, í reitnum **Tegundastigveldi**, velja **Intrastat**.
@@ -150,7 +150,7 @@ Dæmið sýnir hvernig á að bóka komur og sendingar fyrir Intrastat. Það no
 
     1. Farðu í **Skattur** > **Uppsetning** > **Erlend viðskipti** > **Færslukóðar**.
     2. Í aðgerðarúðunni velurðu **Nýtt**.
-    3. Í reitinn **Færslukóði** skal færa inn **21**.
+    3. Í reitinn **Færslu** **kóði** skal slá inn **21**.
     4. Í reitinn **Heiti** skal færa inn **Vöruskil**.
     5. Í aðgerðarúðunni skal velja **Vista**.
 
@@ -170,7 +170,7 @@ Dæmið sýnir hvernig á að bóka komur og sendingar fyrir Intrastat. Það no
 5. Setja upp færibreytur erlendra viðskipta.
 
     1. Farið í **Skattur** > **Uppsetning** > **Erlend viðskipti** > **Færibreytur erlendra viðskipta**.
-    2. Í flýtiflipanum **Intrastat**, í flýtiflipanum **Almennt**, í reitnum **Færslukóði**, skal velja **11**.
+    2. Í flýtiflipanum **Intrastat** á flipanum **Almennt** í **Færslu** **kóði** reitnum skal velja **11**.
     3. Í reitnum **Kreditnóta** skal velja **21**.
     4. Í reitnum **Yfirvald** skal velja **TA**.
     5. Í flýtiflipanum **Rafræn skýrslugerð**, í reitnum **Vörpun skráarsniðs**, skal velja **INSTAT-XML (DE)**.

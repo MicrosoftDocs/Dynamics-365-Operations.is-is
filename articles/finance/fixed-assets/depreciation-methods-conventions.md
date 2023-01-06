@@ -1,6 +1,6 @@
 ---
 title: Afskriftaraðferðir og venjur
-description: Þessi grein veitir yfirlit yfir afskriftarvenjur og afskriftaraðferðir sem eru studdar af Microsoft Dynamics 365 Fjármál.
+description: Þessi grein veitir yfirlit yfir afskriftarreglur og afskriftaraðferðir sem eru studdar af Microsoft Dynamics 365 Finance.
 author: moaamer
 ms.date: 12/16/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 066e571485602907d167b2ed1f7530b2285a02b6
 ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/05/2022
 ms.locfileid: "8714174"
@@ -46,7 +46,7 @@ Hægt er að velja úr eftirfarandi afskriftareglum.
 -   Hálft ár (næsta ár)
 
 Hægt er að velja á milli eftirfarandi afskriftaraðferða.
--   Bein lína endingartími
+-   Línuleg á líftíma
 -   Bókfært virði
 -   Handvirkt
 -   Stuðull

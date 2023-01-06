@@ -1,6 +1,6 @@
 ---
 title: Uppsetning tvöfaldra skrifa úr Lifecycle Services
-description: Þessi grein útskýrir hvernig á að setja upp tvískrifaða tengingu frá Microsoft Dynamics Lífsferilsþjónusta (LCS).
+description: Í þessari grein er útskýrt hvernig á að setja upp tengingu tvöfaldrar skráningar úr Microsoft Dynamics Lifecycle Services (LCS).
 author: laneswenka
 ms.date: 05/16/2022
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: laswenka
 ms.search.validFrom: 2020-01-06
 ms.openlocfilehash: dda0b20492a109e4c3781db520ac19c325e0b403
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289179"
@@ -22,16 +22,16 @@ ms.locfileid: "9289179"
 
 
 
-Þessi grein útskýrir hvernig á að virkja tvískrift frá Microsoft Dynamics Lífsferilsþjónusta (LCS).
+Í þessari grein er útskýrt hvernig á að virkja tvöfalda skráningu úr Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Viðskiptavinir verða að ljúka við Power Platform samþætting eins og lýst er í eftirfarandi efnisatriðum:
+Viðskiptavinir verða að ljúka við Power Platform samþættinguna eins og lýst er í eftirfarandi efnum:
 
-- Ef þú notar ekki ennþá Microsoft Power Platform og vilt stækka fjármála- og rekstrarumhverfi þitt með því að bæta við vettvangsgetu, sjá [Power Platform Samþætting - Virkja meðan á uppsetningu umhverfisins stendur](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
-- Ef þú hefur nú þegar Dataverse og Power Platform umhverfi, og vilja tengja þau við fjármála- og rekstrarumhverfi, sjá [Power Platform samþætting - Virkja eftir uppsetningu umhverfisins](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
+- Ef þú notar ekki Microsoft Power Platform og vilt stækka umhverfi fjármála- og reksturs með því að bæta við verkvangsmöguleikum skaltu skoða [Power Platform Samþætting - Virkja við uppsetningu umhverfis](../../power-platform/enable-power-platform-integration.md#enable-during-deploy).
+- Ef þú ert þegar með Dataverse og Power Platform umhverfi og vilt tengja þau við umhverfi fjármála- og reksturs skaltu skoða [Power Platform samþætting - Virkja eftir uppsetningu umhverfis](../../power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Settu upp tvískrift fyrir nýja eða núverandi Dataverse umhverfi
+## <a name="set-up-dual-write-for-new-or-existing-dataverse-environments"></a>Setja upp tvöfalda skráningu fyrir ný eða fyrirliggjandi Dataverse-umhverfi
 
 Fylgið þessum skrefum til að setja upp tvöfalda skráningu af LCS-síðunni **Upplýsingar um umhverfi**:
 
@@ -53,22 +53,22 @@ Fylgið þessum skrefum til að setja upp tvöfalda skráningu af LCS-síðunni 
 
     :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Tengill á Power Platform-umhverfið.":::
 
-8. Þegar tengingin er komin verður tengill sýndur. Notaðu hlekkinn til að skrá þig inn á tvískrifa stjórnunarsvæðið í fjármála- og rekstrarumhverfi. Þaðan er hægt að setja upp einingavarpanir.
+8. Þegar tengingin er komin verður tengill sýndur. Notið tengilinn til að skrá ykkur inn á stjórnunarsvæði tvöfaldrar skráningar í umhverfi fjármála- og rekstursnu. Þaðan er hægt að setja upp einingavarpanir.
 
 ## <a name="linking-mismatch"></a>Linking mismatch
 
-Það er mögulegt að tvískrifaumhverfið þitt sé tengt við a Dataverse dæmi á meðan LCS er ekki sett upp fyrir Power Platform samþættingu. Þetta ósamræmi við tengingar getur valdið óvæntri hegðun. Mælt er með því að upplýsingar um LCS umhverfi passi við það sem þú ert tengdur við í tvískrift svo hægt sé að nota sömu tenginguna fyrir viðskiptaviðburði, sýndarborð og viðbætur.
+Möguleiki er á því að umhverfi tvöfaldrar skráningar sé tengt við Dataverse tilvik á meðan LCS er ekki uppsett fyrir Power Platform samþættingu. Þetta tengingarmisræmi getur valdið óvæntri hegðun. Mælt er með því að upplýsingar um LCS-umhverfi stemmi við það sem þú tengist í tvöfaldri skráningu þannig að viðskiptatilvik, sýndartöflur og viðbætur geta notað sömu tenginguna.
 
-Ef umhverfið þitt hefur ósamræmi við tengingar sýnir LCS viðvörun sem líkist eftirfarandi dæmi á upplýsingasíðu umhverfisins þíns: "Microsoft hefur uppgötvað að umhverfið þitt er tengt með Dual-write við annan áfangastað en tilgreint er í Power Platform Samþætting, sem ekki er mælt með.“
+Ef umhverfið þitt er með misræmi í tengingu sýnir LCS viðvörun sem er svipuð eftirfarandi dæmi á upplýsingasíðu umhverfisins svipað og „Microsoft hefur greint að umhverfið þitt er tengt í gegnum tvöfalda skráningu við annan viðtökustað en er tilgreindur í Power Platform samþættingu, sem ekki er mælt með:“
 
 :::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform misræmi í tengli samþættingar.":::
 
 Ef þú færð þessa viðvörun skaltu prófa eina af eftirfarandi lausnum:
 
-- Ef LCS umhverfið þitt hefur aldrei verið sett upp fyrir Power Platform samþættingu, þú getur tengst við Dataverse tilvik sem er stillt í tvískrift með því að fylgja leiðbeiningunum í þessari grein.
-- Ef LCS umhverfið þitt er þegar sett upp fyrir Power Platform samþættingu ættir þú að aftengja tvískrift og tengja hana aftur við þann sem LCS tilgreinir með því að nota [Atburðarás: Núllstilla eða breyta tengingu](relink-environments.md#scenario-reset-or-change-linking).
+- Ef LCS-umhverfið þitt hefur aldrei verið sett upp fyrir Power Platform samþættingu geturðu tengst Dataverse tilvikinu sem er skilgreint í tvöfaldri skráningu með því að fylgja leiðbeiningunum í þessari grein.
+- Ef LCS-umhverfið þitt hefur þegar verið sett upp fyrir Power Platform samþættingu ættirðu að aftengja tvöfalda skráningu og endurtengja hana við umhverfi sem LCS tilgreinir með því að nota [Aðstæður: Endurstilla eða breyta tengingu](relink-environments.md#scenario-reset-or-change-linking).
 
-Í fortíðinni var handvirkur stuðningsmiði valkostur í boði, en það var áður en valkostur 1 hér að ofan var til.  Microsoft styður ekki lengur handvirka endurtengingarbeiðnir í gegnum stuðningsmiða.
+Áður var í boði að velja handvirka þjónustubeiðni en það var áður en valkostur 1 var til.  Microsoft styður ekki lengur handvirkar endurtengingarbeiðnir í gegnum þjónustubeiðnir.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

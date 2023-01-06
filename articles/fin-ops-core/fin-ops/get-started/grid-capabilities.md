@@ -1,6 +1,6 @@
 ---
 title: Eiginleikar hnitanets
-description: Þessi grein lýsir nokkrum öflugum eiginleikum riststýringarinnar. Virkja þarf nýjan eiginleika hnitanetsins til að hafa aðgang að þessum möguleikum.
+description: Þessi grein lýsir nokkrum kröftugum eiginleikum netstýringar. Virkja þarf nýjan eiginleika hnitanetsins til að hafa aðgang að þessum möguleikum.
 author: jasongre
 ms.date: 08/29/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
 ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
 ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/02/2022
 ms.locfileid: "9405466"
@@ -30,65 +30,65 @@ Nýja netstýringin veitir fjölda gagnlegra og öflugra eiginleika sem hægt er
 - Sýnir reiknuð gildi 
 - Vélritun á undan kerfinu
 - Mat á stærðfræðisegðum 
-- Flokkun gagna í töfluformi (virkjað sérstaklega með því að nota **Flokkun í rist** eiginleiki)
-- Frysting dálka (virkjað sérstaklega með því að nota **Frysta súlur í ristum** eiginleiki)
+- Flokkun töflugagna (virkjuð sérstaklega með því að nota eiginleikann **Flokkun í hnitanetum**)
+- Festa dálka (virkjað á aðskilinn hátt með því að nota eiginleikann **Festa dálka í hnitanetum**)
 - Aðlaga dálkbreidd sjálfkrafa
 - Teygjanlegir dálkar
 
 ## <a name="showing-calculated-values"></a>Sýnir reiknuð gildi
-Í fjármála- og rekstraröppum geta notendur skoðað útreiknað gildi fyrir hvern tölulegan dálk í töflu. Fóturhluti neðst á ristinni sýnir þessi reiknuðu gildi.
+Í forritum fjármála- og reksturs geta notendur skoðað reiknað gildi fyrir hvern talnadálk í hnitaneti. Neðanmálshluti neðst í hnitanetinu sýnir þessi útreiknuðu gildi.
 
-[![Sýnir reiknuð gildi í ristum.](./media/grids-aggregation.png)](./media/grids-aggregation.png)
+[![Sýnir reiknuð gildi í hnitanetum.](./media/grids-aggregation.png)](./media/grids-aggregation.png)
 
-Í útgáfum fyrir 10.0.29 er heildartalan eina studda reiknaða gildið. Hins vegar, frá og með útgáfu 10.0.29, eftir að þeir virkjaðu **Aukinn möguleiki til að safna neti** eiginleika, geta notendur valið á milli eftirfarandi fjögurra reiknaða gilda:
+Í eldri útgáfum en 10.0.29 er samtala eina studda reiknaða gildið. Hins vegar, frá og með útgáfu 10.0.29, eftir að notendur virkja eiginleikann **Auknir möguleikar í uppsöfnun hnitanets** geta þeir valið úr eftirfarandi fjórum reiknuðum gildum:
 
 - Lágmark
 - Hámark
 - Samtals
 - Meðaltal
 
-Einn dálkur getur aðeins sýnt eina tegund af reiknuðu gildi. Hins vegar er hægt að stilla hvern dálk í hnitanetinu til að sýna aðra tegund af reiknuðu gildi.
+Einn dálkur getur aðeins sýnt eina gerð af reiknuðu gildi. Hins vegar er hægt að stilla hvern dálk í grindinni þannig að hann sýni mismunandi gerð af reiknuðu gildi.
 
 ### <a name="showing-the-grid-footer"></a>Sýni síðufót hnitanetsins
-Það er fótsvæði neðst á hverju töfluneti í fjármála- og rekstraröppum. Neðanmálið getur sýnt mikilvægar upplýsingar sem tengjast gögnum sem birtast í reitunum. Hér eru nokkur dæmi um þessar upplýsingar:
+Það er neðanmálssvæði neðst í hverju töflukerfi í forritum fjármála- og reksturs. Neðanmálið getur sýnt mikilvægar upplýsingar sem tengjast gögnum sem birtast í reitunum. Hér eru nokkur dæmi um þessar upplýsingar:
 
 - Fjöldi valdra lína í töflunni (þegar fleiri en ein skrá er valin)
-- Reiknuð gildi neðst í stilltum, tölulegum dálkum (til dæmis heildartölur)
+- Reiknuð gildi neðst í samstilltu töludálkunum (t.d. samtölur)
 - Fjöldi raða í gagnasafninu 
 
-Þessi fótur er sjálfgefið falinn en þú getur kveikt á honum. Til að sýna síðufót fyrir hnitanet skal velja hnappinn **Valkostir hnitanets** í haus hnitanetsins og síðan velja valkostinn **Sýna síðufót**. Eftir að kveikt er á síðufætinum fyrir tiltekið hnitanet verður stillingin geymd í minni þar til notandinn kýs að fela síðufótinn. Til að fela síðufótinn skal velja **Fela síðufót** á valmyndinni **Valkostir hnitanets**.
+Þessi síðufótur er sjálfgefið falinn en hægt er að kveikja á honum. Til að sýna síðufót fyrir hnitanet skal velja hnappinn **Valkostir hnitanets** í haus hnitanetsins og síðan velja valkostinn **Sýna síðufót**. Eftir að kveikt er á síðufætinum fyrir tiltekið hnitanet verður stillingin geymd í minni þar til notandinn kýs að fela síðufótinn. Til að fela síðufótinn skal velja **Fela síðufót** á valmyndinni **Valkostir hnitanets**.
 
 ### <a name="specifying-columns-with-calculated-values"></a>Tilgreina dálka með reiknuðum gildum
-Sem stendur sýna engir dálkar sjálfgefið reiknað gildi. Þess í stað er uppsetningin talin einskiptisaðgerð, eins og að stilla breidd dálka í ristum. Eftir að þú hefur tilgreint að þú viljir skoða reiknað gildi fyrir dálk, verður sú stilling minnst næst þegar þú heimsækir síðuna.
+Sem stendur sýna engir dálkar sjálfgefið reiknuð gildi. Í staðinn er uppsetningin talin aðgerð sem er framkvæmd einu sinni, eins og að breyta breidd dálka í hnitanetum. Þegar þú hefur tilgreint að þú viljir sjá reiknað gildi fyrir dálk, verður munað eftir stillingunni þegar þú heimsækir síðuna næst.
 
-Það eru tvær leiðir til að stilla dálk til að sýna reiknað gildi:
+Það eru tvær leiðir til að stilla dálk til að sýna útreiknað gildi
 
-- Veldu og haltu inni (eða hægrismelltu) í dálknum sem þú vilt skoða reiknað gildi fyrir. Ef **Aukinn möguleiki til að safna neti** eiginleiki er virkur, veldu **Skoða heildartölur dálka**, og veldu síðan viðeigandi reiknaða gildi. Ef þessi eiginleiki er ekki virkur skaltu velja **Samtals þennan dálk**. Þessi aðgerð veldur því að þrír atburðir eiga sér stað:
+- Í dálkinum sem á að skoða reiknað gildi fyrir skaltu velja og halda inni (eða hægrismella). Ef búið er að virkja eiginleikann **Auknir möguleikar í uppsöfnun hnitanets** skal velja **Sýna samtölur dálka** og velja síðan reiknað gildi sem óskað er eftir. Ef sá eiginleiki er ekki virkur skaltu velja **Samtala þessa dálks**. Þessi aðgerð veldur því að þrír atburðir eiga sér stað:
 
-    1. Ratnarfóturinn verður sýnilegur. 
-    2. Val þitt fyrir að skoða reiknað gildi fyrir dálkinn er vistað. 
-    3. Æskilegur útreikningur er hafinn fyrir dálkinn og aðra dálka sem þú hefur áður stillt til að sýna reiknað gildi. Tíminn sem þarf til að sýna reiknuð gildi fer eftir stærð gagnasafnsins.
+    1. Síðufótur hnitanetsins verður sýnilegur. 
+    2. Stilling þín til að skoða reiknað gildi fyrir dálkinn er vistuð. 
+    3. Útreikningurinn sem óskað er eftir er hafinn fyrir þennan dálk og alla aðra dálka sem þú hefur áður stillt til að sjá reiknað gildi fyrir. Tíminn sem þarf til að sýna reiknuð gildi fer eftir stærð gagnasafnsins.
 
-- Eftir að fótinn er sýnilegur skaltu velja **Sýna samtals** (eða **Veldu reiknað gildi** ef **Aukinn möguleiki til að safna neti** eiginleiki er virkur) í fótsvæðinu neðst í dálknum sem þú vilt skoða reiknað gildi fyrir. Ef það eru engir stilltir dálkar mun sá hnappur vera tiltækur í síðufæti í öllum töludálkum.
+- Þegar fóturinn er sýnilegur velurðu **Sýna samtölu** (eða **Velja reiknað gildi** ef eiginleikinn **Auknir möguleikar í uppsöfnun hnitanets** er virkur) á svæði fótar neðst í dálkinum þar sem á að skoða reiknað gildi fyrir. Ef það eru engar stilltir dálkar verður sá hnappur tiltækur fyrir alla töludálka.
 
-    Eftir að að minnsta kosti einn dálkur hefur verið stilltur til að sýna reiknað gildi, **Sýna samtals** (eða **Veldu reiknað gildi**) hnappurinn verður aðeins tiltækur þegar þú sveimur eða fókus. Aðgerðin með því að velja hnappinn vistar bara val þitt fyrir að skoða reiknað gildi í dálknum, svo að valið sé notað við framtíðarheimsóknir á síðuna. Í neðanmálinu er þessi staða gefin til kynna með bandstriki sem birtist í dálkinum. (Athugaðu að reiknað gildi birtist strax ef gagnasafnið er nógu lítið.)
+    Þegar að minnsta kosti einn dálkur er stilltur til að birta reiknað gildi verður hnappurinn **Sýna samtölu** (eða hnappurinn **Velja reiknað gildi**) þegar haldið er yfir eða í fókus. Aðgerðin við að velja hnappinn vistar einungis stillingu þína um að sjá reiknað gildi í dálkinum, þannig að stillingin er notuð þegar síðan er opnuð síðar. Í neðanmálinu er þessi staða gefin til kynna með bandstriki sem birtist í dálkinum. (Athugaðu að reiknað gildi birtist strax ef gagnasafnið er nógu lítið).
 
-Ef þú gerir mistök og vilt ekki lengur skoða reiknað gildi í tilteknum dálki skaltu velja og halda inni (eða hægrismella) í dálknum og velja síðan **Fela samtals** (eða **Skoða heildartölur dálka \> Enginn** ef **Aukinn möguleiki til að safna neti** eiginleiki er virkur). Að öðrum kosti skaltu velja **Fela samtals** (eða **Fela reiknað gildi**) í síðufæti í þeim dálki. Þessi valkostur verður einnig vistaður fyrir framtíðarheimsóknir á síðunni. 
+Ef þú gerir mistök og vilt ekki lengur skoða reiknað gildi í tilteknum dálki skaltu velja og halda inni (eða hægrismella) í dálkinum og velja svo **Fela samtölu** (eða **Skoða samtölur dálks \> Ekkert** ef eiginleikinn **Auknir möguleikar í uppsöfnun hnitanets** er virkjaður). Einnig getur þú valið **Fela samtölu** (eða **Fela reiknað gildi**) í fæti umrædds dálks. Þessi valkostur verður einnig vistaður fyrir framtíðarheimsóknir á síðunni. 
 
-### <a name="calculating-aggregate-values"></a>Útreikningur á heildargildum
-Þegar þú ferð á síðu þar sem fóturinn er sýnilegur og dálkar eru nú þegar stilltir til að sýna reiknuð gildi, gætu þessi gildi ekki verið sýnd í fótinn. Hegðunin fer eftir stærð gagnasafnsins á síðunni. Ef gagnasafnið er nógu lítið birtast útreiknuð gildi sjálfkrafa ásamt fjölda lína í gagnasafninu. Ef það eru strik í síðufæti undir dálkunum sem þú stilltir er gagnasafnið of stórt til að kerfið geti sýnt reiknuð gildi strax. Í þessu tilviki þarf skýrar aðgerðir til að reikna út gildin. Til að reikna út gildin skaltu velja **Reikna** hnappinn í síðufæti. Að öðrum kosti skaltu velja og halda inni (eða hægrismella) í dálki sem þú vilt skoða heildarfjöldann fyrir og velja síðan **Samtals þennan dálk** (eða **Skoða heildartölur dálka** og síðan æskilegt reiknað gildi ef **Aukinn möguleiki til að safna neti** eiginleiki er virkur).
+### <a name="calculating-aggregate-values"></a>Reiknar samanlögð gildi
+Þegar þú ferð á síðu þar sem fótur er sýnilegur og dálkar eru þegar stilltir til að sýna reiknuð gildi er ekki víst að þau gildi séu sýnd í fætinum. Hegðunin fer eftir stærð gagnasafnsins á síðunni. Ef gagnasafnið er nægjanlega lítill, birtast reiknuð gildi sjálfkrafa ásamt fjölda lína í gagnasafninu. Ef það eru bandstrik í fót undir dálkunum sem þú stilltir, þá er gagnasafnið of stórt til að kerfið geti sýnt reiknaðar tölur strax. Í þessu tilviki þarf að grípa til sérstakra aðgerða til að reikna gildin. Til að reikna út gildin skaltu velja hnappinn **Reikna** í fætinum. Einnig getur þú valið og haldið inni (eða hægrismellt) dálki sem þú vilt skoða heildarupphæðina fyrir og síðan valið **Samtala þessa dálks** (eða **Skoða samtölur dálks** og síðan reiknaða gildið sem óskað er eftir ef eiginleikinn **Auknir möguleikar í uppsöfnun hnitanets** er virkjaður).
 
-Ef það tekur langan tíma að klára útreikninginn er hægt að hætta við aðgerðina hvenær sem er með því að velja **Hætta við**. Stundum verður gagnasafnið of stórt til að reikna út heildargildi (takmörk sem stofnunin þín setur). Í þessu tilviki færðu í staðinn tilkynningu um að sía gögnin þín meira.
+Þú getur hætt við aðgerðina hvenær sem er með því að velja **Hætta við** ef útreikningurinn tekur langan tíma. Stundum verður gagnasafnið of stórt til að reikna samanlögð gildi (mörk sem eru ákvörðuð af fyrirtækinu þínu). Í því tilviki færðu þess í stað tilkynningu um að sía gögnin þín betur.
 
 > [!NOTE]
-> Kerfisstjórar geta breytt takmörkunum fyrir fjölda færslur sem eru tiltækar til að reikna út samanlagðan hlut með því að breyta **Hámarksfjöldi staðbundinna gagna fyrir hvert rist** breytu á **Frammistöðuvalkostir viðskiptavina** síðu. Sjálfgefið gildi er 25.000 færslur. Stjórnendur ættu að vera varkár þegar þeir stilla þetta gildi, vegna þess að gildi sem er of stórt getur tæmt tiltækt minni á vél notandans. Við mælum með að gildið sé ekki hærra en 50.000 færslur.
+> Kerfisstjórar geta breytt hámarksfjölda skráa sem eru tiltækar til að reikna samanlögð gildi með því að breyta færibreytunni **Hámarksfjöldi staðbundinna færsla fyrir hvert hnitanet** á síðunni **Valkostir afkastagetu biðlara**. Sjálfgefið gildi er 25.000 færslur. Stjórnendur ættu að gæta varúðar þegar þeir stilla þetta gildi, vegna þess að gildi sem er of stórt getur fyllt allt tiltækt minni í tölvu notandans. Mælt er með því að gildið sé ekki stærra en 50.000 færslur.
 
-Reiknuð gildi verða sjálfkrafa uppfærð þegar þú uppfærir, eyðir eða býrð til línur í gagnasafninu.
+Reiknuð gildi munu uppfærast sjálfkrafa þegar þú uppfærir, eyðir eða býrð til línur í gagnasafninu.
 
 ## <a name="typing-ahead-of-the-system"></a>Vélritun á undan kerfinu
-Í mörgum atburðarásum í viðskiptum er möguleikinn til að færa gögn fljótt inn í kerfið mjög mikilvægur. Fyrir kynningu á nýju netstýringunni gátu notendur aðeins breytt gögnum í núverandi röð. Þess vegna, eftir að þeir gerðu breytingar í röð, gátu notendur ekki skipt yfir í aðra röð eða búið til nýja línu fyrr en kerfið hefur staðfest breytingarnar í núverandi röð og (ef um er að ræða línugerð) keyrt alla rökfræði sem tengist með stofnun nýrrar röðar. Til að hjálpa til við að draga úr þeim tíma sem notendur eyða í að bíða eftir að þessum aðgerðum ljúki, og til að bæta framleiðni notenda, lagar nýja netið þessar aðgerðir þannig að þær séu ósamstilltar. Notendur geta búið til nýjar raðir eða farið í aðrar raðir til að gera breytingar á meðan fyrri raðir sannprófanir og raðir búa til rökfræði eru í bið. 
+Í mörgum atburðarásum í viðskiptum er möguleikinn til að færa gögn fljótt inn í kerfið mjög mikilvægur. Áður en nýja hnitanetsstýringin var kynnt gátu notendur aðeins breytt gögnum í núverandi línu. Eftir að breytingarnar voru gerðar í línu gátu notendur því ekki skipt yfir í aðra línu eða búið til nýja línu fyrr en kerfið hafði staðfest breytingarnar í núverandi línu og (og í tilvikum þegar lína var stofnuð) keyrði öll rök sem eru tengd stofnun nýrrar línu. Til að reyna að draga úr þeim tíma sem notendur bíða eftir að þessum aðgerðum ljúki, og til að bæta afköst notanda, aðlagar nýja hnitanetið þessar aðgerðir svo þær séu ósamstilltar. Þess vegna getur notandinn fært sig yfir í aðrar línur til að gera breytingar á meðan beðið er eftir fyrri staðfestingum á línum og rök stofnunar línu eru í bið. 
 
-[![Vélritun á undan kerfinu.](./media/gridFastEntry-07-25-2022.gif)](./media/gridFastEntry-07-25-2022.gif)
+[![Innsláttur á undan kerfinu](./media/gridFastEntry-07-25-2022.gif)](./media/gridFastEntry-07-25-2022.gif)
 
 Til að styðja við þessa nýju hegðun hefur nýjum dálki fyrir línustöðuna verið bætt við hægra megin við dálk línuvals þegar hnitanetið er í breytingastillingu. Þessari dálkur sýnir eina af eftirfarandi stöðum:
 
@@ -98,13 +98,13 @@ Til að styðja við þessa nýju hegðun hefur nýjum dálki fyrir línustöðu
 - **Gert hlé** - Þessi staða gefur til kynna að hlé hafi verið gert á vinnslu netþjónsins því að staðfesting línunnar hafi ræst sprettiglugga sem krefst innslátt notanda. Vegna þess að notandinn gæti verið að slá inn gögn í einhverri annarri línu, er honum ekki birtur sprettiglugginn strax. Í staðinn verður glugginn birtur þegar notandinn kýs að halda áfram vinnslu. Þessari stöðu fylgir tilkynning sem upplýsir notandann um ástandið. Tilkynningin felur í sér aðgerðina **Halda vinnslu áfram** sem ræsir sprettigluggann.
 
 ### <a name="differences-when-entering-data-ahead-of-the-system"></a>Mismunur þegar gögn eru slegin inn á undan kerfinu
-Þegar þú slærð inn gögn á undan þeim stað þar sem kerfið er að vinna, geturðu búist við nokkrum breytingum á gagnafærsluupplifuninni:
+Þegar þú slærð inn gögn á undan þeim stað þar sem kerfið er í vinnslu kunna nokkrar breytingar verða á upplifun gagnaskráningar:
 
-- Þú munt taka eftir því að það eru engir fellilistar fyrir uppfletti, svæðisgildi eru ekki staðfest eftir að þú færð í annan dálk í sömu röð og dálkar sýna upphaflega ekki sjálfgefin gildi. Þessi hegðun á sér stað þegar þú býrð til eða uppfærir á undan kerfinu. Hins vegar, eftir að kerfið nær þeim stað þar sem þú ert að breyta, mun staðlað upplifun halda áfram. Ef þú gerðir breytingar á reit sem venjulega fær sjálfgefið gildi, hnekkja breytingarnar þínar sjálfgefna svæðisgildi þegar þjónninn byrjar að vinna úr röðinni.
-- Ef þú býrð til nýja línu með því að nota **Ör niður** takka, allir dálkar í ristinni munu birtast sem breytanlegar. Sjálfgefið er að fókusinn verði settur í fyrsta dálkinn í nýju línunni. Þessi dálkur gæti ekki verið sami dálkurinn og fékk upphafsfókusinn í eldra hnitanetinu, eða sami dálkurinn sem fær fókus eftir að þú hefur valið **Nýtt** takki. Stofnunin þín getur sérsniðið kerfið og breytt dálknum sem fær upphafsfókus þegar **Ör niður** lykill er valinn. Fyrir frekari upplýsingar, sjá [Að tilgreina dálkinn sem fær upphafsfókus þegar nýjar línur eru búnar til með því að nota örvatakkann niður](#developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key) kafla. Burtséð frá því geturðu notað sérstillingar til að fínstilla hvert rist fyrir innslátt gagna. Nánar tiltekið geturðu endurraðað reitum þannig að fyrsti dálkurinn sé dálkurinn sem þú vilt byrja að slá inn gögn í. Þú gætir líka viljað endurraða reitum almennt fyrir innslátt gagna, til að draga úr flipastoppum og fela alla reiti sem eru ekki nauðsynlegir fyrir gagnafærslu í þessari tilteknu sýn.
+- Þú munt taka eftir því að það eru engir fellilistar fyrir uppflettingu, gildi reita eru ekki staðfest eftir að þú færir þig í aðra dálk í sömu línu og dálkar sýna ekki sjálfgefin gildi í upphafi. Þessi hegðun á sér stað þegar þú stofnar eða uppfærir á undan kerfinu. Þegar kerfið er komið á þann stað sem þú ert að breyta, verður upplifunin hins vegar eins og venjulega. Ef þú hefur gert breytingar á reit sem venjulega fær sjálfgefið gildi, þá hnekkja breytingar þínar sjálfgefna gildi reitsins þegar netþjónninn byrjar að vinna úr línunni.
+- Ef ný lína er búin til með því að nota **Niðurörvarhnappinn** birtast allir dálkar í hnitanetinu sem hægt er að breyta. Sjálfgefið er að leggja áherslu á fyrsta dálkinn í nýju línunni. Þessi dálkur er hugsanlega ekki sami dálkur og var lögð áhersla á í eldri hnitanetinu, eða sami dálkur og var lögð áhersla á eftir að þú hefur valið **Nýjan** hnapp. Fyrirtækið þitt getur sérsniðið kerfið og breytt dálkinum sem er lögð áhersla á í upphafi þegar **Niðurörvarhnappurinn** er valinn. Nánari upplýsingar er að finna í hlutanum [Tilgreina dálk sem lögð er áhersla á í upphafi þegar nýjar línur eru stofnaðar með niðurörvarhnappinum](#developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key). Óháð því er hægt að nota sérstillingu til að fínstilla hvert hnitanet fyrir gagnaskráningu. Nánar tiltekið er hægt að endurraða reitum þannig að fyrsti dálkurinn er dálkurinn sem á að byrja að færa inn gögn. Þú gætir einnig viljað endurraða reitum fyrir gagnaskráningu, til að fækka dálkhökum og fela alla reiti sem eru ekki nauðsynlegir fyrir gagnaskráningu í yfirlitinu sem um ræðir.
 
 ### <a name="pasting-from-excel"></a>Líma úr Excel
-Notendur hafa alltaf getað flutt gögn úr netum í fjármála- og rekstraröppum til Microsoft Excel með því að nota **Flytja út í Excel** vélbúnaður. Hins vegar, möguleikinn á að slá inn gögn á undan kerfinu gerir nýja hnitanetinu kleift að styðja við að afrita töflur úr Excel og líma þær beint inn í net í fjármála- og rekstraröppum. Hólfið í hnitanetinu þar sem límingaraðgerðin hefst ákvarðar hvar líming á afritaðri töflu hefst. Efni afrituðu töflunnar skrifar yfir efni hnitanetsins, fyrir utan tvö tilfelli:
+Notendur hafa alltaf getað flutt gögn úr hnitanetum í forritum fjármála- og reksturs í Microsoft Excel með því að nota aðferðina **Flytja inn í Excel**. Getan til að slá inn gögn á undan kerfinu gerir hinsvegar nýja hnitanetinu kleift að styðja afritun á töflum úr Excel og líma þær beint í hnitanet í forritum fjármála- og reksturs. Hólfið í hnitanetinu þar sem límingaraðgerðin hefst ákvarðar hvar líming á afritaðri töflu hefst. Efni afrituðu töflunnar skrifar yfir efni hnitanetsins, fyrir utan tvö tilfelli:
 
 - Ef fjöldi dálka í afrituðu töflunni er meiri en fjöldi dálka sem eru eftir í hnitanetinu, þar sem staðsetning límingar hefst, er notandanum tilkynnt að aukadálkarnir hafi verið hunsaðir. 
 - Ef fjöldi lína í afrituðu töflunni er meiri en fjöldi lína í hnitanetinu, þar sem staðsetning límingar hefst, skrifar límda efnið yfir núverandi hólf, og allar aukalínur í afrituðu töflunni eru settar inn sem nýjar línur neðst í hnitanetinu. 
@@ -112,35 +112,35 @@ Notendur hafa alltaf getað flutt gögn úr netum í fjármála- og rekstraröpp
 ## <a name="evaluating-math-expressions"></a>Mat á stærðfræðisegðum
 Sem framleiðniörvun geta notendur slegið inn stærðfræðiformúlur í tölureiti í töflu. Þeir þurfa ekki að gera útreikninginn í forriti utan kerfisins. Til dæmis ef þú slærð inn **=15\*4** og ýttu síðan á lykilinn **Flipi** til að fara út úr reitnum, mun kerfið meta segðina og vista gildi upp á **60** fyrir reitinn.
 
-[![Að meta stærðfræðiorð.](./media/gridMathExpression-07-25-2022.gif)](./media/gridMathExpression-07-25-2022.gif)
+[![Mat á stærðfræðisegðum.](./media/gridMathExpression-07-25-2022.gif)](./media/gridMathExpression-07-25-2022.gif)
 
 Til að gera kerfið að viðurkenna gildi sem tjáningu, byrjaðu gildið með jöfnu merki (**=**). Nánari upplýsingar um rekstraraðila sem studd er og setningafræði, sjá [Studd stærðfræðitákn](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
-Frá og með útgáfu 10.0.29 hefur hæfileikinn til að meta stærðfræðitjáningar í talnastýringum verið útvíkkaður og er nú einnig fáanlegur utan hnitanetsins.
+Frá og með útgáfu 10.0.29 hefur getan til að meta stærðfræðisegðir með tölustjórnun stærðfræðitjáningu í talnastýringum verið framlengd og er nú einnig aðgengileg utan hnitanetsins.
 
 ## <a name="grouping-tabular-data"></a>Flokkun töflugagna
-Viðskiptanotendur þurfa oft að framkvæma sérstaka greiningu á gögnum. Þó að hægt sé að gera þessa greiningu með því að flytja út gögn til Microsoft Excel og með því að nota pivot töflur, the **Flokkun í rist** eiginleiki, sem er háður nýju netstýringareiginleikanum, gerir notendum kleift að skipuleggja töflugögn sín á áhugaverðan hátt innan fjármála- og rekstrarforrita. Vegna þess að þessi eiginleiki framlengir **Reiknuð gildi** eiginleiki, **Flokkun** gerir þér kleift að öðlast þýðingarmikla innsýn í gögnin með því að gefa upp reiknuð gildi (til dæmis undirsamtölur) á hópstigi.
+Fyrirtækjanotendur þurfa oft að framkvæma sértækar greiningar á gögnum. Þó að hægt sé að framkvæma greiningu með því að flytja út gögn á Microsoft Excel og nota Pivot-töflur gerir **flokkun í hnitaneti** eiginleikinn, sem er háður nýjum eiginleika hnitastýringar, notendum kleift að skipuleggja töflugögn á áhugaverðan hátt innan forrita fjármála- og reksturs. Vegna þess að þessi eiginleiki stækkar eiginleikann **Reiknuð gildi** gerir **Flokkun** þér kleift að fá gagnlegri innsýn í gögnin með því að gefa upp reiknuð gildi (t.d. millisamtölur) á hópstigi.
 
-[![Sameining gagna í rist.](./media/grids-groupingWithTotals.png)](./media/grids-groupingWithTotals.png)
+[![Flokkar gögn í hnitaneti.](./media/grids-groupingWithTotals.png)](./media/grids-groupingWithTotals.png)
 
 Til að nota þennan eiginleika skal hægrismella á dálkinn sem á að flokka eftir, og velja **Flokka eftir þessum dálki**. Þessi aðgerð mun raða gögnum eftir völdum dálki, bæta við nýjum **Flokki eftir** dálki við upphaf hnitanetsins og setja inn „hauslínur“ í upphafi hvers hóps. Þessar hausraðir veita eftirfarandi upplýsingar um hvern hóp:
 
 - Gagnagildi fyrir hópinn 
 - Dálkheiti (þessar upplýsingar eru sérstaklega gagnlegar þegar mörg flokkunarstig eru til staðar)
 - Fjöldi gagnalína í þessum hópi
-- Reiknuð gildi fyrir hvaða stillta dálk sem er (til dæmis undirsamtölur ef dálkurinn er stilltur til að sýna heildarfjölda)
+- Reiknuð gildi fyrir hvaða skilgreinda dálk sem er (til dæmis millisamtölur ef dálkurinn er stilltur til að sýna samtölu)
 
-Með [Vistaðar skoðanir](saved-views.md) virkt geturðu vistað flokkun sem hluta af yfirliti á síðum sem gera kleift að vista fyrirspurnir á skoðanir. Til dæmis þeir sem eru með stóra útsýnisvalara. Sjáðu [Skipt á milli skoðana](saved-views.md#switching-between-views) kafla fyrir frekari upplýsingar. 
+Þegar [Vistuð yfirlit](saved-views.md) eru virkjuð er hægt að vista flokkun sem hluta af yfirliti á síðum sem leyfa að vista fyrirspurnir í yfirlitum. Til dæmis þeir sem eru með stórt yfirlitsval. Sjá hlutann [Skipta á milli yfirlita](saved-views.md#switching-between-views) fyrir frekari upplýsingar. 
 
 ### <a name="multiple-levels-of-grouping"></a>Mörg stig flokkunar
 Eftir að gögn hafa verið flokkuð eftir einum dálki er hægt að flokka gögnin eftir öðrum dálki með því að velja **Flokka eftir þessum dálki** í viðkomandi dálki. Hægt er að endurtaka þetta ferli þar til fimm faldaðar stigaflokkanir eru til staðar, sem er studd hámarksdýpt. Á þessu stigi er ekki lengur hægt að flokka eftir viðbótardálkum.
 
 Hvenær sem er er hægt að fjarlægja flokkun í hvaða dálki sem er með því að hægrismella á dálkinn og velja **Sundra hópi**. Einnig er hægt að fjarlægja flokkun úr öllum dálkum með því að velja **Valkostir hnitanets** og síðan **Sundra öllum hópi**.
 
-### <a name="sorting-grouped-data"></a>Röðun flokkaðra gagna
-Eftir að þú flokkar gögn eftir einum eða fleiri dálkum geturðu breytt röðunarstefnu fyrir hvaða flokkunardálk sem er í gegnum samsvarandi dálkhaus. 
+### <a name="sorting-grouped-data"></a>Raða flokkuðum gögnum
+Eftir að gögn hafa verið flokkuð í einn eða fleiri dálka er hægt að breyta röðunarstefnu hvers flokkunardálks með samsvarandi dálkahaus. 
 
-Ef þú flokkar á óflokkaðan dálk helst flokkunin ósnortin. Gögnin eru flokkuð innan hvers hóps, byggt á völdum dálki.
+Ef þú raðar í óflokkaðan dálk helst flokkunin óbreytt. Gögnunum er raðað innan hvers flokks, miðað við valda dálkinn.
 
 ### <a name="expanding-and-collapsing-groups"></a>Stækka og fella saman hópa
 Fyrsta flokkun gagna verður með alla hópa útvíkkaða. Hægt er að búa til samandregin yfirlit yfir gögnin með því að fella saman einstaka flokka eða nota hóp til að stækka og draga saman til að aðstoða við að fletta í gegnum gögn. Til að víkka út hóp eða draga hann saman skal velja tvíoddatákn (>) hnappinn í samsvarandi flokkshauslínu. Athugið að staða fyrir víkkun/samanfellingu einstakra flokka er **ekki** vistuð í sérstillingum.
@@ -151,16 +151,16 @@ Fyrsta flokkun gagna verður með alla hópa útvíkkaða. Hægt er að búa til
 ### <a name="hiding-column-names"></a>Fela dálkaheiti
 Við flokkun gagna er sjálfgefið að hegðun sýni dálkheiti í hauslínu hóps. Hægt er að fela dálkheitið í hauslínu hóps með því að velja **Valkostir hnitanets** > **Fela dálkheiti hóps**.
 
-### <a name="grouping-on-date-and-time-columns"></a>Flokkun á dálkum dagsetningar og tíma
-Þegar þú flokkar á Date eða DateTime reiti hefurðu möguleika á að flokka eftir ári, mánuði eða degi. Hópurinn „gildi“ í samsvarandi hauslínu mun passa við sniðið úr þeim reit. Að auki, fyrir DateTime og Time reiti, geturðu flokkað eftir klukkustund, mínútu eða sekúndu.
+### <a name="grouping-on-date-and-time-columns"></a>Flokkun dálka dagsetninga og tíma
+Þegar þú flokkar reitina Dagsetning eða Dagsetning og tími getur þú valið um að flokka eftir ári, mánuði eða degi. Flokkurinn „gildi“ í samsvarandi hauslínu mun samsvara sniðinu úr þeim reit. Að auki er hægt að flokkar reitina Dagsetning eða Dagsetning og tími eftir klukkustund, mínútu eða sekúndu.
 
 > [!IMPORTANT]
-> Notendur geta ekki bætt við flokkunardálki eins og er eftir að þeir flokka á hluta dagsetningar- eða tímadálks.
+> Notendur geta ekki bætt við flokkunardálki eftir að þeir hafa sett hóp í hluta af dagsetningu eða tímadálki.
 
 ## <a name="freezing-columns"></a>Dálkar frystir
-Sumir dálkar í hnitaneti gætu reynst það mikilvægir fyrir samhengi þannig að þú vilt ekki að þeir hverfi úr augsýn við flettingu. Þess í stað gætirðu viljað að gildin í þessum dálkum séu alltaf sýnileg. The **Frysta súlur í rist** eiginleiki veitir notendum þennan sveigjanleika. 
+Sumir dálkar í hnitaneti gætu reynst það mikilvægir fyrir samhengi þannig að þú vilt ekki að þeir hverfi úr augsýn við flettingu. Þess í stað gætirðu viljað að gildin í þessum dálkum séu alltaf sýnileg. Eiginleikinn **Festa dálka í hnitaneti** býður notendum upp á þennan sveigjanleika. 
 
-[![Frysta súlur í rist.](./media/gridFreezingColumns-07-25-2022.gif)](./media/gridFreezingColumns-07-25-2022.gif)
+[![Frystir dálka í hnitaneti.](./media/gridFreezingColumns-07-25-2022.gif)](./media/gridFreezingColumns-07-25-2022.gif)
 
 Til að festa dálk skal hægrismella í haus dálksins og síðan velja **Festa dálk**. Í fyrsta skipti sem þetta skref er gert verður valinn dálkur að fyrsta dálkinum og mun ekki lengur hverfa úr augsýn við flettingu. Næstu dálkum sem eru festir verður bætt hægra megin við síðasta festa dálkinn. Hægt er að nota venjulegu færsluaðgerðina til að endurraða festum dálkum eftir þörfum. Hins vegar er ekki hægt að færa festa dálka þannig að þeir birtist á meðal ófestra dálka. Að sama skapi er ekki hægt að færa ófesta dálka þannig að þeir birtist á meðal festra dálka.
 
@@ -169,23 +169,23 @@ Til að losa dálk skal hægrismella í haus fests dálks og síðan velja **Los
 Athugið að dálkval og línustaða dálka í nýja hnitanetinu eru alltaf fest sem fyrstu tveir dálkarnir. Þess vegna, þegar þessir dálkar eru teknir með í hnitaneti, verða þeir alltaf sýnilegir notanda, óháð láréttri flettistöðu í hnitanetinu. Ekki er hægt að endurraða þessum tveimur dálkum.
 
 ## <a name="autofit-column-width"></a>Aðlaga dálkbreidd sjálfkrafa
-Eins og í Excel geta notendur þvingað dálk til að breyta stærð sjálfkrafa miðað við innihaldið sem er nú sýnt í honum. Tvísmelltu bara (eða tvísmelltu) á stærðarhandföngin í dálknum. Að öðrum kosti skaltu setja fókusinn í dálkhausinn og velja síðan **A** lykill (fyrir sjálfvirka passa).
+Eins og í Excel geta notendur þvingað dálk til að breyta stærðinni sjálfkrafa miðað við efnið sem verið er að sýna í honum. Einungis þarf að tvísmella (eða tvísmella) á gripsvæðin í dálknum. Einnig er hægt að leggja áherslu á dálkahausinn og velja svo lykilinn **A** (fyrir sjálfvirka aðlögun).
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hvernig virkja ég nýja netstýringu í umhverfi mínu? 
 
 Eiginleikinn **Ný hnitanetsstýring** er í boði í eiginleikastjórnun í hvaða umhverfi sem er. Eftir að eiginleikinn í eiginleikastjórnun hefur verið virkjaður munu allar síðari notandalotur nýta sér nýju netstýringuna. 
 
-Þessi eiginleiki byrjaði að vera virkur sjálfgefið í útgáfu 10.0.21. Stefnt er að því að verða lögboðin í október 2022.
+Þessi eiginleiki byrjaði fyrst að vera sjálfgefinn í útgáfu 10.0.21. Stefnt er að því að slíkt verði áskilið í október 2022.
 
-## <a name="developer-topics"></a>Viðfangsefni þróunaraðila
+## <a name="developer-topics"></a>Umfjöllunarefni forritara
 
 ### <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Þróunaraðili] Afskrá einstaka síður frá því að nota nýja hnitanetið 
 Ef fyrirtækið uppgötvar síðu sem á í vandræðum með að nota nýja hnitanetið, er API tiltækt til að leyfa einstökum skjámyndum að nota eldri netstýringu og leyfa á sama tíma öðrum hlutum kerfisins að nota nýju netstýringuna. Til að afskrá einstaka síður frá því að nota nýja hnitanetið, skal bæta við eftirfarandi kallskilaboðum `super()` í `run()` aðferð skjámyndarinnar.
 
 ```this.forceLegacyGrid();```
 
-Þetta API verður að lokum úrelt til að gera kleift að fjarlægja eldri netstýringu. Hins vegar verður það tiltækt í að minnsta kosti 12 mánuði eftir að tilkynnt er um afskrift þess. Ef einhver vandamál krefjast þess að þetta API sé notað skal tilkynna um þau til Microsoft.
+Þetta forritaskil (API) verður að lokum gert úrelt til að hægt sé að fjarlægja eldri hnitanetsstýringar. Hún verður þó tiltæk í að minnsta kosti 12 mánuði eftir að úrelding hennar er tilkynnt. Ef einhver vandamál krefjast þess að þetta API sé notað skal tilkynna um þau til Microsoft.
 
 #### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Að þvinga síðu til að nota nýja netið eftir að hafa áður afþakkað netið
 Ef þú hefur valið að nota ekki einstaka síðu á nýja netinu gætirðu viljað virkja nýja netið aftur síðar eftir að undirliggjandi vandamál hafa verið leyst. Til að gera þetta þarftu einfaldlega að fjarlægja kallið við `forceLegacyGrid()`. Breytingin tekur ekki gildi fyrr en eitt af eftirfarandi gerist:
@@ -193,31 +193,31 @@ Ef þú hefur valið að nota ekki einstaka síðu á nýja netinu gætirðu vil
 - **Endurvirkjun umhverfis**: Þegar umhverfi er uppfært og virkað að nýju er taflan sem geymir síðurnar sem hafa verið valdar úr nýja netinu sjálfkrafa hreinsuð út (FormControlReactGridState).
 - **Handvirk hreinsun töflunnar**: Fyrir þróunaraðstæður þarftu að nota SQL til að hreinsa FormControlReactGridState töfluna og endurræsa síðan AOS. Þessi samsetning aðgerða mun endurstilla skyndiminni síðna sem hafa afþakkað nýja hnitið.
 
-### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Hönnuður] Að taka einstök rist út úr vélritun á undan kerfisgetu
-Sumar aðstæður hafa komið upp sem henta ekki til að vinna vel með *Að slá á undan kerfinu* getu netsins. (Til dæmis, einhver kóði sem er ræstur þegar röð er staðfest veldur því að gagnauppspretturannsókn fer af stað og rannsóknin getur síðan spillt óbundnum breytingum á núverandi línum.) Ef fyrirtækið þitt uppgötvar slíka atburðarás er API tiltækt sem gerir þróunaraðili afþakkar einstaka töflu úr ósamstilltri röðarstaðfestingu og snýr aftur til eldri hegðunar.
+### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Forritari] Að stilla tiltekin hnitanet með innslætti á undan getu kerfisins
+Nokkrar sviðsmyndir hafa komið upp sem hafa ekki reynst vel við *Innsláttargetu hnitanetsins á undan kerfinu*. (Til dæmis, einhver kóði sem er ræstur þegar lína er staðfest veldur því að rannsókn gagnagjafa fer í gang, og rannsóknin getur síðan skemmt óstaðfestar breytingar á núverandi línum). Ef fyrirtækið þitt upplifir slíka sviðsmynd eru forritaskil (API) í boði sem gerir forritara kleift að taka stakt hnitanet úr ósamstilltri staðfestingu línu og skipta aftur yfir í eldri hegðun.
 
-Þegar ósamstilltur röð sannprófun er óvirkur í hnitaneti, geta notendur ekki búið til nýja línu eða farið í aðra núverandi línu í hnitanetinu á meðan það eru löggildingarvandamál í núverandi línu. Sem fylgifiskur þessarar aðgerðar er ekki hægt að líma töflur úr Excel inn í fjármála- og rekstrarnet.
+Þegar ósamstillt staðfesting línu er gerð óvirk í hnitaneti geta notendur ekki búið til nýja línu eða fært sig yfir í aðra línu í hnitanetinu á meðan vandamál varðandi staðfestingu eru til staðar í núverandi línu. Önnur áhrif sem þessi aðgerð hefur er að ekki verður hægt að líma töflur úr Excel inn í hnitanet fjármála- og reksturs.
 
-Til að afþakka einstaka töflu úr ósamstilltri röð staðfestingu skaltu bæta við eftirfarandi símtali á eftir`super()` í`run()` aðferð formsins.
+Til að taka staka línu úr ósamstilltri staðfestingu línu skal bæta við eftirfarandi kalli eftir að búið er að fylla `super()` inn í `run()` aðferðina á eyðublaðinu.
 
 ```<gridControl>.allowPreemptiveClient(false);```
 
 > [!NOTE]
-> - Þetta símtal ætti aðeins að kalla fram í undantekningartilvikum og ætti ekki að vera viðmið fyrir öll net.
-> - Við mælum ekki með því að þú breytir þessu API á keyrslutíma eftir að eyðublaðið er hlaðið.
+> - Aðeins ætti að nota þetta kall í undantekningartilvikum og ætti ekki að vera hefðbundið verklag fyrir öll hnitanet.
+> - Ekki er mælt með því að virkja þessi forritaskil (API) á keyrslutíma eftir að eyðublaðinu er hlaðið inn.
 
 ### <a name="developer-size-to-available-width-columns"></a>[Þróunaraðili] Stækka breidd dálka eins og hægt er
 Ef þróunaraðili stillir eiginleikann **WidthMode** á **SizeToAvailable** fyrir dálka innan nýja hnitanetsins, fá þessir dálkar upphaflega sömu breidd og þeir myndu fá ef eiginleikinn væri stilltur á **SizeToContent**. Hins vegar teygist á þeim þannig að þeir noti þá breidd sem í boði er innan hnitanetsins. Ef eiginleikinn er stilltur á **SizeToAvailable** fyrir marga dálka, deila allir þessir dálkar á milli sín aukalegri breidd sem er í boði innan hnitanetsins. Hins vegar, ef notandi breytir stærð einhverra þessara dálka, verður sá dálkur fastur. Hann heldur þeirri breidd og breikkar ekki lengur til að fylla upp í tiltæka breidd hnitanetsins.
 
-### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Hönnuður] Tilgreinir dálkinn sem fær upphafsfókus þegar nýjar línur eru búnar til með því að nota örvatakkann niður
-Eins og fjallað var um í [Mismunur þegar gögn eru slegin inn á undan kerfinu](#differences-when-entering-data-ahead-of-the-system) kafla, ef „Slá á undan kerfinu“ hæfileikinn er virkur og notandi býr til nýja línu með því að nota **Ör niður** lykill, sjálfgefin hegðun er að setja fókusinn í fyrsta dálkinn í nýju röðinni. Þessi reynsla gæti verið frábrugðin upplifuninni í eldri töflunni eða þegar a **Nýtt** hnappur er valinn.
+### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Forritari] Tilgreinir dálkinn sem upphaflega er áhersla á þegar nýjar línur eru búnar til með því að nota niðurörvarhnappinn
+Eins og fjallað var um í hlutanum [Mismunur þegar gögn eru slegin inn á undan kerfinu](#differences-when-entering-data-ahead-of-the-system) ef eiginleikinn „Innsláttur á undan kerfinu“ er virkur, og notandi stofnar nýja línu með því að nota **Niðurörvahnappinn**, er sjálfgefna hegðunin sú að leggja áherslu á fyrsta dálkinn í nýju línunni. Þessi upplifun gæti verið frábrugðin upplifuninni í eldra hnitanetinu eða þegar **Nýr** hnappur er valinn.
 
-Notendur og stofnanir geta búið til vistaðar skoðanir sem eru fínstilltar fyrir gagnafærslu. (Til dæmis geturðu endurraðað dálkum þannig að fyrsti dálkurinn sé sá sem þú vilt byrja að slá inn gögn í.) Að auki, frá og með útgáfu 10.0.29, geta stofnanir breytt þessari hegðun með því að nota **selectedControlOnCreate()** aðferð. Þessi aðferð gerir forritara kleift að tilgreina dálkinn sem ætti að fá upphafsfókus þegar ný röð er búin til með því að nota **Ör niður** lykill. Sem inntak tekur þetta API stjórnauðkennið sem samsvarar dálknum sem ætti að fá upphafsfókusinn.
+Notendur og fyrirtæki geta búið til vistuð yfirlit sem eru sérstillt fyrir gagnaskráningu. (Til dæmis er hægt að endurraða dálkum þannig að fyrsti dálkurinn sé sá sem á að byrja að slá inn gögn í). Þar að auki, frá og með útgáfu 10.0.29, geta fyrirtæki breytt þessari hegðun með því að nota aðferðina **selectedControlOnCreate()**. Þessi aðferð gerir forritara kleift að tilgreina dálkinn sem ætti að leggja áherslu á í upphafi þegar ný lína er stofnuð með því að nota **Niðurörvahnappinn**. Sem innslátt taka þessi forritaskil (API) stjórnkenni sem samsvarar dálknum sem ætti að leggja áherslu á í upphafi.
 
-### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Hönnuður] Meðhöndlun nets með stækkanlegum stjórntækjum sem ekki eru React
-Þegar rist er að hlaðast, ef kerfið lendir í stækkanlegri stjórn sem er ekki React byggð, mun kerfið neyða gamalt rist til að birta í staðinn. Þegar notandi lendir fyrst í þessu ástandi birtast skilaboð sem gefa til kynna að síðuna þurfi að endurnýjast. Síðan mun þessi síða hlaða eldra neti sjálfkrafa án frekari tilkynninga til notenda fram að næstu kerfisuppfærslu. 
+### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Forritari] Meðhöndlun hnitaneta með stækkanlegum stýringum sem eru ekki React
+Þegar hnitanet er að hlaðast, ef kerfið finnur stækkanlega stýringu sem er ekki byggt á React, mun kerfið þvinga eldra hnitanetið til að gera það virkt í staðinn. Þegar notandi lendir í þessum aðstæðum birtast skilaboð sem gefa til kynna að uppfæra þurfi síðuna. Eftir það hleður þessi síða eldra hnitanetinu sjálfkrafa inn án frekari tilkynninga til notenda þar til næsta kerfisuppfærsla á sér stað. 
 
-Til að sigrast á þessu ástandi til frambúðar geta stækkanlegir stjórnunarhöfundar búið til React útgáfu af stjórninni til notkunar í ristinni.  Þegar búið er að þróa, er hægt að skreyta X++ flokkinn fyrir stjórnina með **FormReactControlAttribute** eigind til að tilgreina staðsetningu React búntsins sem á að hlaða fyrir þá stjórn. Sjáðu`SegmentedEntryControl` bekk sem dæmi.  
+Til að lagfæra þetta ástand varanlega, geta höfundar stækkanlegra stýringa búið til React-útgáfu af stýringunni til notkunar í hnitanetinu.  Þegar forritun er lokið er hægt að bæta eigindinni **FormReactControlAttribute** við X++ flokk stýringarinnar til að tilgreina staðsetningu React- eiginleikanum til að tilgreina staðsetningu React-búntsins sem á að hlaða fyrir umrædda stýringu. Sjá `SegmentedEntryControl`-flokkinn sem dæmi.  
 
 ## <a name="known-issues"></a>Þekkt vandamál
 Þessi hluti heldur lista yfir þekkt vandamál fyrir nýju hnitanetsstýringuna.
@@ -225,12 +225,12 @@ Til að sigrast á þessu ástandi til frambúðar geta stækkanlegir stjórnuna
 ### <a name="open-issues"></a>Opin vandamál
 - Þegar búið er að virkja eiginleikann **Ný hnitanetsstýring**, halda sumar síður áfram að nota núverandi netstýringu. Þetta gerist við eftirfarandi aðstæður:
  
-    - [Lýst] Kortalisti er til á síðunni sem er birtur í mörgum dálkum.
-        - Þessi tegund af kortalista er studd af **Ný netstýring** byrjar í útgáfu 10.0.30. Hægt er að fjarlægja alla notkun forceLegacyGrid() í þessum tilgangi. 
-    - [Lýst] Hópaður kortalisti er til á síðunni.
-        - Hópaðir kortalistar eru studdir af **Ný netstýring** byrjar í útgáfu 10.0.30. Hægt er að fjarlægja alla notkun forceLegacyGrid() í þessum tilgangi. 
-    - [Lýst] Grind dálkur með stækkanlegri stýringu sem ekki bregst við.
-        - Stækkanlegar stýringar geta veitt React útgáfu af stýringu þeirra sem verður hlaðin þegar hún er sett í ristina og stillt stjórnskilgreiningu þeirra til að hlaða þessa stjórn þegar hún er notuð í ristinni. Sjá samsvarandi þróunarhluta fyrir frekari upplýsingar. 
+    - [Leyst] Spjaldlisti er til á síðunni sem gefinn er upp í mörgum dálkum.
+        - Þessi gerð spjaldlista er studd af **Ný hnitanetsstýring** sem hefst í útgáfu 10.0.30. Hægt er að fjarlægja alla notkun á forceLegacyGrid() í þessu skyni. 
+    - [Leyst] Flokkaður spjaldlisti er til á síðunni.
+        - Hópaðir spjaldlistar eru studdir af **Nýju hnitanetsstýringunni** sem hefst í útgáfu 10.0.30. Hægt er að fjarlægja alla notkun á forceLegacyGrid() í þessu skyni. 
+    - [Leyst] Dálkur hnitanets sem bregst ekki við stækkanlegri stýringu.
+        - Stækkanlegar stýringar geta veitt React-útgáfu af stýringunni sem verður hlaðið inn þegar hún er sett í hnitanetið og lagað skilgreiningu stýringar til að hlaða þessari stýringu þegar hún er notuð í hnitanetinu. Frekari upplýsingar er að finna í hluta viðkomandi þróunaraðila. 
 
     Þegar notandi stendur í fyrsta skipti frammi fyrir þessum aðstæðum birtast skilaboð um að uppfæra skuli síðuna. Eftir að þessi skilaboð birtast mun síðan halda áfram að nýta núverandi hnitanet fyrir alla notendur fram að næstu uppfærslu afurðar. Betri meðhöndlun á þessum aðstæðum, svo hægt sé að nýta nýja hnitanetið, verður höfð í huga í framtíðaruppfærslu.
 

@@ -1,6 +1,6 @@
 ---
 title: Búa til færslusniðmát til að greiða fyrir skráningu gagna
-description: Þessi grein sýnir hvernig á að búa til færslusniðmát þannig að reitagildi sem oft eru notuð þurfi ekki að vera slærð inn sérstaklega fyrir hverja nýja færslu.
+description: Þessi grein sýnir hvernig stofna færslusniðmát til að gildi í svæði sem oft notað ekki þurfa að slá inn sérstaklega fyrir hverja ný færsla.
 author: peakerbl
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
 ms.openlocfilehash: 77d10d3c7811ef8ed4b503759ff6a9b3b4f1a840
 ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/28/2022
 ms.locfileid: "9206289"
@@ -24,7 +24,7 @@ ms.locfileid: "9206289"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein sýnir hvernig á að búa til færslusniðmát þannig að reitagildi sem oft eru notuð þurfi ekki að vera slærð inn sérstaklega fyrir hverja nýja færslu. Í þessu ferli er stofnuð ný færsla fyrir nýjar fartölvur sem ætti að bæta við eignir þínar. Þetta ferli notar USMF sýnifyrirtæki.
+Þessi grein sýnir hvernig stofna færslusniðmát til að gildi í svæði sem oft notað ekki þurfa að slá inn sérstaklega fyrir hverja ný færsla. Í þessu ferli er stofnuð ný færsla fyrir nýjar fartölvur sem ætti að bæta við eignir þínar. Þetta ferli notar USMF sýnifyrirtæki.
 
 1. Í skoðunarrúðnni ferðu í **Kerfseiningar > Fastafjármunir > Fastafjármunir > Fastafjármunir**.
 2. Veljið **Nýtt**.

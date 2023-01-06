@@ -1,6 +1,6 @@
 ---
 title: Uppfærsla samsettrar einingar bankafærslubókar
-description: Þessi grein sýnir skrefin sem þarf til að bæta viðbótar BankTransactionType reitnum við samsetta BankJournalEntity.
+description: Þessi grein sýnir skrefin sem þarf til að bæta reitnum BankTransactionType við samsett BankJournalEntity.
 author: angelad116
 ms.date: 10/24/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 1855f9680ba6bcf8eb46608882a128b4a21f0dac
 ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/25/2022
 ms.locfileid: "9715278"
@@ -25,7 +25,7 @@ ms.locfileid: "9715278"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir skrefin sem þarf til að bæta viðbótar BankTransactionType reitnum við samsetta BankJournalEntity.
+Þessi grein sýnir skrefin sem þarf til að bæta reitnum BankTransactionType við samsett BankJournalEntity.
 
 Fylgið eftirfarandi skrefum til að bæta reitnum BankTransactionType við samsetta BankJournalEntity.
 

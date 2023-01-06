@@ -1,6 +1,6 @@
 ---
-title: Settu upp og búðu til jákvæðar launaskrár með því að nota rafræna skýrslugerð
-description: Þessi grein útskýrir hvernig á að setja upp jákvæð laun með því að nota rafræna skýrslugerð.
+title: Setja upp og mynda jákvæða greiðsluskrá launa með því að nota rafræna skýrslugerð
+description: Þessi grein útskýrir hvernig á að setja upp jákvæða greiðslu með því að nota rafræna skýrslugerð.
 author: panolte
 ms.date: 03/20/2022
 ms.topic: article
@@ -17,25 +17,25 @@ ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: 491048c7274ba6bb52e0a4b7a6ea5cd0f5ff4741
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8878219"
 ---
-# <a name="set-up-positive-pay-files-by-using-electronic-reporting"></a>Settu upp jákvæðar launaskrár með því að nota rafræna skýrslugerð
+# <a name="set-up-positive-pay-files-by-using-electronic-reporting"></a>Setja upp jákvæðar greiðsluskrár með rafrænni skýrslugerð
 
-Þessi grein útskýrir hvernig á að setja upp jákvæð laun og búa til jákvæðar launaskrár með því að nota rafræna skýrslugerð.
+Þessi grein útskýrir hvernig á að setja upp jákvæða greiðslu og mynda jákvæðar greiðsluskrár.
 
 > [!NOTE] 
-> Áður en þú notar **Búðu til jákvæða launaskrá banka** virka, þú þarft að endurnýja aðilalistann fyrst.
-> Fara í **Gagnastjórnun > Flytja inn / flytja út > Framwork færibreytur** 
-> **Einingastillingar** flýtiflipann og velja **Endurnýja einingarlista**.
+> Áður en aðgerðin **Mynda jákvæða greiðsluskrá banka** er notuð þarf að uppfæra einingalistann fyrst.
+> Farðu í flýtiflipann **Gagnastjórnun > Flytja inn / Flytja út > Færibreytur ramma** 
+> **Einingastillingar**, veldu **Uppfæra einingalista**.
 
 
-Setja upp jákvæða greiðslu til að búa til rafræna lista yfir ávísanir sem eru gefnar í banka. Þegar ávísun er afhent bankanum ber bankinn hana saman við tékkalistann. Ef ávísunin stemmir við ávísun í listanum samþykkir bankinn ávísunina. Ef ávísunin stemmir ekki við ávísun í listanum heldur bankinn henni eftir til skoðunar.
+Setja upp jákvæða greiðslu til að búa til rafræna lista yfir ávísanir sem eru gefnar í banka. Þegar ávísun er svo innleyst í bankanum ber bankinn ávísunina saman við lista yfir ávísanir. Ef ávísunin stemmir við ávísun í listanum samþykkir bankinn ávísunina. Ef ávísunin stemmir ekki við ávísun í listanum heldur bankinn henni eftir til skoðunar.
 
 ## <a name="security-for-positive-pay-files"></a>Öryggi í jákvæðum greiðsluskrám
-Jákvæðu greiðsluskránni geta innihaldið viðkvæmar upplýsingar um greiðsluþegar og upphæðir ávísunar. Þess vegna skaltu vera viss um að nota viðeigandi öryggisráðstafanir frá þeim tíma sem skrárnar eru myndaðar og þar til þær eru mótteknar í bankanum. Jákvæðum greiðsluskrám er hlaðið niður í staðsetninguna sem tilgreind er af vafranum. Vegna þess að jákvæðar greiðsluskrár geta innihaldið viðkvæmar upplýsingar er mikilvægt að aðeins viðurkenndir notendur hafi aðgang til að búa til og skoða þessar upplýsingar í Microsoft Dynamics 365 Fjármál. Notið eftirfarandi töflu til að ákvarða heimildir sem krafist er.
+Jákvæðu greiðsluskránni geta innihaldið viðkvæmar upplýsingar um greiðsluþegar og upphæðir ávísunar. Þess vegna skaltu vera viss um að nota viðeigandi öryggisráðstafanir frá þeim tíma sem skrárnar eru myndaðar og þar til þær eru mótteknar í bankanum. Jákvæðum greiðsluskrám er hlaðið niður í staðsetninguna sem tilgreind er af vafranum. Vegna þess að jákvæðar greiðsluskrár geta innihaldið viðkvæmar upplýsingar, er mikilvægt að aðeins heimilaðir notendur hafi aðgang til að mynda og skoða þessar upplýsingar í Microsoft Dynamics 365 Finance. Notið eftirfarandi töflu til að ákvarða heimildir sem krafist er.
 
 <table>
 <colgroup>
@@ -78,50 +78,50 @@ Jákvæðu greiðsluskránni geta innihaldið viðkvæmar upplýsingar um greið
 </tbody>
 </table>
 
-## <a name="set-up-the-electronic-reporting-configuration"></a>Settu upp rafræna skýrslugerð
+## <a name="set-up-the-electronic-reporting-configuration"></a>Setja upp skilgreiningu rafrænnar skýrslugerðar
 
-1. Fara til **Vinnurými \> Rafræn skýrslugerð**.
-2. Á flísum fyrir **Microsoft** stillingarveita, veldu **Geymslur**.
+1. Fara í **Vinnusvæði \> Rafræn skýrslugerð**.
+2. Í reitnum fyrir skilgreiningarveitu **Microsoft** skal velja **Gagnageymslur**.
 3. Veldu **Altækt** og síðan **Opna**.
-4. Ef tenging við geymsluna þarf að koma á, velurðu bláa tengilinn í svarglugganum.
-5. Finndu og veldu á stillingalistanum **Jákvæð launalíkan \> Jákvæð launaform**.
-6. Á **Útgáfur** Flýtiflipi, veldu nýjustu útgáfuna og veldu síðan **Flytja inn**.
+4. Ef koma þarf á tengingu við gagnageymsluna skal velja bláa tengilinn í svarglugganum.
+5. Í skilgreiningalistanum skal finna og velja **Jákvætt greiðslulíkan \> Jákvætt greiðslusnið**.
+6. Í flýtiflipanum **Útgáfur** skal velja síðustu útgáfuna og velja svo **Flytja inn**.
 
 ## <a name="set-up-a-positive-pay-format"></a>Setja upp snið jákvæðra greiðslna
 
-1. Fara til **Handbært fé og bankastjórnun \> Uppsetning \> Jákvæð launaform**.
+1. Farðu í **Reiðufjár- og bankastjórnun \> Uppsetning \> Jákvæð greiðslusnið**.
 2. Veljið **Nýtt**.
-3. Stilltu **Greiðslusnið** og **Lýsing** sviðum.
-4. Veldu **Almennt rafrænt útflutningssnið** gátreit.
-5. Stilltu **Flytja út sniðstillingar** sviði til **Jákvæð launaform**.
+3. Stilltu reitina **Greiðslusnið** og **Lýsing**.
+4. Veldu gátreitinn **Almennt rafrænt útflutningssnið**.
+5. Stilltu reitinn **Skilgreining útflutningssniðs** á **Jákvætt greiðslusnið**.
 
-## <a name="assign-a-positive-pay-format-to-a-bank-account"></a>Úthlutaðu jákvætt launasnið á bankareikning
+## <a name="assign-a-positive-pay-format-to-a-bank-account"></a>Úthluta jákvæðu greiðslusniði á bankareikninga
 Fyrir hvern bankareikning sem á að mynda upplýsingar um jákvæða greiðslu til, verður að úthluta jákvæða greiðslusniðinu sem tilgreint var í fyrra ferli. Á síðunni Bankareikningar, veljið jákvæða greiðslusniðið sem samsvarar bankareikningnum. Í svæðinu **Upphafsdagur jákvæðrar greiðslu** þarf að færa inn fyrstu dagsetningu til að mynda jákvæðar greiðsluskrár. 
 
 >[!Important]
-> Sláðu inn dagsetningu í **Jákvæð laun upphafsdagur** akurvöllur. Ef skilið er eftir autt mun fyrsta jákvæða launaskráin sem myndast innihalda allar ávísanir sem hafa verið búnar til fyrir þennan bankareikning.
+> Færðu inn dagsetningu í reitinn **Upphafsdagur jákvæðrar greiðslu**. Ef hann er skilinn eftir auður verður fyrsta jákvæða greiðsluskráin sem búin er til með allar ávísanir sem hafa verið búnar til fyrir þennan bankareikning.
 
-1. Fara til **Handbært fé og bankastjórnun \> Reikningar banka \> Bankareikningar**.
+1. Farið í **Reiðufjár- og bankastjórnun \> Bankareikningar \> Bankareikningar**.
 2. Opnaðu bankareikninginn.
-3. Á **Almennt** flýtiflipann, stilltu **Jákvæð launaform** reitnum á sniðið sem var búið til áður.
-4. Stilltu **Jákvæð laun upphafsdagur** reit til núverandi dagsetningar.
+3. Í flýtiflipanum **Almennt** skal stilla reitinn **Jákvætt greiðslusnið** á sniðið sem var búið til áður.
+4. Stilltu reitinn **Upphafsdagur jákvæðrar greiðslu** á daginn í dag.
 
 ## <a name="assign-a-number-sequence-for-positive-pay-files"></a>Setja upp númeraröð fyrir jákvæðar greiðsluskrár
-Hver jákvæða greiðsluskrá verður að hafa einkvæmt númer. Á **Stærðir reiðufjár og bankastjórnunar** síðu, búðu til númeraröð fyrir jákvæðar greiðsluskrár á **Númeraraðir** flipa.
+Hver jákvæða greiðsluskrá verður að hafa einkvæmt númer. Á síðunni **Færibreytur reiðufjár- og bankastjórnunar** skal búa til númeraröð fyrir jákvæðar greiðsluskrár í flipanum **Númeraraðir**.
 
 ## <a name="generate-a-positive-pay-file-for-a-single-bank-account"></a>Mynda jákvæða greiðsluskrá fyrir stakan bankareikning
 Hægt er að mynda jákvæða greiðsluskrá fyrir einn lögaðila og einn bankareikning. Til upplýsinga um hvernig á að mynda jákvæðar greiðsluskrár fyrir marga lögaðila og bankareikninga á sama tíma er vísað í næsta hluta. Til að mynda jákvæða greiðsluskrá fyrir einn lögaðila og einn bankareikning, opnið svargluggann **Mynda jákvæða greiðsluskrá** á síðunni **Bankareikningar**. Í svæðinu **Lokadagsetning**, færið inn síðustu dagsetningu ávísunar til að taka með í jákvæðri greiðsluskrá. Allar ávísanir sem ekki hafa verið með í jákvæðri greiðsluskrá fyrir þessa dagsetningu ávísunar eru í skránni.
 
-1. Fara til **Handbært fé og bankastjórnun \> Bankareikningar \> Bankareikningar**.
-2. Opnaðu bankareikning sem jákvæð laun eru sett upp fyrir.
-3. Veldu **Stjórna greiðslum \> Jákvæð laun \> Jákvæð launaskrá**.
-4. Stilltu **Lokadagur** sviði. Ávísanir sem voru búnar til fyrir þessa dagsetningu verða teknar með.
+1. Farið í **Reiðufjár- og bankastjórnun \> Bankareikningar \> Bankareikningar**.
+2. Opnaðu bankareikning sem jákvæð greiðsla er sett upp fyrir.
+3. Veldu **Stjórna greiðslum \> Jákvæð greiðsla \> Jákvæð greiðsluskrá**.
+4. Stilltu reitinn **Lokadagsetning**. Ávísanir sem voru búnar til á undan þessari dagsetningu verða hafðar með.
 
 ## <a name="generate-a-positive-pay-file-for-multiple-bank-accounts"></a>Mynda jákvæða greiðsluskrá fyrir marga bankareikninga
-Til að búa til jákvæða launaskrá fyrir marga bankareikninga skaltu nota **Jákvæð launaskrá** reglubundið verkefni. Veljið snið jákvæðrar greiðslu fyrir skrána og tilgreinið hvort eigi að mynda skrá fyrir alla lögaðila eða fyrir valinn lögaðila. Einnig er hægt að mynda jákvæða greiðsluskrá fyrir alla bankareikninga sem nota tilgreinda sniðið fyrir jákvæða greiðslu eða fyrir valinn bankareikning. Í svæðinu **Lokadagsetning**, færið inn síðustu dagsetningu ávísunar til að taka með í jákvæðri greiðsluskrá. Allar ávísanir sem ekki hafa verið með í jákvæðri greiðsluskrá fyrir þessa dagsetningu ávísunar eru í skránni.
+Til að búa til jákvæðar greiðsluskrár fyrir marga bankareikninga skal nota reglubundna verkið **Jákvæð greiðsluskrá**. Veljið snið jákvæðrar greiðslu fyrir skrána og tilgreinið hvort eigi að mynda skrá fyrir alla lögaðila eða fyrir valinn lögaðila. Einnig er hægt að mynda jákvæða greiðsluskrá fyrir alla bankareikninga sem nota tilgreinda sniðið fyrir jákvæða greiðslu eða fyrir valinn bankareikning. Í svæðinu **Lokadagsetning**, færið inn síðustu dagsetningu ávísunar til að taka með í jákvæðri greiðsluskrá. Allar ávísanir sem ekki hafa verið með í jákvæðri greiðsluskrá fyrir þessa dagsetningu ávísunar eru í skránni.
 
 ## <a name="view-the-results-of-positive-pay-file-generation"></a>Skoða niðurstöður myndunar jákvæðrar greiðsluskrár
-Eftir að jákvæð greiðsluskrá er mynduð, er hægt að skoða niðurstöðurnar á síðunni **Samantekt jákvæðrar greiðsluskrár**. Til að skoða upplýsingar um einstakar athuganir, farðu í **Jákvæðar upplýsingar um launaskrá** síðu.
+Eftir að jákvæð greiðsluskrá er mynduð, er hægt að skoða niðurstöðurnar á síðunni **Samantekt jákvæðrar greiðsluskrár**. Til að skoða upplýsingar um einstakar ávísanir skal fara á síðuna **Upplýsingar jákvæðrar greiðsluskrár**.
 
 ## <a name="confirm-a-positive-pay-file"></a>Staðfesta jákvæða greiðsluskrá
 Eftir að búið er að greiða ávísanir sem eru talin upp í jákvæðu greiðsluskránni berst staðfestingarnúmer frá bankanum. Síðan er hægt að staðfesta jákvæðu greiðsluskrána. Á síðunni **Samantekt jákvæðrar greiðsluskrár**, veljið jákvæða greiðsluskrá sem hefur stöðuna **Stofnuð**, og veljið síðan aðgerðina **Slá inn staðfestingu**. Þegar jákvæð greiðsluskrá er staðfest er staðfestingarnúmerið sem berst frá bankanum skráð.
@@ -130,4 +130,4 @@ Eftir að búið er að greiða ávísanir sem eru talin upp í jákvæðu grei�
 Ef nauðsynlegt er að breyta jákvæðri greiðsluskrá er hægt að afturkalla hana. Á síðunni **Samantekt jákvæðrar greiðsluskrár** veljið jákvæða greiðsluskrá sem hefur stöðuna **Stofnuð**, og veljið síðan aðgerðina **Aturkalla**. Svæðið sem gefur til kynna hvort ávísun hefur verið tekin með í jákvæðri greiðsluskrá er endurstillt fyrir hverja ávísun í jákvæðu greiðsluskránni. Síðan er hægt að stofna nýja jákvæða greiðsluskrá sem inniheldur ávísunina sem var afturkölluð.
 
 
-XML skránni sem myndast verður hlaðið niður.
+XML-skránni verður hlaðið niður.

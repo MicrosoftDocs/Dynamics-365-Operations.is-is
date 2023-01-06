@@ -1,6 +1,6 @@
 ---
 title: Loka fjárhag í lok tímabils
-description: Þessi grein lýsir verkefnum sem venjulega er lokið þegar tímabilslokun er framkvæmd fyrir fjárhag.
+description: Þessi grein lýsir þeim verkefnum sem er yfirleitt lokið þegar tímabilslokun er gerð fyrir fjárhag.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 42a5df1cd1a73462c93012b26f9b9b5c1631f2ce
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8878042"
@@ -26,9 +26,9 @@ ms.locfileid: "8878042"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir verkefnum sem venjulega er lokið þegar tímabilslokun er framkvæmd fyrir fjárhag. 
+Þessi grein lýsir þeim verkefnum sem er yfirleitt lokið þegar tímabilslokun er gerð fyrir fjárhag. 
 
-Hægt er að ljúka við lokunarferlin í fjárhagnum við lok tímabils og ársins. Lokunarferli°undirbúa kerfið fyrir nýtt tímabil. Til að búa þig undir nýtt ár þarftu að keyra lokaferli ársins. Hvert fyrirtæki hefur mismunandi ferli og skref sem það framkvæmir fyrir lok tímabils. Hér eru sum valfrjálsu skrefin fyrir lok tímabila:
+Hægt er að ljúka við lokunarferlin í fjárhagnum við lok tímabils og ársins. Lokunarferli°undirbúa kerfið fyrir nýtt tímabil. Til að undirbúa fyrir nýtt ár verður að keyra ferli árslokavinnslu. Hvert fyrirtæki hefur mismunandi ferli og skref sem það framkvæmir fyrir lok tímabils. Hér eru sum valfrjálsu skrefin fyrir lok tímabila:
 
 -   Ljúka verkefni fyrir allar aðrar kerfiseiningar, svo sem Viðskiptakröfur, Viðskiptaskuldir, og Birgðir.
 -   Staðfestu að allar færslubækur séu bókaðar.
@@ -41,7 +41,7 @@ Hægt er að ljúka við lokunarferlin í fjárhagnum við lok tímabils og árs
 -   Mynda ársreikninga í lok tímabils með því að nota fjárhagsskýrslur.
 -   Stilla fjárhagstímabil á **Í bið**, þannig að engin önnur bókun á sér stað. Einnig er hægt að takmarka tímabil við ákveðinn notendaflokk á meðan á aðgerðum við lok tímabils stendur, til að fá betri stýringu. Ekki er gott að stilla tímabil á **Lokað fyrir fullt og allt**, þar sem ekki er hægt að enduropna tímabil sem hefur verið lokað.
 
-The **Fjárhagstímabili lokið** vinnusvæði er hægt að nota til að skipuleggja og fylgjast með verkefnum sem krafist er fyrir ýmis tímabilslokaferli. 
+Vinnusvæðið **Lokun fjárhagstímabils** má nota til að til að skipuleggja og rekja verkefni sem eru áskilin fyrir mismunandi lokunarferli tímabila. 
 
 
 Frekari upplýsingar er hægt að finna í eftirfarandi efni:

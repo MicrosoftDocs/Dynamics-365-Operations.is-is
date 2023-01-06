@@ -1,6 +1,6 @@
 ---
 title: Uppfæra fjárhagsáætlunargerð
-description: Þessi grein útskýrir hvað þarf að endurstilla og lýsir einnig nýjum eiginleikum sem ætti að íhuga eftir að uppfærslunni er lokið.
+description: Í þessari grein er útskýrt hvað verður að vera endurstillt og er einnig lýst nýjum aðgerðum sem ætti að líta á eftir að uppfærslu er lokið.
 author: panolte
 ms.date: 04/10/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 7d8d59def24fd138b4cf1d36e286b786e13b096e
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9124029"
@@ -25,12 +25,12 @@ ms.locfileid: "9124029"
 
 [!include [banner](../includes/banner.md)]
 
-Það er verulegur munur á fjárhagsáætlunargerð á milli Microsoft Dynamics AX 2012 og Dynamics 365 Finance. Sumir eiginleika voru ekki uppfærðir og þurfa þess vegna að vera stilltir aftur. Þessi grein útskýrir hvað þarf að endurstilla og lýsir einnig nýjum eiginleikum sem ætti að íhuga eftir að uppfærslunni er lokið.  
+Það er verulegur mismunur á fjárhagsáætlunargerð milli Microsoft Dynamics AX 2012 og Dynamics 365 Finance. Sumir eiginleika voru ekki uppfærðir og þurfa þess vegna að vera stilltir aftur. Í þessari grein er útskýrt hvað verður að vera endurstillt og er einnig lýst nýjum aðgerðum sem ætti að líta á eftir að uppfærslu er lokið.  
 
-Fjárhagsáætlunargerð í Finance hefur margar endurbætur sem ekki voru tiltækar í Dynamics AX 2012. Þessi grein útskýrir breytingarnar sem viðskiptavinir sem uppfæra verða að gera. Það kemur einnig inn á nýja eiginleika sem ætti að líta á í uppfærsluferlinu. Vegna umfangs breytinganna verður ekki hægt að opna fyrirliggjandi fjárhagsáætlanir fyrr en þær breytingar sem lýst er í þessari grein hafa verið gerðar. Hins vegar ættu skýrslur að halda áfram að virka og ekki er þörf á frekari breytingum.
+Fjárhagsáætlunargerð í Finance hefur margar endurbætur sem ekki voru tiltækar í Dynamics AX 2012. Í þessari grein er fjallað um breytingar sem viðskiptavinir sem uppfæra þurfa að velja. Það kemur einnig inn á nýja eiginleika sem ætti að líta á í uppfærsluferlinu. Vegna umfangi breytinganna, verður ekki hægt að opna fyrirliggjandi fjárhagsáætlun fyrr en breytingunum sem lýst er í þessari grein eru gerðar. Hins vegar ættu skýrslur að halda áfram að virka og ekki er þörf á frekari breytingum.
 
 ## <a name="overview-of-changes"></a>Yfirlit yfir breytingar
-Margar umtalsverðar breytingar hafa verið gerðar á fjárhagsáætlun fyrir fjármál og rekstur. Þessum breytingum er ætlað að gera fjárhagsáætlunargerð aðveldari til að skilgreina og endurnýtanlegri, til að minnka árlegt viðhald og uppsetningu. Eftirfarandi svæði í AX 2012 eru ekki lengur til staðar í Finance:
+Margar verulegar breytingar hafa verið gerðar í Fjárhagsáætlun fyrir fjármála- og reksturs. Þessum breytingum er ætlað að gera fjárhagsáætlunargerð aðveldari til að skilgreina og endurnýtanlegri, til að minnka árlegt viðhald og uppsetningu. Eftirfarandi svæði í AX 2012 eru ekki lengur til staðar í Finance:
 
 -   Sniðmát fjárhagsáætlunar (Skilgreining fjárhagsáætlunargerðar)
 -   Möppur fjárhagsáætlunar (Skilgreining fjárhagsáætlunargerðar)
@@ -47,7 +47,7 @@ Dálkar eru nýtt hugtak sem kemur í stað hluta af Excel-sniðmáti og einnig 
 
 ### <a name="layouts"></a>Útlit
 
-Útlit eru nýtt hugtak sem koma í stað Excel-sniðmáts. Útlit innihalda dálka sem skilgreina hvaða áætlun eða raungögn og tímabil skuli birta. Útlit eru einnig samnýtt á milli biðlarans og Excel-innbótarinnar. Þess vegna er upplifun notenda þegar þú slærð inn eða skoðar gögn í viðskiptavinum fjármála- og rekstraraðila betri en notendaupplifunin í AX 2012. Til að færa inn gögn í Finance biðlara er ekki eingöngu takmarkað við að skoða og færa inn eitt dæmi í færsluskjá. Þess í stað gerir samanburðarskjár það mögulegt að skoða og slá inn upphæðir fyrir fjölda tímabila og lykla á sama tíma. Einnig er hægt að skilgreina útlit þannig að hægt er að færa inn og skoða gjaldmiðil, athugasemdir og önnur valfrjáls gögn. Útlit gera þér einnig kleift að skilgreina hvaða fjárhagsvíddir og lýsingarvíddir skuli birta. Útlit innihalda einnig skorður til að tilgreina hvaða dálka í sniðmáti er hægt að breyta og hvaða dálkar eigi að vera tiltækir í Excel. Þegar búið er að skilgreina útlit er sniðmát búið til fyrir það. Þessi sniðmát stofnar samsvarandi Excel sniðmátið. Síðan er hægt að breyta Excel sniðmátinu sem á að innihalda fleiri formúlur og snið og senda það aftur. Útlitum er svo úthlutað á hverja stigsreglu á síðunni **Ferli fjárhagsáætlunargerðar**. Þess vegna eru útlitum skipt út fyrir sniðmát, sem var úthlutað og notuð svipaðan hátt.
+Útlit eru nýtt hugtak sem koma í stað Excel-sniðmáts. Útlit innihalda dálka sem skilgreina hvaða áætlun eða raungögn og tímabil skuli birta. Útlit eru einnig samnýtt á milli biðlarans og Excel-innbótarinnar. Þar af leiðandi er upplifunin þegar gögn eru færð inn eða skoðuð í biðlara fjármála- og reksturs betri en í AX 2012. Til að færa inn gögn í Finance biðlara er ekki eingöngu takmarkað við að skoða og færa inn eitt dæmi í færsluskjá. Þess í stað gerir samanburðarskjár það mögulegt að skoða og slá inn upphæðir fyrir fjölda tímabila og lykla á sama tíma. Einnig er hægt að skilgreina útlit þannig að hægt er að færa inn og skoða gjaldmiðil, athugasemdir og önnur valfrjáls gögn. Útlit gera þér einnig kleift að skilgreina hvaða fjárhagsvíddir og lýsingarvíddir skuli birta. Útlit innihalda einnig skorður til að tilgreina hvaða dálka í sniðmáti er hægt að breyta og hvaða dálkar eigi að vera tiltækir í Excel. Þegar búið er að skilgreina útlit er sniðmát búið til fyrir það. Þessi sniðmát stofnar samsvarandi Excel sniðmátið. Síðan er hægt að breyta Excel sniðmátinu sem á að innihalda fleiri formúlur og snið og senda það aftur. Útlitum er svo úthlutað á hverja stigsreglu á síðunni **Ferli fjárhagsáætlunargerðar**. Þess vegna eru útlitum skipt út fyrir sniðmát, sem var úthlutað og notuð svipaðan hátt.
 
 ### <a name="budget-planning-processes"></a>Ferli fjárhagsáætlunargerðar
 
@@ -58,7 +58,7 @@ Ferli fjárhagsáætlunargerðar eru að mestu hin sömu og AX 2012. Helsta veru
 Í AX 2012 voru réttlætingarskjöl vistuð í viðhengjamöppu. Engin fyrri réttlætingarskjöl eru uppfærð. Réttlætingarskjöl verða geymd í gagnagrunninum. Ef vista á þessar upplýsingar í uppfærðu útgáfunni, er hægt að hlaða upp síðustu réttlætingarskjölum fyrir hverja áætlun sem viðhengi með því að nota í **Jöfnun** hnappinn í Aðgerðarúðunni. Í AX 2012 voru Excel vinnublöð fyrir hverja fjárhagsáætlun stofnuð á grundvelli sniðmáts. Í Finance opna allar áætlanir afrit útlitsins. Hins vegar eru engar breytingar Excel skrána vistaðar. Allar formúlur eða stuðningsupplýsingar sem voru notaðir í áætlun á ári verður bætt í athugasemd, jöfnunarskjal eða eitthvað annað aukaferli.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Skilgreining uppfærðs umhverfi úr AX 2012
-Til að hjálpa til við að ákvarða hvernig stilla á uppfærða kerfið nota eftirfarandi dæmi uppfærða fjárhagsáætlunarferli úr sýnigögnum AX 2012. Sjálfgefin skilgreiningargögn fyrir dálka sem stofnaðuð til að aðstoða við uppfærsluferlið. Hægt er að uppfæra eða eyða sjálfgefnu gögnunum ef þau uppfylla ekki skilgreiningarkröfur. **Athugið:** Ný áskilin svæði eru til staðar sem ekki verða stillt í kerfinu. Ef þú festist á síðu, líkt og **Skilgreining fjárhagsáætlunargerðar** og kemst ekki af henni geturðu lokað vafranum og svo opnað hann aftur á annarri síðu ti lað slá inn upplýsingar í réttri röð. Það eru nauðsynleg svæði sem ekki eru stillt. Þar af leiðandi kunna vandamál að koma upp þar til allt hefur verið stillt og öll skyldusvæði valin. Þessi grein útskýrir hvernig á að stilla þessa reiti, eftir þörfum. Hér eru nokkur dæmi um þessi svæði:
+Til að hjálpa til við að ákvarða hvernig stilla á uppfærða kerfið nota eftirfarandi dæmi uppfærða fjárhagsáætlunarferli úr sýnigögnum AX 2012. Sjálfgefin skilgreiningargögn fyrir dálka sem stofnaðuð til að aðstoða við uppfærsluferlið. Hægt er að uppfæra eða eyða sjálfgefnu gögnunum ef þau uppfylla ekki skilgreiningarkröfur. **Athugið:** Ný áskilin svæði eru til staðar sem ekki verða stillt í kerfinu. Ef þú festist á síðu, líkt og **Skilgreining fjárhagsáætlunargerðar** og kemst ekki af henni geturðu lokað vafranum og svo opnað hann aftur á annarri síðu ti lað slá inn upplýsingar í réttri röð. Það eru nauðsynleg svæði sem ekki eru stillt. Þar af leiðandi kunna vandamál að koma upp þar til allt hefur verið stillt og öll skyldusvæði valin. Þessi grein útskýrir hvernig stilla á þessi svæði eins og nauðsynlegt er. Hér eru nokkur dæmi um þessi svæði:
 
 -   **Ferli fjárhagsáætlunargerðar** síðan: **Sjálfgefin lykilskipulagi** svæði
 -   **Ferli fjárhagsáætlunargerðar** síðan: **Útlit** reiturinn á flýtiflipa **Reglur og útlit fjárhagsáætlunargerðar**
@@ -69,7 +69,7 @@ Til að hjálpa til við að ákvarða hvernig stilla á uppfærða kerfið nota
    -   Aðstæður fjárhagsáætlunargerðar: Rauntölur, Grunnlína, Beiðni um fjárhagsáætlun, Samþykkt fjárhagsáætlunar
    -   Fjárhagsáætlunarlínur fyrir allar aðstæður í 2017 og Rauntölur fyrir bæði 2017 og 2016
 
-   Eftirfarandi dálkar verða búnir til í fjármálum og rekstri:
+   Eftirfarandi dálkar verða stofnaðir í fjármála- og reksturs:
 
    | Dálkheiti    | Aðstæður fjárhagsáætlunargerðar | Tímabil dálka | Mótbókun árs |
    |----------------|----------------------|--------------------|-------------|

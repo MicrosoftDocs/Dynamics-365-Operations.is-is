@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a0aae3d72d35e8c09b2a3dc8d25958be4c523969
 ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/14/2022
 ms.locfileid: "9151851"
@@ -28,7 +28,7 @@ ms.locfileid: "9151851"
 
 Hvernig og hvenær færslur eru gerð upp getur verið flókin viðfangsefni, svo það er mikilvægt að þú skiljir og rétt skilgreinir færibreytur til að mæta þörfum fyrirtækis þíns. Þessi grein lýsir færibreytunum sem eru notaðar til að jafna bæði viðskiptakröfur og viðskiptaskuldir 
 
-Eftirfarandi færibreytur hafa áhrif á hvernig uppgjör er unnið í Microsoft Dynamics 365 Fjármál. Jöfnun er ferli þar sem reikningur er jafnaður gegn greiðslu eða kreditnótu. Þessar færibreytur eru staðsettar í á **uppgjör** svæði í **Færibreytur viðskiptakrafna** og **Færibreytur viðskiptaskulda** síður.
+Eftirfarandi færibreytur hafa áhrif á hvernig uppgjör eru unnin í Microsoft Dynamics 365 Finance. Jöfnun er ferli þar sem reikningur er jafnaður gegn greiðslu eða kreditnótu. Þessar færibreytur eru staðsettar í á **uppgjör** svæði í **Færibreytur viðskiptakrafna** og **Færibreytur viðskiptaskulda** síður.
 
 - **Sjálfvirkt uppgjör** – þessi valkostur er Stilltur **Já** ef á að jafna færsluna sjálfvirkt gagnvart öðrum opnum færslum þegar hún er bókuð. Ef þessi valkostur er stilltur á **Nei**, geta notendur handvirkt jafna færslur þegar greiðslur eru færðar inn, eða seinna með því að nota í **Jafna færslur** síðu.
 - **Stýring staðgreiðsluafsláttar** – Tilgreina hvernig skal meðhöndla [staðgreiðsluafsláttar þegar reikningur ofgreiddur](cash-discount-handling-overpayments.md). Fyrir ofgreiðslu er hægt að minnka staðgreiðsluafslátt, hægt er að meðhöndla það sem mismun eða hún getur verið áfram á reikning fyrir lánardrottinn eða viðskiptavinur.

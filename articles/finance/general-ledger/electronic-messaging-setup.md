@@ -1,6 +1,6 @@
 ---
 title: Setja upp rafræn skilaboð
-description: Þessi grein veitir upplýsingar um hvernig á að setja upp rafræn skilaboð (EM) virkni.
+description: Þessi grein veitir upplýsingar um hvernig á að setja upp virkni rafrænna skilaboða.
 author: AdamTrukawka
 ms.date: 11/18/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 12beb1adbfa4e2f235c8a7c69e786d342c4a4f68
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9279303"
@@ -34,7 +34,7 @@ Hægt er að setja upp virknina rafrænna skilaboða handvirkt ef gagnaeiningapa
 - [Önnur svæði](#additional)
 - [Keyranlegar klasastillingar](#executable)
 - [Fylla út færsluaðgerðir](#populate)
-- [Fylltu út skrár frá mörgum fyrirtækjum](#multiple-companies-populate)
+- [Fylla út færslur úr mörgum fyrirtækjum](#multiple-companies-populate)
 - [Vefforrit](#applications)
 - [Stillingar vefþjónustu](#settings)
 - [Úrvinnsluaðgerðir skilaboða](#actions)
@@ -66,13 +66,13 @@ Eftirfarandi tafla lýsir reitunum á síðunni **Skilaboðastöður**.
 |---------------------|-------------|
 | Staða boða      | Færið inn einkvæmt heiti fyrir stöðu skilaboðs. Skilaboðastöður eru notaðar til að einkenna stöðu rafrænna skilaboða á hverju augnabliki fyrir sig. Nafnið sem þú slærð inn birtist á síðunni **Rafræn skilaboð** og í kladda sem tengist rafrænum skilaboðum. |
 | Lýsing         | Færa inn lýsingu á skilaboðastöðunni. |
-| Gerð svars       | Veldu svargerðina fyrir skilaboðastöðuna. Sumar aðgerðir í vinnslu geta gefið af sér fleiri en eina gerð svars. Til dæmis getur aðgerð af gerðinni **Vefþjónusta** gefið svör af annaðhvort gerðinni **Framkvæmd heppnaðist** eða gerðinni **Tæknileg villa**, fer eftir niðurstöðu keyrslunnar. Í þessu tilviki skal skilgreina skilaboðastöður fyrir báðar svargerðirnar. Fyrir frekari upplýsingar um gerðir aðgerða og gerðir svara sem tengjast þeim, sjá [Gerðir aðgerða fyrir skilaboðavinnslu](#action-types) kafla síðar í þessari grein. |
+| Gerð svars       | Veldu svargerðina fyrir skilaboðastöðuna. Sumar aðgerðir í vinnslu geta gefið af sér fleiri en eina gerð svars. Til dæmis getur aðgerð af gerðinni **Vefþjónusta** gefið svör af annaðhvort gerðinni **Framkvæmd heppnaðist** eða gerðinni **Tæknileg villa**, fer eftir niðurstöðu keyrslunnar. Í þessu tilviki skal skilgreina skilaboðastöður fyrir báðar svargerðirnar. Frekari upplýsingar um gerðir aðgerða og gerðir svara sem tengjast þeim er að finna í [Gerðir úrvinnsluaðgerðar skilaboða](#action-types) síðar í þessari grein. |
 | Staða skilaboðaatriðis | Stundum verður staða á rafrænum skilaboðum að hafa áhrif á stöðu tengdra skilaboðaatriða. Veldu stöðu skilaboðaatriðis í þessum reit til að tengja hana við skilaboðastöðu. |
 | Leyfa eyðingu        | Veldu þennan reit ef notendur ættu að geta eytt rafrænum skilaboðum sem hafa þessa stöðu á síðunni **Rafræn skilaboð**. |
 
 ## <a name="additional-fields"></a><a id="additional"></a>Önnur svæði
 
-EM virkni gerir þér kleift að safna færslum úr viðskiptatöflum inn Microsoft Dynamics 365 Fjármál sem skilaboðaliðir. Þannig er hægt að undirbúa færslurnar fyrir skýrslugerð og síðan tilkynna þær. Hins vegar hafa færslutöflur stundum ekki nægar upplýsingar til að fylla út færslur á þann hátt að það uppfylli kröfur um skýrslugjöf. Til að fylla út allar upplýsingar sem þarf að tilkynna um færslu er hægt að setja upp önnur svæði. Önnur svæði geta tengst skilaboðum og skilaboðaatriðum. Hægt er að setja upp önnur svæði með því að fara á síðuna **Skattur** \> **Uppsetning** \> **Rafræn skilaboð** \> **Önnur svæði**.
+Virkni rafrænna skilaboða gerir þér kleift að safna skrám úr færslutöflum í Microsoft Dynamics 365 Finance sem skilaboðaatriði. Þannig er hægt að undirbúa færslurnar fyrir skýrslugerð og síðan tilkynna þær. Hins vegar hafa færslutöflur stundum ekki nægar upplýsingar til að fylla út færslur á þann hátt að það uppfylli kröfur um skýrslugjöf. Til að fylla út allar upplýsingar sem þarf að tilkynna um færslu er hægt að setja upp önnur svæði. Önnur svæði geta tengst skilaboðum og skilaboðaatriðum. Hægt er að setja upp önnur svæði með því að fara á síðuna **Skattur** \> **Uppsetning** \> **Rafræn skilaboð** \> **Önnur svæði**.
 
 Eftirfarandi tafla lýsir almennu svæðunum á síðunni **Önnur svæði**.
 
@@ -140,37 +140,37 @@ Hægt er að setja upp „fylla út færsluaðgerðir“ með því að fara í 
 | Fyrirt.                  | Þessi reitur er í boði þegar kveikt er á eiginleikanum **Fyrirspurnir milli fyrirtækja fyrir aðgerð færslufyllingar** á vinnusvæðinu **Eiginleikastjórnun**. Notaðu þennan eiginleika til að setja upp gagnagjafa milli fyrirtækja fyrir aðgerðir færslufyllingar. Hægt er að sækja gögn frá mörgum fyrirtækjum. |
 | Fyrirspurn notanda             | <p>Ef sett er upp fyrirspurn með því að velja **Breyta fyrirspurn** fyrir ofan hnitanetið og tilgreint er skilyrðið sem þarf að nota í valda aðaltöflu sem útfyllt gögn koma úr, verður þessi gátreitur sjálfkrafa valinn. Annars eru allar færslurnar fylltar út frá völdum upppruna aðaltöflu.</p><p>Þegar kveikt er á eiginleikanum **Fyrirspurnir milli fyrirtækja fyrir aðgerðir færslufyllingar** á vinnusvæðinu **Eiginleikastjórnun** og safna þarf færslum frá ýmsum fyrirtækjum, skal bæta við línu fyrir hvernig viðbótar lögaðila sem á að vera með í skýrslugjöfinni. Fyrir hverja nýja línu skal velja **Breyta fyrirspurn** og tilgreina tengt skilyrði sem á við um lögaðilann sem er tilgreindur í reitnum **Fyrirtæki** í línunni. Þegar því er lokið mun hnitanetið **Uppsetning gagnagjafa** innihalda línur fyrir alla lögaðilana sem þarf að hafa með í skýrslugerðinni.</p> |
 
-## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a> Fylltu út skrár frá mörgum fyrirtækjum
+## <a name="populate-records-from-multiple-companies"></a><a id="multiple-companies-populate"></a>Fylla út færslur úr mörgum fyrirtækjum
 
-Ef fyrirtæki þitt verður að tilkynna frá mörgum lögaðilum í sama fjármálagagnagrunni skaltu setja upp [fylla færslur aðgerðir](#populate) fyrir alla þá lögaðila sem gögn þurfa að koma frá í skýrslugerð.
+Ef fyrirtækið þitt verður að tilkynna úr mörgum lögaðilum í sama Finance-gagnagrunninum skal setja upp [aðgerð færsluútfyllingar](#populate) fyrir alla lögaðila þar sem gögn verða að vera með í skýrslugerðinni.
 
-Til að virkja þessa möguleika í fjármálaumhverfi þínu skaltu fylgja þessum skrefum. 
+Til að virkja þessa möguleika í Finance-umhverfinu þínu skaltu gera eftirfarandi. 
 
-1. Fara til **Vinnurými** \> **Eiginleikastjórnun**.
-2. Finndu og veldu **Fyrirspurnir þvert á fyrirtæki fyrir aðgerðir til að fylla út færslur** eiginleiki á listanum.
+1. Opnið **Vinnusvæði** \> **Eiginleikastjórnun**.
+2. Finndu og veldu eiginleikann **Fyrirspurnir milli fyrirtækja fyrir aðgerð færsluútfyllingar** í listanum.
 3. Veldu **Virkja núna**. 
 
-Til að setja upp [fylla færslur aðgerðir](#populate) fyrir mörg fyrirtæki sem gögn verða að vera með í skýrslugerð, fylgdu þessum skrefum.
+Fylgið eftirfarandi skrefum til að setja upp [aðgerðir færsluútfyllingar](#populate) fyrir mörg fyrirtæki þar sem gögn þeirra verða að vera með í skýrslugerð.
 
-1. Fara til **Skattur** \> **Uppsetning** \> **Rafræn skilaboð** \> **Fylltu færslur aðgerðir**.
+1. Opnið **Skattur** \> **Uppsetning** \> **Rafræn skilaboð** \> **Fylla út færsluaðgerðir**.
 
-    Þegar **Fyrirspurnir þvert á fyrirtæki fyrir aðgerðir til að fylla út færslur** eiginleiki er virkur, the **Uppsetning gagnaheimilda** rist á **Fylltu færslur aðgerð** síða inniheldur a **Fyrirtæki** sviði. Fyrir núverandi færslur sem voru búnar til við almenna uppsetningu á [fylla færslur aðgerðir](#populate), þessi reitur sýnir auðkenni núverandi lögaðila.
+    Þegar eiginleikinn **Fyrirspurnir milli fyrirtækja fyrir aðgerðir færsluútfyllingar** er virkjaður inniheldur hnitanetið **Uppsetning gagnagjafa** á síðunni **Aðgerð færsluútfyllingar** reitinn **Fyrirtæki**. Fyrir fyrirliggjandi færslur sem voru stofnaðar í almennu uppsetningunni á [aðgerðum færsluútfyllingar](#populate) sýnir þessi reitur kennimerki núverandi lögaðila.
 
-2. Í **Uppsetning gagnaheimilda** grid, bæta við línu fyrir hvern dótturlögaðila sem þarf að vera með í skýrslugerð og stilla eftirfarandi reiti.
+2. Í hnitanetinu **Uppsetning gagnagjafa** skal bæta við línu fyrir hvern aukalegan lögaðila sem á að vera í skýrslugerðinni og stilla eftirfarandi reiti.
 
-    | Heiti svæðis             | Gildi |
+    | Nafn svæðis             | Gildi |
     |------------------------|-------|
-    | Nafn                   | Sláðu inn textagildi sem hjálpar þér að skilja hvaðan þessi skrá kemur. Til dæmis, slá inn **Nafn gagnagjafa - Dótturfélag 1**. |
-    | Gerð skilaboðaatriðis      | Veldu tegund skilaboðahluta sem þarf fyrir EM vinnslu þína. |
-    | Lykilgerð           | Tilgreindu reikningsgerðina sem þarf fyrir EM vinnslu þína. Ef EM vinnslan þín hefur engar sérstakar reikningsgerðir skaltu velja **Allt**. |
-    | Aðaltöfluheiti      | Tilgreindu heiti aðaltöflunnar sem þarf fyrir EM vinnslu þína. |
-    | Reitur skjalnúmers  | Tilgreindu reitinn sem inniheldur skjalnúmerið í skrám yfir EM vinnslu þína. |
-    | Dagsetningarreitur skjals    | Tilgreindu reitinn sem inniheldur skjaldagsetninguna í skrám yfir EM vinnslu þína. |
-    | Reikningsreitur skjals | Tilgreindu reitinn sem inniheldur skjalareikninginn í skrám yfir EM vinnslu þína. |
-    | Fyrirtæki                | Veldu auðkenni dótturfélags lögaðila. |
-    | Fyrirspurn notanda             | Þessi gátreitur er sjálfkrafa valinn þegar þú skilgreinir viðmið með því að velja **Breyta fyrirspurn**. |
+    | Nafn                   | Sláðu inn textagildi sem hjálpar þér að skilja hvaðan þessi færsla kemur. Færðu til dæmis inn **Heiti gagnagjafa - Dótturfyrirtæki 1**. |
+    | Gerð skilaboðaatriðis      | Veldu gerð skilaboðaatriðis sem þarf fyrir EM-vinnslu. |
+    | Lykilgerð           | Tilgreindu hvaða reikningstegund er nauðsynleg fyrir EM-vinnsluna. Ef EM-vinnslan þín er ekki með neinar sérstakar gerðir lykla skal velja **Allt**. |
+    | Aðaltöfluheiti      | Tilgreindu heiti aðaltöflunnar sem þarf fyrir EM-vinnsluna. |
+    | Reitur skjalnúmers  | Tilgreindu reitinn sem inniheldur skjalanúmerið í færslum EM-vinnslunnar þinnar. |
+    | Dagsetningarreitur skjals    | Tilgreindu reitinn sem inniheldur dagsetningu skjalsins í færslum EM-vinnslunnar. |
+    | Reikningsreitur skjals | Tilgreindu reitinn sem inniheldur skjalalykilinn í færslum EM-vinnslunnar. |
+    | Fyrirtæki                | Veldu auðkennið fyrir lögaðili dótturfyrirtækis. |
+    | Fyrirspurn notanda             | Þessi gátreitur er valinn sjálfkrafa þegar þú skilgreinir skilyrði með því að velja **Breyta fyrirspurn**. |
 
-3. Veldu fyrir hverja nýja línu **Breyta fyrirspurn**, og tilgreindu tengd viðmið fyrir lögaðilann sem er tilgreindur í **Fyrirtæki** sviði á línunni.
+3. Fyrir hverja nýja línu skal velja **Breyta fyrirspurn** og tilgreina tengt skilyrði fyrir lögaðilann sem er tilgreindur í reitnum **Fyrirtæki** í línunni.
 
 ## <a name="web-applications"></a><a id="applications"></a>Vefforrit
 
@@ -218,7 +218,7 @@ Eftirfarandi tafla lýsir svæðunum á síðunni **Stillingar vefþjónustu**.
 |--------------------------------|-------------|
 | Vefþjónusta                    | Færið inn heiti á vefþjónustunni. |
 | lýsing                    | Færið inn lýsingu á vefþjónustunni. |
-| Internet-fang               | <p>Færið inn veffangið á vefþjónustunni. Ef vefforrit er tilgreint fyrir vefþjónustuna, og ef veffang vefþjónustunnar er það sama og veffangið sem er skilgreint fyrir þetta vefforrit, skal velja **Afrita grunnvefslóð**. Grunnslóð vefforritsins er síðan afrituð í þennan reit.</p><p>**Viðvörun:** Þjónusta þriðja aðila eða önnur þjónusta sem þú stillir hér þarf ekki endilega að vera vottuð og hugsanlegt er að hún uppfylli ekki persónuverndarstaðla Microsoft. Þú ættir að fara yfir persónuverndarstefnu hverrar þjónustu og vinna með hverjum þjónustuaðila til að kanna enn frekar hvers konar reglufylgni þessi þjónusta býður upp á. Þú berð ábyrgð á því að þessi þjónusta samræmist öryggis-, persónuverndar- og lagalegum stöðlum þínum. Þú berð áhættuna á því að nota þjónustuna. Microsoft veitir engar sérstakar ábyrgðir, ábyrgðir eða skilyrði. Eindregið er mælt með því að þú notir aðeins þjónustu sem veitir öruggar og viðurkenndar tengingar, t.d. HTTPS.</p> |
+| Internet-fang               | <p>Færið inn veffangið á vefþjónustunni. Ef vefforrit er tilgreint fyrir vefþjónustuna, og ef veffang vefþjónustunnar er það sama og veffangið sem er skilgreint fyrir þetta vefforrit, skal velja **Afrita grunnvefslóð**. Grunnslóð vefforritsins er síðan afrituð í þennan reit.</p><p>**Viðvörun:** Þjónusta þriðja aðila eða önnur þjónusta sem þú stillir hér þarf ekki endilega að vera vottuð og hugsanlegt er að hún uppfylli ekki persónuverndarstaðla Microsoft. Þú ættir að fara yfir persónuverndarstefnu hverrar þjónustu og vinna með hverjum þjónustuaðila til að kanna enn frekar hvers konar reglufylgni þessi þjónusta býður upp á. Þú berð ábyrgð á því að þessi þjónusta samræmist öryggis-, persónuverndar- og lagalegum stöðlum þínum. Þú berð áhættuna á því að nota þjónustuna. Microsoft veitir enga beina ábyrgð, tryggingar eða skilyrði. Eindregið er mælt með því að þú notir aðeins þjónustu sem veitir öruggar og viðurkenndar tengingar, t.d. HTTPS.</p> |
 | Vottorð                    | Veljið vottorð Azure-lyklageymslu sem hefur verið sett upp áður. |
 | Vefhugbúnaður                | Veljið vefforrit sem hefur verið sett upp áður. |
 | Gerð svars – XML        | Stillið þennan valkost á **Já** ef gerð svars er XML. |
@@ -240,14 +240,14 @@ Eftirfarandi töflur lýsa svæðunum á síðunni **Úrvinnsluaðgerðir skilab
 
 | Svæði                                     | lýsing |
 |-------------------------------------------|-------------|
-| Gerð aðgerðar                               | Veljið þessa gerð aðgerðar. Fyrir upplýsingar um tiltæka valkosti, sjá [Gerðir aðgerða fyrir skilaboðavinnslu](#action-types) kafla síðar í þessari grein. |
+| Gerð aðgerðar                               | Veljið þessa gerð aðgerðar. Upplýsingar um tiltæka valkosti eru í kaflanum [Gerðir úrvinnsluaðgerða skilaboða](#action-types) seinna í þessari grein. |
 | Sniðsvörpun                            | Veljið snið rafrænnar skýrslugerðar sem á að kalla á fyrir aðgerðina. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðunum **Útflutningur á rafrænum skýrslum**, **Innflutningur á rafrænum skýrslum** og **Útflutningsskilaboð rafrænna skýrslna**. |
 | Sniðsvörpun fyrir vefslóð               | Veljið snið rafrænnar skýrslugerðar sem á að kalla á fyrir aðgerðina. Þetta snið er notað til að búa til slóð vefslóðarinnar sem verður bætt við grunnveffangið sem er tilgreint fyrir valinn vefþjón. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðinni **Vefþjónusta**. |
 | Gerð skilaboðaatriðis                         | Veljið færslugerðir sem meta á aðgerðina fyrir. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðunum **Framkvæmdastig skilaboðaatriða**, **Útflutningur á rafrænum skýrslum**, **Innflutningur á rafrænum skýrslum** og **Vefþjónusta** og fyrir aðrar gerðir. Ef þetta svæði er skilið eftir autt verða allar gerðir skilaboðaatriða metnar sem eru skilgreindar fyrir úrvinnslu skilaboða. |
 | Keyranlegur klasi                          | Velja skal stillingu á keyranlegum klasa sem er til staðar. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðunum **Framkvæmdastig skilaboðaatriða** og **Framkvæmdastig skilaboðaatriða**. |
 | Fylla út færsluaðgerð                   | Velja skal aðgerð færsluútfyllingar sem er til staðar. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðinni **Fylla út færslur**. |
 | Vefþjónusta                               | Velja skal vefþjónustu sem er til staðar. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðinni **Vefþjónusta**. |
-| Skráarheiti sem á að senda                         | Sláðu inn nafn viðhengis við rafræn skilaboð sem verða að senda með þessari aðgerð. Ef mörg viðhengi hafa sama upprunalega skráarheiti verður það nýjasta sent. Ef ekkert viðhengi finnst sem hefur tilgreint upprunalega skráarheiti verður beiðnin send án innihalds. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðinni **Vefþjónusta**. |
+| Skráarheiti sem á að senda                         | Færðu heiti viðhengisins inn í rafræn skilaboð sem þessi aðgerð þarf að senda. Ef mörg viðhengi eru með sama upprunalega skráarheitið verður það nýjasta sent. Ef ekkert viðhengi finnst sem er með tilgreint upprunalegt skráarheiti verður beiðnin send án efnis. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðinni **Vefþjónusta**. |
 | Skrárnafn                                 | Tilgreinið heiti skráar sem verður niðurstaða aðgerðarinnar. Þessi skrá getur verið svarið frá vefþjóninum eða skýrslunni sem myndast. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðunum **Vefþjónusta** og **Útflutningsskilaboð rafrænna skýrslna**. |
 | Hengja skrár við upprunaskjöl          | Velja skal þennan gátreit til að hengja myndaðar skrár við færslur í aðaltöflunni sem vísað er til fyrir atriði rafrænna skilaboða. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðinni **Útflutningur rafrænnar skýrslugerðar** og **Vefþjónusta**. |
 | Hengja skrár úr frálagssöfnum við atriði | Veldu þennan gátreit til að draga út aðskildar XML-skrár úr frálagssafnskrá og hengja þær við viðeigandi rafræn skilaboðaatriði. Þetta svæði er aðeins í boði fyrir aðgerðir af gerðinni **Útflutningur rafrænnar skýrslugerðar**. |

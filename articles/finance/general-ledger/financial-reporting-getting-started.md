@@ -1,6 +1,6 @@
 ---
 title: Yfirlitssíða fjárhagsskýrslugerðar
-description: Þessi grein lýsir því hvar á að nálgast fjárhagsskýrslur í Microsoft Dynamics 365 Fjármál og hvernig á að nota fjárhagsskýrslugetu.
+description: Þessi grein lýsir hvar á að opna fjárhagslegar skýrslugerð í Microsoft Dynamics 365 Finance og hvernig á að nota möguleika fjárhagsskýrslugerð.
 author: aprilolson
 ms.date: 06/20/2022
 ms.topic: article
@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9d0c2e821ee504cd62a536674ef91ee89a25c0a9
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9066418"
@@ -28,19 +28,19 @@ ms.locfileid: "9066418"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir hvar á að fá aðgang að Fjárhagsskýrslugerð og hvernig á að nota fjárhagsskýrslugetu. Það inniheldur einnig lýsingu á sjálfgefið fjárhagsskýrslur sem er veitt.
+Þessi grein lýsir hvar á að opna fjárhagslegar skýrslugerð og hvernig á að nota möguleika fjárhagsskýrslugerð. Það inniheldur einnig lýsingu á sjálfgefið fjárhagsskýrslur sem er veitt.
 
-## <a name="enable-financial-reporting"></a>Virkja fjárhagsskýrslu
-Til að nota fjárhagsskýrsluþjónustuna fyrir fyrirtæki þitt, verður líftímaþjónustustjóri (LCS) að virkja þessa þjónustu í LCS gáttinni fyrir fyrirtæki þitt. Ef fjárhagsskýrslur hafa ekki verið útvegaðar fyrir umhverfið þitt, hafðu samband við LCS stjórnanda til að virkja þjónustuna. 
+## <a name="enable-financial-reporting"></a>Virkja fjárhagsskýrslugerð
+Til að nota skýrslugjafarþjónustu fyrir stofnunina þína verður stjórnandi Lifecycle Services (LCS) að virkja þessa þjónustu í LCS-gáttinni fyrir stofnunina þína. Hafðu samband við kerfisstjóra LCS til að virkja þjónustuna ef ekki hefur verið gert ráð fyrir fjárhagsupplýsingum fyrir þitt umhverfi. 
 
-## <a name="accessing-financial-reporting"></a>Aðgangur að fjárhagsskýrslu
+## <a name="accessing-financial-reporting"></a>Aðgangur að fjárhagsskýrslugerð
 
 Hægt er að finna **Fjárhagskýrslugerð** valmyndina á eftirfarandi stöðum:
 
-- **Aðalbók** > **Fyrirspurnir og skýrslur**
-- **Fjárhagsáætlun** > **Fyrirspurnir og skýrslur** > **Grunn fjárhagsáætlunargerð**
-- **Fjárhagsáætlun** > **Fyrirspurnir og skýrslur** > **Fjárhagsáætlun**
-- **Fjárhagsáætlun** > **Fyrirspurnir og skýrslur** > **Fjárlagaeftirlit**
+- **Fjárhagur** > **Fyrirspurnir og skýrslur**
+- **Fjárhagsgerð** > **Fyrirspurnir og skýrslur** > **Grunnáætlanagerð**
+- **Fjárhagsáætlun** > **Fyrirspurnir og skýrslur** > **Fjárhagsáætlunargerð**
+- **Fjárhagsáætlun** > **Fyrirspurnir og skýrslur** > **Fjárhagsáætlunarstýring**
 - Samstæður
 
 Til að stofna og búa til fjárhagsskýrslur fyrir lögaðila, verður að setja upp eftirfarandi upplýsingar fyrir lögaðilann:
@@ -141,7 +141,7 @@ Fjárhagsskýrslugerð veitir 22 sjálfgefnar fjárhagsskýrslur. Sérhver skýr
 
 ## <a name="creating-and-modifying-financial-reports"></a>Stofna og breyta fjárhagsskýrslum
 
-Af listanum yfir fjárhagsskýrslur er hægt að stofna nýja skýrslu eða breyta fyrirliggjandi skýrslu. Ef notandi hefur viðeigandi heimildir, er hægt að stofna nýja fjárhagsskýrslu með því að velja **Nýtt** í Aðgerðarúðunni. Skýrsluhönnunarforriti er hlaðið niður á tækið og opnast síðan. Eftir að skýrsluhönnun opnast er hægt að stofna nýja skýrslu. Þegar búið er að vista nýja skýrslu birtist hún í lista yfir fjárhagsskýrslur. Listinn sýnir aðeins skýrslur sem voru búnar til fyrir fyrirtækið sem þú ert að nota í Dynamics 365 Finance. 
+Af listanum yfir fjárhagsskýrslur er hægt að stofna nýja skýrslu eða breyta fyrirliggjandi skýrslu. Ef notandi hefur viðeigandi heimildir, er hægt að stofna nýja fjárhagsskýrslu með því að velja **Nýtt** í Aðgerðarúðunni. Skýrsluhönnunarforriti er hlaðið niður á tækið og opnast síðan. Eftir að skýrsluhönnun opnast er hægt að stofna nýja skýrslu. Þegar búið er að vista nýja skýrslu birtist hún í lista yfir fjárhagsskýrslur. Listinn sýnir einungis skýrslur sem voru stofnaðar fyrir fyrirtæki sem verið er að nota í Microsoft Dynamics 365 Finance. 
 
 ## <a name="reporting-tree-definitions"></a>Skilgreiningar skipurits
 
@@ -151,11 +151,11 @@ Hægt er að stofna ótakmarkaðan fjölda af skipuritum til að sýna gögn fyr
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Uppfæra útgáfu fjárhagsskýrslugerðar í gegnum innlimun
 
-Fjármála- og rekstraröpp eru uppfærð í hverjum mánuði. Aftur á móti er fjárhagsskýrslugerð ekki endilega uppfærð með sömu tíðni. Þar að auki hafa viðskiptavinir fleiri valkosti um hvenær þeir innleiða uppfærslur fyrir fjármála- og rekstraröpp. Uppfærslur fjárhagsskýrslugerðar eru sjálfkrafa settar upp. Fjárhagsskýrslugerð er með uppgefna útgáfu sem er notuð í umhverfi viðskiptavinar þegar þjónustuuppfærsla er innleidd, þegar niðurtími fer í gang eða þegar umhverfi viðskiptavinar er í viðhaldsham. Þetta ferli er þekkt sem *innlimun* eða *jöfnun* vegna þess að allar innleiðingar viðskiptavinar eru stilltar á sömu útgáfu af fjárhagsskýrslugerð.
+Forrit fjármála- og reksturs eru uppfærð í hverjum mánuði. Aftur á móti er fjárhagsskýrslugerð ekki endilega uppfærð með sömu tíðni. Auk þess hafa viðskiptavinir fleiri valkosti varðandi hvenær þeir innleiða uppfærslur fyrir forrit fjármála- og reksturs. Uppfærslur fjárhagsskýrslugerðar eru sjálfkrafa settar upp. Fjárhagsskýrslugerð er með uppgefna útgáfu sem er notuð í umhverfi viðskiptavinar þegar þjónustuuppfærsla er innleidd, þegar niðurtími fer í gang eða þegar umhverfi viðskiptavinar er í viðhaldsham. Þetta ferli er þekkt sem *innlimun* eða *jöfnun* vegna þess að allar innleiðingar viðskiptavinar eru stilltar á sömu útgáfu af fjárhagsskýrslugerð.
 
-Breytingar sem eru gefnar út í hverri útgáfu má finna í [Hvað er nýtt eða breytt í Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Verkvangsuppfærslur og villuleiðréttingar er hægt að finna í hlutanum „Frekari tilföng“ neðst á síðunni fyrir hverja útgáfu.
+Breytingar sem eru gefnar út í hverri útgáfu er hægt að finna í [Nýjungar eða breytingar í Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Verkvangsuppfærslur og villuleiðréttingar er hægt að finna í hlutanum „Frekari tilföng“ neðst á síðunni fyrir hverja útgáfu.
 
-Valin útgáfa innlimunar er yfirfarin og villuleituð útgáfa fjárhagsskýrslugerðar sem er tilbúin fyrir framleiðslu. Það er samhæft við hvaða fyrri eða framtíðarútgáfu af Dynamics 365 Finance sem er. Fjárhagsskýrslugerð getur til dæmis verið í nýjustu 10.0.19 smíði á meðan viðskiptavinurinn er enn í forritsútgáfu 10.0.16.
+Valin útgáfa innlimunar er yfirfarin og villuleituð útgáfa fjárhagsskýrslugerðar sem er tilbúin fyrir framleiðslu. Hún er samhæf við aðrar fyrri og framtíðarútgáfur af Dynamics 365 Finance. Fjárhagsskýrslugerð getur til dæmis verið í nýjustu 10.0.19 smíði á meðan viðskiptavinurinn er enn í forritsútgáfu 10.0.16.
 
 > [!NOTE]
 > Einu kringumstæðurnar þar sem viðskiptavinir geta farið í fyrri útgáfu (niðurfærslu) eiga sér stað ef Microsoft stöðvar jöfnunaruppsetningu vegna vandamáls. Um leið og lagfæring er í boði verður hún notuð sjálfkrafa.
@@ -245,7 +245,7 @@ Vandamál: Þú færð villuna „Ekki tókst að koma á tengingu við netþjó
 * Þegar þú færð villuboð um tengingu skaltu velja **Próf** til að prófa tenginguna til að sjá hvaða skilaboð birtast. 
 * Vandamálið gæti verið afleiðing þess að annar notandi hafi ekki aðgang að fjárhagsskýrslugerð. Ef notandi hefur ekki aðgang fær hann skilaboð um að hann hafi ekki heimild.
 * Ef vandamálið kemur upp í mörgum vöfrum skaltu ganga úr skugga um að tímaklukkan í vinnutölvunni sé stillt á sjálfvirka stillingu.
-* Vinna með notanda sem hefur réttindi öryggisstjóra í Dynamics 365 Finance, og stjórnandaréttindi á netléninu, til að skrá þig inn á vinnustöðina þína til að sjá hvort þeir geti tengst. Ef viðkomandi getur tengst gæti málið tengst netheimildum.
+* Starfaðu með notanda sem er með réttindi öryggisstjóra í Dynamics 365 Finance og stjórnandaréttindi í léni kerfisins til að skrá þig inn í vinnutölvuna til að sjá hvort hann geti tengst. Ef viðkomandi getur tengst gæti málið tengst netheimildum.
 * Slökktu tímabundið á eldvegg í vinnutölvunni. Ef þú getur síðan tengst Report Designer tengist vandamálið eldveggnum þínum. Starfaðu með tæknideild fyrirtækisins til að leysa úr vandamálinu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

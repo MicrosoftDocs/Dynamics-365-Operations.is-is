@@ -1,6 +1,6 @@
 ---
 title: Gengi innflutningsgjaldmiðils
-description: Þessi grein veitir upplýsingar um þær kröfur sem gerðar eru til innflutnings á erlendum viðmiðunargengi sem birtar eru af gengisfyrirtækjum.
+description: Þessi grein veitir upplýsingar um kröfur um innflutning á erlendum viðmiðunargengi sem eru gefin út af gengisaðilum.
 author: EvgenyPopovMBS
 ms.date: 03/17/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 27f9b06646d9ce948a6b4528c38c5df9784b24b2
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8894936"
@@ -26,12 +26,12 @@ ms.locfileid: "8894936"
 
 [!include [banner](../includes/banner.md)]
 
-Ef lögaðili hefur móttekið reikningur í erlendum gjaldmiðli verður að umreikna erlendan gjaldmiðil í staðbundinn gjaldmiðill. Þetta þýðir að nýjasta gengi mismunandi gjaldmiðla er áskilið. Þessi grein veitir yfirlit yfir þær stillingar og vinnslu sem þarf til að flytja inn erlenda gengisviðmiðunargengi sem birt eru af gengisveitendum, svo sem Seðlabanka Evrópu og Seðlabanka Rússlands.
+Ef lögaðili hefur móttekið reikningur í erlendum gjaldmiðli verður að umreikna erlendan gjaldmiðil í staðbundinn gjaldmiðill. Þetta þýðir að nýjasta gengi mismunandi gjaldmiðla er áskilið. Þessi grein veitir yfirlit yfir áskilið stillingar og ferli sem þarf fyrir innflutning tilvísana í gengi erlendra gjaldmiðla sem birt er af gengisveitum, svo sem Seðlabanki Evrópu og og Seðlabanki Rússlands.
 
 Eftirfarandi kaflar lýsa flæði upplýsinga sem er notað til að setja upp og vinna úr innflutningi á gengi erlendrar myntar.
 
 ## <a name="configure-an-exchange-rate-provider"></a>Skilgreina gengisveitu
-Áður en hægt er að flytja inn gengi þarf að setja upp upplýsingarnar sem eru áskildar af gengisveitunum. Notaðu síðuna **Skilgreina gengisveitur** page to til að velja gegnisveitu. Sumar gengisveitur fylgja með kynningargögnum í Dynamics 365 Finance. Eftirfarandi tafla lýsir stýringum í þessari síðu.
+Áður en hægt er að flytja inn gengi þarf að setja upp upplýsingarnar sem eru áskildar af gengisveitunum. Notaðu síðuna **Skilgreina gengisveitur** page to til að velja gegnisveitu. Sumar gengisveitur eru hluti af sýnigögnum í Dynamics 365 Finance. Eftirfarandi tafla lýsir stýringum í þessari síðu.
 
 | Svæði | lýsing                   |
 |-----------|-----------------------------------|

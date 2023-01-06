@@ -1,6 +1,6 @@
 ---
 title: Hugtök kostnaðarbókhalds
-description: Þessi grein skilgreinir lykilhugtökin sem eru notuð í kostnaðarbókhaldi.
+description: Í þessari grein eru lykilhugtökin sem notuð eru í kostnaðarbókhaldi skilgreind.
 author: aprilolson
 ms.date: 08/31/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 5827ad66b9eedaab88dbda97c1ebbcd15f6d9ac8
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8881934"
@@ -27,7 +27,7 @@ ms.locfileid: "8881934"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein skilgreinir lykilhugtökin sem eru notuð í kostnaðarbókhaldi.
+Í þessari grein eru lykilhugtökin sem notuð eru í kostnaðarbókhaldi skilgreind.
 
 **Úthlutunargrunnur**
 

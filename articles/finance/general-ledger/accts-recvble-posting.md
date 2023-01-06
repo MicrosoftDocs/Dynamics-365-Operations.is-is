@@ -1,6 +1,6 @@
 ---
 title: Bókun á viðskiptakröfum
-description: Þessi grein útskýrir hvernig færslur eru stilltar í Viðskiptakröfur og gefur dæmi um bókunarstillingar.
+description: Í þessari grein er útskýrt hvernig bókanir eru skilgreindar í viðskiptakröfum og gefin eru upp dæmi um bókunarskilgreiningar.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
 ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9324330"
@@ -26,81 +26,81 @@ ms.locfileid: "9324330"
 
 [!include [banner](../includes/banner.md)]
 
-Aðal færslusniðið fyrir **Reikningur fáanlegur** mát er póstsnið viðskiptavinarins. Þetta bókunarsnið ákvarðar yfirlitsreikninginn sem er notaður þegar innstæður viðskiptavina eru bókaðar í fjárhag. Yfirlitsreikningur er aðalreikningur. Það er einnig nefnt viðskiptareikningur viðskiptakrafna.
+Aðalbókunarreglan fyrir eininguna **Viðskiptakröfur** er bókunarregla viðskiptavinar. Þessi bókunarregla ákvarðar safnlykilinn sem notaður er þegar stöður viðskiptavina eru bókaðar í fjárhaginn. Safnlykill er aðallykill. Einnig er vísað í hana sem viðskiptalykil viðskiptakrafna.
 
-The **Afstemming viðskiptamanns í höfuðbók** skýrslu er hægt að nota eftir bókun til að hjálpa til við að samræma stöður viðskiptavina- og fjárhagsreikninga. Skýrslan notar upplýsingarnar sem finnast í yfirlitsreikningnum fyrir bókunarsnið viðskiptavinar. Það notar ekki yfirlitsreikninginn úr bókhaldinu sem er búið til fyrir skjalið. Ef þú gerir breytingar á bókunarsniði viðskiptavinar eða viðskiptavinahópnum sem er úthlutað til viðskiptamannsins eftir að þú hefur bókað færslur, gæti skýrslan sýnt mun á stöðu viðskiptamanns og fjárhagsreiknings. Til að skoða aðeins línurnar sem hafa mismun og allar línur þar sem viðskiptareikningur og fjárhagsreikningur eru báðir núll, veldu **Aðeins munur** færibreytu þegar skýrslan er prentuð.
+Skýrsluna **Viðskiptavinur til fjárhagsafstemmingar** er hægt að nota eftir bókun til að hjálpa til við að afstemma stöður viðskiptavina- og lánardrottnalykla. Skýrslan notar upplýsingarnar sem er að finna í safnlyklinum fyrir bókunarreglu viðskiptavinar. Hún notar ekki safnlykilinn úr bókhaldinu sem stofnaður er fyrir skjalið. Ef gerðar eru breytingar á bókunarreglu viðskiptavinar eða viðskiptavinaflokknum sem viðskiptavininum er úthlutað eftir að færslurnar hafa verið bókaðar gæti skýrslan sýnt mun á stöðu viðskiptavina- og fjárhagslykils. Til að skoða aðeins línurnar sem eru með mismun og línur þar sem viðskiptavina- og lánardrottnalyklar eru báðir núll skal velja færibreytuna **Aðeins mismunur** þegar skýrslan er prentuð.
 
 Frekari upplýsingar eru í [Bókunarreglur viðskiptavina](../accounts-receivable/customer-posting-profiles.md).
 
-Nokkrar bókunarstillingar við hliðina á bókunarsniði viðskiptavina eru tiltækar í Viðskiptakröfum. Eftirfarandi hlutar veita frekari upplýsingar um þessar aðrar birtingarstillingar.
+Nokkrar bókunarskilgreiningar fyrir utan bókunarreglu viðskiptavinar eru í boði í viðskiptakröfum. Eftirfarandi hlutar veita frekari upplýsingar um þessar öðru bókunarskilgreiningar.
 
-## <a name="posting-accounts-for-methods-of-payment"></a>Bókun reikninga fyrir greiðslumáta
+## <a name="posting-accounts-for-methods-of-payment"></a>Bókunarlyklar fyrir greiðslumáta
 
-Greiðslumátar skilgreina hvernig greiðsla verður bókuð í fjárhag. Þeir stjórna einnig hegðun greiðsluúttaksins. Venjulega er ein greiðslumáti búin til fyrir hverja greiðslutegund sem fyrirtækið þitt samþykkir (til dæmis reiðufé, ávísun, kreditkort, peningapöntun og millifærslu).
+Greiðslumátar skilgreina hvernig greiðsla er bókuð í fjárhag. Þeir stjórna einnig hegðun greiðsluúttaksins. Venjulega er einn greiðslumáti búinn til fyrir hverja greiðslu sem fyrirtækið samþykkir (til dæmis reiðufé, ávísun, kreditkort, peningapöntun og símgreiðslu).
 
-Reitirnir í **Birting** kafla um **Almennt** Flýtiflipi stjórnar hvernig greiðsla verður bókuð í fjárhag. Þú verður fyrst að velja gildi í **Tegund reiknings** sviði. Reikningstegundin sem þú velur stjórnar hegðun reikningsins **Greiðslureikningur** sviði. Við mælum með að þú veljir **Banki** í **Tegund reiknings** reitnum og veldu síðan bankareikninginn í **Greiðslureikningur** sviði. Ávinningur þessarar aðferðar er að kerfið mun bóka greiðsluna í undirbók bankans, sem styður afstemmingu og önnur reiðufjártengd ferli. Eftirfarandi tafla sýnir dæmi um uppsetningu póstsniðs ef þú ert að nota **Handbært fé og bankastjórnun** mát.
+Reitirnir í hlutanum **Bókun** í flýtiflipanum **Almennt** stjórna því hvernig greiðsla er bókuð í fjárhaginn. Fyrst þarf að velja gildi í reitnum **Gerð lykils**. Gerð lykils sem þú velur stjórnar hegðuninni í reitnum **Greiðslulykill**. Við mælum með því að þú veljir **Banki** í reitnum **Gerð lykils** og veljir svo bankareikninginn í reitnum **Greiðslulykill**. Ávinningur af þessari aðferð er að kerfið mun bóka greiðsluna í undirbók bankans, sem styður afstemmingu og önnur ferli sem tengjast reiðufé. Eftirfarandi tafla sýnir dæmi um skilgreiningu á bókunarreglu ef þú ert að nota eininguna **Reiðufjár- og bankastjórnun**.
 
-| Bókunargerð | Lykilgerð | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
+| Bókunargerð | Lykilgerð | Dæmi um heiti aðallykils | Lykilgerð | Debet/Kredit? | Millireikningur | Lýsing |
 |--------------|--------------|---------------------------|--------------|---------------|------------------|-------------|
-| Banki | Banki | Bank of Contoso | Bankareikningur sem er tengdur við eign | Kredit | Nr. | Fyrir hvern greiðslumáta skaltu slá inn aðalreikninginn í **Greiðslureikningur** sviði. |
+| Banki | Banki | Bank of Contoso | Bankareikningur sem tengist eign | Kredit | Nr. | Sláðu inn aðallykilinn í reitinn **Greiðslulykill** fyrir hvern greiðslumáta. |
 
-Ef þú ætlar ekki að nota reiðufé og bankastjórnun ættir þú að velja **Fjárhagsbók** í **Tegund reiknings** reitnum og veldu síðan aðalreikninginn í **Greiðslureikningur** sviði. Eftirfarandi tafla sýnir dæmi um uppsetningu bókunarsniðs ef þú ert ekki að nota reiðufé og bankastjórnun.
+Ef þú hyggst ekki nota reiðufjár- og bankastjórnun ættirðu að velja **Fjárhag** í reitnum **Gerð lykils** og síðan velja aðallykilinn í reitnum **Greiðslulykill**. Eftirfarandi tafla sýnir dæmi um skilgreiningu á bókunarreglu ef þú ert ekki að nota reiðufjár- og bankastjórnun.
 
-| Bókunargerð | Lykilgerð | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
+| Bókunargerð | Lykilgerð | Dæmi um heiti aðallykils | Lykilgerð | Debet/Kredit? | Millireikningur | Lýsing |
 |--------------|--------------|---------------------------|--------------|---------------|------------------|-------------|
-| Fjárhagur | Fjárhagur | 100100: Bank of Contoso | Eign | Kredit | Nr. | Fyrir hvern greiðslumáta skaltu slá inn aðalreikninginn í **Greiðslureikningur** sviði. |
+| Fjárhagur | Fjárhagur | 100100: Bank of Contoso | Eign | Kredit | Nr. | Sláðu inn aðallykilinn í reitinn **Greiðslulykill** fyrir hvern greiðslumáta. |
 
-## <a name="bridging-accounts"></a>Brúarreikningar
+## <a name="bridging-accounts"></a>Millilyklar
 
-Brúarbókun er tveggja þrepa ferli sem er notað þegar greiðslur eru bókaðar. Það er valfrjáls eiginleiki sem hægt er að nota með bankareikningum með núllstöðu, til dæmis. Það getur hjálpað til við að tryggja sléttara og tímanlegra bankaafstemmingarferli. Í fyrsta skrefi er greiðsla bókuð á tímabundinn reikning (brúarreikninginn). Í öðru skrefi er bókað færslan bakfærð og færð inn á bankareikninginn þegar greiðslan hreinsar bankann. Eftirfarandi tafla sýnir dæmi um uppsetningu bókunarsniðs fyrir brúarfærslu.
+Millibókun er tveggja skrefa ferli sem er notað þegar greiðslur eru bókaðar. Þetta er valfrjáls eiginleiki sem hægt er að nota með til dæmis núlljöfnuði á bankareikningum. Það getur hjálpað til við að tryggja einfaldari og tímanlega bankaafstemmingu. Í fyrsta skrefinu er greiðsla lögð inn á tímabundinn reikning (millilykil). Í öðru skrefinu er bókaða færslan bakfærð og bókuð á bankareikninginn þegar greiðslan er samþykkt af bankanum. Eftirfarandi tafla sýnir dæmi um skilgreiningu á bókunarreglu fyrir millibókun.
 
-| Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
+| Bókunargerð | Dæmi um aðallykil | Dæmi um heiti aðallykils | Lykilgerð | Debet/Kredit? | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|---------------|------------------|-------------|
-| Færslubók fjárhags | 130725 | Óafgreidd reiðufé | Bótaábyrgð | Debet | Já | Fyrir hvern greiðslumáta skaltu slá inn aðalreikninginn í **Brúarreikningur** sviði. |
+| Færslubók fjárhags | 130725 | Óafstemmt reiðufé | Bótaábyrgð | Debet | Já | Sláðu inn aðallykilinn í reitinn **Millilykill** fyrir hvern greiðslumáta. |
 
-Fyrir frekari upplýsingar, sjá [Setja upp og vinna úr brúuðum greiðslum](../accounts-receivable/set-up-and-process-bridged-payments.md).
+Nánari upplýsingar um það eru í [Uppsetning og vinnsla greiðslna á millilykli](../accounts-receivable/set-up-and-process-bridged-payments.md).
 
-## <a name="posting-accounts-for-customer-cash-discounts"></a>Bókun reikninga fyrir staðgreiðsluafslátt viðskiptavina
+## <a name="posting-accounts-for-customer-cash-discounts"></a>Bókunarlyklar fyrir staðgreiðsluafslætti viðskiptavinar
 
-Ef fyrirtækið þitt býður viðskiptavinum staðgreiðsluafslátt gegn skjótri greiðslu, verður þú að stilla staðgreiðsluafsláttarkóða og tilgreina hvernig afslættir eigi að bóka í fjárhag. Nokkrir valkostir eru í boði til að tilgreina aðalreikninginn sem er notaður til að bóka staðgreiðsluafslátt viðskiptavinar.
+Ef fyrirtækið býður viðskiptavinum staðgreiðsluafslætti til að fá greiðslur á fljótlegri hátt þarf að skilgreina kóða staðgreiðsluafsláttar og tilgreina hvernig afslættir eigi að vera bókaðir í fjárhaginn. Nokkrir valkostir eru í boði til að tilgreina aðallykilinn sem er notaður til að bóka staðgreiðsluafslátt viðskiptavinar.
 
-Fyrir frekari upplýsingar, sjá [Staðgreiðsluafsláttur](../cash-bank-management/cash-discounts.md).
+Sjá [Staðgreiðsluafslættir](../cash-bank-management/cash-discounts.md) fyrir frekari upplýsingar.
 
-## <a name="posting-accounts-for-payment-fees"></a>Bókun reikninga fyrir greiðslugjöld
+## <a name="posting-accounts-for-payment-fees"></a>Bókunarlyklar fyrir greiðsluþóknanir
 
-Greiðslugjöld gera þér kleift að bæta gjaldi sjálfkrafa við greiðslu viðskiptavina þegar sett skilyrði eiga við. Hægt er að innheimta greiðsluþóknun á viðskiptavininn eða færa þau á bankareikning þinn sem kostnað. Hér eru nokkur dæmi:
+Greiðsluþóknanir gera þér kleift að bæta þóknun sjálfkrafa við greiðslu viðskiptavinar þegar safn skilyrða er uppfyllt. Hægt er að innheimta greiðsluþóknanir af viðskiptavini eða bóka þær á bankareikning sem kostnað. Hér eru nokkur dæmi:
 
 - Þú rukkar viðskiptavini um 3 prósent af heildargreiðslunni ef þeir greiða með kreditkorti.
-- Bankinn þinn rukkar þig $1.00 fyrir hverja millifærslu sem þú vinnur og millifærslugjaldið er gjaldfært.
+- Bankinn þinn rukkar þig um $ 1,00 fyrir hverja millifærslu sem þú vinnur úr og millifærslugjaldið er kostnaður.
 
-Þegar þú stillir greiðslugjald viðskiptavinar, ef þú stillir á **Hleðsla** sviði til **Viðskiptavinur**, hinn **Aðalreikningur** reiturinn verður ekki tiltækur og kerfið notar færslusnið viðskiptavinar til að bóka gjaldið. Ef þú stillir **Hleðsla** sviði til **Fjárhagsbók**, þú verður að stilla **Aðalreikningur** reit inn á aðalreikning þar sem greiðslugjaldið verður bókað. Venjulega mun þessi aðalreikningur vera kostnaðarreikningur. Eftirfarandi tafla sýnir dæmi um uppsetningu bókunarsniðs fyrir bókun greiðslugjalda.
+Þegar greiðsluþóknun viðskiptavinar er skilgreind, ef reiturinn **Gjald** er stilltur á **Viðskiptavinur**, verður reiturinn **Aðallykill** óaðgengilegur og kerfið notar bókunarreglu viðskiptavinar til að bóka þóknunina. Ef þú stillir reitinn **Gjald** á **Fjárhagur** verður þú að stilla reitinn **Aðallykill** á aðallykilinn þar sem greiðsluþóknunin verður bókuð. Venjulega er þessi aðallykill kostnaðarlykill. Eftirfarandi tafla sýnir dæmi um skilgreiningu á bókunarreglu fyrir bókun´ greiðsluþóknunar.
 
-| Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
+| Bókunargerð | Dæmi um aðallykil | Dæmi um heiti aðallykils | Lykilgerð | Debet/Kredit? | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|---------------|------------------|-------------|
-| Færslubók fjárhags | 618190 | Bankagjaldskostnaður | Kostnaður | Debet | Nr. |  Ef **Fjárhagsbók** er valið í **Hleðsla** reit, veldu þennan reikning í **Aðalreikningur** reit fyrir greiðslugjaldið. |
+| Færslubók fjárhags | 618190 | Kostnaður bankagjalds | Kostnaður | Debet | Nr. |  Ef **Fjárhagur** er valið í reitnum **Gjald** skal velja þennan lykil í reitnum **Aðallykill** fyrir greiðsluþóknunina. |
 
 Nánari upplýsingar er að finna í [Koma á fót greiðsluþóknunum viðskiptavina](../accounts-receivable/tasks/establish-customer-payment-fees.md).
 
-## <a name="posting-accounts-for-charges-codes"></a>Bókun reikninga fyrir gjaldkóða
+## <a name="posting-accounts-for-charges-codes"></a>Bókun reikninga fyrir gjaldakóða
 
-Ef þú verður að fylgjast með söluupphæðum til viðbótar við línuvörur geturðu notað gjaldakóða. Til dæmis gætirðu rukkað vöruflutninga- og afgreiðslugjöld af viðskiptavinum þínum, eða þú gætir rukkað nokkur vöru- og afgreiðslugjöld innbyrðis. Hægt er að tilgreina hvort þessar upphæðir séu bókaðar á kostnaðarreikninga eða bætt við kostnað hlutanna.
+Ef rekja þarf söluupphæðir ásamt línuatriðum er hægt að nota gjaldakóða. Til dæmis gætir þú innheimt farm- og umsýslugjöld hjá viðskiptavini eða lagt á farm- og umsýslugjöld innanhúss. Þá er hægt að tilgreina hvort upphæðin er birt á kostnaðarreikningum eða bætt við kostnað varanna.
 
-Þú getur búið til gjaldakóða fyrir viðskiptakröfur og viðskiptaskuldir. Þegar þú stillir gjaldkóða verður þú að skilgreina bókunina. Bókunin stjórnar bæði debetreikningi og kreditreikningi. Fyrir hvern gjaldkóða sem þú býrð til geturðu valið bókunartegundina sem er notuð. Eftirfarandi tafla sýnir dæmigerð dæmi um gjaldakóða fyrir viðskiptakröfur.
+Þú getur búið til skuldfærslukóða fyrir Viðskiptakröfur og Viðskiptaskuldir. Þegar gjaldakóði er skilgreindur verður að skilgreina færsluna. Bókunin stjórnar bæði debetlyklinum og kreditlyklinum. Fyrir hvern gjaldakóða sem er stofnaður er hægt að velja bókunargerðina sem er notuð. Eftirfarandi tafla sýnir dæmi um gjaldkóða fyrir viðskiptakröfur.
 
-| Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
+| Bókunargerð | Dæmi um aðallykil | Dæmi um heiti aðallykils | Lykilgerð | Debet/Kredit? | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|---------------|------------------|-------------|
-| Greiðsluþóknun | 411400 | Tekjur - Gjöld | Tekjur | Kredit | Nr. | **Dæmi um ófullnægjandi fjármuni:** Debet viðskiptavinur / lánardrottinn og Kreditbókarreikningur |
-| Pöntun, farmur | 403500 | Tekjur - Frakt | Tekjur | Kredit | Nr. | **Dæmi um vöruflutninga sem gjaldfærður er á viðskiptavin:** Debet viðskiptavinur / lánardrottinn og Kreditbókarreikningur |
-| Eftirágreiddur afsláttur\* | 403200 | Afsláttur | Tekjur | Debet | Nr. | **Dæmi um afslátt viðskiptavina:** Debetbókarreikningur og kreditviðskiptavinur/seljandi |
+| Greiðsluþóknun | 411400 | Tekjur – Gjöld | Tekjur | Kredit | Nr. | **Dæmi um ónóga sjóði:** Debetfærsla viðskiptavinar/lánardrottins og kreditfjárhagslykill. |
+| Pöntun, farmur | 403500 | Tekjur – Farmur | Tekjur | Kredit | Nr. | **Dæmi um farm sem viðskiptavinur er rukkaður um:** Debetfærsla viðskiptavinar/lánardrottins og kreditfjárhagslykill |
+| Eftirágreiddur afsláttur\* | 403200 | Afsláttur | Tekjur | Debet | Nr. | **Dæmi um eftirágreiddan afslátt viðskiptavinar:** Debetfjárhagslykill og kreditfærsla viðskiptavinar/lánardrottins |
 
-\* Fyrir afsláttardæmið er bókunin aðeins notuð þegar gjaldkóða er bætt við innkaupapöntunarhaus eða línu. Háþróuð afsláttarvirkni sem er fáanleg í Microsoft Dynamics 365 Supply Chain Management veitir meiri stjórn og sjálfvirkni á endurgreiðslum. Fyrir frekari upplýsingar, sjá [Viðskiptavinaafsláttur](../../supply-chain/sales-marketing/tasks/process-customer-rebates.md).
+\* Fyrir eftirágreiddan afslátt til dæmis er bókunin aðeins notuð þegar skuldfærslukóða er bætt við innkaupapöntunarhaus eða línu. Ítarlegri virkni fyrir eftirágreiddan afslátt sem er í boði í Microsoft Dynamics 365 Supply Chain Management veitir meiri stjórn og sjálfvirkni fyrir eftirágreiddan afslátt. Frekari upplýsingar er að finna í [Eftirágreiddir afslættir viðskiptavinar](../../supply-chain/sales-marketing/tasks/process-customer-rebates.md).
 
-Taflan á undan sýnir þrjú dæmigerð dæmi um bókunargerðir sem hægt er að nota fyrir gjaldkóða. Það ætti að nota sem leiðbeiningar og sýnishorn. Það veitir ekki tæmandi lista yfir allar mögulegar samsetningar eða birtingargerðir sem hægt er að nota.
+Fyrri taflan sýnir þrjú dæmigerð dæmi um bókunargerðir sem hægt er að nota fyrir gjaldkóða. Það ætti að nota sem leiðbeiningar og sýnishorn. Ekki er lagður til tæmandi lista yfir allar mögulegar samsetningar eða bókunargerðir sem hægt er að nota.
 
-Fyrir frekari upplýsingar, sjá [Búðu til gjaldkóða](../accounts-receivable/create-charges-codes.md).
+Nánari upplýsingar má finna í [Stofna gjaldakóða](../accounts-receivable/create-charges-codes.md).
 
-## <a name="posting-accounts-for-commissions"></a>Bókun reikninga fyrir þóknun
+## <a name="posting-accounts-for-commissions"></a>Bókunarlyklar fyrir þóknanir
 
-Þú getur valfrjálst stillt kerfið til að reikna þóknun fyrir sölufulltrúa eða hóp sölufulltrúa á tiltekinni sölupöntun. Ef þú virkjar þessa virkni verður þú að stilla bókunarreikninginn sem er notaður til að reikna út þóknunina. Þessi uppsetning er gerð á **Umboðsskrifstofa** síðu í **Sala og markaðssetning** mát.
+Þú getur stillt kerfið til að reikna út þóknun fyrir sölufulltrúa eða hóp sölufulltrúa á tiltekinni sölupöntun. Ef þessi aðgerð er virkjuð þarf að skilgreina bókunarlykilinn sem er notaður til að reikna út þóknunina. Þessi skilgreining er gerð á síðunni **Bókun þóknunar** í einingunni **Sala og markaðssetning**.
 
-Fyrir frekari upplýsingar, sjá [Settu upp reglur um söluþóknun](../../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md).
+Frekari upplýsingar er að finna í [Setja upp reglur um söluþóknun](../../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md).

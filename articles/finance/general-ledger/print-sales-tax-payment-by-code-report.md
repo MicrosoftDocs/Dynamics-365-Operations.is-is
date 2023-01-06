@@ -1,6 +1,6 @@
 ---
 title: Prenta VSK-greiðslu eftir kóðaskýrslu
-description: Þessi grein veitir upplýsingar um stillingar og aðgerðir sem eru nauðsynlegar til að prenta skýrslu Vöruskattsgreiðslu eftir kóða í bókhalds- eða skattkóðagjaldmiðlinum.
+description: Þessi grein veitir upplýsingar um stillingar og aðgerðir sem þarf til að prenta VSK-greiðslu eftir kóðaskýrslu í bókhalds- eða skattkóðagjaldmiðli.
 author: AdamTrukawka
 ms.date: 05/27/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: 10.0.11
 ms.search.form: ''
 ms.openlocfilehash: ea11826d21b66e6283abf24b3f7b0945e6eb9192
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9272369"

@@ -1,6 +1,6 @@
 ---
 title: Skilgreina gagnaveitu uppflettingar til að nota færibreytur sem eru sértækar fyrir rafræna skýrslugerð
-description: Þessi grein útskýrir hvernig þú getur stillt uppflettigagnauppsprettur í rafrænum skýrslugerðum (ER) til að nota sértækar færibreytur fyrir ER forrit.
+description: Þessi grein útskýrir hvernig hægt er að skilgreina gagnaveitur uppflettingar í rafrænum skýrslugerðarsniðum til að forritstengdar færibreytur rafrænnar skýrslugerðar.
 author: kfend
 ms.date: 08/11/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 ms.openlocfilehash: f3ce5837b1d20860588848a1b518b3d801a05db4
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9285122"

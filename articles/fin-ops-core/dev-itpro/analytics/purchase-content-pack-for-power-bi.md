@@ -1,6 +1,6 @@
 ---
 title: Eyðslugreining innkaupa Power BI efni
-description: Þessi grein lýsir því sem er innifalið í innkaupaútgjaldagreiningunni Power BI efni.
+description: Þessi grein lýsir því hvað er innifalið í Eyðslugreining innkaupa Power BI efni.
 author: FrankDahl
 ms.date: 04/24/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 3cd9dfce-2687-4303-bc78-349e7cb5ea75
 ms.search.form: PurchaseSpendAnalysisPowerBI
 ms.openlocfilehash: 757b782131617104422e15f3ceec747b92d96666
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9276661"
@@ -26,7 +26,7 @@ ms.locfileid: "9276661"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því sem er innifalið í **Greining kaupkostnaðar** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
+Þessi grein lýsir því hvað er innifalið í **Eyðslugreining innkaupa** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 

@@ -1,6 +1,6 @@
 ---
-title: Frestun tekna og gjalda í áskriftarreikningi
-description: Þessi grein útskýrir hvernig á að setja upp frestun tekna og gjalda í áskriftarreikningi.
+title: Tekju- og kostnaðarfrestanir í áskriftargreiðslum
+description: Þessi grein útskýrir hverig á að setja upp tekju- og kostnaðarfrestanir í áskriftargreiðslum.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -16,285 +16,285 @@ ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
 ms.openlocfilehash: 209afd08c0c7e3cbd63ed95613b1d1dec94856f5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8908097"
 ---
-# <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>Frestun tekna og gjalda í áskriftarreikningi
+# <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>Tekju- og kostnaðarfrestanir í áskriftargreiðslum
 
-Þessi grein útskýrir hvernig á að setja upp og nota frestun tekna og kostnaðar í innheimtu áskriftar. Frestunaráætlanir eru alltaf byggðar á og eru háðar undirliggjandi upprunaskjali eða innheimtuáætlun. Vegna þess að þau eru búin til á grundvelli sjálfgefna er ekki hægt að slá þau inn eða búa þau til sérstaklega.
+Þessi grein útskýrir hverig á að setja upp og nota tekju- og kostnaðarfrestanir í áskriftargreiðslum. Frestunaráætlanir byggja alltaf á og eru háðar undirliggjandi upprunalegu skjali eða greiðsluáætlun. Þar sem þær eru búnar til á grundvelli sjálfgefinna gilda er ekki hægt að færa þær inn eða búa þær til sérstaklega.
 
-Ferlið við að setja upp og nota frestun tekna og kostnaðar á sér stað á mörgum síðum:
+Ferlið við að setja upp og nota frestun á tekjum og kostnaði á sér stað á mörgum síðum:
 
-- Á **Frestun tekna og gjalda** síðu geturðu skilgreint kjörstillingar fyrirtækisins.
-- Á **Frestun vanskil** síðu geturðu sett upp sjálfgefna reikninga og sniðmát sem eru notuð fyrir frestunaráætlanir.
-- Á **Frestun sniðmát** og **Frestunarsniðmát sem byggir á viðburðum** síðum, getur þú skilgreint sniðmát sem eru notuð fyrir frestunaráætlanir.
-- Á **Allar frestunaráætlanir** síðu geturðu skoðað og breytt hvaða frestunaráætlun sem er.
+- Á síðunni **Færibreytur tekju- og kostnaðarfrestunar** er hægt að skilgreina kjörstillingar fyrirtækisins.
+- Á síðunni **Sjálfgefnar frestanir** er hægt að setja upp sjálfgefna lykla og sniðmát sem eru notuð fyrir frestunaráætlanir.
+- Á síðunum **Sniðmát frestunar** og **Frestunarsniðmát sem byggja á tilviki** er hægt að skilgreina sniðmátin sem notuð eru fyrir frestunaráætlanir.
+- Á síðunni **Allar frestunaráætlanir** er hægt að skoða og breyta öllum frestunaráætlunum.
 
-Hægt er að nota frestun tekna og gjalda ásamt endurteknum samningsreikningum.
+Hægt er að nota tekju- og útgjaldafrestanir með endurtekinni samningsgreiðslu.
 
 ## <a name="revenue-and-expense-deferral-parameters"></a>Færibreytur tekju- og kostnaðarfrestunar
 
-The **Frestun tekna og gjalda** síða inniheldur eftirfarandi reiti.
+Síðan **Færibreytur tekju- og kostnaðarfrestunar** inniheldur eftirfarandi reiti.
 
-| Reitur | Lýsing |
+| Svæði | Lýsing |
 |---|---| 
-| **Dagskrá** flipa | |
-| Jafnt á tímabili | <p>Tilgreindu hvort fjöldi daga á tímabili sé notaður þegar upphæð á tímabili er reiknuð út fyrir frestunaráætlun:</p><ul><li>**Já** – Upphæðin fyrir hvert tímabil er sú sama, óháð fjölda daga á tímabilinu. Hlutatímabil (svo sem tímabil í upphafi eða lok frestunaráætlunar) verða hlutfallslega.</li><li>**Nei** – Upphæðin er reiknuð út frá fjölda daga á hverju tímabili.</li></ul><p>Þú getur hnekið þessari stillingu á færslustigi.</p> |
-| Valkostur frestaðs söluafsláttar | <p>Tilgreindu hvort aðskildar frestunaráætlanir séu búnar til fyrir afsláttinn og sölupöntunarupphæðirnar:</p><ul><li>**Sér áætlun fyrir afslátt** – Afsláttarupphæðinni er haldið aðskildum frá tekjuupphæðinni.<p>Í þessu tilviki eru tvær frestunaráætlanir stofnaðar þegar sölupöntun er stofnuð og síðan bókuð. Afsláttar- og tekjuupphæðir verða færðar á mismunandi frestunarreikninga.</p></li><li>**Sameina afslátt við tekjur** – Afsláttarupphæðin er sameinuð tekjuupphæðinni. Ein frestunaráætlun er stofnuð og bæði afsláttarupphæð og tekjuupphæð eru færð á sama frestunarreikning.<p>Í þessu tilviki er ein frestunaráætlun stofnuð þegar sölupöntun er stofnuð og síðan bókuð. Bæði afsláttarupphæð og tekjuupphæð eru færð á sama frestunarreikning.</p></li></ul><p>**Athugið:** Til að beita afslætti á vörur sem nota óinnheimta tekjur eiginleiki, veldu **Sérstök dagskrá fyrir afslátt** valmöguleika. Þá er hægt að beita afslætti á allar vörur, óháð því hvort óinnheimtar tekjur eru notaðar. Ef **Sameina afslátt við tekjur** valkostur er valinn, ekki er hægt að nota afslætti á vörur sem nota óinnheimt tekjur.</p> |
-| Frestunarvalkostur innkaupaafsláttar | <p>Veldu hvort aðskilin frestunaráætlanir séu búnar til fyrir upphæðir afsláttar og innkaupapöntunar:</p><ul><li>**Sér áætlun fyrir afslátt** – Afsláttarupphæðinni er haldið aðskildum frá kostnaðarupphæðinni.<p>Í þessu tilviki eru tvær frestunaráætlanir stofnaðar þegar innkaupapöntun er stofnuð og síðan bókuð. Afsláttar- og kostnaðarupphæðir eru bókaðar á mismunandi frestunarreikninga.</p></li><li>**Sameina afslátt við tekjur** – Afsláttarupphæðin er sameinuð kostnaðarupphæðinni. Ein frestunaráætlun er stofnuð og bæði afsláttarupphæð og kostnaðarupphæð eru færð á sama frestunarreikning.<p>Í þessu tilviki er ein frestunaráætlun stofnuð þegar innkaupapöntun er stofnuð og síðan bókuð. Bæði afsláttarupphæð og kostnaðarupphæð eru færð á sama frestunarreikning.</p></li></ul> |
-| Sameina fyrri tímabil | <p>Tilgreindu hvort frestunaráætlunarlínur fyrir fyrri tímabil séu sameinaðar:</p><ul><li>**Já** – Ef upphafsdagur frestunarinnar er á tímabili fyrir færsludagsetningu eru allar upphæðir fram yfir tímabilið færsludagsins sameinaðar á eina frestunaráætlunarlínu.</li><li>**Nei** – Upphæðum frá öllum tímabilum er haldið á aðskildum frestunaráætlunarlínum.<p>Ef upphafsdagur frestunarinnar er á sama tímabili og eða seinna tímabil en viðskiptadagsetningin hefur þessi valkostur engin áhrif.</p></li></ul><p>Þessa stillingu er hægt að uppfæra á færslustigi.</p> |
-| Sjálfgefin upphafsdagsetning frestunar | <p>Veldu regluna sem er notuð til að ákvarða upphafsdag frestunaráætlunar:</p><ul><li>**Dagsetning viðskipta** – Notaðu viðskiptadagsetninguna sem upphafsdagsetningu.</li><li>**Upphaf yfirstandandi mánaðar** – Notaðu þann fyrsta í núverandi mánuði sem upphafsdagsetningu. Ef viðskiptadagsetningin er sá fyrsti hvers mánaðar er sá fyrsti í núverandi mánuði upphafsdagsetningin.</li><li>**Upphaf næsta mánaðar** – Notaðu fyrsta næsta mánaðar sem upphafsdag. Ef viðskiptadagsetningin er á þeim fyrsta er viðskiptadagsetningin notuð. Annars er fyrsti næsta mánaðar notaður.</li><li>**Regla 15** – Ef viðskiptadagsetning er á milli þess fyrsta og fimmtánda, notaðu þann fyrsta í núverandi mánuði sem upphafsdagsetningu. Ef viðskiptadagsetningin er sextándi eða síðar, skal nota fyrsta næsta mánaðar sem upphafsdag.</li></ul><p>Þú getur uppfært þessa stillingu á færslustigi.</p> |
-| Aðferð skammtímafrestunar | <p>Veldu skammtíma frestun aðferð: **Enginn**, **·**, eða **Fast ártal**.</p><p>|
-| Bókunaraðferð frestunar | <p>Veldu aðferðina sem er notuð til að stofna frestunarfærslur:</p><ul><li>**Efnahagsreikningur** – Notaðu efnahagsreikningsbókunaraðferðina til að stofna frestunarfærslur.</li><li>**Hagnaður og tap** – Notaðu hagnaðarbókunaraðferðina til að stofna frestunarfærslur. Þegar færslur eru bókaðar er hægt að skoða fylgiskjal reikningsins til að sjá aukafærslurnar sem jafna upphafsfærslu- og færslujöfnunarupphæðir.</li></ul> |
-| Bakfæra hagnað og tap í kreditfærslu | <p>**Athugið:** Þessi reitur er aðeins tiltækur þegar **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap**.</p><p>Tilgreindu hvort hagnaðar- og tapupphæðum sé bakfært þegar bakfærsla, uppsögn eða endurgreiðsla er beitt á innheimtuáætlun eða sölupöntun:</p><ul><li>**Já** – Bakfærðu hagnaðar- og tapupphæðir og notaðu lánsfjárleiðréttingarupphæð á frestunaráætlunina.<p>Ef bakfærsla á sér stað þegar reikningstímabilið er hálfnað, eru upphæðirnar hlutfallslegar.</p></li><li>**Nei** – Engin bakfærsla er stofnuð fyrir hagnað og tap þegar bakfærsla, uppsögn eða endurgreiðsla er notuð á reikningsáætlun eða sölupöntun.</li></ul> |
-| **Viðurkenning** flipa | |
-| Bóka færslubækur sjálfvirkt | <p>Tilgreindu hvort færslubókarfærslur sem eru búnar til með frestun tekna og gjalda séu sjálfkrafa bókaðar:</p><ul><li>**Já** – Bókaðu sjálfkrafa færslubókarfærslur sem eru búnar til með frestun tekna og gjalda.<p>**Ábending:** Með því að velja **Já**, getur þú hjálpað til við að koma í veg fyrir ósamræmi í bókhaldi sem stafar af handvirkum breytingum á fylgiskjölum.</p></li><li>**Nei** – Færslubókarfærslur sem eru búnar til með frestun tekna og kostnaðar eru ekki sjálfkrafa bókaðar. Þú verður að bóka allar dagbækur handvirkt.</li></ul> |
-| Taka saman skráningarbók | <p>Tilgreindu hvort viðurkenningarskírteini séu sjálfgefið sameinuð:</p><ul><li>**Já** – Búðu til eina skírteini fyrir allar viðurkenningarlínur sem hafa sömu dagsetningu. Allar línur í fylgiskjali sem hafa sama reikning eru sameinaðar á eina línu.</li><li>**Nei** – Búðu til skírteini fyrir hverja viðurkenningarlínu.</li></ul><p>Þú getur uppfært þessa stillingu á **Viðurkenningarvinnsla** síðu.</p> |
-| Sjálfgefið færslubókarnafn | Veljið færslubókarheiti fyrir færslubækur sem eru búnar til úr frestun tekna og gjalda, eins og viðurkenningarvinnslu. |
-| Lýsing á færslubókarlínu skráningar | <p>Veldu lýsinguna sem birtist í línulýsingu færslubókar fylgiskjals:</p><ul><li>**Skipuleggðu línudagsetningar** – Sýna áætlunarlínudagsetningar í færslubókarlínulýsingunni.</li><li>**Upplýsingar um upprunaviðskipti** – Sýna upprunafærsluupplýsingarnar í færslubókarlínulýsingunni.<p>**Dæmi:** USMF-0001, CIV-00839, hugbúnaðartekjur</p></li></ul> |
-| **Númeraraðir** flipa | Notaðu þennan flipa til að stilla sjálfgefin gildi fyrir leigunúmeraraðir. Tölurunarhjálparforritið er notað til að búa til og úthluta númeraröðum sjálfkrafa. Þú þarft ekki að breyta númeraröðinni nema þú viljir gera handvirkar breytingar á mynduðu númeraröðunum. |
-| Áætlunarnúmer | Númerið sem er röð notuð fyrir frestunaráætlanir. |
+| Flipinn **Áætlun** | |
+| Jafnt og á tímabili | <p>Tilgreindu hvort fjöldi daga í tímabili er notaður þegar upphæð á tímabil er reiknuð út fyrir frestunaráætlun:</p><ul><li>**Já** – Upphæð hvers tímabils er sú sama, óháð fjölda daga á tímabilinu. Hlutatímabilum (t.d. tímabil í upphafi eða lok frestunaráætlunar) verður skipt hlutfallslega.</li><li>**Nei** – Upphæðin er útreiknuð á grundvelli fjölda daga á hverju tímabili.</li></ul><p>Hægt er að hnekkja þessari stillingu á færslustigi.</p> |
+| Valkostur frestaðs söluafsláttar | <p>Tilgreindu hvort aðskildar frestunaráætlanir séu búnar til fyrir afsláttar- og sölupöntunarupphæðir:</p><ul><li>**Aðskilin áætlun fyrir afslátt** – Afsláttarupphæðinni er haldið aðskildri frá tekjuupphæðinni.<p>Í þessu tilviki eru búnar til tvær frestunaráætlanir þegar sölupöntun er stofnuð og síðan bókuð. Afslátturinn og tekjuupphæðin verða lögð inn á mismunandi frestunarreikninga.</p></li><li>**Sameina afslátt við tekjur** – Afsláttarupphæðin er sameinuð við tekjuupphæðina. Ein frestunaráætlun er búin til og bæði afsláttarupphæðin og tekjuupphæðin eru bókaðar á sama frestunarlykilinn.<p>Í þessu tilviki er búin til ein frestunaráætlun þegar sölupöntun er stofnuð og síðan bókuð. Bæði afsláttarupphæðin og tekjuupphæðin eru bókaðar á sama frestunarlykilinn.</p></li></ul><p>**Athugaðu:** Til að nota afslátt á vörur sem nota eiginleika óreikningsfærðra tekna skal velja valkostinn **Sérstök áætlun fyrir afslátt**. Hægt er að nota afslætti á allar vörur burtséð frá því hvort eiginleikinn óreikningsfærðar tekjur er notaður. Ef valkosturinn **Sameina afslátt við tekjur** er valinn er ekki hægt að nota afslætti á vörur sem nota eiginleika óreikningsfærðra tekna.</p> |
+| Frestunarvalkostur innkaupaafsláttar | <p>Veldu hvort sérstakar frestunaráætlanir eru búnar til fyrir afsláttar- og innkaupapöntunarupphæðir:</p><ul><li>**Sérstök áætlun fyrir afslátt** – Afsláttarupphæðinni er haldið aðskildri frá upphæð kostnaðar.<p>Í þessu tilviki eru búnar til tvær frestunaráætlanir þegar innkaupapöntun er stofnuð og síðan bókuð. Afsláttar- og kostnaðarupphæðir eru bókaðar á mismunandi frestunarlykla.</p></li><li>**Sameina afslátt við tekjur** – Afsláttarupphæðin er sameinuð við kostnaðarupphæðina. Ein frestunaráætlun er búin til og bæði afsláttarupphæðin og kostnaðarupphæðin eru bókaðar á sama frestunarlykilinn.<p>Í þessu tilviki er búin til ein frestunaráætlun þegar innkaupapöntun er stofnuð og síðan bókuð. Bæði afsláttarupphæðin og kostnaðarupphæðin eru bókaðar á sama frestunarlykilinn.</p></li></ul> |
+| Sameina fyrri tímabil | <p>Tilgreindu hvort línur frestunaráætlunar fyrir fyrri tímabil séu sameinuð:</p><ul><li>**Já** – Ef upphafsdagur frestunar er á tímabili á undan færsludagsetninguna eru allar upphæðir á tímabilinu fyrir færsludagsetninguna sameinaðar í eina línu frestunaráætlunar.</li><li>**Nei** – Upphæðum frá öllum tímabilum er haldið aðskildum í frestunaráætlunarlínum.<p>Ef upphafsdagsetning frestunar er á sama tímabili og eða síðar en færsludagsetningin hefur þessi valkostur engin áhrif.</p></li></ul><p>Hægt er að uppfæra þessa stillingu á færslustigi.</p> |
+| Sjálfgefin upphafsdagsetning frestunar | <p>Veljið regluna sem er notuð til að ákvarða upphafsdag frestunar:</p><ul><li>**Færsludagsetning** – Notaðu færsludagsetninguna sem upphafsdagsetningu.</li><li>**Upphaf yfirstandandi mánaðar** – Notaðu fyrsta dag yfirstandandi mánaðar sem upphafsdagsetningu. Ef færsludagsetningin er fyrsta dag hvers mánaðar er fyrsti dagur yfirstandandi mánaðar upphafsdagsetningin.</li><li>**Byrjun næsta mánaðar** – Notaðu fyrsta dag næsta mánaðar sem upphafsdagsetningu. Ef færsludagsetningin er þann fyrsta er færsludagsetningin notuð. Annars er fyrsti dagur næsta mánaðar notaður.</li><li>**Regla um 15** – Ef færsludagsetningin er á milli fyrsta og fimmtánda skal nota fyrsta yfirstandandi mánaðar sem upphafsdagsetningu. Ef færsludagsetningin er sextándi eða síðar skal nota fyrsta næsta mánaðar sem upphafsdagsetningu.</li></ul><p>Hægt er að breyta þessari stillingu á færslustigi.</p> |
+| Aðferð skammtímafrestunar | <p>Veldu aðferð skammtímafrestunar: **Ekkert**, **Hlaupandi tímabil** eða **Fast ár**.</p><p>|
+| Bókunaraðferð frestunar | <p>Veljið aðferð sem er notuð til að stofna frestunarfærslur:</p><ul><li>**Efnahagsreikningur** – Notaðu bókunaraðferð efnahagsreiknings til að stofna frestunarfærslur.</li><li>**Hagnaður og tap** – Notaðu bókunaraðferð hagnaðar og taps til að stofna frestunarfærslur. Þegar færslur eru bókaðar er hægt að fara yfir fylgiskjal reikningsins til að sjá aukafærslur sem jafna upphæðir upphaflegrar skráningar og mótlykils skráningar.</li></ul> |
+| Bakfæra hagnað og tap í kreditfærslu | <p>**Athugið:** Þetta svæði er aðeins í boði þegar svæðið **Bókunaraðferð frestunar** er stillt á **Hagnaður og tap**.</p><p>Tilgreindu hvort upphæðir hagnaðar og taps séu bakfærðar þegar bakfærsla, uppsögn eða endurgreiðsla er notuð í greiðsluáætlun eða sölupöntun:</p><ul><li>**Já** – Bakfærðu upphæðir hagnaðar og taps og notaðu kreditleiðréttingarupphæð á frestunaráætlunina.<p>Ef bakfærslan gerist um miðbik greiðslutímabils eru upphæðunum skipt hlutfallslega niður.</p></li><li>**Nei** – Engin bakfærsla er stofnuð fyrir hagnað og tap þegar bakfærsla, uppsögn eða endurgreiðsla er notuð í greiðsluáætlun eða sölupöntun.</li></ul> |
+| Flipinn **Viðurkenning** | |
+| Bóka færslubækur sjálfvirkt | <p>Tilgreindu hvort færslur í færslubók sem eru stofnaðar af tekju- og kostnaðarfrestunum séu sjálfkrafa bókaðar:</p><ul><li>**Já** – Birta sjálfkrafa færslur í færslubók sem verða til vegna frestunar á tekjum og kostnaði.<p>**Ábending:** Með því að velja **Já** getur þú hjálpað til við að koma í veg fyrir ósamræmi í bókhaldi vegna handvirkra breytinga í fylgiskjölum.</p></li><li>**Nei** – Færslur færslubókar sem eru stofnaðar af tekju- og kostnaðarfrestunum eru ekki bókaðar sjálfkrafa. Notandi þarf að bóka færslur handvirkt.</li></ul> |
+| Taka saman skráningarbók | <p>Tilgreindu hvort fylgiskjöl skráningar séu sjálfgefið sameinaðar:</p><ul><li>**Já** – Búðu til eitt fylgiskjal fyrir allar skráningarlínur sem eru með sömu dagsetninguna. Allar línur í fylgiskjali eru með sama lykilinn eru sameinaðar í eina línu.</li><li>**Nei** – Búðu til fylgiskjal fyrir hverja skráningarlínu.</li></ul><p>Hægt er að uppfæra þessa stillingu á síðunni **Úrvinnsla skráningar**.</p> |
+| Sjálfgefið færslubókarnafn | Veldu heiti færslubókar fyrir færslubækur sem eru búnar til úr ferlum tekju- og kostnaðarfrestana, t.d. úrvinnslu skráningar. |
+| Lýsing á færslubókarlínu skráningar | <p>Veldu lýsinguna sem birtist í línulýsingu færslubókarfylgiskjals:</p><ul><li>**Dagsetningar áætlunarlína** – Sýndu dagsetningar áætlunarlína í lýsingu færslubókarlínu.</li><li>**Upprunalegar færsluupplýsingar** – Sýndu upprunalegar færsluupplýsingar í lýsingu færslubókarlínu.<p>**Dæmi:** USMF-0001, CIV-00839, tekjur af hugbúnaði</p></li></ul> |
+| Flipinn **Númeraraðir** | Notaðu þennan flipa til að stilla sjálfgefin gildi fyrir númeraröð leigusamnings. Leiðsögn fyrir myndun númeraraðar er notuð til að mynda og úthluta númeraraðir sjálfkrafa. Þú þarft ekki að breyta númeraröðinni nema þú viljir gera handvirkar breytingar á númeraröðinni. |
+| Áætlunarnúmer | Númeraröðin sem er notuð fyrir frestunaráætlanir. |
 
 ## <a name="deferral-templates"></a>Sniðmát frestunar
 
-Nota **Frestun sniðmát** síðu til að skilgreina beinlínusniðmát sem eru notuð fyrir frestunaráætlanir.
+Notaðu síðuna **Sniðmát frestunar** til að skilgreina línuleg sniðmát sem eru notuð fyrir frestunaráætlanir.
 
 Hér eru nokkrir kostir þess að nota sniðmát:
 
-* Lengd frestunarinnar reiknast sjálfkrafa.
-* Þú gerir ráð fyrir frestun áætlana sem hafa tímabil þar sem viðurkenning er sleppt.
-* Hægt er að gera frestun sjálfvirkan með því að úthluta sniðmátinu á vöru, vöruflokk, vöruflokk, viðskiptavini eða viðskiptavinahóp. Sniðmátaúthlutun er unnin frá **Frestun vanskil** síðu.
+* Lengd frestunarinnar er reiknuð sjálfkrafa.
+* Þú leyfir frestunaráætlanir sem eru með tímabil þar sem skráningu er sleppt.
+* Hægt er að gera frestanir sjálfvirkar með því að úthluta sniðmátinu á afurð, afurðahóp, afurðaflokk, viðskiptavini eða viðskiptavinaflokka. Úthlutun sniðmáts er gerð af síðunni **Sjálfgefnar frestanir**.
 
-Nokkrar tímabilstíðni eru fáanlegar fyrir sniðmát: daglega, mánaðarlega eða fjárhagstímabil.
+Nokkar tíðnir tímabila eru í boði fyrir sniðmát: dagleg, mánaðarleg eða reikningstímabil.
 
-Sniðmátslínurnar samanstanda af gerð (**Viðurkennd** eða **Sleppt**) og lengd tímabilsins. Skiptar línur hafa upphæðina 0 (núll) á frestunaráætlunarlínunum. Þessi hegðun getur verið gagnleg ef þú vilt ekki færa tekjur á öllum tímabilum.
+Sniðmátslínurnar samanstanda af tegund (**Skráð** eða **Sleppt**) og lengd tímabils. Línum sem er sleppt eru með 0 (núll) upphæð í línum frestunaráætlunar. Þessi hegðun getur komið sér vel ef ekki á að skrá tekjur á öllum tímabilum.
 
-### <a name="create-a-deferral-template"></a>Búðu til frestunarsniðmát
+### <a name="create-a-deferral-template"></a>Stofna frestunarsniðmát
 
-Til að búa til frestunarsniðmát skaltu fylgja þessum skrefum.
+Fylgið eftirfarandi skrefum til að stofna frestunarsniðmát.
 
-1. Á **Frestun sniðmát** síðu, veldu **Nýtt**.
-2. Í **Sniðmát** reit, sláðu inn nafn.
+1. Á síðunni **Frestunarsniðmát** skal velja **Nýtt**.
+2. Á svæðinu **Sniðmát** skal slá inn heiti.
 3. Í reitnum **Lýsing** skal færa inn lýsingu.
-4. Í **Tímabilstíðni** reit, veldu tímabilstíðni.
-5. Veldu **Bæta við** til að bæta línu efst á lista yfir línur, eða veldu **Bæta við** til að bæta línu neðst á listann.
-6. Í **Tegund** reit, veldu tegund tímabils.
-7. Í **Lengd tímabils** reit, tilgreinið lengd tímabilsins.
-8. Endurtaktu skref 5 til 7 fyrir hverja viðbótarlínu sem þú þarft.
+4. Á svæðinu **Tímabilstíðni** skal velja tímabilstíðni.
+5. Veldu **Bæta við** til að bæta línu efst á listann yfir línur eða veldu **Bæta við** til að bæta línu neðst á listann.
+6. Á svæðinu **Gerð** skal velja gerð tímabils.
+7. Í reitnum **Lengd tímabils** skal tilgreina lengd tímabilsins.
+8. Endurtakið skref 5 til 7 fyrir hverja viðbótarlínu sem þörf er á.
 9. Veldu **Vista**.
 
 ## <a name="deferral-defaults"></a>Sjálfgefnar frestanir
 
-Nota **Frestun vanskil** síðu til að setja upp sjálfgefna frestunarreikninga fyrir hluti og til að úthluta sjálfgefnum sniðmátum til frestanlegra hluta. Þú getur líka sett upp frestunarreikninga fyrir gjöld og úthlutað sniðmátum til frestunargjaldanna.
+Notaðu síðuna **Sjálfgefnar frestanir** til að setja upp sjálfgefna frestunarlykla fyrir vörur og úthlutaðu sjálfgefnum sniðmátum á frestunarvörur. Einnig er hægt að setja upp frestunarlykla fyrir gjöld og úthluta sniðmátum á frestunargjöld.
 
-**Fresta eftir lið**
+**Fresta eftir vöru**
 
-Fyrir færslur sem hafa vöru (til dæmis sölupantanir) er hægt að úthluta reikningum og sniðmátum til ákveðinna vara og viðskiptavina. Þessar stillingar verða notaðar sem sjálfgefin gildi þegar færslu er frestað. Til að gera viðskiptunum frestað sjálfgefið verður þú að setja upp hlutina á **Frestabærir hlutir** síðu.
+Fyrir færslur sem eru með vöru (t.d. sölupantanir) er hægt að úthluta lyklum og sniðmátum á tilteknar vörur og viðskiptavini. Þessar stillingar verða notaðar sem sjálfgefin gildi þegar færslu er frestað. Til að gera færslu sjálfgefið frestanlega þarf að setja upp vörurnar á síðunni **Frestanlegar vörur**.
 
 **Fresta eftir reikningi**
 
-Fyrir færslur sem hafa ekki vörur (til dæmis almennar færslubækur) er hægt að tilgreina frestunarreikninga. Þegar þessir reikningar eru notaðir á færslulínu er færslan sjálfkrafa merkt sem frestað. Samsvarandi sniðmát og viðurkenningarreikningi verður úthlutað á færslulínuna.
+Fyrir færslur sem eru ekki með vörur (t.d. almennar færslubækur) er hægt að tilgreina frestunarlykla. Þegar þessir reikningar eru notaðir á færslulínu er færslan sjálfkrafa merkt sem frestuð. Samsvarandi sniðmáti og skráningarlykli verður úthlutað á færslulínuna.
 
-**Allar færslugerðir (til dæmis á flipunum Sölupöntun, Innkaup og Almenn færslubók)**
+**Allar færslugerðir (til dæmis í flipum sölupöntunar, innkaupa og almennrar færslubókar)**
 
-Reikningarnir á síðunni eru aðalreikningarnir sem hafa ekki fjárhagsvíddir. Fjárhagsvíddir viðurkenningarreikningsins eru frá viðskiptavininum eða vörunni, byggt á fyrirtækinu þínu.
+Lyklarnir á síðunni eru aðallyklarnir sem eru ekki með fjárhagsvíddir. Fjárhagsvíddir skráningarlykilsins eru frá viðskiptavini eða vöru, byggt á fyrirtækinu.
 
-Hver sniðmátslína verður að hafa annað hvort beinlínusniðmát eða sniðmát sem byggir á atburðum. Það getur ekki haft bæði.
+Hver sniðmátslína verður annaðhvort að vera með línulegt sniðmát eða sniðmát sem byggir á tilviki. Það getur ekki haft hvort tveggja.
 
 ### <a name="for-sales-orders"></a>Fyrir sölupantanir
 
-Til að tilgreina sjálfgefin frestunargildi fyrir sölupantanir skaltu fylgja þessum skrefum.
+Til að tilgreina sjálfgefin frestunargildi fyrir sölupantanir skal fylgja eftirfarandi skrefum.
 
-1. Á **Sölupöntun** flipanum, veldu frestunartegundina.
+1. Í flipanum **Sölupöntun** skal velja tegund frestunar.
 2. Smellið á **Bæta við** til að bæta við nýrri línu.
-3. Í **Vörukóði** reit, veldu vörukóðann. Vörukóðinn ákvarðar hvernig sjálfgefna frestuninni er beitt.
-4. Tilgreindu hvernig vörukóði er notaður:
+3. Á svæðinu **Vörukóði** skal velja vörukóðann. Vörukóðinn ákvarðar hvernig sjálfgefnu frestunargildin eru notuð.
+4. Tilgreinið hvernig vörukóðinn er notaður:
 
-    * Ef **Vörukóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu hluttengsl í **Atriðatengsl** sviði.
-    * Ef **Vörukóði** reiturinn er stilltur á **Flokkur**, veldu flokkstengsl í **Flokkstengsl**.
-    * Ef **Vörukóði** reiturinn er stilltur á **Allt**, sjálfgefna gildin eiga við um allar viðeigandi færslur.
+    * Ef reiturinn **Vörukóði** er stilltur á **Tafla** eða **Hópur** skal velja vöruvensl í reitnum **Vöruvensl**.
+    * Ef reiturinn **Vörukóði** er stilltur á **Flokkur** skal velja flokkavensl í **Flokkavensl**.
+    * Ef reiturinn **Vörukóði** er stilltur á **Allt** eiga sjálfgefin gildi við allar viðeigandi færslur.
 
-5. Tilgreindu hvernig reikningskóðinn er notaður:
+5. Tilgreinið hvernig lykilkóðinn er notaður:
 
-    * Ef **Reikningskóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu reikningstengslin í **Reikningstengsl** sviði.
-    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, reikningurinn á við um allar færslur.
+    * Ef reiturinn **Kóði lykils** er stilltur á **Tafla** eða **Hópur** skal velja lyklavenslin í reitnum **Lyklavensl**.
+    * Ef svæðið **Kóði lykils** er stilltur á **Allt** gildir lykillinn um allar færslur.
 
-6. Í **Aðalreikningur** reit, veldu aðalreikning fyrir frestunina.
-7. Ef **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap**, veldu upphaflega tekjureikninginn í **Stofntekjureikningur** reit og tekjujöfnunarreikning í **Tekjujöfnunarreikningur** sviði.
-8. Ef **Skammtíma frestun aðferð** reiturinn er stilltur á **Rúllutímabil** eða **Fast ártal**, veldu skammtímafrestunarreikninginn í **Skammtímafrestunarreikningur** sviði.
-9. Fyrir sniðmát geturðu valið **Bæta við** til að bæta við línu.
-10. Í **Vörukóði** reit, veldu vörukóðann.
-11. Tilgreindu hvernig vörukóði er notaður:
+6. Á svæðinu **Aðallykill** skal velja aðallykil fyrir frestun.
+7. Ef reiturinn **Bókunaraðferð frestunar** er stilltur á **Hagnaður og tap** skal velja upphaflegan tekjulykil í reitnum **Upphaflegur tekjulykill** og mótlykil tekna í reitnum **Mótlykill tekna**.
+8. Ef reiturinn **Aðferð skammtímafrestunar** er stilltur á **Hlaupandi tímabil** eða **Fast ár** skal velja skammtíma frestunarlykil í reitnum **Frestunarlykill til skammtíma**.
+9. Hægt er að velja **Bæta við** til að bæta við nýrri línu fyrir sniðmát.
+10. Á svæðinu **Vörukóði** skal velja vörukóðann.
+11. Tilgreinið hvernig vörukóðinn er notaður:
 
-    * Ef **Vörukóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu hluttengsl í **Atriðatengsl** sviði.
-    * Ef **Vörukóði** reiturinn er stilltur á **Flokkur**, veldu flokkstengsl í **Flokkstengsl** sviði.
-    * Ef **Vörukóði** reiturinn er stilltur á **Allt**, sjálfgefna gildin eiga við um allar viðeigandi færslur.
+    * Ef reiturinn **Vörukóði** er stilltur á **Tafla** eða **Hópur** skal velja vöruvensl í reitnum **Vöruvensl**.
+    * Ef reiturinn **Vörukóði** er stilltur á **Flokkur** skal velja flokkavensl í reitnum **Flokkavensl**.
+    * Ef reiturinn **Vörukóði** er stilltur á **Allt** eiga sjálfgefin gildi við allar viðeigandi færslur.
 
-12. Tilgreindu hvernig reikningskóðinn er notaður:
+12. Tilgreinið hvernig lykilkóðinn er notaður:
 
-    * Ef **Reikningskóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu reikningstengslin í **Reikningstengsl** sviði.
-    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, reikningurinn á við allar viðeigandi færslur.
-    * Veldu beinlínusniðmátið í **Bein lína sniðmát** reitnum eða sniðmátinu sem byggir á viðburðum í **Sniðmát sem byggir á viðburðum** sviði.
+    * Ef reiturinn **Kóði lykils** er stilltur á **Tafla** eða **Hópur** skal velja lyklavenslin í reitnum **Lyklavensl**.
+    * Ef svæðið **Lykilkóði** er stilltur á **Allt** nær lykillinn til allra viðeigandi færslna.
+    * Veldu línulegt sniðmát í reitnum **Línulegt sniðmát** eða sniðmát sem byggir á tilviki í reitnum **Sniðmát sem byggir á tilviki**.
 
 13. Veldu **Vista**.
 
 ### <a name="for-purchase-orders"></a>Fyrir innkaupapantanir
 
-Til að tilgreina sjálfgefin frestunargildi fyrir innkaupapantanir skaltu fylgja þessum skrefum.
+Til að tilgreina sjálfgefin frestunargildi fyrir innkaupapantanir skal fylgja eftirfarandi skrefum.
 
-1. Á **Innkaup** flipanum, veldu frestunartegundina.
+1. Á flipanum **Innkaup** skal velja tegund frestunar.
 2. Smellið á **Bæta við** til að bæta við nýrri línu.
-3. Í **Vörukóði** reit, veldu vörukóðann.
-4. Tilgreindu hvernig vörukóði er notaður:
+3. Á svæðinu **Vörukóði** skal velja vörukóðann.
+4. Tilgreinið hvernig vörukóðinn er notaður:
 
-    * Ef **Vörukóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu hluttengsl í **Atriðatengsl** sviði.
-    * Ef **Vörukóði** reiturinn er stilltur á **Flokkur**, veldu flokkstengsl í **Flokkstengsl** sviði.
-    * Ef **Vörukóði** reiturinn er stilltur á **Allt**, sjálfgefna gildin eiga við um allar viðeigandi færslur.
+    * Ef reiturinn **Vörukóði** er stilltur á **Tafla** eða **Hópur** skal velja vöruvensl í reitnum **Vöruvensl**.
+    * Ef reiturinn **Vörukóði** er stilltur á **Flokkur** skal velja flokkavensl í reitnum **Flokkavensl**.
+    * Ef reiturinn **Vörukóði** er stilltur á **Allt** eiga sjálfgefin gildi við allar viðeigandi færslur.
 
-5. Tilgreindu hvernig reikningskóðinn er notaður:
+5. Tilgreinið hvernig lykilkóðinn er notaður:
 
-    * Ef **Reikningskóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu reikningstengslin í **Reikningstengsl** sviði.
-    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, reikningurinn á við allar viðeigandi færslur.
+    * Ef reiturinn **Kóði lykils** er stilltur á **Tafla** eða **Hópur** skal velja lyklavenslin í reitnum **Lyklavensl**.
+    * Ef svæðið **Lykilkóði** er stilltur á **Allt** nær lykillinn til allra viðeigandi færslna.
 
-6. Í **Aðalreikningur** reit, veldu aðalreikning fyrir frestunina.
-7. Ef **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap**, veldu upphaflega tekjureikninginn í **Stofntekjureikningur** reit og tekjujöfnunarreikning í **Tekjujöfnunarreikningur** sviði.
-8. Ef **Skammtíma frestun aðferð** reiturinn er stilltur á **Rúllutímabil** eða **Fast ártal**, veldu skammtímafrestunarreikninginn í **Skammtímafrestunarreikningur** sviði.
-9. Fyrir sniðmát skaltu velja **Bæta við** til að bæta við línu. 
-10. Í **Vörukóði** reit, veldu vörukóðann.
-11. Tilgreindu hvernig vörukóði er notaður:
+6. Á svæðinu **Aðallykill** skal velja aðallykil fyrir frestun.
+7. Ef reiturinn **Bókunaraðferð frestunar** er stilltur á **Hagnaður og tap** skal velja upphaflegan tekjulykil í reitnum **Upphaflegur tekjulykill** og mótlykil tekna í reitnum **Mótlykill tekna**.
+8. Ef reiturinn **Aðferð skammtímafrestunar** er stilltur á **Hlaupandi tímabil** eða **Fast ár** skal velja skammtíma frestunarlykil í reitnum **Frestunarlykill til skammtíma**.
+9. Veljið **Bæta við** til að bæta við nýrri línu fyrir sniðmát. 
+10. Á svæðinu **Vörukóði** skal velja vörukóðann.
+11. Tilgreinið hvernig vörukóðinn er notaður:
 
-    * Ef **Vörukóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu hluttengsl í **Atriðatengsl** sviði.
-    * Ef **Vörukóði** reiturinn er stilltur á **Flokkur**, veldu flokkstengsl í **Flokkstengsl** sviði.
-    * Ef **Vörukóði** reiturinn er stilltur á **Allt**, sjálfgefna gildin eiga við um allar viðeigandi færslur.
+    * Ef reiturinn **Vörukóði** er stilltur á **Tafla** eða **Hópur** skal velja vöruvensl í reitnum **Vöruvensl**.
+    * Ef reiturinn **Vörukóði** er stilltur á **Flokkur** skal velja flokkavensl í reitnum **Flokkavensl**.
+    * Ef reiturinn **Vörukóði** er stilltur á **Allt** eiga sjálfgefin gildi við allar viðeigandi færslur.
 
-12. Tilgreindu hvernig reikningskóðinn er notaður:
+12. Tilgreinið hvernig lykilkóðinn er notaður:
 
-    * Ef **Reikningskóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu reikningstengslin í **Reikningstengsl**.
-    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, reikningurinn á við allar viðeigandi færslur.
-    * Veldu beinlínusniðmátið í **Bein lína sniðmát** reitnum eða sniðmátinu sem byggir á viðburðum í **Sniðmát sem byggir á viðburðum** sviði.
+    * Ef reiturinn **Lykilkóði** er stilltur á **Tafla** eða **Hópur** skal velja lyklavensl í **Lyklavensl**.
+    * Ef svæðið **Lykilkóði** er stilltur á **Allt** nær lykillinn til allra viðeigandi færslna.
+    * Veldu línulegt sniðmát í reitnum **Línulegt sniðmát** eða sniðmát sem byggir á tilviki í reitnum **Sniðmát sem byggir á tilviki**.
 
 13. Veldu **Vista**.
 
-### <a name="for-general-journals"></a>Fyrir almenn tímarit
+### <a name="for-general-journals"></a>Fyrir almennar færslubækur
 
-Til að tilgreina sjálfgefin frestunargildi fyrir almennar dagbókarfærslur, fylgdu þessum skrefum.
+Til að skilgreina sjálfgefin frestunargildi fyrir almennra dagbókarfærslna skal fylgja þessum skrefum.
 
-1. Veldu **Almennt dagblað** flipa.
-2. Fyrir frestun, veldu **Bæta við** til að bæta við línu.
-3. Ef **Skammtíma frestun aðferð** reiturinn er stilltur á **Rúllutímabil** eða **Fast ártal**, veldu skammtímafrestunarreikninginn í **Skammtímafrestunarreikningur** sviði.
-4. Í **Frestunarreikningur** reit, veldu frestunarreikninginn.
-5. Í **Viðurkenningarreikningur** reit, veldu viðurkenningarreikninginn.
-6. Ef **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap**, veldu upphaflega tekjureikninginn í **Stofntekjureikningur** reit og tekjujöfnunarreikning í **Tekjujöfnunarreikningur** sviði.
-7. Veldu beinlínusniðmátið í **Bein lína sniðmát** reitnum eða sniðmátinu sem byggir á viðburðum í **Sniðmát sem byggir á viðburðum** sviði.
+1. Veljið flipann **Almenn færslubók**.
+2. Veljið **Bæta við** til að bæta við nýrri línu fyrir frestun.
+3. Ef reiturinn **Aðferð skammtímafrestunar** er stilltur á **Hlaupandi tímabil** eða **Fast ár** skal velja skammtíma frestunarlykil í reitnum **Frestunarlykill til skammtíma**.
+4. Í reitnum **Frestunarlykill** skal velja frestunarlykil.
+5. Í reitnum **Skráningarlykill** skal velja skráningarlykilinn.
+6. Ef reiturinn **Bókunaraðferð frestunar** er stilltur á **Hagnaður og tap** skal velja upphaflegan tekjulykil í reitnum **Upphaflegur tekjulykill** og mótlykil tekna í reitnum **Mótlykill tekna**.
+7. Veldu línulegt sniðmát í reitnum **Línulegt sniðmát** eða sniðmát sem byggir á tilviki í reitnum **Sniðmát sem byggir á tilviki**.
 8. Veldu **Vista**.
 
-### <a name="for-free-text-invoices"></a>Fyrir ókeypis textareikninga
+### <a name="for-free-text-invoices"></a>Allir textareikningar með frjálsum texta
 
-Til að tilgreina sjálfgefin frestunargildi fyrir reikninga með frjálsum texta skaltu fylgja þessum skrefum.
+Til að skilgreina sjálfgefin frestunargildi fyrir reikninga með frjálsum texta skal fylgja þessum skrefum.
 
-1. Veldu **Ókeypis textareikningur** flipa.
-2. Fyrir frestun, veldu **Bæta við** til að bæta við línu.
-3. Tilgreindu hvernig reikningskóðinn er notaður:
+1. Veljið flipann **Reikningur með frjálsum texta**.
+2. Veljið **Bæta við** til að bæta við nýrri línu fyrir frestun.
+3. Tilgreinið hvernig lykilkóðinn er notaður:
 
-    * Ef **Reikningskóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu reikningstengslin í **Reikningstengsl** sviði.
-    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, gildir reikningskóðinn um allar viðeigandi færslur.
+    * Ef reiturinn **Kóði lykils** er stilltur á **Tafla** eða **Hópur** skal velja lyklavenslin í reitnum **Lyklavensl**.
+    * Ef svæðið **Lykilkóði** er stilltur á **Allt** nær lykilkóðinn til allra viðeigandi færslna.
 
-4. Í **Frestunarreikningur** reit, veldu frestunarreikninginn.
-5. Ef **Skammtíma frestun aðferð** reiturinn er stilltur á **Rúllutímabil** eða **Fast ártal**, veldu skammtímafrestunarreikninginn í **Skammtímafrestunarreikningur** sviði.
-6. Í **Viðurkenningarreikningur** reit, veldu viðurkenningarreikninginn.
-7. Ef **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap**, veldu upphaflega tekjureikninginn í **Stofntekjureikningur** reit og tekjujöfnunarreikning í **Tekjujöfnunarreikningur** sviði.
-8. Veldu beinlínusniðmátið í **Bein lína sniðmát** reitnum eða sniðmátinu sem byggir á viðburðum í **Sniðmát sem byggir á viðburðum** sviði.
+4. Í reitnum **Frestunarlykill** skal velja frestunarlykil.
+5. Ef reiturinn **Aðferð skammtímafrestunar** er stilltur á **Hlaupandi tímabil** eða **Fast ár** skal velja skammtíma frestunarlykil í reitnum **Frestunarlykill til skammtíma**.
+6. Í reitnum **Skráningarlykill** skal velja skráningarlykilinn.
+7. Ef reiturinn **Bókunaraðferð frestunar** er stilltur á **Hagnaður og tap** skal velja upphaflegan tekjulykil í reitnum **Upphaflegur tekjulykill** og mótlykil tekna í reitnum **Mótlykill tekna**.
+8. Veldu línulegt sniðmát í reitnum **Línulegt sniðmát** eða sniðmát sem byggir á tilviki í reitnum **Sniðmát sem byggir á tilviki**.
 9. Veldu **Vista**.
 
 ### <a name="for-invoice-journals"></a>Fyrir reikningabækur
 
-Fylgdu þessum skrefum til að tilgreina sjálfgefin frestungildi fyrir færslubók reikninga.
+Til að skilgreina sjálfgefin frestunargildi reikningsdagbókarfærslna skal fylgja þessum skrefum.
 
-1. Veldu **Reikningardagbók** flipa.
-2. Fyrir frestun, veldu **Bæta við** til að bæta við línu.
-3. Tilgreindu hvernig reikningskóðinn er notaður:
+1. Veljið flipann **Reikningabók**.
+2. Veljið **Bæta við** til að bæta við nýrri línu fyrir frestun.
+3. Tilgreinið hvernig lykilkóðinn er notaður:
 
-    * Ef **Reikningskóði** reiturinn er stilltur á **Tafla** eða **Hópur**, veldu reikningstengslin í **Reikningstengsl** sviði.
-    * Ef **Reikningskóði** reiturinn er stilltur á **Allt**, gildir reikningskóðinn um allar viðeigandi færslur.
+    * Ef reiturinn **Kóði lykils** er stilltur á **Tafla** eða **Hópur** skal velja lyklavenslin í reitnum **Lyklavensl**.
+    * Ef svæðið **Lykilkóði** er stilltur á **Allt** nær lykilkóðinn til allra viðeigandi færslna.
 
-4. Í **Frestunarreikningur** reit, veldu frestunarreikninginn.
-5. Ef **Skammtíma frestun aðferð** reiturinn er stilltur á **Rúllutímabil** eða **Fast ártal**, veldu skammtímafrestunarreikninginn í **Skammtímafrestunarreikningur** sviði.
-6. Í **Viðurkenningarreikningur** reit, veldu viðurkenningarreikninginn.
-7. Ef **Frestun bókunaraðferð** reiturinn er stilltur á **Hagnaður og tap**, veldu upphaflega tekjureikninginn í **Stofntekjureikningur** reit og tekjujöfnunarreikning í **Tekjujöfnunarreikningur** sviði.
-8. Veldu beinlínusniðmátið í **Bein lína sniðmát** reitnum eða sniðmátinu sem byggir á viðburðum í **Sniðmát sem byggir á viðburðum** sviði.
+4. Í reitnum **Frestunarlykill** skal velja frestunarlykil.
+5. Ef reiturinn **Aðferð skammtímafrestunar** er stilltur á **Hlaupandi tímabil** eða **Fast ár** skal velja skammtíma frestunarlykil í reitnum **Frestunarlykill til skammtíma**.
+6. Í reitnum **Skráningarlykill** skal velja skráningarlykilinn.
+7. Ef reiturinn **Bókunaraðferð frestunar** er stilltur á **Hagnaður og tap** skal velja upphaflegan tekjulykil í reitnum **Upphaflegur tekjulykill** og mótlykil tekna í reitnum **Mótlykill tekna**.
+8. Veldu línulegt sniðmát í reitnum **Línulegt sniðmát** eða sniðmát sem byggir á tilviki í reitnum **Sniðmát sem byggir á tilviki**.
 9. Veldu **Vista**.
 
-### <a name="items-that-are-deferred-by-default"></a>Atriði sem er frestað sjálfgefið
+### <a name="items-that-are-deferred-by-default"></a>Vörur sem er sjálfgefið frestað
 
-Nota **Hlutum frestað sjálfgefið** síðu til að skilgreina hvaða hlutum er frestað sjálfgefið. Hægt er að setja upp tegundir færslur sem hlutunum verður frestað fyrir. Hægt er að tilgreina hvort einni vöru sé frestað, eða heilum vöruflokki eða flokki.
+Notaðu síðuna **Vörum frestað sjálfgefið** til að skilgreina hvaða vörum er frestað sjálfgefið. Hægt er að setja upp færslutegundir sem vörurnar verða frestaðar fyrir. Hægt er að tilgreina hvort einni vöru sé frestað eða heilum vöruhópi eða vöruflokki.
 
-Þegar þú setur upp hluti sem frestað skaltu velja sjálfgefna reikninga og sniðmát á **Frestun vanskil** síðu. Ef reikningar og sniðmát eru ekki valin, verður færslulínum þar sem þessar vörur eru færðar inn ekki frestað.
+Þegar vörur eru settar upp sem frestaðar skal velja sjálfgefna lykla og sniðmát á síðunni **Sjálfgefnar frestanir**. Ef lyklar og sniðmát eru ekki valin verður færslulínum þar sem þessar vörur eru færðar inn ekki frestað.
 
-Fyrir vörur sem er frestað á grundvelli sölu- eða innkaupaflokks sem þær eru tengdar við, eru frestunarstillingarnar byggðar á flokknum. Hins vegar, ef flokkurinn er ekki valinn í **Flokkstengsl** reit, eru frestunarstillingar flokks sem er hærri í röð notaðar. Til dæmis bætir þú við a **Heimamyndband** söluflokkur en ekki a **Sjónvarp** söluflokkur. Þegar þú bætir við frestunaratriði sem er tengt við **Sjónvarp** flokki, frestun stillingar á **Heimamyndband** eru notuð fyrir hlutinn.
+Fyrir vörur sem er frestað samkvæmt sölu- eða innkaupaflokki sem þær tengjast byggja stillingar frestunar á flokknum. Ef flokkurinn er hins vegar ekki valinn í reitnum **Flokkavensl** er frestunarstillingar flokksins sem eru hærra í röðinni notaðar. Til dæmis er hægt að bæta við söluflokknum **Heimamyndbönd** en ekki söluflokknum **Sjónvarp**. Þegar frestunarvöru er bætt við sem tengist flokknum **Sjónvarp** eru frestunarstillingar **Heimamyndbands** notaðar fyrir vöruna.
 
-### <a name="set-up-deferred-items"></a>Settu upp frestað atriði
+### <a name="set-up-deferred-items"></a>Setja upp frestaðar vörur
 
-Til að setja upp hluti sem er frestað sjálfgefið skaltu fylgja þessum skrefum.
+Til að setja upp vörur sem frestað er sjálfgefið skal fylgja þessum skrefum.
 
-1. Á **Hlutum frestað sjálfgefið** síðu, veldu flipann sem þú vilt: **Sölupöntun** eða **Innkaup**.
+1. Á síðunni **Vörum frestað sjálfgefið** skal velja flipann sem þú vilt: **Sölupöntun** eða **Innkaup**.
 2. Smellið á **Bæta við** til að bæta við nýrri línu.
-3. Í **Vörukóði** reit, veldu vörukóðann.
-4. Tilgreindu hvernig vörukóði er notaður:
+3. Á svæðinu **Vörukóði** skal velja vörukóðann.
+4. Tilgreinið hvernig vörukóðinn er notaður:
 
-    * Ef **Vörukóði** reiturinn er stilltur á **Hópur** eða **Tafla**, veldu hluttengsl í **Atriðatengsl** sviði.
-    * Ef **Vörukóði** reiturinn er stilltur á **Flokkur**, veldu flokkstengsl í **Flokkstengsl** sviði.
+    * Ef reiturinn **Vörukóði** er stilltur á **Flokkur** eða **Tafla** skal velja vöruvensl í reitnum **Vöruvensl**.
+    * Ef reiturinn **Vörukóði** er stilltur á **Flokkur** skal velja flokkavensl í reitnum **Flokkavensl**.
 
-5. Endurtaktu skref 2 til 4 fyrir hverja viðbótarlínu sem þú þarft.
+5. Endurtakið skref 2 til 4 fyrir hverja viðbótarlínu sem þörf er á.
 6. Veldu **Vista**.
 
-## <a name="deferred-charges"></a>Frestað gjöld
+## <a name="deferred-charges"></a>Frestuð gjöld
 
-Nota **Frestunargjöld** síðu til að skilgreina hvaða gjöldum er frestað sjálfgefið.
+Notaðu síðuna **Frestunargjöld** til að skilgreina hvaða gjöldum er sjálfgefið frestað.
 
 > [!NOTE]
-> * Eins og er eru frestanleg gjöld aðeins í boði fyrir sölupantanir.
-> * Aðeins er hægt að fresta gjöldum á línustigi. Til að fresta gjaldi á sölupöntunarhausstigi er hægt að setja upp gjaldið sem frestað vöru á sérstakri línu í sölupöntuninni.
-> * Til að fresta gjaldtöku fyrir frjálsan textareikning verður þú að slá inn gjaldið sem sérstaka frestað reikningslínu.
-> * Þessi virkni er ekki í boði fyrir stuðningsgjöld og tekjuskiptingu.
+> * Sem stendur eru frestanleg gjöld aðeins í boði fyrir sölupantanir.
+> * Aðeins er hægt að fresta gjöldum á línustigi. Til að fresta gjaldi á stigi sölupöntunarhauss er hægt að setja upp gjöld sem frestaða vöru í aðskildri línu í sölupöntuninni.
+> * Til að fresta gjaldi fyrir reikning með frjálsum texta þarftu að færa inn gjaldið sem aðskilda frestaða reikningslínu.
+> * Þessi aðgerð er ekki í boði fyrir studd gjöld og tekjuskiptingu.
 
-### <a name="set-up-deferred-charges"></a>Settu upp frestað gjöld
+### <a name="set-up-deferred-charges"></a>Setja upp frestuð gjöld
 
-Til að setja upp frestað gjöld skaltu fylgja þessum skrefum.
+Fylgið þessum skrefum til að setja upp frestaðar greiðslur.
 
-1. Á **Frestunargjöld** síðu, veldu **Bæta við** til að bæta við línu.
-2. Í **Hleðslukóði** reit, veldu gjaldkóðann.
-3. Í **Hleðslutengsl** reit, veldu hleðslutengsl.
-4. Endurtaktu skref 1 til 3 fyrir hverja viðbótarlínu sem þú þarft.
+1. Á síðunni **Frestunargjöld** skal velja **Bæta við** til að bæta við nýrri línu.
+2. Í reitnum **Gjaldakóði** skal velja gjaldakóðann.
+3. Í reitnum **Tengsl gjalds** skal velja tengsl gjaldsins.
+4. Endurtakið skref 1 til 3 fyrir hverja viðbótarlínu sem þörf er á.
 5. Veldu **Vista**.
 
 ## <a name="event-based-deferral-templates"></a>Frestunarsniðmát byggð á tilviki
 
-Nota **Frestunarsniðmát sem byggir á viðburðum** síðu til að skilgreina frestunarsniðmát sem byggir á atburðum sem þú getur notað í frestunarfærslum og úthlutað á **Frestun vanskil** síðu.
+Notaðu síðuna **Frestunarsniðmát byggð á tilviki** til að skilgreina frestunarsniðmát sem byggja á tilviki sem hægt er að nota í frestunarfærslum og úthluta á síðunni **Sjálfgefnar frestanir**.
 
-### <a name="create-an-event-based-template"></a>Búðu til sniðmát sem byggir á atburðum
+### <a name="create-an-event-based-template"></a>Stofna sniðmát sem byggir á tilviki
 
-Til að búa til frestunarsniðmát sem byggir á viðburðum skaltu fylgja þessum skrefum.
+Fylgið þessum skrefum til að stofna frestunarsniðmát byggt á tilviki.
 
-1. Á **Frestunarsniðmát sem byggir á viðburðum** síðu, veldu **Nýtt**.
-2. Í **Sniðmát** reit, sláðu inn einstakt heiti fyrir sniðmátið.
+1. Á síðunni **Frestunarsniðmát byggð á tilviki** skal velja **Nýtt**.
+2. Færið inn einkvæmt heiti fyrir sniðmátið á svæðinu **Sniðmát**.
 3. Í reitnum **Lýsing** skal færa inn lýsingu.
-4. Í **Tegund úthlutunar** reit, veldu úthlutunartegund:
+4. Í reitnum **Úthlutunargerð** skal velja úthlutunargerðina:
 
-    * **Breytileg upphæð** – Úthlutaðu tiltekinni upphæð fyrir hverja línu sem er slegin inn.
-    * **Jöfn upphæð** – Úthlutaðu sömu upphæð fyrir hverja línu sem er slegin inn. 
-    * **Hlutfall** – Úthlutaðu upphæð sem byggir á prósentugildinu sem er slegið inn fyrir hverja línu.
-    * **Prósenta af verklokum** – Úthlutaðu uppsafnaðu lokagildi fyrir hverja línu sem er slegin inn.
-    * **Breytilegt magn** – Úthlutaðu ákveðnu magni fyrir hverja línu sem er slegin inn.
+    * **Breytileg upphæð** – Úthluta tiltekinni upphæð fyrir hverja línu sem er færð inn.
+    * **Jöfn upphæð** – Úthlutaðu sömu upphæðinni á hverja línu sem er færð inn. 
+    * **Prósenta** – Úthlutaðu upphæð sem byggir á prósentugildi sem er fært inn fyrir hverja línu.
+    * **Prósentum lokið** – Úthlutaðu samanlögðu gildi fyrir lokið fyrir hverja línu sem er færð inn.
+    * **Breytilegt magn** – Úthluta tilteknu magni fyrir hverja línu sem er slegin inn.
 
-5. Stilltu **Búðu til sérstaka viðburði fyrir hverja einingu** valmöguleika til **Já** ef þú vilt að hverri atburðarlínu sé skipt jafnt eftir fjölda eininga á reikningsfærslunni. Stilltu það á **Nei** ef þú vilt ekki skipta atburðarlínunum.
-6. Í **Lokareikningur** reit, veldu fyrningarreikninginn.
-7. Veldu **Bæta við** til að bæta línu efst á lista yfir línur, eða veldu **Bæta við** til að bæta línu neðst á listann.
-8. Í **Lýsing** reit, sláðu inn lýsingu á atburðinum.
-9. Ef **Tegund úthlutunar** reiturinn er stilltur á **Hlutfall**, tilgreinið úthlutunarprósentu í **Úthlutunarprósenta** sviði. Prósentan verður að vera á milli 0 (núll) og 100. Ef þú yfirgefur **Úthlutunarprósenta** reiturinn auður er hlutfallið talið 0. Summa allra prósenta er sýnd í **Heildarhlutfall** reitinn neðst á síðunni og verður að vera 100.
-10. Í **Mánuðir til að renna út** reit, tilgreinið fjölda mánaða sem viðburðurinn gildir. Lokadagsetning á frestun viðskipta er sjálfkrafa færð inn miðað við þetta gildi.
-11. Veldu **Þekkja þegar það er sett inn** gátreit til að færa sjálfkrafa tekjur þegar færslan er bókuð. Ef þú skilur gátreitinn eftir skal færa tekjur handvirkt.
-12. Í **Viðurkenningarreikningur** reit, veldu viðurkenningarreikning fyrir viðburðinn, ef viðburðurinn notar annan reikning en öll frestunaráætlunin. Þessi reitur er notaður ásamt **Þekkja þegar það er sett inn** gátreit.
-13. Endurtaktu skref 7 til 12 fyrir hverja viðbótarlínu sem þú þarft.
+5. Stilltu valkostinn **Búa til aðskilin tilvik á hverja einingu** á **Já** ef þú vilt að hverri tilvikslínu sé skipt jafnt eftir fjölda eininga í reikningsfærslunni. Stilltu þetta á **Nei** ef ekki á að skipta tilvikslínunum.
+6. Í reitnum **Lykill gildistíma** skal velja gildistímalykilinn.
+7. Veldu **Bæta við** til að bæta línu efst á listann yfir línur eða veldu **Bæta við** til að bæta línu neðst á listann.
+8. Á svæðinu **Lýsing** skal slá inn lýsingu tilviksins.
+9. Ef reiturinn **Úthlutunargerð** er stilltur á **Prósenta** skal tilgreina úthlutunarprósentuna í reitnum **Úthlutunarprósenta**. Prósenta verður að vera á milli 0 (núll) og 100. Ef reiturinn **Úthlutunarprósenta** er skilinn eftir auður er álitið að prósentan sé 0. Summa allra prósenta er sýnd í reitnum **Heildarprósenta** neðst á síðunni og verður að vera samtals 100.
+10. Í reitnum **Mánuðir eftir af gildistíma** skal tilgreina fjölda mánaða sem tilvikið er í gildi. Lokadagsetning gildistíma í frestunarfærslunni er sjálfkrafa slegin inn út frá þessu gildi.
+11. Veldu gátreitinn **Skrá við bókun** til að sjálfkrafa skrá tekjur þegar færslan er bókuð. Ef gátreiturinn er hreinsaður þarf að skrá tekjurnar handvirkt.
+12. Í reitnum **Skráningarlykill** skal velja skráningarlykilinn fyrir tilvikið ef tilvikið notar annan lykil en alla frestunaráætlunina. Þessi reitur er notaður ásamt gátreitnum **Skrá þegar bókað**.
+13. Endurtakið skref 7 til 12 fyrir hverja viðbótarlínu sem þörf er á.
 14. Veldu **Vista**.

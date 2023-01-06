@@ -1,6 +1,6 @@
 ---
 title: Setja upp staðgreiðsluskattskóða fyrir TDS-skattgerð
-description: Þessi grein útskýrir hvernig á að setja upp skattkóða fyrir Tax Deducted at Source (TDS).
+description: Í þessari grein er útskýrt hvernig á að setja upp skattkóða fyrir skatt sem dreginn er frá í uppruna (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: fabe14b74c445434c37cb6ee79597d37affb162d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8904384"
@@ -26,7 +26,7 @@ ms.locfileid: "8904384"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp skattkóða fyrir Tax Deducted at Source (TDS).
+Í þessari grein er útskýrt hvernig á að setja upp skattkóða fyrir skatt sem dreginn er frá í uppruna (TDS).
 
 1. Farið í **Skattur \> Óbeinir skattar \> Staðgreiðsluskattur \> Staðgreiðsluskattskóðar**.
 

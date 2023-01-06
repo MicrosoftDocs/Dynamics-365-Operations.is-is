@@ -1,6 +1,6 @@
 ---
 title: Uppsetning samstæðulykils
-description: Þessi grein útskýrir hvernig á að setja upp samstæðubókhald þannig að hægt sé að nota samstæðubækur fyrir úthlutun fjárhagsbóka og fjárhagsbækur, eins og dagbækur, reikningsbækur lánardrottna og greiðslubækur.
+description: Þessari grein útskýrir hvernig skal setja upp bókhald innan samstæðu svo að hægt sé að nota færslubók innan samstæðu fyrir daglega færslubók, reikning lánardrottins og greiðslubók.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 309c121c1ef4b3814d676cad6f3c2b6826b59843
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8871218"
@@ -26,7 +26,7 @@ ms.locfileid: "8871218"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp samstæðubókhald þannig að hægt sé að nota samstæðubækur fyrir úthlutun fjárhagsbóka og fjárhagsbækur, eins og dagbækur, reikningsbækur lánardrottna og greiðslubækur.
+Þessari grein útskýrir hvernig skal setja upp bókhald innan samstæðu svo að hægt sé að nota færslubók innan samstæðu fyrir daglega færslubók, reikning lánardrottins og greiðslubók.
 
 Stofna má samstæðufærslubækur í ýmsum tilvikum, eins og fyrir daglegar færslubækur, reikningsbækur lánardrottins, fjárhagsúthlutanir og miðstýrðar greiðslur. Til að virkja þessi tilvik, verður að setja upp bókhald innan samstæðu.
 

@@ -17,7 +17,7 @@ ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.form: VendPosting
 ms.openlocfilehash: 922612e536164c7985f0be107f67ad8bbaef7898
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9272979"

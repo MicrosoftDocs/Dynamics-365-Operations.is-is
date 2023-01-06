@@ -1,6 +1,6 @@
 ---
 title: Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
-description: Þessi grein útskýrir hvernig þú getur borið saman niðurstöður myndaðra rafrænna skýrslna (ER) skýrslna við grunngildi skýrslu.
+description: Í þessari grein er útskýrt hvernig hægt er að bera saman niðurstöður myndaðar skýrslur rafrænnar skýrslugerðar við skýrslugildi grunnlínu.
 author: kfend
 ms.date: 06/17/2019
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.openlocfilehash: f37405b548a321735abdd73da5c7cf3f4b00ff01
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9278767"

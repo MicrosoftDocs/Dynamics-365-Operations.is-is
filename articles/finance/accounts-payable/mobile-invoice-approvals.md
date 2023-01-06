@@ -1,6 +1,6 @@
 ---
 title: Reikningssamþykktir í fartækjum
-description: Þessari grein er ætlað að veita hagnýta nálgun við hönnun farsímaatburða með því að taka samþykki lánardrottins reikninga fyrir farsíma sem notkunartilvik.
+description: Þessari grein er ætlað að gefa praktíska nálgun til að hanna farsímaaðstæður með því að taka reikningssamþykktir fyrir fartæki sem notkunartilvik.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
 ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/09/2022
 ms.locfileid: "8946275"
@@ -25,7 +25,7 @@ ms.locfileid: "8946275"
 
 [!include [banner](../includes/banner.md)]
 
-Farsímageta gerir fyrirtækjanotenda kleift að hanna farsímaupplifun. Fyrir ítarlegri dæmi leyfir kerfið forriturum einnig að framlengja getu eins og þeir vilja. Skilvirkasta leiðin til að læra sum af nýju hugtökunum í fartæki er að fara gegnum ferlið að hanna ný dæmi. Þessari grein er ætlað að veita hagnýta nálgun við hönnun farsímaatburða með því að taka samþykki lánardrottins reikninga fyrir farsíma sem notkunartilvik. Þessi grein ætti að hjálpa þér að hanna önnur afbrigði af atburðarásinni og einnig er hægt að nota hana á aðrar aðstæður sem tengjast ekki reikningum lánardrottins.
+Farsímageta gerir fyrirtækjanotenda kleift að hanna farsímaupplifun. Fyrir ítarlegri dæmi leyfir kerfið forriturum einnig að framlengja getu eins og þeir vilja. Skilvirkasta leiðin til að læra sum af nýju hugtökunum í fartæki er að fara gegnum ferlið að hanna ný dæmi. Þessari grein er ætlað að gefa praktíska nálgun til að hanna farsímaaðstæður með því að taka reikningssamþykktir fyrir fartæki sem notkunartilvik. Þessi grein á að aðstoða við hönnun á öðrum frávikum á aðstæðum og einnig er hægt að nota það í öðrum aðstæðum sem eru ekki eru tengdar reikningum lánardrottins.
 
 ## <a name="prerequisites"></a>Frumskilyrði
 
@@ -51,11 +51,11 @@ Hvert fyrirtæki skipuleggur og skilgreinir mismunandi viðskiptaferli fyrir rei
     -   Eru reikningarnir einnig með dreifingu fjárhagsupphæða í haus reiknings? Ef svo er, ættu þessar dreifingar á fjárhagsupphæð að vera tiltækar í tækinu?
 
     > [!NOTE]
-    > Þessi grein útskýrir ekki hvernig á að breyta bókhaldsdreifingum, vegna þess að þessi virkni er ekki studd eins og er fyrir farsímaatburðarás.
+    > Þessi grein útskýrir ekki hvernig á að breyta dreifingu fjárhagsupphæða þar sem þessi virkni er ekki studd eins og stendur fyrir farsímaaðstæður.
 
 -   Munu notendur vilja sjá viðhengi fyrir reikninginn í tækinu?
 
-Hönnun farsímareynslu fyrir reikningssamþykktir verður mismunandi, eftir því hver svörin verða við þessum spurningum. Markmiðið er að fínstilla reynslu notanda fyrir viðskiptaferli í fartæki innan fyrirtækisins. Í restinni af þessari grein munum við skoða tvö sviðsmyndafbrigði sem byggjast á mismunandi svörum við spurningunum á undan. 
+Hönnun farsímareynslu fyrir reikningssamþykktir verður mismunandi, eftir því hver svörin verða við þessum spurningum. Markmiðið er að fínstilla reynslu notanda fyrir viðskiptaferli í fartæki innan fyrirtækisins. Í afganginum af þessari grein skoðum við tvær frávikaaðstæður sem byggjast á mismunandi svörum við spurningunum hér á undan. 
 
 Almennt séð, þegar unnið er með farsímahönnuði, þarf að ganga úr skugga um að 'birta' breytingarnar til að koma í veg fyrir uppfærslur mistakist.
 

@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 185e1c101ffb6dfbd47348952d6dfc47ab137ffa
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8853439"
@@ -35,7 +35,7 @@ Hægt er að velja annað hvort **Dagatal** eða **reikningsár** í svæðinu *
 
 ### <a name="calendar"></a>Dagatal
 
-Ef **Dagatal** er valið í **_Afskriftarár_*_ reitnum, er gert ráð fyrir ári sem er 1. janúar til og með 31. desember, jafnvel ef fjárhagsdagatalið hefur verið skilgreint annan hátt. Valkosturinn_* Dagatal** uppfærir afskriftargrunninn 1. janúar hvert ár. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæminu síðar í þessari grein er afskriftargrunnurinn teljarinn í fyrstu tjáningu í útreikningsdálknum. Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
+Ef **Dagatal** er valið í **_Afskriftarár_*_ reitnum, er gert ráð fyrir ári sem er 1. janúar til og með 31. desember, jafnvel ef fjárhagsdagatalið hefur verið skilgreint annan hátt. Valkosturinn_* Dagatal** uppfærir afskriftargrunninn 1. janúar hvert ár. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæminu síðar í þessari grein er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 
 - **Árleg** upphæð bókar 31. Desember.
 - **Mánaðarlega** bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.

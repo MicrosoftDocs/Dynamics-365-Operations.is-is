@@ -1,6 +1,6 @@
 ---
 title: Runuvinnsla viðvarana
-description: Þessi grein veitir upplýsingar um lotuvinnslu tilkynninga.
+description: Þessi grein gefur upplýsingar um runuvinnslu viðvarana.
 author: RichdiMSFT
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.openlocfilehash: ba17ebe1bdd95b8780b99b8f82b566bf527aca89
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8860069"

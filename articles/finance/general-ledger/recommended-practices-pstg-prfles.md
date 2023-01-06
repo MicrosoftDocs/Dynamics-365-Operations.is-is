@@ -1,6 +1,6 @@
 ---
 title: Ráðleggingar um notkun á bókunarreglum
-description: Þessi grein lýsir ráðlögðum aðferðum við að stilla færslusnið.
+description: Þessi grein lýsir ráðlögðum aðferðum við skilgreiningu bókunarreglna.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -17,109 +17,109 @@ ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fb0e321f447b78b88c065e52bb7fad1c445e47b6
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8849903"
 ---
 # <a name="recommended-practices-for-posting-profiles"></a>Ráðleggingar um notkun á bókunarreglum
 
-Það eru nokkrar ráðlagðar venjur sem þú ættir að fylgja þegar þú stillir póstsnið í öllu kerfinu. Þessi grein lýsir mismunandi aðstæðum og samsvarandi ráðlögðum aðferðum.
+Mælt er með nokkrum venjum sem ætti að fylgja þegar bókunarreglur eru grunnstilltar í gegnum kerfið. Þessi grein lýsir mismunandi aðstæðum og samsvarandi ráðlögðum starfsháttum.
 
-## <a name="setting-the-do-not-allow-manual-entry-flag"></a>Stilling á Ekki leyfa handvirka færslu fána
+## <a name="setting-the-do-not-allow-manual-entry-flag"></a>Stilling flaggs fyrir banni við handvirkum innslætti
 
-Á **Aðalreikningar** síðu, the **Ekki leyfa handvirka innslátt** gátreiturinn ætti að vera valinn fyrir hvaða aðalreikning sem er notaður fyrir færslusnið. Þessi stilling kemur í veg fyrir að notendur geti bókað dagbókarfærslu handvirkt á aðalreikninginn. Þess vegna hjálpar það að tryggja að undirbókin haldist í jafnvægi við aðalbókina og hjálpar til við að gera afstemmingarferlið auðveldara.
+Á síðunni **Aðallyklar** ætti að velja gátreitinn **Ekki leyfa handvirkan innslátt** fyrir alla aðallykla sem notaðir eru fyrir bókunarreglu. Þessi stilling kemur í veg fyrir að notendur geti birt bókarfærslu handvirkt á aðallyklinum. Það auðveldar að ganga úr skugga um að undirbókin sé í samræmi við fjárhaginn og auðveldar afstemmingarferlið.
 
-Ef leiðréttingar er þörf á reikningi sem er stjórnað af kerfinu og bókaður sjálfkrafa geturðu notað eina af þessum aðferðum:
+Ef gera þarf leiðréttingar á lykli sem kerfið stjórnar og er sjálfkrafa bókaður er hægt að nota eina af þessum nálgunum:
 
-- Búðu til aukaaðalreikning þar sem hægt er að bóka leiðréttingarnar. Notaðu síðan heildarreikning eða sérstaka línu á fjárhagsskýrslum þínum til að flokka og leggja saman reikningana.
-- Bakfæra upprunalegu færslurnar í viðeigandi undirbók, gera allar nauðsynlegar leiðréttingar og síðan endurbóka færsluna í gegnum sama undirbók.
+- Stofna aukaaðallykil þar sem hægt er að bóka leiðréttingarnar. Notaðu síðan samtölulykil eða sérstaka línu í fjárhagsskýrslum til að flokka og leggja saman lyklana.
+- Bakfærðu upprunalegum færslum í viðeigandi undirbók, gerðu nauðsynlegar leiðréttingar og bókaðu svo aftur færslun í gegnum sömu undirbókina.
 
-## <a name="changing-posting-profiles-after-transactions-exist"></a>Að breyta bókunarsniðum eftir að færslur eru til
+## <a name="changing-posting-profiles-after-transactions-exist"></a>Breytingar á bókunarreglum eftir að færslur eru til
 
-Ef þú breytir bókunarsniði eftir að færslur eru til, getur afstemmingin mistekist og undirbók og höfuðbók geta farið úr jafnvægi. Almennt mælum við með því að þú **ekki** breyta bókunarsniðinu eftir að færslur eru til staðar.
+Ef bókunarreglu er breytt eftir að færslur verða til getur afstemmingin mistekist og mismunur orðið á undirbók og fjárhag. Almennt er mælt með því að breyta **ekki** bókunarreglu eftir að færslur eru til.
 
-Ef breytinga er þörf, notaðu eftirfarandi leiðbeiningar til að tryggja heilleika kerfisins:
+Ef gera þarf breytingar skal nota eftirfarandi leiðbeiningar til að tryggja heilleika kerfisins:
 
-- Gerðu breytingarnar á lokuðu tímabili.
-- Gerðu breytingarnar þegar engar aðrar færslur eiga sér stað í kerfinu.
-- Staðfestu höfuðbókina og samræmdu hana við undirbók fyrir og eftir að þú gerir breytingarnar.
-- Bókaðar færslur eru ekki uppfærðar ef þú breytir færslusniðinu. Íhugaðu vandlega hvort einhverjar aðlögunarfærslur séu nauðsynlegar fyrir breytinguna þína.
-- Ef þú ert að breyta birgðabókunarsniðum skaltu íhuga hvernig breytingarnar munu hafa áhrif á birgðastöðu þína og fjárhagsstöðu. Sumar breytingar gætu krafist þess að þú færð birgðina í 0 (núll), lokar birgðum og færðu birgðina aftur inn eftir að breytingarnar eru gerðar.
-- Prófaðu alltaf breytingar þínar í umhverfi sem ekki er í framleiðslu áður en þú gerir þær í framleiðslu.
+- Gerið breytingarnar við lokun tímabils.
+- Gerið breytingarnar þegar engar aðrar færslur eiga sér stað í kerfinu.
+- Staðfestið fjárhaginn og stemmið af við undirbókina áður og eftir að breytingarnar eru gerðar.
+- Bókaðar færslur eru ekki uppfærðar ef bókunarreglunni er breytt. Íhugaðu vandlega hvort þörf sé á leiðréttingarfærslum fyrir breytinguna.
+- Ef birgðabókunarreglum er breytt skal íhuga hvernig breytingarnar munu hafa áhrif lagerbirgðir og fjárhagsstöðu. Sumar breytingar gætu krafist þess að birgðir verði færðar niður í 0 (núll), loka birgðum og síðan færa birgðirnar aftur inn eftir að breytingarnar hafa verið gerðar.
+- Prófaðu alltaf breytingar þínar í umhverfi sem ekki tengist framleiðslu áður en þú gerir þær í framleiðslu.
 
-## <a name="using-database-logging-to-audit-changes-to-posting-profiles"></a>Notkun gagnagrunnsskráningar til að endurskoða breytingar á færslusniðum
+## <a name="using-database-logging-to-audit-changes-to-posting-profiles"></a>Notkun gagnagrunnsskráningar til að endurskoða breytingar á bókunarreglum
 
-Íhugaðu að setja upp gagnagrunnsskráningu fyrir hvert færslusnið og færibreytutöflur sem stjórna færslu. Síðan, ef færibreytu eða sniði er breytt, muntu hafa fulla endurskoðunarskrá yfir hvaða gildi var breytt, hver breytti því, hvenær því var breytt og hvert fyrra gildið var. Þessar upplýsingar geta verið mikilvægar meðan á afstemmingarferlinu stendur og endurskoðandi þinn gæti þurft fylgiskjölin.
+Íhugaðu að setja upp gagnagrunnsskráningu fyrir sérhverja bókunarreglu og færibreytutöflur sem stýra bókun. Ef færibreytu eða bókunarreglu er síðan breytt færðu ítarlega eftirlitsfærslu um hvaða gildi var breytt, hver breytti því, hvenær því var breytt og hvað gildið á undan var. Þessar upplýsingar geta verið mikilvægar í afstemmingarferlinu og endurskoðandinn gæti þurft tilheyrandi fylgigögn.
 
-Fyrir frekari upplýsingar, sjá [Stilla gagnagrunnsskráningu](../../fin-ops-core/dev-itpro/sysadmin/configure-manage-database-log.md).
+Frekari upplýsingar er að finna í [Skilgreina gagnagrunnsskráningu](../../fin-ops-core/dev-itpro/sysadmin/configure-manage-database-log.md).
 
-Notaðu eftirfarandi töflu sem viðmið fyrir algeng töfluheiti sem tengjast færslusniðum og tengdum færslubreytum.
+Notaðu eftirfarandi töflu sem tilvísun fyrir algeng töfluheiti sem tengjast bókunarreglum og tengdum bókunarfæribreytum.
 
-| Síðuheiti | Slóð | Töfluheiti |
+| Síðuheiti | Slóð | Heiti töflu |
 |-----------|-----------------|------------|
-| Færibreytur viðskiptaskulda | Viðskiptaskuldir&gt; Uppsetning&gt; Færibreytur viðskiptaskulda | VendParm |
-| Bókunarregla lánardrottna | Viðskiptaskuldir&gt; Uppsetning&gt; Birtingarsnið söluaðila | VendPosting |
-| Gjaldakóði | Viðskiptaskuldir&gt; Uppsetning gjalda&gt; Gjaldkóði eða viðskiptakröfur&gt; Uppsetning gjalda&gt; Gjaldkóði | MarkupTable |
-| Greiðsluhættir | Viðskiptaskuldir&gt; Uppsetning greiðslu&gt; Greiðslumáti | VendPaymMode |
-| Staðgreiðsluafslættir | Viðskiptaskuldir&gt; Uppsetning greiðslu&gt; Staðgreiðsluafsláttur eða viðskiptakröfur&gt; Uppsetning greiðslu&gt; Staðgreiðsluafsláttur | CashDisc |
-| Greiðslugjald (seljandi) | Viðskiptaskuldir&gt; Uppsetning greiðslu&gt; Greiðslugjald | VendPaym Fee |
-| Færibreytur viðskiptakrafa | Reikningur fáanlegur&gt; Uppsetning&gt; Færibreytur viðskiptakrafna | CustParm |
-| Bókunarreglur viðskiptavina | Reikningur fáanlegur&gt; Uppsetning&gt; Færsluprófíl viðskiptavinar | CustPosting |
-| Greiðsluhættir | Reikningur fáanlegur&gt; Uppsetning greiðslu&gt; Greiðslumáti | CustPaymMode |
-| Greiðslugjald (viðskiptavinur) | Reikningur fáanlegur&gt; Uppsetning greiðslu&gt; Greiðslumáti | CustPaym Fee |
-| Færibreytur fyrir útleigu eignar | Eignaleiga&gt; Uppsetning&gt; Eignaleiga færibreytur | AssetLeasePosting Accounts<br>AssetLeaseJournalParameters<br>AssetLeaseExecutoryCostPostingAccounts |
-| Bankareikningar | Handbært fé og bankastjórnun&gt; Bankareikningar&gt; Bankareikningar | Bankareikningatöflu |
-| Bankafærslugerðir | Handbært fé og bankastjórnun&gt; Uppsetning&gt; Tegundir bankaviðskipta | BankTransType |
-| Niðurfellingarreglur | Sameiningar&gt; Uppsetning&gt; Brotthvarfsregla | Ledger Elimination Rule<br>Ledger Elimination RuleLines |
-| Kostnaðartegundir | Kostnaðarstjórnun&gt; Uppsetning&gt; Almennt&gt; Kostnaðarflokkar | Verkefnaflokkar |
-| Eignafæribreyta | Fastafjármunir&gt; Uppsetning&gt; Fasteignabreytur | Eignastærðir |
-| Bókunarreglur eigna | Fastafjármunir&gt; Uppsetning&gt; Birtingarsnið eigna | AssetLedger Accounts<br>Eignaráðstöfunarstærðir |
-| Gjaldmiðilsendurmatslyklar | Aðalbók&gt; Gjaldmiðlar&gt; Gjaldeyrisendurmatsreikningar | CurrencyLedgerGainLoss Account |
-| Lyklar fyrir sjálfvirkar færslur | Aðalbók&gt; Uppsetning færslu&gt; Reikningar fyrir sjálfvirkar færslur | LedgerSystemAccounts |
-| Samstæðulyklar | Aðalbók&gt; Uppsetning færslu&gt; Millifélagareikningar | LedgerIntercompany |
-| Skilgreiningar færslubókana | Aðalbók&gt; Uppsetning færslu&gt; Færslubókunarskilgreiningar | JournalizingDefinitionTrans |
-| Bókunarskilgreiningar | Aðalbók&gt; Uppsetning færslu&gt; Skilgreiningar á færslu | JournalizingDefinition |
-| Bókun (birgðahald) | Vörustjórnun&gt; Uppsetning&gt; Birting&gt; Birting | InventPosting |
-| Kostnaðargerðakóðar | Landaður kostnaður&gt; Kostnaðaruppsetning&gt; Kostnaðartegundarkóðar | ITMCostTypeTable |
-| Forði | Framleiðslueftirlit&gt; Uppsetning&gt; Auðlindir&gt; Auðlindir | WrkCtrTable |
-| Tilfangaflokkar | Framleiðslueftirlit&gt; Uppsetning&gt; Auðlindir&gt; Auðlindahópar | WrkCtrResourceGroup |
-| Framleiðsluflokkar | Framleiðslueftirlit&gt; Uppsetning&gt; Framleiðsla&gt; Framleiðsluhópur | ProdGroup |
-| Kostnaðartegundir | Framleiðslueftirlit&gt; Uppsetning&gt; Leiðir&gt; Kostnaðarflokkar | ProjCategory |
-| Verkflokkar | Verkefnastjórnun og bókhald&gt; Uppsetning&gt; Birting&gt; Verkefnahópar | ProjGroup |
-| Uppsetning fjárhagsbókunar (Verkefni) | Verkefnastjórnun og bókhald&gt; Uppsetning&gt; Birting&gt; Uppsetning fjárhagsbókunar | ProjPosting |
-| Sjálfgefnir mótlyklar fyrir kostnað | Verkefnastjórnun og bókhald&gt; Uppsetning&gt; Birting&gt; Sjálfgefin jöfnunarreikningur fyrir útgjöldum | ProjDefaultOffsetSetup |
-| Bókunarreglur fyrir stjórnun eftirágreidds afsláttar | Stjórnun afsláttar&gt; Uppsetning afsláttarstjórnunar&gt; Afsláttarstjórnunarprófílar | TAMRebatePosting |
-| Fjárhagsbókunarhópur (skattur) | Skattur&gt; Uppsetning&gt; Söluskattur&gt; Fjárhagsbókunarhópur | Tax Account Group |
+| Færibreytur viðskiptaskulda | Viðskiptaskuldir &gt; Uppsetning &gt; Færibreytur viðskiptaskulda | VendParm |
+| Bókunarregla lánardrottna | Viðskiptaskuldir &gt; Uppsetning &gt; Bókunarregla lánardrottins | VendPosting |
+| Gjaldakóði | Viðskiptaskuldir &gt; Uppsetning gjalda &gt; Gjaldakóði eða viðskiptakröfur &gt; Uppsetning gjalda &gt; Gjaldakóði | MarkupTable |
+| Greiðsluhættir | Viðskiptaskuldir &gt; Greiðsluuppsetning &gt; Greiðslumátar | VendPaymMode |
+| Staðgreiðsluafslættir | Viðskiptaskuldir &gt; Greiðsluuppsetning &gt; Staðgreiðsluafslættir eða viðskiptakröfur &gt; Greiðsluuppsetning &gt; Staðgreiðsluafslættir | CashDisc |
+| Greiðsluþóknun (lánardrottinn) | Viðskiptaskuldir &gt; Greiðsluuppsetning &gt; Greiðsluþóknun | VendPaymFee |
+| Færibreytur viðskiptakrafa | Viðskiptakröfur &gt; Uppsetning &gt; Færibreytur viðskiptakrafa | CustParm |
+| Bókunarreglur viðskiptavina | Viðskiptakröfur &gt; Uppsetning &gt; Bókunarregla viðskiptavina | CustPosting |
+| Greiðsluhættir | Viðskiptakröfur &gt; Greiðsluuppsetning &gt; Greiðslumáti | CustPaymMode |
+| Greiðsluþóknun (viðskiptavinur) | Viðskiptakröfur &gt; Greiðsluuppsetning &gt; Greiðslumátar | CustPaymFee |
+| Færibreytur fyrir útleigu eignar | Eignarleiga &gt; Uppsetning &gt; Færibreytur fyrir eignarleigu. | AssetLeasePostingAccounts<br>AssetLeaseJournalParameters<br>AssetLeaseExecutoryCostPostingAccounts |
+| Bankareikningar | Reiðufjár- og bankastjórnun &gt; Bankareikningar &gt; Bankareikningar | BankAccountsTable |
+| Bankafærslugerðir | Reiðufjár- og bankastjórnun &gt; Uppsetning &gt; Bankafærslugerðir | BankTransType |
+| Niðurfellingarreglur | Sameining &gt; Uppsetning &gt; Losunarregla | LedgerEliminationRule<br>LedgerEliminationRuleLines |
+| Kostnaðartegundir | Útgjaldastýring &gt; Uppsetning &gt; Almenn &gt; Kostnaðartegundir | ProjCategories |
+| Eignafæribreyta | Eignir &gt; Uppsetning &gt; Eignafæribreytur | AssetParameters |
+| Bókunarreglur eigna | Eignir &gt; Uppsetning &gt; Bókunarreglur eigna | AssetLedgerAccounts<br>AssetDisposalParameters |
+| Gjaldmiðilsendurmatslyklar | Fjárhagur &gt; Gjaldmiðlar &gt;Gjaldmiðilsendurmatslyklar | CurrencyLedgerGainLossAccount |
+| Lyklar fyrir sjálfvirkar færslur | Fjárhagur &gt; Bókunaruppsetning &gt; Lyklar fyrir sjálfvirkar færslur | LedgerSystemAccounts |
+| Samstæðulyklar | Fjárhagur &gt; Bókunaruppsetning &gt; Samstæðulyklar | LedgerIntercompany |
+| Skilgreiningar færslubókana | Fjárhagur &gt; Bókunaruppsetning &gt; Skilgreiningar færslubókana | JournalizingDefinitionTrans |
+| Bókunarskilgreiningar | Fjárhagur &gt; Bókunaruppsetning &gt; Bókunarskilgreiningar | JournalizingDefintion |
+| Bókun (birgðir) | Birgðastjórnun&gt;Uppsetning&gt;Bókun&gt;Bókun | InventPosting |
+| Kostnaðargerðakóðar | Heildarkostnaður &gt; Kostnaðaruppsetning &gt; Kostnaðargerðakóðar | ITMCostTypeTable |
+| Forði | Framleiðslustýring &gt; Uppsetning &gt; Tilföng &gt; Tilföng | WrkCtrTable |
+| Tilfangaflokkar | Framleiðslustýring &gt; Uppsetning &gt; Tilföng &gt; Tilfangaflokkar | WrkCtrResourceGroup |
+| Framleiðsluflokkar | Framleiðslustýring &gt; Uppsetning &gt; Framleiðsla &gt; Framleiðsluflokkur | ProdGroup |
+| Kostnaðartegundir | Framleiðslustýring &gt; Uppsetning &gt; Leiðir &gt; Kostnaðarflokkar | ProjCategory |
+| Verkflokkar | Verkefnastjórnun og bókhald &gt; Uppsetning &gt; Bókun &gt; Verkflokkar | ProjGroup |
+| Uppsetning fjárhagsbókunar (verkefni) | Verkefnastjórnun og bókhald &gt; Uppsetning &gt; Bókun &gt; Uppsetning fjárhagsbókunar | ProjPosting |
+| Sjálfgefnir mótlyklar fyrir kostnað | Verkefnastjórnun og bókhald &gt; Uppsetning &gt; Bókun &gt; Sjálfgefnir mótlyklar fyrir kostnað | ProjDefaultOffsetSetup |
+| Bókunarreglur fyrir stjórnun eftirágreidds afsláttar | Stjórnun eftirágreidds afsláttar &gt; Uppsetning bókunar fyrir stjórnun eftirágreidds afsláttar&gt; Bókunarreglur fyrir stjórnun eftirágreidds afsláttar | TAMRebatePosting |
+| Fjárhagsbókunarflokkur (skattur) | Skattur &gt; Uppsetning &gt; Virðisaukaskattur &gt; Fjárhagsbókunarflokkur | TaxAccountGroup |
 
-## <a name="changing-groups-after-transactions-exist"></a>Að breyta hópum eftir að færslur eru til
+## <a name="changing-groups-after-transactions-exist"></a>Hópum breytt eftir að færslur eru til
 
-Farðu varlega þegar þú skiptir um hópa í aðalgögnum. Ef þú ert að nota hópa til að skilgreina bókunarsniðin þín, geta allar breytingar á hópi á aðalfærslu haft neikvæð áhrif á getu til að samræma höfuðbók við undirbók. Til dæmis er hægt að stilla birgðabókunarsniðið fyrir sölupöntunartekjur þannig að annar tekjureikningur sé notaður fyrir hvern vöruflokk. Ef þú breytir vöruflokknum sem er úthlutað á vöru eftir að færslur eru til verða tekjur af nýjum færslum færðar inn á uppfærða reikninginn. Hins vegar verða allar tekjur sem voru bókaðar fyrir breytinguna áfram á upprunalega reikningnum.
+Sýnið aðgát þegar skipt er um hópa í aðalgögnum. Ef flokkar eru notaðir til að skilgreina bókunarreglur geta allar breytingar á flokki í aðalgögnum haft neikvæð áhrif á getuna til að afstemma fjárhag við undirbók. Til dæmis er hægt að grunnstilla birgðabókunarregluna fyrir tekjur sölupöntunar þannig að annar tekjulykill er notaður fyrir hvern vöruflokk. Ef vöruflokknum, sem úthlutað er á vöru eftir að færslur eru til, er breytt verða tekjur í nýjum færslum bókaðar í uppfærðan lykil. Allar tekjur sem voru bókaðar fyrir breytinguna verða þó áfram á upprunalega lyklinum.
 
-## <a name="testing-posting-profiles"></a>Prófa póstsnið
+## <a name="testing-posting-profiles"></a>Prófun bókunarreglna
 
-Áður en þú byrjar í notkun, og eftir að þú gerir einhverjar breytingar eða viðbætur við póstsniðið þitt eða tengdar færibreytur, ættir þú að prófa hverja atburðarás. Að minnsta kosti ættir þú að prófa hverja færslutegund til að sannreyna að færslan virki rétt. Hins vegar er mælt með því að prófa hverja bókunarprófílfærslu og samsetningu.
+Áður en keyrsla er framkvæmd og eftir að allar breytingar á eða viðbætur við bókunarreglurnar eða tengdar færibreytur eru gerðar ætti að prófa hverjar aðstæður. Að minnsta kosti ætti að prófa hverja bókunargerð til að staðfesta að hún bóki rétt. Hins vegar er mælt með því að prófa hverja bókunarreglufærslu og samsetningu.
 
-Til dæmis, þú ert með tvö viðskiptamannsbókunarsnið, sem hvert um sig hefur þrjár færslur sem eru sértækar fyrir viðskiptavinahópa. Í þessu tilviki ættir þú að prófa hverja tegund viðskipta.
+Til dæmis ertu með tvær bókunarreglur viðskiptavinar, hvor þeirra er með þrjár færslur sem eiga við um viðskiptavinaflokka. Í þessu tilfelli ættir þú að prófa hverja tegund færslu.
 
-**Birta prófílar:**
+**Bókunarreglur:**
 
-- **GEN** – Almenna bókunarsniðið sem hefur einn hóp fyrir starfsmenn, einn fyrir viðskiptavini og einn fyrir millifyrirtæki. Hver hópur bendir á annan viðskiptareikning viðskiptakrafna.
-- **PRE** – Fyrirframgreiðslubókunarsniðið sem hefur eina skrá fyrir allar fyrirframgreiðslur sem vísar á fyrirframgreiðslureikninga viðskiptavinarins.
+- **ALM** – Almenna bókunarreglan er með einn flokk fyrir starfsmenn, einn fyrir viðskiptavini og einn fyrir samstæðufyrirtæki. Hver hópur vísar á annan viðskiptalykil viðskiptakrafna.
+- **FYR** – Bókunarregla fyrirframgreiðslu sem er með eina færslur fyrir allar fyrirframgreiðslur sem beinast að fyrirframgreiðslulyklum viðskiptavinar.
 
-### <a name="testing-scenarios"></a>Prófunarsviðsmyndir
+### <a name="testing-scenarios"></a>Prófun aðstæðna
 
-- Ókeypis textareikningur fyrir viðskiptavin í **Starfsmaður** hópur sem notar **GEN** færsluprófíl
-- Ókeypis textareikningur fyrir viðskiptavin í **Starfsmaður** hópur sem notar **PRE** færsluprófíl
-- Sölupöntunarreikningur fyrir viðskiptavin í **Starfsmaður** hópur sem notar **GEN** færsluprófíl
-- Sölupöntunarreikningur fyrir viðskiptavin í **Starfsmaður** hópur sem notar **PRE** færsluprófíl
-- Greiðsludagbók viðskiptavinar fyrir viðskiptavin í **Starfsmaður** hópur sem notar **GEN** færsluprófíl
-- Greiðsludagbók viðskiptavinar fyrir viðskiptavin í **Starfsmaður** hópur sem notar **PRE** færsluprófíl
+- Reikningur með frjálsum texta fyrir viðskiptavin í hópnum **Starfsmaður** sem notar bókunarregluna **GEN**
+- Reikningur með frjálsum texta fyrir viðskiptavin í hópnum **Starfsmaður** sem notar bókunarregluna **PRE**
+- Sölupöntunarreikningur fyrir viðskiptavin í hópnum **Starfsmaður** sem notar bókunarregluna **GEN**
+- Sölupöntunarreikningur fyrir viðskiptavin í hópnum **Starfsmaður** sem notar bókunarregluna **PRE**
+- Greiðslubók viðskiptavinar fyrir viðskiptavin í hópnum **Starfsmaður** notar bókunarregluna **GEN**
+- Greiðslubók viðskiptavinar fyrir viðskiptavin í hópnum **Starfsmaður** notar bókunarregluna **PRE**
 
-Fyrir fyrra dæmi, endurtakið eina prófunaratburðarás fyrir hvern viðskiptavinahóp og endurtakið hvern hóp prófunarsviðsmynda fyrir hverja viðbótarfærslugerð (til dæmis verkreikninga og þjónustustjórnun).
+Fyrir framangreint dæmi skal endurtaka einar prófunaraðstæður fyrir hvern viðskiptavinaflokk og endurtaka hvern flokk af prófunaraðstæðum fyrir hverja viðbótarfærslugerð (til dæmis verkreikninga og þjónustustjórnun).
 
-## <a name="reconciling-the-ledger-to-the-subledger"></a>Samræma höfuðbók við undirbók
+## <a name="reconciling-the-ledger-to-the-subledger"></a>Afstemming fjárhags við undirbók
 
-Höfuðbók ætti að samræma við undirbók á hverju tímabili. Margar einingar innihalda útbúnar skýrslur sem hægt er að nota til að gera þessa afstemmingu. Hins vegar, allt eftir staðbundnum þörfum þínum, gætirðu þurft að þróa sérsniðnar skýrslur eða stækka núverandi skýrslur til að uppfylla skýrslukröfur þínar.
+Fjárhagurinn ætti að vera afstemmdur við undirbókina á hverju tímabili. Margar einingar innihalda tilbúnar skýrslur sem hægt er að nota við þessa afstemmingu. En eftir því hvernig staðbundnar kröfur eru gætirðu hins vegar þurft að hanna sérsniðnar skýrslur eða stækka fyrirliggjandi skýrslur til að uppfylla skýrslukröfurnar þínar.
 
-Við mælum með því að þú látir loka og samræma hverja undirbók þína við höfuðbókina áður en þú ferð í notkun. Við mælum líka með því að þú klippir út allar opnar inneignir og opnar færslur áður en þú byrjar í notkun. Sem hluti af þessu ferli ættir þú að keyra fullkomna afstemmingu til að tryggja að flutningur á stöðu og opnum færslum sé í jafnvægi við eldri kerfin og að allar undirbækur séu í jafnvægi við höfuðbókina áður en nýjar færslur eru stofnaðar.
+Mælum með að herma eftir lokun tímabils og afstemma sérhverja undirbók við fjárhaginn áður en keyrslan er framkvæmd. Einnig er mælt með því að framkvæma hermikeyrslu á öllum opnum stöðum og opnum færslum á undan fyrstu keyrslu. Sem hluti af þessu ferli ættir þú að keyra heila afstemmingu til að tryggja að flutningur innistæðna og staða opinna færslna stemmi við eldri kerfi og að stöður undirbókar stemmi við fjárhaginn áður en nýjar færslur eru stofnaðar.

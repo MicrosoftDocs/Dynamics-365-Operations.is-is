@@ -1,6 +1,6 @@
 ---
 title: Afköst vöruhúss Power BI efni
-description: Þessi grein lýsir því hvað er innifalið í vöruhúsi Power BI efni.
+description: Þessi grein lýsir því sem er innifalið í Afköst vöruhúss Power BI efni.
 author: Mirzaab
 ms.date: 12/18/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
 ms.search.form: WHSWarehousePerformancePowerBI
 ms.openlocfilehash: 82f43f45b43df864cbda8ba372dbed46d8f4c7e4
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289847"
@@ -26,7 +26,7 @@ ms.locfileid: "9289847"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því sem er innifalið í **Afköst vöruhússins** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
+Þessi grein lýsir því sem er innifalið í **Afköst vöruhúss** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 

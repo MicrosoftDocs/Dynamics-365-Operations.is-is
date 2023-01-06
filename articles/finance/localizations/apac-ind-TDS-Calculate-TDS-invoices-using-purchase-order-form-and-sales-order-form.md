@@ -1,6 +1,6 @@
 ---
 title: Reikna út TDS-reikninga með skjámynd innkaupapöntunar eða sölupöntunar
-description: Þessi grein listar skrefin til að reikna út frádráttarskatt (TDS) á ýmsum gerðum reikninga.
+description: Í þessari grein eru talin upp skrefin fyrir útreikning á TDS fyrir ýmsar gerðir reikninga.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: 72883741ee7eed6b0296736c80dd648c882ae53e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8853286"
@@ -26,7 +26,7 @@ ms.locfileid: "8853286"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein listar skrefin til að reikna út skatt sem dreginn er frá á uppruna (TDS) á ýmsum gerðum reikninga með því að nota **Pöntun**, **·**, **pöntun**, og **Sölupöntun** síður.
+Í þessari grein eru talin upp skrefin fyrir útreikning á TDS fyrir ýmsar gerðir reikninga með síðunum **Innkaupapöntun**, **Innkaupabók**, **Standandi pöntun** og **Sölupöntun**.
 
 1. Stofnið innkaupapöntun, innkaupabók, standandi innkaupapöntun eða sölupöntun með síðunni sem gefin er upp. Færið inn nauðsynlegar upplýsingar.
 

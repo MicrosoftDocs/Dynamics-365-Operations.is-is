@@ -1,6 +1,6 @@
 ---
 title: Stofna textareikning
-description: Þessi grein útskýrir hvernig á að búa til ókeypis textareikninga.
+description: Í þessari grein er útskýrt hvernig á að stofna reikninga með frjálsum texta.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: e8f80aa4cc0a7248506e0725881b8f575a0c7ff4
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780255"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788541"
 ---
 # <a name="create-a-free-text-invoice"></a>Stofna textareikning
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að búa til ókeypis textareikninga. Fyrir ferlið skal nota **USMF** sýnifyrirtækið.
+Í þessari grein er útskýrt hvernig á að stofna reikninga með frjálsum texta. Fyrir ferlið skal nota **USMF** sýnifyrirtækið.
 
 ## <a name="create-a-free-text-invoice"></a>Stofna reikning með frjálsum texta
 
@@ -37,7 +37,7 @@ ms.locfileid: "9780255"
     * Ef verið er að nota umboð fyrir sameiginlegt evrópskt greiðslusvæði (SEPA) er umboðið fyrir beingreiðslu sjálfkrafa fært inn þegar viðskiptavinalykill er valinn.
 
 4. Sláið inn gildi í reitnum **Lýsing**.
-5. Í reitnum **Aðallykill** skal tilgreina lykilnúmer sem er ekki með víddir. Þú munt slá inn stærðir síðar í þessari grein.
+5. Í reitnum **Aðallykill** skal tilgreina lykilnúmer sem er ekki með víddir. Víddir verða færðar inn síðar í þessari grein.
 
     Einnig er hægt að færa inn einn eða fleiri stafi fyrir aðallykilinn og nota uppflettingu til að finna lykilinn.
 
@@ -68,7 +68,9 @@ ms.locfileid: "9780255"
 
     * Hægt er að breyta tímasetningu á útprentun reiknings. Veljið **Núgildandi** til að prenta hvern reikning þegar hann er uppfærður. Veljið **Á eftir** til að prenta þegar allir reikningar hafa verið uppfærðir.
     * Til að breyta því hvernig lánamark viðskiptavinar er staðfest áður en reikningur er bókaður skal breyta gildinu í reitnum **Gerð lánamarks**.
-    * Þú getur valið að stöðva ókeypis textareikningabókun þegar villa kemur upp á **Uppfærslur** flipann á **Færibreytur viðskiptakrafna** síða (**Viðskiptakröfur > Uppsetning > Færibreytur viðskiptakrafna**). Veldu **Já** fyrir **Hættu að bóka ókeypis textareikninga við fyrstu villu** færibreytu til að stöðva bókun reikninga með frjálsum texta þegar villa kemur upp. Ef bókað er í runu mun villa stöðva bókunarferlið og lotustaðan verður stillt á **Villa**. Ef þessi valkostur er ekki valinn mun bókunarferlið sleppa reikningi með bókunarvillu og halda áfram að bóka viðbótarreikninga. Ef bókað er í lotu mun bókunarvilla ekki koma í veg fyrir að aðrir reikningar séu bókaðir. Staða lotunnar verður **Lokið**. Ítarleg skýrsla um birtingarferli verður tiltæk til skoðunar í runuvinnsluferli.
+    * Þú getur valið að stöðva bókun textareikninga þegar villa kemur upp í flipanum **Uppfærslur** á síðunni **Færibreytur viðskiptakrafna** (**Færibreytur viðskiptakrafna > Uppsetning > Færibreytur viðskiptakrafna**). Veldu **Já** fyrir færibreytuna **Stöðva bókun reikninga með frjálsum texta við fyrstu villu** til að stoða bókun reikninga með frjálsum texta þegar villa kemur upp. Ef bókað er í runu mun villa stöðva bókunarferlið og runustaðan verður stillt á **Villa**. Ef þessi valkostur er ekki valinn mun bókunarferlið sleppa reikningi með bókunarvillu og halda áfram að bóka frekari reikninga. Ef bókað er í runu mun bókunarvilla ekki koma í veg fyrir að aðrir reikningar verði bókaðir. Lotustaðan verður **Lokið**. Ítarleg skýrsla um bókunarferlið verður í boði til yfirferðar í runuvinnsluferli.
+    * Í Microsoft Dynamics 365 Finance 10.0.30 bætir eiginleikinn **Bókunarúrbætur reikninga með frjálsum texta fyrir samtöluútreikning** bókunarafköst með því að leyfa bókun að keyra á skilvirkari hátt. Þetta þessi eiginleiki er virkjaður mun bókun vista reiknaðar samtölur í stað þess að endurreikna samtölur mörgum sinnum í bókunarferlinu. 
+    * Í Microsoft Dynamics 365 Finance 10.0.31 bætir eiginleikinn **Úrbætur á runu bókunarferlis fyrir reikninga með frjálsum texta** bókunarafköst með því að leyfa henni að keyra á skilvirkari hátt. Þegar þessi eiginleiki er virkjaður notar bókun mynstur sem stýrir sjálft bókunarálagi runu í ákveðnum fjölda þráða í stað þess að úthluta ákveðnum fjölda skjala í ótakmörkuðum fjölda þráða.
     * Til að prenta reikninginn skal stilla valkostinn á **Já**.
     * Til að bóka reikninginn skal stilla valkostinn á **Já**. Hægt er að prenta reikninginn án þess að bóka hann.
 
@@ -85,9 +87,9 @@ Eftir afritun á línum er hægt að breyta upplýsingum eftir þörfum.
 Nýr reikningur með frjálsum texta verður búinn til og hægt er að breyta gildunum eftir þörfum.
 
 ## <a name="resetting-the-workflow-status-for-free-text-invoices-from-unrecoverable-to-draft"></a>Endurstillir stöðu verkflæðis fyrir reikninga með frjálsum texta úr óendurheimtanlegum í drög
-Verkflæðistilvik sem hefur stöðvast út af óendurkræfri villu verður með stöðu verkflæðis sem **Óendurkræft**. Þegar staða verkflæðis viðskiptaflæðis fyrir ókeypis textareikning er **Óendurheimtanlegt**, þú getur endurstillt það á **Drög** með því að velja **Muna** frá verkflæðisaðgerðum. Þú getur síðan breytt ókeypis textareikningi viðskiptavinarins. Þessi eiginleiki er í boði ef **Endurstilla vinnuflæðisstöðu fyrir reikninga með frjálsum texta úr Óendurheimtanlegur í Drög** breytu á **Eiginleikastjórnun** kveikt er á síðunni.
+Verkflæðistilvik sem hefur stöðvast út af óendurkræfri villu verður með stöðu verkflæðis sem **Óendurkræft**. Þegar staðan á verkflæði textareiknings viðskiptavinar er **Óendurkræft** er hægt að endurstilla það í **Drög** með því að velja **Innkalla** úr verkflæðisaðgerðum. Síðan er hægt að breyta textareikningi viðskiptavinar. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Endurstilling á stöðu verkflæðis fyrir textareikninga úr óendurkræft í drög** á síðunni **Eiginleikastjórnun**.
 
-Hægt er að nota síðuna **Sama verkflæðis** til að endurstilla verkflæðisstöðuna sem **Drög**. Þú getur opnað þessa síðu frá **Ókeypis textareikningur** eða frá **Algengar > Fyrirspurnir > Verkflæði**. Til að núllstilla stöðu flæðis á **Drög**, veldu **afturkalla**. Þú getur líka endurstillt vinnuflæðisstöðuna á **Drög** með því að velja **Muna** aðgerð á **Ókeypis textareikningur** síðu eða **Allir ókeypis textareikningar** síðu. Eftir að verkflæðisstaðan er endurstillt á **Drög**, verður það tiltækt til klippingar á **Ókeypis textareikningur** síðu.
+Hægt er að nota síðuna **Sama verkflæðis** til að endurstilla verkflæðisstöðuna sem **Drög**. Þú getur opnað þessa síðu úr **Reikningur með frjálsum texta** eða úr **Algengar > Fyrirspurnir > Verkflæði**. Til að núllstilla stöðu flæðis á **Drög**, veldu **afturkalla**. Þú getur einnig endurstillt stöðu verkflæðis í **Drög** með því að velja aðgerðina **Innkalla** á síðunni **Reikningur með frjálsum texta** eða síðunni **Allir reikningar með frjálsum texta**. Eftir að verkflæðisstaðan hefur verið endurstillt í **Drög** verður hún opin fyrir breytingar á síðunni **Reikningur með frjálsum texta**.
 
 
 

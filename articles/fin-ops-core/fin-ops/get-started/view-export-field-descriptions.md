@@ -17,7 +17,7 @@ ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.form: FieldDescriptions
 ms.openlocfilehash: d2d59796b312d50d69bf7722b605c159a933a283
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9292367"
@@ -91,11 +91,11 @@ Eftirfarandi kaflar veita upplýsingar við úrræðaleit vegna vandamála sem k
 
 ### <a name="i-cant-find-a-field-description"></a>Ég finn ekki svæðislýsingu
 
-Við höfum verið að bæta við lýsingar fyrir flóknari svæði. Ef þú þarft hjálp fyrir tiltekið sviði, láttu okkur vita með því að bæta við athugasemd við þessa grein.
+Við höfum verið að bæta við lýsingar fyrir flóknari svæði. Ef þú þarft hjálp vegna tiltekins svæðis, skaltu láta okkur vita með því að bæta við athugasemd við þessa grein.
 
 ### <a name="the-field-description-isnt-helpful"></a>Svæðislýsingin er ekki gagnleg
 
-Láttu okkur vita með því að bæta við athugasemd við þessa grein. Ef hægt er, lýsa viðbótarupplýsingar sem þarf.
+Láttu okkur vita með því að bæta við athugasemd um þessa grein. Ef hægt er, lýsa viðbótarupplýsingar sem þarf.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Ég finnur ekki svæðið á síðunni Svæði lýsingar
 

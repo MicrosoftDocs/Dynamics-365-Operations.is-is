@@ -1,6 +1,6 @@
 ---
 title: Stjórna vörpunarlíkani rafrænnar skýrslugerðar í aðskilinni skilgreiningu rafrænnar skýrslugerðar
-description: Þessi grein lýsir því hvernig á að stjórna rafrænum skýrslugerðum (ER) líkanavörpum í aðskildum ER stillingum.
+description: Í þessari grein er útskýrt hvernig á að stjórna líkanavörpunum rafrænnar skýrslugerðar í aðskildum skilgreiningum rafrænnar skýrslugerðar.
 author: kfend
 ms.date: 06/19/2017
 ms.topic: business-process
@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 23ac14ba06b6ab535545bacbafe90a4a3c946476
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290245"

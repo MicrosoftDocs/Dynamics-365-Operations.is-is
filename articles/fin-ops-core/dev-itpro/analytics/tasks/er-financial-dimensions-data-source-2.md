@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 2 - líkanavörpun)
-description: Þessi grein lýsir því hvernig á að stilla rafræn skýrslugerð (ER) líkan til að nota fjárhagsvíddir sem gagnagjafa fyrir ER skýrslur. (Hluti 2)
+description: Þessi grein útskýrir hvernig á að skilgreina líkan rafrænnar skýrslugerðar til að nota fjárhagsvíddir sem gagnagjafa fyrir skýrslur rafrænnar skýrslugerðar. (Hluti 2)
 author: kfend
 ms.date: 05/27/2020
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 ms.openlocfilehash: 0d2daedd38c93ff17ef39780140c9c28ece82736
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290815"
@@ -94,7 +94,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 25. Í trénu skal velja „LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions“.
 26. Í trénu, skal velja 'Journal\Transaction\Dimensions data'.
 27. Smelltu á Binda.
-!Hönnuðasíða fyrir gerð kortlagningar, kortaflipi, tré gagnaheimilda.](../media/er-financial-dimensions-guides-model-mapping3.png)
+!Hönnuðarsíða líkanavörpunar, vörpunarflipi, gagnagjafartré.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Í trénu skal velja „LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit)“.
 29. Í trénu, skal velja 'Journal\Transaction\Debit'.
 30. Smelltu á Binda.

@@ -1,6 +1,6 @@
 ---
 title: Nota samþykktarverkflæði leigusamnings
-description: Þessi grein útskýrir hvernig á að nota verkflæði til að samþykkja eignaleigusamninga og hvernig á að rekja stöðu og sögu verkflæðisins.
+description: Þessi grein útskýrir hvernig á að nota verkflæði til að samþykkja eignaleigur og hvernig á að rekja stöðu og feril verkflæðanna.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 4205b83919f0b3c30a4b5d8e3290af230f538f39
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8906443"
@@ -26,7 +26,7 @@ ms.locfileid: "8906443"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að nota verkflæði til að samþykkja eignaleigusamninga og hvernig á að rekja stöðu og sögu verkflæðisins. Verkflæði aðstoða við að samræma samþykktarstjórnun leigusamninga með því að bjóða upp á staðlað safn af samþykktarskrefum og úthluta tilteknum notendum sem samþykkja hvert skref ferlisins. Samþykktaraðili getur samþykkt leigu, hafnað henni, óskað eftir breytingu á henni eða úthlutað henni á annan notanda til samþykkis. Verkflæði geta einnig aukið sýnileika inn í samþykktarferlið með að leyfa þér að fylgjast með stöðu og ferli þeirra. Að auki er hægt að skoða miðstýrða vinnulista sem birta verk og samþykktir sem er úthlutað á tiltekna samþykkjendur.
+Þessi grein útskýrir hvernig á að nota verkflæði til að samþykkja eignaleigur og hvernig á að rekja stöðu og feril verkflæðanna. Verkflæði aðstoða við að samræma samþykktarstjórnun leigusamninga með því að bjóða upp á staðlað safn af samþykktarskrefum og úthluta tilteknum notendum sem samþykkja hvert skref ferlisins. Samþykktaraðili getur samþykkt leigu, hafnað henni, óskað eftir breytingu á henni eða úthlutað henni á annan notanda til samþykkis. Verkflæði geta einnig aukið sýnileika inn í samþykktarferlið með að leyfa þér að fylgjast með stöðu og ferli þeirra. Að auki er hægt að skoða miðstýrða vinnulista sem birta verk og samþykktir sem er úthlutað á tiltekna samþykkjendur.
 
 Áður en þetta ferli er notað skal ganga úr skugga um að a.m.k. eitt samþykktarverkflæði leigutaka hafi verið stofnað. Ef ekkert verkflæði er til staðar skal stofna það. Upplýsingar um hvernig á að setja upp verkflæði er að finna í [Setja upp samþykktarverkflæði leigusamnings](set-up-lease-wrkflw.md).
 

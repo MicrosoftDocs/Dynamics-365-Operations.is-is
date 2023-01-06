@@ -1,6 +1,6 @@
 ---
 title: Setja upp samþykktarverkflæði leigusamnings
-description: Greinin útskýrir hvernig á að setja upp samþykkisverkflæði sem mun keyra þegar nýr leigusamningur er stofnaður.
+description: Þessi grein útskýrir hvernig á að setja upp samþykktarverkflæði sem verður keyrt þegar nýr leigusamningur er stofnaður.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 0162e559f8aaec248cfb9042b0152788536c9fc9
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8870279"
@@ -26,7 +26,7 @@ ms.locfileid: "8870279"
 
 [!include [banner](../includes/banner.md)]
 
-Greinin útskýrir hvernig á að setja upp samþykkisverkflæði sem mun keyra þegar nýr leigusamningur er stofnaður. Upplýsingar um það hvernig á að nota verkflæðið er að finna í [nota samþykktarverkflæði leigusamninga](use-create-lease-wrkflw.md). 
+Þessi grein útskýrir hvernig á að setja upp samþykktarverkflæði sem verður keyrt þegar nýr leigusamningur er stofnaður. Upplýsingar um það hvernig á að nota verkflæðið er að finna í [nota samþykktarverkflæði leigusamninga](use-create-lease-wrkflw.md). 
 
 1. Opnið **Eignarleiga \> Uppsetning \> Verkflæði leigusamnings**.
 2. Á síðunni **Verkflæði leigusamnings** skal velja **Nýtt**.

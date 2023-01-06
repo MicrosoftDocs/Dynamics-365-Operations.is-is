@@ -1,6 +1,6 @@
 ---
 title: TODAY ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig TODAY rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig TODAY rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 12/05/2019
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 66797bedd50abace4aab0a2b87b99ad6470233c0
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9271704"

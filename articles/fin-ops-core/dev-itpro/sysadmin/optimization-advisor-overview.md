@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir Fínstillingarráðgjöf
-description: Þessi grein lýsir því hvernig þú getur notað hagræðingarráðgjafa til að tryggja hámarksuppsetningu á fjármálum og rekstri.
+description: Þessi grein lýsir því hvernig hægt er að nota Fínstillingarráðgjafa til að tryggja sem besta grunnstillingu á fjármála- og reksturs.
 author: kamaybac
 ms.date: 07/23/2019
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.search.industry: ''
 ms.search.form: SelfHealingWorkspace
 ms.openlocfilehash: f24e8dfecb04f928994bb5a197d32a7279022512
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9281356"
@@ -26,7 +26,7 @@ ms.locfileid: "9281356"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig þú getur notað hagræðingarráðgjafa til að tryggja hámarksuppsetningu á fjármálum og rekstri.
+Þessi grein lýsir því hvernig hægt er að nota Fínstillingarráðgjafa til að tryggja sem besta grunnstillingu á fjármála- og reksturs.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -44,7 +44,7 @@ Staðlaðar öryggisreglur gilda um fínstillingartækifæri. Til dæmis eru fí
 
 Þegar gripið er til aðgerða á ákveðnum fínstillingartækifærum reiknar kerfið áhrif tækifærisins á hvað varðar styttingu á keyrslutíma viðskiptaferla. Því miður er þessi eiginleiki ekki tiltækur fyrir öll fínstillingartækifæri.
 
-Til að læra meira um hagræðingarráðgjafa skaltu horfa á stutta [Hagræðingarráðgjafi í Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ) myndband.
+Til að læra meira um hagræðingarráðgjöf skal horfa á myndskeiðið [Fínstillingarráðgjöf í Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Fínstillingarreglur
 
@@ -90,7 +90,7 @@ Til að gera mat óvirkt á tilgreindum reglum skal velja tækifærið sem regla
 
 [Búa til reglur fyrir fínstillingarráðgjöf](./create-rules-optimization-advisor.md)
 
-[Hagræðingarráðgjafi í Dynamics 365 Finance (myndband)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+[Fínstillingarráðgjöf í Í Dynamics 365 Finance (myndskeið)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Vinnusvæði bankakerfis
-description: Þessi grein veitir upplýsingar um vinnusvæði bankastjórnunar. Þetta vinnusvæði sýnir upplýsingar sem tengjast bankareikningum fyrirtækisins.
+description: Í þessari grein er að finna upplýsingar um vinnusvæði bankakerfis. Þetta vinnusvæði sýnir upplýsingar sem tengjast bankareikningum fyrirtækis.
 author: angelad116
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: f9880928281e704edcd24a75f99d4562761b7c82
 ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/14/2022
 ms.locfileid: "9151552"

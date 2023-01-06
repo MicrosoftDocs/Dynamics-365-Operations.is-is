@@ -1,6 +1,6 @@
 ---
 title: Bókun framleiðslupöntunar
-description: Þessi grein veitir upplýsingar um mismunandi gerðir framleiðslupöntunarbókunar.
+description: Þessi grein gefur upplýsingar um mismunandi tegundir framleiðslupöntunarbókana.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -12,145 +12,145 @@ ms.search.region: Global
 ms.author: raprofit
 ms.openlocfilehash: d41725325a82b24c1e5aa6bd2c1a5322f3078ace
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8879625"
 ---
-# <a name="production-postings"></a>Framleiðslupóstar
+# <a name="production-postings"></a>Framleiðslubókanir
 
-Þessi grein veitir upplýsingar um mismunandi tegundir bókana í framleiðslupöntunarferlinu.
+Þessi grein gefur upplýsingar um mismunandi tegundir bókana í framleiðslupöntunarferlinu.
 
 
 ## <a name="material-consumption"></a>Efnisnotkun
 
-Efni eru skráðar sem notuð í framleiðslu þegar tiltektarlisti framleiðslubókar er bókuð. Þetta skapar færslur sem draga frá lagerbirgðum. Í **Framleiðslubreytur**, er hægt að tilgreina hvort verðmæti hráefna sem eru í vinnslu (kallað WIP), eigi að bóka í fjárhag.
+Efni eru skráðar sem notuð í framleiðslu þegar tiltektarlisti framleiðslubókar er bókuð. Þetta myndar færslur sem draga frá birgðum á lager. Í **Færibreytur framleiðslu** er hægt að tilgreina hvort gildi hráefna sem eru í vinnslu (kallað VÍV) skuli bókuð í fjárhaginn.
 
-Verðmæti hráefna sem eru í vinnslu (WIP) er bókað á **Áætlaður kostnaður við neytt efnis** og **Áætlaður kostnaður við neytt efnis, WIP** reikningar. Tínslulistaferlið fyrir framleiðslupöntunina er efnisleg uppfærsla á birgðafærslum sem tengjast framleiðslupöntuninni. Þegar framleiðslupöntun er skráð sem lokið, eru efnisfærslur bakfærðar og tengdar birgðafærslur uppfærðar fjárhagslega. Þegar lokadagbókin er birt, er **Kostnaður við neytt efnis** og **Kostnaður við neytt efnis, WIP** færslugerðir eru notaðar.
+Virði hráefna sem eru í verki í vinnslu (VÍV) er bókað á lyklana **Áætlaður kostnaður við notað efni** og **Áætlaður kostnaður við notað efni, VÍV**. Ferli tínslulista fyrir framleiðslupöntunina er efnisleg uppfærsla á birgðafærslum sem tengjast framleiðslupöntuninni. Þegar framleiðslupöntun er skráð sem lokið eru efnislegar færslur bakfærðar og tengdar birgðafærslur eru fjárhagslega uppfærðar. Þegar lokunarbókin er bókuð eru bókunargerðirnar **Kostnaður við notað efni** og **Kostnaður við notað efni, VÍV** notaðar.
 
-The **Framleiðsla** flipann á **Skráningarsnið** síða stjórnar því hvernig framleiðslupantanir bókast í fjárhag. Þetta er notað þegar **Fjárhagsbókun** reiturinn er stilltur á annað hvort **Hlutur og auðlind** eða **Atriði og flokkur** á **Framleiðslustýringarbreytur** síðu. 
+Flipinn **Framleiðsla** á síðunni **Birgðabókunarreglur** stýrir því hvernig framleiðslupantanir bókast í fjárhaginn. Þetta er notað þegar reiturinn **Fjárhagsbókun** er stilltur á annaðhvort **Vara og tilföng** eða **Vara og flokkur** á síðunni **Færibreytur framleiðslustýringar**. 
 
-Til að færslubók tínslulista geti bókað í aðalbók fyrir framleiðslupöntun, verða eftirfarandi skilyrði að vera uppfyllt:
+Fyrir færslubók tiltektarlista að bókast í fjárhaginn fyrir framleiðslupöntun þarf að uppfylla eftirfarandi skilyrði:
 
--   The **Bókaðu tínslulista í höfuðbók** gátreitinn verður að vera valinn á **Framleiðslustýringarbreytur** síðu. Hægt er að hnekkja þessari stillingu fyrir tiltekna síðu á **Framleiðslustýringarbreytur eftir stöðum** síðu.
--   The **Bókaðu efnislegar birgðir** gátreitinn verður að vera valinn á **Vörulíkanaflokkar** síðu fyrir vöruna sem valin er í innkaupapöntunarlínunni.
--   Helstu reikningar verða að vera tilgreindir á **Birgðafærslusnið** síðu fyrir eftirfarandi birtingargerðir:
+-   Velja þarf gátreitinn **Bóka tiltektarlista í fjárhag** á síðunni **Færibreytur framleiðslustýringar**. Hægt er að hnekkja þessari stillingu fyrir tiltekið svæði á síðunni **Færibreytur framleiðslustýringar eftir svæði**.
+-   Velja þarf gátreitinn **Bóka efnislegar birgðir** á síðunni **Vörulíkanaflokkar** fyrir vöruna sem valin er í innkaupapöntunarlínunni.
+-   Tilgreina þarf aðallyklana á síðunni **Birgðabókunarregla** fyrir eftirfarandi bókunargerðir:
     -   **Áætlaður kostnaður við notað efni**
     -   **Áætlaður kostnaður við notað efni, VÍV**
 
 ## <a name="time-consumption"></a>Tímanotkun
 
-Tíminn sem starfsmenn eyða í framleiðslustörf er skráður í **Dagbók leiðarkorts** eða the **Dagbók vinnukorta**. Þegar þessar færslubækur eru bókaðar er reikningsbókun fjárhagsbókar á sérstakan reikning fyrir tilföng sem eru í vinnslu (WIP) unnin. Þessi bókun sýnir virði tímans sem er varið í framleiðslupöntun. Eftir að framleiðslupöntunin er skráð sem lokið, er vív-lyklar eru jafnaðir.
+Tíminn sem starfsmenn nota í framleiðsluvinnslu er skráð í **færslubók leiðarspjalds** eða **vinnsluspjaldsbókinni**. Þegar þessar færslubækur eru bókaðar er unnin fjárhagsbókunin á sérstakan lykil fyrir tilföng sem eru í vinnslu (VÍV). Þessi bókun sýnir virði tímans sem er varið í framleiðslupöntun. Eftir að framleiðslupöntunin er skráð sem lokið, er vív-lyklar eru jafnaðir.
 
-Það eru þrjár mögulegar leiðir til að bóka tímanotkun eftir því hvaða valkostur er valinn í **Fjárhagsbókun** sviði á **Framleiðslustýringarbreytur** síðu.
+Þrjár mögulegar leiðir eru í boði til að bóka tímanotkun eftir því hvaða valkostur er valinn í reitnum **Fjárhagsbókun** á síðunni **Færibreytur framleiðslustýringar**.
 
 ## <a name="reporting-finished-goods-and-error-quantities"></a>Tilkynni um Fullbúnar vörur og villumagn
 
-Þegar framleiðslupöntun er **Tilkynnt sem lokið**, fullunnar vörur sem hafa verið fullgerðar eru uppfærðar í birgðum í gegnum **Tilkynna sem lokið** dagbók. Ef þú ert að nota WIP bókhald er fjárhagsbók bókuð til að minnka WIP reikningana og auka birgðir fullunnar vöru. Dagbókin notar staðalkostnaðinn sem hefur verið skilgreindur fyrir vöruna. Ef **Notið áætlað kostnaðarverð** valkostur er valinn á **Framleiðslustýringarbreytur** síðu verður áætlaður kostnaður úr framleiðslupöntuninni notaður.
+Þegar framleiðslupöntun er **Skráð sem lokið**, eru fullbúnar vörur sem var lokið uppfærðar í birgðum í gegnum færslubókina **Bóka sem tilbúið**. Ef verið er að nota VÍV-bókhald er færslubók fjárhags mynduð til að fækka VÍV-lyklum og auka birgðir fullunninna vara. Færslubókin notar staðlaðan kostnað sem hefur verið skilgreindur fyrir afurðina. Ef valkosturinn **Nota áætlað kostnaðarverð** er valinn á síðunni **Færibreytur framleiðslustýringar** verður áætlaður kostnaður úr framleiðslupöntuninni notaður.
 
-Verðmæti hráefna sem eru í vinnslu (WIP) er bókað á **Áætlaður framleiddur kostnaður** og **Áætlaður framleiðslukostnaður, WIP** reikningar. The **Tilkynna sem lokið** ferli fyrir framleiðslupöntun er efnisleg uppfærsla á birgðafærslum sem tengjast framleiðslupöntuninni. Þegar framleiðslupöntun er lokið, eru efnisfærslur bakfærðar og tengdar birgðafærslur uppfærðar fjárhagslega. Þegar lokadagbókin er birt, er **Framleiðslukostnaður** og **Framleiðslukostnaður, WIP** færslugerðir eru notaðar.
+Virði hráefna sem eru í verki í vinnslu (VÍV) er bókað á lyklana **Áætlaður framleiðslukostnaður** og **Áætlaður framleiðslukostnaður, VÍV**. Ferlið **Tilkynna sem lokið** fyrir framleiðslupöntunina er efnisleg uppfærsla á birgðafærslum sem tengjast framleiðslupöntuninni. Þegar lokið er við framleiðslupöntun eru efnislegar færslur bakfærðar og tengdar birgðafærslur eru fjárhagslega uppfærðar. Þegar lokunarbókin er bókuð eru bókunargerðirnar **Kostnaður við framleiðslu** og **Kostnaður við framleiðslu, VÍV** notaðar.
 
-The **Framleiðsla** flipann á **Skráningarsnið** síða er notuð til að stjórna því hvernig framleiðslupantanir verða bókaðar í fjárhag. Þetta er notað þegar **Fjárhagsbókun** reiturinn er stilltur á annað hvort **Hlutur og auðlind** eða **Atriði og flokkur** á **Framleiðslustýringarbreytur** síðu. The **Fjárhagsvörur** Flýtiflipi á **Framleiðsluhópar** síðu er einnig hægt að nota til að stjórna bókun fyrir framleiðslupantanir þegar reiturinn er stilltur á **Framleiðsluhópar**.
+Flipinn **Framleiðsla** á síðunni **Birgðabókunarreglur** er notaður til að stýra því hvernig framleiðslupantanir bókast í fjárhaginn. Þetta er notað þegar reiturinn **Fjárhagsbókun** er stilltur á annaðhvort **Vara og tilföng** eða **Vara og flokkur** á síðunni **Færibreytur framleiðslustýringar**. Flýtiflipann **Fjárhagur-vörur** á síðunni **Framleiðsluflokkar** er einnig hægt að nota til að stjórna bókun fyrir framleiðslupantanir þegar reiturinn er stilltur á **Framleiðsluflokkar**.
 
-Fyrir **Tilkynna sem lokið** færslubók til að bóka í aðalbók fyrir framleiðslupöntun, þarf að uppfylla eftirfarandi skilyrði:
--   The **Bóka skýrslu sem lokið í fjárhagsbók** gátreitinn verður að vera valinn í **Framleiðslustýringarbreytur** síðu. Hægt er að hnekkja þessari stillingu fyrir tiltekna síðu á **Framleiðslustýringarbreytur eftir stöðum** síðu.
--   The **Bókaðu efnislegar birgðir** gátreitinn verður að vera valinn á **Vörulíkanaflokkar** síðu fyrir vöruna sem valin er í innkaupapöntunarlínunni.
--   Helstu reikningar verða að vera tilgreindir í **Birgðafærslusnið** síðu fyrir eftirfarandi birtingargerðir:
+Til að færslubókin **Bóka sem tilbúið** bókist í fjárhaginn fyrir framleiðslupöntun þarf að uppfylla eftirfarandi skilyrði:
+-   Velja þarf gátreitinn **Bóka tilkynnt tilbúið í fjárhag** á síðunni **Færibreytur framleiðslustýringar**. Hægt er að hnekkja þessari stillingu fyrir tiltekið svæði á síðunni **Færibreytur framleiðslustýringar eftir svæði**.
+-   Velja þarf gátreitinn **Bóka efnislegar birgðir** á síðunni **Vörulíkanaflokkar** fyrir vöruna sem valin er í innkaupapöntunarlínunni.
+-   Tilgreina þarf aðallyklana á síðunni **Birgðabókunarregla** fyrir eftirfarandi bókunargerðir:
     -   **Áætlaður kostnaður við framleiðslu**
     -   **Áætlaður kostnaður við framleiðslu, VÍV**
 
 ## <a name="ending-the-production-order"></a>Lokið við framleiðslupöntunina
 
-Áður en framleiðslupöntun er lokið er raunkostnaður reiknaður fyrir framleitt magn. Allur áætlaður kostnaður fyrir efni, vinnu og rekstrarkostnaði er bakfærður og skipt út fyrir raunkostnað. Heildarkostnaður fullunnar vöru er skuldfærður af **Framleiðslukostnaður** reikning og færð inn á **Framleiðslukostnaður, WIP** reikning. Efnin sem voru notuð í framleiðslupöntuninni eru færð inn á **Kostnaður við neytt efnis** og skuldfærður á **Efniskostnaður, WIP** reikning.
+Áður er framleiðslupöntun er lokið er raunkostnaður reiknaður fyrir framleitt magn. Allur áætlaður kostnaður fyrir efni, vinnu og rekstrarkostnaði er bakfærður og skipt út fyrir raunkostnað. Heildarkostnaðurinn fyrir afurð er debetfærður frá lyklinum **Kostnaður við framleiðslu** og kreditfærður á lykilinn **Kostnaður við framleiðslu, VÍV**. Efnið sem notað var í framleiðslupöntuninni er kreditfært á **Kostnaður við notað efni** og debetfært á lykilinn **Kostnaður efnis, VÍV**.
 
-Ef þú velur **Loka starfi** gátreitinn þegar þú keyrir kostnaðarútreikninginn er stöðu framleiðslupöntunarinnar breytt í **Lokað**. Þessi staða kemur í veg fyrir aukalegan kostnað sé óvart bókaður á lokna framleiðslupöntun. Hægt er að tilgreina að verðmæti villumagna sem er tilkynnt sem lokið skuli úthlutað á vörumagnið sem er tilkynnt sem lokið. Að öðrum kosti er hægt að tilgreina að verðmæti villumagna sé bókað á sérstakan ruslreikning. 
+Ef þú velur **Ljúka vinnslu** gátreitur þegar þú keyrir kostnaðarútreikningur, breytist staða framleiðslupöntunar í **Lokið**. Þessi staða kemur í veg fyrir aukalegan kostnað sé óvart bókaður á lokna framleiðslupöntun. Hægt er að tilgreina að gildi villna sem eru skráðar sem loknar við skýrslugerð sem skuli úthluta á gallalausa magnið sem er skráð sem lokið. Einnig er hægt að tilgreina að virðis villumagns eigi að bóka á sérstakan rýrnunarlykil. 
 
-Til að tilgreina tiltekinn ruslreikning skaltu fylgja þessum skrefum:
-1.  Fara til **Framleiðslueftirlit** > **Uppsetning** > **Framleiðslustýringarbreytur**.
-2.  Veldu **Hefðbundin uppfærsla** flipa.
-3.  Í **Skrappaðferð** reit, veldu **Skrappreikningur**.
-4.  Í **Skrappreikningur** reit, veldu aðalreikninginn þar sem rusl fyrir villumagn á að bóka þegar framleiðslupöntun er lokið. Til dæmis, veldu kostnaðarreikning eins og 510380: Framleiðsluúrgangur.
+Til að tilgreina tiltekinn rýrnunarlykil skal fylgja eftirfarandi skrefum:
+1.  Farið í **Framleiðslustýring**  >  **Uppsetning**  >  **Færibreytur framleiðslustýringar**.
+2.  Veljið flipann **Stöðluð uppfærsla**.
+3.  Í reitnum **Rýrnunaraðferð** skal velja **Rýrnunarlykill**.
+4.  Í reitnum **Rýrnunarlykill** skal velja aðallykilinn þar sem rýrnun fyrir villumagn á að vera bókað þegar framleiðslupöntuninni lýkur. Veljið til dæmis kostnaðarlykil á borð við 510380: Framleiðslurýrnun.
 
-Til að lokabókin geti bókað í aðalbók fyrir framleiðslupöntun verða eftirfarandi skilyrði að vera uppfyllt:
--   Helstu reikningar verða að vera tilgreindir í **Birgðafærslusnið** eða **Framleiðsluhópar** síðu fyrir eftirfarandi birtingargerðir:
+Til að lokunarbókin bókist í fjárhaginn fyrir framleiðslupöntun þarf að uppfylla eftirfarandi skilyrði:
+-   Tilgreina þarf aðallyklana á síðunni **Birgðabókunarregla** eða **Framleiðsluflokkar** fyrir eftirfarandi bókunargerðir:
     -   **Kostnaður við notað efni**
     -   **Kostnaður við notað efni, VÍV**
     -   **Kostnaður við framleiðslu**
     -   **Kostnaður við framleiðslu, VÍV**
--   Helstu reikningar verða að vera tilgreindir í **Kostnaðarflokkar**, **·**, eða **Auðlindahópar** síðu fyrir eftirfarandi tegundir:
-    -   **Framleiddur kostnaður frásogaður**
+-   Tilgreina verður aðallyklana á síðunni **Kostnaðarflokkar**, **Tilföng** eða **Tilfangaflokkar** fyrir eftirfarandi gerðir:
+    -   **Notaður framleiðslukostnaður**
     -   **Kostnaður við notaða framleiðslu, VÍV**
 
-## <a name="indirect-costs-for-production-orders"></a>Óbeinn kostnaður vegna framleiðslupantana
+## <a name="indirect-costs-for-production-orders"></a>Óbeinn kostnaður fyrir framleiðslupantanir
 
-Þegar þú vinnur færslur fyrir framleiðslupöntun er hægt að stilla óbeinan kostnað til að fanga kostnaðarkostnað eða viðbótargjöld í fjárhag. Líkamlegar færslur fyrir óbeinan kostnað eru færðar í birgðum þegar þú bókar tínslulistabók eða skýrslu sem lokið færslubók. Fjármagnsfærslur fyrir óbeinan kostnað eru færðar í birgðum þegar þú bókar lokabók.
+Þegar unnið er úr færslum fyrir framleiðslupöntun er hægt að grunnstilla óbeinan kostnað til að sækja sameiginlegan kostnað eða viðbótargjöld í fjárhagnum. Efnislegar færslur fyrir óbeinan kostnað eru skráðar í birgðir þegar færslubók tiltektarlista eða færslubók fyrir tilbúið er bókuð. Fjárhagsfærslur fyrir óbeinan kostnað eru skráðar í birgðum þegar lokunarbókin er bókuð.
 
-Þú getur greint óbeinan kostnað á tímanotkun þinni sem tengist **Leiðarkort** tímarit eða **Atvinnukort** tímaritum. Þessar færslur eru bakfærðar og bókaðar í fjárhagslykla þegar framleiðslupöntuninni er lokið. Fyrir frekari upplýsingar, farðu á [Kostnaðarblöð](/supply-chain/cost-management/costing-sheets.md).
+Hægt er að bera kennsl á óbeinan kostnað á tímanotkun sem tengist færslubókum **Leiðarspjalds** eða færslubókum **Verkspjalds**. Þessar færslur eru bakfærðar og bókaðar á fjárhagslykla þegar lokið er við framleiðslupöntun. Frekari upplýsingar er að finna á [Kostnaðarskjal](/supply-chain/cost-management/costing-sheets.md).
 
 ## <a name="controlling-the-level-of-ledger-posting"></a>Stýra stigi fjárhagsbókunar
 
-Á **Framleiðslustýringarbreytur** síðu geturðu notað **Fjárhagsbókun** reit til að stilla magn fjárhagsbókunar fyrir framleiðsluferli. 
+Á síðunni **Færibreytur framleiðslustýringar**, er hægt að nota í **Fjárhagsbókun** svæði til að stilla stig fjárhagsbókunar fyrir framleiðsluferli. 
 
 Eftirfarandi reitir eru tiltækir:
 
 ### <a name="item-and-resource"></a>Vara og tilföng
 
-Þegar þú velur **Hlutur og auðlind** valmöguleika í **Fjárhagsbókun** reit, þá koma bókunarreikningarnir frá tilfangi eða tilfangahópi á rekstri á leiðinni. Reikningar á tilteknu tilfangi verða fyrsti færslumöguleikinn. Ef reikningur er ekki tilgreindur verða reikningarnir sem tilgreindir eru í tilfangahópnum notaðir. Hver aðgerðalína í leið getur haft eina tilföng sem tilgreind er sem **Kostnaðarúrræði**. Þetta tilfang er notað til að ákvarða reikninginn sem á að nota. Þessi valkostur er almennt notaður þegar fyrirtæki úthlutar rekstrarkostnaði á tilföngin. Kostnaður er oft hærri fyrir auðlindirnar og er notaður til að hjálpa til við að taka "taka á móti kaupa" ákvarðanir. Þetta er ítarlegasta færslustillingin og gerir nákvæmustu stjórn á færslunum og mjög nákvæma greiningu á framleiðsluferlinu.
+Þegar valkosturinn **Vara og tilföng** er valinn í reitnum **Fjárhagsbókun** koma bókunarlyklarnir úr tilfangi eða tilfangaflokki í aðgerð í leiðinni. Lyklar að tilteknu tilfangi verða fyrsti bókunarkosturinn. Ef lykill er ekki tilgreindur verða þeir lyklar sem tilgreindir eru í tilfangaflokknum notaðir. Hver aðgerðarlína á leið getur haft eitt tilfang sem tilgreint er sem **Kostnaðartilföng**. Þetta tilfang er notað til að ákvarða hvaða lykil á að nota. Þessi valkostur er oft notaður þegar stofnun/fyrirtæki úthlutar rekstrarkostnaði á tilföngin. Kostnaður er oft hærri fyrir tilföngin og er notaður til að hjálpa við ákvarðanir um hvort er betra að framleiða eða kaupa. Þetta er nákvæmasta bókunarstillingin og leyfir bestu stýringu á bókunum og mjög ítarlegum greiningum framleiðsluferlisins.
 
 ### <a name="item-and-category"></a>Vara og tegund
 
-Þegar þú velur **Atriði og flokkur** valmöguleika í **Fjárhagsbókun** reit, munu bókunarreikningarnir koma frá **Kostnaðarflokkur** síðu sem tengist hverri línu á leiðinni. Hver rekstrarlína á leiðinni getur haft þrjá kostnaðarflokka: **Uppsetning** tími, **Hlaupa** tíma, og **Magn**. Þessi valkostur er almennt notaður þegar aðaláhersla fyrirtækis þíns er á skilvirkni ferlis og lengd virkni. Þessi valkostur er ítarlegri leið til að birta færslur og gefur samt leið til að flokka kostnað í flokka.
+Þegar valkosturinn **Vara og flokkur** er valinn í reitnum **Fjárhagsbókun** koma bókunarlyklarnir af síðunni **Kostnaðarflokkur** sem tengist hverri línu í leiðinni. Hver aðgerðarlína í leiðinni getur verið með þrjá kostnaðarflokka: **Uppsetningartíma**, **Keyrslutíma** og **Magn**. Þessi valkostur er oft notaður þegar megináhersla fyrirtækisins er á skilvirkni ferlis og tímalengd aðgerðar. Þessi kostur er meira samantekin leið við bókun og býður enn upp á leið til að safna kostnaði í flokka.
 
 ### <a name="production-group"></a>Framleiðsluflokkur
 
-Þegar þú velur **Framleiðsluhópar** valmöguleika í **Fjárhagsbókun** reit koma bókunarreikningarnir frá **Framleiðsluhópar** síðu. **Framleiðsluhópar** eru venjulega notuð þegar fleiri en ein framleiðslulína keyrir svipaðar vörur eða hefur svipaðan búnað. Þú getur notað þennan valkost til að bera saman kostnað á milli tveggja mismunandi framleiðsluhópa.  
+Þegar valkosturinn **Framleiðsluflokkar** er notaður í reitnum **Fjárhagsbókun** koma bókunarlyklarnir af síðunni **Framleiðsluflokkar**. **Framleiðsluflokkar** eru yfirleitt notaðir þegar fleiri en ein framleiðslulína keyrir svipaðar vörur eða er með svipaðan búnað. Hægt er að nota þennan valkost til að bera saman kostnað milli tveggja mismunandi framleiðsluflokka.  
   
 > [!NOTE]
-> Ef stöðluð aðferð við útreikning á kostnaði við fullunna vöru er notuð munu lokafærslur endurspegla það. Ef raunkostnaður og kostnaður sem er reiknaður með stöðluðu aðferðinni er ólíkur eru mismunirnir færðir á reikninginn sem sýnir hagnað eða tap.
+> Ef staðlaða aðferðin til að reikna út kostnað við tilbúna vöru er notuð, endurspegla lokafærslurnar það. Ef það er mismunur á raunkostnaði og útreiknuðum kostnaði með notkun stöðluðu aðferðarinnar er mismunurinn bókaður á lykilinn sem sýnir hagnað eða tap.
 
-### <a name="route-groups-and-ledger-posting"></a>Leiðarhópar og bókhaldsbókun
+### <a name="route-groups-and-ledger-posting"></a>Leiðahópar og fjárhagsbókun
 
-Hver aðgerðalína á leið hefur a **Leiðarhópur** tilgreint. The **Uppsetningartími**, **·**, og **Magn** sviðum á **Leiðarhópur** í **Áætlun og kostnaður** hópur eru notaðir til að stýra því hvort tíminn verði notaður í kostnaðarreikning við bókun a **Atvinnukort** eða **Dagbók leiðarkorts** á framleiðslupöntuninni. Ef valmöguleikarnir eru óvirkir verður fylgiskjal ekki stofnað í fjárhag fyrir tímanotkunina.
+Hver aðgerðalína á leið er með **Leiðahópur** tilgreint. Reitirnir **Uppsetningartími**, **Keyrslutími** og **Magn** í **Leiðahópur** í flokknum **Mat og kostnaður** eru notaðir til að stjórna því hvenær tíminn verður notaður fyrir kostnaðarútreikning þegar **Verkspjald** eða **Færslubók leiðarspjalda** eru bókuð í framleiðslupöntuninni. Ef valkostirnir eru óvirkir verður fylgiskjal ekki búið til í fjárhagnum fyrir tímanotkunina.
 
-Fyrir **Leiðarkort** eða **Dagbók vinnukorta** til að bóka í aðalbók fyrir framleiðslupöntun verða eftirfarandi skilyrði að vera uppfyllt:
+Til að **Leiðarspjald** eða **Verkspjaldsbók** bókist í fjárhaginn fyrir framleiðslupöntun þarf að uppfylla eftirfarandi skilyrði:
 
--   The **Uppsetningartími**, **eða** **Magn** reitinn verður að vera valinn í **Áætlun og kostnaður** hópur á **Leiðarhópur** síðu.
--   Helstu reikningar verða að vera tilgreindir í annaðhvort **Kostnaðarflokkur**, **·**, **·**, eða **Framleiðsluhópar** síðu fyrir eftirfarandi birtingargerðir:
+-   Velja þarf reitinn **Uppsetningartími**, **Keyrslutími** eða **Magn** í flokknum **Mat og kostnaður** á síðunni **Leiðahópur**.
+-   Tilgreina þarf aðallyklana á síðunni **Kostnaðarflokkur**, **Leið**, **Leiðahópur** eða **Framleiðsluflokkar** fyrir eftirfarandi bókunargerðir:
     -   Áætlaður notaður framleiðslukostnaður
     -   Áætlaður kostnaður við notaða framleiðslu, VÍV
 
-Eftirfarandi skýringarmynd sýnir tengsl leiðahópsins við útreikning á heildarkostnaði fyrir hverja aðgerð (leiðarlínu) á tiltekinni leið. Hver leiðarlína hefur einn leiðarhóp. Leiðarhópurinn stjórnar breytum fyrir uppsetningartíma, keyrslutíma og magn. The **Kostnaðarflokkur** flipinn hefur þrjá valkosti fyrir **Uppsetning**, **·**, og **Magn** sem eru virkjuð á grundvelli stillingar leiðarhópa. The **Tímasetningar** Hraðflipi hefur þrjá reiti sem eru byggðir á leiðarhópnum.
+Eftirfarandi skýringarmynd sýnir tengsl leiðahópsins við útreikning á heildarkostnaði fyrir hverja aðgerð (leiðarlínu) í tiltekinni leið. Hver leiðarlína er með einn leiðarflokkur. Leiðarhópurinn stýrir færibreytum fyrir uppsetningartíma, keyrslutíma og magn. Flipinn **Kostnaðarflokkur** er með þrjá valkosti fyrir **Uppsetningu**, **Keyrslu** og **Magn** sem eru virkjaðir samkvæmt stillingu leiðahópa. Flýtiflipinn **Tímasetningar** er með þrjá reiti sem eru byggðir á leiðarflokknum.
 
-Formúlan sem er notuð byggist á því hvort valmöguleikinn sé virkur í leiðarhópnum. Kostnaður úr völdum kostnaðarflokki er margfaldaður með magninu sem var slegið inn í tímasetningar til að reikna út heildarkostnað.
+Formúlan sem er notuð er byggð á því hvort valkosturinn er virkur í leiðarflokknum. Kostnaðurinn úr völdum kostnaðarflokki er margfaldaður með magninu sem fært var inn í tímasetningarnar til að reikna út heildarkostnað.
 
-:::image type="complex" source="media/RouteGroupRelationship.png" alt-text="Tengsl leiðahópa við reiknaðan heildarkostnað.":::
-Tengsl leiðahópa við reiknaðan heildarkostnað. Hver leiðarlína hefur einn leiðarhóp. Leiðarhópurinn stjórnar breytum fyrir uppsetningartíma, keyrslutíma og magn. Kostnaðarflokkaflipinn hefur þrjá valkosti fyrir uppsetningu, keyrslu og magn sem eru virkjaðir út frá stillingum leiðarhópa. Tímasetningar flýtiflipinn hefur þrjá reiti sem eru virkjaðir og kostnaðarverð miðað við leiðarhópinn. Formúlan sem er notuð byggist á því hvort valmöguleikinn er virkur í leiðarhópnum. Kostnaður úr völdum kostnaðarflokki er margfaldaður með magninu sem er slegið inn í tímasetningar til að reikna út heildarkostnað.
+:::image type="complex" source="media/RouteGroupRelationship.png" alt-text="Tengsl leiðarhópa við útreiknaðan heildarkostnað.":::
+Tengsl leiðarhópa við útreiknaðan heildarkostnað. Hver leiðarlína er með einn leiðarflokkur. Leiðarhópurinn stýrir færibreytum fyrir uppsetningartíma, keyrslutíma og magn. Flipi kostnaðarflokks er með þrjá valkosti fyrir uppsetningu, keyrslu og magn sem eru virkjaðir samkvæmt stillingu leiðahópa. Flýtiflipinn „Tímasetningar“ er með þrjá reiti sem eru virkir og kostnaðarreiknaðir samkvæmt leiðarflokknum. Formúlan sem er notuð er byggð á því að valkosturinn er virkur í leiðarflokknum. Kostnaðurinn úr völdum kostnaðarflokki er margfaldaður með magninu sem fært er inn í tímasetningarnar til að reikna út heildarkostnað.
 :::image-end:::
 
-## <a name="sample-posting-profile-configuration"></a>Dæmi um stillingar fyrir færslusnið
+## <a name="sample-posting-profile-configuration"></a>Skilgreining prófunarbókunarreglu
 
-Eftirfarandi tafla sýnir dæmi um sjálfgefnar bókunargerðir með sýnishorn af aðalreikningum og lýsingum. 
+Eftirfarandi tafla sýnir dæmi um sjálfgefnar bókunargerðir með sýnishorn af aðallyklum og lýsingum. 
 
- - The **Debet/kredit** dálkurinn gefur til kynna hvort færslan er venjulega debet eða inneign, eða í sumum tilfellum getur hún bókað annað hvort. 
- - The **Hreinsunarreikningur** dálkurinn gefur til kynna hvort bókunartegundin sé jöfnunarreikningur. Upphæðin sem er bókuð á þessum reikningi er sjálfkrafa bakfærð þegar síðari færsla er bókuð. 
- - The **P/F** dálkur gefur til kynna **P** fyrir líkamlega færslu og **F** fyrir fjárhagslega færslu. 
- - The **Fylgja** dálkur gefur til kynna hvort aðalreikningur tiltekinnar færslutegundar sé venjulega sá sami og annarri færslutegund. Gildið í dálknum gefur til kynna færslugerðina sem venjulega er fylgt eftir.
+ - Dálkurinn **Debet/kredit** tilgreinir hvort færslan er yfirleitt debet eða kredit eða í sumum tilfellum er hægt að bóka annað hvort. 
+ - Dálkurinn **Millireikningur** gefur til kynna hvort bókunargerð sé millireikningur. Upphæðin sem er birt á þessum reikningi er sjálfkrafa afturkölluð þegar seinni færsla er bókuð. 
+ - Dálkurinn **P/F** gefur til kynna **P** fyrir efnislega bókun og **F** fyrir fjárhagslega bókun. 
+ - Dálkurinn **Fylgja** tilgreinir hvort aðallykill fyrri tiltekna bókunargerð er yfirleitt sá sami og önnur bókunargerð. Gildið í dálkinum gefur til kynna tegund færslu sem er yfirleitt fylgt.
 
 > [!NOTE]
-> Aðalreikningar og heiti aðalreikninga eru tillögur. Við mælum með því að þú vinnur með endurskoðanda þínum til að ákvarða bestu uppsetninguna fyrir fyrirtækisþarfir þínar.
+> Uppástungur um aðallykla og aðallyklaheiti eru tillögur. Mælt er með að þú vinnir með endurskoðanda þínum til að finna út bestu stillingarnar fyrir viðskiptaþarfir þínar.
 
 
-| Bókunargerð  | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings| Lykilgerð | Debet/kredit? | Millireikningur | Líkamlegt eða fjárhagslegt | Fylgja | Lýsing |
+| Bókunargerð  | Dæmi um aðallykil | Dæmi um heiti aðallykils| Lykilgerð | Debet/kredit? | Millireikningur | Efnislegt eða fjárhagslegt | Fylgja | Lýsing |
 |---------------|----------------------|--------------------------|--------------|----------------|------------------|-----------------------|--------|------------|
-| Áætlaður kostnaður við notað efni      | 140100               | Efnisskrá        | Eign        | Kredit         | Y                | P                     | Kostnaður við notað efni                | Þessi reikningur er notaður þegar þú bókar tínslulistabók fyrir framleiðslupöntun. Mótið á þennan reikning er áætlaður efniskostnaður, WIP. Upphæðin á þessum reikningi er sjálfkrafa bakfærð þegar framleiðslupöntun er lokið. Þessi reikningur táknar birgðareikning í efnahagsreikningi.       |
-| Áætlaður kostnaður við notað efni, VÍV | 150150               | Framleiðslu WIP - Efni | Eign        | Debet          | Y                | P                     | Áætlaður kostnaður við framleiðslu, VÍV          | Þessi reikningur er notaður þegar þú bókar tínslulistabók fyrir framleiðslupöntun. Jöfnun á þennan reikning er áætlaður kostnaður við neytt efnis. Upphæðin á þessum reikningi er sjálfkrafa bakfærð þegar framleiðslupöntun er lokið. Þessi reikningur táknar WIP í efnahagsreikningi þínum.                  |
-| Áætlaður kostnaður við framleiðslu               | 140200               | Birgðir fullunnar vörur   | Eign        | Debet          | Y                | P                     | Kostnaður við framleiðslu                         | Þessi reikningur er notaður þegar þú bókar skýrslu sem lokið færslubók fyrir framleiðslupöntun. Jöfnun á þennan reikning er áætlaður framleiddur kostnaður, WIP. Upphæðin á þessum reikningi er sjálfkrafa bakfærð þegar framleiðslupöntun er lokið. Þessi reikningur táknar birgðareikning í efnahagsreikningi. |
-| Áætlaður kostnaður við framleiðslu, VÍV          | 150150               | Framleiðslu WIP - Efni | Eign        | Kredit         | Y                | P                     | Kostnaður við framleiðslu, VÍV                    | Þessi reikningur er notaður þegar þú bókar skýrslu sem lokið færslubók fyrir framleiðslupöntun. Jöfnun á þennan reikning er áætlaður framleiddur kostnaður. Upphæðin á þessum reikningi er sjálfkrafa bakfærð þegar framleiðslupöntun er lokið. Þessi reikningur táknar WIP í efnahagsreikningi þínum.                     |
-| Kostnaður við notað efni                | 140100               | Efnisskrá        | Eign        | Kredit         | N                 | F                     | Áætlaður kostnaður við notað efni      | Þessi reikningur er notaður til að bera kennsl á efnin sem eru notuð í framleiðslupöntuninni meðan á lokaferlinu stendur. Jöfnun á þennan reikning er kostnaður við neytt efni, WIP.                                                                                                    |
-| Kostnaður við notað efni, VÍV           | 150150               | Framleiðslu WIP - Efni | Eign        | Debet          | N                 | F                     | Áætlaður kostnaður við notað efni, VÍV | Þessi reikningur er notaður til að bera kennsl á efnin í WIP sem eru notuð í framleiðslupöntuninni meðan á lokaferlinu stendur. Jöfnun á þennan reikning er kostnaður við neytt efni.                                                |
-| Kostnaður við framleiðslu                         | 140200               | Birgðir fullunnar vörur   | Eign        | Debet          | N                 | F                     | Áætlaður kostnaður við framleiðslu               | Þessi reikningur er notaður til að greina kostnað fullunnar vöru sem er framleidd af framleiðslupöntun þegar framleiðslupöntuninni er lokið. Jöfnun á þennan reikning er framleiddur kostnaður, WIP reikningur.                                                                  |
-| Kostnaður við framleiðslu, VÍV                    | 150150               | Framleiðslu WIP - Efni | Eign        | Kredit         | N                 | F                     | Áætlaður kostnaður við framleiðslu, VÍV          | Þessi reikningur er notaður til að greina kostnað fullunnar vöru í WIP sem er framleidd af framleiðslupöntun þegar framleiðslupöntuninni er lokið. Mótið á þennan reikning er framleiddur kostnaðarreikningur.                                     |
+| Áætlaður kostnaður við notað efni      | 140100               | Efnisbirgðir        | Eign        | Kredit         | Y                | P                     | Kostnaður við notað efni                | Þessi lykill er notaður þegar þú birtir færslubók tiltektarlista fyrir framleiðslupöntun. Mótlykill við þennan lykil er áætlaður efniskostnaður, VÍV. Upphæðin á þessum lykli er sjálfkrafa bakfærð þegar framleiðslupöntun er lokið. Þessi lykill stendur fyrir birgðalykil í efnahagsreikningi.       |
+| Áætlaður kostnaður við notað efni, VÍV | 150150               | VÍV framleiðslu – efni | Eign        | Debet          | Y                | P                     | Áætlaður kostnaður við framleiðslu, VÍV          | Þessi lykill er notaður þegar þú birtir færslubók tiltektarlista fyrir framleiðslupöntun. Mótlykill við þennan lykil er áætlaður kostnaður notaðs efnis. Upphæðin á þessum lykli er sjálfkrafa bakfærð þegar framleiðslupöntun er lokið. Þessi lykill táknar VÍV í efnahagsreikningnum þínum.                  |
+| Áætlaður kostnaður við framleiðslu               | 140200               | Fullunnar vörur í birgðum   | Eign        | Debet          | Y                | P                     | Kostnaður við framleiðslu                         | Þessi lykill er notaður þegar þú bókar skýrslu sem lokna færslubók fyrir framleiðslupöntun. Mótlykill við þennan lykil er áætlaður kostnaður við framleiðslu, VÍV. Upphæðin á þessum lykli er sjálfkrafa bakfærð þegar framleiðslupöntun er lokið. Þessi lykill stendur fyrir birgðalykil í efnahagsreikningi. |
+| Áætlaður kostnaður við framleiðslu, VÍV          | 150150               | VÍV framleiðslu – efni | Eign        | Kredit         | Y                | P                     | Kostnaður við framleiðslu, VÍV                    | Þessi lykill er notaður þegar þú bókar skýrslu sem lokna færslubók fyrir framleiðslupöntun. Mótlykill við þennan lykil er áætlaður kostnaður við framleiðslu. Upphæðin á þessum lykli er sjálfkrafa bakfærð þegar framleiðslupöntun er lokið. Þessi lykill táknar VÍV í efnahagsreikningnum þínum.                     |
+| Kostnaður við notað efni                | 140100               | Efnisbirgðir        | Eign        | Kredit         | N                 | F                     | Áætlaður kostnaður við notað efni      | Þessi lykill er notaður til að skrá efnin sem eru notuð í framleiðslupöntuninni meðan lokunarferlið er í gangi. Mótlykill við þennan lykil er kostnaðurinn við notað efni, VÍV.                                                                                                    |
+| Kostnaður við notað efni, VÍV           | 150150               | VÍV framleiðslu – efni | Eign        | Debet          | N                 | F                     | Áætlaður kostnaður við notað efni, VÍV | Þessi lykill er notaður til að skrá efnin í VÍV sem eru notuð í framleiðslupöntuninni meðan lokunarferlið er í gangi. Mótlykill við þennan lykil er kostnaðurinn við notað efni.                                                |
+| Kostnaður við framleiðslu                         | 140200               | Fullunnar vörur í birgðum   | Eign        | Debet          | N                 | F                     | Áætlaður kostnaður við framleiðslu               | Þessi lykill er notaður til að skrá kostnað á fullunnum vörum sem eru framleiddar af framleiðslupöntun þegar lokið er við framleiðslupöntunina. Mótlykill við þennan lykil er kostnaður við framleiðslu, VÍV-lykill.                                                                  |
+| Kostnaður við framleiðslu, VÍV                    | 150150               | VÍV framleiðslu – efni | Eign        | Kredit         | N                 | F                     | Áætlaður kostnaður við framleiðslu, VÍV          | Þessi lykill er notaður til að skrá kostnað á fullunnum vörur í VÍV sem eru framleiddar af framleiðslupöntun þegar lokið er við framleiðslupöntunina. Mótlykill við þennan lykil er lykill kostnaðar við framleiðslu.                                     |
 
 > [!NOTE]
-> The **Lean þjónustu WIP kvittun** og **Lean þjónusta WIP hreinsunarreikningur** eru notaðar með bakflæðiskostnaði fyrir lean framleiðslu. Fyrir frekari upplýsingar, farðu á [Backflush kostnaður](/supply-chain/cost-management/backflush-costing.md).
+> **VÍV-kvittun straumlínuþjónustu** og **VÍV-millireikningur straumlínuþjónustu** er notað með bakfærslukostnaðaraðferð fyrir straumlínuframleiðslu. Frekari upplýsingar er að finna á [Bakfærslukostnaðaraðferð](/supply-chain/cost-management/backflush-costing.md).
 

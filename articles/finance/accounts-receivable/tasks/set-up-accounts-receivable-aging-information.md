@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 5b67c33f73a33721167cedde1a8d83a81aa77db3
 ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/10/2022
 ms.locfileid: "8735403"
@@ -24,7 +24,7 @@ ms.locfileid: "8735403"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi handbók mun hjálpa þér að setja upp skilgreiningu á öldrunartímabili, aldurshópa viðskiptavina og skoða stöður í **Eldra jafnvægi** listi og **Söfn** síðu. Þessi skráning notar sýnigögn USMF fyrirtækis
+Þessari handbók hjálpar til við að setja upp skilgreiningu aldursgreiningar, greina aldur stöðu viðskiptavinar og skoða stöðu í á listanum **Aldursgreindar stöður** og síðan **Innheimta**. Þessi skráning notar sýnigögn USMF fyrirtækis
 
 
 ## <a name="create-an-aging-period-definition"></a>Stofna skilgreiningu aldurstímabils

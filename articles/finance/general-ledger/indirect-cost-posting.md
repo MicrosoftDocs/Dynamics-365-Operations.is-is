@@ -1,6 +1,6 @@
 ---
-title: Óbein kostnaðarbókun
-description: Þessi grein útskýrir hvernig á að bóka óbeinan kostnað, stofna kostnaðarflokka og bæta við hnútum við kostnaðarblaðið fyrir óbeinan kostnað.
+title: Bókun óbeins kostnaðar
+description: Í þessari grein er útskýrt hvernig á að bóka óbeinan kostnað, stofna kostnaðarflokka og bæta hnútum við kostnaðarskjalið fyrir óbeinan kostnað.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -12,160 +12,160 @@ ms.search.region: Global
 ms.author: raprofit
 ms.openlocfilehash: 04af10760ec50d60cbbc31c233109dffb786933c
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8868432"
 ---
-# <a name="indirect-cost-posting"></a>Óbein kostnaðarbókun
+# <a name="indirect-cost-posting"></a>Bókun óbeins kostnaðar
 
-Óbeinn kostnaður er kostnaður sem tengist ekki beint neinni einni starfsemi í framleiðsluferlinu. Sem dæmi má nefna stjórnunarkostnað eins og laun starfsmanna, kostnað við bókhaldsdeild og kostnaður eins og leigu, veitur og vélakostnaður.
+Óbeinn kostnaður er kostnaður sem tengist ekki neinum stökum verkþætti á beinan hátt í framleiðsluferlinu. Sem dæmi má nefna stjórnunarkostnað eins og laun starfsmanna, kostnað bókhaldsdeildar og rekstrarkostnað eins og leigu, veitur og vélakostnað.
 
-## <a name="calculating-indirect-costs"></a>Útreikningur á óbeinum kostnaði
+## <a name="calculating-indirect-costs"></a>Útreikningur óbeins kostnaðar
 
-Microsoft Dynamics 365 Finance hefur ekki sjálfvirka leið til að reikna út hlutfall fyrir óbeinan kostnað. Þú verður að ákvarða óbeina kostnaðinn þinn, búa til óbeina kostnaðarkóða og viðhalda hlutfallinu fyrir hvern óbeinan kostnað í kostnaðarblaðinu.
+Microsoft Dynamics 365 Finance er ekki með sjálfvirka leið til að reikna út hlutfallið fyrir óbeinan kostnað. Ákvarða þarf óbeinan kostnað, stofna kóða óbeins kostnaðar og vinna með taxta fyrir hvern óbeinan kostnað í kostnaðarskjalinu.
 
-Nákvæmt ferli sem er notað til að reikna út óbeinan kostnað gæti verið örlítið breytilegt eftir fyrirtækjum. Hins vegar, almennt, samanstendur ferlið af eftirfarandi grunnskrefum:
+Nákvæmt ferli sem er notað til að reikna út óbeinan kostnað getur verið breytilegt milli fyrirtækja. Ferlið samanstendur þó almennt af eftirfarandi grunnskrefum:
 
-1. Búðu til lista yfir óbeinan kostnað til að færa í framleiðslu. Þessi listi gæti innihaldið húsaleigu, stjórnunarkostnað, bókhaldsgjöld og lögfræðikostnað. Það ætti ekki að innihalda hráefniskostnað eða launakostnað sem er færður á framleiðsluleiðum.
-2. Leggðu saman allan óbeina kostnaðinn. Þú getur flokkað svipaðar tegundir óbeins kostnaðar eða haldið þeim aðskildum. Hver óbeinn kostnaður sem er stilltur getur haft mismunandi aðallykla sem eru notaðir til að bóka í fjárhag.
-3. Berðu óbeina kostnaðinn saman við þátt, sem einnig er nefndur frásogsgrundvöllur. Stuðullinn getur verið hvað sem er sem þú velur. Hér eru nokkur algeng dæmi:
+1. Stofna lista yfir óbeinan kostnað til að skrá í framleiðslu. Þessi listi gæti tekið til leigu, umsýslukostnaðar, bókhaldsgjalda og lögfræðikostnaðar. Það ætti ekki að innihalda hráefniskostnað eða launakostnað sem eru skráðir í framleiðsluleiðum.
+2. Taka saman allan óbeinan kostnað. Hægt er að flokka sams konar óbeinan kostnað eða halda honum aðskildum. Hver óbeinn kostnaður sem er grunnstilltur getur haft mismunandi aðallykla sem eru notaðir fyrir bókun í fjárhaginn.
+3. Berðu óbeinan kostnað saman við stuðul, sem einnig er nefndur hagnýtingargrunnur. Þátturinn getur verið hvað sem er sem þú velur. Hér eru nokkur algeng dæmi:
 
     - Tekjur
     - Heildarmagn sem er framleitt
     - Uppsetningartími
     - Keyrslutími
 
-    Þú getur valið tímabilið sem þú vilt reikna út óbeina kostnaðinn þinn fyrir, svo sem mánaðarlega, ársfjórðungslega eða árlega. Summa óbeina kostnaðar þíns og summa þáttar þíns ætti að vera fyrir sama tíma. Eftirfarandi formúla er notuð til að reikna út óbeina kostnaðarhlutfallið:
+    Hægt er að velja tímabilið sem á að reikna óbeinan kostnað fyrir, t.d. mánaðarlegt, ársfjórðungslegt eða árlegt. Samtala óbeins kostnaðar og þáttarins ætti að vera fyrir sömu tímalengd. Eftirfarandi reikniregla er notuð til að reikna hlutfall óbeins kostnaðar:
 
-    *Óbeinn kostnaðarhlutfall* = *Heildarkostnaður óbeinna kostnaðar*&divide;*Heildarstuðull*
+    *Óbeint kostnaðarhlutfall* = *Heildarútgjöld óbeins kostnaðar* &divide; *Samtöluþáttur*
 
-4. Búa til óbeina kostnaðarhópa.
-5. Stilltu kostnaðarblaðið með gjöldum þínum.
-6. Haltu kostnaði fyrir óbeina kostnaðinn þinn í kostnaðarútgáfunni.
+4. Stofna óbeina kostnaðarflokka.
+5. Skilgreina kostnaðarskjalið með verðinu hjá þér.
+6. Viðhaldið kostnaði vegna óbeins kostnaðar í kostnaðarútgáfunni.
 
 > [!NOTE]
-> Þú getur notað **Kostnaðarbókhald** mát til að safna kostnaði og ákvarða kostnaður þinn frá mismunandi aðilum, svo sem framleiðslu, verkefnum og fjárhag. Fyrir frekari upplýsingar, sjá [Kostnaðarbókhald](/cost-accounting/cost-accounting-home-page.md).
+> Hægt er að nota eininguna **Kostnaðarbókhald** til að safna saman kostnaði og ákvarða rekstrarkostnað frá mismunandi upprunum eins og framleiðslu, verkum og fjárhag. Nánari upplýsingar er að finna í [Kostnaðarbókhald](/cost-accounting/cost-accounting-home-page.md).
 
 > [!IMPORTANT]
-> Mismunandi eftirlitsstofnanir hafa gefið út leiðbeiningar um þær tegundir kostnaðar sem hægt er að taka með sem óbeinn kostnað eða yfirkostnað í kostnaði fullunnar vöru þinnar. Áður en þú byrjar að stilla óbeinan kostnað mælum við með því að þú hafir samband við endurskoðanda þinn og staðbundnar reglur til að tryggja að þú uppfyllir kröfur.
+> Mismunandi eftirlitsstofnanir hafa gefið út leiðbeiningar um hvers konar kostnað hægt er að hafa með sem óbeinan kostnað eða rekstrarkostnað í kostnaði fullbúinnar vöru. Áður en þú byrjar að grunnstilla óbeinan kostnað er mælt með að athuga bókhaldsreglugerðir og staðbundnar reglugerðir til að ganga úr skugga um reglufylgni.
 
-## <a name="create-cost-groups-for-indirect-costs"></a>Stofna kostnaðarhópa fyrir óbeinan kostnað
+## <a name="create-cost-groups-for-indirect-costs"></a>Stofna kostnaðarflokka fyrir óbeinan kostnað
 
-Þú verður að stofna að minnsta kosti einn kostnaðarflokk til að nota fyrir óbeinan kostnað. Það eru engin takmörk á fjölda kostnaðarflokka sem þú getur notað. Íhugaðu hvernig þú reiknar út kostnaðinn þinn og hvort það séu mismunandi verð fyrir mismunandi gerðir kostnaðar. Til dæmis framleiðir fyrirtækið þitt matvæli. Sumt hráefni og fullunnar vörur eru þurrvörur og hafa einn óbeinan kostnað fyrir vörugeymslu. Annað hráefni og fullunnar vörur eru í kæli og hafa hærri óbeinan kostnað. Í þessu tilviki gætirðu viljað búa til tvo kostnaðarflokka: **Þurrt efni yfir höfuð** og **Kælt efni yfir höfuð**.
+Það verður að stofna a.m.k. einn kostnaðarhóp til að nota fyrir óbeinan kostnað. Engin takmörk eru á fjölda kostnaðarflokka sem er hægt að nota. Íhugaðu hvernig þú reiknar út kostnaðinn og hvort mismunandi taxtar eru fyrir mismunandi gerðir af kostnaði. Til dæmis framleiðir fyrirtæki notandans matvæli. Sum hráefni og fullunnar vörur eru þurrvörur og eru með einn óbeinan kostnað fyrir vöruhús. Önnur hráefni og tilbúnar vörur eru í kæli, og hafa hærri óbeinan kostnað. Í þessu tilfelli gætirðu viljað stofna tvo kostnaðarflokka: **Kostnaður þurrefnis** og **Kostnaður kælivöru**.
 
-Til að stofna kostnaðarflokk fyrir óbeinan kostnað skal fylgja þessum skrefum.
+Til að stofna kostnaðarflokk fyrir óbeinan kostnað skaltu fylgja þessum skrefum.
 
-1. Fara til **Framleiðslueftirlit&gt; Uppsetning&gt; Leiðir&gt; Kostnaðarhópar**.
-2. Veldu **Nýtt** að búa til hóp.
-3. Í **Kostnaðarhópur** reit, sláðu inn einstakt heiti fyrir kostnaðarflokkinn, svo sem **MATOVH**.
-4. Í **Nafn** reit, sláðu inn lýsingu á kostnaðarflokknum, svo sem **Efni yfir höfuð**.
-5. Í **Tegund kostnaðarhóps** reit, veldu **Óbeint**.
-6. Valfrjálst: Í **Hegðun** reit, veldu **Fastur kostnaður** eða **Breytilegur kostnaður**.
+1. Opnið **Framleiðslustýring &gt; Uppsetning &gt; Leiðir &gt; Kostnaðarflokkar**.
+2. Veljið **Ný** til að stofna hóp.
+3. Á svæðinu **Kostnaðarflokkur** er fært inn einkvæmt heiti fyrir kostnaðarflokkinn, svo sem **MATOVH**.
+4. Í reitnum **Heiti** skal slá inn lýsingu á kostnaðarflokknum, svo sem **Sameiginlegur efniskostnaður**.
+5. Í reitnum **Kostnaðarflokksgerð** skal velja **Óbeinn**.
+6. Valfrjálst: Í reitnum **Hegðun** skal velja **Fastur kostnaður** eða **Breytilegur kostnaður**.
 
-## <a name="configure-the-costing-sheet-for-indirect-costs"></a>Stilltu kostnaðarblaðið fyrir óbeinan kostnað
+## <a name="configure-the-costing-sheet-for-indirect-costs"></a>Skilgreina kostnaðarskjal fyrir óbeinan kostnað
 
-Eftir að þú hefur búið til einn eða fleiri kostnaðarflokka geturðu stillt kostnaðarblaðið þitt með óbeinum kostnaði og skilgreint útreikninginn þinn. Þú gætir viljað flokka óbeinan kostnað í kostnaðarblaðið. Til að flokka óbeinan kostnað er hægt að stofna valfrjálsan haus í kostnaðarblaðinu. Þú verður að búa til að minnsta kosti einn hnút fyrir hvern kostnaðarflokk í kostnaðarblaðinu. Fyrir hvern kostnaðarflokk fyrir óbeinan kostnað er hægt að bæta við einum óbeinum kostnaðarútreikningum í viðbót.
+Þegar einn eða fleiri kostnaðarflokkar hafa verið stofnaðir er hægt að grunnstilla kostnaðarskjalið með óbeinum kostnaði og skilgreina útreikninginn. Þú gætir viljað draga saman óbeinan kostnað í kostnaðarskjalinu. Til að draga úr óbeinum kostnaði er hægt að búa til valfrjálsan haus í kostnaðarskjalinu. Það verður að búa til a.m.k. einn hnút fyrir hvern kostnaðarflokk í kostnaðarskjalinu. Þú getur bætt við einum óbeinum kostnaðarútreikningi fyrir hvern kostnaðarflokk fyrir óbeinan kostnað.
 
-### <a name="indirect-cost-node-types"></a>Tegundir óbeinna kostnaðarhnúta
+### <a name="indirect-cost-node-types"></a>Hnútagerðir óbeins kostnaðar
 
-Þessi hluti lýsir mismunandi gerðum hnúta fyrir óbeinan kostnað.
+Þessi hluti lýsir mismunandi tegundum hnúta fyrir óbeinan kostnað.
 
 #### <a name="surcharge"></a>Álag 
 
-**Aukagjald** er ein algengasta tegund óbeins kostnaðar. Það reiknar hlutfall af kostnaði út frá upptökugrunni kostnaðar á framleiðslupöntuninni. Þú skilgreinir frásogsgrundvöllinn með því að velja kostnaðarflokka sem eru tengdir við efni eða tímahluta þína í kostnaðarblaðinu.
+**Aukagjald** er ein algengasta tegund óbeins kostnaðar. Það reiknar út hlutfall kostnaðar af hagnýtingargrunni á grundvelli framleiðslupöntunarinnar. Hagnýtingargrunnur er skilgreindur með því að velja kostnaðarflokkana sem eru tengdir við efnis- eða tímahluta í kostnaðarskjalinu.
 
-Til dæmis gæti 3 prósenta álag bæst við framleiðslukostnað fyrir allt hráefni í framleiðslupöntun.
+Til dæmis gæti þriggja prósenta gjaldi verið bætt við framleiðslukostnað fyrir öll hráefni í framleiðslupöntun.
 
 #### <a name="rate"></a>Taxti
 
-Óbeinn kostnaður við **Gefa** gerð er notuð til að bæta fastri kostnaðarupphæð við framleiðslupöntunina frá upptökugrunni kostnaðar á framleiðslupöntuninni. Hlutfallið getur verið byggt á einni af þremur undirtegundum:
+Óbeinn kostnaður af gerðinni **Taxti** er notaður til að bæta fastri upphæð kostnaðar við framleiðslupöntun úr hagnýtingargrunni kostnaðar í framleiðslupöntuninni. Verð getur verið byggt á einni af þremur undirtegundum:
 
-- **Ferli** – Gjaldið miðast við keyrslutíma leiðarinnar.
+- **Ferli** – Verðið er byggt keyrslutíma á leiðinni.
 - **Uppsetning** – Verðið er byggt á uppsetningartímanum á leiðinni.
-- **Magn** – Hlutfallið byggist á því magni sem framleitt er.
+- **Magn** – Gengið er út frá því magni sem framleitt er.
 
-Þú skilgreinir frásogsgrundvöll með því að velja kostnaðarflokka sem eru tengdir við efni eða tímahluta í kostnaðarblaðinu.
+Hagnýtingargrunnur er skilgreindur með því að velja kostnaðarflokka sem tengdir eru við efnis- eða tímahlutann í kostnaðarskjalinu.
 
-Til dæmis er föstu upphæð 2,00 Bandaríkjadalir (USD) bætt við hverja framleiðslupöntun, byggt á keyrslutíma í leiðinni fyrir launakostnaðarhópinn í kostnaðarblaðinu þínu.
+Sem dæmi föst upphæð sem nemur 2,00 USD er bætt við hverja framleiðslupöntun samkvæmt keyrslutíma á leiðinni fyrir launakostnaðarflokkinn í kostnaðarskjalinu.
 
 #### <a name="output-unit-based"></a>Byggir á úttakseiningu
 
-Óbeinn kostnaður við **Byggt á úttakseiningu** gerð er reiknuð með því að margfalda upphæðina sem er tilgreind á **Gefa** Flýtiflipi kostnaðarblaðsins eftir valinni undirtegund. Þú getur valið magn, þyngd eða rúmmál fullunnar vöru sem margfaldara fyrir óbeina kostnaðinn.
+Óbeinn kostnaður af gerðinni **Byggir á úttakseiningu** er reiknaður með því að margfalda upphæðinni sem tilgreind er í flýtiflipanum **Taxti** í kostnaðarskjalinu með því að velja undirgerð. Hægt er að velja magn, þyngd, rúmmál fullunninnar vöru sem margfeldi fyrir óbeinan kostnað.
 
-Til dæmis, þú notar magnið til að reikna 1.50 USD af vélaafskriftum fyrir hvert magn sem er framleitt. Sem annað dæmi notarðu rúmmálið til að reikna 2.00 USD af kælikostnaði fyrir rúmmálið sem fullunnin vara tekur í kælieiningarnar þínar.
+Til dæmis er hægt að nota magnið til að reikna 1,50 USD fyrir afskrift vélar fyrir hvert framleitt magn. Annað dæmi væri rúmmál sem notað er til að reikna 2,00 USD af kostnaði við kælingu fyrir rúmmálið sem fullunnin vara tekur í kælieiningum.
 
 #### <a name="input-unit-based"></a>Byggir á inntakseiningu
 
-Óbeinn kostnaður við **Inntakseining byggð** gerð er reiknuð út með því að margfalda magn hráefna sem er neytt í framleiðslupöntun með upphæð. Hægt er að nota þyngd eða rúmmál aðfönganna á framleiðslupöntuninni til að reikna út heildina. Þú getur takmarkað útreikninginn við undirmengi efna með því að velja einn eða fleiri kostnaðarflokka á **Frásogsgrundvöllur** Flýtiflipi kostnaðarblaðsins.
+Óbeinn kostnaður af gerðinni **Byggir á inntakseiningu** er reiknaður með því að margfalda upphæð hráefnis sem notað er í framleiðslupöntun með upphæð. Þú getur notað þyngd eða rúmmál inntaka á framleiðslupöntuninni til að reikna samtöluna. Hægt er að takmarka útreikninginn við undirsafn af efni með því að velja einn eða fleiri kostnaðarflokka í flýtiflipanum **Hagnýtingargrunnur** í kostnaðarskjalinu.
 
-Til dæmis, þú notar magn inntaks fyrir tiltekinn kostnaðarflokk sem er tengdur við kældar vörur til að bæta 1.00 USD við framleiðslupöntunina.
+Til dæmis er rúmmál inntaks notað fyrir tiltekinn kostnaðarflokk sem tengdur er við kælivörur til að bæta 1,00 USD við framleiðslupöntunina.
 
-### <a name="create-a-total-node-for-indirect-costs-in-the-costing-sheet"></a>Stofna heildarhnút fyrir óbeinan kostnað í kostnaðarblaðinu
+### <a name="create-a-total-node-for-indirect-costs-in-the-costing-sheet"></a>Búa til samtöluhnút fyrir óbeinan kostnað í kostnaðarskjalinu
 
-Til að stofna heildarhnút fyrir óbeinan kostnað í kostnaðarblaðinu skal fylgja þessum skrefum.
+Til að búa til samtöluhnút fyrir óbeinan kostnað í kostnaðarskjalinu skal fylgja þessum skrefum.
 
-1. Fara til **Kostnaðarstjórnun&gt; Uppsetning óbeins kostnaðarreikningsskila&gt; Kostnaðarblað**.
-2. Í trénu, veldu hnút sem táknar kostnað vöru sem hefur verið framleidd.
-3. Veldu **Nýtt** til að búa til hnút.
-4. Í **Veldu hnútagerð** reit, veldu **Samtals**.
-5. Í **Kóði** reit, sláðu inn einstakt auðkenni fyrir hnútinn, svo sem **Framleiðslukostnaður**.
-6. Veldu **Fyrirsögn** gátreit.
-7. Veldu **Samtals** gátreit.
+1. Opnið **Kostnaðarstjórnun &gt; Uppsetning kostnaðarbókhaldreglna óbeins kostnaðar &gt; Kostnaðarskjal**.
+2. Í trénu skal velja hnút sem sýnir kostnað vara sem hefur verið framleiddar.
+3. Veljið **Ný** til að stofna hnút.
+4. Í **Velja hnútagerð** skal velja **Samtala**.
+5. Í reitnum **Kóði** skal færa inn einstakt auðkenni fyrir hnútinn, s.s. **Framleiðslukostnaður**.
+6. Veldu gátreitinn **Haus**.
+7. Veljið gátreitinn **Samtala**.
 8. Veldu **Í lagi**.
 
-### <a name="create-an-indirect-cost-group-node-in-the-costing-sheet"></a>Stofna óbeinan kostnaðarflokkshnút í kostnaðarblaðinu
+### <a name="create-an-indirect-cost-group-node-in-the-costing-sheet"></a>Búa til hnút fyrir flokk fyrir óbeinan kostnað í kostnaðarskjalinu
 
-Til að stofna óbeinan kostnaðarflokkshnút í kostnaðarblaðinu skal fylgja þessum skrefum.
+Til að búa til hnút fyrir flokk fyrir óbeinan kostnað í kostnaðarskjalinu skal fylgja þessum skrefum.
 
-1. Fara til **Kostnaðarstjórnun&gt; Uppsetning óbeins kostnaðarreikningsskila&gt; Kostnaðarblað**.
-2. Í trénu velurðu hnútinn sem þú vilt stofna óbeina kostnaðinn undir. Til dæmis, veldu heildarhnút fyrir **Framleiðslukostnaður**.
-3. Veldu **Nýtt** til að búa til hnút.
-4. Í **Veldu hnútagerð** reit, veldu **Kostnaðarhópur**.
-5. Í **Kóði** reit, sláðu inn einstakt auðkenni fyrir hnútinn, svo sem **TRANS**.
-6. Í **Lýsing** reit, sláðu inn stutta lýsingu, svo sem **Flutningur yfir höfuð**.
+1. Opnið **Kostnaðarstjórnun &gt; Uppsetning kostnaðarbókhaldreglna óbeins kostnaðar &gt; Kostnaðarskjal**.
+2. Í trénu skal velja hnútinn sem á að stofna óbeina kostnaðinn undir. Til dæmis veldu samtöluhnútinn fyrir **Framleiðsla yfirhæð**.
+3. Veljið **Ný** til að stofna hnút.
+4. Í **Velja hnútagerð** skal velja **Kostnaðarflokkur**.
+5. Í reitnum **Kóði** skal færa inn einstakt auðkenni fyrir hnútinn, s.s. **TRANSP**.
+6. Í reitinn **Lýsing** er færð stutt lýsing, svo sem **Flutningskostnaður**.
 7. Veldu **Í lagi**.
-8. Í **Kostnaðarhópur** reit, veldu kostnaðarflokk, svo sem **OVH1: Flutningur yfir höfuð**.
+8. Í reitnum **Kostnaðarflokkur** skal velja kostnaðarflokk, svo sem **OVH1: Flutningskostnaður**.
 
-### <a name="create-a-surcharge-indirect-cost"></a>Búðu til aukagjald óbeinn kostnað
+### <a name="create-a-surcharge-indirect-cost"></a>Stofna aukakostnað vegna óbeins kostnaðar
 
-Fylgdu þessum skrefum til að búa til óbeinan aukakostnað á kostnaðarblaðinu þínu.
+Til að búa til aukagjald vegna óbeins kostnaðar á kostnaðarskjalinu skaltu fylgja eftirfarandi skrefum.
 
-1. Fara til **Kostnaðarstjórnun&gt; Uppsetning óbeins kostnaðarreikningsskila&gt; Kostnaðarblað**.
-2. Í trénu velurðu óbeina kostnaðarflokkshnútinn sem þú vilt stofna óbeina kostnaðinn undir. Til dæmis, veldu heildarhnút fyrir **TRANSP - Flutningakostnaður**.
-3. Veldu **Nýtt** til að búa til hnút.
-4. Í **Veldu hnútagerð** reit, veldu **Aukagjald**.
-5. Í **Kóði** reit, sláðu inn einstakt auðkenni fyrir hnútinn, svo sem **Flutningsálag**.
+1. Opnið **Kostnaðarstjórnun &gt; Uppsetning kostnaðarbókhaldreglna óbeins kostnaðar &gt; Kostnaðarskjal**.
+2. Í trénu skal velja hnút óbeins kostnaðarflokks sem á að stofna óbeina kostnaðinn undir. Til dæmis veldu samtöluhnútinn fyrir **TRANSP – flutningskostnaður**.
+3. Veljið **Ný** til að stofna hnút.
+4. Í **Velja hnútagerð** skal velja **Aukagjald**.
+5. Í reitnum **Kóði** skal færa inn einstakt auðkenni fyrir hnútinn, s.s. **Aukagjald fyrir flutning**.
 6. Veldu **Í lagi**.
-7. Í **Undirgerð** reit, veldu **Samtals**.
-8. Á **Frásogsgrundvöllur** Flýtiflipi, veldu **Nýtt** til að búa til kostnaðarkóða.
-9. Í **Kóði** reit, veldu kostnaðarflokk til að nota til að reikna út álagið.
-10. Valfrjálst: Endurtaktu skref 8 til 9 fyrir hvern viðbótarkostnaðarflokk sem þú vilt nota við útreikninginn.
-11. Á **Aukagjald** Flýtiflipi, veldu **Nýtt** að búa til gengi.
-12. Í **Útgáfa** reit, veldu kostnaðarútgáfu til að bæta álaginu við.
-13. Valfrjálst: Í **Síða** reit, sláðu inn síðu til að nota aukagjaldið á.
-14. Í **Prósenta** reit, sláðu inn prósentuna sem á að reikna út á framleiðslupantanir úr kostnaðarflokkunum sem eru skilgreindir í **Frásogsgrundvöllur** Flýtiflipi.
-15. Á **Fjárhagsfærslur** Flýtiflipi, veldu aðalreikninginn sem á að nota fyrir **Áætlaður óbeinn kostnaður upptekinn**, **kostnaður vegna óbeins kostnaðar sem neytt er, WIP**, **kostnaður upptekinn**, og **Kostnaður við óbeinan kostnað sem neytt er, WIP** sviðum.
-16. Valfrjálst: Á **Fjárhagsstærðir** Flýtiflipi, tilgreinið allar fjárhagsvíddir sem á að færa inn sjálfgefið í færslum þegar þær eru bókaðar í fjárhag.
+7. Í svæðinu **Undirgerð** skal velja **Samtala**.
+8. Á flýtiflipanum **Hagnýtingargrunnur** er **Nýtt** valið til að búa til kostnaðarkóða.
+9. Í reitnum **Kóði** skal velja kostnaðarflokk sem á að nota til að reikna aukagjald.
+10. Valfrjálst: Endurtaktu skref 8 til 9 fyrir hvern aukalegan kostnaðarflokk sem á að nota við útreikning.
+11. Á flýtiflipanum **Aukagjald** velur þú **Nýtt** til að búa til verð.
+12. Í reitnum **Útgáfa** skaltu velja kostnaðarútgáfuna sem bæta á aukagjaldinu við.
+13. Valfrjálst: Í reitnum **Vefsvæði** skal færa inn vefsvæði til að leggja aukagjaldið á.
+14. Í reitinn **Prósenta** skal færa inn prósentu til að reikna út framleiðslupantanir úr kostnaðarflokkum sem skilgreindir eru í flýtiflipanum **Hagnýtingargrunnur**.
+15. Í flýtiflipanum **Fjárhagsbókanir** skal velja aðallykilinn til að nota fyrir reitina **Áætlaður óbeinn kostnaður nýttur**, **Áætlaður óbeinn kostnaður notaður**, **Óbeinn kostnaður nýttur** og **Kostnaður af notuðum óbeinum kostnaði, VÍV**.
+16. Valfrjálst: Í flýtiflipanum **Fjárhagsvíddir** skal tilgreina allar fjárhagsvíddir sem á að færa inn sjálfgefið í færslur þegar þær eru bókaðar í fjárhaginn.
 
-Fyrri aðferð sýnir hvernig á að búa til óbeinan kostnað við **Aukagjald** tegund. Svipuð skref eru notuð til að búa til aðrar tegundir óbeins kostnaðar. Eftirfarandi kaflar lýsa muninum fyrir hverja tegund.
+Aðferðin á undan sýnir hvernig hægt er að stofna til óbeins kostnaðar af gerðinni **Aukagjald**. Sambærileg skref eru notuð til að stofna til annars konar óbeinan kostnað. Eftirfarandi hlutar útskýra mismun fyrir hverja gerð.
 
 #### <a name="rate"></a>Taxti
 
-- Í skrefi 4, veldu **Gefa** í staðinn fyrir **Aukagjald**.
-- Í skrefi 7, veldu **Ferli**, **·**, eða **Magn** í staðinn fyrir **Samtals**.
-- Í skrefi 11, notaðu **Gefa** flýtiflipann í stað **Aukagjald** Flýtiflipi.
-- Í skrefi 14 skaltu slá inn upphæð í **Magn** reit í stað prósentu í **Prósenta** sviði.
+- Í skrefi 4 velur þú **Verð** í stað **Aukagjald**.
+- Í skrefi 7 velur þú **Ferli**, **Uppsetning** eða **Magn** í stað **Samtala**.
+- Í skrefi 11 skal nota flýtiflipann **Verð** í stað flýtiflipans **Aukagjald**.
+- Í skrefi 14 skal færa inn upphæð í reitinn **Upphæð** í stað prósentu í reitinn **Prósenta**.
 
 #### <a name="output-unit-based"></a>Byggir á úttakseiningu
 
-- Í skrefi 4, veldu **Byggt á úttakseiningu** í staðinn fyrir **Aukagjald**.
-- Í skrefi 7, veldu **Magn**, **·**, eða **Bindi** í staðinn fyrir **Samtals**.
-- Slepptu skrefum 8 til 10.
-- Í skrefi 11, notaðu **Gefa** flýtiflipann í stað **Aukagjald** Flýtiflipi.
+- Í skrefi 4 velur þú **Byggir á úttakseiningu** í stað **Aukagjald**.
+- Í skrefi 7 velur þú **Magn**, **Þyngd** eða **Rúmmál** í stað **Samtala**.
+- Sleppið skrefum 8 til 10.
+- Í skrefi 11 skal nota flýtiflipann **Verð** í stað flýtiflipans **Aukagjald**.
 
 #### <a name="input-unit-based"></a>Byggir á inntakseiningu
 
-- Í skrefi 4, veldu **Inntakseining byggð** í staðinn fyrir **Aukagjald**.
-- Í skrefi 7, veldu **Þyngd** eða **Bindi** í staðinn fyrir **Samtals**.
-- Í skrefi 11, notaðu **Gefa** flýtiflipann í stað **Aukagjald** Flýtiflipi.
+- Í skrefi 4 velur þú **Byggir á inntakseiningu** í stað **Aukagjald**.
+- Í skrefi 7 skaltu velja **Þyngd** eða **Rúmmál** í stað **Samtala**.
+- Í skrefi 11 skal nota flýtiflipann **Verð** í stað flýtiflipans **Aukagjald**.

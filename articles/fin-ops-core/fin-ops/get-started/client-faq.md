@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar biðlara
-description: Þessi grein veitir svör við algengum spurningum um fjármála- og rekstrarviðskiptavininn.
+description: Þessi grein veitir svör við algengum spurningum um biðlara fjármála- og reksturs.
 author: jasongre
 ms.date: 09/11/2019
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ca763f388bfc59951febf93f314d3df7e12c50cf
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9124429"
@@ -28,7 +28,7 @@ ms.locfileid: "9124429"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þessi grein veitir svör við algengum spurningum um fjármála- og rekstrarviðskiptavininn.
+Þessi grein veitir svör við algengum spurningum um biðlara fjármála- og reksturs.
 
 ## <a name="why-arent-symbols-loaded"></a>Hvers vegna er táknum ekki hlaðið?
 

@@ -1,6 +1,6 @@
 ---
 title: Stofna og vinna með sérstillt svæði
-description: Þessi grein sýnir þér hvernig á að búa til sérsniðna reiti í gegnum notendaviðmótið til að sníða forritið að fyrirtækinu þínu.
+description: Þessi grein sýnir hvernig á að stofna sérsniðna reiti með notandaviðmóti til að laga forritið að sínum viðskiptum.
 author: jasongre
 ms.date: 05/24/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.openlocfilehash: fdb4d0065bd12fc721ce55314c0a46fe8d17c6ef
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8847129"

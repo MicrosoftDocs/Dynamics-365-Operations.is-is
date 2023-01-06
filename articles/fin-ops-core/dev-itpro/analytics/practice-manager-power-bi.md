@@ -1,6 +1,6 @@
 ---
 title: Power BI-efni aðferðastjórnunar
-description: Þessi grein lýsir því hvað er innifalið í Practice Manager Power BI efni.
+description: Þessi grein lýsir því hvað er innifalið í Aðferðarstjóri Power BI efni.
 author: sericks007
 ms.date: 12/18/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.assetid: ''
 ms.search.form: ProjManagementWorkspace
 ms.openlocfilehash: 92c2881c89da0b23e3a66c0f8bbcafd91c38c6e3
 ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/28/2022
 ms.locfileid: "9206505"
@@ -25,7 +25,7 @@ ms.locfileid: "9206505"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því sem er innifalið í **Æfingastjóri** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
+Þessi grein lýsir því hvað er innifalið í **Aðferðarstjóri** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 

@@ -1,6 +1,6 @@
 ---
 title: Power BI-efni um Learning
-description: Þessi grein lýsir náminu Power BI efni.
+description: Þessi grein lýsir Learning Power BI efni.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: a7aca9e47ed26dcb4ef7f4b9aee72987e2d8fdd2
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9273960"
@@ -23,7 +23,7 @@ ms.locfileid: "9273960"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir **Að læra** Microsoft Power BI efni.
+Þessi grein lýsir **Learning** Microsoft Power BI efni.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni
 

@@ -1,6 +1,6 @@
 ---
-title: Hjálparkerfi (inniheldur myndband)
-description: Þessi grein veitir yfirlit yfir hjálparkerfið fyrir fjármála- og rekstrarforrit.
+title: Hjálparkerfi (inniheldur myndskeið)
+description: Í þessari grein er að finna yfirlit yfir hjálparkerfið fyrir fjármála- og reksturs-forrit.
 author: edupont04
 ms.date: 08/16/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
 ms.openlocfilehash: fa1a120fac66997658908a61469d45e96bcc4912
 ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9538838"
@@ -42,16 +42,16 @@ Notendur eftirfarandi forrita geta fengið aðgang að samhengishjálp og öðru
 
 ## <a name="help-on-microsoft-learn"></a>Hjálp á Microsoft Learn
 
-The ([Microsoft Dynamics 365 skjöl](/dynamics365/)) á Microsoft Learn er sjálfgefin heimild fyrir vöruskjölum fyrir forritin sem áður voru skráð. Þetta vefsvæði býður upp á eftirfarandi eiginleika:
+([Microsoft Dynamics 365 fylgiskjöl](/dynamics365/)) á Microsoft Learn er sjálfgefinn uppruni fyrir fylgiskjöl fyrir áður skráð forrit. Þetta vefsvæði býður upp á eftirfarandi eiginleika:
 
 - **Aðgangur að nýjasta efninu** – svæðið gefur Microsoft hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal vöru. Þess vegna er auðvelt að fá aðgang að nýjustu tækniupplýsingum.
 - **Efni sem er skrifað af sérfræðingum** – Aðilar samfélagsins, hvort sem þeir starfa hjá Microsoft eða ekki, geta lagt fram efni á vefsvæðið.
 
-Þú getur fundið efni á Microsoft Learn með því að nota hvaða leitarvél sem er. Til að ná sem bestum árangri mælum við með því að þú notir vefleit, svo sem **síða:learn.microsoft.com dynamics 365 "leitarorð"**.
+Hægt er að finna efni á Microsoft Learn með því að nota hvaða leitarvél sem er. Til að niðurstöður verði sem bestar mælum við með að þú notir leit á vefsvæðum, svo sem **site:learn.microsoft.com dynamics 365 „leitarorð"**.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Fá tilkynningu um breytingar með RSS-straumi
 
-Til að gerast áskrifandi að RSS straumi fyrir allar uppfærslur sem gerðar eru á efninu á tækniskjölum Microsoft í fjármála- og rekstraröppunum, notaðu eftirfarandi tengil:
+Til að gerast áskrifandi að RSS-straumi fyrir allar uppfærslur sem gerðar eru á efninu í tæknilegum fylgiskjölum Microsoft í öllum forritum fjármála- og reksturs, skal nota eftirfarandi tengil:
 
 [RSS-straumur](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -68,7 +68,7 @@ Einnig er hægt að gerast áskrifandi að RSS-straumi með forriti:
 
 ### <a name="leave-us-feedback"></a>Skildu eftir ábendingu
 
-Ef þú hefur athugasemdir eða spurningar um grein, skildu eftir athugasemd neðst á síðunni.
+Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um grein skaltu láta okkur vita neðst á síðunni.
 
 1. Veljið **Athugasemdir** til að sjá athugasemdir neðst á síðunni. Síðan skaltu velja **Framleiðslusvörun** eða **Skrá þig inn til að skrifa athugasemdir við fylgiskjöl**.
 
@@ -81,13 +81,13 @@ Ef þú hefur athugasemdir eða spurningar um grein, skildu eftir athugasemd ne�
 
 ## <a name="contribute-to-the-documentation"></a>Veita framlag til fylgigagna
 
-Þú getur lagt fram og gert breytingar á fylgiskjölum. Til að byrja skaltu velja **Breyta** hnappur (blýantartákn) á grein. Eftirfarandi myndband sýnir hvernig þú veitt framlag til fylgigagna okkar.
+Þú getur lagt fram og gert breytingar á fylgiskjölum. Til að hefjast handa skal velja hnappinn **Breyta** (blýantstáknið) á grein. Eftirfarandi myndband sýnir hvernig þú veitt framlag til fylgigagna okkar.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
 Myndbandið [Hvernig á að leggja sitt af mörkum til skjala Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (sýnt hér að ofan) er innifalið í rás Microsoft Dynamics 365 á YouTube.
 
-Fyrir frekari upplýsingar, sjá [Leiðbeiningar fyrir Microsoft Docs](/contribute), sem gefin er út af teyminu sem byggði Microsoft Learn síða.
+Frekari upplýsingar er að finna á [Leiðbeiningar fyrir Microsoft Docs-þátttakanda](/contribute), sem er birt af teyminu sem bjó til vefsvæðið Microsoft Learn.
 
 > [!NOTE]
 > Við samþykkjum aðeins framlög á ensku efni okkar eins og stendur.
@@ -96,7 +96,7 @@ Fyrir frekari upplýsingar, sjá [Leiðbeiningar fyrir Microsoft Docs](/contribu
 
 Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að opna (spila) verkefnaleiðbeiningar úr **Hjálp** rúðunni. Þegar er verkefnaleiðbeiningar eru valdar í fyrsta skipti mun **hjálparsvæði** sýna nákvæmar leiðbeiningar fyrir verkið. Staðfærðar verkleiðbeiningar eru í boði.
 
-Microsoft gaf út verkefnahandbókasöfn fyrir vöruútgáfur í desember 2017 útgáfunni af Dynamics 365 Finance and Operations. The [Aðgangur að verkefnaleiðbeiningum frá hjálparrúðunni](#accessing-task-guides-from-the-help-pane) hluti þessarar greinar útskýrir hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.
+Microsoft gaf út verkleiðbeiningar fyrir afurðarútgáfur í desemberútgáfu 2017 Dynamics 365 fjármála- og reksturs. Hlutinn [Fara í verkefnaleiðbeiningar úr hjálparsvæði](#accessing-task-guides-from-the-help-pane) í þessari grein lýsir því hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.
 
 ![Lesgluggi verkefnaleiðbeininga.](./media/task-guide-ops.png)
 
@@ -119,7 +119,7 @@ Velja skal hnappinn **Hjálp** (**?**) og síðan velja **Hjálp**. Einnig er h�
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Opna hjálparefni af hjálparsvæðinu
 
-Á **hjálparsvæðinu** er hægt að opna efnisatriði sem eiga við biðlarann. Þegar þú opnar **Hjálp** svæðinu fyrstu sýnir flipinn **Hjálp** þér þær greinar sem eiga við um síðuna sem þú ert á. Ef engin efnisatriði finnast er hægt að færa inn leitarorð til þess að fínstilla leitina. Þegar þú velur grein í **Hjálp** glugganum, það er opnað á nýjum flipa í vafranum þínum.
+Á **hjálparsvæðinu** er hægt að opna efnisatriði sem eiga við biðlarann. Þegar þú opnar **Hjálp** svæðinu fyrstu sýnir flipinn **Hjálp** þér þær greinar sem eiga við um síðuna sem þú ert á. Ef engin efnisatriði finnast er hægt að færa inn leitarorð til þess að fínstilla leitina. Þegar grein er valin á svæðinu **Hjálp** opnast það á nýjum flipa í vafranum.
 
 > [!IMPORTANT]
 > Þessi hluti gildir ekki um Dynamics 365 Human Resources. Hjálparkerfið fyrir mannauðskerfið er sjálfkrafa tengt við verkleiðbeiningar fyrir afurðina. Einnig er ekki hægt að stofna sérsniðnar verkleiðbeiningar fyrir mannauðsstjóra.
@@ -168,7 +168,7 @@ Hægt er að stofna hjálp fyrir notendur með því að stofna sérsniðnar ver
 
 | Svæði | Lýsing |
 |------|-------------|
-| [Microsoft Dynamics 365 skjöl](/dynamics365/) | Þetta vefsvæði hýsir eða tengir í fylgiskjöl afurðar fyrir Dynamics 365. |
+| [Microsoft Dynamics 365 fylgigögn](/dynamics365/) | Þetta vefsvæði hýsir eða tengir í fylgiskjöl afurðar fyrir Dynamics 365. |
 | [Microsoft Learn þjálfun](/training/) | Þetta vefsvæði er ókeypis Microsoft netnámskeiðssvæði. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Þetta vefsvæði veitir sameiginlegt vinnusvæði í skýi sem viðskiptaaðilar og viðskiptavinir geta notað til að stjórna verkum úr aðgerðum forsölu og framkvæmdar. Þetta er gagnlegt í öllum áföngum framkvæmdar. |
 | [Stuðningsblogg](https://aka.ms/AXSupportBlog) | Þetta vefsvæði veitir ábendingar og tækni sem eru skrifaðar inn af þjónustuveri. |

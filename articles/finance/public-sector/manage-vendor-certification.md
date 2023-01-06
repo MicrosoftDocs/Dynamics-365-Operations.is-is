@@ -1,6 +1,6 @@
 ---
 title: Vinna með lánardrottnavottorð
-description: Þessi grein lýsir skrefunum sem lánardrottnar geta notað til að viðhalda vottunum sínum með því að nota samstarfsvinnusvæði lánardrottins.
+description: Þessi grein lýsir þeim skrefum sem lánardrottnar geta notað til að viðhalda vottunum sínum með samvinnusvæði lánardrottins.
 author: TaylorVH
 ms.date: 04/27/2021
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: c66952d19cddd9d4a9a102ba59e8d6d97b75ed4d
 ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/22/2022
 ms.locfileid: "9583231"
@@ -21,7 +21,7 @@ ms.locfileid: "9583231"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir skrefunum sem söluaðilar þínir geta notað til að viðhalda vottunum sínum með því að nota **Vinnusvæði söluaðila samvinnu**. Dæmi um vottanir gæti verið Woman Business Enterprise (WBE) eða Leadership in Energy and Environment Design (LEED) fyrirtæki. Lánardrottnar þurfa að fylla út upplýsingar um vottorð í vinnusvæðið **Lánardrottnaupplýsingar**. Þaðan velja lánardrottnar **Frekari upplýsingar** og velja svo **Vottanir**.
+Þessi grein lýsir þeim skrefum sem lánardrottnar geta notað til að viðhalda vottunum sínum með **Samvinnusvæði lánardrottins**. Dæmi um vottanir gæti verið Woman Business Enterprise (WBE) eða Leadership in Energy and Environment Design (LEED) fyrirtæki. Lánardrottnar þurfa að fylla út upplýsingar um vottorð í vinnusvæðið **Lánardrottnaupplýsingar**. Þaðan velja lánardrottnar **Frekari upplýsingar** og velja svo **Vottanir**.
 
 ## <a name="turn-on-the-vendor-certification-feature"></a>Kveiktu á vottunareiginleika lánardrottins
 

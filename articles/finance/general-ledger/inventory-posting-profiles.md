@@ -1,6 +1,6 @@
 ---
-title: Skráningarsnið
-description: Þessi grein veitir yfirlit yfir birgðafærslusnið.
+title: Birgðabókunarreglur
+description: Þessi grein veitir yfirlit yfir birgðabókunarreglur.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -17,139 +17,139 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cae5b39ef8e6e153fe522dee1874deae2a2cb86e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8901343"
 ---
-# <a name="inventory-posting-profiles"></a>Skráningarsnið
+# <a name="inventory-posting-profiles"></a>Birgðabókunarreglur
 
 [!include [banner](../includes/banner.md)]
 
-Birgðabókunarsnið stjórna bókun á birgðaundirbókarfærslum í aðalbókina. Hægt er að búa til birgðafærslur úr mörgum einingum, þar á meðal **Sala og markaðssetning**, **og innkaup**, **·**, og fleira. Birgðaundirbókarfærslur gætu verið bókaðar hvenær sem vara er notuð í sölupöntun eða innkaupapöntun. 
+Birgðabókunarreglur stýra bókun á birgðaundirbókarfærslum í fjárhag. Hægt er að stofna fjárhagsfærslur undirbókar úr mörgum einingum þ.m.t. **Sala og markaðssetning**, **Innkaup og aðföng**, **Framleiðslustýring** og fleira. Birgðafærslur undirbókar gætu verið bókaðar í hvert skipti sem vara er notuð í sölupöntun eða innkaupapöntun. 
 
-Viðbótarfærslur í birgðaundirbók gætu verið bókaðar:
-- Í hvert sinn sem skjal er uppfært.
-- Þegar fylgiseðill sölupöntunar eða reikningur er bókaður.
-- Þegar innkaupapöntun vörukvittun eða reikningur er myndaður.
+Fleiri birgðaundirbókarfærslur gætu verið bókaðar:
+- Í hvert skipti sem skjal er uppfært.
+- Þegar fylgiseðill eða reikningur sölupöntunar er bókaður.
+- Þegar afurðarinnhreyfing innkaupapöntunar eða reiknings er stofnuð.
 
-Fyrir frekari upplýsingar, farðu í Birgðafærslur undirbókar.
+Frekari upplýsingar er að finna á „Undirbókarfærslur birgða“.
 
-## <a name="inventory-transaction-overview"></a>Yfirlit yfir birgðafærslur
+## <a name="inventory-transaction-overview"></a>Birgðafærsluyfirlit
 
-Hver birgðaundirbókarfærsla inniheldur:
+Hver undirbókarfærsla birgða inniheldur:
  - Magn 
  - Verð 
  - Svæði 
  - Vöruhús 
  - Staðsetning 
 
-Birgðaundirbókarfærslur búa til tvær færslur í aðalbókinni í gegnum efnisbókunina og fjárhagsbókunina. Fyrir frekari upplýsingar, farðu á [Líkamlegar og fjárhagslegar uppfærslur](/supply-chain/cost-management/physical-financial-updates.md).
-Eftirfarandi dæmi er innkaupapöntun með þremur línum. Í þessu dæmi, gerðu ráð fyrir að öll pöntunin sé fyrir eina síðu og vöruhús. Hver innkaupapöntunarlína hefur eina tengda InventTrans skrá – einnig þekkt sem birgðafærsla – og hver lína er fyrir 10 magn. Eftirfarandi skýringarmynd sýnir tengsl eins innkaupapöntunarhauss við þrjár innkaupapöntunarlínur, hver með einni InventTrans færslu.
+Birgðafærslur undirbókar stofna tvær færslur í fjárhagnum í gegnum efnislega bókun og fjárhagslega bókun. Frekari upplýsingar er að finna á [Efnislegar og fjárhagslegar uppfærslur](/supply-chain/cost-management/physical-financial-updates.md).
+Eftirfarandi dæmi er innkaupapöntun með þremur línum. Í þessu dæmi gerum við ráð fyrir að öll pöntunin sé fyrir eitt vefsvæði og vöruhús. Hver innkaupapöntunarlína er með eina tengda InventTrans færslu – einnig þekkt sem birgðafærsla – og hver lína er fyrir magn upp á 10. Eftirfarandi skýringarmynd sýnir tengsl eins innkaupapöntunarhauss við þrjár innkaupapöntunarlínur, hver með eina InventTrans færslu.
 
-![Tengsl skýringarmynd fyrir innkaupapöntun með þremur línum hver með einni InventTrans færslu.](./media/InventTransRelationship.PNG)
+![Tengslaskýringarmynd fyrir innkaupapöntun með þremur línum, hver með eina InventTrans-færslu.](./media/InventTransRelationship.PNG)
 
-Magn upp á 5 er móttekið í fyrstu innkaupapöntunarlínu. Allt magn fyrir aðra línu og ekkert magn móttekið á þriðju línu innkaupapöntunarinnar. Það er nú önnur birgðafærsla sem tengist fyrstu innkaupapöntunarlínunni. Færslan fyrir aðra innkaupapöntunarlínu verður uppfærð í **Tekið á móti**, og þriðja viðskiptin verða óbreytt. Eftirfarandi skýringarmynd sýnir tengslin við viðbótar InventTrans færslu fyrir innkaupapöntunarlínu 1.
+Tekið er á móti 5 í fyrstu innkaupapöntunarlínu. Fullt magn fyrir aðra línuna og ekkert magn móttekið í þriðju línu innkaupapöntunarinnar. Nú er önnur birgðafærsla í tengslum við fyrstu innkaupapöntunarlínuna. Færslan fyrir aðra innkaupapöntunarlínuna verður uppfærð í **Móttekið** og þriðja færslan verður óbreytt. Eftirfarandi skýringarmynd sýnir sambandið við viðbótarfærslu InventTrans fyrir innkaupapöntunarlínu 1.
 
-![Tengsl skýringarmynd fyrir innkaupapöntun með þremur línum. Ein lína er móttekin að hluta og sýnir tvær InventTrans færslur.](./media/InventTransRelationshipPartialReceipt.PNG)
+![Tengslaskýringarmynd fyrir innkaupapöntun með þremur línum. Ein lína er að hluta til móttekin og sýnir tvær InventTrans-færslur.](./media/InventTransRelationshipPartialReceipt.PNG)
 
-Í þessu dæmi verður fylgiskjal bókað í aðalbókina; þetta er líkamlega skírteinið. Vörulíkanaflokkurinn er stilltur til að bóka efnislegar birgðir og allar vörur nota sama vörulíkanaflokk. Birgðabókunarsniðið notar eitt sett af aðalreikningum. Einn skírteini verður búinn til og InventTrans skráin mun tengja bæði InventTrans 1 og InventTrans 2 við sama skírteini.
+Í þessu dæmi er fylgiskjal bókað í fjárhag. Þetta er efnislega fylgiskjalið. Vörulíkanaflokkurinn er grunnstilltur til að bóka efnislegar birgðir og allar vörur nota sama vörulíkanaflokkinn. Birgðabókunarreglan er notuð með einu setti af aðallyklum. Eitt fylgiskjal verður búið til og InventTrans færslan mun tengja bæði InventTrans 1 og InventTrans 2 við sama fylgiskjalið.
 
-Næst berst reikningur fyrir magnið sem er móttekið á línum 1 og 2. Annað fylgiskjal er búið til í aðalbókinni; þetta er fjárhagsskírteinið. Vörulíkanaflokkurinn er stilltur til að bóka fjárhagsbirgðir. Nýja seinni skírteinið tengist InventTrans 1 og InventTrans 2.
+Því næst er reikningur móttekinn fyrir magnið sem er móttekið á línum 1 og 2. Annað fylgiskjal er stofnað í fjárhagnum; þetta er fjárhagslegt fylgiskjal. Vörulíkanaflokkurinn er grunnstilltur til að birta fjárhagslegar birgðir. Nýr annar afsláttarmiði tengist InventTrans 1 og InventTrans 2.
 
-Það fer eftir kostnaðarlíkaninu, þriðja fjárhagsbókun gæti verið til fyrir birgðaundirbókarfærslur þínar sem tengjast lokun og uppgjöri birgða. Fyrir frekari upplýsingar, farðu á [Birgðalokun](/supply-chain/cost-management/inventory-close.md). Þú getur skoðað upplýsingar um allar birgðafærslur með því að fara á **Vörustjórnun** > **Fyrirspurnir og skýrslur** > **Viðskipti**.
+Það fer eftir líkani kostnaðarútreiknings hvort þriðja fjárhagsbókunin er til staðar fyrir birgðafærslur undirbókar sem tengjast lokun og jöfnun birgðanna. Frekari upplýsingar er að finna á [Birgðalokun](/supply-chain/cost-management/inventory-close.md). Hægt er að skoða upplýsingar um allar birgðafærslur með því að fara í **Birgðastjórnun** > **Fyrirspurnir og skýrslur** > **Færslur**.
 
 >[!Important]
-> Birgðafærslunum verður skipt fyrir hverja einstaka samsetningu birgðavídda og fyrir hverja hlutauppfærslu. Þetta var sýnt í dæminu á undan fyrir uppfærslur að hluta.
+> Birgðafærslum verður skipt fyrir hverja einstaka samsetningu birgðavídda og fyrir hverja hlutauppfærslu. Þetta var sýnt í dæminu á undan fyrir hlutauppfærslur.
 
-### <a name="split-inventory-based-on-inventory-dimension-example"></a>Skiptu birgðum byggt á birgðavíddardæmi
+### <a name="split-inventory-based-on-inventory-dimension-example"></a>Dæmi um skiptingu birgða á grunni birgðavíddar
 
-Innkaupapöntunarlínan 3 í dæminu er raðnúmeruð vara. Tíu raðnúmer eru skráð fyrir innkaupapöntunina meðan á móttökuferlinu stendur. Birgðafærslunni verður skipt í 10 birgðafærslur. Eftirfarandi skýringarmynd sýnir sambandið og viðbótarbirgðafærslur, hver með sínu raðnúmeri sem tengist innkaupapöntunarlínu 3.
+Innkaupapöntunarlína 3 í dæminu er raðtengd vara. Tíu raðnúmer eru skráð fyrir innkaupapöntuninni í móttökuferlinu. Birgðafærslunni verður skipt upp í 10 birgðafærslur. Eftirfarandi skýringarmynd sýnir tengslin og frekari birgðafærslur, hver með sitt raðnúmer sem tengist innkaupapöntunarlínu 3.
 
-![Tengsl skýringarmynd fyrir innkaupapöntun með þremur línum. Ein lína er sett í röð og sýnir fleiri InventTrans færslur](./media/InventTransRelationshipSerialNumber.PNG)
+![Tengslaskýringarmynd fyrir innkaupapöntun með þremur línum. Ein lína er raðgreind og sýnir fleiri InventTrans-færslur.](./media/InventTransRelationshipSerialNumber.PNG)
 
-Í dæminu hér að ofan, ef hvert raðnúmer er móttekið á einni vörukvittun, verður ein aukaskírteini búin til. Raunverulegi fylgiskjölareiturinn verður tengdur hverju raðnúmeri. Sama gildir um fjárhagsuppfærsluna þegar þú reikningsfærir innkaupapöntunina.
+Í dæminu hér að ofan, ef hvert raðnúmer er móttekið í einu innhreyfingarskjali afurðar verður annað fylgiskjal búið til. Reiturinn fyrir efnislegt fylgiskjal verður tengdur við hvert raðnúmer. Það sama á við um fjárhagsuppfærsluna þegar þú reikningsfærir innkaupapöntunina.
 
 ## <a name="inventory-transactions"></a>Birgðafærslur
 
-Þú getur skoðað birgðafærslur á **Birgðaviðskipti** síðu undir **Birgða- og vörustjórnun** eða **Kostnaðarstjórnun**. Þú getur líka skoðað birgðafærslur sem tengjast tiltekinni upprunaskjalslínu—svo sem innkaupapöntunarlínu eða sölupöntunarlínu—með því að velja **Birgðir** og velja síðan **Viðskipti**. 
+Hægt er að skoða birgðafærslur á síðunni **Birgðafærslur** undir **Birgða- og vöruhúsakerfi** eða **Kostnaðarstjórnun**. Einnig er hægt að skoða birgðafærslur sem tengjast tiltekinni upprunaskjalalínu - svo sem innkaupapöntunarlínu eða sölupöntunarlínu - með því að velja **Birgðir** og velja svo **Færslur**. 
 
-The **Birgðaviðskipti** síða inniheldur eftirfarandi reiti.
+Síðan **Birgðafærslur** inniheldur eftirfarandi reiti.
 
-| Reitur            | Lýsing                                 |
+| Svæði            | Lýsing                                 |
 |------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vörunúmer      | Vörunúmerið sem tengist viðskiptunum.                                                                  |
-| Efnisleg dagsetning    | Dagsetningin sem birgðahaldið kemur í vöruhúsið, fer úr vöruhúsinu, er notað í framleiðslu eða framleitt. Til dæmis, birtingardagsetning á
-Bókun fylgiseðils fyrir sölupöntun eða vörukvittunarbókun fyrir innkaupapöntun.                             |
-| Fjárhagsdagsetning   | Dagsetningin sem birgðafærslunni er lokað og kostnaðurinn er skráður í fjárhag. Til dæmis, bókunardagsetningin á reikningnum 
-Kynslóð fyrir sölu- eða innkaupapöntun. Uppfærslur á tilvísunarskjalinu eru ekki leyfðar eftir að fjárhagsdagsetning er fyllt út. |
-| Tilvísun        | Gefur til kynna uppruna færslunnar og tegund skjals sem birtist í **Númer** sviði. Til dæmis sölupöntun, innkaupapöntun eða kvittun fyrir flutningspöntun.                                                 |
-| Númer           | Gefur tilvísunarauðkenni fyrir færslu. Til dæmis, ef **Tilvísun** reiturinn sýnir sölupöntun, sem **Númer** reiturinn sýnir sölupöntunarnúmerið.                                                       |
-| Kvittun (staða) | Fyrir birgðafærslur sem eru innhreyfingar sýnir þessi reitur stöðu innhreyfingarinnar. Til dæmis er innkaupapöntun kvittun og staðan gæti verið **Pantaði** eða **Keypt**.                                                            |
-| Mál (staða)   | Fyrir birgðafærslur sem eru útgáfur gefur þessi reitur til kynna stöðu útgáfunnar. Til dæmis er sölupöntun vandamál og staðan gæti verið **Á pöntun** eða **Seldur**.                         |
-| Magn         | Magn birgðafærslunnar. Jákvæðar tölur eru notaðar fyrir innhreyfingar til birgða á meðan neikvæðar tölur eru notaðar fyrir útgáfur úr birgðum.                                                                                                                          |
+| Vörunúmer      | Vörunúmer tengt færslunni.                                                                  |
+| Efnisleg dagsetning    | Dagsetningin sem birgðirnar koma í vöruhúsið, fara úr vöruhúsinu, eru notaðar í framleiðslu eða eru framleiddar. Til dæmis bókunardagsetningin á
+fylgiseðillinn fyrir sölupöntun eða bókun innhreyfingarskjals afurðar fyrir innkaupapöntun.                             |
+| Fjárhagsdagsetning   | Dagsetning birgðafærslunnar er lokuð og kostnaðurinn er skráður í fjárhag. Til dæmis bókunardagsetningin á reikningnum 
+myndun fyrir sölu- eða innkaupapöntun. Uppfærslur á tilvísunarskjalinu eru ekki leyfðar eftir að fjárhagsdagur er fylltur út. |
+| Tilvísun        | Gefur til kynna uppruna færslunnar og tegund fylgiskjalsins sem birtist í reitnum **Númer**. Til dæmis innhreyfing sölupöntunar, innkaupapöntunar eða flutningspöntunar.                                                 |
+| Númer           | Gefur til kynna tilvísanakenni færslu. Ef til dæmis reiturinn **Tilvísun** gefur til kynna sölupöntun gefur reiturinn **Númer** til kynna sölupöntunarnúmerið.                                                       |
+| Innhreyfing (staða) | Í birgðafærslum sem eru innhreyfingar sýnir þessi reitur stöðu innhreyfingarinnar. Til dæmis er innkaupapöntun innhreyfing og staða gæti verið **Pantað** eða **Keypt**.                                                            |
+| Útgáfa (staða)   | Fyrir birgðafærslur sem eru vandamál sýnir þessi reitur stöðu vandamálsins. Til dæmis er sölupöntun vandamál og staðan gæti verið **Í pöntun** eða **Selt**.                         |
+| Magn         | Magn birgðafærslunnar. Jákvæðar tölur eru notaðar fyrir innhreyfingar á birgðum á meðan neikvæðar tölur eru notaðar fyrir úthreyfingar úr birgðum.                                                                                                                          |
 | Eining             | Mælieiningin sem magnið er gefið upp í.                                                                                   |
-| Þyngd afurðar, magn      | Aflaþyngdarmagn fyrir viðskiptin. Fyrir frekari upplýsingar, farðu á [Um aflaþyngdarhluti](/dynamicsax-2012/appuser-itpro/about-catch-weight-items.).       |
-| Þyngd afurðar, eining          | Aflaþyngdarmælieiningin sem aflaþyngdarmagnið er gefið upp í.                                                         |
-| Kostnaðarupphæð      | Lokakostnaður við birgðafærsluna. Þessi reitur er fylltur út þegar færsla er fjárhagslega uppfærð. Það fer eftir kostnaðaraðferðinni, birgðalokun og leiðréttingarferlið gæti uppfært þennan reit.                            |
+| Þyngd afurðar, magn      | Magn framleiðsluþyngdar fyrir færsluna. Frekari upplýsingar er að finna á [Um framleiðsluþyngd vara](/dynamicsax-2012/appuser-itpro/about-catch-weight-items.).       |
+| Þyngd afurðar, eining          | Mælieining framleiðsluþyngdar sem framleiðsluþyngdarmagnið er gefið upp í.                                                         |
+| Kostnaðarupphæð      | Endanlegur kostnaður við birgðafærsluna. Þessi reitur er fylltur út þegar færsla er uppfærð fjárhagslega. Birgðalokun og breytingarferli gætu uppfært þennan reit eftir því hvaða aðferð kostnaðarútreiknings er notuð.                            |
 
 ## <a name="inventory-status"></a>Birgðastaða
 
-Hver birgðafærsla hefur stöðu sem birtist í annaðhvort **Kvittun** eða the **Mál** sviði. Reiturinn sem er notaður fer eftir gerð birgðafærslur. Kvittanir eru færslur sem auka birgðahaldið. Til dæmis, innkaupapöntun með jákvætt magn eða sölupöntun skilar með neikvætt magn. Útgáfur eru birgðafærslur sem minnkuðu birgðahaldið. Til dæmis, sölupöntun með jákvætt magn eða innkaupapöntun skilar með neikvætt magn.
+Hver birgðafærsla er með stöðu sem er sýnd í annaðhvort reitnum **Innhreyfing** eða **Úthreyfing**. Reiturinn sem er notaður fer eftir gerð birgðafærslna. Innhreyfingar eru færslur sem auka birgðirnar. Til dæmis innkaupapöntun með jákvæðu magni eða sölupöntun með neikvæðu magni. Vandamál eru birgðafærslur sem minnkuðu birgðir. Til dæmis sölupöntun með jákvæðu magni eða innkaupapöntun með neikvæðu magni.
 
 ### <a name="receipt-status"></a>Staða innhreyfingar
 
-Eftirfarandi tafla lýsir **Kvittun** stöðu.
+Eftirfarandi tafla lýsir stöðu **Innhreyfing**.
 
 | **Staða innhreyfingar** | **Lýsing**       |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Raðað            | Upphafsstaða hvers kyns birgðafærslu sem táknar kvittun. Þetta felur í sér innkaupapantanir með jákvætt magn, framleiðslupantanir eða sölupöntunarskil með neikvætt magn.                                                   |
-| Skráð         | Þessi staða er notuð þegar tveggja þrepa móttökuferli er til staðar eða þegar vörukoma er notuð til að gefa til kynna að vara sé komin. Það er notað þegar lotu- eða raðnúmerum er „úthlutað“ eða skráð á pöntunina. Fyrir frekari upplýsingar um komu vöru, farðu á [Yfirlit um komu](/supply-chain/inventory/arrival-overview.md). |
-| Móttekið           | Þessi staða er notuð þegar færslan er líkamlega uppfærð. Fyrir innkaupapöntun er þetta þegar vörukvittun er bókuð. Fyrir skil á sölupöntun er þetta þegar fylgiseðillinn er bókaður.                                                                            |
-| Keypt          | Þessi staða er notuð þegar færslan er fjárhagslega uppfærð. Fyrir innkaupapöntun eða skilapöntun er þetta þegar reikningurinn er búinn til.                                                                                             |
+| Raðað            | Upphafleg staða birgðafærslna sem tákna innhreyfingu. Þar með talið eru innkaupapantanir með jákvæðu magni, framleiðslupantanir eða sölupöntunarskil með neikvæðu magni.                                                   |
+| Skráð         | Þessi staða er notuð þegar tveggja skrefa móttökuferli er til staðar eða þegar vörukoma er notuð til að gefa til kynna að varan sé komin. Það er notað þegar runu- eða raðnúmerum er "úthlutað" eða skráð á pöntunina. Frekari upplýsingar um komu vöru er að finna í [Komuyfirlit](/supply-chain/inventory/arrival-overview.md). |
+| Móttekið           | Þessi staða er notuð þegar færslan er uppfærð efnislega. Fyrir innkaupapöntun er þetta þegar innhreyfingarskjal afurða er bókað. Fyrir sölupöntunarskil er þetta tími bókunar fylgiseðilsins.                                                                            |
+| Keypt          | Þessi staða er notuð þegar færslan er uppfærð fjárhagslega. Fyrir skil á innkaupapöntun eða sölupöntun er það þegar reikningurinn er myndaður.                                                                                             |
 
-### <a name="issue-status"></a>Staða úthreyfingar
+### <a name="issue-status"></a>Útgáfustaða
 
-Eftirfarandi tafla lýsir **Mál** stöðu.
+Eftirfarandi tafla lýsir stöðu **Úthreyfing**.
 
-| **Staða úthreyfingar**  | **Lýsing**            |
+| **Útgáfustaða**  | **Lýsing**            |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| Í pöntun          | Upphafsstaða hvers kyns birgðafærslu sem táknar mál. Þetta felur í sér sölupantanir með jákvætt magn, framleiðslupantanir uppskrift eða formúlulínur, eða innkaupapantanir með neikvætt magn.                                             |
-| Frátekið pantað  | Þessi birgðastaða gefur til kynna að birgðir séu fráteknar gegn pöntun sem hefur verið stofnuð, en ekki enn móttekin líkamlega í birgðum. Þegar birgðin er móttekin mun staðan sjálfkrafa uppfæra í **Frátekið líkamlegt**. Fyrir frekari upplýsingar um bókanir, farðu á [Varabirgðamagn](/supply-chain/inventory/reserve-inventory-quantities.md). |
-| Frátekið á lager | Þessi staða gefur til kynna að birgðum hafi verið úthlutað eða frátekið gegn tiltekinni pöntun. Þegar birgðir eru fráteknar eru þær ekki líkamlega tiltækar fyrir aðrar pantanir.                                 |
-| Tekið til         | Þetta gefur til kynna að birgðin hafi verið tekin úr vöruhúsinu. Birgðin er enn líkamlega í vöruhúsinu, hefur ekki verið fjarlægð, en er ekki tiltæk fyrir aðrar pantanir.  |
-| Frádregið          | Þessi staða er notuð þegar færslan er líkamlega uppfærð. Fyrir sölupöntun er þetta þegar fylgiseðillinn er bókaður; fyrir innkaupapöntun, þetta þegar vörukvittun er bókuð.                                                                      |
-| Selt              | Þetta er staða sem notuð er þegar viðskiptin eru fjárhagslega uppfærð. Fyrir innkaupapöntun eða sölupöntun er þetta þegar reikningurinn er búinn til.|
+| Í pöntun          | Upphafleg staða birgðafærslna sem táknar vandamál. Þetta á við um sölupantanir með jákvæðu magni, uppskrift framleiðslupöntunar eða formúlulínur eða innkaupapöntunarskil með neikvæðu magni.                                             |
+| Frátekið pantað  | Þessi birgðastaða gefur til kynna að birgðir séu fráteknar vegna pöntunar sem var stofnuð, en ekki ennþá efnislega fráteknar í birgðum. Þegar birgðirnar eru mótteknar uppfærist staðan sjálfkrafa í **Frátekið efnislegt magn**. Frekari upplýsingar um frátektir er að finna í [Taka frá birgðamagn](/supply-chain/inventory/reserve-inventory-quantities.md). |
+| Frátekið á lager | Þessi staða gefur til kynna að birgðum hafi verið úthlutað eða þær teknar frá vegna tiltekinnar pöntunar. Þegar birgðir eru fráteknar eru þær ekki efnislega í boði fyrir aðrar pantanir.                                 |
+| Tekið til         | Þetta gefur til kynna að birgðirnar hafi verið sóttar úr vöruhúsinu. Birgðirnar eru enn í vöruhúsinu, þær hafa ekki verið fjarlægðar en eru ekki tiltækar fyrir aðrar pantanir.  |
+| Frádregið          | Þessi staða er notuð þegar færslan er uppfærð efnislega. Fyrir sölupöntun er þetta þegar fylgiseðill er bókaður; fyrir innkaupapöntunarskila er þetta þegar innhreyfingarskjal er bókað.                                                                      |
+| Selt              | Þetta er staðan sem er notuð þegar færslan er uppfærð fjárhagslega. Fyrir innkaupapöntun eða sölupöntun er þetta þegar reikningurinn er myndaður.|
 
-Frekari upplýsingar um birgðafærslurnar er að finna á [Upplýsingar um birgðafærslur](/supply-chain/inventory/inventory-transactions-details.md).
+Frekari upplýsingar um birgðafærslurnar er að finna í [Birgðafærsluupplýsingar](/supply-chain/inventory/inventory-transactions-details.md).
 
-## <a name="configure-an-inventory-posting-profile"></a>Stilltu birgðafærslusnið
+## <a name="configure-an-inventory-posting-profile"></a>Skilgreina birgðabókunarreglu
 
-Til að stilla birgðafærslusnið skaltu fylgja þessum skrefum:
+Til að stilla birgðabókunarreglu skal fylgja þessum skrefum:
 
-1.  Opið **Vörustjórnun** > **Uppsetning** > **Birting** > **Birting**.
-2.  Veldu flipann fyrir tegund viðskipta. Til dæmis, veldu **Pöntun**.
-3.  Veldu valhnappinn fyrir gerð færslunnar. Til dæmis, veldu **Kaup útgjöld fyrir kostnað**.
+1.  Opnið **Birgðastjórnun** > **Uppsetning** > **Bókun** > **Bókun**.
+2.  Veljið flipann fyrir gerð færslunnar. Veljið t.d. **Innkaupapöntun**.
+3.  Veljið hnapp fyrir bókunargerðina. Veljið t.d. **Innkaupaútgjöld kostnaðar**.
 4.  Veljið **Nýtt**.
-5.  Í **Vörukóði** reit, veldu valkost fyrir **Tafla**, **·**, **·**, eða **Flokkur**. Til dæmis, til að stilla færslusnið fyrir tiltekinn vöruflokk, veldu **Hópur**.
-     - Ef þú valdir **Tafla** í skrefi 5, veldu tiltekið vörunúmer fyrir færslusniðið í **Atriðatengsl** sviði.
-     - Ef þú valdir **Hópur** í skrefi 5, veldu **Atriðahópur** fyrir færslusniðið í **Atriðatengsl** sviði.
-     - Ef þú valdir **Allt** í skrefi 5, sem **Atriðatengsl** reiturinn verður auður.
-     - Ef þú valdir **Flokkur** í skrefi 5, sem **Atriðatengsl** reiturinn verður auður. Nota **Flokkstengsl** reitinn til að velja flokkinn sem færslusniðið á við.
+5.  Veljið valkost á svæðinu **Vörukóði** fyrir **Tafla**, **Flokkur**, **Allt** eða **Flokkur**. Til dæmis, til að skilgreina bókunarreglu fyrir tiltekinn vöruflokk, velur þú **Hópur**.
+     - Ef **Tafla** var valin í skrefi 5 skal velja vörunúmer fyrir bókunarregluna í reitnum **Vöruvensl**.
+     - Ef **Flokkur** er valið í skrefi 5 skal velja **Vöruflokkur** fyrir bókunarregluna á svæðinu **Vöruvensl**.
+     - Ef **Allt** er valið í 5. skrefi er reiturinn **Vöruvensl** auður.
+     - Ef **Flokkur** er valið í 5. skrefi er reiturinn **Vöruvensl** auður. Notið reitinn **Tegundavensl** til að velja flokkinn sem bókunarreglan á við um.
 
-6.  Í **Reikningskóði** reit, veldu valkost fyrir **Tafla**, **·**, eða **Allt**. Til dæmis, til að nota bókunarsniðið á alla lánardrottna skaltu velja **Allt**.
-     - Ef þú valdir **Tafla** í skrefi 5, veldu tiltekið númer lánardrottins fyrir bókunarsniðið í **Reikningstengsl** sviði.
-     - Ef þú valdir **Hópur** í skrefi 5, veldu lánardrottnahópinn fyrir bókunarsniðið í **Reikningstengsl** sviði.
-     - Ef þú valdir **Allt** í skrefi 5, sem **Reikningstengsl** reiturinn verður auður.
+6.  Á svæðinu **Kóði lykils** skal velja valkost fyrir **Tafla**, **Flokkur** eða **Allt**. Til dæmis til að úthluta bókunarreglu á alla lánardrottna skal velja **Allt**.
+     - Ef **Tafla** var valið í skrefi 5 skal velja tiltekið númer lánardrottins fyrir bókunarregluna í reitnum **Lyklavensl**.
+     - Ef **Flokkur** var valið í skrefi 5 skal velja lánardrottnaflokk fyrir bókunarregluna í reitnum **Lyklavensl**.
+     - Ef **Allt** er valið í 5. skrefi er reiturinn **Lyklavensl** auður.
 
-7.  Til að tengja tiltekinn skattflokk sem hefur valda bókunargerð, veldu a **Vöruskattshópur**. Ef þessi reitur er auður gildir bókunargerðin fyrir alla skattaflokka sem fyrir eru. Bókun sem er tilgreind fyrir skattflokka á aðeins við um sölu- og innkaupafærslur.
-8.  Tilgreindu reikningsnúmerið til að bóka reikningsgerðina á **Aðalreikningur** sviði. Ef reikningsnúmer hefur ekki verið búið til til að nota sem bókhaldstegund geturðu búið til nýjan reikning. Þú býrð til nýjan reikning í **Aðalreikningsupplýsingar** síðu í aðalbók.
+7.  Til að tengja tiltekinn skattflokk sem er með valda bókunargerð skal velja **VSK-flokkur**. Ef þetta svæði er autt mun bókunargerðin eiga við um alla fyrirliggjandi skattaflokka. Bókun sem er tilgreind fyrir skattflokka á einungis við um sölu- og innkaupafærslur.
+8.  Tilgreinið lykilnúmerið til að bóka við lykilgerðina á svæðinu **Aðallykill**. Ef lykilnúmer hefur ekki verið stofnað til að nota sem bókhaldsgerð er hægt að stofna nýjan lykil. Þú stofnar nýjan lykil á síðunni **Upplýsingar um aðallykil** í fjárhag.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-Hver flipi á **Birgðafærslusnið** síða tengist undirbók í Dynamics 365 Supply Chain Management. Fyrir frekari upplýsingar, farðu á:
+Hver flipi á síðunni **Birgðabókunarregla** tengist undirbók í Dynamics 365 Supply Chain Management. Nánari upplýsingar má sjá á:
 -   [Bókun sölupöntunar](sales-order-posting.md)
 -   [Bókun innkaupapöntunar](purchase-order-posting.md)
 -   [Birgðabókun](inventory-posting.md)
--   [Framleiðslueftirlit](production-posting.md)
--   [Bókun staðlaðrar kostnaðarfráviks](standard-cost-variance-posting.md)
+-   [Bókun á framleiðslustýringu](production-posting.md)
+-   [Bókun á stöðluðu kostnaðarfráviki](standard-cost-variance-posting.md)

@@ -1,6 +1,6 @@
 ---
 title: Bókunargerðir leigusamnings
-description: Þessi grein lýsir bókunartegundum sem eru notaðar fyrir eignaleigufærslur.
+description: Þessi grein lýsir bókunargerðunum sem eru notaðar fyrir eignaleigufærslur.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 26917ed0017e43c2be5ee53e472ad57d12db0978
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8889063"
@@ -26,7 +26,7 @@ ms.locfileid: "8889063"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir bókunartegundum sem eru notaðar fyrir eignaleigufærslur.
+Þessi grein lýsir bókunargerðunum sem eru notaðar fyrir eignaleigufærslur.
 
 ## <a name="lease-asset"></a>Leigja eign
 

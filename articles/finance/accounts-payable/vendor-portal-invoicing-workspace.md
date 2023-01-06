@@ -1,6 +1,6 @@
 ---
 title: Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
-description: Þessi grein útskýrir hvernig þú getur skoðað reikninga lánardrottins og sent inn reikninga frá vinnusvæði lánardrottnasamvinnureikninga.
+description: Í þessari grein er útskýrt hvernig á að skoða reikninga lánardrottins og senda reikninga frá úr vinnusvæði fyrir reikningsfærslu fyrir samstarf lánardrottna.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 9ef4204e0be437b50af047704e07600653c877c3
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8896551"
@@ -26,7 +26,7 @@ ms.locfileid: "8896551"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig þú getur skoðað reikninga lánardrottins og sent inn reikninga frá **Samvinnureikningur söluaðila** vinnurými.
+Í þessari grein er útskýrt hvernig á að skoða reikninga lánardrottins og senda reikninga frá úr vinnusvæði fyrir **Reikningsfærslu fyrir samstarf lánardrottna**.
 
 Vinnusvæðið **Reikningsfærslur fyrir samstarf lánardrottna** er hægt að nota til að skoða upplýsingar um reikning lánardrottins og senda reikninga í kerfið með því að nota getu verkflæðis.
 
@@ -45,11 +45,11 @@ Smella á reit á opnar síað yfirlit fyrir **lista yfir Reikninga** síðuna.
 
 ### <a name="tabular-lists"></a>Töflulisti
 
-Í **Töflulistar** kafla, er staða reikningsins sundurliðuð á svipaðan hátt og yfirlitsflísarnar: **Drög** og **Lagt fram**, **samþykkt** listum. Á meðan í **Drög** ástand, er hægt að senda reikning í verkflæði eða eyða. Síðasti töflulistinn er valkostur til að finna reikninga. Hægt er að sía á meðan er leitað, til að leyfa hraðari leit.
+Í **Töflulista** hlutanum er stöðu reikningsfærslu brotin niður á svipaðan hátt og samantektarreitir: **Drög** og **Sent**, en **Ekki samþykktir** listar. Þegar í stöðunni **Drög**, er hægt að senda reikning í verkflæði eða eyða honum. Síðasti töflulistinn er valkostur til að finna reikninga. Hægt er að sía á meðan er leitað, til að leyfa hraðari leit.
 
 ### <a name="all-vendor-invoices-list-page"></a>Listasíðu fyrir alla reikninga lánardrottins
 
-Hægt er að skoða allar bókaðar og óbókaðar lánardrottnareikninga á listasíðunni **Reikningar lánardrottna í samstarfi** listasíðu. Hægt er að nota þessa listasíðu til að skoða greiðslustöðu reikninganna. Greiðslustöðurnar innihalda **Óbirt**, **·**, **að hluta**, og **Fullgreitt**.
+Hægt er að skoða allar bókaðar og óbókaðar lánardrottnareikninga á listasíðunni **Reikningar lánardrottna í samstarfi** listasíðu. Hægt er að nota þessa listasíðu til að skoða greiðslustöðu reikninganna. Greiðslustöðurnar innifela **Óbókað**, **Ógreiddur**, **Greiddur að hluta**, og **Greiddur að fullu**.
 Búa til nýr reikningur úr innkaupapöntun
 
 Hægt er að stofna nýjan reikning lánardrottins með því að velja **Nýtt** aðgerð á **reikningsfærsla fyrir samstarf lánardrottna** vinnusvæði. Númer innkaupapöntunar og reikningsnúmer verður að gefa upp af lánardrottinn. Að sjálfgefnu birtast allar línur úr innkaupapöntun lánardrottins á nýjan reikning. Hægt er að breyta upplýsingum um magni og kostnað áður en senda reikning lánardrottins til verkflæðis. Tengja má skrárnar, athugasemdir, myndir og Vefslóðir við reikning áður en hún er send.

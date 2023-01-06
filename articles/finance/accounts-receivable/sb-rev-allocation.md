@@ -1,6 +1,6 @@
 ---
 title: Úthlutun tekna
-description: Þessi grein útskýrir hvernig á að nota tekjuúthlutun í áskriftarreikningi.
+description: Í þessari grein er útskýrt hvernig á að nota tekjuúthlutun í Áskriftargreiðslur.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -16,63 +16,63 @@ ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
 ms.openlocfilehash: 18739e0871592bc9eefcdf00f67dd4dd18f5d6f1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8864369"
 ---
 # <a name="revenue-allocation"></a>Úthlutun tekna
 
-Þessi grein útskýrir hvernig á að setja upp tekjuúthlutunarfæribreytur fyrir innheimtuáætlun. Þú getur sett upp eða breytt tekjuúthlutun þegar þú býrð til innheimtuáætlunina. Þegar þú opnar **Tekjuskipting** síðu fyrir virka eða hætt innheimtuáætlun, eru reitirnir skrifvarinn.
+Þessi grein útskýrir hvernig á að setja upp færibreytur fyrir tekjuúthlutun fyrir greiðsluáætlun. Hægt er að setja upp eða breyta tekjuúthlutun þegar greiðsluáætlun er útbúin. Þegar þú opnar síðuna **Tekjuúthlutun** fyrir virka eða lokna greiðsluáætlun eru reitirnir ritvarðir.
 
-## <a name="specify-the-revenue-allocation-for-a-billing-schedule"></a>Tilgreindu tekjuúthlutun fyrir innheimtuáætlun
+## <a name="specify-the-revenue-allocation-for-a-billing-schedule"></a>Tilgreina tekjuúthlutun fyrir greiðsluáætlun
 
-Til að tilgreina tekjuúthlutun fyrir innheimtuáætlun skaltu fylgja þessum skrefum.
+Til að tilgreina tekjuúthlutun fyrir greiðsluáætlun skal fylgja þessum skrefum.
 
-1. Á **Allar/virkar innheimtuáætlanir** listasíðu, veldu innheimtuáætlun eða innheimtuáætlunarlínu.
-2. Á **Tekjuskipting** flipann efst á síðunni, veldu **Tekjuskipting**.
-3. Í **Gerð margfeldis fyrirkomulags** reit, veldu tegund margfeldisfyrirkomulags (MEA).
-4. Í **Fyrirkomulagsnúmer margra þátta** reit, tilgreinið MEA númerið. Þá, í **Frestaða samningstekjureikningur** reit, tilgreinið frestað samningstekjureikning.
+1. Á **Allar/Virkar greiðsluáætlanir** skal velja greiðsluáætlun eða línu í greiðsluáætlun.
+2. Á **Tekjuúthlutun** flipanum efst á síðunni velurðu **Tekjuúthlutun**.
+3. Í reitnum **Gerð margþátta ráðstöfunar** vekurðu gerð margþátta fyrirkomulags (MEA).
+4. Í **Númer margþátta ráðstöfunar** skal tilgreina MEA-númer. Svo, í reitnum **Tekjulykill frestaðs samnings**, tilgreinið tekjureikning vegna frestaðs samnings.
 
-    Ef þú stillir **Gerð margfeldis fyrirkomulags** sviði til **Einhleypur**, það sama **Fyrirkomulagsnúmer margra þátta** og **Frestaða samningstekjureikningur** gildi gilda fyrir hverja línu. Ef þú stillir **Gerð margfeldis fyrirkomulags** sviði til **Margfeldi**, þú getur tilgreint mismunandi **Fyrirkomulagsnúmer margra þátta** og **Frestaða samningstekjureikningur** gildi fyrir hverja línu.
+    Ef reiturinn **Gerð margþátta ráðstöfunar** er stilltur á **Einfalt**, gilda sömu **Númer margþátta ráðstöfunar** og **Tekjulykill frestaðs samnings** gildi fyrir hverja línu. Ef reiturinn **Gerð margþátta ráðstöfunar** er stilltur á **Mörg**, er hægt að tilgreina önnur **Númer margþátta ráðstöfunar** og **Tekjulykill frestaðs samnings** gildi fyrir hverja línu.
     
-    Aðeins er hægt að úthluta MEA númeri á tvo eða fleiri hluti. Ein lína getur ekki haft sitt eigið MEA númer.
+    Aðeins er hægt að úthluta MEA-númeri á tvo eða fleiri hluti. Ein lína getur ekki haft eigið MEA-númer.
 
 5. Veldu **Vista**.
 
 ### <a name="fields"></a>Svæði
 
-The **Fyrirkomulag margra þátta** síða inniheldur eftirfarandi reiti.
+Á síðunni **Margþátta fyrirkomulag** eru eftirfarandi reitir.
 
-| Reitur | Lýsing |
+| Svæði | Lýsing |
 |---|---| 
-| Gerð margþátta ráðstöfunar | <p>Veldu MEA tegund fyrir færsluna:</p><ul><li>**Margfeldi** – Línuatriðin í viðskiptunum eru hluti af MEA, eða fleiri en eitt fyrirkomulag er til.</li><li>**Enginn** – Færslan er staðlað viðskipti sem hafa enga tekjuskiptingu.</li><li>**Einhleypur** - Allir hlutir í viðskiptunum eru hluti af einni MEA.</li></ul> |
-| Númer margþátta ráðstöfunar | <p>MEA númerið fyrir línuna. Þessi reitur er tiltækur þegar **Gerð margfeldis fyrirkomulags** reiturinn er stilltur á **Margfeldi**.</p><p>Ef þessi reitur er auður og þú úthlutar MEA númeri, **Sjálfstætt söluverð uppruna** og **Sjálfstætt söluverð** reitirnir eru sjálfkrafa uppfærðir út frá gildunum frá **Vara sjálfstætt söluverð** síðu. Aðeins MEA númerin sem eru úthlutað öðrum línum í sölupöntuninni eru tiltæk.</p> |
-| Tekjulykill frestaðs samnings | Tilgreindu reikninginn sem á að nota fyrir dagbókarfærslur þegar MEA samningsreikningur er stofnaður. Þessi reitur er aðeins tiltækur þegar endurtekinn samningsreikningur er notaður. |
+| Gerð margþátta ráðstöfunar | <p>Veljið MEA gerð fyrir færsluna:</p><ul><li>**Mörg** – Línuatriðin á færslunni eru hluti af MEA, eða fleiri en eitt fyrirkomulag er til.</li><li>**Ekkert** – Færslan er hefðbundin færsla með enga tekjuúthlutun.</li><li>**Stakt** – Öll atriðin á færslunni eru hluti af einu MEA.</li></ul> |
+| Númer margþátta ráðstöfunar | <p>MEA- númerið fyrir línuna. Þessi reitur er í boði þegar reiturinn **Gerð margþátta ráðstöfunar** er stilltur á **Margar**.</p><p>Ef reiturinn er auður og þú úthlutar MEA-númeri eru reitirnir **Uppruni sjálfstæðs söluverðs** og **Sjálfstætt söluverð** sjálfkrafa uppfærðir miðað við gildin á síðunni **Stakt söluverð vöru**. Aðeins MEA-númer sem er úthlutað á aðrar línur í sölupöntuninni eru tiltæk.</p> |
+| Tekjulykill frestaðs samnings | Skilgreindu reikninginn sem á að nota fyrir dagbókarfærslur þegar MEA samningsreikningur er stofnaður. Þetta svæði er aðeins í boði fyrir endurtekin greiðsluáætlun samnings er notuð. |
 | **Línur** | |
-| Númer vöruvíddasamsetningar | Afbrigðisnúmerið úr sölupöntuninni. |
-| Vörunúmer | Vörunúmerið úr sölupöntuninni. |
-| Greiðslutíðni | Tíðni úthlutunar tekna: **Daglega**, **·**, **·**, **·**, eða **Árlega**. |
-| Magn | Gildið frá sölupöntuninni. |
-| Samningsvirði | Samningsverðmæti. |
-| Númer margþátta ráðstöfunar | <p>MEA númerið fyrir línuna. Þessi reitur er tiltækur þegar **Gerð margfeldis fyrirkomulags** reiturinn er stilltur á **Margfeldi**.</p><p>Ef þessi reitur er auður og þú úthlutar MEA númeri, **Sjálfstætt söluverð uppruna** og **Sjálfstætt söluverð** reitirnir eru sjálfkrafa uppfærðir út frá gildunum frá **Vara sjálfstætt söluverð** síðu. Aðeins MEA númerin sem eru úthlutað öðrum línum í sölupöntuninni eru tiltæk. Ef þessi gildi eru ekki sett upp fyrir hlutinn munu gildin frá **Tekjuúthlutunarfæribreytur margra þátta** síðu eru notuð.</p> | 
-| Uppruni sjálfstæðs söluverðs | <p>Uppruni sjálfstæðs söluverðs:</p><ul><li>**Magn** – Sjálfstætt söluverð er upphæð sem þú tilgreinir sem er meira en 0 (núll). Upphæðinni er umreiknað á milli virks gjaldmiðils og upprunagjaldmiðils eftir þörfum.</li><li>**Grunnsöluverð** – Sjálfstætt söluverð samsvarar grunnsöluverði vörunnar.</li><li>**Reikningsverð** – Sjálfstætt söluverð passar við reikningsverð vörunnar.</li><li>**Hlutfall af hlut** – Sjálfstætt söluverð er tilgreint sem prósentugildi og er reiknað út frá verði vörunnar. Ef þessi valkostur er valinn skaltu tilgreina sjálfgefna prósentuna.</li><li>**Úthlutaðu afgangsmagni** – Uppruni sjálfstæðs söluverðs er reiknaður sem *Heildarsamningsverðmæti yfirliðar* –*Heildar sjálfstætt söluverð á undirvörum*:</p><ul><li>*Heildarsamningsverðmæti yfirliðar* er nettó eða innheimt upphæð.</li><li>*Heildar sjálfstætt söluverð á undirvörum* er summan af framlengdu eða samningslausu söluverði allra undirvara, nema undirvörunnar sem notar þetta sjálfstæða söluverðsuppruna.</li></ul><p>Ef útreiknuð upphæð er neikvætt gildi er upphæðin stillt á 0 (núll).</p><p>**Athugið:** Þessi valkostur er aðeins hægt að velja fyrir einn undirlið í tekjuskiptingu.</p></li><li>**Enginn** – Uppruni sjálfstæða söluverðsins byggist á undirhlutunum. Þessi valkostur á við um vörur sem eru skilgreindar sem yfirvörur í tekjuskiptingarsniðmáti. Ef **Tekjuskipting** gátreiturinn er valinn, þessi valkostur er sjálfkrafa valinn og ekki er hægt að breyta stillingunni.</li><li>**Hlutfall af verði móðurreiknings** – Uppruni sjálfstæðs söluverðs er hlutfall af reikningsverði móðurvöru. Þessi valkostur er aðeins tiltækur fyrir undirvörur í tekjuskiptingarsniðmáti.</li><li>**Hlutfall af staðalverði foreldra** – Uppruni sjálfstæðs söluverðs er hlutfall af stöðluðu verði móðurvörunnar. Þessi valkostur er aðeins tiltækur fyrir undirvörur í tekjuskiptingarsniðmáti. Þegar valmöguleika fyrir undirhlut er breytt úr **Hlutfall af staðalverði foreldra** til **Hlutfall af verði móðurreiknings**, eða frá **Hlutfall af verði móðurreiknings** til **Hlutfall af staðalverði foreldra**, eru reiknuð gildi einnig uppfærð.</li></ul> |
-| Sjálfstætt söluverð | <p>Sjálfstætt söluverð fyrir línuna, í viðskiptagjaldmiðlinum.</p><p>Gildið í **Magn** reiturinn er annaðhvort færður inn eða reiknaður.</p> |
-| Stakt söluverð samnings | Samningurinn sjálfstætt söluverð. |
-| Eftirstöðvar samningstekna | Eftirstöðvar tekjuupphæðar fyrir samninginn. Þessi upphæð er summa allra lína sem reikningar hafa ekki enn verið stofnaðir fyrir. |
-| Samtals samningstekjur | Heildarupphæð samningstekna fyrir línuna. Þessi upphæð er summa allra lína, óháð því hvort reikningar hafa verið búnir til fyrir þær. |
-| Tekjulykill frestaðs samnings | <p>Tilgreindu reikninginn sem á að nota fyrir dagbókarfærslur þegar MEA samningsreikningur er stofnaður.</p><p>Þessi reitur er aðeins tiltækur þegar endurtekinn samningsreikningur er notaður.</p> |
-| Villa | Allar villur sem komu upp við úthlutun tekna. |
+| Númer vöruvíddasamsetningar | Númer vöruvíddasamsetningar úr sölupöntun. |
+| Vörunúmer | Vörunúmer úr sölupöntun. |
+| Greiðslutíðni | Tíðnin fyrir tekjuúthlutunina: **Daglega**, **Mánaðarlega**, **Ársfjórðungslega**, **Hálfs árs fresti**, eða **Árlega**. |
+| Magn | Gildið úr sölupöntun. |
+| Samningsvirði | Samningsgildið. |
+| Númer margþátta ráðstöfunar | <p>MEA- númerið fyrir línuna. Þessi reitur er í boði þegar reiturinn **Gerð margþátta ráðstöfunar** er stilltur á **Margar**.</p><p>Ef reiturinn er auður og þú úthlutar MEA-númeri eru reitirnir **Uppruni sjálfstæðs söluverðs** og **Sjálfstætt söluverð** sjálfkrafa uppfærðir miðað við gildin á síðunni **Stakt söluverð vöru**. Aðeins MEA-númer sem er úthlutað á aðrar línur í sölupöntuninni eru tiltæk. Ef þessi gildi eru ekki sett upp fyrir vöruna eru gildin á síðunni **Margar færibreytur fyrir tekjuúthlutunarþátt** notuð.</p> | 
+| Uppruni sjálfstæðs söluverðs | <p>Uppruni sjálfstæðs söluverðs:</p><ul><li>**Upphæð** – Sjálfstætt söluverð er upphæð sem þú tilgreinir að sé hærri en 0 (núll). Upphæðin er umreiknuð á milli virkra og upprunalegra gjaldmiðla eftir þörfum.</li><li>**Grunnsöluverð** – Sjálfstætt söluverð samsvarar grunnsöluverði vörunnar.</li><li>**Reikningsverð** – Sjálfstætt söluverð samsvarar reikningsverði vörunnar.</li><li>**Prósenta vöru** – Sjálfstætt söluverð er tilgreint sem prósentuvirði og er reiknað út frá verði vörunnar. Ef þessi möguleiki er valinn skal tilgreina sjálfgefna prósentu.</li><li>**Úthluta afgangsupphæð** – Uppruni sjálfstæðs söluverðs er reiknaður sem *Heildarsamningsvirði yfirvöru* – *Heildarsamningsvirði undirvöru*:</p><ul><li>*Heildarsamningsvirði yfirvöru* er hrein eða skuldfærð fjárhæð.</li><li>*Heildarsamningsvirði undirvöru* er samtala framlengds eða samningsbundins sjálfstæðs söluverðs allra undirvara, nema undirvörunnar sem notar þetta sjálfstæða söluverð.</li></ul><p>Ef reiknuð upphæð er neikvætt gildi er upphæðin stillt á 0 (núll).</p><p>**Athugið:** Þennan valkost er aðeins hægt að velja fyrir eina undireiningu í tekjuskiptingunni.</p></li><li>**Engin** – Uppruni sjálfstæða söluverðsins byggir á undireiningu. Þessi valkostur á við um hluti sem eru skilgreindir sem yfireiningar í sniðmáti tekjuskiptingar. Ef gátreiturinn fyrir **Tekjuskipting** er valinn er þessi valkostur valinn sjálfkrafa og ekki er hægt að breyta stillingunni.</li><li>**Prósenta af reikningsverði yfireiningar** – Uppruni sjálfstæðs söluverðs er prósenta af reikningsverði yfirvörunnar. Þessi valkostur er aðeins í boði fyrir yfirvörur í sniðmáti tekjuskiptingar.</li><li>**Prósenta af stöðluðu verði yfireiningar** – Uppruni sjálfstæðs söluverðs er prósenta af venjulegu verði yfirvörunnar. Þessi valkostur er aðeins í boði fyrir yfirvörur í sniðmáti tekjuskiptingar. Þegr valkostinum fyrir undiratriði er breytt úr **Prósenta af stöðluðu verði yfireiningar** í **Prósenta af reikningsverði yfireiningar**, eða úr **Prósenta af reikningsverði yfireiningar** í **Prósenta af stöðluðu verði yfireiningar**, eru útreiknuðu gildi einnig uppfærð.</li></ul> |
+| Sjálfstætt söluverð | <p>Sjálfstæða söluverðið fyrir línuna, í færslugjaldmiðlinum</p><p>Gildið í reitnum **Upphæð** er annað hvort skráð eða reiknað.</p> |
+| Stakt söluverð samnings | Sjálfstætt söluverð samnings. |
+| Eftirstöðvar samningstekna | Tekjuafgangsupphæð samningsins. Þessi upphæð er samtala allra lína sem reikningar hafa ekki enn verið stofnaðir fyrir. |
+| Samtals samningstekjur | Tekjuupphæð samnings alls fyrir línuna. Þessi upphæð er samtala allra lína, óháð því hvort reikningar hafi verið stofnaðir fyrir þær. |
+| Tekjulykill frestaðs samnings | <p>Skilgreindu reikninginn sem á að nota fyrir dagbókarfærslur þegar MEA samningsreikningur er stofnaður.</p><p>Þetta svæði er aðeins í boði fyrir endurtekin greiðsluáætlun samnings er notuð.</p> |
+| Villa | Allar villur sem komu upp við tekjuúthlutunina. |
 
-## <a name="use-revenue-allocation-on-a-sales-order"></a>Notaðu tekjuúthlutun á sölupöntun
+## <a name="use-revenue-allocation-on-a-sales-order"></a>Nota tekjuúthlutun á sölupöntun
 
-Til að nota tekjuúthlutunaraðgerðina á sölupöntun skal fylgja þessum skrefum.
+Til að nota virkni tekjuúthlutun á sölupöntun skal fylgja þessum skrefum.
 
-1. Á **Allar sölupantanir** síðu, búðu til sölupöntun sem inniheldur vörur.
-2. Á **Reikningur** flipi, undir **Tekjuskipting**, veldu **Tekjuskipting**.
-3. Í **Gerð margfeldis fyrirkomulags** reit, veldu MEA gerð.
-4. Í **Fyrirkomulagsnúmer margra þátta** reit, tilgreinið MEA númerið.
-5. Ef **Gerð margfeldis fyrirkomulags** reiturinn er stilltur á **Margfeldi**, veldu línurnar sem þú vilt og veldu síðan **Sækja um valið**.
+1. Stofnið sölupöntun með vörum á síðunni **Allar sölupantanir**.
+2. Á flipanum **Reikningur**, undir **Tekjuúthlutun**, skal velja **Tekjuúthlutun**.
+3. Í reitnum **Gerð margþátta ráðstöfunar** velurðu MEA-gerð.
+4. Í **Númer margþátta ráðstöfunar** skal tilgreina MEA-númer.
+5. Ef reiturinn fyrir **Gerð margþátta ráðstöfunar** er stilltur á **Margar**, veldu línurnar sem þú vilt og veldu svo línurnar **Nota á valið**.
 6. Veldu **Vista**.
 
-Ef þú notar frestun tekna og kostnaðar er frestunin sjálfkrafa búin til. Þú getur skoðað það á **Allar frestunaráætlanir** síðu.
+Ef þú notar tekju- og kostnaðarfrestanir er frestunaráætlunin stofnuð sjálfkrafa. Hægt er að skoða það á síðunni **Allar frestunaráætlanir**.

@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
 ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/12/2022
 ms.locfileid: "9671459"
@@ -48,7 +48,7 @@ Hér eru skrefin til að flytja gögn inn eða út.
 5. Staðfesta að starfið hafi gengið eins og búist var við með því að skoða starfsferilinn.
 6. Hreinsa sviðsetningartöflurnar.
 
-Eftirstöðvar þessarar greinar veita frekari upplýsingar um hvert skref ferlisins.
+Nánari upplýsingar um hvert skref í ferlinu eru í öðrum hlutum þessarar greinar.
 
 > [!NOTE]
 > Til þess að geta endurnýjað skjámyndina fyrir innflutning/útflutning gagna svo hægt sé að sjá nýjustu stöðuna skal nota endurnýjunartáknið. Ekki er mælt með endurnýjun á vafrastigi vegna þess að það truflar innflutnings-/útflutningsvinnslur sem eru ekki keyrðar í runum.
@@ -66,7 +66,7 @@ Við mælum með að þú takir tíma til að velja viðeigandi verktegund fyrir
 Þegar þú velur einingu verður þú að velja snið gagna sem verða flutt út eða inn. Þú skilgreinir snið með því að nota reitinn **Uppsetning uppruna gagna**. Snið upprunagagna er blanda af **Tegund**, **Skráarsniði**, **Línuafmörkun** og **Dálkaafmörkun**. Það eru líka aðrir eiginleikar en þetta eru lykilatriðin til að skilja. Eftirfarandi tafla sýnir gildar samsetningar.
 
 > [!NOTE]
-> Excel skráarsniðið er ekki tiltækt eins og er á gagnastjórnunarvinnusvæðinu fyrir Government Community Cloud (GCC).
+> Excel skráarsniðið er ekki tiltækt í vinnusvæði gagnastjórnunar fyrir Government Community Cloud (GCC) eins og er.
 
 | Skrársnið            | Afmarkari fyrir línu/dálk                       | XML-stíll                 |
 |------------------------|--------------------------------------------|---------------------------|
@@ -78,9 +78,9 @@ Við mælum með að þú takir tíma til að velja viðeigandi verktegund fyrir
 > Mikilvægt er að velja rétt gildi fyrir **Línuskiltákn**, **Dálkaskiltákn** og **Textaskilyrði** ef valkosturinn **Skráarsnið** er stilltur á **Afmarkað**. Gakktu úr skugga um að gögnin þín innihaldi ekki stafinn sem er notaður sem skiltákn eða skilyrði, þar sem það getur valdið villum við innflutning og útflutning.
 
 > [!NOTE]
-> Fyrir XML-undirstaða skráarsnið, vertu viss um að nota aðeins löglega stafi. Fyrir frekari upplýsingar um gilda stafi, sjá [Gildir stafir í XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 leyfir enga stjórnstafi nema flipa, vagnaskil og línustrauma. Dæmi um ólöglega stafi eru hornklofur, krullaðir svigar og skástrik. 
+> Gættu þess að nota einungis löglega stafi fyrir XML-skráarsnið. Nánari upplýsingar um gilda stafi er að finna í [Gildir stafir í XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 leyfir ekki stýringartákn nema fyrir flipa, vendingu og línuskipti. Dæmi um ólöglega stafi eru ferhyrndir svigar, krummafótur og öfugt skástrik. 
 
-Notaðu Unicode í stað tiltekinnar kóðasíðu til að flytja inn eða flytja út gögn. Þetta mun hjálpa til við að veita samkvæmustu niðurstöður og koma í veg fyrir að gagnastjórnunarstörf mistekst vegna þess að þau innihalda Unicode stafi. Kerfisskilgreind upprunagagnasnið sem nota Unicode hafa öll **Unicode** í upprunanafninu. Unicode sniðinu er beitt með því að velja Unicode kóðun ANSI kóðasíðu sem **Kóðasíða** í **Svæðisstillingar** flipa. Veldu eina af eftirfarandi kóðasíðum fyrir Unicode:
+Nota Unicode í stað tiltekinnar kóðasíðu til að flytja gögn inn eða út. Þetta hjálpar til við að fá sem samræmdastar niðurstöður og útrýma að gagnastjórnunarvinnslur mistakist vegna þess að þær innihalda Unicode-stafi. Kerfisskilgreind upprunagagnasnið sem nota Unicode hafa öll **Unicode** í heiti upprunans. Unicode sniðið er notað með því að velja Unicode ANSI-kóðunarsíðu sem **Kóðasíða** á flipanum **Svæðisbundnar stillingar**. Velja eina af eftirfarandi kóðasíðum fyrir Unicode:
 
 | Stafatafla | Heiti til birtingar                |
 |-----------|-----------------------------|
@@ -91,7 +91,7 @@ Notaðu Unicode í stað tiltekinnar kóðasíðu til að flytja inn eða flytja
 | 65000     | Unicode (UTF-7)             |
 | 65001     | Unicode (UTF-8)             |
 
-Fyrir frekari upplýsingar um kóðasíður, sjá [Auðkenni kóðasíðu](/windows/win32/intl/code-page-identifiers/).
+Frekari upplýsingar um Kóðasíður er að finna í [Auðkenni kóðasíðu](/windows/win32/intl/code-page-identifiers/).
 
 ### <a name="sequence-the-entities"></a>Einingunum raðað
 Einingum má raða í gagnasniði, eða í innflutnings- og útflutningssverkum. Þegar þú keyrir verk sem inniheldur fleiri en eina gagnaeiningu verður þú að ganga úr skugga um að einingunum sé rétt raðað. Einingum er raðað til að geta leyst hugsanleg virknitengsl milli eininga. Ef einingar eru ekki með virknitengsl er hægt að tímastilla þær fyrir samhliða inn- og útflutning. 
@@ -225,7 +225,7 @@ Við tímasetningu hreinsunarferilsins verður að tilgreina eftirfarandi breytu
 ## <a name="job-history-clean-up-and-archival"></a>Hreinsun og safnvistun vinnsluferils 
 Hreinsun vinnsluferils og virkni safnskráar kemur í stað fyrri útgáfa af virkni hreinsunar. Þessi hluti útskýrir þessa nýju eiginleika.
 
-Ein af helstu breytingunum á virkni hreinsunar er notkun runuvinnslu kerfis til að hreinsa ferilinn. Notkun kerfislotuvinnunnar gerir fjármála- og rekstrarforritum kleift að láta hreinsunarlotuvinnuna sjálfkrafa tímasetta og keyra um leið og kerfið er tilbúið. Ekki er lengur nauðsynlegt að timasetja runuvinnsluna handvirkt. Í þessari sjálfgefnu framkvæmdarstillingu keyrir runuvinnslan hverja klukkustund og byrjar á miðnætti og heldur eftir framkvæmdarferlinum fyrir næstu 7 daga þar á undan. Hreinsaði ferillinn er safnvistaður til heimtingar seinna meir. Frá og með útgáfu 10.0.20 er þessi eiginleiki alltaf í gangi.
+Ein af helstu breytingunum á virkni hreinsunar er notkun runuvinnslu kerfis til að hreinsa ferilinn. Notkun runuvinnslu kerfis gerir forritum fjármála- og reksturs kleift að hreinsa runuvinnsluna samkvæmt sjálfkrafa áætlun og keyra um leið og kerfið er tilbúið. Ekki er lengur nauðsynlegt að timasetja runuvinnsluna handvirkt. Í þessari sjálfgefnu framkvæmdarstillingu keyrir runuvinnslan hverja klukkustund og byrjar á miðnætti og heldur eftir framkvæmdarferlinum fyrir næstu 7 daga þar á undan. Hreinsaði ferillinn er safnvistaður til heimtingar seinna meir. Frá og með útgáfu 10.0.20 er þessi eiginleiki alltaf í gangi.
 
 Önnur breytingin á hreinsunarferlinu er safnvistun á hreinsuðum framkvæmdarferli. Hreinsunarvinnslan safnvistar eyddum færslum í BLOB-geymslu sem DIXF notar fyrir reglubundnar samþættingar. Safnvistaða skráin verður á DIXF-pakkasniði og verður tiltæk í 7 daga í BLOB og verður hægt að hlaða hana niður á því tímabili. Hægt er að breyta sjálfgefinni tímalengd 7 daga fyrir safnvistuðu skrána í að hámarki 90 daga í færibreytunum.
 

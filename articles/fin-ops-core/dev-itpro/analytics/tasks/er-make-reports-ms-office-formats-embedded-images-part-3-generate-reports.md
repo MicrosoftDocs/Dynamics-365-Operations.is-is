@@ -1,6 +1,6 @@
 ---
 title: Búa til skýrslur á Office-sniði með innfelldum myndum
-description: Þessi grein lýsir því hvernig á að hanna rafræna skýrslugerð (ER) stillingar til að búa til rafræn skjöl í Excel og Word sem innihalda innfelldar myndir.
+description: Í þessari grein er útskýrt hvernig á að hanna skilgreiningar rafrænnar skýrslugerðar til að mynda rafræn skjöl í Excel og Word sem innihalda innfelldar myndir.
 author: kfend
 ms.date: 06/13/2017
 ms.topic: business-process
@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dfd4aca1013d7fdf408f9057810feedc4b44e586
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290275"

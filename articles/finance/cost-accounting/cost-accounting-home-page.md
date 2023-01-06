@@ -1,6 +1,6 @@
 ---
 title: Heimasíða kostnaðarbókhalds
-description: Þessi grein veitir lista yfir hjálparefni og önnur úrræði sem eru tiltæk fyrir kostnaðarbókhald.
+description: Í þessari grein er að finna skrá yfir hjálparefnisatriði og önnur tilföng sem eru tiltæk fyrir kostnaðarbókhald.
 author: aprilolson
 ms.date: 04/25/2018
 ms.topic: article
@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 600ae16a9cd83730432b75b81a1cb2f3ffae827b
 ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9539294"
@@ -38,7 +38,7 @@ Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma eini
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [Byrjaðu með kostnaðarbókhald (læra)](/training/modules/get-started-cost-accounting-dyn365-finance/)  |[Víddir kostnaðareiningar](cost-elements.md)  |
+|  [Hafist handa með kostnaðarbókhald (Learn)](/training/modules/get-started-cost-accounting-dyn365-finance/)  |[Víddir kostnaðareiningar](cost-elements.md)  |
 |  [Víddarstigveldi](dimension-hierarchy.md)  |[Skilgreina kostnaðarstýringareiningar](./tasks/define-cost-control-units.md)| 
 | [Úthlutunargrunnar](allocation-bases.md)|[Stofna og úthluta kostnaðarúthlutunarreglu fyrir kostnaðarstýringareiningu](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Stjórna gagnagjafa fyrir fjárhag kostnaðarbókhalds](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Vinna úr og rekja upprunagögn](./tasks/process-trace-source-data.md)     | 

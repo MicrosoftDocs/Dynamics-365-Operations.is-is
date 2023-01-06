@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 50b486cd01850049ab3d23117d994c3db1038124
 ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/05/2022
 ms.locfileid: "8716888"
@@ -26,14 +26,14 @@ ms.locfileid: "8716888"
 
 Þetta ferli sýnir hvernig á að stofna auknefni fjárhagslykils sem veitir flýtivísun til að færa inn lykilnúmer. Þessi aðferð notar sýnigögn fyrirtækisins USMF.
 
-1. Fara til **Fjárhagsbók > Reikningsyfirlit > Reikningar > Samnefni fjárhagsreiknings**, smellur **Nýtt**.
-2. Í **Jafnefni fjárhagsreiknings** reit, sláðu inn gildi.
-3. Í **Uppbygging reiknings** reit, veldu uppbygginguna sem reikningurinn og stærðirnar tilheyra.
-4. Í **Fyrirtæki** reit, á listanum, veldu fyrirtækið sem samnefnið á við.
-5. Í **Skilgreining á nafni höfuðbókarreiknings** reit, tilgreindu reikninginn og víddir.
+1. Fara í **Fjárhagur > Bókhaldslyklar > Lyklar > Auknefni fjárhagslykils** smellið á **Nýtt**.
+2. Í reitnum **Auknefni fjárhagslykils** skal færa inn gildi.
+3. Í reitnum **Lykilskipulag** skal velja lykilskipulag sem lykillinn og víddirnar tilheyra.
+4. Í reitnum **Fyrirtæki** í listanum skal finna og velja fyrirtækið sem auknefnið á við.
+5. Í reitnum **Skilgreining auknefnis fjárhagslykils** skal tilgreina lykla og víddir.
     * Lykillinn og víddirnar verða fylltar út þegar flýtileiðin er notuð.  
-6. Í **Upphafleg fókus** reit, veldu þá vídd sem mun hafa fókus þegar samnefniið er notað.
-    * Eftir að þú slærð inn flýtileiðina og reikningurinn og stærðirnar eru fylltar út, **Upphafleg fókus** reiturinn er þar sem bendillinn eða fókusinn mun færast til.  
+6. Í reitnum **Upphafsáhersluatriði** skal velja víddina sem hefur skilgreinda áherslu þegar auknefni er notað.
+    * Eftir að þú slærð inn flýtileiðina og lykillinn og víddirnar eru útfylltar verður reiturinn **Upphafsáhersluatriði** þar sem bendillinn eða áherslan flyst í.  
 
 
 

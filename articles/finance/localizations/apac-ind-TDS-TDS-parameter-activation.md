@@ -1,6 +1,6 @@
 ---
 title: Stilla TDS færibreytur
-description: Þessi grein útskýrir hvernig á að stilla færibreytur til að virkja Tax Deducted at Source (TDS) virkni í tilgreindum færslum. Þetta er nauðsynlegt skref til að nota eiginleikann skattur sem dreginn er frá í uppruna, TDS.
+description: Þessi grein útskýrir hvernig á að stilla færibreytur til að virkja virkni skattur sem dreginn er frá í uppruna (TDS) í tilgreindum færslum. Þetta er nauðsynlegt skref til að nota eiginleikann skattur sem dreginn er frá í uppruna, TDS.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: 3390cad6979858fbff73769d0d25132ba18a2157
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8865614"
@@ -26,7 +26,7 @@ ms.locfileid: "8865614"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að stilla færibreytur til að virkja Tax Deducted at Source (TDS) virkni í tilgreindum færslum. Þetta er nauðsynlegt skref til að nota eiginleikann skattur sem dreginn er frá í uppruna, TDS.
+Þessi grein útskýrir hvernig á að stilla færibreytur til að virkja virkni skattur sem dreginn er frá í uppruna (TDS) í tilgreindum færslum. Þetta er nauðsynlegt skref til að nota eiginleikann skattur sem dreginn er frá í uppruna, TDS.
 
 1. Farðu í **Fjárhag \> Fjárhagsuppsetning \> Fjárhagsfæribreytur**.
 2. Á flipanum **Beinir skattar** í hlutanum **Skattur sem dreginn er frá í uppruna** skal stilla valkostinn **Virkja TDS** á **Já** til að virkja TDS virknina og síður og reiti sem eru notaðir fyrir það.

@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð stofna grunnstilling sniðs (nóvember 2016)
-description: Þessi grein útskýrir hvernig á að búa til sniðstillingu fyrir rafræna skýrslugerð (ER).
+description: Þessi grein útskýrir hvernig á að stofna sniðsskilgreiningu fyrir rafræna skýrslugerð.
 author: kfend
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 ms.openlocfilehash: 3c705add64a46c4cce5127f16fae45edba1bc001
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290725"
@@ -24,7 +24,7 @@ ms.locfileid: "9290725"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig notandi í hlutverki kerfisstjóra eða rafrænnar skýrslugerðarhönnuður getur búið til sniðstillingu fyrir rafræna skýrslugerð (ER). Þessa sniðsskilgreiningu mun skilgreina snið rafræn skjöl sem eru notaðar til að vinna greiðslur. Í þessu dæmi stofnar þú skilgreiningu á sniði fyrir dæmi um fyrirtæki, í þessu dæmi Litware, Inc. Til að ljúka þessum skrefum, þarf fyrst að ljúka við skref í ferlinu „Varpa líkani á valda gagnaveitu".
+Í þessari grein er útskýrt hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarsnið fyrir rafræna skýrslugerð (ER). Þessa sniðsskilgreiningu mun skilgreina snið rafræn skjöl sem eru notaðar til að vinna greiðslur. Í þessu dæmi stofnar þú skilgreiningu á sniði fyrir dæmi um fyrirtæki, í þessu dæmi Litware, Inc. Til að ljúka þessum skrefum, þarf fyrst að ljúka við skref í ferlinu „Varpa líkani á valda gagnaveitu".
 
 
 ## <a name="create-a-new-format-configuration"></a>Stofna nýja skilgreiningu á sniði

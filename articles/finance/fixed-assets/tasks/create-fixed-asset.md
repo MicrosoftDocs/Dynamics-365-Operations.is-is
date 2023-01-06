@@ -1,6 +1,6 @@
 ---
 title: Stofna eign
-description: Þessi grein útskýrir hvernig á að búa til nýja eignaskrá frá eignalistasíðunni.
+description: Þessi grein útskýrir hvernig á að stofna nýja eignafærslu af listasíðunni Eignir.
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8868490"
@@ -24,7 +24,7 @@ ms.locfileid: "8868490"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að búa til nýja eignaskrá úr **Fast eign** listasíðu.
+Þessi grein útskýrir hvernig á að stofna nýja eignafærslu af listasíðunni **Eignir**.
 
 Kerfið úthlutar eignanúmeri, byggt á númeraröðinni sem er úthlutað á eignaflokkinn. Ef þú notar eignarsniðmátið til að flytja inn eignir í Microsoft Excel -innbót, eða ef þú notar annað innflutningsverk stofnar kerfið sjálfkrafa eignafærslur og stigvaxandi eignanúmer.
 

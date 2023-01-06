@@ -1,6 +1,6 @@
 ---
 title: Afskriftir fyrir 150% bókfært virði
-description: Þessi grein sýnir yfirlit yfir 150 prósent minnkandi jafnvægisaðferð við afskriftir.
+description: Í þessari grein er yfirlit yfir afskriftaraðferðina 150 prósent bókfært virði.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f3bccb9d64851901d43b55887bb66c9b1b4e5a70
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8870221"
@@ -26,7 +26,7 @@ ms.locfileid: "8870221"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir yfirlit yfir 150 prósent minnkandi jafnvægisaðferð við afskriftir.
+Í þessari grein er yfirlit yfir afskriftaraðferðina 150 prósent bókfært virði.
 
 Þegar afskriftaregla fyrir eignir er sett upp og gildið **150% af bókfærðu virði** er valið í reitnum **Aðferð** á skjámyndinni **Afskriftaraðferðir** eru eignaafskriftir, sem eru tengdar þessari afskriftareglu, með sama hlutfall af hundraði á hverju afskriftatímabili. Þessi prósenta er reiknuð á grundvelli líftíma eignarinnar. Til dæmis, ef eign hefur líftíminn fimm ár, er prósenta reiknuð sem 30 prósent (150% ÷ 5). 
 
@@ -41,7 +41,7 @@ Sjálfgefið gildi er **Dagatal**. Valið skilgreinir valmöguleikana sem í bo�
 
 Hægt er að velja að halda sjálfgefnum gildum í reitnum **Afskriftarár**, **Dagatal**. 
 
-**Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum síðar í þessari grein er afskriftagrunnurinn teljarinn í fyrstu tjáningu í útreikningsdálknum. 
+**Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum síðar í þessari grein er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
 
 Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 

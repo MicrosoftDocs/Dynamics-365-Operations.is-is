@@ -1,6 +1,6 @@
 ---
 title: Stofna gjaldakóða
-description: Þessi grein útskýrir hvernig á að stilla gjaldkóða fyrir bæði viðskiptaskuldir og viðskiptakröfur.
+description: Í þessari grein er útskýrt hvernig á að stilla skuldfærslukóða fyrir bæði viðskiptaskuldir og viðskiptakröfur.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -17,76 +17,76 @@ ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d65952cb989672e4eac2dd6101ee9c7c9424daed
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8866084"
 ---
 # <a name="create-charges-codes"></a>Stofna gjaldakóða
 
-Þessi grein útskýrir hvernig á að stilla gjaldkóða fyrir bæði viðskiptaskuldir og viðskiptakröfur. Ef fyrirtæki þitt krefst þess að söluupphæðir eða innkaupaupphæðir séu raktar til viðbótar við línur í sölupöntun eða innkaupapöntun, geturðu notað gjaldakóða í þessu skyni. Til dæmis greiðir þú frakt og tryggingar á innkaupapöntun og þessar upphæðir eru sundurliðaðar sérstaklega á innkaupapöntuninni. Í þessu tilviki er hægt að tilgreina hvort upphæðirnar séu bókaðar á kostnaðarreikninga eða bætt við kostnað vörunnar.
+Í þessari grein er útskýrt hvernig á að stilla skuldfærslukóða fyrir bæði viðskiptaskuldir og viðskiptakröfur. Ef stofnunin/fyrirtækið gerir kröfu um að sölufjárhæðir eða innkaupaupphæðir séu raktar til viðbótar við línuvörur í sölupöntun eða innkaupapöntun getur þú notað gjaldakóða í þessu skyni. Til dæmis greiðir þú vörugjald og tryggingu á innkaupapöntun og þær upphæðir eru flokkaðar sérstaklega á innkaupapöntunina. Í því tilviki er hægt að tilgreina hvort upphæðin er birt á kostnaðarreikningum eða bætt við kostnað varanna.
 
-## <a name="set-up-charges-codes-for-accounts-receivable"></a>Settu upp gjaldakóða fyrir viðskiptakröfur
+## <a name="set-up-charges-codes-for-accounts-receivable"></a>Setja upp gjaldakóða fyrir viðskiptakröfur
 
-Til að búa til gjaldakóða fyrir viðskiptakröfur skaltu fylgja þessum skrefum.
+Til að stofna gjaldakóða fyrir Viðskiptakröfur skal fylgja þessum skrefum.
 
-1. Fara til **Reikningur fáanlegur** &gt; **Uppsetning gjalda** &gt; **Gjaldkóði**.
+1. Fara í **Viðskiptakröfur** &gt; **Uppsetning gjalda** &gt; **Gjaldakóði**.
 2. Veljið **Nýtt**.
-3. Í **Gjaldkóði** reit, sláðu inn kóða fyrir gjaldið.
-3. Í **Lýsing** reit, sláðu inn lýsingu á gjaldinu.
-4. Valfrjálst: Í **Vöruskattsflokkur** reit, veldu söluskattsflokk.
-5. Á **Birting** Flýtiflipi, tilgreinið hvernig skuldfærsla ætti að vera sjálfkrafa skuldfærð og innfærð.
-6. Ef þú valdir **Fjárhagsreikningur** sem debettegund eða kredittegund, tilgreindu bókunartegund **Birting** reiti og tilgreindu aðalreikninginn í **Reikningur** sviðum.
+3. Í reitnum **Gjaldakóði** er færður inn kóði fyrir gjaldið.
+3. Færið inn lýsingu á gjaldinu í svæðinu **Lýsing**.
+4. Valkvæmt: Í reitnum **VSK-flokkur vöru** skal velja VSK-flokkur.
+5. Á flýtiflipanum **Bókun** skaltu tilgreina hvernig skuldfærslan ætti að vera debet- og kreditfærð sjálfkrafa.
+6. Ef þú valdir **Fjárhagslykill** sem debet- eða kreditfærslugerð, tilgreindu bókunargerð í reitunum **Bókun** og tilgreindu aðallykil í reitunum **Lykill**.
 
 ### <a name="example"></a>Dæmi
 
-Viðskiptavinur þinn greiðir gjaldið. Þess vegna er því bætt við heildartölur sölupöntunar. Þú setur upp eftirfarandi færsluupplýsingar:
+Viðskiptavinurinn greiðir gjaldið. Því er bætt við samtölur sölupöntunar. Þá þarf að setja upp eftirfarandi bókunarupplýsingar:
 
-- Í **Tegund** sviði í **Debet** kafla, veldu **Viðskiptavinur/seljandi** til að bæta reikningsgjaldinu á reikning viðskiptavinarins.
-- Í **Tegund** sviði í **Inneign** kafla, veldu **Fjárhagsreikningur**. Þá, í **Reikningur** reit, veldu aðalreikning fyrir tekjur af reikningsgjöldum.
+- Veljið reitinn **Gerð** í hlutanum **Debet**, veljið **Viðskiptamaður/Lánardrottinn** til að bæta reikningsgjöldum við lykil viðskiptavinar.
+- Í reitnum **Gerð** í hlutanum **Kredit** skal velja **Fjárhagslykill**. Í reitnum **Lykill** velurðu aðallykil fyrir tekjur af reikningsgjöldum.
 
 > [!NOTE]
-> Ef debettegund eða kredittegund fyrir valda kóða er annaðhvort **Fjárhagsreikningur** eða **Atriði**, þú getur slegið inn annan gjaldmiðil fyrir gjaldfærsluna.
+> Ef debet- eða kreditfærslugerð fyrir valinn kóða er annað hvort **Fjárhagslykill** eða **Vara**, þá er hægt að færa inn annan gjaldmiðil fyrir gjaldfærsluna.
 
-Þú getur prentað texta fyrir gjöld á því tungumáli sem er úthlutað til viðskiptavinarins. Til að tilgreina texta fyrir gjaldkóðann á öðrum tungumálum skaltu velja **Þýðingar**.
+Þú getur prentað textann fyrir gjöld á því tungumáli sem viðskiptamanni er úthlutað. Veldu **Þýðingar** til að tilgreina textann fyrir kóðann á öðrum tungumálum.
 
-## <a name="set-up-charges-codes-for-accounts-payable"></a>Settu upp gjaldakóða fyrir Viðskiptaskuldir
+## <a name="set-up-charges-codes-for-accounts-payable"></a>Setja upp gjaldakóða fyrir viðskiptaskuldir
 
-Til að búa til gjaldakóða fyrir Viðskiptaskuldir, fylgdu þessum skrefum.
+Til að stofna gjaldakóða fyrir Viðskiptaskuldir skal fylgja þessum skrefum.
 
 1. Fylgið einu af eftirfarandi skrefum:
 
-    - Fara til **Viðskiptaskuldir** &gt; **Gjöld** **uppsetningu** &gt; **Gjaldkóði**.
-    - Fara til **Innkaup og innkaup** &gt; **Uppsetning** &gt; **Gjöld** &gt; **Gjaldkóði**.
+    - Farið í **Viðskiptaskuldir** &gt; **Uppsetning** **gjalda** &gt; **Gjaldakóði**.
+    - Farið í **Innkaup og aðföng** &gt; **Uppsetning** &gt; **Gjöld** &gt; **Gjaldakóði**.
 
 2. Veljið **Nýtt**.
-3. Í **Gjaldkóði** reit, sláðu inn kóða fyrir gjaldið.
-3. Í **Lýsing** reit, sláðu inn lýsingu á gjaldinu.
-4. Valfrjálst: Í **Vöruskattsflokkur** reit, veldu söluskattsflokk.
-5. Valfrjálst: Í **Hámarksupphæð** reit, sláðu inn hámarksupphæð sem er leyfileg fyrir gjaldkóðann.
+3. Í reitnum **Gjaldakóði** er færður inn kóði fyrir gjaldið.
+3. Færið inn lýsingu á gjaldinu í svæðinu **Lýsing**.
+4. Valkvæmt: Í reitnum **VSK-flokkur vöru** skal velja VSK-flokkur.
+5. Valfrjálst: í reitinn **Hámarksupphæð** skal færa inn hámarksupphæð sem leyfð er fyrir gjaldakóðann.
 
-    Þessi reitur er notaður til að staðfesta gjöld fyrir reikninga lánardrottins. Til að virkja staðfestingu gjalda skaltu velja **Virkja reikningssamsvörun** gátreitinn á **Staðfesting reikninga** flipi á **Færibreytur viðskiptaskulda** síðu.
+    Þessi reitur er notaður til að staðfesta gjöld fyrir reikninga lánardrottins. Til að virkja staðfestingu gjalda skaltu velja gátreitinn **Gera villuprófun á reikningsjöfnun virka** á flipanum **Reikningaprófun** á síðunni **Færibreytusíða viðskiptaskulda**.
 
     > [!IMPORTANT]
-    > Til að sannreyna gjöld fyrir reikninga verður þú einnig að búa til tilvik af gerð stefnureglu sem er byggð á gjöldum fyrir tiltekna reikningsreglu lánardrottins.
+    > Til að staðfesta gjöld fyrir reikninga þarftu einnig að stofna tilvik af stefnureglugerð sem er byggð á gjöldum fyrir tiltekna stefnu fyrir reikning lánardrottins.
 
-6. Á **Birting** Flýtiflipi, tilgreinið hvernig skuldfærsla ætti að vera sjálfkrafa skuldfærð og innfærð.
-7. Ef þú valdir **Fjárhagsreikningur** sem debettegund eða kredittegund, tilgreindu bókunartegund sem **Debetfærsla** og **Kreditbókun** reiti og tilgreindu aðalreikninginn í **Debetreikningur** og **Kreditreikningur** sviðum.
-8. Til að virkja samanburð á gjaldgildum fyrir reikning sem inniheldur gjöldin úr samsvarandi innkaupapöntunarhaus eða línum skaltu velja **Berðu saman innkaupapöntun og reikningsgildi** gátreit.
+6. Á flýtiflipanum **Bókun** skaltu tilgreina hvernig skuldfærslan ætti að vera debet- og kreditfærð sjálfkrafa.
+7. Ef þú valdir **Fjárhagslykill** sem debet- eða kreditfærslugerð, tilgreindu bókunargerð í reitunum **Debet bókun** og **Kredit bókun** og tilgreindu aðallykilinn í reitunum **Debet lykill** og **Kredit lykill**.
+8. Veljið gátreitinn **Bera saman gildi innkaupapöntunar og reiknings** til að virkja samanburð gjalda fyrir reikning sem inniheldur gjöld úr haus eða línum samsvarandi innkaupapöntunar.
 
 ### <a name="example"></a>Dæmi
 
-Hægt er að skrá gjaldið sem kostnað, sem hluta af heildarupphæð fyrir innkaupapöntun eða reikning lánardrottins. Fylgdu þessum skrefum til að setja upp færsluupplýsingar. 
+Þú getur skráð skuldfærsluna sem kostnað, sem hluta af heildarupphæð fyrir innkaupapöntunina eða reikning lánardrottins. Fylgdu þessum skrefum til að setja upp bókunarupplýsingar. 
 
-- Í **Tegund** sviði í **Inneign** kafla, veldu **Viðskiptavinur/seljandi** til að bæta reikningsgjaldinu við reikning lánardrottins.
-- Í **Tegund** sviði í **Debet** kafla, veldu **Fjárhagsreikningur**. Þá, í **Reikningur** reit, veldu aðalreikning fyrir útgjöld frá reikningsgjöldum.
+- Í reitnum **Gerð** í hlutanum **Kredit** velur þú **Viðskiptavinur/Lánardrottinn** til að bæta reikningsgjöldum við lykil lánardrottinsins.
+- Í reitnum **Gerð** í hlutanum **Debet** skal velja **Fjárhagslykill**. Í reitnum **Lykill** velurðu svo aðallykil fyrir kostnað frá reikningsgjöldum.
 
-Fylgdu þessum skrefum til að setja upp bókunarupplýsingar þannig að einingargjaldið bætist við vörukostnaðinn.
+Fylgdu þessum skrefum til að setja upp bókunarupplýsingar svo að einingargjaldið bætist við vörukostnaðinn.
 
-- Í **Tegund** sviði í **Inneign** kafla, veldu **Viðskiptavinur/seljandi** til að bæta reikningsgjaldinu við reikning lánardrottins.
-- Í **Tegund** sviði í **Debet** kafla, veldu **Atriði** til að bæta gjaldinu við vörukostnaðinn.
+- Í reitnum **Gerð** í hlutanum **Kredit** velur þú **Viðskiptavinur/Lánardrottinn** til að bæta reikningsgjöldum við lykil lánardrottinsins.
+- Í reitnum **Gerð** í hlutanum **Debet**, veljið **Vara** til að bæta gjöldum við vörukostnað.
 
 > [!NOTE]
-> Þú gætir viljað nota gjaldmiðil sem er frábrugðinn þeim gjaldmiðli sem tilgreindur er á innkaupapöntun eða reikningi. Þú getur slegið inn annan gjaldmiðil ef debettegund eða kredittegund fyrir valinn kóða er annaðhvort **Fjárhagsreikningur** eða **Atriði**.
+> Þú gætir viljað nota gjaldmiðil sem er frábrugðinn þeim gjaldmiðli sem tilgreindur er á innkaupapöntuninni eða reikningnum. Ef debet- eða kreditfærslugerð fyrir valinn kóða er annað hvort **Fjárhagslykill** eða **Vara**, þá er hægt að færa inn annan gjaldmiðil.
 
-Þú getur prentað texta fyrir gjöld á því tungumáli sem er úthlutað til viðskiptavinarins. Til að tilgreina texta fyrir gjaldkóðann á öðrum tungumálum skaltu velja **Þýðingar**.
+Þú getur prentað textann fyrir gjöld á því tungumáli sem viðskiptamanni er úthlutað. Veldu **Þýðingar** til að tilgreina textann fyrir kóðann á öðrum tungumálum.

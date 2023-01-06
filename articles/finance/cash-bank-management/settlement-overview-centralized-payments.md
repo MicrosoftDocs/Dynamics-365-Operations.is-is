@@ -1,6 +1,6 @@
 ---
 title: Uppgjörsyfirlit fyrir miðstýrðar greiðslur
-description: Þessi grein lýsir uppgjöri fyrir miðstýrðar greiðslur fyrir Microsoft Dynamics 365 Fjármál.
+description: Í þessari grein er jöfnunum fyrir miðstýrðar greiðslur fyrir Microsoft Dynamics 365 Finance lýst
 author: angelad116
 ms.date: 08/02/2018
 ms.topic: overview
@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ef71520df5cdae192355e512238d03c1f21b901f
 ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/14/2022
 ms.locfileid: "9151163"

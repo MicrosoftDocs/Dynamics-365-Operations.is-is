@@ -1,6 +1,6 @@
 ---
 title: Yfirfara skilgreiningar til að búa til skýrslur á Office-sniði með innfelldum myndum
-description: Þessi grein lýsir því hvernig á að hanna skýrslustillingar til að búa til rafræn skjöl sem innihalda innfelldar myndir. (Hluti 1 – Setja upp færibreytur).
+description: Í þessari grein er útskýrt hvernig á að hanna skilgreiningar skýrslugerðar til að mynda rafræn skjöl sem innihalda innfelldar myndir. (Hluti 1 – Setja upp færibreytur).
 author: kfend
 ms.date: 06/13/2017
 ms.topic: business-process
@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 12f7b9b027506657809dc9fa50cf97a0300a5310
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290305"

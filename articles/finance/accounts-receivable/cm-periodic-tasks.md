@@ -1,6 +1,6 @@
 ---
 title: Reglubundin verk lánastýringar
-description: Þessi grein lýsir reglubundnum verkefnum sem eru hluti af ferlinu við stjórnun lánaheimilda fyrir viðskiptavini.
+description: Þessi grein lýsir reglubundnum verkefnum sem eru hluti af ferlinu við að stjórna lánamörkum fyrir viðskiptavini.
 author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 9ad72463acba301f7fc931f9fe316a9a9758922e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8888007"
@@ -23,7 +23,7 @@ ms.locfileid: "8888007"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir reglubundnum verkefnum sem eru hluti af ferlinu við stjórnun lánaheimilda fyrir viðskiptavini.
+Þessi grein lýsir reglubundnum verkefnum sem eru hluti af ferlinu við að stjórna lánamörkum fyrir viðskiptavini.
 
 ## <a name="update-risk-scores"></a>Uppfæra áhættueinkunnir
 

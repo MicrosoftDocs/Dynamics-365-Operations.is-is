@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 677a032ce77fbe57393c85235a1c64dba3958f2d
 ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/25/2022
 ms.locfileid: "9715150"
@@ -38,7 +38,7 @@ ms.locfileid: "9715150"
     -   Hægt er að auka virknina í hvaða snið sem er.
 
 2.  Setja upp númeraröð til að nota°fyrir ítarlega bankaafstemmingu og skilgreina samsvörunarreglur bankaafstemmingar.
-    -   Samsvörunarregla er sett af viðmiðum sem eru notuð til að sía bankayfirlitslínur og Microsoft Dynamics 365 Fjármálabankafærslulínur meðan á afstemmingu stendur. Hægt er að setja upp fleiri en eina samsvörunarreglu til að gera sjálfvirkt og bæta ferli við afstemmingar eftir þörfum fyrirtækisins.
+    -   Jöfnunarregla afstemmingar er safn skilyrða sem eru notuð til að sía bankayfirlitslínur og bankaskjalslínur Microsoft Dynamics 365 Finance á meðan á afstemmingarferlinu stendur. Hægt er að setja upp fleiri en eina samsvörunarreglu til að gera sjálfvirkt og bæta ferli við afstemmingar eftir þörfum fyrirtækisins.
 
 3.  Stemma af bankayfirlit með bankafærslum Finance.
     -   Framkvæma sjálfvirka jöfnun og stofnun afstemmingafærslubóka.

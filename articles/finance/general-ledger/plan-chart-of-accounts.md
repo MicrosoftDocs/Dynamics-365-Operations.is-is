@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 10906d7b30628dfe69907cfa69ae1022fde33243
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9070635"
@@ -43,7 +43,7 @@ Nokkra þætti þarf að hafa í huga þegar skipulag bókhaldslykla er ákveði
 Þú stofnar bókhaldslykil á síðunni **Bókhaldslykill**. Þú getur búið til aðallykla á síðunni **Bókhaldslykill** eða á síðunni **Aðallyklar**. Aðallyklar þínir ættu ekki að nota sérstafi sem eru notaðar sem skiltákn bókhaldslykils. Annars gætir þú fundið fyrir óstöðugleika, eða þú gætir þurft að nota uppflettingar eða svarglugga þegar þú slærð inn samsetningar lykla og vídda. Nánari upplýsingar sjá [Stofna aðallykil](tasks/create-main-account.md).
 
 > [!NOTE]
-> Í Dynamics 365 Finance útgáfu 8.0 (apríl 2018) er hægt að breyta afmörkun reikningsskila frá **Fjárhagsfæribreytur** síðu.
+> Í Dynamics 365 Finance útgáfu 8.0 (apríl 2018) er hægt að breyta skiltákni bókhaldslykils á síðunni **Færibreytur fjárhags**.
 
 Það er góð hugmynd að tengja við aðallykla tegundir aðallykils þannig er hægt nýta sjálfgefna fjárhagsskýrslur án þess að þurfa að gera neinar breytingar. Þess vegna er hægt að hanna og viðhalda skýrslur á fljótari og auðveldari hátt.
 

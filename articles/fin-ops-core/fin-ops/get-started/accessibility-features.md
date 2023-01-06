@@ -1,6 +1,6 @@
 ---
 title: Aðgengiseiginleikar
-description: Þessi grein lýsir virkninni sem er hönnuð til að hjálpa notendum sem eru með ýmsar fötlun.
+description: Þessi grein lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun.
 author: jasongre
 ms.date: 12/02/2019
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 4e6a077cc7848448233ed5f94f9b1ba5b385c3fe
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9284024"
@@ -26,7 +26,7 @@ ms.locfileid: "9284024"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þessi grein lýsir virkninni sem er hönnuð til að hjálpa notendum með ýmsar fötlun að nota þetta forrit. Til dæmis eru eiginleikar fyrir fólk sem notar tækni til að sjá betur, svo sem Microsoft Windows Narrator.
+Þessi grein lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun nota þetta forrit. Til dæmis eru eiginleikar fyrir fólk sem notar tækni til að sjá betur, svo sem Microsoft Windows Narrator.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator og lyklaborð-eingöngu aðgangur
 
@@ -49,7 +49,7 @@ Frekari upplýsingar, sjá [Flettingaleit](navigation-search.md).
 
 ## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a>Aðgerðaleit fyrir lyklaborð-eingöngu notendur eða fyrir gagnafærslur sem eru framkvæmdar án villuleitar
 
-Sérhverja aðgerð sem er að finna á síðu er hægt að nálgast á lyklaborðinu, gegnum fliparöðina. Upplýsingar um fliparöðina eru veittar síðar í þessari grein. Til að keyra aðgerðir meira beint, getur þú notað aðgerðaleitarvirkni.
+Sérhverja aðgerð sem er að finna á síðu er hægt að nálgast á lyklaborðinu, gegnum fliparöðina. Upplýsingar um fliparöðina er að finna seinna í þessari grein. Til að keyra aðgerðir meira beint, getur þú notað aðgerðaleitarvirkni.
 
 ### <a name="example"></a>Dæmi
 

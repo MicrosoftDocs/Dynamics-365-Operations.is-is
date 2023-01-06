@@ -1,6 +1,6 @@
 ---
 title: Yfirlit rafrænna reikninga
-description: Þessi grein veitir yfirlit yfir rafræna reikninga í Microsoft Dynamics 365 Fjármál og Dynamics 365 Supply Chain Management.
+description: Þessi grein veitir yfirlit yfir kreditkortaheimildir í Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management.
 author: gionoder
 ms.date: 01/21/2022
 ms.topic: overview
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ''
 ms.openlocfilehash: d219863d793c837e2346d66d6b95d38191933bcc
 ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/20/2022
 ms.locfileid: "9709182"
@@ -26,7 +26,7 @@ ms.locfileid: "9709182"
 
 [!include [banner](../includes/banner.md)]
 
-Rafræn reikningur fyrir Microsoft Dynamics 365 Fjármál og Dynamics 365 Supply Chain Management er hástigstærð fjöleignarþjónusta sem gerir kleift að stilla vinnslu rafrænna reikninga og stillanleg rafræn skjalaskipti. Vinnslan og samþættingarreglurnar eru hægt að stilla að vild og reiknireglurnar eru keyrðar utan Finance og Supply Chain Management. Þjónustan beinist aðallega að úrvinnslu rafrænna reikningaskjala í sviðum fyrirtækja til ríkis. Hins vegar er hægt að sérsníða það í öðrum tilgangi, svo sem atburðarás milli fyrirtækja fyrir mismunandi gerðir skjala.
+Rafræn reikningsfærsla fyrir Microsoft Dynamics 365 Finance og Dynamics 365 Supply Chain Management er yfirgripsmikil þjónusta fyrir marga leigjendur sem gerir kleift að gera stillanlegar vinnslur á skjölum rafrænna reikninga og stillanleg skjalaskipti. Vinnslan og samþættingarreglurnar eru hægt að stilla að vild og reiknireglurnar eru keyrðar utan Finance og Supply Chain Management. Þjónustan miðast aðallega við úrvinnslu rafrænna reikningsskjala í viðskiptum milli stjórnvalda. Hins vegar er hægt að sérstilla það í öðrum tilgangi, svo sem í tengslum við viðskipti fyrir mismunandi gerðir skjalanna.
 
 Rafræn reikningsfærsla getur auðveldað þér að ná eftirfarandi markmiðum:
 
@@ -35,16 +35,16 @@ Rafræn reikningsfærsla getur auðveldað þér að ná eftirfarandi markmiðum
 - Aukinn rekjanleiki skjalaferils
 - Styttri innleiðingartími
 - Minni heildarkostnaður á eignarhaldi (TCO)
-- Auðveldlega stillanlegar stillingar sem þurfa ekki kóðabreytingar
+- Auðveldar stillingar á skilgreiningum sem krefjast ekki kóðabreytinga
 - Einfaldaðar grunnstillingarpakki
-- Innbyggður útflutningur, innflutningur og samþætting og auðveldur stækkanleiki í vinnslu rafrænna reikningsskjala
+- Innbyggður útflutningur, innflutningur og samþætting og auðveld stækkunarhæfni við vinnslu á rafrænum reikningsskjölum
 - Auðveld endurnýting á sömu skilgreiningum á útflutningi, innflutningi og samþættingu í mörgum fyrirtækjum
 
 ## <a name="service-availability"></a>Framboð þjónustu
 
-Eins og er er rafræn reikningsfærsla í boði fyrir viðskiptavini fjármála- og birgðakeðjustjórnunar. Fyrir frekari upplýsingar, skoðaðu leyfisskilmálana fyrir umsóknina þína.
+Rafræn reikningagerð er í boði fyrir viðskiptavini Finance og Supply Chain Management eins og er. Frekari upplýsingar er að finna í leyfisskilmálum fyrir forritið.
 
-Vegna þess að virkni sem tekur á lands-/svæðissértækum kröfum gæti verið takmörkuð á mismunandi stigum útgáfunnar, ættir þú alltaf að skoða nýjustu skjölin sem undirstrika umfang og umfang studdra landa/svæðissértækra lausna.
+Vegna þess að virkni sem tengist lands-/svæðisbundnum kröfum kann að vera takmörkuð á mismunandi stigum útgáfunnar, ætti alltaf að yfirfara nýjustu fylgigögnin sem fjalla um umfang lausna sem eru háðar löndum/svæðum.
 
 Rafræn reikningsfærsla er sett upp á eftirfarandi staðsetningum Azure:
 
@@ -68,27 +68,27 @@ Rafræn reikningsfærsla er sett upp á eftirfarandi staðsetningum Azure:
 
 ## <a name="feature-highlights"></a>Helstu atriði eiginleika
 
-- Samþætting utan kassa við fjármála- og framboðskeðjustjórnun
-- Samræmd notendaupplifun fyrir uppsetningu og eftirlit með rafrænu reikningsferlinu fyrir öll lönd og svæði
+- Tilbúin samþætting við Finance og Supply Chain Management
+- Samræmd notendaupplifun fyrir skilgreiningu og eftirlit á ferli rafrænna reikninga fyrir öll lönd og svæði
 - Hraðari, auðveldari og ódýrari aðlögun á rafrænni reikningsfærsluviðbót í nýjum löndum og svæðum
-- Stilling þjónustunnar með uppsetningu á Regulatory Configuration Service (RCS) og hnattvæðingareiginleikum
-- Umbreyting viðskiptagagna í mörg rafræn reikningssnið (XML, JavaScript Object Notation\[ JSON\], TXT og kommuaðskilin gildi\[ CSV\]) með því að nota stillingar sem eru skilgreindar í RCS:
+- Skilgreining þjónustunnar í gegnum uppsetningu Regulatory Configuration Service (RCS) og altækra eiginleika
+- Viðskiptagögnum breytt í margs konar snið rafrænna reikninga (XML, JavaScript Object Notation \[JSON\], TXT og gildi aðskilin með kommu \[CSV\]) með því að nota stillingar sem eru skilgreindar í RCS:
 
-    - Rafræn skýrslugerð (ER) snið sem eru fáanleg fyrir lönd og svæði þar sem stillingarhæfni fyrir rafræna reikningsumbreytingu er ekki tiltæk
+    - Snið rafrænnar skýrslugerðar (ER) sem eru í boði fyrir lönd og svæði þar sem stillanleiki fyrir breytingu á rafrænum reikningi er ekki í boði
 
-- Stillanleg innsending rafrænna reikninga til ytri vefþjónustu, þar á meðal vottunarmeðhöndlun með stafrænum undirskriftum:
+- Stillanleg innsending á rafrænum reikningum til vefþjónusta, þ.m.t. meðhöndlun vottorða í gegnum stafræna undirskrift:
 
-    - Innbyggð, auðvelt að stækka og stillanleg samþætting með viðbótarefni fyrir nokkur lönd og svæði
+    - Innbyggð, auðveldlega stækkanleg og stillanleg samþætting við viðbótarefni fyrir ýmis lönd og svæði
 
-- Meðhöndlun svara frá vefþjónustum, þar á meðal stillanleg meðhöndlun undantekningaskilaboða
-- Stuðningur við rafrænar undirskriftir (til dæmis rafrænar undirskriftir sem nota XMLDSig undirskriftaralgrímið)
-- Hæfni til að senda skjöl í tölvupósti og geyma þau í SharePoint
-- Hópvinnsla rafrænna reikningsskilaboða
-- Stillanleg umbreyting á komandi skjölum og vinnsla þeirra skjala í fjármála- og birgðakeðjustjórnun
-- Möguleikinn til að taka á móti skjölum sem berast frá rásum eins og tölvupósti og SharePoint
+- Meðhöndlun svara frá vefþjónustum, þ.m.t. meðhöndlun stillanlegra undantekningarboða
+- Stuðningur við rafrænar undirskriftir (til dæmis með því að nota rafrænar undirskriftir reiknirit XMLDSig-undirskriftar)
+- Möguleiki á að senda skjöl í tölvupóst og geyma í SharePoint
+- Runuvinnsla skilaboða rafrænna reikninga
+- Stillanleg umbreyting á innkomnum skjölum og úrvinnsla þessara skjala í Finance og Supply Chain Management
+- Möguleiki er á að taka á móti innkomnum skjölum frá öðrum leiðum eins og tölvupósti og SharePoint
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 
-Til að virkja og nota rafræna reikningagerð gæti þurft að senda takmörkuð gögn. Þessi gögn innihalda skattskráningarauðkenni stofnunarinnar. Þessi gögn verða send til þriðja aðila sem hafa heimild skattyfirvalda í þeim tilgangi að senda rafræna reikninga á fyrirfram skilgreindu sniði sem krafist er fyrir samþættingu við vefþjónustu ríkisins. Gögn sem eru flutt inn úr þessum ytri kerfum inn í þessa Dynamics 365 netþjónustu eru háð okkar [persónuverndaryfirlýsingu](https://go.microsoft.com/fwlink/?LinkId=512132). Fyrir frekari upplýsingar, sjá hlutann „Persónuverndartilkynning“ í lands-/svæðissértækum eiginleikum.
+Notkun rafrænna reikningsfærslu gæti haft í för með sér sendingu á takmörkuðu magni af gögnum. Þessi gögn innihalda skattaskráningarauðkenni stofnunar/fyrirtækis. Gögnin verða senda til stofnana þriðja aðila sem skattyfirvöld heimila að megi senda rafræna reikninga til þessara skattyfirvalda á fyrirframskilgreindu sniði sem þarf fyrir samþættingu við vefþjónustu yfirvalda. Gögn sem eru flutt inn úr þessum ytri kerfum í þessa Dynamics 365-netþjónustu falla undir [yfirlýsingu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=512132). Frekari upplýsingar er að finna í hlutanum „Persónuverndartilkynning“ í fylgiskjölum um eiginleika fyrir viðkomandi land/svæði.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

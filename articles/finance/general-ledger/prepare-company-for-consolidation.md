@@ -1,6 +1,6 @@
 ---
 title: Undirbúa lögaðila fyrir sameiningarferlið
-description: Við sameiningu er færslum safnað saman úr nokkrum settum af lyklum lögaðila í eitt sett af lyklum lögaðila. Þessi grein útskýrir hvernig á að undirbúa lögaðila fyrir sameiningu.
+description: Við sameiningu er færslum safnað saman úr nokkrum settum af lyklum lögaðila í eitt sett af lyklum lögaðila. Þessi grein útskýrir hvernig á að undirbúa lögaðila undir sameiningu.
 author: jinniew
 ms.date: 10/30/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
 ms.openlocfilehash: 2a3d4645c79ec30df2bbb7a32a82a59fdb7016e5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8894027"
@@ -24,10 +24,10 @@ ms.locfileid: "8894027"
 
 [!include [banner](../includes/banner.md)]
 
-Við sameiningu er færslum safnað saman úr nokkrum settum af lyklum lögaðila í eitt sett af lyklum lögaðila. Þessi grein útskýrir hvernig á að undirbúa lögaðila fyrir sameiningu.
+Við sameiningu er færslum safnað saman úr nokkrum settum af lyklum lögaðila í eitt sett af lyklum lögaðila. Þessi grein útskýrir hvernig á að undirbúa lögaðila undir sameiningu.
 
 > [!NOTE]
-> Við mælum með að þú notir Management Reporter fyrir Microsoft Dynamics 365 Fjármál til að sameina fjárhagsniðurstöður margra lögaðila á samstæðusniði. Stjórnunarskýrsla gerir þér kleift að búa til samstæðufjárhagsskýrslur þvert á lögaðila, nota Excel til að flytja inn samstæðugögn frá öðrum aðilum og þýða upphæðir í hvaða fjölda skýrslugjaldmiðla sem er án þess að þurfa að keyra samstæðuferlið í Dynamics 365 Finance.
+> Mælt er með því að nota Management Reporter fyrir Microsoft Dynamics 365 Finance til að sameina fjárhagsniðurstöður fyrir marga lögaðila á sameinuðu sniði. Management Reporter gerir kleift að stofna sameinaðar fjárhagsskýrslur yfir alla lögaðila, nota Excel til að flytja inn samstæðugögn frá öðrum upprunum og umbreyta upphæðum í hvaða fjölda skýrslugjaldmiðla sem er án þess að þurfa að keyra sameiningarferlið í Dynamics 365 Finance.
 
 Hægt er að prenta skýrslur, t.d. fjárhagsskýrslur, úr sameinuðum lögaðila. Hins vegar er ekki hægt að nota sameinaðan lögaðila fyrir daglegar færslur.
 

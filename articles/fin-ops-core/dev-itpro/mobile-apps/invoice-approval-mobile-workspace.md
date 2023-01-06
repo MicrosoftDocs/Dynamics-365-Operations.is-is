@@ -1,6 +1,6 @@
 ---
 title: Reikningssamþykktir á fartækjavinnusvæðum
-description: Þessi grein veitir upplýsingar um farsímavinnusvæðið fyrir samþykki reikninga.
+description: Þessi grein veitir upplýsingar um fartækjavinnusvæðið Reikningssamþykktir.
 author: abruer
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 4cc05d9fcea129cfb2ed8ed8df4bd4034a1fed4c
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9066391"
@@ -24,9 +24,9 @@ ms.locfileid: "9066391"
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Þessi grein veitir upplýsingar um **Samþykki reikninga** færanlegt vinnusvæði. Þessi vinnusvæði gefur lista yfir reikninga sem hafa verið úthlutaðir þér í gegnum verkflæði reikningshauss lánardrottins. 
+Þessi grein veitir upplýsingar um fartækjavinnusvæðið **Reikningssamþykktir**. Þessi vinnusvæði gefur lista yfir reikninga sem hafa verið úthlutaðir þér í gegnum verkflæði reikningshauss lánardrottins. 
 
-Þetta farsímavinnusvæði er ætlað til notkunar með fjármála- og rekstrarfarsímaappinu.
+Þetta fartækjavinnusvæði er ætlað til að nota með farsímaforritið fjármála- og reksturs.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -46,7 +46,7 @@ Fartækjavinnusvæðið **Reikningssamþykktir** gerir gjaldkerum og stjórnendu
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 Finance verður að vera notað í fyrirtækinu þínu.</td>
+<td>Microsoft Dynamics 365 Finance verður að vera innleitt í fyrirtækinu.</td>
 <td>Kerfisstjóri</td>
 <td>Sjá <a href="../deployment/deploy-demo-environment.md">Uppsetning sýniútgáfuumhverfis</a>.
 </td>
@@ -61,7 +61,7 @@ Fartækjavinnusvæðið **Reikningssamþykktir** gerir gjaldkerum og stjórnendu
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
 
-Sæktu og settu upp fjármála- og rekstrarfarsappið:
+Sæktu og settu upp fartækjaforrit fyrir fjármál- og rekstur:
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)

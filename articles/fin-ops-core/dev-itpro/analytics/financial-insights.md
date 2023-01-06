@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 21d7d045c812c54d6776394ad9a0b025b55df8e1
 ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/01/2022
 ms.locfileid: "9109113"
@@ -40,7 +40,7 @@ Vinnusvæðið **Fjármálagreining** leggur áherslu á að leyfa þér að sj�
 
 - [Bættu við eða breyttu Power BI myndrænum framsetningum á stjórnborðinu þínu](/powerapps/user/add-powerbi-dashboards)
 
-## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance uppsetning
+## <a name="dynamics-365-finance-setup"></a>Uppsetning Dynamics 365 Finance
 **Fjárhagur**
 
 Aðallykilgerðin og aðallyklaflokkar eru notaðir til að fylla í viðeigandi sjálfgefna aðallykla á fjárhagsskýrslu **efnahagsreikningsins** og ýmissa fjárhagsskýrsla **rekstrarreikninga** í **Fjármálagreining**.
@@ -78,7 +78,7 @@ Eins og er þá er ekki hægt að takmarka innfelldu gögnin í Power BI-skýrsl
 | Gjald                                    | Hlutverk | lýsing |
 |-----------------------------------------|-------|------------|
 | Skoða fjármálagreiningu í núgildandi fyrirtæki | <ul><li>Bókhaldari</li><li>Bókhaldsstjóri</li><li>Yfirmaður bókhalds</li><li>Endurskoðandi</li><li>Umsjón með fjárhagsáætlun</li><li>Forstjóri</li><li>Fjármálastjóri</li><li>Fjármálastjóri</li></ul> | Þessi skylda veitir aðgang að Fjármálagreiningu. Að sjálfgefnu er að virka fyrirtækið notað sem sía. Þú getur ekki bætt við öðrum lögaðilum. |
-| Skoða fjármálagreining - öll fyrirtæki   | Í Microsoft Dynamics 365 Finance, Enterprise útgáfa 7.3, þessari skyldu er ekki úthlutað hlutverki. Í næstu útgáfu verður þessari skyldu úthlutað hlutverki fjármálastjóra. | Þessi skylda veitir aðgang að valmyndaratriði fyrir vinnusvæði CFO-yfirlits. Að sjálfgefnu er að virka fyrirtækið notað sem sía. Þú getur þó bætt við öllum lögaðilum, óháð því hvort notandinn hefur aðgang að hinum lögaðilunum. |
+| Skoða fjármálagreining - öll fyrirtæki   | Í Microsoft Dynamics 365 Finance, Enterprise Edition 7.3, er þessari skyldu ekki úthlutað hlutverki. Í næstu útgáfu verður þessari skyldu úthlutað hlutverki fjármálastjóra. | Þessi skylda veitir aðgang að valmyndaratriði fyrir vinnusvæði CFO-yfirlits. Að sjálfgefnu er að virka fyrirtækið notað sem sía. Þú getur þó bætt við öllum lögaðilum, óháð því hvort notandinn hefur aðgang að hinum lögaðilunum. |
 
 
 ## <a name="financial-reporting-vs-financial-analysis"></a>Fjárhagsskýrslugerð vs. fjármálagreining
@@ -96,7 +96,7 @@ Eftirfarandi samanburðargraf auðveldar aðgreiningu á valkostunum tveimur:
 | **Stuðningur við stigveldi skýrslugerðar/stigveldi fyrirtækis**   | Já                                                               | Nei |
 | **Skýrsla um gögn undirbókar**                             | Já Takmarkast aðeins við lánardrottin, viðskiptavin                              | Já Lánardrottinn, viðskiptavinur, flokkur lánardrottins/viðskiptavinar, aðsetur lánardrottins/viðskiptavinar, o.s.frv. |
 | **Skýrslugjaldmiðill**                                   | Já Bókhaldsgjaldmiðill og þýða yfir í skýrslugjaldmiðil       | Nei Bókhaldsgjaldmiðill eingöngu |
-| **Öryggi**                                             | Já Fylgir Finance öryggi skipurits | Skýrslur takmarkaðs útsýnis fyrir öll fyrirtæki (óháð fjármálum og rekstraröryggi) eða aðeins virkt fyrirtæki |
+| **Öryggi**                                             | Já Fylgir Finance öryggi skipurits | Takmarkað Skoða skýrslur fyrir öll fyrirtæki (óháð öryggi fjármála- og reksturs) eða aðeins virkt fyrirtæki |
 | **Stuðningur við mismunandi bókhaldslykla og fjárhagsár** | Já                                                               | Nei |
 | **skýrsla um ytri gögn**                              | Nei                                                                | Nei |
 | **Stuðningur við samsteypur**                               | Já                                                               | Takmarkað Getur greint frá mörgum fyrirtækjum en aðeins notað bókhaldsgjaldmiðil |

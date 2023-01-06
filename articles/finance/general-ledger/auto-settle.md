@@ -1,6 +1,6 @@
 ---
-title: Sjálfvirk uppgjör fjárhagsbóka
-description: Þessi grein veitir upplýsingar um sjálfvirka fjárhagsuppgjörsferlið.
+title: Sjálfvirknivæða fjárhagsjafnanir
+description: Í þessari grein er að finna upplýsingar um sjálfvirknivæðingu fjárhagsjafnanna.
 author: abruer
 ms.date: 9/21/2022
 ms.topic: article
@@ -16,100 +16,100 @@ ms.assetid: ''
 ms.search.form: ''
 ms.openlocfilehash: b43eeeefa581b5d8b40dc2cf0187c7c781b18be3
 ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/20/2022
 ms.locfileid: "9707761"
 ---
-# <a name="automate-ledger-settlements"></a>Sjálfvirk uppgjör fjárhagsbóka
+# <a name="automate-ledger-settlements"></a>Sjálfvirknivæða fjárhagsjafnanir
 
 [!include [banner](../includes/banner.md)]
 
-Í Microsoft Dynamics 365 Fjármál útgáfa 10.0.31, the **Sjálfvirka uppgjörsferli fjárhagsbókhalds** eiginleiki er fáanlegur í **Eiginleikastjórnun**  vinnurými. Þú getur virkjað **Sjálfvirka uppgjörsferli fjárhagsbókhalds** eiginleiki aðeins ef **Meðvitund milli uppgjörs fjárhags og ársloka** eiginleiki hefur verið virkjaður.
+Í Microsoft Dynamics 365 Finance, útgáfu 10.0.31, er eiginleikinn  **Sjálfvirknivæða ferli fjárhagsjafnana** í boði á  **Eiginleikastjórnun** vinnusvæðinu. Aðeins er hægt að virkja eiginleikann **Sjálfvirknivæða ferli fjárhagsjafnana** ef eiginleikinn **Munurinn á fjárhagsjöfnun og árslokalokun** hefur verið virkjaður.
 
-Fjárhagsuppgjör er ferlið við að passa saman debet- og kreditfærslur í aðalbókinni. Fyrirtæki sem framkvæma fjárhagsuppgjörsaðgerðir á endurtekinni áætlun geta nú gert ferlið sjálfvirkt. Meðan á sjálfvirku fjárhagsuppgjörsferlinu stendur er aðeins hægt að passa debetfærslu og kreditfærslu sjálfkrafa ef upphæðir þeirra í bókhaldsgjaldmiðli eru jafnar.Til dæmis, debetupphæð $1.00 er hægt að passa sjálfkrafa við kreditupphæð $1.00. Hins vegar er ekki hægt að samræma debetgildi $1.00 sjálfkrafa við tvær inneignir, sem hver um sig er metin á $0.50. Hlutasamsvörun fjárhæða fjárhagsfærslu er ekki studd.
+Fjárhagsjöfnun er ferlið við að jafna debet- og kreditfærslur í fjárhagnum. Fyrirtæki sem framkvæma aðgerðir fjárhagsjafnana samkvæmt endurtekinni áætlun geta nú gert ferlið sjálfvirkt. Meðan á sjálfvirka fjárhagsjöfnunarferlinu stendur er aðeins hægt að jafna debetfærslu og kreditfærslu sjálfkrafa ef upphæðir þeirra í bókhaldsgjaldmiðlinum eru jafnar.Til dæmis er hægt að tengja debetupphæðina $1,00 sjálfkrafa við kreditupphæð $1,00. Hins vegar getur debetgildi að verðmæti $ 1,00 ekki sjálfkrafa samsvarað tveimur kreditfærslum að verðmæti $0,50 hvor. Samsvörun fjárhagsfærslupphæða að hluta er ekki studd.
 
-Sjálfvirkni fjárhagsuppgjörs skilgreinir eftirfarandi upplýsingar:
+Sjálfvirkni fjárhagsjöfnunar skilgreinir eftirfarandi upplýsingar:
 
-- Þegar fjárhagsuppgjör eru keyrð
-- Hvaða viðmið eru notuð til að passa við skuldfærslur og inneignir sem hægt er að gera sjálfkrafa upp
-- Í hvaða röð eru unnar upplýsingar um fjárhagsuppgjör
+- Þegar fjárhagsjafnanir eru keyrðar
+- Hvaða viðmið eru notuð til að stemma við debetfærslur og kreditfærslur sem hægt er að jafna sjálfkrafa
+- Í hvaða röð eru upplýsingar um fjárhagsjöfnun unnar?
 
-## <a name="define-the-occurrence-of-ledger-settlements"></a>Skilgreina tilvik fjárhagsuppgjöra
+## <a name="define-the-occurrence-of-ledger-settlements"></a>Skilgreina tilvik fjárhagsjafnanna
 
-Sjálfvirkni fjárhagsuppgjörs notar sjálfvirkniramma ferlisins. Mismunandi viðskiptaferli nota þennan ramma til að skilgreina endurtekningu á völdu ferli. Fyrir fjárhagsuppgjör, farðu til  **Kerfisstjórnun \> Uppsetning \> Sjálfvirkni ferla** eða **Aðalbók \> Uppsetning höfuðbókar \> Sjálfvirkni ferla**.
+Sjálfvirkni fjárhagsjöfnunar notar „Meðhöndla sjálfvirkniramma“. Mismunandi viðskiptaferli nota þennan ramma til að skilgreina endurtekningu á völdu ferli. Fyrir fjárhagsjafnanir skal fara í  **Kerfisstjórnun \> Uppsetning \> Sjálfvirkni ferlis** eða **Fjárhagur \> Fjárhagsuppsetning \> Sjálfvirkni ferlis**.
 
-Fyrst skaltu velja **Búðu til nýja ferli sjálfvirkni** valmöguleika og veldu **Fjárhagsuppgjör**. Töframaður leiðir þig síðan í gegnum ferlið við að setja upp sjálfvirknina.
+Fyrst velur þú valkostinn  **Stofna nýja sjálfvirkni ferlis** og síðan  **Fjárhagsjafnanir**. Leiðsagnarforrit leiðir notandann í gegnum ferlið þegar verið er að setja upp sjálfvirknina.
 
 ## <a name="general-page"></a>Almenna síðan
 
-Á **Almennt**  síðu hjálparinnar, sláðu inn nafn fjárhagsuppgjörsins sem þú ert að búa til. Til dæmis, ef samsvarandi skuldfærslur og inneignir eru gerðar upp á mánudegi skaltu slá inn lýsandi heiti eins og **LedgerSettle\_ mán**. Nafnið sem þú slærð inn birtist í **Sjálfvirkniregla** dálki á **Fjárhagsuppgjör**  síðu.
+Á síðunni  **Almennt**  í leiðsögninni skal slá inn heiti tilviks fjárhagsjöfnunarinnar sem verið er að búa til. Ef samsvarandi debet- og kreditfærslur eru fjárhagsjafnaðar á mánudegi skal slá inn lýsandi heiti eins og  **Fjárhagsjöfnun\_Mán**. Heitið sem þú slærð inn er sýnt í dálkinum **Sjálfvirkniregla** á síðunni  **Fjárhagsjafnanir** .
 
-Stillingar sem eftir eru á síðunni eru almennar og skilgreina tilvikamynstur fyrir þessa útgáfu af fjárhagsuppgjörum. Til dæmis, ef tilvik er fyrir mánudag, getur þú skilgreint það þannig að það keyrir vikulega og þú getur valið mánudag sem vikudag þegar það keyrir. Einnig er hægt að færa inn snemmbúna tímaáætlun, t.d. 02:00, þannig að sjálfvirkniferlinu verði lokið fyrir upphaf næsta viðskiptadags. Við mælum með því að þú tímasetur sjálfvirkni ferlisins þannig að hún fari fram utan venjulegs vinnutíma. Þannig hjálpar þú til við að draga úr áhrifum á bókhaldsfólk þitt á vinnudeginum.
+Eftirstandandi stillingar á síðunni eru almennar og skilgreina endurtekningarmynstur þessarar útgáfu af fjárhagsjöfnunum. Til dæmis, ef tilfelli er fyrir mánudag er hægt að skilgreina það þannig að það keyri vikulega og hægt er að velja mánudag sem þann dag vikunnar þegar það er keyrt. Einnig er hægt að færa inn snemmbúna tímaáætlun, t.d. 02:00, þannig að sjálfvirkniferlinu verði lokið fyrir upphaf næsta viðskiptadags. Mælt er með því að tímasetja sjálfvirkni ferlisins þannig að hún sé framkvæmd utan venjulegs vinnutíma. Þannig hjálpar þú til við að draga úr álagi á bókhaldsdeildina á vinnudeginum.
 
-Fyrir frekari upplýsingar um aðra reiti á **Almennt**  síðu, sjá skjöl um sjálfvirkni ferlisins.
+Frekari upplýsingar um aðra reiti á síðunni  **Almennt**  er að finna í fylgiskjölum sjálfvirkniferlisins.
 
-## <a name="ledger-settlements-match-criteria-page"></a>Fjárhagsuppgjör samsvarar viðmiðunarsíðu
+## <a name="ledger-settlements-match-criteria-page"></a>Síða skilyrða fyrir samsvörun fjárhagsjafnana
 
-Næsta síða í töframanninum er **Fjárhagsuppgjör passa við viðmið**  síðu. Það er notað til að skilgreina helstu reikninga sem eru innifalin í sjálfvirkni ferlisins og viðmiðin sem eru notuð til að ákvarða samsvarandi skuldfærslur og inneignir.
+Næsta síða í leiðsagnarforritinu er síðan  **Síða skilyrða fyrir samsvörun fjárhagsjafnana** . Hún er notuð til að skilgreina aðallykla sem eru innifaldir í tilfellum sjálfvirkni ferlis og skilyrðið sem notað er til að ákvarða samsvarandi debet- og kreditfærslur.
 
 ### <a name="account-selection"></a>Val á lykli
 
-Helstu reikningar sem þú hefur áður skilgreint sem fjárhagsuppgjörsreikninga fyrir lögaðilann eru sýndir. (Þú skilgreinir aðalreikninga sem fjárhagsuppgjörsreikninga á **Aðalbók \> Uppsetning höfuðbókar \> Fjárhagsfæribreytur \> Fjárhagsuppgjör** .)
+Aðallyklarnir sem voru áður skilgreindir sem fjárhagsjöfnunarlyklar fyrir lögaðilann eru sýndir. (Aðallyklar eru skilgreindir sem fjárhagsjöfnunarlyklar í **Fjárhagur \> Fjárhagsuppsetning \> Almennar fjárhagsfæribreytur \> Fjárhagsfæribreytur**.)
 
-### <a name="main-account-and-posting-layer"></a>Aðalreikningur og færslulag
+### <a name="main-account-and-posting-layer"></a>Aðallykill og bókunarlag
 
-The  **Aðalreikningur** og **Færslulag**  gildi eru nauðsynleg samsvörunarviðmið. The **Aðalreikningur** og **Færslulag** gildi fjárhagsdebetfærslunnar og kreditfærslunnar verða að vera jöfn til að passa saman við sjálfvirka fjárhagsuppgjörsferli.
+Gildin  **Aðallykill** og **Bókunarlag** eru nauðsynleg skilyrði fyrir samsvörun. Gildin **Aðallykill** og **Bókunarlag** fyrir debet- og kreditfærslu fjárhagsins verða að stemma í sjálfvirku jöfnunarferli fjárhags.
 
 ### <a name="posting-type"></a>Bókunargerð
 
-Veldu **Tegund færslu** valmöguleika ef fjárhagsdebet- og kreditfærslur verða að hafa sömu bókunartegund til að passa saman við sjálfvirka fjárhagsuppgjörsferli.
+Veljið valkostinn **Bókunargerð** ef debet- og kreditfærslur fjárhags verða að hafa sömu bókunargerðir til að samsvörun eigi sér stað á sjálfvirka reikningsuppgjörsferlinu.
 
 ### <a name="financial-dimensions"></a>Fjárhagsvíddir
 
-Veldu **Fjárhagsstærðir** valmöguleika ef debet- og kreditfærslur fjárhagsbókar verða að hafa sömu fjárhagsvíddir til að passa við sjálfvirka fjárhagsuppgjörsferli. Þegar þessi valkostur er valinn verður að velja skilyrði fyrir fjárhagsvíddargildi í **Tiltækar fjárhagsvíddir** lista. The **Tiltækar fjárhagsvíddir** listi inniheldur ekki aðalreikningsvíddina, vegna þess að það er sjálfkrafa krafist sem hluti af samsvörunarskilyrðunum.
+Veljið valkostinn **Fjárhagsvíddir** ef debet- og kreditfærslur fjárhags verða að hafa sömu fjárhagsvíddir til að samsvörun eigi sér stað í sjálfvirka fjárhagsjöfnunarferlinu. Þegar þessi valkostur er valinn verður að velja skilyrði fyrir fjárhagsvíddargildin í listanum **Tiltækar fjárhagsvíddir**. Listinn **Tiltækar fjárhagsvíddir** inniheldur ekki vídd aðallykils því að hann er sjálfkrafa áskilinn sem hluti af skilyrði fyrir samsvörun.
 
-## <a name="view-the-results-of-a-ledger-settlement-automation"></a>Skoðaðu niðurstöður sjálfvirkni fjárhagsuppgjörs
+## <a name="view-the-results-of-a-ledger-settlement-automation"></a>Skoða niðurstöður sjálfvirkni fjárhagsjöfnunar
 
-Eftir að sjálfvirkniröð fjárhagsuppgjörs er stofnuð eru tilvik fyrir hverja uppgjör fjárhagsuppgjörs sýnd í vikulegri sjálfvirkni vinnslu. Þar að auki er staða hvers tilviks sýnd. Eftirfarandi stöður eru notaðar:
+Þegar röð sjálfvirkni fjárhagsjöfnunar er búin til birtast tilfelli hverrar fjárhagsjöfnunar í vikulegu yfirliti sjálfvirkniferlisins. Þar að auki er staða hvers tilviks sýnd. Eftirfarandi stöður eru notaðar:
 
-- **Tímaáætlun**  – Sjálfvirknin er áætluð, en hún hefur ekki enn keyrt.
-- **Framkvæmd** – Sjálfvirknin er í gangi.
-- **Villa**  – Sjálfvirknin hefur keyrt en villa kom upp. Þú getur skoðað villurnar með því að velja **Skoða niðurstöður**  takki.
-- **Lokið**  – Sjálfvirknin hefur gengið vel. Hægt er að skoða niðurstöður uppgjörs á **Fjárhagsuppgjör** síðu.
+- **Áætlað**  – Sjálfvirknin er áætluð, en hún hefur ekki verið keyrð.
+- **Keyrir** – Sjálfvirknin er í gangi.
+- **Villa**  – Sjálfvirknin hefur verið keyrð en villa kom upp. Hægt er að skoða villurnar með því að velja hnappinn  **Skoða niðurstöður** .
+- **Lokið** – Það tókst að keyra sjálfvirknina. Hægt er að skoða niðurstöður jöfnunar á síðunni **Fjárhagsjöfnun**.
 
-Til að skoða samsvarandi niðurstöður skaltu fara á **Aðalbók \> Reglubundin verkefni \> Fjárhagsuppgjör**. The **Sjálfvirkniregla** sviði á **Fjárhagsuppgjör** síða sýnir heiti sjálfvirka fjárhagsuppgjörsáætlunarverksins sem var notað til að jafna færsluna. Misheppnaðar uppgjörstilraunir munu ekki uppfæra **Sjálfvirkniregla** gildi. Ef þú bakfærir færslu handvirkt sem áður tókst að gera upp með sjálfvirkniferlinu, **Sjálfvirkniregla** gildi verður fjarlægt.
+Opnið **Fjárhagur \> Reglubundin verkefni \> Fjárhagsjafnanir** til að sjá samsvarandi niðurstöður. Svæðið **Sjálfvirkniregla** á síðunni **Fjárhagsjafnanir** sýnir heiti áætlaðs verks sjálfvirkrar fjárhagsjöfnunar sem var notað til að jafna færsluna. Árangurslausar jöfnunartilraunir uppfæra ekki gildi **Sjálfvirkniregla**. Ef færsla sem var áður jöfnuð af sjálfvirka ferlinu er bakfærð handvirkt verður gildið **Sjálfvirkniregla** fjarlægt.
 
-The **Dagsetning ákveðin** reiturinn fyrir samsvarandi færslur sýnir dagsetninguna þegar sjálfvirkniferlið var framkvæmt.
+Reiturinn **Dagsetning jöfnunar** fyrir jafnaðar færslur sýnir dagsetninguna þegar sjálfvirka ferlið var framkvæmt.
 
-## <a name="editing-a-ledger-settlement-automation"></a>Breyting á sjálfvirkni fjárhagsuppgjörs
+## <a name="editing-a-ledger-settlement-automation"></a>Breytingar á sjálfvirkni fjárhagsjöfnunar
 
-Sjálfvirkniramminn ferli gerir þér kleift að breyta röðinni og tilvikunum sem eru búnar til fyrir fjárhagsuppgjörið. Seríunni er hægt að breyta úr annaðhvort **Sjálfvirkni ferlisins**  síðu eða vinnslusjálfvirkni vikunnar. Til dæmis, ef stjórnandi ákveður að framkvæma fjárhagsuppgjör á miðvikudag í stað mánudags, getur hann fundið atvik í vikuyfirliti og valið **Skoða/breyta – Röð**.
+Með ramma sjálfvirkniferlisins er hægt að breyta röðinni og tilfellunum sem eru stofnuð fyrir fjárhagsjöfnunina. Hægt er að breyta röðinni annaðhvort á síðunni  **Sjálfvirkniferli**  eða í vikulegu yfirliti sjálfvirkniferlisins. Til dæmis, ef yfirmaður ákveður að framkvæma fjárhagsjöfnun á miðvikudegi í stað mánudags, getur hann fundið tilfellið í vikuyfirlitinu og valið  **Skoða/breyta - Röð**.
 
-Ef þú breytir röð ertu beðinn um að tilgreina hvort breytingin eigi að vera á öllum fyrirliggjandi tilvikum eða aðeins á nýjum tilvikum. Sögulegir atburðir sem þegar hafa stöðu **Lokið**, eða sem endaði á an **Villa**  stöðu, verður ekki breytt.
+Ef röð er breytt er notandi beðinn um að tilgreina hvort breytinguna eigi að gera á öllum fyrirliggjandi tilvikum eða aðeins nýjum tilvikum. Eldri tilvikum sem eru komin með stöðuna **Lokið**, eða þar sem kom upp staðan  **Villa** , verður ekki breytt.
 
-Einnig er hægt að bæta við nýju tilviki eða breyta fyrirliggjandi tilviki. Til dæmis, næsta fjárhagsuppgjörstilvik er áætlað að keyra miðvikudaginn 1. janúar, en þessi dagsetning er frídagur. Þú getur breytt tilvikinu úr annaðhvort **Sjálfvirkni ferlisins**  síðu eða vinnslusjálfvirkni vikunnar. Síðan er opnuð sem sýnir áætlunarupplýsingar og samsvörunarviðmið. Hér er hægt að breyta áætluðum tíma og dagsetningu. Þú getur líka breytt samsvörunarviðmiðunum, ef breytinga er þörf. 
+Einnig er hægt að bæta við nýju tilviki eða breyta fyrirliggjandi tilviki. Til dæmis er áætlað að keyra næsta tilvik fjárhagsjöfnunar miðvikudaginn 1. janúar, en þessi dagsetning er frídagur. Hægt er að breyta tilvikinu annaðhvort á síðunni  **Sjálfvirkniferli**  eða í vikulegu yfirliti sjálfvirkniferlisins. Síða opnast sem sýnir upplýsingar áætlunar og skilyrði fyrir samsvörun. Hér er hægt að breyta áætluðum tíma og dagsetningu. Einnig er hægt að breyta skilyrðum fyrir samsvörun, ef breytingar eru nauðsynlegar. 
 
-Einnig er hægt að óvirkja tilvik eða röð tilvika. Til að slökkva á atviki og stöðva vinnslu fyrir það skaltu velja það í vikulegri sjálfvirkni vinnslu og velja síðan **Slökkva**. Þú getur slökkt á röð á **Sjálfvirkni ferlisins**  síðu.
+Einnig er hægt að óvirkja tilvik eða röð tilvika. Til að gera tilvik óvirkt og fresta úrvinnslu þess skal velja það í vikulegu yfirliti sjálfvirkniferlisins og síðan velja  **Gera óvirkt**. Hægt er að slökkva á röð á síðunni **Sjálfvirkniferli** .
 
-## <a name="security-for-ledger-settlement-automation"></a>Öryggi fyrir sjálfvirkni fjárhagsuppgjörs
+## <a name="security-for-ledger-settlement-automation"></a>Öryggi fyrir sjálfvirkni fjárhagsjöfnunar
 
-The **Viðhalda stillingum sjálfvirkrar röðar fjárhagsuppgjörs** skylda hefur verið bætt við hlutverk bókhaldsstjóra og bókhaldsstjóra og **Skoða stillingar sjálfvirkrar röðar fjárhagsuppgjörs** skylda hefur verið bætt við hlutverk endurskoðanda, bókhaldsstjóra og bókhaldsstjóra fyrir sjálfvirknivæðingu fjárhagsuppgjörs. Þessar skyldur eru sjálfgefnar öryggisstillingar, en þeim er hægt að breyta miðað við kröfur fyrirtækisins þíns.
+Aðgangsheimildinni **Vinna með stillingar á röð sjálfvirkra fjárhagsjafnana** hefur verið bætt við hlutverk bókhaldsstjóra og bókhaldsyfirmanns og aðgangsheimildinni **Skoða stillingar á röð sjálfvirkra fjárhagsjafnana** hefur verið bætt við hlutverk endurskoðanda, bókhaldsstjóra og bókhaldsyfirmanns fyrir sjálfvirkni fjárhagsjöfnunar. Þessi gjöld eru sjálfgefnar öryggisstillingar en hægt er að breyta þeim eftir þörfum fyrirtækisins.
 
-## <a name="general-ledger-parameters-for-ledger-settlement-automation"></a>Almennar færibreytur höfuðbókar fyrir sjálfvirkni fjárhagsuppgjörs
+## <a name="general-ledger-parameters-for-ledger-settlement-automation"></a>Fjárhagsfæribreytur fyrir sjálfvirkni í fjárhagsjöfnun
 
-The **Uppgjör dæmigerð jafnvægi** reiturinn gefur til kynna í hvaða röð sjálfvirka fjárhagsuppgjörið verður unnið í. Til að setja upp eða skoða **Uppgjör dæmigerð jafnvægi** gildi, farðu til **Aðalbók \> Uppsetning \> Fjárhagsfæribreytur**, og veldu **Fjárhagsuppgjör** flipa.
+Reiturinn **Dæmigerð staða jöfnunar** gefur til kynna röðina sem sjálfvirk fjárhagsjöfnun verður unnin í. Til að setja upp eða skoða gildið **Dæmigerð staða jöfnunar** skal fara í **Fjárhagur \> Uppsetning \> Almennar fjárhagsfæribreytur** og velja flipann **Fjárhagsjafnanir**.
 
-Ef **Debet** er valið byrjar sjálfvirkt uppgjörsferli fjárhagsbókar á debethlið og leitar að samsvarandi inneign. Ef **Inneign** er valið byrjar sjálfvirkt uppgjörsferli fjárhagsbókar á kredithlið og leitar að samsvarandi skuldfærslum. Þessi valkostur ætti að endurspegla dæmigerða stöðu aðalreikningsins.
+Þegar **Debet** er valið hefst sjálfvirka fjárhagsjöfnunarferlið debetmegin og leitar að samsvarandi kreditfærslu. Ef **Kredit** er valið hefst sjálfvirka fjárhagsjöfnunarferlið kreditmegin og leitar að samsvarandi debetfærslum. Þessi valkostur ætti að endurspegla dæmigerða stöðu aðallykilsins.
 
-## <a name="processing-a-ledger-settlement-automation"></a>Vinnsla sjálfvirkni uppgjörs fjárhags
+## <a name="processing-a-ledger-settlement-automation"></a>Sjálfvirkni við vinnslu fjárhagsáætlunar
 
-Þegar sjálfvirknin er keyrð velur kerfið fjárhagsfærslur fyrir aðallykla sem eru skilgreindir fyrir sjálfvirkni vinnsluröðina. Það pantar færslurnar eftir dagsetningu með því að nota dagsetningarbil frá upphafi reikningsárs til dagsins þegar sjálfvirkni ferlisins er keyrt. Það passar út frá tilgreindum samsvörunarviðmiðum. Heildargildi bókhaldsgjaldmiðilsupphæða debet og inneign verða að passa saman til að hægt sé að gera upp.
+Þegar sjálfvirkni er keyrð velur kerfið fjárhagsfærslur fyrir aðallyklana sem skilgreindir eru fyrir sjálfvirka röð ferlis. Það raðar færslunum eftir dagsetningu með því að nota dagsetningarbil frá upphafi reikningsársins til dagsetningarinnar þegar sjálfvirka ferlið er keyrt. Samsvörunin er byggð á tilgreindum samsvörunarskilyrðum. Nákvæm gildi fyrir upphæðir bókhaldsgjaldmiðils í debet- og kreditfærslu verða að stemma til að vera jafnaðar.
 
-Á meðan verið er að vinna úr aðalreikningi vegna tilviks sjálfvirkni fjárhagsuppgjörs geturðu ekki birt hann í **Fjárhagsuppgjör** síðu. Þú verður að bíða þar til sjálfvirkniferlinu er lokið. Við mælum með að þú skipuleggur sjálfvirkni ferlisins til að keyra utan vinnutíma til að koma í veg fyrir árekstra.
+Á meðan aðallykill er í vinnslu vegna tilviks frá sjálfvirkri fjárhagsjöfnun er ekki hægt að birta hann á síðunni **Fjárhagsjafnanir**. Þú verður að bíða þar til sjálfvirkniferlinu er lokið. Mælt er með því að tímasetja sjálfvirkni ferlisins til að keyra utan vinnutíma til að koma í veg fyrir árekstra.
 
-Sjálfvirkniferlið mun innihalda allar færslur sem uppfylla skilyrðin, nema færslur sem hafa verið handvirkt merktar til uppgjörs á **Fjárhagsuppgjör** síðu.
+Sjálfvirkniferlið mun innihalda allar færslur sem uppfylla skilyrðið, nema færslur sem hafa verið merktar handvirkt fyrir jöfnun á síðunni **Fjárhagsjafnanir**.
 
-## <a name="reversal-of-transactions-that-are-settled-by-the-automation-process"></a>Bakfærsla á viðskiptum sem eru gerð upp með sjálfvirkniferlinu
+## <a name="reversal-of-transactions-that-are-settled-by-the-automation-process"></a>Bakfærsla færslna sem eru afgreiddar með sjálfvirkniferlinu
 
-Hægt er að bakfæra uppgjör sem var gert með sjálfvirku fjárhagsjöfnunarferlinu. Þegar færslu sem var gerð upp með sjálfvirkniferlinu er snúið við, er **Sjálfvirkniregla** gildi verður fjarlægt.
+Þú getur bakfært jöfnun sem var gerð sjálfvirku jöfnunarferli. Þegar færsla sem var jöfnuð af sjálfvirka ferlinu er bakfærð verður gildið **Sjálfvirkniregla** fjarlægt.

@@ -1,6 +1,6 @@
 ---
 title: Setja upp leigubókunarlykla
-description: Þessi grein listar upp bókunarreikninga sem eru nauðsynlegir fyrir eignaleigufærslur og útskýrir hvernig á að skilgreina bókunarreikninga á síðunni Leigubókunarfæribreytur.
+description: Þessi grein birtir lista yfir áskilda bókunarlykla fyrir eignarleigufærslur og útskýrir hvernig á að skilgreina bókunarlykla á síðunni færibreytur leigubókunar.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 6e3a0d8dd3bb3e58ca10b2efce0cc88a2f48d2de
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8859915"
@@ -26,7 +26,7 @@ ms.locfileid: "8859915"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein listar upp bókunarreikninga sem eru nauðsynlegir fyrir eignaleigufærslur og útskýrir hvernig á að skilgreina bókunarreikninga á **Leigubókunarfæribreytur** síðu.
+Þessi grein birtir lista yfir áskilda bókunarlykla fyrir eignarleigufærslur og útskýrir hvernig á að skilgreina bókunarlykla á síðunni **Færibreytur leigubókunar**.
 
 Til að uppfylla skilyrði efnisatriðis um skráningarkerfi reikningsskilastaðla 842 (ASC 842) og alþjóðlegan reikningsskilastaðal 16 (IFRS 16) verður þú hugsanlega að stofan reikninga í bókhaldslyklum þínum. Hins vegar eru allir lyklar sem eru stofnaðir til að uppfylla skilyrði ASC og IFRS-staðla ekki eignalyklar. Samkvæmt ASC 842 er afnotaréttur af eign bæði fyrir fjármagnsleigusamninga og rekstrarleigusamninga. Þessir leigusamningar eru aðskildir frá eignum. (Enn er hægt að vinna með afnotarétt af eign með því að nota eignir.)
 

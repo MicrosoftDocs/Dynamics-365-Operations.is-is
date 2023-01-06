@@ -1,6 +1,6 @@
 ---
 title: Heimasíða eignarleigu
-description: Þessi grein veitir yfirlit yfir eignaleiguskjöl og tengla á tiltekin efni.
+description: Í þessari grein er að finna yfirlit yfir skjöl Eignarleigu og tengla á tiltekin efnisatriði.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -19,7 +19,7 @@ ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: fa27e20bc0c0ff5c639dfb2d079adef8926f535f
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9069348"
@@ -28,16 +28,16 @@ ms.locfileid: "9069348"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein listar upp hjálparefni sem eru í boði fyrir eignaleigu og inniheldur tengla á tiltekin efni. 
+Í þessari grein er að finna hjálparefni sem eru tiltæk fyrir Eignarleigu og eru með tengla á tiltekin efnisatriði. 
 
-Eignaleiga er háþróuð möguleiki til að stjórna, rekja og gera sjálfvirkan fjármálaviðskipti fyrir leigðar eignir í Microsoft Dynamics 365 Fjármál. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins.
+Eignarleiga er víðtæk lausn til að hafa umsjón með, rekja og virkja sjálfkrafa fjárhagsfærslur fyrir leigðar eignir í Microsoft Dynamics 365 Finance. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins.
 
 Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** skal finna og velja eiginleika sem kallast **Eignarleiga** og smella svo á hnappinn **Virkja núna**.
 
 ## <a name="asset-leasing-topics"></a>Efni eignarleigu
-Eftirfarandi grein er fáanleg til að hjálpa til við að stilla og nota eignaleigu. 
+Eftirfarandi grein er í boði til að aðstoða við skilgreiningu og notkun Eignarleigu. 
 
- - [Eignaleiga hafin](asset-leasing-quick-start.md) - Þessi grein lýsir almennum möguleikum eignaleigu og listar upp og skilgreinir hugtökin sem notuð eru í hugbúnaðinum og í skjölunum.
+ - [Hafist handa við eignarleigu](asset-leasing-quick-start.md) - Þessi grein lýsir almennum eiginleikum eignarleigu, og raðar og skilgreinir skilmálana sem eru notaðir í hugbúnaðinum og í fylgiskjölum.
  
  ### <a name="set-up-asset-leasing"></a>Setja upp eignarleigu
  Þessi flokkur efnisatriða getur hjálpað til við að skilgreina Eignarleigu á þann hátt sem er ákjósanlegust fyrir viðskiptaaðstæður fyrirtækisins.  
@@ -77,7 +77,7 @@ Eftirfarandi grein er fáanleg til að hjálpa til við að stilla og nota eigna
  - [Vinna með leigusamninga í innflutningsramma leigusamnings](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>Eignarleiguskýrsla
-Þessi grein lýsir skýrslum sem eru tiltækar fyrir eignaleigu. 
+Þessi grein lýsir skýrslunum sem eru í boði fyrir eignaleigur. 
 
  - [Eignarleiguskýrsla](asset-leasing-rprts.md)
  
@@ -90,7 +90,7 @@ Eftirfarandi grein er fáanleg til að hjálpa til við að stilla og nota eigna
 
 ### <a name="blogs"></a>Blogg
 
-Þú getur fundið skoðanir, fréttir og aðrar upplýsingar um [Microsoft Dynamics 365 blogg](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 fjármál og rekstur - Fjárhagsblogg](https://community.dynamics.com/365/financeandoperations/b/financials).
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 fjármál og rekstur – Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar.
 
 Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika Dynamics 365 á einum stað.
 

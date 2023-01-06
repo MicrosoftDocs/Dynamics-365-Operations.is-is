@@ -1,6 +1,6 @@
 ---
 title: Aukin RCS-síun í RCS/altækri geymslu
-description: Þessi grein lýsir aukinni síunargetu fyrir RCS Global geymsluna, sem hefur verið endurbætt til að innihalda viðbótarsíurnar.
+description: Þessi grein lýsir aukinni síunargetu fyrir altæka geymslu RCS sem hefur verið bætt til að fela í sér viðbótarsíur.
 author: kfend
 ms.date: 04/24/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 ms.openlocfilehash: e0408d0561c0cfead8781b9f49fdb84d5caf179a
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9274513"
@@ -26,7 +26,7 @@ ms.locfileid: "9274513"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir aukinni síunargetu fyrir Regulatory Configuration Services (RCS) alþjóðlega geymslu, sem hefur verið endurbætt til að fela í sér getu til að sía með eftirfarandi forsendum: 
+Þessi grein lýsir aukinni síunargetu fyrir altæka geymslu RCS (Regulatory Configuration Services) sem hefur verið bætt til að fela í sér hæfileika til að sía með eftirfarandi skilyrðum: 
 - **Land/svæði** - Byggt á ISO-landsnúmerum  
 - Gerðir **Merkis** fyrir:
   - Virkt svæði
@@ -42,7 +42,7 @@ Til að gera það auðveldara að uppgötva sérstakar eða tengdar grunnstilli
 
 [![Notuð sía og innflutningur fyrir gerð viðskiptaskjals.](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
-Hægt er að flytja síaðar niðurstöður inn í RCS geymslu notenda eða Dynamics 365 Finance umhverfi, annað hvort fyrir sig eða sem sett. Til að gera þetta skaltu velja hóp stillinga og smella á **Flytja inn**.
+Síaðar niðurstöður er hægt að flytja inn í RCS-geymslu notenda eða í Dynamics 365 Finance-umhverfi, annaðhvort hverja fyrir sig eða saman. Til að gera þetta skaltu velja hóp stillinga og smella á **Flytja inn**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

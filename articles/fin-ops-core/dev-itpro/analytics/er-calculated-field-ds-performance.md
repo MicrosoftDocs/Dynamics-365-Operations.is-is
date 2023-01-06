@@ -1,6 +1,6 @@
 ---
 title: Bættu frammistöðu rafrænna skýrslugerðarlausna með því að bæta við gagnagjöfum með reiknaða reiti með færibreytum
-description: Þessi grein útskýrir hvernig þú getur hjálpað til við að bæta frammistöðu rafrænna skýrslugerðar (ER) lausna með því að bæta við breytugreindum REIKNAÐAR FIELD gagnaveitum.
+description: Þessi grein útskýrir hvernig hægt er að auka afköst rafrænna skýrslugerðarlausna með því að bæta við gagnagjöfum reiknaðra reita með færibreytum.
 author: kfend
 ms.date: 04/23/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: ''
 ms.assetid: ''
 ms.openlocfilehash: 34bb7c6256994f103c4da599157c06bd9d0795ef
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9288259"
@@ -25,21 +25,21 @@ ms.locfileid: "9288259"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig þú getur tekið [frammistöðuspor](trace-execution-er-troubleshoot-perf.md) af [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) snið sem eru keyrð, og notaðu síðan upplýsingarnar úr þessum rekjum til að bæta árangur með því að stilla færibreytu **Reiknaður reitur** gagnagjafa.
+Þessi grein útskýrir hvernig hægt er að taka [afkastarakningu](trace-execution-er-troubleshoot-perf.md) af sniðum [Rafrænnar skýrslugerðar](general-electronic-reporting.md) sem eru keyrðar og síðan nota upplýsingarnar úr þessum rakningum til að bæta afköst með því að stilla gagnagjafa **Reiknaðra reita** með færibreytum.
 
 Sem hluti af hönnunarferlinu fyrir skilgreiningar rafrænnar skýrslugerðar til að búa til viðskiptaskjöl, skilgreinir þú aðferðina sem er notuð til að ná í gögn úr forritinu og færa þau inn í úttak sem er myndað. Með því að hanna gagnagjafa með færibreytum fyrir rafræna skýrslugerð af gerðinni **Reiknaður reitur**, er hægt að draga úr fjölda gagnagrunnskalla og draga umtalsvert úr tíma og kostnaði sem fer í að safna saman upplýsingum um framkvæmd rafræns skýrslugerðarsniðs.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-- Til að klára dæmin í þessari grein verður þú að hafa aðgang að einu af eftirfarandi [hlutverkum](../sysadmin/tasks/assign-users-security-roles.md):
+- Til að ljúka dæmunum í þessari grein þarftu að hafa aðgang að einu af eftirfarandi [hlutverkum](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Þróunaraðili rafrænnar skýrslulausnar
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
     - Kerfisstjóri
 
 - Stilla verður fyrirtæki á **DEMF**.
-- Fylgdu skrefunum í [Viðauki 1](#appendix1) þessarar greinar til að hlaða niður íhlutum sýnishorns Microsoft ER lausnarinnar sem þarf til að klára dæmin í þessari grein.
-- Fylgdu skrefunum í [Viðauki 2](#appendix2) þessarar greinar til að stilla lágmarkssett af ER færibreytum sem þarf til að nota ER ramma til að hjálpa til við að bæta árangur sýnishorns Microsoft ER lausnarinnar.
+- Fylgja skal leiðbeiningunum í [Viðauka 1](#appendix1) í þessari grein til að sækja þætti fyrir dæmi um rafræna skýrslugerðarlausna Microsoft sem nauðsynlegir eru til að ljúka dæmunum í þessari grein.
+- Fylgja skal leiðbeiningunum í [Viðauka 2](#appendix2) í þessari grein til að skilgreina lágmarkssafn af færibreytum rafrænnar skýrslugerðar sem er nauðsynlegt til að nota umgjörð rafrænnar skýrslugerðar til að bæta afköstin í dæminu um rafræna skýrslugerðarlausn Microsoft.
 
 ## <a name="import-the-sample-er-solution"></a>Flytja inn dæmið um rafræna skýrslugerðarlausn
 
@@ -47,8 +47,8 @@ Sem hluti af hönnunarferlinu fyrir skilgreiningar rafrænnar skýrslugerðar ti
 
 Fyrsta skrefið er að flytja inn dæmið um rafræna skýrslugerðarlausn til að búa til skýrslu um lánardrottnafærslu.
 
-1. Skráðu þig inn í dæmið um Microsoft Dynamics 365 Fjármál sem er útvegað fyrir fyrirtæki þitt.
-2. Í þessari grein muntu búa til og breyta stillingum fyrir **Litware, Inc.** sýnishorn fyrirtæki. Gakktu því úr skugga um að þessari skilgreiningarveitu hafi verið bætt við Finance-tilvikið þitt og verið merkt sem virk. Nánari upplýsingar er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+1. Skráðu þig inn í tilvikið af Microsoft Dynamics 365 Finance sem fyrirtækinu þínu er úthlutað.
+2. Í þessari grein býrðu til og breytir skilgreiningum fyrir sýnifyrirtækið **Litware, Inc.**. Gakktu því úr skugga um að þessari skilgreiningarveitu hafi verið bætt við Finance-tilvikið þitt og verið merkt sem virk. Nánari upplýsingar er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja reitinn **Skilgreiningar skýrslugerðar**.
 4. Á síðunni **Skilgreiningar**, skal flytja inn skilgreiningar rafrænnar skýrslugerðar sem voru sóttar sem forkröfur í Finance, í eftirfarandi röð: gagnalíkan, líkanavörpun, snið. Fyrir hverja skilgreiningu skal fylgja þessum skrefum:
 
@@ -220,7 +220,7 @@ Fylgið þessum skrefum til að nota vistun í skyndiminni og gagnagjafa af ger�
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Keyra breytta lausn rafrænnar skýrslugerðar til að rekja framkvæmd
 
-Endurtaktu skrefin í [Keyra ER sniðið](#run-format) kafla fyrr í þessari grein til að búa til nýtt frammistöðuspor.
+Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-format) fyrr í þessari grein til að búa til nýja afkastarakningu.
 
 ## <a name="use-the-performance-trace-to-analyze-adjustments-to-the-model-mapping"></a>Nota afkastarakningu til að greina leiðréttingar á líkanavörpun 
 

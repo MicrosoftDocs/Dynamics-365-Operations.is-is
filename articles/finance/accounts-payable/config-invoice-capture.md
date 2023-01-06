@@ -1,6 +1,6 @@
 ---
-title: Stilltu lausnina fyrir innheimtu reikninga
-description: Þessi grein útskýrir hvernig á að stilla reikningsfangalausnina.
+title: Skilgreina Invoice capture-lausnina
+description: Þessi grein útskýrir hvernig eigi að skilgreina Invoice capture-lausnina.
 author: sunfzam
 ms.date: 09/25/2022
 ms.topic: overview
@@ -19,66 +19,66 @@ ms.search.validFrom: 2022-09-28
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: e297dafc930368f14f2e68213ce4153ba792ef4d
 ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/18/2022
 ms.locfileid: "9690984"
 ---
-# <a name="configure-the-invoice-capture-solution"></a>Stilltu lausnina fyrir innheimtu reikninga
+# <a name="configure-the-invoice-capture-solution"></a>Skilgreina Invoice capture-lausnina
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Eftir að lausn reikningsfanga hefur verið sett upp verður þú að stilla umhverfið. Ferlið samanstendur af eftirfarandi grunnskrefum.
+Eftir að Invoice capture-lausn hefur verið sett upp verður að skilgreina umhverfið. Ferlið samanstendur af eftirfarandi grunnskrefum.
 
-1. **Áskilið:** Samstilla lögaðila frá Microsoft Dynamics 365 Fjármál. Þetta skref er notað til að setja upp skipulag í Microsoft Power Platform.
-2. **Áskilið:** Stilltu rásir fyrir innflutning á reikningsmyndum. Lausnin styður eftirfarandi rásir:
+1. **Nauðsynlegt:** Samstilla lögaðilana frá Microsoft Dynamics 365 Finance. Þetta skref er notað til að setja upp fyrirtækjaskipulagið í Microsoft Power Platform.
+2. **Áskilið:** Skilgreinið rásir fyrir innflutning reikningsmynda. Lausnin styður eftirfarandi rásir:
 
     - Office 365 Outlook (sjálfgefið)
     - Outlook.com
     - OneDrive
     - SharePoint
 
-3. **Valfrjálst:** Skilgreindu viðbótarstillingarhópa fyrir OCR-þjónustuna (optical character recognition).
-4. **Valfrjálst:** Skilgreindu vörpunarreglur fyrir lögaðila, lánardrottinsreikning, vöru og innkaupagerð.
+3. **Valfrjálst:** Skilgreindu fleiri skilgreiningarhópa fyrir OCR-þjónustu.
+4. **Valfrjálst:** Skilgreina vörpunarreglur fyrir lögaðila, lánardrottnalykil, vöru og innkaupagerð.
 
-Þessi grein beinist að tveimur nauðsynlegum skrefum ferlisins. Fyrir frekari upplýsingar um stillingarhópa, sjá [Stillingarhópar fyrir lausnarupptöku reikninga](invoice-capture-config-group.md). Fyrir frekari upplýsingar um kortlagningarreglur, sjá [Kortlagningarreglur fyrir lausn reikningsfanga](invoice-capture-mapping-rules.md).
+Í þessari grein er sjónum beint að tveimur nauðsynlegum skrefum í ferlinu. Frekari upplýsingar um skilgreiningarhópa eru í [Skilgreiningarhópar Invoice capture-lausnar](invoice-capture-config-group.md). Frekari upplýsingar um vörpunarreglur er að finna á [Vörpunarreglur Invoice Capture-lausnar](invoice-capture-mapping-rules.md).
 
-## <a name="manage-legal-entities"></a>Stjórna lögaðilum
+## <a name="manage-legal-entities"></a>Stjórna lögaðila
 
-Fjármál skilgreina lögaðila sem stofnanir sem eru auðkenndar með skráningu hjá lögum. Atvinnustarfsemi fer fram og skráð í aðskildum lögaðilum. Í Microsoft Power Platform, rekstrareiningar, öryggishlutverk og notendur eru tengdir saman á þann hátt sem er í samræmi við hlutverkatengda öryggislíkanið.
+Fjármálafyrirtæki skilgreinir lögaðila sem stofnanir sem eru auðkenndar með skráningu hjá lögbærum yfirvöldum. Fyrirtæki eru skráð og stunda starfsemi sem lögaðili. Í Microsoft Power Platform eru viðskiptaeiningar, öryggishlutverk og notendur tengd saman á þann hátt sem samræmist öryggislíkaninu sem byggir á hlutverkum.
 
-Rekstrareiningar eru notaðar ásamt öryggishlutverkum til að stjórna gagnaaðgangi. Notendur sjá aðeins þær upplýsingar sem þeir þurfa til að vinna störf sín. Invoice capture lausnin býður upp á stillingarrými þar sem þú getur hlaðið inn grunnupplýsingum frá núverandi lögaðilum í Finance og stjórnað þeim aðilum sem eru búnir til handvirkt. Lögaðilarnir eru notaðir á reikningum lánardrottna og í öryggiseftirliti.
+Viðskiptaeiningar eru notaðar ásamt öryggishlutverki til að stjórna aðgangi að gögnum. Notendur sjá aðeins þær upplýsingar sem þeir þurfa til að sinna störfum sínum. Invoice capture-lausnin býður upp á skilgreiningarrými þar sem þú getur hlaðið inn grunnupplýsingum frá núverandi lögaðilum í Finance og stjórnað þeim aðilum sem eru stofnaðir handvirkt. Lögaðilarnir eru notaðir á reikningum lánardrottna og við öryggisstjórnun.
 
-Þegar lögaðili er stofnaður og sýndur í listaskjánum er sjálfkrafa stofnuð sjálfgefin rekstrareining sem ber sama nafn. Liðið er veitt **AP skrifstofumaður** öryggishlutverk. Þegar lögaðilar eru fluttir inn eru grunnaðalgögn frá Finance flutt inn. Hlutirnir sem ekki eru til verða auðkenndir af lögaðila og munu bæta þeim við reikningsfangalausnina. Sjálfgefna stillingarhópnum er úthlutað nýjum lögaðilum.
+Þegar lögaðili er stofnaður og sýndur í listayfirliti er sjálfgefin viðskiptaeining sem ber sama heiti búin til sjálfkrafa. Teymið fær hlutverk **Bókari viðskiptavina**. Þegar lögaðilar eru fluttir inn eru grunnaðalgögn úr Finance flutt inn. Þær vörur sem ekki eru til verða auðkenndar af lögaðila og þeim verður bætt við Invoice capture-lausnina. Sjálfgefni skilgreiningarhópurinn er úthlutaður á nýju lögaðilana.
 
 ### <a name="sync-legal-entities"></a>Samstilla lögaðila
 
-Þú getur ekki stofnað lögaðila beint. Hins vegar geturðu samstillt lögaðila frá Finance. Til að samstilla lögaðila skaltu fylgja þessum skrefum.
+Ekki er hægt að stofna lögaðila beint. Þú getur hins vegar samstillt lögaðila úr Finance. Til að samstilla lögaðila skal fylgja eftirfarandi skrefum.
 
-1. Fara til **Uppsetning \> Kerfisuppsetning \> Stjórna lögaðilum**.
-2. Veldu **Samstilla lögaðila**, og veldu síðan **Allt í lagi** í staðfestingarglugganum.
+1. Farið í **Uppsetning \> Kerfisuppsetning \> Stjórna lögaðila**.
+2. Veljið **Samstilla lögaðila** og veljið svo **Í lagi** í staðfestingarglugganum.
 
-Eftir að samstillingu er lokið er fjöldi nýrra lögaðila sýndur. Nýju lögaðilarnir eru sýndir á listaskjánum. Sjálfgefna stillingarhópnum er úthlutað til nýju lögaðilanna.
+Eftir að samstillingu er lokið er fjöldi nýrra lögaðila sýndur. Nýju lögaðilarnir eru sýndir á listayfirlitinu. Sjálfgefni stillihópurinn er úthlutaður á nýju lögaðilana.
 
-## <a name="configure-invoice-import-channels"></a>Stilltu innflutningsrásir reikninga
+## <a name="configure-invoice-import-channels"></a>Skilgreina reikningsinnflutningsrásir
 
-Seljendur senda reikninga frá mismunandi rásum (tölvupóstur, skráarvinnusvæði eða reikningagátt) með mismunandi sniðum (pappír eða mynd). Invoice capture lausnin getur séð um mismunandi rásir og snið. Eftirfarandi gerðir eru studdar:
+Lánardrottnar senda reikninga frá mismunandi rásum (tölvupósti, vinnusvæði skráa eða reikningsgátt) í gegnum mismunandi snið (pappír eða mynd). Invoice capture-lausnin ræður við mismunandi rásir og snið. Eftirfarandi gerðir eru studdar:
 
-- Office 365 Horfur
+- Office 365 Outlook
 - Outlook.com
 - SharePoint
 - OneDrive
 
-Þegar rás er búin til fyrir ákveðinn reikning er sjálfvirkt flæði sem hefur fyrirfram skilgreint sniðmát smíðað til að fylgjast með komandi tölvupósti eða skrám í pósthólfinu eða rýminu. Hægt er að bera kennsl á hvaða skrá sem er með gildan reikning og senda á reikningssvæðið til að bíða afgreiðslu hjá viðskiptaskuldaskrifstofu (AP). Viðhengið ætti að vera á PDF eða myndformi. Hægt er að hlaða reikningum inn í Invoice capture lausnina í samræmi við rásaruppsetningu.
+Þegar rás er stofnuð fyrir tiltekinn lykil er sjálfvirkt flæði sem er með fyrirframskilgreint sniðmát stofnað til að fylgjast með tölvupóstum eða skrám sem berast í innhólfið eða rýmið. Allar skrár sem eru með gildan reikning er hægt að auðkenna og senda á reikningssvæðið til að bíða úrvinnslu hjá starfsmanni viðskiptaskulda. Viðhengið á að vera á PDF-sniði eða myndsniði. Hægt er að hlaða reikningum inn í Invoice capture-lausnina í samræmi við skilgreiningu rásarinnar.
 
-### <a name="create-a-channel"></a>Búðu til rás
+### <a name="create-a-channel"></a>Uppsetning rása
 
-Ef þú hefur flutt inn viðbótarlausnarpakkann (Dynamics 365 Invoice capture – Uppsetningarverkfæri), er sjálfgefin tenging fyrir Office 365 Outlook er tilbúið til notkunar. Ef þú vilt búa til fleiri tengingar fyrir mismunandi tölvupóstreikninga eða aðrar rásargerðir, sjáðu [Búðu til viðbótartengingar fyrir rásir](invoice-capture-advanced-settings.md#create-additional-connections-for-channels).
+Ef þú hefur flutt inn viðbótarlausnapakkann (Dynamics 365 Invoice capture – Installation Tools) er sjálfgefna tengingin fyrir Office 365 Outlook tilbúin til notkunar. Ef þú vilt búa til fleiri tengingar fyrir mismunandi tölvupóstreikninga eða aðrar rásartegundir skaltu skoða [Búa til fleiri tengingar fyrir rásir](invoice-capture-advanced-settings.md#create-additional-connections-for-channels).
 
-Fylgdu þessum skrefum til að búa til rás.
+Fylgdu þessum skrefum til að stofna rás.
 
-1. Fara til **Uppsetning \> Kerfisuppsetning \> Stilla rásir**.
+1. Farið í **Uppsetning \> Kerfisuppsetning \> Skilgreiningarrásir**.
 2. Veljið **Nýtt**.
 3. Stilltu eftirfarandi svæði:
 
@@ -87,36 +87,36 @@ Fylgdu þessum skrefum til að búa til rás.
     - Gerð
     - Tenging
 
-Aðeins er hægt að flytja tölvupóst eða skrár sem passa við eftirfarandi skilyrði inn í lausnina.
+Aðeins er hægt að flytja inn tölvupósta eða skrár sem passa við eftirfarandi skilyrði í lausnina.
 
 | Gerð               | Skilgreining  | Meiri upplýsingar |
 |--------------------|----------------|------------------|
-| Office 365 Horfur | Mappa         | Tölvupóstmöppan verður að vera undir rótarskránni. Sjálfgefið er að Inbox mappan er notuð. Undirmappa er ekki studd. |
-|                    | Efnissía | (Valfrjálst) Undirstrengur sem ætti að vera með í efninu. |
-|                    | Frá           | (Valfrjálst) Netfang sendanda eða sendenda. Ef þú tilgreinir mörg heimilisföng, notaðu semíkommu (;) sem skilju. |
-| SharePoint         | Heimilisfang síðunnar   | Vefslóð veffangsins. |
+| Office 365 Outlook | Mappa         | Póstmappan verður að vera undir rótarmöppunni. Innhólfsmappan er sjálfgefið notuð. Undirmappa er ekki studd. |
+|                    | Efnissía | (Valfrjálst) Undirstrengur sem á að fylgja í efninu. |
+|                    | Frá           | (Valfrjálst) Netfang sendanda (eins eða fleiri) Ef þú tilgreinir mörg heimilisföng skaltu nota semíkommu (;) til aðgreiningar. |
+| SharePoint         | Veffang svæðis   | Veffang vefsetursins. |
 |                    | Mappa         | Mappan í veffanginu. |
 
-### <a name="activate-the-channel"></a>Virkjaðu rásina
+### <a name="activate-the-channel"></a>Virkja rásina
 
-Þegar flæði er vistað sýna reitir stöðu rásarinnar og tímann þegar hún var búin til. Upphaflega var **Staða** reiturinn er stilltur á **Óvirkt**. The **Staða ástæða** reiturinn gefur til kynna að rásin hafi verið frumstillt og að hún sé tilbúin til að virkja hana.
+Þegar flæði er vistað sýna reitir stöðu rásarinnar og tímann þegar hún er búin til. Reiturinn **Staða** er upphaflega stilltur á **Óvirkt**. Reiturinn **Staða** gefur til kynna að rásin hafi verið ræst og sé tilbúin til virkjunar.
 
-Til að virkja rásina velurðu **Virkjaðu**. The **Staða** og **Staða ástæða** reitirnir eru uppfærðir.
+Rásin er virkjuð með því að velja **Virk**. Reitirnir **Staða** og **Ástæða stöðu** eru uppfærðir.
 
-Ef ekki er þörf á rás geturðu gert hana óvirka. Til að slökkva á rás velurðu **Afvirkja**. The **Staða** og **Staða ástæða** reitirnir eru uppfærðir.
+Ef ekki er þörf á rás er hægt að óvirkja hana. Til að óvirkja rás skal velja **Óvirkja**. Reitirnir **Staða** og **Ástæða stöðu** eru uppfærðir.
 
 ### <a name="manage-flows-in-flow-management"></a>Stjórna flæði í flæðisstjórnun
 
-Þú getur skoðað rás á **Stilla rásir** síðu eða í flæðisstjórnun.
+Hægt er að skoða rás á síðunni **Skilgreiningarrásir** eða í flæðisstjórnun.
 
-Til að skoða frekari upplýsingar, farðu á **Stjórnunarkerfi \> Sjálfgefin lausn \> Ský flæðir**, og veldu markflæði. Upplýsingarnar sem eru sýndar innihalda tengdar tengingar, eigendur og keyrslusögu.
+Til að skoða nánari upplýsingar ferðu í **Stjórnandakerfi\> Sjálfgefin lausn \> Skýjaflæði** og velur markflæðið. Upplýsingarnar sem eru sýndar innihalda tengdar tengingar, eigendur og sögu keyrslu.
 
-Til að samstilla stöðuna velurðu **Athugaðu** til að staðfesta að staða rásarinnar samsvari stöðu flæðisins.
+Til að samstilla stöðu skal velja **Athuga** til að staðfesta að staða rásar sé í samræmi við stöðu flæðis.
 
-Sum tilvik um meðhöndlun undantekninga eru sýnd í **Staða ástæða** reit:
+Sum tilvik þar sem undantekningar eru meðhöndlaðar eru sýnd í reitnum **Staða ástæðu**:
 
-- **Vantar Dataverse Tenging** – Núverandi notandi hefur ekki búið til að minnsta kosti einn **Microsoft Dataverse** tengingartilvísun.
-- **Ekki fundið** – Flæðinu sem er tengt rásinni hefur verið eytt í flæðisstjórnun. Rásin ætti að vista aftur til að búa til nýja rás.
-- **Óvirkt í flæðisstjórnun** – Rennslið hefur verið gert óvirkt í flæðisstjórnun og staða rásarinnar er frábrugðin stöðu flæðisins.
-- **Virkjað í flæðisstjórnun** – Rennslið hefur verið virkjað í flæðisstjórnun og staða rásarinnar er frábrugðin stöðu flæðisins.
-- **Óvænt villa kom upp** – Notandinn verður að staðfesta að vefsvæðið sé „samskiptasíða“ og að mappan sé „skjalasafn“.
+- **Vantar Dataverse tengingu** – Núverandi notandi hefur ekki búið til að minnsta kosti eina tengitilvísun fyrir **Microsoft Dataverse**.
+- **Fannst ekki** – Flæðinu sem er tengt rásinni hefur verið eytt í flæðisstjórnun. Rásin ætti að vera vistuð aftur til að stofna nýja rás.
+- **Afvirkjað í flæðisstjórnun** – Flæðið hefur verið gert óvirkt í flæðisstjórnun og staða rásarinnar er frábrugðin stöðu flæðisins.
+- **Virkjað í flæðisstjórnun** – Flæðið hefur verið virkjað í flæðisstjórnun og staða rásarinnar er frábrugðin stöðu flæðisins.
+- **Óvænt villa kom upp** – Notandinn verður að staðfesta að vefsvæðið sé „Samskiptasvæði“ og að mappan sé „Skjalasafn“.

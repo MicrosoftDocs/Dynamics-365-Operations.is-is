@@ -1,6 +1,6 @@
 ---
 title: FORMAT ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig aðgerðin FORMAT rafræn skýrslugerð (ER) er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig FORMAT rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 12/12/2019
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: a7eb3d4a4c72e8faf40d28a724cda5ba7d7e8a47
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9286000"
@@ -92,7 +92,7 @@ Ef sama skýrslan er unnin fyrir viðskiptavininn **Litware Retail** þann 17. d
 >[!NOTE]
 > Eftirfarandi setningafræði er beitt í formúlum rafrænnar skýrslugerðar fyrir merki:
 >
-> - **Fyrir merki frá auðlindum í Microsoft Dynamics 365 Finance app:** **\@ X**, hvar **X** er auðkenni merkimiða í Application Object Tree (AOT)
+> - **Fyrir merki úr tilföngum Microsoft Dynamics 365 Finance-forritinu:** **\@X**, þar sem **X** merkjakennið í hugbúnaðarhlutatrénu (AOT)
 > - **Fyrir merki sem eru í ER-skilgreiningum:** **@GER_LABEL:X"**, þar sem **X** er merkjakenni í ER-skilgreiningu
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

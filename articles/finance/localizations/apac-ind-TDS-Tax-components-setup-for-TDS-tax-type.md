@@ -1,6 +1,6 @@
 ---
 title: Setja upp skatthluta fyrir TDS-skattgerðina
-description: Þessi grein útskýrir hvernig á að setja upp staðgreiðsluhluti fyrir skatttegundina Tax Deducted at Source (TDS). Það útskýrir einnig hvernig skilgreina á mörkin sem eru notuð til að reikna út TDS fyrir hvern TDS-hluta.
+description: Í þessari grein er útskýrt hvernig á að setja upp hluta staðgreiðsluskatts fyrir skattgerðina þar sem skattur er dreginn frá upprunalegri greiðslu (TDS). Það útskýrir einnig hvernig skilgreina á mörkin sem eru notuð til að reikna út TDS fyrir hvern TDS-hluta.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: df2eb10ce9e372bb1e984f6ae1a2e889bbd90ad0
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8871158"
@@ -26,7 +26,7 @@ ms.locfileid: "8871158"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp staðgreiðsluhluti fyrir skatttegundina Tax Deducted at Source (TDS). TDS-hlutarnir eru TDS, aukagjald, PE-Cess og SHE Cess. Þessi grein útskýrir einnig hvernig á að skilgreina þröskuldinn sem er notaður til að reikna út TDS fyrir hvern TDS íhlut. Auk þess er hægt að skilgreina undantekningamörk sem eru notuð til að reikna út TDS fyrir hvern TDS-hluta.
+Í þessari grein er útskýrt hvernig á að setja upp hluta staðgreiðsluskatts fyrir skattgerðina þar sem skattur er dreginn frá upprunalegri greiðslu (TDS). TDS-hlutarnir eru TDS, aukagjald, PE-Cess og SHE Cess. Í þessari grein er einnig útskýrt hvernig skilgreina á mörkin sem eru notuð til að reikna út TDS fyrir hvern TDS-hluta. Auk þess er hægt að skilgreina undantekningamörk sem eru notuð til að reikna út TDS fyrir hvern TDS-hluta.
 
 Fylgið þessum skrefum til að setja upp TDS-hluta.
 

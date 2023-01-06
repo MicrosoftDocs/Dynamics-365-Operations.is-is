@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
 ms.openlocfilehash: 1b50098470cfa070a6c430e65f2fa24317c14b97
 ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/14/2022
 ms.locfileid: "9151182"
@@ -27,13 +27,13 @@ ms.locfileid: "9151182"
 Hægt er að gera upp eftirstandandi upphæð uppgjörsaðgerðar með því að jafna þessa upphæð við fjárhagslykil eða annan viðskiptavin. Hægt er að gera upp eftirstöðvarnar við uppgjör upphæða sem færðar eru inn í færslubók eða þegar opnar færslur eru gerðar upp.
 
 ## <a name="setting-up-defaults"></a>Uppsetning sjálfgilda 
-Þú verður að virkja **Greiða afganginn** eiginleika og settu upp sjálfgefnar stillingar áður en þú notar **Greiða afganginn**.
+Þú verður að virkja eiginleikann fyrir **Gera upp eftirstöðvar** og setja upp sjálfgefnar stillingar áður en **Gera upp eftirstöðvar** er notað.
 
 1)  Smelltu á **Viðskiptakröfur > Færibreytur > Uppgjör** eða **Viðskiptaskuldir > Færibreytur > Uppgjör**
-2)  Veldu **Uppgjör** flipann og smelltu **Virkja uppgjör afganga**.
+2)  Veldu flipann **Uppgjör** og smelltu á **Virkja uppgjör eftirstöðva**.
 3)  Í **Sjálfgefinn ástæðukóði** skal velja sjálfgefinn ástæðukóða. Ástæðukóðar verða að hafa verið settir upp í **Viðskiptakröfur > Uppsetning > Ástæðukóðar afskrifta viðskiptavina** eða **Viðskiptaskuldir > Uppsetning > Ástæðukóðar afskrifta viðskiptavina**. **Sjálfgefinn lykill fyrir uppgjör eftirstöðva** verður sjálfgefið að lykli sem er úthlutað til ástæðukóða afskriftar.
 3)  Uppfæra **Sjálfgefinn lykill fyrir uppgjör eftirstöðva** eftir þörfum.
-4)  Í **Sjálfgefið dagbókarheiti**, veldu greiðslubók sem verður notuð ef þú vilt búa til greiðslubók þegar þú jafnar aðeins opnar færslur. Ef eiginleikinn fyrir uppgjör eftirstöðva er virkjaður þarf að bæta við sjálfgefnu færslubókarheiti.
+4)  Í **Sjálfgefið færslubókarheiti** skal velja greiðslubók sem verður notuð ef þú vilt stofna greiðslubók þegar þú gerir eingöngu upp opnar færslur. Ef eiginleikinn fyrir uppgjör eftirstöðva er virkjaður þarf að bæta við sjálfgefnu færslubókarheiti.
 
 ## <a name="settle-remainder-from-a-journal"></a>Gera upp eftirstöðvar úr færslubók
 Ef þú virkjar ekki eiginleikann **Gera upp eftirstöðvar** er samt hægt að færa inn færslu í færslubók og síðan gera upp færslur á móti henni líkt og hefur áður verið gert. Þegar þú smellir á hnappinn **Í lagi** mun upphæð reiðufjár minnka opna stöðu reikningsins. Ef reiðuféð gerir ekki reikninginn upp að fullu er reikningurinn skilinn eftir opinn með eftirstandandi upphæð sem verður gerð upp seinna.
@@ -59,7 +59,7 @@ Einnig er hægt að gera upp eftirstöðvarnar þegar opnar færslur eru gerðar
 Til að gera upp eftirstöðvarnar skal framkvæma eftirfarandi skref:
 
 1)  Á síðunni **Uppgjör** skal merkja við reikningana eða færslurnar sem þú vilt gera upp.
-2)  Smelltu á **Greiða afganginn**.
+2)  Smellið á **Gera upp eftirstöðvar**
 3)  Svargluggi birtist sem sýnir upphæðina sem verður jöfnuð við fjárhagslykil, dagsetninginu sem verður notuð til að gera upp eftirstöðvarnar, sjálfgefinn ástæðukóða færibreytanna og sjálfgefinn lykil færibreytanna. 
 4)  Veldu nýja ástæðu uppgjörs ef þú vilt breyta sjálfgefinni ástæðu. Uppgjörslykillinn breytist í lykil sem tengist ástæðukóðanum.
 5)  Breyttu **Uppgjörslyklinum** ef þú vilt.

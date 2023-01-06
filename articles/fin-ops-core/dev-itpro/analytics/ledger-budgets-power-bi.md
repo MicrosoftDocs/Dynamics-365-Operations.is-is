@@ -1,6 +1,6 @@
 ---
 title: Raunverulegt samanb. v. fjárhagsáætlun Power BI efni
-description: Þessi grein lýsir Raunverulegri vs fjárhagsáætlun Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkanið.
+description: Þessi grein lýsir Rauntölur bornar saman við fjárhagsáætlun Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkanið.
 author: panolte
 ms.date: 12/18/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: ff57d052b66103ad716ad8d55afb4fcb095d2c02
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8847283"
@@ -24,7 +24,7 @@ ms.locfileid: "8847283"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir **Raunveruleg vs fjárhagsáætlun** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þessi grein lýsir **Rauntölur bornar saman við fjárhagsáætlun** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 

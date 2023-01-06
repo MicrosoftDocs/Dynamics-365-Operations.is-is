@@ -1,6 +1,6 @@
 ---
 title: Búa til samstæðureikningsskil
-description: Þessi grein lýsir hinum ýmsu atburðarásum þar sem þú gætir búið til samstæðureikningsskil.
+description: Þessi grein lýsir ýmsum sviðum þar sem þú gætir búið til samstæðureikningsskil.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
 ms.openlocfilehash: c6a132b742414a3dab635634c7bb5ba0dbea527d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8846800"
@@ -24,7 +24,7 @@ ms.locfileid: "8846800"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir hinum ýmsu atburðarásum þar sem þú gætir búið til samstæðureikningsskil.
+Þessi grein lýsir ýmsum sviðum þar sem þú gætir búið til samstæðureikningsskil.
 
 ## <a name="single-level-and-multilevel-consolidations-across-legal-entities"></a>Samstæður á einu eða mörgum stigum yfir lögaðila
 Einfaldasta aðferðin til að sameina með Financial reporting er að nota skipurit til að safna gögnum yfir fyrirtæki sem hafa sama bókhaldslykil og fjárhagstímabil. Hér eru hástigs skrefin til að sameina með skipuriti.
@@ -153,7 +153,7 @@ Eftirfarandi skýringarmynd sýnir valkosti í skýrsluskilgreiningu sem leyfir 
 ![Valkostir fyrir númer tímabils í skýrsluskilgreiningu.](./media/options-report-definition-period-number.png "Valkostir fyrir númer tímabils í skýrsluskilgreiningu")
 
 ## <a name="business-unit-consolidations"></a>Samstæður viðskiptaeiningar
-Þessi grein hefur einbeitt sér að því að nota skýrslutrésskilgreiningar og skipulagsstigveldi í fjárhagsskýrslu í samstæðutilgangi. Einnig er hægt að nota skipurit til að búa til skýrslur um samstæður viðskiptaeininga, svo sem skýrslur um sölu eða rekstur á heimsvísu. Þessar skýrslur eru algengar kröfur. Til að búa þær til skaltu velja fyrirtæki og vídd fyrir hverja einingu sem þú vilt sameina. Til dæmis, í eftirfarandi skýringarmynd, en samantekt á viðskiptaeiningu gerð með því að endurtaka hvert fyrirtæki í dálknum **Fyrirtæki** (dálkur A) og að greina hóp af víddargildum deildar á hvert fyrirtæki í dálknum **Víddir** (dálkur D).
+Þessi grein hefur lagt áherslu á að nota skilgreiningu skipurits og stigveldi fyrirtækis í Financial reporting með samstæður í huga. Einnig er hægt að nota skipurit til að búa til skýrslur um samstæður viðskiptaeininga, svo sem skýrslur um sölu eða rekstur á heimsvísu. Þessar skýrslur eru algengar kröfur. Til að búa þær til skaltu velja fyrirtæki og vídd fyrir hverja einingu sem þú vilt sameina. Til dæmis, í eftirfarandi skýringarmynd, en samantekt á viðskiptaeiningu gerð með því að endurtaka hvert fyrirtæki í dálknum **Fyrirtæki** (dálkur A) og að greina hóp af víddargildum deildar á hvert fyrirtæki í dálknum **Víddir** (dálkur D).
 
 ![Skýrslur um samstæðu viðskiptaeiningar.](./media/business-unit-consolidation-reports.png "Skýrslur um samstæðu viðskiptaeiningar")
 
@@ -218,7 +218,7 @@ Til að fá rétt umreiknaðar upphæðir þegar gjaldmiðlar eru notaðir, nota
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-Fyrir frekari upplýsingar um sameiningu og gjaldmiðlaþýðingu, sjá móðurgrein þessarar greinar, [Fjárhagssamstæður og gjaldmiðlaþýðingaryfirlit](./financial-consolidations-currency-translation.md).
+Nánari upplýsingar um samstæðuumreikning og umreikning gjaldmiðils er að finna í yfirefni þessarar greinar, [Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils](./financial-consolidations-currency-translation.md).
 
 Nánari upplýsingar um hvernig á að slá inn upplýsingar um samstæður á netinu er að finna í [Sameiningar fjárhags á netinu](./consolidate-online.md).
 

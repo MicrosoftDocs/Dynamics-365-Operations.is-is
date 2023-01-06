@@ -1,6 +1,6 @@
 ---
 title: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
-description: Þessi grein veitir upplýsingar um hvernig á að nota eiginleika rakningar í rafrænum skýrslum (ER) til að leysa vandamál varðandi árangur.
+description: Þessi grein veitir upplýsingar um hvernig á að nota eiginleika fyrir rakningu afkasta í rafrænni skýrslugerð til að úrræðaleita vandamál er varða afköst.
 author: kfend
 ms.date: 06/22/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.openlocfilehash: 9f088228b140a42ee097c9e810166550ab0fae81
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289945"
@@ -98,7 +98,7 @@ Gerum ráð fyrir að þú hafir byrjað að hanna nýja lausn rafrænnar skýrs
 
 Gerum ráð fyrir að þú hafir lokið við að hanna fyrstu útgáfu af lausn rafrænnar skýrslugerðar. Núna viltu prófa hana í tilviki og greina afköst keyrslu.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a> Flytja inn ER uppsetningu frá RCS inn í fjármál og rekstur
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Flytja inn skilgreiningu rafrænnar skýrslugerðar úr RCS í fjármála- og reksturs
 
 1. Skráðu þig inn á forritstilvikið.
 2. Fyrir þessa leiðsögn flytur þú inn skilgreiningar úr RCS-tilvikinu þínu (þar sem þú hannar þætti rafrænnar skýrslugerðar) í tilvik (þar sem þú prófar og að lokum notar þær). Þess vegna verður þú að ganga úr skugga um að allir nauðsynlegir gervingar hafi verið undirbúnir. Til að fá leiðbeiningar skal sjá ferlið [Flytja inn skilgreiningar rafrænnar skýrslugerðar úr Skilgreiningarþjónustu reglugerðar (RCS)](rcs-download-configurations.md).
@@ -134,7 +134,7 @@ Samsvarandi útgáfur af skilgreiningum gagnalíkans og líkanavörpunar eru flu
             - Að keyra hvern gagnagjafa í sniðsvörpuninni sem er kallað á til að ná í gögn
             - Úrvinnsla á öllum sniðsatriðum til að færa gögn inn í frálagið sem myndast
 
-            The **Uppsafnað rekjasnið** gildi er fáanlegt í Microsoft Dynamics 365 Finance útgáfa 10.0.20 og síðar.
+            Gildið **Snið uppsafnaðrar rakningar** er í boði í Microsoft Dynamics 365 Finance útgáfu 10.0.20 og nýrri.
 
             Í hönnuði rafræns skýrslugerðarsniðs og hönnuði líkanavörpunar rafrænnar skýrslugerðar er hægt að skoða heildartíma keyrslunnar fyrir stakan hlut. Auk þess inniheldur rakningin upplýsingar um framkvæmdina, t.d. keyrslufjölda og lágmarks- og hámarkstíma einnar keyrslu.
 
@@ -305,27 +305,27 @@ Hún getur einnig verið gagnleg til að fækka fjölda kalla til LedgerTransTyp
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Flytja inn breytta skilgreiningu á líkanavörpun rafrænnar skýrslugerðar úr RCS í forritið
 
-Endurtaktu skrefin í [Flytja inn ER uppsetningu frá RCS inn í fjármál og rekstur](#import-configuration) kafla fyrr í þessari grein til að flytja inn útgáfu 1.2 af **Kortlagning afkastaspora** uppsetningu.
+Endurtakið skrefin í hlutanum [Flytja inn skilgreiningu rafrænnar skýrslugerðar úr RCS í fjármála- og reksturs](#import-configuration) fyrr í þessari grein til að flytja inn útgáfu 1.2 af skilgreiningunni **Vörpun afkastarakningar**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Keyra breytta lausn rafrænnar skýrslugerðar til að rekja framkvæmd
 
 ### <a name="run-the-er-format"></a>Keyra snið rafrænnar skýrslugerðar
 
-Endurtaktu skrefin í [Keyra ER sniðið](#run-format) kafla fyrr í þessari grein til að búa til nýtt frammistöðuspor.
+Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-format) fyrr í þessari grein til að búa til nýja afkastarakningu.
 
 ## <a name="work-with-the-execution-trace"></a>Vinna með framkvæmdarakningu
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Flytja myndaða rakningu úr forritinu
 
-Endurtaktu skrefin í [Flyttu út myndaða ummerki úr forritinu](#export-trace) kafla fyrr í þessari grein til að vista nýtt frammistöðuspor á staðnum.
+Endurtakið skrefin í hlutanum [Flytja út myndaða rakningu úr forritinu](#export-trace) fyrr í þessari grein til að vista nýja afkastarakningu staðbundið.
 
 ### <a name="import-the-generated-trace-into-rcs"></a>Flytja inn myndaða rakningu í RCS
 
-Endurtaktu skrefin í [Flyttu inn myndaða ummerki inn í RCS](#import-trace) kafla fyrr í þessari grein til að flytja nýja frammistöðuferlið inn í RCS.
+Endurtakið skrefin í hlutanum [Flytja inn myndaða rakningu í RCS](#import-trace) fyrr í þessari grein til að flytja inn nýja afkastarakningu í RCS.
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>Nota afkastarakningu fyrir greiningu í RCS - Líkanavörpun
 
-Endurtaktu skrefin í [Notaðu frammistöðuferlið fyrir greiningu í RCS – Líkanskortlagning](#use-trace) kafla fyrr í þessari grein til að greina nýjustu frammistöðuferlið.
+Endurtakið skrefin í hlutanum [Nota afkastarakningu fyrir greiningu í RCS - Líkanavörpun](#use-trace) fyrr í þessari grein til að greina síðustu afkastarakningu.
 
 Takiði eftir að leiðréttingar sem voru gerðar á líkanavörpun hafa eytt tvíteknum fyrirspurnum til gagnagrunns. Fjöldi kalla í gagnagrunnstöflur og gagnagjafa fyrir þessa líkanavörpun hefur einnig verið fækkað. Afköst á allri lausn rafrænnar skýrslugerðar hefur þar af leiðandi verið endurbætt.
 
@@ -355,7 +355,7 @@ Ef þú notar eina af þessum útgáfum geturðu greint upplýsingar á mynduðu
 
 ### <a name="run-the-er-format"></a>Keyra snið rafrænnar skýrslugerðar
 
-Endurtaktu skrefin í [Keyra ER sniðið](#run-format) kafla fyrr í þessari grein til að búa til nýtt frammistöðuspor.
+Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-format) fyrr í þessari grein til að búa til nýja afkastarakningu.
 
 Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá inniheldur afkastarakningu á PerfView-sniði. Síðan er hægt að nota greiningarverkfæri fyrir verkfæri PerfView-afkastagreiningar til að greina upplýsingarnar fyrir framkvæmd á sniði rafrænnar skýrslugerðar.
 
@@ -363,7 +363,7 @@ Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá i
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Notaðu ytri verkfæri til að endurskoða framkvæmdarspor sem inniheldur gagnagrunnsfyrirspurnir
 
-Vegna úrbóta sem hafa verið gerðar á ER-ramma býður afkastarakningin sem myndast á PerfView-sniði fleiri upplýsingar um framkvæmd ER-sniðs. Í Microsoft Dynamics 365 Finance útgáfu 10.0.4 (júlí 2019), þessi rakning getur einnig innihaldið upplýsingar um keyrðar SQL fyrirspurnir í gagnagrunn forritsins.
+Vegna úrbóta sem hafa verið gerðar á ER-ramma býður afkastarakningin sem myndast á PerfView-sniði fleiri upplýsingar um framkvæmd ER-sniðs. Í Microsoft Dynamics 365 Finance-útgáfu 10.0.4 (júlí 2019) getur þessi rakning einnig innihaldið upplýsingar um framkvæmdar SQL-fyrirspurnir í forritsgagnagrunninum.
 
 ### <a name="configure-user-parameters"></a>Skilgreina færibreytur notanda
 
@@ -379,7 +379,7 @@ Vegna úrbóta sem hafa verið gerðar á ER-ramma býður afkastarakningin sem 
 
 ### <a name="run-the-er-format"></a>Keyra snið rafrænnar skýrslugerðar
 
-Endurtaktu skrefin í [Keyra ER sniðið](#run-format) kafla fyrr í þessari grein til að búa til nýtt frammistöðuspor.
+Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-format) fyrr í þessari grein til að búa til nýja afkastarakningu.
 
 Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá inniheldur afkastarakningu á PerfView-sniði. Síðan er hægt að nota greiningarverkfæri fyrir verkfæri PerfView-afkastagreiningar til að greina upplýsingarnar fyrir framkvæmd á sniði rafrænnar skýrslugerðar. Þessi rakning inniheldur núna upplýsingar um SQL-gagnagrunnsaðgang við framkvæmd ER-sniðsins.
 

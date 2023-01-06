@@ -1,6 +1,6 @@
 ---
 title: Ytri gögn í sjóðsstreymisspám
-description: Þessi grein lýsir uppsetningarskrefunum sem þarf að ljúka svo hægt sé að færa inn ytri gögn eða flytja inn í sjóðstreymisspár.
+description: Þessi grein lýsir uppsetningarskrefunum sem þarf að ljúka til að hægt sé að færa ytri gögn inn eða flytja það inn í sjóðstreymisspár.
 author: RyanCCarlson2
 ms.date: 02/16/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: f0cb05770dc2fbd4e13af261b5f0a0e117a2f6d7
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8846974"
@@ -26,23 +26,23 @@ ms.locfileid: "8846974"
 
 [!include [banner](../includes/banner.md)]
 
-Ytri gögn er hægt að færa inn eða flytja inn í sjóðsstreymisspá. Þessi grein lýsir uppsetningarskrefum sem eru sértæk fyrir notkun ytri gagna og sem gerir ytri gögnum kleift að vera með í sjóðstreymisspá.
+Ytri gögn er hægt að færa inn eða flytja inn í sjóðsstreymisspá. Þessi grein lýsir uppsetningarskrefunum sem eru sértæk fyrir notkun ytri gagna og sem gera kleift að taka ytri gögn með í sjóðsstreymisspá.
 
 ## <a name="external-data-setup"></a>Ytri gagnauppsetning
 
-Nota **Ytri heimild** flipann á **Uppsetning sjóðstreymisspár** síða (**Handbært fé og bankastjórnun \> Sjóðstreymisspá \> Uppsetning sjóðstreymisspár**) til að slá inn stillingar sem styðja notkun ytri gagna í sjóðstreymisspám.
+Notaðu flipann **Ytri uppruni** á **uppsetning sjóðstreymisspár** síðu (**reiðufjár-og bankastjórnun \> sjóðsstreymisspá\>Uppsetning sjóðsstreymisspár**) til að færa inn stillingar sem styðja notkun ytri gagna í sjóðsstreymisspá.
 
-Ytri gögn er hægt að færa inn eða flytja inn í sjóðsstreymisspá. Áður en ytri gögn eru færð inn eða flutt inn verður að setja upp ytri heimildir. Á **Ytri heimild** flipa, setja upp ytri sjóðstreymisflokka. Flokkur getur verið annað hvort **Sendandi** eða **Komandi**. **Lausafjárstaða** ætti að vera valin sem færslugerð. Í **Stillingar lögaðila** grid, velja lögaðila og samsvarandi aðalreikninga sem ytra sjóðstreymisflokkar eiga við.
+Ytri gögn er hægt að færa inn eða flytja inn í sjóðsstreymisspá. Áður en ytri gögn eru slegin inn eða flutt inn verður að setja upp ytri uppsprettur. Á flipanum **Ytri uppruni**, setjið upp utanaðkomandi sjóðstreymisflokka. Flokkur getur annað hvort verið **Á útleið** eða **Á innleið**. **Greiðslugeta** ætti að vera valin sem bókunargerð. Í töfluna **Stillingar lögaðila** skal velja lögaðila og samsvarandi aðallykla sem utanaðkomandi sjóðstreymisflokkar eiga við.
 
-Fyrir frekari upplýsingar um hvernig á að setja upp sjóðstreymisspár, sjá [Sjóðstreymisspá](../cash-bank-management/cash-flow-forecasting.md).
+Nánari upplýsingar um hvernig setja skuli upp sjóðstreymisspá eru að finna í [Sjóðstreymisspá](../cash-bank-management/cash-flow-forecasting.md).
 
-## <a name="enter-external-data"></a>Sláðu inn ytri gögn
+## <a name="enter-external-data"></a>Bæta við ytri gögnum
 
-Til að slá inn og breyta ytri gögnum fyrir sjóðstreymisspár geturðu notað **Opnaðu í Excel** reynsla. Veldu **Ytri gögn** hnappinn á **Sjóðstreymisspá** vinnusvæðissíðu og veldu síðan annað hvort **Bæta við ytri gögnum** eða **Breyttu fyrirliggjandi ytri gögnum**. Þegar Microsoft Excel-skráin er opnuð er hægt að færa inn upplýsingar í eftirfarandi reiti:
+Til að færa inn og breyta ytri gögnum fyrir sjóðsstreymisspár er hægt að nota **Opna í Excel**. Velja skal hnappinn **Ytri gögn** á **Sjóðstreymisspá** síðu vinnusvæðis og svo annað hvort **Bæta við ytri gögnum** eða **Breyta fyrirliggjandi ytri gögnum**. Þegar Microsoft Excel-skráin er opnuð er hægt að færa inn upplýsingar í eftirfarandi reiti:
 
-- **Inngangsauðkenni** (einstakt)
+- **Kenni færslu** (einkvæmt)
 - **Lýsing** (valfrjálst)
-- **Nafn ytri uppruna** – Veldu eitt af gildunum á listanum sem þú skilgreindir þegar þú settir upp Finance Insights.
+- **Heiti ytri uppruna** – Velja skal eitt af gildunum á listanum sem voru skilgreindir þegar Finance Insights var sett upp.
 - **Lögaðili**
 - **Dagsetning**
 - **Upphæð í gjaldmiðli færslu**

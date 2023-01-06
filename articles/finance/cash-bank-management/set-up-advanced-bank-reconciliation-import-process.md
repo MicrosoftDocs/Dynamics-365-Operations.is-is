@@ -1,6 +1,6 @@
 ---
 title: Setja upp ítarlegan innflutning bankaafstemmingarferlis
-description: Ítarlegri bankaafstemmingareiginleikinn gerir þér kleift að flytja inn rafræn bankayfirlit og samræma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 Fjármál. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið.
+description: Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 Finance. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið.
 author: angelad116
 ms.date: 10/24/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 60195962e50817b4d85840a2464848db6e666f46
 ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/25/2022
 ms.locfileid: "9716019"
@@ -27,10 +27,10 @@ ms.locfileid: "9716019"
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Þessi virkni verður úrelt september 2022, nýir notendur ættu að nota rafræna skýrslugerð. Fyrir frekari upplýsingar, sjá [Settu upp háþróaðan bankaafstemmingarinnflutning með því að nota rafræna skýrslugerð](../accounts-payable/import-bai2-er.md).
+> Þessi virkni verður afskráð í september 2022, nýir notendur ættu að nota rafræn skýrslugerð. Frekari upplýsingar eru í [Uppsetning innflutnings ítarlegrar bankaafstemmingar með rafrænni skýrslugerð](../accounts-payable/import-bai2-er.md).
 
 
-Ítarleg bankaafstemmingareiginleikinn gerir þér kleift að flytja inn rafræn bankayfirlit og samræma þau sjálfkrafa við bankafærslur í Dynamics 365 Finance. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið. 
+Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Dynamics 365 Finance. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið. 
 
 Uppsetning fyrir innflutning bankayfirlits er breytileg, eftir snið rafrænnar bankayfirliti. Finance styður þrjú bankauppgjörssnið sem eru utan við: ISO20022, MT940 og BAI2.
 

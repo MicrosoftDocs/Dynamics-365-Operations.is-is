@@ -1,6 +1,6 @@
 ---
 title: Heimasíða Power BI-efnis
-description: Þessi grein sýnir PowerBI.com lausnir sem eru í boði og bendir þér á úrræði þar sem þú getur lært meira um lausnirnar.
+description: Í þessari grein eru sýndar lausnir PowerBI.com sem eru tiltækar og benda á tilföng þar sem hægt er að fræðast betur um lausnirnar.
 author: sericks007
 ms.date: 10/02/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.form: PowerBIPbixDeployForm
 ms.openlocfilehash: 54bc2ae0614413c86502ade503942cd5828a3689
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9273061"

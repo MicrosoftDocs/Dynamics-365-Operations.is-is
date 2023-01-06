@@ -1,6 +1,6 @@
 ---
 title: Eignarleiguskýrsla
-description: Þessi grein listar upp og lýsir stuttlega þeim skýrslum sem eru tiltækar í eignaleigu.
+description: Þessi grein sýnir og lýsir stuttlega þeim skýrslum sem eru í boði í eignarleigu.
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8856713"
@@ -26,7 +26,7 @@ ms.locfileid: "8856713"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein listar upp og lýsir stuttlega þeim skýrslum sem eru tiltækar í eignaleigu. Flestar skýrslur birtast með því að klára þessi skref eða önnur svipuð skref eins og tekið er fram). 
+Þessi grein sýnir og lýsir stuttlega þeim skýrslum sem eru í boði í eignarleigu. Flestar skýrslur birtast með því að klára þessi skref eða önnur svipuð skref eins og tekið er fram). 
 
 - Til að skoða flestar eignarleiguskýrslur skal fara í **Eignarleiga > Fyrirspurnir og skýrslur > Leiguskýrslur** og síðan velja skýrslu til að skoða. Fyrir skýrslurnar sem þurfa annars konar valslóð, eru leiðbeiningarnar til að opna skýrsluna í lýsingu á þeirri skýrslu. 
 - Þegar valin er skýrsla til að prenta opnast færibreytusíðu sem gerir þér kleift að sía upplýsingarnar sem hafðar eru með í skýrslunni. Sláið inn síuskilyrði og veljið svo **Í lagi** til að búa til skýrslu. Mynduð skýrsla mun sýna upplýsingar sem falla undir síurnar sem voru tilgreindar.
@@ -37,7 +37,7 @@ Eignahreyfingarskýrslan þjónar sem framlengingarskýrsla fyrir stöðu afnota
 |     Skýrslureitir                  |     lýsing                                                                |
 |------------------------------------|--------------------------------------------------------------------------------|
 |     Upphafsdagsetning              |     Upphafsdagsetning á fyrstu útgáfu leigusamningsins.                     |   
-|     Leigutími                     |     Núverandi útgáfa af leigutíma.                            |
+|     Leigutími                     |     Skoða núverandi útgáfu af korti leigutíma.                            |
 |     Skammtímaleiga               |     Ef leigan er flokkuð sem skammtímaleiga verður það sýnt sem **Já**.         |
 |     Lágvirðiseign                |     Ef leigan er flokkuð sem leiga verðlítillar eignar verður það sýnt sem **Já**.          |
 |     Upphaflegur afnotaréttur af eign     |     Upprunalegt virði afnotaréttar af eign úr upphaflegri skráningu í færslubókina.      |

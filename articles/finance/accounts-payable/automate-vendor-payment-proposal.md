@@ -1,6 +1,6 @@
 ---
 title: Gera greiðslutillögur lánardrottins sjálfvirkar
-description: Þessi grein útskýrir hvernig stofnanir sem greiða lánardrottnum samkvæmt endurtekinni áætlun geta gert sjálfvirkan ferlið við að búa til greiðslutillögur lánardrottins.
+description: Þessi grein i útskýrir hvernig fyrirtæki sem greiða lánardrottnum með reglulegu millibili geta gert ferlið sjálfvirkt sem býr til greiðslutillögur lánardrottins.
 author: kweekley
 ms.date: 04/08/2020
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
 ms.openlocfilehash: 006dd5646410bb63b4060220b17aec38eb0e4545
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8903479"
@@ -34,7 +34,7 @@ Fyrirtæki sem greiða lánardrottnum með reglulegu millibili geta nú gert fer
 Sjálfvirkar greiðslutillögur bóka ekki sjálfkrafa greiðslurnar. Þess vegna er hægt að halda áfram að nota alla staðfestingar- og verkflæðisferla sem eru þegar notaðir til að samþykkja greiðslurnar sem eru stofnaðar.
 
 > [!NOTE]
-> The **Sjálfvirkni greiðslutillögu söluaðila** Eiginleiki verður að vera virkur í Eiginleikastjórnun til að nýta þessa virkni. 
+> Eiginleikinn **Sjálfvirk greiðslutillaga lánardrottins** verður að vera virkur í eiginleikastjórnun til að nýta þessa virkni. 
 
 ## <a name="define-the-occurrence-of-vendor-payment-proposals"></a>Skilgreina tilfelli greiðslutillagna lánardrottins
 

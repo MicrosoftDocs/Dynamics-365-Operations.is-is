@@ -17,7 +17,7 @@ ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.form: FinancialReports
 ms.openlocfilehash: d23d6afde0daa44b8527c624305bdfd0fb4cbd53
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291889"

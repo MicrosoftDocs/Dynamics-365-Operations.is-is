@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c388a8f98cd4581abe2ec13d8922e232321e4039
 ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/10/2022
 ms.locfileid: "8735866"
@@ -27,17 +27,17 @@ ms.locfileid: "8735866"
 Jafna og bóka VSK vinnslan jafnar VSK stöður í VSK -lykla og mótfærir þeim virðisaukaskattsuppgjör reiknings á tilteknu tímabili.
 
 1. Fara á **Skattur > Skattframtöl > Virðisaukaskattur > Jafna og bóka vsk**.
-2. Í **Uppgjörstímabil** reit, veldu fellilistann til að opna leitina.
+2. Í reitnum **jöfnunartímabil** skal velja fellilistahnappinn til að opna leitina.
 3. Í listanum skal smella á tengilinn í valinni línu.
-4. Í reitnum **Frá dags.** færirði inn dagsetningu. Ef valkosturinn **Taka leiðréttingar** með er ekki valin á síðunni **Færibreytur fjárhags**, getur jöfnun verið unnin fyrir mismunandi útgáfur. **Upprunalegt** er fyrsta uppgjörið fyrir tímabilsbil og er aðeins hægt að afgreiða það einu sinni á tímabili. Nýjustu leiðréttingarnar munu jafna söluskattsfærslur, sem hafa verið bókaðar eftir að upprunalega útgáfan hefur verið stofnuð.
+4. Í reitnum **Frá dags.** færirði inn dagsetningu. Ef valkosturinn **Taka leiðréttingar** með er ekki valin á síðunni **Færibreytur fjárhags**, getur jöfnun verið unnin fyrir mismunandi útgáfur. **Upphaflegt** er fyrsta jöfnun fyrir tímabilið og er einungis hægt að vinna einu sinni fyrir tímabil. Síðustu leiðréttingar jafna vsk-færslur sem hafa verið bókaðar eftir að upprunalega útgáfa hefur verið stofnuð.
 5. Færa inn dagsetningu í reitinn **Færsludagsetning**.
-6. Veldu **Í lagi**. The **Söluskattsgreiðslur** skýrsla er prentuð til að fara yfir uppgefna söluskattsfærslur á tímabilinu.
+6. Veldu **Í lagi**. Skýrslan **VSK-greiðslur** er prentuð til að fara yfir jafnaðar VSK-færslur á tímabilinu.
 
-Frá og með Finance útgáfu 10.0.24 geturðu sleppt **Söluskattsgreiðslur** skýrsla sem er búin til beint á eftir **Gera upp og bóka söluskatt** reglubundin málsmeðferð er framkvæmd samkvæmt **Aðskilið framleiðslu söluskattsskýrslu frá söluskattsuppgjöri** eiginleiki í **Eiginleikastjórnun** vinnurými.
+Frá og með Finance útgáfu 10.0.24 getur þú sleppt skýrslu **VSK-greiðslur** sem er búin til rétt eftir reglubundið ferli **Jafna og bóka virðisaukaskatt** er innleitt undir eiginleikanum **Aðskilja myndun VSK-greiðsluskýrslu frá virðisaukauppgjöri** á vinnusvæðinu **Eiginleikastjórnun**.
 
-Þegar eiginleikinn er virkur, eftir að uppgjörsferlinu er lokið, er engin greiðsluskýrsla söluskatts prentuð. Þess í stað færðu eftirfarandi skilaboð, "Vattauppgjöri og bókun er lokið. Skírteinið 'xxxx, m/d/yyyy' hefur verið birt."
+Þegar eiginleikinn er virkjaður verður engin VSK-greiðsluskýrsla prentuð að uppgjörsferlinu loknu. Í staðinn færðu eftirfarandi skilaboð: „Virðisaukauppgjör og bókun er lokið. Fylgiskjalið „xxxx, m/d/yyyy“ hefur verið bóka.“
 
-Þú getur samt keyrt greiðsluskýrslu söluskatts handvirkt með því að fara á **Skattur** > **Fyrirspurnir og skýrslur** > **Fyrirspurnir um söluskatt** > **Söluskattsgreiðslur**.
+Áfram er hægt að keyra VSK-greiðsluskýrslu handvirkt með því að opona **Skattur** > **Fyrirspurnir og skýrslur** > **Fyrirspurnir um virðisaukaskatt** > **Greiðslur virðisaukaskatts**.
 
 ## <a name="performance-consideration"></a>Almenn afkastaatriði
 

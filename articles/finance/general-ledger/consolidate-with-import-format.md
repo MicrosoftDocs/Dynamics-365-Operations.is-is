@@ -1,6 +1,6 @@
 ---
 title: Innflutningssnið fyrir sameiningu
-description: Þessi grein veitir nákvæmar upplýsingar um innflutningssniðið sem er notað þegar þú sameinar fjárhagsgögn frá mörgum lögaðilum.
+description: Í þessari grein er að finna ítarlegar upplýsingar um innflutningssniðið sem notað er við sameiningu fjárhagsgagna úr mörgum lögaðilum.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
 ms.openlocfilehash: 0aee830f8fbfa384c86dc16465b202be36f07b73
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8871305"
@@ -24,7 +24,7 @@ ms.locfileid: "8871305"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir nákvæmar upplýsingar um innflutningssniðið sem er notað þegar þú sameinar fjárhagsgögn frá mörgum lögaðilum. Vista þarf innflutningssniðið sem textaskrá (.txt).
+Í þessari grein er að finna ítarlegar upplýsingar um innflutningssniðið sem notað er við sameiningu fjárhagsgagna úr mörgum lögaðilum. Vista þarf innflutningssniðið sem textaskrá (.txt).
 
 ## <a name="import-format"></a>Innflutningssnið
 

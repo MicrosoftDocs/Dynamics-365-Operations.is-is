@@ -1,6 +1,6 @@
 ---
-title: Styður netvafrar fyrir Lifecycle Services
-description: Þessi grein sýnir vefvafrana sem eru studdir fyrir Lifecyle Services.
+title: Studdir vefvafrar fyrir Lifecycle Services
+description: Í þessari grein er listi yfir vafrana sem eru studdir fyrir Lifecycle Services.
 author: laneswenka
 ms.date: 03/29/2022
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.validFrom: 03/22/2022
 ms.search.form: ''
 ms.openlocfilehash: b609cac2e8219e8d4a0587c37ceb712547457422
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8866310"
 ---
-# <a name="supported-web-browsers-for-lifecycle-services"></a>Styður netvafrar fyrir Lifecycle Services 
+# <a name="supported-web-browsers-for-lifecycle-services"></a>Studdir vefvafrar fyrir Lifecycle Services 
 
 [!include[banner](../includes/banner.md)]
 
-Notendur geta nálgast Microsoft Dynamics Lifecyle Services (LCS) með því að nota nýjustu útgáfur þessara vinsælu vafra: 
+Notendur geta opnað Microsoft Dynamics Lifecycle Services (LCS) með því að nota nýjustu útgáfur af þessum vinsælu vöfrum: 
 
-- Microsoft Edge(mælt með: [Króm-undirstaða Edge](https://support.microsoft.com/microsoft-edge/download-the-new-microsoft-edge-based-on-chromium-0f4a3dd7-55df-60f5-739f-00010dba52cf))
+- Microsoft Edge (ráðlagt: [Edge í Chromium](https://support.microsoft.com/microsoft-edge/download-the-new-microsoft-edge-based-on-chromium-0f4a3dd7-55df-60f5-739f-00010dba52cf))
 - Google Chrome
 - Apple Safari
 
-Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu hvers vafra. Til að ná sem bestum árangri og bestu upplifun mælum við með að þú notir nýjustu útgáfuna af nútíma vafra, sérstaklega Microsoft Edge. 
+Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu hvers vafra. Til að ná sem bestum afköstum og upplifun er mælt með að nota nýjustu útgáfu af nútímalegum vafra, sérstaklega Microsoft Edge. 
 

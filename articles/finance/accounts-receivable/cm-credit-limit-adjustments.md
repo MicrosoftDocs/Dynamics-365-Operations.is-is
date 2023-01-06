@@ -14,7 +14,7 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: fa4721be1e213afbaaeaa475be2697c8e55426a3
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8891726"
@@ -27,7 +27,7 @@ Leiðréttingar á lánamörkum gera lánastjórnendum kleift að uppfæra lána
 
 ## <a name="set-up-credit-limit-adjustments"></a>Setja upp leiðréttingar á lánamörkum
 
-Þú getur búið til færslur í **Leiðrétting lánsfjár** dagbók um **Leiðrétting lánsfjár** síða (**Útlánastjórnun \> Leiðréttingar á lánamörkum \> Leiðréttingar á lánamörkum**).
+Þú getur búið til færslur í **Leiðrétting lánamarks** færslubók á **Leiðrétting lánamarks** síðunni (**Lánastýring \> Leiðréttingar á lánamörkum \> Leiðréttingar á lánamörkum**).
 
 1. Veljið **Nýtt**. Nýr hópur færslna er búinn til með leiðréttingarnúmer lánamarka.
 2. Veldu tegund leiðréttingar útlána:

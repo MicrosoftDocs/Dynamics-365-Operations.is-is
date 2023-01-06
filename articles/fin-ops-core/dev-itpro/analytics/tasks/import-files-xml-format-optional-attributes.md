@@ -1,6 +1,6 @@
 ---
 title: (RCS) Flytja inn skrár á XML-sniði með valkvæmum eigindum
-description: Þessi grein veitir upplýsingar um hvernig notandi getur hannað ER-sniðsstillingar til að flytja inn skrár á XML-sniði sem innihalda valfrjálsa eiginleika.
+description: Þessi grein veitir upplýsingar um hvernig notandi getur sett upp skilgreiningu ER-sniðs til að flytja inn skrár á XML-sniði sem inniheldur valkvæð eigindi.
 author: kfend
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ''
 ms.openlocfilehash: 5254a3d631129d0e41fcd37a341b54f97cfe6a9e
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290005"

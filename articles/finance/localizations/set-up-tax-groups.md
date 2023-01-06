@@ -1,6 +1,6 @@
 ---
 title: Setja upp skattflokka
-description: Þessi grein útskýrir hvernig á að setja upp skattflokka í Skattútreikningsþjónustunni.
+description: Í þessari grein er útskýrt hvernig á að setja upp skatthópa í Skattaútreikningsþjónustu.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
 ms.openlocfilehash: 89c5670ee7e78f2dc51f128c3ae8d284bb6b925b
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8862900"
@@ -24,48 +24,48 @@ ms.locfileid: "8862900"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp skattflokka í Skattútreikningsþjónustunni. Það útskýrir einnig hvernig á að setja upp reglufylki skattaflokks gilda og stilla línur í fylkinu.
+Í þessari grein er útskýrt hvernig á að setja upp skatthópa í Skattaútreikningsþjónustu. Einnig er útskýrt hvernig á að setja upp fylki gildissviðsreglu fyrir skattflokk og skilgreina línur í fylkinu.
 
-Hugtakið skattflokkar í Skattútreikningsþjónustunni líkist hugtakinu söluskattsflokkar í Microsoft Dynamics 365 Fjármál. Þetta eru hópar skattakóða. Skattútreikningsþjónustan notar skurðpunkta skattflokks og vöruskattsflokks til að ákvarða skattkóðana.
+Hugtakið skatthópar í Skattaútreikningsþjónustu líkist hugtakinu söluskatthópar í Microsoft Dynamics 365 Finance. Þeir eru hópar skattkóða. Skattaútreikningsþjónustan notar skurðpunkt skattflokks og skattflokks til að ákvarða skattkóða.
 
-Hins vegar eru skattflokkar í Skattútreikningsþjónustunni frábrugðnir söluskattsflokkum í Fjármálum að því leyti að engar aukafæribreytur eru á þeim, s.s.**Notaðu skatt** og **Undanþágur skattur**. Þess í stað eru þessar færibreytur tiltækar á skattakóðastigi.
+Skattahópar í skattaútreikningsþjónustunni eru þó frábrugðnir söluskattshópum í Finance þar sem það eru engar aðrar færibreytur á þeim, svo sem **Neysluskattur** og **Undanþeginn skattur**. Þess í stað eru þessar breytur tiltækar á skattkóðastigi.
 
 > [!IMPORTANT]
-> Uppsetning skattflokka í Skattútreikningsþjónustunni er lögaðili-agnostic. Þú getur aðeins klárað þessa uppsetningu í Regulatory Configuration Service (RCS) einu sinni. Þegar þú virkjar skattaútreikningsþjónustuna í Finance, eru skattflokkar sjálfkrafa samstilltir fyrir valda lögaðila.
+> Uppsetning skattkóða í skattaútreikningsþjónustunni er óháð lögaðila. Aðeins er hægt að ljúka við þessa uppsetningu í Regulatory Configuration Service (RCS) einu sinni. Þegar þú virkjar skattaútreikningsþjónustu í fjármálum eru skattahópar sjálfkrafa samstilltir fyrir valinn lögaðila.
 
-## <a name="set-up-a-tax-group"></a>Settu upp skattaflokk
+## <a name="set-up-a-tax-group"></a>Setja upp skattaflokk
 
-Fylgdu þessum skrefum til að setja upp skattaflokk.
+Fylgið þessum skrefum til að setja upp skattflokk.
 
-1. Skrá inn [Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/).
-2. Fara til **Vinnurými** \> **Hnattvæðingareiginleikar** \> **Skattútreikningur**.
-3. Veldu eiginleikann og útgáfuna sem þú vilt setja upp og veldu síðan **Breyta**.
-4. Á **Almennt** flipa, veldu **Stillingarútgáfa**.
-5. Á **Skattahópur** flipa, veldu **Stjórna dálki**. Ef þú ert að setja upp skattaflokk í fyrsta skipti eru reitirnir í **Stjórna dálki** svarglugginn er sjálfkrafa stilltur.
-6. Í listanum til vinstri, stækkaðu **Línur** hnút og veldu gátreitinn fyrir **Skattahópur**.
+1. Skrá inn á [Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/).
+2. Farið í **Vinnusvæði** \> **Altækir eiginleikar** \> **Skattaútreikningur**.
+3. Veljið eiginleikann og útgáfuna sem á að setja upp og veljið svo **Breyta**.
+4. Í flipanum **Almennt** skal velja **Útgáfa skilgreiningar**.
+5. Í flipanum **Skattflokkur** skal velja **Stjórna dálki**. Ef þú ert að setja upp skattflokk í fyrsta skipti eru reitirnir í svarglugganum **Stjórna dálki** sjálfkrafa stilltir.
+6. Í listanum til vinstri skal stækka hnútinn **Línur** og velja gátreitinn fyrir **Skattflokkur**.
 
-    ![Skattflokkur valinn undir línuhnút í glugganum Stjórna dálkum.](media/select-tax-group.png)
+    ![Skattahópur valinn undir Línuhnút í svarglugganum Stjórna dálkum.](media/select-tax-group.png)
 
-7. Veldu hægri örvarhnappinn til að bæta við **Skattahópur** til **Valdir dálkar** lista til hægri.
+7. Veldu hægri örvatakkann til að bæta **Skattaflokkur** við listann yfir **Valdir dálkar** hægra megin.
 
-    ![Skattflokkur bætt við Valda dálka listann.](media/add-tax-group.png)
+    ![Skattahópi bætt við lista yfir valda dálka.](media/add-tax-group.png)
 
 8. Veldu **Í lagi**.
 
-## <a name="configure-a-tax-group"></a>Stilltu skattaflokk
+## <a name="configure-a-tax-group"></a>Grunnstilla skattflokk
 
-Eftir að þú hefur sett upp skattflokk er gildisreglufylki skattaflokks stofnuð. Hægt er að bæta línum við fylkið til að stilla skattaflokkinn.
+Þegar skattflokkur hefur verið settur upp er fylki gildissviðsregla skattflokksins búin til. Hægt er að bæta línum við fylkið til að stilla skattflokkinn.
 
-1. Á **Skattahópur** flipa, veldu **Bæta við**.
-2. Í **Skattahópur** reit, sláðu inn nafn skattahópsins.
+1. Á flipanum **Skatthópur** velurðu **Bæta við**.
+2. Færið inn heiti skattflokksins í svæðinu **Skatthópur**.
 
     > [!IMPORTANT]
-    > Við mælum með að þú takmarkir nafn skattahópsins við 10 stafi. Þetta nafn er samstillt við Finance, sem hefur hámark 10 stafi fyrir nöfn söluskattshópa.
+    > Við mælum með því að takmarka heiti skattahópsins við 10 stafi. Þetta heiti er samstillt við Finance sem hefur 10 stafa hámark fyrir nöfn söluskattshópa.
 
-3. Í **Skattkóðar** reit skaltu velja gátreitinn fyrir hvern skattkóða sem þú vilt hafa með í skattaflokknum. Þú getur sett marga skattkóða með í einum skattaflokki.
+3. Í **Skattkóðar** reitnum er hakað við hvern skattkóða sem taka á með í skattahópnum. Hægt er að hafa marga skattkóða í einum skattflokki.
 
     ![Margir skattkóðar valdir í reitnum Skattkóðar.](media/multiple-tax-codes-selection.png)
 
-4. Endurtaktu skref 1 til 3 til að bæta við fleiri skattaflokkum.
+4. Endurtakið skref 1 til og með 3 til að bæta við fleiri skattflokkum.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

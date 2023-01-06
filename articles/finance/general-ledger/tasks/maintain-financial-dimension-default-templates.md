@@ -1,6 +1,6 @@
 ---
 title: Viðhalda sjálfgefnum sniðmátum fjárhagsvídda
-description: Þessi grein sýnir hvernig á að setja upp sjálfgefna sniðmát fjárhagsvíddar.
+description: Þessi grein sýnir hvernig á að setja upp sjálfgefin sniðmát fjárhagsvídda.
 author: aprilolson
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 846347f3a0b5257e88e06ad593ba49160de9458a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8872413"
@@ -24,7 +24,7 @@ ms.locfileid: "8872413"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein sýnir hvernig á að setja upp sjálfgefna sniðmát fjárhagsvíddar. Hægt er að nota sniðmát til að dreifa upphæðum á upprunaskjöl á fljótlegan hátt.
+Þessi grein sýnir hvernig á að setja upp sjálfgefin sniðmát fjárhagsvídda. Hægt er að nota sniðmát til að dreifa upphæðum á upprunaskjöl á fljótlegan hátt.
 
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Fjárhag > Bókhaldslykill > Víddir > Sjálfgefin sniðmát fjárhagsvídda**.
 2. Veljið **Nýtt**.

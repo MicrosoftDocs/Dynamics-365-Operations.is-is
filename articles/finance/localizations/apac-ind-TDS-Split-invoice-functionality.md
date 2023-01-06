@@ -1,6 +1,6 @@
 ---
 title: Aðgerð skiptingar á reikningi
-description: Þessi grein lýsir uppsetningu og virkni til að skipta reikningum eftir afhendingarheimilisfangi og skattreikningsnúmeri (TAN).
+description: Þessi grein útskýrir uppsetning og virkni fyrir skiptingu reikninga eftir afhendingaraðsetri og skattlykilnúmeri (TAN).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: 7bbeb94429c2c69b7b8ea3089390db676a021b80
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8874433"
@@ -26,7 +26,7 @@ ms.locfileid: "8874433"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir uppsetningu og virkni til að skipta reikningum eftir afhendingarheimilisfangi og skattreikningsnúmeri (TAN).
+Þessi grein útskýrir uppsetning og virkni fyrir skiptingu reikninga eftir afhendingaraðsetri og skattlykilnúmeri (TAN).
 
 Á síðunni **Færibreytur viðskiptaskulda**, í flipanum **Almennt**, skal velja gátreitinn **Innhreyfingarskjal afurðar** eða **Reikningur** til að bóka og skipta innhreyfingarskjali afurðar eða reikningi sem er með annað afhendingaraðsetur og TAN á síðunni **Innkaupapöntun**. Bókuðum reikningi verður þá skipt eftir afhendingaraðsetri og TAN.
 

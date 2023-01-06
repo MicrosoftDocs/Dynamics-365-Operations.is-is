@@ -1,6 +1,6 @@
 ---
 title: Tölvupóstur ER-gerð áfangastaðar
-description: Þessi grein útskýrir hvernig á að stilla áfangastað fyrir tölvupóst fyrir hvern Möppu eða SKRÁ hluta á rafrænu skýrslusniði (ER).
+description: Þessi grein útskýrir hvernig á að skilgreina áfangastað tölvupósts fyrir hverja MÖPPU eða SKRÁARHLUTA rafræns skýrslugerðarsniðs.
 author: kfend
 ms.date: 08/03/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 ms.openlocfilehash: 5e58618618d9125db4c81f49f62f48c2ce2f5e62
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9285426"
@@ -120,7 +120,7 @@ Til dæmis til að grunnstilla viðtökustað tölvupósts fyrir ER-snið sem er
 
 ![Skilgreining uppruna tölvupóstfangs.](./media/er_destinations-emaildefineaddresssource.gif)
 
-Ef reikningsnúmer stillt hlutverks eru einstök fyrir allt tilvikið af Microsoft Dynamics 365 Fjármál, the **Fyrirtæki sem er uppspretta tölvupósts** sviði í **Tölvupóstur á** svarglugginn getur verið auður.
+Ef lykilnúmer skilgreinda hlutverksins eru einkvæm fyrir allt tilvik Microsoft Dynamics 365 Finance, má reiturinn **Fyrirtæki tölvupóstsuppruna** í svarglugganum **Senda tölvupóst til** vera áfram auður.
 
 Einnig gæti komið um sú staða þar sem mismunandi aðilar í [Altækri aðsetursbók](../../fin-ops/organization-administration/overview-global-address-book.md) hafi verið skráðir í mismunandi fyrirtæki ([lögaðilar](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) á þann hátt að þeir nota allir sama lykilnúmerið til að fylla út skilgreint hlutverk. Í þessu tilviki eru lykilnúmer fyrir skilgreint hlutverk ekki einkvæm fyrir allt Finance-tilvikið. Til að velja ákveðinn aðila er þess vegna ekki hægt að tilgreina aðeins lykilnúmer. Einnig þarf að tilgreina fyrirtækið sem aðilinn hefur verið skráður í til að fylla út skilgreint hlutverk. Velja skal hnappinn **Binda** (keðjutáknið) við hliðina á reitnum **Fyrirtæki tölvupóstsuppruna** í svarglugganum **Senda tölvupóst til** til að opna síðuna [Formúluhönnuður](general-electronic-reporting-formula-designer.md). Síðan er hægt að nota þessa síðu til að skilgreina formúlu sem skilar við keyrslu kóða fyrirtækisins sem æskilegur uppruni verður að finnast í.
 
@@ -140,7 +140,7 @@ Til að tilgreina gerð netfanga sem þarf að nota við keyrslu skal í svarglu
 
 ### <a name="configuration-email"></a>Skilgreiningartölvupóstur
 
-Veljið **Skilgreiningartölvupóstur** sem gerð netfangs ef skilgreiningin sem er notuð er með hnút í gagnagjöfunum sem skila annaðhvort einu netfangi eða mörgum netföngum sem eru aðgreind með semikommu (;). Þú getur notað gagnaheimildir og [aðgerðir](er-formula-language.md#Functions) í formúluhönnuðinum til að fá rétt sniðið netfang eða rétt sniðið netföng sem eru aðskilin með semíkommum. Til dæmis ef notuð er skilgreiningin **ISO 20022 Kreditfærsla**, er hnúturinn sem táknar aðalnetfang lánardrottins úr tengiliðaupplýsingum lánardrottins sem senda bréfið á er `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Veljið **Skilgreiningartölvupóstur** sem gerð netfangs ef skilgreiningin sem er notuð er með hnút í gagnagjöfunum sem skila annaðhvort einu netfangi eða mörgum netföngum sem eru aðgreind með semikommu (;). Hægt er að nota gagnagjafa og [aðgerðir](er-formula-language.md#Functions) í formúluhönnuðinum til að ná í rétt sniðið netfang eða rétt sniðin netföng sem eru aðgreind með semikommum. Til dæmis ef notuð er skilgreiningin **ISO 20022 Kreditfærsla**, er hnúturinn sem táknar aðalnetfang lánardrottins úr tengiliðaupplýsingum lánardrottins sem senda bréfið á er `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
 [![Skilgreining uppruna tölvupóstfangs.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
@@ -162,7 +162,7 @@ Eftirfarandi mynd sýnir skipulag á sniði rafrænnar skýrslugerðar sem var s
 
 [![Skiplag á sniði rafrænnar skýrslugerðar sem myndar skjöl á útleið.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-Eftirfarandi mynd sýnir ferlið, eins og lýst er í þessari grein, við að flokka einstaka íhluti og virkja **Tölvupóstur** áfangastað fyrir nýja hópinn, þannig að innheimtubréfsseðill er sendur ásamt viðeigandi reikningum viðskiptavina sem viðhengi í tölvupósti.
+Eftirfarandi mynd sýnir ferlið, eins og lýst er í þessari grein, um flokkun einstakra hluta og virkjun á viðtökustað **Tölvupósts** fyrir nýja flokkinn þannig að athugasemd innheimtubréfs er sent ásamt viðeigandi reikningum viðskiptavinar sem tölvupóstviðhengi.
 
 [![Flokkun einstakra hluta og virkjun á viðtökustað tölvupósts.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

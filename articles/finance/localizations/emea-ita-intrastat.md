@@ -1,6 +1,6 @@
 ---
 title: Ítalskt Intrastat
-description: Þessi grein inniheldur upplýsingar um Intrastat skýrslugerð á Ítalíu.
+description: Þessi grein inniheldur upplýsingar um Intrastat-skýrslugjöf á Ítalíu.
 author: AdamTrukawka
 ms.date: 09/09/2021
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: atrukawk
 ms.search.validFrom: ''
 ms.openlocfilehash: 9e687a0353ff3bece8d6830bca9304ebb7fadc2f
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9267699"
@@ -631,7 +631,7 @@ Fylgdu þessum skrefum til að setja upp sérstaka ítalska valkosti svo að hæ
 
     Frekari upplýsingar eru í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2. Í Dynamics 365 Finance, farðu til **Skattur** > **Uppsetning** > **Viðskipti utanríkisviðskipta**.
+2. Í Dynamics 365 Finance skal fara í **Skattur** > **Uppsetning** > **Færibreytur erlendra viðskipta**.
 3. Í flipanum **Intrastat**, í flýtiflipanum **Almennt**, skal stilla eftirfarandi reiti:
 
     - **Sýsla uppruna/áfangastaðar**: Veldu sýslu fyrirtækisins. Þessi sýsla verður notuð í sendingum.
@@ -650,7 +650,7 @@ Fylgdu þessum skrefum til að setja upp sérstaka ítalska valkosti svo að hæ
 6. Í flýtiflipanum **Tölfræðilegt gildi** skal stilla valkostinn **Prenta og flytja út talnagögn** á **Já** ef nauðsyn krefur. Þessi stilling virkjar flutning tölfræðihlutans. Tölfræðihlutinn samanstendur af gögnum um þyngd, viðbótareiningar, tölfræðileg gildi, afhendingarskilmála, afhendingaráætlanir, flutningsmáta og upprunasvæði.
 
     > [!NOTE]
-    > Í ársfjórðungsyfirlýsingu mun Intrastat skýrslan ekki innihalda tölfræðihlutann eða upplýsingar um afhendingarskilmála og flutningsmáta. Fyrir frekari upplýsingar, sjá töfluna í [Yfirlit](#overview) kafla þessarar greinar.
+    > Í ársfjórðungsyfirlýsingu mun Intrastat skýrslan ekki innihalda tölfræðihlutann eða upplýsingar um afhendingarskilmála og flutningsmáta. Frekari upplýsingar er að finna í töflunni í hlutanum [Yfirlit](#overview) í þessari grein.
 
 7. Í flipanum **Eiginleikar lands/svæðis** skal gefa upp öll lönd eða svæði sem fyrirtækið þitt á í viðskiptum við. Fyrir hvert land eða svæði skal setja eftirfarandi reiti:
 

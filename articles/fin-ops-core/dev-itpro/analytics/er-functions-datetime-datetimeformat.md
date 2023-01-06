@@ -1,6 +1,6 @@
 ---
 title: DATETIMEFORMAT ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig DATETIMEFORMAT rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig DATETIMEFORMAT rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 09/08/2021
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: e21b676046b6279826a728657fcc0d2a00a38b76
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9287369"

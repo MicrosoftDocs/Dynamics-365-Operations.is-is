@@ -1,6 +1,6 @@
 ---
 title: Færibreytur fyrir endurteknar samningsgreiðslur
-description: Þessi grein útskýrir hvernig á að setja upp sjálfgefin gildi fyrir innheimtuáætlanir sem eru búnar til í Endurteknum samningsreikningum. Það útskýrir einnig hvernig stofna innheimtuáætlunarhópa.
+description: Í þessari grein er útskýrt hvernig á að setja upp sjálfgefin gildi fyrir greiðsluáætlanir sem eru búnar til í endurteknum samningsgreiðslum. Þar er einnig útskýrt hvernig greiðsluáætlunarflokkar eru búnir til.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -16,116 +16,116 @@ ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
 ms.openlocfilehash: 64d6e21c2d8c588a64f0f4cf8b7a0bafc853bcab
 ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/12/2022
 ms.locfileid: "9644004"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Færibreytur fyrir endurteknar samningsgreiðslur
 
-Nota **Endurteknar innheimtufæribreytur samnings** síðu til að setja upp sjálfgefin gildi fyrir innheimtuáætlanir sem eru búnar til í Endurteknum samningsreikningum. Allar innheimtuáætlanir sem þú býrð til munu upphaflega nota þessi sjálfgefna gildi. Hins vegar geturðu breytt gildunum fyrir hverja innheimtuáætlun eftir þörfum.
+Notaðu síðuna **Færibreytur fyrir endurteknar samningsgreiðslur** til að setja upp sjálfgefin gildi fyrir greiðsluáætlanir sem eru búnar til í endurteknum samningsgreiðslum. Allar greiðsluáætlanir sem þú útbýrð munu í upphafi nota þessi sjálfgefnu gildi. Þó er hægt að breyta gildunum fyrir hverja greiðsluáætlun eftir þörfum.
 
 ## <a name="general-tab"></a>Almennt
 
-1. Á **Endurteknar innheimtufæribreytur samnings** síðu, á **Almennt** flipa, í **Innheimtuáætlunarhópur** reit, veldu innheimtuáætlunarhóp. Fyrir upplýsingar um hvernig á að setja upp innheimtuáætlunarhópa, sjá [Innheimtuáætlunarhópar](#set-up-billing-schedule-groups) kafla síðar í þessari grein.
-2. Í **Uppsagnartegund** reit, veldu hvernig endanlegur reikningur er reiknaður út þegar innheimtuáætlun er hætt:
+1. Á síðunni **Færibreytur fyrir endurteknar samningsgreiðslur**, í flipanum **Almennt**, í reitnum **Greiðsluáætlunarflokkur**, skal velja greiðsluáætlunarflokk. Upplýsingar um hvernig á að setja upp greiðsluáætlunarflokka er að finna í hlutanum [Greiðsluáætlunarflokkar](#set-up-billing-schedule-groups) síðar í þessari grein.
+2. Í reitnum **Tegund uppsagnar** skal velja hvernig lokareikningur er reiknaður þegar greiðsluáætlun er sagt upp:
 
-    - **Stilla áætlun** - Slepptu innheimtuáætluninni á uppsagnardegi, breyttu stöðu áætlunarinnar í **Síðasta innheimta**, og stilla tilheyrandi frestunaráætlun með því að bakfæra upphæðina sem ekki þarf lengur að viðurkenna. Ef upphafsdagur innheimtu er eftir uppsagnardaginn eru reikningstímabilin sem eftir eru fjarlægð.
-    - **Reikningur eftir** – Bættu öllum upphæðum sem eftir eru í innheimtuáætluninni við uppsagnartímabilið, breyttu stöðu áætlunarinnar í **Síðasta innheimta**, og uppfærðu frestunaráætlunina. Ef upphafsdagur innheimtu er eftir uppsagnardagsetningu er heildarupphæð allra eftirstandandi innheimtutímabila bætt við innheimtutímabilið og eftirstandandi innheimtutímabil eru fjarlægð.
-    - **Engin aðlögun** – Slepptu innheimtuáætluninni á uppsagnardegi. Engar breytingar eru gerðar á innheimtuáætlun.
+    - **Laga áætlun** – Lokaðu á greiðsluáætlunina á uppsagnardeginum, breyttu stöðu áætlunar í **Síðasta reikningsfærsla** og lagaðu tengda frestunaráætlun með því að bakfæra upphæðina sem á ekki lengur að skrá. Ef upphafsdagur reiknings er á eftir lokadegi eru eftirstandandi reikningstímabil fjarlægð.
+    - **Reikningur eftir** – Bættu eftirstandandi upphæðum í greiðsluáætlunina við uppsagnartímann, breyttu stöðu áætlunarinnar í **Síðasta reikningsfærsla** og uppfærðu frestunaráætlunina. Ef upphafsdagur reiknings er eftir lokadaginn er heildarupphæð allra eftirstandandi reikningstímabila bætt við reikningstímabilið og eftirstandandi reikningstímabil fjarlægð.
+    - **Engin leiðrétting** – Segðu upp greiðsluáætluninni á uppsagnardeginum. Engar leiðréttingar eru gerðar á greiðsluáætluninni.
 
-3. Í **Einstök áætlunargerð** reit, veldu **Enginn** að tilgreina að viðskiptavinir séu takmarkaðir við eina greiðsluáætlun. Veldu **Á hvern viðskiptavin** eða **Á hvern endanotanda** að tilgreina að viðskiptavinir séu takmarkaðir við einstaka tímaáætlun.
-4. Stilltu **Samræma við mánuði** valmöguleika til **Já** til að samræma línur innheimtuáætlunar við lok mánaðar þegar innheimtuáætlun er búin til eða uppfærð. Stilltu það á **Nei** að nota stigvaxandi dagsetningar.
-5. Stilltu **Hlutfallslega hlutatímabil** valmöguleika til **Já** að úthluta innheimtufjárhæðum miðað við fjölda daga á tímabilinu. Stilltu það á **Nei** að hafa jafna upphæð á hverju reikningstímabili, óháð fjölda daga.
-6. Ef þú stillir **Hlutfallslega hlutatímabil** valmöguleika til **Já**, stilltu **Hlutfallsaðferð** sviði til **Daglega** að dreifa upphæðum eftir fjölda daga á tímabilinu. Stilltu það á **Mánaðarlega** að hafa jafna upphæð í hverjum mánuði.
-7. Tilgreindu hvort nýstofnaðar innheimtuáætlanir séu sjálfgefið í bið.
+3. Í reitnum **Gerð einkvæmrar áætlunar** skal velja **Engin** til að tilgreina að viðskiptavinir takmarkist við eina greiðsluáætlun. Veldu **Á viðskiptavin** eða **Á endanotanda** til að tilgreina að viðskiptavinir takmarkist við einkvæma áætlun.
+4. Stilltu valkostinn **Samræma við mánuð** á **Já** til að samræma upplýsingalínur greiðsluáætlunar við lok mánaðar þegar greiðsluáætlun er stofnuð eða uppfærð. Stilltu hann á **Nei** til að nota dagsetningar sem bætt er við.
+5. Stilltu valkostinn **Hlutfallsskipta hluta úr tímabilum** á **Já** til að úthluta greiðsluupphæðum út frá fjölda daga á tímabilinu. Stilltu á **Nei** til að vera með jafna upphæð á hverju reikningsfærðu tímabili burtséð frá fjölda daga.
+6. Ef valkosturinn **Hlutfallsskipta hluta úr tímabilum** er stilltur á **Já** skal stilla reitinn **Aðferð hlutfallsskiptingar** á **Daglega** til að dreifa upphæðum út frá fjölda daga á tímabilinu. Stilltu hann á **Mánaðarlega** til að vera með jafna upphæð í hverjum mánuði.
+7. Tilgreindu hvort nýlega gerðar greiðsluáætlanir séu í bið sjálfgefið.
 
     > [!NOTE]
-    > Til að fjarlægja bið á innheimtuáætlun verður notandinn að vera hluti af notendahópi. Veldu **Fjarlægja hnekkingu bið notendahóps** að setja upp notendahóp þar sem **Leyfa fjarlægja bið** valmöguleikinn er virkur.
+    > Til að fjarlægja bið á greiðsluáætlun verður notandi að vera hluti af notendaflokki. Veldu **Hnekkja notendaflokki fyrir fjarlægingu biðstöðu** til að setja upp notendaflokk þar sem valkosturinn **Leyfa að fjarlægja biðstöðu** er virkur.
 
-8. Í **Tegund reikningsfærslu** reit, veldu sjálfgefna reikningsfærslugerð fyrir nýjar innheimtuáætlanir.
-9. Stilltu **Samræma frestun við innheimtu** valmöguleika til **Já** að samræma samsvarandi frestunaráætlun þannig að hún noti sömu dagsetningar og innheimtuáætlun. Stilltu það á **Nei** að hafa mismunandi dagsetningar.
-10. Ef þú ert að nota tekjuskiptingaraðgerðina skaltu stilla **Búðu til tekjuskiptingu sjálfkrafa** valmöguleika til **Já** þegar hlutum er bætt við innheimtuáætlun. The **Tekjuskipting** gátreiturinn verður sjálfkrafa valinn á innheimtuáætlunarlínunni ef hluturinn er settur upp sem tekjuskiptur liður. Stilltu valkostinn á **Nei** ef þú vilt velja handvirkt **Tekjuskipting** gátreit.
-11. Stilltu **Viðskiptavinaskipting** valmöguleika til **Já** til að leyfa mismunandi viðskiptavinum að innheimta innheimtuáætlun. Þegar stillt er á **Já** the **Viðskiptavinaskipting** valmöguleikinn er fáanlegur á haus innheimtuáætlunar og línu fyrir innheimtuáætlun. 
-12. Stilltu reiti til að búa til sölupöntun:
+8. Í reitnum **Gerð reikningsfærslu** skal velja sjálfgefna gerð reikningsfærslu fyrir nýjar greiðsluáætlanir.
+9. Stilltu valkostinn **Samræma frestun við greiðslu** á **Já** til að samræma samsvarandi frestunaráætlun þannig að hún noti sömu dagsetningar og greiðsluáætlunin. Stillið á **Nei** til að hafa aðra daga.
+10. Ef þú notar eiginleika tekjuskiptingar skal stilla valkostinn **Stofna tekjuskiptingu sjálfkrafa** á **Já** þegar vörum er bætt við greiðsluáætlun. Gátreiturinn **Tekjuskipting** verður sjálfkrafa valinn í greiðsluáætlunarlínunni ef varan er sett upp sem vara tekjuskiptingar. Veldu valkostinn **Nei** ef á að velja á gátreitinn **Tekjuskipting** handvirkt.
+11. Stilltu valkostinn **Skipting viðskiptavinar** á **Já** til að leyfa greiðsluáætlun sé reikningsfærð á aðra viðskiptavini. Þegar hann er stilltur á **Já** er valkosturinn **Skipting viðskiptavinar** í boði í haus og línu greiðsluáætlunar. 
+12. Stilla reitina fyrir stofnun sölupantana:
 
-    - Reikningar geta verið sameinaðir eftir tímabilum, viðskiptavinum eða hlutum. Hvaða samsetning af **Já** og **Nei** hægt er að stilla gildi. Einnig er hægt að skipta reikningum eftir vöruflokkum.
-    - Eftirfarandi bókunarvalkostir eru í boði fyrir reikninga:
+    - Hægt er að sameina reikninga eftir tímabili, viðskiptavini eða vöru. Hægt er að velja hvaða samsetningu sem er af **Já** og **Nei**. Einnig er hægt að skipta reikningum eftir vöruflokkum.
+    - Eftirtaldir bókunarvalkostir eru í boði fyrir reikninga:
 
         - **Stofna sölupöntun** – Stofna aðeins sölupöntunina.
-        - **Sýna bókunarreikning** – Reiknaðu sölupöntunina og opnaðu síðu þar sem þú getur bókað reikninginn handvirkt.
-        - **Búðu til textareikning fyrir gjald** – Veldu þennan valkost ef þú ert að nota reikninga með frjálsum texta.
-        - **Bókaðu reikning sjálfkrafa** – Reiknaðu sölupöntunina og bókaðu hana sjálfkrafa.
+        - **Sýna bókun reiknings** – Reikningsfærðu sölupöntunina og opnaðu síðu þar sem hægt er að bóka reikninginn handvirkt.
+        - **Stofna textareikning með gjaldi** – Veldu þennan valkost ef reikningar með frjálsum texta eru notaðir.
+        - **Bóka reikning sjálfvirkt** – Reikningsfærðu sölupöntunina og bókaðu hana sjálfkrafa.
 
-    - Stilltu **Bættu innheimtudagsetningum við vörulýsingu** valmöguleika til **Já** til að bæta við lýsingu sem inniheldur upphafsdag og lokadag innheimtu.
-    - Stilltu **Útiloka núllneyslu** valmöguleika til **Já** að útiloka innheimtuáætlunarlínur sem hafa enga notkun. Stilltu það á **Nei** að hafa þessar línur með í sölupöntuninni.
-    - Stilltu **Ekki prenta barnavörur** valmöguleika til **Já** ef þú vilt ekki prenta undirliði tekjuskiptingar á sölupöntuninni. Aðeins yfirliðurinn mun birtast á reikningnum. Ef nettóupphæð (falinna) undirliða er summa sem er ekki núll, sýnir nettóupphæð móðurlínunnar samantekt yfir undirlínurnar. Stilltu valkostinn á **Nei** að prenta allar undirvörur fyrir neðan móðurvöruna á sölureikningnum.
+    - Veldu valkostinn **Bæta greiðsludögum við vörulýsingu** á **Já** til að bæta við lýsingu sem inniheldur upphafs- og lokadagsetningu reikningsfærslunnar.
+    - Stilltu valkostinn **Útiloka núll notkun** á **Já** til að útiloka greiðsluáætlunarlínur sem eru ekki með neina notkun. Stilltu hann á **Nei** til að hafa þessar línur í sölupöntuninni.
+    - Stilltu valkostinn **Ekki prenta undirvörur** á **Já** ef ekki á að prenta undirvörur tekjuskiptingar í sölupöntuninni. Aðeins yfirvaran mun birtast á reikningnum. Ef nettóupphæð (földu) undirvörunnar er ekki summa sem ekki er núll sýnir nettóupphæð yfirlínunnar samantekt á undirlínunum. Stilltu valkostinn á **Nei** til að prenta undirvöru fyrir neðan yfirvöruna á sölureikninginn.
 
-12. Stilltu reiti fyrir stuðning og endurnýjun:
+12. Stilla reitina fyrir stuðning og endurnýjun:
 
-    - Stilltu **Sjálfvirk stuðningur og endurnýjun** valmöguleika til **Já** til að nota sjálfkrafa stuðnings- og endurnýjunareiginleikann í sölupöntun.
-    - Í **Stuðnings- og endurnýjunarstig** reit, veldu sjálfgefið stuðnings- og endurnýjunarstig.
-    - Í **Stuðnings- og endurnýjunarmagn** reit, tilgreinið stuðnings- og endurnýjunarmagn.
-    - Í **Sjálfgefin upphafsdagur stuðnings og endurnýjunar** reit, tilgreindu dagsetninguna sem á að nota sem sjálfgefna upphafsdagsetningu fyrir stuðning og endurnýjun:
+    - Stilltu valkostinn **Virkja þjónustu og endurnýjun sjálfkrafa** á **Já** til að nota eiginleika þjónustu og endurnýjunar sjálfkrafa í sölupöntun.
+    - Í reitnum **Þjónustu- og endurnýjunarstig** skal velja sjálfgefið þjónustu- og endurnýjunarstigið.
+    - Í reitnum **Þjónust- og endurnýjunarmagn** skal tilgreina þjónustu- og endurnýjunarmagn.
+    - Í reitnum **Sjálfgefin upphafsdagsetning þjónustu og endurnýjunar** skal tilgreina dagsetninguna sem á að nota sem sjálfgefna upphafsdagsetningu fyrir þjónustu og endurnýjun:
 
-        - **Dagsetning viðskipta** – Notaðu viðskiptadagsetninguna sem upphafsdagsetningu.
-        - **Upphaf yfirstandandi mánaðar** – Notaðu þann fyrsta í núverandi mánuði sem upphafsdagsetningu.
-        - **Byrjun næsta mánaðar** – Notaðu fyrsta næsta mánaðar sem upphafsdag. Ef viðskiptadagur er sá fyrsti er sá fyrsti í núverandi mánuði notaður.
-        - **Regla 15** – Notaðu fyrsta dag þessa mánaðar sem upphafsdag ef viðskiptadagsetning er á milli fyrsta og fimmtánda mánaðar. Ef viðskiptadagsetningin er sá sextándi eða síðar, skal nota fyrsta næsta mánaðar sem upphafsdag.
+        - **Færsludagsetning** – Notaðu færsludagsetninguna sem upphafsdagsetningu.
+        - **Upphaf yfirstandandi mánaðar** – Notaðu fyrsta dag yfirstandandi mánaðar sem upphafsdagsetningu.
+        - **Byrjun næsta mánaðar** – Notaðu fyrsta dag næsta mánaðar sem upphafsdagsetningu. Ef færsludagsetningin er þann fyrst þá er fyrst núverandi mánaðar notaður.
+        - **Regla um 15** – Notaðu fyrsta núverandi mánaðar sem upphafsdagsetningu ef færsludagsetningin er milli fyrsta og fimmtánda í mánuðinum. Ef færsludagsetningin er sextándi eða síðar skal nota fyrsta næsta mánaðar sem upphafsdagsetningu.
 
-    - Stilltu **Taka afslátt með í útreikning** valmöguleika til **Já** að taka afsláttarupphæðina inn í styrktar- eða endurnýjunarupphæðina. Stilltu það á **Nei** að undanskilja afsláttarupphæðina.
-    - Í **Stuðningstíðni** og **Endurnýjunartíðni** reiti, veldu þá tíðni sem á að nota þegar stuðnings- og endurnýjunaratriðum er bætt við innheimtuáætlun: **Daglega**, **·**, **·**, **·**, eða **Árlega**.
-    - Stilltu **Samræma eftir vöruflokki** valmöguleika til **Já** til að samræma upphafs- og lokadagsetningar nýrra vara við núverandi vörur, byggt á vöruflokknum.
-    - Stilltu **Samræma við næsta óinnheimta tímabil** valmöguleika til **Já** til að ákvarða jöfnunardagsetningu endurnýjunarvöru miðað við dagsetningu næsta óinnheimtu tímabils eftir að endurnýjun hefst.
-    - Stilltu **Afritaðu raðnúmer** valmöguleika til **Já** til að afrita raðnúmer vöru úr upphaflegu sölupöntunarlínunni yfir í samsvarandi greiðsluáætlunarlínu.
+    - Stilltu valkostinn **Taka afslátt með í útreikning** á **Já** til að taka afsláttarupphæð með í upphæð þjónustu eða endurnýjunar. Stilltu það á **Nei** til að taka ekki með afsláttarupphæðina.
+    - Í reitunum **Þjónustutíðni** og **Endurnýjunartíðni** skal velja tíðnina fyrir notkun þegar þjónustu- og endurnýjunaratriðum er bætt við greiðsluáætlun: **Daglega**, **Mánaðarlega**, **Ársfjórðungslega**, **Annað hvert ár** eða **Árlega**.
+    - Stilltu valkostinn **Samræma eftir vöruflokki** á **Já** til að samræma upphafs- og lokadagsetningu nýrra vara við fyrirliggjandi vörur, samkvæmt vöruflokknum.
+    - Stilltu valkostinn **Samræma við næsta ógreidda tímabil** á **Já** til að ákvarða samræmingardagsetningu fyrir endurnýjunaratriði út frá dagsetningunni á næsta ógreidda tímabil eftir að endurnýjun hefst.
+    - Stilltu valkostinn **Afrita raðnúmer** á **Já** til að afrita raðnúmer vörunnar úr upphaflegri sölupöntunarlínu í samsvarandi greiðsluáætlunarlínu.
 
-13. Ef þú ert að nota stigmögnun á innheimtuáætluninni skaltu velja aðferðina sem er notuð við útreikning vísitölu neysluverðs.
-14. Stilltu **Fylgstu með verðbreytingum** valmöguleika til **Já** ef þú vilt skrá yfir verðbreytingar á innheimtuáætlunarlínum. Ef innheimtuáætlunarlínu er breytt handvirkt úr staðlaðri í íbúð og nýtt verð fært inn, eru endurskoðunarupplýsingar raktar á innheimtuáætlunarlínunni. Stilltu valkostinn á **Nei** ef þú vilt ekki fylgjast með þessum breytingum.
-15. Tilgreindu hvort færslur séu síaðar eftir upphafsdagsetningu eða lokadagsetningu sjálfgefið á **Búðu til reikning** síðu.
-16. Ef þú notar **Óinnheimtar tekjur** eiginleiki, tilgreindu valkostina sem eru notaðir:
+13. Ef þú notar hækkun í greiðsluáætluninni skal velja aðferðina sem er notuð fyrir útreikning á vísitölu neysluverðs.
+14. Stilltu valkostinn **Rekja verðbreytingu** á **Já** ef þú vilt fá færslu yfir verðbreytingar á greiðsluáætlunarlínum. Ef greiðsluáætlunarlína er breytt handvirkt úr hefðbundinni í flata og nýtt verð slegið inn eru upplýsingar eftirlits raktar í greiðsluáætlunarlínunni. Stilltu valkostinn á **Nei** ef ekki á að rekja þessar breytingar.
+15. Tilgreindu hvort færslur eru síaðar eftir upphafsdagsetningu eða lokadagsetningu sjálfgefið á síðunni **Búa til reikning**.
+16. Ef eiginleikinn **Óreikningsfærðar tekjur** er notaður skal tilgreina valkostina sem eru notaðir:
 
-    - Stilltu **Bókaðu almenna dagbók sjálfkrafa** valmöguleika til **Já** ef þú vilt að almenna dagbókin verði búin til og bókuð á sama tíma. Stilltu það á **Nei** ef þú vilt búa til almenna dagbók og bóka hana síðan handvirkt.
-    - Í **Sjálfgefið dagbókarheiti** reit, veldu sjálfgefið færslubókarheiti sem á að nota þegar almenna færslubókin er búin til.
-    - Í **Skammtíma óinnheimt aðferð** reit, veldu skammtíma óinnheimta aðferð, ef þú ert að nota slíka. Ef þú velur **Enginn**, skammtímavirknin verður ekki notuð með óinnheimtuðum tekjum. Veldu **Rúllutímabil** að nota alltaf 12 mánuði eða **Fast ártal** að nota það sem eftir er af reikningsárinu.
+    - Stilltu valkostinn **Bóka færslubók sjálfvirkt** á **Já** ef á að stofna og bóka færslubókina á sama tíma. Stilltu hann á **Nei** ef á að stofna færslubókina og síðan bóka hana handvirkt.
+    - Í reitnum **Sjálfgefið heiti færslubókar** skal velja sjálfgefið heiti færslubókar til að nota þegar færslubókin er stofnuð.
+    - Í reitnum **Aðferð fyrir óreikningsfært til skamms tíma** skal velja aðferð óreikningsfært til skamms tíma ef þú ert að nota slíkt. Ef þú velur **Ekkert** verður skammtímavirknin ekki notuð með óreikningsfærðum tekjum. Veldu **Hlaupandi tímabil** til að nota alltaf 12 mánuði eða **Fast ár** til að nota það sem eftir er af fjárhagsárinu.
 
-17. Tilgreindu valkostina sem eru notaðir þegar innheimtuáætlun og línum hennar er hætt:
+17. Tilgreindu valkostina sem eru notaður þegar greiðsluáætlun og línum hennar er sagt upp:
 
-    - **Gefðu út lánsfé** – Búðu til kreditnótu þegar innheimtuáætlun eða innheimtuáætlunarlínu er hætt.
-    - **Lánsfjárleiðrétting** – Búðu til inneignarleiðréttingu fyrir innheimtuáætlun þegar línu er hætt. Lánsfjárleiðréttingin birtist á framtíðarreikningstímabili fyrir innheimtuáætlunina. Lánsfjárleiðréttingin mun uppfæra reikningsupphæðina fyrir næsta reikningstímabil þar til búið er að nota inneignina á innheimtuáætlunina.
-    - **Engin inneign** – Ekki búa til kreditleiðréttingu eða inneignarnótu þegar innheimtuáætlun eða innheimtuáætlunarlínu er hætt. Þessi valkostur er aðeins í boði þegar **Engin aðlögun** valkostur er notaður til að slíta innheimtuáætlun.
-18. Þegar valmöguleikinn **Einu sinni getur hætt með endurgreiðslu** er stillt á **Nei** og innheimtuáætlun með innheimtutíðni upp á **Einu sinni**, breytist staða innheimtuáætlunarlínunnar í **Hætti** þegar innheimtuáætlun hefur verið reikningsfærð. Ekki er hægt að segja upp þessari innheimtuáætlun og ekki er hægt að gefa út inneign. Hvenær **Einu sinni getur hætt með endurgreiðslu** er stillt á **Já** innheimtuáætlunarlínan með innheimtutíðni upp á **Einu sinni** mun hafa an **Virkur** stöðu eftir að innheimtuáætlun er reikningsfærð. Hægt er að slíta innheimtuáætlunarlínunni og vinna endurgreiðslu. 
-19. The **Hlutfallslega daglega** valmöguleikinn stilltur í færibreytum mun sjálfgefið vera á fjöldauppsagnarsíðunni og haus innheimtuáætlunar og línu Ljúka. Það er hægt að breyta því í uppsagnarferlinu. Þegar stillt er á **Já** öll endurgreiðsluupphæð verður reiknuð út með dagtaxta. Þegar stillt er á **Nei** það mun lána miðað við uppsagnardag og innheimtutíðni. Til dæmis, ef þú notar mánaðarlega tíðni og innheimtuupphæðin var $100 á mánuði, er inneignarupphæðin í þrepum um $100. Ef innheimtutíðni er Einskipti er inneignarupphæðin $0.00. Þú verður að hafa hlutfallshlutfall daglega stillt á Já til að fá endurgreiðslu fyrir eingreiðslutíðni. 
-20. Sett **Búðu til frestun fyrir lánsfé** valmöguleika til **Já** að búa til nýja frestunaráætlun ef gjaldfærsla er á fyrirliggjandi frestunaráætlun. Skildu valkostinn stilltan á **Nei** til að stofna inneign á núverandi frestunaráætlun.
+    - **Gefa út kreditfærslu** – Stofna kreditnótu þegar greiðsluáætlun eða greiðsluáætlunarlínu er sagt upp.
+    - **Kreditleiðréttingar** – Búðu til kreditleiðréttingu fyrir greiðsluáætlun þegar línu er sagt upp. Kreditleiðréttingin birtist á reikningstímabilum í framtíðinni fyrir greiðsluáætlunina. Kreditleiðréttingin mun uppfæra reikningsupphæðina fyrir næsta greiðslutímabil þar til búið er að nota inneignina á greiðsluáætlunina.
+    - **Engin inneign** – Ekki stofna kreditleiðréttingu eða kreditnótu þegar greiðsluáætlun eða greiðsluáætlunarlínu er sagt upp. Þessi valkostur er aðeins í boði þegar valkosturinn **Engin leiðrétting** er notaður til að segja upp greiðsluáætlun.
+18. Þegar valkosturinn **Í eitt skipti er hægt að segja upp með endurgreiðslu** er stilltur á **Nei** og greiðsluáætlun með greiðslutíðni upp á **Eitt skipti** breytist staða greiðsluáætlunarlínunnar í **Sagt upp** þegar greiðsluáætlunin er reikningsfærð. Ekki er hægt að segja upp þessari greiðsluáætlun og engin inneign er gefin út. Þegar **Í eitt skipti er hægt að segja upp með endurgreiðslu** er stilltur á **Já** verður greiðsluáætlunarlína með greiðslutíðni upp á **Eitt skipti** með stöðuna **Virk** eftir að greiðsluáætlun er reikningsfærð. Hægt er að segja upp greiðsluáætlunarlínunni og vinna úr endurgreiðslu. 
+19. Valkosturinn **Hlutfallsskipta daglega** sem er stilltur í færibreytum fer sjálfgefið á síðu fjöldauppsagnar og uppsagnarglugga greiðsluáætlunarhauss og línu. Hægt er að breyta honum í uppsagnarferlinu. Þegar hann er stilltur á **Já** verða allar endurgreiðslupphæðir reiknaðar með daglegum daglegri tíðni. Þegar stillt er á **Nei** verður kreditfærsla samkvæmt uppsagnardagsetningu og greiðslutíðni. Ef til dæmis er notuð mánaðarleg tíðni og greiðsluupphæðin var $100 á mánuði er upphæð inneignar í $100 áföngum. Ef greiðslutíðnin er einskiptis er upphæð inneignar $0,00. Stilla verður daglega hlutfallsskiptingu á „Já“ til að fá endurgreiðslu fyrir einskiptis greiðslutíðni. 
+20. Stilltu valkostinn **Búa til frestun fyrir inneign** á **Já** til að stofna nýja frestunaráætlun ef kreditfæra á fyrirliggjandi frestunaráætlun. Skildu valkostinn eftir á **Nei** til að stofna kreditfærsluna á fyrirliggjandi frestunaráætlun.
 
-## <a name="sequence-number-tab"></a>Flipinn röð númera
+## <a name="sequence-number-tab"></a>Raðnúmersflipi
 
-Nota **Raðnúmer** flipann á **Endurteknar innheimtufæribreytur samnings** síðu til að stilla sjálfgefið gildi fyrir innheimtuáætlunarnúmer. Sjálfgefin gildi eru sett upp á **Númeraraðir** síða (**Stjórn stofnunarinnar \> Númeraraðir \> Númeraraðir**).
+Notaðu flipann **Raðnúmer** á síðunni **Færibreytur fyrir endurteknar samningsgreiðslur** til að stilla sjálfgefið gildi fyrir númer greiðsluáætlunar. Sjálfgefin gildi eru sett upp á síðunni **Númeraraðir** (**Fyrirtækisstjórnun \> Númeraraðir \> Númeraraðir**).
 
-## <a name="set-up-billing-schedule-groups"></a>Settu upp greiðsluáætlunarhópa
+## <a name="set-up-billing-schedule-groups"></a>Setja upp greiðsluáætlunarflokka
 
-Nota **Innheimtuáætlunarhópur** síðu til að búa til innheimtuáætlunarhóp fyrir endurtekna samningsreikninga. Þegar ný innheimtuáætlun er búin til og innheimtuáætlunarhópur er notaður á hana, verða gildin sem eru skilgreind á **Innheimtuáætlunarhópur** síðu eru færð inn sem sjálfgefin gildi fyrir innheimtuáætlunina. Þú getur breytt hvaða sjálfgefna gildum sem er fyrir tiltekna innheimtuáætlun sem þú býrð til. Þú getur sett upp marga innheimtuáætlunarhópa og úthlutað síðan einum þeirra sem sjálfgefinn innheimtuáætlunarhóp á **Endurteknar innheimtufæribreytur samnings** síðu.
+Notaðu síðuna **Greiðsluáætlunarflokkur** til að stofna greiðsluáætlunarflokk fyrir endurtekna samningsgreiðslu. Þegar ný greiðsluáætlun er búin til og greiðsluáætlunarflokkur er settur á hana eru gildin sem skilgreind eru á síðunni **Greiðsluáætlunarflokkur** slegin inn sem sjálfgefin gildi fyrir greiðsluáætlunina. Hægt er að breyta hvaða sjálfgefna gildi sem er fyrir tiltekna greiðsluáætlun sem er búin til. Hægt er að setja upp marga greiðsluáætlunarflokka og úthluta svo einum þeirra sem sjálfgefnum greiðsluáætlunarflokki á síðunni **Færibreytur fyrir endurteknar samningsgreiðslur**.
 
-Til að stofna innheimtuáætlunarhóp fyrir endurtekna samningsreikninga skal fylgja þessum skrefum.
+Til að búa til greiðsluáætlunarflokk fyrir endurtekna samningsgreiðslu skal fylgja þessum skrefum.
 
-1. Á **Innheimtuáætlunarhópur** síðu, veldu **Nýtt** til að búa til innheimtuáætlunarhóp.
-2. Í **Innheimtuáætlunarhópur** reit, sláðu inn einstakt auðkenni.
+1. Á síðunni **Greiðsluáætlunarflokkur** skal velja **Nýr** til að búa til nýjan greiðsluáætlunarflokk.
+2. Í reitinn **Greiðsluáætlunarflokkur** skal færa inn einkvæmt kennimerki.
 3. Í reitnum **Lýsing** skal færa inn lýsingu.
-4. Í **Innheimtutíðni** reit, tilgreinið hversu oft innheimtuáætlun er innheimt til viðskiptavinar: **Einu sinni**, **·**, **·**, **·**, **·**, eða **Árlega**.
-5. Í **Innheimtubil** reit, sláðu inn greiðslubil. Til dæmis, stilltu **Innheimtutíðni** sviði til **Mánaðarlega** og **Innheimtubil** sviði til **2** að innheimta annan hvern mánuð.
-6. Í **Verðlagningaraðferð** reit, veldu sjálfgefna verðlagningaraðferð fyrir vörur á innheimtuáætlun:
+4. Í reitnum **Greiðslutíðni** skal tilgreina hversu oft greiðsluáætlunin er send til innheimtu á viðskiptavin: **Eitt skipt**, **Daglega**, **Mánaðarlega**, **Ársfjórðungslega**, **Hálfs árs fresti** eða **Árlega**.
+5. Í reitinn **Greiðslutímabil** skal færa inn greiðslutímabil. Stilltu til dæmis reitinn **Greiðslutíðni** á **Mánaðarlega** og reitinn **Greiðslutímabil** á **2** til að innheimta annan hvern mánuð.
+6. Í reitnum **Verðlagningaraðferð** skal velja sjálfgefna verðlagningaraðferð fyrir vörur í greiðsluáætluninni:
 
-    - **Standard** – Reiknaðu einingarverðið út frá heildarmagninu sem er slegið inn og notaðu staðlaða verðlagningu frá **Útgefnar vörur** síðu í Vöruupplýsingastjórnun.
-    - **Flat** – Notaðu fast verð sem er fært inn á innheimtuáætlunarlínuna.
-    - **Tier** – Reiknaðu einingarverðið með því að nota fast magn í mismunandi verðflokkum. Fylla þarf út hvert þrep áður en farið er yfir í næsta verðflokk.
-    - **Flat Tier** – Reiknaðu einingarverðið með því að nota fast magn og lengri verðupphæðir fyrir mismunandi verðflokka. Verðið sem er innheimt á innheimtutímabili notar framlengda verðið sem samsvarar þrepinu þar sem innheimtumagnið er til.
+    - **Staðlað** – Reiknaðu einingarverðið út frá heildarmagni sem fært er inn og notaðu staðlaða verðlagningu á síðunni **Útgefnar afurðir** í afurðaupplýsingastjórnun.
+    - **Fast** – Notaðu fast verð sem er slegið inn í greiðsluáætlunarlínuna.
+    - **Lag** – Reiknaðu einingarverðið með því að nota fast magn í mismunandi verðþrepum. Fylla verður út hvert lag áður en farið er í næsta verðþrep.
+    - **Fast lag** – Reiknaðu út einingarverðið með því að nota fast magn og upphæðir reiknaðs verðs fyrir mismunandi verðþrep. Verðið sem er innheimt á greiðslutímabili notar reiknað verð sem samsvarar þrepinu þar sem greiðslumagnið er til staðar.
 
-7. Í **Tegund vöru** reit, veldu tegund vöru fyrir innheimtuhópinn:
+7. Í reitnum **Vörutegund** skal velja tegund vöru fyrir greiðsluflokkinn:
 
-    - **Standard** – Veldu þetta gildi ef magnið er óstöðugt.
-    - **Notkun** – Veldu þetta gildi fyrir mælda hluti eða neysluvörur. Ef þú velur þetta gildi skaltu stilla **Notkunarmöguleiki fyrir lestur** sviði til **Lestur** til að slá inn gildi (lestur) fyrir reikningstímabil á mæli eða tæki. Notað verðmæti verður reiknað út frá fyrra reikningstímabili og núverandi lestri sem þú slærð inn.
-    - **Áfangi** – Veldu þetta gildi til að nota innheimtuaðgerðina Milestone. Ef þú velur þetta gildi, í **Áfangasniðmát** reit, veldu áfangasniðmátið ef þú ert að nota það.
-    - **Neysla** – Veldu þetta gildi til að slá inn gildið sem er notað fyrir greiðslutímabil.
+    - **Staðlað** – Veldu þetta gildi ef magn er fast.
+    - **Notkun** – Veldu þetta gildi fyrir mældar vörur eða neysluvörur. Ef þetta gildi er valið skal stilla reitinn **Lestrarvalkostur notkunar** á **Lestur** til að slá inn gildið (lestur) fyrir greiðslutímabil á mæli eða tæki. Notað gildi verður reiknað út frá fyrra greiðslutímabili og núverandi lestri sem færður er inn.
+    - **Áfangi** – Veldu þetta gildi til að nota virkni greiðsluáfanga. Ef þetta gildi er valið í reitnum **Sniðmát áfanga** skal velja áfangasniðmátið ef slíkt er notað.
+    - **Notkun** – Veldu þetta gildi til að slá inn gildið sem er notað fyrir greiðslutímabil.
 
-8. Stilltu **Reikningur sérstaklega** valmöguleika til **Já** að búa til blöndu af samstæðureikningum og aðskildum reikningum fyrir sama viðskiptavin. Til dæmis hefur viðskiptavinur fimm innheimtuáætlanir. Þrír þeirra verða settir saman á einn reikning, en hver hinna tveggja þarf sérstakan reikning. Stilltu valkostinn á **Nei** að búa aðeins til einn samstæðureikning fyrir viðskiptavininn.
-9. Stilltu **Endurnýja sjálfkrafa** valmöguleika til **Já** til að endurnýja sjálfkrafa endurtekna innheimtuáætlun fyrir næsta innheimtutímabil þegar reikningurinn er búinn til. Stilltu það á **Nei** til að endurnýja innheimtuáætlun handvirkt. Í **Línur til að bæta við fyrir hverja endurnýjun** reit, tilgreinið hversu mörgum línum á að bæta við fyrir hverja endurnýjun.
-10. Stilltu **Stækkun** valmöguleika til **Já** að sækja um *stigmögnun* (verðhækkanir) við innheimtuáætlanir sem tengjast þessum innheimtuáætlunarhópi.
+8. Stilltu valkostinn **Reikningsfæra sérstaklega** á **Já** til að búa til samsetningu af samstæðureikningum og aðskildum reikningum fyrir sama viðskiptavininn. Til dæmis er viðskiptavinur með fimm greiðsluáætlanir. Þrjár þeirra verða sameinaðar í einn reikning, en hinar tvær þurfa aðskilda reikninga. Stilltu valkostinn á **Nei** til að búa til aðeins einn samstæðureikning fyrir viðskiptavininn.
+9. Stilltu valkostinn **Endurnýja sjálfkrafa** á **Já** til að endurnýja endurtekna greiðsluáætlun sjálfkrafa fyrir næsta greiðslutímabil þegar reikningurinn er búinn til. Stilltu hann á **Nei** til að endurnýja greiðsluáætlunina handvirkt. Í reitnum **Línur til að bæta við fyrir hverja endurnýjun** skal tilgreina hversu mörgum línum á að bæta við fyrir hverja endurnýjun.
+10. Stilltu valkostinn **Stighækkun** á **Já** til að nota *stighækkanir* (verðaukningu) á greiðsluáætlanir sem tengjast þessum greiðsluáætlunarflokki.

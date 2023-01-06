@@ -1,6 +1,6 @@
 ---
 title: Bættu nýjum reit við sniðmát viðskiptaskjala í Microsoft Excel
-description: Þessi grein veitir upplýsingar um hvernig á að bæta nýjum reitum við viðskiptaskjalasniðmát í Microsoft Excel með því að nota viðskiptaskjalastjórnunareiginleika.
+description: Í þessari grein eru upplýsingar um hvernig á að bæta nýjum reitum við sniðmát viðskiptaskjals í Microsoft Excel með því að nota stjórnunareiginleika viðskiptaskjala.
 author: kfend
 ms.date: 11/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 ms.openlocfilehash: c2d76997b2bb3f53c8341e4b747ba37631b3857d
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9285546"
@@ -28,14 +28,14 @@ ms.locfileid: "9285546"
 
 Þú getur bætt nýjum reitum við sniðmát sem er notað til að búa til viðskiptaskjöl á Microsoft Excel sniði. Þessum reitum er hægt að bæta við sem frátökurum sem eru notaðir til að fylla mynda skjöl með nauðsynlegum upplýsingum úr forritinu. Fyrir alla reiti sem þú bætir við geturðu einnig tilgreint bindingu gagnagjafa til að tilgreina hvaða forritsgögn verða færð inn í reitinn þegar sniðmátið er notað til að búa til viðskiptaskjöl.
 
-Til að læra meira um þennan eiginleika skaltu klára dæmið í þessari grein. Þetta dæmi sýnir hvernig á að uppfæra sniðmát til að fylla út reitina í skjámyndum textareikninga sem eru búnir til.
+Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í þessari grein. Þetta dæmi sýnir hvernig á að uppfæra sniðmát til að fylla út reitina í skjámyndum textareikninga sem eru búnir til.
 
 ## <a name="configure-business-document-management-to-edit-templates"></a>Skilgreina stjórnun viðskiptaskjala til að breyta sniðmátum
 
 Vegna þess að viðskiptaskjalastjórnun (BDM) er byggð ofan á rammann [Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md) verður þú að stilla nauðsynlegar færibreytur ER og BDM áður en þú getur byrjað að vinna með BDM.
 
-1.  Skráðu þig inn í dæmið um Microsoft Dynamics 365 Fjármál sem kerfisstjóri.
-2.  Ljúktu við eftirfarandi skref í dæminu í [Yfirlit yfir viðskiptaskjalastjórnun](er-business-document-management.md) grein:
+1.  Skráðu þig inn á tilvik Microsoft Dynamics 365 Finance sem kerfisstjóri.
+2.  Ljúktu við eftirfarandi skref í dæminu í greininni [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md):
 
     1.  Skilgreina færibreytur Rafræn skýrslugerðar.
     2.  Kveiktu á BDM.
@@ -150,7 +150,7 @@ Síðan BDM-sniðmátsritill birtist. Þú getur notað Microsoft 365 til að br
 4.  Undir **Textareikningur** velurðu **Upprunalegt skjal** til að tilgreina umfang reikninga til vinnslu.
 5.  Í hægri glugganum, í reitnum **Skýrslusnið**, velurðu sniðmátið **Textareikningur (Excel) Contoso** fyrir tilgreint skjalastig.
 
-    ![Frjáls textareikningur (Excel) Contoso sniðmát valið.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
+    ![Reikningur með frjálsum texta (Excel) Contoso sniðmát valið.](./media/BDM-AddFldExcel-PrintMngtSetting.png)
 
 6.  Ýttu á **Esc** til að loka núverandi síðu.
 7.  Veldu **Prenta \> Valið**.

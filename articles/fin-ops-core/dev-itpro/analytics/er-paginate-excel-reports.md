@@ -1,6 +1,6 @@
 ---
 title: Hanna snið rafrænnar skýrslugerðar til að skipta skjölum mynduðum í Excel á síður
-description: Þessi grein útskýrir hvernig á að hanna rafræna skýrslugerð (ER) sem blaðsíður myndað skjal í Microsoft Excel.
+description: Þessi grein útskýrir hvernig á að hanna snið rafrænnar skýrslugerðar sem skiptir mynduðum skjölum í Microsoft Excel á síður.
 author: kfend
 ms.date: 09/14/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner
 ms.openlocfilehash: e4a34dffda9e9b95f5d6c7ee382723663817ec6b
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9285002"
@@ -26,11 +26,11 @@ ms.locfileid: "9285002"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig notandi í hlutverki kerfisstjóra eða rafrænnar skýrslugerðar virkur ráðgjafi getur stillt [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) sniði til að búa til skjöl á útleið í Microsoft Excel og stjórna blaðsíðugerð skjala.
+Í þessari grein er útskýrt hvernig notandi í hlutverki kerfisstjóra eða í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar getur stillt snið [Rafrænnar skýrslugerðar](general-electronic-reporting.md) tila ð mynda skjöl á útleið í Microsoft Excel og stjórna síðuskiptingu skjals.
 
 Í þessu dæmi breytir þú rafrænu skýrslugerðarsniði frá Microsoft sem er notað til að prenta eftirlitsskýrsluna þegar Intrastat-skattskýrslan er [mynduð](../../../finance/localizations/tasks/eur-00002-eu-intrastat-declaration.md). Þessi skýrsla gerir þér kleift að fylgjast með tilkynntum Intrastat-færslum. Breytingarnar þínar gera þér kleift að stjórna síðuskiptingu á eftirlitsskýrslum sem eru búnar til.
 
-Verklagsreglurnar í þessari grein er hægt að ljúka í **DEMF** fyrirtæki. Ekki er þörf á neinni kóðun. Áður en hafist er handa skal sækja og vista eftirfarandi skrár.
+Hægt er að ljúka ferlunum í þessari grein í fyrirtækinu **USMF**. Ekki er þörf á neinni kóðun. Áður en hafist er handa skal sækja og vista eftirfarandi skrár.
 
 | lýsing       | Skrárnafn |
 |-------------------|-----------| 
@@ -43,7 +43,7 @@ Fylgdu skrefunum í [Skilgreina ramma rafrænnar skýrslugerðar](er-quick-start
 
 ## <a name="import-the-standard-er-format-configuration"></a>Flytja inn staðlaða skilgreiningu rafræns skýrslugerðarsniðs
 
-Fylgdu skrefunum í [Flytja inn staðlaða ER sniðstillingu](er-quick-start2-customize-report.md#ImportERSolution1) til að bæta stöðluðum ER stillingum við núverandi tilvik þitt af Dynamics 365 Finance. Flyttu inn útgáfu **1.9** af sniðsskilgreiningu **Intrastat-skýrslu**. Grunnútgáfa 1 af grunnstillingu **Intrastat-líkans** er sjálfkrafa flutt inn úr gagnageymslunni.
+Fylgdu skrefunum í [Flytja inn staðlaða skilgreiningu rafræns skýrslugerðarsniðs](er-quick-start2-customize-report.md#ImportERSolution1) til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núverandi tilvik af Dynamics 365 Finance. Flyttu inn útgáfu **1.9** af sniðsskilgreiningu **Intrastat-skýrslu**. Grunnútgáfa 1 af grunnstillingu **Intrastat-líkans** er sjálfkrafa flutt inn úr gagnageymslunni.
 
 ## <a name="customize-the-standard-er-format"></a>Sérsníða staðlað snið rafrænnar skýrslugerðar
 
@@ -58,11 +58,11 @@ Fylgdu skrefunum í [Flytja inn staðlaða ER sniðstillingu](er-quick-start2-cu
 5. Í reitnum **Heiti** skal færa inn **Intrastat-skýrsla Litware**.
 6. Veljið **Stofna skilgreiningu** til að stofna nýtt snið.
 
-Útgáfa 1.9.1 af skilgreiningu rafræns skýrslugerðarsniðs fyrir **Intrastat-skýrslu Litware** er stofnuð. Þessi útgáfa hefur stöðuna **Drög** og er hægt að breyta. Núverandi efni af sérstilltu sniði rafrænnar skýrslugerðar samsvarar efni sniðsins sem Microsoft býður upp á.
+Útgáfa 1.9.1 af skilgreiningu rafræns skýrslugerðarsniðs fyrir **Intrastat-skýrslu Litware** er stofnuð. Þessi útgáfa er með stöðuna **Drög** og er hægt að breyta. Núverandi efni af sérstilltu sniði rafrænnar skýrslugerðar samsvarar efni sniðsins sem Microsoft býður upp á.
 
 ### <a name="make-the-custom-format-runnable"></a>Gera sérstillta sniðið keyranlegt
 
-Nú þegar fyrsta útgáfa af sérstilltu sniði hefur verið stofnuð og er með stöðuna **Drög**, er hægt að prufukeyra hana. Til að keyra skýrsluna skal vinna úr greiðslu lánardrottins með því að nota greiðslumátann sem vísar til sérstillts sniðs rafrænnar skýrslugerðar. Sjálfgefið er, þegar þú hringir í ER snið úr forritinu, aðeins útgáfur sem hafa stöðuna **Lokið** eða **Deilt** koma til greina. Þessi leið hjálpar til við að koma í veg fyrir að snið rafrænnar skýrslugerðar með ókláraðri hönnun verði notuð. Fyrir prufukeyrslur er hinsvegar hægt að þvinga forritið til að nota sniðsútgáfu rafrænnar skýrslugerðar sem er með stöðuna **Drög**. Á þennan hátt er hægt að leiðrétta núverandi sniðsútgáfu ef gera þarf einhverjar breytingar. Frekari upplýsingar er að finna í [Nothæfni](electronic-reporting-destinations.md#applicability).
+Nú þegar fyrsta útgáfa af sérstilltu sniði hefur verið stofnuð og er með stöðuna **Drög**, er hægt að prufukeyra hana. Til að keyra skýrsluna skal vinna úr greiðslu lánardrottins með því að nota greiðslumátann sem vísar til sérstillts sniðs rafrænnar skýrslugerðar. Sjálfgefið er að þegar kallað er á snið rafrænnar skýrslugerðar úr forritinu, eru aðeins útgáfur sem eru með stöðuna **Lokið** eða **Samnýtt** teknar til greina. Þessi leið hjálpar til við að koma í veg fyrir að snið rafrænnar skýrslugerðar með ókláraðri hönnun verði notuð. Fyrir prufukeyrslur er hinsvegar hægt að þvinga forritið til að nota sniðsútgáfu rafrænnar skýrslugerðar sem er með stöðuna **Drög**. Á þennan hátt er hægt að leiðrétta núverandi sniðsútgáfu ef gera þarf einhverjar breytingar. Frekari upplýsingar er að finna í [Nothæfni](electronic-reporting-destinations.md#applicability).
 
 Til að nota útgáfudrög af sniði rafrænnar skýrslugerðar þarf sérstaklega að merkja rafræna skýrslugerðarsniðið.
 
@@ -165,7 +165,7 @@ Notaðu síðan sérstillt snið rafrænnar skýrslugerðar til að búa til eft
 
 ### <a name="repeat-the-replacement-of-the-current-excel-template-in-the-custom-er-format"></a>Endurtaktu skiptingu á núverandi Excel-sniðmáti í sérstilltu sniði rafrænnar skýrslugerðar
 
-1. Fylgdu skrefunum í [Skiptu um núverandi Excel sniðmát í sérsniðnu ER sniði](#replace-template) kafla þessarar greinar. Í skrefi 7 skal hinsvegar velja skrána **ERIntrastatReportDemo2.xlsx**.
+1. Fylgdu skrefunum í hlutanum [Skipta út núverandi Excel-sniðmáti í sérstilltu sniði rafrænnar skýrslugerðar](#replace-template) í þessari grein. Í skrefi 7 skal hinsvegar velja skrána **ERIntrastatReportDemo2.xlsx**.
 2. Á síðunni **Sniðshönnuður** skal stækka **Intrastat**.
 3. Gefðu upp sniðsþátt [Sviðs](er-fillable-excel.md#range-component) sem hefur verið bætt við breytanlegt snið rafrænnar skýrslugerðar til að samstilla skipulagið við skipulag Excel-sniðmátsins sem er notað:
 
@@ -406,7 +406,7 @@ Til að breyta sýnileikanum skal uppfæra eiginleikann **Virkjað** fyrir þæt
 
 ## <a name="generate-an-intrastat-declaration-control-report-updated"></a>Búa til Intrastat-skattskýrslu (uppfærð)
 
-1. Gakktu úr skugga um að þú sért með 24 færslur á **Intrastat-síðunni**. Endurtaktu skrefin í [Búðu til eftirlitsskýrslu fyrir Intrastat yfirlýsingu](#generate-intrastat-control-report) kafla þessarar greinar til að búa til og fara yfir eftirlitsskýrsluna.
+1. Gakktu úr skugga um að þú sért með 24 færslur á **Intrastat-síðunni**. Endurtaktu skrefin í hlutanum [Búa til eftirlitsskýrslu Intrastat-skattskýrslu](#generate-intrastat-control-report) í þessari grein til að búa til og fara yfir eftirlitsskýrsluna.
 
     Allar færslur koma fram á fyrstu síðunni. Samtölur og teljarar síðunnar jafngilda samtölum og teljurum skýrslunnar. Svið síðuhaussins er falið á fyrstu síðunni vegna þess að síðuhaus skýrslu inniheldur nú þegar dálkatitla. Síðuhaus og síðufótur eru faldir á næstu síðu vegna þess að síðan inniheldur engar færslur.
 

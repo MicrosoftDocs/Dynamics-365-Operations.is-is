@@ -1,6 +1,6 @@
 ---
 title: Stofna uppsöfnunarskemu
-description: Þessi grein útskýrir hvernig á að búa til uppsöfnunarkerfi.
+description: Í þessari grein er útskýrt hvernig á að stofna uppsöfnunarskema.
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8974eed40a60aeee5a32932ac070a870289ec20a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8858422"
@@ -24,7 +24,7 @@ ms.locfileid: "8858422"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að búa til uppsöfnunarkerfi. Þetta verkefni notar USMF-sýnifyrirtækið.
+Í þessari grein er útskýrt hvernig á að stofna uppsöfnunarskema. Þetta verkefni notar USMF-sýnifyrirtækið.
 
 1. Farðu í **skoðunarrúðuna > Kerfiseiningar > Fjárhagur > Færslubókaruppsetning > Uppsöfnunarskemu**.
 2. Veljið **Nýtt**.

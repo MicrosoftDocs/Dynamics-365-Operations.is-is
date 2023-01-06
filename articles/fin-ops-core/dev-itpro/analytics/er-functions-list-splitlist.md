@@ -1,6 +1,6 @@
 ---
 title: SPLITLIST ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig SPLITLIST rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig SPLITLIST rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 03/15/2021
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 38ac7e6c6bdf53705d1374c173422f7347253a5f
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9292527"

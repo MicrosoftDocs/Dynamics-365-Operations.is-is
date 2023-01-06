@@ -1,6 +1,6 @@
 ---
 title: Bæta við eða afrita leigusamninga (forskoðun)
-description: Þessi grein lýsir því hvernig á að búa til nýjan leigusamning með því að færa inn upplýsingar um hann í eignaleigu eða afrita upplýsingar úr núverandi leigusamningi.
+description: Þessi grein lýsir því hvernig á að stofna nýjan leigu með því að færa inn upplýsingar um hana í Eignarleiga eða afrita upplýsingar úr fyrirliggjandi leigu.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8880933"
@@ -26,7 +26,7 @@ ms.locfileid: "8880933"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að búa til leigusamning frá grunni í eignaleigu, og einnig hvernig á að búa til leigusamning með því að afrita núverandi leigusamning. Ferlið fyrir stofnun leigu frá grunni felur í sér að færa inn upplýsingar fyrir nýja leigu og búa síðan til leiguáætlun. Eftir að a.m.k. ein leiga hefur verið sett upp gæti reynst auðveldara að afrita upplýsingarnar úr fyrirliggjandi leigu og breyta þeim svo eftir því sem þörf krefur til að stofna nýja leigu.
+Þessi grein útskýrir hvernig á að stofna leigu frá grunni í Eignarleiga og einnig hvernig á að stofna leigu með því að afrita fyrirliggjandi leigu. Ferlið fyrir stofnun leigu frá grunni felur í sér að færa inn upplýsingar fyrir nýja leigu og búa síðan til leiguáætlun. Eftir að a.m.k. ein leiga hefur verið sett upp gæti reynst auðveldara að afrita upplýsingarnar úr fyrirliggjandi leigu og breyta þeim svo eftir því sem þörf krefur til að stofna nýja leigu.
 
 ## <a name="create-a-lease"></a>Búa til leigu
 
@@ -35,18 +35,18 @@ Fylgdu þessum skrefum til að búa til leigu á Eignleiga.
 1. Á síðunni **Samantekt leigu**, á aðgerðasvæðinu, skal velja **Nýr**.
 2. Færið inn leiguupplýsingar. Reitir sem eru nauðsynlegir eru með rauðan ramma.
 
-Upphafsdagur leigugreiðslunnar má ekki vera fyrr en upphafsdagur leigusamnings. Ef þú slærð inn upphafsdagsetningu leigugreiðslunnar sem er fyrr en upphafsdagsetning leigusamningsins færðu villuboð.
+Upphafsdagsetning leigugreiðslunnar má ekki koma á undan upphafsdagsetningu leigusamningsins. Ef færð er inn upphafsdagsetning fyrir leigugreiðslunni sem kemur á undan upphafsdagsetningu leigusamningsins færðu upp villuboð.
 
-Sjálfgefið er **Greiðsluupphæð sundurliðunar** valmöguleika á **Almennt** Flýtiflipi á **Upplýsingar um leigusamning** síða er stillt á **Nei** ef **Leyfa sundurliðun greiðslu** valmöguleika á **Eignaleiga færibreytur** síða er stillt á **Já**. 
+Valkosturinn **Sundurliðun greiðsluupphæðar** í flýtiflipanum **Almennt** á síðunni **Upplýsingar um leigu** er sjálfgefið stilltur á **Nei** ef valkosturinn **Leyfa sundurliðun greiðslu** á síðunni **Færibreytur fyrir útleigu eignar** er stilltur á **Nei**. 
 
-Ef **Greiðsluupphæð sundurliðunar** valkostur er stilltur á **Já**, hinn **Greiðslu upphæð** sviði á **Greiðsluáætlunarlínur** Flýtiflipi er læstur. Það verður stillt á samtals greiðsluupphæða sem færðar eru síðar í **Sundurliðun greiðsluupphæðar** vörulista.
+Ef valkosturinn **Sundurliðun greiðsluupphæðar** er stilltur á **Já** verður reitnum **Greiðsluupphæð** í flýtiflipanum **Greiðsluáætlunarlínur** læst. Hann verður settur á samtölu greiðsluupphæða sem færðar eru inn seinna í vörulistanum **Sundurliðun greiðsluupphæðar**.
 
-Veldu **Sundurliðun greiðsluupphæðar** til að opna síðu þar sem hægt er að bæta við sundurliðuðum greiðslutegundum. The **Bættu heildartölum við greiðsluupphæð** hnappur mun færa heildartölurnar í **Greiðslu upphæð** sviði.
+Veldu **Sundurliðun greiðsluupphæðar** til að opna síðu þar sem hægt er að bæta við sundurliðuðum greiðslugerðum. Hnappurinn **Bæta samtölum við greiðsluupphæð** mun færa samtölurnar í reitinn **Greiðsluupphæð**.
 
 > [!NOTE]
-> Ef þú bætir við sundurliðaðri greiðsluupphæð og velur síðan **Esc** lykli, innsláttar upphæðir verða ekki bættar við **Greiðslu upphæð** sviði á **Greiðsluáætlunarlínur** Flýtiflipi. Þess í stað verða þau geymd í **Sundurliðun greiðsluupphæðar** valmynd. Ef þú vilt að svarglugginn sýni heildarupphæðina skaltu velja **Magn** dálk, veldu og haltu inni (eða hægrismelltu) og veldu síðan **Samtals þennan dálk**. 
+> Ef bætt er við sundurliðaðri greiðsluupphæð og lykillinn **Esc** síðan valinn mun innslegnum upphæðum ekki vera bætt við reitinn **Greiðsluupphæð** í flýtiflipanum **Greiðsluáætlunarlínur**. Í staðinn verða þær geymdar í svarglugganum **Sundurliðun greiðsluupphæðar**. Ef svarglugginn á að sýna heildarupphæðina skal velja dálkinn **Upphæð**, velja og halda (eða hægrismella) og síðan velja **Samtala þessa dálks**. 
 
-The **Afritaðu línu** hnappur mun afrita sundurliðaða greiðslusundurliðun.
+Hnappurinn **Afrita línu** mun afrita sundurliðaða greiðslu.
 
 ## <a name="create-a-lease-schedule"></a>Búa til leiguáætlun
 
@@ -63,7 +63,7 @@ The **Afritaðu línu** hnappur mun afrita sundurliðaða greiðslusundurliðun.
     Greiðsluáætlun inniheldur innbætur úr **Greiðsluáætlunarlínum** á flipanum **Bæta við leigusamningi**. Enn er hægt að breyta hverri greiðsluupphæð og breytilegri greiðslu. Leiguskuldbinding er reiknuð út á grundvelli breyttrar greiðsluáætlunar.
 
     > [!NOTE]
-    > Upphafsdagur leigugreiðslu skal vera sá sami eða síðari en upphafsdagur leigusamnings. Þú færð villuboð ef upphafsdagur greiðslu er fyrr en upphafsdagsetning leigusamnings. 
+    > Upphafsdagsetning leigugreiðslunnar verður að vera sú sama eða síðari dagsetning en upphafsdagsetning fyrir leigusamninginn. Þú færð villuskilaboð ef upphafsdagur greiðslunnar er á undan upphafsdegi leigunnar. 
 
 4. Eftir að lokið er að endurskoða greiðsluáætlun skal velja **Staðfesta áætlun**. Þegar áætlunin hefur verið staðfest er ekki lengur hægt að breyta leigunni.
 

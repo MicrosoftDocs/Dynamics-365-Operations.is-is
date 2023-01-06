@@ -1,6 +1,6 @@
 ---
 title: Fartækjavinnusvæði kostnaðarstýringar
-description: Þessi grein veitir upplýsingar um kostnaðarstýrandi farsímavinnusvæði. Þetta vinnusvæði gerir kleift kostnaðarstaðar stjórnendur að skoða upplýsingar um kostnað vinnustöðvar afköst hvar og hvenær sem er.
+description: Þessi grein veitir upplýsingar um fartækjavinnusvæðið Kostnaðarstýring. Þetta vinnusvæði gerir kleift kostnaðarstaðar stjórnendur að skoða upplýsingar um kostnað vinnustöðvar afköst hvar og hvenær sem er.
 author: AndersGirke
 ms.date: 05/24/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 2d6d3fdcc0b0387a92f138b0ba7cf537f473b91a
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9069564"
@@ -27,9 +27,9 @@ ms.locfileid: "9069564"
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-Þessi grein veitir upplýsingar um **Kostnaðarstjórnun** færanlegt vinnusvæði. Þetta vinnusvæði gerir kleift kostnaðarstaðar stjórnendur að skoða upplýsingar um kostnað vinnustöðvar afköst hvar og hvenær sem er.
+Þessi grein veitir upplýsingar um fartækjavinnusvæðið **Kostnaðarstýring**. Þetta vinnusvæði gerir kleift kostnaðarstaðar stjórnendur að skoða upplýsingar um kostnað vinnustöðvar afköst hvar og hvenær sem er.
 
-Þetta farsímavinnusvæði er ætlað til notkunar með fjármála- og rekstrarforritinu (Dynamics 365).
+Þessu fartækjavinnusvæði er ætlað til að nota með farsímaforriti fjármála- og reksturs (Dynamics 365) .
 
 ## <a name="overview"></a>Yfirlit
 Fartækjavinnusvæði **kostnaðarstýringar** veitir skjótt yfirlit yfir núgildandi afköst kostnaðarstaðar með samanburði á raunverulegum kostnaði og kostnaði fjárhagsáætlunar. Hægt er að kafa niður í stöðu stakra kostnaðareininga.
@@ -76,7 +76,7 @@ Fartækjavinnusvæðið **Kostnaðarstýring** býður upp á eftirfarandi aðge
 ## <a name="prerequisites"></a>Forkröfur
 Skilyrðin eru breytileg, byggt á útgáfu Microsoft Dynamics 365 sem hefur verið sett upp fyrir fyrirtækið þitt.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>Forsendur ef þú notar Microsoft Dynamics 365 Fjármál
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>Skilyrði ef þú notar Microsoft Dynamics 365 Finance
 Ef Finance hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Kostnaðarstýring**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Skilyrði ef þú notar útgáfu 1611 með verkvangsuppfærslu 3 eða nýrri
@@ -114,7 +114,7 @@ Ef útgáfa 1611 með verkvangsuppfærslu 3 eða síðar hefur verið sett upp f
 
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
-Sæktu og settu upp fjármála- og rekstrarforritið (Dynamics 365):
+Sækið Fjármála- og rekstrarforrit (Dynamics 365) fyrir fartæki
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)

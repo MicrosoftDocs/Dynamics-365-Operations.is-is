@@ -1,6 +1,6 @@
 ---
 title: Skoða grunnstilltan hlut rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrslu
-description: Þessi grein útskýrir hvernig á að skoða uppsetta rafræna skýrslugerð (ER) íhluti til að koma í veg fyrir keyrsluvandamál sem gætu komið upp.
+description: Þessi grein útskýrir hvernig á að skoða grunnstillta íhluti rafrænnar skýrslugerðar til að koma í veg fyrir vandamál varðandi keyrsluna sem gætu komið upp.
 author: kfend
 ms.date: 09/14/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 ms.openlocfilehash: 1ca59d6c26dbcf065adb952409da30002d951f62
 ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/14/2022
 ms.locfileid: "9476855"
@@ -30,8 +30,8 @@ Sérhvert grunnstillt [rafrænt skýrslugerðar](general-electronic-reporting.md
 
 Sjálfgefið er að villuleit er sjálfkrafa notuð í eftirfarandi tilfellum fyrir grunnstillingu rafrænnar skýrslugerðar sem inniheldur fyrrnefnda hluti rafrænnar skýrslugerðar:
 
-- Þú [flytja inn](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ný útgáfa af ER uppsetningu inn í dæmið þitt af Microsoft Dynamics 365 Fjármál.
-- Þú breytir stöðu breytanlegrar ER stillingar frá **Drög** til **Lokið**.
+- Þú [flytur inn](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) nýja útgáfu af skilgreiningu rafrænnar skýrslugerðar í tilvikið þitt af Microsoft Dynamics 365 Finance.
+- Þú breytir stöðunni á breytanlegri skilgreiningu rafrænnar skýrslugerðar úr **Drög** í **Lokið**.
 - Þú [endurreiknar grunn](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) breytanlegrar skilgreiningar rafrænnar skýrslugerðar með því að nota nýja grunnútgáfu.
 
 Hægt er að keyra þessa sannvottun beint. Veljið einn af eftirfarandi valkostum og fylgið skrefunum sem eru gefin upp:
@@ -80,7 +80,7 @@ Rafræn skýrslugerð notar eftirfarandi flokka til að flokka saman eftirlit sa
 
 ## <a name="list-of-inspections"></a>Listi yfir eftirlit
 
-Eftirfarandi tafla veitir yfirlit yfir eftirlit sem rafræn skýrslugerð býður upp á. Fyrir frekari upplýsingar um þessar skoðanir, notaðu tenglana í fyrsta dálknum til að fara í viðeigandi hluta þessarar greinar. Þessir kaflar útskýra gerðir hluta sem rafræn skýrslugerð veitir eftirlit fyrir og hvernig hægt er að endurskilgreina hluti rafrænnar skýrslugerðar til að koma í veg fyrir vandamál.
+Eftirfarandi tafla veitir yfirlit yfir eftirlit sem rafræn skýrslugerð býður upp á. Frekari upplýsingar um þessi eftirlit skal nota tenglana í fyrsta dálknum til að fara í viðeigandi kafla í þessari grein. Þessir kaflar útskýra gerðir hluta sem rafræn skýrslugerð veitir eftirlit fyrir og hvernig hægt er að endurskilgreina hluti rafrænnar skýrslugerðar til að koma í veg fyrir vandamál.
 
 <table>
 <thead>
@@ -237,21 +237,21 @@ Eftirfarandi tafla veitir yfirlit yfir eftirlit sem rafræn skýrslugerð býðu
 <td>Fleiri en tveir sviðshlutar eru til staðar án endurgerðar. Vinsamlegast fjarlægðu óþarfa íhluti.</td>
 </tr>
 <tr>
-<td><a href='#i18'>Keyrsluhæfni tjáningar með ORDERBY falli</a></td>
+<td><a href='#i18'>Keyranleiki segðar með ORDERBY-aðgerð</a></td>
 <td>Keyranleiki</td>
 <td>Villa</td>
 <td>
 <p>Listasegðin í ORDERBY-aðgerðinni er ekki fyrirspurnarhæf.</p>
-<p><b>Runtime villa:</b> Flokkun er ekki studd. Staðfestið skilgreininguna til að fá frekari upplýsingar um þetta.</p>
+<p><b>Keyrsluvilla:</b> Röðun er ekki studd. Staðfestið skilgreininguna til að fá frekari upplýsingar um þetta.</p>
 </td>
 </tr>
 <tr>
-<td><a href='#i19'>Úreltur forritsgripur</a></td>
+<td><a href='#i19'>Úreltur forritsgervingur</a></td>
 <td>Heilleiki gagna</td>
 <td>Viðvörun</td>
 <td>
-<p>Frumefnið&lt; leið&gt; er merkt sem úrelt.<br>eða<br>Frumefnið&lt; leið&gt; er merkt sem úrelt með skilaboðum&lt; skilaboðatexti &gt;.</p>
-<p><b>Dæmi um keyrsluvillu:</b> flokkur'&lt; leið&gt; ' ekki fundið.</p>
+<p>Einingin &lt;slóð&gt; er merkt sem úrelt.<br>eða<br>Einingin &lt;slóð&gt; er merkt sem úrelt með skilaboðunum &lt;skilaboðatexti&gt;.</p>
+<p><b>Keyrsluvillusýni:</b> Klasi „&lt;slóð&gt;“ fannst ekki.</p>
 </td>
 </tr>
 </tbody>
@@ -383,7 +383,7 @@ Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 8. Gefið nýja faldaða reitnum **$AccNumber** heiti og skilgreinið hann þannig að hann innihaldi segðina `TRIM(Vendor.AccountNum)`.
 9. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar** og staðfestið að hægt sé að senda `FILTER(Vendor, Vendor.AccountNum="US-101")`-segðinni í gagnagjafanum **Lánardrottinn** fyrirspurn.
 
-    ![Staðfesta að hægt sé að spyrjast fyrir um tjáninguna sem hefur FILTER aðgerðina á síðunni Model mapping designer.](./media/er-components-inspections-04.gif)
+    ![Staðfestir að hægt sé að senda fyrirspurn á segðina sem er með fallið FILTER á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-04.gif)
 
 10. Takið eftir því að villa við villuleit kemur upp vegna þess að gagnagjafinn **Lánardrottinn** inniheldur faldaðan reit af gerðinni **Reiknaður reitur** sem leyfir ekki að þýða segð gagnagjafans **FilteredVendor** í beina SQL-strenginn.
 
@@ -779,7 +779,7 @@ Breytið skilgreindu sniði með því að fjarlægja bindingu fyrir sniðseinin
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Ekki tengt sniðmát
 
-Þegar sniðshlutur rafrænnar skýrslugerðar er skilgreindur [handvirkt](er-fillable-excel.md#manual-entry) til að nota sniðmát til að mynda skjal á útleið, þarf að bæta handvirkt við einingunni **Excel\\skrá**, bæta við nauðsynlegu sniðmáti sem viðhengi breytanlegs hlutar og velja það viðhengi í viðbættri einingu **Excel\\Skrá**. Á þennan hátt er gefið til kynna að viðbætt eining muni fylla út valið sniðmát við keyrslu. Þegar þú stillir útgáfu sniðhluta í **Drög** stöðu gætirðu bætt nokkrum sniðmátum við breytanlega íhlutinn og síðan valið hvert sniðmát í **Excel\\ Skrá** frumefni til að keyra ER sniðið. Á þennan hátt er hægt að sjá hvernig mismunandi sniðmát eru fyllt út við keyrslu. Ef þú ert með sniðmát sem ekki eru valin í neinni einingu **Excel\\Skrá**, sendir sniðshönnuður rafrænnar skýrslugerðar viðvörun um að þessum sniðmátum verði eytt úr útgáfu breytanlegs sniðshlutar rafrænnar skýrslugerðar þegar stöðunni er breytt úr **Drög** í **Lokið**.
+Þegar sniðshlutur rafrænnar skýrslugerðar er skilgreindur [handvirkt](er-fillable-excel.md#manual-entry) til að nota sniðmát til að mynda skjal á útleið, þarf að bæta handvirkt við einingunni **Excel\\skrá**, bæta við nauðsynlegu sniðmáti sem viðhengi breytanlegs hlutar og velja það viðhengi í viðbættri einingu **Excel\\Skrá**. Á þennan hátt er gefið til kynna að viðbætt eining muni fylla út valið sniðmát við keyrslu. Þegar útgáfa sniðshlutar er skilgreind í **Drög** stöðunni, gætir þú viljað bæta nokkrum sniðmátum við breytanlegan hlut og velja síðan hvert sniðmát í einingunni **Excel\\Skrá** til að keyra rafrænt skýrslugerðarsnið. Á þennan hátt er hægt að sjá hvernig mismunandi sniðmát eru fyllt út við keyrslu. Ef þú ert með sniðmát sem ekki eru valin í neinni einingu **Excel\\Skrá**, sendir sniðshönnuður rafrænnar skýrslugerðar viðvörun um að þessum sniðmátum verði eytt úr útgáfu breytanlegs sniðshlutar rafrænnar skýrslugerðar þegar stöðunni er breytt úr **Drög** í **Lokið**.
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
@@ -911,32 +911,32 @@ Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
 
 Breyttu stilltu sniði með því að breyta eiginleikanum **Eftirlíkingarátt** fyrir alla íhluti **Excel\\Sviðs** þar sem er ósamræmi.
 
-## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a> Keyrsluhæfni tjáningar með ORDERBY falli
+## <a name="executability-of-an-expression-with-orderby-function"></a><a id="i18"></a>Keyranleiki segðar með ORDERBY-aðgerð
 
-Hið innbyggða [RAÐA EFTIR](er-functions-list-orderby.md) ER aðgerð er notuð til að flokka færslur ER gagnagjafa **[Met listi](er-formula-supported-data-types-composite.md#record-list)** gerð sem er tilgreind sem rök fallsins.
+Innbyggða aðgerðin [ORDERBY](er-functions-list-orderby.md) í rafrænni skýrslugerð er notuð til að raða færslum fyrir gagnagjafa rafrænnar skýrslugerðar af gerðinni **[Færslulisti](er-formula-supported-data-types-composite.md#record-list)** sem er tilgreindur sem frumbreyta aðgerðarinnar.
 
-Rök um`ORDERBY` virkni getur verið [tilgreint](er-functions-list-orderby.md#syntax-2) til að flokka skrár yfir forritatöflur, skoðanir eða gagnaeiningar með því að hringja í eitt gagnagrunnssímtal til að fá flokkuð gögn sem lista yfir skrár. Gagnagjafi í **Met listi** gerð er notuð sem rök fyrir fallinu og tilgreinir forritsuppsprettu símtalsins.
+Frumbreytur fyrir `ORDERBY` aðgerðina er hægt að [tilgreina](er-functions-list-orderby.md#syntax-2) til að raða færslum fyrir töflur, yfirlit eða gagnaeiningar forrits með einu kalli á gagnagrunn til að fá röðuð gögn sem lista yfir færslur. Gagnagjafi af gerðinni **Færslulisti** er notaður sem frumbreyta þessarar aðgerðar og tilgreinir upprunastað forrits fyrir kallið.
 
-ER athugar hvort hægt sé að koma á beinni gagnagrunnsfyrirspurn til gagnagjafa sem vísað er til í`ORDERBY` virka. Ef ekki er hægt að koma á fót beinni fyrirspurn kemur upp villa við villuleit í hönnuði líkanavörpunar rafrænnar skýrslugerðar. Skilaboðin sem birtast gefa til kynna að segð rafrænnar skýrslugerðar sem inniheldur `ORDERBY`-aðgerðina sé ekki hægt að keyra við keyrslu.
+Rafræn skýrslugerð athugar hvort hægt sé að koma á beinni gagnagrunnsfyrirspurn til gagnagjafa sem vísað er til í `ORDERBY`-aðgerðinni. Ef ekki er hægt að koma á fót beinni fyrirspurn kemur upp villa við villuleit í hönnuði líkanavörpunar rafrænnar skýrslugerðar. Skilaboðin sem birtast gefa til kynna að segð rafrænnar skýrslugerðar sem inniheldur `ORDERBY`-aðgerðina sé ekki hægt að keyra við keyrslu.
 
 Eftirfarandi skref sýna hvernig þetta vandamál kann að koma upp
 
 1. Byrjið að skilgreina íhlut líkanavörpunar rafrænnar skýrslugerðar.
 2. Bætið við gagnagjafa af gerðinni **Dynamics 365 for Operations \\ Töflufærslur**.
-3. Heiti nýja gagnagjafans **Lánardrottinn**. Í **Tafla** reit, veldu **VendTable** til að tilgreina að þessi gagnagjafi muni biðja um **VendTable** borð.
+3. Heiti nýja gagnagjafans **Lánardrottinn**. Í reitnum **Tafla** skal velja **VendTable** til að tilgreina að þessi gagnagjafi biðji um **VendTable**-töfluna.
 4. Bætið við gagnagjafa af gerðinni **Reiknaður reitur**.
-5. Nefndu nýja gagnagjafann **Pantaðir söluaðilar**, og stilltu það þannig að það innihaldi tjáninguna `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
+5. Gefið nýja gagnagjafanum heitið **OrderedVendors** og skilgreinið hann þannig að hann innihaldi segðina `ORDERBY("Query", Vendor, Vendor.AccountNum)`.
  
-    ![Gagnauppsprettur stillt á síðunni Hönnuður líkanakortlagningar.](./media/er-components-inspections-18-1.png)
+    ![Skilgreining gagnagjafa á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-18-1.png)
 
-6. Veldu **Staðfesta** til að skoða breytanlega líkanakortlagningarhlutann á **Módelkortahönnuður** síðu og staðfestið að tjáningin í **Pantaðir söluaðilar** hægt er að spyrjast fyrir um gagnagjafa.
+6. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar** og staðfestið að hægt sé að senda -segðinni í gagnagjafanum **OrderedVendors** fyrirspurn.
 7. Breytið gagnagjafanum **Lánardrottinn** með því að bæta við földuðum reit af gerðinni **Reiknaður reitur** til að fá stytt númer lánardrottnalykils.
 8. Gefið nýja faldaða reitnum **$AccNumber** heiti og skilgreinið hann þannig að hann innihaldi segðina `TRIM(Vendor.AccountNum)`.
-9. Veldu **Staðfesta** til að skoða breytanlega líkanakortlagningarhlutann á **Módelkortahönnuður** síðu og staðfestið að tjáningin í **Seljandi** hægt er að spyrjast fyrir um gagnagjafa.
+9. Veljið **Villuleita** til að skoða breytanlegan íhlut líkanavörpunar á síðunni **Hönnuður líkanavörpunar** og staðfestið að hægt sé að senda -segðinni í gagnagjafanum **Lánardrottinn** fyrirspurn.
 
-    ![Staðfesta að hægt sé að spyrjast fyrir um tjáninguna í gagnagjafa lánardrottins á síðunni Hönnuður líkanavörpunar.](./media/er-components-inspections-18-2.png)
+    ![Staðfestir að hægt sé að senda fyrirspurn á segðina í gagnagjafanum Lánardrottinn á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-18-2.png)
 
-10. Taktu eftir að staðfestingarvilla kemur upp vegna þess að **Seljandi** gagnagjafi inniheldur hreiður reit af **Reiknaður reitur** gerð sem leyfir ekki tjáningu á **Pantaðir söluaðilar** gagnagjafi sem á að þýða yfir í beina gagnagrunnsyfirlýsingu. Sama villa kemur upp á keyrslutíma ef þú hunsar staðfestingarvilluna og velur **Hlaupa** til að keyra þessa líkanakortlagningu.
+10. Takið eftir því að villa við villuleit kemur upp vegna þess að gagnagjafinn **Lánardrottinn** inniheldur faldaðan reit af gerðinni **Reiknaður reitur** sem leyfir ekki að þýða segð gagnagjafans **OrderedVendors** í beina gagnagrunnsstrenginn. Sama villa kemur upp við keyrslu ef þú hunsar staðfestingarvilluna og velur **Keyra** til að keyra þessa líkanavörpun.
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -946,33 +946,33 @@ Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
 
 #### <a name="option-1"></a>Valkostur 1
 
-Í stað þess að bæta við hreiðri reit af **Reiknaður reitur** slá inn á **Seljandi** gagnagjafa, bættu við **$AccNumber** hreiður reit til **Filtered Vendors** gagnagjafa og stilla reitinn þannig að hann innihaldi tjáninguna `TRIM(FilteredVendor.AccountNum)`. Á þennan hátt er`ORDERBY("Query", Vendor, Vendor.AccountNum)` tjáningu er hægt að keyra á gagnagrunnsstigi og útreikning á **$AccNumber** hreiður reit er hægt að gera eftir.
+Í stað þess að bæta földuðum reit af gerðinni **Reiknaður reitur** við gagnagjafann **Lánardrottinn** skal bæta faldaða reitnum **$AccNumber** við gagnagjafann **FilteredVendors** og skilgreina hann í reitnum þannig að hann innihaldi segðina `TRIM(FilteredVendor.AccountNum)`. Á þennan hátt er hægt að keyra segðina `ORDERBY("Query", Vendor, Vendor.AccountNum)` á gagnagrunnsstigi og reikna faldaða reitinn **$AccNumber** eftir á.
 
 #### <a name="option-2"></a>Valkostur 2
 
-Breyttu tjáningu á **Filtered Vendors** gagnagjafa frá`ORDERBY("Query", Vendor, Vendor.AccountNum)` til `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Við mælum ekki með því að þú breytir tjáningu fyrir töflu sem hefur mikið magn af gögnum (viðskiptatafla), því allar færslur verða sóttar og röðun nauðsynlegra gagna verður gerð í minni. Þess vegna getur þessi nálgun valdið slökum afköstum.
+Breytið segðinni á gagnagjafa **FilteredVendors** úr `ORDERBY("Query", Vendor, Vendor.AccountNum)` í `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Ekki er mælt með því að breyta segð fyrir töflu sem er með mikið gagnamagn (færslutafla) vegna þess að allar færslur verða sóttar og röð á nauðsynlegum færslum verður gert í minni. Þess vegna getur þessi nálgun valdið slökum afköstum.
 
-## <a name="obsolete-application-artifact"></a><a id="i19"></a> Úreltur forritsgripur
+## <a name="obsolete-application-artifact"></a><a id="i19"></a>Úreltur forritsgervingur
 
-Þegar þú hannar ER líkan kortlagningarhluta eða ER snið íhlut, getur þú stillt ER tjáningu til að kalla á forritsgrip í ER, svo sem gagnagrunnstöflu, aðferð fyrir flokk o.s.frv. Í Finance útgáfu 10.0.30 og síðar, getur þú þvingað ER til að vara þig við því að umræddur forritsgripur sé merktur í frumkóða sem úreltur. Þessi viðvörun getur verið gagnleg vegna þess að venjulega eru úreltir gripir að lokum fjarlægðir úr frumkóðanum. Að vera upplýstur um stöðu grips getur komið í veg fyrir að þú notir úrelta gripinn í breytanlega ER íhlutnum áður en hann er fjarlægður úr frumkóðanum, sem hjálpar til við að koma í veg fyrir villur við að hringja í forritagripi sem ekki eru til frá ER íhlut á keyrslutíma.
+Þegar þú hannar þátt líkanavörpunar fyrir rafræna skýrslugerð eða sniðsþátt rafrænnar skýrslugerðar geturðu skilgreint segð rafrænnar skýrslugerðar til að kalla á gerving gagnagrunns í rafrænni skýrslugerð, t.d. gagnagrunnstöflu, aðferð klasa o.s.frv. Í útgáfu 10.0.30 og síðar af Finance er hægt að þvinga rafræna skýrslugerð til að vara þig við að gervingur forrits sem vísað er í sé merktur í frumkóðanum sem úreltur. Þessi viðvörun getur verið gagnleg vegna þess að yfirleitt eru úreltir gervingar að lokum fjarlægðir úr frumkóðanum. Að fá upplýsingar um stöðu gervings getur stöðvað þig í að nota úreltan gerving í breytanlegum þætti rafrænnar skýrslugerðar áður en hann er fjarlægður úr frumkóðanum, sem hjálpar til við að koma í veg fyrir villur við að kalla á gervinga sem eru ekki til í forriti úr þætti rafrænnar skýrslugerðar við keyrslu.
 
-Virkjaðu **Staðfesta úrelta þætti rafrænna skýrslugagnagagna** eiginleiki í **Eiginleikastjórnun** vinnusvæði til að byrja að meta úreltan eiginleika forritsgripa við skoðun á breytanlegum ER íhlut. Úrelta eigindin er sem stendur metin fyrir eftirfarandi gerðir af forritagripum:
+Virkjaðu eiginleikann **Villuleita úreltar einingar í gagnagjöfum rafrænnar skýrslugerðar** á vinnusvæðinu **Eiginleikastjórnun** til að byrja að meta úreltan eiginleika fyrir gervinga forrits við skoðun á breytanlegum þætti rafræns skýrslugerðarsniðs. Úreltur eiginleiki er metinn fyrir eftirfarandi gerðir af gervingum forrits:
 
 - Gagnagrunnstafla
-    - Reitur borðs
-    - Aðferð við töflu
-- Umsóknarflokkur
-    - Aðferð flokks
+    - Töflureitur
+    - Töfluaðferð
+- Forritaklasi
+    - Klasaaðferð
 
 > [!NOTE]
-> Viðvörun kemur fram við skoðun á breytanlega ER íhlutnum fyrir gagnagjafa sem vísar aðeins til úrelts grips þegar þessi gagnagjafi er notaður í að minnsta kosti einni bindingu þessa ER íhlut.
+> Viðvörun birtist við skoðun á breytanlega hluta rafrænnar skýrslugerðar fyrir gagnagjafa sem vísar aðeins til úrelts gervings þegar þessi gagnagjafi er notaður í að minnsta kosti einni tengingu þessa hlutar rafrænnar skýrslugerðar.
 
 > [!TIP]
-> Þegar [SysObsoleteAttribute](../dev-ref/xpp-attribute-classes.md#sysobsoleteattribute) flokkur er notaður til að tilkynna þýðanda um að gefa út viðvörunarskilaboð í stað villna, skoðunarviðvörunin sýnir tilgreinda viðvörun í frumkóða við hönnunartíma í **Upplýsingar** Flýtiflipi á **Módelkortahönnuður** eða **Sniðhönnuður** síðu.
+> Þegar klasinn [SysObsoleteAttribute](../dev-ref/xpp-attribute-classes.md#sysobsoleteattribute) er notaður til að tilkynna þýðandanum um að senda út viðvörunarboð í stað villu mun viðvörun skoðunar sýna í viðvörun frumkóða á hönnunartíma í flýtiflipanum **Upplýsingar** á síðunni **Hönnuður líkanavörpunar** eða **Sniðshönnuður**.
 
-Eftirfarandi mynd sýnir staðfestingarviðvörunina sem á sér stað þegar úrelt`DEL_Email` sviði á`CompanyInfo` forritstafla er bundin við gagnalíkansvið með því að nota stillt`company` gagnagjafa.
+Eftirfarandi mynd sýnir viðvörun villuleitar sem kemur upp þegar úreltur `DEL_Email` reitur í `CompanyInfo` forritstöflunni er bundinn við reit gagnalíkans með því að nota skilgreindan `company` gagnagjafa.
 
-![Skoðaðu staðfestingarviðvaranirnar á flýtiflipanum Upplýsingar á síðunni Hönnuður líkanakorta.](./media/er-components-inspections-19a.png)
+![Farðu yfir viðvaranir vegna villuleitar í flýtiflipa upplýsinga á hönnunarsíðu líkanavörpunar.](./media/er-components-inspections-19a.png)
 
 ### <a name="automatic-resolution"></a>Sjálfvirk lausn
 
@@ -980,7 +980,7 @@ Enginn valkostur til að lagfæra vandamálið sjálfkrafa er tiltækur.
 
 ### <a name="manual-resolution"></a>Handvirk lausn
 
-Breyttu stilltri líkanavörpun eða sniði með því að fjarlægja allar bindingar við gagnagjafa sem vísar í úreltan forritsgrip.
+Breyttu skilgreindri líkanavörpun eða sniði með því að fjarlægja allar bindingar við gagnagjafa sem vísar í úreltan gerving forrits.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

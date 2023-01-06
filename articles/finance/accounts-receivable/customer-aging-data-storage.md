@@ -1,6 +1,6 @@
 ---
 title: Geymsla aldursgreiningargagna viðskiptavinar
-description: Þessi grein lýsir ferlinu við að nota ytri geymslu fyrir öldrunargögn viðskiptavina. Þú getur keyrt ferli öldrunargagnageymslu viðskiptavinar til að gera úttakið aðgengilegt til útflutnings á ytra kerfi.
+description: Þessi grein lýsir ferlinu við að nota ytri geymslu fyrir aldursgreiningargögn viðskiptavinar. Hægt er að keyra geymsluferli aldursgreiningargagna viðskiptavinar til gera úttakið tiltækt fyrir útflutning í ytra kerfi.
 author: JodiChristiansen
 ms.date: 10/27/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d7a66485cc9a538f5c3999009b6dbe295d7a5b9f
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8894143"
@@ -26,38 +26,38 @@ ms.locfileid: "8894143"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir ferlinu við að nota ytri geymslu fyrir öldrunargögn viðskiptavina. Í Microsoft Dynamics 365 Fjármál, þú getur keyrt **Gagnageymsla viðskiptavina sem eldist** ferli til að gera úttakið aðgengilegt til útflutnings í ytra kerfi. Þegar þú keyrir ferlið eru sömu öldrunarskýrsluvalkostir sem eru tiltækir í kerfinu í boði fyrir ytri kerfi. Upplýsingarnar eru alltaf innifaldar í útfluttu gögnunum.
+Þessi grein lýsir ferlinu við að nota ytri geymslu fyrir aldursgreiningargögn viðskiptavinar. Í Microsoft Dynamics 365 Finance er hægt að keyra ferlið **Geymsla aldursgreiningargagna viðskiptavinar** til að gera úttakið tiltækt fyrir útflutning í ytra kerfi. Þegar ferlið er keyrt eru sömu valkostir aldursgreiningarskýrslu og eru í boði í kerfinu í boði í ytri kerfum. Upplýsingarnar eru alltaf í útfluttu gögnunum.
 
-Það getur verið gagnlegt að gera öldrunargögn viðskiptavina aðgengileg ytra kerfi til geymslu í þeim tilvikum þar sem úttakið inniheldur marga viðskiptavini og/eða margar færslur. Ef núverandi **Öldrun viðskiptavina** Tímamörk skýrslunnar eru vegna þess að hún hefur of mikið af gögnum til að prenta, þessi eiginleiki býður upp á aðra leið til að fá sömu gögnin.
+Það getur verið gagnlegt að gera aldursgreiningargögn viðskiptavinar aðgengileg ytra kerfi fyrir geymslu í tilfellum þar sem úttakið inniheldur marga viðskiptavini og/eða margar færslur. Ef fyrirliggjandi skýrsla um **aldursgreiningu viðskiptavinar** rennur út á tíma eru of mörg gögn í henni til að prenta, þessi eiginleiki býður upp á aðra leið til að ná í sömu gögnin.
 
-## <a name="enable-the-customer-aging-data-storage-feature"></a>Virkjaðu eiginleikann Geymslugagnageymslu öldrunar viðskiptavina
+## <a name="enable-the-customer-aging-data-storage-feature"></a>Virkja eiginleika fyrir geymslu aldursgreiningargagna viðskiptavinar
 
-Áður en þú getur notað þennan eiginleika þarftu að virkja hann í kerfinu þínu. Stjórnendur geta notað eiginleikastjórnunarstillingarnar til að athuga stöðu eiginleikans og virkja hann ef þess er krafist. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+Áður en hægt er að nota þennan eiginleika þarf að virkja hann í kerfinu. Stjórnendur geta notað stillingar eiginleikastjórnunar til að athuga stöðu eiginleikans og virkja hann ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
 
-- **Eining:** Inneign og innheimtur
-- **Eiginleikaheiti:** Gagnageymsla viðskiptavina sem eldist
+- **Eining:** Geymsla aldursgreiningargagna viðskiptavinar
+- **Heiti eiginleika:** Geymsla aldursgreiningargagna viðskiptavinar
 
-## <a name="run-the-customer-aging-data-storage-process"></a>Keyrðu ferli öldrunargagnageymslu viðskiptavinar
+## <a name="run-the-customer-aging-data-storage-process"></a>Keyra geymsluferli aldursgreiningargagna viðskiptavinar
 
-1. Fara til **Inneign og innheimtur \> Fyrirspurnir og skýrslur \> Viðskiptavinur \> Gagnageymsla viðskiptavina sem eldist**.
+1. Farðu í **Skuldir og innheimta \> Fyrirspurnir og skýrslur \> Viðskiptavinur \> Geymsla aldursgreiningargagna viðskiptavinar**.
 2. Veljið **Nýtt**.
-3. Í **Nafn** reit, sláðu inn nafn fyrir ferlið.
-4. Stilltu færibreyturnar sem eftir eru eins og þú þarfnast.
+3. Í **Heiti** reitinn skal slá inn heiti fyrir ferlið.
+4. Stilltu þær breytur sem eftir eru eins og þú þarft.
 
     > [!NOTE]
-    > Færsluupplýsingar eru alltaf innifaldar og vinnslan fer alltaf fram í lotuvinnu.
+    > Færsluupplýsingar fylgja alltaf með og úrvinnslan fer alltaf fram í runuvinnslu.
 
 5. Veldu **Í lagi**.
-6. Endurnýjaðu **Gagnageymsla viðskiptavina sem eldist** síðu til að sjá **Nafn lotu** og **Lotu keyrslutími** gildi sem eru sýnd ásamt **Vinnslustaða** gildi. Þegar lotuvinnunni er lokið, er **Vinnslustaða** reiturinn er stilltur á **Lokað** og **Fjöldi öldrunarlína** reiturinn er stilltur. Ef lotuvinnan er endurtekin, er **Vinnslustaða** reiturinn er stilltur á **Að bíða**.
-7. Veldu **Sía** hnappinn við hliðina á **Fjöldi öldrunarlína** reitinn til að skoða síurnar sem hefur verið bætt við fyrir runuvinnuna.
+6. Uppfærðu síðuna **Geymsla aldursgreiningargagna viðskiptavinar** til að sjá gildin fyrir **Heiti runu** og **Keyrslutími runu** sem eru sýnd saman með gildinu **Vinnslustaða**. Þegar runuvinnslunni er lokið er reiturinn **Vinnslustaða** stilltur á **Lokið** og reiturinn **Fjöldi aldursgreiningarlína** er stilltur. Ef runuvinnslan er endurtekin er reiturinn **Vinnslustaða** stilltur á **Í bið**.
+7. Veldu hnappinn **Sía** við hliðina á reitnum **Fjöldi aldursgreiningarlína** til að fara yfir síurnar sem hefur verið bætt við fyrir runuvinnsluna.
 
-The **Gagnageymsla viðskiptavina sem eldist** síða inniheldur ekki niðurstöðurnar. Hins vegar er **Gagnageymsla viðskiptavina sem eldist** gagnaeining gerir þér kleift að flytja úttakið út á hvaða snið sem gagnastjórnun styður.
+Síðan **Geymsla aldursgreiningargagna viðskiptavinar** inniheldur ekki niðurstöðurnar. Gagnaeiningin **Geymsla aldursgreiningargagna viðskiptavinar** gerir þér hins vegar kleift að flytja út úttakið á hvaða sniðið sem er sem gagnastjórnun styður.
 
 > [!NOTE]
-> Áður en þú gerir útflutning skaltu bæta við síu til að takmarka útfluttar niðurstöður við nýjustu öldrun. Bættu til dæmis við eftirfarandi forsendum til að skila nýjustu runukeyrslunni:
+> Áður en þú flytur út skaltu bæta við síu til að takmarka útfluttar niðurstöður við nýjustu aldursgreininguna. Bættu við til dæmis eftirfarandi skilyrði til að skila nýlegustu runukeyrslunni:
 >
-> (CustAgingDataStorageSysQueryRangeUtil:: getLatestBatchName())
+> (CustAgingDataStorageSysQueryRangeUtil::getLatestBatchName())
 >
-> Að öðrum kosti skaltu bæta við eftirfarandi forsendum til að skila nýjustu runu keyrslu fyrir núverandi notanda:
+> Annars er hægt að bæta við eftirfarandi skilyrði til að skila nýlegustu runukeyrslunni fyrir núverandi notanda:
 >
-> (CustAgingDataStorageSysQueryRangeUtil:: getLatestBatchNameForCurrentUser())
+> (CustAgingDataStorageSysQueryRangeUtil::getLatestBatchNameForCurrentUser())

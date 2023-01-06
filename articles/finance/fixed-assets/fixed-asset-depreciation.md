@@ -1,6 +1,6 @@
 ---
 title: Afskriftir eigna
-description: Þessi grein veitir yfirlit yfir afskriftir í fastafjármunum.
+description: Þessi grein veitir yfirlit yfir afskriftir í eignum.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.form: AssetBonus, AssetBookTable
 ms.openlocfilehash: 9761fc9846324d1c165274b72033e195bf4ea3e0
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9275296"
@@ -27,11 +27,11 @@ ms.locfileid: "9275296"
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þessi grein veitir yfirlit yfir afskriftir í fastafjármunum.
+Þessi grein veitir yfirlit yfir afskriftir í eignum.
 
 Afskriftir eru tímabilsfærsla sem vanalega minnkar virði eigna í efnahagslykli og er gjaldfærð á rekstrarlykla sem útgjöld. Þess vegna er aðallykil yfirleitt notaður til að kreditfæra reglubundnar afskriftir í efnahagslykli. Mótlykill er lykill í hagnaðar- og taphluta bókhaldslykilsins.
 
-Frá og með útgáfu 10.0.24 er **Reiknaðu jákvæðar afskriftir** stillingarvalkostur eignabókar á **Bækur** síða gerir afskriftir kleift að skuldfæra fasta eign sem er keypt með neikvæðu bókfærðu virði (inneign).
+Frá og með útgáfu 10.0.24 gerir valkosturinn fyrir stillingu eignabókar **Reikna jákvæða afskrift** á **Bækur** kleift að afskrifa eign á debet sem er yfirtekin með neikvæðu bókfærðu virði (kredit).
 
 ## <a name="depreciation-adjustment"></a>Leiðrétting afskriftar
 Yfirleitt er einungis leiðrétting á bókaðri afskriftafærslu bókuð sem afskriftaleiðrétting. Þess vegna eru bæði aðallykill og mótlykill settir upp á sama hátt og lyklar afskrifta. Leiðrétting afskriftar getur annaðhvort verið jákvæð upphæð eða neikvæð upphæð en aðgerðir aðallykils (sem efnahagslykill) og virkni mótlykils (yfirleitt sem rekstrarlykill) eru enn þær sömu.

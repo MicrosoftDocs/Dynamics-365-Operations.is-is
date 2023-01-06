@@ -1,6 +1,6 @@
 ---
 title: Grunnstilla ER-snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila
-description: Þessi grein útskýrir hvernig þú getur stillt rafræn skýrslugerð (ER) snið til að nota færibreytur sem eru tilgreindar fyrir hverja lögaðila.
+description: Þessi grein útskýrir hvernig á að skilgreina snið rafrænnar skýrslugerðar til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila
 author: kfend
 ms.date: 04/02/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 ms.openlocfilehash: b81c9c8fd1639b9af53c8e15a041c00db8c19752
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9292677"
@@ -33,17 +33,17 @@ ms.locfileid: "9292677"
 -   Því fleiri sem lögaðilar eru, því meira verður að viðhalda skilgreiningum á ER sniði.
 -   Viðhald ER stillinga krefst þess að notendur fyrirtækja hafi ER þekkingu.
 
-Sértækar færibreytur fyrir ER-aðgerðir láta rafmagnsnotendur stilla gagnasíun á ER sniði þannig að hún byggist á mengi óhlutbundinna reglna. Hægt er að stilla þetta reglumengi til að nota gagnagjafana sem eru til á ER sniði. Notendur fyrirtækja geta síðan tilgreint raunverulegar reglur umfram ER ramma með því að nota notendaviðmótið (UI) sem er sjálfkrafa myndað út frá stillingum á samsvarandi ER sniði og núverandi lögaðilagögnum sem gagnagjafar ER sniðsins munu hafa aðgang að. Reglnasettið sem er tilgreint fyrir ER-snið er hægt að flytja út úr núverandi lögaðila Dynamics 365 Finance (Finance) tilviksins. Það er síðan hægt að flytja það inn í annan lögaðila annaðhvort sama tilviks Finance eða annars tilviks sem reglumengi fyrir sama ER snið.
+Sértækar færibreytur fyrir ER-aðgerðir láta rafmagnsnotendur stilla gagnasíun á ER sniði þannig að hún byggist á mengi óhlutbundinna reglna. Hægt er að stilla þetta reglumengi til að nota gagnagjafana sem eru til á ER sniði. Notendur fyrirtækja geta síðan tilgreint raunverulegar reglur umfram ER ramma með því að nota notendaviðmótið (UI) sem er sjálfkrafa myndað út frá stillingum á samsvarandi ER sniði og núverandi lögaðilagögnum sem gagnagjafar ER sniðsins munu hafa aðgang að. Hægt er að flytja út safn af reglum sem er tilgreint fyrir snið rafrænnar skýrslugerðar úr núverandi lögaðila fyrir tilvik Dynamics 365 Finance (Finance). Það er síðan hægt að flytja það inn í annan lögaðila annaðhvort sama tilviks Finance eða annars tilviks sem reglumengi fyrir sama ER snið.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Til að klára dæmin í þessari grein verður þú að hafa aðgang að tilviki Regulatory Configuration Services (RCS) sem hefur verið útvegað fyrir sama leigjanda og Finance fyrir eitt af eftirfarandi hlutverkum:
+Til að ljúka við dæmin í þessari grein þarftu að hafa aðgang að tilviki Regulatory Configuration Services (RCS) sem hefur verið úthlutað fyrir sama leigjandann og fyrir Finance fyrir eitt af eftirfarandi hlutverkum:
 
 - Þróunaraðili rafrænnar skýrslulausnar
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
 - Kerfisstjóri
 
-Við mælum með að þú ljúkir skrefunum í [Styðja færibreytukalla ER gagnagjafa af REIKNAÐAR FIELD gerð](er-calculated-field-type.md) grein. Ef þú hefur þegar lokið þessum skrefum geturðu sleppt skrefunum í hlutanum **Flytja ER stillingar inn í RCS** sem hér segir.
+Mælt er með því að lokið sé við skrefin sem finna má í [Styður færibreytuköll á ER-gagnaveitur af gerðinni Reiknaður reitur](er-calculated-field-type.md) greininni. Ef þú hefur þegar lokið þessum skrefum geturðu sleppt skrefunum í hlutanum **Flytja ER stillingar inn í RCS** sem hér segir.
 
 ## <a name="import-er-configurations-into-rcs"></a>Flytja inn skilgreiningar inn í RCS
 
@@ -58,7 +58,7 @@ Einnig verður að sækja og geyma staðbundið eftirfarandi skilgreiningar fyri
 
 Næst skráðirðu þig inn á RCS tilvikið.
 
-Í þessu dæmi mun stofna skilgreiningu fyrir dæmi um sýnifyrirtæki, Litware, Inc. Áður en þú getur lokið þessu ferli verður þú að ljúka skrefunum í [Búðu til stillingarveitu og merktu hana sem virkan](tasks/er-configuration-provider-mark-it-active-2016-11.md) grein í RCS.
+Í þessu dæmi mun stofna skilgreiningu fyrir dæmi um sýnifyrirtæki, Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í greininni [Stofna skilgreiningarveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 1.  Veldu á sjálfgefna mælaborðinu **Rafræn skýrslugerð**.
 2.  Veldu **Skilgreiningar skýrslugerðar**.
@@ -300,7 +300,7 @@ Endurtakið skrefin í þessum hluta fyrir yfirvörur á sniðinu **Snið til a�
 -   Veldu Vörpun til að læra færibreytur á köll.xml
 -   Líkan til að læra færibreytur á köll.xml
 
-Til að læra hvernig á að nota stillt **Snið til að læra hvernig á að fletta upp LE gögnum** ER snið til að setja upp lögaðilaháð sett af skattkóðum til að sía skattfærslur eftir mismunandi skattþrepum, kláraðu skrefin í [Settu upp færibreytur ER sniðs fyrir hvern lögaðila](er-app-specific-parameters-set-up.md) grein.
+Til að læra hvernig á að nota skilgreinda rafræna skýrslugerðarsniðið **Snið til að læra hvernig á að fletta upp LE-gögnum** til að setja upp sett af skattkóðum sem tengjast lögaðila til að sía skattfærslur eftir mismunandi skattlagningarstigum, skal ljúka skrefunum í greininni [Setja upp færibreytur rafræns skýrslugerðarsniðs fyrir hvern lögaðila](er-app-specific-parameters-set-up.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

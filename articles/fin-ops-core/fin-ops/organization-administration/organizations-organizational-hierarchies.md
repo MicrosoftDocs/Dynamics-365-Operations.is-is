@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c8e8f2c2004582f42c3f464fedf9f3d049b5278f
 ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 01/15/2022
 ms.locfileid: "7991737"
@@ -54,7 +54,7 @@ Tegundir rekstrareininga eru kostnaðarstaðir teknir með, viðskiptaeiningar, 
 | Viðskiptaeining       | Er hálf-sjálfstæð rekstrareining sem er stofnuð til að uppfylla viðskiptamarkmið áætlunar. | Notuð við fjárhagsskýrslugerð sem byggir á industries eða línur afurða sem fyrirtækið þjónar óháð lögaðila. |
 | Virðisstraumur        | Rekstrareining sem stýrir einn eða fleiri framleiðsluflæði. | Almennt notað í lean manufacturing til að stjórna aðgerðum og flæði sem þarf til að útvega vöru eða þjónustu til neytenda. |
 | Deild          | Rekstrareining sem táknar flokk eða hagnýtan hluta fyrirtækis sem sinnir ákveðnu verki, svo sem sölu eða bókhald. | Notað til að gefa skýrslu um rekstrarsvið. Deild kann að borið ábyrgð á hagnaði og tapi og getur verið samsett úr hóp kostnaðarstaða. |
-| Smásölurás      | Rekstrareining sem táknar múrsteinsverslun, netverslun eða símaver. | Notað fyrir stjórnun og rekstraráætlanagerðar stýringu á eina eða fleiri verslanir fyrir innan eða í lögaðila. |
+| Smásölurás      | Rekstrareining sem táknar verslunarhúsnæði, netverslun eða símaver. | Notað fyrir stjórnun og rekstraráætlanagerðar stýringu á eina eða fleiri verslanir fyrir innan eða í lögaðila. |
 
 ### <a name="teams"></a>Teymi
 

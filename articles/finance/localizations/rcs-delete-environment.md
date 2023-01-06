@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) – Eyða RCS-umhverfi
-description: Þessi grein útskýrir hvernig kerfisstjóri Regulatory Configuration Service (RCS) getur eytt RCS umhverfi og tengdum gögnum.
+description: Þessi grein útskýrir hvernig kerfisstjóri Regulatory Configuration Service (RCS) getur eytt RCS-umhverfi og tengdum gögnum.
 author: kfend
 ms.date: 06/14/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization, Global
 ms.openlocfilehash: bdcb6820ead72fce0f89bf80cc5e474cb3942724
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9277240"
@@ -26,9 +26,9 @@ ms.locfileid: "9277240"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig kerfisstjóri Regulatory Configuration Service (RCS) getur eytt RCS umhverfi og tengdum gögnum.
+Þessi grein útskýrir hvernig kerfisstjóri Regulatory Configuration Service (RCS) getur eytt RCS-umhverfi og tengdum gögnum.
 
-Áður en þú getur klárað ferlið í þessari grein verður að uppfylla eftirfarandi skilyrði:
+Áður en hægt er að klára ferlið í þessari grein þarf að uppfylla eftirfarandi skilyrði:
 
 - Nauðsynlegt er að vera með hlutverkið **Kerfisstjóri** úthlutað fyrir RCS-umhverfið.
 - Hlutverkið **Kerfisstjóri** verður að vera með hlutverkið **RCSDeleteEnvironmentDuty** úthlutað.

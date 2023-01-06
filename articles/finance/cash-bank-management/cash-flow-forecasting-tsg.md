@@ -1,6 +1,6 @@
 ---
 title: Úrræðaleit vegna uppsetningar sjóðstreymisspár
-description: Þessi grein veitir svör við spurningum sem þú gætir haft þegar þú stillir sjóðstreymisspá. Þar er svarað algengum spurningum um uppsetningu sjóðstreymis, uppfærslur á sjóðstreymi og sjóðstreymi Power BI.
+description: Þessi grein veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina sjóðstreymisspár. Þar er svarað algengum spurningum um uppsetningu sjóðstreymis, uppfærslur á sjóðstreymi og sjóðstreymi Power BI.
 author: angelad116
 ms.date: 03/23/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: 807a1da1906bdefec38954cea02ed29b0157d69e
 ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/14/2022
 ms.locfileid: "9151402"
@@ -24,7 +24,7 @@ ms.locfileid: "9151402"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir svör við spurningum sem þú gætir haft þegar þú stillir sjóðstreymisspá. Þar er svarað algengum spurningum um uppsetningu sjóðstreymis, uppfærslur á sjóðstreymi og sjóðstreymi Power BI.
+Þessi grein veitir svör við spurningum sem gætu vaknað þegar verið er að skilgreina sjóðstreymisspár. Þar er svarað algengum spurningum um uppsetningu sjóðstreymis, uppfærslur á sjóðstreymi og sjóðstreymi Power BI.
 
 ## <a name="why-is-cash-flow-shown-for-only-one-legal-entity"></a>Hvers vegna er sjóðstreymi sýnd fyrir aðeins einn lögaðila?
 

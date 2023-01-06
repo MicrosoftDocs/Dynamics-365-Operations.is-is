@@ -1,6 +1,6 @@
 ---
 title: Hreinsun flutnings rafrænnar skýrslugerðar
-description: Þessi grein útskýrir hvernig þú getur notað ER flutningshreinsunaraðgerðina til að leysa vandamál með ER sniðmát.
+description: Í þessari grein er útskýrt hvernig hægt er að nota hreinsunaraðgerð fyrir flutning rafrænnar skýrslugerðar til að leysa úr málum er varða sniðmát rafrænnar skýrslugerðar.
 author: kfend
 ms.date: 04/29/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERSolutionTable, ERWorkspace, ERParameters, ERMigrationCleanup
 ms.openlocfilehash: bf32981ed5f43647038018bf2cd98e55ce233b3f
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9285092"

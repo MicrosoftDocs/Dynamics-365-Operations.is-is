@@ -1,6 +1,6 @@
 ---
 title: Aðgangsréttindi fyrir stjórnborð kostnaðarhluta
-description: Þessi grein veitir upplýsingar um aðgangsrétt fyrir kostnaðarhlutastýringaraðila.
+description: Þessi grein hefur að geyma upplýsingar um aðgangsréttindi fyrir stjórnborð kostnaðarhlutar.
 author: AndersGirke
 ms.date: 06/24/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: c40be758c5e5d1d1fb025630ed8321ae46251892
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8903190"
@@ -38,7 +38,7 @@ ms.locfileid: "8903190"
 | Starfsmaður kostnaðarbókara   | Virkni   |
 | Stjórnborð kostnaðarhlutar  | Hópmeðlimir |
 
-Þessi grein útskýrir hvernig á að úthluta **Kostnaðarhlutur stjórnandi** hlutverki yfirmanns.
+Í þessari grein er útskýrt hvernig á að úthluta stjórnanda hlutverkinu **Stjórnborð kostnaðarhlutar**.
 
 Þegar hlutverkinu **Stjórnborð kostnaðarhlutar** er úthlutað stjórnanda getur hann framkvæmt eftirfarandi verkefni:
 
@@ -91,11 +91,11 @@ Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum
 - Microsoft Power BI:
 
     - Gögn sem eru sýnd í Power BI myndrænum framsetningum
-    - Gögn Power BI sjónmyndir sem eru felldar inn í Dynamics 365 Finance biðlarann
+    - Myndræn Power BI gagnaframsetning sem er felld inn í Dynamics 365 Finance biðlarann
 
 > [!IMPORTANT]
 > - Áður en stigveldi aðgangslista getur haft áhrif á gögnin í Power BI, verður að para saman stigveldi og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
-> - Þessi grein sýnir forsendur sem verða að vera til staðar áður en þú getur notað **Kostnaðareftirlit** vinnurými.
+> - Þessi grein sýnir nauðsynlegar forsendur þess að hægt sé að nota vinnusvæðið **Kostnaðarstýring**.
 
 Frekari upplýsingar
 

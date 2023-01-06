@@ -1,6 +1,6 @@
 ---
 title: Uppsetningar á kreditkorti, heimild og sækja
-description: Þessi grein veitir yfirlit yfir kreditkortaheimild í Microsoft Dynamics 365 Fjármál. Þar á meðal eru upplýsingar um hvernig á að setja upp greiðsluþjónustu, bæta kreditkorti við sölupöntun, og ógilda heimild.
+description: Þessi grein veitir yfirlit yfir kreditkortaheimildir í Microsoft Dynamics 365 Finance. Þar á meðal eru upplýsingar um hvernig á að setja upp greiðsluþjónustu, bæta kreditkorti við sölupöntun, og ógilda heimild.
 author: ShivamPandeymsft
 ms.date: 08/22/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b84fe90e6c01d06ecbb3a1e13a9f018d385c22c0
 ms.sourcegitcommit: 346a9ca833237836d5e4ca496aeb2b5b24bdb27b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/23/2022
 ms.locfileid: "9583779"
@@ -26,7 +26,7 @@ ms.locfileid: "9583779"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir kreditkortaheimild í Microsoft Dynamics 365 Fjármál. Þar á meðal eru upplýsingar um hvernig á að setja upp greiðsluþjónustu, bæta kreditkorti við sölupöntun, og ógilda heimild.
+Þessi grein veitir yfirlit yfir kreditkortaheimildir í Microsoft Dynamics 365 Finance. Þar á meðal eru upplýsingar um hvernig á að setja upp greiðsluþjónustu, bæta kreditkorti við sölupöntun, og ógilda heimild.
 
 ## <a name="setting-up-the-credit-card-payment-service"></a>Setja upp greiðsluþjónustu kreditkorts
 

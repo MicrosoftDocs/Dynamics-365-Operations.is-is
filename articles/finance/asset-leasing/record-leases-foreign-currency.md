@@ -1,6 +1,6 @@
 ---
 title: Skrá leigusamninga í erlendum gjaldmiðlum
-description: Þessi grein útskýrir hvernig á að skrá leigusamninga í öðrum gjaldmiðlum en bókhalds- eða skýrslugjaldmiðlinum.
+description: Þessi grein útskýrir hvernig á að skrá leigusamninga í gjaldmiðlum öðrum en bókhalds- eða skýrslugjaldmiðli.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 56c15e648d6aa515192a6f41ba06df6405ca79f2
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8878103"
@@ -26,7 +26,7 @@ ms.locfileid: "8878103"
 
 [!include [banner](../includes/banner.md)]
 
-Reikningar eignarleiga fyrir leigusamninga sem eru í gjaldmiðlum öðrum en bókhaldsgjaldmiðlinum eða skýrslugjaldmiðlinum eru stofnaðir á síðunni **Fjárhagsuppsetning**. Allir leigusamningar ættu að vera færðir inn í færslugjaldmiðil þeirra. Með öðrum orðum ætti að færa þær inn í gjaldmiðlinum sem er tilgreindur í leigusamningnum. Þessi grein útskýrir hvernig á að skrá leigusamninga í öðrum gjaldmiðlum en bókhalds- eða skýrslugjaldmiðlinum.
+Reikningar eignarleiga fyrir leigusamninga sem eru í gjaldmiðlum öðrum en bókhaldsgjaldmiðlinum eða skýrslugjaldmiðlinum eru stofnaðir á síðunni **Fjárhagsuppsetning**. Allir leigusamningar ættu að vera færðir inn í færslugjaldmiðil þeirra. Með öðrum orðum ætti að færa þær inn í gjaldmiðlinum sem er tilgreindur í leigusamningnum. Þessi grein útskýrir hvernig á að skrá leigusamninga í gjaldmiðlum öðrum en bókhalds- eða skýrslugjaldmiðli.
 
 Ef verið er að færa inn leigusamning í erlendum gjaldmiðli er afnotaréttur af eign (ROU) afskrifaður bæði í bókhaldsgjaldmiðli og skýrslugjaldmiðli. Þessir gjaldmiðlar eru skilgreindir á síðunni **Fjárhagsuppsetning**. Þessi hegðun er einnig notuð í eignum. Þegar búið er að stofna leigusamning í erlendum gjaldmiðli skal velja færslugjaldmiðil í reitnum **Gjaldmiðill**.
 

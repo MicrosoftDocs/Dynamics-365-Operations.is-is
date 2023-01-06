@@ -1,6 +1,6 @@
 ---
 title: Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu
-description: Þessi grein útskýrir hvernig á að hlaða niður rafrænum skýrslugerðum (ER) stillingum frá Global repository of Configuration þjónustu.
+description: Í þessari grein er útskýrt hvernig á að sækja Skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu.
 author: kfend
 ms.date: 06/02/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
 ms.search.form: ERSolutionImport, ERWorkspace, ERSolutionRepositoryTable
 ms.openlocfilehash: 3bbc341d1668e54fcb4034263a7e142166a94b05
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9273309"
@@ -26,11 +26,11 @@ ms.locfileid: "9273309"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að hlaða niður [Stillingar rafrænna skýrslugerðar (ER).](general-electronic-reporting.md#Configuration) frá Global repository of configuration þjónustu. Fyrir frekari upplýsingar, sjá [Microsoft Dynamics 365 Fjármál - eftirlitsþjónusta, stillingarþjónusta](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+Í þessari grein er útskýrt hvernig á að sækja [Skilgreiningar rafrænnar skýrslugerðar](general-electronic-reporting.md#Configuration) úr altækri geymslu skilgreiningarþjónustu. Frekari upplýsingar er að finna í [Microsoft Dynamics 365 Finance – Regulatory Services, Skilgreiningarþjónusta](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Opna gagnageymslur skilgreininga
 
-1. Skráðu þig inn í Dynamics 365 Finance forritið með því að nota eitt af eftirfarandi hlutverkum:
+1. Skráðu þig inn í Dynamics 365 Finance-forritið með því að nota eitt af eftirfarandi hlutverkum:
 
     - Þróunaraðili rafrænnar skýrslulausnar
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
@@ -80,7 +80,7 @@ ms.locfileid: "9273309"
     ![Skilgreiningageymslusíða, flýtiflipi útgáfa, Flytja inn hnappur.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> Það fer eftir stillingum rafrænnar skýrslugerðar hvernig skilgreiningar eru villuleitaðar eftir að þær eru fluttar inn. Notandi gæti verið látinn vita um vandamál ósamræmi sem fundust. Áður en hægt er að nota innflutta útgáfu skilgreingar þarf að leysa úr vandamálunum. Fyrir frekari upplýsingar, sjá lista yfir tengd úrræði fyrir þessa grein.
+> Það fer eftir stillingum rafrænnar skýrslugerðar hvernig skilgreiningar eru villuleitaðar eftir að þær eru fluttar inn. Notandi gæti verið látinn vita um vandamál ósamræmi sem fundust. Áður en hægt er að nota innflutta útgáfu skilgreingar þarf að leysa úr vandamálunum. Frekari upplýsingar er að finna í lista yfir tengd tilföng í þessari grein.
 
 > [!NOTE]
 > Hægt er að stilla skilgreiningar rafrænnar skýrslugerðar sem háðar öðrum skilgreiningum. Þess vegna, ásamt valdri skilgreiningu, verða aðrar skilgreiningar hugsanlega fluttar inn sjálfkrafa. Meira um tengsl skilgreininga er að finna í [Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md).

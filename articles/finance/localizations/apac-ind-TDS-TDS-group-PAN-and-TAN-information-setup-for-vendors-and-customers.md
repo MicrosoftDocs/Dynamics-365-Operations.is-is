@@ -1,6 +1,6 @@
 ---
 title: Uppsetning á TDS-flokki, PAN- og TAN-upplýsingum fyrir lánardrottna og viðskiptavini
-description: Þessi grein útskýrir hvernig á að setja upp upplýsingar um hópinn Tax Deducted at Source (TDS), varanlegt reikningsnúmer (PAN) og skattreikningsnúmer (TAN) fyrir lánardrottna og viðskiptavini.
+description: Í þessari grein er útskýrt hvernig á að setja upp upplýsingar um flokkinn fyrir skatt sem er dreginn frá í upphafi (TDS), varanlegt lykilnúmer (PAN) og skattlykilnúmer (TAN) fyrir lánardrottna og viðskiptavini.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: 1a29f59e380360b6f828dcddbe84cad229b42d17
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8859767"
@@ -26,7 +26,7 @@ ms.locfileid: "8859767"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp upplýsingar um hópinn Tax Deducted at Source (TDS), varanlegt reikningsnúmer (PAN) og skattreikningsnúmer (TAN) fyrir lánardrottna og viðskiptavini.
+Í þessari grein er útskýrt hvernig á að setja upp upplýsingar um flokkinn fyrir skatt sem er dreginn frá í upphafi (TDS), varanlegt lykilnúmer (PAN) og skattlykilnúmer (TAN) fyrir lánardrottna og viðskiptavini.
 
 1. Farið í **Viðskiptaskuldir \> Lánardrottnar \> Allir lánardrottnar** eða **Viðskiptakröfur \> Viðskiptavinir \> Allir viðskiptavinir**.
 

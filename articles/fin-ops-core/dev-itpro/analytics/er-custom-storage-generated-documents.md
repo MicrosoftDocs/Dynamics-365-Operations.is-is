@@ -1,6 +1,6 @@
 ---
 title: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
-description: Þessi grein útskýrir hvernig á að lengja listann yfir geymslustaðsetningar fyrir skjöl sem rafræn skýrslugerð (ER) myndar.
+description: Þessi grein útskýrir hvernig á að stækka listann yfir geymslustaði fyrir skjöl sem snið rafrænnar skýrslugerðar myndar.
 author: kfend
 ms.date: 02/22/2019
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 83ee74cf590fe559ae18161d68b38dff54ab7fbc
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9268756"
@@ -23,7 +23,7 @@ ms.locfileid: "9268756"
 
 [!include[banner](../includes/banner.md)]
 
-Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir þér kleift að stækka listann yfir geymslustaði fyrir skjöl sem snið rafrænnar skýrslugerðar myndar. Þessi grein inniheldur yfirlit yfir helstu verkefni sem þú verður að klára til að bæta við sérsniðnum geymslustað.
+Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir þér kleift að stækka listann yfir geymslustaði fyrir skjöl sem snið rafrænnar skýrslugerðar myndar. Í þessari grein er að finna yfirlit aðalverkefnanna sem þarf að klára til að bæta við sérsniðnum geymslustað.
 
 ## <a name="prerequisites"></a>Forkröfur
 
@@ -118,7 +118,7 @@ Tilvikið **AttachingFile()** kemur upp þegar unnið er úr eftirfarandi viðt�
 ## <a name="configure-an-er-destination"></a>Skilgreina viðtökustað rafrænnar skýrslugerðar
 
 1. Skilgreina safnvistaðan viðtökustað fyrir einn af áðurnefndum þáttum (skrá, mappa, samruni eða viðhengi) í sniði rafrænnar skýrslugerðar sem var búinn til eða fluttur inn. Til leiðbeiningar skal sjá [Viðtökustaðir rafrænnar skýrslugerðar](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
-2. Notaðu gerð skjals sem þú bættir við á undan fyrir skilgreindan viðtökustað. (Fyrir dæmið í þessari grein er skjalagerðin **FileX** .)
+2. Notaðu gerð skjals sem þú bættir við á undan fyrir skilgreindan viðtökustað. (Fyrir dæmið í þessari grein er gerð skjals **FileX**.)
 
 ![Svargluggi áfangastaðastillinga.](media/er-extend-file-storages-destination.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir viðvaranir (inniheldur myndband)
-description: Þessi grein veitir almennar upplýsingar um viðvaranir. Þú getur notað viðvaranir til að fylgjast með atburðum sem þú vilt rekja meðan á vinnudegi stendur.
+title: Viðvaranayfirlit (inniheldur myndskeið)
+description: Þessi grein gefur almennar upplýsingar um viðvaranir. Þú getur notað viðvaranir til að fylgjast með atburðum sem þú vilt rekja meðan á vinnudegi stendur.
 author: RichdiMSFT
 ms.date: 09/04/2019
 ms.topic: overview
@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.openlocfilehash: b81eb8e0be4c7d7357a6b8b7b5f0ac025b9ab8ca
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9124259"
@@ -77,13 +77,13 @@ Viðvörunarregla hefur fimm hluta:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-The [Hvernig á að nota viðvaranir til að fylgjast með síuðum gögnum](https://youtu.be/ZYKMcv6kl9s) myndbandið (sýnt hér að ofan) er innifalið í [lagalista um fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) fáanleg á YouTube.
+Myndskeiðið [Hvernig á að nota viðvaranir til að fylgjast með síuðum gögnum](https://youtu.be/ZYKMcv6kl9s) (sýnt hér að ofan) er innifalið í [spilunarlista fjármála- og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er að finna á YouTube.
 
 ### <a name="alert-rule-options"></a>Valkostir viðvaranareglu
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-The [Valkostir viðvörunarreglu](https://youtu.be/cpzimwOjicM) myndbandið (sýnt hér að ofan) er innifalið í [lagalista um fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
+Myndskeiðið [Valkostir viðvaranareglu](https://youtu.be/cpzimwOjicM) (sýnt hér að ofan) er innifalið í [spilunarlista fjármála- og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er að finna á YouTube.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð
-description: Þessi grein lýsir því hvernig á að stjórna líftíma rafrænna skýrslugerðar (ER) stillinga fyrir Dynamics 365 Finance.
+description: Þessi grein lýsir hvernig eigi að stjórna lífsferli skilgreininga Rafrænnar skýrslugerðar (ER) fyrir Dynamics 365 Finance.
 author: kfend
 ms.date: 07/23/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 ms.openlocfilehash: 0209679c9882d87edab68d043fba9e7b3400a2a2
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9337264"
@@ -26,7 +26,7 @@ ms.locfileid: "9337264"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að stjórna líftíma [Rafræn skýrslugerð](general-electronic-reporting.md) (ER) [stillingar](general-electronic-reporting.md#Configuration) fyrir Dynamics 365 Finance.
+Þessi grein útskýrir hvernig eigi að stjórna lífsferli [Rafræn skýrslugerð](general-electronic-reporting.md) (ER) [stillingum](general-electronic-reporting.md#Configuration) fyrir Dynamics 365 Finance.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -73,7 +73,7 @@ Eftirfarandi hlutverk og tengdar aðgerðir tengjast lífsferli skilgreiningar r
 | Starfsmaður viðskiptaskuldagreiðslna            | Notar ER gervinga í tilteknu viðskiptaferli.                | Til dæmis hlutverk **Starfsmanns viðskiptaskuldagreiðslna** sem leyfir að mynda rafræn greiðsluskilaboð fyrir úrvinnslu reikninga, byggt á sniði rafrænnar skýrslugerðar sem er skilgreint fyrir tiltekinn greiðslumáta. |
 
 ## <a name="er-configuration-development-lifecycle"></a>Þróunarlífsferill ER skilgreiningar.
-Af eftirfarandi ER-tengdum ástæðum mælum við með því að þú sért að hanna ER stillingar í þróunarumhverfinu, sem sérstakt dæmi um fjármál og rekstur:
+Mælt er með að hanna ER skilgreiningar í þróunarumhverfi sem aðskilið tilvik af fjármála- og reksturs fyrir eftirfarandi ER málefni:
 
 - Notendur í hlutverkum annaðhvort **Þróunaraðila rafrænnar skýrslugerðar** eða **Hagnýts ráðgjafa vegna rafrænnar skýrslugerðar** geta breytt stillingum og keyrt þær vegna prófunar. Það getur valdið köllun eftir aðferðum flokka og töflum sem geta hugsanlega verið skaðleg fyrir viðskiptagögn og árangur af notkun tilviks.
 - Köllun eftir aðferðum flokka og tafla sem ER gagnagjafa fyrir ER skilgreiningar eru ekki takmarkaðar af aðgangsstað og skráðu efni fyrirtækis. Því geta notendur sem eru í hlutverkum **Þróunaraðila rafrænnar skýrslugerðar** eða **Hagnýts ráðgjafa vegna rafrænnar skýrslugerðar** fengið aðgang að viðkvæmum gögnum fyrirtækis.
@@ -84,7 +84,7 @@ Skilgreiningar rafrænar skýrslugerðar sem eru hannaðar í þróunarumhverfi 
 
 ## <a name="data-persistence-consideration"></a>Taka til greina varanleika gagna
 
-Þú getur hver fyrir sig [flytja inn](tasks/er-import-configuration-lifecycle-services.md) mismunandi útgáfur af bráðamóttöku [uppsetningu](general-electronic-reporting.md#Configuration) til þíns fjármálatilviks. Þegar ný útgáfa af skilgreiningu rafrænnar skýrslugerðar er flutt inn stjórnar kerfið innihaldi útgáfudraga fyrir þessa skilgreiningu:
+Hægt er að [flytja inn](tasks/er-import-configuration-lifecycle-services.md) hverja mismunandi útgáfu fyrir sig af [skilgreiningu](general-electronic-reporting.md#Configuration) rafrænnar skýrslugerðar í tilvikið þitt af Finance. Þegar ný útgáfa af skilgreiningu rafrænnar skýrslugerðar er flutt inn stjórnar kerfið innihaldi útgáfudraga fyrir þessa skilgreiningu:
 
 - Þegar innflutt útgáfa er lægri en hæsta útgáfa þessarar skilgreiningar í núverandi tilviki af Finance mun innihald útgáfudraga þessarar skilgreiningar haldast óbreytt.
 - Þegar innflutt útgáfa er hærri en önnur útgáfa þessarar skilgreiningar í núverandi tilviki af Finance verður innihald innfluttu útgáfunnar afritað í útgáfudrög þessarar skilgreiningar til að gera þér kleift að halda áfram að breyta síðustu loknu útgáfu.
@@ -106,40 +106,40 @@ Til að afturkalla breytingarnar sem þú kynntir í útgáfudrögum skal velja 
     > [!NOTE]
     > Þessi breyta er notendasértæk og fyrirtækjasértæk.
 
-## <a name="dependencies-on-other-components"></a>Ósjálfstæði á öðrum hlutum
+## <a name="dependencies-on-other-components"></a>Tengsl við aðra íhluti
 
-Hægt er að stilla ER stillingar sem [háð](er-download-configurations-global-repo.md#import-filtered-configurations) á öðrum stillingum. Til dæmis getur þú [flytja inn](er-download-configurations-global-repo.md) bráðamóttöku [gagnalíkan](er-overview-components.md#data-model-component) stillingar frá alþjóðlegu geymslunni í þinn [Microsoft Regulatory Configuration Services (RCS)](../../../finance/localizations/rcs-overview.md) eða Dynamics 365 Finance tilvik, og stofnaðu síðan nýtt ER [sniði](er-overview-components.md#format-component) uppsetningu sem er [afleidd](er-quick-start2-customize-report.md#DeriveProvidedFormat) úr innfluttu ER gagnalíkanstillingunni. Afleidda ER-sniðsstillingin verður háð grunnstillingu ER-gagnalíkans.
+Hægt er að stilla skilgreiningar rafrænnar skýrslugerðar sem [háðar](er-download-configurations-global-repo.md#import-filtered-configurations) öðrum skilgreiningum. Til dæmis er hægt að [flytja inn](er-download-configurations-global-repo.md) skilgreiningu [gagnalíkans](er-overview-components.md#data-model-component) fyrir rafræna skýrslugerð úr altæku geymslunni í [Microsoft Regulatory Configuration Services (RCS)](../../../finance/localizations/rcs-overview.md) eða tilvik af Dynamics 365 Finance og síðan búa til nýja skilgreining fyrir [snið](er-overview-components.md#format-component) rafrænnar skýrslugerðar sem er [afleidd](er-quick-start2-customize-report.md#DeriveProvidedFormat) úr innfluttri skilgreiningu á gagnalíkani rafrænnar skýrslugerðar. Afleidd skilgreining rafræns skýrslugerðarsniðs mun vera háð skilgreiningu á grunngagnalíkani rafrænnar skýrslugerðar.
 
-![Afleidd ER-sniðsstilling á síðunni Stillingar.](./media/ger-configuration-lifecycle-img1.png)
+![Afleidd skilgreining sniðs rafrænnar skýrslugerðar á skilgreiningasíðunni.](./media/ger-configuration-lifecycle-img1.png)
 
-Þegar þú hefur lokið við að hanna sniðið geturðu breytt stöðu upphafsútgáfu þinnar af uppsetningu ER sniðs frá **Drög** til **Lokið**. Þú getur síðan deilt fullgerðri útgáfu af ER sniðstillingunni með því að [útgáfu](../../../finance/localizations/rcs-global-repo-upload.md) það í alþjóðlegu geymsluna. Næst geturðu fengið aðgang að alþjóðlegu geymslunni frá hvaða RCS eða Finance skýjatilviki sem er. Þú getur síðan flutt inn hvaða ER stillingarútgáfu sem á við um forritið úr alþjóðlegu geymslunni í það forrit.
+Þegar þú hefur lokið við að hanna sniðið geturðu breytt stöðu á upphaflegri útgáfu af skilgreiningu rafræns skýrslugerðarsniðs úr **Drögum** í **Lokið**. Síðan er hægt að deila lokinni útgáfu af skilgreiningu rafræns skýrslugerðarsniðs með því að [gefa hana út](../../../finance/localizations/rcs-global-repo-upload.md) til altæku geymslunnar. Næst er hægt að opna altæku geymsluna úr hvaða tilviki af RCS eða Finance í skýinu. Síðan er hægt að flytja inn allar útgáfur af skilgreiningu rafrænnar skýrslugerðar sem á við um forritið úr altæku geymslunni og í það forrit.
 
-![Birt ER snið stillingar á síðu Stillingar geymslu.](./media/ger-configuration-lifecycle-img2.png)
+![Birt skilgreining sniðs rafrænnar skýrslugerðar á síðunni Skilgreiningageymsla.](./media/ger-configuration-lifecycle-img2.png)
 
-Byggt á uppsetningarháðinni, þegar þú velur ER sniðsstillingu í alþjóðlegu geymslunni til að flytja hana inn í nýuppsett RCS eða Finance tilvik, er grunnstilling ER gagnalíkans sjálfkrafa að finna í alþjóðlegu geymslunni og er flutt inn ásamt völdu ER sniði stillingar sem grunnstillingar.
+Byggt á tengslum skilgreiningarinnar, þegar þú velur skilgreiningu rafræns skýrslugerðarsniðs í altæku geymslunni til að flytja hana inn í nýlega uppsett tilvik af RCS eða Finance, verður skilgreining á grunngagnalíkani rafrænnar skýrslugerðar sjálfkrafa fundin í altæku geymslunni og flutt inn með valdri skilgreiningu rafræns skýrslugerðarsniðs sem grunnskilgreining.
 
-Þú getur líka flutt út ER snið stillingarútgáfuna þína úr núverandi RCS eða Finance tilvikinu þínu og geymt það á staðnum sem XML skrá.
+Einnig er hægt að flytja útgáfu af skilgreiningu rafræns skýrslugerðarsniðs út úr núverandi tilviki af RCS eða Finance og geyma hana staðbundið sem XML-skrá.
 
-![Flytja út ER snið stillingarútgáfu sem XML á Stillingar síðunni.](./media/ger-configuration-lifecycle-img3.png)
+![Að flytja út útgáfu af skilgreiningu rafræns skýrslugerðarsniðs sem XML á skilgreiningarsíðunni.](./media/ger-configuration-lifecycle-img3.png)
 
-Í útgáfum af Finance **fyrir útgáfu 10.0.29**, þegar þú reynir að flytja inn ER-sniðsstillingarútgáfuna úr þeirri XML-skrá eða úr einhverri annarri geymslu en alþjóðlegu geymslunni í nýuppsett RCS- eða Finance-tilvik sem enn inniheldur engar ER-stillingar, verður eftirfarandi undantekning hent til að upplýsa þú að ekki sé hægt að fá grunnstillingu:
-
-> Óleystar tilvísanir sem eftir eru<br>
-Tilvísun hlutarins '\<imported configuration name\> ' við hlutinn 'Base' (\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>) er ekki hægt að staðfesta
-
-![Flytja inn ER snið stillingarútgáfu á síðu Stillingar geymsla.](./media/ger-configuration-lifecycle-img4.gif)
-
-Í útgáfu **10.0.29 og síðar**, þegar þú reynir að flytja inn sama stillingar, ef grunnstilling er ekki að finna í núverandi forritstilviki eða í frumgagnageymslunni sem þú ert að nota núna (ef við á), mun ER ramma sjálfkrafa reyna að finna nafn grunnstillingar sem vantar í skyndiminni Global repository. Það mun þá kynna nafn og alþjóðlegt einstakt auðkenni (GUID) grunnstillingar sem vantar í texta undantekningar sem er kastað.
+Í Finance-útgáfum **á undan útgáfu 10.0.29**, þegar þú reynir að flytja útgáfu af skilgreiningu rafræns skýrslugerðarsniðs úr þeirri XML-skrá eða úr einhverri geymslu annarri en altæku geymslunni og inn í nýlega uppsett tilvik af RCS eða Finance sem inniheldur ekki neinar skilgreiningar rafrænnar skýrslugerðar verður eftirfarandi undantekning birt til að láta vita að ekki sé hægt að sækja grunnskilgreininguna:
 
 > Óleystar tilvísanir sem eftir eru<br>
-Tilvísun hlutarins '\<imported configuration name\> ' við hlutinn 'Base' (\<name of the missed base configuration\>\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>) er ekki hægt að staðfesta
+Ekki er hægt að stofna tilvísun hlutarins „\<imported configuration name\>“ í „Grunnur“ (\<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>)
 
-![Undantekning á síðunni Configuration repository þegar grunnstillingin er ekki að finna.](./media/ger-configuration-lifecycle-img5.png)
+![Innflutningur útgáfu skilgreiningar sniðs rafrænnar skýrslugerðar á síðu skilgreiningageymslu.](./media/ger-configuration-lifecycle-img4.gif)
 
-Þú getur notað uppgefið nafn til að finna grunnstillinguna og síðan flutt hana inn handvirkt.
+Í útgáfu **10.0.29 og síðar**, þegar þú reynir að sama innflutning á skilgreiningu, ef grunnskilgreining finnst ekki í núverandi forritstilviki eða í upprunageymslu sem verið er að nota (ef það á við), mun rammi rafrænnar skýrslugerðar sjálfkrafa reyna að finna heitið á grunnskilgreiningu sem vantar í skyndiminni altæku geymslunnar. Hann mun síðan sýna heitið og altækt einkvæmt kennimerki (GUID) á grunnskilgreiningunni sem vantar í texta undantekningarinnar sem var birt.
+
+> Óleystar tilvísanir sem eftir eru<br>
+Ekki er hægt að stofna tilvísun hlutarins „\<imported configuration name\>“ í „Grunnur“ (\<name of the missed base configuration\> \<globally unique identifier of the missed base configuration\>,\<version of the missed base configuration\>)
+
+![Undantekning á síðu skilgreiningageymslu þegar grunnskilgreining finnst ekki.](./media/ger-configuration-lifecycle-img5.png)
+
+Hægt er að nota uppgefið heiti til að finna grunnskilgreininguna og flytja hana síðan inn handvirkt.
 
 > [!NOTE]
-> Þessi nýi valkostur virkar aðeins þegar að minnsta kosti einn notandi hefur þegar skráð sig inn á alþjóðlegu geymsluna með því að nota [Stillingargeymslur](er-download-configurations-global-repo.md#open-configurations-repository) síðu eða einni af alþjóðlegu geymslunni [horfðu upp](er-extended-format-lookup.md) reiti í núverandi Finance-tilviki og þegar innihald alþjóðlegu geymslunnar hefur verið í skyndiminni.
+> Þessi nýi valkostur virkar aðeins þegar að minnsta kosti einn notandi hefur þegar skráð sig inn í altæku geymsluna með því að nota síðuna [Skilgreiningageymslur](er-download-configurations-global-repo.md#open-configurations-repository) eða einn af [uppflettireitum](er-extended-format-lookup.md) altæku geymslunnar í núverandi tilviki af Finance og þegar efni altæku geymslunnar hefur verið vista í skyndiminni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f10ddf113f59da4800a97a48300ab1310bfb42dd
 ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 02/26/2022
 ms.locfileid: "8358182"
@@ -31,7 +31,7 @@ Dreifingar á fjárhagsupphæð eru notaðar til að skilgreina hvernig gert ver
 ## <a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum 
 
 Hægt er að nota eftirfarandi hnappanna í   síðunni reikningur lánardrottins til að skoða og mögulega breyta, dreifingar á fjárhagsupphæð síða fyrir hverja upphæð á reikningi lánardrottins.
--   **Dreifa upphæðum** – Skoða og breyta fjárhagsupphæðum fyrir einstakar línur og allar undirlínur, svo sem skatta eða gjöld. Þú getur líka skoðað og breytt bókhaldsdreifingum fyrir undirlínuna beint frá **Söluskattsviðskipti** síðu eða **Gjaldfærsla færslur** síðu.
+-   **Dreifa upphæðum** – Skoða og breyta fjárhagsupphæðum fyrir einstakar línur og allar undirlínur, svo sem skatta eða gjöld. Einnig er hægt að skoða og breyta dreifingar á fjárhagsupphæð fyrir línu undirstig beint í frá síðunni **VSK-færsla** eða síðunni **Gjaldfærslur**.
     -   Breyta upphæðum í haus lánardrottnareiknings, svo sem gjöldum eða sléttuðum gjaldeyrisupphæðum.
     -   Breyta línuupphæðum lánardrottnareikninga.
 -   **Skoða dreifingu** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur skjals. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
@@ -62,7 +62,7 @@ Ef lánardrottinsreikningnum vísar til innkaupapöntunar, er hægt að skipta o
 <td>Afurð í birgðum</td>
 <td><ol>
 <li>Dreifing á fjárhagsupphæð fyrir innkaupapöntunarlínuna.</li>
-<li>The<strong>Aðalreikningur</strong> reitinn þegar innkaupakostnaður fyrir vöru er valinn á<strong>Birting</strong> síðu.</li>
+<li>Svæði <strong>aðallykils</strong> þegar útgjöld Innkaupa fyrir afurð er valinn í <strong>Bókun</strong> síðu.</li>
 </ol></td>
 <td><ol>
 <li>Ef reikningslínan vísar innkaupapöntunarlínu, nota lykilsdreifingar fyrir innkaupapöntunarlínuna.</li>
@@ -73,35 +73,35 @@ Ef lánardrottinsreikningnum vísar til innkaupapöntunar, er hægt að skipta o
 <td>Innkaupategund eða afurð sem er ekki í birgðum</td>
 <td><ol>
 <li>Dreifing á fjárhagsupphæð fyrir innkaupapöntunarlínuna, ef reikningslínu lánardrottinsins vísar í innkaupapöntunarlínu.</li>
-<li>The<strong>Aðalreikningur</strong> reit þegar innkaupaútgjöld fyrir kostnað er valið á<strong>Birting</strong> síðu.</li>
+<li>Svæði <strong>aðallykils</strong> þegar útgjöld Innkaupa fyrir afurð er valinn í <strong>Bókun</strong> síðu.</li>
 </ol></td>
 <td><ol>
 <li>Ef reikningslínan vísar innkaupapöntunarlínu, nota lykilsdreifingar fyrir innkaupapöntunarlínuna.</li>
 <li>Ef aðallykils er úthlutunarlykill er að nota sjálfgefna gildið úr skilgreiningu úthlutunar lykil.</li>
 <li>Nota sjálfgefin gildi fjárhagsvídda á reikningi lánardrottins.</li>
 <li>Nota fjárhagsvíddargildi reikningslínu lánardrottins.</li>
-<li>Notaðu sjálfgefna fjárhagsvíddargildi frá aðalreikningi á<strong>Reikningsyfirlit</strong> síðu.</li>
+<li>Nota sjálfgefin gildi fjárhagsvídda frá aðallykli á síðunni <strong>Bókhaldslykill</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Eign</td>
 <td><ol>
 <li>Dreifing á fjárhagsupphæð fyrir innkaupapöntunarlínuna, ef reikningslínu lánardrottinsins vísar í innkaupapöntunarlínu.</li>
-<li>Ef<strong>Kaup</strong> er valið í<strong>Tegund viðskipta</strong> sviði á<strong>Reikningur seljanda</strong> síðu, the<strong>Aðalreikningur</strong> sviði hvenær<strong>Kaup</strong> er valið á<strong>Birtingarsnið eigna</strong> síðu.</li>
-<li>Ef<strong>Aðlögun yfirtöku</strong> er valið á<strong>Tegund viðskipta</strong> sviði, the<strong>Aðalreikningur</strong> sviði hvenær<strong>Aðlögun yfirtöku</strong> er valið á<strong>Birtingarsnið eigna</strong> síðu.</li>
+<li>Ef <strong>Kaup</strong> er valið í svæðinu <strong>Færslugerð</strong> í skjámyndinni <strong>Reikningur lánardrottins</strong>, er svæði <strong>Aðallykill</strong> valið þegar <strong>Kaup</strong> er valið á síðunni <strong>Bókunarreglur eigna</strong>.</li>
+<li>Ef <strong>Leiðrétting kaupa</strong> er valið í svæðinu <strong>Færslugerð</strong> á reitnum <strong>Aðallykill</strong> þegar <strong>Leiðrétting kaupa</strong> er valið á síðunni <strong>Bókunarreglur eigna</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Nota lykilsdreifingar fyrir innkaupapöntunarlínu, ef reikningslínan vísar í innkaupapöntunarlínu.</li>
 <li>Nota fjárhagsvíddargildi reikningslínu lánardrottins.</li>
-<li>Notaðu sjálfgefna fjárhagsvíddargildi frá aðalreikningi á<strong>Reikningsyfirlit</strong> síðu.</li>
+<li>Nota sjálfgefin gildi fjárhagsvídda frá aðallykli á síðunni <strong>Bókhaldslykill</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Verk sem eru skilgreind í reikningslínu lánardrottins</td>
 <td><ol>
 <li>Dreifing á fjárhagsupphæð fyrir innkaupapöntunarlínuna, ef reikningslínan vísar í innkaupapöntunarlínu.</li>
-<li>Ef<strong>Jafnvægi</strong> er valið í<strong>Bókunarkostnaður - liður</strong> sviði í<strong>Verkefnahópar</strong> síðu, the<strong>Aðalreikningur</strong> sviði hvenær<strong>Kostnaður</strong> er valið á<strong>Uppsetning fjárhagsbókunar</strong> síðu.</li>
-<li>Ef<strong>Hagnaður og tap</strong> er valið í<strong>Bókunarkostnaður - liður</strong> sviði í<strong>Verkefnahópar</strong> síðu, the<strong>Aðalreikningur</strong> sviði hvenær<strong>Kostnaður - liður</strong> er valið á<strong>Uppsetning fjárhagsbókunar</strong> síðu.</li>
+<li>Ef <strong>Staða</strong> er valin í svæði <strong>Bókunarkostnað - vöru</strong> í síðunni <strong>Verkflokkur</strong>, er svæðið <strong>Aðallykill</strong> þegar <strong>Kostnaður</strong> er valinn í síðunni <strong>Uppsetning fjárhagsbókunar</strong>.</li>
+<li>Ef <strong>hagnaður og tap</strong> er valin í <strong>Bókunarkostnað - vara</strong> svæði í síðunni <strong>verkflokkur</strong>, er svæðið <strong>aðallykill</strong> þegar <strong>kostnaður - afurð</strong> er valinn í síðunni <strong>uppsetning fjárhagsbókunar</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Ef reikningslínan vísar innkaupapöntunarlínu, nota lykilsdreifingar fyrir innkaupapöntunarlínuna.</li>
@@ -111,18 +111,18 @@ Ef lánardrottinsreikningnum vísar til innkaupapöntunar, er hægt að skipta o
 <td>Línuafsláttur</td>
 <td><ol>
 <li>Dreifing á fjárhagsupphæð fyrir innkaupapöntunarlínuna, ef reikningslínan vísar í innkaupapöntunarlínu.</li>
-<li>The<strong>Aðalreikningur</strong> sviði hvenær<strong>Afsláttur</strong> er valið á<strong>Birting</strong> síðu.</li>
+<li>Svæði <strong>Aðallykill</strong> þegar <strong>Afsláttur</strong> er valinn á síðunni <strong>Bókun</strong>.</li>
 <li>Ef aðallykill fyrir afslátt er ekki skilgreint í bókunarreglu, dreifing á fjárhagsupphæð heildarverðs á innkaupapöntunarlínunni.</li>
 </ol></td>
 <td><ol>
 <li>Ef reikningslínan vísar innkaupapöntunarlínu, nota dreifing á fjárhagsupphæð fyrir innkaupapöntunarlínuna.</li>
 <li>Nota fjárhagsvíddir úr dreifingar á fjárhagsupphæð fyrir heildarverð á reikningslínu lánardrottins.</li>
 <li>Nota gildi fjárhagsvídda fyrir reikningslínu lánardrottins.</li>
-<li>Notaðu sjálfgefna fjárhagsvíddargildi frá aðalreikningi á<strong>Reikningsyfirlit</strong> síðu.</li>
+<li>Nota sjálfgefin gildi fjárhagsvídda frá aðallykli á síðunni <strong>Bókhaldslykill</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Kaupgjald, sem er fært á<strong>Verð og afsláttur</strong> flipa innkaupapöntunarlínunnar</td>
+<td>Innkaup, gjald fært inn í <strong>Verð og afsláttur</strong> flipi innkaupapöntunarlínunnar</td>
 <td><ol>
 <li>Dreifing á fjárhagsupphæð fyrir innkaupapöntunarlínuna, ef reikningslínan vísar í innkaupapöntunarlínu.</li>
 <li>Dreifing á fjárhagsupphæð útvíkkað verð á innkaupapöntunarlínunni.</li>
@@ -136,21 +136,21 @@ Ef lánardrottinsreikningnum vísar til innkaupapöntunar, er hægt að skipta o
 <td>Línugjald</td>
 <td><ol>
 <li>Dreifing á fjárhagsupphæð fyrir innkaupapöntunarlínuna, ef reikningslínan vísar í innkaupapöntunarlínu.</li>
-<li>Ef<strong>Fjárhagsreikningur</strong> er valið í<strong>Debettegund</strong> sviði á<strong>Gjaldkóði</strong> síðu, the<strong>Debetreikningur</strong> sviði á<strong>Gjaldkóði</strong> síðu.</li>
-<li>Ef<strong>Atriði</strong> er valið í<strong>Debettegund</strong> sviði á<strong>Gjaldkóði</strong> síðu, bókhaldsdreifing fyrir aukið verð á innkaupapöntunarlínunni.</li>
-<li>Ef<strong>Viðskiptavinur/seljandi</strong> er valið í<strong>Debettegund</strong> sviði á<strong>Gjaldkóði</strong> síðu, the<strong>Kreditreikningur</strong> sviði á<strong>Gjaldkóði</strong> síðu.</li>
+<li>Ef <strong>Fjárhagur</strong> er valinn í svæðinu <strong>Debet gerð</strong> á síðunni <strong>Gjaldakóði</strong> er <strong>Debetreikningur</strong> reiturinn á síðunni <strong>Gjaldakóði</strong>.</li>
+<li>Ef <strong>Afurð</strong> er valið í reitnum <strong>Debetgerð</strong> á síðunni <strong>Gjaldakóði</strong>, dreifing á fjárhagsupphæð fyrir heildarverð á innkaupapöntunarlínunni.</li>
+<li>Ef <strong>Viðskiptavinur/Lánardrottinn</strong> er valið í svæðinu <strong>Debetgerð</strong> á síðunni <strong>Gjaldakóði</strong> er <strong>Debetlykill</strong> reiturinn á síðunni <strong>Gjaldakóði</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Ef reikningslínan vísar innkaupapöntunarlínu, nota lykilsdreifingar fyrir innkaupapöntunarlínuna.</li>
 <li>Nota fjárhagsvíddir úr dreifingar á fjárhagsupphæð fyrir heildarverð á reikningslínu lánardrottins.</li>
 <li>Nota fjárhagsvíddargildi reikningslínu lánardrottins.</li>
-<li>Notaðu sjálfgefna fjárhagsvíddargildi frá aðalreikningi á<strong>Reikningsyfirlit</strong> síðu.</li>
+<li>Nota sjálfgefin gildi fjárhagsvídda frá aðallykli á síðunni <strong>Bókhaldslykill</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Skattur, með eftirfarandi skilyrði:
 <ul>
-<li>The<strong>Notaðu bandarískar skattareglur</strong> valkostur er valinn á<strong>Fjárhagsfæribreytur</strong> síðu.</li>
+<li>Valkosturinn <strong>beita BNA skattlagningarreglum</strong> er hreinsaður á síðunni <strong>Færibreytur fjárhags</strong>.</li>
 </ul></td>
 <td><ol>
 <li>Dreifing á fjárhagsupphæð fyrir innkaupapöntunarlínuna, ef reikningslínan vísar í innkaupapöntunarlínu.</li>
@@ -165,61 +165,61 @@ Ef lánardrottinsreikningnum vísar til innkaupapöntunar, er hægt að skipta o
 <tr class="odd">
 <td>Skattur, með eftirfarandi skilyrðum:
 <ul>
-<li>The<strong>Notaðu bandarískar skattareglur</strong> valkostur er hreinsaður á<strong>Fjárhagsfæribreytur</strong> síðu.</li>
-<li>The<strong>Notaðu skatt</strong> reiturinn fyrir söluskattshópinn er hreinsaður á<strong>Vöruskattshópar</strong> síðu.</li>
+<li>Valkosturinn <strong>Beita BNA skattlagningarreglum</strong> er hreinsaður á síðunni <strong>Færibreytur fjárhags</strong>.</li>
+<li><strong>Neysluskattur</strong> svæði fyrir VSK-flokk er hreinsað á síðu <strong>VSK-flokkur</strong>.</li>
 </ul></td>
 <td><ol>
-<li>Ef skattfjárhæðin er endurheimtanleg skal<strong>Tekið er eftir söluskatti</strong> sviði á<strong>Fjárhagsbókunarhópar</strong> síðu.</li>
+<li>Ef skattupphæðin er endurkræf, svæðið <strong>Innskattur</strong> á síðunni <strong>Fjárhagsbókunarflokkar</strong>.</li>
 <li>Ef skattupphæðin er endurkræf, útvíkkað verð eða dreifing á fjárhagsupphæð fyrir gjald.</li>
 </ol></td>
 <td><ol>
 <li>Ef reikningslínan vísar innkaupapöntunarlínu, nota lykilsdreifingar fyrir innkaupapöntunarlínuna.</li>
 <li>Nota fjárhagsvíddir úr útvíkkað verð eða dreifingar á fjárhagsupphæð fyrir gjald á reikningslínu lánardrottins.</li>
 <li>Nota fjárhagsvíddargildi reikningslínu lánardrottins.</li>
-<li>Notaðu sjálfgefna fjárhagsvíddargildi frá aðalreikningi á<strong>Reikningsyfirlit</strong> síðu.</li>
+<li>Nota sjálfgefin gildi fjárhagsvídda frá aðallykli á síðunni <strong>Bókhaldslykill</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Skattur, með eftirfarandi skilyrðum:
 <ul>
-<li>Valkosturinn Notaðu bandarískar skattareglur er hreinsaður á<strong>Fjárhagsfæribreytur</strong> síðu.</li>
-<li>The<strong>Notaðu skatt</strong> reiturinn fyrir söluskattshópinn er valinn á<strong>Vöruskattshópar</strong> síðu.</li>
+<li>Valkosturinn beita BNA skattlagningarreglum er hreinsaður á síðunni <strong>Færibreytur fjárhags</strong>.</li>
+<li><strong>Neysluskattur</strong> svæði fyrir VSK-flokk er valið á síðu <strong>VSK-flokkur</strong>.</li>
 </ul></td>
 <td><ol>
-<li>Ef skattfjárhæðin er endurheimtanleg skal<strong>Tekið er eftir söluskatti</strong> sviði á<strong>Fjárhagsbókunarhópar</strong> síðu.</li>
-<li>Ef skattfjárhæðin er ekki endurheimtanleg skal<strong>Notaðu skattkostnað</strong> sviði á<strong>Fjárhagsbókunarhópar</strong> síðu.</li>
+<li>Ef skattupphæðin er endurkræf, svæðið <strong>Innskattur</strong> á síðunni <strong>Fjárhagsbókunarflokkar</strong>.</li>
+<li>Ef skattupphæðin er ekki endurkræf, svæðið <strong>Kostnaður neysluskatts</strong> á síðunni <strong>Fjárhagsbókunarflokkar</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Ef reikningslínan vísar innkaupapöntunarlínu, nota lykilsdreifingar fyrir innkaupapöntunarlínuna.</li>
 <li>Nota fjárhagsvíddir úr útvíkkað verð eða dreifingar á fjárhagsupphæð fyrir gjald á reikningslínu lánardrottins.</li>
 <li>Nota fjárhagsvíddargildi reikningslínu lánardrottins.</li>
-<li>Notaðu sjálfgefna fjárhagsvíddargildi frá aðalreikningi á<strong>Reikningsyfirlit</strong> síðu.</li>
+<li>Nota sjálfgefin gildi fjárhagsvídda frá aðallykli á síðunni <strong>Bókhaldslykill</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Gjald hauss</td>
 <td><ol>
-<li>Ef<strong>Fjárhagsbók</strong> reikningur er valinn í<strong>Debettegund</strong> sviði á<strong>Gjaldkóði</strong> síðu, the<strong>Debetreikningur</strong> sviði á<strong>Gjaldkóði</strong> síðu.</li>
-<li>Ef<strong>Viðskiptavinur/seljandi</strong> er valið í<strong>Debettegund</strong> sviði á<strong>Gjaldkóði</strong> síðu, the<strong>Kreditreikningur</strong> sviði á<strong>Gjaldkóði</strong> síðu.</li>
+<li>Ef <strong>Fjárhagur</strong> er valinn í svæðinu <strong>Debet gerð</strong>  á síðunni <strong>Gjaldakóði</strong> er <strong>Debetreikningur</strong> reiturinn á síðunni <strong>Gjaldakóði</strong>.</li>
+<li>Ef <strong>Viðskiptavinur/Lánardrottinn</strong> er valið í svæðinu <strong>Debetgerð</strong> á síðunni <strong>Gjaldakóði</strong> er <strong>Debetlykill</strong> reiturinn á síðunni <strong>Gjaldakóði</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Ef reikningslínan vísar innkaupapöntunarlínu, nota lykilsdreifingar fyrir innkaupapöntunarlínuna.</li>
 <li>Ef aðallykils er úthlutunarlykill er að nota sjálfgefna gildið úr skilgreiningu úthlutunar lykil.</li>
 <li>Nota sjálfgefin sniðmátsgildi fjárhagsvídda úr reikningshaus lánardrottins.</li>
 <li>Nota fjárhagsvíddargildi reikningslínu lánardrottins.</li>
-<li>Notaðu sjálfgefna fjárhagsvíddargildi frá aðalreikningi á<strong>Reikningsyfirlit</strong> síðu.</li>
+<li>Nota sjálfgefin gildi fjárhagsvídda frá aðallykli á síðunni <strong>Bókhaldslykill</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Haus afsláttur</td>
 <td><ol>
-<li>The<strong>Aðalreikningur</strong> sviði fyrir<strong>Bókunartegund reiknings lánardrottins afsláttar</strong> á<strong>Reikningar fyrir sjálfvirkar færslur</strong> síðu.</li>
+<li>Svæði <strong>aðallykils</strong> fyrir <strong>Afsláttur lánardrottnareikninga</strong> bókunargerð <strong>Lyklar fyrir sjálfvirkar færslur</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Ef reikningslínan vísar innkaupapöntunarlínu, nota lykilsdreifingar fyrir innkaupapöntunarlínuna.</li>
 <li>Nota fjárhagsvíddir úr dreifingar á fjárhagsupphæð fyrir heildarverð á reikningslínu lánardrottins.</li>
 <li>Nota fjárhagsvíddargildi reikningslínu lánardrottins.</li>
-<li>Notaðu sjálfgefna fjárhagsvíddargildi frá aðalreikningi á<strong>Reikningsyfirlit</strong> síðu.</li>
+<li>Nota sjálfgefin gildi fjárhagsvídda frá aðallykli á síðunni <strong>Bókhaldslykill</strong>.</li>
 </ol></td>
 </tr>
 </tbody>
@@ -228,7 +228,7 @@ Ef lánardrottinsreikningnum vísar til innkaupapöntunar, er hægt að skipta o
 
 ## <a name="distributing-taxes"></a>Dreifing skatta
 
-Ekki er hægt að stofna dreifingu á fjárhagsupphæð fyrr en skattar hafa verið reiknaðir. Til að reikna út söluskatt verður þú að klára eitt af eftirfarandi verkefnum á **Reikningur seljanda** síða:
+Ekki er hægt að stofna dreifingu á fjárhagsupphæð fyrr en skattar hafa verið reiknaðir. Til að reikna virðisaukaskatt, verður að ljúka eitt af eftirtöldum verkefnum á síðunni **Reikningur lánardrottnins**:
 -   Skoða samtölu reiknings.
 -   Skoða VSK.
 -   Skoða færslubók undirfjárhags.

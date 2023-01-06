@@ -1,6 +1,6 @@
 ---
 title: Hanna skilgreiningar rafrænnar skýrslugerðar til að fylla inn í PDF-sniðmát
-description: Þessi grein veitir upplýsingar um hvernig á að hanna rafræn skýrslugerð (ER) snið til að fylla út PDF sniðmát.
+description: Þessi grein veitir upplýsingar um hvernig á að hanna snið rafrænnar skýrslugerðar til að fylla út PDF-sniðmát.
 author: kfend
 ms.date: 03/18/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.openlocfilehash: 4056c2b9442e26a0e1c99e6155a3cd605d222974
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9283314"
@@ -25,11 +25,11 @@ ms.locfileid: "9283314"
 
 [!include[banner](../includes/banner.md)]
 
-Verklagsreglurnar í þessari grein eru dæmi sem sýna hvernig notandi í annaðhvort **Kerfisstjóri** hlutverk eða **Framkvæmdaraðili rafrænna skýrslugerðar** hlutverk getur stillt rafræna skýrslugerð (ER) snið sem býr til skýrslur sem PDF skrár með því að nota útfyllanleg PDF skjöl sem skýrslusniðmát. Þessi skref er hægt að framkvæma í hvaða fyrirtæki sem er í Dynamics 365 Finance eða Regulatory Configuration Services (RCS).
+Ferlin í þessari grein eru dæmi sem sýna hvernig notandi í annaðhvort hlutverkinu **Kerfisstjóri** eða **Þróunaraðili rafrænnar skýrslugerðar** getur skilgreint snið rafrænnar skýrslugerðar sem býr til skýrslur sem PDF-skrár með því að nota útfyllanleg PDF-skjöl sem skýrslusniðmát. Hægt er að framkvæma þessi skref í hvaða fyrirtæki af Dynamics 365 Finance eða Regulatory Configuration Services (RCS).
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú byrjar verður þú að hafa eina af eftirfarandi tegundum aðgangs, allt eftir þjónustunni sem þú notar til að klára ferlið í þessari grein:
+Áður en hafist er handa verður einn af eftirfarandi aðgangsgerðum að vera fyrir hendi, háð þjónustunni sem er notuð til að ljúka ferlunum í þessari grein:
 
 - Aðgangur að Finance fyrir eitt af eftirfarandi hlutverkum:
 
@@ -252,14 +252,14 @@ Vegna þess að báðir eiginleikarnir eru valkvæðir fyrir sniðseininguna **R
 - Ef eigindin **Heiti** er skilgreind og segðin **Heiti** er skilgreind, er PDF-reiturinn fylltur út sem er með sama heiti og gildið sem segðin **Heiti** skilar fyrir sniðseininguna.
 
 > [!NOTE]
-> Þegar gátreitur í PDF sniðmátinu tilheyrir ekki hópi gátreita er hann sýndur á breytanlegu ER sniði sem **Field** þáttur sem er hreiður undir **PDF skrá** þáttur. Hægt er að stilla þessa tegund af PDF gátreit sem valinn á eftirfarandi hátt:
+> Þegar gátreitur í PDF-sniðmátinu tilheyrir ekki hópi gátreita er hann sýndur á breytanlegu sniði rafrænnar skýrslugerðar sem eininginn **Reitur** sem er faldaður undir einingunni **PDF-skrá**. Hægt er að velja þessa tegund PDF-gátreits á eftirfarandi hátt:
 >
-> - Samsvarandi **Field** sniðsþáttur er bundinn við gagnauppspretta reit í *[Boolean](er-formula-supported-data-types-primitive.md#boolean)* gagnategund sem hefur gildið **Satt**.
-> - Samsvarandi **Field** sniðþáttur inniheldur hreiður **Strengur** sniðþáttur sem er bundinn við reit gagnagjafa sem hefur textagildið á **1**, **·**, eða **Já**.
+> - Samsvarandi sniðseiningin **Reitur** er bundin við reit gagnagjafar af gagnagerðinni *[Boolean](er-formula-supported-data-types-primitive.md#boolean)* sem er með gildið **Satt**.
+> - Samsvarandi sniðseining **Reitur** inniheldur faldaða sniðseiningu **Strengur** sem er bundin við reit gagnagjafa sem er með textagildi **1**, **Satt** eða **Já**
 >
-> Sniðmátið þitt getur innihaldið hóp af gátreitum þar sem aðeins er hægt að velja einn gátreit í einu. Þessir gátreitir eru sýndir í PDF sniðmáti sem margir eyðublaðareitir *GÉTTARITI* tegund. Hver reitur hefur sama nafn en mismunandi útflutningsgildi. Þegar þú flytur sniðmátið inn í breytanlega ER sniðið, verður hver gátreitur sýndur í stigveldisskipulagi sniðsins sem **Atriði í gátreit hóp** þáttur sem er hreiður undir það sama **Gátreit hópur** þáttur. Nafnið á **Gátreit hópur** þáttur mun jafnast á við heiti gátreitarreitanna í PDF sniðmátinu. Nafn hvers og eins **Atriði í gátreit hóp** þáttur jafngildir útflutningsgildi samsvarandi gátreits í PDF sniðmátinu.
+> Sniðmátið þitt getur verið með hóp af gátreitum þar sem aðeins má velja einn gátreit í einu. Þessir gátreitir eru sýndir í PDF-sniðmáti sem margir innfærslureitir af gerðinni *GÁTREITUR*. Hver reitur hefur sama heiti en annað útflutningsgildi. Þegar þú flytur sniðmátið inn í breytanlegt snið rafrænnar skýrslugerðar verður hver gátreitur sýndir í stigveldisskipulagi sniðsins sem einingin **Atriði í gátreitahóp** sem er faldað undir sömu einingunni **Gátreitahópur**. Heiti einingarinnar **Gátreitahópur** mun jafngilda heitinu á reitum gátreita í PDF-sniðmátinu. Heiti hverrar einingar **Atriði í gátreitahóp** mun jafngilda útflutningsgildi samsvarandi reits gátreits í PDF-sniðmátinu.
 >
-> Þú getur bundið a **Atriði í gátreit hóp** þáttur í reit gagnagjafa í *Boolean* eingöngu gagnategund.
+> Þú getur aðeins bundið eininguna **Atriði í gátreitahóp** við gagnagjafareits af gagnagerðinni *Boole-gildi*.
 
 ## <a name="run-the-format-configuration"></a>Keyra skilgreiningu sniðs
 
@@ -301,17 +301,17 @@ Eftirfarandi skýringarmynd sýnir dæmi um aðra síðu skýrslunnar sem er bú
 
 ## <a name="limitations"></a>Takmarkanir
 
-Nöfn fyllanlegra reita ættu að vera einstök á PDF eyðublaðinu sem þú ætlar að nota sem skýrslusniðmát. Fyrir hvern slíkan reit er einstakur sniðþáttur með samsvarandi nafni búinn til á breytanlegu ER sniði þegar PDF eyðublað er flutt inn. Ef PDF eyðublað inniheldur nokkra reiti með sama nafni, er einn sniðþáttur búinn til fyrir reitina sem gerir ekki kleift að fylla þá út hver fyrir sig á keyrslutíma.
+Nöfn reita sem hægt er að fylla út eiga að vera einkvæm í PDF-eyðublaðinu sem ætlunin er að nota sem skýrslusniðmát. Fyrir hvern slíkan reit mun ein sniðmátseining með samsvarandi heiti vera búin til í breytanlegu sniði rafrænnar skýrslugerðar þegar PDF-eyðublað er flutt inn. Ef PDF-eyðublað inniheldur nokkra reiti með sama heitinu er ein sniðseining búin til fyrir reitina sem leyfir ekki að þeir séu fylltir út hver fyrir sig við keyrslu.
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 
-### <a name="when-i-run-the-er-format-to-generate-a-report-in-pdf-format-why-do-i-get-the-following-errors--cannot-handle-iref-streams-the-current-implementation-of-pdfsharp-cannot-handle-this-pdf-feature-introduced-with-acrobat-6-and-a-pdf-name-must-start-with-a-slash-"></a>Þegar ég keyri ER sniðið til að búa til skýrslu á PDF sniði, hvers vegna fæ ég eftirfarandi villur: **Þolir ekki iref strauma. Núverandi útfærsla PDFSharp ræður ekki við þennan PDF eiginleika sem kynntur er með Acrobat 6.** og **PDF nafn verður að byrja á skástrik (/).**
+### <a name="when-i-run-the-er-format-to-generate-a-report-in-pdf-format-why-do-i-get-the-following-errors--cannot-handle-iref-streams-the-current-implementation-of-pdfsharp-cannot-handle-this-pdf-feature-introduced-with-acrobat-6-and-a-pdf-name-must-start-with-a-slash-"></a>Þegar ég keyri snið rafrænnar skýrslugerðar til að búa til skýrslu í PDF-eyðublaði af hverju fæ ég eftirfarandi villur: **Ekki hægt að meðhöndla iref-strauma. Núverandi innleiðing á PDFSharp getur ekki meðhöndlað þennan PDF-eiginleika sem fylgdi með Acrobat 6.** og **Heiti PDF verður að byrja á skástriki (/).**
 
-ER ramminn notar útgáfu 1.5 af PDFSharp bókasafninu til að búa til þessar PDF skýrslur. Sumir eiginleikar PDF 1.5 (Adobe Reader 6.0) eru ekki enn innleiddir í þessu bókasafni. Þess vegna getur PDFSharp ekki enn opnað sumar skrár sem eru merktar sem **fyrir PDF 1.5 eða hærra** og getur leitt til villna sem berast. Notaðu eina af eftirfarandi lausnum til að leysa vandamálið:
+Rammi rafrænnar skýrslugerðar notar útgáfu 1.5 af PDFSharp-safninu til að búa til þessar PDF-skýrslur. Sumir eiginleikar PDF 1.5 (Adobe Reader 6.0) eru ekki enn innleiddir í þessu safni. Því getur PDFSharp ekki enn opnað sumar skrár sem eru merktar sem **fyrir PDF 1.5 eða hærra** og getur leitt til móttekinna villna. Notið eina af eftirtöldum lausnum til að leysa vandamálið:
 
--   Þegar þú notar þitt eigið PDF sniðmát: Færðu niður sniðmátið í fyrra Adobe útgáfu og byrjaðu að nota nýtt sniðmát á ER sniði þínu.
--   Þegar þú notar ER sniðmát sem var deilt með þér af annarri stillingarveitu sem hluta af ER lausn: Hafðu samband við eiganda þessarar ER lausnar og gefðu lýsingu á vandamálinu.
--   Þegar þú notar ISV lausnina sem inniheldur eldri útgáfu af PDFSharp bókasafninu: Hafðu samband við eiganda lausnarinnar og leggðu til uppfærslu í nýrri PDFSharp útgáfu.
+-   Þegar þú notar þitt eigið PDF-sniðmát: Niðurfærðu sniðmátið í eldri Adobe útgáfu og byrjaðu að nota nýtt sniðmát á sniði rafrænnar skýrslugerðar.
+-   Þegar þú notar sniðmát rafræns skýrslugerðarsniðs sem önnur skilgreiningarveita deildi með þér sem hluti af rafrænni skýrslugerðarlausn: Hafðu samband við eiganda þessarar rafrænu skýrslugerðarlausnar og skrifaðu lýsingu á vandamálinu.
+-   Þegar þú notar ISV-lausnina sem inniheldur eldri útgáfu af PDFSharp-safninu: Hafðu samband við eiganda lausnarinnar og leggðu til uppfærslu á nýrri PDFSharp-útgáfu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

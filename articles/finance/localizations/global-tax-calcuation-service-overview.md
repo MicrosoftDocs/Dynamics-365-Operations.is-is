@@ -1,6 +1,6 @@
 ---
 title: Yfirlit skattaútreiknings
-description: Þessi grein útskýrir heildarumfang og eiginleika skattaútreikningsmöguleikans.
+description: Þessi grein skýrir heildarumfang og eiginleika skattaútreikningsgetu.
 author: EricWangChen
 ms.date: 09/08/2022
 ms.topic: overview
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
 ms.openlocfilehash: cafc4c7089e0c042fc65c1e3fd21f8f1e930b785
 ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/18/2022
 ms.locfileid: "9689885"
@@ -26,7 +26,7 @@ ms.locfileid: "9689885"
 
 Skattaútreikningur er þjónusta með stillanlegri þjónustu fyrir marga notendur sem gerir altæku skattkerfi kleift að einfalda skattaákvörðun og útreikning og gera það sjálfvirkt. Skattvélin er fullkomlega stillanleg. Einingarnar sem hægt er að stilla fela í sér, en takmarkast ekki við, skattalega gagnalíkansins, skattkóða, fylkisins fyrir skattskyldu og formúlu skattútreiknings. Skattkerfið keyrir á Microsoft Azure verkvangi og býður upp á nútímatækni og sveigjanleika.
 
-Skattaútreikningur er samþættur Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Að lokum verður hún einnig samþætt við Dynamics 365 Project Operations, Dynamics 365 Commerce og önnur forrit frá fyrstu og þriðju aðilum.
+Skattaútreikningur samþættist Dynamics 365 Finance og Dynamics 365 Supply Chain Management. Að lokum verður hún einnig samþætt við Dynamics 365 Project Operations, Dynamics 365 Commerce og önnur forrit frá fyrstu og þriðju aðilum.
 
 > [!IMPORTANT]
 > Þegar skattaútreikningur er virkjaður gætu sumar aðgerðir á tengdum gögnum verið framkvæmdar í gagnamiðstöð annarri en gagnamiðstöðinni sem heldur utan um þjónustugögnin. Yfirfarið [Skilmálana](https://go.microsoft.com/fwlink/?linkid=2156043) áður en skattaútreikningur er virkjaður. Persónuvernd þín er okkur mikilvæg. Frekari upplýsingar má finna í [tilkynningu okkar um persónuvernd](https://go.microsoft.com/fwlink/?LinkId=521839).
@@ -70,9 +70,9 @@ Skattaútreikningur er í boði á eftirfarandi staðsetningum Azure. Fleiri Azu
 > Skattaútreikningur styður ekki eldri útgáfu af Dynamics 365, svo sem Dynamics AX 2012 eða uppsetningu á staðnum af Dynamics 365.
 
 ## <a name="versions"></a>Útgáfur
-Við mælum með því að þú flytur inn og stillir upp skattaútreikninginn þinn með útgáfunni sem passar við útgáfuna þína fyrir fjármála- eða framboðskeðjustjórnun.
+Mælt er með því að þú flytjir inn og setjir upp skattaútreikningsstillingar með þeirri útgáfu sem passar við útgáfu Finance eða Supply Chain Management.
 
-| Útgáfa fjármála eða birgðakeðjustjórnunar | Skattstillingarútgáfa               |
+| Finance- eða Supply Chain Management-útgáfa | Útgáfa skattaskilgreiningar               |
 | --------------- | --------------------------------------- |
 | 10.0.31         | Skattaútreikningsstilling 40.56.240 |
 | 10.0.30         | Skattaútreikningsstilling 40.55.239 |
@@ -83,7 +83,7 @@ Við mælum með því að þú flytur inn og stillir upp skattaútreikninginn �
 
 ## <a name="data-flow"></a>Gagnaflæði
 
-Hér er yfirlit yfir gagnaflæðisferlið fyrir skattútreikning. 
+Hér er útlistun á gagnaflæðisferlinu fyrir Skattaútreikningur. 
 
 1. Í RCS skaltu skoða og flytja inn skilgreiningar á líkönum skattskyldra skjala og skilgreiningar líkanavörpunar. Ef þú verður að stækka skilgreiningar fyrir ítarlegri aðstæður skaltu skoða [Bæta við gagnareitum í skattaskilgreiningum](tax-service-add-data-fields-tax-configurations.md).
 2. Í RCS skaltu búa til eða vinna með skattaeiginleika. Þú getur notað skattaeiginleika til að vinna með skatthlutföll og gildissviðsreglur skatts.
@@ -97,7 +97,7 @@ Hér er yfirlit yfir gagnaflæðisferlið fyrir skattútreikning.
 
 Hægt er að virkja skattaútreikning eftir færslum. 
 
-Eftirfarandi tafla sýnir færslurnar sem studdar eru í samsvarandi útgáfu.
+Í eftirfarandi töflu er listi yfir þær færslur sem stuðst er við í samsvarandi útgáfu.
 
 | Útgáfa | Færslur |
 |---------|--------------|
@@ -109,17 +109,17 @@ Eftirfarandi tafla sýnir færslurnar sem studdar eru í samsvarandi útgáfu.
 
 ## <a name="supported-countriesregions"></a>Studd lönd/svæði
 
-Skattaútreikning er hægt að keyra með studdum staðsetningareiginleikum. Eftirfarandi tafla sýnir lönd/svæði fyrir aðalheimilisfang lögaðila.
+Hægt er að keyra skattaútreikning með studdum staðfærslueiginleika. Í eftirfarandi töflu er listi yfir lönd/svæði fyrir aðalheimilisfang lögaðila.
 
 | Útgáfa | Land/svæði |
 |---------|----------------|
 | 10.0.26 | - Kína <br>- Tékkland<br>- Spánn |
 | 10.0.24 | Mexíkó |
 | 10.0.23 | - Taíland <br>- Japan <br>- Malasía <br>- Singapúr |
-| 10.0.22 | - Ástralía<br>- Barein <br>- Kanada<br>- Egyptaland <br>- Hong Kong SAR <br>- Kúveit <br>- Nýja Sjáland <br>- Óman <br>- Katar <br>- Sádi-arabíska <br>- Suður-Afríka <br>- Sameinuðu arabísku furstadæmin |
-| 10.0.21 | - Austurríki <br>- Belgía <br>- Danmörk <br>- Eistland <br>- Finnland <br>- Frakkland <br>- Þýskaland <br>- Ungverjaland <br>- Ísland <br>- Írland <br>- Ítalía <br>- Lettland <br>- Litháen <br>- Hollandi <br>- Noregur <br>- Pólland <br>- Svíþjóð <br>- Sviss <br>- Bretland <br>- Bandaríkin |
+| 10.0.22 | - Ástralía<br>- Barein <br>- Kanada<br>- Egyptaland <br>- Hong Kong (sérstjórnarsvæði) <br>- Kúveit <br>- Nýja-Sjáland <br>- Óman <br>- Katar <br>- Sádi-Arabía <br>- Suður-Afrík <br>- Sameinuðu arabísku furstadæmin |
+| 10.0.21 | - Austurríki <br>- Belgía <br>- Danmörk <br>- Eistland <br>- Finnland <br>- Frakkland <br>- Þýskaland <br>- Ungverjaland <br>- Ísland <br>- Írland <br>- Ítalía <br>- Lettland <br>- Litháen <br>- Holland <br>- Noregur <br>- Pólland <br>- Svíþjóð <br>- Sviss <br>- Bretland <br>- Bandaríkin |
 
-Fyrir öll lönd/svæði sem ekki eru staðbundin af Microsoft er einnig hægt að virkja skattaútreikning og keyra hann með öðrum alþjóðlegum eiginleikum.
+Fyrir hvaða land/svæði sem er sem ekki er staðfært af Microsoft er einnig hægt að virkja Skattaútreikning og keyra hann með öðrum altækum eiginleikum.
 
 ## <a name="related-resources"></a>Tengd tilföng
 

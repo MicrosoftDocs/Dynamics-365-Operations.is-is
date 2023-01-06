@@ -1,6 +1,6 @@
 ---
 title: Setja upp færibreytur á sniði rafrænnar skýrslugerðar fyrir hvern lögaðila
-description: Þessi grein útskýrir hvernig þú getur sett upp færibreytur rafrænnar skýrslugerðar (ER) sniðs fyrir hvern lögaðila.
+description: Þessi grein útskýrir hvernig á að setja upp færibreytur á sniði rafrænnar skýrslugerðar fyrir hvern lögaðila.
 author: kfend
 ms.date: 03/25/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 ms.openlocfilehash: 4b2e91e43938b71b78a4b7bc57b5b16ca174b1b7
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291393"
@@ -30,7 +30,7 @@ ms.locfileid: "9291393"
 
 Til að ljúka þessum skrefum þarf fyrst að ljúka skrefunum í [Grunnstilla ER-snið til að nota færibreytur sem eru tilgreindar fyrir hvern lögaðila](er-app-specific-parameters-configure-format.md).
 
-Til að klára dæmin í þessari grein verður þú að hafa aðgang að Microsoft Dynamics 365 Fjármál fyrir eitt af eftirfarandi hlutverkum:
+Til að ljúka dæmunum í þessari grein þarftu að hafa aðgang að Microsoft Microsoft Dynamics 365 Finance fyrir eitt af eftirfarandi hlutverkum:
 
 - Þróunaraðili rafrænnar skýrslulausnar
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
@@ -221,12 +221,12 @@ Færibreytur forritsins fyrir ER-snið eru háðar lögaðila. Til að endurnýt
 
 Einnig er hægt að nota þessa útflutnings-innflutningsaðferð til að flytja forritsfæribreytur ER-sniðs sem voru upprunalega skilgreindar í einu tilviki af Finance í annað tilvik af Finance.
 
-Ef þú stillir færibreytur tiltekins forrits fyrir eina útgáfu af ER-sniði og flytur síðan inn nýrri útgáfu af sama sniðinu í núverandi Finance-tilvik verða fyrirliggjandi færibreytur tiltekins forrits ekki notaður í innfluttu útgáfunni nema þú notir eiginleikann **Nota sértækar færibreytur fyrir forrit úr fyrri útgáfum sniða rafrænnar skýrslugerðar**. Fyrir frekari upplýsingar, sjá [Endurnotaðu núverandi færibreytur](#reuse-existing-parameters) kafla síðar í þessari grein.
+Ef þú stillir færibreytur tiltekins forrits fyrir eina útgáfu af ER-sniði og flytur síðan inn nýrri útgáfu af sama sniðinu í núverandi Finance-tilvik verða fyrirliggjandi færibreytur tiltekins forrits ekki notaður í innfluttu útgáfunni nema þú notir eiginleikann **Nota sértækar færibreytur fyrir forrit úr fyrri útgáfum sniða rafrænnar skýrslugerðar**. Nánari upplýsingar er að finna í hlutanum [Endurnota fyrirliggjandi færibreytur](#reuse-existing-parameters) síðar í þessari grein.
 
 Þegar þú velur skrá til að flytja inn er skipulag færibreyta tiltekins forrits í þeirri skrá borið saman við skipulag samsvarandi gagnagjafa af gerðinni **Uppfletting** í ER-sniðinu sem er valið fyrir innflutning. Innflutningi er sjálfgefið aðeins lokið ef skipulag allra færibreyta tiltekins forrits passar við skipulag samsvarandi gagnagjafa í ER-sniðinu sem er valið fyrir innflutning. Ef skipulagið passar ekki saman koma upp viðvörunarboð sem gefa til kynna að ekki sé hægt að ljúka innflutningi. Ef þú þvingar innflutninginn hreinsast upp fyrirliggjandi færibreytur tiltekins forrits fyrir valið ER-snið og þú verður að setja þær upp frá grunni.
 
 
-Frá og með Finance útgáfu 10.0.24 geturðu breytt sjálfgefna hegðun og forðast að fá viðvörunarskilaboð með því að virkja **Samræmdu sérstakar færibreytur ER forritsins meðan á innflutningi stendur** eiginleiki í **Eiginleikastjórnun** vinnurými. Þegar þessi eiginleiki er virkjaður, ef skipulag færibreyta tiltekins forrits sem þú ert að flytja inn eru öðruvísi en skipulag samsvarandi gagnagjafa í ER-sniði markmiðs sem er valið fyrir innflutning mun innflutningurinn takast í eftirfarandi tilfellum:
+Frá og með Finance-útgáfu 10.0.24 er hægt að breyta sjálfgefinni hegðun og koma í veg fyrir að fá viðvörunarboð með því að virkja eiginleikann **Stilla sértækar færibreytur fyrir forrit fyrir rafræna skýrslugerð við innflutning** á vinnusvæðinu **Eiginleikastjórnun**. Þegar þessi eiginleiki er virkjaður, ef skipulag færibreyta tiltekins forrits sem þú ert að flytja inn eru öðruvísi en skipulag samsvarandi gagnagjafa í ER-sniði markmiðs sem er valið fyrir innflutning mun innflutningurinn takast í eftirfarandi tilfellum:
 
 - Búið er að breyta skipulagi á ER-sniði markmiðs með því að bæta nýjum skilyrðisdálkum við fyrirliggjandi gagnagjafa af gerðinni **Uppfletting**. Þegar innflutningi er lokið eru færibreytur tiltekins forrits uppfærðar. Í öllum innfluttum færslum af færibreytum tiltekins forrits eru gildin í öllum viðbættum skilyrðisdálkum frumstillt með sjálfgefnu gildi fyrir [gagnagerð](er-formula-supported-data-types-primitive.md) þess dálks.
 - Búið er að breyta skipulagi á ER-sniði markmiðs með því að fjarlægja nokkra skilyrðisdálka úr fyrirliggjandi gagnagjöfum af gerðinni **Uppfletting**. Þegar innflutningi er lokið eru færibreytur tiltekins forrits uppfærðar. Í öllum innfluttum færslum af færibreytum tiltekins forrits er gildunum í öllum fjarlægðum skilyrðisdálkum eytt.
@@ -235,33 +235,33 @@ Frá og með Finance útgáfu 10.0.24 geturðu breytt sjálfgefna hegðun og for
 
 Þegar innflutningi er lokið, auk þeirra breytinga sem var verið að lýsa, er stöðu innfluttra færibreyta tiltekins forrits breytt í **Í vinnslu**. Viðvörunarboð gefa til kynna að breyta verður handvirkt sjálfkrafa leiðréttum færibreytum tiltekins forrits.
 
-#### <a name="replicate-parameters"></a>Afrita færibreytur
+#### <a name="replicate-parameters"></a>Endurgera færibreytur
 
-Frá og með Finance útgáfu 10.0.27 er hægt að afrita færibreytur sem þú stilltir í einu fyrirtæki yfir á önnur fyrirtæki á sama tíma.
+Frá og með útgáfu 10.0.27 af Finance er hægt að afrita færibreyturnar sem voru skilgreindar í einu fyrirtæki yfir í önnur fyrirtæki á sama tíma.
 
-Til að afrita færibreytur skaltu ljúka eftirfarandi skrefum.
+Til að afrita færibreytur skal ljúka eftirfarandi skrefum:
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 2. Veldu **Skilgreiningar skýrslugerðar**.
 3. Í stillingatrénu sniðmátið velurðu sniðmátið **Snið til að læra hvernig eigi að fletta upp LE-gögnum**.
 4. Á Aðgerðarrúðunni, á flipanum **Stillingar** í flokkinum **Umsóknarbundnar færibreytur** veljið **Uppsetning**.
 5. Veldu útgáfu **1.1.1** á ER sniði.
-6. Á aðgerðarrúðunni velurðu **Endurtaka**.
-7. Í **Endurtaka** valmynd, á **Fyrirtæki** flipann, veldu fyrirtækin sem þú vilt afrita færibreytur til.
+6. Veldu **Endurgera** á aðgerðasvæðinu.
+7. Í svarglugganum **Endurgera**, í flipanum **Fyrirtæki**, skal velja fyrirtækin sem á að afrita færibreytur í.
 
     > [!NOTE]
-    > Listinn yfir markfyrirtæki er aðeins boðinn notendum sem fá úthlutað öryggi [hlutverki](../sysadmin/role-based-security.md#security-roles) sem er stillt til að veita öllum stofnunum aðgang.
+    > Listi yfir markfyrirtæki er aðeins í boði fyrir notendur sem eru með úhlutað [öryggishlutverki](../sysadmin/role-based-security.md#security-roles) sem er skilgreint á að veita aðgang að öllum fyrirtækjum.
 
 8. Veldu **Í lagi**.
 
     > [!NOTE]
-    > Staðfestingarglugginn lætur þig vita ef sum markfyrirtæki innihalda áður stilltar færibreytur fyrir valda útgáfu af ER sniði. Veldu **Já** að hnekkja breytunum með því að afrita þær frá núverandi fyrirtæki.
+    > Staðfestingarglugginn lætur þig vita ef sum markfyrirtæki innihalda áður skilgreindar færibreytur fyrir valda útgáfu af sniði rafrænnar skýrslugerðar. Veldu **Já** til að skrifa yfir færibreyturnar með því að afrita þær úr núverandi fyrirtæki.
 
-    Stillt sett af forritssértækum færibreytum er nú afritað til valinna fyrirtækja.
+    Skilgreint safn af færibreytum tiltekins forrits er nú afritað í valin fyrirtæki.
 
 ### <a name="reuse-existing-parameters"></a>Endurnýta fyrirliggjandi færibreytur
 
-Frá og með Finance útgáfu 10.0.23 geturðu endurnotað forritssértækar færibreytur sem hafa verið stilltar fyrir eina útgáfu af ER sniði þegar þú keyrir hærri útgáfu af sama sniði. Til að endurnýta núverandi færibreytur skaltu virkja **Notaðu forrita sérstakar færibreytur frá fyrri útgáfum af ER sniðum** eiginleiki í **Eiginleikastjórnun** vinnurými. Þegar þessi eiginleiki er virkur og þú keyrir eina útgáfu af ER sniði sem er að reyna að lesa forritssértækar færibreytur, mun ER reyna að finna forritssértækar færibreytur sem hafa verið stilltar fyrir keyrandi útgáfu sniðsins. Ef þær eru ekki tiltækar mun ER reyna að finna þær fyrir næstu lægri útgáfu sniðsins.
+Frá og með Finance-útgáfu 10.0.23 getur þú endurnotað færibreytur tiltekins forrits sem hafa verið skilgreindar fyrir eina útgáfu af ER-sniði þegar þú keyrir nýrri útgáfu af sama sniðinu. Til að endurnýta fyrirliggjandi færibreytur skal virkja eiginleikann **Nota sértækar færibreytur fyrir forrit úr fyrri útgáfum ER-sniða** á vinnusvæðinu **Eiginleikastjórnun**. Þegar þessi eiginleiki er virkjaður og þú keyrir eina útgáfu af ER-sniði sem reynir að lesa sértækar færibreytur forrits mun rafræn skýrslugerð reyna að finna sértækar færibreytur forrits sem hafa verið stilltar fyrir virka útgáfu af sniðinu. Ef þær eru ekki tiltækar mun rafræn skýrslugerð reyna að finna þær fyrir næstu lægri útgáfu af sniðinu.
 
 > [!NOTE]
 > Þú getur aðeins endurnotað sértækar færibreytur forrits innan núverandi lögaðila.

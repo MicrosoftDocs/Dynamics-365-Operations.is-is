@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Skilgreina snið til að gera talningu og samlagningu (Hluti 4 - keyra snið)
-description: Þessi grein lýsir því hvernig á að stilla rafrænt skýrslusnið til að telja og leggja saman byggt á gögnum um þegar myndaðan textaúttak. (Hluti 4)
+description: Þessi grein útskýrir hvernig á að skilgreina snið rafrænnar skýrslugerðar til að telja og gera samantekt sem byggist á gögnum fyrir þegar myndað úttak texta. (Hluti 4)
 author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERWorkspace, ERSolutionTable, IntrastatParameters, Intrastat, InventItemIdLookupSimple, IntrastatCommodityLookup, ERFormatMappingRunLogTable, DocuView
 ms.openlocfilehash: 7610e71346b57a7e624424418b22b40e51f9bb95
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290605"

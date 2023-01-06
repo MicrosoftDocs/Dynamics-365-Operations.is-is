@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 565e45a1c396b9144b4a6437056a0040b2fbde1d
 ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/06/2022
 ms.locfileid: "9228752"
@@ -51,10 +51,10 @@ Eftirfarandi umræðu veita meiri upplýsingar um hvernig á að nota síðurnar
 
 Þegar reikningur lánardrottins er opnaður úr tengdri innkaupapöntun stofnar kerfið reikningslínur úr innkaupapöntuninni. Kerfið tekur að sjálfgefnu magnið úr innhreyfingarskjali afurðar. Hins vegar er hægt að nota eitthvað af eftirfarandi sjálfgefinni hegðun:
 
-- **Magn sem móttaka á nú** – Nota þennan valkost fyrir hlutasendingar. Sjálfgefið gildi í **Magn** reiturinn verður stilltur á það magn sem tilgreint er í **Fáðu núna** reitinn á innkaupapöntuninni.
-- **Pantað magn** – hægt er að Nota þennan valkost fyrir fullbúnar sendingar. Sjálfgefið gildi í **Magn** reiturinn verður stilltur á það magn sem tilgreint er í **Pantaði** reitinn á innkaupapöntuninni.
+- **Magn sem móttaka á nú** – Nota þennan valkost fyrir hlutasendingar. Sjálfgefna gildið í reitnum **Magn** verður stillt á magnið sem tilgreint er í reitnum **Móttaka nú** í innkaupapöntuninni.
+- **Pantað magn** – hægt er að Nota þennan valkost fyrir fullbúnar sendingar. Sjálfgefna gildið í reitnum **Magn** verður stillt á magnið sem tilgreint er í reitnum **Pantað** í innkaupapöntuninni.
 - **Skráð magn** – notið þennan valkost ef varan þarfnast skráningar sem tilgreind er í **vörulíkanaflokkur** síðu. Sjálfgefna gildið í svæðinu **magn** er efnislega uppfærslumagnið sem hefur verið skráð.
-- **Magn á innhreyfingarskjali afurða** – Notið þennan valkost ef innhreyfingarskjal afurða hefur þegar verið móttekinn fyrir pöntuninni. Sjálfgefið gildi í **Magn** reiturinn er heildarmagn tiltækra vörukvittana.
+- **Magn á innhreyfingarskjali afurða** – Notið þennan valkost ef innhreyfingarskjal afurða hefur þegar verið móttekinn fyrir pöntuninni. Sjálfgefna gildið í reitnum **Magn** er heildarmagnið af tiltækum innhreyfingarskjölum afurða.
 - **Skráð magn og þjónustur** – Notið þennan valkost ef magn hefur verið skráð í komubókum fyrir vörur í birgðum eða vörur sem ekki eru í birgðum. Þessi valkostur inniheldur einnig þjónustu, án tillits til þess hvort hún sé skráð.
 
 Ef lögaðili þinn notar reikningsjöfnun, geturðu skoða niðurstöður úr jöfnun magns í **jöfnun magns fyrir Innhreyfingarskjal afurða** dálkur. Einnig er hægt að nota hnappinn **Jöfnunarupplýsingar** í **Yfirfara** flipanum í aðgerðarúðunni til að skoða niðurstöður jöfnunar magns.
@@ -65,16 +65,16 @@ Hægt er að bæta við línu sem ekki var á innkaupapöntun við reikning lán
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Sendir reikning lánardrottins til yfirferðar
 
-Fyrirtækið gæti notað verkflæði til að stjórna endurskoðunarferli fyrir lánardrottnareikninga. Hægt er að nota verkflæði yfirferðar fyrir reikningshausa, reikningslínu, eða bæði. Verkflæðisstýringin á við haus eða línu, eftir því hvað áherslan liggur áður en stýringin er valin. Í stað þess að **Post** hnappur, a **Sendu inn** hnappur sendir reikning lánardrottins í gegnum skoðunarferlið.
+Fyrirtækið gæti notað verkflæði til að stjórna endurskoðunarferli fyrir lánardrottnareikninga. Hægt er að nota verkflæði yfirferðar fyrir reikningshausa, reikningslínu, eða bæði. Verkflæðisstýringin á við haus eða línu, eftir því hvað áherslan liggur áður en stýringin er valin. Í staðinn fyrir hnappinn **Bóka** sýnir **Senda inn** hnappur sendingu lánardrottnareiknings í gegnum ferli yfirferðar.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Kemur í veg fyrir að reikningur verði sendur inn í verkflæði 
 
 Eftirfarandi eru nokkrar leiðir til að koma í veg fyrir að reikningi sé sent inn í verkflæði.
 
-- **Heildarupphæð reiknings og skráðar heildartölur stemma ekki.** Notandinn sem sendi inn reikninginn fær tilkynningu um að heildartölurnar séu ekki jafnar. Þessi viðvörun gefur notandanum tækifæri til að leiðrétta stöðurnar áður en hann sendir reikninginn aftur í verkflæðiskerfið. Þessi eiginleiki er í boði ef **Banna uppgjöf í verkflæði þegar heildartala reiknings og skráðra reikningsheildar eru ekki jöfn** breytu á **Eiginleikastjórnun** síðu og **Verkflæðisvalkostur þegar heildartala reiknings og skráð heildartala eru ekki jöfn** breytu á **Færibreytur viðskiptaskulda** kveikt er á síðunni. 
-- **Reikningur inniheldur óúthlutuð gjöld.** Notandinn sem sendi inn reikninginn mun fá tilkynningu um að reikningurinn hafi óráðstafaða gjöld. Þannig getur notandinn leiðrétt reikninginn áður en hann sendir hann aftur inn í verkflæðiskerfið. Þessi eiginleiki er í boði ef **Banna uppgjöf á verkflæði þegar óúthlutað gjöld eru á reikningi lánardrottins** breytu á **Eiginleikastjórnun** síðu og **Verkflæðisvalkostur þegar óúthlutað gjöld eru til staðar** breytu á **Færibreytur viðskiptaskulda** kveikt er á síðunni.
-- **Reikningur inniheldur sama reikningsnúmer og annar bókaður reikningur.** Notandinn sem sendi inn reikninginn fær tilkynningu um að reikningur hafi fundist sem hefur afrit númers. Notandinn getur leiðrétt tvítekið númer áður en hann sendir reikninginn aftur í verkflæðiskerfið. Viðvörunin birtist ef **Athugaðu reikningsnúmerið sem notað er** færibreyta í Viðskiptaskuldir er stillt á **Hafna tvítekningu**. Þessi eiginleiki er tiltækur ef kveikt er á færibreytuni **Banna innsendingu í verkflæði þegar reikningsnúmerið er þegar til á bókuðum reikningi og kerfið er ekki sett upp til að samþykkja tvítekin reikningsnúmer** á síðunni **Eiginleikastjórnun**.
-- **Reikningur inniheldur línu þar sem magn reiknings er minna en samsvarandi magn í innhreyfingarskjali afurðar.** Notandinn sem sendir inn reikninginn eða reynir að bóka hann fær skilaboð um að magnið sé ekki jafnt. Þessi skilaboð gefa notandanum tækifæri til að leiðrétta gildin áður en hann sendir reikninginn aftur í verkflæðiskerfið. Þessi eiginleiki er í boði ef **Loka fyrir bókun og skil á reikningum lánardrottins í verkflæði** breytu á **Eiginleikastjórnun** síðu og **Lokaðu fyrir færslur og sendingu í verkflæði** breytu á **Færibreytur viðskiptaskulda** kveikt er á síðunni.
+- **Heildarupphæð reiknings og skráðar heildartölur stemma ekki.** Notandinn sem sendi inn reikninginn fær viðvörun um að samtölurnar séu ekki jafnar. Þessi tilkynning gefur notandanum tækifæri til að leiðrétta stöðurnar áður en hann sendir reikninginn aftur inn í verkflæðiskerfið. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Banna innsendingu í verkflæði þegar heildarupphæð reiknings og skráð heildarupphæð reiknings stemma ekki** á síðunni **Eiginleikastjórnun** og færibreytunni **Valkostur verkflæðis þegar heildarupphæð reiknings og skráð heildarupphæð stemma ekki** á síðunni **Færibreytur viðskiptaskulda**. 
+- **Reikningur inniheldur óúthlutuð gjöld.** Notandinn sem sendi inn reikninginn mun fá viðvörun um að reikningurinn sé með óúthlutuð gjöld. Á þennan hátt getur notandinn leiðrétt reikninginn áður en hann sendir hann aftur inn í verkflæðiskerfið. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Banna innsendingu í verkflæði þegar það eru óúthlutuð gjöld á reikningi lánardrottins** á síðunni **Eiginleikastjórnun** og færibreytunni **Valkostur verkflæðis þegar óúthlutuð gjöld eru til staðar** á síðunni **Færibreytur viðskiptaskulda**.
+- **Reikningur inniheldur sama reikningsnúmer og annar bókaður reikningur.** Notandinn sem sendi reikninginn fær tilkynningu um að reikningur hafi fundist með tvíteknu númeri. Notandinn getur leiðrétt tvítekið númerið áður en reikningurinn er sendur aftur inn í verkflæðiskerfið. Viðvörunin verður birt þegar færibreytan **Athuga notað reikningsnúmer** í viðskiptaskuldum er stillt á **Hafna tvítekningu**. Þessi eiginleiki er tiltækur ef kveikt er á færibreytuni **Banna innsendingu í verkflæði þegar reikningsnúmerið er þegar til á bókuðum reikningi og kerfið er ekki sett upp til að samþykkja tvítekin reikningsnúmer** á síðunni **Eiginleikastjórnun**.
+- **Reikningur inniheldur línu þar sem magn reiknings er minna en samsvarandi magn í innhreyfingarskjali afurðar.** Notandinn sem sendir inn reikninginn eða reynir að bóka hann fær skilaboð um að magnið sé ekki jafnt. Þessi skilaboð bjóða notandanum upp á tækifæri til að leiðrétta gildi áður en reikningurinn er sendur aftur í verkflæðiskerfið. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Loka fyrir bókun og innsendingu á reikningum lánardrottna í verkflæði** á síðunni **Eiginleikastjórnar** og færibreytunni **Loka fyrir bókun og innsendingu í verkflæði** á síðunni **Færibreytur viðskiptaskulda**.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Jafna lánardrottnareikninga við innhreyfingarskjöl afurða
 
@@ -102,7 +102,7 @@ Til að bóka reikning lánardrottins í runu skal á síðunni **Eiginleikastj�
 
 ## <a name="working-with-multiple-invoices"></a>Vinna með marga reikninga
 
-Hægt er að vinna með marga reikninga á sama tíma og bóka þá alla samtímis. Ef stofna þarf marga reikninga skal nota síðuna **Reikningar frá lánardrottni í bið**. Ef þú verður að bóka og prenta marga reikninga lánardrottins skaltu nota **Samþykktardagbók reikninga**. Ef þú ert að nota **Samþykktardagbók reikninga**, að minnsta kosti eina vörukvittun þarf að bóka fyrir innkaupapöntunina og reikning fyrir innkaupapöntunina verður að bóka í reikningaskrá. Fjárhagsupplýsingarnar fyrir reikninginn koma úr reikningnum sem var bókaður í komubókina.
+Hægt er að vinna með marga reikninga á sama tíma og bóka þá alla samtímis. Ef stofna þarf marga reikninga skal nota síðuna **Reikningar frá lánardrottni í bið**. Ef þarf að bóka og prenta marga reikninga lánardrottna skal nota **Staðfestingarbók reiknings**. Ef þú ert að nota **Samþykktarbók reikninga**, þarf að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina og að reikningur fyrir innkaupapöntunina þarf að hafa verið bókaður í komubók. Fjárhagsupplýsingarnar fyrir reikninginn koma úr reikningnum sem var bókaður í komubókina.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Endurheimta reikninga lánardrottna sem eru notaðir
 
@@ -142,7 +142,7 @@ Fyrir hverja færslu inniheldur skýrslan eftirfarandi reiti:
 Þegar skýrslan **Opnar færslur lánardrottins** er mynduð eru eftirfarandi sjálfgefnar færibreytur tiltækar. Hægt er að nota þær til að sía gögnin sem verða í skýrslunni.
 
 - **Útiloka síðari jafnanir** – Veldu þennan gátreit til að útiloka færslur sem eru jafnaðar eftir dagsetninguna sem er færð inn í reitinn **Opnar færslur eftir**.
-- **Opnar færslur eftir** – Færðu inn dagsetningu til að hafa með færslur sem eru opnar frá og með þeirri dagsetningu. Ef dagsetning er ekki færð inn er reiturinn stilltur á hámarksdagsetningu. (Hámarksdagsetning er nýjasta dagsetningin sem kerfið mun samþykkja, 31. desember 2154.) Sjálfgefið er að næst þegar skýrslan er keyrð verður þessi reitur stilltur á síðustu dagsetningu sem var færð inn í hann.
+- **Opnar færslur eftir** – Færðu inn dagsetningu til að hafa með færslur sem eru opnar frá og með þeirri dagsetningu. Ef dagsetning er ekki færð inn er reiturinn stilltur á hámarksdagsetningu. (Hámarksdagsetning er síðasta dagsetningin sem kerfið samþykkir: 31. desember 2154.) Næst þegar skýrslan er keyrð verður þessi reitur sjálfgefið stilltur á síðustu dagsetninguna sem var færð inn.
 
 Hægt er að nota síurnar undir reitnum **Hafa með færslu** til að takmarka enn frekar færslugögnin sem eru í skýrslunni.
 

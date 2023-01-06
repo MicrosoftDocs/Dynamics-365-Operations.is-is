@@ -1,6 +1,6 @@
 ---
 title: Skrá vottorðanúmer TDS-skattaívilnunar
-description: Þessi grein útskýrir hvernig á að skrá ívilnunarvottorðsnúmer skatta sem dregin er frá við uppruna (TDS) sem eru gefin út til lánardrottna.
+description: Í þessari grein er útskýrt hvernig á að skrá númer skattfrádráttarskírteinis á heimildarskírteini (TDS) sem eru gefin út til lánardrottna.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: 116bc5c4b4f5f0b95d05dc73f2a012fbbc065bf2
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8846614"
@@ -26,7 +26,7 @@ ms.locfileid: "8846614"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að skrá ívilnunarvottorðsnúmer skatta sem dregin er frá við uppruna (TDS) sem eru gefin út til lánardrottna.
+Í þessari grein er útskýrt hvernig á að skrá númer skattfrádráttarskírteinis á heimildarskírteini (TDS) sem eru gefin út til lánardrottna.
 
 1. Farið í **Skattur \> Óbeinir skattar \> Staðgreiðsluskattur \> Ívilnanir staðgreiðsluskatts**.
 2. Í reitnum **Skattgerð** skal velja **TDS** til að setja upp ívilnunarvottorð fyrir skattgerð TDS.

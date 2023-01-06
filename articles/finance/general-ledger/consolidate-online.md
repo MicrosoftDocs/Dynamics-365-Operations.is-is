@@ -1,6 +1,6 @@
 ---
 title: Sameiningar fjárhags á netinu
-description: Þessi grein lýsir fjárhagssamstæður á netinu í fjárhag.
+description: Í þessari grein er fjallað um sameiningu fjárhags á netinu í Fjárhag.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
 ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8848550"
@@ -24,7 +24,7 @@ ms.locfileid: "8848550"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir fjárhagssamstæður á netinu í fjárhag. Áður en þú lest þessa grein, vertu viss um að lesa [Fjárhagssamstæður og gjaldmiðlaþýðingaryfirlit](financial-consolidations-currency-translation.md) grein.
+Í þessari grein er fjallað um sameiningu fjárhags á netinu í Fjárhag. Áður en þú lest þessa grein skaltu fyrst lesa greinina [Yfirlit yfir sameiningar fjárhags og umreikning gjaldmiðils](financial-consolidations-currency-translation.md).
 
 Eftir að þú hefur lokið uppsetningunni, slærðu inn upplýsingar um sameiningu á síðunni **Sameina [á netinu]**. Þegar því er lokið geturðu smellt á **Í lagi** eða **Runa** til að vinna úr sameiningunni.
 
@@ -90,7 +90,7 @@ Frekari upplýsingar um brotthvarf er að finna í [Losunarreglur](./elimination
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-Fyrir frekari upplýsingar um sameiningu og gjaldmiðlaþýðingu, sjá móðurgrein þessarar greinar, [Fjárhagssamstæður og gjaldmiðlaþýðingaryfirlit](./financial-consolidations-currency-translation.md).
+Nánari upplýsingar um samstæðuumreikning og umreikning gjaldmiðils er að finna í yfirefni þessarar greinar, [Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils](./financial-consolidations-currency-translation.md).
 
 Nánari upplýsingar um aðstæður þar sem þú gætir búið til samstæðureikningsskil er að finna í [Búa til samstæðureikningsskil](./generating-consolidated-financial-statements.md).
 

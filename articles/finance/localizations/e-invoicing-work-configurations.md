@@ -1,6 +1,6 @@
 ---
 title: Vinna með skilgreiningar
-description: Þessi grein veitir yfirlit yfir helstu atburðarás fyrir vinnu með rafrænum skýrslum (ER) stillingum frá Hnattvæðingareiginleikum vinnusvæðinu.
+description: Í þessari grein er að finna yfirlit yfir helstu aðstæður til að vinna með skilgreiningar rafrænnar skýrslugerðar af vinnusvæði altækra eiginleika.
 author: gionoder
 ms.date: 01/26/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ''
 ms.openlocfilehash: d87559405d2490c314eb2c8b88268af0dc0dfaca
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9283056"
@@ -26,20 +26,20 @@ ms.locfileid: "9283056"
 
 [!include [banner](../includes/banner.md)]
 
-Stillingar rafrænna skýrslugerðar (ER) eru ein helsta sett af íhlutum rafrænna reikningseiginleika. ER uppsetning inniheldur uppsetningu skráarskipulagsins og sett af umbreytingarreglum til að umbreyta gögnum á tvo vegu:
+Skilgreiningar rafrænnar skýrslugerðar eru einn helsti þátturinn í eiginleikum rafrænnar reikningsfærslu. Skilgreining rafrænnar skýrslugerðar inniheldur uppsetninguna á skráarskipulagi og safn af umbreytingarreglum fyrir umbreytingu gagna á tvennan hátt:
 
-- **Flytja út ER snið stillingar** – Þessi uppsetning umbreytir gögnum úr sameinuðu innri skipulagi (ER líkan) yfir í rafrænt skráarsnið.
-- **Flytja inn ER snið stillingar** – Þessi uppsetning umbreytir gögnum úr rafrænu skráarsniði yfir í sameinaða innri uppbyggingu (ER líkan).
+- **Flytja út skilgreiningu rafræns skýrslugerðarsniðs** – Þessi skilgreining umbreytir gögnum úr sameinuðu innra skipulagi (líkan rafrænnar skýrslugerðar) í rafrænt skráarsnið.
+- **Flytja inn skilgreiningu rafræns skýrslugerðarsniðs** – Þessi skilgreining umbreytir gögnum úr rafrænu skýrslugerðarsniðið í sameinað innra skipulag (líkan rafrænnar skýrslugerðar).
 
-Auk þess að búa til rafrænar skrár á útleið á fyrirfram skilgreindu sniði, eru ER stillingar mikið notaðar til að flokka innkomin skilaboð frá ytri vefþjónustu sem svör. Þessi virkni hjálpar til við að byggja upp stillanlega rökfræði til að fá niðurstöður samskipta við ytri rásir, umbreyta þessum niðurstöðum (kóðum, skilaboðum og annálum) í notendalesanlega uppbyggingu og senda þær upplýsingar til viðskiptavinaforritsins.
+Auk þess að búa til rafrænar skrár á útleið í fyrirfram skilgreindu sniði eru skilgreiningar rafrænnar skýrslugerðar notaðar víða til að þátta skeyti á innleið úr ytri vefþjónustum sem svör. Þessi virkni hjálpar til við að byggja upp stillanleg rök til að fá niðurstöður samskipta með ytri rásum, umbreyta þessum niðurstöðum (kóðum, skeytum og klöddum) í skipulag sem er læsilegt notendum og síðan flytja þessar upplýsingar yfir í biðlaraforritið.
 
-Til að byrja að nota ER stillingar í rafræna reikningseiginleika þínum verður þú að tengja þær við eiginleikann og gera þær aðgengilegar á **Stillingar** flipa fyrir núverandi eiginleikaútgáfu. Þú getur unnið með tengda ER uppsetningu með því að velja **Bæta við**, **·**, **·**, eða **Útsýni**.
+Til að byrja að nota skilgreiningar rafrænnar skýrslugerðar í eiginleika rafrænnar reikningsfærslu þarf að tengja þær við eiginleikann og gera þær aðgengilegar í flipanum **Skilgreiningar** fyrir núverandi eiginleikaútgáfu. Hægt er að vinna með tengda skilgreiningu rafrænnar skýrslugerðar með því að velja **Bæta við**, **Eyða**, **Breyta** eða **Skoða**.
 
-Áður en þú getur bætt við tengli við ER uppsetningu verður stillingin að vera til í Regulatory Configuration Service (RCS) geymslunni þinni. Til að fara yfir ER stillingar sem eru tiltækar í RCS geymslunni þinni skaltu fylgja þessum skrefum.
+Áður en hægt er að bæta tengli við skilgreiningu rafrænnar skýrslugerðar þarf skilgreiningin að vera til í gagnageymslu Regulatory Configuration Service (RCS). Fylgdu eftirfarandi skrefum til að fara yfir ER stillingarnar sem eru tiltækar í RCS-geymslunni þinni.
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
 2. Í vinnusvæðinu **Rafræn skýrslugerð**, í kaflanum **Skilgreiningar** velurðu reitinn **Skilgreiningar skýrslugerðar**.
 
-Fyrir upplýsingar um hvernig á að búa til nýja ER-stillingu eða flytja inn núverandi ER-stillingu úr alþjóðlegu geymslunni, sjá [Rafræn skýrslugerð](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
+Upplýsingar um hvernig á að búa til nýja skilgreiningu rafrænnar skýrslugerðar eða flytja inn núverandi skilgreiningu rafrænnar skýrslugerðar úr gagnageymslunni er að finna í [Rafræn skýrslugerð](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-Til að stilla tengda ER uppsetningu skaltu velja **Breyta** á **Stillingar** flipa fyrir núverandi eiginleika rafrænna reikninga. Kerfið býr sjálfkrafa til útgáfu af ER uppsetningunni. Ef núverandi útgáfa var ekki búin til af virku stillingaveitunni, býr kerfið til afleidda útgáfu sem notar stillingarveituna þína. Ef núverandi útgáfa var búin til af virku stillingarveitunni, býr kerfið til nýja útgáfu. Í báðum tilfellum er hægt að breyta útgáfunni sem er búin til og síðan gera allar nauðsynlegar uppfærslur sjálfkrafa.
+Til að breyta tengdri skilgreiningu rafrænnar skýrslugerðar skal velja **Breyta** í flipanum **Skilgreiningar** fyrir núverandi eiginleika rafrænnar reikningsfærslu. Kerfið býr sjálfkrafa til útgáfu af skilgreiningu rafrænnar skýrslugerðar. Ef núverandi útgáfa var ekki búin til af virkri skilgreiningarveitu býr kerfið til afleidda útgáfu sem notar skilgreiningarveituna þína. Ef núverandi útgáfa var búin til af virkri skilgreiningarveitu býr kerfið til nýja útgáfu. Í báðum tilvikum er hægt að breyta útgáfunni sem er búin til og síðan gera sjálfkrafa allar nauðsynlegar uppfærslur.

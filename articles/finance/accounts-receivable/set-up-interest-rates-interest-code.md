@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3c1d85e50a8e6f57ed0678fa6169d94152320861
 ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/07/2022
 ms.locfileid: "8726073"
@@ -53,7 +53,7 @@ Til dæmis til að setja upp vaxtakóða sem metur 5 prósent vexti fyrir hverja
 > 
 > Formúla fyrir útreikning fyrir upphæð vaxtanótu er: 
 >  
-> Upphæð vaxtanótu = Upphæð skuldar *Árlegir vextir % / 365* Fjöldi daga framyfir
+> Upphæð vaxtanótu = Upphæð skuldar * Árlegir vextir % / 365 * Fjöldi daga framyfir
 >  
 > Þessi eiginleiki er tiltækur í útgáfu 10.0.18 og nýrri.    
  

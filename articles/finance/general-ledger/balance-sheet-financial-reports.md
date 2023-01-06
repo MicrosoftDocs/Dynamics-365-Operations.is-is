@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4aad297f401143388d682da175a6b14727a8f2f0
 ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/12/2022
 ms.locfileid: "9643824"
@@ -35,7 +35,7 @@ ms.locfileid: "9643824"
 | Sjálfgefin skýrsla                       | Það sem hún gerir                                                                                                                           |
 |--------------------------------------|--------------------------------------------------------------------------------------|
 | Efnahagsreikningur - Sjálfgefið              | Veitir yfirsýn yfir fjárhagslega stöðu fyrirtækisins fyrir árið.                    |
-| Efnahagsreikningur og rekstrarreikningur hlið við hlið – Sjálfgefið | Gefur yfirsýn yfir fjárhagsstöðu stofnunarinnar á árinu hlið við hlið. |
+| Efnahagsreikningur og Tekjuyfirlit Hlið við Hlið - Sjálfgefið | Veitir yfirsýn yfir fjárhagslega stöðu fyrirtækisins fyrir árið með samanburði. |
 
 ## <a name="building-blocks"></a>Einingar
 Fjárhagsskýrslur efnahagsreikninga nota eftirfarandi grunneiningar.
@@ -43,7 +43,7 @@ Fjárhagsskýrslur efnahagsreikninga nota eftirfarandi grunneiningar.
 | Sjálfgefin skýrsla                       | Skilgreining línu                       | Skilgreining dálks             |
 |--------------------------------------|--------------------------------------|-------------------------------|
 | Efnahagsreikningur - Sjálfgildi              | Efnahagsreikningur - Sjálfgildi              | YTD og frávik - Sjálfgildi    |
-| Efnahagsreikningur og rekstrarreikningur hlið við hlið – Sjálfgefið | Efnahagsreikningur og rekstrarreikningur hlið við hlið – Sjálfgefið | Dálkurinn Það sem af er ári - Sjálfgildi |
+| Efnahagsreikningur og Tekjuyfirlit Hlið við Hlið - Sjálfgefið | Efnahagsreikningur og Tekjuyfirlit Hlið við Hlið - Sjálfgefið | Dálkurinn Það sem af er ári - Sjálfgildi |
 
 ### <a name="row-definition"></a>Skilgreining línu
 

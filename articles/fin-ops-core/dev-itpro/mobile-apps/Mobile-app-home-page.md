@@ -1,6 +1,6 @@
 ---
 title: Heimasíða fartækjaforrits
-description: Þessi grein lýsir fjármála- og rekstrarforritinu (Dynamics 365) og veitir tengla á úrræði sem geta hjálpað þér að innleiða það í fyrirtækinu þínu.
+description: Þessi grein lýsir fjármála- og reksturs (Dynamics 365) fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki þínu.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.openlocfilehash: a0979df7c0cd685f810c0ab743fbede740e7aacb
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9284069"
@@ -26,7 +26,7 @@ ms.locfileid: "9284069"
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Þessi grein lýsir **Fjármál og rekstur (Dynamics 365)** farsímaforrit og veitir tengla á úrræði sem geta hjálpað þér að innleiða það í fyrirtækinu þínu.
+Þessi grein lýsir **Fjármálum- og rekstri (Dynamics 365)** fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki þínu.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -77,7 +77,7 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 <tr class="odd">
 <td>1</td>
 <td>Kerfisstjóri</td>
-<td>Innleiða fjármála- og rekstrarappið í fyrirtækinu þínu.</td>
+<td>Innleiðið fjármála- og reksturs-forritið í stofnun/fyrirtæki.</td>
 <td><ul><li>Ef þú hefur ekki enn notað útgáfu af &#39;Microsoft Dynamics 365 skaltu sjá <a href="../deployment/deploy-demo-environment.md">Virkja sýniútgáfuumhverfi</a>.</li><li>Lista yfir fartækjavinnusvæði sem hægt er að nota má sjá á <a href="mobile-workspaces-released.md">Fartækjavinnusvæði, nýlega útgefin</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -132,8 +132,8 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 <td>Notandi</td>
 <td>Sæktu og settu upp fartækjaforritið.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">App fyrir fjármál og rekstur Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Fjármála- og rekstrarforrit fyrir iOS</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Forrit fjármála- og reksturs fyrir Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Forrit fjármála- og reksturs fyrir iOS</a><BR/>
 (Styður ekki Windows Phone)
 </td>
 </tr>

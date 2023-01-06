@@ -1,6 +1,6 @@
 ---
 title: Skoða fjárhagsskýrslur
-description: Þessi grein lýsir því hvernig á að skoða og skoða fjárhagsskýrslur í Microsoft Dynamics 365 Fjármál. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
+description: Þessi grein lýsir hvernig eigi að skoða fjárhagsskýrslur í Microsoft Dynamics 365 Finance. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
 author: kweekley
 ms.date: 03/25/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8907893"
@@ -26,7 +26,7 @@ ms.locfileid: "8907893"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að skoða og skoða fjárhagsskýrslur. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
+Þessi grein lýsir hvernig eigi að búa til go skoða fjárhagsskýrslur. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
 
 ## <a name="financial-reporting-overview"></a>Yfirlit Fjárhagsskýrslugerð
 

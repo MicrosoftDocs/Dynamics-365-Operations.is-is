@@ -1,6 +1,6 @@
 ---
 title: Tilvísanir í upprunalega reikninga í kreditnótum
-description: Þessi grein útskýrir hvernig á að setja upp og prenta upprunalegu reikningsnúmerin í tengdum kreditnótum.
+description: Þessi grein útskýrir hvernig á að setja upp og prenta upprunaleg reikningsnúmer í tengdum kreditnótum.
 author: mrolecki
 ms.date: 10/26/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
 ms.openlocfilehash: f1f9ca3914aa02cc38ddfe9f8dd88eb7fc88fd4b
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9281236"
@@ -25,14 +25,14 @@ ms.locfileid: "9281236"
 [!include [banner](../includes/banner.md)]
 
 
-Í sumum löndum og svæðum er lagaleg krafa um að prentaðar kreditnótur innihaldi tilvísanir í upprunalega reikninga. Þessi grein útskýrir hvernig á að setja upp og prenta upprunalegu reikningsnúmerin í tengdum kreditnótum.
+Í sumum löndum og svæðum er lagaleg krafa um að prentaðar kreditnótur innihaldi tilvísanir í upprunalega reikninga. Þessi grein útskýrir hvernig á að setja upp og prenta upprunaleg reikningsnúmer í tengdum kreditnótum.
 
 ## <a name="prerequisites"></a>Forkröfur
 
 - Á vinnusvæðinu **Eiginleikastjórnun** skal kveikja á eiginleikanum **Útlit kreditreikningsfærslu fyrir sölu- og verkreikningsskýrslur**. Frekari upplýsingar er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Skilgreina þarf prentsnið fyrir nauðsynleg skjöl í Prentstýring.
 
-Virknin sem lýst er í þessari grein á við um eftirfarandi skjöl:
+Virknin sem lýst er í þessari grein gildir um eftirfarandi skjöl:
 
 **Viðskiptakröfur**
 

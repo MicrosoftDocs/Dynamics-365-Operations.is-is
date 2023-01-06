@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: AssetTable, SysRecordTemplateSelect
 ms.openlocfilehash: eddf489d3ae01a39df9dc809fc22ae903291a411
 ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/28/2022
 ms.locfileid: "9206065"

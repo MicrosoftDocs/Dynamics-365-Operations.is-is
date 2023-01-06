@@ -1,6 +1,6 @@
 ---
 title: Skoða verkflæðissögu
-description: Þessi grein lýsir skrefunum til að skoða stöðu skjals sem var sent inn í verkflæðiskerfið til vinnslu og samþykkis.
+description: Þessi grein lýsir skrefum til að skoða stöðu skjals sem hefur verið sent inn í kerfi verkflæðis til vinnslu og samþykkis.
 author: jasongre
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8a5810eaed5d2ff6cb5c98e1b21c098c70f24485
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8868580"
@@ -27,7 +27,7 @@ ms.locfileid: "8868580"
 
 [!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
-Þessi grein lýsir skrefunum til að skoða stöðu skjals sem var sent inn í verkflæðiskerfið til vinnslu og samþykkis. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Þessi grein lýsir skrefum til að skoða stöðu skjals sem hefur verið sent inn í kerfi verkflæðis til vinnslu og samþykkis. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
 1. Fara til **Leiðsögn gluggi > Kerfiseiningar > Sameiginlegt > Fyrirspurnir >Verkflæði > Saga verkflæðis**.
     - Notið þessa skjámynd til að skoða stöðu skjals sem hefur verið sent inn í kerfi verkflæðis til vinnslu og samþykkis.  

@@ -1,6 +1,6 @@
 ---
-title: Stilltu hjálparupplifunina fyrir fjármála- og rekstrarforrit
-description: Þessi grein veitir upplýsingar um íhluti hjálparkerfisins fyrir suma Microsoft Dynamics 365 forrit.
+title: Skilgreina upplifun af hjálp fyrir fjármála- og reksturs-forrit
+description: Þessi grein lýsir þáttum hjálparkerfisins fyrir sum Microsoft Dynamics 365-forrit.
 author: edupont04
 ms.date: 08/11/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.assetid: 0b9c8630-9474-4473-80fd-7db5d54b2275
 ms.search.form: SystemParameters
 ms.openlocfilehash: 75f3cc1b76b2a38d4004c4fa3f86a528a7eebc3f
 ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9538524"
 ---
-# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Stilltu hjálparupplifunina fyrir fjármála- og rekstrarforrit
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Skilgreina upplifun af hjálp fyrir fjármála- og reksturs-forrit
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Í þessari grein finnur þú yfirlit yfir íhluti hjálparkerfisins fyrir fjármála- og rekstrarforrit, svo sem Microsoft Dynamics 365 Fjármál,Dynamics 365 Supply Chain Management,Dynamics 365 Commerce, og Dynamics 365 Human Resources. Greinin útskýrir einnig hvernig á að tengja þessa íhluti og gefur yfirlit yfir ferlið við að búa til sérsniðna hjálp.
+Í þessari grein er að finna yfirlit yfir þætti hjálparkerfisins fyrir fjármála- og reksturs-forrit á borð við Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce og Dynamics 365 Human Resources. Greinin útskýrir einnig hvernig á að tengja þessa þætti og býður upp á samantekt yfir ferlið til að búa til sérstillta hjálp.
 
 ## <a name="help-architecture"></a>Högun Hjálpar
 
-Fjármála- og rekstrarforrit innihalda hugmyndafræðilegar yfirlit og önnur efni sem eru birt á [Microsoft Dynamics 365 skjöl](/dynamics365/) síða. Þetta efni er svo hægt að nálgast á **hjálparsvæði** vörunnar. Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins.
+Forrit fjármála- og reksturs innihalda almenn yfirlit og önnur efnisatriði sem eru birt á vefsvæðinu [Fylgiskjöl Microsoft Dynamics 365](/dynamics365/). Þetta efni er svo hægt að nálgast á **hjálparsvæði** vörunnar. Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins.
 
 [![Högun Hjálpar.](./media/help-architecture.png)](./media/help-architecture.png)
 
-Hjálparkerfið í vörunni dregur greinar frá Microsoft Learn og aðrar tengdar vefsíður. Það sækir einnig verkleiðbeiningar sem eru vistaðar í viðskiptaferlavinnslunni (BPM) í Microsoft Dynamics Lifecycle Services (LCS).
+Hjálparkerfi vörunnar sækir greinar á Microsoft Learn og önnur tengd vefsvæði. Það sækir einnig verkleiðbeiningar sem eru vistaðar í viðskiptaferlavinnslunni (BPM) í Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="adding-task-guides"></a>Verkefnaleiðbeiningum bætt við
 
@@ -63,7 +63,7 @@ Til að skilgreina verkefnaleiðbeiningar fyrir lausn skal fylgja þessum skrefu
 2. Veljið BPM söfn (innan valins verks) til að sækja verkskráningu úr .
 3. Velja birtingarröð BPM safna. Birtingarröðin ákvarðar í hvaða röð verkskráningar úr söfnunum birtast á svæðinu **Hjálp**.
 
-Eftir að þú hefur lokið þessum skrefum geturðu opnað **Hjálp** rúðu og veldu **Verkefnaleiðbeiningar** flipa. Þú munt nú sjá verkefnaleiðbeiningarnar sem eiga við síðuna sem þú ert á núna í fjármála- og rekstrarforritum. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.
+Eftir að þessum skrefum hefur verið lokið, er hægt að opna rúðuna **Hjálp** og smella á flipann **Verkleiðbeiningar**. Nú sérðu verkefnaleiðbeiningar sem eiga við um síðuna sem þú ert á í fjármálum- og rekstri. Ef engin verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.
 
 ### <a name="showing-translated-task-guides"></a>Sýnir þýddar leiðbeiningar verkefninu
 
@@ -87,7 +87,7 @@ Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það
 
 ### <a name="connect-a-custom-help-site"></a>Tengja sérstillt hjálparsvæði
 
-Fjármála- og rekstrarforrit eru sjaldan notuð í útbúnum formi. Þess í stað er lausnin sérsniðin og útvíkkuð til að passa við þarfir fyrirtækisins. Einnig er hægt að sérsníða og víkka út hjálparupplifunina. Til dæmis er hægt að bæta við sérsniðinni hjálp á **hjálparsvæðið**.
+Forrit fjármála- og reksturs eru sjaldan notuð eins og þau eru afhent. Þess í stað er lausnin sérsniðin og útvíkkuð til að passa við þarfir fyrirtækisins. Einnig er hægt að sérsníða og víkka út hjálparupplifunina. Til dæmis er hægt að bæta við sérsniðinni hjálp á **hjálparsvæðið**.
 
 Microsoft hefur gefið út verkfærasett til að auðvelda uppsetningu og teningu sérsniðinnar hjálpar á **hjálparsvæðinu**. Frekari upplýsingar um hvernig hægt er að setja upp sérsniðna hjálparlausn sem er tengd við **hjálparsvæðið** er finna í [Sérsniðið hjálparyfirlit](../../dev-itpro/help/custom-help-overview.md).
 

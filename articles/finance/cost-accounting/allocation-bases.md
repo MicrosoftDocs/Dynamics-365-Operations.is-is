@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 138a1a101610fc0f18ef3d8d2d3d336e5a48a1da
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8894085"
@@ -174,7 +174,7 @@ Kostnaðarbókhald styður safn tölfræðiaðgerða með því að notast við 
 - Innflutnings-/útflutningsverkfæri í gagnastjórnun
 - Tölfræðiaðgerðir
 
-Til að sækja tölfræðiaðgerðir úr kerfinu er veitusniðmát tölfræðiaðgerðar nauðsynlegt. Sjáið veitusniðmát tölfræðiaðgerðar til að fá nánari upplýsingar. (Bætir við tengli þegar þessi grein hefur verið skrifuð.)
+Til að sækja tölfræðiaðgerðir úr kerfinu er veitusniðmát tölfræðiaðgerðar nauðsynlegt. Sjáið veitusniðmát tölfræðiaðgerðar til að fá nánari upplýsingar. (Tengli verður bætt við þegar þessi grein hefur verið skrifuð.)
 
 **Veitusniðmát tölfræðiaðgerðar**
 

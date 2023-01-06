@@ -1,6 +1,6 @@
 ---
 title: Samþætt lánardrottinssniðmát
-description: Þessi grein lýsir samþættingu söluaðilagagna milli fjármála- og rekstrarforrita og Dataverse.
+description: Þessi grein lýsir samþættingu lánardrottnagagna milli forrita fjármála- og reksturs og Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: ramasri
 ms.search.validFrom: 2019-07-15
 ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
 ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/02/2022
 ms.locfileid: "9112197"
@@ -37,7 +37,7 @@ Ef halda á áfram að geyma lánardrottnagögn í töflunni **Lykill/tengiliðu
 ![Útvíkkað gagnaflæði lánardrottins.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Ef þú ert að nota Power Apps gáttir fyrir sjálfsafgreiðsluseljendur, geta upplýsingar um söluaðila streymt beint í fjármála- og rekstraröpp.
+> Ef þú ert að nota Power Apps-gáttir fyrir lánardrottna með sjálfsafgreiðslu geta lánardrottnaupplýsingar streymt beint í forrit fjármála- og reksturs.
 
 ## <a name="templates"></a>Sniðmát
 
@@ -52,7 +52,7 @@ Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla     | lýsing
 [Greiðsluáætlunarlínur](mapping-reference.md#159) | msdyn_paymentschedulelines | Samstillir tilvísunargögn greiðsluáætlunarlína, bæði fyrir viðskiptavini og lánardrottna.
 [Greiðsluáætlun](mapping-reference.md#160) | msdyn_paymentschedules | Þetta sniðmát samstillir tilvísunargögn greiðsluáætlunar, bæði fyrir viðskiptavini og lánardrottna.
 [Greiðsluskilmálar](mapping-reference.md#161) | msdyn_paymentterms | Þetta sniðmát samstillir tilvísunargögn greiðsluskilmála (skilmála greiðslu), bæði fyrir viðskiptavini og lánardrottna.
-[Lánardrottnar V2](mapping-reference.md#202) | msdyn_vendors | Fyrirtæki sem nota sérsniðna lausn fyrir söluaðila geta nýtt sér hugmyndina um söluaðila sem er út úr kassanum sem verið er að kynna í Dataverse vegna samþættingar fjármála- og rekstrarforrita.
+[Lánardrottnar V2](mapping-reference.md#202) | msdyn_vendors | Fyrirtæki sem nota sérsniðna lausn fyrir lánardrottna geta nýtt sér hugtakið tilbúinn lánardrottinn sem er kynntur til sögunnar í Dataverse vegna samþættingar forrita fjármála- og reksturs.
 [Lánardrottnaflokkar](mapping-reference.md#200) | msdyn_vendorgroups | Þetta sniðmát samstillir upplýsingar um hóp lánardrottna.
 [Greiðsluháttur lánardrottins](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Þetta sniðmát samstillir upplýsingar um greiðslumáta lánardrottna.
 

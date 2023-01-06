@@ -1,6 +1,6 @@
 ---
 title: Fyrirframgreiðslureikningar samanborið við fyrirframgreiðslur
-description: Þessi grein lýsir og lýsir þeim tveimur aðferðum sem stofnanir geta notað fyrir fyrirframgreiðslur (fyrirframgreiðslur) og andstæður.
+description: Þessi grein lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur).
 author: abruer
 ms.date: 10/24/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 62f828b93075c134778da280243c0875edf99300
 ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/25/2022
 ms.locfileid: "9715830"
@@ -26,7 +26,7 @@ ms.locfileid: "9715830"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir og lýsir þeim tveimur aðferðum sem stofnanir geta notað fyrir fyrirframgreiðslur (fyrirframgreiðslur) og andstæður. Önnur aðferðin stofnar fyrirframgreiðslureikning sem tengist innkaupapöntun. Hin aðferðin stofnar fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna.
+Þessi grein lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur). Önnur aðferðin stofnar fyrirframgreiðslureikning sem tengist innkaupapöntun. Hin aðferðin stofnar fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna.
 
 Fyrirtæki gæti gefið út fyrirframgreiðslur (fyrirframgreiðsla) til lánardrottna fyrir vörur eða þjónustu áður en þær vörur eða þjónustu hafa verið uppfylltar. Hægt er að nota tvær aðferðir til að gefa út fyrirframgreiðslur til lánardrottna. Til að lágmarka áhættu, er hægt að rekja fyrirframgreiðslur með því að skilgreina fyrirframgreiðslu á innkaupapöntun. Fyrir þessa aðferð, verður að stofna fyrirframgreiddum reikningi sem er tengd innkaupapöntun. Þessi aðferð er kallað reikningsfærsla fyrirframgreiðslu. Fyrirtæki sem vilja ekki rekja fyrirframgreiðslur jafn náið eða fá ekki fyrirframgreiðslureikning frá lánardrottni þeirra geta nota fylgiskjöl fyrirframgreiðslna í stað reikningsfærsluaðferð fyrirframgreiðslu. Hægt er að stofna færslubókafylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna. Fyrir þessa aðferð er ekki hægt að rekja hvaða fyrirframgreiðslu til lánardrottins eru gerðar á móti hvaða innkaupapantanir. Hins vegar er hægt að merkja bókaða fyrirframgreiðslu fyrir jöfnun á móti innkaupapöntun.
 
@@ -79,7 +79,7 @@ Til að skrá fyrirframgreiðslureikning lánardrottins skal fara á síðuna **
 
 Þegar fyrirframgreiðslureikningurinn er bókaður verður inneign lánardrottins og lykill fyrirframgreiðslunnar uppfært. Virðið fyrir **Nota í fyrirframgreiðslu** í skilgreiningu fyrirframgreiðslunnar sem er að finna í innkaupapöntuninni verður einnig uppfært. Sjálfgefnar fjárhagsvíddarfærslur fyrir bókaða fylgiskjal fyrirframgreiðslunnar verið tekið úr upplýsingum í haus innkaupapöntunarinnar.
 
-Ef **Læstu fjárhagsvíddir á reikningslínum á fyrirframgreiðslu reikningi lánardrottins** eiginleiki á **Eiginleikastjórnun** kveikt er á síðunni, ekki er hægt að uppfæra stærðirnar í haus eða línum fyrirframgreiðslu. 
+Ef **Læsa fjárhagsvíddum í reikningslínum á fyrirframgreiðslureikningi lánardrottins** eiginleikinn á síðunni **Eiginleikastjórnun** er virkur er ekki hægt að uppfæra víddir í haus eða línum fyrirframgreiðslu. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Bóka og jafna greiðslur fyrir fyrirframgreiðslureikning
 Næst verður fyrirframgreiðslureikningurinn greiddur af síðunni **Greiðslubók**. Til að opna greiðslubækur skal smella á **Viðskiptaskuldir \> Færslubækur \> Greiðslur \> Greiðslubók**. Þegar jöfnun greiðslunnar hefur verið bókuð á fyrirframgreiðslureikninginn verður virðið fyrir **Eftirstöðvar fyrirframgreiðslu** í innkaupapöntuninni uppfært.

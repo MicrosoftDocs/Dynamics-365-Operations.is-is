@@ -1,6 +1,6 @@
 ---
 title: Tiltæk fartækjavinnusvæði
-description: Þessi grein listar upp farsímavinnusvæðin sem eru tiltæk til notkunar.
+description: Í þessari grein er að finna lista yfir fartækjavinnusvæði sem eru í boði.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 3c9b97d02532b05aac2b02851f1b7b705a047726
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9068136"
@@ -24,10 +24,10 @@ ms.locfileid: "9068136"
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-Þessi grein sýnir farsímavinnusvæðin sem eru tiltæk til notkunar með fjármála- og rekstrarforritinu (Dynamics 365). Taflan hér að neðan gefur til kynna afskriftaáætlun fyrir hvert af þessum færanlegu vinnusvæðum með tilliti til þess hvort skipulögð sé upplifun í staðinn eða ekki.  
+Í þessari grein er að finna lista yfir fartækjavinnusvæði sem eru í boði með farsímaforrit fjármála- og reksturs (Dynamics 365). Taflan hér að neðan gefur til kynna úreldingaráætlun fyrir hvert þessara farsímavinnusvæða með tilliti til þess hvort skiptiupplifun er fyrirhuguð eða ekki.  
 
 
-| Fartækjavinnusvæði     | Lýsing   | Afskriftaáætlun   |
+| Fartækjavinnusvæði     | Lýsing   | Úreldingaráætlun   |
 |----------------------|---------------|--------------|
 |[Skráasafn fyrirtækisins](company-directory-mobile-workspace.md)| Gerir þér kleift að skoða og hafa samband við aðra starfsmenn í þínu fyrirtæki.| Hætta við |    
 |[Liðið mitt](manager-self-service-mobile-workspace.md)| Þú getur skoðað beinar skýrslur þínar og starfsfólk, sem og gefið einstaklingum hrós innan skýrslukeðjunnar.| Hætta við |     

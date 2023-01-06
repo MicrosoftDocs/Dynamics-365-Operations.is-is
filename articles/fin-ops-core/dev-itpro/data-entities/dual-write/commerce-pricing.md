@@ -1,6 +1,6 @@
 ---
 title: Notið Dynamics 365 Commerce-verðlagningarkerfi ásamt Dynamics 365 Sales
-description: Þessi grein lýsir því hvernig á að nota Microsoft Dynamics 365 Commerce verðlagningarvél til að búa til sölutilboð í Dynamics 365 Sales.
+description: Þessi grein lýsir því hvernig á að nota verðvél Microsoft Dynamics 365 Commerce til að stofna sölutilboð í Dynamics 365 Sales.
 author: ShalabhjainMSFT
 ms.date: 11/19/2020
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: shajain
 ms.search.validFrom: 2020-01-06
 ms.openlocfilehash: 11a164ec15c8b7a69172a153b961011a8b324712
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8881395"
@@ -20,7 +20,7 @@ ms.locfileid: "8881395"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að nota Microsoft Dynamics 365 Commerce verðlagningarvél til að búa til sölutilboð í Dynamics 365 Sales.
+Þessi grein lýsir því hvernig á að nota verðvél Microsoft Dynamics 365 Commerce til að stofna sölutilboð í Dynamics 365 Sales.
 
 Dynamics 365 Commerce -Verðlagningarvélin styður flestar aðstæður smásöluviðskipta til neytanda (B2C), svo sem verðlagningu á verslunarstigi, verðlagningar miðað við tengsl og vildarverð, blönduðum afslætti, magnafslætti og þröskuldarafslætti. Verðlagningarvélin notar flóknar reglur til að ákvarða besta verðið fyrir tiltekið tilboð eða pöntun.
 

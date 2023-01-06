@@ -1,6 +1,6 @@
 ---
 title: Unnið með eiginleikann Rafræn skilaboð
-description: Þessi grein veitir upplýsingar um hvernig á að vinna með rafræn skilaboð (EM) virkni.
+description: Þessi grein veitir upplýsingar um hvernig á að vinna með virkni rafrænna skilaboða.
 author: AdamTrukawka
 ms.date: 07/07/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.21
 ms.openlocfilehash: 929d3d3aad249007264204a3fd51377c8bb42377
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9279273"

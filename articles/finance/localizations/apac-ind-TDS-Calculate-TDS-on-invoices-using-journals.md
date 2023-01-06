@@ -1,6 +1,6 @@
 ---
 title: Reikna út TDS á reikningum með færslubókum
-description: Þessi grein sýnir skrefin til að reikna út frádráttarskatt (TDS) á tímaritum.
+description: Í þessari grein eru talin upp skrefin fyrir útreikning á TDS fyrir færslubækur.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: d9217029a38aa41e42a236d3cfa39993b1bcee4a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8863034"
@@ -26,7 +26,7 @@ ms.locfileid: "8863034"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir skrefin til að reikna út frádráttarskatt (TDS) á tímaritum.
+Í þessari grein eru talin upp skrefin fyrir útreikning á TDS fyrir færslubækur.
 
 Byrjið á því að opna síðuna **Almennar færslubækur** (**Fjárhag > Færslubókarfærslur > Almennar færslubækur**).
 

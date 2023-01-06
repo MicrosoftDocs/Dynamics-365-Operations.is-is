@@ -1,6 +1,6 @@
 ---
 title: Flytja inn gögn úr skrám sem voru valdar handvirkt í runustillingu
-description: Þessi grein útskýrir hvernig á að flytja inn gögn úr handvirkt völdum skrám í lotuham.
+description: Þessi grein útskýrir flutning gagna úr skrám sem voru valdar handvirkt í runustillingu
 author: kfend
 ms.date: 01/07/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERSolutionTable, ERImportFormatSourceTable, ERWorkspace
 ms.openlocfilehash: 21a2ab5f0eb07dda92baf9cc04ee36caeff8b4ec
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9288229"
@@ -27,15 +27,15 @@ ms.locfileid: "9288229"
 [!include[banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
 
-Til að nota [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) ramma til að flytja inn gögn úr handvirkt völdum skrám á heimleið í lotuham, stilla ER [sniði](er-overview-components.md#format-component) sem styður innflutninginn. Þá keyra a [módelkortlagningu](er-overview-components.md#model-mapping-component) af **Á áfangastað** gerð sem notar það snið sem gagnagjafa. Til að flytja inn gögn skaltu fletta að skránni sem þú vilt flytja inn og velja hana handvirkt. 
+Til að nota rammann [Rafræn skýrslugerð](general-electronic-reporting.md) til að flytja inn gögn úr handvirkt völdum skrám á innleið í runustillingu skal skilgreina [snið](er-overview-components.md#format-component) rafrænnar skýrslugerðar sem styður innflutninginn. Keyrðu síðan [líkanavörpun](er-overview-components.md#model-mapping-component) af gerðinni **Til endastaðar** sem notar það snið sem gagnagjafa. Til að flytja inn gögn skal fletta á skrána sem þú vilt flytja inn og velja hana handvirkt. 
 
-Nýja ER-getan sem styður gagnainnflutning í lotuham gerir kleift að stilla þetta ferli sem eftirlitslaust. Þú getur notað ER stillingar til að framkvæma gagnainnflutning með því að tímasetja nýtt runuverk frá ER notendaviðmótinu (UI).
+Nýi möguleiki rafrænnar skýrslugerðar sem styður gagnainnflutning í runustillingu virkjar þetta ferli til að vera skilgreint sem eftirlitslaust. Hægt er að nota skilgreiningar rafrænnar skýrslugerðar til að framkvæma gagnainnflutning með því að tímasetja nýja runuvinnslu úr notendaviðmóti rafrænnar skýrslugerðar.
 
-Þessi grein útskýrir hvernig á að ljúka gagnainnflutningi úr handvirkt valinni skrá í lotuham. Dæmin nota lánardrottnafærslur sem viðskiptagögn. Hægt er að ljúka skrefum þessara dæma í **USMF** fyrirtæki. Ekki er þörf á neinni kóðun.
+Þessi grein útskýrir hvernig á að ljúka gagnainnflutningi úr handvirkt valdri skrá í runustillingu. Dæmin nota lánardrottnafærslur sem viðskiptagögn. Hægt er að ljúka skrefunum þessara dæma í fyrirtækinu **USMF**. Ekki er þörf á neinni kóðun.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Til að klára dæmin í þessari grein verður þú að hafa eftirfarandi aðgang:
+Til að ljúka dæmunum í þessari grein þarftu að hafa eftirfarandi aðgang:
 
 - Eitt af eftirfarandi hlutverkum:
 
@@ -43,144 +43,144 @@ Til að klára dæmin í þessari grein verður þú að hafa eftirfarandi aðga
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
     - Kerfisstjóri
 
-- ER snið og líkanstillingar fyrir 1099 greiðslur
+- ER snið og grunnstillingar líkans fyrir 1099 greiðslur
 
-### <a name="create-the-required-er-configurations"></a>Búðu til nauðsynlegar ER stillingar
+### <a name="create-the-required-er-configurations"></a>Búðu til nauðsynlegar skilgreining rafrænnar skýrslugerðar
 
-Til að búa til nauðsynlegar ER-stillingar og fá aðrar forsendur skaltu fylgja einu af þessum skrefum:
+Til að búa til nauðsynlegar skilgreiningar rafrænnar skýrslugerðar og fá önnur skilyrði skal fylgja einu af þessum skrefum:
 
-- Spila **ER flytja inn gögn úr Microsoft Excel skrá** verkefnaleiðbeiningar, sem eru hluti af **7.5.4.3 Fá/Þróa upplýsingatækniþjónustu/lausn íhlutir (10677)** viðskiptaferli. Þessar verkefnaleiðbeiningar útskýra fyrir þér ferlið við að hanna og nota ER stillingar sem flytja inn færslur söluaðila gagnvirkt frá Microsoft Excel skrár. Nánari upplýsingar er að finna í [Þátta skjöl á innleið á Excel-sniði](parse-incoming-documents-excel.md).
-- Ljúktu við dæmin í [Stilla gagnainnflutning frá SharePoint](er-configure-data-import-sharepoint.md). Þessi dæmi útskýra fyrir þér ferlið við að hanna og nota ER stillingar sem flytja inn færslur söluaðila gagnvirkt úr Excel skrám sem eru geymdar í SharePoint möppu.
+- Spila **ER flytja inn gögn úr Microsoft Excel skrá** verkefnaleiðbeiningar, sem eru hluti af **7.5.4.3 Fá/Þróa upplýsingatækniþjónustu/lausn íhlutir (10677)** viðskiptaferli. Þessar verkefnaleiðbeiningar fylgja þér í gegnum ferlið við að hanna og nota ER grunnstillingar til að flytja inn lánardrottnafærslur á gagnvirkan máta frá Microsoft Excel skrám. Nánari upplýsingar er að finna í [Þátta skjöl á innleið á Excel-sniði](parse-incoming-documents-excel.md).
+- Ljúka dæmunum í [Skilgreina gagnainnflutning úr SharePoint](er-configure-data-import-sharepoint.md). Þessi dæmi fylgja þér í gegnum ferlið við að hanna og nota ER grunnstillingar til að flytja inn lánardrottnafærslur á gagnvirkan máta frá Excel-skrám sem eru vistaðar í möppunni SharePoint.
 
-### <a name="download-the-required-er-configurations"></a>Sæktu nauðsynlegar ER stillingar
+### <a name="download-the-required-er-configurations"></a>Sækja nauðsynlegar skilgreining rafrænnar skýrslugerðar
 
-1. Sæktu eftirfarandi ER stillingar og vistaðu þær á staðnum.
+1. Sæktu eftirfarandi skilgreiningar rafrænnar skýrslugerðar og vistaðu þær staðbundið.
 
     | Lýsing á efni | Skrá |
     |---------------------|------|
-    | **1099 Greiðslulíkan** Uppsetning ER gagnalíkans | [1099model.xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml) |
-    | **Til að flytja inn viðskipti söluaðila (Excel)** ER snið stillingar | [1099format-import-from-excel.xml](https://download.microsoft.com/download/b/3/8/b38faf0a-fbaf-4e9e-84c2-dedae7464880/1099format-import-from-excel.xml) |
+    | **1099 Greiðslulíkan** Skilgreining gagnalíkans rafrænnar skýrslugerðar | [1099model.xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml) |
+    | Skilgreining sniðs rafrænnar skýrslugerðar **Fyrir innflutning lánardrottnafærslna (Excel)** | [1099format-import-from-excel.xml](https://download.microsoft.com/download/b/3/8/b38faf0a-fbaf-4e9e-84c2-dedae7464880/1099format-import-from-excel.xml) |
 
-2. Nota [Hlaða úr XML skrá](er-defer-sequence-element.md#import-the-sample-er-configurations) ER valkostur til að flytja inn niðurhalaðar ER stillingar í tilvikið þitt af Dynamics 365 Finance í eftirfarandi röð:
+2. Notaðu valkostinn [Hlaða úr XML-skrá](er-defer-sequence-element.md#import-the-sample-er-configurations) fyrir rafræna skýrslugerð til að flytja inn sóttar skilgreiningar rafrænnar skýrslugerðar í tilvikið þitt af Dynamics 365 Finance í eftirfarandi röð:
 
     1. Skilgreining á gagnalíkani í ER
     2. ER Sníða skilgreiningu
 
-### <a name="download-the-required-excel-files"></a>Sæktu nauðsynlegar Excel skrár
+### <a name="download-the-required-excel-files"></a>Sækja nauðsynlegar Excel-skrár
 
-- Sæktu eftirfarandi sýnishornsgagnasett og vistaðu það á staðnum.
+- Sæktu eftirfarandi sýnigagnasafn og vistaðu það á staðbundið.
 
     | Lýsing á efni | Skrá |
     |---------------------|------|
-    | Á heimleið **1099import-data.xlsx** skrá sem inniheldur sýnishorn til innflutnings | [1099import-data.xlsx](https://download.microsoft.com/download/f/f/4/ff4dbce9-8364-4391-adee-877945ff01f7/1099import-data.xlsx) |
+    | **1099import-data.xlsx** skrá á innleið sem inniheldur sýnigögn fyrir innflutning | [1099import-data.xlsx](https://download.microsoft.com/download/f/f/4/ff4dbce9-8364-4391-adee-877945ff01f7/1099import-data.xlsx) |
 
-### <a name="review-the-prerequisites"></a>Farið yfir forsendur
+### <a name="review-the-prerequisites"></a>Fara yfir skilyrði
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á **Stillingar** síðu, skoðaðu tilbúna ER lausn fyrir gagnainnflutning í lotuham.
-3. Skoðaðu **Til að flytja inn viðskipti söluaðila (Excel)** sniðstillingar.
+2. Á síðunni **Skilgreiningar** skal fara yfir undirbúna lausn rafrænnar skýrslugerðar fyrir gagnainnflutning í runustillingu.
+3. Farðu yfir sniðsskilgreininguna **Fyrir innflutning lánardrottnafærslna (Excel)**.
 
-    - Sniðshluti þessarar uppsetningar er hannaður til að flokka Excel-skrá á heimleið.
-    - Líkanskortlagningarhluti þessarar uppsetningar er notaður til að fylla út grunngagnalíkanið með því að nota gögn úr þáttuðu Excel skránni.
+    - Sniðsþáttur þessarar skilgreiningar er hannaður til að þátta Excel-skrá á innleið.
+    - Þáttur líkanavörpunar fyrir þessa skilgreiningu er notaður til að fylla út í grunngagnalíkanið með því að nota gögn úr þáttaðri Excel-skrá.
 
-    ![ER snið stillingar til að flytja inn gögn í lotuham frá ER UI.](./media/er-configure-data-import-batch-configurations-1.png)
+    ![Skilgreining sniðs rafrænnar skýrslugerðar fyrir innflutning gagna í runustillingu úr viðmóti rafrænnar skýrslugerðar.](./media/er-configure-data-import-batch-configurations-1.png)
 
-4. Skoðaðu **1099 Greiðslulíkan** uppsetningu gagnalíkana.
+4. Farðu yfir **1099 Greiðslulíkan** skilgreining gagnalíkans
 
-    - Líkanhluti þessarar uppsetningar táknar uppbyggingu gagnalíkans sem er notað til að senda gögn á milli hlaupandi ER íhluta.
-    - Líkanskortlagningarhluti þessarar uppsetningar er notaður til að draga gögn úr keyrðu sniðhlutanum og uppfæra síðan forritatöflur.
+    - Líkanaþáttur þessarar skilgreiningar stendur fyrir skipulag gagnalíkansins sem er notað til að flytja gögn á milli rafrænna skýrslugerðarþátta sem eru í keyrslu.
+    - Þáttur líkanavörpunar fyrir þessa skilgreiningu er notaður til að draga gögn úr keyrðum sniðsþætti og síðan uppfæra forritstöflur.
 
-    ![Uppsetning ER gagnalíkans til að flytja inn gögn í lotuham frá ER UI.](./media/er-configure-data-import-batch-configurations-2.png)
+    ![Skilgreining gagnalíkans rafrænnar skýrslugerðar fyrir innflutning gagna í runustillingu úr notendaviðmóti rafrænnar skýrslugerðar.](./media/er-configure-data-import-batch-configurations-2.png)
 
-5. Opnaðu **1099import-data.xlsx** skrá í Excel.
+5. Opna skrána **1099import-data.xlsx** í Excel.
 
-    ![Sýnishorn af Excel skrá með gögnum til innflutnings í lotuham.](./media/er-configure-data-import-batch-excel-content.png)
+    ![Sýnishorn af Excel skrá með gögnum til innflutnings í runustillingu.](./media/er-configure-data-import-batch-excel-content.png)
 
-## <a name="enable-batch-data-import-for-er-from-the-ui"></a>Virkjaðu runugagnainnflutning fyrir ER frá notendaviðmótinu
+## <a name="enable-batch-data-import-for-er-from-the-ui"></a>Virkja runugagnainnflutning fyrir rafræna skýrslugerð í notendaviðmótinu
 
 1. Opna skal **Kerfisstjórnun** \> **Vinnusvæði** \> **Eiginleikastjórnun**.
-2. Í **Eiginleikastjórnun** vinnusvæði, veldu **Keyra ER innflutning handvirkt hlaðið upp skjölum í lotu** eiginleiki og veldu síðan **Virkja núna**.
+2. Á vinnusvæðinu **Eiginleikastjórnun** skal velja eiginleikann **Keyra innflutning rafrænnar skýrslugerðar fyrir skjöl sem var hlaðið upp handvirkt í runu** og síðan velja **Virkja núna**.
 
 ## <a name="import-data-from-manually-selected-excel-files"></a>Flytja inn gögn úr handvirkt völdum Excel skrám
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á **Stillingar** síðu, veldu **1099 Greiðslulíkan** uppsetningu gagnalíkana.
-3. Á **Stillingaríhlutir** flýtiflipann, veldu **Fyrir 1099 handvirkar færslur innflutningur** hlekkur.
-4. Á **Líkan til kortlagningar gagnagjafa** síðu, the **Fyrir 1099 handvirkar færslur innflutningur** líkanakortlagning er forvalin. Veljið **Keyra**.
-5. Á **Færibreytur** flipa, veldu **Skoðaðu**. Finndu og veldu **1099import-data.xlsx** skrá og veldu síðan **Allt í lagi**.
-6. Í **Sláðu inn auðkenni skírteinis** reit, slá inn **V-00001**.
-7. Á **Hlaupa í bakgrunni** flipann, stilltu **Lotuvinnsla** valmöguleika til **Já**.
+2. Á síðunni **Skilgreiningar** skal velja skilgreining gagnalíkans **1099 Greiðslulíkan**.
+3. Í flýtiflipanum **Skilgreiningarþættir** skal velja tengilinn **Fyrir 1099 handvirkan innflutning á færslum**.
+4. Á síðunni **Líkanavörpun á gagnagjafa** er líkanavörpunin **Fyrir 1099 handvirkan innflutning á færslum** valin fyrirfram. Veljið **Keyra**.
+5. Á flipanum **Færibreytur** skaltu velja **Fletta**. Finna og velja skrána **1099import-data.xlsx** og velja síðan **Í lagi**.
+6. Í svæði **Slá inn auðkenni fylgiskjals**, skal slá inn **V-00001**.
+7. Á flipanum **Keyra í bakgrunni**, skal stilla valkostinn **Runuvinnsla** á **Já**.
 
-    Taktu eftir því að **Verkefnalýsing** reiturinn er stilltur á **Keyrsla líkanavörpunar 'Fyrir 1099 handvirkar færslur innflutning', stillingar '1099 greiðslulíkan'**. Þetta gildi gefur til kynna að framkvæmd valinna líkanavörpunar verði tímasett sem nýtt runuverk.
+    Taktu eftir að reiturinn **Verklýsing** er stilltur á **Keyrsla líkanavörpunar „Fyrir 1099 handvirkan innflutning á færslum“, skilgreining „1099 Greiðslulíkan“**. Þetta gildi gefur til kynna að keyrsla valdrar líkanavörpunar verður tímasett sem ný runuvinnsla.
 
-    ![Tilgreina upplýsingar um innflutning gagna í lotuham í færibreytum rafrænna skýrslu.](./media/er-configure-data-import-batch-execution-parameters.png)
+    ![Skilgreinir upplýsingar um gagnainnflutning í runustillingu í svarglugga rafrænna skýrslufæribreyta.](./media/er-configure-data-import-batch-execution-parameters.png)
 
-8. Veldu **Í lagi**. Skilaboð láta þig vita að nýtt runuverk hafi verið tímasett.
+8. Veldu **Í lagi**. Skilaboð upplýsir þig um að ný runuvinnsla hafi verið tímasett.
 
-    ![Skilaboð um nýtt áætlað runuverk á kortlagningarsíðunni Líkan til gagnagjafar.](./media/er-configure-data-import-batch-scheduled-job-info.png)
+    ![Skilaboð um nýja tímasetta runuvinnslu á síðu líkanavörpunar á gagnagjafa.](./media/er-configure-data-import-batch-scheduled-job-info.png)
 
-## <a name="review-the-data-import-results-on-the-batch-job-page"></a>Skoðaðu niðurstöður gagnainnflutnings á runuvinnusíðunni
-
-1. Farið í **Almennt** \> **Fyrirspurnir** \> **Runuvinnslur** \> **Mínar runuvinnslur**.
-2. Á **Lotuvinna** síðu, síaðu listann yfir runuvinnu til að finna áætlaða lotu og veldu hana síðan.
-3. Veldu **Starfskenni** hlekkur til að skoða upplýsingar um starfið.
-4. Á **Lotuverkefni** Flýtiflipi, veldu **Log**.
-
-    ![Log hnappur á runuverkssíðunni.](./media/er-configure-data-import-batch-scheduled-job-record.png)
-
-5. Farðu yfir framkvæmdaupplýsingarnar.
-
-    ![Framkvæmdaskrá fyrir áætlaða runuvinnu á síðunni Runuverk.](./media/er-configure-data-import-batch-scheduled-job-log.png)
-
-## <a name="change-the-data-import-parameters"></a>Breyttu innflutningsbreytum gagna
-
-Eftir að runan þín hefur verið áætluð og á meðan hún hefur ekki enn verið keyrð geturðu breytt færibreytum áætlaðs gagnainnflutnings.
+## <a name="review-the-data-import-results-on-the-batch-job-page"></a>Farið yfir niðurstöður úr gagnainnflutningi á síðunni Runuvinnsla.
 
 1. Farið í **Almennt** \> **Fyrirspurnir** \> **Runuvinnslur** \> **Mínar runuvinnslur**.
-2. Á **Lotuvinna** síðu, síaðu listann yfir runuvinnu til að finna áætlaða lotu og veldu hana síðan.
+2. Á síðunni **Runuvinnsla** skal sía listann yfir runuvinnslur til að finna tímasetta runu og síðan velja hana.
+3. Veldu hlekkinn fyrir **Vinnslukenni** til að yfirfara upplýsingar um starf.
+4. Á flýtiflipanum **Runuverk** velurðu **Kladdi**.
+
+    ![Kladdahnappur á runuvinnslusíðunni.](./media/er-configure-data-import-batch-scheduled-job-record.png)
+
+5. Yfirfara framkvæmdaupplýsingar
+
+    ![Keyrsluskrá áætlaðrar runuvinnslu á síðunni Runuvinnsla.](./media/er-configure-data-import-batch-scheduled-job-log.png)
+
+## <a name="change-the-data-import-parameters"></a>Breyta færibreytum fyrir gagnainnflutning
+
+Þegar runan er tímasett og hefur ekki enn verið keyrð er hægt að breyta færibreytum tímasetts gagnainnflutnings.
+
+1. Farið í **Almennt** \> **Fyrirspurnir** \> **Runuvinnslur** \> **Mínar runuvinnslur**.
+2. Á síðunni **Runuvinnsla** skal sía listann yfir runuvinnslur til að finna tímasetta runu og síðan velja hana.
 3. Veljið **Breyta stöðu**.
-4. Í **Veldu nýja stöðu** valmynd, veldu **Halda eftir**, og veldu síðan **Allt í lagi**.
-5. Veldu **Starfskenni** hlekkur til að fá aðgang að upplýsingum um starfið.
-6. Á **Lotuverkefni** Flýtiflipi, veldu **Færibreytur**.
-7. Í **Rafræn skýrslufæribreytur** valmynd, fylgdu þessum skrefum:
+4. Í svarglugganum **Velja nýja stöðu** er valið **Halda eftir** og síðan **Í lagi**.
+5. Veldu tengilinn **Vinnslukenni** til að fá aðgang að starfsupplýsingum.
+6. Á flýtiflipanum **Runuverk** velurðu **Færibreytur**.
+7. Í svargluggann **Færibreytur rafrænnar skýrslugjafar** skal fylgja þessum skrefum:
 
-    1. Veldu **Skoðaðu** til að velja aðra skrá fyrir gagnainnflutning.
-    2. Veldu **Sláðu inn auðkenni skírteinis** til að breyta fylgiskjalsnúmeri fyrir innflutning lánardrottinsfærslur.
+    1. Veldu **Fletta** til að velja aðra skrá fyrir gagnainnflutning.
+    2. Veldu **Slá inn auðkenni fylgiskjals** til að breyta fylgiskjalsnúmerinu fyrir innflutning lánardrottnafærslna.
 
-        ![Að breyta færibreytum gagnainnflutnings fyrir áætlaða runuvinnu í svarglugganum Færibreytur rafrænna skýrslu.](./media/er-configure-data-import-batch-scheduled-job-parameters.png)
+        ![Breyting á færibreytum gagnainnflutnings fyrir tímasetta runuvinnslu í svarglugga fyrir rafrænar skýrslufæribreytur.](./media/er-configure-data-import-batch-scheduled-job-parameters.png)
 
     3. Veldu **Í lagi**.
 
-8. Gakktu úr skugga um að lotan sé enn valin og veldu síðan **Breyta stöðu** aftur.
-9. Í **Veldu nýja stöðu** valmynd, veldu **Bíður**, og veldu síðan **Allt í lagi**.
+8. Gakktu úr skugga um að runan sé enn valin og veldu svo **Breyta stöðu** aftur.
+9. Í svarglugganum **Velja nýja stöðu** skal velja **Bíður** og svo velja **OK**.
 
-## <a name="review-the-data-import-results-on-the-er-source-page"></a>Skoðaðu niðurstöður gagnainnflutnings á ER upprunasíðunni
+## <a name="review-the-data-import-results-on-the-er-source-page"></a>Fara yfir niðurstöður gagnainnflutnings á upprunasíðu rafrænnar skýrslugerðar
 
-1. Fara til **Stjórn stofnunarinnar** \> **Rafræn skýrslugerð** \> **Rafræn skýrslugjafi**.
-2. Veldu **Til að flytja inn viðskipti söluaðila (Excel)** skrá sem var sjálfkrafa búin til við innflutning gagna.
+1. Farið í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Uppruni rafrænnar skýrslugerðar**.
+2. Veldu færsluna **Fyrir innflutning lánardrottnafærslna (Excel)** sem var sjálfkrafa stofnuð við gagnainnflutninginn.
 
-    ![Skrá fyrir stillinguna Til að flytja inn færslur lánardrottna (Excel) á síðunni Uppruni rafrænnar skýrslugerðar.](./media/er-configure-data-import-batch-files-source-1.png)
+    ![Færsla fyrir skilgreiningu á Fyrir innflutning lánardrottnafærslna (Excel) á upprunasíðu rafrænnar skýrslugerðar.](./media/er-configure-data-import-batch-files-source-1.png)
 
-3. Veldu **Skráarríki fyrir heimildirnar**.
-4. Á **Skrár** og **Heimildaskrár fyrir innflutningssniðið** Flýtiflipar, skoðaðu innflutningsupplýsingarnar.
-5. Á **Skrár** Flýtiflipi, veldu færsluna. Taktu eftir að innflutta skráin er tengd þessari skrá.
+3. Veljið **Skráarstöður fyrir uppruna**
+4. Í flýtiflipunum **Skrár** og **Upprunakladdar fyrir innflutningssnið** skal fara yfir upplýsingar um innflutninginn.
+5. Á flýtiflipanum **Skrár** skal velja færslu. Takið eftir því að innflutta skráin er tengd þessari færslu.
 
-    ![Innflutt skrá sem fylgir skránni á síðunni Skráarástand fyrir heimildasíðuna.](./media/er-configure-data-import-batch-files-source-2.png)
+    ![Innflutt skrá hengd við færsluna á skráarstöðum fyrir upprunasíðuna.](./media/er-configure-data-import-batch-files-source-2.png)
 
-6. Veldu **Viðhengi** til að skoða innfluttu skrána.
+6. Veldu **Viðhengi** til að fara yfir innfluttu skrána.
 
-    ![Innflutt skrá á síðunni Skjalaskoðun.](./media/er-configure-data-import-batch-files-source-3.png)
+    ![Flutti inn skrá á síðu skjalayfirlits.](./media/er-configure-data-import-batch-files-source-3.png)
 
     > [!TIP]
-    > Til að halda þessum viðhengjum notar ER ramma skjalagerð sem er [sett](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) fyrir núverandi fyrirtæki í **Aðrir** reit ER færibreytanna.
+    > Til að halda þessum viðhengjum notar rammi rafrænnar skýrslugerðar skjalagerð sem er [stillt](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) fyrir núverandi fyrirtæki í reitnum **Annað** fyrir færibreytur rafrænnar skýrslugerðar.
 
-## <a name="review-the-data-import-results-on-the-vendor-settlement-for-1099s-page"></a>Skoðaðu niðurstöður gagnainnflutnings á síðunni Uppgjör lánardrottins fyrir 1099s
+## <a name="review-the-data-import-results-on-the-vendor-settlement-for-1099s-page"></a>Farið yfir niðurstöður gagnainnflutnings á síðu uppgjörs lánardrottins fyrir 1099s
 
-1. Fara til **Viðskiptaskuldir** \> **Reglubundin verkefni** \> **Skattur 1099** \> **Seljendauppgjör fyrir 1099s**.
-2. Í **Frá dags** reit, slá inn **31.12.2017** (31. desember 2017).
-3. Veldu **Handvirk 1099 viðskipti**.
+1. Opnið **Viðskiptaskuldir** \> **Reglubundin verkefni** \> **Skattur 1099** \> **lánardrottins fyrir 1099**.
+2. Í reitinn **Frá dagsetningu** skal slá inn **12/31/2017** (31. desember 2017).
+3. Veljið **Handvirkar 1099-færslur**.
 
-    ![Innfluttar lánardrottnafærslur á Tax 1099 færslur síðunni.](./media/er-configure-data-import-batch-imported-data.png)
+    ![Innfluttar lánardrottnafærslur á síðu 1099-skattfærslna.](./media/er-configure-data-import-batch-imported-data.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

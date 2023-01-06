@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Hanna lénasértæk gagnalíkön
-description: Þessi grein lýsir því hvernig á að búa til nýja rafræna skýrslugerð (ER) stillingu sem inniheldur gagnalíkan fyrir rafræn greiðsluskjöl.
+description: Í þessari grein er útskýrt hvernig á að stofna nýja skilgreiningu rafrænnar skýrslugerðar sem inniheldur gagnalíkan fyrir skjöl rafrænna greiðslna.
 author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERDataContainerDescriptorReferenceSwitchDialog
 ms.openlocfilehash: 6116ee7bc65aa72f655aa3e5d1467560792bd024
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291115"

@@ -1,6 +1,6 @@
 ---
 title: Listi yfir ER-aðgerðir í rökfræðiflokknum
-description: Þessi grein veitir upplýsingar um rökrænar aðgerðir sem eru studdar í rafrænum skýrslum (ER).
+description: Þessi grein veitir upplýsingar um röklegar aðgerðir sem eru studdar í rafrænni skýrslugerð (ER).
 author: kfend
 ms.date: 02/11/2021
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 1d011968d9cfa4125e7283ca36c3558e3e79b93a
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291295"

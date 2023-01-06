@@ -1,6 +1,6 @@
 ---
 title: STARTSWITH-aðgerð rafrænnar skýrslugerðar
-description: Þessi grein veitir upplýsingar um hvernig STARTSWITH rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig STARTSWITH rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 02/11/2021
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 010646d2ab96d9a326ffb01c369726790b6377a6
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9287219"

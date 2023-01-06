@@ -1,6 +1,6 @@
 ---
 title: Endurnýta stillingar rafrænnar skýrslugerðar með Excel-sniðmátum til að búa til skýrslur á Word-sniði
-description: Þessi grein lýsir því hvernig hægt er að stilla skýrslusnið sem voru hönnuð til að búa til skýrslur sem Excel vinnubækur til að búa til skýrslur sem Word skjöl.
+description: Í þessari grein er því lýst hvernig skýrslusnið sem voru hönnuð til að mynda skýrslur sem Excel-vinnubækur geta verið skilgreind til að búa til skýrslur sem Word-skjöl.
 author: kfend
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, LedgerJournalTable, LedgerJournalTransVendPaym
 ms.openlocfilehash: eea037751bc7ae4cb5e45fcaa0166d1f2f0b8292
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291175"
@@ -24,7 +24,7 @@ ms.locfileid: "9291175"
 
 [!include [banner](../../includes/banner.md)]
 
-Til að búa til skýrslur sem Microsoft Word skjöl, þú getur [stilla](../er-design-configuration-word.md) nýtt [Rafræn skýrslugerð (ER)](../general-electronic-reporting.md) sniði. Að öðrum kosti er hægt að nota snið sem var upphaflega hannað til að mynda skýrslur sem Excel-vinnubækur. Í þessu tilfelli þarf að skipta Excel-sniðmátinu út fyrir Word-sniðmát.
+Til að búa til skýrslur sem Microsoft Word-skjöl er hægt að [skilgreina](../er-design-configuration-word.md) nýtt [rafrænt skýrslugerðar](../general-electronic-reporting.md)snið. Að öðrum kosti er hægt að nota snið sem var upphaflega hannað til að mynda skýrslur sem Excel-vinnubækur. Í þessu tilfelli þarf að skipta Excel-sniðmátinu út fyrir Word-sniðmát.
 
 Eftirfarandi ferli sýna hvernig notandi annaðhvort í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar getur skilgreint snið rafrænnar skýrslugerðar til að búa til skýrslur sem Word-skrár með því að endurnýta snið rafrænnar skýrslugerðar sem var hannað til að mynda skýrslur sem Excel-skrár.
 
@@ -43,7 +43,7 @@ Einnig þarf að hlaða niður og vista eftirfarandi sniðmát staðbundið fyri
 
 ## <a name="select-the-existing-er-report-configuration"></a>Velja fyrirliggjandi grunnstilling skýrsla í Rafræn skýrslugerð
 
-1. Í Dynamics 365 Finance, farðu í **Stjórn stofnunarinnar** \> **Vinnurými** \> **Rafræn skýrslugerð**.
+1. Farðu í **Fyrirtækisstjórnun**\>**Vinnusvæði**\>**Rafræn skýrslugerð** í Dynamics 365 Finance.
 2. Gangið úr skugga um að skilgreiningarveitan **Litware, Inc** sé valin sem **Virk**. Ef svo er ekki skal fylgja skrefunum í verkleiðbeiningunni [Stofna skilgreiningarveitendur og merkja þá sem virka](er-configuration-provider-mark-it-active-2016-11.md).
 3. Veldu **Skilgreiningar skýrslugerðar**. Endurnota skal fyrirliggjandi skilgreiningu rafrænnar skýrslugerðar sem var fyrst hönnuð til að mynda skýrsluúttak á OPENXML-sniði.
 4. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Greiðslulíkan** og velja **Dæmi um vinnublaðsskýrslu**.

@@ -1,6 +1,6 @@
 ---
 title: Fyrirframgreiðslur viðskiptavinar
-description: Þessi grein útskýrir hvernig á að setja upp og vinna úr fyrirframgreiðslum viðskiptavina (einnig þekkt sem innlán viðskiptavina).
+description: Í þessari grein er því lýst hvernig á að setja upp og vinna úr fyrirframgreiðslum viðskiptavina (einnig þekkt sem innborganir viðskiptavina).
 author: twheeloc
 ms.date: 04/30/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 88773067c472471fb75167712268d1076c1738a5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8861561"

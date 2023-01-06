@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 52bf9d4e9cbc9cabda5d5ab17c1a00ecea0d0348
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8883272"
@@ -41,7 +41,7 @@ Hægt er að velja annað hvort **Dagatal** eða **reikningsár** í svæðinu *
 
 ### <a name="calendar"></a>Dagatal
 
-Valmöguleikinn **dagatal** uppfærir afskriftagrunninn (vanalega bókað nettóverð að frádregnu hrakvirði) þann 1. janúar ár hvert. Í dæminu um afskriftir á afskriftarstöðu síðar í þessari grein er afskriftargrunnurinn teljarinn í fyrstu tjáningu í útreikningsdálknum. 
+Valmöguleikinn **dagatal** uppfærir afskriftagrunninn (vanalega bókað nettóverð að frádregnu hrakvirði) þann 1. janúar ár hvert. Í dæminu um afskriftir fyrir bókfært virði hér síðar í þessari grein er afskriftargrunnurinn deilistofninn í fyrstu segðinni í útreikningsdálkinum. 
 
 Ef **dagatal** er valið eru eftirfarandi valkostir á svæðinu **tímabilstíðni**, sem skilgreinir bókunardagsetningar uppsafnaðra afskrifta og upphæðir yfir allt almanaksárið:
 

@@ -1,6 +1,6 @@
 ---
 title: Yfirlit fjárhagsáætlunar
-description: Næstum hvert fyrirtæki sem notar Financials virkni í Microsoft Dynamics 365 Finance verður að geta búið til skýrslur um fjárhagsáætlun vs raungildi. Þessi grein útskýrir lágmarksstillingu sem þarf til að búa til fjárhagsáætlanir í fjármálum og rekstri eða hlaða þeim úr þriðja aðila forriti.
+description: Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 Finance munu geta stofnað skýrslur með áætlun á móti raunvirði. Þessi grein útskýrir lágmarksskilgreiningu sem er krafist til að stofna áætlanir í fjármálum- og rekstri eða hlaða þeim inn úr forriti óháðs aðila.
 author: panolte
 ms.date: 04/29/2021
 ms.topic: overview
@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 380afc399a050215bb2d7b1e5ddb20088226f654
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9068961"
@@ -28,7 +28,7 @@ ms.locfileid: "9068961"
 
 [!include [banner](../includes/banner.md)]
 
-Næstum hvert fyrirtæki sem notar Financials virkni í Microsoft Dynamics 365 Finance verður að geta búið til skýrslur um fjárhagsáætlun vs raungildi. Þessi grein útskýrir lágmarksstillingu sem þarf til að búa til fjárhagsáætlanir í fjármálum og rekstri eða hlaða þeim úr þriðja aðila forriti.
+Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 Finance munu geta stofnað skýrslur með áætlun á móti raunvirði. Þessi grein útskýrir lágmarksskilgreiningu sem er krafist til að stofna áætlanir í fjármálum- og rekstri eða hlaða þeim inn úr forriti óháðs aðila.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -68,7 +68,7 @@ Fjárhagsáætlunarkóðarnir veita þér endurskoðunarslóð fyrir samþykktar
 
 Einnig er hægt að velja að setja upp *flutningsreglur áætlunar*. Til að nota flutningsreglur áætlunar skal velja **Nota reglur fyrir fjárhagsáætlunarfærslur** á síðunni **Færibreytur fjárhagsáætlunar**. Þegar flutningsreglur fjárhagsáætlunar eru notaðar, ef notandi stofnar skjal með því að nota fjárhagsáætlunarkóða af gerðinni **Flutningur** , verða stöður fjárhagsáætlunar ekki uppfærðar ef flutningsreglur áætlunar eru brotnar. Til dæmis er hægt að leyfa skjöl fyrir flutning fjárhagsáætlunar þar sem kostnaður fjárhagsáætlunar er fluttur á milli aðallykla fyrir Sölu- og markaðsdeild, en hægt er að hindra fjárhagsáætlun frá því að vera flutt frá eða í þá deild nema verkflæðissamþykki hafi verið veitt fyrir þá gerð færslu fjárhagsáætlunarlykils.
 
-Virkni sem var kynnt í Microsoft Dynamics 365 Finance útgáfa 10.0.7 (janúar 2020) bætti við getu og sveigjanleika fyrir færslur fjárhagsáætlunarskrár. Til að virkja þessar viðbætur skaltu fara á vinnusvæðið **Stjórnun eiginleika** og velja **Færslur í fjárhagsáætlunarskrá fyrir eingöngu magn** og/eða **Færslur í fjárhagsáætlunarskrá sem eru í vanskilum af upphæðargerð**.
+Virkni sem kynnt var í Microsoft Dynamics 365 Finance útgáfu 10.0.7 (janúar 2020) bætti við getu og sveigjanleika fyrir færslur í fjárhagsáætlunarskrá. Til að virkja þessar viðbætur skaltu fara á vinnusvæðið **Stjórnun eiginleika** og velja **Færslur í fjárhagsáætlunarskrá fyrir eingöngu magn** og/eða **Færslur í fjárhagsáætlunarskrá sem eru í vanskilum af upphæðargerð**.
 
 Eina aðgerð **Færslur í fjárhagsskrá fyrir magn** gerir þér kleift að birta færslu í fjárhagsáætlunarskrá með upphæðum sem eingöngu eru magn. Til dæmis gætirðu bókað fjárhagsáætlunarfærslu með magninu 32 og verðinu núll, sem skilar sér í upphæðinni núll. Síðan geturðu notað þetta magn í tengslum við fjárhagsskýrslu til að ákvarða verð á magni. Athugaðu að engar fyrirspurnir eða skýrslur voru uppfærðar sem hluti af þessum eiginleika; aðgerðin gerir þér aðeins kleift að bóka upphæðina núll.
 

@@ -1,6 +1,6 @@
 ---
 title: Lyklar fyrir sjálfvirkar færslur
-description: Þessi grein útskýrir hvernig reikningar fyrir sjálfvirkar færslur eru notaðar til að bóka í gegnum Microsoft Dynamics 365, og gefur dæmi um lykilreikninga fyrir sjálfvirkar færslur.
+description: Þessi grein útskýrir hvernig lyklar fyrir sjálfvirkar færslur eru notaðir fyrir bókun í gegnum Microsoft Dynamics 365 og gefur dæmi fyrir aðallykla fyrir sjálfvirkar færslur.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -17,39 +17,39 @@ ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 74e72840fea1f5d89c908b00e2cf572bce6befbe
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8880760"
 ---
 # <a name="accounts-for-automatic-transactions"></a>Lyklar fyrir sjálfvirkar færslur
 
-The **Reikningar fyrir sjálfvirkar færslur** síða (**Aðalbók&gt; Uppsetning færslu&gt; Reikningar fyrir sjálfvirkar færslur**) er notað til að skilgreina sjálfgefna aðalreikninginn sem er notaður fyrir hverja bókunartegund í kerfinu. Þó að hægt sé að stilla flestar birtingargerðir á sértækri einingu eða eiginleikasértækri síðu, er aðeins hægt að stilla sumar birtingargerðir á **Reikningar fyrir sjálfvirkar færslur** síðu.
+Síðan **Lyklar fyrir sjálfvirkar færslur** (**Fjárhagur &gt; Bókunaruppsetning &gt; Lyklar fyrir sjálfvirkar færslur**) er notuð til að skilgreina sjálfgefinn aðallykil sem notaður er fyrir hverja bókunargerð í kerfinu. Þó að hægt sé að skilgreina flestar bókunargerðir á síðu einingar eða eiginleika er aðeins hægt að skilgreina sumar bókunargerðir á síðunni **Lyklar fyrir sjálfvirkar færslur**.
 
-Til dæmis geturðu tilgreint aðalreikninginn sem er notaður fyrir **Jafnvægi viðskiptavina** staða tegund the **Samantekt** sviði á **Færsluprófíl viðskiptavinar** síðu og notaðu annan aðalreikning fyrir hvern viðskiptavinaprófíl. Þannig hefurðu nákvæmari stjórn á færslunum. Aftur á móti geturðu aðeins tilgreint villureikninginn á **Reikningar fyrir sjálfvirkar færslur** síðu.
+Til dæmis er hægt að tilgreina aðallykillinn sem er notaður fyrir bókunargerðina **Staða viðskiptavinar** í reitnum **Samantekt** á síðunni **Bókunarregla viðskiptavina** og nota annan aðallykil fyrir hverja reglu viðskiptavina. Þannig hefur þú meiri stjórn á bókunum. Á hinn bóginn geturðu aðeins tilgreint villulykil á síðunni **Lyklar fyrir sjálfvirkar færslur**.
 
-Þegar þú opnar **Reikningar fyrir sjálfvirkar færslur** síðu í nýjum lögaðila, listi yfir reikninga verður tómur. Þú getur bætt við algengustu færslugerðum sem ætti að stilla á síðunni með því að velja **Búðu til sjálfgefnar tegundir** takki. Síðan, fyrir hverja röð, geturðu valið aðalreikninginn í **Aðalreikningur** sviði. Ef þú yfirgefur **Aðalreikningur** reiturinn auður fyrir bókunartegund og þú hefur ekki stillt aðalreikning á sértækri einingu eða eiginleikasértækri síðu færðu villuboð þegar þú bókar færslu sem notar bókunargerðina. Venjulega munu skilaboðin vera „Reikningurinn fyrir\[ Tegund færslu\] er ekki hægt að finna."
+Þegar þú opnar síðuna **Lyklar fyrir sjálfvirkar færslur** í nýjum lögaðila verður lyklalistinn tómur. Þú getur bætt við algengustu bókunargerðunum sem ættu að vera skilgreindar á síðunni með því að velja hnappinn **Stofna sjálfgefnar gerðir**. Síðan, fyrir hverja línu, er hægt að velja aðallykilinn í reitnum **Aðallykill**. Ef reiturinn **Aðallykill** er skilinn eftir auður fyrir bókunargerð og ekki er búið að skilgreina aðallykil á síðu einingar eða eiginleika koma upp villuboð þegar færsla sem notar bókunargerðina er bókuð. Skilaboðin verða yfirleitt: „Lykillinn fyrir \[Bókunargerð\] finnst ekki.“
 
-## <a name="default-posting-types"></a>Sjálfgefnar færslugerðir
+## <a name="default-posting-types"></a>Sjálfgefnar bókunargerðir
 
-Eftirfarandi tafla sýnir dæmi um sjálfgefnar færslugerðir sem eru búnar til þegar þú velur **Búðu til sjálfgefnar tegundir** á **Reikningar fyrir sjálfvirkar færslur** síðu. Það sýnir sýnishorn af aðalreikningum og lýsingum. "Debet/kredit?" Dálkurinn gefur til kynna hvort færslunni er venjulega bókað debet eða kredit. Í sumum tilfellum getur færsla bókað annað hvort debet eða kredit. Dálkurinn „Jöfnunarreikningur“ gefur til kynna hvort bókunartegundin sé jöfnunarreikningur. Ef bókunartegundin er jöfnunarreikningur er upphæðin sem er bókuð á reikningnum sjálfkrafa bakfærð þegar síðari færsla er bókuð.
+Eftirfarandi tafla sýnir dæmi um sjálfgefnar bókunargerðir sem eru búnar til þegar þú velur **Stofna sjálfgefnar gerðir** á síðunni **Lyklar fyrir sjálfvirkar færslur**. Þar er að finna sýnishorn af aðallyklum og lýsingar. „Debet/kredit?“ dálkur segir til um hvort færslan bóki yfirleitt debet eða kredit. Í sumum tilvikum er hægt að bóka færslu annað hvort með debet eða kredit. Dálkurinn „Millireikningur“ gefur til kynna hvort bókunargerð sé millireikningur. Ef bókunargerðin er millireikningur er upphæðin sem er bókuð á þennan lykil sjálfkrafa bakfærð þegar síðari færsla er bókuð.
 
-| Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
+| Bókunargerð | Dæmi um aðallykil | Dæmi um heiti aðallykils | Lykilgerð | Debet/Kredit? | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|---------------|------------------|-------------|
-| Auramismunur í skýrslugjaldmiðli | 618160 | Ýmis kostnaður | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar eyrismunur á sér stað þegar færsluupphæð í erlendum gjaldmiðli er færð yfir í skýrslugjaldmiðilinn. |
-| Auramismunur í bókhaldsgjaldmiðli | 618160 | Ýmis kostnaður | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar eyrismunur á sér stað þegar færsluupphæð í erlendum gjaldmiðli er færð yfir á bókhaldsgjaldmiðilinn. |
-| Villulykill | 999999 | Villureikningur | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar villa kemur upp í kerfinu. Reikningurinn ætti að vera staðfestur á hverju tímabili og allar villur ætti að leysa. |
-| Niðurstaða í árslok | 300160 | Óráðstafað eigið fé | Eigið fé | Bæði | Nr. | Þessi bókunartegund er notuð þegar lokaferli ársins er keyrt til að færa stöðu reikninga á **Hagnaður og tap** sláðu inn á aðalreikninginn sem er valinn fyrir árslokauppgjör. |
-| Staðgreiðsluafsláttur viðskiptavinar | Á ekki við | Á ekki við | Á ekki við | Á ekki við | Nr. | Birtingartegundin sem er skilgreind á **Reikningar fyrir sjálfvirkar færslur** síða er ekki notuð. Aðalreikningur er nauðsynlegur þegar staðgreiðsluafsláttur er stilltur í Viðskiptakröfur.|
-| Staðgreiðsluafsláttur lánardrottins | Á ekki við | Á ekki við | Á ekki við | Á ekki við | Nr. | Birtingartegundin sem er skilgreind á **Reikningar fyrir sjálfvirkar færslur** síða er ekki notuð. Aðalreikningur er nauðsynlegur þegar staðgreiðsluafsláttur er stilltur í Viðskiptaskuldir. |
+| Auramismunur í skýrslugjaldmiðli | 618160 | Ýmis kostnaður | Kostnaður | Bæði | Nr. | Þessi bókunargerð er notuð þegar auramismunur á sér stað þegar færsluupphæð í erlendum gjaldmiðli er færð yfir í skýrslugjaldmiðil. |
+| Auramismunur í bókhaldsgjaldmiðli | 618160 | Ýmis kostnaður | Kostnaður | Bæði | Nr. | Þessi bókunargerð er notuð þegar auramismunur á sér stað þegar færsluupphæð í erlendum gjaldmiðli er færð yfir í bókhaldsgjaldmiðil. |
+| Villulykill | 999999 | Villulykill | Kostnaður | Bæði | Nr. | Þessi bókunargerð er notuð þegar villa kemur upp í kerfinu. Reikninginn skal staðfesta á hverju tímabili og leysa skal úr öllum villum. |
+| Niðurstaða í árslok | 300160 | Tekjur sem hefur verið aflað | Eigið fé | Bæði | Nr. | Þessi bókunargerð er notuð þegar vinnsla lokunar í árslok er keyrð til að færa stöðu lykla fyrir gerðina **Hagnaður og tap** inn á aðallykilinn sem er valinn fyrir niðurstöðu ársloka. |
+| Staðgreiðsluafsláttur viðskiptavinar | Á ekki við | Á ekki við | Á ekki við | Á ekki við | Nr. | Bókunargerðin sem er skilgreind á síðunni **Lyklar fyrir sjálfvirkar færslur** er ekki notuð. Aðallykils er krafist þegar staðgreiðsluafsláttur er skilgreindur í viðskiptakröfum.|
+| Staðgreiðsluafsláttur lánardrottins | Á ekki við | Á ekki við | Á ekki við | Á ekki við | Nr. | Bókunargerðin sem er skilgreind á síðunni **Lyklar fyrir sjálfvirkar færslur** er ekki notuð. Aðallykils er krafist þegar staðgreiðsluafsláttur er skilgreindur í viðskiptaskuldum. |
 
-## <a name="additional-posting-types"></a>Fleiri færslugerðir
+## <a name="additional-posting-types"></a>Fleiri bókunargerðir
 
-Eftirfarandi tafla sýnir dæmi um fleiri færslugerðir sem þarf að stilla ef þú ætlar að nota tengda eiginleika. Fyrir þessar færslugerðir er engin uppsetning færslusniðs tiltæk í annarri einingu. "Debet/kredit?" Dálkurinn gefur til kynna hvort færslunni er venjulega bókað debet eða kredit. Í sumum tilfellum getur færsla bókað annað hvort debet eða kredit. Dálkurinn „Jöfnunarreikningur“ gefur til kynna hvort bókunartegundin sé jöfnunarreikningur. Ef bókunartegundin er jöfnunarreikningur er upphæðin sem er bókuð á reikningnum sjálfkrafa bakfærð þegar síðari færsla er bókuð.
+Eftirfarandi tafla sýnir dæmi um fleiri bókunargerðir sem þarf að skilgreina ef nota á tengda eiginleika. Í þessum bókunargerðum er engin skilgreining bókunarreglu í boði í annarri einingu. „Debet/kredit?“ dálkur segir til um hvort færslan bóki yfirleitt debet eða kredit. Í sumum tilvikum er hægt að bóka færslu annað hvort með debet eða kredit. Dálkurinn „Millireikningur“ gefur til kynna hvort bókunargerð sé millireikningur. Ef bókunargerðin er millireikningur er upphæðin sem er bókuð á þennan lykil sjálfkrafa bakfærð þegar síðari færsla er bókuð.
 
-| Bókunargerð | Dæmi um aðalreikning | Dæmi um nafn aðalreiknings | Lykilgerð | Debet/kredit? | Millireikningur | Lýsing |
+| Bókunargerð | Dæmi um aðallykil | Dæmi um heiti aðallykils | Lykilgerð | Debet/Kredit? | Millireikningur | Lýsing |
 |--------------|----------------------|---------------------------|--------------|---------------|------------------|-------------|
-| Jafnvægisreikningur fyrir samstæðumun | 801200 | Hagnaður og tap - Endurmat | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar þú framkvæmir sameiningu sem felur í sér endurmat gjaldmiðils og munur á krónum kemur fram við endurmatið. |
-| Rekstrarreikningur fyrir samstæðumismun | 801200 | Hagnaður og tap - Endurmat | Kostnaður | Bæði | Nr. | Þessi bókunartegund er notuð þegar þú framkvæmir sameiningu sem felur í sér endurmat gjaldmiðils og munur á krónum kemur fram við endurmatið. |
-| Millieiningar – debet | 133500 | Innheimta milli eininga | Eign | Debet | Nr. | Þessi bókunartegund er notuð þegar þú velur jöfnunarvídd á **Fjárhagsbók** síðu og víddin kemur ekki í jafnvægi í færslu sem er bókuð. |
-| Millieining - kredit | 233500 | Greiðsla milli eininga | Bótaábyrgð | Kredit | Nr. | Þessi bókunartegund er notuð þegar þú velur jöfnunarvídd á **Fjárhagsbók** síðu og víddin kemur ekki í jafnvægi í færslu sem er bókuð. |
+| Efnahagslykill fyrir samstæðumismun | 801200 | Hagnaður og tap - Endurmat | Kostnaður | Bæði | Nr. | Þessi bókunargerð er notuð þegar farið er í sameiningu sem felur í sér endurmat á gjaldmiðli og auramismunur kemur fram við endurmatið. |
+| Rekstrarreikningur fyrir samstæðumismun | 801200 | Hagnaður og tap - Endurmat | Kostnaður | Bæði | Nr. | Þessi bókunargerð er notuð þegar farið er í sameiningu sem felur í sér endurmat á gjaldmiðli og auramismunur kemur fram við endurmatið. |
+| Interunit - debit | 133500 | Interunit-viðskiptakröfur | Eign | Debet | Nr. | Þessi bókunargerð er notuð þegar þú velur jöfnunarvídd á síðu **Fjárhagur** og víddin jafnar ekki færslu sem er bókuð. |
+| Millieining - kredit | 233500 | Interunit-viðskiptaskuld | Bótaábyrgð | Kredit | Nr. | Þessi bókunargerð er notuð þegar þú velur jöfnunarvídd á síðu **Fjárhagur** og víddin jafnar ekki færslu sem er bókuð. |

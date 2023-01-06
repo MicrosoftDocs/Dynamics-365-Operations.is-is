@@ -1,6 +1,6 @@
 ---
 title: Listi yfir ER-aðgerðir í flokknum Dagsetning og tími
-description: Þessi grein veitir upplýsingar um dagsetningar- og tímaaðgerðir sem eru studdar í rafrænni skýrslugerð (ER).
+description: Þessi grein veitir upplýsingar um dags- og tímaaðgerðir sem eru studdar í rafrænni skýrslugerð (ER).
 author: kfend
 ms.date: 09/09/2021
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: d77f41e10d927a9aae06b9ba0fc58ca237c071cd
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291325"
@@ -37,8 +37,8 @@ Hægt er að nota dagsetningar- og tímaaðgerðir rafrænnar skýrslugerðar (E
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Þessi aðgerð skilar *String*-gildi sem setur fram tiltekið dagsetningar-/tímagildi sem texta á tilteknu sniði og í valinni tiltekinni menningu. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Þessi aðgerð skilar *DateTime*-gildi sem er umreiknað úr gefnu textagildi á tilteknu sniði og í valinni tiltekinni menningu í dagsetningar-/tímagildi. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Þessi aðgerð skilar *DateTime*-gildi sem er umreiknað úr gefnu dagsetningargildi í dagsetningar-/tímagildi í samræmdan alþjóðlegan tíma (meðaltími Greenwich \[GMT\]). |
-| [DateValue](er-functions-datetime-datevalue.md) | Þessi aðgerð skilar a *[Dagsetning](er-formula-supported-data-types-primitive.md#date)* gildi sem er breytt úr tilteknu textagildi á tilgreindu sniði og í valkvætt tilgreindri menningu í dagsetningargildi. |
-| [DayOfYear](er-functions-datetime-dayofyear.md) | Þessi aðgerð skilar an *[Heiltala](er-formula-supported-data-types-primitive.md#integer)* gildi sem táknar fjölda daga milli 1. janúar og tilgreindrar dagsetningar. |
+| [DateValue](er-functions-datetime-datevalue.md) | Þessi aðgerð skilar *[Date](er-formula-supported-data-types-primitive.md#date)*-gildi sem er umreiknað úr gefnu textagildi á tilteknu sniði og í valinni tiltekinni menningu í dagsetningargildi. |
+| [DayOfYear](er-functions-datetime-dayofyear.md) | Þessi aðgerð skilar *[heiltölu](er-formula-supported-data-types-primitive.md#integer)*-gildi sem sýnir fjölda daga milli 1. janúar og tilgreindrar dagsetningar. |
 | [Dagar](er-functions-datetime-days.md) | Þessi aðgerð skilar *heiltölu*-gildi sem sýnir fjölda daga milli einnar tilgreindrar dagsetningar og annarrar tilgreindrar dagsetningar. |
 | [Now](er-functions-datetime-now.md) | Þessi aðgerð skilar *DateTime*-gildi sem táknar dagsetningu og tíma núverandi netþjóns hugbúnaðar. |
 | [NullDate](er-functions-datetime-nulldate.md) | Þessi aðgerð skilar *Dagsetningar*-gildi sem táknar **núll** dagsetningu (1. janúar, 1900). |
@@ -46,7 +46,7 @@ Hægt er að nota dagsetningar- og tímaaðgerðir rafrænnar skýrslugerðar (E
 | [SessionNow](er-functions-datetime-sessionnow.md) | Þessi aðgerð skilar *DateTime*-gildi sem táknar setudagsetningu og -tíma núverandi hugbúnaðar. |
 | [SessionToday](er-functions-datetime-sessiontoday.md) | Þessi aðgerð skilar *Date*-gildi sem táknar setudagsetningu núverandi hugbúnaðar. |
 | [Í dag](er-functions-datetime-today.md) | Þessi aðgerð skilar *Date*-gildi sem táknar netþjónsdagsetningu núverandi hugbúnaðar. |
-| [WeekNum](er-functions-datetime-weeknum.md) | Þessi aðgerð skilar an *Heiltala* gildi sem táknar viku ársins. |
+| [WeekNum](er-functions-datetime-weeknum.md) | Þessi aðgerð skilar *Heiltölugildi* sem táknar viku ársins. |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

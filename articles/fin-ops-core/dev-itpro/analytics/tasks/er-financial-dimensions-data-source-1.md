@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 1 - hanna gagnalíkan)
-description: Þessi grein lýsir því hvernig á að stilla rafræn skýrslugerð (ER) líkan til að nota fjárhagsvíddir sem gagnagjafa fyrir ER skýrslur. (Hluti 1)
+description: Þessi grein útskýrir hvernig á að skilgreina líkan rafrænnar skýrslugerðar til að nota fjárhagsvíddir sem gagnagjafa fyrir skýrslur rafrænnar skýrslugerðar. (Hluti 1)
 author: kfend
 ms.date: 05/27/2020
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog
 ms.openlocfilehash: 053b9cf9ea6b2845bef5d95e901c1c90fac964be
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290845"

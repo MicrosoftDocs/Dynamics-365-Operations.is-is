@@ -1,6 +1,6 @@
 ---
 title: Samanburður á skýi og eiginleikum á staðnum
-description: Greinin sýnir hvaða eiginleikar eru studdir í Cloud og á staðnum.
+description: Greinin sýnir hvaða eiginleikar eru studdir í skýi og staðbundið.
 author: sericks007
 ms.date: 01/14/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.openlocfilehash: e3b200186096a49f800d5b650ac81a45fe5e9e30
 ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/12/2022
 ms.locfileid: "9644142"
@@ -25,7 +25,7 @@ ms.locfileid: "9644142"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir samanburð á eiginleikum sem eru tiltækir í skýi á móti innanhúss fyrir eftirfarandi forrit:
+Þessi grein sýnir samanburð á eiginleikum sem eru fáanlegir í skýi samanborið við staðbundið fyrir eftirfarandi forrit:
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)

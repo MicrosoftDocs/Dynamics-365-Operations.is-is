@@ -1,6 +1,6 @@
 ---
 title: Fjárhagsáætlunargerð
-description: Markmið þessarar rannsóknarstofu er að veita leiðsögn um Microsoft Dynamics 365 Fjárhagsuppfærslur á áætlunarsvæði fjárhagsáætlunar. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.
+description: Markmiðið þessarar kennslu er að veita leiðsögn í fyrir skoðun á uppfærslum á virkni Microsoft Dynamics 365 Finance á svæðum fjárhagsáætlunargerðar. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.
 author: panolte
 ms.date: 06/25/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 65ebfddb1baf39e20c22d3ed9bb26dbb33765e20
 ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/05/2022
 ms.locfileid: "8712005"
@@ -26,7 +26,7 @@ ms.locfileid: "8712005"
 
 [!include [banner](../includes/banner.md)]
 
-Markmið þessarar rannsóknarstofu er að veita leiðsögn um Microsoft Dynamics 365 Fjárhagsuppfærslur á áætlunarsvæði fjárhagsáætlunar. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.  Þessi æfing mun leggja sérstaka áherslu á eftirfarandi viðskiptaferla eða verk:
+Markmiðið þessarar kennslu er að veita leiðsögn í fyrir skoðun á uppfærslum á virkni Microsoft Dynamics 365 Finance á svæðum fjárhagsáætlunargerðar. Tilgangur þessarar kennslu er að sýna dæmu um fljóta uppsetningu fyrir kerfi fjárhagsáætlunargerðar og sýna hvernig fjárhagsáætlunargerð má sinna með því að nota þessa uppsetningu.  Þessi æfing mun leggja sérstaka áherslu á eftirfarandi viðskiptaferla eða verk:
 - Búa til stigveldi fyrirtækis fyrir fjárhagsáætlun og grunnstilla öryggi notenda
 - Skilgreina aðstæður fjárhagsáætlunargerðar, fjárhagsáætlunarsúlur, útlit og Excel sniðmát
 - Búa til og virkja ferli fjárhagsáætlunargerðar
@@ -36,7 +36,7 @@ Markmið þessarar rannsóknarstofu er að veita leiðsögn um Microsoft Dynamic
 
 ## <a name="prerequisites"></a>Forkröfur 
 
-Fyrir þessa kennslu þarftu að fá aðgang að Microsoft Dynamics 365 fjármálaumhverfi með Contoso kynningargögnum og vera útvegaður sem stjórnandi á tilvikinu. Ekki nota í einkavafra, - það þarf að skrá sig út úr hvaða reikningi sem er í vafranum ef þörf krefur og skrá svo inn með notendaheimildum kerfisstjóra. Við innskráningu **VERÐUR** að haka í gátreitinn „Halda mér innskráðum“. Þetta stofnar varanlega vafraköku sem Excel-smáforritið þarf. Ef innskráning í forrit er gerð í gegnum annan vafra en IE kemur upp kvaðning um að skrá inn í Excel-smáforritið. Þegar smellt er á „Skrá inn“ í Excel-smáforritinu opnast smelligluggi IE og þegar skráð er inn **VERÐUR** að haka í gátreitinn „Halda mér innskráðri/-um“. Ef ekkert gerist þegar smellt er á "Skrá inn" í Excel-smáforritið ætti að hreinsa lotur úr skyndiminni IE.
+Fyrir þetta kennsluefni þarf að fá aðgang að umhverfi Microsoft Dynamics 365 Finance með sýnigögnum Contoso og fá stjórnendaréttindi fyrir þetta tilvik. Ekki nota í einkavafra, - það þarf að skrá sig út úr hvaða reikningi sem er í vafranum ef þörf krefur og skrá svo inn með notendaheimildum kerfisstjóra. Við innskráningu **VERÐUR** að haka í gátreitinn „Halda mér innskráðum“. Þetta stofnar varanlega vafraköku sem Excel-smáforritið þarf. Ef innskráning í forrit er gerð í gegnum annan vafra en IE kemur upp kvaðning um að skrá inn í Excel-smáforritið. Þegar smellt er á „Skrá inn“ í Excel-smáforritinu opnast smelligluggi IE og þegar skráð er inn **VERÐUR** að haka í gátreitinn „Halda mér innskráðri/-um“. Ef ekkert gerist þegar smellt er á "Skrá inn" í Excel-smáforritið ætti að hreinsa lotur úr skyndiminni IE.
 
 ## <a name="scenario-overview"></a>**Yfirlit yfir aðstæður**
 Julia vinnur sem stjórnandi fjármála í Contoso Entertainment Systems í Þýskalandi (DEMF). Þegar fjárhagsárið FY2016 nálgast þarf hún að vinna í uppsetningu fjárhagsáætlunar fyrirtækisins fyrir komandi ár. Undirbúningur fjárhagsáætlunarinnar lítur svona út:

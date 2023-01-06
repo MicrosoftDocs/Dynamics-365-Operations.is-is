@@ -1,6 +1,6 @@
 ---
-title: Fáðu stuðning fyrir fjármála- og rekstraröpp eða Lifecycle Services (LCS)
-description: Þessi grein útskýrir hvernig á að fá aðstoð við fjármála- og rekstrarforrit eða Microsoft Dynamics Lífsferilsþjónusta (LCS).
+title: Fá stuðning fyrir forrit fjármála- og reksturs eða Lifecycle Services (LCS)
+description: Í þessari grein er útskýrt hvernig skal fá hjálp varðandi fjármála- og reksturs eða Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
 ms.date: 08/02/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.custom: 254844
 ms.assetid: 0e9471f9-4c2b-42f0-9b10-6578211f01d5
 ms.openlocfilehash: e0eb850b8a99a4f2f853777b1b5ec4d3f00621a0
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9284434"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Fáðu stuðning fyrir fjármála- og rekstraröpp eða Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Fá stuðning fyrir forrit fjármála- og reksturs eða Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-2.md)]
 
-Þessi grein útskýrir hvernig á að fá aðstoð við fjármála- og rekstrarforrit eða Microsoft Dynamics Lífsferilsþjónusta (LCS). 
+Í þessari grein er útskýrt hvernig skal fá hjálp varðandi fjármála- og reksturs eða Microsoft Dynamics Lifecycle Services (LCS). 
 
 <table>
 <thead>
@@ -51,7 +51,7 @@ ms.locfileid: "9284434"
 <td>Í <a href="https://lcs.dynamics.com/">LCS</a> skal nota verkfærið <strong>Vandamálaleit</strong> til að leita með skjótum hætti í Microsoft Þekkingargrunni (KB) að greinum, bráðabótum og hjáleiðum í sambandi við skráð vandamál. Þú getur séð hvaða skráðu vandamál eru í lagfæringarferli fyrir tiltekið aðgerðarsvæði og hvaða vandamál hafa þegar verið leyst. Frekari upplýsingar eru í <a href="issue-search-lcs.md">Vandamálaleit (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Fáðu stuðning í fjármála- og rekstrarappinu þínu.</td>
+<td>Fáðu aðstoð innan forrits fjármála- og reksturssins.</td>
 <td>Velja skal hnappinn <strong>Hjálp</strong> (<strong>?</strong>) efst í hægra horninu í forritinu og síðan velja <strong>Notendaþjónusta</strong>. Vandamál eru tilkynnt í flipanum <strong>Virk vandamál</strong> í LCS. Þar geta stjórnendur ákvarðað hvort þeir eigi að veita aðstoð innan fyrirtækisins eða senda vandamálið til Microsoft.</td>
 </tr>
 <tr>

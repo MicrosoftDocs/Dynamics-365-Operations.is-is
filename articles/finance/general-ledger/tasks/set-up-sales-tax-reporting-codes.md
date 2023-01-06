@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 3ff5a5622fa63b6058b9e768f1fd1bc776a48962
 ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/10/2022
 ms.locfileid: "8734840"
@@ -24,7 +24,7 @@ ms.locfileid: "8734840"
 
 [!include [banner](../../includes/banner.md)]
 
-The **Vöruskattsskýrslukóðar** vísa til svæðisnúmers sem er skráð á söluskattskýrslu. Þær eru notaðar við skýrsluútlit tiltekinna landa. Þær eru einnig notaðar á VSK-greiðslu eftir kóðaskýrslu. Þessi skýrsla sýnir upphæð virðisaukaskatts fyrir jöfnunartímabil sem er sundurliðuð fyrir hvern skýrslugerðarkóða. Eftir að þú býrð til **Vöruskattsskýrslukóðar**, þú getur vísað til þessara kóða á **Uppsetning skýrslu** Hraðflipar, sem þú getur fengið aðgang að frá **Vöruskattskóði** síðu. 
+**Skýrslugerðakóðar söluskatts** vísa í númer svæða sem má finna í söluskattskýrslu. Þær eru notaðar við skýrsluútlit tiltekinna landa. Þær eru einnig notaðar á VSK-greiðslu eftir kóðaskýrslu. Þessi skýrsla sýnir upphæð virðisaukaskatts fyrir jöfnunartímabil sem er sundurliðuð fyrir hvern skýrslugerðarkóða. Eftir að **Skýrslugerðarkóðar virðisaukaskatts** eru stofnaðir er hægt að vísa í þá á flipa **Skýrsluuppsetningar** sem hægt er að opna á síðunni **VSK-kóði**. 
 
 Þessi skráning notar sýnigögn DEMF fyrirtækis
 

@@ -1,6 +1,6 @@
 ---
 title: Hvernig set ég upp afstemmingu fjárhagsvídda?
-description: Þessi grein lýsir valkostum til að setja upp og nota eiginleikann Jöfnun fjárhagsvíddar.
+description: Þessi grein lýsir valkostum fyrir uppsetningu og notkun eiginleikans „Jöfnunarfjárhagsvídd“.
 author: kweekley
 ms.date: 08/25/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-08-17
 ms.dyn365.ops.version: 10.0.210
 ms.openlocfilehash: dd859629b0eb9f14fa4907699613382f3897d21d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8878013"
@@ -24,7 +24,7 @@ ms.locfileid: "8878013"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir valkostum til að setja upp og nota eiginleikann Jöfnun fjárhagsvíddar.
+Þessi grein lýsir valkostum fyrir uppsetningu og notkun eiginleikans „Jöfnunarfjárhagsvídd“.
 
 ## <a name="symptom"></a>Einkenni
 

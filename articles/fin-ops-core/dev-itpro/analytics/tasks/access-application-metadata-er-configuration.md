@@ -1,6 +1,6 @@
 ---
 title: Fá aðgang að lýsigögnum hugbúnaðar með notkun á grunnstillingum rafrænnar skýrslugerðar
-description: Greinin lýsir því hvernig notandi eftirlitsstillingarþjónustu getur hannað nýja rafræna skýrslugerð líkanakortlagningar með því að nota lýsigögnin.
+description: Greinin lýsir því hvernig notandi Regulatory Configuration Service getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með notkun á lýsigögnunum.
 author: kfend
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ''
 ms.openlocfilehash: 7a0947ec255a8d51f236c6c2f397378f44af1b96
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9267903"
@@ -24,7 +24,7 @@ ms.locfileid: "9267903"
 
 [!include [banner](../../includes/banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með því að nota lýsigögn forritsins. Farið verður í lýsigögn forrits með því að nota skilgreiningar ER-lýsigagna sem innihalda sýnishorn af lýsigögnum til að fá aðgang að utanríkisviðskiptum. Til að ljúka þessum skrefum, í RCS verður þú fyrst að ljúka skrefunum í greininni, [Búðu til stillingaveitur og merktu þær sem virkar](er-configuration-provider-mark-it-active-2016-11.md) málsmeðferð. Ljúktu síðan við skrefin í greininni, [Undirbúa lýsigögn forrita til að nota í RCS](prepare-application-metadata-rcs.md).
+Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með því að nota lýsigögn forritsins. Farið verður í lýsigögn forrits með því að nota skilgreiningar ER-lýsigagna sem innihalda sýnishorn af lýsigögnum til að fá aðgang að utanríkisviðskiptum. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í RCS í greininni, ferlinu [Stofna skilgreiningarveitendur og merkja þá sem virka](er-configuration-provider-mark-it-active-2016-11.md). Síðan lýkurðu við skrefin í greininni [Undirbúa lýsigögn hugbúnaðar sem á að nota í RCS](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>Forkröfur
 1. Farðu í **Öll vinnusvæði** > **Rafræn skýrslugerð**. 

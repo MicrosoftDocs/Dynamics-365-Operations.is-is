@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1db95720d56cc538f2d702137889467a9892d99c
 ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/25/2022
 ms.locfileid: "9715182"
@@ -30,7 +30,7 @@ Staðgreiðsluafslættir eru uppsettir og samnýttir fyrir viðskiptakröfur og 
 
 ## <a name="cash-discounts"></a>Staðgreiðsluafslættir
 
-Hægt er að stofna staðgreiðsluafslátt fyrir bæði viðskiptavini eða lánardrottna á síðunni staðgreiðsluafslætti. Hægt er að skilgreina einnig , með því að nota Næsta afsláttarkóðasvæði , röð af staðgreiðsluafsláttum sem koma í kjölfar hver annars sem þegar fyrri staðgreiðsluafsláttardagsetningar renna út. Fyrir frekari upplýsingar, sjá "Dæmi: Röð staðgreiðsluafslátta" síðar í þessari grein. Ef reikningur, kreditfærsla (annað hvort í greiðslu eða kreditnótu) eða bæði eru færð inn í öðrum gjaldmiðli en bókhaldsgjaldmiðli lögaðilans er staðgreiðsluafsláttur reiknaður með því að nota gengi byggt á dagsetningu greiðslu eða kreditnótu. Ef reiknings- og kreditskjalið eru færðar inn í mismunandi lögaðila og ef gjaldmiðlar bókhalds fyrir lögaðila er mismunandi, er gengið tekið úr lögaðili reikningsins, frá og með dagsetningu kreditskjals . Fyrir frekari upplýsingar, sjá "Dæmi: Gengi fyrir staðgreiðsluafslátt" síðar í þessari grein.
+Hægt er að stofna staðgreiðsluafslátt fyrir bæði viðskiptavini eða lánardrottna á síðunni staðgreiðsluafslætti. Hægt er að skilgreina einnig , með því að nota Næsta afsláttarkóðasvæði , röð af staðgreiðsluafsláttum sem koma í kjölfar hver annars sem þegar fyrri staðgreiðsluafsláttardagsetningar renna út. Nánari upplýsingar eru í "Dæmi: Röð af staðgreiðsluafsláttum" síðar í þessari grein. Ef reikningur, kreditfærsla (annað hvort í greiðslu eða kreditnótu) eða bæði eru færð inn í öðrum gjaldmiðli en bókhaldsgjaldmiðli lögaðilans er staðgreiðsluafsláttur reiknaður með því að nota gengi byggt á dagsetningu greiðslu eða kreditnótu. Ef reiknings- og kreditskjalið eru færðar inn í mismunandi lögaðila og ef gjaldmiðlar bókhalds fyrir lögaðila er mismunandi, er gengið tekið úr lögaðili reikningsins, frá og með dagsetningu kreditskjals . Nánari upplýsingar eru í "Dæmi: gengi fyrir staðgreiðsluafsláttum" síðar í þessari grein.
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Sjálfgefin röðun staðgreiðsluafsláttar fyrir aðallykil
 

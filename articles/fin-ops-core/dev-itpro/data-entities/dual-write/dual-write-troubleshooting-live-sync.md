@@ -1,6 +1,6 @@
 ---
 title: Úrræðaleit í beinni samstillingarvandamál
-description: Þessi grein veitir upplýsingar um úrræðaleit sem geta hjálpað þér að laga vandamál með samstillingu í beinni.
+description: Þessi grein veitir bilanaleit sem getur hjálpað þér að laga vandamál með beinni samstillingu.
 author: RamaKrishnamoorthy
 ms.date: 08/19/2021
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: ramasri
 ms.search.validFrom: 2020-03-16
 ms.openlocfilehash: b6650c92d22aee5394460e4e32bfd0ad3a7698c7
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289455"
@@ -22,14 +22,14 @@ ms.locfileid: "9289455"
 
 
 
-Þessi grein veitir upplýsingar um bilanaleit fyrir samþættingu tvískrifa milli fjármála- og rekstrarforrita og Microsoft Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál með beinni samstillingu.
+Þessi grein veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita fjármála- og reksturs og Microsoft Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál með beinni samstillingu.
 
 > [!IMPORTANT]
-> Sum vandamálin sem þessi grein fjallar um gætu þurft annað hvort kerfisstjórahlutverkið eða Azure Active Directory (Azure AD) leigjanda stjórnanda skilríki. Í hverjum hluta er útskýrt hvort þörf sé á ákveðnu hlutverki eða tilteknum innskráningarupplýsingum.
+> Nokkur þeirra atriða sem þessa grein fjallar um geta krafist annað hvort kerfisstjórans eða Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Í hverjum hluta er útskýrt hvort þörf sé á ákveðnu hlutverki eða tilteknum innskráningarupplýsingum.
 
 ## <a name="live-synchronization-shows-an-error-when-you-create-a-row"></a>Samstilling í rauntíma sýnir villu þegar þú býrð til línu
 
-Þú gætir fengið eftirfarandi villuboð þegar þú býrð til línu í fjármála- og rekstrarforriti:
+Eftirfarandi villuboð kunna að birtast þegar lína er stofnuð í forriti fjármála- og reksturs:
 
 *\[{\\"villa\\":{\\"kóði\\":\\"0x80072560\\",\\"skilaboð\\":\\"Notandinn er ekki meðlimur í fyrirtækinu.\\"}}\], The remote server returned an error: (403) Forbidden."}}".*
 
@@ -39,27 +39,27 @@ Til að laga vandann fylgirðu skrefunum í [Kerfiskröfur og forsendur](require
 
 **Nauðsynlegt hlutverk til að laga vandamálið:** Kerfisstjóri
 
-Þú gætir fengið eftirfarandi villuboð þegar þú reynir að vista töflugögn í fjármála- og rekstrarforriti:
+Þú gætir fengið eftirfarandi villuboð þegar þú reynir að vista töflugögn í forriti fjármála- og reksturs:
 
 *Ekki hægt að vista breytingarnar í gagnagrunninum. Vinnueining getur ekki gert færslu. Ekki er hægt að skrifa gögn í mælieiningar einingar. Skrifun í UnitOfMeasureEntity mistókst með villuboðin Ekki var hægt að samstilla við mælieiningar einingar.*
 
-Til að laga vandamálið skaltu ganga úr skugga um að tilskilin tilvísunargögn séu til í bæði fjármála- og rekstrarappinu og Dataverse. Ef til dæmis viðskiptavinafærsla tilheyrir ákveðnum viðskiptavinahópi skaltu ganga úr skugga um að færsla viðskiptavinahópsins sé til í Dataverse.
+Til að laga vandamálið skaltu ganga úr skugga um að forsendur tilvísunargagna séu til í bæði forriti fjármála- og reksturs og Dataverse. Ef til dæmis viðskiptavinafærsla tilheyrir ákveðnum viðskiptavinahópi skaltu ganga úr skugga um að færsla viðskiptavinahópsins sé til í Dataverse.
 
 Fylgdu þessum skrefum ef gögn eru til á báðum stöðum og þú hefur staðfest að vandamálið tengist ekki gögnum.
 
-1. Opnaðu eininguna **DualWriteProjectConfigurationEntity** með því að nota Excel-viðbótina. Til að nota viðbótina, virkjaðu hönnunarham í fjármála- og rekstrar Excel viðbótinni og bættu við **DualWriteProjectConfigurationEntity** í vinnublað. Frekari upplýsingar er að finna í [Skoða og uppfæra einingagögn með Excel](../../office-integration/use-excel-add-in.md).
+1. Opnaðu eininguna **DualWriteProjectConfigurationEntity** með því að nota Excel-viðbótina. Til að nota innbótina skaltu virkja hönnunarsnið í Excel-innbót fjármála- og reksturs og bæta **DualWriteProjectConfigurationEntity** við vinnublað. Frekari upplýsingar er að finna í [Skoða og uppfæra einingagögn með Excel](../../office-integration/use-excel-add-in.md).
 2. Veldu og eyddu færslunum þar sem vandamál koma upp í vörpun tvöfaldrar skráningar og verki. Það verða tvær færslur fyrir hverja vörpun tvöfaldrar skráningar.
 3. Birtu breytingarnar með því að nota Excel-innbótina. Þetta skref er mikilvægt vegna þess að það eyðir færslunum úr einingunni og undirliggjandi töflum.
 
-## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Meðhöndla lestrar- eða skrifarréttindavillur þegar þú býrð til gögn í fjármála- og rekstrarforriti
+## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Meðhöndla villur til að lesa eða skrifa réttindi þegar þú býrð til gögn í forriti fjármála- og reksturs
 
-Þú gætir fengið "Bad Request" villuboð þegar þú býrð til gögn í fjármála- og rekstrarforriti.
+Þú gætir fengið villuboðin „Villa í beiðni“ þegar þú býrð til gögn í forriti fjármála- og reksturs.
 
 ![Dæmi um villuboðin Bad Request.](media/error_record_id_source.png)
 
 Til að laga vandamálið verður þú að virkja réttindin sem vantar með því að úthluta réttu öryggishlutverki til teymis í vörpuðum viðskiptaeiningum Dynamics 365 Sales eða Dynamics 365 Customer Service.
 
-1. Í fjármála- og rekstrarappinu, finndu rekstrareininguna sem er kortlögð í gagnasamþættingartengingarsettinu.
+1. Í forriti fjármála- og reksturs finnurðu viðskiptaeininguna sem er varpað í gagnasamsetningar tengingarsettinu.
 
     ![Fyrirtækjavörpun.](media/mapped_business_unit.png)
 
@@ -77,7 +77,7 @@ Til að laga vandamálið verður þú að virkja réttindin sem vantar með þv
 
 **Nauðsynlegt hlutverk til að laga vandamálið:** Kerfisstjóri
 
-Þú gætir fengið eftirfarandi villuboð þegar þú býrð til gögn í fjármála- og rekstrarforriti:
+Eftirfarandi villuboð kunna að birtast þegar gögn er stofnuð í forriti fjármála- og reksturs:
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Ekki tókst að mynda farm fyrir eininguna CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Stofnun farms tókst ekki með villunni Ógilt URI: URI er tómt."}\],"isErrorCountUpdated":true}*
 
@@ -85,19 +85,19 @@ Svona líta villuboðin út í forriti viðskiptavinar:
 
 > Óvænt villa kom upp í ISV-kóða. (ErrorType = ClientError) Óvænt undantekning frá viðbót (Keyra): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: tókst ekki að vinna úr einingareikningi - (Tengingartilraun mistókst vegna þess að tengdur aðili svaraði ekki á fullnægjandi hátt eftir nokkurn tíma, eða ekki tókst að koma á tengingu vegna þess að tengdur hýsill svaraði ekki.
 
-Þessi villa kemur upp ef Dataverse umhverfið er rangt endurstillt þegar þú reynir að búa til gögn í fjármála- og rekstrarappinu.
+Þessi villa kemur upp ef Dataverse umhverfið er endurstillt á rangan hátt þegar reynt er að búa til gögn í forriti fjármála- og reksturs.
 
 > [!IMPORTANT]
 > Ef þú hefur tengt umhverfin aftur verður þú að stöðva allar varpanir á einingum áður en þú getur haldið áfram með bragarbótaskrefin.
 
-Til að laga vandamálið verður þú að ljúka skrefum í báðum Dataverse og fjármála- og rekstrarappinu.
+Til að leysa úr vandamálinu þarf að ljúka skrefum í bæði Dataverse og forriti fjármála- og reksturs.
 
-1. Í fjármála- og rekstrarappinu skaltu fylgja þessum skrefum:
+1. Í forriti fjármála- og reksturs skaltu fylgja þessum skrefum:
 
-    1. Opnaðu eininguna **DualWriteProjectConfigurationEntity** með því að nota Excel-viðbótina. Til að nota viðbótina, virkjaðu hönnunarham í fjármála- og rekstrar Excel viðbótinni og bættu við **DualWriteProjectConfigurationEntity** í vinnublað. Frekari upplýsingar er að finna í [Skoða og uppfæra einingagögn með Excel](../../office-integration/use-excel-add-in.md).
+    1. Opnaðu eininguna **DualWriteProjectConfigurationEntity** með því að nota Excel-viðbótina. Til að nota innbótina skaltu virkja hönnunarsnið í Excel-innbót fjármála- og reksturs og bæta **DualWriteProjectConfigurationEntity** við vinnublað. Frekari upplýsingar er að finna í [Skoða og uppfæra einingagögn með Excel](../../office-integration/use-excel-add-in.md).
     2. Veldu og eyddu færslunum þar sem vandamál koma upp í vörpun tvöfaldrar skráningar og verki. Það verða tvær færslur fyrir hverja vörpun tvöfaldrar skráningar.
     3. Birtu breytingarnar með því að nota Excel-innbótina. Þetta skref er mikilvægt vegna þess að það eyðir færslunum úr einingunni og undirliggjandi töflum.
-    4. Til að koma í veg fyrir villur þegar þú tengir saman fjármál og rekstur eða Dataverse umhverfi, vertu viss um að engar tvískriftarstillingar séu eftir.
+    4. Til að hjálpa til við að koma í veg fyrir villur þegar þú endurtengir fjármál- og rekstur eða Dataverse umhverfin skaltu ganga úr skugga um að engar stillingar tvöfaldrar skráningar séu lengur til staðar.
 
 2. Í Dataverse skal fylgja eftirfarandi skrefum:
 
@@ -108,12 +108,12 @@ Til að laga vandamálið verður þú að ljúka skrefum í báðum Dataverse o
     5. Veldu **Niðurstöður** til að skoða skilgreiningarnar.
     6. Eyddu öllum tilvikum.
 
-3. Í fjármála- og rekstrarappinu skaltu fylgja þessum skrefum:
+3. Í forriti fjármála- og reksturs skaltu fylgja þessum skrefum:
 
-    1. Opnaðu eininguna **DualWriteProjectConfigurationEntity** með því að nota Excel-viðbótina. Til að nota viðbótina, virkjaðu hönnunarham í fjármála- og rekstrar Excel viðbótinni og bættu við **DualWriteProjectConfigurationEntity** í vinnublað. Frekari upplýsingar er að finna í [Skoða og uppfæra einingagögn með Excel](../../office-integration/use-excel-add-in.md).
+    1. Opnaðu eininguna **DualWriteProjectConfigurationEntity** með því að nota Excel-viðbótina. Til að nota innbótina skaltu virkja hönnunarsnið í Excel-innbót fjármála- og reksturs og bæta **DualWriteProjectConfigurationEntity** við vinnublað. Frekari upplýsingar er að finna í [Skoða og uppfæra einingagögn með Excel](../../office-integration/use-excel-add-in.md).
     2. Veldu og eyddu færslunum þar sem vandamál koma upp í vörpun tvöfaldrar skráningar og verki. Það verða tvær færslur fyrir hverja vörpun tvöfaldrar skráningar.
     3. Birtu breytingarnar með því að nota Excel-innbótina. Þetta skref er mikilvægt vegna þess að það eyðir færslunum úr einingunni og undirliggjandi töflum.
-    4. Til að koma í veg fyrir villur þegar þú tengir saman fjármál og rekstur eða Dataverse umhverfi, vertu viss um að engar tvískriftarstillingar séu eftir.
+    4. Til að hjálpa til við að koma í veg fyrir villur þegar þú endurtengir fjármál- og rekstur eða Dataverse umhverfin skaltu ganga úr skugga um að engar stillingar tvöfaldrar skráningar séu lengur til staðar.
 
 ## <a name="live-synchronization-error-after-you-do-a-full-database-copy"></a>Villa í samstillingu í rauntíma eftir að full afritun gagnagrunns hefur verið gerð
 
@@ -189,9 +189,9 @@ while(qRun.next())
 }
 ```
 
-## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Gögn úr fjármála- og rekstraröppum eru ekki samstillt við Dataverse
+## <a name="data-from-finance-and-operations-apps-isnt-synced-to-dataverse"></a>Gögn úr forritum fjármála- og reksturs eru ekki samstillt við Dataverse
 
-Við samstillingu í beinni gætirðu lent í vandræðum þar sem aðeins hluti gagna er samstilltur úr fjármála- og rekstrarforritum til Dataverse, eða gögn eru alls ekki samstillt.
+Við samstillingu í rauntíma gæti komið upp vandamál þar sem aðeins hluti gagnanna eru samstillt úr forritum fjármála- og reksturs í Dataverse eða gögn eru yfirhöfuð ekki samstillt.
 
 > [!NOTE]
 > Þú verður að laga þetta vandamál meðan á þróun stendur.
@@ -200,13 +200,13 @@ Við samstillingu í beinni gætirðu lent í vandræðum þar sem aðeins hluti
 
 + Gakktu úr skugga um að sérsniðnu breytingarnar séu skrifaðar í einni færslu.
 + Viðskiptatilvik og rammi tvöfaldra skrifa meðhöndla ekki `doinsert()`, `doUpdate()` og `recordset()` aðgerðir eða færslur þar sem `skipBusinessEvents(true)` er merkt. Ef kóðinn þinn er inni í þessum aðgerðum verða tvöföld skrif ekki ræst.
-+ Viðskiptatilvik verða að vera skráð fyrir gagnagjafann sem er varpað. Sumar gagnaveitur gætu notað ytri tengingu og gætu verið merktar sem skrifvarandi í fjármála- og rekstrarforritum. Gagnaveiturnar eru ekki rekjanlegar.
++ Viðskiptatilvik verða að vera skráð fyrir gagnagjafann sem er varpað. Sumir gagnagjafar gætu notað ytri tengingu og verið merktir sem skrifvarðir í forritum fjármála- og reksturs. Gagnaveiturnar eru ekki rekjanlegar.
 + Breytingar verða aðeins gerðar ef breytingarnar eru gerðar á vörpuðum reitum. Breytingum á óvörpuðum reitum setja ekki tvöföld skrif af stað.
 + Gakktu úr skugga um að mat á síum gefi gilda niðurstöðu.
 
 ### <a name="troubleshooting-steps"></a>Úrræðaleitarskref
 
-1. Farðu yfir reitavarpanir á stjórnandasíðu tvöfaldra skrifa. Ef reit er ekki kortlagt frá fjármála- og rekstraröppum til Dataverse, það verður ekki rakið. Til dæmis, í eftirfarandi mynd, er **Lýsing** sviði er rakið frá Dataverse, en ekki frá fjármála- og rekstraröppum. Engar breytingar á því sviði innan fjármála- og rekstrarappa verða raktar.
+1. Farðu yfir reitavarpanir á stjórnandasíðu tvöfaldra skrifa. Ef reit er ekki varpað úr forritum fjármála- og reksturs í Dataverse verða hann ekki rakinn. Í eftirfarandi mynd er til dæmis fylgst með reitnum **Lýsing** úr Dataverse forritum en ekki forritum fjármála- og reksturs. Ekki verður hægt að fylgjast með breytingum á þessum reit í forritum fjármála- og reksturs.
 
     ![Raktir reitir.](media/live-sync-troubleshooting-1.png)
 
@@ -220,9 +220,9 @@ Við samstillingu í beinni gætirðu lent í vandræðum þar sem aðeins hluti
 
 ### <a name="sample-scenario"></a>Dæmi
 
-Í fjármála- og rekstrarforritum er uppfærsla á heimilisfangi fyrir tengiliðaskrá, en heimilisfangsbreytingin er ekki samstillt við Dataverse. Þessar aðstæður koma upp vegna þess að engin færsla í töflunni **BusinessEventsDefinition** er með samsetningu af töflunni sem um ræðir og einingunni. Taflan **LogisticsPostalAddress** er nánar tiltekið ekki beinn gagnagjafi fyrir eininguna **smmContactpersonCDSV2Entity**. Einingin **smmContactpersonCDSV2Entity** er með **smmContactPersonV2Entity** sem gagnagjafann og **smmContactPersonV2Entity** er í staðinn með **LogisticsPostalAddressBaseEntity** sem gagnagjafa. Taflan **LogisticsPostalAddress** er gagnagjafinn fyrir **LogisticsPostalAddressBaseEntity**.
+Í forritum fjármála- og reksturs er uppfærsla á aðsetrinu fyrir tengiliðafærslu, en breyting á aðsetri er ekki samstillt við Dataverse. Þessar aðstæður koma upp vegna þess að engin færsla í töflunni **BusinessEventsDefinition** er með samsetningu af töflunni sem um ræðir og einingunni. Taflan **LogisticsPostalAddress** er nánar tiltekið ekki beinn gagnagjafi fyrir eininguna **smmContactpersonCDSV2Entity**. Einingin **smmContactpersonCDSV2Entity** er með **smmContactPersonV2Entity** sem gagnagjafann og **smmContactPersonV2Entity** er í staðinn með **LogisticsPostalAddressBaseEntity** sem gagnagjafa. Taflan **LogisticsPostalAddress** er gagnagjafinn fyrir **LogisticsPostalAddressBaseEntity**.
 
-Svipað ástand getur komið upp í sumum óstöðluðum mynstrum, svo sem tilfellum þar sem taflan sem verið er að breyta í fjármála- og rekstrarforritum er ekki augljóslega tengd einingunni sem inniheldur hana. Til dæmis er aðalaðsetrið reiknað í einingunni **smmContactPersonCDSV2Entity**. Rammi tvöfaldra skrifa reynir að ákvarða hvernig breyting í undirliggjandi töflu er varpað aftur í einingar. Oftast nægir þessi aðferð. Í sumum tilvikum er tengillinn svo flókinn að maður þarf að vera nákvæmur. Ganga verður úr skugga um að **RecId** tengdrar töflu sé í boði beint úr einingunni. Síðan skal bæta við ákveðinni aðferð til að fylgjast með breytingum á töflunni.
+Svipaðar aðstæður geta komið upp í sumum óhefðbundnum mynstrum á borð við mál þar sem taflan sem verið er að breyta í forritum fjármála- og reksturs er ekki augljóslega tengd við eininguna sem geymir hana. Til dæmis er aðalaðsetrið reiknað í einingunni **smmContactPersonCDSV2Entity**. Rammi tvöfaldra skrifa reynir að ákvarða hvernig breyting í undirliggjandi töflu er varpað aftur í einingar. Oftast nægir þessi aðferð. Í sumum tilvikum er tengillinn svo flókinn að maður þarf að vera nákvæmur. Ganga verður úr skugga um að **RecId** tengdrar töflu sé í boði beint úr einingunni. Síðan skal bæta við ákveðinni aðferð til að fylgjast með breytingum á töflunni.
 
 Sem dæmi skal fara yfir aðferðina **smmContactPersonCDSV2Entity::getEntityDataSourceToFieldMapping()**. **CustCustomerV3entity** og **VendVendorV2Entity** hefur verið breytt til að meðhöndla þessar aðstæður.
 
@@ -250,19 +250,19 @@ Til að laga úr vandamálið skal fylgja þessum skrefum.
 5. Stöðvaðu allar varpanir tvöfaldra skrifa sem eru búnar til í einingunni **smmContactPersonCDSV2Entity**.
 6. Opna kortið. Þú ættir að sjá nýju töfluna (**LogisticsPostalAddress** í þessu dæmi) sem þú byrjaðir að fylgjast með því að nota **RefTableName** dálkinn fyrir línuna þar sem gildið **refentityname** jafngildir **smmContactPersonCDSV2Entity** í töflunni **BusinessEventsDefinition**.
 
-## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Villa þegar þú býrð til færslu þar sem margar færslur eru sendar úr fjármála- og rekstrarappi til Dataverse í sömu lotu
+## <a name="error-when-you-create-a-record-where-multiple-records-are-sent-from-a-finance-and-operations-app-to-dataverse-in-the-same-batch"></a>Villa þegar þú stofnar færslu þar sem margar færslur eru sendar úr forriti fjármála- og reksturs til Dataverse í sömu rununni
 
-Fyrir hvaða færslu sem er, býr fjármála- og rekstrarforrit til gögn í lotu og sendir þau sem lotu til Dataverse. Ef tvær færslur eru búnar til sem hluti af sömu færslu og þær vísa hvor til annarrar gætirðu fengið villuboð sem líkist eftirfarandi dæmi í fjármála- og rekstrarappinu:
+Fyrir allar færslur býr forrit fjármála- og reksturs til gögn í runu og sendir þau sem runu til Dataverse. Ef tvær færslur eru búnar til sem hluti af sömu færslunni, og þær vísa hvor á aðra, gætir þú fengið villuboð sem líkjast eftirfarandi dæmi í forriti fjármála- og reksturs:
 
 *Ekki er hægt að skrifa gögn í einingu aaa_fundingsources. Ekki er hægt að fletta upp ebecsfs_contracts með gildum {PC00...}. Ekki er hægt að fletta upp aaa_fundingsources með gildum {PC00...}. Skrif í aaa_fundingsources mistókst með villuboðum Undantekningarskilaboð: Fjartengdur þjónn skilaði villu: (400) Villa í beiðni.*
 
-Til að laga málið skaltu búa til einingartengsl í fjármála- og rekstrarforritinu til að gefa til kynna að einingarnar tvær séu tengdar hvor öðrum og að tengdar færslur séu meðhöndlaðar í sömu færslu.
+Til að laga vandamálið skaltu búa til einingavensl í forriti fjármála- og reksturs til að gefa til kynna að einingarnar tvær séu tengdar hvor annarri og að tengdu færslurnar séu meðhöndlaðar í sömu færslunni.
 
 ## <a name="enable-verbose-logging-of-error-messages"></a>Virkja fjölorða skráningu villuboða
 
-Í fjármála- og rekstrarforriti gætirðu rekist á villur sem tengjast Dataverse umhverfi. Villuboðin innihalda ekki endilega heildartexta skilaboðanna eða önnur viðeigandi gögn. Til að fá frekari upplýsingar geturðu virkjað nákvæma skráningu með því að stilla **IsDebugMode** fána sem er til staðar á **DualWriteProjectConfigurationEntity** eining í öllum verkefnastillingum í fjármála- og rekstraröppum.
+Í forriti fjármála- og reksturs gætir þú rekist á villur sem tengjast Dataverse umhverfinu. Villuboðin innihalda ekki endilega heildartexta skilaboðanna eða önnur viðeigandi gögn. Til að fá frekari upplýsingar er hægt að virkja fjölorða skráningu með því að stilla flaggið **IsDebugMode** sem er til staðar í einingunni **DualWriteProjectConfigurationEntity** í öllum verkskilgreiningum í forritum fjármála- og reksturs.
 
-1. Opnaðu eininguna **DualWriteProjectConfigurationEntity** með því að nota Excel-viðbótina. Til að nota viðbótina, virkjaðu hönnunarham í fjármála- og rekstrar Excel viðbótinni og bættu við **DualWriteProjectConfigurationEntity** í vinnublað. Frekari upplýsingar er að finna í [Skoða og uppfæra einingagögn með Excel](../../office-integration/use-excel-add-in.md).
+1. Opnaðu eininguna **DualWriteProjectConfigurationEntity** með því að nota Excel-viðbótina. Til að nota innbótina skaltu virkja hönnunarsnið í Excel-innbót fjármála- og reksturs og bæta **DualWriteProjectConfigurationEntity** við vinnublað. Frekari upplýsingar er að finna í [Skoða og uppfæra einingagögn með Excel](../../office-integration/use-excel-add-in.md).
 2. Stilltu flaggið **IsDebugMode** á **Já** í verkinu.
 3. Keyra aðstæður.
 4. Fjölorðir kladdar eru fáanlegir í töflunni **DualWriteErrorLog**. Notaðu eftirfarandi vefslóð til að fletta upp gögnum í vafra töflunnar: `https://XXXaos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`.
@@ -270,7 +270,7 @@ Til að laga málið skaltu búa til einingartengsl í fjármála- og rekstrarfo
 
 ## <a name="error-when-you-add-an-address-for-a-customer-or-contact"></a>Villa þegar þú bætir við aðsetri fyrir viðskiptavin eða tengilið
 
-Þú gætir fengið eftirfarandi villuboð þegar þú reynir að bæta við heimilisfangi fyrir viðskiptavin eða tengilið í fjármála- og rekstrarforritum eða Dataverse:
+Þú gætir fengið eftirfarandi villuboð þegar þú reynir að bæta aðsetri fyrir viðskiptavin eða tengilið í forritum fjármála- og reksturs eða Dataverse:
 
 *Ekki tókst að skrifa gögn í eininguna msdyn_partypostaladdresses. Skrif í DirPartyPostalAddressLocationCDSEntity mistókst með villuboðum Beiðni mistókst með stöðukóðanum BadRequest og CDS-villukóðanum : 0x80040265 svarskilaboð: Villa kom upp í viðbótinni. Færsla sem hefur eiginleikagildi staðsetningarauðkennis er þegar til staðar. Staðsetningarkenni einingarlykils krefst þess að þetta safn eiginda innihaldi einkvæm gildi. Veldu einkvæm gildi og reyndu aftur.*
 
@@ -290,7 +290,7 @@ Til að laga vandamálið skal setja upp útgáfu skipulagspakka tvöfaldra skri
 
 *„RecordError0“:“Skrif mistókust fyrir einingu Viðskiptavinir V3 með óþekktri undantekningu - Aðilafærsla finnst ekki fyrir aðilagerð „Fyrirtæki““}.*
 
-Þegar viðskiptavinur er stofnaður í Dataverse er nýtt aðilanúmer búið til. Villuboðin birtast þegar viðskiptamannaskráin, ásamt aðilanum, er samstillt við fjármála- og rekstraröpp, en það er nú þegar viðskiptamannaskrá sem hefur annað aðilanúmer.
+Þegar viðskiptavinur er stofnaður í Dataverse er nýtt aðilanúmer búið til. Villuboðin eru sýnd þegar færsla viðskiptavinar ásamt aðilanum er samstillt í forritum fjármála- og reksturs, en þegar er til staðar færsla viðskiptavinar sem er með annað aðilanúmer.
 
 Til að leysa úr vandamálinu skaltu finna viðskiptavininn í gegnum uppflettingu aðila. Ef viðskiptavinurinn er ekki til skaltu búa til nýja færslu viðskiptavinar. Ef viðskiptavinurinn er ekki til skaltu nota núverandi aðila til að stofna nýja færslu viðskiptavinar.
 
@@ -300,7 +300,7 @@ Til að leysa úr vandamálinu skaltu finna viðskiptavininn í gegnum uppfletti
 
 *Ekki er hægt að uppfæra gerð aðila úr „DirOrganization“ í „DirPerson“; þess í stað ætti að eyða út þeim aðila sem þegar er skráður og bæta við skráningu með nýrri gerð.*
 
-Í Dataverse er númeraröð í töflunni **msdyn_party**. Þegar lykill er stofnaður í Dataverse er nýr aðili búinn til (til dæmis **Party-001** af gerðinni **Fyrirtæki**). Þessi gögn eru send í fjármála- og rekstrarappið. Ef Dataverse umhverfi er endurstillt, eða fjármála- og rekstrarumhverfi er tengt öðru Dataverse umhverfi, og þá er ný tengiliðaskrá búin til í Dataverse, nýtt flokksgildi sem byrjar á **Partý-001** er búið til. Að þessu sinni verður aðilafærslan sem er stofnuð að **Party-001** af gerðinni **Einstaklingur**. Þegar þessi gögn eru samstillt sýna fjármála- og rekstrarforrit fyrri villuboð vegna þess að aðilaskrá **Partý-001** af **Skipulag** gerð er þegar til.
+Í Dataverse er númeraröð í töflunni **msdyn_party**. Þegar lykill er stofnaður í Dataverse er nýr aðili búinn til (til dæmis **Party-001** af gerðinni **Fyrirtæki**). Þessi gögn eru send til forrits fjármála- og reksturs. Ef Dataverse umhverfið er endurstillt eða umhverfi fjármála- og reksturs tengt öðru Dataverse umhverfi og síðan er ný tengiliðafærsla stofnuð í Dataverse verður nýtt gildi fyrir aðila sem byrjar á **Party-001** búið til. Að þessu sinni verður aðilafærslan sem er stofnuð að **Party-001** af gerðinni **Einstaklingur**. Þegar þessi gögn eru samstillt sýna forrit fjármála- og reksturs fyrri villuboðin vegna þess að aðilafærslan **Party-001** af gerðinni **Fyrirtæki** er þegar til.
 
 Til að laga vandamálið skal breyta sjálfvirkri númeraröðinni fyrir reitinn **msdyn_partynumber** í töflunni **msdyn_party** í Dataverse í aðra sjálfvirka númeraröð.
 

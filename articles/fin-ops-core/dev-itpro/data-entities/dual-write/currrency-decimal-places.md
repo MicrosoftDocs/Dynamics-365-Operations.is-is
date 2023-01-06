@@ -1,6 +1,6 @@
 ---
 title: Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
-description: Þessi grein lýsir því hvernig á að breyta fjölda aukastafa sem tvískrift styður fyrir gjaldmiðil.
+description: Þessi grein lýsir því hvernig á að breyta fjölda aukastafa sem tvöföld skrif styðja fyrir gjaldmiðil.
 author: RamaKrishnamoorthy
 ms.date: 12/08/2021
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: ramasri
 ms.search.validFrom: 2020-04-06
 ms.openlocfilehash: 327d6ced7fca4bdae1fd80928086dafed6b0f931
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289715"
@@ -29,7 +29,7 @@ Leiðin til að breyta fjölda aukastafa felur í sér tvö skref:
 1. Biðja um flutning frá Microsoft.
 2. Breyta fjölda aukastafa í Dataverse.
 
-Fjármála- og rekstrarappið og Dataverse verður að styðja sama fjölda aukastafa í gjaldmiðilsgildum. Annars getur gagnatap orðið þegar þessar upplýsingar eru samstilltar milli forrita. Flutningsferlið endurstillir hvernig gildi gjaldmiðils og gengis eru vistuð en það breytir ekki neinum gögnum. Þegar flutningnum er lokið eru fjölda aukastafa fyrir gjaldmiðilskóða og verðlagningu fjölgað og gögnin sem notendur slá inn og skoða eru með meiri nákvæmni.
+Forrit fjármála- og reksturs og Dataverse verða að styðja sama fjölda aukastafa í upphæðum gjaldmiðla. Annars getur gagnatap orðið þegar þessar upplýsingar eru samstilltar milli forrita. Flutningsferlið endurstillir hvernig gildi gjaldmiðils og gengis eru vistuð en það breytir ekki neinum gögnum. Þegar flutningnum er lokið eru fjölda aukastafa fyrir gjaldmiðilskóða og verðlagningu fjölgað og gögnin sem notendur slá inn og skoða eru með meiri nákvæmni.
 
 Flutningur er valfrjáls. Ef þú gætir notið góðs af stuðningi fyrir fleiri aukastafi, mælum við með að þú hugleiðir flutning. Fyrirtæki sem ekki þurfa gildi með fleiri en fjórum aukastöfum þurfa ekki að breyta.
 
@@ -37,7 +37,7 @@ Flutningur er valfrjáls. Ef þú gætir notið góðs af stuðningi fyrir fleir
 
 Geymsla fyrir núverandi gjaldmiðilsdálka í Dataverse getur ekki stutt meira en fjóra aukastafi. Í flutningsferlinu eru gildi gjaldmiðla þar af leiðandi afrituð í nýja innri dálka í gagnagrunninum. Þetta ferli heldur samfleytt áfram þar til öll gögn hafa verið flutt. Innan fyrirtækisins, við lok flutnings, taka nýju geymslugerðirnar við af þeim eldri en gagnagildin haldast óbreytt. Gjaldmiðilsdálkarnir geta í kjölfarið stutt allt að 10 aukastafi. Meðan á flutningi stendur, er hægt að halda áfram að nota Dataverse án truflunar.
 
-Á sama tíma er gengi breytt þannig að það styður allt að 12 aukastafi í stað núgildandi hámarks upp á 10. Þessi breyting er nauðsynleg þannig að fjöldi aukastafa sé sá sami í bæði fjármála- og rekstrarappinu og Dataverse.
+Á sama tíma er gengi breytt þannig að það styður allt að 12 aukastafi í stað núgildandi hámarks upp á 10. Þörf er á þessari breytingu svo að fjöldi aukastafa sé sá sami í bæði forriti fjármála- og reksturs og Dataverse.
 
 Flutningur breytir engum gögnum. Þegar dálkum gjaldmiðils og gengis hefur verið breytt, geta stjórnendur stillt kerfið til að nota allt að 10 aukastafi fyrir gjaldmiðilsdálkameð því að tilgreina fjölda aukastafa fyrir hvern gjaldmiðil færslu og fyrir verðlagningu.
 
@@ -87,17 +87,17 @@ Ef nákvæmni gjaldmiðils fyrir tiltekinn gjaldmiðil þarf að vera önnur en 
 
 Fjöldi aukastafa sem hægt er að stilla fyrir tiltekna gjaldmiðilsdálka takmarkast við fjóra.
 
-### <a name="default-currency-decimal-precision"></a>Sjálfgefin tuganákvæmni gjaldmiðils
-Fyrir væntanlega hegðun fyrir sjálfgefna gjaldmiðils aukastafsnákvæmni við flutnings- og óflutningssviðsmyndir, vísa til eftirfarandi töflu. 
+### <a name="default-currency-decimal-precision"></a>Tugabrotsnákvæmni sjálfgefins gjaldmiðils
+Í eftirfarandi töflu má sjá upplýsingar um þá hegðun sem búast má við fyrir tugabrotsnákvæmni sjálfgefins gjaldmiðils í flutningi og öðru en flutningi. 
 
-| Stofnað þann  | Gjaldmiðill tugabrotsreitur    | Núverandi stofnun (gjaldmiðilsreitur ekki fluttur) | Núverandi stofnun (gjaldmiðilsreitur fluttur) | Ný stofnun búin til færslubygging 9.2.21062.00134 |
+| Stofnað þann  | Tugabrotsreitur gjaldmiðils    | Núverandi fyrirtæki (Gjaldmiðilsreitur ekki fluttur) | Núverandi fyrirtæki (Gjaldmiðilsreitur fluttur) | Nýtt fyrirtæki búið til eftir smíð 9.2.21062.00134 |
 |---------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|------------------------------------------------|
-| Gjaldeyrisreitur búinn til fyrir smíði 9.2.21111.00146  |     |  |       |
-|    | Hámarks nákvæmni sýnileg í notendaviðmóti   | 4 tölustafir    | 10 tölustafir    | Á ekki við    |
-| | Hámarks nákvæmni sýnileg í notendaviðmóti gagnagrunns og DB fyrirspurnarniðurstaðna         | 4 tölustafir   | 10 tölustafir   | Á ekki við    |
-| Gjaldeyrisreitur búinn til eftir smíði 9.2.21111.00146 |    |  |     |   |
-|   | Hámarks nákvæmni tugabrota sýnileg í notendaviðmóti     | 4 tölustafir   | 10 tölustafir   | 10 tölustafir     |
-|          | Hámarks nákvæmni tugabrota sýnileg í notendaviðmóti gagnagrunns og DB fyrirspurnarniðurstaðna | 10 tölustafir. Hins vegar eru aðeins 4 marktækar með öll núll fyrir utan 4 aukastafina. Þetta gerir einfaldari og hraðari flutning á stofnuninni, ef þörf krefur. | 10 tölustafir      | 10 tölustafir     |
+| Gjaldmiðilsreitur búinn til fyrir smíð 9.2.21111.00146  |     |  |       |
+|    | Hámarksnákvæmni sýnileg í notandaviðmóti   | Fjórir tölustafir    | Tíu tölustafir    | Á ekki við    |
+| | Hámarksnákvæmni sýnileg í gagnagrunni og notandaviðmóti fyrir niðurstöður fyrirspurnar í gagnagrunni         | Fjórir tölustafir   | Tíu tölustafir   | Á ekki við    |
+| Gjaldmiðilsreitur búinn til eftir smíð 9.2.21111.00146 |    |  |     |   |
+|   | Hámarksnákvæmni tugatölu sýnileg í notendaviðmóti     | Fjórir tölustafir   | Tíu tölustafir   | Tíu tölustafir     |
+|          | Hámarksnákvæmni sýnileg í gagnagrunni og notendaviðmóti fyrir niðurstöður fyrirspurnar í gagnagrunni | Tíu tölustafir. Hins vegar eru aðeins 4 marktækir með öllum núllum umfram tugatölustafina fjóra. Þetta gerir flutning fyrirtækisis einfaldari og hraðari, ef þörf krefur. | Tíu tölustafir      | Tíu tölustafir     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

@@ -1,6 +1,6 @@
 ---
 title: Eignafærslukostir
-description: Þessi grein lýsir mismunandi aðferðum sem eru tiltækar til að búa til eignaviðskipti.
+description: Þessi grein lýsir mismunandi aðferðum sem eru tiltækar til að stofna eignafærslu.
 author: moaamer
 ms.date: 08/10/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 402679b6f1003f14f7e277a326784edaaea719d5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8883359"
@@ -26,7 +26,7 @@ ms.locfileid: "8883359"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir mismunandi aðferðum sem eru tiltækar til að búa til eignaviðskipti.
+Þessi grein lýsir mismunandi aðferðum sem eru tiltækar til að stofna eignafærslu.
 
 Þú getur sett upp eign fyrir sameiningu með viðskiptaskuldir, viðskiptakröfur, innkaup og uppruna og fjárhag. Einnig er hægt að flytja vörur í birgðastjórnun á eignir eigi að nota þær vörur innan kerfis.
 

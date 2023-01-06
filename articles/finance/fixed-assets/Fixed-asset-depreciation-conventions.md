@@ -1,6 +1,6 @@
 ---
 title: Afskriftarreglur eigna
-description: Þessi grein lýsir afskriftarvenjum varanlegra rekstrarfjármuna.
+description: Þessi grein lýsir afskriftarvenjum fyrir eignir.
 author: moaamer
 ms.date: 09/04/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6d791461a344611437e77514e47dd5dd9b7ddb10
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8858392"
@@ -26,7 +26,7 @@ ms.locfileid: "8858392"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir afskriftarvenjum varanlegra rekstrarfjármuna. Afskriftarreglur eru notaðar til að ákvarða hvenær og hvernig afskrift er reiknuð bæði fyrir árið þegar eignin er keypt og árið þegar eignin er losuð.
+Þessi grein lýsir afskriftarvenjum fyrir eignir. Afskriftarreglur eru notaðar til að ákvarða hvenær og hvernig afskrift er reiknuð bæði fyrir árið þegar eignin er keypt og árið þegar eignin er losuð.
 
 Hægt er að úthluta afskriftarreglum á uppsetningu eignaflokkabókar. Til að skoða eða úthluta afskriftarreglum skal velja flokkinn **Egnir** í uppsetningarsvæði eigna. Veljið hnappinn **Bækur**. Í því tilfelli eru úthlutaðar afskriftarreglur notaðar sem sjálfgefin gildi þegar eignabækur eru stofnaðar. Einnig er hægt að setja afskriftarreglurnar á einstaka eignabók. Til að gera þetta skal velja **Bækur** í uppsetningarsvæði eigna og síðan velja hnappinn **Eignaflokkar**.
 

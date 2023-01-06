@@ -1,6 +1,6 @@
 ---
 title: Samstilling innkaupa milli Supply Chain Management og Field Service
-description: Þessi grein lýsir því hvernig tvískrifa samþætting styður stofnun innkaupapöntunar og uppfærslur frá bæði Supply Chain Management og Field Service.
+description: Þessi grein lýsir því hvernig samþætting tvöfaldrar skráningar styður stofnun og uppfærslur innkaupapöntunar úr bæði Supply Chain Management og Field Service.
 author: RamaKrishnamoorthy
 ms.date: 11/11/2020
 ms.topic: article
@@ -12,7 +12,7 @@ ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
 ms.openlocfilehash: a2e5ac6911e7fb4753e1dbd0b78b26691dbe3105
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9288855"

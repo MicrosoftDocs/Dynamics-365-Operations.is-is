@@ -1,6 +1,6 @@
 ---
 title: Formúlutungumál í rafrænni skýrslugerð
-description: Þessi grein veitir upplýsingar um hvernig á að nota formúlumálið í rafrænum skýrslum (ER).
+description: Þessi grein inniheldur upplýsingar um hvernig á að nota formúluhönnuðinn í rafrænni skýrslugerð (ER).
 author: kfend
 ms.date: 05/04/2020
 audience: Application User, IT Pro
@@ -12,7 +12,7 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 7df29c74b2a430ed9d974cad709b975e4fd9cd35
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9283284"

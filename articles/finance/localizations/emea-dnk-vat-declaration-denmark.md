@@ -1,6 +1,6 @@
 ---
-title: VSK yfirlýsing (Danmörk)
-description: Þessi grein lýsir því hvernig á að setja upp og búa til fyrirfram virðisaukaskattsskýrslu (VSK) fyrir Danmörku.
+title: VSK-skýrsla (Danmörk)
+description: Í þessari grein er lýst hvernig á að setja upp og búa til virðisaukaskattsskýrslu fyrir Danmörku.
 author: AdamTrukawka
 ms.date: 03/10/2022
 ms.topic: article
@@ -11,259 +11,259 @@ ms.author: atrukawk
 ms.search.validFrom: ''
 ms.openlocfilehash: a47b2b98d86daf50876c783f879362ec1addb579
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9272141"
 ---
-# <a name="vat-declaration-denmark"></a>VSK yfirlýsing (Danmörk)
+# <a name="vat-declaration-denmark"></a>VSK-skýrsla (Danmörk)
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að setja upp virðisaukaskattsskýrslu (VSK) fyrir Danmörku og forskoða hana í Microsoft Excel.
+Í þessari grein er lýst hvernig virðisaukaskattsskýrsla er sett upp í Danmörku og hún forskoðuð í Microsoft Excel.
 
-Til að búa til skýrsluna sjálfkrafa skaltu fyrst búa til nógu marga VSK-kóða til að halda sérstakt VSK-bókhald fyrir hvern reit á fyrirfram VSK-yfirlitinu. Að auki, í forritssértækum færibreytum rafrænnar skýrslugerðar (ER) sniðs fyrir fyrirfram VSK yfirlýsingu, tengja virðisaukaskattskóða við uppflettingarniðurstöðu uppflettinganna fyrir reitina á VSK yfirlýsingunni.
+Til að búa skýrsluna til sjálfkrafa þarf fyrst að búa til nógu marga VSK-kóða til að halda sérstakt VSK-bókhald fyrir hvern glugga í VSK-skýrslunni. Auk þess, í forritstengdum færibreytum rafræns skýrslugerðarsniðs fyrir VSK-skýrsluna, skal tengja VSK-kóða við uppflettiniðurstöður fyrir gluggana í VSK-skýrslunni.
 
-Fyrir Danmörku verður þú að stilla **Tilkynna reiti leit**. Fyrir frekari upplýsingar um hvernig á að setja upp forritssértækar færibreytur, sjá [Settu upp forritssértækar færibreytur fyrir VSK-yfirlýsingareiti](#set-up-application-specific-parameters) kafla síðar í þessari grein.
+Fyrir Danmörku þarf að grunnstilla **Uppfletting í skýrslureit**. Frekari upplýsingar um hvernig á að setja upp forritstengdar færibreytur er að finna í hlutanum [Setja upp færibreytur tiltekins forrits fyrir reiti VSK-skýrslu](#set-up-application-specific-parameters) síðar í þessari grein.
 
-Í eftirfarandi töflu sýnir dálkurinn „Upplitsniðurstaða“ uppflettingarniðurstöðuna sem er forstillt fyrir tiltekna virðisaukaskattsskýrslulínu á sniði VSK-skýrslu. Notaðu þessar upplýsingar til að tengja virðisaukaskattskóða rétt við uppflettingarniðurstöðuna og síðan við línuna í virðisaukaskattsskýrslunni.
+Í eftirfarandi töflu sýnir dálkurinn „Niðurstaða uppflettingar“ niðurstöðuna sem er forstillt fyrir tiltekna línu VSK-skýrslu á VSK-skýrslusniðinu. Notaðu þessar upplýsingar til að tengja VSK-kóða við niðurstöðu uppflettingar á réttan hátt og síðan við línuna í VSK-skýrslunni.
 
-### <a name="vat-declaration-overview"></a>Yfirlit yfir virðisaukaskattsskýrslu
+### <a name="vat-declaration-overview"></a>Yfirlit VSK-skýrslu
 
-VSK yfirlýsingin í Danmörku inniheldur eftirfarandi upplýsingar.
+VSK-skýrsla í Danmörku inniheldur eftirfarandi upplýsingar.
 
 **VAT til greiðslu**
 
-| Lýsing                                                  | Skattstofn/skattfjárhæð | Niðurstaða uppflettingar/Total                                                                                                                                                                                                                                                                                                                          |
+| Lýsing                                                  | Skattstofn/skattupphæð | Niðurstaða uppflettingar/Alls                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Útskattur                                                   | Skattupphæð          | **Úttaksvirðisaukaskattur**</br> **Innlend VATUskattur** (einnig tilkynnt í reitnum „VSK“)                                                                                                                                                                                                                                                                       |
-| Virðisaukaskattur af vörum o.fl. Keypt erlendis                           | Skattupphæð          | **Kaupa vörur erlendis**</br>**Kaupa vörur erlendis Notaskattur** (einnig tilkynnt í reitnum „VSK“)</br>**PurchaseGoodsEU** (Skattstofninn er skráður í "reitur A - vöruöflun.")</br>**PurchaseGoodsEUUseTax** (Skattupphæðin er einnig gefin upp í reitnum „VSK“. Skattstofninn er skráður í "reitur A - vöruöflun.")                   |
-| VSK af þjónustu sem keypt er erlendis og kann að falla undir bakfærð gjöld | Skattupphæð          | **InnkaupaþjónustaErlendis**</br> **InnkaupaþjónustaErlendis Notaskattur** (einnig tilkynnt í reitnum „VSK“)</br>**PurchaseServicesEU** (Skattstofninn er skráður í "Rammi A - öflun þjónustu.")</br>**InnkaupaþjónustaEUNotaðuskatt** (Skattupphæðin er einnig gefin upp í reitnum „VSK“. Skattstofninn er tilgreindur í "Rammi A - öflun þjónustu.") |
-| Samtals til greiðslu                                                | Skattupphæð          | Samtals þrjár fyrri kassarnir                                                                                                                                                                                                                                                                                                            |
+| Útskattur                                                   | Skattupphæð          | **OutputVAT**</br> **DomesticVATUseTax** (einnig gefið upp í glugganum „Innskattur“)                                                                                                                                                                                                                                                                       |
+| VSK af vörum o.s.frv. keypt erlendis                           | Skattupphæð          | **PurchaseGoodsAbroad**</br>**PurchaseGoodsAbroadUseTax** (einnig gefið upp í glugganum „Innskattur“)</br>**PurchaseGoodsEU** (Skattstofninn er gefinn upp í „Gluggi A - kaup á vörum.“)</br>**PurchaseGoodsEUUseTax** (Skattupphæðin er einnig gefin upp í glugganum „Innskattur“. Skattstofninn er gefinn upp í „Gluggi A - kaup á vörum.“)                   |
+| VSK af þjónustu sem keypt er erlendis og kann að falla undir bakfærð gjöld | Skattupphæð          | **PurchaseServicesAbroad**</br> **PurchaseServicesAbroadUseTax** (einnig gefið upp í glugganum „Innskattur“)</br>**PurchaseServicesEU** (Skattstofninn er gefinn upp í „Gluggi A - kaup á þjónustu.“)</br>**PurchaseServicesEUUseTax** (Skattupphæðin er einnig gefin upp í glugganum „Innskattur“. Skattstofninn er gefinn upp í „Gluggi A - kaup á þjónustu.“) |
+| Samtala viðskiptaskuldar                                                | Skattupphæð          | Samtala fyrri þriggja glugganna                                                                                                                                                                                                                                                                                                            |
 
 **Frádráttur**
 
-| Lýsing                                                                               | Skattstofn/skattfjárhæð | Niðurstaða uppflettingar/Total                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Lýsing                                                                               | Skattstofn/skattupphæð | Niðurstaða uppflettingar/Alls                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Innskattur                                                                                 | Skattupphæð          | **Inntaksvirðisaukaskattur**</br> **Innlend VATUskattur** (einnig tilkynnt í reitnum „Framtaksvirðisaukaskattur“)</br>**Kaupa vörur erlendis Notaskattur** (einnig greint frá í „VSK á vörur o.fl. Keypt erlendis“ kassi)</br>**InnkaupaþjónustaErlendis Notaskattur** (einnig tilgreint í reitnum „VSK af þjónustu sem keypt er erlendis með öfugri gjaldfærslu“)</br>**PurchaseGoodsEUUseTax** (einnig greint frá í „VSK á vörur o.fl. Keypt erlendis“ kassi)</br> **InnkaupaþjónustaEUNotaðuskatt** (einnig tilgreint í reitnum „VSK af þjónustu sem keypt er erlendis með öfugri gjaldfærslu“) |
+| Innskattur                                                                                 | Skattupphæð          | **InputVAT**</br> **DomesticVATUseTax** (einnig gefið upp í glugganum „Útskattur“)</br>**PurchaseGoodsAbroadUseTax** (einnig gefið upp í „VSK af vörum o.s.frv. keypt erlendis“ gluggi)</br>**PurchaseServicesAbroadUseTax** (einnig í „VSK af þjónustu sem keypt er erlendis og kann að falla undir bakfærð gjöld“ reitnum)</br>**PurchaseGoodsEUUseTax** (einnig gefið upp í „VSK af vörum o.s.frv. keypt erlendis“ gluggi)</br> **PurchaseServicesEUUseTax** (einnig í „VSK af þjónustu sem keypt er erlendis og kann að falla undir bakfærð gjöld“ reitnum) |
 | Gjald fyrir olíu og fljótandi jarðolíugas                                                                  | Skattupphæð          | **OilGasDuty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Gjald fyrir jarðgas og veitugas                                                             | Skattupphæð          | **NaturalTownGasDuty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Kolefnisgjald                                                                               | Skattupphæð          | **CarbonDuty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| CO2-skylda                                                                                   | Skattupphæð          | **CO2-skylda**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| CO2Duty                                                                                   | Skattupphæð          | **CO2Duty**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Vatnsgjald                                                                              | Skattupphæð          | **WaterCharge**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Samtals frádráttur                                                                          | Skattupphæð          | Samtals fyrri sex kassar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Heildarupphæð gjalda (plústala = ganga frá greiðslu, mínustala = fá endurgreiðslu) | Skattupphæð          | "Heildar til greiðslu" - "Heildarfrádráttur"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Samtals frádráttur                                                                          | Skattupphæð          | Samtala fyrri sex glugga                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Heildarupphæð gjalda (plústala = ganga frá greiðslu, mínustala = fá endurgreiðslu) | Skattupphæð          | „Samtala viðskiptaskuldar“ – „Heildarfrádráttur“                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 **Viðbótarupplýsingar**
 
-| Lýsing                                                                                                                                                                                                                                | Skattstofn/skattfjárhæð | Niðurstaða uppflettingar/Total                             |
+| Lýsing                                                                                                                                                                                                                                | Skattstofn/skattupphæð | Niðurstaða uppflettingar/Alls                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|-------------------------------------------------|
-| Reitur A - vöruöflun. Verðmæti vörukaupa innan sambandsins án virðisaukaskatts.                                                                                                                                                   | Skattstofn            | **PurchaseGoodsEU PurchaseGoodsEUUseTax**       |
-| Reitur A - öflun þjónustu. Verðmæti án virðisaukaskatts af kaupum á þjónustu innan sambandsins.                                                                                                                                             | Skattstofn            | **Innkaupaþjónusta ESB Innkaupaþjónusta ESBNota Skattur** |
-| Reitur B - vöruframboð - skal tilkynna til "ESB-sala án VSK"/DK VIES. Verðmæti vöruafhendingar innan Sambandsins án virðisaukaskatts                                                                                                           | Skattstofn            | **SalesGoodsEU**                                |
-| Reitur B - vistir - ekki tilkynnt til "ESB-sala án VSK"/DK VIES. Verðmæti án virðisaukaskatts tiltekinna birgða innan sambandsins, td uppsetningar, samsetningar, fjarsölu og nýrra flutningatækja til óskattskyldra aðila. | Skattstofn            | **Sala Uppsetning Assembly EtcEU**              |
-| Reitur B - þjónustuframboð. Verðmæti án virðisaukaskatts af þjónustu innan Sambandsins sem kaupandi ber að greiða virðisaukaskatt af sem öfug gjaldfærsla - verður einnig að tilkynna til "ESB-sala án virðisaukaskatts"/DK VIES.                          | Skattstofn            | **Söluþjónusta ESB**                             |
-| Askja C - aðrar vistir. Verðmæti afhendingar á öðrum vörum og þjónustu sem er afhent án virðisaukaskatts á yfirráðasvæði Danmerkur, til annarra aðildarríkja ESB og til þriðju landa eða þriðju landsvæði.                                     | Skattstofn            | **Aðrar birgðir Án vsk**                     |
+| Gluggi A – Vörukaup. Virði vörukaupa innan ESB án VSK.                                                                                                                                                   | Skattstofn            | **PurchaseGoodsEU PurchaseGoodsEUUseTax**       |
+| Gluggi A – Kaup á þjónustu. Virði kaupa á þjónustu innan ESB án VSK.                                                                                                                                             | Skattstofn            | **PurchaseServicesEU PurchaseServicesEUUseTax** |
+| Gluggi B - framboð á vörum - sem gefa skal upp í „ESB-sala án VSK“/DK VIES. Virðið án VSK á vöruframboði innan ESB                                                                                                           | Skattstofn            | **SalesGoodsEU**                                |
+| Gluggi B - birgðir - sem ekki á að gefa upp í „ESB-sala án VSK“/DK VIES. Virði tiltekinna aðfanga innan ESB án VSK, t.d. uppsetningar, samsetningar, fjarsölu og nýrra flutningsleiða til óskattskyldra aðila. | Skattstofn            | **SalesInstallationAssemblyEtcEU**              |
+| Gluggi B – Framboð á þjónustu. Virði framboðs á þjónustu innan ESB án VSK sem kaupandi ber ábyrgð á að greiða VSK af sem bakfært gjald – verður einnig að tilkynna til „EU-sales without VAT“/DK VIES.                          | Skattstofn            | **SalesServicesEU**                             |
+| Gluggi C – aðrar birgðir. Virði annarra vara og þjónustu sem veitt er án VSK í Danmörku til annarra aðildarríkja Evrópusambandsins og þriðju landa eða svæða.                                     | Skattstofn            | **OtherSuppliesWithoutVAT**                     |
 
-#### <a name="purchase-reverse-charge-vat"></a>Kaupa öfug gjaldfærslu VSK
+#### <a name="purchase-reverse-charge-vat"></a>Innkaup, bakfærður VSK
 
-Ef þú stillir VSK-kóða til að bóka VSK með því að nota virðisaukaskatt, tengdu VSK-kóðana þína við uppflettingarniðurstöðuna fyrir **Tilkynna reiti leit** sem inniheldur "UseTax" í nafninu.
+Ef þú grunnstillir VSK-kóða til að bóka bakfærðan VSK á innleið með því að nota neysluskatt skaltu tengja VSK-kóðana við niðurstöðu uppflettingar í **Uppfletting í skýrslureit** sem inniheldur „UseTax“ í heitinu.
 
-Að öðrum kosti er hægt að stilla tvo aðskilda VSK-kóða: einn fyrir virðisaukaskatt sem ber að greiða og einn fyrir VSK-frádrátt. Tengdu síðan hvern kóða við samsvarandi leitarniðurstöður fyrir **Tilkynna reiti leit**.
+Annars er hægt að grunnstilla tvo aðskilda VSK-kóða: einn fyrir VSK til greiðslu og annan fyrir VSK-frádrátt. Síðan skal tengja hvern kóða við samsvarandi niðurstöður uppflettingar á **Uppfletting í skýrslureit**.
 
-Til dæmis, fyrir skattskyldar yfirtökur innan samfélags, stillir þú söluskattskóða **UT_S_EU** með afnotaskatti og tengja það við **PurchaseGoodsEUUseTax** uppflettingarniðurstaða af **Tilkynna reiti leit**. Í þessu tilviki, skattfjárhæðir sem nota **UT_S_EU** VSK-kóði kemur fram í „VSK á vörur o.fl. Keypt erlendis“ og „Inntaks VSK“ kassa. Skattstofnar endurspeglast í "Kassi A - kaup á vörum."
+Fyrir skattskyld kaup innan ESB skal til dæmis grunnstilla VSK-kóðann **UT_S_EU** með neysluskatti og tengja hann við uppflettiniðurstöðuna **PurchaseGoodsEUUseTax** í **Uppfletting í skýrslureit**. Í þessu tilviki koma skattupphæðir sem nota VSK-kóðann **UT_S_EU** fram í gluggunum „VSK af vörum o.s.frv. keypt erlendis“ og „Innskattur“. Skattstofnar eru gefnir upp í „Gluggi A - kaup á vörum.“
 
-Að öðrum kosti stillirðu tvo söluskattskóða:
+Einnig getur þú stillt tvo VSK-kóða:
 
-- **VAT_S_EU**, sem hefur skatthlutfallsgildi upp á -25 prósent
-- **InVAT_S_EU**, sem hefur skattprósentugildi upp á 25 prósent
+- **VAT_S_EU**, sem er með -25 prósent skatt
+- **InVAT_S_EU**, sem er með 25 prósent skatt
 
-Þú tengir síðan kóðana við uppflettingarniðurstöður af **Tilkynna reiti leit** á eftirfarandi hátt:
+Kóðana tengir þú svo við niðurstöður uppflettingar í **Uppfletting í skýrslureit** á eftirfarandi hátt:
 
-- Félagi **VAT_S_EU** með **PurchaseGoodsEU** uppflettingarniðurstöðu.
-- Félagi **InVAT_S_EU** með **Inntaksvirðisaukaskattur** uppflettingarniðurstöðu.
+- Tengdu **VAT_S_EU** við uppflettiniðurstöðuna **PurchaseGoodsEU**.
+- Tengdu **VAT_S_EU** við uppflettiniðurstöðuna **InputVAT**.
 
-Í þessu tilviki, upphæðir sem nota **VAT_S_EU** VSK-kóði kemur fram í „VSK á vörur o.fl. Keypt í útlöndum" kassa og "reitur A - vöruöflun." Upphæðir sem nota **InVAT_S_EU** söluskattskóði endurspeglast í reitnum „VSK“.
+Í þessu tilviki koma upphæðir sem nota VSK-kóðann **VAT_S_EU** fram í glugganum „VSK af vörum o.s.frv. keypt erlendis“ og „Gluggi A – kaup á vörum.“ Upphæðir sem nota VSK-kóðann **InVAT_S_EU** koma fram í glugganum „Innskattur“.
 
-Frekari upplýsingar um hvernig á að stilla öfuga gjaldfærslu VSK, sjá [Öfug gjöld](emea-reverse-charge.md).
+Frekari upplýsingar um hvernig á að grunnstilla bakfærðan VSK er að finna í [Bakfærð gjöld](emea-reverse-charge.md).
 
-## <a name="configure-system-parameters"></a>Stilla kerfisfæribreytur
+## <a name="configure-system-parameters"></a>Skilgreina kerfisfæribreytur
 
-Til að búa til virðisaukaskattsyfirlýsingu verður þú að stilla virðisaukaskattsnúmerið.
+Til að búa til VSK-skýrsla þarf að skilgreina VSK-númerið.
 
 1. Fara í **Fyrirtækisstjórnun** > **Fyrirtæki** > **Lögaðilar**.
-2. Veldu lögaðilann og veldu síðan **Skráningarauðkenni**.
-3. Veldu eða búðu til heimilisfangið í Danmörku og síðan á **Skráningarauðkenni** Flýtiflipi, veldu **Bæta við**.
-4. Í **Skráningartegund** reit skaltu velja skráningartegundina sem er tileinkuð Danmörku og sem notar **VSK auðkenni** skráningarflokk.
-5. Í **Skráningarnúmer** reit, sláðu inn skattnúmerið.
-6. Á **Almennt** flipa, í **Árangursrík** reit, sláðu inn dagsetninguna þegar númerið tekur gildi.
+2. Veldu lögaðilann og veldu síðan **Skráningarkenni**.
+3. Veldu eða búðu til aðsetrið í Danmörku og síðan í flýtiflipanum **Skráningarkenni** skaltu velja **Bæta við**.
+4. Í reitnum **Skráningargerð** skal velja skráningargerðina sem tilheyrir Danmörku og sem notar skráningarflokkinn **VSK-nr.**.
+5. Í reitinn **Skráningarnúmer** skal færa inn skattnúmerið.
+6. Í flipanum **Almennt**, í reitinn **Gildistími**, skal færa inn dagsetningu þegar númerið tekur gildi.
 
-Fyrir frekari upplýsingar um hvernig á að setja upp skráningarflokka og skráningargerðir, sjá [Skráningarauðkenni](emea-registration-ids.md).
+Frekari upplýsingar um hvernig á að setja upp skráningarflokka og skráningargerðir er að finna í [Skráningarkenni](emea-registration-ids.md).
 
-## <a name="set-up-a-vat-declaration-preview-for-denmark"></a>Settu upp forskoðun virðisaukaskattsskýrslu fyrir Danmörku
+## <a name="set-up-a-vat-declaration-preview-for-denmark"></a>Setja upp forskoðun VSK-skýrslu fyrir Danmörku
 
 ### <a name="import-er-configurations"></a>Flytja inn rafræn skýrslugerð grunnstillingar
 
-Opnaðu **Rafræn skýrslugerð** vinnusvæði og flytja inn **VSK yfirlýsing Excel (DK)** ER snið.
+Opnaðu vinnusvæðið **Rafræn skýrslugerð** og flyttu inn rafræna skýrslugerðarsniðið **VSK-skýrsla í Excel (DK)**.
 
 Frekari upplýsingar er að finna í [Sækja skilgreiningar rafrænnar skýrslugerðar úr altækri geymslu skilgreiningarþjónustu](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-### <a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a><a name="set-up-application-specific-parameters"></a> Settu upp forritssértækar færibreytur fyrir VSK-yfirlýsingareiti
+### <a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a><a name="set-up-application-specific-parameters"></a>Setja upp færibreytur tiltekins forrits fyrir VSK-skýrslureiti
 
 > [!NOTE]
-> Við mælum með að þú kveikir á eiginleikanum, **Notaðu forrita sérstakar færibreytur frá fyrri útgáfum af ER sniðum** í **Eiginleikastjórnun** vinnurými. Þegar þessi eiginleiki er virkur verða færibreytur sem eru stilltar fyrir fyrri útgáfu ER-sniðs sjálfkrafa gildar fyrir síðari útgáfu af sama sniði. Ef þessi eiginleiki er ekki virkur verður þú að stilla forritssértækar færibreytur sérstaklega fyrir hverja sniðútgáfu. The **Notaðu forrita sérstakar færibreytur frá fyrri útgáfum af ER sniðum** eiginleiki er fáanlegur í **Eiginleikastjórnun** vinnusvæði sem byrjar í Finance útgáfu 10.0.23. Fyrir frekari upplýsingar um hvernig á að setja upp færibreytur ER sniðs fyrir hvern lögaðila, sjá [Settu upp færibreytur ER sniðs fyrir hvern lögaðila](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
+> Mælt er með að eiginleikinn **Nota sértækar færibreytur fyrir forrit úr fyrri útgáfum ER-sniða** á vinnusvæðinu **Eiginleikastjórnun** sé virkjaður. Þegar þessi eiginleiki er virkjaður verða færibreytur sem eru grunnstilltar fyrir fyrri útgáfu af rafrænu skýrslugerðarsniði sjálfkrafa virkar fyrir síðari útgáfu af sama sniði. Ef þessi eiginleiki er ekki virkur verður þú að grunnstilla færibreytur tiltekins forrits sérstaklega fyrir hverja útgáfu af sniði. Eiginleikinn **Nota sértækar færibreytur fyrir forrit úr fyrri útgáfum ER-sniða** er í boði á vinnusvæðinu **Eiginleikastjórnun** frá og með útgáfu 10.0.23 af Finance. Frekari upplýsingar um hvernig á að setja upp færibreytur á rafrænu skýrslugerðarsniði fyrir hvern lögaðila er að finna í [Setja upp færibreytur á sniði rafrænnar skýrslugerðar fyrir hvern lögaðila](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
 
-Til að búa til virðisaukaskattsyfirlýsingu sjálfkrafa skaltu tengja söluskattskóða í forritinu og leitarniðurstöður í ER uppsetningu.
+Til að búa sjálfkrafa til VSK-skýrslu skaltu tengja VSK-kóða í forritinu og fletta upp niðurstöðum í skilgreiningu rafrænnar skýrslugerðar.
 
-Fylgdu þessum skrefum til að skilgreina hvaða VSK-kóðar búa til hvaða reiti á VSK-yfirlýsingunni.
+Fylgdu þessum skrefum til að skilgreina hvaða VSK-kóðar búa til hvaða glugga í VSK-skýrslunni.
 
-1. Fara til **Vinnurými** > **Rafræn skýrslugerð**, og veldu **Skýrslustillingar**.
-2. Veldu **VSK yfirlýsing Excel (DK)** stillingar og veldu síðan **Stillingar \> Uppsetning á sérstökum breytum fyrir forrit**.
-3. Á **Sértækar breytur fyrir forrit** síðu, á **Uppflettingar** Flýtiflipi, veldu **Tilkynna reiti leit**.
-4. Á **Skilyrði** Flýtiflipi, stilltu eftirfarandi reiti til að tengja vsk-kóða og skýrslureit.
+1. Farið í **Vinnusvæði** > **Rafræn skýrslugerð**, og veljið **Skilgreiningar skýrslugerðar**.
+2. Veldu skilgreininguna **VSK-skýrsla í Excel (DK)** og veldu síðan **Skilgreiningar \> Uppsetning á færibreytum tiltekins forrits**.
+3. Á síðunni **Færibreytur tiltekins forrits**, í flýtiflipanum **Uppflettingar**, skal velja **Uppfletting í skýrslureit**.
+4. Í flýtiflipanum **Skilyrði** skal stilla eftirfarandi reiti til að tengja VSK-kóða og skýrslureiti.
 
-    | Reitur                  | Lýsing                                                                                                                                                                                                                                                                                                          |
+    | Svæði                  | Lýsing                                                                                                                                                                                                                                                                                                          |
     |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Niðurstaða uppflettingar          | Veldu gildi skýrslureitsins. Frekari upplýsingar um gildin og úthlutun þeirra í línur VSK-skýrslu er að finna í [Yfirlit yfir virðisaukaskattsskýrslu](#vat-declaration-overview) kafla fyrr í þessari grein.                                                                                               |
-    | Skattkóði               | Veldu VSK-kóðann sem á að tengja við skýrslureitinn. Bókaðar skattfærslur sem nota valda vsk-kóðann verða safnað í viðeigandi framtalsreit. Við mælum með að þú aðskiljir vsk-kóða á þann hátt að einn vsk-kóði myndar upphæðir í aðeins einum framtalsreit. |
-    | Færsluflokkari | Ef þú bjóst til nógu marga VSK-kóða til að ákvarða framtalsreit skaltu velja **\* Ekki autt\***. Ef þú bjóst ekki til nógu marga VSK-kóða þannig að einn VSK-kóði myndar upphæðir í aðeins einum framtalsreit, geturðu sett upp færsluflokkara. Eftirfarandi færsluflokkar eru í boði:</br>-   **Innkaup**</br>-   **Undanþegin kaup** (skattfrjáls kaup)</br>-   **PurchaseReverseCharge** (skattur af öfugri gjaldfærslu)</br>-   **Sala**</br>-   **Undanþegin sölu** (skattfrjáls sala)</br>-   **SalesReverseCharge** (skattur sem greiddur er af öfugri greiðslu eða öfugri sölu)</br>-   **Notaðu skatt**. </br>Fyrir hvern færsluflokkara er einnig tiltækur flokkari fyrir kreditnótu. Til dæmis er einn af þessum flokkunaraðilum **PurchaseCreditNote** (kaupinneignarnóta).</br>Vertu viss um að búa til tvær línur fyrir hvern VSK-kóða: eina sem hefur færsluflokkunargildið og eina sem hefur færsluflokkarann fyrir kreditnótugildi. |
+    | Niðurstaða uppflettingar          | Veljið gildi skýrslureitarins. Frekari upplýsingar um gildin og úthlutun þeirra í línum VSK-skýrslu er að finna í hlutanum [Yfirlit VSK-skýrslu](#vat-declaration-overview) fyrr í þessari grein.                                                                                               |
+    | Skattkóði               | Veldu VSK-kóðann sem á að tengja við skýrslureitinn. Bókaðar skattfærslur sem nota valinn VSK-kóða verður safnað í viðeigandi skýrsluglugga. Mælt er með að aðskilja VSK-kóðana á þann hátt að einn VSK-kóði búi til upphæðir í aðeins einum skýrsluglugga. |
+    | Flokkari færslna | Ef þú bjóst til nógu marga VSK-kóða til að ákvarða skýrsluglugga skaltu velja **\*Ekki autt\***. Ef þú bjóst ekki til nógu marka VSK-kóða þannig að einn VSK-kóði búi til upphæðir í aðeins einum skýrsluglugga er hægt að setja upp færsluflokkara. Eftirfarandi færsluflokkarar eru í boði:</br>-   **Innkaup**</br>-   **PurchaseExempt** (skattfrjáls kaup)</br>-   **PurchaseReverseCharge**(innskattur af bakfærslu innkaupa)</br>-   **Sala**</br>-   **SalesExempt** (skattfrjáls sala)</br>-   **SalesReverseCharge** (gjaldfallinn skattur úr bakfærðu gjaldi kaupa eða sölu)</br>-   **Nota skatt**. </br>Fyrir hvern færsluflokkara er flokkari fyrir kreditnótuna líka í boði. Til dæmis er einn þessara flokkara **PurchaseCreditNote** (innkaupakreditnóta).</br>Gættu þess að stofna tvær línur fyrir hvern VSK-kóða: eina sem er með gildi færsluflokkara og eina sem er með færsluflokkara fyrir gildi kreditnótu. |
 
 
     > [!NOTE]
-    > Tengja alla VSK-kóða við uppflettingarniðurstöður. Ef einhverjir söluskattskóðar ættu ekki að mynda gildi á virðisaukaskattsskýrslunni skaltu tengja þá við **Annað** uppflettingarniðurstöðu.
+    > Tengdu alla VSK-kóða við niðurstöður uppflettingar. Ef einhverjir VSK-kóðar mynda ekki gildi í VSK-skýrslunni skal tengja þá við uppflettiniðurstöðuna **Annað**.
 
     ![Síða sértækra færibreyta fyrir forrit.](media/7db74920fad66a0db7fad60758698cc0.png)
 
 
-5. Í **Ríki** reit, breyttu gildinu í **Lokið**.
+5. Í reitnum **Staða** skal breyta gildinu í **Lokið**.
 
-### <a name="set-up-the-vat-reporting-format-for-preview-amounts-in-excel"></a>Settu upp VSK-skýrslusnið fyrir forskoðunarupphæðir í Excel
+### <a name="set-up-the-vat-reporting-format-for-preview-amounts-in-excel"></a>Setja upp snið VSK-skýrslu til að forskoða upphæðir í Excel
 
-1. Í **Eiginleikastjórnun** vinnusvæði, finndu og veldu **Skýrslur á sniði virðisaukaskattsyfirlits.** Eiginleiki á listanum og veldu síðan **Virkja núna**.
-2. Fara til **Aðalbók** > **Uppsetning** > **Fjárhagsfæribreytur**.
-3. Á **Söluskattur** flipa, á **Skattavalkostir** Flýtiflipi, í **Sniðskortlagning virðisaukaskattsyfirlits** reit, veldu **VSK yfirlýsing Excel (DK)** ER snið.
+1. Á vinnusvæðinu **Eiginleikastjórnun** skal finna og velja **Skýrslur fyrir snið VSK-yfirlits** eiginleiki á listanum og síðan velja **Virkja núna**.
+2. Opnið **Fjárhagur** > **Uppsetning**  >  **Færibreytur fyrir fjárhag**.
+3. Í flipanum **Virðisaukaskattur**, í hlutanum **Valkostir skatts**, í reitnum **Sniðsvörpun VSK-skýrslu**, skal velja ER-sniðið **VSK-skýrsla Excel (DK)**.
 
-   Þetta snið er prentað þegar þú keyrir **Tilkynna söluskatt fyrir uppgjörstímabil** skýrslu. Það er líka prentað þegar þú velur **Prenta** á **Söluskattsgreiðslur** síðu.
+   Þetta snið er prentað þegar skýrslan **Gefa upp virðisaukaskatt fyrir jöfnunartímabil** er keyrð. Það er einnig prentað þegar **Prenta** er valið á síðunni **VSK-greiðslur**.
 
-4. Á **Skattayfirvöld** síðu, veldu skattyfirvöld og síðan í **Skýrsluskipulag** reit, veldu **Sjálfgefið**.
+4. Á síðunni **Skattayfirvöld** skal velja skattayfirvöld og síðan í reitnum **Útlit skýrslu** skal velja **Sjálfgefið**.
 
-Ef þú ert að stilla virðisaukaskattsyfirlýsinguna í lögaðila sem hefur [margar virðisaukaskattsskráningar](emea-reporting-for-multiple-vat-registrations.md), fylgdu þessum skrefum.
+Ef VSK-skýrsla er skilgreind í lögaðila sem er með [margar VSK-skráningar](emea-reporting-for-multiple-vat-registrations.md) skal fylgja þessum skrefum.
 
-1. Fara til **Aðalbók** \> **Uppsetning** \> **Fjárhagsfæribreytur**.
-2. Á **Söluskattur** flipa, á **Rafræn skýrslugerð fyrir lönd/svæði** Flýtiflipi, á línunni fyrir **DNK**, veldu **VSK yfirlýsing Excel (DK)** ER snið.
+1. Opnið **Fjárhagur** \> **Uppsetning** \> **Færibreytur fyrir fjárhag**.
+2. Í flipanum **Virðisaukaskattur**, í flýtiflipanum **Rafræn skýrslugerð fyrir lönd/svæði**, í línunni fyrir **DNK**, skal velja rafræna skýrslugerðarsniðið **VSK-skýrsla í Excel (DK)**.
 
-## <a name="set-up-electronic-messages"></a>Settu upp rafræn skilaboð
+## <a name="set-up-electronic-messages"></a>Setja upp rafræn skilaboð
 
-### <a name="download-and-import-the-data-package-that-has-example-settings-for-electronic-messages"></a>Sæktu og flyttu inn gagnapakkann sem hefur dæmi um stillingar fyrir rafræn skilaboð
+### <a name="download-and-import-the-data-package-that-has-example-settings-for-electronic-messages"></a>Sækja og flytja inn gagnapakkann sem er með dæmastillingar fyrir rafræn skilaboð
 
-Gagnapakkinn inniheldur rafræn skilaboðastillingar sem notaðar eru til að forskoða virðisaukaskattsskýrsluna í Excel. Þú getur framlengt þessar stillingar eða búið til þínar eigin. Fyrir frekari upplýsingar um hvernig á að vinna með rafræn skilaboð og búa til þínar eigin stillingar, sjá [Rafræn skilaboð](../general-ledger/electronic-messaging.md).
+Gagnapakkinn inniheldur stillingar rafrænna skilaboða sem eru notaðar til að forskoða VSK-skýrsluna í Excel. Þú getur notað þessar stillingar eða búið til þínar eigin. Frekari upplýsingar um hvernig á að vinna með rafræn skilaboð og búa til sínar eigin stillingar er að finna í [Rafræn skilaboð](../general-ledger/electronic-messaging.md).
 
-1. Í [Microsoft Dynamics Lífsferilsþjónusta (LCS)](https://lcs.dynamics.com/v2), í Samnýtt eignasafn, veldu **Gagnapakki** sem eignategund og hlaðið síðan niður **DK VSK yfirlýsing pakki**. Skráin sem hlaðið er niður er nefnd **DK VSK yfirlýsing pakka.zip**.
-2. Í fjármálum, í **Gagnastjórnun** vinnusvæði, veldu **Flytja inn**.
-3. Á **Flytja inn** Flýtiflipi, í **Nafn hóps** reit, sláðu inn nafn fyrir starfið.
+1. Í [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/v2), í samnýttu eignasafni, skal velja **Gagnapakka** sem eignagerð og sækja svo **DK VSK-skýrslupakka**. Skráin sem sótt var heitir **DK VAT Statement package.zip**.
+2. Í Finance, á vinnusvæðinu **Gagnastjórnun** skal velja **Innflutningur**.
+3. Í flýtiflipann **Flytja inn**, í reitinn **Heiti hóps**, skal færa inn heiti fyrir verkið.
 4. Á flýtiflipanum **Valdar einingar** skal velja **Bæta við skrá**.
-5. Í **Bæta við skrá** valmynd skaltu ganga úr skugga um að **Upprunagagnasnið** reiturinn er stilltur á **Pakki**, veldu **Hladdu upp og bættu við**, og veldu síðan zip-skrána sem þú sóttir áðan.
+5. Í svarglugganum **Bæta við skrá** skal staðfesta að reiturinn **Snið upprunagagna** sé stilltur á **Pakki**, velja **Hlaða upp og bæta við** og velja svo zip-skrána sem var sótt áður.
 6. Veljið **Loka**.
-7. Eftir að gagnaeiningunum hefur verið hlaðið upp skaltu velja á aðgerðarrúðunni **Flytja inn**.
-8. Fara til **Skattur** > **Fyrirspurnir og skýrslur** > **Rafræn skilaboð** > **Rafræn skilaboð**, og staðfesta rafræna skilaboðavinnslu sem þú fluttir inn (**DK virðisaukaskattsyfirlýsing**).
+7. Þegar gagnaeiningunum er hlaðið upp skal á aðgerðasvæðinu velja **Flytja inn**.
+8. Opnaðu **Skattur** > **Fyrirspurnir og skýrslur** > **Rafræn skilaboð** > **Rafræn skilaboð** og staðfesta vinnslu rafrænna skilaboða sem flutt voru inn (**DK VSK-skýrsla**).
 
-### <a name="configure-electronic-messages"></a>Stilla rafræn skilaboð
+### <a name="configure-electronic-messages"></a>Skilgreina rafræn skilaboð
 
-1. Fara til **Skattur** > **Uppsetning** > **Rafræn skilaboð** > **Fylltu færslur aðgerðir**.
-2. Veldu línu fyrir **DK Fylltu út virðisaukaskattsskýrslur**, og veldu síðan **Breyta fyrirspurn**.
-3. Notaðu síuna til að tilgreina uppgjörstímabilin sem á að hafa með í skýrslunni.
-4. Ef þú verður að tilkynna skattfærslur frá öðrum uppgjörstímabilum í annarri yfirlýsingu skaltu búa til nýja **Fylltu út færslur** aðgerð og veldu viðeigandi uppgjörstímabil.
+1. Opnið **Skattur**  >  **Uppsetning**  >  **Rafræn skilaboð**  >  **Fylla út færsluaðgerðir**.
+2. Veldu línuna fyrir **DK Fylla út færslur VSK-skila** og síðan velja **Breyta fyrirspurn**.
+3. Notaðu síuna til að tilgreina jöfnunartímabil sem á að hafa með í skýrslunni.
+4. Ef tilkynna þarf skattfærslur frá öðrum jöfnunartímabilum í annarri skýrslu skal búa til nýja aðgerð fyrir **Fylla út færslur** og velja viðeigandi jöfnunartímabil.
 
-## <a name="preview-the-vat-declaration-in-excel"></a>Forskoðaðu virðisaukaskattsskýrsluna í Excel
+## <a name="preview-the-vat-declaration-in-excel"></a>Forskoða VSK-skýrsluna í Excel
 
-### <a name="preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task"></a><a name="preview-vat-excel"></a> Forskoðaðu virðisaukaskattsskýrsluna í Excel úr reglubundnu verkinu Tilkynna söluskatt fyrir uppgjörstímabil
+### <a name="preview-the-vat-declaration-in-excel-from-the-report-sales-tax-for-settlement-period-periodic-task"></a><a name="preview-vat-excel"></a>Forskoða VSK-skýrsluna í Excel úr „Gefa upp virðisaukaskatt“ fyrir reglubundið verk jöfnunartímabils
 
-1. Fara til **Skattur** > **Reglubundin verkefni** > **Yfirlýsingar** > **Söluskattur** > **Tilkynna söluskatt fyrir uppgjörstímabil**.
-2. Í **Uppgjörstímabil** reit, veldu gildi.
-3. Í **Útgáfa söluskattsgreiðslu** reit, veldu eitt af eftirfarandi gildum:
+1. Opna **Skattur** > **Reglubundin verkefni** > **Skattframtöl** > **Virðisaukaskattur** > **Virðisaukaskattsskýrsla fyrir jöfnunartímabil**.
+2. Veljið gildi í reitnum **Jöfnunartímabil**.
+3. Í reitnum **Útgáfa VSK-greiðslu** skal velja eitt eftirfarandi gilda:
 
-    - **Upprunalegt** : Búa til skýrslu fyrir söluskattsfærslur upprunalegu söluskattsgreiðslunnar eða áður en söluskattsgreiðslan er mynduð.
-    - **Leiðréttingar** : Búa til skýrslu fyrir söluskattsfærslur allra síðari söluskattsgreiðslna fyrir tímabilið.
-    - **Heildarlisti** : Búa til skýrslu fyrir allar söluskattsfærslur tímabilsins, þar á meðal frumritið og allar leiðréttingar.
+    - **Upprunalegt**: Búðu til skýrslu fyrir VSK-færslur upprunalegrar VSK-greiðslu eða áður en VSK-greiðslan er mynduð.
+    - **Leiðréttingar**: Búðu til skýrslu fyrir VSK-færslur fyrir allar komandi VSK-greiðslur fyrir tímabilið.
+    - **Heildarlisti**: Búðu til skýrslu fyrir allar VSK-færslur fyrir tímabilið, þ.m.t. upprunalegt og allar leiðréttingar.
 
-4. Í **Frá dags** reit, veldu upphafsdag skýrslutímabilsins.
-5. Veldu **Allt í lagi**, og skoðaðu Excel skýrsluna.
+4. Í reitnum **Frá dagsetningu** velurðu upphafsdagsetningu skýrslutímabilsins.
+5. Veldu **Í lagi** og farðu yfir Excel-skýrsluna.
 
 ### <a name="settle-and-post-sales-tax"></a>Jafna og bóka virðisaukaskatt
 
-1. Fara til **Skattur** > **Reglubundin verkefni** > **Yfirlýsingar** > **Söluskattur** > **Gera upp og bóka söluskatt**.
-2. Í **Uppgjörstímabil** reit, veldu gildi.
-3. Í **Útgáfa söluskattsgreiðslu** reit, veldu eitt af eftirfarandi gildum:
+1. Farið í **Skattur** > **Reglubundin verkefni** > **Skattskýrslur** > **Virðisaukaskattur** > **Jafna og bóka VSK**.
+2. Veljið gildi í reitnum **Jöfnunartímabil**.
+3. Í reitnum **Útgáfa VSK-greiðslu** skal velja eitt eftirfarandi gilda:
 
-    - **Upprunalegt** : Búðu til upphaflega söluskattsgreiðslu fyrir uppgjörstímabilið.
-    - **Nýjustu leiðréttingar** : Mynda leiðréttingarskattsgreiðslu eftir að upprunaleg söluskattsgreiðsla fyrir uppgjörstímabilið var stofnuð.
+    - **Upprunalegt**: Búðu til upprunalega VSK-greiðslu fyrir jöfnunartímabilið.
+    - **Nýjustu leiðréttingar**: Búðu til leiðréttingu á VSK-greiðslur eftir að upprunaleg VSK-greiðsla fyrir jöfnunartímabilið var búin til.
 
-4. Í **Frá dags** reit, veldu upphafsdag skýrslutímabilsins.
+4. Í reitnum **Frá dagsetningu** velurðu upphafsdagsetningu skýrslutímabilsins.
 5. Veldu **Í lagi**.
 
-### <a name="preview-the-vat-declaration-in-excel-from-a-sales-tax-payment"></a>Forskoða virðisaukaskattsskýrsluna í Excel frá söluskattsgreiðslu
+### <a name="preview-the-vat-declaration-in-excel-from-a-sales-tax-payment"></a>Forskoða VSK-skýrsluna í Excel úr VSK-greiðslu
 
-1. Fara til **Skattur** > **Fyrirspurnir og skýrslur** > **Fyrirspurnir um söluskatt** > **Söluskattsgreiðslur**, og veldu söluskattsgreiðslulínu.
-2. Veldu **Prenta skýrslu**, og veldu síðan **Allt í lagi**.
-3. Skoðaðu Excel skrána sem er búin til fyrir valda greiðslulínu söluskatts.
+1. Opnaðu **Skattur** > **Fyrirspurnir og skýrslur** > **Fyrirspurnir um virðisaukaskatt** > **Greiðslur virðisaukaskatts** og veldu greiðslulínu virðisaukaskatts.
+2. Veldu **Prenta skýrslu** og veldu síðan **Í lagi**.
+3. Farðu yfir Excel-skrána sem er búin til fyrir valda VSK-greiðslulínu.
 
 > [!NOTE]
-> Skýrslan er aðeins mynduð fyrir valda línu söluskattsgreiðslunnar. Ef þú verður að búa til, til dæmis, leiðréttingaryfirlýsingu sem inniheldur allar leiðréttingar fyrir tímabilið, eða varayfirlýsingu sem inniheldur frumgögn og allar leiðréttingar, notaðu **Tilkynna söluskatt fyrir uppgjörstímabil** reglubundið verkefni.
+> Skýrslan er aðeins gerð fyrir valda línu VSK-greiðslunnar. Ef þú verður til dæmis að búa til leiðréttingarskýrslu sem inniheldur allar leiðréttingar fyrir tímabilið eða staðgengilsskýrslu sem inniheldur upprunaleg gögn og allar leiðréttingar skaltu nota reglubundna verkið **Gefa upp virðisaukaskatt fyrir jöfnunartímabil**.
 
-## <a name="generate-a-vat-declaration-from-electronic-messages"></a>Búðu til virðisaukaskattsskýrslu úr rafrænum skilaboðum
+## <a name="generate-a-vat-declaration-from-electronic-messages"></a>Búa til VSK-skýrslu úr rafrænum skilaboðum
 
-Þegar þú notar rafræn skilaboð til að búa til skýrsluna geturðu safnað skattagögnum frá mörgum lögaðilum. Fyrir frekari upplýsingar, sjá [Keyra virðisaukaskattsskýrslu fyrir marga lögaðila](#run-vat-declaration) kafla síðar í þessari grein.
+Þegar þú notar rafræn skilaboð til að búa til skýrsluna geturðu safnað skattgögnum frá mörgum lögaðilum. Frekari upplýsingar er að finna í hlutanum [Keyra VSK-skýrslu fyrir marga lögaðila](#run-vat-declaration) síðar í þessari grein.
 
-Eftirfarandi aðferð á við um rafræn skilaboðavinnsludæmið sem þú fluttir inn áðan úr LCS Shared eignasafninu.
+Eftirfarandi ferli á við um dæmi um vinnslu rafrænna skilaboða sem þú fluttir inn fyrr úr LCS samnýttu eignasafni.
 
-1. Fara til **Skattur \> Fyrirspurnir og skýrslur \> Rafræn skilaboð \> Rafræn skilaboð**.
-2. Í vinstri glugganum velurðu **DK virðisaukaskattsyfirlýsing**.
-3. Á **Skilaboð** Flýtiflipi, veldu **Nýtt**, og síðan, í **Keyra vinnslu** valmynd, veldu **Allt í lagi**.
-4. Veldu skilaboðalínuna sem er búin til, sláðu inn lýsingu og tilgreindu síðan upphafs- og lokadagsetningar yfirlýsingarinnar.
+1. Opnið **Skattur \> Fyrirspurnir og skýrslur \> Rafræn skilaboð \> Rafræn skilaboð**.
+2. Veljið **DK VSK-skýrsla** í vinstra svæðinu.
+3. Í flýtiflipanum **Skilaboð** skal velja **Nýtt** og síðan í svarglugganum **Keyra vinnslu** skal velja **Í lagi**.
+4. Veldu skilaboðalínuna sem er búin til, sláðu inn lýsingu og tilgreindu svo upphafs- og lokadagsetningar fyrir skýrsluna.
 
    > [!NOTE]
    > Skref 5 til 7 eru valfrjáls.
 
-5. Valfrjálst: Á **Skilaboð** Flýtiflipi, veldu **Safna gögnum**, og veldu síðan **Allt í lagi**. Vöruskattsgreiðslur sem voru búnar til áður er bætt við skilaboðin. Fyrir frekari upplýsingar, sjá [Gera upp og bóka söluskatt](#settle-and-post-sales-tax) kafla fyrr í þessari grein. Ef þú sleppir þessu skrefi geturðu samt búið til virðisaukaskattsyfirlýsingu með því að nota **Útgáfa skattframtals** sviði í **Yfirlýsing** valmynd.
-6. Valfrjálst: Á **Skilaboðaatriði** Flýtiflipi, skoðaðu söluskattsgreiðslur sem eru fluttar til vinnslu. Sjálfgefið er að allar söluskattsgreiðslur valins tímabils sem ekki voru innifalin í öðrum skilaboðum í sömu vinnslu eru innifalin.
-7. Valfrjálst: Veldu **Upprunalegt skjal** til að fara yfir söluskattsgreiðslurnar eða velja **Eyða** að undanskilja söluskattsgreiðslur frá afgreiðslu. Ef þú sleppir þessu skrefi geturðu samt búið til virðisaukaskattsyfirlýsingu með því að nota **Útgáfa skattframtals** sviði í **Yfirlýsing** valmynd.
-8. Á **Skilaboð** Flýtiflipi, veldu **Uppfæra stöðu**. Í **Uppfæra stöðu** valmynd, veldu **Tilbúið til að búa til**, og veldu síðan **Allt í lagi**. Staðfestu að skilaboðastöðu sé breytt í **Tilbúið til að búa til**.
-9. Veldu **Búðu til skýrslu**. Til að forskoða virðisaukaskattsupphæðir, í **Keyra vinnslu** valmynd, veldu **Forskoðunarskýrsla**, og veldu síðan **Allt í lagi**.
-10. Í **Rafrænar skýrslubreytur** valmynd, stilltu reitina eins og lýst er í [Forskoðaðu virðisaukaskattsskýrsluna í Excel úr reglubundnu verkinu Tilkynna söluskatt fyrir uppgjörstímabil](#preview-vat-excel) kafla fyrr í þessari grein og veldu síðan **Allt í lagi**.
-11. Veldu **Viðhengi** hnappinn (táknið fyrir pappírsklemmu) í efra hægra horninu á síðunni og veldu síðan **Opið** til að opna skrána. Farið yfir upphæðirnar í Excel skjalinu.
+5. Valfrjálst: Í flýtiflipanum **Skilaboð** skal velja **Safna gögnum** og velja síðan **Í lagi**. VSK-greiðslurnar sem voru gerðar áður er bætt við skilaboðin. Frekari upplýsingar er að finna í hlutanum [Jafna og bóka virðisaukaskatt](#settle-and-post-sales-tax) fyrr í þessari grein. Ef þú sleppir þessu skrefi geturðu samt búið til VSK-skýrslu með því að nota reitinn **Útgáfa skattskýrslu** í svarglugganum **Skýrsla**.
+6. Valfrjálst: Í flýtiflipanum **Skilaboðaatriði** skal yfirfara VSK-greiðslur sem fluttar eru til vinnslu. Allar VSK-greiðslur á völdu tímabili sem voru ekki hafðar með í neinum öðrum skilaboðum sömu vinnslunnar eru sjálfgefið hafðar með.
+7. Valfrjálst: Veldu **Upprunalegt skjal** til að yfirfara VSK-greiðslur eða veldu **Eyða** til að útiloka VSK-greiðslur frá vinnslu. Ef þú sleppir þessu skrefi geturðu samt búið til VSK-skýrslu með því að nota reitinn **Útgáfa skattskýrslu** í svarglugganum **Skýrsla**.
+8. Í flýtiflipanum **Skilaboð** skal velja **Uppfæra stöðu**. Í svarglugganum **Uppfæra stöðu** skal velja **Tilbúið til myndunar** og síðan velja **Í lagi**. Staðfestu að stöðu skilaboðanna sé breytt í **Tilbúin til að mynda**.
+9. Veldu **Búa til skýrslu**. Til að forskoða upphæðir VSK-skýrslu skal í svarglugganum **Keyra vinnslu** velja **Forskoða skýrslu** og síðan velja **Í lagi**.
+10. Í svarglugganum **Færibreytur rafrænnar skýrslugerðar** skal stilla reitina eins og lýst er í hlutanum [Forskoða VSK-skýrsluna í Excel úr „Gefa upp virðisaukaskatt“ fyrir reglubundið verk jöfnunartímabils](#preview-vat-excel) fyrr í þessari grein og síðan velja **Í lagi**.
+11. Veljið hnappinn **Viðhengi** (bréfaklemmutákn) efst í hægra horni síðunnar og veljið svo **Opna** til að opna skrána. Farið yfir upphæðirnar í Excel skjalinu.
 
-## <a name="run-a-vat-declaration-for-multiple-legal-entities"></a><a name="run-vat-declaration"></a> Keyra virðisaukaskattsskýrslu fyrir marga lögaðila
+## <a name="run-a-vat-declaration-for-multiple-legal-entities"></a><a name="run-vat-declaration"></a>Keyra VSK-skýrslu fyrir marga lögaðila
 
-Til að nota sniðin til að tilkynna um virðisaukaskattsyfirlýsingu fyrir hóp lögaðila, verður þú fyrst að setja upp forritssértækar færibreytur ER-sniða fyrir VSK-kóða frá öllum nauðsynlegum lögaðilum.
+Til að nota sniðin til að gefa upp VSK-skýrsluna fyrir hóp af lögaðilum þarf fyrst að setja upp forritstengdar færibreytur rafræna skýrslugerðarsniðanna fyrir VSK-kóða frá öllum nauðsynlegum lögaðilum.
 
-### <a name="set-up-electronic-messages-to-collect-tax-data-from-several-legal-entities"></a>Settu upp rafræn skilaboð til að safna skattagögnum frá nokkrum lögaðilum
+### <a name="set-up-electronic-messages-to-collect-tax-data-from-several-legal-entities"></a>Setja upp rafræn skilaboð til að safna skattgögnum frá nokkrum lögaðilum
 
 Fylgdu þessum skrefum til að setja upp rafræn skilaboð til að safna gögnum frá mörgum lögaðilum.
 
-1. Fara til **Vinnurými** > **Eiginleikastjórnun**.
-2. Finndu og veldu **Fyrirspurnir þvert á fyrirtæki fyrir aðgerðir til að fylla út færslur** eiginleiki á listanum og veldu síðan **Virkja núna**.
-3. Fara til **Skattur** > **Uppsetning** > **Rafræn skilaboð** > **Fylltu færslur aðgerðir**.
-4. Á **Fylltu færslur aðgerð** síðu, veldu línuna fyrir **DK Fylltu út virðisaukaskattsskýrslur**.
+1. Opnið **Vinnusvæði** > **Eiginleikastjórnun**.
+2. Finndu og veldu eiginleikann **Fyrirspurnir milli fyrirtækja fyrir fyllingu færsluaðgerða** í listanum og veldu síðan **Virkja núna**.
+3. Opnið **Skattur**  >  **Uppsetning**  >  **Rafræn skilaboð**  >  **Fylla út færsluaðgerðir**.
+4. Á síðunni **Fylla út færsluaðgerð** skal velja línuna fyrir **DK Fylla út VSK-skilafærslu**.
 
-   Í **Uppsetning gagnaheimilda** rist, nýtt **Fyrirtæki** reitur er í boði. Fyrir núverandi færslur sýnir þessi reitur auðkenni núverandi lögaðila.
+   Í hnitanetinu **Uppsetning gagnagjafa** er nýr reitur fyrir **Fyrirtæki** í boði. Fyrir fyrirliggjandi færslur sýnir þessi reitur auðkenni núverandi lögaðila.
 
-5. Í **Uppsetning gagnaheimilda** grid, bæta við línu fyrir hvern viðbótar lögaðila sem þarf að vera með í skýrslugerð. Stilltu eftirfarandi reiti fyrir hverja nýja línu.
+5. Í hnitanetinu **Uppsetning gagnagjafa** skal bæta við línu fyrir hvern aukalegan lögaðila sem á að vera í skýrslugjöfinni. Fyrir hverja nýja línu skal stilla eftirfarandi reiti:
 
-    | Reitur                  | Lýsing                                                                                                                   |
+    | Svæði                  | Lýsing                                                                                                                   |
     |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-    | Nafn                   | Sláðu inn gildi sem hjálpar þér að skilja hvaðan þessi skrá kemur. Til dæmis, slá inn **VSK greiðsla dótturfélags 1**. |
-    | Gerð skilaboðaatriðis      | Veldu **VSK skil**. Þetta gildi er eina gildið sem er tiltækt fyrir allar færslurnar.                                    |
-    | Lykilgerð           | Veldu **Allt**.                                                                                                               |
-    | Aðaltöfluheiti      | Tilgreindu **Skattskýrsluskírteini** fyrir allar heimildir.                                                                             |
-    | Reitur skjalnúmers  | Tilgreindu **Skírteini** fyrir allar heimildir.                                                                                      |
-    | Dagsetningarreitur skjals    | Tilgreindu **TransDate** fyrir allar heimildir.                                                                                    |
-    | Reikningsreitur skjals | Tilgreindu **Skatttímabil** fyrir allar heimildir.                                                                                    |
-    | Fyrirtæki                | Veldu auðkenni lögaðilans.                                                                                            |
-    | Fyrirspurn notanda             | Þessi gátreitur er sjálfkrafa valinn þegar þú skilgreinir viðmið með því að velja **Breyta fyrirspurn**.                                 |
+    | Nafn                   | Sláðu inn gildi sem hjálpar þér að skilja hvaðan þessi færsla kemur. Sláðu til dæmis inn **VSK-greiðsla dótturfyrirtækis 1**. |
+    | Gerð skilaboðaatriðis      | Veljið **VSK-endurgreiðslu**. Þetta gildi er eina gildið sem er í boði fyrir allar færslunar.                                    |
+    | Lykilgerð           | Velja **Allt**                                                                                                               |
+    | Aðaltöfluheiti      | Tilgreinið **TaxReportVoucher** fyrir allar færslurnar.                                                                             |
+    | Reitur skjalnúmers  | Tilgreinið **Fylgiskjal** fyrir allar færslurnar.                                                                                      |
+    | Dagsetningarreitur skjals    | Tilgreina **TransDate** fyrir allar færslur.                                                                                    |
+    | Reikningsreitur skjals | Tilgreinið **TaxPeriod** fyrir allar færslurnar.                                                                                    |
+    | Fyrirtæki                | Veljið auðkenni lögaðilans.                                                                                            |
+    | Fyrirspurn notanda             | Þessi gátreitur er valinn sjálfkrafa þegar þú skilgreinir skilyrði með því að velja **Breyta fyrirspurn**.                                 |
 
-6. Veldu fyrir hverja nýja línu **Breyta fyrirspurn**, og tilgreindu tengt uppgjörstímabil fyrir lögaðilann sem tilgreint er í **Fyrirtæki** sviði á línunni.
+6. Fyrir hverja nýja línu skal velja **Breyta fyrirspurn** og tilgreina tengt jöfnunartímabil sem á við um lögaðilann sem er tilgreindur í reitnum **Fyrirtæki** í línunni.
 
-Þegar uppsetningunni er lokið mun **Safna gögnum** virka á **Rafræn skilaboð** síða safnar söluskattsgreiðslum frá öllum lögaðilum sem þú skilgreindir.
+Þegar uppsetningunni er lokið safnar aðgerðin **Safna gögnum** á síðunni **Rafræn skilaboð** VSK-greiðslum frá öllum lögaðilum sem eru skilgreindir.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

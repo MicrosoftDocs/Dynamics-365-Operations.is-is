@@ -1,6 +1,6 @@
 ---
 title: Öryggisgreining fyrir verkskráningu
-description: Þessi grein veitir upplýsingar um hvernig á að greina og stjórna kröfum um öryggisheimildir byggðar á verkskráningu.
+description: Í þessari grein er að finna upplýsingar um hvernig á að greina og stjórna kröfum öryggisheimildar út frá verkskráningu.
 author: Peakerbl
 ms.date: 05/05/2020
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 10.0.9
 ms.search.form: ''
 ms.openlocfilehash: e564a0499cb1a5dc00fc027c20a027f9b454600c
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9272521"
@@ -26,7 +26,7 @@ ms.locfileid: "9272521"
 
 ## <a name="before-you-begin"></a>Áður en hafist er handa
 
-Þessi grein veitir upplýsingar um hvernig á að greina og stjórna kröfum um öryggisheimildir byggðar á verkskráningu. Áður en þú klárar skrefin í þessari grein verður þú að hafa verkskráningu á viðskiptaferlinu sem þú vilt greina. Upplýsingar um hvernig viðskiptaferli er skráð er að finna í [Tilföng verkskráningar](../../user-interface/task-recorder.md). 
+Í þessari grein er að finna upplýsingar um hvernig á að greina og stjórna kröfum öryggisheimildar út frá verkskráningu. Áður en þú klárar skrefin í þessari grein verður þú að hafa verkskráningu fyrir viðskiptaferlið sem þú vilt greina. Upplýsingar um hvernig viðskiptaferli er skráð er að finna í [Tilföng verkskráningar](../../user-interface/task-recorder.md). 
 
 ## <a name="manage-security-for-a-task-recording"></a>Stjórna öryggi fyrir verkskráningu
 

@@ -1,6 +1,6 @@
 ---
 title: Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð
-description: Þessi grein lýsir háþróaðri sniðaðgerðum, þar á meðal síum, takmörkunum, línum sem ekki eru prentaðar og skilyrtar yfirlýsingar í útreikningum.
+description: Þessi grein lýsir ítarlegum sniðsaðgerðum, þ.m.t. síum, takmörkunum, línum sem ekki eru prentaðar og skilyrtar setningar í útreikningum.
 author: panolte
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
 ms.search.form: FinancialReports
 ms.openlocfilehash: 0bc0308fc6140a8b45de1b207a12307a6d731639
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291423"

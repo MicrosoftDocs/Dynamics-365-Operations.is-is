@@ -1,6 +1,6 @@
 ---
 title: Skipta mynduðum XML-skrám út frá skráarstærð og efnismagni
-description: Þessi grein veitir upplýsingar um hvernig á að skipta mynduðum skrám út frá skráarstærð og magni efnishluta.
+description: Í þessari grein eru veittar upplýsingar um hvernig á að skipta mynduðum skrám út frá stærð og efnismagni.
 author: kfend
 ms.date: 04/23/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.openlocfilehash: 5347d4e85198893dd94f14508176db93ccd47c22
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9280096"

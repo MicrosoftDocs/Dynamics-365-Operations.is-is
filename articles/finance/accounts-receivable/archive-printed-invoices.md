@@ -1,6 +1,6 @@
 ---
 title: Safnvistun útprentaðra reikninga viðskiptavina með tætigildum
-description: Þessi grein útskýrir hvernig á að virkja geymslu til að geyma prentaða reikninga viðskiptavina með kjötkássanúmerum.
+description: Þessi grein útskýrir hvernig á að virkja safnvistun til þess að geyma prentaða reikninga viðskiptavina með tætigildum.
 author: mrolecki
 ms.date: 09/15/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 539093
 ms.search.form: ''
 ms.openlocfilehash: 4c9bd7ead1615a4e6b0e8e672e858312ba518b56
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291670"
@@ -27,7 +27,7 @@ ms.locfileid: "9291670"
 
 Í sumum löndum eru lagalegar kröfur um að geyma reiknuð tætigildi í kerfinu ásamt útprentun á sömu skjala. Tætigildi er hægt að nota til að tilkynninga yfirvöldum og við endurskoðun.
 
-Þessi grein útskýrir hvernig á að stilla geymslu til að geyma prentaða reikninga viðskiptavina með kjötkássanúmerum.
+Þessi grein útskýrir hvernig á að skilgreina safnvistun til þess að geyma prentaða reikninga viðskiptavina með tætigildum.
 
 ## <a name="prerequisites"></a>Forkröfur
 

@@ -1,6 +1,6 @@
 ---
 title: Aðgangur að lýsigögnum forrits með tengdum forritum
-description: Skrefin í þessari grein útskýra hvernig notandi reglubundinnar stillingarþjónustu getur hannað nýja rafræna skýrslugerðakortlagningu með því að nota lýsigögn.
+description: Skrefin í Í þessari grein útskýra hvernig notandi Regulatory Configuration Service getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með notkun á lýsigögnunum.
 author: kfend
 ms.date: 06/29/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ''
 ms.openlocfilehash: 1a935b96e247978fc2b2f9449d403c92bff35f17
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9267873"
@@ -24,7 +24,7 @@ ms.locfileid: "9267873"
 
 [!include [banner](../../includes/banner.md)]
 
-Eftirfarandi skref útskýra hvernig Regulatory Configuration Service (RCS) notandi í hlutverki kerfisstjóra eða rafrænnar skýrslugerðarhönnuður getur hannað nýja rafræna skýrslugerð (ER) kortlagningu með því að nota lýsigögn í fjármálum og rekstri. Lýsigögn hugbúnaðar verða skoðuð á netinu með því að nota RCS -tengda forritið. Dæmi um líkanavörpun rafrænnar skýrslugerðar verður skilgreint til að fá aðgang að utanríkisviðskiptafærslum. Til að ljúka þessum skrefum, í RCS verður þú fyrst að ljúka skrefunum í greininni, [Búðu til stillingaveitur og merktu þær sem virkar](er-configuration-provider-mark-it-active-2016-11.md). Ef þú hefur ekki lokið skrefunum í greininni, [Fáðu aðgang að lýsigögnum forrita með því að nota ER stillingar](access-application-metadata-er-configuration.md), hlaðið niður [Dæmi um rafrænar skýrslur](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) og vistaðu eftirfarandi ER stillingar: Lýsigögn utanríkisviðskipta.xml; Fyrirmynd utanríkisviðskipta.xml; Kortlagning utanríkisviðskipta.xml, og kláraðu síðan skrefin í ferlinu.
+Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service (RCS) í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með því að nota lýsigögnin í fjármálum- og rekstri. Lýsigögn hugbúnaðar verða skoðuð á netinu með því að nota RCS -tengda forritið. Dæmi um líkanavörpun rafrænnar skýrslugerðar verður skilgreint til að fá aðgang að utanríkisviðskiptafærslum. Til að ljúka þessum skrefum verður í RCS fyrst að ljúka skrefunum í greininni [Stofna skilgreiningaveitur og merkja þær sem virkar](er-configuration-provider-mark-it-active-2016-11.md). Ef þú hefur ekki lokið við skrefin í greininni [Fáðu aðgang að lýsigögnum hugbúnaðar með notkun á grunnstillingum rafrænnar skýrslugerðar](access-application-metadata-er-configuration.md), skaltu sækja [Dæmi um rafræna skýrslugerð](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) til að sækja og vista eftirfarandi skilgreiningar rafrænnar skýrslugerðar: Foreign trade metadata.xml; Foreign trade model.xml; Foreign trade mapping.xml, og ljúka síðan við skrefin í ferlinu.
 
 ## <a name="prerequisites"></a>Forkröfur
 1. Farðu í **Öll vinnusvæði** > **Rafræn skýrslugerð**. 

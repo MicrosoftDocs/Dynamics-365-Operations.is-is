@@ -1,6 +1,6 @@
 ---
 title: Skilgreina varpanir líkana rafrænnar skýrslugerðar sem háðar eru samhengi við lönd
-description: Þessi grein útskýrir hvernig þú getur sett upp ER líkanavörp þannig að þær séu háðar samhengi lands/svæðis lögaðilans sem stjórnar notkun þeirra.
+description: Í þessari grein er útskýrt hvernig þú getur sett upp kortlagningar fyrir varpanir rafrænnar skýrslugerðar þannig að þær fari eftir landi/landssvæði þess lögaðila sem stýrir notkun þeirra.
 author: kfend
 ms.date: 11/11/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERSolutionTable
 ms.openlocfilehash: 5db0936682e0cc052622658ac14046013bc4fd87
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9277757"
@@ -26,11 +26,11 @@ ms.locfileid: "9277757"
 
 [!include[banner](../includes/banner.md)]
 
-Hægt er að stilla rafræn skýrslugerð (ER) líkanavörp þannig að þær innleiði almennt ER gagnalíkan en séu sértæk fyrir Dynamics 365 Finance. Þessi grein útskýrir hvernig á að hanna margar ER líkanavörp fyrir ER gagnalíkan til að stjórna því hvernig þau eru notuð með samsvarandi ER sniðum sem eru keyrð frá fyrirtækjum sem hafa mismunandi land/svæði samhengi.
+Þú getur stillt kortlagningu rafrænnar skýrslugerðar þannig að þau útfæri almennt gagnalíkan fyrir rafræna skýrslugerð en séu sértæk fyrir Dynamics 365 Finance. Í þessari grein er útskýrt hvernig á að hanna margar líkanavarpanir rafrænnar skýrslugerðar fyrir gagnalíkan rafrænnar skýrslugerðar til að stjórna því hvernig þær eru notaðar af samsvarandi sniðum rafrænnar skýrslugerðar sem eru keyrð úr fyrirtækjum sem eru með mismunandi samhengi á landi/svæði.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Til að klára dæmin í þessari grein verður þú að hafa eftirfarandi aðgang:
+Til að ljúka dæmunum í þessari grein þarftu að hafa eftirfarandi aðgang:
 
 - Aðgangur að Finance fyrir eitt af eftirfarandi hlutverkum:
     - Þróunaraðili rafrænnar skýrslulausnar
@@ -42,11 +42,11 @@ Til að klára dæmin í þessari grein verður þú að hafa eftirfarandi aðga
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
     - Kerfisstjóri
 
-Sum skref í þessari grein krefjast framkvæmdar á ER sniði. Í sumum tilvikum verður framkvæmd á ER-sniði fyrir áhrifum af lands-/svæðissamhengi fyrirtækisins sem þú ert skráð (ur) inn á. Þú getur keyrt ER snið í núverandi RCS tilviki ef fyrirtækið sem hefur tilskilið lands-/svæðissamhengi er fáanlegt í RCS. Annars verður þú að hlaða upp lokinni útgáfu af stillingum á ER-líkanavörpunum og ER-sniðum sem nota ER-gagnalíkanið í tilviki þínu af Finance og keyra síðan ER sniðið í því tilviki af Finance. Nánari upplýsingar um hvernig á að flytja inn stillingar sem eru í RCS í tilvik af Finance er að finna í [Flytja inn stillingar úr RCS](rcs-download-configurations.md).
+Sum skref í þessari grein krefjast keyrslu á sniði rafrænnar skýrslugerðar. Í sumum tilvikum verður framkvæmd á ER-sniði fyrir áhrifum af lands-/svæðissamhengi fyrirtækisins sem þú ert skráð (ur) inn á. Þú getur keyrt ER snið í núverandi RCS tilviki ef fyrirtækið sem hefur tilskilið lands-/svæðissamhengi er fáanlegt í RCS. Annars verður þú að hlaða upp lokinni útgáfu af stillingum á ER-líkanavörpunum og ER-sniðum sem nota ER-gagnalíkanið í tilviki þínu af Finance og keyra síðan ER sniðið í því tilviki af Finance. Nánari upplýsingar um hvernig á að flytja inn stillingar sem eru í RCS í tilvik af Finance er að finna í [Flytja inn stillingar úr RCS](rcs-download-configurations.md).
 
 ## <a name="single-model-mapping-case"></a>Stakt dæmi um líkanavörpun
 
-Fylgdu skrefunum í [Viðauki 1](#appendix1) þessarar greinar til að hanna nauðsynlega ER íhluti. Núna ertu með stillingu líkanavörpunar **Vörpun (almennt)** sem inniheldur líkanavörpun fyrir skilgreininguna **Inngangsstaður 1**.
+Fylgið skrefunum í [viðauka 1](#appendix1) í þessari grein til að hanna nauðsynlega hluti rafrænnar skýrslugerðar. Núna ertu með stillingu líkanavörpunar **Vörpun (almennt)** sem inniheldur líkanavörpun fyrir skilgreininguna **Inngangsstaður 1**.
 
 ![Síða fyrir skilgreiningu rafrænnar skýrslugerðar, snið til að læra vörpunarskilgreiningar.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
@@ -59,7 +59,7 @@ Taktu eftir að vafrinn býður upp á að hlaða niður textaskránni sem myndu
 
 ## <a name="multiple-shared-model-mappings-case"></a>Margvísleg samnýting á vörpunardæmi líkana
 
-Fylgdu skrefunum í [Viðauki 2](#appendix2) þessarar greinar til að hanna nauðsynlega ER íhluti. Núna ertu með stillingar líkanavörpunar **Vörpun (almennt)** og **Vörpun (almennt) sérsnið** sem inniheldur hvor fyrir sig líkanavörpun fyrir skilgreininguna **Aðgangsstaður 1**.
+Fylgið skrefunum í [viðauka 2](#appendix2) í þessari grein til að hanna nauðsynlega hluti rafrænnar skýrslugerðar. Núna ertu með stillingar líkanavörpunar **Vörpun (almennt)** og **Vörpun (almennt) sérsnið** sem inniheldur hvor fyrir sig líkanavörpun fyrir skilgreininguna **Aðgangsstaður 1**.
 
 ![Síða fyrir skilgreiningu rafrænnar skýrslugerðar, kortlagning almennra og sérsniðinna stillinga.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
@@ -97,7 +97,7 @@ Taktu eftir að framkvæmd á völdu ER sniði tókst. Vafrinn býður upp á a�
 
 ## <a name="multiple-mixed-model-mappings-case"></a>Mörg blönduð vörpunardæmi líkana
 
-Fylgdu skrefunum í [Viðauki 3](#appendix3) þessarar greinar til að hanna nauðsynlega ER íhluti. Núna ertu með stillingar **Vörpun (almennt)**, **Vörpun (almennt) sérsnið** og **Vörpun (FR) líkanavörpunar** sem innihalda líkanavörpun fyrir skilgreininguna **Aðgangsstaður 1**.
+Fylgið skrefunum í [viðauka 3](#appendix3) í þessari grein til að hanna nauðsynlega hluti rafrænnar skýrslugerðar. Núna ertu með stillingar **Vörpun (almennt)**, **Vörpun (almennt) sérsnið** og **Vörpun (FR) líkanavörpunar** sem innihalda líkanavörpun fyrir skilgreininguna **Aðgangsstaður 1**.
 
 Taktu eftir að útgáfa 1 af stillingu líkanavörpunar **Vörpun (FR)** er þannig stillt að hún á aðeins við um ER-snið í líkaninu **Líkan til að læra varpanir** sem eru keyrði í fjármálafyrirtækjum sem hafa franskt lands-/svæðissamhengi.
 
@@ -138,10 +138,10 @@ Taktu eftir að framkvæmd á völdu ER sniði tókst. Vafrinn býður upp á a�
 
 Eins og þú hefur séð virkar val á líkanavörpun til framkvæmdar á ER sniði á eftirfarandi hátt:
 
-- Skilgreining líkanakortlagningar sem ER snið notar er tilgreind (**Aðgangspunktur 1** í dæmunum í þessari grein).
-- Allar kortlagningarstillingar sem innihalda kortlagningu sem hefur tilgreinda skilgreiningu og uppfyllir allar land/svæði samhengistakmarkanir sem eru stilltar, er hugsanlega hægt að nota til að keyra ER sniðið (**Kortlagning (almennt)**, **(Almennt) sérsniðin**, og **Kortlagning (FR)** í dæmunum í þessari grein).
-- Sérhver sjálfgefna líkanakortlagning sem hefur takmarkanir á samhengi lands/svæða hefur hæsta forgang fyrir val (**Kortlagning (FR)** í dæmunum í þessari grein).
-- Sérhver sjálfgefna líkanakortlagning sem hefur ekki takmarkanir á samhengi lands/svæðis hefur næst hærri forgang fyrir val (**Kortlagning (Almennt) sérsniðin** í dæmunum í þessari grein).
+- Skilgreining líkanavörpunar sem snið rafrænnar skýrslugerðar notar er tilgreind (**Aðgangsstaður 1** í dæmunum í þessari grein).
+- Allar skilgreiningar vörpunar sem innihalda vörpun sem er með tilgreinda skilgreiningu og sem uppfylla allar takmarkanir á samhengi lands/svæðis er mögulega hægt að nota til að keyra snið rafrænnar skýrslugerðar (**Vörpun (almenn)**, **Vörpun (almenn) sérsniðs** og **Vörpun (FR)** í dæmunum í þessari grein).
+- Allar sjálfgefnar líkanavarpanir sem eru með takmarkanir á samhengi lands/svæðis eru með hæsta forgang fyrir val (**Vörpun (FR)** í dæmunum í þessari grein).
+- Allar sjálfgefnar líkanavarpanir sem eru ekki með takmarkanir á samhengi lands/svæðis eru með næsthæsta forgang fyrir val (**Vörpun (almenn) sérsniðs** í dæmunum í þessari grein).
 - Sérhver líkanakortlagning sem hefur takmarkanir á landi/svæðum hefur meiri forgang við val en vörpun líkana sem eru ekki með samhengi takmarkana á landi/svæðum.
 
 Eftirfarandi tafla veitir upplýsingar um niðurstöður val á líkanavörpun fyrir öll möguleg tilvik fyrir líkanavarpanastillingar:

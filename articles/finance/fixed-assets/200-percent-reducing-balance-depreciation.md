@@ -1,6 +1,6 @@
 ---
 title: Afskriftir fyrir 200% bókfært virði
-description: Þessi grein sýnir yfirlit yfir 200 prósent minnkandi jafnvægisaðferð við afskriftir.
+description: Í þessari grein er yfir afskriftaraðferðina 200 prósent bókfært virði.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7abcf26f3e658e8a6f451f26240890d183547982
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8870163"
@@ -26,7 +26,7 @@ ms.locfileid: "8870163"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir yfirlit yfir 200 prósent minnkandi jafnvægisaðferð við afskriftir.
+Í þessari grein er yfir afskriftaraðferðina 200 prósent bókfært virði.
 
 Þegar afskriftarregla fyrir eignir er sett upp og gildið **200% bókfært virði** er valið í reitnum **Aðferð** á **Afskriftarreglur** eru eignaafskriftir, sem eru tengdar þessari afskriftareglu, með sama hlutfall af hundraði á hverju afskriftatímabili. Þessi prósenta er byggist á líftíma eignarinnar. Til dæmis, ef eign er með líftíma fimm ár, er prósenta reiknuð sem 40 prósent (200% ÷ 5). 
 
@@ -43,7 +43,7 @@ Valið skilgreinir valmöguleikana sem í boði eru á svæðinu **tímabilstí�
 
 Hægt er að velja að halda sjálfgefnum gildum í reitnum **Afskriftarár**, **Dagatal**. 
 
-**Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt eru afskriftir bókað nettóvirði mínus hrakvirði. Í dæmunum síðar í þessari grein er afskriftagrunnurinn teljarinn í fyrstu tjáningu í útreikningsdálknum. 
+**Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt eru afskriftir bókað nettóvirði mínus hrakvirði. Í dæmunum síðar í þessari grein er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
 
 Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 

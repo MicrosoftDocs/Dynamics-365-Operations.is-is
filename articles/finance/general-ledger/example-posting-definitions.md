@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ae6b2b505acb211f9fb5506234953eba9f3ec2a3
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8865773"
@@ -28,7 +28,7 @@ ms.locfileid: "8865773"
 
 Þessi grein gefur dæmi sem sýna hvernig bókunarskilgreiningar eru notaðar fyrir fjárúthlutun innkaupapöntunar og fjárveiting fjárhagsáætlunar.
 
-Áður en þú lest þessa grein ættir þú að kynnast bókunarskilgreiningum og færsluskilgreiningum. Sjá upplýsingar í [Bókunarskilgreiningar](posting-definitions.md). Eftirfarandi dæmi er hægt að setja á upp á **Bókunarskilgreiningar** síðu. hvert Dæmi inniheldur þessum hlutum:
+Áður en þessi grein er lesin, ætti að kynna sér bókunarskilgreiningar og skilgreining færslubókunar. Sjá upplýsingar í [Bókunarskilgreiningar](posting-definitions.md). Eftirfarandi dæmi er hægt að setja á upp á **Bókunarskilgreiningar** síðu. hvert Dæmi inniheldur þessum hlutum:
 
 -   Bókunarskilgreining – jöfnunarskilyrði
 -   bókunarskilgreining – Myndað færslur

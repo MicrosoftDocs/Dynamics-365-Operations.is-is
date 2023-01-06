@@ -1,6 +1,6 @@
 ---
 title: Skoða bókaðar TDS-greiðslur og færslur fyrir TDS-jöfnunartímabil
-description: Þessi grein útskýrir hvernig á að skoða greiðslur og færslur sem dreginn er frá á uppruna (TDS) sem voru bókaðar fyrir uppgjörstímabil.
+description: Þessi grein útskýrir hvernig á að skoða greiðslur skatts sem dreginn er frá í uppruna (TDS) og færslur sem voru bókaðar fyrir jöfnunartímabil.
 author: kailiang
 ms.date: 03/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: c441b6f26636ef1f18e3910a201d02feb4350f33
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8898060"
@@ -26,7 +26,7 @@ ms.locfileid: "8898060"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að skoða greiðslur og færslur sem dreginn er frá á uppruna (TDS) sem voru bókaðar fyrir uppgjörstímabil.
+Þessi grein útskýrir hvernig á að skoða greiðslur skatts sem dreginn er frá í uppruna (TDS) og færslur sem voru bókaðar fyrir jöfnunartímabil.
 
 1. Farið í **Skattur \> Óbeinir skattar \> Staðgreiðsluskattur \> Jöfnunartímabil staðgreiðsluskatts**.
 

@@ -1,6 +1,6 @@
 ---
 title: Bæta við gagnareitum í skattasamþættingu með því að nota viðbætur
-description: Þessi grein útskýrir hvernig á að nota X++ viðbætur til að bæta við gagnareitum í skattsamþættingu.
+description: Þessi grein útskýrir hvernig á að nota X++ viðbætur til að bæta við gagnareitum í skattasamþættingu.
 author: qire
 ms.date: 04/27/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.openlocfilehash: 184012dcc0b68e017bb28d8d73caa9e8415bdbfa
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8871050"
@@ -26,7 +26,7 @@ ms.locfileid: "8871050"
 [!include [banner](../includes/banner.md)]
 
 
-Þessi grein útskýrir hvernig á að nota X++ viðbætur til að bæta við gagnareitum í skattsamþættingu. Hægt er að stækka þessa reiti í skattgagnalíkan skattþjónustunnar og nota þá til að ákveða skattkóða. Frekari upplýsingar eru í [Bæta við gagnareitum í skattaskilgreiningum](tax-service-add-data-fields-tax-configurations.md).
+Þessi grein útskýrir hvernig á að nota X++ viðbætur til að bæta við gagnareitum í skattasamþættingu. Hægt er að stækka þessa reiti í skattgagnalíkan skattþjónustunnar og nota þá til að ákveða skattkóða. Frekari upplýsingar eru í [Bæta við gagnareitum í skattaskilgreiningum](tax-service-add-data-fields-tax-configurations.md).
 
 ## <a name="data-model"></a>Gagnalíkan
 
@@ -356,38 +356,38 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
 }
 ```
 
-Í þessum kóða,`_destination` er umbúðir hluturinn sem er notaður til að búa til beiðnina, og`_source` er`TaxIntegrationLineObject` mótmæla.
+Í þessum kóða er `_destination` pökkunarhluturinn sem er notaður til að búa til beiðnina og `_source` er `TaxIntegrationLineObject` hluturinn.
 
 > [!NOTE]
-> Skilgreindu svæðisheitið sem er notað í beiðninni sem **einkakonst str**. Strenginn ætti að vera nákvæmlega eins og nafn hnútsins (ekki merkið) sem bætt er við í greininni [Bættu við gagnareitum í skattastillingar](tax-service-add-data-fields-tax-configurations.md).
+> Skilgreindu heiti reitsins sem er notaður í beiðninni sem **private const str**. Strengurinn á að vera nákvæmlega sá sami og heiti hnútsins (ekki merkisins) sem bætt er við í greininni [Bæta við gagnareitum í skattaskilgreiningum](tax-service-add-data-fields-tax-configurations.md).
 > 
-> Stilltu reitinn í **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** aðferð með því að nota **SetField** aðferð. Gagnategund seinni færibreytunnar ætti að vera **strengur**. Ef gagnategundin er það ekki **strengur**, breyttu því í streng.
-> Ef gagnategundin er X++**enum gerð**, við mælum með því að þú notir **enum2Tákn** aðferð til að breyta enum gildinu í streng. Enum virðisaukinn í skattstillingunni ætti að vera nákvæmlega það sama og enum nafnið. Eftirfarandi er listi yfir muninn á enum gildi, merki og nafni.
+> Stilltu reitinn í aðferðinni **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** með því að nota aðferðina **SetField**. Gagnagerð seinni færibreytunnar á að vera **strengur**. Ef gagnagerðin er ekki **strengur** skal umbreyta henni í streng.
+> Ef gagnagerðin er X++ **gerð fasttexta** mælum við með því að nota aðferðina **enum2Symbol** til að umbreyta fasttextagildinu í streng. Fasttextagildinu sem bætt er við skattaskilgreininguna á að vera nákvæmlega það sama og heiti fasttextans. Eftirfarandi er listi yfir mismun á milli fasttextagildis, merkis og heitis.
 > 
->   - Nafn enum er táknrænt nafn í kóða. **enum2Tákn()** getur breytt enum gildinu í nafn þess.
->   - Gildi enum er heiltala.
->   - Merki upptalningarinnar getur verið mismunandi eftir valin tungumál. **enum2Str()** getur breytt enum gildinu í merki þess.
+>   - Nafnið á fasttexta er táknrænt nafn í kóða. **enum2Symbol()** getur breytt fasttextagildinu í heiti þess.
+>   - Gildi fasttextans er heiltala.
+>   - Merki fasttextans getur verið mismunandi á milli kjörtungumála. **enum2Str()** getur umbreytt fasttextagildinu í merki þess.
 
-## <a name="model-dependency"></a>Fyrirmyndarfíkn
+## <a name="model-dependency"></a>Tengsl líkans
 
-Til að byggja upp verkefnið með góðum árangri skaltu bæta eftirfarandi viðmiðunarlíkönum við líkanaháðirnar:
+Til að búa til verkið skal bæta eftirfarandi tilvísunarlíkönum við líkanatengslin:
 
-- Umsóknarvettvangur
-- Application Suite
-- Skattvél
+- ApplicationPlatform
+- ApplicationSuite
+- Skattkerfi
 - Víddir, ef fjárhagsvídd er notuð
-- Aðrar nauðsynlegar gerðir sem vísað er til í kóðanum
+- Önnur nauðsynleg líkön sem vísað er til í kóðanum
 
 ## <a name="validation"></a>Villuleit
 
-Eftir að þú hefur lokið fyrri skrefum geturðu staðfest breytingarnar þínar.
+Þegar þú hefur lokið við fyrri skrefin getur þú staðfest breytingarnar.
 
-1. Í Fjármálum, farðu til **Viðskiptaskuldir** og bæta við **&debug=vs%2 CconfirmExit&** á slóðina. Til dæmis,`https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. Loka **&** er ómissandi.
-2. Opnaðu **Pöntun** síðu og veldu **Nýtt** til að búa til innkaupapöntun.
-3. Stilltu gildið fyrir sérsniðna reitinn og veldu síðan **Söluskattur**. Úrræðaleitarskrá með forskeyti, **TaxService Bilanaleit** er hlaðið niður sjálfkrafa. Þessi skrá inniheldur færsluupplýsingarnar sem eru færðar til skattreikningsþjónustunnar. 
-4. Athugaðu hvort sérsniði reiturinn sem bætt var við sé til staðar í **Útreikningur skattaþjónustu JSON** kafla og ef gildi hans er rétt. Ef gildið er ekki rétt skaltu athuga skrefin í þessu skjali.
+1. Í Finance skal fara í **Viðskiptaskuldir** og bæta **&debug=vs%2CconfirmExit&** við vefslóðina. Til dæmis, `https://usnconeboxax1aos.cloud.onebox.dynamics.com/?cmp=DEMF&mi=PurchTableListPage&debug=vs%2CconfirmExit&`. Síðasta **&** er mikilvægt.
+2. Opnaðu síðuna **Innkaupapöntun** og veldu **Ný** til að stofna innkaupapöntun.
+3. Stilltu gildið fyrir sérsniðna reitinn og veldu svo **Söluskattur**. Skrá úrræðaleitar með forskeyti, **TaxServiceTroubleshootingLog** er sótt sjálfkrafa. Þessi skrá inniheldur færsluupplýsingar sem birtar eru í skattaútreikningsþjónustu. 
+4. Athugaðu hvort sérsniðna reitnum sem bætt er við sé til staðar í hlutanum **Inntak útreiknings á skattþjónustu JSON** og hvort gildið sé rétt. Ef gildið er ekki rétt skal athuga aftur skrefin í þessu skjali.g
 
-Dæmi um skrá:
+Skráardæmi:
 
 ```
 ===Tax service calculation input JSON:===
@@ -427,7 +427,7 @@ Dæmi um skrá:
 
 ## <a name="appendix"></a>Viðauki
 
-Þessi viðauki sýnir heildar sýnishornskóðann fyrir samþættingu fjárhagsvíddanna, **Kostnaðarmiðstöð** og **Verkefni** á línustigi.
+Þessi viðauki sýnir ítarlegan sýnishornakóða fyrir samþættingu fjárhagsvídda, **Kostnaðarstaður** og **Verk** á línustiginu.
 
 ### <a name="taxintegrationlineobject_extensionxpp"></a>TaxIntegrationLineObject_Extension.xpp
 

@@ -1,6 +1,6 @@
 ---
 title: Sía pantanir innan samstæðu til að komast hjá samstillingu pantana og pöntunarlína
-description: Þessi grein útskýrir hvernig á að sía innbyrðis pantanir þannig að pantanir og pöntunarlínur séu ekki samstilltar.
+description: Þessi grein útskýrir hvernig á að sía pantanir innan samstæðu þannig að einingar pöntunar og pöntunarlína samstillist ekki.
 author: negudava
 ms.date: 11/09/2020
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: negudava
 ms.search.validFrom: 2020-01-06
 ms.openlocfilehash: f5b7831e103aaa219394099b79537bf0842d9be8
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289281"

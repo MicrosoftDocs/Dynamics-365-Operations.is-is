@@ -1,6 +1,6 @@
 ---
 title: Formúluhönnuður í rafrænni skýrslugerð (ER)
-description: Þessi grein veitir upplýsingar um hvernig á að nota formúluhönnuðinn í rafrænum skýrslum (ER).
+description: Þessi grein inniheldur upplýsingar um hvernig á að nota formúluhönnuðinn í rafrænni skýrslugerð (ER).
 author: kfend
 ms.date: 04/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 283c882300ece460c18ffebe572238e7629f8dee
 ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/14/2022
 ms.locfileid: "9476802"
@@ -41,8 +41,8 @@ Rafræn skýrslugerð styður formúluhönnuðinn. Á hönnunartíma er því h�
 - Bindingu gagnaveituvöru við þætti gagnalíkans.
 - Bindingu gagnaveituvöru við þætti til að sníða.
 - Alhliða viðhald reiknaðra svæða sem eru hluti af gagnagjöfum.
-- Skilgreindu sýnileika og breytanleg skilyrði fyrir innsláttarfæribreytur notanda.
-- Skilgreindu sjálfgefin gildi fyrir inntaksfæribreytur notanda.
+- Skilgreining sýnileikaskilyrða og breytanleikaskilyrða fyrir innsláttarfæribreytur notanda.
+- Skilgreina sjálfgefin gildi fyrir innsláttarfæribreytur notanda.
 - Hönnun á umbreytingum sniðsins
 - Skilgreining á virkjun skilyrða fyrir þætti sniðsins.
 - Skilgreining á skrárheiti fyrir FILE-þætti sniðsins.
@@ -137,27 +137,27 @@ Eftirfarandi skýringarmynd sýnir segðir af þessari gerð. (Útgáfa 11.12.11
 > 
 > Byggt á þessari uppsetningu munu skilaboðin sem myndast fyrir hverja greiðslu skuldara, XML-eininguna **Ustrd**, innihalda annaðhvort texta greiðsluseðla eða, þegar slíkur texti er auður, texta aðskilinn með kommu reikningsnúmer sem notuð eru til að jafna þessa greiðslu.
 
-## <a name="assistance-in-formulas-writing"></a>Aðstoð við formúlugerð
+## <a name="assistance-in-formulas-writing"></a>Aðstoð við að skrifa formúlur
 
-### <a name="data-sources-navigator"></a>Leiðsögumaður gagnaheimilda
+### <a name="data-sources-navigator"></a>Gagnagjafafletting
 
-Þú getur breytt formúlu sem táknar þátt í skipulagðri gagnagjafa. Þegar þú stilltir ER færibreyturnar þínar til að kynna slóðina að þætti í skipulagðri gagnagjafa sem [hlutfallsleg leið](relative-path-data-bindings-er-models-format.md), "at" (@) táknið er [Sýnt](er-formula-language.md#relative-path) í formúlunni í stað þess sem eftir er af algeru slóð stigveldistrésbyggingarinnar sem er notuð. Þessum hluta sem eftir er af algeru slóðinni er bent á foreldraþátt þeirrar sem hægt er að breyta. Í fjármálaútgáfu **10.0.30 og síðar**, á **Formúluhönnuður** síðu, í **Uppsprettur gagna** gluggann geturðu valið **Fara til @** valmöguleika til að staðsetja bendilinn á gagnatrénu á frumefni sem er foreldri þess sem hægt er að breyta. Uppbygging allra hrunna hækkandi þátta verður stækkuð sjálfkrafa og endurkvæmt þegar þess er krafist. Þessi stækkun getur hjálpað þér að sjá á fljótlegan hátt grunnþáttinn í þeim sem hægt er að breyta, fylgjast með systkinum hins breytanlega þáttar í gagnaheimildatrénu og nota hvert þeirra í breytanlegu formúlunni ef þörf krefur.
+Hægt er að breyta formúlu sem stendur fyrir einingu af skipulögðum gagnagjafa. Þegar þú skilgreindir færibreytur rafrænnar skýrslugerðar til að gefa upp slóðina á einingu af skipulögðum gagnagjafa sem [tengda slóð](relative-path-data-bindings-er-models-format.md) er @-merkið [sýnt](er-formula-language.md#relative-path) í formúlunni í staðinn fyrir það sem eftir er af heildarslóðinni fyrir trjáskipulag stigveldis sem er notað. Þessi eftirstandandi hluti heildarslóðarinnar er beint að yfireiningu á þeirri breytanlegu. Í útgáfu **10.0.30 og síðar** af Finance er hægt á síðunni **Formúluhönnuður**, á svæðinu **Gagnagjafar**, að velja valkostinn **Fara í @** til að staðsetja bendi gagnagjafatrésins á einingu sem er yfireining þeirrar breytanlegu. Skipulag allra samandreginna eininga verður sjálfkrafa stækkað aftur þegar þess gerist þörf. Þessi stækkun getur hjálpað þér að sjá á myndrænan hátt grunneiningu á þeirri breytanlegu, skoðað einingar sem eru tengdar breytanlegu einingunni í tré gagnagjafans og notað hverja þeirra í breytanlegri formúlu ef þess gerist þörf.
 
-![Notaðu "Fara til @" valmöguleikann til að staðsetja bendilinn á gagnaheimildatrénu á frumefni sem er foreldri þess sem hægt er að breyta á formúluhönnuðarsíðunni.](./media/er_formula-designer-data-sources-navigator.gif)
+![Notaðu valkostinn „Fara í @“ til að staðsetja bendil gagnagjafatrésins á einingu sem er yfireining breytanlegu einingarinnar á síðu formúluhönnuðar.](./media/er_formula-designer-data-sources-navigator.gif)
 
-### <a name="data-sources-picker"></a>Veljari gagnaheimilda
+### <a name="data-sources-picker"></a>Gagnagjafaval
 
-Á **Formúluhönnuður** síðu, í **Gagnaheimildir** rúðu til vinstri, veldu frumefni gagnagjafa sem þú vilt koma inn í breytanlegu formúluna. Veldu síðan **Bæta við gagnagjafa**. Taktu eftir að valinn þáttur er bætt við texta breytanlegu formúlunnar.
-
-> [!TIP]
-> Þegar þú notar **Bæta við gagnagjafa** valmöguleika í sjálfgefna formúluritlinum er valinn þáttur alltaf bætt við í lok formúlutextans. Þegar þú gerir það sama í [Háþróaður formúlaritill](er-advanced-formula-editor.md), valinn þáttur er settur inn í formúlutextann á núverandi bendili.
-
-### <a name="built-in-functions-picker"></a>Innbyggður aðgerðarvalari
-
-Á **Formúluhönnuður** síðu, í **Aðgerðir** rúðunni til hægri, veldu innbyggða ER-aðgerð sem þú vilt koma með í breytanlegu formúlunni. Veldu síðan **Bæta við aðgerð**. Taktu eftir að valinni aðgerð er bætt við texta breytanlegu formúlunnar.
+Á síðunni **Formúluhönnuður**, á svæðinu **Gagnagjafar** vinstra megin, skal velja einingu gagnagjafa sem á að flytja inn í breytanlegu formúluna. Veldu síðan **Bæta við gagnagjafa**. Taktu eftir því að valdri einingu er bætt við texta breytanlegrar formúlu.
 
 > [!TIP]
-> Þegar þú notar **Bæta við aðgerð** valmöguleika í sjálfgefna formúluritlinum er valinni aðgerð alltaf bætt við lok formúlutextans. Þegar þú gerir það sama í [Háþróaður formúlaritill](er-advanced-formula-editor.md), er valið fall sett inn í formúlutextann á núverandi bendili.
+> Þegar þú notar valkostinn **Bæta við gagnagjafa** í sjálfgefnum formúluritli er valinni einingu alltaf bætt við enda formúlutextans. Þegar þú gerir það sama í [Ítarlegum formúluritli](er-advanced-formula-editor.md) er valin eining sett inn í formúlutextann á núverandi staðsetningu bendilsins.
+
+### <a name="built-in-functions-picker"></a>Innbyggt fallaval
+
+Á síðunni **Formúluhönnuður**, á svæðinu **Virkni** hægra megin, skal velja innbyggða virkni rafrænnar skýrslugerðar sem á að flytja inn í breytanlegu formúluna. Síðan velurðu **Bæta við aðgerð**. Taktu eftir að valinni virkni er bætt við texta breytanlegu formúlunnar.
+
+> [!TIP]
+> Þegar þú notar valkostinn **Bæta við virkni** í sjálfgefna formúluritlinum er valinni virkni alltaf bætt við enda formúlutextans. Þegar þú gerir það sama í [Ítarlegum formúluritli](er-advanced-formula-editor.md) er valin virkni sett inn í formúlutextann á núverandi staðsetningu bendilsins.
 
 ### <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Staðfesting á uppsettum formúlum
 

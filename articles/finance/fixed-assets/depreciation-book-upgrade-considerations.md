@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir uppfærslu afskriftarbókar
-description: Þessi grein lýsir núverandi bókunarvirkni í fastafjármunum. Þessi virkni er byggð á virkni virðislíkans sem var í boði í fyrri útgáfum, en inniheldur einnig alla virknina sem var áður fyrr einungis til staðar í afskriftarbókum.
+description: Þessi grein lýsir núverandi virkni bókar í eignum. Þessi virkni er byggð á virkni virðislíkans sem var í boði í fyrri útgáfum, en inniheldur einnig alla virknina sem var áður fyrr einungis til staðar í afskriftarbókum.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 784ec32ae886ef7ea9342b085f893eeeec761961
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8855492"
@@ -27,7 +27,7 @@ ms.locfileid: "8855492"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir núverandi bókunarvirkni í fastafjármunum. Þessi virkni er byggð á virkni virðislíkans sem var í boði í fyrri útgáfum, en inniheldur einnig alla virknina sem var áður fyrr einungis til staðar í afskriftarbókum. Aðgerðin virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók. Virkni bókar gerir þér kleift að nota eitt sett af síðum, fyrirspurnum og skýrslum fyrir alla ferla eignar í fyrirtækinu. Þessi grein veitir nokkur atriði sem þú ættir að íhuga áður en þú uppfærir. 
+Þessi grein lýsir núverandi virkni bókar í eignum. Þessi virkni er byggð á virkni virðislíkans sem var í boði í fyrri útgáfum, en inniheldur einnig alla virknina sem var áður fyrr einungis til staðar í afskriftarbókum. Aðgerðin virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók. Virkni bókar gerir þér kleift að nota eitt sett af síðum, fyrirspurnum og skýrslum fyrir alla ferla eignar í fyrirtækinu. Þessi grein útvegar nokkur atriði sem ætti að hafa í huga fyrir uppfærslu. 
 
 Uppfærsluferlið færir fyrirliggjandi uppsetningu og allar fyrirliggjandi færslur til uppbyggingar nýju bókarinnar. Virðislíkön haldast eins og þau eru, sem bók sem bókar í fjárhag. Afskriftabækur verða flutt í bók sem hefur Bóka í fjárhag valkostur stilltur á Nei. Færslubókaheiti afskriftabóka verði flutt í færslubókarheitið fjárhags sem er með bókunarlag stillt á Ekkert. Færslur afskriftarbókar verða fluttar í Eignafærsla.
 

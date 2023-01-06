@@ -1,6 +1,6 @@
 ---
 title: Ráða Power BI-efni
-description: Þessi grein lýsir ráðningunni Power BI efni.
+description: Þessi grein lýsir Ráðningar Power BI efni.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 38e6827b-0819-473c-bc47-821a1ec482b8
 ms.search.form: HcmRecruitmentWorkspace
 ms.openlocfilehash: 412a1225544bb73649c9f0e703ec7b9a0d2613e0
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9276597"

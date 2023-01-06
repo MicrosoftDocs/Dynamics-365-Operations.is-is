@@ -1,6 +1,6 @@
 ---
 title: Nota gagnagjafa strikamerkja til að búa til myndir af strikamerkjum
-description: Þessi grein útskýrir hvernig á að nota Strikamerkisgagnagjafa til að búa til strikamerkismyndir.
+description: Þessi grein útskýrir hvernig á að nota gagnagjafa strikamerkja til að búa til myndir af strikamerkjum.
 author: kfend
 ms.date: 10/21/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 ms.openlocfilehash: a604f7532d38b7f9efcecaa4d4a441ccce96643c
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9284209"
@@ -26,7 +26,7 @@ ms.locfileid: "9284209"
 
 [!include[banner](../includes/banner.md)]
 
-Þú getur notað [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) ramma til að hanna íhluti á ER-sniði sem þú getur keyrt til að búa til rafræn og prentanleg skjöl á útleið sem þú þarfnast. Til að búa til skjal á útleið í Microsoft Office-sniði þarf að tilgreina útlit skýrslunnar með því að nota annaðhvort Microsoft Excel-skjal eða Microsoft Word-skjal sem skýrslusniðmát. [Hönnuður rafrænnar skýrslugerðar](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) gerir notanda kleift að láta Excel- eða Word-skjal fylgja með sem sniðmát fyrir snið rafrænnar skýrslugerðar. Eftirfarandi tilgreindar einingar í viðhengdu sniðmáti tengjast einingum stillts sniðshluta:
+Hægt er að nota rammann [Rafræn skýrslugerð](general-electronic-reporting.md) til að hanna Íhlutir rafrænnar skýrslugerðar sem hægt er að keyra til að búa til rafræn og prentvæn skjöl á útleið sem þörf er á. Til að búa til skjal á útleið í Microsoft Office-sniði þarf að tilgreina útlit skýrslunnar með því að nota annaðhvort Microsoft Excel-skjal eða Microsoft Word-skjal sem skýrslusniðmát. [Hönnuður rafrænnar skýrslugerðar](general-electronic-reporting.md#building-a-format-that-uses-a-data-model-as-a-base) gerir notanda kleift að láta Excel- eða Word-skjal fylgja með sem sniðmát fyrir snið rafrænnar skýrslugerðar. Eftirfarandi tilgreindar einingar í viðhengdu sniðmáti tengjast einingum stillts sniðshluta:
 
 - Efnisstýringar í Word
 - Tilgreind blöð, bil, hólf, form og myndir í Excel
@@ -77,7 +77,7 @@ Með því að nota gagnagjafa af gerðinni **Strikamerki** er hægt að búa ti
 >
 > Þegar gagnagjafinn **Strikamerki** er bundinn við hólfaeiningu í sniði og hólfaeiningin táknar annaðhvort Word-efnisstýringu eða Excel-mynd, er gagnagjafinn sýndur í þeirri bindingu sem virkni sem er með eina færibreytu af gerðinni **Strengur**. Nota verður þessa færibreytu til að tilgreina textann sem umbreyta á í mynd af strikamerki og lesa þegar myndað strikamerki er skannað.
 
-Fyrir frekari upplýsingar um þennan eiginleika skaltu fylla út dæmin í þessari grein.
+Fyrir frekari upplýsingar um þennan eiginleika skal ljúka dæmunum í þessari grein.
 
 ## <a name="example-generate-a-payment-check-that-contains-a-bar-code-that-encodes-the-payable-amount"></a>Dæmi: Búa til greiðsluávísun sem inniheldur strikamerki sem kóðar ógreiddu upphæðina
 
@@ -103,7 +103,7 @@ Fyrir frekari upplýsingar um þennan eiginleika skaltu fylla út dæmin í þes
 
 Í þessu dæmi verður notuð uppgefin lausn rafrænnar skýrslugerðar sem hefur verið stillt til að búa til greiðsluávísanir. Þessi lausn býr til greiðsluávísanir þar sem ógreidd upphæð er bæði skrifuð sem tala og texti. Þessari lausn rafrænnar skýrslugerðar verður breytt þannig að ávísunin feli einnig í sér myndað strikamerki þar sem ógreidd upphæð er kóðuð og er hægt að lesa með því að nota strikamerkjaskönnun.
 
-Hægt er að ljúka skrefunum í **USMF** fyrirtæki í Microsoft Dynamics 365 Fjármál.
+Hægt er að ljúka skrefunum í fyrirtækinu **USMF** í Microsoft Dynamics 365 Finance.
 
 ### <a name="complete-the-prerequisites"></a><a name="ExamplePrerequisites"></a>Ljúka skilyrðum
 
@@ -112,7 +112,7 @@ Til að ljúka þessu dæmi verður þú að hafa aðgang að USMF fyrirtæki í
 - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
 - Kerfisstjóri
 
-Ef þú hefur ekki enn lokið við dæmið í [Fella myndir og form í skjöl sem þú býrð til með því að nota ER](electronic-reporting-embed-images-shapes.md) grein, hlaðið niður eftirfarandi stillingum af ER lausninni.
+Ef ekki hefur enn verið lokið við dæmið í greininni [Fella inn myndir og form í skjöl sem búin eru til með því að nota rafræna skýrslugerð](electronic-reporting-embed-images-shapes.md), skal hlaða niður eftirfarandi grunnstillingum sömu lausnar rafrænnar skýrslugerðar.
 
 | Lýsing á efni         | Skrárnafn                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ Að auki skal hlaða niður eftirfarandi Excel-skrá sem inniheldur breytt snið
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Kveikja á stillingaveitu
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar staðfærslu**, í hlutanum **Skilgreiningaveitur**, skal ganga úr skugga um að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið **Litware, Inc.** sé skráð og merkt sem virkt. Ef það er ekki á listanum eða ef það er ekki merkt sem virkt skaltu fylgja skrefunum í [Búðu til stillingarveitu og merktu hana sem virkan](tasks/er-configuration-provider-mark-it-active-2016-11.md) grein.
+2. Á síðunni **Skilgreiningar staðfærslu**, í hlutanum **Skilgreiningaveitur**, skal ganga úr skugga um að [skilgreiningaveitan](general-electronic-reporting.md#Provider) fyrir sýnifyrirtækið **Litware, Inc.** sé skráð og merkt sem virkt. Ef það er ekki skráð, eða ef það er ekki merkt sem virkt, skal fylgja skrefunum í greininni [Stofna skilgreiningaveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Sýnifyrirtækið stillt sem virkt á síðunni Skilgreiningar staðfæringar.](./media/er-barcode-data-source-active-provider.png)
 
@@ -284,7 +284,7 @@ Staða núverandi útgáfu er breytt úr **Drög** í **Lokið** og ný útgáfa
 
 ### <a name="convert-the-generated-check-to-a-pdf"></a><a name="ExampleConvertToPDF"></a>Umbreyta myndaða ávísun í PDF
 
-Eins og lýst er í [Búðu til prentanleg FTI eyðublöð](er-generate-printable-fti-forms.md#finland) grein, getur þú notað sérstaka leturgerð til að framleiða strikamerki í mynduðu skjali. Í slíku tilfelli gætu aukalegar umbreytingar á mynduðu skjali verið háðar því að letrið sé tiltækt í umhverfi umbreytingarinnar. Ef til dæmis er reynt að umbreyta skjali á PDF-snið eða forskoða það í umhverfi þar sem letrið er ekki til staðar, verða strikamerki ekki myndþýdd á réttan hátt.
+Eins og lýst er í greininni [Mynda prentvæn reikningssnið með frjálsum texta](er-generate-printable-fti-forms.md#finland), er hægt að nota sérstakt letur til að búa til strikamerki í skjali sem búið er til. Í slíku tilfelli gætu aukalegar umbreytingar á mynduðu skjali verið háðar því að letrið sé tiltækt í umhverfi umbreytingarinnar. Ef til dæmis er reynt að umbreyta skjali á PDF-snið eða forskoða það í umhverfi þar sem letrið er ekki til staðar, verða strikamerki ekki myndþýdd á réttan hátt.
 
 Þegar gagnagjafinn **Strikamerki** er hins vegar notaður til að búa til strikamerki eru myndþýðingar þessara strikamerkja ekki háðar neinu letri. Þar af leiðandi er auðveldlega hægt að umbreyta skjali sem inniheldur strikamerkin yfir á PDF-snið. Eftirfarandi skýringarmynd sýnir forskoðun á myndaðri greiðsluávísun sem hefur verið [umbreytt](electronic-reporting-destinations.md#OutputConversionToPDF) í PDF, samkvæmt stillingunni á skilgreindri [staðsetningu](electronic-reporting-destinations.md) rafrænnar skýrslugerðar.
 

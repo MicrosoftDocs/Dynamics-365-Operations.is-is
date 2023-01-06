@@ -1,6 +1,6 @@
 ---
 title: Skipta eign
-description: Þessi grein útskýrir hvernig á að skipta hlutfalli af einni eignabók í nýja eignabók.
+description: Þessi grein útskýrir hvernig skal skipta hlutfalli einnar eignabókar á nýtt eignabók.
 author: moaamer
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0d7fe30702717f960a42fb2a118e0d12587024f5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8880789"
@@ -24,7 +24,7 @@ ms.locfileid: "8880789"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að skipta hlutfalli af einni eignabók í nýja eignabók. 
+Þessi grein útskýrir hvernig skal skipta hlutfalli einnar eignabókar á nýtt eignabók. 
 
 ## <a name="create-a-new-fixed-asset"></a>Búa til nýja eign
 

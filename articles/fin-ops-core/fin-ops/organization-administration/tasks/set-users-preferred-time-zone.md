@@ -1,6 +1,6 @@
 ---
 title: Stilla æskilegt tímabelti notanda
-description: Þessi grein útskýrir hvernig notandi í hlutverki Kerfisstjóra getur stillt tímabelti fyrir notanda.
+description: Þessi grein útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi.
 author: pvillads
 ms.date: 07/08/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 211efa6bebd316f3daa7694f68ff53b6fe3147da
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8848665"
@@ -27,7 +27,7 @@ ms.locfileid: "8848665"
 
 [!INCLUDE [PEAP](../../../../includes/peap-1.md)]
 
-Eftirfarandi grein útskýrir hvernig notandi í hlutverki kerfisstjóra getur stillt tímabelti fyrir notanda.
+Greinin útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi.
 
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Kerfisstjórnun > Notendur > Notendur**.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.

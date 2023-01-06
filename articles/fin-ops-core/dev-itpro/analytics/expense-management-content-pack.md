@@ -1,6 +1,6 @@
 ---
 title: Power BI-efni útgjaldastýringar
-description: Þessi grein lýsir því hvað er innifalið í kostnaðarstjórnun Power BI innihaldspakka.
+description: Þessi grein lýsir því hvað er innifalið í útgjaldastýringu Power BI efnispakka.
 author: panolte
 ms.date: 03/18/2019
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 78ae444c1c9803ed3708d71da7a359667df0252f
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8878314"
@@ -25,7 +25,7 @@ ms.locfileid: "8878314"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvað er innifalið í kostnaðarstjórnun Power BI efni. 
+Þessi grein lýsir því hvað er innifalið í útgjaldastýring Power BI efnis. 
 
 ## <a name="overview"></a>Yfirlit
 Tveir Power BI efnispakkar eru í boði til að nota með útgjaldastýringu í útgáfu 8.1 eða nýrri. 

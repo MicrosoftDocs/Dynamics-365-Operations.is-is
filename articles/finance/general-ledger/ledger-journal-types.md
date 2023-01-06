@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 883c54b84ed31384a28c31c8b814c75d340d020e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8901314"
@@ -26,7 +26,7 @@ ms.locfileid: "8901314"
 
 [!include [banner](../includes/banner.md)]
 
-Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nota **Dagbókarnöfn** síðu til að setja upp færslubækur sem þú getur notað í gegnum Dynamics 365 Finance.
+Þetta grein lýsir þær gerðir færslubóka sem hægt er að setja upp fyrir fjárhagsbækur. Nota skal síðuna **Heiti færslubókar** til að setja upp færslubækur sem hægt er að nota í gegnum Dynamics 365 Dynamics 365 Finance.
 
 | Færslubókargerð                      | Notkun                       | Færa inn færslur á þessari síðu                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|

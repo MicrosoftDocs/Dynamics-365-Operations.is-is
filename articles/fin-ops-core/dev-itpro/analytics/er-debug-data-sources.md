@@ -1,6 +1,6 @@
 ---
 title: Kemba gagnagjafa af keyrðu sniði rafrænnar skýrslugerðar til að greina gagnaflæði og umbreytingu
-description: Þessi grein útskýrir hvernig þú getur villuleitt gagnaveitur á keyrðu ER sniði til að skilja betur stillt gagnaflæði og umbreytingu.
+description: Í þessari grein er útskýrt hvernig hægt er að kemba gagnagjafa af keyrðu sniði rafrænnar skýrslugerðar til að skilja betur skilgreint gagnaflæði og umbreytingu.
 author: kfend
 ms.date: 04/22/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERSolutionTable, EROperationDesigner
 ms.openlocfilehash: 7509092d353d75cefbbd97393d45c078530a21bd
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291355"
@@ -28,13 +28,13 @@ ms.locfileid: "9291355"
 
 [!include[banner](../includes/preview-banner.md)]
 
-Þegar lausn rafrænnar skýrslugerðar er [skilgreind](tasks/er-format-configuration-2016-11.md) til að útbúa skjöl á útleið, skilgreinir þú aðferðirnar sem notaðar eru til að ná gögnum úr forritinu og færa þau inn í úttakið sem búið er til. Til að gera lífsferilsstuðning ER lausnarinnar skilvirkari ætti lausnin þín að samanstanda af ER gagnalíkani og kortlagningarhlutum þess, og einnig ER sniði og kortlagningarhlutum þess, þannig að líkanskortlagningin sé forritssértæk, en aðrir íhlutir eru áfram umsókn-agnostic. Þar af leiðandi gætu nokkrir hlutar rafrænnar skýrslugerðar haft áhrif á ferli gagnainnsláttar í úttakinu sem búið er til.
+Þegar lausn rafrænnar skýrslugerðar er [skilgreind](tasks/er-format-configuration-2016-11.md) til að útbúa skjöl á útleið, skilgreinir þú aðferðirnar sem notaðar eru til að ná gögnum úr forritinu og færa þau inn í úttakið sem búið er til. Til að gera líftímastuðning fyrir lausn rafrænnar skýrslugerðar skilvirkari ætti lausnin þín að samanstanda af gagnlíkani rafrænnar skýrslugerðar og hlutum vörpunar sem tengjast því, og einnig snið rafrænnar skýrslugerðar og vörpunarhlutum þess svo að vörpunarlíkanið miðist við forritið, á meðan aðrir hlutar eru áfram óháðir forritinu. Þar af leiðandi gætu nokkrir hlutar rafrænnar skýrslugerðar haft áhrif á ferli gagnainnsláttar í úttakinu sem búið er til.
 
 Stundum líta gögn myndaðs úttaks út fyrir að vera öðruvísi en sömu gögn í gagnagrunni forritsins. Í þessum tilvikum er æskilegt að ákvarða hvaða íhlutur rafrænnar skýrslugerðar er ábyrgur fyrir gagnaumbreytingu. Kembiforritseiginleiki gagnagjafa rafrænnar skýrslugerðar dregur umtalsvert úr tíma og kostnaði sem eru hluti af þessari skoðun. Hægt er að stöðva keyrslu sniðs rafrænnar skýrslugerðar og opna kembiviðmót gagnagjafans. Þar er hægt að fletta upp tiltækum gagnagjöfum og velja staka gagnagjafa til keyrslu. Þessi handvirka keyrsla líkir eftir keyrslu gagnagjafans við raunkeyrslu á snið rafrænnar skýrslugerðar. Niðurstaðan kemur fram á síðu þar sem hægt er að greina gögnin sem eru móttekin.
 
 Til að kveikja á villuleitareiginleika gagnagjafa skaltu stilla valkostinn **Virkja gagnakembingu við sniðskeyrslu** á **Já** í notendafæribreytum rafrænnar skýrslugerðar. Hægt er að ræsa kembingu gagnagjafa þegar snið rafrænnar skýrslugerðar keyrt til að mynda skjöl á útleið. Einnig er hægt að nota valkostinn **Hefja kembingu** til að ræsa gagnakerfiskembingu fyrir snið rafrænnar skýrslugerðar sem er skilgreint í reitnum [Aðgerðarhönnuður rafrænnar skýrslugerða](./tasks/er-format-configuration-2016-11.md#design-the-format-of-an-electronic-document).
 
-Þessi grein veitir leiðbeiningar um að hefja kembiforrit gagnagjafa fyrir keyrð ER snið. Það útskýrir hvernig upplýsingarnar geta hjálpað til við að skilja gagnaflæði og gagnaumbreytingu. Dæmin í þessari grein nota viðskiptaferlið fyrir greiðslur lánardrottins.
+Í þessari grein er að finna leiðarvísi til að hefja kembingu á gagnagjafa fyrir keyrð snið rafrænnar skýrslugerðar. Það útskýrir hvernig upplýsingarnar geta hjálpað til við að skilja gagnaflæði og gagnaumbreytingu. Í dæmunum í þessari grein er notast við viðskiptaferli fyrir meðhöndlun greiðslu lánardrottins.
 
 ## <a name="limitations"></a>Takmarkanir
 
@@ -49,7 +49,7 @@ Eftirfarandi stillingar á sniði rafrænnar skýrslugerðar eru ekki aðgengile
 
 ## <a name="prerequisites"></a>Forkröfur
 
-- Til að klára dæmin í þessari grein verður þú að hafa aðgang að einu af eftirfarandi [hlutverkum](../sysadmin/tasks/assign-users-security-roles.md):
+- Til að ljúka dæmunum í þessari grein þarftu að hafa aðgang að einu af eftirfarandi [hlutverkum](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Þróunaraðili rafrænnar skýrslulausnar
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
@@ -57,12 +57,12 @@ Eftirfarandi stillingar á sniði rafrænnar skýrslugerðar eru ekki aðgengile
 
 - Stilla verður fyrirtæki á **DEMF**.
 
-- Fylgdu skrefunum í [Viðauki 1](#appendix1) þessarar greinar til að hlaða niður íhlutum Microsoft ER lausnarinnar sem þarf til að vinna úr greiðslum lánardrottins.
-- Fylgdu skrefunum í [Viðauki 2](#appendix2) þessarar greinar til að undirbúa viðskiptaskuldir fyrir greiðsluvinnslu lánardrottins með því að nota ER lausnina sem þú munt hala niður.
+- Fylgja skal leiðbeiningunum í [Viðauka 1](#appendix1) í þessari grein til að sækja íhluti rafrænna skýrslugerðarlausna Microsoft sem nauðsynlegar eru til að vinna úr lánardrottnagreiðslum.
+- Fylgja skal eftirfarandi skrefum í [Viðauka 2](#appendix2) í þessari grein til að undirbúa viðskiptaskuldir fyrir úrvinnslu lánardrottnagreiðslna með því að nota lausn rafrænnar skýrslugerðar sem þú sækir.
 
 ## <a name="process-a-vendor-payment-to-get-a-payment-file"></a>Vinna úr greiðslu lánardrottins til að sækja greiðsluskrá
 
-1. Fylgdu skrefunum í [Viðauki 3](#appendix3) þessarar greinar til að afgreiða greiðslur lánardrottins.
+1. Fylgja skal leiðbeiningunum í [Viðauki 3](#appendix3) í þessari grein til að vinna úr lánardrottnagreiðslum.
 
     ![Greiðsluferli lánardrottins í vinnslu.](./media/er-data-debugger-process-payment.png)
 
@@ -89,7 +89,7 @@ Eftirfarandi stillingar á sniði rafrænnar skýrslugerðar eru ekki aðgengile
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Vinna úr greiðslu lánardrottins fyrir kembileit
 
-1. Fylgdu skrefunum í [Viðauki 3](#appendix3) þessarar greinar til að afgreiða greiðslur lánardrottins.
+1. Fylgja skal leiðbeiningunum í [Viðauki 3](#appendix3) í þessari grein til að vinna úr lánardrottnagreiðslum.
 2. Í skilaboðaglugganum skal velja **Já** til að staðfesta að þú viljir rjúfa úrvinnslu lánardrottnagreiðslu og í staðinn hefja kembingu á gagnagjafa á síðunni **Kemba gagnagjafa**.
 
     ![Staðfestingarboðsreitur.](./media/er-data-debugger-start-debugging.png)
@@ -188,10 +188,10 @@ Ef ætlunin er að nota lausn rafrænnar skýrslugerðar til að búa til rafræ
 
 ![Innflutningur greiðslusniðs rafrænnar skýrslugerðar á síðu skilgreiningageymslu.](./media/er-data-debugger-import-from-repo.png)
 
-Til viðbótar við valið ER snið, eftirfarandi [stillingar](general-electronic-reporting.md#Configuration) verður að vera sjálfkrafa flutt inn í þinn Microsoft Dynamics 365 Fjármál tilvik sem hluti af **ISO20022 Kreditmillifærsla** ER lausn:
+Til viðbótar við valið snið rafrænnar skýrslugerðar verða eftirfarandi [skilgreiningar](general-electronic-reporting.md#Configuration) að vera sjálfkrafa fluttar inn í Microsoft Dynamics 365 Finance-tilvikið sem hluti af lausn **ISO20022-kreditfærslu** rafrænnar skýrslugerðar:
 
-- **Greiðslulíkan** Uppsetning ER gagnalíkans
-- **ISO20022 Kreditmillifærsla** ER snið stillingar
+- **Greiðslulíkan** Skilgreining gagnalíkans rafrænnar skýrslugerðar
+- **ISO20022 Kreditfærsla** grunnstilling sniðs rafrænnar skýrslugerðar
 - **Vörpun greiðslulíkans 1611** ER skilgreining vörpunar greiðslulíkans
 - **Vörpun greiðslulíkans í viðtökustað ISO20022** Skilgreining líkanavörpunar rafrænnar skýrslugerðar
 

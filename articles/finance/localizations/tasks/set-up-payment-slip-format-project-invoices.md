@@ -1,6 +1,6 @@
 ---
 title: Setja upp greiðsluseðlasnið fyrir verkreikninga
-description: Þessi grein útskýrir hvernig á að hengja útprentaða greiðsluseðla við verkreikninga og gefa upp greiðsluviðmið fyrir bókun og uppgjör.
+description: Þessi grein útskýrir hvernig tengja á prentaða greiðsluseðla við verkreikninga og veita greiðslutilvísun fyrir bókun og jöfnun.
 author: EvgenyPopovMBS
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8f9e956f6c6a5d7a783bfc3a475ff4ca60473f17
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8879439"

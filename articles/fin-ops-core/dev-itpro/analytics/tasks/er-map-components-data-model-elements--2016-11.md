@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Varpa efnisþætti ef stofnað snið einingar gagnalíkans (nóvember 2016)
-description: Þessi grein lýsir því hvernig á að kortleggja gagnalíkanaeiningar við íhluti stofnaðrar uppsetningar rafrænnar skýrslugerðar (ER).
+description: Í þessari grein er útskýrt hvernig á að varpa gagnalíkanseiningum í þætti stofnaðrar skilgreiningar rafrænnar skýrslugerðar.
 author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 ms.openlocfilehash: d1dee2a26edd5a2162bb8c5cebaf014825f4e5a2
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290215"

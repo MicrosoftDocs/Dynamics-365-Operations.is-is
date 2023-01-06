@@ -1,6 +1,6 @@
 ---
 title: Búa til fylgiskjöl eða þjálfun með verkskráningu
-description: Þessi grein útskýrir hvað Verkefnaskráning og verkefnaleiðbeiningar eru, hvernig á að búa til upptökur og hvernig á að sérsníða Microsoft verkefnaleiðbeiningar og hafa þær með í hjálpinni þinni.
+description: Í þessari grein er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna skráningar, og hvernig á að sérsníða verkefni í Microsoft leiðir og hafa þau með í þínu Hjálp.
 author: jasongre
 ms.date: 03/24/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.form: SysHelpSetup
 ms.openlocfilehash: 175eb31c0ae4730544450ff8e073a73717e4207e
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9284912"
@@ -29,7 +29,7 @@ ms.locfileid: "9284912"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þessi grein útskýrir hvað Verkefnaskráning og verkefnaleiðbeiningar eru, hvernig á að búa til verkupptökur og hvernig á að sérsníða Microsoft verkefnaleiðbeiningar og hafa þær með í hjálpinni þinni.
+Í þessari grein er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna verkskráningu, og hvernig á að sérsníða verkefni í Microsoft leiðir og hafa þau með í þínu Hjálp.
 
 > [!IMPORTANT]
 > Þú getur tekið upp þínar eigin verkefnaleiðbeiningar fyrir Dynamics 365 Human Resources en þú munt ekki geta vistað þær í BPM-bókasafni (Business Process Modeler) eða opnað þau úr hjálparsvæðinu á þessum tíma. Þú getur vistað þær á staðnum eða á staðarnetinu, og þá opna og endurspila þær með því að nota Verkskráningu. 

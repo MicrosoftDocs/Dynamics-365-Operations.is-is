@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerðarvirkni LISTDISTINCT
-description: Þessi grein veitir upplýsingar um hvernig aðgerðin LISTDISTINCT rafræn skýrslugerð (ER) er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig rafræn skýrslugerðarvirkni LISTDISTINCT er notuð.
 author: kfend
 ms.date: 07/30/2020
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: cd773f3455af1be1e952cb3852a648436670ce0f
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9285276"

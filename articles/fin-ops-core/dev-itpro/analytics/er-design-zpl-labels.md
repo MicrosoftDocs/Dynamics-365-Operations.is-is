@@ -1,6 +1,6 @@
 ---
 title: Hanna nýja rafræna skýrslugerðarlausn til að prenta ZPL-merki
-description: Þessi grein útskýrir hvernig á að hanna nýja rafræna skýrslugerð (ER) lausn til að prenta Zebra Programming Language (ZPL) merki.
+description: Í þessari grein er útskýrt hvernig á að hanna nýja rafræna skýrslugerðarlausn til að prenta merki Zebra-forritunarmáls (ZPL).
 author: kfend
 ms.date: 02/28/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
 ms.openlocfilehash: 7ef83cf4822ca129af3ca01fa6ddd05219fee0d7
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9271764"
@@ -27,257 +27,257 @@ ms.locfileid: "9271764"
 [!include [banner](../includes/banner.md)]
 
 
-Þessi grein útskýrir hvernig notandi í hlutverki kerfisstjóra, rafrænnar skýrslugerða, eða rafrænnar skýrslugerðarráðgjafa getur stillt færibreytur [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) ramma, hanna nauðsynlega ER [stillingar](general-electronic-reporting.md#Configuration) af nýrri ER lausn til að fá aðgang að gögnum vöruhúsastjórnunarkerfisins og búa til sérsniðna vöruhúsastaðsetningarmerki á Zebra Programming Language (ZPL) II sniði. Hægt er að ljúka skrefunum í **USRT** fyrirtækinu.
+Þessi grein útskýrir hvernig notandi í hlutverki kerfisstjóra, hönnuðar rafrænnar skýrslugerðar eða hagnýts ráðgjafa rafrænnar skýrslugerðar getur skilgreint færibreytur fyrir ramma [rafrænnar skýrslugerðar](general-electronic-reporting.md), hannað nauðsynlegar [skilgreiningar](general-electronic-reporting.md#Configuration) rafrænnar skýrslugerðar fyrir nýja lausn rafrænnar skýrslugerðar til að fá aðgang vöruhúsakerfinu og útbúið sérsniðna merkimiða vöruhúsastaðsetningar ZPL II-sniði. Hægt er að ljúka skrefunum í **USRT** fyrirtækinu.
 
 ## <a name="business-scenario"></a>Sviðsmynd fyrirtækis
 
-Þú ert fulltrúi fyrirtækis sem innleiddi vöruhúsastjórnun í Microsoft Dynamics 365 Fjármál. Sérhver vöruhús verður að vera merkt með sjálflímandi miða sem inniheldur strikamerki. Starfsmenn vöruhúsa munu nota handfesta strikamerkjalesara til að skanna strikamerkin.
+Þú ert fulltrúi fyrirtækis sem innleiddi vöruhúsakerfi í Microsoft Dynamics 365 Finance. Allir vöruhúsastaðsetningar verða að vera merktar með límmiða með strikamerki. Starfsmenn vöruhúss munu nota strikamerkjalesara til að skanna strikamerkin.
 
-Allar vöruhúsastöðvar hafa verið merktar innan umfangs aðgerða fyrir ræsingu. Hins vegar verður þú einnig að geta prentað merki vöruhúsastaðsetningar ef óskað er eftir því ef núverandi merki skemmast eða vöruhúsahillur eru endurstilltar. Með því að nota nýlega útgefinn ER-virkni geturðu stillt nýja ER-lausn sem gerir umsjónarmanni vöruhúss kleift að prenta merki beint á hitamerkjaprentara.
+Allar vöruhúsastaðsetningar hafa verið merktar í umfangi aðgerða fyrir keyrslu. Samt sem áður þarftu einnig að geta prentað merki vöruhúsastaðsetninga eftir þörfum ef núverandi merki skemmast eða hillum vöruhúss er endurraðað. Með því að nota nýlega útgefna virkni rafrænnar skýrslugerðar er hægt að skilgreina nýja lausn rafrænnar skýrslugerðar sem gerir umsjónarmanni vöruhúss kleift að prenta merki beint á prentara sem prentar thermal-merkimiða.
 
 ## <a name="configure-the-er-framework"></a>Skilgreina ramma rafrænnar skýrslugerðar
 
-Fylgdu skrefunum í [Skilgreina ramma rafrænnar skýrslugerðar](er-quick-start2-customize-report.md#ConfigureFramework) til að setja upp lágmarksfjölda af færibreytum rafrænnar skýrslugerðar. Þú verður að ljúka þessari uppsetningu áður en þú byrjar að nota ER ramma til að hanna nýja ER lausn.
+Fylgdu skrefunum í [Skilgreina ramma rafrænnar skýrslugerðar](er-quick-start2-customize-report.md#ConfigureFramework) til að setja upp lágmarksfjölda af færibreytum rafrænnar skýrslugerðar. Þú verður að ljúka þessari uppsetningu áður en þú byrjar að nota ramma rafrænnar skýrslugerðar til að hanna nýja lausn rafrænnar skýrslugerðar.
 
 ## <a name="design-a-domain-specific-data-model"></a>Hanna gagnalíkan fyrir sérstakt lén
 
-Búðu til nýja ER uppsetningu sem inniheldur a [gagnalíkan](er-overview-components.md#data-model-component) hluti fyrir Vöruhússtjórnunarlénið. Þetta gagnalíkan verður notað sem gagnagjafi síðar, þegar þú hannar ER-snið til að búa til vöruhúsastaðsetningarmerki.
+Stofna nýja skilgreiningu rafrænnar skýrslugerðar sem inniheldur [gagnalíkansíhlut](er-overview-components.md#data-model-component) fyrir lén vöruhúsakerfisins. Þetta gagnalíkan verður seinna notað sem gagnagjafi þegar hannað er snið rafrænnar skýrslugerðar til að búa til merkimiða fyrir staðsetningu vöruhúss.
 
-### <a name="import-a-data-model-configuration"></a>Flytja inn gagnalíkanstillingu
+### <a name="import-a-data-model-configuration"></a>Flytja inn skilgreiningu gagnalíkans
 
-Fylgdu þessum skrefum til að flytja inn nauðsynlegt gagnalíkan úr XML skrá sem er útveguð af Microsoft. Að öðrum kosti geturðu búið til þitt eigið gagnalíkan eins og lýst er í næsta kafla.
+Fylgdu eftirfarandi skrefum til að flytja inn nauðsynlegt gagnalíkan úr XML-skrá sem Microsoft lætur í té. Þú getur einnig búið til þitt eigið gagnalíkan eins og lýst er í næsta hluta.
 
-1. Sækja [Vöruhús model.version.1.xml](https://download.microsoft.com/download/9/f/1/9f136e9b-bf5f-403a-b089-a2b2ed1da2ba/Warehouse-model.version.1.xml) skrá og vistaðu hana á tölvunni þinni.
+1. Sæktu skrána [Warehouse model.version.1.xml](https://download.microsoft.com/download/9/f/1/9f136e9b-bf5f-403a-b089-a2b2ed1da2ba/Warehouse-model.version.1.xml) og vistaðu hana á staðbundinni tölvu.
 2. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 3. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja **Skilgreiningar skýrslugerðar**.
-4. Á **Stillingar** síðu, á aðgerðarrúðunni, veldu **Skipti** \> **Hlaða úr XML skrá**.
-5. Veldu **Skoðaðu**, og finndu síðan og veldu **Vöruhús model.version.1.xml** skrá.
+4. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, skal velja **Skipta út**\>**Hlaða úr XML-skrá**.
+5. Veljið **Fletta** og finnið síðan og veljið skrána **Warehouse model.version.1.xml**.
 6. Veljið **Í lagi** til að flytja inn skilgreininguna.
 
-![Innflutt ER gagnalíkanstilling á síðunni Stillingar.](./media/er-design-zpl-labels-imported-model.png)
+![Innflutt skilgreining gagnalíkans rafrænnar skýrslugerðar á skilgreiningasíðunni.](./media/er-design-zpl-labels-imported-model.png)
 
-### <a name="create-a-data-model-configuration"></a>Búðu til uppsetningu gagnalíkana
+### <a name="create-a-data-model-configuration"></a>Stofnaðu nýja skilgreiningu gagnalíkans
 
-Í stað þess að flytja inn gagnalíkanskrána sem Microsoft útvegaði, geturðu búið til gagnalíkan frá grunni. Fyrir dæmi sem sýnir hvernig á að klára þetta verkefni, sjá [Búðu til nýja gagnalíkanstillingu](er-quick-start1-new-solution.md#DesignDataModel).
+Í stað þess að flytja inn gagnalíkanaskrá frá Microsoft geturðu búið til gagnalíkan frá grunni. Dæmi sem sýnir hvernig á að ljúka þessu verki er að finna í [Stofna nýjan skilgreiningu gagnalíkans](er-quick-start1-new-solution.md#DesignDataModel).
 
-### <a name="review-the-data-model"></a>Skoðaðu gagnalíkanið
+### <a name="review-the-data-model"></a>Fara yfir gagnalíkanið
 
-Þú getur skoðað breytanlega útgáfu af stilltu gagnalíkaninu á **Hönnuður gagnalíkana** síðu.
+Hægt er að skoða breytanlega útgáfu af skilgreindu gagnalíkani á síðunni **Hönnuður gagnalíkans**.
 
-![Uppbygging ER-gagnalíkans á síðunni Gagnalíkönhönnuður.](./media/er-design-zpl-labels-model.png)
+![Uppbygging gagnalíkans rafrænnar skýrslugerðar á síðu hönnuðar gagnalíkansins.](./media/er-design-zpl-labels-model.png)
 
 ## <a name="design-a-model-mapping-for-the-configured-data-model"></a>Hanna líkanavörpun fyrir skilgreint gagnalíkan
 
-Sem notandi í hlutverki þróunaraðila rafrænna skýrslna verður þú að búa til nýja ER-stillingu sem inniheldur a [módelkortlagningu](er-overview-components.md#model-mapping-component) hluti fyrir vöruhúsgagnalíkanið. Þessi hluti útfærir uppsetta gagnalíkanið fyrir Dynamics 365 Finance og er sérstakur fyrir það forrit. Þú verður að stilla það til að tilgreina forritshlutina sem verða notaðir til að fylla út stillta gagnalíkanið með forritsgögnum á keyrslutíma. Til að klára þetta verkefni verður þú að skilja hvernig gagnaskipulag vöruhúsastjórnunarviðskiptaléns er innleitt í Finance.
+Sem notandi í hönnunarhlutverki rafrænnar skýrslugerðar þarf að stofna nýja skilgreiningu rafrænnar skýrslugerðar sem inniheldur íhlut [líkanavörpunar](er-overview-components.md#model-mapping-component) fyrir vöruhússgagnalíkanið. Þessi hluti innleiðir skilgreinda gagnalíkanið fyrir Dynamics 365 Finance og er einungis notað í því forriti. Skilgreining er nauðsynleg til að tilgreina hugbúnaðarhluti sem þarf að nota til að fylla út skilgreint gagnalíkan með forritsgögnum við keyrslu. Til að ljúka þessu verki verður þú að skilja hvernig gagnauppbygging fyrir viðskiptalén vöruhúsakerfis er útfærð í Finance.
 
-### <a name="import-a-model-mapping-configuration"></a>Flytja inn líkanakortastillingar
+### <a name="import-a-model-mapping-configuration"></a>Flytja inn skilgreiningar líkanavörpunar
 
-Fylgdu þessum skrefum til að flytja inn nauðsynlega líkanavörpun úr XML skrá sem er útveguð af Microsoft. Að öðrum kosti geturðu búið til þína eigin líkanakortlagningu eins og lýst er í næsta kafla.
+Fylgdu þessum skrefum til að flytja inn nauðsynlega vörpun líkans úr XML-skrá sem Microsoft lætur í té. Einnig er hægt að búa til sína eigin líkanavörpun eins og lýst er í næsta hluta.
 
-1. Sækja [Vöruhúslíkanakortlagning.version.1.1.xml](https://download.microsoft.com/download/1/c/c/1cc94d28-3d90-4ffd-a118-77d6c322904f/Warehouse-model-mapping.version.1.1.xml) skrá og vistaðu hana á tölvunni þinni.
+1. Sækið skrána [Warehouse model mapping.version.1.1.xml](https://download.microsoft.com/download/1/c/c/1cc94d28-3d90-4ffd-a118-77d6c322904f/Warehouse-model-mapping.version.1.1.xml) og vistið hana á staðbundinni tölvu.
 2. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 3. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja **Skilgreiningar skýrslugerðar**.
-4. Á **Stillingar** síðu, á aðgerðarrúðunni, veldu **Skipti** \> **Hlaða úr XML skrá**.
-5. Veldu **Skoðaðu**, og finndu síðan og veldu **Vöruhúslíkanakortlagning.version.1.1.xml** skrá.
+4. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, skal velja **Skipta út**\>**Hlaða úr XML-skrá**.
+5. Veljið **Fletta** og finnið síðan og veljið skrána **Warehouse model mapping.version.1.1.xml**.
 6. Veljið **Í lagi** til að flytja inn skilgreininguna.
 
-![Innflutt ER líkanskortstillingar á síðunni Stillingar.](./media/er-design-zpl-labels-imported-mapping.png)
+![Innflutt skilgreining vörpunar líkans rafrænnar skýrslugerðar á skilgreiningasíðunni.](./media/er-design-zpl-labels-imported-mapping.png)
 
-### <a name="create-a-model-mapping-configuration"></a>Búðu til líkankortastillingu
+### <a name="create-a-model-mapping-configuration"></a>Stofna skilgreiningu líkanavörpunar
 
-Í stað þess að flytja inn líkanakortaskrána sem Microsoft útvegaði, geturðu búið til líkanakortlagningu frá grunni. Fyrir dæmi sem sýnir hvernig á að klára þetta verkefni, sjá [Búðu til nýja gerð kortlagningarstillingar](er-quick-start1-new-solution.md#CreateModelMapping).
+Í stað þess að flytja inn skrá líkanavörpunar frá Microsoft er hægt að búa til líkanavörpun frá grunni. Dæmi sem sýnir hvernig á að ljúka þessu verki er að finna í [Stofna nýja skilgreiningu líkanavörpunar](er-quick-start1-new-solution.md#CreateModelMapping).
 
 ### <a name="review-the-model-mapping"></a>Fara yfir líkanavörpun
 
-Þú getur skoðað breytanlega útgáfu af stilltu líkanavörpunni á **Módelkortahönnuður** síðu.
+Hægt er að skoða breytanlega stöðu skilgreindrar líkanavörpunar á síðunni **Hönnuður líkanavörpunar**.
 
-![Uppbygging ER líkanakortlagningar á hönnuðarsíðu líkanakortlagningar.](./media/er-design-zpl-labels-mapping.png)
+![Skipan vörpunar líkans rafrænnar skýrslugerð á síðunni Hönnuður líkanavörpunar.](./media/er-design-zpl-labels-mapping.png)
 
 ## <a name="design-a-format"></a>Setja upp snið
 
-Sem notandi í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar þarf að stofna nýja skilgreiningu rafrænnar skýrslugerðar sem inniheldur [sniðs](er-overview-components.md#format-component) hluta. Til að stilla þennan íhlut muntu nota ZPL II kóða til að tilgreina útlit vöruhúsastaðsetningarmerkisins.
+Sem notandi í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar þarf að stofna nýja skilgreiningu rafrænnar skýrslugerðar sem inniheldur [sniðs](er-overview-components.md#format-component) hluta. Til að skilgreina þennan þátt þarf að nota ZPL II kóða til að tilgreina útlitið á merki vöruhúsastaðsetningar.
 
-### <a name="import-a-format-configuration"></a>Flytja inn sniðstillingu
+### <a name="import-a-format-configuration"></a>Flytja inn skilgreiningu sniðs
 
-Fylgdu þessum skrefum til að flytja inn áskilið snið úr XML skrá sem er útveguð af Microsoft. Að öðrum kosti geturðu búið til þitt eigið snið eins og lýst er í næsta kafla.
+Fylgdu þessum skrefum til að flytja inn áskilið snið úr XML skrá sem Microsoft lætur í té. Einnig er hægt að búa til sitt eigið snið eins og lýst er í næsta hluta.
 
-1. Sækja [Staðsetningarmerki vöruhúss.version.1.1.xml](https://download.microsoft.com/download/5/7/5/5758b551-69a5-45bd-a2b2-21c3db73a6fc/Warehouse-location-labels.version.1.1.xml) skrá og vistaðu hana á tölvunni þinni.
+1. Sækið skrána [Warehouse location labels.version.1.1.xml](https://download.microsoft.com/download/5/7/5/5758b551-69a5-45bd-a2b2-21c3db73a6fc/Warehouse-location-labels.version.1.1.xml) og vistið hana á staðbundinni tölvu.
 2. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 3. Á vinnusvæðinu **Rafræn skýrslugerð** skal velja **Skilgreiningar skýrslugerðar**.
-4. Á **Stillingar** síðu, á aðgerðarrúðunni, veldu **Skipti** \> **Hlaða úr XML skrá**.
-5. Veldu **Skoðaðu**, og finndu síðan og veldu **Staðsetningarmerki vöruhúss.version.1.1.xml** skrá.
+4. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, skal velja **Skipta út**\>**Hlaða úr XML-skrá**.
+5. Veljið **Fletta** og finnið síðan og veljið skrána **Warehouse location labels.version.1.1.xml**.
 6. Veljið **Í lagi** til að flytja inn skilgreininguna.
 
-![Innflutt ER-sniðsstilling á síðunni Stillingar.](./media/er-design-zpl-labels-imported-format.png)
+![Innflutt skilgreining sniðs rafrænnar skýrslugerðar á skilgreiningasíðunni.](./media/er-design-zpl-labels-imported-format.png)
 
 ### <a name="create-a-format-configuration"></a>Stofna skilgreiningu sniðs
 
-Í stað þess að flytja inn sniðskrána sem Microsoft útvegaði geturðu búið til snið frá grunni. Fyrir dæmi sem sýnir hvernig á að klára þetta verkefni, sjá [Búðu til nýja sniðstillingu](er-quick-start1-new-solution.md#FormatCreate).
+Í stað þess að flytja inn sniðsskrá frá Microsoft er hægt að búa til eigið snið frá grunni. Dæmi sem sýnir hvernig á að ljúka þessu verki er að finna í [Stofna nýja skilgreiningu á sniði](er-quick-start1-new-solution.md#FormatCreate).
 
 ### <a name="review-the-format"></a>Yfirfara snið
 
-Þú getur skoðað breytanlega útgáfu af stilltu sniðinu á **Sniðhönnuður** síðu.
+Hægt er að skoða breytanlega útgáfu af skilgreinda sniðinu á síðunni **Sniðshönnuður**.
 
-![Uppbygging ER sniðsins á síðunni Format designer.](./media/er-design-zpl-labels-format.png)
+![Skipan rafræns skýrslugerðarsniðs á sniðshönnunarsíðunni.](./media/er-design-zpl-labels-format.png)
 
-The`model.Location.Label` gagnagjafi á þessu sniði er stilltur til að búa til merki sem innihalda eftirfarandi upplýsingar:
+Gagnagjafi `model.Location.Label` þessa sniðs er skilgreindur til að búa til merki sem innihalda eftirfarandi upplýsingar:
 
-- Heiti vöruhússins sem texti
-- Vöruhússtitillinn sem strikamerki
-- Staðsetningarheitið
+- Titill vöruhúss sem texti
+- Titill vöruhúss sem strikamerki
+- Staðsetningarreiturinn
 - Vartölur
 
-Á **Formúluhönnuður** síðu fyrir gagnagjafann, ER formúlan sem er notuð til að búa til merki inniheldur a`CONCATENATE` aðgerð sem sameinar upplýsingarnar í viðkomandi skipulagi.
+Á síðunni **Formúluhönnuður** fyrir gagnagjafann inniheldur formúla rafrænnar skýrslugerðar, sem notuð er til að búa til merki, `CONCATENATE` virkni sem sameinar upplýsingar í æskilegu útliti.
 
-![Formúla fyrir gagnagjafann á Formúlahönnuðarsíðunni.](./media/er-design-zpl-labels-review-formula.png)
+![Formúla fyrir gagnagjafann á síðu Formúluhönnuðar.](./media/er-design-zpl-labels-review-formula.png)
 
 > [!TIP]
-> Útlit merkimiða er hannað þannig að staðsetningartitillinn og ávísunarstafirnir eru samræmdir í miðju merkimiðans. Hins vegar styður ZPL II ekki miðjastillingu fyrir strikamerki. Þess vegna er formúlan af`model.Location.Warehouse.Alignment` gagnagjafi er notaður til að samræma strikamerkið í miðju merkimiðans. Þessi formúla reiknar út vinstri frávik strikamerkisins, byggt á fjölda stafa í heiti vöruhússins.
+> Útlit merkisins er hannað þannig að titill staðsetningar og vartölur eru fyrir miðju merkisins. ZPL II styður hins vegar ekki miðjustillingu fyrir strikamerki. Þess vegna er formúla `model.Location.Warehouse.Alignment` gagnagjafans notuð til að miðjujafna strikamerkið á merkinu. Þessi formúla reiknar vinstri hliðrun strikamerkisins út frá fjölda stafa í titli vöruhússins.
 
-## <a name="prepare-your-environment-for-previewing-generated-labels"></a>Undirbúðu umhverfið þitt til að forskoða mynduð merki
+## <a name="prepare-your-environment-for-previewing-generated-labels"></a>Gerðu umhverfi þitt klárt fyrir forskoðun á merkjum
 
-Eftirfarandi dæmi notar prentarahermiforrit fyrir ZPL merki til að sýna sýnishorn af mynduðum merkimiðum á skjánum. Fylgdu þessum skrefum til að virkja þennan valkost.
+Eftirfarandi dæmi notar hermiforrit prentara fyrir ZPL-merki til að sýna forskoðun á mynduðum merkjum á skjánum. Fylgdu þessum skrefum til að virkja þennan valkost.
 
-1. Bætið við [Prentari](er-destination-type-print.md) ER áfangastaður fyrir **Staðsetningarmerki vöruhúss** ER sniði, og stilltu það til að senda mynduð merki frá Finance til [Document routing agent (DRA)](install-document-routing-agent.md).
-2. Settu upp og stilltu DRA til að beina mynduðum merkimiðum frá Finance til staðbundins prentara sem er aðgengilegur frá núverandi vinnustöð.
-3. Bættu við staðbundnum prentara fyrir núverandi vinnustöð og stilltu hann til að senda mynduð merki frá DRA yfir í prentarahermiforrit.
-4. Settu upp prentarahermiforrit sem framlengingu á Chrome vefvafranum og stilltu það þannig að það sendi mynduð merki frá staðbundnum prentara yfir í vefþjónustu sem mun birta mynduð merki og skila þeim í prentarahermi til forskoðunar.
+1. Bæta við viðtökustað rafrænnar skýrslugerðar [Prentari](er-destination-type-print.md) fyrir snið rafrænnar skýrslugerðar **Merkimiði staðsetningar vöruhúss** og skilgreina það til að senda myndaða merkimiða frá Finance til [Document Routing Agent (DRA)](install-document-routing-agent.md).
+2. Settu upp og skilgreindu DRA til að leiða mynduð merki úr Finance til staðbundins prentara sem er aðgengilegur frá núverandi vinnustöð.
+3. Bættu við staðbundnum prentara fyrir núverandi vinnustöð og skilgreina hann þannig að hann skili merkingum sem eru búnar til í DRA prentarahermiforrit.
+4. Settu upp hermiforrit prentara sem viðbót við Chrome-vafrann og skilgreindu það til að flytja mynduð merki úr staðbundnum prentara til vefþjónustu sem mun myndþýða mynduð merki og skila þeim til prentarahermis til forskoðunar.
 
 <table>
 <tbody>
 <tr align="center">
 <td>
 <p>Finance</p>
-<p>Skýrsla ER</p>
+<p>Rafræn skýrsla</p>
 <p>Viðtökustaður prentara</p>
 </td>
 <td><img src="./media/er-design-zpl-labels-flow1.png" alt="Data flow direction: from Finance to the DRA."></td>
-<td>Umboðsmaður skjalaleiðar</td>
+<td>Document Routing Agent</td>
 <td><img src="./media/er-design-zpl-labels-flow1.png" alt="Data flow direction: from the DRA to a local printer."></td>
 <td>Staðbundinn prentari</td>
 <td><img src="./media/er-design-zpl-labels-flow1.png" alt="Data flow direction: from a local printer to a printer emulator."></td>
-<td>Hermi prentara</td>
+<td>Prentarahermir</td>
 <td><img src="./media/er-design-zpl-labels-flow2.png" alt="Data flow direction: from a printer emulator to a rendering web service and then back to the printer emulator."></td>
-<td>Að veita vefþjónustu</td>
+<td>Myndþýðingarvefþjónusta</td>
 </td>
 </tr>
 </tbody>
 </table>
 
-### <a name="install-and-configure-a-printer-emulator-application"></a>Settu upp og stilltu prentarahermiforrit
+### <a name="install-and-configure-a-printer-emulator-application"></a>Setja upp og skilgreina prentarahermisforrit
 
-Bættu prentarahermiforriti fyrir ZPL flutningsvélina við Chrome vefvafrann þinn. Þetta dæmi notar [Zpl prentari](https://chrome.google.com/webstore/detail/zpl-printer/phoidlklenidapnijkabnfdgmadlcmjo) keppinautur sem er byggður á [Labelary ZPL vefþjónusta](http://labelary.com/service.html). Prenthermiforritið mun senda mynduð merki á ZPL sniði frá staðbundnum prentara til vefþjónustunnar og skila síðan merkimiðum sem PDF eða PNG skrár til forskoðunar.
+Bæta við prentarahermiforriti fyrir ZPL-myndþýðingarvélina í Chrome-vafrann. Þetta dæmi notar hermi [Zpl-prentara](https://chrome.google.com/webstore/detail/zpl-printer/phoidlklenidapnijkabnfdgmadlcmjo) sem byggir á [Labelary ZPL vefþjónustunni](http://labelary.com/service.html). Hermiforrit prentara mun flytja mynduð merki á ZPL-sniði frá staðbundnum prentara til vefþjónustu og síðan skila merkjum sem PDF- eða PNG-skrá til forskoðunar.
 
-1. Finndu og veldu prentarahermiforritið sem þú vilt nota í Chrome vefversluninni. Veldu síðan **Bæta við Chrome** til að bæta því við Chrome vafrann þinn.
+1. Finndu og veldu hermiforrit prentunar sem þú vilt nota í Chrome-vefversluninni. Veldu síðan **Bæta við Chrome** til að bæta því við Chrome vafrann.
 
-    ![Bætir prentarahermiforritinu við Chrome vefvafra frá Chrome vefverslun.](./media/er-design-zpl-labels-add-app.png)
+    ![Að bæta prentarahermiforritinu við Chrome vafrann úr Chrome vefversluninni.](./media/er-design-zpl-labels-add-app.png)
 
-2. Veldu **Ræstu app** til að keyra prentarahermiforritið úr Chrome vafranum.
+2. Veldu **Ræsa forrit** til að keyra hermiforrit prentunar úr Chrome-vafranum.
 
-    ![Keyrir prentarahermiforritið úr Chrome vafranum.](./media/er-design-zpl-labels-run-app.png)
+    ![Keyrsla prentarahermiforritsins úr Chrome-vefvafranum.](./media/er-design-zpl-labels-run-app.png)
 
-3. Stilltu forritið sem er í gangi:
+3. Skilgreina forritið sem keyrir:
 
-    1. Slökktu á forritinu.
-    2. Í prentarastillingunum skaltu stilla gestgjafann á **127.0.0.1**.
-    3. Stilltu portið á **9100**.
+    1. Slökkvið á forritinu.
+    2. Stillið á hýsilinn á **127.0.0.1** stillingum prentarans.
+    3. Stillið tengið á **9100**.
 
-        ![Stillir prentarahermiforritið.](./media/er-design-zpl-labels-configure-app.png)
+        ![Skilgreining á prentarahermiforritinu.](./media/er-design-zpl-labels-configure-app.png)
 
-    4. Kveiktu aftur á forritinu. Þú ættir að fá skilaboð sem segja að prentarinn hafi verið ræstur á tilgreindum hýsil og tengi.
+    4. Kveikið aftur á forritinu. Þú ættir að fá skilaboð um að prentarinn hafi verið ræstur á tilgreindum hýsli og gátt.
 
-        ![Kveikt aftur á prentarahermiforriti.](./media/er-design-zpl-labels-turn-on-app.png)
+        ![Kveikt er aftur á prentarahermiforritinu.](./media/er-design-zpl-labels-turn-on-app.png)
 
 > [!NOTE]
-> Vegna þess að prentarahermiforritið sem er notað í þessu dæmi byggir á vefþjónustu til að birta merki, vertu viss um að öryggisstillingarnar þínar leyfi þér að hafa samskipti við þjónustuna. Að öðrum kosti mun forritið ekki fá birtu merkimiðana og engin forskoðun á þeim merkimiðum verður tiltæk.
+> Þar sem hermiforrit prentunar sem notað er í þessu dæmi treystir á vefþjónustu til að myndþýða merki skaltu ganga úr skugga um að öryggisstillingarnar þínar leyfi þér að eiga samskipti við þjónustuna. Annars mun forritið ekki fá myndþýtt merki og ekki verður boðið upp á forskoðun á þeim.
 
-### <a name="add-and-configure-a-local-printer"></a>Bættu við og stilltu staðbundinn prentara
+### <a name="add-and-configure-a-local-printer"></a>Bæta við og skilgreina staðbundinn prentara
 
-[Bættu við nýjum staðbundnum prentara](https://support.microsoft.com/windows/install-a-printer-in-windows-10-cc0724cf-793e-3542-d1ff-727e4978638b) sem núverandi tæki getur notað til að senda mynduð merki frá DRA til prentarahermiforritsins.
+[Bætið við nýjum staðbundnum prentara](https://support.microsoft.com/windows/install-a-printer-in-windows-10-cc0724cf-793e-3542-d1ff-727e4978638b) sem núverandi tæki getur notað til að senda merkingar frá DRA í prentarahermiforritið.
 
-1. Í Windows, veldu **Byrjaðu** \> **Stillingar** \> **Tæki** \> **Prentarar\& skanna**.
-2. Veldu **Prentarar\& stillingar skanna**.
-3. Fyrir **Bættu við prentara eða skanna**, veldu **Bæta við tæki**.
-4. Fyrir **Prentarinn sem ég vil er ekki á listanum**, veldu **Bættu við handvirkt**.
-5. Í **Finndu prentara eftir öðrum valkostum** reit, veldu **Bættu við staðbundnum prentara eða netprentara með handvirkum stillingum**.
-6. Í **Veldu prentaratengi** reit, veldu **Búðu til nýja höfn**, og fylgdu síðan þessum skrefum:
+1. Í Windows skaltu velja **Byrja** \> **Stillingar** \> **Tæki** \> **Prentarar \& skannar**.
+2. Veldu **Stillingar prentara \& skanna**.
+3. Fyrir **Bæta við prentara eða skanna** skal velja **Bæta við tæki**.
+4. Veljið **Bæta við** handvirkt fyrir **Prentarinn sem ég vil er ekki á listanum**.
+5. Í reitnum **Finna prentara eftir öðrum valkostum** skal velja **Bæta staðbundnum prentara eða netprentara við handvirkar stillingar**.
+6. Í reitnum **Velja prentaragátt** skal velja **Búa til nýja gátt** og síðan fylgja þessum skrefum:
 
-    1. Í **Tegund hafnar** reit, veldu **Staðlað TCP/IP tengi**.
-    2. Í **Hostnafn eða IP-tala** reit, slá inn **127.0.0.1**.
-    3. Í **Heiti hafnar** reit, slá inn **ZPL**.
-    4. Bíddu þar til **Finnur TCP/IP tengi** aðgerð er lokið.
-    5. Í **Gerð tækis** reit, veldu **Sérsniðin**, og veldu síðan **Stillingar**.
-    6. Gakktu úr skugga um að eftirfarandi tengistillingar séu tilgreindar:
+    1. Í reitnum **Gerð tengis** skal velja **Hefðbundið TCP/IP-tengi**.
+    2. Í reitinn **Heiti hýsils eða IP-tala** sláðu inn **127.0.0.1**.
+    3. Í reitinn **Heiti tengis** skal færa inn **ZPL**.
+    4. Bíddu þar til aðgerðinni **Greinir TCP/IP-tengi** er lokið.
+    5. Í reitnum **Tegund tækis** skaltu velja **Sérsniðið** og velja síðan **Stillingar**.
+    6. Ganga þarf úr skugga um að eftirfarandi tengistillingar séu tilgreindar:
 
-        - **Heiti hafnar:** ZPL
-        - **Nafn prentara eða IP-tala:** 127.0.0.1
-        - **Bókun:** Hrátt
-        - **Gáttarnúmer:** 9100
+        - **Heiti gáttar:** ZPL
+        - **Heiti eða IP- tala prentara:** 127.0.0.1
+        - **Samskiptareglur:** Raw
+        - **Númer gáttar:** 9100
 
-7. Í **Settu upp prentarann** reit, veldu **Almennt / Aðeins texti**.
-8. Í **Nafn prentara** reit, slá inn **ZebraPrinter**.
+7. Í reitnum **Setja upp rekil prentarans** skal velja **Almennt / Texti eingöngu**.
+8. Í reitinn **Heiti prentara** skal færa inn **ZebraPrinter**.
 
-![Bætir við staðbundnum prentara fyrir núverandi tæki.](./media/er-design-zpl-labels-configure-printer.png)
+![Bæti við staðbundnum prentara fyrir núverandi tæki.](./media/er-design-zpl-labels-configure-printer.png)
 
-### <a name="install-and-configure-the-dra"></a>Settu upp og stilltu DRA
+### <a name="install-and-configure-the-dra"></a>Uppsetning og skilgreining DRA
 
-Undirbúðu DRA til að senda mynduð merki frá Finance til stilltan staðbundinn prentara.
+Búðu DRA undir að flytja mynduð merki úr Finance til skilgreinds staðbundins prentara.
 
-1. [Settu upp DRA](install-document-routing-agent.md#install-the-document-routing-agent).
-2. [Stilltu DRA](install-document-routing-agent.md#configure-the-document-routing-agent).
-3. [Skráðu staðbundna prentara](install-document-routing-agent.md#register-network-printers) í DRA.
-4. [Virkjaðu staðbundna prentara](install-document-routing-agent.md#administer-network-printers) í þínu fjármálaumhverfi.
+1. [Setja upp DRA](install-document-routing-agent.md#install-the-document-routing-agent).
+2. [Skilgreina DRA](install-document-routing-agent.md#configure-the-document-routing-agent)
+3. [Skráðu prentarann á staðnum](install-document-routing-agent.md#register-network-printers) í DRA.
+4. [Virkja staðbundinn prentara](install-document-routing-agent.md#administer-network-printers) í Finance-umhverfinu þínu.
 
-![Undirbýr DRA til að prenta mynduð merki.](./media/er-design-zpl-labels-configure-dra.png)
+![Útbúa DRA til að prenta myndaða merkimiða.](./media/er-design-zpl-labels-configure-dra.png)
 
 ### <a name="configure-the-er-destination"></a>Skilgreina áfangastað Rafræn skýrslugerðar
 
-Undirbúðu ER áfangastað til að senda mynduð merki frá Fjármálum til DRA.
+Búðu endastað rafrænnar skýrslugerðar undir að flytja mynduð merki úr Finance til DRA.
 
 1. Fara á **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Viðtökustaður rafrænnar skýrslugerðar**.
-2. Á **Áfangastaður rafrænnar skýrslugerðar** síðu, á aðgerðarrúðunni, veldu **Nýtt**.
-3. Í **Tilvísun** reit, veldu **Staðsetningarmerki vöruhúss**.
+2. Á síðunni **Áfangastaður fyrir rafræna skýrslugerð**, á aðgerðasvæðinu, skal velja **Nýr**.
+3. Í reitnum **Tilvísun** skal velja **Merkimiðar staðsetningar vöruhúss**.
 4. Í flýtiflipanum **Viðtökustaður skráar** skal velja **Nýr**.
-5. Í **Nafn** reit, slá inn **Merki**.
-6. Í **Heiti skráarhluta** reit, veldu **Skýrsla**.
+5. Í reitinn **Heiti** skal færa inn **Merkimiðar**.
+6. Í reitnum **Heiti skráaríhlutar** skal velja **Skýrsla**.
 7. Veldu **Stillingar**.
-8. Í **Stillingar áfangastaðar** valmynd, á **Prentari** flipann, stilltu **Virkt** valmöguleika til **Já**.
-9. Í **Nafn prentara** reit, veldu **ZebraPrinter**.
-10. Í **Tegund skjalaleiðar** reit, veldu **ZPL**.
+8. Í svarglugganum **Stillingar viðtökustaðar** í flipanum **Prentari** skal stilla valkostinn **Virkjað** á **Já**.
+9. Í reitinn **Heiti prentara** velurðu **ZebraPrinter**.
+10. Í reitnum **Skjalaleiðargerð** skal velja **ZPL**.
 11. Veldu **Í lagi**.
 
-![Stilling á áfangastað ER fyrir snið vöruhúsastaðsetningarmerkja á áfangastað rafrænnar skýrslugerðarsíðu.](./media/er-design-zpl-labels-configure-destination.png)
+![Skilgreining viðtökustað rafrænnar skýrslugerðar fyrir merkimiðasnið staðsetningar vöruhúss á viðtökusíðu rafrænnar skýrslugerðar.](./media/er-design-zpl-labels-configure-destination.png)
 
-## <a name="review-warehouse-locations"></a>Skoðaðu staðsetningu vöruhúsa
+## <a name="review-warehouse-locations"></a>Fara yfir staðsetningar vöruhúsa
 
-1. Fara til **Vöruhússtjórnun** \> **Uppsetning** \> **Vöruhús** \> **Staðsetningar**.
-2. Á **Staðsetningar** síðu, síaðu til að skoða aðeins staðsetningar sem hafa gildi í **Athugaðu tölustafi** sviði.
+1. Opnaðu **Vöruhúsakerfi** \> **Uppsetning** \> **Vöruhús** \> **Staðsetningar**.
+2. Á síðunni **Staðsetningar** skal sía til að skoða aðeins staðsetningar sem eru með gildi í reitnum **Vartölur**.
 
-![Farið yfir staðsetningar vöruhúsa á síðunni Staðsetningar.](./media/er-design-zpl-labels-review-locations.png)
+![Yfirfara staðsetningar vöruhúsa á síðunni Staðsetningar.](./media/er-design-zpl-labels-review-locations.png)
 
-## <a name="print-warehouse-location-labels"></a>Prentaðu vöruhúsamerki
+## <a name="print-warehouse-location-labels"></a>Prenta merkimiða staðsetningar vöruhúsa
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Á **Stillingar** síðu, í stillingartrénu, stækkaðu **Vöruhús módel**, og veldu **Staðsetningarmerki vöruhúss**.
+2. Á síðunni **Skilgreiningar**, í skilgreiningatrénu, skal stækka **Vöruhússlíkan** og velja **Merkimiðar staðsetningar vöruhúss**.
 3. Í aðgerðarúðunni skal velja **Keyra**.
-4. Í **Rafræn skýrslufæribreytur** valmynd, á **Skrár til að hafa með** flipa, veldu **Sía**.
-5. Á **Svið** flipa, finndu röðina þar sem **Tafla** reiturinn er stilltur á **Staðsetningar** og **Field** reiturinn er stilltur á **Staðsetning**. Í **Viðmið** reit, slá inn **LPE virkt**.
+4. Í svarglugganum **Færibreytur rafrænnar skýrslugerðar** á flipanum **Færslur til að taka með** skal velja **Sía**.
+5. Á flipanum **Svið**, skal finna línuna þar sem reiturinn **Tafla** er stillt á **Staðsetningar** og reiturinn **Reitur** er stilltur á **Staðsetning**. Í reitinn **Skilyrði** skal færa inn **LPEnabled**.
 6. Veldu **Í lagi**.
-7. Veldu **Í lagi**. Merki er búinn til og sýndur á forskoðunarsíðunni í prenthermiforritinu.
+7. Veldu **Í lagi**. Merkimiði er búinn til og sýndur á forskoðunarsíðunni í prentarahermiforritinu.
 
-![Skoðaðu myndaðan merkimiða á forskoðunarsíðu Zpl Printer hermiforritsins.](./media/er-design-zpl-labels-preview-label.png)
+![Farið yfir myndað merki á forskoðunarsíðunni fyrir hermiforrit Zpl-prentara.](./media/er-design-zpl-labels-preview-label.png)
 
-## <a name="modify-the-layout-of-a-label"></a>Breyttu útliti merkimiða
+## <a name="modify-the-layout-of-a-label"></a>Breyta útliti merkimiða
 
-Þú getur breytt núverandi skipulagi vöruhúsastaðsetningarmerkinga. Eftirfarandi dæmi sýnir hvernig á að breyta útlitinu þannig að myndaðir merkimiðar innihaldi auðkenni staðsetningarsniðs.
+Hægt er að breyta núverandi útliti á staðsetningarmerkingum vöruhúss. Eftirfarandi dæmi sýnir hvernig á að breyta útliti þannig að mynduð merki innihalda auðkenni staðsetningarforstillingar.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
-2. Stilltu **Notaðu áfangastaði fyrir stöðu drög**[ER notendafæribreyta](electronic-reporting-destinations.md#applicability) til **Já**.
-3. Á **Stillingar** síðu, í stillingartrénu, stækkaðu **Vöruhús módel**, og veldu **Staðsetningarmerki vöruhúss**.
+2. Stilltu **Nota áfangastaði fyrir drög** [notandafæribreytu rafrænnar skýrslugerðar](electronic-reporting-destinations.md#applicability) á **Já**.
+3. Á síðunni **Skilgreiningar**, í skilgreiningatrénu, skal stækka **Vöruhússlíkan** og velja **Merkimiðar staðsetningar vöruhúss**.
 4. Veljið **Hönnuður**.
-5. Á **Sniðhönnuður** síðu, á **Kortlagning** flipann, veldu`model.Location.Label` gagnagjafa.
-6. Í **Eiginleikar gagnagjafa** valmynd, veldu **Breyta** \> **Breyta formúlu**.
-7. Á **Formúluhönnuður** síðu, í **Formúla** reit, skoðaðu ER formúluna sem er notuð til að búa til merki.
+5. Á síðunni **Sniðshönnuður**, í flipanum **Vörpun**, skal velja `model.Location.Label`-gagnagjafann.
+6. Í svarglugganum **Eiginleikar gagnagjafa** skal velja **Breyta** \> **Breyta formúlu**.
+7. Á síðunni **Formúluhönnuður**, í reitnum **Formúla**, skal fara yfir formúlu rafrænnar skýrslugerðar sem notuð er til að mynda merkin.
 
     ```vb
     CONCATENATE(
@@ -289,7 +289,7 @@ Undirbúðu ER áfangastað til að senda mynduð merki frá Fjármálum til DRA
     "^XZ")
     ```
 
-8. Uppfærðu formúluna til að bæta auðkenni staðsetningarprófíls við mynduð merki.
+8. Uppfærðu formúluna til að bæta auðkenni staðsetningarsniðs við tilkomnar merkingar.
 
     ```vb
     CONCATENATE(
@@ -305,17 +305,17 @@ Undirbúðu ER áfangastað til að senda mynduð merki frá Fjármálum til DRA
 9. Veldu **Vista**.
 10. Veldu **Í lagi**.
 11. Í aðgerðarúðunni skal velja **Keyra**.
-12. Í **Rafræn skýrslufæribreytur** valmynd, á **Skrár til að hafa með** flipa, veldu **Sía**.
-13. Á **Svið** flipa, finndu röðina þar sem **Tafla** reiturinn er stilltur á **Staðsetningar** og **Field** reiturinn er stilltur á **Staðsetning**. Í **Viðmið** reit, slá inn **Bay**.
+12. Í svarglugganum **Færibreytur rafrænnar skýrslugerðar** á flipanum **Færslur til að taka með** skal velja **Sía**.
+13. Á flipanum **Svið**, skal finna línuna þar sem reiturinn **Tafla** er stillt á **Staðsetningar** og reiturinn **Reitur** er stilltur á **Staðsetning**. Í reitinn **Skilyrði** skal færa inn **Bay**.
 14. Veldu **Í lagi**.
-15. Veldu **Í lagi**. Merki er búinn til og sýndur á forskoðunarsíðunni í prenthermiforritinu.
+15. Veldu **Í lagi**. Merkimiði er búinn til og sýndur á forskoðunarsíðunni í prentarahermiforritinu.
 
-![Skoðaðu útbúið merki sem inniheldur auðkenni staðsetningarprófíls á forskoðunarsíðu Zpl Printer hermiforritsins.](./media/er-design-zpl-labels-preview-label2.png)
+![Farið yfir myndað merki sem inniheldur auðkenni staðsetningarforstillingar á forskoðunarsíðu hermiforrits Zpl-prentara.](./media/er-design-zpl-labels-preview-label2.png)
 
 ## <a name="encoding"></a>Kóðun
 
 > [!NOTE]
-> Þú verður að samstilla kóðunarstillingu **Sameiginlegt\\ Skrá** hluti af breytanlegu ER-sniði og viðeigandi stillingu á hönnuðu merkimiðanum. Verðmæti **[Kóðun](er-suppress-bom-characters.md)** sviði á **Sameiginlegt\\ Skrá** hluti ætti ekki að stangast á við ZPL skipun sem er notuð til að stjórna kóðun merkisins (td`^CI` skipun). ER staðfestir ekki að þessar stillingar séu samstilltar.
+> Samstilla verður kóðunarstillingu fyrir þáttinn **Almennt\\Skrá** fyrir breytanlegt snið rafrænnar skýrslugerðar og viðeigandi stillingu hannaðs merkis. Gildið í reitnum **[Kóðun](er-suppress-bom-characters.md)** fyrir þáttinn **Almennt\\Skrá** á ekki að vera í mótsögn við ZPL-skipun sem notuð er til að stýra kóðun merkisins (til dæmis `^CI` skipunin). Rafræn skýrslugerð staðfestir ekki að þessar stillingar séu samstilltar.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -1,6 +1,6 @@
 ---
 title: Villukóðar fyrir ástandsskoðun töfluvörpunar
-description: Þessi grein lýsir villukóðum fyrir heilsuathugun töflukortsins.
+description: Þessi grein lýsir villukóðum fyrir ástandsskoðun töfluvörpunar.
 author: RamaKrishnamoorthy
 ms.date: 05/31/2022
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: ramasri
 ms.search.validFrom: 2021-10-04
 ms.openlocfilehash: d3f413f34296fd01da6741bb49658285394cbd17
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9288761"
@@ -22,41 +22,41 @@ ms.locfileid: "9288761"
 
 
 
-Þessi grein lýsir villukóðum fyrir heilsuathugun töflukortsins.
+Þessi grein lýsir villukóðum fyrir ástandsskoðun töfluvörpunar.
 
 ## <a name="error-100"></a>Villa 100
 
-Villuskilaboðin eru: "Lágmarksútgáfa fjármála- og rekstrarvettvangs sem krafist er er PU 43 til að keyra ráðleggingar um fjármál og rekstrar."
+Villuboðin eru: „Lágmarksútgáfa fjármála- og reksturs-verkvangs er PU 43 til að keyra fjármála- og reksturs-tillögur.“
 
-Eiginleikinn krefst uppfærslu á vettvangi fyrir útgáfu 10.0.19 eða nýrri af fjármála- og rekstrarforritum.
+Eiginleikinn krefst uppfærslu á verkvangi fyrir útgáfu 10.0.19 eða síðar af forrit fjármála- og rekstursum.
 
 ## <a name="error-400"></a>Villa 400
 
-Villuboðin eru: „Engin skráningargögn fyrirtækjaviðburða fundust fyrir eininguna\{ fjármál og rekstur UniqueEntityName\} sem þýðir að annað hvort er kortið ekki í gangi eða öll sviðskortlagningin er einátta."
+Villuboðin eru: „Engin skráningargögn fyrir viðskiptatilvik fundust fyrir eininguna \{fjármála- og reksturs UniqueEntityName\} sem þýðir að annaðhvort er vörpunin ekki keyrð eða allar reitarvarpanir eru einátta.“
 
 ## <a name="error-500"></a>Villa 500
 
-Villuboðin eru: „Engar grunnstillingar verks fundust fyrir verk \{verkheit\}. Þetta gæti annaðhvort verið að verkefnið sé ekki virkt eða öll sviðskortin eru einstefnu frá þátttöku viðskiptavina til fjármögnunar og rekstrar.“
+Villuboðin eru: „Engar grunnstillingar verks fundust fyrir verk \{verkheit\}. Þetta gæti verið annaðhvort vegna þess að verkið er ekki virkjað eða að allar reitarvarpanir eru einátta úr þátttöku viðskiptavinar í fjármála- og reksturs.“
 
-Athugaðu varpanir fyrir töfluvörpunina. Ef þau eru einátta frá þátttökuforritum viðskiptavina til fjármögnunar- og rekstrarforrita myndast engin umferð fyrir samstillingu í beinni frá fjármála- og rekstrarforritum til Dataverse.
+Athugaðu varpanir fyrir töfluvörpunina. Ef þær eru einátta úr forritum viðskiptavinar í fjármála- og reksturs-forrit myndast engin umferð fyrir samstillingu í rauntíma úr forritum fjármála- og reksturs í Dataverse.
 
 ## <a name="error-900"></a>Villa 900
 
-Villuboðin eru „Ógild upprunasía\{ sourceFilter\} snið fyrir einingu\{ fjármál og rekstur UniqueEntityName\} ."
+Villuboðin eru: „Ógildur uppruni síu \{sourceFilter\} snið fyrir einingu \{fjármála- og reksturs UniqueEntityName\}.“
 
-Upprunasían sem er tilgreind á töflukortinu fyrir fjármála- og rekstrarforrit er ekki setningafræðilega rétt. Til að staðfesta síuskilyrðið skal skoða [Úrræðaleita vandamál vegna samstillingr í rauntíma](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps).
+Upprunasían sem er tilgreind í töfluvörpuninni fyrir forrit fjármála- og reksturs er ekki setningafræðilega rétt. Til að staðfesta síuskilyrðið skal skoða [Úrræðaleita vandamál vegna samstillingr í rauntíma](dual-write-troubleshooting-live-sync.md#live-synchronization-issues-that-are-caused-by-incorrect-query-filter-syntax-on-the-dual-write-maps).
 
 ## <a name="error-1000"></a>Villa 1000
 
-Villuskilaboðin eru „Atli\{ fjármál og rekstur UniqueEntityName\} fyrirspurn sem notuð er fyrir tvískrifaða samstillingu í beinni er\{ fjármál og rekstur EntityFilterQueryString \}. Færslur sem uppfylla skilyrði fyrirspurnar verða með í samstillingu í rauntíma.“
+Villuboðin eru: „Eining \{fjármála- og reksturs UniqueEntityName\} fyrirspurn notuð fyrir samstillingu í rauntíma tvöfaldrar skráningar er \{fjármála- og reksturs EntityFilterQueryString\}. Færslur sem uppfylla skilyrði fyrirspurnar verða með í samstillingu í rauntíma.“
 
 Fyrirspurn einingar sem var skilað er öryggisafrit SQL-fyrirspurnar fyrir eininguna. Athugaðu innri samtengingar eða síur á fyrirspurninni sem ákvarða viðskiptagögnin sem verað notuð fyrir samstillingu í rauntíma. Innri samtengingar og síur eru áskilin skilyrði sem þarf að uppfylla fyrir hverja færslu sem notuð er fyrir samstillingu tvöfaldrar skráningar í rauntíma.
 
 ## <a name="error-1300"></a>Villa 1300
 
-Villuboðin eru, "Sýndarreitir\{ s.EntityFieldName\} fyrir aðila\{ fjármál og rekstur EntityMetadata.EntityProperties.LogicalEntityName\} má ekki rekja fyrir tvískrift."
+Villuboðin eru: „Sýndarreiti \{s.EntityFieldName\} fyrir einingu \{fjármála- og reksturs EntityMetadata.EntityProperties.LogicalEntityName\} er ekki hægt að rekja fyrir tvöfalda skráningu.“
 
-Sýndarreitir úr fjármála- og rekstrartöflum eru ekki virkjaðir fyrir rakningu. Samstilling í rauntíma getur samstillt gögnin en getur ekki tekið með breytingarnar sem eru gerðar á dálkunum.
+Sýndarreitir úr fjármála- og reksturs-töflum eru ekki virkjaðir fyrir rakningu. Samstilling í rauntíma getur samstillt gögnin en getur ekki tekið með breytingarnar sem eru gerðar á dálkunum.
 
 ## <a name="error-1500"></a>Villa 1500
 
@@ -66,9 +66,9 @@ Gagnagjafinn úr einingunni er ekki með neina reiti sem eru varpaðir fyrir tv�
 
 ## <a name="error-1600"></a>Villa 1600
 
-Villuboðin eru: "Gagnaheimild:\{ datasource.DataSourceName\} fyrir aðila\{ fjármál og rekstur EntityMetadata.EntityProperties.LogicalEntityName\} er með svið. Aðeins færslur sem uppfylla skilyrði sviðsins eru notaðar fyrir útleiðina.“
+Villuboðin eru: „Gagnagjafi: \{datasource.DataSourceName\} fyrir einingu \{fjármála- og reksturs EntityMetadata.EntityProperties.LogicalEntityName\} er með svið. Aðeins færslur sem uppfylla skilyrði sviðsins eru notaðar fyrir útleiðina.“
 
-Aðilar í fjármála- og rekstrarforritum geta haft gagnagjafa þar sem síusvið eru virkjuð. Þessi svið skilgreina færslurnar sem eru notaðar sem hluti af samstillingu í rauntíma. Ef einhverjum skrám er sleppt úr fjármála- og rekstraröppum til Dataverse, athugaðu hvort færslurnar uppfylli sviðsviðmiðin fyrir eininguna. Einföld leið til að gera þessa athugun er að keyra SQL-fyrirspurn sem líkist eftirfarandi dæmi.
+Einingar í forriti fjármála- og reksturs geta verið með gagnagjafa þar sem síuskilyrði eru virkjuð. Þessi svið skilgreina færslurnar sem eru notaðar sem hluti af samstillingu í rauntíma. Ef sumum færslum er sleppt úr forrit fjármála- og reksturs í Dataverse skal athuga hvort færslurnar uppfylla skilyrði sviðsins í einingunni. Einföld leið til að gera þessa athugun er að keyra SQL-fyrirspurn sem líkist eftirfarandi dæmi.
 
 ```sql
 select * from <EntityName> where <filter criteria for the records> on SQL.
@@ -81,19 +81,19 @@ Villuboðin eru: „Tafla: \{datasourceTable.Key.subscribedTableName\} fyrir ein
 Ef sama taflan er rakin eftir mörgum einingum geta allar breytingar á töflunni ræst mat á tvöfaldri skráningu fyrir tengdar einingar. Þótt síuákvæðin muni aðeins senda gildar færslur gæti matið valið vandamálum með afköst ef til staðar eru fyrirspurnir seinlegar í keyrslu eða óstilltar áætlanir fyrirspurnar. Ekki er víst að hægt sé að koma í veg fyrir þetta vandamál frá sjónarhóli viðskipta. Ef hinsvegar eru margar töflur sem tengjast yfir margar einingar ætti hugsanlega að einfalda eininguna eða athuga fínstillingar fyrir fyrirspurnir um einingu.
 
 ## <a name="error-1800"></a>Villa 1800
-Villuboðin eru: "Gagnaheimild:{} fyrir einingu CustCustomerV3Entity inniheldur sviðsgildi. Skrá á heimleið upserts frá Dataverse til fjármögnunar og rekstrar geta orðið fyrir áhrifum af sviðsgildum á einingu. Vinsamlega prófaðu skráningaruppfærslur frá Dataverse til að fjármagna og reka með færslum sem passa ekki við síuskilyrðin til að sannreyna stillingarnar þínar."
+Villuboðin eru: „Gagnagjafi: {} fyrir einingu CustCustomerV3Entity inniheldur sviðsgildi. Færsla á innleið sem er uppfærð og sett inn úr Dataverse í fjármála- og reksturs getur orðið fyrir áhrifum frá sviðsgildum í einingu. Prófaðu uppfærslur á færslum úr Dataverse í fjármála- og reksturs með færslum sem samsvara ekki síuskilyrðinu til að staðfesta stillingarnar.“
 
-Ef það er svið tilgreint á einingunni í fjármála- og rekstrarforritum, þá er samstilling á heimleið frá Dataverse til að fjármagna og reka forrit ætti að prófa með tilliti til uppfærsluhegðunar á skrám sem passa ekki við þetta sviðsviðmið. Sérhver færsla sem passar ekki við svið verður meðhöndluð sem innsetningaraðgerð af einingunni. Ef það er fyrirliggjandi skrá í undirliggjandi töflu, þá mun innsetningin mistakast. Við mælum með því að þú prófir þetta notkunartilvik fyrir allar aðstæður áður en þú ferð í framleiðslu.
+Ef svið er tiltekið í einingunni í forritum fjármála- og reksturs þá ætti að prófa samstillingu á innleið úr Dataverse í forrit fjármála- og reksturs í leit að uppfærsluhegðun á færslum sem samsvara ekki þessu sviðsskilyrði. Allar færslur sem samsvara ekki sviðinu verða meðhöndlaðar sem innsetningaraðgerð af hálfu einingarinnar. Innsetningin mun ekki takast ef fyrirliggjandi færsla er til í undirliggjandi töflu. Mælt er með að prófa þetta notkunartilfelli fyrir allar aðstæður áður en framleiðslan er sett upp.
 
 ## <a name="error-1900"></a>Villa 1900
-Villuskilaboðin eru: „Entity: has{} gagnagjafar sem ekki er fylgst með fyrir tvískrifaða útleið. Þetta getur haft áhrif á árangur samstillingarfyrirspurna í beinni. Endurbætu eininguna í fjármálum og rekstri til að fjarlægja ónotaða gagnagjafa og töflur eða innleiða getEntityRecordIdsImpactedByTableChange til að hámarka keyrslufyrirspurnirnar."
+Villuboðin eru: „Eining: er með {} gagnagjafa þar sem ekki er verið að rekja tvöföld skrif á útleið. Þetta getur haft áhrif á frammistöðu fyrirspurnar í beinni samstillingu. Endurgerðu líkanið í fjármála- og reksturs til að fjarlægja ónotaða gagnagjafa og töflur eða innleiddu getEntityRecordIdsImpactedByTableChange til að fínstilla keyrslufyrirspurnir.“
 
-Ef það eru margar gagnagjafar sem eru ekki notaðir til að rekja í raunverulegri samstillingu í beinni frá fjármála- og rekstrarforritum, þá er möguleiki á að frammistaða einingarinnar geti haft áhrif á samstillingu í beinni. Til að fínstilla raktar töflur, notaðu aðferðina getEntityRecordIdsImpactedByTableChange.
+Ef margir gagnagjafar sem ekki er verið að nota fyrir rakningu í raunverulegri keyrslu samstillingar úr forritum fjármála- og reksturs, þá er möguleiki á að afkastageta einingar geti haft áhrif á keyrslu samstillingar. Til að fínstilla raktar töflur skal nota aðferðina getEntityRecordIdsImpactedByTableChange.
 
 ## <a name="error-5000"></a>Villa 5000
-Villuboðin eru: „Samstillt viðbætur eru skráðar fyrir gagnastjórnunarviðburði fyrir einingareikninga. Þetta getur haft áhrif á upphaflega samstillingu og innflutningsárangur í beinni samstillingu Dataverse. Til að ná sem bestum árangri, vinsamlegast breyttu viðbótunum í ósamstillta vinnslu. Listi yfir skráð viðbætur{} ."
+Villuboðin eru: „Samstilltar viðbætur eru skráðar fyrir tilvik gagnastjórnunar fyrir einingalykla. Þetta geta haft áhrif á upphafssamstillingu og beina innflutningssamstillingu í Dataverse. Til að ná sem bestu afköstum skal breyta viðbótunum í ósamstillta vinnslu. Listi yfir skráðar viðbætur {}.“
 
-Samstilltar viðbætur á a Dataverse eining getur haft áhrif á samstillingu í beinni og fyrstu samstillingarafköstum þar sem það eykur álag á færslur. Mælt er með því að slökkva á viðbæturnar eða gera þessar viðbætur ósamstilltar ef þú stendur frammi fyrir hægum hleðslutíma í fyrstu samstillingu eða samstillingu í beinni fyrir tiltekna aðila.
+Samstilltar viðbætur á Dataverse einingu geta haft áhrif á keyrslu samstillingar og afköst fyrstu samstillingar því að hún bætist á flutningsálagið. Ráðlögð aðferð er annaðhvort að slökkva á viðbótunum eða gera þessar viðbætur ósamstilltar ef hleðslutíminn er hægur í upphaflegri samstillingu eða keyrslu samstillingar fyrir tiltekna einingu.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

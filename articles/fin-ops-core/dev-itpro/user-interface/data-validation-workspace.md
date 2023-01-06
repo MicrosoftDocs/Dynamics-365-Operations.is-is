@@ -14,7 +14,7 @@ ms.assetid: ''
 ms.search.form: DataValidationWorkspace
 ms.openlocfilehash: fb8999815e96c0aa7d1a054073de77a382c14263
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9272483"
@@ -26,7 +26,7 @@ ms.locfileid: "9272483"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þessi grein veitir yfirlit yfir **Vinnusvæði gagnastaðfestingar gátlista** og tilheyrandi uppsetningu.
+Þessi skrá veitir yfirlit yfir **vinnusvæði gagnaprófunargátlista** og tengdar skilgreiningar.
 
 **Vinnusvæði gátlista gagnavilluleitar** gerir kleift að rekja villuleitarferli gagna milli fyrirtækja, svæða og einstaklinga. Hægt er að nota gátlistann við nýja innleiðingu eftir uppfærslu eða eftir yfirfærslu. Samkvæmt yfirliti í vinnusvæðinu **Gátlisti gagnavilluleitar** muntu sjá annaðhvort öll verk og stöður fyrir gagnaprófunarverk eða aðeins þau verkefni sem þér er úthlutað.
 

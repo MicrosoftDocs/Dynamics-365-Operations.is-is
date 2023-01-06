@@ -1,6 +1,6 @@
 ---
 title: Sléttunarreglur skattaútreiknings
-description: Þessi grein veitir upplýsingar um námundunarreglur í skattaútreikningsbreytum skattreikningsþjónustunnar.
+description: Í þessari grein er að finna upplýsingar um sléttunarreglur í skattaútreikningsfæribreytum í skattframtalsþjónustu.
 author: kailiang
 ms.date: 07/29/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
 ms.openlocfilehash: 0f6182ab18a5a408a6e526feec7014ccdfce8af0
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8858302"
@@ -25,7 +25,7 @@ ms.locfileid: "8858302"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um hvernig námundunarreglur virka í skattaútreikningsbreytum skattreikningsþjónustunnar.
+Í þessari grein er að finna upplýsingar um hvernig sléttunarreglur virka í skattaútreikningsfæribreytum í skattframtalsþjónustu.
 
 > [!NOTE] 
 > Þegar skattframtalsþjónustan er virkjuð eru sléttunarreglurnar á síðunum **VSK-kóði** og **VSK-flokkur** ekki virkar.
@@ -38,7 +38,7 @@ Reitirnir **Sléttunarnákvæmni** og **Sléttunaraðferð** ákvarða hvernig r
 
 ## <a name="rounding-precision"></a>Sléttunarnákvæmni
 
-Reitirnir **Sléttunarnákvæmni** styðja gildi sem er með allt að sex aukastafi. Til dæmis, ef þú stillir **Nákvæmni í námundun** sviði til **0.000000**, eru reiknaðar upphæðir námundaðar að sex aukastöfum og síðan sendar til Microsoft Dynamics 365 Fjármál. Ef til dæmis sléttunaraðferðin **Venjuleg sléttun** er notuð, er upphæðin **987,1234567** sléttuð í **987,123457**.
+Reitirnir **Sléttunarnákvæmni** styðja gildi sem er með allt að sex aukastafi. Ef þú til að mynda stillir reitinn **Sléttunarnákvæmni** á **0,000000** eru reiknaðar upphæðir sléttaðar í sex aukastafi og síðan sendar til Microsoft Dynamics 365 Finance. Ef til dæmis sléttunaraðferðin **Venjuleg sléttun** er notuð, er upphæðin **987,1234567** sléttuð í **987,123457**.
 
 > [!NOTE]
 > Finance sléttar upphæðir samkvæmt sléttunarreglum gjaldmiðils. Skattupphæðirnar sem eru sýndar og skráðar í færslum verða þar af leiðandi fyrir áhrifum frá bæði sléttunarreglum skattaútreiknings og sléttunarreglum gjaldmiðils.

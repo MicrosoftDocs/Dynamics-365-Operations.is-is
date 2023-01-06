@@ -1,6 +1,6 @@
 ---
 title: Uppsetning númeraraða á einstaklingsgrunni
-description: Þessi grein útskýrir hvernig á að setja upp númeraraðir á einstaklingsgrundvelli.
+description: Þessi grein útskýrir hvernig setja skuli upp númeraraða á einstaklingsgrunni.
 author: SunilGarg
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 7be72d348957c5c6494958276b2baa9c67d63c58
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8904989"
@@ -24,7 +24,7 @@ ms.locfileid: "8904989"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp númeraraðir á einstaklingsgrundvelli. Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færslur sem krefjast þeirra. Skýrsla aðalgagna eða færslu sem krefst kennis er kölluð Tilvísun. Áður en hægt er að stofna nýjar færslur fyrir tilvísun verður að setja upp númeraröð og tengja hana við tilvísunina. Stofna má bókhald fyrir allar númeraraðir sem þörf er á samtímis með því að nota leiðsagnarforritið **Setja upp númeraraðir** eða hægt er að stofna eða breyta einstaka númeraröðum með því að nota **númeraröð** síða.
+Þessi grein útskýrir hvernig setja skuli upp númeraraða á einstaklingsgrunni. Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færslur sem krefjast þeirra. Skýrsla aðalgagna eða færslu sem krefst kennis er kölluð Tilvísun. Áður en hægt er að stofna nýjar færslur fyrir tilvísun verður að setja upp númeraröð og tengja hana við tilvísunina. Stofna má bókhald fyrir allar númeraraðir sem þörf er á samtímis með því að nota leiðsagnarforritið **Setja upp númeraraðir** eða hægt er að stofna eða breyta einstaka númeraröðum með því að nota **númeraröð** síða.
 
 1. Farðu í **Skoðunarrúða > Kerfiseiningar > Fyrirtækjastjórnun > Númeraraðir > Númeraraðir**.
 2. Velja **númeraraðir**.

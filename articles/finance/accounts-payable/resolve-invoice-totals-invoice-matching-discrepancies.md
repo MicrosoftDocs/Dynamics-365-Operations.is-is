@@ -17,7 +17,7 @@ ms.assetid: 9ac42457-95b2-4191-ad06-c7e323704466
 ms.search.form: VendTotalPriceTolerance
 ms.openlocfilehash: fa248622a21b0571b08c97eff507ee1035daa7f9
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9268588"

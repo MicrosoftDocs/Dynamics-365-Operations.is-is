@@ -1,6 +1,6 @@
 ---
 title: Skilgreiningarlyklar og gagnaeiningar
-description: Þessi grein lýsir tengslum milli stillingarlykla og gagnaeininga.
+description: Þessi grein lýsir tengslunum milli skilgreiningarlykla og gagnaeininga.
 author: peakerbl
 ms.date: 05/10/2019
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.openlocfilehash: 8083c8c053197f685985f340281c43f30053d2a5
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8885263"

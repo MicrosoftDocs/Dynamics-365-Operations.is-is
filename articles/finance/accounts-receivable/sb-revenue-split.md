@@ -1,6 +1,6 @@
 ---
-title: Sniðmát fyrir tekjuskiptingu í innheimtu áskriftar
-description: Þessi grein útskýrir hvernig á að setja upp tekjuskiptingarsniðmát fyrir vörur sem eru seldar sem búntar.
+title: Sniðmát tekjuskiptingar í áskriftargreiðslur
+description: Í þessari grein er útskýrt hvernig á að setja upp sniðmát tekjuskiptingar fyrir vörur sem eru seldar sem búnt.
 author: JodiChristiansen
 ms.date: 04/21/2022
 ms.topic: article
@@ -17,136 +17,136 @@ ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
 ms.openlocfilehash: 145ca6e6f0673a5a09fe9a23cf5e163421617fd9
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8904760"
 ---
-# <a name="revenue-split-templates-in-subscription-billing"></a>Sniðmát fyrir tekjuskiptingu í innheimtu áskriftar
+# <a name="revenue-split-templates-in-subscription-billing"></a>Sniðmát tekjuskiptingar í áskriftargreiðslur
 
-Nota **Sniðmát fyrir skiptingu tekna** síðu til að setja upp sniðmát fyrir skiptingu tekna. Tekjuskipting samanstendur af yfirliði sem hefur undirliði. Þessi tegund af hlutum er oft seld til viðskiptavina sem einn hlutur eða búnt.
+Notið síðuna **Sniðmát tekjuskiptingar** til að setja upp sniðmát fyrir tekjuskiptingu. Tekjuskipting samanstendur af yfirvöru sem er með undirvöru. Þessi gerð vöru er oft seld til viðskiptavina sem ein vara eða í búnti.
 
-Til dæmis er hægt að búa til tölvuhlut á eftirfarandi hátt:
+Til dæmis er hægt að búa til tölvuvöru á eftirfarandi hátt:
 
-- **Foreldri atriði:** Áskrift Silfur
-- **Línu (undir) atriði:**
+- **Yfirvara:** Áskriftarsilfur
+- **Línuvörur (undireining):**
 
     - Stuðningur
     - Viðhald
     - Leyfi
 
-Þegar þú býrð til yfirlið skaltu hafa eftirfarandi takmarkanir í huga:
+Hafðu eftirfarandi takmarkanir í huga þegar yfirhlutur er stofnaður:
 
-- Aðeins er hægt að tilgreina vöru sem yfirvöru einu sinni.
-- Hægt er að velja yfirlið sem undiratriði í sama sniðmáti.
-- Gilt sniðmát krefst að minnsta kosti eitt undiratriði.
+- Aðeins er hægt að tilgreina vöru sem yfirvöru í eitt skipti.
+- Hægt er að velja yfirvöruna sem undirvöru í sama sniðmáti.
+- Gilt sniðmát verður að innihalda minnst eina undirvöru.
 - Hægt er að tilgreina vöru sem undirvöru fyrir fleiri en eina búntvöru.
-- Hvert samband foreldra og barns verður að vera einstakt.
+- Tengsl yfireiningar og undireiningar verða að vera einkvæm.
 
-## <a name="create-a-parent-item-that-has-child-items"></a>Búðu til yfiratriði sem hefur undiratriði
+## <a name="create-a-parent-item-that-has-child-items"></a>Stofna yfirvöru sem er með undirvöru
 
-Fylgdu þessum skrefum til að búa til yfirvöru sem hefur undiratriði.
+Fylgið eftirfarandi skrefum til að stofna yfirvöru sem er með undirvöru
 
-1. Á **Sniðmát fyrir skiptingu tekna** síðu, veldu **Nýtt**.
-1. Í **Foreldri atriði** reit, veldu yfirlið. The **Afbrigðisnúmer** reiturinn er sjálfkrafa uppfærður. Þú getur breytt gildinu eins og þú þarft.
-1. Í **Úthlutunaraðferð** reit, veldu úthlutunaraðferð.
-1. Í **Íhlutir** lista, veldu **Bæta við** til að bæta við barnahlutum.
-1. Ef þú valdir **Hlutfall** í **Úthlutunaraðferð** reit, tilgreindu prósentu í **Hlutfall** sviði.
+1. Á síðunni **Sniðmát tekjuskiptingar** skal velja **Nýtt**.
+1. Veljið yfirvöru á svæðinu **Yfirvara**. Reiturinn **Afbrigðisnúmer** er uppfærður sjálfkrafa. Hægt er að breyta gildinu eftir þörfum.
+1. Í svæðinu **Úthlutunaraðferð** skal velja úthlutunaraðferð.
+1. Veldu **Bæta við** á listanum **Hlutir vöru** til að bæta við undirvörum.
+1. Ef valið er **Prósenta** í reitnum **Úthlutunaraðferð** skal tilgreina prósentu í reitnum **Prósenta**.
 
-    - Ef þú valdir **Jöfn upphæð** í **Úthlutunaraðferð** sviði, the **Hlutfall** reiturinn er sjálfkrafa uppfærður þannig að hver hlutur hefur jafnt hlutfall.
-    - Ef þú valdir **Breytileg upphæð**, **foreldri upphæð**, eða **Núll upphæð** í **Úthlutunaraðferð** sviði, gildi á **Hlutfall** reitur eftir **0** (núll) og er ekki hægt að breyta.
+    - Ef valið er **Jöfn upphæð** í reitnum **Úthlutunaraðferð** er reiturinn **Prósenta** sjálfkrafa uppfærður þannig að hver vara sé með eins prósentu
+    - Ef valið er **Breytileg upphæð**, **Núll yfirupphæð** eða **Núllupphæð** í reitnum **Úthlutunaraðferð** helst gildið í reitnum **Prósenta** áfram **0** (núll) og er ekki hægt að breyta.
 
 1. Veldu **Vista**.
 
 ## <a name="fields"></a>Svæði
 
-The **Sniðmát fyrir skiptingu tekna** síða inniheldur eftirfarandi reiti.
+Síðan **Sniðmát tekjuskiptingar** inniheldur eftirfarandi reiti.
 
-| Reitur | Lýsing |
+| Svæði | Lýsing |
 |-------|-------------|
-| Yfirvara | Veldu vörunúmer. Þessi vara verður yfirhlutur fyrir búnthlutinn sem þú býrð til. |
-| Afurðarheiti | Vöruheitið. |
-| Úthlutunaraðferð | <p>Veldu úthlutunaraðferð:</p><ul><li>**Jöfn upphæð** – Úthlutunarprósenturnar eru sjálfkrafa reiknaðar og skipt jafnt á milli allra atriða í sniðmátinu.</li><li>**Hlutfall** – Hægt er að tilgreina prósentuupphæð fyrir úthlutunina. Summa allra prósenta verður að vera 100.</li><li>**Breytileg upphæð** – Undirliðir sem bætt er við hafa nettóupphæð 0 (núll). Verð á undirvörum verður að tilgreina á færslustigi.</li><li>**Núll upphæð** – Móðurliður heldur einingaverði sínu og nettóupphæð. Allir undirliðir hafa nettóupphæðina 0 (núll).</li><li>**Núll foreldri upphæð** – Móðurliðurinn hefur fasta nettófjárhæð 0 (núll). Meðhöndlað er með alla undirliði eins og staðlaða hluti. Engin fullgilding er gerð til að sannreyna að summan af fjárhæðum undirliðar sé jöfn upphæð yfirliðar.</li></ul> |
+| Yfirvara | Veldu vörunúmer. Þessi vara verður yfirvaran fyrir búntvöruna sem þú stofnar. |
+| Afurðarheiti | Afurðarheitið. |
+| Úthlutunaraðferð | <p>Velja úthlutunaraðferð:</p><ul><li>**Jöfn upphæð** – Úthlutunarprósenturnar eru reiknaðar sjálfkrafa og skipt jafnt á allar vörurnar í sniðmátinu.</li><li>**Prósenta** – Hægt er að tilgreina prósentuupphæð fyrir úthlutun. Samtala allra prósenta verður að vera jöfn 100.</li><li>**Breytileg upphæð** – Undirvörur sem bætt er við eru með nettóupphæðina 0 (núll). Tilgreina verður verð á undirvörum á færslustigi.</li><li>**Núllupphæð** – Yfirvaran heldur einingarverði sínu og nettóupphæð. Allar undirvörur eru með nettóupphæðina 0 (núll).</li><li>**Núll yfirupphæð** – Yfirvaran er með fasta nettóupphæð 0 (núll). Allar undirvörur eru meðhöndlaðar eins og hefðbundnar vörur. Engin villuleit er gerð til að staðfesta að summa upphæða undirvöru séu jafnt og upphæð yfirvöru.</li></ul> |
 | **Vöruhlutir** | |
-| Hlutur vöru | Veldu vörunúmer. Þessi vara er undirhlutur. |
-| Númer vöruvíddasamsetningar | Veldu afbrigðisnúmer vörunnar. |
-| Afurðarheiti | Vöruheitið. |
-| Prósenta | <p>Úthlutunarprósenta fyrir áfangann:</p><ul><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Hlutfall**, þú getur tilgreint hlutfallið.</li><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Jöfn upphæð**, prósentan er sjálfkrafa reiknuð þannig að hvert atriði í sniðmátinu hefur jafnt hlutfall.</li><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Breytileg upphæð**, **foreldri upphæð**, eða **Núll upphæð**, prósentan er 0 (núll) og ekki er hægt að breyta því.</li></ul><p>Gildi þessa reits getur verið hvaða jákvæð tala sem er á milli 0 (núll) og 100. Summa allra prósentanna verður að vera 100.</p> |
-| Prósentusamtala | <p>Summa gilda í **Hlutfall** dálki.</p><ul><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Jöfn upphæð** eða **Hlutfall**, summan af öllum prósentum verður að vera 100.</li><li>Ef **Úthlutunaraðferð** reiturinn er stilltur á **Breytileg upphæð**, **foreldri upphæð**, eða **Núll upphæð**, heildarhlutfallið er 0 (núll).</li></ul> |
+| Hlutur vöru | Veldu vörunúmer. Þetta vara er undirvara. |
+| Númer vöruvíddasamsetningar | Veldu afbrigðisnúmerið fyrir vöruna. |
+| Afurðarheiti | Afurðarheitið. |
+| Prósenta | <p>Úthlutunarprósenta áfangans:</p><ul><li>Ef reiturinn **Úthlutunaraðferð** er stilltur á **Prósenta** er hægt að tilgreina prósentuna.</li><li>Ef reiturinn **Úthlutunaraðferð** er stilltur á **Jöfn upphæð** er prósentan sjálfkrafa reiknuð þannig að hver vara í sniðmátinu sé með jafna prósentu.</li><li>Ef reiturinn **Úthlutunaraðferð** er stilltur á **Breytileg upphæð**, **Núll yfirupphæð** eða **Núllupphæð** er prósentan 0 (núll) og ekki er hægt að breyta henni.</li></ul><p>Gildið í þessum reit getur verið hvaða jákvæða tala sem er á milli 0 (núll) og 100. Samtala allra hlutfalla verður að vera jöfn 100.</p> |
+| Prósentusamtala | <p>Summan af gildum í dálknum **Hlutfall**.</p><ul><li>Ef reiturinn **Úthlutunaraðferð** er stilltur á **Jöfn upphæð** eða **Prósentu** verður summa allra prósentanna að vera jafnt og 100.</li><li>Ef reiturinn **Úthlutunaraðferð** er stilltur á **Breytileg upphæð**, **Núll yfirupphæð** eða **Núllupphæð** er heildarprósentan 0 (núll).</li></ul> |
 
-## <a name="revenue-split-on-a-sales-order"></a>Tekjuskipting á sölupöntun
+## <a name="revenue-split-on-a-sales-order"></a>Tekjuskipting í sölupöntun
 
-Til að stofna sölupöntun sem hefur vöru sem er sett upp fyrir tekjuskiptingu skal fylgja þessum skrefum.
+Fylgdu eftirfarandi skrefum til að búa til sölupöntun með vöru sem er sett upp fyrir tekjuskiptingu.
 
-1. Á **Sölupöntun** síðu, búðu til sölupöntun.
-2. Á línunni fyrir hvern lið sem er settur upp fyrir tekjuskiptingu skal velja **Tekjuskipting** gátreit. Sá hlutur verður yfirliður. Ef sniðmátið er þegar sett upp birtast undirhlutirnir sjálfkrafa á listanum.
-3. Til að bæta við fleiri undirhlutum skaltu velja **Bættu við tekjuskiptu barni**, og veldu undirliðið sem þú vilt bæta við.
-4. Vistaðu pöntunina.
+1. Stofnið sölupöntun á síðunni **Sölupöntun**.
+2. Á línunni fyrir hverja vöru sem sett er upp fyrir tekjuskiptingu skal velja gátreitinn **Tekjuskipting**. Sú vara verður yfirvara. Ef sniðmátið er þegar uppsett birtast undirvörurnar sjálfkrafa á listanum.
+3. Til að bæta við fleiri undireiningum skal velja **Bæta við undireiningu tekjuskiptingar** og velja undireininguna sem á að bæta við.
+4. Vista röðina.
 
-## <a name="revenue-split-with-billing-schedules"></a>Tekjum skipt með innheimtuáætlunum
+## <a name="revenue-split-with-billing-schedules"></a>Tekjuskipting með greiðsluáætlunum
 
-Til að búa til innheimtuáætlun sem hefur vöru sem er sett upp fyrir tekjuskiptingu skaltu fylgja þessum skrefum.
+Til að búa til greiðsluáætlun sem er með vöru sem er sett upp fyrir tekjuskiptingu skal fylgja þessum skrefum.
 
-1. Á **Allar/virkar innheimtuáætlanir** síðu, búðu til innheimtuáætlun.
-2. Á línunni fyrir hvern lið sem er settur upp fyrir tekjuskiptingu skal velja **Tekjuskipting** gátreit. Sá hlutur verður yfirliður. Ef sniðmátið er þegar sett upp birtast undirhlutirnir sjálfkrafa á listanum.
-3. Til að bæta við fleiri undirhlutum skaltu velja **Bættu við tekjuskiptu barni**, og veldu undirliðið sem þú vilt bæta við.
-4. Haltu áfram með skrefunum til að vinna með innheimtuáætlunina.
+1. Á síðunni **Allar/Virkar greiðsluáætlanir** skalt stofna greiðsluáætlun.
+2. Á línunni fyrir hverja vöru sem sett er upp fyrir tekjuskiptingu skal velja gátreitinn **Tekjuskipting**. Sú vara verður yfirvara. Ef sniðmátið er þegar uppsett birtast undirvörurnar sjálfkrafa á listanum.
+3. Til að bæta við fleiri undireiningum skal velja **Bæta við undireiningu tekjuskiptingar** og velja undireininguna sem á að bæta við.
+4. Haltu áfram með skrefin til að vinna með greiðsluáætlunina.
 
 > [!NOTE]
-> Ef **Búðu til tekjuskiptingu sjálfkrafa** valkostur er stilltur á **Já** á **Endurteknar innheimtufæribreytur samnings** síðu, eftirfarandi aðgerðir eiga sér stað:
+> Ef valkosturinn **Stofna tekjuskiptingu sjálfkrafa** er stilltur á **Já** á síðunni **Færibreytur fyrir endurteknar samningsgreiðslur** gerast eftirfarandi aðgerðir:
 >
-> - Ef línan er sett upp sem yfirliður í tekjuskiptingarsniðmáti, er **Tekjuskipting** gátreiturinn er sjálfkrafa valinn.
-> - Undirvörur eru sjálfkrafa færðar inn á sölupöntun eða innheimtuáætlunarlínu.
+> - Ef vörulínan er sett upp sem yfireining í sniðmáti tekjuskiptingar er gátreiturinn **Tekjuskipting** sjálfkrafa valinn.
+> - Undirvörurnar eru sjálfkrafa færðar inn í sölupöntun eða greiðsluáætlunarlínu.
 >
-> Ef **Búðu til tekjuskiptingu sjálfkrafa** valkostur er stilltur á **Nei**, hegðunin er eins og útskýrt var áðan.
+> Ef valkosturinn **Stofna tekjuskiptingu sjálfkrafa** er stilltur á **Nei** er hegðunin eins og henni var lýst hér á undan.
 
-## <a name="additional-revenue-split-information"></a>Viðbótarupplýsingar um skiptingu tekna
+## <a name="additional-revenue-split-information"></a>Viðbótarupplýsingar um tekjuskiptingu
 
-Þegar þú bætir við hlut sem er hluti af tekjuskiptingu skaltu athuga eftirfarandi upplýsingar: 
+Þegar þú bætir við vöru sem tilheyrir tekjuskiptingu skaltu hafa eftirfarandi upplýsingar í huga: 
 
-- Ekki er hægt að fresta foreldrisupphæðinni.
-- Upphafsdagsetning, lokadagsetning, magn, eining, staður og vöruhússgildi undirvöru eru byggð á yfirvörunni. Ekki er hægt að breyta þessum gildum fyrir undiratriðin. Allar breytingar verða að gera á yfirliðnum. 
-- Verðlagningaraðferðin er **Flat** og er ekki hægt að breyta.
-- Hægt er að bæta við eða fjarlægja barnahluti.
-- Foreldri og undirhlutir verða að nota sama vöruflokk. 
-- Undirhlutir geta haft eina af eftirfarandi uppsetningum:
+- Ekki er hægt að fresta yfirupphæðinni.
+- Gildi upphafsdagsetningar, lokadagsetningar, magns, einingar, svæðis og vöruhúss fyrir undireiningar byggja á yfireiningum. Ekki er hægt að breyta þessum gildum fyrir undirvörur. Allar breytingar verða að vera gerðar á yfirvörunni. 
+- Verðaðferðin er **Fast** og ekki er hægt að breyta henni.
+- Hægt er að bæta við eða fjarlægja undirvörur.
+- Yfir- og undirvörur verða að nota sama vöruflokkinn. 
+- Undirvörur geta haft eina af eftirfarandi uppsetningum:
 
-    - The **Innheimtutíðni** og **Innheimtutímabil** reitirnir eru stilltir á sama gildi og yfirliðurinn. 
-    - The **Innheimtutíðni** reiturinn er stilltur á **Einu sinni**. Í þessu tilviki er **Innheimtutímabil** reiturinn er sjálfkrafa stilltur á **1**. 
+    - Reitirnir **Greiðslutíðni** og **Greiðslumillibil** eru stilltir á sama gildið og yfireiningin. 
+    - Reiturinn **Greiðslutíðni** er stilltur á **Einu sinni**. Í þessu tilfelli er reiturinn **Greiðslumillibil** sjálfkrafa stilltur á **1**. 
 
-- Summa nettófjárhæða undirliðanna jafngildir yfirfjárhæðinni. Ef úthlutunaraðferðin er **Núll upphæðir**, bæði summan af undirliðsupphæðum og yfirupphæð eru 0 (núll). 
+- Samtala nettóupphæða undirvaranna jafngildir yfirupphæðinni. Ef úthlutunaraðferðin er **Núllupphæðir** eru bæði summa upphæða undireiningar og yfireiningar 0 (núll). 
 
     > [!NOTE]
-    > Ef úthlutunaraðferðin er **Núll foreldri upphæð**, summan af undirliðunum (ekki núll) jafngildir ekki yfirupphæð, sem er 0 (núll). Þessi úthlutunaraðferð er notuð í innri tilgangi, þannig að starfsmenn geti séð undirliðina. Hins vegar geta viðskiptavinir aðeins séð móðurhlutinn.
+    > Ef úthlutunaraðferðin er **Núll yfirupphæð** er (ekki núll) summa undireininga ekki jafnt og upphæð yfireiningar, sem er 0 (núll). Þessi úthlutunaraðferð er notuð í innri tilgangi þannig að starfsmenn geti séð undireiningarnar. Viðskiptavinir geta þó aðeins séð yfirvöruna.
 
-- Ef margfeldisfyrirkomulag (MEA) gerð sölupöntunarinnar er **Einhleypur**, samsvarandi færslulína fyrir tekjuúthlutun margfaldra þátta er búin til þegar yfir- og undirliðum er bætt við. 
-- Ef úthlutunaraðferð fyrir tekjuskiptingu er **Jafnar upphæðir**, og yfirupphæð er breytt, eru upphæðirnar endurreiknaðar fyrir allar undirlínur. 
-- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Breytileg upphæð**, eftirfarandi hegðun á sér stað:
+- Ef gerð margþátta ráðstöfunar fyrir sölupöntun er **Einfalt** er samsvarandi færslulína margþátta tekjuúthlutunar stofnuð þegar yfir- og undireiningum er bætt við. 
+- Ef úthlutunaraðferðin fyrir tekjuskiptingu er **Jöfn upphæð** og upphæð yfireiningar er breytt eru upphæðirnar endurreiknaðar fyrir allar undirlínur. 
+- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Breytileg upphæð** kemur eftirfarandi hegðun fram:
 
-    - Nettófjárhæð yfirliðsins birtist í **Upphæð foreldra** dálki. Þetta gildi er hægt að breyta. Hins vegar er einingarverð, nettóupphæð og afsláttur 0 (núll) og ekki er hægt að breyta þeim.
-    - Einingaverð undirvöru er 0 (núll). Þú getur breytt einingaverði eða nettóupphæð. Þegar þú breytir einu gildinu er hitt gildið sjálfkrafa uppfært.
+    - Nettóupphæð yfirvörunnar kemur fram í dálknum **Yfirupphæð**. Hægt er að breyta þessu gildi. Aftur á móti eru einingaverðið, nettóupphæðin og afslátturinn 0 (núll) og ekki hægt að breyta því.
+    - Einingarverð undirvara er 0 (núll). Hægt er að breyta einingarverðinu eða nettóupphæðinni. Þegar þú breytir einu gildi uppfærist hitt gildið sjálfkrafa.
 
-- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Hlutfall**, eftirfarandi hegðun á sér stað:
+- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Prósenta** kemur eftirfarandi hegðun fram:
 
-    - Nettófjárhæð yfirliðsins birtist í **Upphæð foreldra** dálki. Þetta gildi er hægt að breyta. Hins vegar er einingarverð, nettóupphæð og afsláttur 0 (núll) og ekki er hægt að breyta þeim. 
-    - Nettófjárhæð barnaliða er reiknuð sem *Hlutfall*&times;*Upphæð foreldra*.
+    - Nettóupphæð yfirvörunnar kemur fram í dálknum **Yfirupphæð**. Hægt er að breyta þessu gildi. Aftur á móti eru einingaverðið, nettóupphæðin og afslátturinn 0 (núll) og ekki hægt að breyta því. 
+    - Nettóupphæð undirvöru er reiknuð sem *Prósenta* &times; *Yfirupphæð*.
 
-- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Jöfn upphæð**, eftirfarandi hegðun á sér stað:
+- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Jöfn upphæð** kemur eftirfarandi hegðun fram:
 
-    - Nettófjárhæð yfirliðsins birtist í **Upphæð foreldra** dálki. Þetta gildi er hægt að breyta. Hins vegar er einingarverð, nettóupphæð og afsláttur 0 (núll) og ekki er hægt að breyta þeim. 
-    - Nettóupphæð undirliða er reiknuð með því að skipta yfirupphæðinni jafnt á milli allra undirliða. 
-    - Ef undirliðir eru fjarlægðir eða bætt við er nettóupphæð og einingarverð endurreiknuð þannig að allar undirlínur hafi jafnar upphæðir. 
-    - Ef ekki er hægt að skipta yfirupphæðinni jafnt, gæti nettóupphæð og einingaverð síðasta undirliðar verið aðeins meira eða minna en nettóupphæð og einingaverð hinna undirliðanna. 
+    - Nettóupphæð yfirvörunnar kemur fram í dálknum **Yfirupphæð**. Hægt er að breyta þessu gildi. Aftur á móti eru einingaverðið, nettóupphæðin og afslátturinn 0 (núll) og ekki hægt að breyta því. 
+    - Nettóupphæð undireininga er reiknuð út með því að deila upphæð yfireiningar jafnt niður á allar undireiningar. 
+    - Ef undireiningar eru fjarlægðar eða þeim bætt við er nettóupphæð og einingarverð endurreiknuð þannig að allar línur undireiningar séu með jafnar upphæðir. 
+    - Ef ekki er hægt að skipta upphæð yfireiningar jafnt gæti nettóupphæð eða einingarverð síðustu undireiningar verið örlítið hærra eða minna en nettóupphæð og einingarverð hinna undireininganna. 
 
-- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Núll upphæð**, eftirfarandi hegðun á sér stað:
+- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Núll** kemur eftirfarandi hegðun fram:
 
-    - Hægt er að breyta einingaverði, nettóupphæð og afslætti. Foreldrisupphæðin er 0 (núll) og ekki er hægt að breyta henni. 
-    - Magn, eining, staður og vöruhússgildi undirvöru eru byggð á yfirvöru. Þú getur ekki breytt þessum gildum fyrir undiratriðin. Allar breytingar verða að gera á yfirliðnum. 
-    - Einingaverð og nettóverð undirvöru er 0 (núll) og ekki er hægt að breyta þeim. 
+    - Hægt er að breyta einingaverði, nettóupphæð og afslætti. Yfirupphæðin er 0 (núll) og henni er ekki hægt að breyta. 
+    - Magn-, einingar-, svæðis- og vöruhússgildi undirvara er byggt á yfirvörunni. Ekki er hægt að breyta þessum gildum fyrir undirvörurnar. Allar breytingar verða að vera gerðar á yfirvörunni. 
+    - Einingarverð og nettóverð undirvara er 0 (núll) og því er ekki hægt að breyta. 
 
-- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Núll foreldri upphæð**, eftirfarandi hegðun á sér stað:
+- Fyrir tekjuskiptingu þar sem úthlutunaraðferðin er **Núllupphæð yfireiningar** kemur eftirfarandi hegðun fram:
 
-    - Einingarverð, móðurupphæð og nettóupphæð móðurliðar eru 0 (núll).
-    - Í innheimtuáætlun birtast undirlínurnar eins og þeim hafi verið bætt við handvirkt og öll gildi eru uppfærð út frá völdum innheimtuáætlunarhópi. Hægt er að breyta þessum gildum. Fyrir barnavörur geturðu fengið aðgang að **Stækkun og afsláttur** og **Ítarleg verðlagning** valkosti með því að nota **Magn slegið inn**, **·**, **·**, og **Virði** sviðum í **Skoða innheimtuupplýsingar**. 
-    - Á sölupöntun hafa undirlínurnar afslátt og afsláttarprósentu 0 (núll). 
-    - Hægt er að breyta innheimtutíðni foreldris og undirliða og hver lína getur haft mismunandi tíðni. Hins vegar er yfirliðið sjálfkrafa uppfært þannig að það notar stystu tíðnina úr undirlínum sínum. Til dæmis, tekjuskipting hefur tvo undirliði, þar af einn sem notar **Mánaðarlega** innheimtutíðni og hinn sem notar **Árlega** innheimtutíðni. Í þessu tilviki er innheimtutíðni yfirliðsins uppfærð í **Mánaðarlega**.
+    - Einingarverð, yfirupphæð og nettóupphæð yfirvörunnar er 0 (núll).
+    - Í greiðsluáætlun birtast línur undireiningar eins og ef þeim væri bætt við handvirkt og öll gildi eru uppfærð út frá völdum greiðsluáætlunarflokki. Hægt er að breyta þessum gildum. Fyrir undireiningar er hægt að nálgast valkostina **Hækkun og afsláttur** og **Ítarleg verðlagning** með því að nota reitina **Magn fært inn**, **Einingarverð**, **Afsláttur** og **Nettóupphæð** í **Skoða greiðsluupplýsingar**. 
+    - Í sölupöntun eru undirlínurnar með afslátt og afsláttarprósentu 0 (núll). 
+    - Hægt er að breyta greiðslutíðni yfir- og undireininga og hver lína getur verið með mismunandi tíðni. Yfireiningin er hins vegar sjálfkrafa uppfærð þannig að hún notar stystu tíðnina úr línum undireiningar. Tekjuskipting er til dæmis með tvær undireiningar, ein sem notar **Mánaðarlega** greiðslutíðni og önnur sem notar **Árlega** greiðslutíðni. Í þessu tilfelli er greiðslutíðni yfirvörunnar uppfærð í **Mánaðarlega**.

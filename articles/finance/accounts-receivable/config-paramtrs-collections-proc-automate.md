@@ -1,6 +1,6 @@
 ---
 title: Skilgreina færibreytur fyrir sjálfvirkt innheimtuferli
-description: Þessi grein lýsir breytunum sem hafa áhrif á sjálfvirk innheimtuferli og veitir leiðbeiningar um að stilla þær þannig að sjálfvirka ferlið endurspegli fyrirætlanir þínar og væntingar.
+description: Þessi grein lýsir færibreytunum sem hafa áhrif á sjálfvirk innheimtuferli og veitir leiðsögn fyrir stillingu þeirra þannig að sjálfvirka ferlið endurspegli áform og væntingar þínar.
 author: JodiChristiansen
 ms.date: 08/05/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: c5d0f801c47ef2d98d8ba410dc593bd7640839c1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8900043"
@@ -24,7 +24,7 @@ ms.locfileid: "8900043"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir breytunum sem hafa áhrif á sjálfvirk innheimtuferli og veitir leiðbeiningar um að stilla þær þannig að sjálfvirka ferlið endurspegli fyrirætlanir þínar og væntingar. Fyrir upplýsingar um hvernig á að gera innheimtuferla sjálfvirka skal skoða [Sjálfvirkni innheimtuferlis](collections-process-automate.md).
+Þessi grein lýsir færibreytunum sem hafa áhrif á sjálfvirk innheimtuferli og veitir leiðsögn fyrir stillingu þeirra þannig að sjálfvirka ferlið endurspegli áform og væntingar þínar. Fyrir upplýsingar um hvernig á að gera innheimtuferla sjálfvirka skal skoða [Sjálfvirkni innheimtuferlis](collections-process-automate.md).
 
 ## <a name="general"></a>Almennt
 Færðu inn tölu í **Prósentuhlutfall viðskiptavina í hverju runuverki** til að ákvarða fjölda runuverka eftir sjálfvirkniferli. Stilltu **Bóka innheimtubréf sjálfkrafa** á **Já** þannig að gerð aðgerðar fyrir innheimtubréf muni bóka bréfið í sjálfvirka ferlinu. Stillið **Stofna verkþætti fyrir sjálfvirkni** á **Já** til að stofna og loka verkþáttum fyrir gerðir aðgerðar sem ekki eru verkþáttargerðar til að skoða öll sjálfvirku skrefin sem eru tekin á reikningi. Skilgreindu fjölda daga sem innheimtuferill er geymdur í **Dagar sem geyma á feril sjálfvirks innheimtuferlis**. Þegar reikningur nær til síðasta skrefs innheimtuferlisins verður hann ekki notaður til að búa til gerðir sjálfvirkniaðgerða í framtíðinni ef **Útiloka reikning eftir virkjun síðasta skref ferlis** er stillt á **Já**. Næstelsti reikningurinn ákvarðar næsta sjálfvirkniskref til að tryggja að sjálfvirkniaðgerðir fyrir innheimtuferlið haldi áfram. 

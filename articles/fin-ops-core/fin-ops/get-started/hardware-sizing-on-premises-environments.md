@@ -1,6 +1,6 @@
 ---
 title: Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi
-description: Þessi grein sýnir kröfur um stærð vélbúnaðar fyrir umhverfi á staðnum.
+description: Þessi grein tilgreinir kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi.
 author: sericks007
 ms.date: 06/02/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.service: ''
 ms.openlocfilehash: 62cda603765aa3da7a4dc00c07940f1fb81190c5
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9282500"

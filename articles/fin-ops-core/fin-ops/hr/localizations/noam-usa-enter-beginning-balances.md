@@ -1,6 +1,6 @@
 ---
 title: Slá inn upphafsstöður launa
-description: Greinin lýsir skrefunum til að slá inn upphafsstöður fyrir ávinningskóða, frádrátt, fríðindi og skatta.
+description: Þessi grein lýsir skrefum fyrir innskráningu á upphafsstöðu fyrir tekjukóða, frádrátt, fríðindi og skatta.
 author: twheeloc
 ms.date: 11/20/2020
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 21cd8b3f68627a8255df82ee818e919b3ac20f88
 ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/15/2022
 ms.locfileid: "9167800"
@@ -25,7 +25,7 @@ ms.locfileid: "9167800"
 
 [!include [banner](../../includes/banner.md)]
 
-Greinin lýsir skrefunum til að slá inn upphafsstöður fyrir ávinningskóða, frádrátt, fríðindi og skatta. Þessar upplýsingar eru mikilvægar fyrir samstarfsaðila sem flytja gögn fyrir nýja launainnleiðingu úr öðru kerfi. Til að undirbúa innskráningu launastöðu, staðfestum við eftirfarandi upplýsingar:
+Þessi grein lýsir skrefum fyrir innskráningu á upphafsstöðu fyrir tekjukóða, frádrátt, fríðindi og skatta. Þessar upplýsingar eru mikilvægar fyrir samstarfsaðila sem flytja gögn fyrir nýja launainnleiðingu úr öðru kerfi. Til að undirbúa innskráningu launastöðu, staðfestum við eftirfarandi upplýsingar:
 
 - Starfsmannafærslur eru innskráðar og tiltækar í kerfinu
 - Eftirfarandi gögn eru sett upp og úthlutuð starfsmönnum:

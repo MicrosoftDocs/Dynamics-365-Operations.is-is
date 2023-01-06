@@ -1,6 +1,6 @@
 ---
 title: Stofna greiðslu staðgreiðsluskatts
-description: Vinnslan greiðsla staðgreiðsluskatts jafnar stöðu staðgreiðsluskatt af viðskiptaskuldum á staðgreiðsluskattslyklum og mótfærir þær á jöfnunarlykil staðgreiðsluskatts á tilteknu tímabili. Þessi grein sýnir skrefin til að setja upp staðgreiðsluskatt.
+description: Vinnslan greiðsla staðgreiðsluskatts jafnar stöðu staðgreiðsluskatt af viðskiptaskuldum á staðgreiðsluskattslyklum og mótfærir þær á jöfnunarlykil staðgreiðsluskatts á tilteknu tímabili. Þessi grein telur upp skrefin fyrir uppsetningu staðgreiðsluskatts.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -17,14 +17,14 @@ ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
 ms.openlocfilehash: 3d3619137ccb909eed31af3793c6cf2773cc9886
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8855405"
 ---
 # <a name="create-a-withholding-tax-payment"></a>Stofna greiðslu staðgreiðsluskatts
 
-Vinnslan greiðsla staðgreiðsluskatts jafnar stöðu staðgreiðsluskatt af viðskiptaskuldum á staðgreiðsluskattslyklum og mótfærir þær á jöfnunarlykil staðgreiðsluskatts á tilteknu tímabili. Þessi grein sýnir skrefin til að setja upp staðgreiðsluskatt.
+Vinnslan greiðsla staðgreiðsluskatts jafnar stöðu staðgreiðsluskatt af viðskiptaskuldum á staðgreiðsluskattslyklum og mótfærir þær á jöfnunarlykil staðgreiðsluskatts á tilteknu tímabili. Þessi grein telur upp skrefin fyrir uppsetningu staðgreiðsluskatts.
 
 > [!NOTE] 
 > Ekki er tekið tillit til mótlykils staðgreiðsluskatts (af viðskiptakröfum) þegar greiðsla staðgreiðsluskatts er reiknuð.

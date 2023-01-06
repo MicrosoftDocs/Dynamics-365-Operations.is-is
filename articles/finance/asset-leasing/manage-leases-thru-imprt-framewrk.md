@@ -1,6 +1,6 @@
 ---
 title: Vinna með leigusamninga í innflutningsramma leigusamnings
-description: Þessi grein útskýrir hvernig á að nota innflutningsramma leigusamnings til að stilla marga leigusamninga á sama tíma.
+description: Þessi grein útskýrir hvernig á að nota innflutningsramma leigusamnings til að breyta mörgum leigusamningum samtímis.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 8cf81ccf61e62ac49e6cb90d13ca5fe50147cc76
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8894965"
@@ -26,7 +26,7 @@ ms.locfileid: "8894965"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að nota innflutningsramma leigusamnings til að stilla marga leigusamninga í einu skrefi. Notaðu þennan eiginleika til að spara tíma og til að tryggja nákvæmari breytingar með því að draga úr líkum á mannlegum mistökum. Að auki getur þessi hæfileiki tengst Microsoft Dynamics 365 Fjármál með ytri gagnaeiningum til að hlaða upp gögnum á skilvirkan hátt.
+Þessi grein útskýrir hvernig á að nota innflutningsramma leigusamnings til að breyta mörgum leigusamningum í einu skrefi. Notaðu þennan eiginleika til að spara tíma og til að tryggja nákvæmari breytingar með því að draga úr líkum á mannlegum mistökum. Þar að auki getur þessi eiginleiki tengt Microsoft Dynamics 365 Finance við ytri gagnaeiningar til að hlaða upp gögnum á skilvirkan hátt.
 
 Eftirfarandi gagnaeiningar er hægt að nota til að samþætta eignarleigu við ytri kerfi:
 

@@ -1,6 +1,6 @@
 ---
 title: Virkja greiðsluspár viðskiptavinar
-description: Þessi grein útskýrir hvernig á að kveikja á og stilla eiginleikann greiðsluspá viðskiptavina í Finance Insights.
+description: Þessi grein útskýrir hvernig á að kveikja á og skilgreina eiginleika greiðsluspár viðskiptavinar í Finance Insights.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: f04ee9db5efe3595dea30d641c5097d6b90c0d77
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8898208"
@@ -26,29 +26,29 @@ ms.locfileid: "8898208"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að kveikja á og stilla eiginleikann greiðsluspá viðskiptavina í Finance Insights. Þú kveikir á eiginleikanum í **Eiginleikastjórnun** vinnusvæði og sláðu inn stillingar á **Uppsetning fjármálainnsýnar** síðu. Þessi grein inniheldur einnig upplýsingar sem geta hjálpað þér að nota eiginleikann á áhrifaríkan hátt.
+Þessi grein útskýrir hvernig á að kveikja á og skilgreina eiginleika greiðsluspár viðskiptavinar í Finance Insights. Kveikt er á aðgerðinni á vinnusvæðinu **Eiginleikastjórnun** og skilgreiningarstillingar eru færðar inn á síðunni **Skilgreining Finance insights**. Þessi grein inniheldur einnig upplýsingar sem geta aðstoðað þig við að nota eiginleikann á skilvirkan hátt.
 
 > [!NOTE]
-> Áður en þú lýkur eftirfarandi skrefum skaltu ganga úr skugga um að þú hafir lokið forsendum skrefum í [Stilla fyrir innsýn í fjármálum](configure-for-fin-insites.md) grein.
+> Áður en eftirfarandi skrefum er lokið skal ganga úr skugga um að ljúka undirbúningsskrefunum í greininni [Stilla fyrir Finance Insights](configure-for-fin-insites.md).
 
-1. Kveiktu á eiginleikanum fyrir greiðsluspá viðskiptavina:
+1. Kveikja á eiginleikanum greiðsluspá viðskiptavinar:
 
     1. Opnaðu vinnusvæðið **Eiginleikastjórnun**.
     2. Veldu **Leita að uppfærslum**.
-    3. Á **Allt** flipi, leitaðu að **Greiðsluspá viðskiptavina**. Ef þú finnur ekki þann eiginleika skaltu leita að **(Forskoðun) Greiðsluspá viðskiptavina**. 
+    3. Á flipanum **Allt** skal leita að **Greiðsluspár viðskiptavinar**. Ef þú finnur ekki þennan eiginleika skaltu leita að **(Forútgáfa) Greiðsluspár viðskiptavinar**. 
     4. Kveiktu á eiginleikanum.
 
-    Nú er kveikt á eiginleikum greiðsluspáa viðskiptavina og tilbúið til að stilla hana.
+    Kveikt er á eiginleikanum greiðsluspá viðskiptavinar og hann er tilbúin til skilgreiningar.
 
 2. Skilgreina innsýnareiginleika greiðslu viðskiptavinar:
 
-    1. Fara til **Inneign og innheimtur \> Uppsetning \> Innsýn í fjármálum \> Greiðsluspá viðskiptavina**.
-    2. Á **Uppsetning fjármálainnsýnar** síðu, á **Greiðsluspá viðskiptavina** flipa, veldu **Skoðaðu gagnareitina sem notaðir eru í spálíkaninu** að opna **Gagnareitir fyrir spálíkan** síðu. Þar er hægt að skoða sjálfgefinn lista yfir svæði sem eru notuð til að stofna spálíkan gervigreindar (AI) fyrir greiðsluspár viðskiptavinar.
+    1. Opnaðu **Skuldir og innheimta \> Uppsetning \> Finance insights \> Greiðsluspár viðskiptavinar**.
+    2. Á síðunni **Skilgreining Finance Insights** á flipanum **Greiðsluspár viðskiptavinar** skal velja **Skoða gagnareitina sem eru notaðir í spálíkaninu** til að opna síðuna **Gagnareitir fyrir spálíkan**. Þar er hægt að skoða sjálfgefinn lista yfir svæði sem eru notuð til að stofna spálíkan gervigreindar (AI) fyrir greiðsluspár viðskiptavinar.
 
-        Til að nota sjálfgefna lista yfir reiti til að búa til spálíkanið skaltu loka **Gagnareitir fyrir spálíkan** síðu og síðan á **Uppsetning fjármálainnsýnar** síðu, stilltu **Virkja eiginleika** valmöguleika til **Já**.
+        Til að nota sjálfgefna lista yfir reiti til að búa til spálíkanið skal loka síðunni **Gagnareitir fyrir spálíkan** og síðan á síðunni **Skilgreining Finance Insights** stilla valkostinn **Virkja eiginleika** á **Já**.
         
    > [!NOTE]
-   > The **Greiðsluspá viðskiptavina** eiginleiki krefst meira en 100 færslur á síðustu sex til níu mánuðum. Færslurnar geta falið í sér ókeypis textareikninga, sölupantanir og greiðslur viðskiptavina. Þessum gögnum verður að dreifa yfir **Tímanlega**, **·**, og **Mjög seint** stillingar.    
+   > Meira en 100 færslur undanfarna sex til níu mánuði eru gerðar vegna **Greiðsluspár viðskiptavinar**. Færslunar geta falið í sér textareikninga, sölupantanir og greiðslur til viðskiptavina. Þessi gögn verða að vera dreifð á milli **Á áætlun**, **Sein** og **Mjög seint** stillinga.    
      
 
     3. Tilgreinið færslutímabil „mjög seint“ til að skilgreina hvað spáramminn **Mjög seint** þýðir fyrir fyrirtækið þitt.
@@ -62,13 +62,13 @@ ms.locfileid: "8898208"
         > [!NOTE]
         > Þegar færslutímabilinu „mjög seint“ er breytt og **Breyta viðmiðunarmörkum fyrir seint** er valið eftir að spálíkan gervigreindar fyrir greiðslur viðkiptavinar hefur verið stofnað, er fyrirliggjandi spálíkani eytt og nýtt líkan stofnað. Nýja spálíkanið flytur færslur yfir í tímabilið „mjög seint“ miðað við stillingarnar sem voru slegnar inn til að skilgreina það.
 
-    4. Þegar búið er að skilgreina færslutímabilið „mjög seint“ skal velja **Stofna spálíkan** til að stofna spálíkanið. The **Spálíkan** kafla um **Uppsetning fjármálainnsýnar** síða sýnir stöðu spálíkansins.
+    4. Þegar búið er að skilgreina færslutímabilið „mjög seint“ skal velja **Stofna spálíkan** til að stofna spálíkanið. Hlutinn **Spálíkan** á síðunni **Færibreytur Finance Insights** spálíkan sýnir stöðu spálíkansins.
 
         > [!NOTE]
         > Á meðan spálíkanið er stofnað er hægt að velja **Endurstilla stofnun spálíkans** hvenær sem er til að endurræsa ferlið.
 
     Eiginleikinn hefur nú verið skilgreindur og er tilbúinn til notkunar.
 
-Eftir að kveikt hefur verið á eiginleikanum og hann stilltur, og spálíkanið hefur verið búið til og virkar, **Spálíkan** kafla í **Færibreytur fjármálainnsýnar** síða sýnir nákvæmni líkansins.
+Þegar lokið er við að kveikja á og skilgreina eiginleikann og spálíkanið hefur verið stofnað og er í gangi sýnir hlutinn **Gerð spálíkans** á síðunni **Færibreytur Finance Insights** nákvæmni líkansins.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

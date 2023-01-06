@@ -1,6 +1,6 @@
 ---
 title: Setjið upp og keyrið vinnslu til að kalla á einfalt útflutningssnið rafrænnar skýrslugerðar til að búa til Excel-skýrslu
-description: Þessi grein gefur dæmi sem sýnir hvernig á að setja upp og nota rafræn skilaboð.
+description: Þessi grein veitir dæmi sem sýnir hvernig á að setja upp og nota rafræn skilaboð.
 author: AdamTrukawka
 ms.date: 07/06/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: ''
 ms.search.form: ''
 ms.openlocfilehash: 6090c45a98b672f718f89fc1d2e1c060498bb8a0
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9279335"

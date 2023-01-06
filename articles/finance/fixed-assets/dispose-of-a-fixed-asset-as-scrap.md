@@ -1,6 +1,6 @@
 ---
 title: Losa fasta eign sem rýrnun
-description: Greinin lýsir ferlinu við að útrýma viðskiptum fyrir fastafjármuni sem var fargað sem rusl.
+description: Þessi grein lýsir ferlinu við að útiloka færslur með eign sem var fargað með rýrnun.
 author: moaamer
 ms.date: 08/14/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 6564314c70de1880e437c3c493689f12d96d91ba
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8855434"
@@ -26,7 +26,7 @@ ms.locfileid: "8855434"
 
 [!include [banner](../includes/banner.md)]
 
-Greinin lýsir ferlinu við að útrýma viðskiptum fyrir fastafjármuni sem var fargað sem rusl. Færslutegundir sem hægt er að losa eru m.a. yfirtaka eignar og uppsafnaðar afskriftarfærslur og aðrar færslur fastra eigna. Losun þessara færslna hefur áhrif á efnahagsreikninga, svo sem aðlögun yfirtöku, afskriftarleiðréttingu, endurmat, niðurfærslu og niðurfærslu reikninga.
+Þessi grein lýsir ferlinu við að útiloka færslur með eign sem var fargað með rýrnun. Færslutegundir sem hægt er að losa eru m.a. yfirtaka eignar og uppsafnaðar afskriftarfærslur og aðrar færslur fastra eigna. Losun þessara færslna hefur áhrif á efnahagsreikninga, svo sem aðlögun yfirtöku, afskriftarleiðréttingu, endurmat, niðurfærslu og niðurfærslu reikninga.
 
 | Færsla                                         | Debet (Dr.) | Kredit (Cr.) |
 |-----------------------------------------------------|-------------|--------------|

@@ -1,6 +1,6 @@
 ---
 title: Setja upp reikningsreglur lánardrottins
-description: Þessi grein útskýrir hvernig á að setja upp reikningsreglur lánardrottins.
+description: Í þessari grein er útskýrt hvernig á að setja upp reikningsreglur lánardrottins.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 049b38b6feba5f4369d79b89b4c81a8195dd7758
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8904731"
@@ -24,11 +24,11 @@ ms.locfileid: "8904731"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp reikningsreglur lánardrottins. Reikningsreglur lánardrottins eru keyrðar þegar þú bókar reikning lánardrottins með því að nota **Reikningur seljanda** síðu og þegar þú opnar reikning lánardrottins **Brot á stefnu** síðu. Einnig er hægt að skilgreina verkflæði fyrir reikning lánardrottins til að keyra reikningsreglur lánardrottins í hvert skipti sem er sendur er reikning til verkflæðis. 
+Í þessari grein er útskýrt hvernig á að setja upp reikningsreglur lánardrottins. Reikningsreglur lánardrottins eru keyrðar þegar **reikningur lánardrottins** er bókaður með því að nota síðuna fyrir reikning Lánardrottins og þegar síðan fyrir **brot á reikningsreglum** lánardrottins er opnuð. Einnig er hægt að skilgreina verkflæði fyrir reikning lánardrottins til að keyra reikningsreglur lánardrottins í hvert skipti sem er sendur er reikning til verkflæðis. 
 
 - Reikningsreglur lánardrottins eiga ekki við reikninga sem voru stofnaðar í komubók eða reikningabók.  
-- Samsvörun reikninga notar ekki reikningsreglur lánardrottins, en er þess í stað sett upp í **Færibreytur viðskiptaskulda** síðu.  
-- Þessi skráning notar sýnigögn USMF fyrirtækis hlutverk viðskiptaskuldastjóri eða aðalbókari myndi framkvæma þessi skrefum. Áður en þú byrjar skaltu ganga úr skugga um að **Samsvörun reikninga** stillingarlykill er valinn.
+- Sannprófun á reikningsjöfnun notar ekki reikningsreglur lánardrottins, en er í staðinn sett upp á **Færibreytusíða viðskiptaskulda**.  
+- Þessi skráning notar sýnigögn USMF fyrirtækis hlutverk viðskiptaskuldastjóri eða aðalbókari myndi framkvæma þessi skrefum. Áður en hafist er handa þarf að ganga úr skugga um að skilgreiningarlykill **Reikningsjöfnunar** sé valinn.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Undirbúa stofnun stefna um reikninga lánardrottins

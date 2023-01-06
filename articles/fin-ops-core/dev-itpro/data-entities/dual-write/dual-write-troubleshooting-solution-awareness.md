@@ -1,6 +1,6 @@
 ---
 title: Úrræðaleita vandamál sem tengjast meðvitund um lausn
-description: Þessi grein veitir upplýsingar um úrræðaleit sem geta hjálpað þér að laga vandamál sem tengjast lausnavitund.
+description: Þessi grein veitir upplýsingar um úrræðaleit sem geta hjálpað þér að laga vandamál sem tengjast meðvitund um lausn.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: ramasri
 ms.search.validFrom: 2020-01-06
 ms.openlocfilehash: c70287cb8ec29fb622f3aefff971b884339e4205
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289425"
@@ -24,10 +24,10 @@ ms.locfileid: "9289425"
 
 
 
-Þessi grein veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli fjármála- og rekstrarforrita og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem tengjast meðvitund um lausn.
+Þessi grein veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita fjármála- og reksturs og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem tengjast meðvitund um lausn.
 
 > [!IMPORTANT]
-> Sum vandamálin sem þessi grein fjallar um gætu þurft annað hvort kerfisstjórahlutverkið eða Microsoft Azure Active Directory (Azure AD) leigjanda stjórnanda skilríki. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
+> Nokkur þeirra atriða sem þessi grein fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
 
 ## <a name="error-on-the-dual-write-page"></a>Villa á síðunni Tvíritun
 

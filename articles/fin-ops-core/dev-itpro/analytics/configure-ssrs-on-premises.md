@@ -1,6 +1,6 @@
 ---
 title: Skilgreina SQL Server Reporting Services fyrir staðbundna uppsetningu
-description: Þessi grein veitir upplýsingar um uppsetningu SQL Server Reporting Services (SSRS) fyrir uppsetningu á staðnum.
+description: Þessi grein veitir upplýsingar um grunnstillingu á SQL Server Reporting Services (SSRS) fyrir virkjun á staðnum.
 author: PeterRFriis
 ms.date: 06/23/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.service: ''
 ms.openlocfilehash: 9acb681ce07c3a7da82a630c7a87a4271a411b51
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9275417"
@@ -26,7 +26,7 @@ ms.locfileid: "9275417"
 
 [!include [banner](../includes/banner.md)]
 
-Notaðu skrefin í þessari grein til að stilla SQL Server Reporting Services (SSRS) fyrir þig Microsoft Dynamics 365 Finance + Operations (on-premises) dreifing.
+Notið skrefin í þessari grein til að grunnstilla SQL Server Reporting Services (SSRS) fyrir virkjun Microsoft Dynamics 365 Finance + Operations (on-premises).
 
 1. Opnaðu grunnstillingarstjóra skýrslugerðarþjónustu.
 2. Skildu eftir sjálfgefið **Þjónsnafn**, sem ætti að vera nafn vélarinnar sem er í notkun, og **Heiti skýrsluþjónstilviks**, **MSSQLSERVER**.

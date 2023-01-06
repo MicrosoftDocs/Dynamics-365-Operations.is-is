@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrsla ítarlegur ritill fyrir formúlu
-description: Þessi grein lýsir því hvernig hægt er að nota háþróaða formúluritlina til að stilla tjáningar í rafrænni skýrslugerð (ER) líkanavörpun og forsníða íhluti.
+description: Þessi grein lýsir því hvernig hægt er að nota háþróaða formúluritilinn til að stilla segðir í líkanavörpun rafrænnar skýrslugerðar (ER) og sniðhlutum.
 author: kfend
 ms.date: 06/17/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 ms.openlocfilehash: 269102028962cf1ebae599b9885f97871785a551
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9286218"
@@ -26,7 +26,7 @@ ms.locfileid: "9286218"
 
 [!include [banner](../includes/banner.md)]
 
-Í viðbót við [Rafræn skýrslugerð](general-electronic-reporting.md) [formúluritill](general-electronic-reporting-formula-designer.md) geturðu notað ítarlegan formúluritil rafrænnar skýrslugerðar til að bæta upplifunina af því að stilla segðir rafrænnar skýrslugerðar (ER). Ítarlegur ritillinn er byggður á vafra og knúinn af [Mónakó-ritli](https://microsoft.github.io/monaco-editor). Algengustu háþróuðu ritstjóraeiginleikunum er lýst í þessari grein:
+Í viðbót við [Rafræn skýrslugerð](general-electronic-reporting.md) [formúluritill](general-electronic-reporting-formula-designer.md) geturðu notað ítarlegan formúluritil rafrænnar skýrslugerðar til að bæta upplifunina af því að stilla segðir rafrænnar skýrslugerðar (ER). Ítarlegur ritillinn er byggður á vafra og knúinn af [Mónakó-ritli](https://microsoft.github.io/monaco-editor). Mest notuðu ítarlegu aðgerðum ritilsins er lýst í þessari grein:
 
 - [Sjálfvirk snið á kóðum](#Autoformatting)
 - [IntelliSense](#IntelliSense)
@@ -39,7 +39,7 @@ ms.locfileid: "9286218"
 
 ## <a name=""></a><a name="ActivateAdvEditor">Kveikja á ítarlega formúluritlinum</a>
 
-Ljúktu við eftirfarandi skref til að byrja að nota háþróaða formúluritlina í þínu tilviki Microsoft Dynamics 365 Fjármál.
+Ljúktu eftirfarandi skrefum til að byrja að nota ítarlega formúluritara í þínu tilviki Microsoft Dynamics 365 Finance.
 
 1.  Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
 2.  Á síðunni **Skilgreiningar**, í aðgerðarúðunni, í flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.
@@ -50,7 +50,7 @@ Ljúktu við eftirfarandi skref til að byrja að nota háþróaða formúluritl
 > [!NOTE]
 > Hafðu í huga að þessi færibreyta er notandasértæk og fyrirtækjasértæk.
 
-Byrjar inn Microsoft Dynamics 365 Finance útgáfa 10.0.19, þú getur stjórnað hvaða ER formúluritli er í boði sjálfgefið. Ljúkið eftirfarandi skrefum til að virkja ítarlegan formúluritil fyrir alla notendur og fyrirtæki núverandi fjármálatilviks.
+Frá og með Microsoft Dynamics 365 Finance útgáfu 10.0.19 er hægt að stjórna því hvaða formúluritill rafrænnar skýrslugerðar er sjálfgefið boðið upp á. Ljúkið eftirfarandi skrefum til að virkja ítarlegan formúluritil fyrir alla notendur og fyrirtæki núverandi fjármálatilviks.
 
 1.  Opnaðu vinnusvæðið **Eiginleikastjórnun**.
 2.  Finnið og veljið eiginleikann **Stilla ítarlegan formúluritil rafrænnar skýrslugerðar sem sjálfgefinn fyrir alla notendur** úr listanum og veljið síðan **Virkja núna**.

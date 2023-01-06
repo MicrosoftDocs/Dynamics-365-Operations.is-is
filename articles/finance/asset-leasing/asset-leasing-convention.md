@@ -1,6 +1,6 @@
 ---
 title: Viðteknar reglur eignarleigu
-description: Þessi grein lýsir venjum um leigðar eignir.
+description: Þessi grein lýsir viðteknum reglum fyrir leigðar eignir.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
 ms.openlocfilehash: f2f0e21b20a969c0847ce3a6eb167287c1d7ee3e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8898270"
@@ -27,7 +27,7 @@ ms.locfileid: "8898270"
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þessi grein lýsir venjum um leigðar eignir. Viðteknar reglur leigusamninga eru notaðar til að ákvarða upphafsdag leigubókar. Ef viðtekin regla leigusamnings er stillt á **Engin** er upphafsdagurinn sá sami og upphafsdagsetning leigusamningsins (þ.e. gildið í reitnum **Upphafsdagsetning leigusamnings**). Ef viðtekin regla leigusamnings er stillt á **Heill mánuður** er upphafsdagurinn fyrsti dagur mánaðarins sem upphafsdagsetning leigusamningings fellur undir.
+Þessi grein lýsir viðteknum reglum fyrir leigðar eignir. Viðteknar reglur leigusamninga eru notaðar til að ákvarða upphafsdag leigubókar. Ef viðtekin regla leigusamnings er stillt á **Engin** er upphafsdagurinn sá sami og upphafsdagsetning leigusamningsins (þ.e. gildið í reitnum **Upphafsdagsetning leigusamnings**). Ef viðtekin regla leigusamnings er stillt á **Heill mánuður** er upphafsdagurinn fyrsti dagur mánaðarins sem upphafsdagsetning leigusamningings fellur undir.
 
 Upphafsdagurinn ákvarðar upphafsdagsetningu tímabilsins fyrir afskriftaráætlun leiguskuldbindingar og eignar. Vaxtakostnaður og afskriftakostnaður eru bókaðir á lokadagsetningu tímabils samsvarandi áætlana. Upphafleg skráningarfærsla og færsla í leiðréttingabók eru bókaðar á upphafsdeginum.
 

@@ -1,6 +1,6 @@
 ---
 title: Innfella forrit þriðja aðila
-description: Þessi grein útskýrir hvernig á að fella inn forrit frá þriðja aðila til að auka virkni vörunnar.
+description: Þessi grein útskýrir hvernig á að innfella forrit þriðja aðila til að auka virkni vörunnar.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
 ms.openlocfilehash: ef5ed6c3c99d62010643940f3e2f158963ff0dc2
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9123719"
@@ -24,9 +24,9 @@ ms.locfileid: "9123719"
 
 [!include [banner](../includes/banner.md)]
 
-Margir viðskiptavinir nota ýmis forrit til að reka fyrirtæki sín. Sum þessara forrita eru vefforrit þriðja aðila sem virka í tengslum við fjármála- og rekstrarforrit. Til að veita óaðfinnanlegri notendaupplifun geturðu notað **Heilsíðuforrit** eiginleika til að fella þessi þriðju aðila öpp beint inn í fjármála- og rekstraröppin þín (að því gefnu að þriðju aðila öppin leyfi sér að vera felld inn). Á þennan hátt geta notendur fengið aðgang að vefsvæðum og forritum sem þeir þurfa án þess að þurfa að skipta um flipa eða glugga.
+Margir viðskiptavinir nota ýmis forrit til að reka fyrirtæki sín. Sum þessara forrita eru vefforrit frá þriðja aðila sem virka ásamt forritum fjármála- og reksturs. Til að bjóða upp á hnökralausari notendaupplifun er hægt að nota eiginleikann **Heilsíðuforrit** til að fella þessi forrit þriðja aðila beint inn í fjármála- og reksturs-forritin (svo lengi sem forrit þriðja aðila leyfa innfellingu). Á þennan hátt geta notendur fengið aðgang að vefsvæðum og forritum sem þeir þurfa án þess að þurfa að skipta um flipa eða glugga.
 
-Áður en hægt er að fella forrit þriðja aðila inn í afurðina þarf að kveikja á eiginleikanum **Heilsíðuforrit** í eiginleikastjórnun. Síðan er hægt að nota eina af eftirfarandi aðferðum til að fella inn forrit eða vefsvæði þriðja aðila. Þessar aðferðir eru hliðstæðar aðferðunum sem eru notaðar til að fella inn strigaforrit frá Microsoft Power Apps inn í fjármála- og rekstraröpp.
+Áður en hægt er að fella forrit þriðja aðila inn í afurðina þarf að kveikja á eiginleikanum **Heilsíðuforrit** í eiginleikastjórnun. Síðan er hægt að nota eina af eftirfarandi aðferðum til að fella inn forrit eða vefsvæði þriðja aðila. Þessar aðferðir eru hliðstæðar þeim aðferðum sem notaðar eru til að fella inn vinnusvæðaforrit úr Microsoft Power Apps í fjármála- og reksturs-forrit.
 
 - Fellið forritið eða vefsvæðið inn í fyrirliggjandi síðu sem síðu á nýjum flipa (snúningsflipa, flýtiflipa, blaði eða vinnusvæði).
 - Búið til nýja heilsíðuupplifun fyrir forritið eða vefsvæðið úr stjórnborðinu.
@@ -53,14 +53,14 @@ Notið þessa aðferð til að bæta við síðu sem er til í kerfinu með innf
     > - Stilla þarf forritið eða vefsvæðið þannig að það leyfi innfellingu.
 
 6. Veljið **Vista** til að fella forritið inn á síðuna. Forritinu er bætt við sem síðasta flipanum eða hlutanum í flokknum.
-7. Staðfestið að forritið birtist eins og búist var við. Ef appið er ekki birt, sjáðu [Bilanagreining](#troubleshooting) kafla síðar í þessari grein.
+7. Staðfestið að forritið birtist eins og búist var við. Ef forritið kemur ekki fram skal skoða hlutann [Úrræðaleit](#troubleshooting) síðar í þessari grein.
 8. Opnið yfirlitsvalið og veljið annaðhvort **Vista** (ef forritið á að vera tengd við núverandi yfirlit) eða **Vista sem** (til að vista forritið í annað yfirlit).
 
     Ef síðan er ekki með yfirlitsval (t.d. ef síðan er svargluggi eða vinnusvæði) er hægt að sleppa þessu skrefi.
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Fella inn vefsvæði sem heilsíðuupplifun úr stjórnborðinu
 
-Notaðu þessa aðferð ef forritið sem þú vilt fella inn er ekki tengt núverandi síðu eða ef þú vilt bara upplifun á heilsíðu fyrir appið í fjármála- og rekstrarappinu.
+Notið þetta ferli ef forritið sem ætlunin er að fella inn er ekki tengt núverandi síðu eða ef ætlunin er einfaldlega að hafa heilsíðuupplifun fyrir forritið inni í forriti fjármála- og reksturs.
 
 1. Opnið stjórnborð.
 2. Veljið og haldið inni stjórnborðinu (eða hægrismellið á það), veljið **Sérstilla** og veljið því næst **Bæta við síðu**.
@@ -75,7 +75,7 @@ Notaðu þessa aðferð ef forritið sem þú vilt fella inn er ekki tengt núve
     > - Stilla þarf forritið eða vefsvæðið þannig að það leyfi innfellingu.
 
 5. Veljið **Vista** til að bæta forritinu við stjórnborðið sem nýjan reit.
-6. Veljið nýja reitinn á stjórnborðinu og staðfestið að forritið birtist eins og búast má við. Ef ekki er verið að birta forritið skaltu skoða [Bilanagreining](#troubleshooting) kafla síðar í þessari grein.
+6. Veljið nýja reitinn á stjórnborðinu og staðfestið að forritið birtist eins og búast má við. Ef forritið kemur ekki fram skal skoða hlutann [Úrræðaleit](#troubleshooting) síðar í þessari grein.
 
 ## <a name="sharing-embedded-apps"></a>Deiling innfelldra forrita
 
@@ -89,7 +89,7 @@ Notaðu þessa aðferð ef forritið sem þú vilt fella inn er ekki tengt núve
 
 ## <a name="viewing-embedded-apps"></a>Skoða innfelld forrit
 
-Til að skoða innfellt forrit á síðu í fjármála- og rekstrarforritum skaltu opna síðuna sem hefur innfellda appið. Munið að á sumum síðum er hægt að opna forrit með því að nota hnappinn **Power Apps** á staðlaða aðgerðasvæðinu. Að öðrum kosti kunna þær að birtast beint á síðunni sem nýr flipi eða flýtiflipi eða blað eða sem nýr hluti á vinnusvæði.
+Til að skoða innfellt forrit á síðu í forritum fjármála- og reksturs skal opna síðu sem er með innfellt forrit. Munið að á sumum síðum er hægt að opna forrit með því að nota hnappinn **Power Apps** á staðlaða aðgerðasvæðinu. Að öðrum kosti kunna þær að birtast beint á síðunni sem nýr flipi eða flýtiflipi eða blað eða sem nýr hluti á vinnusvæði.
 
 ## <a name="editing-or-removing-embedded-apps"></a>Breyta eða fjarlægja innfelld forrit
 
@@ -126,7 +126,7 @@ Ef vefsvæði birtast ekki á réttan hátt eftir innfellingu í forriti Finance
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[Þróunaraðili] Vefsvæði smíðað í skjámynd
 
-Þrátt fyrir að þessi grein sé lögð áhersla á að fella inn forrit eða vefsíður þriðja aðila með sérstillingu, geta verktaki einnig fellt þau inn í form með því að nota Visual Studio reynslu af þróun. Bætið einfaldlega stýringu **WebsiteHostControl** við skjámyndina. Lýsigagnaeiginleikarnir sem eru í boði fyrir stýringuna bjóða upp á sömu möguleika og sérstillingarleiðin.
+Þrátt fyrir að þessig rein einblíni á það að fella inn forrit og vefsvæði þriðja aðila í gegnum sérstillingu, geta þróunaraðilar einnig fellt þau inn í skjámynd með því að nota þróunarviðmót Visual Studio. Bætið einfaldlega stýringu **WebsiteHostControl** við skjámyndina. Lýsigagnaeiginleikarnir sem eru í boði fyrir stýringuna bjóða upp á sömu möguleika og sérstillingarleiðin.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

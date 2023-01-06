@@ -1,6 +1,6 @@
 ---
 title: NUMERALSTOTEXT ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig NUMERALSTOTEXT Rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig NUMERALSTOTEXT rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 12/10/2019
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 172693583699edfad7deeb16f8fc081abb6119d5
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9287989"

@@ -1,6 +1,6 @@
 ---
 title: Setja upp dótturfyrirtæki lögaðila fyrir sameiningu
-description: Þessi grein útskýrir hvernig á að vinna með bókhaldsyfirlit fyrir samstæðufyrirtæki.
+description: Þessi grein útskýrir hvernig eigi að vinna með bókhaldslykla fyrir samstæðufyrirtæki.
 author: jinniew
 ms.date: 10/30/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: 8.0.1
 ms.openlocfilehash: 00a1f442edc80c6aa9e24a060cefa0f3691c5148
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8849874"
@@ -29,7 +29,7 @@ Aðferðin sem notuð er til að útbúa reikninga dótturfyrirtækis fyrir sams
 Áður en hafist er handa við samsetninguna sem hluti af lokun í lok tímabils, þarf að klára undirbúningsverkþætti fyrir lokun tímabils, en ekki á að loka dótturfyrirtækjalyklunum þar til samsetningunni er lokið. Frekari upplýsingar um lokun í lok tímabils er að finna í [Loka fjárhag í lok tímabils](close-general-ledger-at-period-end.md) og [Loka reikningsárinu](tasks/close-fiscal-year.md).
 
 > [!NOTE]
->  Við mælum með að þú notir Management Reporter fyrir Microsoft Dynamics 365 Fjármál til að sameina fjárhagsniðurstöður margra lögaðila á samstæðusniði. Stjórnunarskýrsla gerir þér kleift að búa til samstæðufjárhagsskýrslur þvert á lögaðila, nota Excel til að flytja inn samstæðugögn frá öðrum aðilum og þýða upphæðir í hvaða fjölda skýrslugjaldmiðla sem er án þess að þurfa að keyra samstæðuferlið í Dynamics 365 Finance.
+>  Mælt er með því að nota Management Reporter fyrir Microsoft Dynamics 365 Finance til að sameina fjárhagsniðurstöður fyrir marga lögaðila á sameinuðu sniði. Management Reporter gerir kleift að stofna sameinaðar fjárhagsskýrslur yfir alla lögaðila, nota Excel til að flytja inn samstæðugögn frá öðrum upprunum og umbreyta upphæðum í hvaða fjölda skýrslugjaldmiðla sem er án þess að þurfa að keyra sameiningarferlið í Dynamics 365 Finance.
 
 ## <a name="map-subsidiary-main-accounts-to-consolidated-main-accounts"></a>Aðallyklum dótturfyrirtækis varpað í sameinaða aðallykla
 

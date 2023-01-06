@@ -1,6 +1,6 @@
 ---
 title: Einingar notandaviðmóts
-description: Þessi grein lýsir notendaviðmótsþáttum (UI) í appinu.
+description: Þessi grein lýsir notendaviðmótaþáttum í forritinu.
 author: jasongre
 ms.date: 08/09/2019
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: de6e4f8472cf73fb1d9874a57442622c0da23b54
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9275943"
@@ -24,7 +24,7 @@ ms.locfileid: "9275943"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þessi grein lýsir notendaviðmótsþáttum (UI) sem notaðir eru í appinu. Áður en notendur geta farið í viðmótið er mikilvægt að þekkja heiti og aðgerðir þátta sem mynda viðmótið.
+Þessi grein lýsir notendaviðmótaþáttum sem eru notaðir í forritinu. Áður en notendur geta farið í viðmótið er mikilvægt að þekkja heiti og aðgerðir þátta sem mynda viðmótið.
 
 ## <a name="overview"></a>Yfirlit
 

@@ -1,6 +1,6 @@
 ---
 title: DATETODATETIME ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig DATETODATETIME rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig DATETODATETIME rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 12/04/2019
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 30fe75c7fd68edfff3e3778192723792d0f342ab
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9287309"
@@ -47,7 +47,7 @@ Dagsetningar-/tímagildið sem verður til.
 
 ## <a name="example-1"></a>Dæmi 1
 
-`DATETODATETIME (CompInfo. 'getCurrentDate()')` skilar dagsetningu núverandi Microsoft Dynamics 365 Fjármálaþing, 24. desember 2015, sem **24/12/2015 12:00:00**. Í þessu dæmi, **CompInfo** er rafræn skýrslugerð (ER) gagnagjafi **fjármál og rekstur/Tafla** gerð, og það vísar í CompanyInfo töfluna.
+`DATETODATETIME (CompInfo. 'getCurrentDate()')` skilar dagsetningu núverandi Microsoft Dynamics 365 Finance lotu, 24. desember 2015, frá og með **24/12/2015 kl. 00:00**. Í þessu dæmi er **CompInfo** gagnagjafi rafrænnar skýrslugerðar fyrir gerðina **fjármála- og reksturs/tafla** og vísar til CompanyInfo-töflunnar.
 
 ## <a name="example-2"></a>Dæmi 2
 

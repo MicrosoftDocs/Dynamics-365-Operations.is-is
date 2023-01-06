@@ -1,6 +1,6 @@
 ---
 title: Sýnishorn af ávísunum lánardrottins í rafrænni skýrslugerð
-description: Þessi grein veitir almennar upplýsingar um hvernig á að nota snið fyrir sýnishorn rafrænna skýrslugerðar.
+description: Þessi grein inniheldur almennar upplýsingar um hvernig á að nota sýnishornasnið rafrænnar skýrslugerðar ávísana.
 author: mrolecki
 ms.date: 06/14/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 6863acaa264cfb8f15c34e85811a94afc67bec5e
 ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/25/2022
 ms.locfileid: "9715211"
@@ -28,9 +28,9 @@ Hægt er að nota rafræna skýrslugerð (ER) til að sníða ávísanir lánard
 
 ## <a name="what-check-formats-are-currently-supported"></a>Hvað ávísanasnið eru studd eins og stendur?
 
-Alltaf skal fara eignasafnið Samnýtt eign í Microsoft Dynamics Lifecycle Services (LCS) og skoða nýjasta lista yfir tiltækar skrár af eignargerðinni **GER-skilgreining**. Næsti hluti, "Hvað þarf ég að setja upp?" inniheldur tengil á grein sem útskýrir hvernig á að búa til LCS geymslu svo þú getir skoðað tiltækar stillingar og flutt inn valdar stillingar.
+Alltaf skal fara eignasafnið Samnýtt eign í Microsoft Dynamics Lifecycle Services (LCS) og skoða nýjasta lista yfir tiltækar skrár af eignargerðinni **GER-skilgreining**. Næsti hluti „Hvað þarf að setja upp?“ veitir tengla í grein þar sem útskýrt er hvernig búa á til LCS-geymslu svo að hægt sé að fara yfir tiltækar stillingar og flytja inn valdar stillingar.
 
-Microsoft Dynamics 365 Finance inniheldur sýnishornssnið þar sem ávísunin er efst, á eftir koma tveir greiðsluhlutar. Það felur líka í sér sýnishorn snið þar sem ávísun er í miðju, á milli tveggja greiðsluhluta. Þessa sýnishornasnið samsvara ávísanasniðum Deluxe viðskipta.
+Microsoft Dynamics 365 Finance inniheldur sýnisnið þar sem ávísunin er efst og síðan fylgja tveir greiðsluhlutar. Það felur líka í sér sýnishorn snið þar sem ávísun er í miðju, á milli tveggja greiðsluhluta. Þessa sýnishornasnið samsvara ávísanasniðum Deluxe viðskipta.
 
 ## <a name="what-do-i-have-to-set-up"></a>Hvað þarf að setja upp?
 

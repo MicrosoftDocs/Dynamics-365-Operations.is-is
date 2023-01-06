@@ -1,6 +1,6 @@
 ---
 title: Hanna nýja skilgreiningu rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði
-description: Þessi grein útskýrir hvernig notendur geta stillt nýtt rafræna skýrslugerð (ER) til að búa til skýrslur sem Microsoft Word skjöl.
+description: Þessi grein útskýrir hvernig notendur geta skilgreint nýtt snið rafrænnar skýrslugerðar til að búa til skýrslur sem Microsoft Word-skjöl.
 author: kfend
 ms.date: 12/17/2020
 ms.topic: business-process
@@ -17,7 +17,7 @@ ms.search.form:
 - LedgerJournalTable, LedgerJournalTransVendPaym
 ms.openlocfilehash: b56b328aa2a2b53dc177a02a4d453e5dbcb8340c
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9273339"
@@ -30,7 +30,7 @@ Til að búa til skýrslur sem Microsoft Word-skjöl þarf að hanna sniðmát f
 
 ![Dæmi um sniðmát fyrir stjórnunarskýrsluna í skjáborðsforriti Word.](./media/er-design-configuration-word-image1.png)
 
-Til að nota Word-skjal sem sniðmát fyrir skýrslur á Word-sniði er hægt að skilgreina nýja [rafræna skýrslugerðar](general-electronic-reporting.md) [lausn](er-quick-start1-new-solution.md). Þessi lausn verður að innihalda bráðamóttöku [uppsetningu](general-electronic-reporting.md#Configuration) sem inniheldur ER-sniðshluta.
+Til að nota Word-skjal sem sniðmát fyrir skýrslur á Word-sniði er hægt að skilgreina nýja [rafræna skýrslugerðar](general-electronic-reporting.md) [lausn](er-quick-start1-new-solution.md). Þessi lausn verður að fela í sér [skilgreiningu](general-electronic-reporting.md#Configuration) rafrænnar skýrslugerðar sem inniheldur sniðshlut rafrænnar skýrslugerðar.
 
 > [!NOTE]
 > Þegar ný skilgreining rafræns skýrslugerðarsniðs er búin til þannig að hún búi til skýrslur á Word-sniði þarf annaðhvort að velja **Word** sem sniðgerð í fellilistaglugganum **Stofna skilgreiningu** eða skilja reitinn **Sniðsgerð** eftir auðan.

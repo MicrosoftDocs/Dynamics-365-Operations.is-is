@@ -1,6 +1,6 @@
 ---
 title: Hengja TDS-skattkóða við TDS-skattflokka og skilgreina formúluna fyrir útreikning TDS
-description: Þessi grein útskýrir hvernig á að setja upp skattfrádregna skattaflokka (TDS) og tengja TDS skattkóða við TDS skattaflokka. Til að reikna út TDS fyrir TDS-skattflokk þarf að skilgreina formúluna fyrir TDS-skattkóða sem eru hengdir við hana.
+description: Í þessari grein er útskýrt hvernig á að setja upp TDS-skattflokka og hengja TDS-skattkóða við TDS-skattflokka. Til að reikna út TDS fyrir TDS-skattflokk þarf að skilgreina formúluna fyrir TDS-skattkóða sem eru hengdir við hana.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: 3607e44bdcf7a32b156e6b4639ef907aa923cadc
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8853315"
@@ -26,7 +26,7 @@ ms.locfileid: "8853315"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp skattfrádregna skattaflokka (TDS) og tengja TDS skattkóða við TDS skattaflokka. Til að reikna út TDS fyrir TDS-skattflokk þarf að skilgreina formúluna fyrir TDS-skattkóða sem eru hengdir við hana.
+Í þessari grein er útskýrt hvernig á að setja upp TDS-skattflokka og hengja TDS-skattkóða við TDS-skattflokka. Til að reikna út TDS fyrir TDS-skattflokk þarf að skilgreina formúluna fyrir TDS-skattkóða sem eru hengdir við hana.
 
 Fylgið þessum skrefum til að setja upp TDS-skattflokk, hengja TDS-skattkóða við hann, og skilgreina formúluna fyrir útreikning TDS.
 

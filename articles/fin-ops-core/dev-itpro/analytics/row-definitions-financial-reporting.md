@@ -17,7 +17,7 @@ ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
 ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9274694"
@@ -42,7 +42,7 @@ Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar rað
 Línuskilgreining getur innihaldið allt að 20.000 fjárhagsvíddaarlínur og haft eftirfarandi upplýsingar:
 
 - Lýsandi texti sem bætir merkingu við skýrsluna með því að stofna hlutafyrirsagnir, línur og bil, s.s. **Reiðufé** eða **Heildartekjur**
-- Tenglar á fjárhagsgögn, sem geta innihaldið víddargildi í Microsoft Dynamics 365 Fjármál
+- Tenglar í fjárhagsgögn, sem geta innihaldið víddargildi í Microsoft Dynamics 365 Finance
 
     > [!NOTE]
     > Setja má upp línuskilgreiningu til að sækja gögn úr fjárhagsvíddarkerfinu í hvert sinn sem skýrslan er mynduð.

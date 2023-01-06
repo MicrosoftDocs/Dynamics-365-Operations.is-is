@@ -1,6 +1,6 @@
 ---
 title: Setja upp og búa til afskriftarreglur
-description: Þetta ferli sýnir hvernig afskriftasnið ákvarða tegund og tíðni afskrifta fyrir eign.
+description: Þetta ferli sýnir hvernig afskriftareglur ákvarða tegund og tíðni afskriftar fyrir eigna.
 author: moaamer
 ms.date: 08/12/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 045aea8f4bc15039a0e26c75128c7e97717fab5b
 ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/07/2022
 ms.locfileid: "8725625"

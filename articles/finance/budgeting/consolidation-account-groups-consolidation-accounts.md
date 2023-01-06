@@ -1,6 +1,6 @@
 ---
 title: Hópar samstæðulykla og samstæðulyklar til viðbótar
-description: Þessi grein veitir upplýsingar um samstæðureikningaflokka og viðbótarsamstæðureikninga og útskýrir hvernig þeir eru notaðir.
+description: Þessi grein veitir upplýsingar um flokka samstæðulykla og viðbótar samstæðulykla og útskýrir hvernig þeir eru notaðir.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 9e66190fe0bab24545bf19eba59facded63ee197
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8882021"
@@ -26,11 +26,11 @@ ms.locfileid: "8882021"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um samstæðureikningaflokka og viðbótarsamstæðureikninga og útskýrir hvernig þeir eru notaðir.
+Þessi grein veitir upplýsingar um flokka samstæðulykla og viðbótar samstæðulykla og útskýrir hvernig þeir eru notaðir.
 
 ## <a name="consolidation-account-groups"></a>Flokkar samstæðulykla
 
-Flokkar samstæðulykla gera þér kleift að stofna flokk þeirra lykla sem þú vilt nota til að sameina gögn. Venjulega táknar samstæðureikningahópur ríkisreikningaskrá. Samstæðureikningahópur getur einnig varpað reikningum við hóp sem er skilgreindur af höfuðstöðvum fyrirtækisins. Hægt er að finna flokka samstæðulykla í svæðinu **Setja upp** í einingunni **Samstæður**. Þegar þú bætir við nýjum hópi slærðu inn einstakt auðkenni fyrir reikningshópinn, auk nafns.
+Flokkar samstæðulykla gera þér kleift að stofna flokk þeirra lykla sem þú vilt nota til að sameina gögn. Venjulega táknar hópur samstæðureiknings bókhaldslykil stjórnvalda. Samstæðulykill getur einnig kortlagt lykla í hóp sem er skilgreindur af höfuðstöðvum félagsins. Hægt er að finna flokka samstæðulykla í svæðinu **Setja upp** í einingunni **Samstæður**. Þegar nýjum flokki er bætt við skal færa inn einkvæmt kenni fyrir lyklaflokkinn sem og heiti.
 
 ## <a name="additional-consolidation-accounts"></a>Fleiri samstæðulyklar
 Fleiri samstæðulyklar gera þér kleift að úthluta lykli úr fyrirliggjandi bókhaldslykill til samstæðulykill flokkur. Síðan er hægt að tilgreina samstæðulykill gildi og heiti. 

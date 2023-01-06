@@ -1,6 +1,6 @@
 ---
 title: Setja upp greiðsluáætlanir með TDS-úthlutun
-description: Þessi grein útskýrir hvernig á að setja upp greiðsluáætlanir með úthlutun frá skatti frá uppruna (TDS).
+description: Í þessari grein er útskýrt hvernig á að setja upp greiðsluáætlanir fyrir skattaúthlutanir sem er dreginn frá upprunalegri greiðslu (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: 48891c32f39b743ce26e265c5682dab28ecb4b27
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8868313"
@@ -26,7 +26,7 @@ ms.locfileid: "8868313"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp greiðsluáætlanir með úthlutun frá skatti frá uppruna (TDS).
+Í þessari grein er útskýrt hvernig á að setja upp greiðsluáætlanir fyrir skattaúthlutanir sem er dreginn frá upprunalegri greiðslu (TDS).
 
 1. Farið í **Viðskiptaskuldir \> Greiðsluuppsetning \> Greiðsluáætlanir**.
 

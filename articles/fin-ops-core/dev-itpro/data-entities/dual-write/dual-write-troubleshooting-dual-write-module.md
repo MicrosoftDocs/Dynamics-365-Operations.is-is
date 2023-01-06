@@ -1,6 +1,6 @@
 ---
 title: Úrræðaleit vandamála vegna tvöfaldrar skráningar í fjármála- og rekstrarforritum
-description: Þessi grein veitir upplýsingar um bilanaleit sem geta hjálpað þér að laga vandamál með Dual-write eininguna í fjármála- og rekstrarforritum.
+description: Þessi grein veitir bilanaleit sem getur hjálpað þér að laga vandamál með tvískrifunareiningunni í forritum fjármála- og reksturs.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: ramasri
 ms.search.validFrom: 2020-03-16
 ms.openlocfilehash: 5678cd38e48eb5226e36851679436d3b6c117cf9
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289575"
@@ -22,12 +22,12 @@ ms.locfileid: "9289575"
 
 
 
-Þessi grein veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli fjármála- og rekstrarforrita og Dataverse. Nánar tiltekið veitir það upplýsingar sem geta hjálpað þér að laga vandamál með **Tvöfalt skrifa** mát í fjármála- og rekstraröppum.
+Þessi grein veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita fjármála- og reksturs og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál með **tvískrifunareiningunni** í forritum fjármála- og reksturs.
 
 > [!IMPORTANT]
-> Sum vandamálin sem þessi grein fjallar um gætu þurft annað hvort kerfisstjórahlutverkið eða Microsoft Azure Active Directory (Azure AD) leigjanda stjórnanda skilríki. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
+> Nokkur þeirra atriða sem þessi grein fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Þú getur ekki hlaðið tvískriftareiningunni í fjármála- og rekstrarforrit
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Ekki er hægt að hlaða einingu tvískiptrar skriftar í forriti fjármála- og reksturs
 
 Ef þú getur ekki opnað síðuna **Tvöfalt skrif** með því að velja reitinn **Tvöfalt skrif** á vinnusvæðinu **Gagnastjórnun** liggur gagnasamstillingarónustan líklega niðri. Búðu til stuðningseðil til að biðja um endurræsingu gagnasamstillingarþjónustunnar.
 
@@ -49,7 +49,7 @@ Til að laga málið, skráðu þig inn með því að nota InPrivate glugga í 
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Villa þegar tengt er við umhverfi fyrir tvöfalda skráningu eða nýrri töfluvörpun er bætt við
 
-**Áskilið hlutverk til að laga málið:** Kerfisstjóri bæði í fjármála- og rekstraröppum og Dataverse.
+**Nauðsynlegt hlutverk til að laga vandann:** Kerfisstjóri í bæði forritum fjármála- og reksturs og Dataverse.
 
 Þú gætir lent í eftirfarandi villu þegar þú tengir eða býrð til kort:
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Þessi villa getur komið fram ef þú hefur ekki nægar heimildir til að tengja tvöfalt skrif eða búa til kort. Þessi villa getur einnig komið upp ef Dataverse-umhverfið var endurstillt án þess að aftengja tvískipt skrif. Allir notendur með hlutverk kerfisstjóra í bæði fjármála- og rekstrarforritum og Dataverse getur tengt umhverfið. Eingöngu notandinn sem setti upp tengingu tvöfaldrar skráningar getur bætt við nýjum töfluvörpunum. Eftir uppsetningu getur allir notendur með hlutverk kerfisstjóra fylgst með stöðunni og breytt vörpununum.
+Þessi villa getur komið fram ef þú hefur ekki nægar heimildir til að tengja tvöfalt skrif eða búa til kort. Þessi villa getur einnig komið upp ef Dataverse-umhverfið var endurstillt án þess að aftengja tvískipt skrif. Sérhver notandi með hlutverk kerfisstjóra í bæði forritum fjármála- og reksturs og Dataverse getur tengt umhverfin. Eingöngu notandinn sem setti upp tengingu tvöfaldrar skráningar getur bætt við nýjum töfluvörpunum. Eftir uppsetningu getur allir notendur með hlutverk kerfisstjóra fylgst með stöðunni og breytt vörpununum.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Villa þegar töfluvörpun er stöðvuð
 
@@ -71,18 +71,18 @@ Root activity ID: \<your root activity\> id
 
 Til að laga málið, stofnaðu miða fyrir Data Integration teymið. Festu netsporið svo að gagnasamstillingarteymið geti merkt kortin sem **Ekki í gangi** í bakvinnslunni.
 
-## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Virkjaðu samhliða vinnslu í fjármála- og rekstraröppum til að bæta árangur
+## <a name="enable-parallel-processing-in-finance-and-operations-apps-to-improve-performance"></a>Virkja samhliða vinnslu í forritum fjármála- og reksturs til að auka afköst
 
-Með því að virkja samhliða vinnslu getur það dregið úr þeim tíma sem þarf til að flytja inn gögn úr Dynamics 365 forritum fyrir þátttöku viðskiptavina og Microsoft Dataverse að fjármögnunar- og rekstraröppum. 
+Með því að virkja samhliða vinnslu er hægt að draga úr tímanum sem þarf til að flytja inn gögn úr forritum Dynamics 365 Customer Engagement og Microsoft Dataverse til forrita fjármála- og reksturs. 
 
-Til að virkja samhliða vinnslu í fjármála- og rekstrarforritum skaltu ljúka eftirfarandi skrefum.
+Til að virkja samhliða vinnslu í forritum fjármála- og reksturs skal ljúka eftirfarandi skrefum.
 
-1. Skráðu þig inn í þitt fjármála- og rekstrarumhverfi.
-2. Fara til **Gagnastjórnun > Framework færibreytur**.
-3. Veldu **Einingastillingar** og veldu **Stilla framkvæmdarfæribreytur eininga**.
-4. Bættu við breytum fyrir samhliða vinnslu:
-    - **Fjöldi innflutningsþröskulda** – Fjöldi skráa sem þarf að uppfylla áður en samhliða vinnsla er virkjuð.
-    - **Innflutningsfjöldi verkefna** – Fjöldi þráða (verkefna) sem á að keyra samhliða.
+1. Skrá inn í umhverfið fjármála- og reksturs.
+2. Fara í **Gagnastjórnun > Færibreytur ramma**.
+3. Veldu **Einingastillingar** og veldu **Skilgreina framkvæmdafæribreytur einingar**.
+4. Bæta við færibreytum fyrir samhliða vinnslu:
+    - **Færslufjöldi innflutningsmarka** – Færslufjöldi sem þarf að uppfylla áður en samhliða vinnsla er virkjuð.
+    - **Fjöldi innflutningsverkefna** – Fjöldi þráða (verkefna) sem á að keyra samhliða.
 5. Veldu **Vista**.
 
 
@@ -97,7 +97,7 @@ Til að virkja samhliða vinnslu í fjármála- og rekstrarforritum skaltu ljúk
 Þegar þú reynir að stilla stöðu vörpunar á **Í gangi** gætir þú fengið þessa villu. Lagfæringin fer eftir orsök villunnar:
 
 + Ef vörpunin er með háðar varpanir skaltu ganga úr skugga um að virkja háðar varpanir fyrir þessa töfluvörpun.
-+ Hugsanlega vantar í vörpunina dálka upprunastaðar eða viðtökustaðar. Ef dálk í fjármála- og rekstrarappinu vantar skaltu fylgja skrefunum í hlutanum [Vantar töfludálka vandamál á kortum](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ef dálk vantar í Dataverse skal smella á hnappinn **Uppfæra töflur** í vörpununum svo dálkarnir fyllist sjálfkrafa út í vörpuninni.
++ Hugsanlega vantar í vörpunina dálka upprunastaðar eða viðtökustaðar. Ef það vantar dálk í forrit fjármála- og reksturs  skaltu fylgja eftirfarandi skrefum í hlutanum [Vandamál vegna töfludálka sem vantar í varpanir](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Ef dálk vantar í Dataverse skal smella á hnappinn **Uppfæra töflur** í vörpununum svo dálkarnir fyllist sjálfkrafa út í vörpuninni.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Villa vegna misræmis í útgáfu og lausnir tvöfaldrar skráningar uppfærðar
 

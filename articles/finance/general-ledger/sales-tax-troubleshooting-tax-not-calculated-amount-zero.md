@@ -1,6 +1,6 @@
 ---
 title: Skatturinn er ekki reiknaður eða skattupphæðin er núll
-description: Þessi grein veitir upplýsingar um úrræðaleit sem geta hjálpað þegar skattupphæðin er 0 (núll) eða skattur er ekki reiknaður.
+description: Þessi grein inniheldur villuleitarupplýsingar sem geta hjálpað þegar skattaupphæðin er 0 (núll) eða skatturinn er ekki reiknaður.
 author: shtao
 ms.date: 04/01/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: f2a5bb0d1cef93ec1fea2e21c1750fe94a454c18
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8849845"

@@ -1,6 +1,6 @@
 ---
 title: VSK-upplýsingar eftir fjárhagsfærslum (skýrsla)
-description: Þessi grein útskýrir hvernig á að nota skýrsluna Vöruskilgreining eftir fjárhagsfærslu til að skoða og prenta upplýsingar um fjárhagsfærslur sem söluskattur er reiknaður fyrir.
+description: Þessi grein útskýrir hvernig nota á skýrsluna VSK-upplýsingar eftir fjárhagsfærslum til að skoða og prenta upplýsingar um höfuðbókarviðskipti sem VSK-skattur er reiknaður út fyrir.
 author: EricWang
 ms.date: 08/19/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: c96f457a0ea24aef1769f370c3c0657ada31eebf
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8898092"
@@ -25,7 +25,7 @@ ms.locfileid: "8898092"
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>VSK-upplýsingar eftir fjárhagsfærslum (skýrsla)
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að nota **Vöruskattslýsing eftir höfuðbókarfærslu** skýrslu til að skoða og prenta upplýsingar um fjárhagsfærslur sem söluskattur er reiknaður af.
+Þessi grein útskýrir hvernig nota á skýrsluna **VSK-upplýsingar eftir fjárhagsfærslum** til að skoða og prenta upplýsingar um höfuðbókarviðskipti sem VSK-skattur er reiknaður út fyrir.
 
 ## <a name="tax-accounts-vs-non-tax-accounts"></a>Skattalyklar samanborið við lykla sem ekki eru skattur
 

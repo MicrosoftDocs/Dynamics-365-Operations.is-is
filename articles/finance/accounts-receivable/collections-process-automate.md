@@ -1,6 +1,6 @@
 ---
 title: Sjálfvirkni innheimtuferla
-description: Þessi grein lýsir ferlinu við að setja upp innheimtuferlisaðferðir sem auðkenna sjálfkrafa reikninga viðskiptavina sem krefjast áminningar í tölvupósti, innheimtuaðgerða eða innheimtubréfs til að senda til viðskiptavinarins.
+description: Þessi grein lýsir því hvernig á að setja upp aðferðir innheimtuferlis sem sjálfkrafa auðkenna reikninga viðskiptavina sem krefjast áminningar í tölvupósti, innheimtuaðgerðar eða innheimtubréfs sem á að senda viðskiptavininum.
 author: JodiChristiansen
 ms.date: 03/12/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: 9ec749db197b4d04ee2e99ac7a16f4f2120c6707
 ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/09/2022
 ms.locfileid: "8946179"
@@ -24,7 +24,7 @@ ms.locfileid: "8946179"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir ferlinu við að setja upp innheimtuferlisaðferðir sem auðkenna sjálfkrafa reikninga viðskiptavina sem krefjast áminningar í tölvupósti, innheimtuaðgerða (svo sem símtals) eða innheimtubréfs sem á að senda til viðskiptavinarins. 
+Þessi grein lýsir því hvernig á að setja upp aðferðir innheimtuferlis sem sjálfkrafa auðkenna reikninga viðskiptavina sem krefjast áminningar í tölvupósti, innheimtuaðgerðar (svo sem símtals) eða innheimtubréfs sem á að senda viðskiptavininum. 
 
 Fyrirtæki eyða oft verulegum tíma í að rannsaka skýrslur um aldursgreindar stöður, viðskiptavinalykla og opna reikninga til að finna út hvaða viðskiptavini ætti að hafa samband við vegna opins reiknings eða reikningsstöðu. Þessi rannsókn tekur tíma frá innheimtufulltrúanum sem fer í samskipti við viðskiptavini um að safna gjaldföllnum greiðslum eða ráða fram úr ágreiningi vegna reikninga. Sjálfvirkni innheimtuferlis gerir þér kleift að setja upp stjórnunartengda nálgun á innheimtuferlinu. Þetta hjálpar til við að beita innheimtuaðgerðum með stöðugum hætti með því að bjóða upp á sérsniðnar áminningar í tölvupósti eða forritað ferli til að senda innheimtubréf. 
 

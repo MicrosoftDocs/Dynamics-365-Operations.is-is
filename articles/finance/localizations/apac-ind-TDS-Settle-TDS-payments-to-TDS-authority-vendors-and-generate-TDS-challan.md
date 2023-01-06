@@ -1,6 +1,6 @@
 ---
 title: Gera upp TDS-greiðslur hjá TDS-lánardrottnayfirvaldi og mynda TDS-greiðslukvittun
-description: Þessi grein útskýrir hvernig á að gera upp greiðslur sem dreginn er frá á uppruna (TDS) til söluaðila TDS.
+description: Í þessari grein er útskýrt hvernig á að gera upp skatta sem dregnir eru frá upprunalegri greiðslu (TDS) til lánardrottnayfirvalds TDS.
 author: kailiang
 ms.date: 03/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: e1ee65a555193433e6712a8caa892d7a3ad7bf61
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8848511"
@@ -26,7 +26,7 @@ ms.locfileid: "8848511"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að gera upp greiðslur sem dreginn er frá á uppruna (TDS) til söluaðila TDS.
+Í þessari grein er útskýrt hvernig á að gera upp skatta sem dregnir eru frá upprunalegri greiðslu (TDS) til lánardrottnayfirvalds TDS.
 
 1. Farið í **Viðskiptaskuldir \> Greiðslur \> Greiðslubók lánardrottins**.
 

@@ -1,6 +1,6 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)
-description: Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir Dynamics 365 for Operations útgáfa 1611.
+description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Dynamics 365 for Operations útgáfu 1611.
 author: sericks007
 ms.date: 10/15/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 357931ed-f843-4bf5-bc85-0da3de0619ec
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: d8d3e1cb43a46d1132c2b1a0ae730f3498305067
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9273876"
@@ -26,7 +26,7 @@ ms.locfileid: "9273876"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir eiginleikum sem eru annað hvort nýir eða breyttir Dynamics 365 for Operations útgáfa 1611.
+Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Dynamics 365 for Operations útgáfu 1611.
 
 ## <a name="cost-accounting"></a>Kostnaðarbókhald
 
@@ -496,7 +496,7 @@ ms.locfileid: "9273876"
 <li>ISO20022 Greiðslusnið beingreiðslu fyrir Ítalíu</li>
 <li>Greiðslusnið RIBA-innheimtubréf fyrir Ítalíu</li>
 <li>Skýrsla um innlendar skattafærslur fyrir Ítalíu</li>
-<li>Skýrsla á bannlista fyrir Ítalíu</li>
+<li>Bannskýrsla fyrir Ítalíu</li>
 <li>Modello770-skýrsla fyrir Ítalíu</li>
 <li>Árleg skýrsla um skattsamskipti fyrir Ítalíu</li>
 </ul>
@@ -942,7 +942,7 @@ Eins og stendur er Retail Modern POS aðeins tiltækt sem Windows 8.1 forrit fyr
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Hvað er nýtt eða breytt á heimasíðu fjármála og rekstrar](whats-new-changed.md)
+[Nýjungar eða breytingar á heimasíðu fjármála- og reksturs ](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

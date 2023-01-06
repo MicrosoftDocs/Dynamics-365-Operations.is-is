@@ -1,6 +1,6 @@
 ---
-title: Byrjaðu með rafræna reikningaviðbótinni fyrir Frakkland
-description: Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningaviðbót fyrir Frakkland.
+title: Hafist handa með viðbót rafrænnar reikningsfærslu fyrir Frakkland
+description: Í þessari grein er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Fraklland.
 author: dkalyuzh
 ms.date: 07/07/2022
 ms.topic: article
@@ -18,66 +18,66 @@ ms.search.validFrom: 2022-00-02
 ms.dyn365.ops.version: AX 10.0.29
 ms.openlocfilehash: 3ac4af8c131e35d9a499d0d558c7cce1d4872b37
 ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/22/2022
 ms.locfileid: "9573279"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-france"></a>Byrjaðu með rafræna reikningaviðbótinni fyrir Frakkland
+# <a name="get-started-with-the-electronic-invoicing-add-on-for-france"></a>Hafist handa með viðbót rafrænnar reikningsfærslu fyrir Frakkland
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar sem hjálpa þér að byrja með rafræna reikningagerð fyrir Frakkland. Það leiðir þig í gegnum stillingarskrefin sem eru háð landinu í Regulatory Configuration Service (RCS). Þessi skref eru viðbót við þau skref sem lýst er í [Byrjaðu með viðbótinni fyrir rafræna reikninga](e-invoicing-get-started.md).
+Í þessari grein er að finna upplýsingar sem hjálpa til við að komast af stað með viðbót rafrænnar reikningsfærslu fyrir Frakkland. Það leiðir notandann í gegnum grunnstillingarskrefin sem fara eftir hverju landi fyrir sig í Regulatory Configuration Services (RCS). Þessi skref eru viðbót við skrefin sem lýst er í [Hafist handa með innbót rafrænna reikninga](e-invoicing-get-started.md).
 
-## <a name="country-specific-configuration-for-french-chorus-pro-submission-fr-electronic-invoicing-feature"></a>Landssértæk uppsetning fyrir franska Chorus Pro uppgjöf (FR) Rafræn innheimtuaðgerð
+## <a name="country-specific-configuration-for-french-chorus-pro-submission-fr-electronic-invoicing-feature"></a>Landssértækar stillingar fyrir franskan eiginleika Chorus Pro-innsendingar (FR) rafrænnar reikningsfærslu
 
-Nokkur skref eru nauðsynleg til að stilla **French Chorus Pro uppgjöf (FR)** Rafræn innheimtuaðgerð. Sumar færibreytur úr uppsetningu eru birtar með sjálfgefnum gildum. Þessi gildi verður að endurskoða og uppfæra svo þau endurspegli betur rekstur þinn.
+Sum skref eru nauðsynleg til að skilgreina rafrænan reikningsfærslueiginleika **Frönsk Chorus Pro-innsending (FR)**. Sumar færibreyturnar úr skilgreiningunni eru birtar með sjálfgefnum gildum. Þessi gildi verður að endurskoða og uppfæra svo að þau endurspegli betur rekstur fyrirtækisins.
 
 ### <a name="prerequisites"></a>Forkröfur
 
-Áður en þú byrjar aðgerðir í þessari grein skaltu ljúka eftirfarandi forsendum:
+Áður en hægt er að hefja ferlið í þessari grein þarf að ljúka eftirfarandi skilyrði:
 
-- Kynntu þér rafræna reikningagerð. Fyrir frekari upplýsingar, sjá [Yfirlit rafrænna reikninga](e-invoicing-service-overview.md).
-- Skráðu þig í RCS og settu upp rafræna reikninga. Frekari upplýsingar er hægt að finna í eftirfarandi greinum:
+- Læra á rafræna reikningsfærslu. Frekari upplýsingar eru í [Yfirlit rafrænnar reikningsfærslu](e-invoicing-service-overview.md).
+- Skráðu þig fyrir RCS og settu upp Rafræna reikninga. Frekari upplýsingar er hægt að finna í eftirfarandi greinum:
 
-    - [Skráðu þig í og settu upp rafræna reikningaþjónustu](e-invoicing-sign-up-install.md)
+    - [Skráðu þig fyrir og settu upp þjónustu fyrir rafræna reikninga](e-invoicing-sign-up-install.md)
     - [Setja upp Azure-tilföng fyrir rafrænar reikningsfærslur](e-invoicing-set-up-azure-resources.md)
     - [Setja upp viðbót smáþjónustu í Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md)
-    - [Virkjaðu og settu upp samþættingu við rafræna reikningagerð](e-invoicing-activate-setup-integration.md) – Notaðu upplýsingarnar í þessari grein til að virkja samþættingu þína Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management app og rafræn reikningaþjónusta.
-    - [NAF kóða og siret númer](emea-fra-naf-codes-siret-numbers.md) og [Settu upp NAF kóða og Siret númer](tasks/fr-00003-naf-codes-siret-numbers.md) – Notaðu upplýsingarnar í þessum greinum til að setja upp NAF kóða og Siret númer hjá lögaðilum þínum. 
+    - [Virkjaðu og settu upp samþættingu við rafræna reikningsfærslu](e-invoicing-activate-setup-integration.md) – Notaðu upplýsingarnar í þessari grein til að virkja samþættingu milli forrits Microsoft Dynamics 365 Finance eða Dynamics 365 Supply Chain Management forritsins og þjónustu rafrænnar reikningsfærslu.
+    - [NAF-kóðar og Siret-númer](emea-fra-naf-codes-siret-numbers.md) og [Setja upp NAF-kóða og Siret-númer](tasks/fr-00003-naf-codes-siret-numbers.md) – Notið upplýsingarnar í þessum greinum til að setja upp NAF-kóða og Siret-númer í lögaðilum. 
 
-- Stofnunin þín verður að vera skráð til að starfa með Chorus Pro. Microsoft veitir samþættingu við Chorus pro í OAuth2 ham í gegnum forritunarviðmót (API). Fyrir nákvæmar upplýsingar um Chorus Pro skráningu og virkjun forrita, sjáðu [opinber skjöl](https://communaute.chorus-pro.gouv.fr/documentation/help-for-api-developers-in-oauth2-mode/).
+- Þú verður að skrá stofnunina/fyrirtækið til að virka með Chorus Pro. Microsoft veitir samþættingu við Chorus pro í OAuth2 Mode í gegnum forritaskil (API). Nánari upplýsingar um skráningu og virkjun á Chorus Pro er að finna í [opinberum fylgiskjölum](https://communaute.chorus-pro.gouv.fr/documentation/help-for-api-developers-in-oauth2-mode/).
 
     Fylgdu þessum skrefum til að skrá þig hjá Chorus Pro.
 
-    1. Farðu í [PISTE vefgátt](https://piste.gouv.fr/en/component/apiportal/registration) til að hefja skráningu þína. 
-    2. Skráðu forrit og virkjaðu Open Authorization (OAuth) skilríki.
-    3. Afritaðu og vistaðu auðkenni viðskiptavinarins fyrir OAuth skilríkin og leynilykilinn. Þú munt nota þessar upplýsingar í síðari skrefum.
-    4. Farðu í [Chorus Pro vefgátt](https://portail.chorus-pro.gouv.fr/aife_csm/?id=aife_enrollment) að skrá. 
-    5. Búðu til tæknilegan reikning fyrir API aðgang. Fyrir frekari upplýsingar, sjá [Stofnun tæknireiknings fyrir API aðgang í framleiðslu](https://communaute.chorus-pro.gouv.fr/documentation/creation-of-a-technical-account-for-an-api-access-in-production/).
-    6. Afritaðu notandaauðkenni tæknireikningsins og lykilorðið. Þú munt nota þessar upplýsingar í síðari skrefum.
+    1. Opnaðu [PISTE gáttina ](https://piste.gouv.fr/en/component/apiportal/registration) til að hefja skráningu. 
+    2. Skráðu forrit, og virkjaðu OAuth (Open Authorization) skilríkin.
+    3. Afritaðu og vistaðu biðlarakenni OAuth-auðkennis og leynilykilinn. Þessar upplýsingar verða notaðar í síðari skrefum.
+    4. Opnaðu [Chorus Pro gáttina](https://portail.chorus-pro.gouv.fr/aife_csm/?id=aife_enrollment) til að skrá þig. 
+    5. Stofna tæknireikning fyrir API-aðgang. Frekari upplýsingar er að finna í [Stofnun tæknilegs aðgangs fyrir API í framleiðslu](https://communaute.chorus-pro.gouv.fr/documentation/creation-of-a-technical-account-for-an-api-access-in-production/).
+    6. Afritaðu kenni notandans af tæknilega reikningnum og lykilorðinu. Þessar upplýsingar verða notaðar í síðari skrefum.
 
-## <a name="country-specific-configuration-of-the-application-setup-for-the-french-chorus-pro-submission-fr-electronic-invoicing-feature"></a>Landssértæk uppsetning forritsuppsetningar fyrir franska Chorus Pro uppgjöf (FR) rafræna reikningseiginleika
+## <a name="country-specific-configuration-of-the-application-setup-for-the-french-chorus-pro-submission-fr-electronic-invoicing-feature"></a>Landsbundin skilgreining forritsuppsetningar fyrir eiginleika rafrænnar reikningsfærslu fyrir franska Chorus Pro-innsendingu (FR)
 
-Sumir af breytum frá **French Chorus Pro uppgjöf (FR)** eiginleikar rafrænna reikninga eru birtir með sjálfgefnum gildum. Áður en þú setur rafræna reikningseiginleikann í notkun í þjónustuumhverfinu skaltu endurskoða og uppfæra sjálfgefna gildin eftir þörfum, svo þau endurspegli betur rekstur þinn.
+Sumar færibreyturnar úr rafræna reikningsfærslueiginleikanum **Frönsk Chorus Pro-innsending (FR)** eru birtar með sjálfgefnum gildum. Farið yfir og uppfærið sjálfgefin gildin og svo þau endurspegli betur fyrirtækjareksturinn áður en rafræni reikningseiginleikinn er notaður í þjónustuumhverfinu.
 
-1. Í Azure lyklahvelfingunni skaltu búa til leyndarmál og samsvarandi tilvísun í þau. Fyrir frekari upplýsingar, sjá [Viðskiptavinavottorð og leyndarmál](e-invoicing-customer-certificates-secrets.md).
-2. Flytja inn nýjustu útgáfuna af **French Chorus Pro uppgjöf (FR)** hnattvæðingareiginleika eins og lýst er í [Flytja inn eiginleika frá alþjóðlegu geymslunni](e-invoicing-import-feature-global-repository.md).
-3. Búðu til afrit af innfluttum hnattvæðingareiginleikanum og veldu stillingaþjónustuna þína. Fyrir frekari upplýsingar, sjá [Búðu til hnattvæðingareiginleika](e-invoicing-create-new-globalization-feature.md).
+1. Í Azure-lyklageymsluni skaltu búa til leynilykla og samsvarandi tilvísun til þeirra. Frekari upplýsingar er að finna í [Vottorð og leynilyklar viðskiptavina](e-invoicing-customer-certificates-secrets.md).
+2. Flytja inn nýjustu útgáfu af altæka eiginleikans **Frönsk Chorus Pro-innsending (FR)** sem lýst er í [Flytja inn eiginleika úr altækri geymslu](e-invoicing-import-feature-global-repository.md).
+3. Útbúðu afrit af innflutta altæka eiginleikanum og veldu skilgreiningarveitu. Nánari upplýsingar má finna í [Stofna altækan eiginleika](e-invoicing-create-new-globalization-feature.md).
 4. Í flipanum **Útgáfa** skal staðfesta að útgáfan **Drög** sé valin.
-5. Á **Uppsetningar** flipann, í hnitanetinu, veldu **UBL Sölureikningur fenginn** uppsetningu eiginleika.
-6. Veldu **Breyta**, og síðan, á **Vinnsluleiðsla** flipa, í **Vinnsluleiðsla** kafla, veldu **(Forskoðun) Samþætta við French Chorus Pro** með nafni aðgerðarinnar **French Chorus Pro senda inn**.
-7. Í **Færibreytur** kafla, í **Auðkenni viðskiptavinar leyndarmál** reit, veldu leyndarmálið sem þú bjóst til fyrir auðkenni viðskiptavinarins í lyklahólfinu.
-8. Í **Leyndarmál viðskiptavinar** reit, veldu leyndarmálið sem þú bjóst til fyrir leyndarmál viðskiptavinar í lyklahólfinu.
-9. Í **Leyndarheiti fyrir tæknilega innskráningu** reit, veldu leynda nafnið sem þú bjóst til fyrir tæknilega reikningsinnskráningu í lyklahólfinu.
-10. Í **Leyndarheiti fyrir tæknilegt lykilorð** reit, veldu leyndarmálið sem þú bjóst til fyrir lykilorð tæknireikningsins í lyklahólfinu.
-11. Á **Vinnsluleiðsla** flipa, í **Vinnsluleiðsla** kafla, veldu **Samþætta við French Chorus Pro** með nafni aðgerðarinnar **Staða beiðni um French Chorus Pro**.
-12. Í **Færibreytur** kafla, í **Auðkenni viðskiptavinar leyndarmál** reit, veldu leyndarmálið sem þú bjóst til fyrir auðkenni viðskiptavinarins í lyklahólfinu.
-13. Í **Leyndarmál viðskiptavinar** reit, veldu leyndarmálið sem þú bjóst til fyrir leyndarmál viðskiptavinar í lyklahólfinu.
-14. Í **Leyndarheiti fyrir tæknilega innskráningu** reit, veldu leynda nafnið sem þú bjóst til fyrir tæknilega reikningsinnskráningu í lyklahólfinu.
-15. Í **Leyndarheiti fyrir tæknilegt lykilorð** reit, veldu leyndarmálið sem þú bjóst til fyrir lykilorð tæknireikningsins í lyklahólfinu.
+5. Í flipanum **Uppsetningar**, í hnitanetinu, skal velja eiginleikauppsetningu **UBL-sölureikningur afleiddur**.
+6. Veljið **Breyta** og því næst, á flipanum **Pípuvinnsla**, í hlutanum **Pípuvinnsla**, veljið **(Forútgáfa) Samþætta við franskt Chorus Pro** með aðgerðarheitinu **Franskt Chorus Pro**.
+7. Í hlutanum **Færibreytur**, í reitnum **Leyniheiti biðlarakennis**, skaltu velja leyniheiti sem þú bjóst til fyrir biðlarakenni í lyklageymslunni.
+8. Í svæðinu **Leyniheiti leyniorðs biðlara** skal velja leyniheitið sem þú bjóst til fyrir leyniorð biðlara í lyklageymslunni.
+9. Í reitnum **Leyniheiti tæknilegrar innskráningar** skal velja leyniheitið sem þú bjóst til fyrir tæknilega innskráningu á reikning í lyklageymslunni.
+10. Í reitnum **Leyniheiti tæknilegs aðgangsorðs** skaltu velja leyniheitið sem þú bjóst til fyrir tæknilegt aðgangsorð reiknings í lyklageymslunni.
+11. Á flipanum **Pípuvinnsla**, í hlutanum **Pípuvinnsla**, veljið **Samþætta við franskt Chorus Pro** með aðgerðarheitinu **Beiðnistaða fyrir franskt Chorus Pro**.
+12. Í hlutanum **Færibreytur**, í reitnum **Leyniheiti biðlarakennis**, skaltu velja leyniheiti sem þú bjóst til fyrir biðlarakenni í lyklageymslunni.
+13. Í svæðinu **Leyniheiti leyniorðs biðlara** skal velja leyniheitið sem þú bjóst til fyrir leyniorð biðlara í lyklageymslunni.
+14. Í reitnum **Leyniheiti tæknilegrar innskráningar** skal velja leyniheitið sem þú bjóst til fyrir tæknilega innskráningu á reikning í lyklageymslunni.
+15. Í reitnum **Leyniheiti tæknilegs aðgangsorðs** skaltu velja leyniheitið sem þú bjóst til fyrir tæknilegt aðgangsorð reiknings í lyklageymslunni.
 16. Veljið **Vista** og lokið síðan skjámyndinni.
-17. Endurtaktu skref 6 til 16 fyrir **UBL Verkefnareikningur fenginn** uppsetning eiginleika, **UBL sölukreditnóta fengin** eiginleikauppsetning, og **UBL Project Credit Note fengin** uppsetningu eiginleika.
+17. Endurtakið skref 6 til 16 fyrir eiginleikauppsetninguna **UBL-verkreikningur afleiddur**, **UBL-sölukreditnóta afleidd** og **UBL-verkkreditnóta afleidd**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

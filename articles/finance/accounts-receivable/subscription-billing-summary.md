@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir áskriftargreiðslur
-description: Þessi grein lýsir innheimtu áskriftar í Microsoft Dynamics 365 Fjármál.
+description: Í þessari grein er lýst áskriftarreikningi í Microsoft Dynamics 365 Finance.
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
 ms.openlocfilehash: 10302e9ae7dff3d018897b666caaf4d4289b4866
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8856742"
@@ -26,23 +26,23 @@ ms.locfileid: "8856742"
 
 [!include [banner](../includes/banner.md)]
 
-Innheimta áskriftar gerir fyrirtækjum kleift að stjórna áskriftartekjum og endurteknum innheimtu í gegnum innheimtuáætlanir. Auðvelt er að stjórna flóknum verðlagningar- og innheimtulíkönum og tekjuúthlutun og þau eru innheimt og viðurkennd á línustigi. Fjölþátta tekjuúthlutun gerir ráðstöfun tekna kleift að uppfylla alþjóðlega reikningsskilastaðla (International Financial Reporting Standard 15\[ IFRS 15\]) og almennt viðurkenndar reikningsskilareglur (US GAAP) staðla (reikningsskilastaðla Codification Topic 606\[ ASC 606\]).
+Áskriftargreiðslur gera fyrirtækjum kleift að stjórna tekjumöguleikum áskriftar og endurteknum greiðslum með greiðsluáætlunum. Auðvelt er að stjórna flóknum verðlagningarlíkönum og tekjuúthlutun og eru innheimt og skráð á línustigi. Fjölþátta tekjuúthlutun gerir kleift að úthluta tekjum til að uppfylla alþjóðlega reikningsskilastaðla (International Financial Reporting Standard 15 \[IFRS 15\]) og almennt samþykktum bókhaldsreglum (US GAAP) (reikningsskilastaðli 606 \[ASC 606\]).
 
-Lausnin hefur þrjár einingar sem hægt er að nota sjálfstætt. Að öðrum kosti er hægt að nota allar þrjár einingarnar saman.
+Lausnin hefur þrjár einingar sem hægt er að nota sjálfstætt. Einnig er hægt að nota allar þrjár einingarnar saman.
 
-- **Endurtekinn samningsreikningur** – Þessi eining gerir endurtekna innheimtu og verðstýringu kleift að veita stjórn á verðlagningu og innheimtubreytum, endurnýjun samnings og samstæðureikninga.
-- **Frestun tekna og gjalda** – Þessi eining útilokar handvirka ferla og ósjálfstæði á ytri kerfum með því að stjórna tekjum og gera rauntíma innsýn í mánaðarlegar endurteknar tekjur.
-- **Fjölþátta tekjuúthlutun** – Þessi eining hjálpar til við að fara eftir tekjum með því að meðhöndla verðlagningu og úthlutun tekna yfir marga hluti.
+- **Endurteknar samningsgreiðslur** – Þessi eining gerir endurtekinni greiðslu og verðstjórnun kleift að stjórna verðlagningar- og greiðslufæribreytum, samningsendurnýjunum og sameinaðri reikningsfærslu.
+- **Tekju- og kostnaðarfrestanir** – Þessi eining útilokar handvirka ferla og tengsl við ytri kerfi með því að stjórna tekjum og gefa rauntímainnsýn í mánaðarlegar endurteknar tekjur.
+- **Margþátta tekjuúthlutun** – Þessi eining hjálpar til við reglufylgni við tekjur með því að meðhöndla verðlagningu og tekjuúthlutun á mörgum vörum.
 
-Fyrir frekari upplýsingar um innheimtu áskriftar, sjá [Innheimta áskriftar Power BI efni](sub-bill-power-bi.md).
+Frekari upplýsingar um áskriftargreiðslu er að finna í [Áskriftargreiðslur Power BI efni](sub-bill-power-bi.md).
 
-Innheimta áskriftar er virkjuð í gegnum **Eiginleikastjórnun**. Hins vegar er ekki hægt að nota það með **Tekjufærsla** eiginleiki. Þess vegna verður þú að slökkva á þeim eiginleika áður en þú virkjar innheimtu áskriftar.
+Áskriftarreikningur er virkur í gegnum **Eiginleikastjórnun**. Hins vegar er ekki hægt að nota hana með eiginleikanum **Tekjuskráning**. Þú verður því að gera þennan eiginleika óvirkan áður en þú virkjar áskriftargreiðslur.
 
-1. Í **Eiginleikastjórnun** vinnusvæði, á **Allt** flipi, slá inn **Tekjufærsla** í síunni og veldu síðan eiginleikaheitið sem síu.
-2. Veldu **Tekjufærsla** eiginleiki og veldu síðan **Slökkva**.
-3. Í **Eiginleikaheiti** sía, slá inn **Innheimta áskriftar**, og veldu síðan mátsíuna.
-4. Veldu **Innheimta áskriftar** eiginleiki og veldu síðan **Virkja**.
-5. Veldu eina af þremur einingum af fyrri listanum og veldu síðan **Virkja**. Endurtaktu þetta skref fyrir hverja af hinum tveimur einingunum.
+1. Á vinnusvæðinu **Eiginleikastjórnun**, í flipanum **Allt**, skal færa inn **Tekjuskráningu** í síðuna og síðan velja heiti eiginleikans sem síuna.
+2. Veldu eiginleikann **Tekjuskráning** og veldu síðan **Gera óvirkt**.
+3. Í síuna **Heiti eiginleika** skal færa inn **Áskriftargreiðslur** og velja síðan síueininguna.
+4. Veldu eiginleikann **Áskriftargreiðslur** og veldu síðan **Virkja**.
+5. Veldu eina af þremur einingum úr fyrri listanum og veldu svo **Virkja**. Endurtakið þetta skref fyrir hverja af hinum tveimur einingunum.
 
     > [!IMPORTANT]
-    > The **Innheimta áskriftar** eiginleikann verður að vera virkur áður en þú getur virkjað einhverja af þessum þremur einingum.
+    > Virkja þarf eiginleikann **Áskriftargreiðslur** áður en hægt verður að virkja einingarnar þrjár.

@@ -1,6 +1,6 @@
 ---
-title: Stillingar fyrir innsýn í fjármálum
-description: Þessi grein útskýrir stillingarskref sem gera kerfinu þínu kleift að nota þá möguleika sem eru tiltækir í Finance Insights.
+title: Stillingar fyrir Finance Insights
+description: Þessi grein útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Finance Insights.
 author: ShivamPandey-msft
 ms.date: 09/16/2022
 ms.topic: article
@@ -17,49 +17,49 @@ ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 07edea234839a477802e5cd875620509c8f92d69
 ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/12/2022
 ms.locfileid: "9644115"
 ---
-# <a name="configuration-for-finance-insights"></a>Stillingar fyrir innsýn í fjármálum
+# <a name="configuration-for-finance-insights"></a>Stillingar fyrir Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Fjármál með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þessi grein útskýrir stillingarskref sem gera kerfinu þínu kleift að nota þá möguleika sem eru tiltækir í Finance Insights. Til að ljúka verklagsreglunum í þessari grein verður þú að hafa aðgang að kerfisstjóra og kerfissérsniðnum í [Power Portal stjórnunarmiðstöð](https://admin.powerplatform.microsoft.com/), Kerfisstjóraaðgangur í Dynamics 365 Finance og aðgangur til að búa til umhverfi í Microsoft Dynamics Lífsferilsþjónusta (LCS).
+Finance Insights sameinar virkni Microsoft Dynamics 365 Finance við Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtækið. Þessi grein útskýrir grunnstillingarskref sem mun gera kerfinu kleift að nota þá eiginleika sem eru í boði í Finance Insights. Til að ljúka ferlunum í þessari grein verður þú að hafa aðgang kerfisstjóra og kerfisstillis í [Stjórnendamiðstöð Power Portal](https://admin.powerplatform.microsoft.com/), aðgang kerfisstjóra í Dynamics 365 Finance og aðgang til að búa til umhverfi í Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!NOTE]
-> Eftirfarandi aðferðir við að setja upp Finance Insights gilda fyrir útgáfur af Dynamics 365 Finance útgáfu 10.0.21 og síðar.
+> Eftirfarandi ferli til að setja upp Finance Insights eru gild fyrir útgáfur af Dynamics 365 Finance útgáfu 10.0.21 og síðari.
 
-## <a name="deploy-dynamics-365-finance"></a>Settu upp Dynamics 365 Finance
+## <a name="deploy-dynamics-365-finance"></a>Nota Dynamics 365 Finance
 
 Fylgja skal eftirfarandi skrefum til að setja upp umhverfin.
 
-1. Í LCS skaltu búa til eða uppfæra Dynamics 365 Finance umhverfi. Umhverfið krefst app útgáfu 10.0.21 eða nýrri.
+1. Í LCS skal búa til eða uppfæra umhverfi Dynamics 365 Finance. Umhverfið krefst forritsútgáfu 10.0.21 eða nýrri.
 
     > [!NOTE]
-    > Umhverfið verður að vera háaðgengilegt (HA) umhverfi. (Þessi tegund umhverfis er einnig þekkt sem umhverfi í tveggja laga umhverfi.) Frekari upplýsingar er að finna í [Umhverfisskipulagning](/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
+    > Umhverfið verður að vera vel tiltækt umhverfi. (Þessi tegund umhverfis er einnig þekkt sem umhverfi í tveggja laga umhverfi.) Frekari upplýsingar er að finna í [Umhverfisskipulagning](/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
 
-2. Ef þú ert að stilla Finance Insights í sandkassaumhverfi gætirðu þurft að afrita framleiðslugögn í það umhverfi áður en spár virka. Spálíkanið notar gögn til margra ára til að búa til spár. Contoso kynningargögnin innihalda ekki nógu mörg söguleg gögn til að þjálfa spálíkanið á fullnægjandi hátt. 
+2. Ef þú ert að stilla Finance Insights í sandkassaumhverfi gætirðu þurft að afrita framleiðslugögn í það umhverfi áður en spár munu virka. Spálíkanið notar gögn til margra ára til að búa til spár. Sýnigögn Contoso innihalda ekki næg söguleg gögn til að hægt sé að þjálfa spálíkanið á fullnægjandi hátt. 
 
-## <a name="configure-your-azure-ad-tenant"></a>Stilltu þína Azure AD leigjanda
+## <a name="configure-your-azure-ad-tenant"></a>Skilgreindu Azure AD leigjandann
 
-Azure Active Directory(Azure AD) verður að stilla þannig að hægt sé að nota það með Dataverse og Microsoft Power Platform umsóknir. Þessi uppsetning krefst þess að annað hvort **Verkeigandi** hlutverk eða **Umhverfisstjóri** hlutverki að vera úthlutað til notanda í **Öryggishlutverk verkefnisins** sviði í LCS.
+Azure Active Directory (Azure AD) verður að vera skilgreint þannig að hægt sé að nota það með Dataverse og Microsoft Power Platform forritunum. Þessi skilgreining krefst þess að annaðhvort hlutverkið **Eigandi verks** eða **Stjórnandi umhverfis** sé úthlutað á notandann í reitnum **Öryggishlutverk verks** í LCS.
 
-Staðfestu að eftirfarandi uppsetningu sé lokið:
+Staðfestið að eftirfarandi uppsetningu sé lokið:
 
-- Þú hefur **Kerfisstjóri** og **Kerfisaðlögun** aðgang í Power Portal stjórnunarmiðstöðinni.
-- Dynamics 365 Finance eða sambærilegt leyfi er notað fyrir notandann sem er að setja upp Finance Insights viðbótina.
-- Eftirfarandi Azure AD öpp eru skráð í Azure AD.
+- Þú hefur aðgang **Kerfisstjóra** og **Kerfisstillis** í stjórnendamiðstöð Power Portal.
+- Dynamics 365 Finance eða sambærilegt leyfi er sett á notandann sem er að setja upp innbót Finance Insights.
+- Eftirfarandi Azure AD forrit eru skráð á Azure AD.
 
     |  Forrit                             | Auðkenni forrits                               |
     |------------------------------------------|--------------------------------------|
     | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
 
-    Til að staðfesta að forritið sé skráð í Azure AD, athugaðu **Allar umsóknir** lista. Fyrir frekari upplýsingar, sjá [Skoða fyrirtækjaforrit](/azure/active-directory/manage-apps/view-applications-portal).
+    Til að ganga úr skugga um að forritið sé skráð í Azure AD skal athuga listann **Öll forrit**. Frekari upplýsingar er að finna í [Skoða forrit fyrirtækis](/azure/active-directory/manage-apps/view-applications-portal).
   
-    Ef umsóknin er ekki skráð í Azure AD, hafðu samband við þjónustudeild.
+    Ef forritið er ekki skráð í Azure AD skal hafa samband við notendaþjónustu.
   
 ## <a name="configure-dataverse"></a>Skilgreina Dataverse
 
@@ -67,43 +67,43 @@ Fylgdu eftirfarandi skrefum til að stilla Dataverse fyrir fjármálainnsýn.
 
 - Í LCS skal opna síðu umhverfis og staðfesta að hlutinn **Power Platform samþætting** sé þegar uppsettur.
 
-    - Ef Dataverse hefur þegar verið sett upp, sem Dataverse nafn umhverfis sem er tengt við fjármálaumhverfið ætti að vera skráð.
-    - Ef Dataverse hefur ekki enn verið sett upp, veldu **Uppsetning**. Uppsetning á Dataverse umhverfi getur tekið allt að klukkutíma. Þegar uppsetningunni hefur verið lokið, mun Dataverse nafn umhverfis sem er tengt við í fjármálaumhverfinu ætti að vera skráð.
-    - Ef þessi samþætting var sett upp með núverandi Microsoft Power Platform umhverfi, hafðu samband við kerfisstjórann þinn til að ganga úr skugga um að tengda umhverfið sé ekki óvirkt.
+    - Ef Dataverse hefur þegar verið sett upp ætti heiti Dataverse umhverfisins sem tengt er við Finance-umhverfið að vera gefið upp.
+    - Ef Dataverse hefur ekki verið sett upp ennþá skal velja **Uppsetning**. Uppsetning Dataverse umhverfisins getur tekið allt að klukkustund. Þegar uppsetningunni er lokið ætti heiti Dataverse umhverfisins sem er tengt við Finance-umhverfið að vera gefið upp.
+    - Ef þessi samþætting var sett upp með núverandi Microsoft Power Platform umhverfi skaltu hafa samband við kerfisstjórann til að ganga úr skugga um að tengt umhverfi sé ekki í óvirkri stöðu.
 
-        Fyrir frekari upplýsingar, sjá [Að virkja Power Platform samþættingu](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md). 
+        Frekari upplýsingar er að finna í [Virkja Power Platform samþættinguna](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md). 
 
-        Til að fá aðgang að Microsoft Power Platform admin síða, farðu á <https://admin.powerplatform.microsoft.com/environments>.
+        Til að komast inn á Microsoft Power Platform vefsvæði stjórnanda skaltu fara á<https://admin.powerplatform.microsoft.com/environments>.
 
 ## <a name="configure-the-finance-insights-add-in"></a>Stilla innbót fjármálainnsýnar
 
-Ef þú hefur áður sett upp Finance Insights viðbótina skaltu fjarlægja hana áður en þú lýkur eftirfarandi ferli.
+Ef innbót Finance Insights hefur þegar verið sett upp skaltu fjarlægja hana áður en þú klárar eftirfarandi ferli.
 
 > [!NOTE]
-> Ef þú hefur þegar sett upp gagnavatnsaukinn í LCS mun Finance Insights nota hana til að vista gögn sem eru nauðsynleg fyrir spár. Ef þú hefur ekki enn sett upp gagnavatnsaukinn í LCS, mun Finance Insights viðbótin búa til stýrt gagnavatn fyrir þig.
+> Ef þú hefur þegar sett upp innbót gagnalindar mun Finance Insights nota hana til að vista gögn sem þarf fyrir spár. Ef þú hefur ekki enn sett upp innbót gagnalindar í LCS mun innbót Finance Insights búa til stýrða gagnalind fyrir þig.
 
 Fylgið þessum skrefum til að setja upp innbót fjármálainnsýnar.
 
 1. Skráðu þig inn á LCS og veldu síðan **Allar upplýsingar**, undir heiti umhverfisins hægra megin á síðunni.
 2. Í hlutanum **Innbætur umhverfis** skal velja **Setja upp nýja innbót**.
 3. Veljið innbótina **Fjármálainnsýn**.
-4. Samþykktu skilmálana og veldu síðan **Settu upp**.
+4. Samþykkið skilmálana og skilyrðin og veljið því næst **Setja upp**.
 
 Það gæti tekið nokkrar mínútur að setja innbótina upp.
 
 ## <a name="one-last-thing"></a>Eitt að lokum...
 
-Eftir að viðbótin hefur verið sett upp gæti það tekið allt að klukkutíma áður en þú getur virkjað eiginleika Finance Insights í **Eiginleikastjórnun** vinnusvæði í Dynamics 365 Finance. Ef þú vilt ekki bíða svona lengi geturðu keyrt handvirkt **Athugun á stöðu úthlutunar innsýnar** ferli. 
+Eftir að innbótin hefur verið sett upp gæti tekið allt að klukkustund áður en þú getur virkjað Finance Insights á vinnusvæðinu **Eiginleikastjórnun** í Dynamics 365 Finance. Ef þú vilt ekki bíða svo lengi geturðu keyrt ferlið **Athugun á úthlutunarstöðu innsýnar** á handvirkan hátt. 
 
-1. Í Dynamics 365 Finance, farðu í **Kerfisstjórnun \> Uppsetning \> Sjálfvirkni ferlisins**.
-2. Á **Bakgrunnsferli** flipi, finna **Athugun á stöðu úthlutunar innsýnar**, og veldu **Breyta**.
-3. Stilltu **Næsta framkvæmd** reit í 30 mínútur fyrir núverandi tíma.
+1. Í Dynamics 365 Finance skaltu fara í **Kerfisstjórnun \> Uppsetning \> Sjálfvirkni ferlis**.
+2. Í flipanum **Bakgrunnsvinnslur** skaltu finna **Athugun á úthlutunarstöðu innsýnar** og velja **Breyta**.
+3. Stilltu reitinn **Næsta keyrsla** á 30 mínútum á undan núverandi tíma.
 
-   Þessi breyting ætti að knýja fram **Athugun á stöðu úthlutunar innsýnar** ferli til að keyra strax.
+   Þessi breyting ætti að þvinga ferlið **Athugun á úthlutunarstöðu innsýnar** til að keyra strax.
 
-   Eftir **Athugun á stöðu úthlutunar innsýnar** ferli er keyrt með góðum árangri geturðu virkjað Finance Insights eiginleika í **Eiginleikastjórnun** vinnurými.
+   Þegar ferlið **Athugun á úthlutunarstöðu innsýnar** hefur verið keyrt er hægt að virkja eiginleika Finance insights á vinnusvæðinu **Eiginleikastjórnun**.
 
 > [!NOTE]
-> Ef **Athugun á stöðu úthlutunar innsýnar** ferlið keyrir ekki, farðu til **Kerfisstjórnun** > **Fyrirspurnir** > **Lotustörf**. Í **Könnunarkerfi sjálfvirkt ferli** reit, breyttu gildinu í **Bíður** að hefja ferlið. 
+> Ef ferlið **Athugun á úthlutunarstöðu innsýnar** keyrir ekki skal fara í **Kerfisstjórnun** > **Fyrirspurnir** > **Runuvinnslur**. Í reitnum **Bókunarvinnsla sjálfvirkniferlis í kerfinu** skal breyta gildinu í **Í bið** til að hefja ferlið. 
 > 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

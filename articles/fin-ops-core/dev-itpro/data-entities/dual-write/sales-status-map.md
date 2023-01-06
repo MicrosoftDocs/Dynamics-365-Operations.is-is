@@ -1,6 +1,6 @@
 ---
 title: Setja upp vörpun fyrir stöðudálka sölupöntunar
-description: Þessi grein útskýrir hvernig á að setja upp sölupöntunarstöðudálka fyrir tvískrift.
+description: Þessi grein útskýrir hvernig setja á upp stöðudálka sölupöntunar fyrir tvískipt skrif.
 author: dasani-madipalli
 ms.date: 06/25/2020
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: damadipa
 ms.search.validFrom: 2020-06-25
 ms.openlocfilehash: 2035985f16b5972e02f1ed60c6f02d306217f3be
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9288885"

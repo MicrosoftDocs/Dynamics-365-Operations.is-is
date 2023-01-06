@@ -1,6 +1,6 @@
 ---
 title: Studdar samsettar gagnagerðir fyrir formúlur rafrænnar skýrslugerðar
-description: Þessi grein veitir upplýsingar um samsettar gagnagerðir sem eru studdar í formúlum fyrir rafræna skýrslugerð (ER).
+description: Í þessari grein er að finna upplýsingar um samsettar gagnagerðir sem eru studdar í formúlum rafrænnar skýrslugerðar.
 author: kfend
 ms.date: 06/02/2021
 audience: Application User, IT Pro
@@ -12,7 +12,7 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: ea6f8ab1f0cd26fd2414a17be559aa60fc52e7d3
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9272713"
@@ -21,13 +21,13 @@ ms.locfileid: "9272713"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um samsettar gagnagerðir sem eru studdar í [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) tjáningar. Samsettu gagnagerðirnar eru [klasi](#class), [geymsla](#container), [færsla](#record), [færslulisti](#record-list) og [hlutur](#object).
+Í þessari grein er að finna upplýsingar um samsettar gagnagerðir sem eru studdar í segðum [Rafrænnar skýrslugerðar](general-electronic-reporting.md). Samsettu gagnagerðirnar eru [klasi](#class), [geymsla](#container), [færsla](#record), [færslulisti](#record-list) og [hlutur](#object).
 
 ## <a name="class"></a><a name="class"></a>Klasi
 
 Gagnagerðin *klasi* vísar til opins forritsklasa. Í rafrænni skýrslugerð er hún táknuð sem [*færsla*](#record) sem inniheldur aðskilinn reit fyrir hverja almenna aðferð klasans sem vísað er í. Þegar færibreytur eru stilltar fyrir kall aðferðarinnar þarf einnig að tilgreina nauðsynlegar frumbreytur af viðeigandi gerðum í segð rafrænnar skýrslugerðar sem er stillt til að kalla á aðferðina.
 
-Í ER kortlagningu og sniði hlutum geturðu bætt við **bekk** gagnagjafi sem er sýndur sem gagnagjafi og sem skilar gildi á *bekk* tegund. Þessi gagnagjafi gefur upp almennar aðferðir klasans sem hægt er að kalla á við keyrslu.
+Í vörpun og sniði rafrænna skýrslugerðarhluta er hægt að bæta við gagnagjafanum **Klasa** sem er gefinn upp sem gagnagjafi og skilar gildi af *klasagerðinni*. Þessi gagnagjafi gefur upp almennar aðferðir klasans sem hægt er að kalla á við keyrslu.
 
 > [!NOTE]
 > Aðeins er hægt að kalla á aðferðir úr segðum rafrænnar skýrslugerðar sem skila gildi.

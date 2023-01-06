@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum(Hluti 1 - Undirbúa gagnalíkan)
-description: Þessi grein lýsir því hvernig á að stilla rafræna skýrslugerð (ER) til að nota skjalastjórnunarskrár (viðhengi) í ER úttak. (Hluti 1)
+description: Þessi grein útskýrir hvernig á að skilgreina snið rafrænnar skýrslugerðar til að nota skrár skjalastjórnunar (viðhengi) í úttaki rafrænnar skýrslugerðar. (Hluti 1)
 author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -17,7 +17,7 @@ ms.search.form:
 - ERSolutionTable, ERSolutionCreateDropDialog
 ms.openlocfilehash: f407555eca4c4bd08d09047e9d8f8512cb99d254
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291025"

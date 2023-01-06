@@ -1,6 +1,6 @@
 ---
 title: Skráningarkenni
-description: Þessi grein veitir upplýsingar um uppsetningu og notkun skráningarauðkenna.
+description: Þessi grein gefur upplýsingar um uppsetningu og notkun skráningarkenna.
 author: kfend
 ms.date: 11/08/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 264824
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 ms.openlocfilehash: 380cb1d2b52d5d0debffdbe73183be2f5e783f21
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9274552"
@@ -25,9 +25,9 @@ ms.locfileid: "9274552"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um uppsetningu og notkun skráningarauðkenna.
+Þessi grein gefur upplýsingar um uppsetningu og notkun skráningarkenna.
 
-Mörg lönd og svæði hafa mismunandi reglur og kröfur um skráningu skráningarnúmera eða auðkenna. Þessi grein veitir yfirlit yfir nauðsynlegar stillingar og vinnslu studdra skráningartegunda fyrir aðila í mismunandi Evrópulöndum/svæðum. Öll lönd/svæði setja sín skilyrði um stuðning við ýmis landsbundin atriði varðandi skráningarnúmer frá opinberum aðilum. Dæmi um skráningarnúmer eru kennitala (SSN), skattnúmer (TIN) og evrópskt VSK-númer (EU VAT ID). Þessi eiginleiki býður upp á sameiginlega umgjörð fyrir öll lönd á öllum svæðum með tilliti til landsbundinna skilyrða í sumum Evrópulöndum. Eftirfarandi kaflar lýsa heildarflæði upplýsinga sem er notað við uppsetningu og vinnslu á skráningarkennum.
+Mörg lönd og svæði hafa mismunandi reglur og kröfur um skráningu skráningarnúmera eða auðkenna. Þessi grein gefur yfirlit yfir nauðsynlegar stillingar og vinnslu studdra skráningargerða fyrir aðila í mismunandi Evrópulöndum/svæðum. Öll lönd/svæði setja sín skilyrði um stuðning við ýmis landsbundin atriði varðandi skráningarnúmer frá opinberum aðilum. Dæmi um skráningarnúmer eru kennitala (SSN), skattnúmer (TIN) og evrópskt VSK-númer (EU VAT ID). Þessi eiginleiki býður upp á sameiginlega umgjörð fyrir öll lönd á öllum svæðum með tilliti til landsbundinna skilyrða í sumum Evrópulöndum. Eftirfarandi kaflar lýsa heildarflæði upplýsinga sem er notað við uppsetningu og vinnslu á skráningarkennum.
 
 ## <a name="registration-type-creation"></a>Skráningargerð stofnuð
 Áður en hægt er að færa inn skráningarkenni verður að setja upp skráningargerðir fyrir mismunandi tegundir skráningarnúmera sem eiga við. Farðu á síðuna **Fyrirtækisstjórnun** &gt; **Altæk aðsetursbók** &gt; **Skráningargerðir** &gt; **Skráningargerðir** til að stofna og stjórna skráningargerðum fyrir lánardrottna, viðskiptavini, starfsfólk og lögaðila í mismunandi löndum/svæðum.
@@ -51,7 +51,7 @@ Skráningarflokkur er skráningarkenni lands/svæðis sem er samþykkt til nota 
 |-----------------------|----------------|
 | Skráningargerð     | Skráningargerð í tilteknu landi/svæði.|
 | Takmarkað við         | Takmörkun sem gildir um skattskráningargerð: Engin, Einstaklingur, Fyrirtæki.|
-| Skráningarflokkur | Einkvæmt skráningarkenni sem er samþykkt til notkunar í landinu. Allur listi yfir studda flokka er sýndur síðar í þessari grein. |
+| Skráningarflokkur | Einkvæmt skráningarkenni sem er samþykkt til notkunar í landinu. Heildarlisti yfir studda flokka er sýndur síðar í þessari grein. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Slá inn skráningarkenni fyrir færslur altækrar aðsetursbókar
 
@@ -76,7 +76,7 @@ Altæka aðsetursbókin (GAB) inniheldur samanteknar upplýsingar um aðsetur fy
 Leit að aðilafærslum út frá skráningarkenni er í boði á skjámyndum sem tengjast aðila, lögaðila, lánardrottni, viðskiptavini og starfsmanni. Smellt er á **Leit að skráningarkenni** til að opna síðuna **Leitarskilyrði fyrir skráningarkenni**. Tilgreindu leitarskilyrði og smelltu á **Leita**. Kerfið birtir valdar færslur úr altæku aðsetursbókinni og tengdar tegundir aðilafærslu.
 
 ## <a name="supported-registration-categories"></a>Studdir skráningarflokkar
-Eftirfarandi tafla sýnir studdar skráningargerðir. Ef þú ert kunnugur Microsoft Dynamics AX 2012 reiti fyrir skráningarauðkenni, þessi tafla kortleggur einnig þá reiti við Dynamics 365 Finance skráningarflokkana.
+Eftirfarandi tafla sýnir studdar skráningargerðir. Ef þú þekkir reitina fyrir skráningarkenni í Microsoft Dynamics AX 2012 tengir taflan þessa reiti einnig við skráningarflokkana í Dynamics 365 Finance.
 
 | Skráningarflokkur í Finance         |Land/svæði  | Dynamics AX 2012 liður/svæði|
 |---------------------------------------------------------------|---------------------|---------------------------------|

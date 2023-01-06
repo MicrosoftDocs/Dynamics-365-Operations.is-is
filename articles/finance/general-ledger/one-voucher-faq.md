@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um eitt fylgiskjal
-description: Þessi grein svarar algengum spurningum um One voucher virkni. Eitt fylgiskjal fyrir fjárhagsbækur (almenna færslubók, eignabók, greiðslubók lánardrottins, o.s.frv.) gerir þér kleift að slá inn margar undirbókarfærslur í tengslum við eitt fylgiskjal.
+description: Þessi grein svarar algengum spurningum um virkni eins fylgiskjals. Eitt fylgiskjal fyrir fjárhagsbækur (almenna færslubók, eignabók, greiðslubók lánardrottins, o.s.frv.) gerir þér kleift að slá inn margar undirbókarfærslur í tengslum við eitt fylgiskjal.
 author: kweekley
 ms.date: 11/05/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
 ms.openlocfilehash: e7eedfd4b2914000e8fd85d977b071f44545a058
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8859796"
@@ -26,7 +26,7 @@ ms.locfileid: "8859796"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein svarar algengum spurningum um One voucher virkni. Eitt fylgiskjal fyrir fjárhagsbækur gerir þér kleift að slá inn margar undirbókarfærslur í tengslum við eitt fylgiskjal. Færslubækurnar sem hægt er að hafa með í þessu fylgiskjali geta verið almennar færslubækur, færslubækur eigna og greiðslubækur lánardrottins ásamt öðrum.
+Þessi grein svarar algengum spurningum um virkni eins fylgiskjals. Eitt fylgiskjal fyrir fjárhagsbækur gerir þér kleift að slá inn margar undirbókarfærslur í tengslum við eitt fylgiskjal. Færslubækurnar sem hægt er að hafa með í þessu fylgiskjali geta verið almennar færslubækur, færslubækur eigna og greiðslubækur lánardrottins ásamt öðrum.
 
 ## <a name="when-will-the-one-voucher-functionality-be-deprecated"></a>Hvenær verður virkni eins fylgiskjals úreld?
 

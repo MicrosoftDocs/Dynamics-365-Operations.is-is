@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ac25114fe8036a474d637e9ad9ede5e46b50d92e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8891581"
@@ -38,7 +38,7 @@ Veljið eina af fyrstu tveimur aðferðunum ef kosin er að stofna eignir handvi
 
 Hvort sem eignir eru stofnaðar handvirkt eða notuð sveigjanlegri nálgun, þarf að taka ákvörðun um hvort að kaupfærsla skuli einungis bókuð í Eignum, eða hvort að mögulegt skuli vera að bóka hana um leið og reikningur lánardrottins er bókaður. Sum fyrirtæki kjósa að notendur stofni kaup og kaupfærslur handvirkt í Eignum með því að nota handvirka skráningu í færslubók eða tillögur. 
 
-Þessi grein fjallar um upplýsingar um hverja aðferð.
+Þessi grein lýsir fjallar nánar um hverja aðferð.
 
 ## <a name="methods-for-manually-creating-fixed-assets"></a>Aðferðir fyrir að stofna eign handvirkt
 Þegar reikningur lánardrottins er bókaður þar sem númer eignar hefur verið fært inn í línu og ef gátreiturinn Leyfa eignakaup úr innkaupum hefur verið valinn á síðunni Eignafæribreytur, bókfærast kaup sjálfkrafa og staða eignar breytist í opið. 

@@ -1,6 +1,6 @@
 ---
 title: Uppsetning númeraraða með leiðsögn
-description: Þessi grein útskýrir hvernig á að setja upp allar nauðsynlegar númeraraðir á sama tíma með því að nota hjálp.
+description: Þessi grein útskýrir hvernig á að setja upp allar nauðsynlegar númeraraðir á sama tíma með því að nota leiðsagnarforrit.
 author: SunilGarg
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: cae739aad1166eee1abebe3c0adc7939bca55bc4
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8847064"
@@ -24,7 +24,7 @@ ms.locfileid: "8847064"
 
 [!include [banner](../../includes/banner.md)]
 
-Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færslur sem krefjast þeirra. Skýrsla aðalgagna eða færslu sem krefst kennis er kölluð Tilvísun. Áður en hægt er að stofna nýjar færslur fyrir tilvísun verður að setja upp númeraröð og tengja hana við tilvísunina. Þessi grein útskýrir hvernig á að setja upp allar nauðsynlegar númeraraðir á sama tíma með því að nota hjálp. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færslur sem krefjast þeirra. Skýrsla aðalgagna eða færslu sem krefst kennis er kölluð Tilvísun. Áður en hægt er að stofna nýjar færslur fyrir tilvísun verður að setja upp númeraröð og tengja hana við tilvísunina. Þessi grein útskýrir hvernig á að setja upp allar nauðsynlegar númeraraðir á sama tíma með því að nota leiðsagnarforrit. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
 1. Farðu í **Skoðunarrúða > Kerfiseiningar > Fyrirtækjastjórnun > Númeraraðir > Númeraraðir**.
 2. Veldu **Stofna**.

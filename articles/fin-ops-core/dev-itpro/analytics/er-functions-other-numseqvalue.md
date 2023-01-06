@@ -1,6 +1,6 @@
 ---
 title: NUMSEQVALUE ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig NUMSEQVALUE rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig NUMSEQVALUE rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 12/17/2019
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 62255f0a47d3c67468cf2cf3922a1886c29c03d6
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9271554"
@@ -94,7 +94,7 @@ Eftirfarandi gagnagjafar eru skilgreindir í líkanavörpuninni:
 
 Eftirfarandi gagnagjafar eru skilgreindir í líkanavörpuninni:
 
-- The **enumScope** gagnauppspretta Microsoft Dynamics 365 Fjármál *upptalningu* tegund. Þessi gagnagjafi vísar til upptalningarinnar **ERExpressionNumberSequenceScopeType**.
+- Gagnagjafinn **enumScope** er hluti af Microsoft Dynamics 365 Finance *upptalningargerð*. Þessi gagnagjafi vísar til upptalningarinnar **ERExpressionNumberSequenceScopeType**.
 - Gagnagjafinn **NumSeq** af gerðinni *Reiknaður reitur*. Þessi gagnaveita inniheldur segðina `NUMSEQVALUE ("Gene_1", enumScope.Company, "")`.
 
 Þegar **NumSeq** gagnaveitan er kölluð skilar hún nýmynduðu gildi **Gene\_1** númeraröðarinnar sem hefur verið skilgreint fyrir fyrirtækið sem leggur til samhengið sem ER-sniði er keyrt undir.

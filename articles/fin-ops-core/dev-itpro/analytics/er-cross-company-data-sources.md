@@ -1,6 +1,6 @@
 ---
 title: Gagnagjafar þvert á fyrirtæki í rafrænni skýrslugerð (ER)
-description: Þessi grein útskýrir hvernig þú getur notað gagnaveitur milli fyrirtækja í rafrænum skýrslum (ER).
+description: Þessi grein útskýrir hvernig hægt er að nota gagnagjafa þvert á fyrirtæki í rafrænni skýrslugerð.
 author: kfend
 ms.date: 04/23/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: ERModelMappingDesigner, ERFormatMappingLegalEntityFilterTable
 ms.openlocfilehash: ec96533dd2da933d5275adadedc9a92a33e47a38
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9277727"

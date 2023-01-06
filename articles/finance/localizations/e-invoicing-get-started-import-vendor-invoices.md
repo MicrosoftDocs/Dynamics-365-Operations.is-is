@@ -1,6 +1,6 @@
 ---
 title: Nota rafræna reikningsþjónustu til að flytja inn reikninga lánardrottna
-description: Þessi grein veitir upplýsingar um hvernig á að flytja inn reikninga lánardrottins með því að nota rafræna reikningaþjónustu.
+description: Í þessari grein er að finna upplýsingar um hvernig á að flytja inn reikninga lánardrottna með rafrænni reikningsfærsluþjónustu.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ''
 ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
 ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/16/2022
 ms.locfileid: "9524746"
@@ -28,7 +28,7 @@ ms.locfileid: "9524746"
 
 [!include [banner](../includes/preview-banner.md)]
 
-Þessi grein veitir upplýsingar sem hjálpa þér að hefjast handa við að flytja inn reikninga lánardrottna með því að nota rafræna reikningaþjónustu. Það leiðir þig í gegnum stillingarskrefin í Regulatory Configuration Services (RCS), Dynamics 365 Finance og Dynamics 365 Supply Chain Management sem þú verður að fylgja til að fá rafræna lánardrottnareikninga frá söluaðilum.
+Í þessari grein er að finna upplýsingar sem hjálpa til við að komast af stað með að flytja inn reikninga lánardrottins með rafrænni reikningsfærsluþjónustu. Þær leiða þig í gegnum skilgreiningarskrefin í Regulatory Configuration Services (RCS), Dynamics 365 Finance og Dynamics 365 Supply Chain Management sem þú verður að fylgja til að fá rafræna reikninga lánardrottna frá lánardrottnum.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Setja upp innflutning á reikningi lánardrottins í RCS
 Til að setja upp innflutning reikning lánardrottins í RCS skaltu fylgja þessum skrefum:
@@ -55,7 +55,7 @@ Skilgreindu rás tölvupóstsreiknings ef eiginleiki rafrænnar reikningsfærslu
     - Vistað eftir heppnaða úrvinnslu: **Safnmappa**
     - Vistað eftir úrvinnsla mistókst: **Villumappa** Þú þarft ekk að búa til þessar möppur í pósthólfinu. Möppurnar eru sjálfkrafa búnar til eftir fyrsta innflutning og úrvinnslu á rafrænum reikningi. 
    
-10. Í reitahópnum **Viðhengjasía** skal bæta við upplýsingum um skráasíun. Aðeins viðhengi sem fullnægja skilgreindri síu eru afgreidd. Til dæmis er hægt að setja upp „\*.xml“ fyrir viðhengi með xml-skrárendingu. Heiti viðhengis er notað í Dynamics 365 Finance eða Dynamics 365 Supply Chain Management við uppsetningu. 
+10. Í reitahópnum **Viðhengjasía** skal bæta við upplýsingum um skráasíun. Aðeins viðhengi sem fullnægja skilgreindri síu eru afgreidd. Til dæmis er hægt að setja upp „\*.xml“ fyrir viðhengi með xml-skrárendingu. Heiti viðhengisins er notað í Dynamics 365 Finance eða Dynamics 365 Supply Chain Management við uppsetningu. 
 11. Í flipanum **Gildissviðsreglur** skal fara yfir og uppfæra skilyrðið ef á þarf að halda. Reiturinn **Rás** verður að jafngilda **Gagnarásinni** sem gefin var upp hér á undan. Frekari upplýsingar er að finna í [Gildissviðsreglur](e-invoicing-configuration-rcs.md#applicability-rules).
 12. Veljið **Vista** og lokið síðunni.
 
@@ -108,7 +108,7 @@ Ljúktu skrefunum í eftirfarandi tveimur hlutum til að setja upp mismunandi ge
 3. Í útgáfunni **Drög** skal velja **Hönnuður** og í trénu **Gagnalíkan** skal velja **Varpa líkani á gagnagjafa**.
 4. Í **Skilgreiningatrénu** skal velja **DataChannel** og síðan velja **Hönnuður**.
 5. Í trénu **Gagnagjafar** skal stækka geymsluna **$Context\_Rás**. 
-6. Í **Gildi** reit, veldu **Breyta** > **Breyta formúlu**, og sláðu inn heiti gagnarásarinnar. Þetta er heiti rásarinnar sem gefið er upp í skilgreiningu gagnarásar fyrir eiginleika rafrænnar reikningsfærslu í RCS. 
+6. Í reitnum **Gildi** skal velja **Breyta** > **Breyta formúlu** og færa inn heiti rásarinnar. Þetta er heiti rásarinnar sem gefið er upp í skilgreiningu gagnarásar fyrir eiginleika rafrænnar reikningsfærslu í RCS. 
 7. Veljið **Vista** og lokið síðunni.
 8. Lokið síðunni.
 9. Veldu afleidda skilgreiningu sem þú varst að búa til í **Samhengislíkan viðskiptavinareiknings** og í flýtiflipanum **Útgáfur** skal velja **Breyta stöðu** > **Lokið**.

@@ -1,6 +1,6 @@
 ---
 title: Setja upp altækan staðgreiðsluskatt
-description: Þessi grein sýnir skrefin til að setja upp alþjóðlegan staðgreiðsluskatt fyrir sölu og innkaup.
+description: Þessi grein telur upp skrefin fyrir uppsetningu altæks staðgreiðsluskatts fyrir sölu og innkaup.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -17,14 +17,14 @@ ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: f2cdd388d790b48135561f740b63dc97875e85a3
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8902459"
 ---
 # <a name="set-up-global-withholding-tax"></a>Setja upp altækan staðgreiðsluskatt
 
-Þessi grein sýnir skrefin til að setja upp alþjóðlegan staðgreiðsluskatt fyrir sölu og innkaup. 
+Þessi grein telur upp skrefin fyrir uppsetningu altæks staðgreiðsluskatts fyrir sölu og innkaup. 
 
 1. Setjið upp staðgreiðsluskatt yfirvalda á síðunni **Yfirvöld staðgreiðsluskatts**.
 

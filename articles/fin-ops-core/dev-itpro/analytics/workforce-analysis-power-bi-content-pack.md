@@ -1,6 +1,6 @@
 ---
 title: Mælikvarðar vinnuafls Power BI efni
-description: Þessi grein lýsir vinnuaflsmælingum Power BI efni.
+description: Þessi grein lýsir Mælikvarðar vinnuafls Power BI efni.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.form: HcmWorkforceWorkspace
 ms.openlocfilehash: 9d5c156eda3559394cb2723f0492b0ab575d815d
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289817"
@@ -26,12 +26,12 @@ ms.locfileid: "9289817"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir **Mælingar á vinnuafli** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þessi grein lýsir **Mælikvarðar vinnuafls** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 **Mælikvarðar vinnuafls** Power BI efni birtist á vinnusvæðinu **Starfsmannastjórnun** ef þú notar eina af þessum vörum:
 
-- Microsoft Dynamics 365 Fjármál
+- Microsoft Dynamics 365 Finance
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI efni
@@ -58,7 +58,7 @@ Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á
 Vertu viss um að hlaða niður Power BI-efninu **Mælikvarðar vinnuafls** sem á við um útgáfuna á Microsoft Dynamics 365 sem verið er að nota.
 
 > [!NOTE]
-> .pbix skrárnar sem eru tiltækar í Lifecycle Services eiga aðeins við um fjármála- og rekstraröpp.
+> Þær .pbix skrár sem eru tiltækar í Lifecycle Services eiga aðeins við um forrit fjármála- og reksturs.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 Eftirfarandi tafla sýnir einingar sem efnið var byggt á.

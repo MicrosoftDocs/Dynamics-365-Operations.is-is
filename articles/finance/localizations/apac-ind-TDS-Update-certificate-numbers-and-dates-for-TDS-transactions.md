@@ -1,6 +1,6 @@
 ---
 title: Uppfæra númer og dagsetningar vottorða fyrir TDS-færslur
-description: Þessi grein útskýrir hvernig á að uppfæra endurheimtanlegt skírteinisnúmer og dagsetningar sem voru skráðar fyrir lánardrottna-, viðskiptamanna- og fjárhagsreikninga fyrir frádráttarskatt frá uppruna (TDS).
+description: Í þessari grein er útskýrt hvernig á að uppfæra endurheimtanleg vottorðanúmer og dagsetningar sem voru skráðar fyrir lánardrottin, viðskiptavin og fjárhagslykil fyrir skatt sem dreginn er frá í upphafi (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: 147a27261a4a282550f0bacede78c9edd38b4fe6
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8904442"
@@ -26,7 +26,7 @@ ms.locfileid: "8904442"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að uppfæra endurheimtanlegt skírteinisnúmer og dagsetningar sem voru skráðar fyrir lánardrottna-, viðskiptamanna- og fjárhagsreikninga fyrir frádráttarskatt frá uppruna (TDS). Hægt er að skoða vottorðin fyrir TDS-færslur á síðunni **Endurheimtanleg vottorð**. Hægt er að uppfæra vottorðin með því að nota síðuna **Uppfæra vottorð**.
+Í þessari grein er útskýrt hvernig á að uppfæra endurheimtanleg vottorðanúmer og dagsetningar sem voru skráðar fyrir lánardrottin, viðskiptavin og fjárhagslykil fyrir skatt sem dreginn er frá í upphafi (TDS). Hægt er að skoða vottorðin fyrir TDS-færslur á síðunni **Endurheimtanleg vottorð**. Hægt er að uppfæra vottorðin með því að nota síðuna **Uppfæra vottorð**.
 
 Fylgið þessum skrefum til að uppfæra vottorðanúmerin og dagsetningarnar fyrir TDS-færslur.
 

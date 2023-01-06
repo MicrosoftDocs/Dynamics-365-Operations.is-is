@@ -1,6 +1,6 @@
 ---
 title: Úrræðaleita vandamál sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
-description: Þessi grein útskýrir hvernig á að finna og laga frammistöðuvandamál í rafrænum skýrslum (ER) stillingum.
+description: Þessi grein útskýrir hvernig á að finna og laga vandamál sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar.
 author: kfend
 ms.date: 05/12/2022
 ms.topic: article
@@ -17,14 +17,14 @@ ms.assetid: ''
 ms.search.form: ERModelMappingDesigner, EROperationDesigner, ERFormatMappingRunJobTable, ERParameters, ERSolutionTable
 ms.openlocfilehash: 283577e70d4e5c4314776f7420857cf8e25e735f
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9278737"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Úrræðaleita vandamál sem tengjast afköstum í skilgreiningum rafrænnar skýrslugerðar
 
-Þessi grein útskýrir hvernig á að finna og leysa frammistöðuvandamál í [Rafræn skýrslugerð](general-electronic-reporting.md) (ER) [stillingar](general-electronic-reporting.md#Configuration).
+Þessi grein útskýrir hvernig á að finna og leysa vandamál sem tengjast afköstum í [skilgreiningum](general-electronic-reporting.md#Configuration) [rafrænnar skýrslugerðar](general-electronic-reporting.md).
 
 Yfirleitt felur rannsókn á afköstum í sér nokkur skref.
 
@@ -55,7 +55,7 @@ Stundum koma upp afkastavandamál sem tengjast ekki skilgreiningu rafræns skýr
 
 Undirbúið lítið sýnishorn eða safnið saman nokkrum rakningum á handahófskenndum tímapunktum skýrslumyndunar.
 
-Síðan, í [Rekja flokkari](#trace-parser), gerðu staðlaða botn-upp greiningu og svaraðu eftirfarandi spurningum:
+Gerið síðan hefðbundna alhliða greiningu í [Rakningarþáttara](#trace-parser) og svarið eftirfarandi spurningum:
 
 - Hverjar eru helstu aðferðirnar hvað varðar tímanotkun?
 - Hvaða hluta af heildartímanum nota þessar aðferðir?
@@ -82,7 +82,7 @@ Opnið síðan rakninguna í hönnuði líkanavörpunar rafrænnar skýrslugerð
 
 - Samræmist fjöldi fyrirspurna og sóttra færslna heildarfjölda gagna? Ef skjal hefur t.d. 10 línur, sýnir tölfræðin að skýrslan dragi út 10 línur eða 1000 línur? Ef talsverður fjöldi færslna er sóttur skal íhuga eina af eftirfarandi lagfæringum:
 
-    - [Nota **SÍA** fall í stað **HVAR** virka](#filter) að vinna úr gögnum um Microsoft SQL Server hlið.
+    - [Notið **FILTER** aðgerðina í stað **WHERE** aðgerðarinnar](#filter) til að vinna úr gögnum hjá Microsoft SQL Server.
     - Notið vistun í skyndiminni til að forðast að sækja sömu gögnin.
     - [Notið söfnuð gögn](#collected-data) til að forðast að sækja sömu gögnin fyrir samantekt.
 
@@ -191,9 +191,9 @@ Nokkrar takmarkanir eru á þessari nálgun. Þú verður að hafa stjórnandaa�
 
 Þrátt fyrir að vistun í skyndiminni dregur úr tímanum sem þarf til að sækja gögn aftur, kostar það minni. Notið vistun í skyndiminni í tilvikum þar sem fjöldi sóttra gagna er ekki mjög mikill. Frekari upplýsingar og dæmi sem sýnir hvernig á að nota vistun í skyndiminni er að finna í [Bæta líkanavörpun á grundvelli upplýsinga úr framkvæmdarakningu](trace-execution-er-troubleshoot-perf.md#improve-the-model-mapping-based-on-information-from-the-execution-trace).
 
-#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a> Draga úr magni sóttra gagna
+#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a>Minnka magn gagna sem sótt eru
 
-Þú getur dregið úr minnisnotkun fyrir skyndiminni með því að takmarka fjölda reita í skrám forritatöflu sem þú sækir á keyrslutíma. Í þessu tilviki muntu aðeins sækja þau svæðisgildi í forritatöflu sem þú þarft í ER líkanavörpun þinni. Aðrir reitir í þeirri töflu verða ekki sóttir. Þess vegna minnkar minnismagnið sem þarf til að vista sóttar færslur í skyndiminni. Fyrir frekari upplýsingar, sjá [Bættu frammistöðu ER lausna með því að fækka töflureitum sem eru sóttir á keyrslutíma](er-reduce-fetched-fields-number.md).
+Hægt er að draga úr minnisnotkun fyrir vistun í skyndiminni með því að takmarka fjölda reita í færslunum fyrir forritstöfluna sem þú sækir við keyrslu. Í þessu tilfelli sækirðu aðeins þau reitargildi forritstöflu sem þarf í líkanavörpun rafrænnar skýrslugerðar. Aðrir reitir í töflunni verða ekki sóttir. Þess vegna minnkar magn minnis sem þarf til að vista sóttar færslur í skyndiminni. Frekari upplýsingar eru í [Aukið afköst lausna fyrir rafræna skýrslugerð með því að minnka fjölda töflureita sem eru sóttir við keyrslu](er-reduce-fetched-fields-number.md).
 
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>Nota færibreytustilltan reiknaðan reit sem vistaður er í skyndiminni
 
@@ -222,4 +222,4 @@ Rafræn skýrslugerð getur notað gögn frá eftirfarandi upprunum:
 - Klösum (**hlutar** og **klasa** gagnagjöfum)
 - Töflum (**töflu** og **töflufærslna** gagnagjöfum)
 
-The [ER forritunarviðmót (API)](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) býður einnig upp á leið til að senda forreiknuð gögn úr hringitónskóðanum. Forritapakkinn inniheldur fjölmörg dæmi um þessa nálgun.
+[API rafrænnar skýrslugerðar](er-apis-app73.md#how-to-access-internal-x-objects-by-using-erobjectsfactory) býður einnig upp á leið til að senda fyrirframreiknuð gögn úr köllunarkóðanum. Forritapakkinn inniheldur fjölmörg dæmi um þessa nálgun.

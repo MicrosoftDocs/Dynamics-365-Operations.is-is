@@ -1,6 +1,6 @@
 ---
 title: Setja upp víxla
-description: Þessi grein lýsir skrefunum til að setja upp víxla.
+description: Í þessari grein er fjallað um uppsetningu víxla.
 author: ShivamPandey-msft
 ms.date: 09/17/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 91821b10afe7cdbabd0a58b61219ce29d686c5c9
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8874726"
@@ -26,7 +26,7 @@ ms.locfileid: "8874726"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir skrefunum til að setja upp víxla.
+Í þessari grein er fjallað um uppsetningu víxla.
 
 Víxill er rituð eða rafræn pöntun frá viðskiptavini sem tilgreinir að annar aðili, vanalega banki, eigi að borga tiltekna upphæð til fyrirtækisins. Þegar víxill er notaður sem greiðsla fyrir sölupöntunarreikning eða textareikning, er lykill viðskiptavinar tekjufærður. Tekjufærslan er tryggð með víxlinum þar til viðskiptavinur greiðir víxilinn til bankans. Vanalega er reikningurinn jafnaður með víxlinum á gjalddaga. Þegar tilkynning kemur frá bankanum að víxillinn hafi verið greiddur er hægt að loka víxlinum. Hægt er að gefa út víxil gegnum bankann á eftirfarandi tímum:
 

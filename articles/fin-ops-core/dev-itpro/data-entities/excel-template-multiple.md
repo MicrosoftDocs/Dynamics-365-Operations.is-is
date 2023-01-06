@@ -1,6 +1,6 @@
 ---
 title: Gagnasniðmát með mörgum vinnublöðum
-description: Þessi grein lýsir því hvernig á að flytja inn gögn með því að nota Excel gagnaeiningasniðmát í fjármál og rekstur.
+description: Þessi grein lýsir því hvernig skal flytja gögn með því að nota Excel gagnaeiningasniðmát inn í fjármála- og reksturs.
 author: peakerbl
 ms.date: 01/01/2018
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.openlocfilehash: f0845b111afb18205677b885c91fe1585b24ab14
 ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/01/2022
 ms.locfileid: "9108807"

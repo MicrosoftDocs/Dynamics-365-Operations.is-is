@@ -17,7 +17,7 @@ ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.form: FinancialReports
 ms.openlocfilehash: 3bc3ddb9f04f7f6f2a63b2ecccfe04fbaf2eadfc
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9274728"
@@ -159,7 +159,7 @@ Valmyndin **Gluggi** er í boði fyrir alla notendur og inniheldur eftirfarandi 
 
 | Skipun | Lýsing                                                              |
 |---------|--------------------------------------------------------------------------|
-| Hjálp    | Opnaðu hjálpargreinasíðuna fyrir fjárhagsskýrslur. |
+| Hjálp    | Opna síðu hjálpargreinar fyrir fjárhagsskýrslugerð. |
 |         |                                                                          |
 
 ## <a name="report-designer-toolbar-buttons"></a>Skýrsluhönnunarverkfærahnappar

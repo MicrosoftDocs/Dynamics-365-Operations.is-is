@@ -1,6 +1,6 @@
 ---
 title: Hanna skilgreiningar til að búa til skjöl sem eru með forritsgögnum
-description: Þessi grein lýsir því hvernig á að hanna rafræna skýrslugerð (ER) stillingar til að búa til rafrænt skjal. (Hluti 1 - Flytja inn skilgreiningar).
+description: Þessi grein útskýrir hvernig skal hanna skilgreiningar rafrænnar skýrslugerðar þannig að þær búi til rafrænt skjal. (Hluti 1 - Flytja inn skilgreiningar).
 author: kfend
 ms.date: 06/19/2017
 ms.topic: business-process
@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8494f54c6f84e63e75469aa9d80d090c050b0f7f
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290545"

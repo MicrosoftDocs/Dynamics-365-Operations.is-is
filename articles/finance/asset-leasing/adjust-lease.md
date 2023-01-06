@@ -1,6 +1,6 @@
 ---
 title: Leiðrétta leigusamninga
-description: Greinin útskýrir hvernig á að laga leigusamning. Leiðrétting gæti verið nauðsynleg ef leiguskilmálum er breytt, leigan framlengd eða aðrar aðstæður breytast.
+description: Þessi grein útskýrir hvernig á að leiðrétta leigusamning. Leiðrétting gæti verið nauðsynleg ef leiguskilmálum er breytt, leigan framlengd eða aðrar aðstæður breytast.
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8898328"
@@ -27,7 +27,7 @@ ms.locfileid: "8898328"
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Greinin útskýrir hvernig á að laga leigusamning. Leiðrétting gæti verið nauðsynleg ef leiguskilmálum er breytt, leigan framlengd eða aðrar aðstæður breytast. Eignarleiga uppfyllir leiðbeiningar sem efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) og alþjóðlegan reikningsskilastaðal 16 (IFRS 16) kveður á um varðandi breytingar á leigusamningum. ASC 842-20-15-1 skilgreinir breytingar á leigusamningi sem allar breytingar á skilmálum samnings sem valda breytingu á umfangi, eða meðferð á leigusamningi. Málsgrein 39 í IFRS 16 segir að leigjandi þurfi að endurmeta leiguskuldbindingu þannig að hún endurspegli breytingar á leigugreiðslum.
+Þessi grein útskýrir hvernig á að leiðrétta leigusamning. Leiðrétting gæti verið nauðsynleg ef leiguskilmálum er breytt, leigan framlengd eða aðrar aðstæður breytast. Eignarleiga uppfyllir leiðbeiningar sem efnisatriði um skráningarkerfi reikningsskilastaðla 842 (ASC 842) og alþjóðlegan reikningsskilastaðal 16 (IFRS 16) kveður á um varðandi breytingar á leigusamningum. ASC 842-20-15-1 skilgreinir breytingar á leigusamningi sem allar breytingar á skilmálum samnings sem valda breytingu á umfangi, eða meðferð á leigusamningi. Málsgrein 39 í IFRS 16 segir að leigjandi þurfi að endurmeta leiguskuldbindingu þannig að hún endurspegli breytingar á leigugreiðslum.
 
 Fyrir fyrirtæki sem fylgja ASC 842 eða IFRS 16 er leigusamningur endurmetinn aftur til að endurspegla breytingu á núvirði á lágmarksgreiðslum á leigu í framtíðinni (PVFMLP). Þegar PVFMLP eykst er til staðar mun bókarfærslan sem er stofnuð vera debetfærsla á lykli afnotaréttar af eign og kreditfærsla á lykli leiguskuldbindingar fyrir mismuninn á milli nýja PVFMLP og eldri PVFMLP. Ef PVFMLP lækkar verður bókarfærslan debetfærsla á lykli leiguskuldbindingar og kreditfærsla á lykli afnotaréttar af eign fyrir mismuninum.
 
@@ -134,19 +134,19 @@ Ef leigusamningur hefur verið leiðréttur er hægt að skoða mismunandi útg�
 2. Til að skoða eldri áætlanir skal opna breyttan leigusamning á síðunni **Samantekt leigusamnings** velja viðeigandi bók og velja síðan **Útgáfuferill bókar** á aðgerðasvæðinu.
 3. Á síðunni **Bókaútgáfa** skal velja útgáfu og áætlun til að skoða.
 
-## <a name="adjust-a-lease-book"></a>Stilla leigubók
+## <a name="adjust-a-lease-book"></a>Breyta leigubók
 
-Fylgdu þessum skrefum til að breyta eingöngu leigubók.
+Gerðu eftirfarandi til að breyta eingöngu leigubók.
 
-1. Fara til **Eignaleiga** \> **Leigusamningar** \> **Leiguyfirlit**.
-2. Veldu og opnaðu leigusamning.
-3. Á **Upplýsingar um leigusamning** síðu, veldu **Bækur**.
-4. Á **Upplýsingar um bækur** síðu, á aðgerðarrúðunni, í **Viðhalda** hópur, veldu **Stilla bók**. 
-5. Fjarlægðu greiðsluáætlunarlínurnar.
-6. Í **Breytingardagur leigusamnings** reit, sláðu inn breytingardagsetningu. Íhugaðu síðan að fjarlægja öll aukaatriði eigna/skulda (beinn upphafskostnaður, leiguívilnun, fyrirframgreiðsla leigusamnings, niðurrifskostnaður og afgangsvirðisábyrgð), ef einhver er. 
-7. Til að koma í veg fyrir ónákvæma útreikninga fyrir leiðréttingu leigusamnings skaltu bæta við nýjum greiðsluáætlunarlínum fyrir nýju greiðsludagana sem passa við breytingardagsetninguna. 
+1. Opnaðu **Eignarleiga** \> **Leigusamningar** \> **Samantekt leigusamnings**.
+2. Veljið og opnið leigu
+3. Á síðunni **Upplýsingar um leigu** skal velja **Bækur**.
+4. Á síðunni **Upplýsingar bóka** á aðgerðasvæðinu í flokknum **Vinna með** skal velja **Leiðrétta bók**. 
+5. Fjarlægja greiðsluáætlunarlínur
+6. Sláðu inn dagsetningu breytingar í reitnum **Breytingardagsetning leigusamnings**. Íhugaðu þá að fjarlægja allar aðrar athugasemdir vegna eigna/skulda (upphaflegur beinn kostnaður, hvati til leigu, fyrirframgreiðsla leigusamnings, sundurliðun kostnaðar og eftirstöðvar virðisaukaskatts), ef einhverjar eru. 
+7. Til að koma í veg fyrir ónákvæma útreikninga vegna leiguleiðréttingar skaltu bæta við nýjum línum í greiðsluáætlun fyrir nýju greiðsludagana sem passa við breytingadagsetninguna. 
 
 > [!NOTE] 
-> Við mælum með að þú notir **Leiguleiðrétting** töframaður til að laga leigusamning. Leiðsagnarforritið dregur úr fjölda handvirkra skrefa, gefur sýnishorn af stöðunum eftir leiðréttinguna og gerir þér kleift að breyta upphæðum fyrir bókun.
+> Við mælum með því að þú notir leiðsagnarforritið **Leiguleiðrétting** til að aðlaga leigusamning. Leiðsagnarforritið dregur úr fjölda handvirkra skrefa, gefur forskoðun af stöðu eftir leiðréttinguna og leyfir þér að breyta upphæðum áður en þú bókar.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

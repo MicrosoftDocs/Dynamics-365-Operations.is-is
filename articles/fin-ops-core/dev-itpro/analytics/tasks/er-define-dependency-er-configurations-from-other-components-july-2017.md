@@ -1,6 +1,6 @@
 ---
 title: Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta
-description: Þessi grein lýsir því hvernig á að hanna rafræna skýrslugerð (ER) stillingar og tilgreina háð hennar frá öðrum hugbúnaðarhlutum.
+description: Í þessari grein er útskýrt hvernig á að hanna skilgreiningu rafrænnar skýrslugerðar og tilgreina sjálfstæði hennar frá öðrum hugbúnaðarþáttum.
 author: kfend
 ms.date: 07/23/2021
 ms.topic: business-process
@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ff9d1edab13de49ae676708865ebe02a82db34e0
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291265"
@@ -25,7 +25,7 @@ ms.locfileid: "9291265"
 
 Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar, Rafræn skýrslugerð Stýring grunnstillinga vörpunar líkans, og hafa aðgang að Microsoft Dynamics Lifecycle Services (LCS).
 
-Þetta ferli sýnir hvernig á að hanna uppsetningu rafrænnar skýrslugerðar (ER) og tilgreina háð hennar frá öðrum hugbúnaðarhlutum, svo að þú getir hjálpað til við að tryggja að stillingunum sé rétt hlaðið niður í tiltekna útgáfu af fjármálum og rekstri. Í þessu dæmi muntu stofna nauðsynlega grunnstillingar Rafræn skýrslugerð fyrir sýnifyrirtækið, Litware, Inc. 
+Þetta ferli sýnir hvernig skal hanna grunnstillingar fyrir Rafræna skýrslugerð og tilgreina fylgni við aðra hugbúnaðarhluta, svo þú getir hjálpað til við að tryggja að grunnstillingu sé rétt hlaðið niður á sérstaka útgáfu af fjármála- og reksturs. Í þessu dæmi muntu stofna nauðsynlega grunnstillingar Rafræn skýrslugerð fyrir sýnifyrirtækið, Litware, Inc. 
 
 Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Þessi skref er hægt að framkvæma í hvaða fyrirtæki er, þar sem grunnstillingar rafrænnar skýrslugerðar eru samnýttar á milli fyrirtækja. 
 
@@ -46,7 +46,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefn
 7. Velja Microsoft Dynamics 365 for Operations (1611).
 8. Í reitinn Útgáfa skal slá inn „[7.1.1541.3036,8)“.
     * [7.1.1541.3036,8)  
-    * Fylgni sem þú færir inn verður metin þegar þessi grunnstilling er hlaðið niður frá einhverri Rafræn skýrslugerð geymslu. Þessi útgáfa grunnstillingu verður halað niður frá Rafræn skýrslugerð geymslu þegar útgáfa 1 af „Sýnigagnalíkani“ grunnstillingu er annað hvort þegar til staðar eða fyrirfram hlaðið niður. Ef það er hlaðið niður fyrirfram verður það að vera lokið í fjármála- og rekstrarútgáfu 7.1.1541.3036 eða nýrri, en má ekki fara yfir helstu útgáfu 8.   
+    * Fylgni sem þú færir inn verður metin þegar þessi grunnstilling er hlaðið niður frá einhverri Rafræn skýrslugerð geymslu. Þessi útgáfa grunnstillingu verður halað niður frá Rafræn skýrslugerð geymslu þegar útgáfa 1 af „Sýnigagnalíkani“ grunnstillingu er annað hvort þegar til staðar eða fyrirfram hlaðið niður. Ef henni er fyrirfram hlaðið niður, verður að ljúka því í fjármála- og reksturs, útgáfu 7.1.1541.3036 eða nýrri, en má ekki fara fram úr útgáfu 8.   
 9. Smellið á „Vista“.
 10. Lokið síðunni.
 11. Smellið á „Breyta stöðu“.
@@ -59,7 +59,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefn
 18. Velja Microsoft Dynamics AX 7.0 RTW.
 19. Í reitinn Útgáfa skal slá inn „[7.0.1265.3015,7.1)“.
     * [7.0.1265.3015,7.1)  
-    * Fylgni verður metin þegar grunnstillingu er hlaðið niður frá einhverri Rafræn skýrslugerð geymslu. Þessi útgáfa grunnstillingu verður halað niður frá Rafræn skýrslugerð geymslu þegar útgáfa 1 af „Sýnigagnalíkani“ grunnstillingu er annað hvort þegar til staðar eða fyrirfram hlaðið niður. Ef það er hlaðið niður fyrirfram verður að klára það í Microsoft Dynamics 365 Finance, Enterprise útgáfa, útgáfan verður að vera 7.0.1265.3015 eða nýrri, en má ekki fara yfir minni útgáfu 1.   
+    * Fylgni verður metin þegar grunnstillingu er hlaðið niður frá einhverri Rafræn skýrslugerð geymslu. Þessi útgáfa grunnstillingu verður halað niður frá Rafræn skýrslugerð geymslu þegar útgáfa 1 af „Sýnigagnalíkani“ grunnstillingu er annað hvort þegar til staðar eða fyrirfram hlaðið niður. Ef henni er fyrirfram hlaðið niður, verður að ljúka því í Microsoft Dynamics 365 Finance, Enterprise Edition 7.0.1265.3015 eða síðar, en má ekki fara fram úr útgáfu 1.   
 20. Smellið á „Vista“.
 21. Lokið síðunni.
 22. Smellið á „Breyta stöðu“.
@@ -136,7 +136,7 @@ Við munum eyða stofnuðum grunnstillingum úr kerfinu og hlaða þeim aftur ni
 25. Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Grunnstillingar.
 26. Stækkið „Sýnigagnalíkan“, í trénu.
     * Athugið að grunnstillingum líkans „Sýnivörpun“ vörpun hefur verið hlaðið niður með völdum grunnstillingum gagnalíkans. Þessum tveimur skrám er hlaðið saman niður vegna þess að „Sýnivörpun“ hefur verið skilgreind sem framkvæmd valins gagnalíkans, og vegna þess að þær eru nothæfar í forritinu. Grunnstillingu „Sýnivörpun (valmöguleiki)“ hefur ekki verið hlaðið niður vegna þess að skilyrði fyrir útgáfu forritsins sem er krafist eru ekki uppfyllt.   
-    * Ef þú skráir þig inn í fjármál og rekstur, skráir sömu þjónustuveituna, opnar sama LCS verkefnið og hleður niður sömu gagnalíkönstillingum, mun stillingunni 'Sample mapping (val)' hlaðast niður, en 'Sample mapping' stillingunni verður sleppt.  
+    * Ef þú skráir þig inn í fjármála- og reksturs, skráir sömu veitu, færð aðgang að sama LCS verkinu, og hleður niður sömu grunnstillingum fyrir gagnalíkan, mun „Sýnivörpun (valmöguleiki)“ grunnstillingar hlaðast niður, en „Sýnivörpun“ grunnstillingar verður sleppt.  
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

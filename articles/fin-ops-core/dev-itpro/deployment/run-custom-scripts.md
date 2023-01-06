@@ -1,6 +1,6 @@
 ---
 title: Keyra sérsniðnar X++ skriftur með engan niðurtíma
-description: Þessi grein lýsir því hvernig á að hlaða upp og keyra dreifanlega pakka sem innihalda sérsniðnar X++ forskriftir án þess að þurfa að fresta kerfinu þínu.
+description: Þessi grein útskýrir hvernig á að hlaða upp og keyra virkjanlega pakka sem innihalda sérsniðnar X++ forskriftir án þess að setja kerfið í bið.
 author: AndersGirke
 ms.date: 12/16/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
 ms.openlocfilehash: 3d00f842da69f889738fbcb293c7489bb018e810
 ms.sourcegitcommit: f62c9b24c2205d03e2fd6e7c67f7b5c316233b12
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/29/2022
 ms.locfileid: "9598083"
@@ -22,55 +22,55 @@ ms.locfileid: "9598083"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi eiginleiki gerir þér kleift að hlaða upp og keyra dreifanlega pakka sem innihalda sérsniðnar X++ forskriftir án þess að þurfa að fara í gegnum Microsoft Dynamics Lifecycle Services (LCS) eða stöðva kerfið þitt. Þess vegna geturðu leiðrétt minniháttar ósamræmi í gögnum án þess að valda truflandi niður í miðbæ.
+Þessi eiginleiki gerir þér kleift að hlaða upp og keyra virkjanlega pakka sem innihalda sérsniðnar X++ forskriftir án þess að fara í gegnum Microsoft Dynamics Lifecycle Services (LCS) eða setja kerfið í bið. Þess vegna er hægt að leiðrétta minniháttar ósamræmi í gögnum án þess að það valdi verulegum niðurtíma.
 
-Ávinningurinn af því að nota X++ skriftu til að leiðrétta minniháttar ósamræmi í gögnum er að kerfið mun sjálfkrafa stilla allar tengdar töflur eftir þörfum þegar það keyrir skriftuna. Þessi nálgun hjálpar til við að tryggja heiðarleika leiðréttingarinnar og hjálpar til við að lágmarka hættuna á að koma upp nýju ósamræmi.
+Kosturinn við að nota X++ forskriftir til að leiðrétta minniháttar ósamræmi í gögnum er sá að kerfið leiðréttir sjálfkrafa allar tengdar töflur eins og þörf er á þegar það keyrir forskriftina. Þessi aðferð hjálpar til við að tryggja heilleika leiðréttingarinnar og dregur úr hættu á nýju ósamræmi.
 
 > [!IMPORTANT]
-> Þessi eiginleiki er eingöngu ætlaður til að leiðrétta minniháttar ósamræmi í gögnum. Það má ekki nota í eftirfarandi tilgangi eða öðrum tilgangi:
+> Þessi eiginleiki er eingöngu ætlaður til leiðréttingar á minniháttar ósamræmi gagna. Ekki má nota þetta í eftirfarandi tilgangi eða í öðrum tilgangi:
 >
 > - Gagnasöfnun
-> - Skipulagsbreytingar
-> - Gagnaflutningur eða önnur langvinn ferli
-> - Leiðrétting á gögnum sem hægt er að leiðrétta með öðrum hætti, svo sem venjulegum viðskiptaferlum, gagnasamræmisverkfærum eða öðrum sjálfsafgreiðsluverkfærum
+> - Breytingar á skemum
+> - Gagnaflutningur eða önnur ferli sem hafa verið lengi í vinnslu
+> - Leiðrétting á gögnum sem hægt er að leiðrétta með öðrum leiðum, svo sem reglulegum viðskiptaferlum, gagnasamræmisverkfærum eða öðrum sjálfsafgreiðsluverkfærum
 >
-> Eiginleikinn gerir viðurkenndum notendum kleift að breyta einingum og skrám þeirra beint, án þess að þurfa að keyra viðskiptarökfræðina sem tengist þessum aðilum. Þessar breytingar geta valdið gagnaheilleikavandamálum. Þess vegna gæti stofnun þín krafist þess að þú fáir samþykki og kvittun frá innri og ytri endurskoðendum (eða öðrum jafngildum hagsmunaaðilum) fyrir og/eða eftir að þú keyrir handrit. Af fylgniástæðum gæti einnig þurft að birta breytingar sem hafa áhrif á suma eiginleika í ytri skýrslum (svo sem reikningsskilum) eða tilkynna stjórnvöldum. Stofnunin þín er ein ábyrg fyrir öllum breytingum sem gerðar eru á gögnum þess með þessum eiginleika, hvers kyns samþykki og undirritun eða birtingu þessara breytinga og samræmi við gildandi lög. Þú berð alla áhættuna af því að nota þennan eiginleika.
+> Eiginleikinn gerir viðurkenndum notendum kleift að breyta einingum og færslum þeirra beint án þess að keyra viðskiptagrunninn sem tengist þessum einingum. Þessar breytingar geta valdið vandamálum varðandi heilleika gagna. Þess vegna gæti fyrirtækið þitt farið fram á að þú fáir samþykki og undirskrift frá innri og ytri endurskoðendum (eða öðrum sambærilegum hagsmunaaðilum) fyrir og/eða eftir að forskriftin hefur verið keyrð. Af reglufylgniástæðum gæti þurft að taka fram breytingar sem hafa áhrif á sum einkenni í ytri skýrslum (t.d. fjárhagsskýrslum) eða tilkynna yfirvöldum um þær. Fyrirtækið ber alfarið ábyrgð á öllum breytingum sem gerðar eru á gögnum þess með þessum eiginleika, samþykki, undirritun eða birtingu þeirra og að farið sé eftir gildandi lögum. Þú berð alla áhættuna af því að nota þennan eiginleika.
 
-Allir dreifanlegir pakkar sem hlaðið er inn í kerfið fara í gegnum skyldubundið verkflæði. Sem öryggisráðstöfun, og til að tryggja aðskilnað starfa, er notandinn sem hleður upp pakka sem hægt er að nota, ekki leyft að samþykkja hann fyrir næstu skref í verkflæðinu. Annar notandi verður að samþykkja það. Hins vegar, eftir að pakkinn hefur verið samþykktur, mun notandinn sem hlóð honum upp hafa leyfi til að ljúka þeim skrefum sem eftir eru.
+Allir virkjanlegir pakkar sem hlaðnir eru upp í kerfið fara í gegnum áskilið verkflæði. Til öryggis og til að tryggja aðskilnað á skyldum er notanda sem hleður upp virkjanlegum pakka ekki heimilt að samþykkja hann fyrir næstu skref í verkflæðinu. Annar notandi verður að samþykkja það. Eftir að pakkinn hefur verið samþykktur fær notandinn sem hlóð honum upp hins vegar að ljúka þeim skrefum sem eftir eru.
 
-Kerfið krefst þess að allir pakkar sem hægt er að dreifa fari í gegnum prufukeyrslu. Áður en handritið verður leyft að keyra á framleiðslugögnum verður notandi að sannreyna að úttakið sé rétt með því að velja **Samþykkja prófunarskrá**. Ef úttakið er ekki rétt verður notandinn að merkja pakkann sem mistókst með því að velja **Að segja skilið við**. Í þessu tilviki verður handritið ekki leyft að keyra á framleiðslugögnum.
+Kerfið krefst þess að allir virkjanlegir pakkar fari í gegnum prufukeyrslu. Áður en forskriftin fær að keyra á framleiðslugögnum verður notandi að staðfesta að úttakið sé rétt með því að velja **Samþykkja prufukladda**. Ef útkoman er ekki rétt verður notandinn að merkja pakkann sem misheppnaðan með því að velja **Yfirgefa**. Í þessu tilfelli er forskriftinni ekki leyft að keyra á framleiðslugögnum.
 
-Sérhver pakki sem hlaðið er upp er vistaður í kerfinu og fer í gegnum skilgreint verkflæði atburða. Fyrir hvern atburð heldur kerfið skrá sem inniheldur tímastimpil og auðkenni þess sem framkvæmdi atburðinn. Þannig tryggir kerfið að til sé endurskoðunarslóð.
+Allir pakkar sem hlaðið er upp eru vistaðir í kerfinu og fara í gegnum skilgreint verkflæði viðburða. Fyrir hvern viðburð heldur kerfið skrá með tímastimpli og auðkenni þess sem framkvæmdi viðburðinn. Þannig tryggir kerfið að slóð færslna sé til staðar.
 
-Eins og eftirfarandi mynd sýnir gefur kerfið upplýsingar um hvernig hver pakki sem hægt er að dreifa var keyrður í X++ og hvaða einingar voru snertar.
+Eins og eftirfarandi mynd sýnir veitir kerfið upplýsingar um hvernig hver virkjanlegur pakki var keyrður í X++ og hvaða einingar voru snertar.
 
-![Upplýsingasíða handrits.](media/script-details.png "Upplýsingasíða handrits")
+![Upplýsingasíða forskriftar.](media/script-details.png "Upplýsingasíða forskriftar")
 
-## <a name="assign-duties-to-users-to-control-access"></a>Úthlutaðu skyldum til notenda til að stjórna aðgangi
+## <a name="assign-duties-to-users-to-control-access"></a>Úthluta skyldum til notenda til að stýra aðgangi
 
-Þessi eiginleiki veitir eftirfarandi skyldur. Stjórnendur geta notað þessar skyldur til að hjálpa til við að stjórna aðgangi að eiginleikanum.
+Þessi eiginleiki veitir eftirfarandi skyldur. Kerfisstjórar geta notað þessar skyldur til að stýra aðgangi að eiginleikanum.
 
-- **Halda sérsniðnum forskriftum** - Þessi skylda veitir getu til að hlaða upp, prófa, sannreyna og keyra sérsniðnar X++ forskriftir í umhverfi (samþykkisprófun notenda\[ UAT\] og framleiðslu).
-- **Samþykkja sérsniðnar forskriftir** – Þessi skylda veitir möguleika á að samþykkja sérsniðið X++ forskrift sem hlaðið er upp. Samþykki er nauðsynlegt skref áður en hægt er að prófa, sannreyna og keyra nokkurt handrit.
+- **Vinna með sérsniðnar forskriftir** – Þessi aðgangsheimild veitir getu til að hlaða upp, staðfesta og keyra sérsniðnar X++ forskriftir í umhverfum (samþykkisprófun notanda \[UAT\] og framleiðsla).
+- **Samþykkja sérsniðnar forskriftir** – Þessi aðgangsheimild veitir getu til að samþykkja sérsniðna X++ forskrift sem hlaðið hefur verið upp. Samþykki er nauðsynlegt skref áður en hægt er að prófa, staðfesta og keyra hvaða skriftu sem er.
 
-Til að hjálpa til við að lágmarka hættuna á skaðlegum aðgerðum verður hvert smáforrit að vera sérstaklega samþykkt af öðrum notanda en notandanum sem hlóð því upp. Áður en þú getur notað þennan eiginleika í fyrirtækinu þínu verður stjórnandi að úthluta fyrri skyldum til að minnsta kosti tveggja viðeigandi og mjög traustra notenda. Þó að einn notandi geti haft báðar skyldur, mun sá notandi samt ekki geta samþykkt eigin forskriftir.
+Til að lágmarka hættu á skaðlegum aðgerðum verður hver skrifta að vera sérstaklega samþykkt af öðrum en þeim sem hlóð henni upp. Áður en hægt er að nota þennan eiginleika í fyrirtækinu verður stjórnandi að úthluta áðurnefndum aðgangsheimildum á að minnsta kosti tvo viðeigandi og trausta notendur. Þótt einn notandi getið verið með báðar aðgangsheimildirnar getur sá notandi samt ekki samþykkt sínar eigin forskriftir.
 
 ## <a name="create-a-deployable-package"></a>Virkjanlegur pakki búinn til
 
-Eiginleikinn krefst venjulegs dreifanlegs pakka sem hægt er að búa til í Visual Studio. Fyrir leiðbeiningar, sjá [Búðu til dreifanlega pakka af gerðum](../deployment/create-apply-deployable-package.md).
+Eiginleikinn krefst venjulegs virkjanlegs pakka sem hægt er að búa til í Visual Studio. Leiðbeiningar eru í [Stofna virkjanlega pakka af líkönum](../deployment/create-apply-deployable-package.md).
 
-Dreifanlegur pakki þinn verður að innihalda nákvæmlega einn keyranlegan X++ flokk. Með öðrum orðum, það verður að hafa einn flokk sem inniheldur aðferð sem hefur eftirfarandi undirskrift.
+Virkjanlegi pakkinn verður að innihalda nákvæmlega einn X++ klasa sem hægt er að keyra. Í öðrum orðum verður hann að vera með einn klasa sem inniheldur aðferð sem er með eftirfarandi undirskrift.
 
 ```xpp
 public static void main(Args _args)
 ```
 
 > [!NOTE]
-> Heiti aðalaðferðarinnar verður að vera lágstöfum.
+> Heiti aðalaðferðarinnar verður að vera með litlum staf.
 
-## <a name="code-example"></a>Dæmi um kóða
+## <a name="code-example"></a>Kóðadæmi
 
-Eftirfarandi kóðadæmi sýnir hvernig hægt er að byggja upp dreifanlegan pakka.
+Eftirfarandi dæmi um kóða sýnir hvernig virkjanlegur pakki er skipulagður.
 
 ```xpp
 class MyScriptClassForIssueXYZ
@@ -105,50 +105,50 @@ class MyScriptClassForIssueXYZ
 
 ## <a name="best-practices"></a>Bestu venjur
 
-Eftirfarandi listi lýsir nokkrum bestu starfsvenjum til að skrifa, innleiða og keyra handrit með góðum árangri. Listinn er ekki tæmandi og ætti að líta á hann sem leiðbeiningar.
+Eftirfarandi listi lýsir nokkrum bestu aðferðum við að skrifa, framkvæma og keyra skriftu. Listinn er ekki tæmandi og hann ætti aðeins að vera til leiðbeiningar.
 
-- **Gerðu** skrifaðu árangursskilaboð í lok handritsins. Þannig muntu geta séð að handritið keyrði án undantekninga.
-- **Gerðu** bæta við skýrri meðferð á umfangi viðskipta.
-- **Gerðu** nota núverandi viðskiptarökfræði, svo sem`update()` aðferðir, en **ekki gera** framhjá viðskiptarökfræði með því að nota`doUpdate()`,`doInsert()`, og`doDelete()` aðferðir. Þessi nálgun mun hjálpa til við að tryggja að háð gögn séu meðhöndluð á réttan hátt. Það mun einnig draga verulega úr hættu á frekari ósamræmi í gögnum.
-- **Gerðu** halda fram samhengi fyrirtækisins. Þessi nálgun mun afhjúpa algeng mistök þegar handrit keyrir. Til dæmis mun það leiða í ljós hvort handritið sé keyrt í röngum fyrirtæki.
-- **Gerðu** fullyrtu að fjöldi skráðra skráa samsvari væntingum þínum. Þessi nálgun mun leiða í ljós hvort gögn hafi breyst óvænt í kerfinu á meðan verið var að undirbúa handritið.
-- **Gerðu** nota einstök flokksheiti fyrir hvert handrit (til dæmis með því að setja tilvísun í verkþátt í nafninu). Þessi aðferð kemur í veg fyrir vandamál með nafnaskil þegar þú hleður upp handritinu. Ef þörf er á nýrri endurtekningu á handriti, vertu viss um að gefa því nýtt nafn.
-- **Gerðu** prófaðu hvert handrit fyrst í umhverfi sem ekki er framleiðslu. Prófaðu fyrir ætluð áhrif og fyrir óviljandi aukaverkanir á tengd gögn. Gakktu úr skugga um að hægt sé að ljúka öllum viðskiptaferlum sem gætu orðið fyrir áhrifum með góðum árangri og að fullu á eftir.
+- **Skrifið** skilaboð um árangur við lok forskriftarinnar. Þannig er hægt að sjá að skrifta keyrði án undantekninga.
+- **Bætið** við sérstakri meðhöndlun á umfangi færslunnar.
+- **Nota** skal fyrirliggjandi viðskiptagrunn, t.d. `update()` aðferðir, en **ekki** fara framhjá viðskiptagrunni með því að nota `doUpdate()`, `doInsert()` og `doDelete()` aðferðir. Þessi aðferð hjálpar til við að tryggja að rétt sé farið með háð gögn. Það mun einnig draga verulega úr hættunni á frekari ósamræmi gagna.
+- **Staðfestið** samhengi fyrirtækisins. Þessi aðferð mun birta algeng mistök þegar forskrift keyrir. Til dæmis mun það leiða í ljós hvort skriftan sé keyrð í röngu fyrirtæki.
+- **Fullvissaðu** þig um að fjöldi færslna sem var breytt sé í samræmi við væntingar þínar. Þessi aðferð mun leiða í ljós hvort gögn færðust óvænt til í kerfinu á meðan forskriftin var undirbúin.
+- **Nota** skal einkvæmt klasaheiti fyrir hverja forskrift (til dæmis með því að hafa með tilvísun í vinnuatriði í heitinu). Þessi aðferð kemur í veg fyrir árekstra við heiti þegar þú hleður upp forskriftinni. Ef þörf er á nýrri endurtekningu skriftu skal gefa henni nýtt heiti.
+- **Prófið** hverja forskrift í fyrst í umhverfi sem ekki er fyrir framleiðslu. Prófaðu ætluð áhrif og fyrir óvæntum hliðarverkunum á tengdum gögnum. Gættu þess að hægt sé að klára eftir á alla viðskiptaferla sem kunna að verða fyrir áhrifum.
 
-## <a name="upload-and-run-a-deployable-package"></a>Hladdu upp og keyrðu pakka sem hægt er að nota
+## <a name="upload-and-run-a-deployable-package"></a>Hlaða upp og keyra virkjanlegan pakka
 
-Notaðu eftirfarandi aðferð til að hlaða upp og keyra skriftu.
+Notið eftirfarandi ferli til að hlaða upp og keyra forskrift.
 
-1. Í fjármála- og rekstrarappinu þínu skaltu fara á **Kerfisstjórnun \> Reglubundin verkefni \> Gagnagrunnur \> Sérsniðin forskrift**.
+1. Í forriti fjármála- og reksturs skal fara í **Kerfisstjórnun \> Reglubundin verk \> Gagnagrunnur \> Sérsniðnar forskriftir**.
 1. Veldu **Hlaða upp**.
-1. Veldu dreifanlega pakkann sem þú bjóst til eins og lýst er fyrr í þessari grein. Þú verður beðinn um að tilgreina tilgang handritsins.
-1. Handritið verður nú að vera samþykkt af öðrum notanda en notandanum sem hlóð því upp. Samþykkjandinn verður að fylgja þessum skrefum:
+1. Veldu virkjanlega pakkanna sem þú bjóst til eins og lýst var fyrr í þessari grein. Beðið verður um að þú tilgreinir tilgang skriftunnar.
+1. Nú verður annar notandi en notandinn sem hlóð forskriftinni upp að samþykkja hana. Samþykkjandi verður að fylgja þessum skrefum:
 
-    1. Fara til **Kerfisstjórnun \> Reglubundið \> Gagnagrunnur \> Sérsniðin forskrift**.
-    1. Veldu handritið til að samþykkja og veldu síðan **Upplýsingar**.
-    1. Á aðgerðarrúðunni, á **Vinnuflæði ferli** flipa, í **Byrjaðu** hópur, veldu **Samþykkja** eða **Hafna**. Ef þú velur **Samþykkja**, handritið er merkt sem samþykkt og er opnað fyrir prófun. Ef þú velur **Hafna**, handritið er læst. Í báðum tilfellum er atburðurinn skráður og afrit af handritinu geymt í kerfinu.
+    1. Opnið **Kerfisstjórnun \> Reglubundin \> Gagnagrunnur \> Sérsniðnar forskriftir**.
+    1. Veljið forskriftina til að samþykkja og svo **Upplýsingar**.
+    1. Á aðgerðasvæðinu, í flipanum **Vinna úr verkflæði**, í flokknum **Byrja**, skal velja **Samþykkja** eða **Hafna**. Ef þú velur **Samþykkja** er skriftan merkt sem samþykkt og er opin til prufu. Ef þú velur **Hafna** er forskriftin læst. Í báðum tilvikum er atburðurinn skráður inn og afrit af forskriftinni er geymt í kerfinu.
 
-1. Forritið verður að prófa til að tryggja að það geri það sem því er ætlað að gera. Prófandinn getur verið sá sami og hleðsluaðilinn eða samþykkjandinn, eða það getur verið þriðji notandinn sem hefur nauðsynlegar heimildir. Prófandi verður að fylgja þessum skrefum:
+1. Prófa þarf forskriftina til að tryggja að hún geri það sem til er ætlast. Prófunaraðilinn getur verið sá sami og sá sem hlóð efninu upp eða sá sem veitir samþykki eða hann getur verið þriðji notandi sem hefur tilskildar heimildir. Próftaki verður að fylgja þessum skrefum:
 
-    1. Fara til **Kerfisstjórnun \> Reglubundið \> Gagnagrunnur \> Sérsniðin forskrift**.
-    1. Veldu skriftuna til að prófa og veldu síðan **Upplýsingar**.
-    1. Á aðgerðarrúðunni, á **Vinnuflæði ferli** flipa, í **Próf** hópur, veldu **Keyra próf**. Forskriftin er keyrð í tímabundinni færslu sem kerfið mun sjálfkrafa hætta við á meðan það safnar ýmsum annálum og SQL yfirlýsingum.
-    1. Þegar handritinu er lokið skaltu fara yfir annálana og ganga úr skugga um að niðurstöðurnar standist væntingar þínar. Fylgið einu af eftirfarandi skrefum:
+    1. Opnið **Kerfisstjórnun \> Reglubundin \> Gagnagrunnur \> Sérsniðnar forskriftir**.
+    1. Veljið forskrift til að prófa og svo velja **Upplýsingar**.
+    1. Á aðgerðasvæðinu, í flipanum **Vinna úr verkflæði**, í flokknum **Prófa**, skal velja **Keyra prófun**. Forskriftin er keyrð innan í tímabundinni færslu sem kerfið mun sjálfkrafa hætta við þegar það safnar ýmsum klöddum og SQL-yrðingum.
+    1. Þegar forskriftin er hætt að keyra skal yfirfara kladdana og staðfesta að niðurstöðurnar uppfylli væntingar. Fylgið einu af eftirfarandi skrefum:
 
-        - Ef þú ert ánægður með niðurstöðuna skaltu velja **Samþykkja prófunarskrá** í **Próf** hópur á **Vinnuflæði ferli** flipann í aðgerðarrúðunni til að leyfa að keyra skriftuna. Atburðaskráin mun endurspegla þá staðreynd að handritið var prófað og það mun gefa til kynna hver prófaði það og hvenær.
-        - Ef þú ert ekki ánægður með niðurstöðuna skaltu velja **Að segja skilið við** í **Enda** hópur á **Vinnuflæði ferli** flipanum í aðgerðarrúðunni til að koma í veg fyrir að handritið sé keyrt. Kerfið mun geyma afrit af handritinu ásamt skrá yfir sögu þess.
+        - Ef prófniðurstöðurnar eru fullnægjandi skal velja **Samþykkja prufukladda** í hópnum **Prófun** í flipanum **Vinna úr verkflæði** á aðgerðasvæðinu til að leyfa forskriftinni að keyra. Viðburðarkladdinn mun endurspegla þá staðreynd að forskriftin var prófuð og hann mun sýna hver prófaði hana og hvenær.
+        - Ef prófniðurstöðurnar eru ekki fullnægjandi skal velja **Hætta** í hópnum **Ljúka** í flipanum **Vinna úr verkflæði** á aðgerðasvæðinu til að koma í veg fyrir að forskriftin verði keyrð. Kerfið mun geyma afrit af forskriftinni saman með kladda yfir feril hennar.
 
-1. Þegar þú ert viss um að handritið standist væntingar þínar skaltu velja **Hlaupa** í **Hlaupa** hópur á **Vinnuflæði ferli** flipann í aðgerðarúðunni til að keyra hann. Þessi skipun gerir það sama og fyrri prufukeyrslan, en viðskiptin verða framin í lokin.
-1. Eftir að handritið hefur lokið keyrslu skaltu athuga niðurstöðuna og staðfesta að handritið virkaði eins og þú ætlaðir þér. Fylgið einu af eftirfarandi skrefum:
+1. Þegar þú ert viss um að forskriftin uppfylli væntingar skal velja **Keyra** í hópnum **Keyra** í flipanum **Vinna úr verkflæði** á aðgerðasvæðinu til að keyra hana. Þessi skipun gerir það sama og fyrri prufukeyrsla en færslan verður skráð í lokin.
+1. Eftir að forskriftin er hætt að keyra skal athuga niðurstöðuna og staðfesta að forskriftin virkaði sem skyldi. Fylgið einu af eftirfarandi skrefum:
 
-    - Ef þú ert ánægður með niðurstöðuna skaltu velja **Tilgangur leystur** í **Enda** hópur á **Vinnuflæði ferli** flipanum í aðgerðarrúðunni. Atburðaskráin mun endurspegla þá staðreynd að handritið keyrði vel og það mun gefa til kynna hver staðfesti handritið og hvenær. Handritið er vistað en það er nú læst og ekki hægt að keyra það aftur.
-    - Ef þú ert ekki ánægður með niðurstöðuna skaltu velja **Tilgangur óleystur** í **Enda** hópur á **Vinnuflæði ferli** flipanum í aðgerðarrúðunni. Atburðaskráin mun endurspegla þá staðreynd að handritið náði ekki tilætluðum tilgangi sínum og mun gefa til kynna hver keyrði handritið og hvenær. Handritið er vistað en það er nú læst og ekki hægt að keyra það aftur. Hins vegar afturkallar kerfið ekki handritsaðgerðina sjálfkrafa. Þú gætir þurft að skrifa, flytja inn og keyra nýtt forskrift til að afturkalla áhrifin sem misheppnuð forskrift hafði á kerfið þitt.
+    - Ef niðurstaðan er fullnægjandi skal velja **Tilgangur leystur** í hópnum **Ljúka** í flipanum **Vinna úr verkflæði** á aðgerðasvæðinu. Viðburðarkladdinn mun endurspegla þá staðreynd að forskriftin hafi náð að keyra og hann mun sýna hver staðfesti forskriftina og hvenær. Forskriftin er vistuð en hún er nú læst og ekki hægt að keyra hana aftur.
+    - Ef niðurstaðan er ekki fullnægjandi skal velja **Tilgangur óleystur** í hópnum **Ljúka** í flipanum **Vinna úr verkflæði** á aðgerðasvæðinu. Viðburðarkladdinn mun endurspegla þá staðreynd að forskriftin hafi mistekist að uppfylla ætlaðan tilgang og hann mun sýna hver keyrði forskriftina og hvenær. Forskriftin er vistuð en hún er nú læst og ekki hægt að keyra hana aftur. Kerfið afturkallar hins vegar ekki sjálfkrafa forskriftaraðgerðina. Hugsanlega þarftu að skrifa, flytja inn og keyra nýja forskrift til að draga til baka þau áhrif sem misheppnaða forskriftin hafði á kerfið þitt.
 
-Val þitt í síðasta skrefi skilgreinir lokastöðu handritsins. Þú getur endurtekið ferlið eins og þú vilt.
+Valið í síðasta skrefinu skilgreinir endanlegt ástand fyrir skriftuna. Þú mátt endurtaka ferlið eins og þú krefst.
 
-## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Hladdu upp og keyrðu dreifanlegan pakka í gegnum LCS
+## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Hlaða upp og keyra virkjanlegan pakka í gegnum LCS
 
-Í stað þess að dreifa pakkanum þínum í gegnum notendaviðmótið fyrir fjármála- og rekstrarforritið þitt, eins og lýst er í fyrri hlutanum, geturðu hlaðið honum upp á LCS og notað venjulegt ferli til að dreifa því. Fyrir frekari upplýsingar, sjá [Settu upp dreifanlega pakka frá skipanalínunni](../deployment/install-deployable-package.md).
+Í stað þess að setja upp virkjanlegan pakka í gegnum notendaviðmótið fyrir forrit fjármála- og reksturs, eins og lýst er í hlutanum hér á undan, er hægt að hlaða hann upp í LCS og nota hefðbundið ferli til að setja hann upp. Frekari upplýsingar eru í [Setja upp virkjanlega pakka úr skipanalínunni](../deployment/install-deployable-package.md).
 
-Þrátt fyrir að þessi aðferð hafi færri takmarkanir veitir hún minni villuvörn. Þar að auki, vegna þess að það krefst endurræsingar á öllum netþjónum, mun það valda smá niður í miðbæ.
+Þótt þessi nálgun sé með færri takmarkanir er ekki eins mikil vernd gegn villum. Þar að auki, vegna þess að það krefst endurræsingar á öllum þjónum, mun það valda nokkrum biðtíma.
 

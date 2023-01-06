@@ -1,6 +1,6 @@
 ---
 title: Setja upp skýrslugerðarkóða staðgreiðsluskatts fyrir TDS-skattgerðina
-description: Skýrslukóðar fyrir staðgreiðsluskatt eru notaðir til að stofna eyðublað 26Q og eyðublað 27Q fyrir skattur sem dreginn er frá í uppruna (TDS). Þessi grein útskýrir hvernig á að setja upp staðgreiðsluskýrslukóðaskref þannig að þú getir sett upp TDS skýrslukóða.
+description: Skýrslukóðar fyrir staðgreiðsluskatt eru notaðir til að stofna eyðublað 26Q og eyðublað 27Q fyrir skattur sem dreginn er frá í uppruna (TDS). Í þessari grein er útskýrt hvernig staðgreiðslukóðar eru settir upp svo hægt sé að setja upp TDS skýrslukóða.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: bdd2e89d29807dc31d8f2d4684ee413470b1dbde
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8907799"
@@ -26,7 +26,7 @@ ms.locfileid: "8907799"
 
 [!include [banner](../includes/banner.md)]
 
-Skýrslukóðar fyrir staðgreiðsluskatt eru notaðir til að stofna eyðublað 26Q og eyðublað 27Q fyrir skattur sem dreginn er frá í uppruna (TDS). Þessi grein útskýrir hvernig á að setja upp staðgreiðsluskýrslukóðaskref þannig að þú getir sett upp TDS skýrslukóða.
+Skýrslukóðar fyrir staðgreiðsluskatt eru notaðir til að stofna eyðublað 26Q og eyðublað 27Q fyrir skattur sem dreginn er frá í uppruna (TDS). Í þessari grein er útskýrt hvernig staðgreiðslukóðar eru settir upp svo hægt sé að setja upp TDS skýrslukóða.
 
 1. Farið í **Skattur \> Uppsetning \> Staðgreiðsluskattur \> Skýrslugerðarkóðar staðgreiðsluskatts**.
 

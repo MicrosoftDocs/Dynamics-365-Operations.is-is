@@ -1,6 +1,6 @@
 ---
 title: Uppsetning á lánastýringu
-description: Þessi grein lýsir uppsetningunni sem þarf fyrir lánastýringu.
+description: Þessi grein lýsir uppsetningunni sem krafist er fyrir lánamálastjórnun.
 author: JodiChristiansen
 ms.date: 02/15/2022
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: cc46faa3c5da590fe5ec574fabe452e547044eac
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8886488"
@@ -39,7 +39,7 @@ Fara til **Skuldir og innheimta \> Uppsetning \> Verkflæði lánaumsýslu** til
 
 Ef röðun greiðsluskilmála er virk og ef greiðsluskilmálar pöntunarinnar eru hærri en sjálfgefnir greiðsluskilmálar viðskiptavinarins verður sölupöntunin sett í bið.
 
-Til að setja upp röðun greiðsluskilmála skaltu fara á **Inneign og innheimtur \> Uppsetning \> Uppsetning lánastýringar \> Rank greiðsluskilmálar**.  
+Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Uppsetning \> Uppsetning lánamála \>Raða greiðsluskilmálum**.  
 
 ### <a name="ranking-settlement-discounts"></a>Röðun uppgjörsafsláttar
 
@@ -86,7 +86,7 @@ Kreditstjórnunarhópurinn er úthlutaður á viðskiptavin á flýtiflipanum **
 
 ## <a name="scoring-groups"></a>Einkunnaflokkar
 
-Þú getur sett upp **Stigahópar** að skilgreina áhættuþætti og þau viðmið sem notuð eru til að mæla þá. Þegar upplýsingum um viðskiptavin er beitt á stigahóp er stig reiknað fyrir hvern áhættuþátt og notaður til að setja viðskiptavininn í áhættuhóp. Hægt er að nota áhættuhópinn til að bera kennsl á lánstraust og reikna sjálfvirk lánamörk.
+Þú getur sett upp **Einkunnaflokkar** til að skilgreina áhættuþætti og viðmið sem eru notuð til að mæla þá. Þegar upplýsingum um viðskiptavin er beitt á stigahóp er stig reiknað fyrir hvern áhættuþátt og notaður til að setja viðskiptavininn í áhættuhóp. Hægt er að nota áhættuhópinn til að bera kennsl á lánstraust og reikna sjálfvirk lánamörk.
 
 Þú getur búið til stigahópa á síðunni **Stigahópar** (**Skuldir og innheimta \> Uppsetning \> Uppsetning á lánastýringu \> Áhætta \> Stigahópar**).
 

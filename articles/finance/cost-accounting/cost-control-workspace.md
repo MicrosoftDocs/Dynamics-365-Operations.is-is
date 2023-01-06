@@ -1,6 +1,6 @@
 ---
 title: Vinnusvæði kostnaðarstýringar
-description: Þessi grein veitir upplýsingar um vinnusvæði kostnaðarstýringar. Þetta vinnusvæði er miðlægur punktur þar sem stjórnendur sem bera ábyrgð á stýringu kostnaðarhlutar eða safni kostnaðarhluta innan víddar eða milli vídda geta sótt skýrslur.
+description: Þessi grein veitir upplýsingar um vinnusvæðið Kostnaðarstýring. Þetta vinnusvæði er miðlægur punktur þar sem stjórnendur sem bera ábyrgð á stýringu kostnaðarhlutar eða safni kostnaðarhluta innan víddar eða milli vídda geta sótt skýrslur.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 8d5ded4b08d562fff9ec5fd9a3de591f944e3ee0
 ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/15/2022
 ms.locfileid: "9682899"
@@ -53,7 +53,7 @@ Ef skilgreina á vinnusvæði kostnaðarstýringar, smelltu á **Kostnaðarbókh
 |-------------------------------------------------------------------|-------------|
 | Fjárhagur kostnaðarbókhalds                                            | **Fjárhagur kostnaðarbókhalds** sem skýrslan byggir á. Gildið er sótt í reitinn **Stýrieining kostnaðar**. |
 | Stýrieining kostnaðar                                                 | Gildið sem þú velur ákvarðar fjárhag kostnaðarbókhalds og kostnaðarhluti sem þessi skýrsla byggir á. |
-| Tölfræðilegt víddarstigveldi, víddarstigveldi kostnaðareiningar | Skilgreiningarfærslur vinnusvæðisins **Kostnaðarstýring** geta annaðhvort skráð ópeningaleg eða peningaleg gildi, en ekki í sama útlitinu. Veldu gildi í reitnum **Víddarstigveldi kostnaðareiningar** til að skrá peningaleg gildi. Veldu gildi í reitnum **Tölfræðilegt víddarstigveldi** til að skrá ópeningaleg gildi. Sú skráning víddarstigveldis sem þú velur ákvarðar uppbyggingu skýrslugerðar og flokkunarstig.<blockquote>**ATH:**<br>Til að skoða ekki fjárhagsleg og fjárhagsleg gildi hlið við hlið er hægt að flytja út gögn í Microsoft Excel fyrir Microsoft Power BI efnispakkann.</blockquote> |
+| Tölfræðilegt víddarstigveldi, víddarstigveldi kostnaðareiningar | Skilgreiningarfærslur vinnusvæðisins **Kostnaðarstýring** geta annaðhvort skráð ópeningaleg eða peningaleg gildi, en ekki í sama útlitinu. Veldu gildi í reitnum **Víddarstigveldi kostnaðareiningar** til að skrá peningaleg gildi. Veldu gildi í reitnum **Tölfræðilegt víddarstigveldi** til að skrá ópeningaleg gildi. Sú skráning víddarstigveldis sem þú velur ákvarðar uppbyggingu skýrslugerðar og flokkunarstig.<blockquote>**ATHUGAÐU:**<br>Til að skoða ekki fjárhagsleg og fjárhagsleg gildi hlið við hlið er hægt að flytja út gögn í Microsoft Excel fyrir Microsoft Power BI efnispakkann.</blockquote> |
 | Víddarstigveldi kostnaðarhlutar      | Veldu það víddarstigveldi kostnaðarhlutarvíddar sem hæfir þeirri skýrslugerð sem þú ert að skilgreina. |
 | Upprunaleg útgáfa fjárhagsáætlunar                                           | Veldu það auðkenni útgáfu fjárhagsáætlunar sem þjónar hlutverki upphaflegrar fjárhagsáætlunar í samhengi þessarar skýrslu. |
 | Endurskoðuð útgáfa fjárhagsáætlunar                                            | Veldu það auðkenni útgáfu fjárhagsáætlunar sem þjónar hlutverki endurskoðaðrar fjárhagsáætlunar í samhengi þessarar skýrslu. |
@@ -64,7 +64,7 @@ Ef skilgreina á vinnusvæði kostnaðarstýringar, smelltu á **Kostnaðarbókh
 
 | Svæði                  | lýsing |
 |------------------------|-------------|
-| Fjárhagsdagatalstímabil | Veldu tímabil fjárhagsdagatals sem á að úthluta auðkenni útreiknings á sameiginlegum kostnaði.<blockquote>**ATH:**<br>Þau fjárhagstímabil sem eru útlistuð í reitnum koma úr fjárhagsdagatalinu sem tengist fjárhagi kostnaðarbókhalds.</blockquote> |
+| Fjárhagsdagatalstímabil | Veldu tímabil fjárhagsdagatals sem á að úthluta auðkenni útreiknings á sameiginlegum kostnaði.<blockquote>**ATHUGAÐU:**<br>Þau fjárhagstímabil sem eru útlistuð í reitnum koma úr fjárhagsdagatalinu sem tengist fjárhagi kostnaðarbókhalds.</blockquote> |
 | Raunútgáfa         | Veldu viðeigandi auðkenni útreiknings á sameiginlegum kostnaði. |
 | Útgáfa fjárhagsáætlunar         | Veldu viðeigandi auðkenni útreiknings á sameiginlegum kostnaði. |
 | Endurskoðuð útgáfa fjárhagsáætlunar | Veldu viðeigandi auðkenni útreiknings á sameiginlegum kostnaði. |
@@ -77,10 +77,10 @@ Gildin í völdum dálkum margfaldast með þeim gildum sem valin eru í flýtif
 
 | Svæði                | lýsing |
 |----------------------|-------------|
-| Gildandi tímabil       | Staða gildandi fjárhagstímabils er birt.<blockquote>**ATH:**<br>Sjálfgefið er að gildandi tímabil ákvarðast af setudagsetningu. Í vinnusvæðinu **Kostnaðarstýring** er hægt að velja tiltekið fjárhagstímabil. Gildið sem er valið stendur svo fyrir gildandi tímabil.</blockquote> |
-| Fyrra tímabil      | Staða fyrra fjárhagstímabils er birt. Eftirfarandi formúla er notuð:<br>Gildandi fjárhagstímabil - 1<blockquote>**ATH:**<br>Það er sjálfgefið að fyrra tímabil byggist á setudagsetningu. Í vinnusvæðinu **Kostnaðarstýring** er hægt að velja tiltekið fjárhagstímabil sem gildandi tímabil. **Fyrra tímabil** er svo endurreiknað samkvæmt því.</blockquote> |
-| Það sem af er ári         | Meðaltalið fyrir það sem af er ári er birt. Eftirfarandi formúla er notuð:<br>YearToDate (gildandi fjárhagstímabil)<blockquote>**ATH:**<br>Sjálfgefið er að gildandi tímabil ákvarðast af setudagsetningu. Í vinnusvæðinu **Kostnaðarstýring** er hægt að velja tiltekið fjárhagstímabil. Valið gildi stendur svo fyrir gildandi tímabil og gildið **Það sem af er ári** verður uppfært samkvæmt því.</blockquote> |
-| Það sem af er ári, meðaltal | Meðaltalið fyrir það sem af er ári er birt. Eftirfarandi formúla er notuð:<br>(YearToDate [Gildandi fjárhagstímabil]) ÷ (Talning [Gildandi fjárhagstímabil])<p><strong>Dæmi</strong></p><ul><li>**Tölfræðilegt víddarstak:** Starfsmenn í fullu starfi</li><li>**Núverandi dagsetning:** 21-3-2017</li><li>**Tímabil:** Fjárhagstímabil 1, fjárhagstímabil 2, fjárhagstímabil 3</li><li>**Mæligildi:** 10, 10, 12</li></ul>Í þessu tilfelli, **Meðaltal það sem af er ári** = (10 + 10 + 12) ÷ 3 = 10,67<p>Hægt er að reikna gildið **Meðaltal það sem af er ári** fyrir víddarstök kostnaðareiningar og tölfræðileg víddarstök.</p><blockquote>**ATH:**<br>Sjálfgefið er að gildandi tímabil ákvarðast af setudagsetningu. Í vinnusvæðinu **Kostnaðarstýring** er hægt að velja tiltekið fjárhagstímabil. Þau gildi sem eru valin standa svo fyrir núverandi tímabil og gildin **Það sem af er ári** og **Meðaltal það sem af er ári** eru uppfærð samkvæmt því.</blockquote> |
+| Gildandi tímabil       | Staða gildandi fjárhagstímabils er birt.<blockquote>**ATHUGAÐU:**<br>Sjálfgefið er að gildandi tímabil ákvarðast af setudagsetningu. Í vinnusvæðinu **Kostnaðarstýring** er hægt að velja tiltekið fjárhagstímabil. Gildið sem er valið stendur svo fyrir gildandi tímabil.</blockquote> |
+| Fyrra tímabil      | Staða fyrra fjárhagstímabils er birt. Eftirfarandi formúla er notuð:<br>Gildandi fjárhagstímabil - 1<blockquote>**ATHUGAÐU:**<br>Það er sjálfgefið að fyrra tímabil byggist á setudagsetningu. Í vinnusvæðinu **Kostnaðarstýring** er hægt að velja tiltekið fjárhagstímabil sem gildandi tímabil. **Fyrra tímabil** er svo endurreiknað samkvæmt því.</blockquote> |
+| Það sem af er ári         | Meðaltalið fyrir það sem af er ári er birt. Eftirfarandi formúla er notuð:<br>YearToDate (gildandi fjárhagstímabil)<blockquote>**ATHUGAÐU:**<br>Sjálfgefið er að gildandi tímabil ákvarðast af setudagsetningu. Í vinnusvæðinu **Kostnaðarstýring** er hægt að velja tiltekið fjárhagstímabil. Valið gildi stendur svo fyrir gildandi tímabil og gildið **Það sem af er ári** verður uppfært samkvæmt því.</blockquote> |
+| Það sem af er ári, meðaltal | Meðaltalið fyrir það sem af er ári er birt. Eftirfarandi formúla er notuð:<br>(YearToDate [Gildandi fjárhagstímabil]) ÷ (Talning [Gildandi fjárhagstímabil])<p><strong>Dæmi</strong></p><ul><li>**Tölfræðilegt víddarstak:** Starfsmenn í fullu starfi</li><li>**Núverandi dagsetning:** 21-3-2017</li><li>**Tímabil:** Fjárhagstímabil 1, fjárhagstímabil 2, fjárhagstímabil 3</li><li>**Mæligildi:** 10, 10, 12</li></ul>Í þessu tilfelli, **Meðaltal það sem af er ári** = (10 + 10 + 12) ÷ 3 = 10,67<p>Hægt er að reikna gildið **Meðaltal það sem af er ári** fyrir víddarstök kostnaðareiningar og tölfræðileg víddarstök.</p><blockquote>**ATHUGAÐU:**<br>Sjálfgefið er að gildandi tímabil ákvarðast af setudagsetningu. Í vinnusvæðinu **Kostnaðarstýring** er hægt að velja tiltekið fjárhagstímabil. Þau gildi sem eru valin standa svo fyrir núverandi tímabil og gildin **Það sem af er ári** og **Meðaltal það sem af er ári** eru uppfærð samkvæmt því.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Dálkar sem á að sýna fyrir kostnað
 
@@ -88,11 +88,11 @@ Gildin í völdum dálkum margfaldast með þeim gildum sem valin eru í flýtif
 
 | Svæði                 | lýsing |
 |-----------------------|-------------|
-| Fastur kostnaður            | Þessi dálkagerð sýnir fastan kostnað á grundvelli þess auðkennis útreiknings sameiginlegs kostnaðar sem valið er.<blockquote>**ATH:**<br>Þessi dálkagerð sýnir aðeins stöðu þegar auðkenni útreiknings á sameiginlegum kostnaði er valið fyrir fjárhagstímabilið.</blockquote> |
-| Breytilegur kostnaður         | Þessi dálkagerð sýnir breytilegan kostnað á grundvelli þess auðkennis útreiknings sameiginlegs kostnaðar sem valið er.<blockquote>**ATH:**<br>Þessi dálkagerð sýnir aðeins stöðu þegar auðkenni útreiknings á sameiginlegum kostnaði er valið fyrir fjárhagstímabilið.</blockquote> |
-| Fastur + breytilegur kostnaður | Þessi dálkagerð sýnir fastan og breytilegan kostnað á grundvelli þess auðkennis útreiknings sameiginlegs kostnaðar sem valið er.<blockquote>**ATH:**<br>Þessi dálkagerð sýnir aðeins stöðu þegar auðkenni útreiknings á sameiginlegum kostnaði er valið fyrir fjárhagstímabilið.</blockquote> |
-| Heildarkostnaður            | Þessi dálkagerð sýnir heildarkostnað (óflokkaðan kostnað, fastan kostnað og breytilegan kostnað).<blockquote>**ATH:**<br>Dálkagerðin sýnir stöðuna alltaf.</blockquote> |
-| Óflokkaður kostnaður     | Þessi dálkagerð sýnir óflokkaðan kostnað.<blockquote>**ATH:**<br>Þennan dálk er hægt að nota til að sannreyna að allur kostnaður hafi verið rétt flokkaður af útreikningi á sameiginlegum kostnaði eða hvort þurfi að stilla reglur kostnaðarhegðunar.</blockquote> |
+| Fastur kostnaður            | Þessi dálkagerð sýnir fastan kostnað á grundvelli þess auðkennis útreiknings sameiginlegs kostnaðar sem valið er.<blockquote>**ATHUGAÐU:**<br>Þessi dálkagerð sýnir aðeins stöðu þegar auðkenni útreiknings á sameiginlegum kostnaði er valið fyrir fjárhagstímabilið.</blockquote> |
+| Breytilegur kostnaður         | Þessi dálkagerð sýnir breytilegan kostnað á grundvelli þess auðkennis útreiknings sameiginlegs kostnaðar sem valið er.<blockquote>**ATHUGAÐU:**<br>Þessi dálkagerð sýnir aðeins stöðu þegar auðkenni útreiknings á sameiginlegum kostnaði er valið fyrir fjárhagstímabilið.</blockquote> |
+| Fastur + breytilegur kostnaður | Þessi dálkagerð sýnir fastan og breytilegan kostnað á grundvelli þess auðkennis útreiknings sameiginlegs kostnaðar sem valið er.<blockquote>**ATHUGAÐU:**<br>Þessi dálkagerð sýnir aðeins stöðu þegar auðkenni útreiknings á sameiginlegum kostnaði er valið fyrir fjárhagstímabilið.</blockquote> |
+| Heildarkostnaður            | Þessi dálkagerð sýnir heildarkostnað (óflokkaðan kostnað, fastan kostnað og breytilegan kostnað).<blockquote>**ATHUGAÐU:**<br>Dálkagerðin sýnir stöðuna alltaf.</blockquote> |
+| Óflokkaður kostnaður     | Þessi dálkagerð sýnir óflokkaðan kostnað.<blockquote>**ATHUGAÐU:**<br>Þennan dálk er hægt að nota til að sannreyna að allur kostnaður hafi verið rétt flokkaður af útreikningi á sameiginlegum kostnaði eða hvort þurfi að stilla reglur kostnaðarhegðunar.</blockquote> |
 
 ### <a name="columns-to-display-for-budgeted-costs"></a>Dálkar sem á að sýna fyrir áætlaðan kostnað
 
@@ -103,12 +103,12 @@ Gildin í völdum dálkum margfaldast með þeim gildum sem valin eru í flýtif
 
 | Svæði                     | lýsing |
 |---------------------------|-------------|
-| Fjárhagsáætlun                    | Áætlunarstöður verða sýndar eftir völdum dálkum.<blockquote>**ATH:**<br>Stöður byggjast á þeim útgáfum fjárhagsáætlunar sem eru valdar á flýtiflipanum **Gagnasíun**.</blockquote> |
+| Fjárhagsáætlun                    | Áætlunarstöður verða sýndar eftir völdum dálkum.<blockquote>**ATHUGAÐU:**<br>Stöður byggjast á þeim útgáfum fjárhagsáætlunar sem eru valdar á flýtiflipanum **Gagnasíun**.</blockquote> |
 | Frávik fjárhagsáætlunar           | Reiknaðu og sýndu muninn milli áætlunar og rauntalna. Eftirfarandi formúla er notuð:<br>Staða fjárhagsáætlunar – Raunstaða |
 | Frávik fjárhagsáætlunar í %      | Reiknaðu og sýndu muninn í prósentum milli áætlunar og rauntalna. Eftirfarandi formúla er notuð:<br>(Áætlunarstaða – Raunstaða) ÷ Staða fjárhagsáætlunar |
-| Þröskuldur frávikstímabils | Settu upp þröskuld fyrir frávik í peningalegum upphæðum fyrir gildandi tímabil. Ef farið er yfir þröskuldinn er línan auðkennd með rauðu á vinnusvæðinu **Kostnaðarstýring**.<blockquote>**ATH:**<br>Þessi reitur á aðeins við um þær kostnaðareiningar sem standa fyrir útgjöld.</blockquote> |
+| Þröskuldur frávikstímabils | Settu upp þröskuld fyrir frávik í peningalegum upphæðum fyrir gildandi tímabil. Ef farið er yfir þröskuldinn er línan auðkennd með rauðu á vinnusvæðinu **Kostnaðarstýring**.<blockquote>**ATHUGAÐU:**<br>Þessi reitur á aðeins við um þær kostnaðareiningar sem standa fyrir útgjöld.</blockquote> |
 | Þröskuldur fráviksárs   | Settu upp þröskuld fyrir frávik í peningalegum upphæðum fyrir árið. Ef farið er yfir þröskuldinn er línan auðkennd með rauðu á vinnusvæðinu **Kostnaðarstýring**. |
-| Fráviksþröskuldur %      | Settu upp þröskuld fyrir frávik í prósentum. Ef farið er yfir þröskuldinn er línan auðkennd með rauðu á vinnusvæðinu **Kostnaðarstýring**.<blockquote>**ATH:**<br>Sama þröskuldarprósenta á við um gildandi tímabil og ár.</blockquote> |
+| Fráviksþröskuldur %      | Settu upp þröskuld fyrir frávik í prósentum. Ef farið er yfir þröskuldinn er línan auðkennd með rauðu á vinnusvæðinu **Kostnaðarstýring**.<blockquote>**ATHUGAÐU:**<br>Sama þröskuldarprósenta á við um gildandi tímabil og ár.</blockquote> |
 
 ## <a name="cost-control-workspace"></a>Vinnusvæði kostnaðarstýringar
 

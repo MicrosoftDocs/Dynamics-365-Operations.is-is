@@ -1,6 +1,6 @@
 ---
 title: Prenta skattaupplýsingar á skjöl flutningspantana
-description: Þessi grein útskýrir hvernig skattaupplýsingarnar sem ákvarðaðar eru af skattreikningsþjónustunni er hægt að prenta á millifærslupöntunarskjöl.
+description: Í þessari grein er útskýrt hvernig hægt er að prenta skattaupplýsingarnar sem eru ákvarðaðar af skattaútreikningsþjónustunni á skjöl flutningspöntunar.
 author: Kai-Cloud
 ms.date: 10/15/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
 ms.openlocfilehash: ca7a610162c539a0ecd74cf9e663f08ea80a7e44
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8855203"
@@ -25,7 +25,7 @@ ms.locfileid: "8855203"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að prenta skattaupplýsingar á millifærslupöntunarskjöl. Hægt er að prenta bráðabirgðareikningsskjal flutningspöntunar fyrir birgðaflutning sem litið er á sem framboð innan samfélags og kaup innan samfélags undir virðisaukaskattsreglum Evrópusambandsins. 
+Þessi grein útskýrir hvernig á að prenta skattaupplýsingar á skjöl flutningspöntunar. Hægt er að prenta bráðabirgðareikningsskjal flutningspöntunar fyrir birgðaflutning sem litið er á sem framboð innan samfélags og kaup innan samfélags undir virðisaukaskattsreglum Evrópusambandsins. 
 
 Eftirfarandi skatttengdum gögnum er bætt við skjöl flutningspöntunar:
 
@@ -38,7 +38,7 @@ Til að stilla þessi gögn þarf að ljúka við eftirfarandi meginskref.
 
 1. [Virkja og setja upp skattaeiginleika fyrir flutningspantanir](tasks/Tax-feature-support-for-transfer-order.md).
 2. [Stofna og setja upp mörg skattskráningarnúmer fyrir lögaðila](emea-multiple-vat-registration-numbers.md).
-3. Setja upp undanþágukóða, lýsingu, skattareglur og prentkóða í skattkóðum. Fyrir þetta dæmi eru þrír skattkóðar búnir til og samstilltir í Microsoft Dynamics 365 Fjármál: **NL-Undanþegin**, **-RC-21**, og **BE-RC+21**.
+3. Setja upp undanþágukóða, lýsingu, skattareglur og prentkóða í skattkóðum. Fyrir þetta dæmi eru þrír skattkóðar stofnaður og samstilltir í Microsoft Dynamics 365 Finance: **NL-Exempt**, **BE-RC-21** og **BE-RC+21**.
 
     1. Í Finance skal fara í **Skattur** \> **Uppsetning** \> **Söluskattur** \> **Skattaundanþágunúmer**.
     2. Veldu **Breyta** og sláðu inn lýsingu á undanþágukóða **EB**. Sláðu til dæmis inn **Skattfrjáls EB-sending með skattskráningarnúmeri**.

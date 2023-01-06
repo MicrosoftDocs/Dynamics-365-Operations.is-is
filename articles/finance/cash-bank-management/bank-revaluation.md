@@ -1,6 +1,6 @@
 ---
 title: Endurmat á banka – erlendum gjaldmiðli
-description: Þessi grein veitir yfirlit yfir ferlið við endurmat á gjaldeyri banka. Það inniheldur upplýsingar um uppsetningu, keyrslu á ferli, útreikning ferlisins og bakfærslu á endurmatsfærslum.
+description: Þessi grein veitir yfirlit yfir endurmatsferli banka á erlendum gjaldmiðli. Það inniheldur upplýsingar um uppsetningu, keyrslu á ferli, útreikning ferlisins og bakfærslu á endurmatsfærslum.
 author: angelad116
 ms.date: 05/16/2019
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 8efec304e745332c332030b33363403869870532
 ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/14/2022
 ms.locfileid: "9151432"
@@ -25,7 +25,7 @@ ms.locfileid: "9151432"
 [!include [banner](../includes/banner.md)]
 
 
-Þessi grein veitir yfirlit yfir ferlið við endurmat á gjaldeyri banka. Það útskýrir hvernig á að setja upp og keyra ferlið og veitir upplýsingar um útreikning ferlisins. Það útskýrir einnig hvernig á að bakfæra endurmatsfærslur, ef bakfærslu er krafist.
+Þessi grein veitir yfirlit yfir endurmatsferli banka á erlendum gjaldmiðli. Það útskýrir hvernig á að setja upp og keyra ferlið og veitir upplýsingar um útreikning ferlisins. Það útskýrir einnig hvernig á að bakfæra endurmatsfærslur, ef bakfærslu er krafist.
 
 Sem hluti af lokum tímabils, krefjast reikningsskilavenjur að staða bankareikninga í erlendum gjaldmiðlum verði endurmetnar með því að nota mismunandi gerðir gengis (núverandi, sögulegt, meðaltal og svo framvegis). Eiginleikann fyrir endurmat banka á erlendum gjaldmiðli er hægt að nota endurmeta einn eða fleiri bankareikninga. Eiginleikinn er einnig altækur. Þar af leiðandi geturðu frá einni síðu endurmetið banka yfir alla lögaðila sem þú hefur aðgang að.
 

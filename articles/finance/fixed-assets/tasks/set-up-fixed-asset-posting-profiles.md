@@ -1,6 +1,6 @@
 ---
 title: Setja upp bókunarreglur fyrir eignir
-description: Þetta ferli sýnir hvernig á að setja upp bókunarsnið eigna.
+description: Þetta ferli sýnir hvernig á að setja upp bókunarflokka eignabóka.
 author: moaamer
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: be8001428cf2df111458fddd0ecbcdae0daf9b25
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8863073"
@@ -24,7 +24,7 @@ ms.locfileid: "8863073"
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta ferli sýnir hvernig á að setja upp bókunarsnið eigna. Dæmin sem gefin eru í greininni eru fyrir grunn færslusnið, þó að færslusnið verði að vera búið til fyrir tiltekna reikningsyfirlit og kröfur um fjárhagsskýrslu.
+Þetta ferli sýnir hvernig á að setja upp bókunarflokka eignabóka. Dæmin sem eru gefin í greininni eru fyrir grunn bókunarreglu, þó verður að stofna bókunarreglur fyrir tiltekinn bókhaldslykil og kröfur fyrir fjárhagsskýrslu.
 
 1. Í skoðunarrúðnni ferðu í **Kerfseiningar > Fastafjármunir > Uppsetning > Bókunarreglur fastafjármuna**.
 2. Smellt er á **Nýtt**.

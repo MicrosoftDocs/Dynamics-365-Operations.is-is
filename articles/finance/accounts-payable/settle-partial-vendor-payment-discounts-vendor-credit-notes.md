@@ -17,7 +17,7 @@ ms.assetid: 2b19f7fd-9ff9-4ee4-bddf-f582946d008e
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 ms.openlocfilehash: b926d94059fb12b143b9c9b4b5c04cb7f39f8e99
 ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/25/2022
 ms.locfileid: "9715938"

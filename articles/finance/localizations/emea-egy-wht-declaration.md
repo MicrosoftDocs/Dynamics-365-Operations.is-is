@@ -1,6 +1,6 @@
 ---
 title: Staðgreiðsluskattskýrsla fyrir Egyptaland
-description: Þessi grein útskýrir hvernig á að stilla og búa til staðgreiðsluskýrslur fyrir Egyptaland.
+description: Þessi grein útskýrir hvernig á að skilgreina og mynda staðgreiðsluskattsskýrslu fyrir Egyptaland.
 author: AdamTrukawka
 ms.date: 03/08/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: 10.0.18
 ms.search.scope: ''
 ms.openlocfilehash: 83def72f1ff0423d1c2d217847082fa9bf1c3bca
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9269375"
@@ -26,11 +26,11 @@ ms.locfileid: "9269375"
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Yfirlit
-Þessi grein útskýrir hvernig á að setja upp og búa til staðgreiðsluskýrslu og staðgreiðsluskýrslu eyðublöð 41 og 11 fyrir lögaðila í Egyptalandi 
+Þessi grein útskýrir hvernig á að setja upp og mynda staðgreiðsluskattskýrslu og eyðublöð staðgreiðsluskattskýrslu 41 og 11 fyrir lögaðila í Egyptalandi 
 
 Allar egypskar einingar verða að undirbúa eyðublað 41, sem tekur saman alla skatta sem eru varðveittir frá staðbundnum birgjum og þjónustuveitum. Til viðbótar við eyðublað 41 verður eyðublað 11 að vera myndað til að gefa upplýsingar um alla varðveitta skatta frá erlendum aðilum. 
 
-The **Staðgreiðsluskýrsla** skýrsla í Dynamics 365 Finance inniheldur eftirfarandi skýrslur:
+Skýrslan **Staðgreiðsluskattsskýrsla** í Dynamics 365 Finance inniheldur eftirfarandi skýrslur:
 
 - Framtalseyðublað nr. 41
 - Framtalseyðublað nr. 11
@@ -58,7 +58,7 @@ Frekari upplýsingar um hvernig á að flytja inn skilgreiningar rafrænnar ský
 
 Innleiðing framtalseyðublaða staðgreiðsluskatts fyrir Egyptaland byggir á skilgreiningum rafrænnar skýrslugerðar. Frekari upplýsingar um möguleika og hugmyndir á bak við stillanlega skýrslugerð er að finna í [Rafræn skýrslugerð](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-Fyrir framleiðslu- og notendaviðurkenningarprófun (UAT) umhverfi skaltu fylgja leiðbeiningunum í greininni, [Hladdu niður rafrænum skýrslustillingum frá Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Fyrir umhverfi framleiðslu og samþykkisprófun notanda skal fylgja leiðbeiningum í greininni [Hlaða niður skilgreiningum rafrænnar skýrslugerðar úr Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Til að búa til staðgreiðsluskattsskýrslur í egypskum lögaðila þarf að hlaða upp eftirfarandi skilgreiningum:
 

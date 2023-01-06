@@ -1,6 +1,6 @@
 ---
 title: CFO-yfirlit Power BI efni
-description: Þessi grein lýsir yfirliti fjármálastjóra Microsoft Power BI efni.
+description: Þessi grein lýsir CFO-yfirliti Microsoft Power BI efnis.
 author: kweekley
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: e98b9d772c3b42162566fe666c3eeba5d1fb2392
 ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/01/2022
 ms.locfileid: "9108987"
@@ -23,7 +23,7 @@ ms.locfileid: "9108987"
 
 [!include [banner](../includes/banner.md)] 
 
-Þessi grein lýsir **Yfirlit fjármálastjóra** Microsoft Power BI efni. Þetta Power BI efni á við um þá sem nota Microsoft Dynamics 365 Fjármál útgáfa 7.2. Styðjast skal við [Fjármálainnsýn](financial-insights.md) ef notuð er útgáfa 7.3 eða eldri.
+Þessi grein lýsir **CFO-yfirliti** Microsoft Power BI efnis. Þetta Power BI-efni á við þá sem nota Microsoft Dynamics 365 Finance útgáfu 7.2. Styðjast skal við [Fjármálainnsýn](financial-insights.md) ef notuð er útgáfa 7.3 eða eldri.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 

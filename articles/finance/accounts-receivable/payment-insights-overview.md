@@ -1,6 +1,6 @@
 ---
 title: Innsýn í greiðslu viðskiptavinar (forútgáfa)
-description: Þessi grein lýsir greiðsluinnsýn getu sem hjálpar til við að bæta skilning á dæmigerðum greiðsluaðferðum einstakra viðskiptavina. Þessi eiginleiki getur hjálpað til við að auðkenna aðstæður sem réttlæta innheimtuferli fyrr en annars hefði verið.
+description: Í þessari grein er lýsing á greiðsluinnsýn sem getur aukið skilning á dæmigerðri greiðsluhegðun einstakra viðskiptavina. Þessi eiginleiki getur hjálpað til við að auðkenna aðstæður sem réttlæta innheimtuferli fyrr en annars hefði verið.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
 ms.topic: overview
@@ -19,7 +19,7 @@ ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
 ms.openlocfilehash: 5d2c811ac48a6bf29267192f61a33b6b47721659
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9068167"
@@ -29,7 +29,7 @@ ms.locfileid: "9068167"
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þessi grein lýsir greiðsluinnsýn getu sem hjálpar til við að bæta skilning á dæmigerðum greiðsluaðferðum einstakra viðskiptavina. Þessi eiginleiki getur hjálpað til við að auðkenna aðstæður sem réttlæta innheimtuferli fyrr en annars hefði verið. 
+Í þessari grein er lýsing á greiðsluinnsýn sem getur aukið skilning á dæmigerðri greiðsluhegðun einstakra viðskiptavina. Þessi eiginleiki getur hjálpað til við að auðkenna aðstæður sem réttlæta innheimtuferli fyrr en annars hefði verið. 
 
 ## <a name="overview"></a>Yfirlit
 
@@ -61,7 +61,7 @@ Með greiðslu innsýn viðskiptavina (forskoðun), geta fyrirtæki verið meira
 
 ## <a name="methodology"></a>Aðferð
 
-Erfitt er að þróa og dreifa AI lausn. Fjöldi gagnasérfræðinga, sérfræðinga á viðkomandi sviði og verkfræðinga þarf að vinna lengi að mótun, þróun, uppsetningu og viðhaldi nothæfrar AI-lausnar. Við erum að auðvelda að dreifingu og notkun á AI lausnum í Finance. Við erum að forpakka gervigreindarlausnir í Finance sem eru byggðar ofan á Microsoft AI Builder. Með einum smelli á hnapp getur notandi beitt AI lausninni og byrjað að nýta ávinninginn af snjallspám. Ef fyrirtæki er ekki ánægt með nákvæmni spáa getur yfirnotandi, aftur með einum smelli, farið inn í viðbótina AI Builder og síðan valið eða afvalið reitina sem notaðir eru til að mynda spár. Þegar þeir eru tilbúnir geta þeir þjálfað og birt breytingarnar og nýþjálfaða líkanið verður sjálfkrafa sótt fyrir spár í Finance.
+Erfitt er að þróa og dreifa AI lausn. Fjöldi gagnasérfræðinga, sérfræðinga á viðkomandi sviði og verkfræðinga þarf að vinna lengi að mótun, þróun, uppsetningu og viðhaldi nothæfrar AI-lausnar. Við erum að auðvelda að dreifingu og notkun á AI lausnum í Finance. Við erum að forpakka gervigreindarlausnum í Finance sem eru byggðar ofan á Microsoft AI Builder. Með einum smelli á hnapp getur notandi beitt AI lausninni og byrjað að nýta ávinninginn af snjallspám. Ef fyrirtæki er ekki ánægt með nákvæmni spáa getur yfirnotandi, aftur með einum smelli, farið inn í viðbótina AI Builder og síðan valið eða afvalið reitina sem notaðir eru til að mynda spár. Þegar þeir eru tilbúnir geta þeir þjálfað og birt breytingarnar og nýþjálfaða líkanið verður sjálfkrafa sótt fyrir spár í Finance.
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Hvernig skal nálgast innsýn í greiðslu viðskiptavinar (forútgáfa)
 
@@ -69,7 +69,7 @@ Sendið tölvupóst til [Innsýn í greiðslur viðskiptavinar (forskoðun)](mai
 
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 
-Forsýningar (1) kunna að nota minni persónuverndar- og öryggisráðstafanir en Dynamics 365 fjármála- og rekstrarþjónustan, (2) eru ekki innifalin í þjónustustigssamningnum fyrir þessa þjónustu, (3) ætti ekki að nota til að vinna úr persónuupplýsingum eða öðrum gögnum sem er háð kröfum um samræmi við lög eða reglur og (4) hefur takmarkaðan stuðning.
+Forútgáfur (1) geta mögulega notað ekki eins miklar persónuverndar- og öryggisráðstafanir og þjónusta Dynamics 365 fjármála- og reksturs, (2) eru ekki hluti af þjónustustigssamningi fyrir þessa þjónustu, (3) ættu ekki að vera notaðar til að vinna úr persónulegum gögnum eða öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi og (4) hafa takmarkaðan stuðning.
 
 
 

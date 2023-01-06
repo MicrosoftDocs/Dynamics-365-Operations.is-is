@@ -1,6 +1,6 @@
 ---
 title: Innfelld vinnuforrit frá Power Apps
-description: Þessi grein útskýrir hvernig á að fella inn strigaforrit frá Microsoft Power Apps inn í viðskiptavininn til að auka virkni vörunnar.
+description: Þessi grein útskýrir hvernig á að innleiða vinnusvæðisforrit úr Microsoft Power Apps og í biðlarann til að auka virkni vörunnar.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.openlocfilehash: d7dc45e56c5fa616c288ebb4b919f039b7358794
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9123655"
@@ -27,15 +27,15 @@ ms.locfileid: "9123655"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Microsoft Power Apps er þjónusta sem gerir þróunaraðilum og öðrum notendum með litla tæknikunnáttu kleift að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. Fjármála- og rekstrarforrit styðja samþættingu við Power Apps. Hægt er að fella strigaforrit sem þú, fyrirtæki þitt eða víðtækara vistkerfi þróar inn í fjármála- og rekstrarforrit til að auka virkni vörunnar. Til dæmis gætirðu smíðað strigaforrit úr Power Apps að bæta við fjármála- og rekstrarapp með upplýsingum sem eru sóttar úr öðru kerfi.
+Microsoft Power Apps er þjónusta sem gerir þróunaraðilum og öðrum notendum með litla tæknikunnáttu kleift að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. Forrit fjármála- og reksturs styðja samþættingu við Power Apps. Vinnusvæðaforrit sem þú, fyrirtækið þitt eða samfélagið þróar er hægt að fella inn í forrit fjármála- og reksturs til að auka virkni vörunnar. Til dæmis gætir þú smíðað vinnusvæðaforrit úr Power Apps til að bæta við forrit fjármála- og reksturs með upplýsingum sem sóttar eru úr öðru kerfi.
 
 Til að fræðast meira um innfellingu á vinnusvæðaforritum skal horfa á stutt myndband: [Hvernig á að innleiða vinnusvæðaforrit](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
 ## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Innfelldu vinnusvæðaforriti bætt við úr Power Apps á síðu
 
-Áður en vinnusvæðaforrit er fellt inn úr Power Apps í biðlarann, þarf að finna eða smíða forrit sem er með æskilegt viðmót eða virkni. Þessi grein inniheldur ekki nákvæma lýsingu á ferlinu við að búa til forrit. Ef þú hefur litla eða enga reynslu af Power Apps skaltu skoða [Power Apps fylgigögn](/powerapps/).
+Áður en vinnusvæðaforrit er fellt inn úr Power Apps í biðlarann, þarf að finna eða smíða forrit sem er með æskilegt viðmót eða virkni. Í þessari grein er ekki að finna nákvæma lýsingu á ferlinu við að smíða forrit. Ef þú hefur litla eða enga reynslu af Power Apps skaltu skoða [Power Apps fylgigögn](/powerapps/).
 
-Það eru þrjár leiðir til að fella strigaforrit inn í fjármála- og rekstrarforrit. Þú getur notað þá aðferð sem passar best við þínar aðstæður. 
+Til eru þrjár leiðir til að fella vinnusvæði inn í forrit fjármála- og reksturs. Þú getur notað þá aðferð sem passar best við þínar aðstæður. 
 
 - Felldu vinnusvæðaforritið inn í hnappinn **Power Apps** á hefðbundnu aðgerðasvæði á síðu. Forrit sem þú bætir við á þennan hátt birtast sem atriði á valmyndarhnappnum **Power Apps** og forritin opnast í hliðarsvæðum. 
 - Felldu vinnusvæðaforritið beint inn í fyrirliggjandi síðu sem síðu á nýjum flipa (snúningsflipa, flýtiflipa, blaði eða vinnusvæði).
@@ -60,7 +60,7 @@ Eftirfarandi ferli sýnir hvernig á að fella inn vinnusvæðaforrit í fyrirli
 
     - Ef hægt er að komast í forritið með því að nota valmyndarhnapp **Power Apps** geturðu valið valmyndarhnappinn **Power Apps** á staðlaða aðgerðasvæðinu og síðan valið **Bæta við forriti**.
 
-3. Grunnstilla innfellt forrit. Fyrir frekari upplýsingar, sjá [Að stilla strigaforrit](#configuring-a-canvas-app) kafla síðar í þessari grein.
+3. Grunnstilla innfellt forrit. Nánari upplýsingar er að finna í hlutanum [Vinnusvæðaforrit skilgreint](#configuring-a-canvas-app) síðar í þessari grein.
 4. Eftir að þú hefur staðfest að stillingarnar séu réttar skaltu velja **Setja inn**.
 
     - Ef slökkt er á eiginleikanum **Vistuð yfirlit** er beðið um að endurhlaða vafranum til að geta séð innfellda forritið.
@@ -68,7 +68,7 @@ Eftirfarandi ferli sýnir hvernig á að fella inn vinnusvæðaforrit í fyrirli
 
 ### <a name="embedding-a-canvas-app-as-a-full-page-experience-from-the-dashboard"></a>Fella inn vinnusvæðaforrit sem heilsíðuupplifun úr stjórnborðinu
 
-Þú gætir viljað fella inn strigaforrit frá mælaborðinu ef appið er ekki tengt núverandi síðu, eða ef þú vilt bara birta appið sem heilsíðuupplifun inni í fjármála- og rekstrarappinu.
+Þú gætir viljað fella inn vinnusvæðaforrit úr stjórnborðinu ef forritið tengist ekki fyrirliggjandi síðu eða ef þú vilt einfaldlega að forritið komi fram sem upplifun á heillri síðu í forriti fjármála- og reksturs.
 
 > [!NOTE]
 > Til að bjóða upp á þennan möguleika þarftu að kveikja á eiginleikanum **Forrit á heilli síðu** í eiginleikastjórnun. 
@@ -76,7 +76,7 @@ Eftirfarandi ferli sýnir hvernig á að fella inn vinnusvæðaforrit í fyrirli
 1. Opnið stjórnborð.
 2. Veljið og haldið (eða hægrismellið) síðunni, veljið **Sérstilla** og veljið því næst **Bæta við síðu**.
 3. Á svæðinu **Bæta við síðu** skal velja **Power Apps**.
-4. Grunnstilla innfellt forrit. Fyrir frekari upplýsingar, sjá [Að stilla strigaforrit](#configuring-a-canvas-app) kafla síðar í þessari grein.
+4. Grunnstilla innfellt forrit. Nánari upplýsingar er að finna í hlutanum [Vinnusvæðaforrit skilgreint](#configuring-a-canvas-app) síðar í þessari grein.
 5. Veljið **Vista** til að bæta forritinu við stjórnborðið sem nýjan reit.
 6. Veldu nýja reitinn á stjórnborðinu og staðfestu að vinnusvæðaforritið birtist eins og ætlast er til.
 
@@ -86,7 +86,7 @@ Eftirfarandi ferli sýnir hvernig á að fella inn vinnusvæðaforrit í fyrirli
 
 - **Heiti** – Færðu inn textann sem á að sýna fyrir hnappinn eða flipann sem mun innihalda innfellt forrit. Oft gætirðu viljað endurtaka heiti forritsins í þessum reit.
 - **Forritskenni** – Tilgreindu altækt einkvæmt kennimerki (GUID) fyrir vinnusvæðaforritið sem á að fella inn. Til að sækja þetta gildi skaltu finna forritið á [make.powerapps.com](https://make.powerapps.com) og skoða síðan reitinn **Forritskenni** undir **Upplýsingar**.
-- **Setja inn samhengi fyrir forritið** - hægt að velja valfrjálst reitinn sem inniheldur gögnin sem þú vilt flytja yfir í forritið sem inntak. Fyrir upplýsingar um hvernig appið getur nálgast gögnin sem eru send úr fjármála- og rekstraröppum, sjá [Að byggja upp app sem nýtir gögn sem send eru frá fjármála- og rekstraröppum](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) kafla síðar í þessari grein.
+- **Setja inn samhengi fyrir forritið** - hægt að velja valfrjálst reitinn sem inniheldur gögnin sem þú vilt flytja yfir í forritið sem inntak. Til að fá upplýsingar um hvernig forritið getur nálgast gögnin sem forrit fjármála- og reksturs senda frá sér skal skoða kaflann [Forrit smíðað sem nýtir sér gögn sem forrit fjármála- og reksturs senda frá sér](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) síðar í þessari grein.
 
     Frá og með útgáfu 10.0.19 verður núgildandi lögaðili einnig sendur sem samhengi til vinnusvæðaforritsins í gegnum færibreytuvefslóðina **cmp**. Þessi hegðun hefur ekki áhrif á notkun vinnusvæðaforritsins fyrr en forritið notar þær upplýsingar.
 
@@ -107,15 +107,15 @@ Eftirfarandi ferli sýnir hvernig á að fella inn vinnusvæðaforrit í fyrirli
     - Ef slökkt er á eiginleikanum **Vistuð yfirlit** getur kerfisstjórinn gefið sérstillingu sem felur í sér vinnusvæðaforritið til viðeigandi hóps notenda í gegnum síðuna **Sérstilling**. Einnig er hægt að flytja út sérstillingar síðunnar og senda þær á einn eða fleiri notendur. Hver þessara notenda getur síðan flutt inn sérstillingarnar. Tækjastika sérstillinga er með hnappa sem gera þér kleift að flytja út og flytja inn sérstillingar.
 
 > [!NOTE]
-> Ef strigaforritinu hefur verið deilt með utanaðkomandi notendum geta þeir notendur ekki notað innfellda appið í fjármála- og rekstrarforritum. Hins vegar geta þeir nálgast forritið beint inni í Power Apps. Ytri notendur innihalda gesti og notendur sem tilheyra ekki Microsoft 365 Azure Directory þar sem fjármála- og rekstrarforritið er notað.
+> Ef vinnusvæðaforritinu hefur verið deilt með ytri notendum, geta þessir notendur ekki notað innfellda forritið í forritum fjármála- og reksturs. Hins vegar geta þeir nálgast forritið beint inni í Power Apps. Ytri notendur eru gestir eða notendur sem tilheyra ekki Microsoft 365 Azure Directory þar sem forrit fjármála- og reksturs er sett upp.
 
 Sjá [Sérstilla notandaupplifun](personalize-user-experience.md) til að fá frekari upplýsingar um sérstillingarvalkosti á vörunni og hvernig á að nota þá.
 
-## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Að byggja upp strigaforrit sem notar gögn sem eru send frá fjármála- og rekstraröppum
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Vinnusvæðaforrit smíðað sem notar gögn sem eru send úr forritum fjármála- og reksturs
 
-Þegar þú smíðar strigaforrit sem verður fellt inn í fjármála- og rekstrarapp, er einn mikilvægur hluti af ferlinu að nota inntaksgögnin úr því fjármála- og rekstrarappi. Frá Power Apps þróunarreynslu er hægt að nálgast inntaksgögnin sem eru send frá fjármála- og rekstrarappi með því að nota **Param("EntityId")** breytilegt. Að auki mun núgildandi lögaðili frá og með útgáfu 10.0.19 einnig vera sendur til vinnusvæðaforritsins í gegnum breytuna **Param(„cmp“)**. 
+Þegar vinnusvæðaforrit er smíðað sem mun fella inn forrit fjármála- og reksturs, er mikilvægur hluti ferlisins að nota inntaksgögnin úr þessu -forriti. Úr þróunarreynslu Power Apps er hægt að fá aðgang að inntaksgögnunum sem koma frá forriti fjármála- og reksturs með því að nota breytuna **Param("EntityId")**. Að auki mun núgildandi lögaðili frá og með útgáfu 10.0.19 einnig vera sendur til vinnusvæðaforritsins í gegnum breytuna **Param(„cmp“)**. 
 
-Til dæmis, í OnStart aðgerð appsins, gætirðu stillt inntaksgögnin frá fjármála- og rekstrarforritum á breytu eins og þessa:
+Til dæmis, í OnStart aðgerðinni í forritinu getur þú stillt inntaksgögnin úr forritum fjármála- og reksturs sem í breytu eins og þessa:
 
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
@@ -125,7 +125,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ## <a name="viewing-a-canvas-app"></a>Vinnusvæðaforrit skoðað
 
-Til að skoða innfellt strigaforrit á síðu í fjármála- og rekstrarforritum, farðu bara á síðu sem hefur innfellt app. Munið að hægt er að opna forrit með því að nota hnappinn **Power Apps** á staðlaða aðgerðasvæðinu. Að öðrum kosti geta þær birst beint á síðunni sem nýr flipi eða flýtiflipi eða blað eða sem nýr hluti á vinnusvæði. Þegar notendur reyna fyrst að hlaða forriti á síðu verða þeir beðnir um að skrá sig inn. Þetta skref tryggir að notendur hafi viðeigandi heimildir til að nota forritið.
+Til að skoða innfellt vinnusvæðaforrit á síðu í forritum fjármála- og reksturs skal einfaldlega fara á síðu sem er með innfellt forrit. Munið að hægt er að opna forrit með því að nota hnappinn **Power Apps** á staðlaða aðgerðasvæðinu. Að öðrum kosti geta þær birst beint á síðunni sem nýr flipi eða flýtiflipi eða blað eða sem nýr hluti á vinnusvæði. Þegar notendur reyna fyrst að hlaða forriti á síðu verða þeir beðnir um að skrá sig inn. Þetta skref tryggir að notendur hafi viðeigandi heimildir til að nota forritið.
 
 ## <a name="editing-an-embedded-app"></a>Breyta innfelldu forriti
 
@@ -145,7 +145,7 @@ Fylgdu þessum skrefum til að breyta grunnstillingu á innfelldu forriti:
 
 Eftir að forrit hefur verið fellt inn á síðu eru til nokkrar leiðir til að fjarlægja það ef þörf krefur:
 
-- Farðu í **Breyttu forriti** rúðu með því að nota leiðbeiningarnar frá [Að breyta innfelldu forriti](#editing-an-embedded-app) kafla fyrr í þessari grein. Staðfestu að svæðið birti upplýsingar um innbyggða forritið sem þú vilt fjarlægja og smelltu síðan á hnappinn **Eyða**.
+- Farðu á svæðið **Breyta forriti** samkvæmt leiðbeiningunum úr kaflanum [Breyta innfelldu forriti](#editing-an-embedded-app) fyrr í þessari grein. Staðfestu að svæðið birti upplýsingar um innbyggða forritið sem þú vilt fjarlægja og smelltu síðan á hnappinn **Eyða**.
 - Ef innfellda forritinu var bætt við af stjórnborðinu skaltu opna stjórnborðið, velja og halda niðri (eða hægrismella) reitnum sem tengist forritinu, velja **Sérstilla** og síðan velja **Fjarlægja síðu**. 
 - Vegna þess að innfellt forrit er vistað sem sérstillt gögn, mun hreinsun á sérstillingum síðunnar einnig fjarlægja innfelld forrit á þessari síðu. Athugaðu að hreinsun á sérstillingum síðunnar er varanleg og ekki hægt að afturkalla. Til að fjarlægja sérstillingar þínar á síðu skaltu velja **Valkostir** og smella síðan á **Sérsníða þessa síðu** og að lokum á hnappinn **Hreinsa**. Allar fyrri sérstillingar fyrir þessa síðu verða fjarlægðar þegar vafrinn er uppfærður. Sjá [Sérstilla notandaupplifun](personalize-user-experience.md) til að fá frekari upplýsingar um hvernig á að fínstilla síður með sérstillingu.
 
@@ -153,7 +153,7 @@ Eftir að forrit hefur verið fellt inn á síðu eru til nokkrar leiðir til a�
 
 ### <a name="developer-modeling-a-canvas-app-on-a-form"></a>[Þróunaraðili] Vinnusvæðaforrit smíðað í skjámynd
 
-Þó að þessi grein beinist að því að fella inn strigaforrit með sérstillingu, þá hafa forritarar einnig möguleika á að bæta strigaforriti við eyðublað með því að nota Visual Studio reynslu af þróun. Til að gera þetta skal einfaldlega bæta PowerAppsHostControl við skjámyndina. Lýsigagnaeiginleikarnir sem eru í boði í stýringunni bjóða upp á sömu möguleika og sérstillingarleiðin.
+Þótt þessi grein leggur áherslu á innfellingu vinnusvæðaforrita í gegnum sérstillingar hafa þróunaraðilar einnig þann kost að bæta vinnusvæðaforriti við skjámynd með því að nota þróunarupplifun Visual Studio. Til að gera þetta skal einfaldlega bæta PowerAppsHostControl við skjámyndina. Lýsigagnaeiginleikarnir sem eru í boði í stýringunni bjóða upp á sömu möguleika og sérstillingarleiðin.
 
 ### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Þróunaraðili] Tilgreint hvar hægt er að fella inn forrit
 

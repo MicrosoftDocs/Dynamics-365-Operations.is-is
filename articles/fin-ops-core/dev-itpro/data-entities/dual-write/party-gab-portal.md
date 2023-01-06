@@ -1,6 +1,6 @@
 ---
 title: Notkun Microsoft Power Apps-vefgátta með gagnalíkani aðila
-description: Þessi grein lýsir breytingum á vefhlutverkum fyrir Microsoft Power Apps gáttir vegna aðilagagnalíkans í tvískrift.
+description: Þessi grein lýsir breytingum á vefhlutverkum fyrir Microsoft Power Apps-gáttir vegna gagnalíkans aðilans í tvöfaldri skráningu.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: ramasri
 ms.search.validFrom: 2021-03-22
 ms.openlocfilehash: 8d7a6ae48834ddd5f06f73bfe3129e44d14d86b8
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9288987"
@@ -24,7 +24,7 @@ ms.locfileid: "9288987"
 
 Útgáfa tvöfaldrar skráningar niðurröðunarþjónustu, útgáfa 2.0.999.0 og nýrri, inniheldur breytingar gagnalíkans á aðila- og altækri tengiliðaskrá fyrir reikninginn og tengiliðatöflur. Breytingarnar gera tengls við marga möguleg sem styðja ítarleg viðskiptaumhverfi. Þessar breytingar eru ekki studdar af vefhlutverkum vefgáttar, þar á meðal viðskiptavinagátt, sem eru sendar eins og þær eru eða sem voru til staðar í umhverfinu áður en sett var upp tvöföld skráning. Til að vefhlutverkin virki sem skyldi er nauðsynlegt að búa til ný vefhlutverk með nýja gagnalíkaninu. 
 
-Með öðrum orðum hafa töflurnar breyst en töfluheimildir í viðskiptavinagáttinni hafa ekki breyst. Þessi grein útskýrir hvernig á að búa til ný vefhlutverk sem vinna með nýja háþróaða gagnalíkaninu.
+Með öðrum orðum hafa töflurnar breyst en töfluheimildir í viðskiptavinagáttinni hafa ekki breyst. Þessi grein útskýrir hvernig á að búa til nýtt vefhlutverk sem virka með nýja ítarlega gagnalíkaninu.
 
 Þessi skýringarmynd sýnir töflutengslin **án** gagnalíkans aðila- og altækrar aðsetursbókar:
 

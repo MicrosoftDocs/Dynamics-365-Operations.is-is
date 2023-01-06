@@ -1,6 +1,6 @@
 ---
 title: Tilgreina meðalgengið
-description: Þessi grein veitir upplýsingar um krossvexti í Microsoft Dynamics 365 Fjármál.
+description: Þessi grein veitir upplýsingar um meðalgengi í Microsoft Dynamics 365 Finance.
 author: abruer
 ms.date: 05/16/2018
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: efb01948af2bcba9ca740e8bd0e12584cf021fce
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8889962"
@@ -24,7 +24,7 @@ ms.locfileid: "8889962"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir tilgang krossgengis og hvernig á að tilgreina krossgengi þegar þú jafnar greiðslu með reikningi. Notaðu krosshlutfall þegar eftirfarandi viðmið eiga við: 
+Þessi grein útskýrir tilgang meðalgengi og hvernig á að tilgreina meðalgengi þegar greiðsla með reikningi er jafnaður. Nota skal meðalgengi þegar eftirfarandi skilyrði gilda: 
 -   Jafnað er á milli greiðslu með reikningi. 
 -   Nota aðra gjaldmiðla greiðslulínu og reikningslínu. 
 -   Hvorugur gjaldmiðill er uppgjörsmynt. 

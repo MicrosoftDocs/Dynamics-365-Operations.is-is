@@ -1,6 +1,6 @@
 ---
 title: Stilla TDS-færibreytur í viðskiptaskuldum og viðskiptakröfum
-description: Þessi grein útskýrir hvernig á að stilla færibreytur í Viðskiptaskuldir og Viðskiptakröfur til að styðja frádrátt frá skatti sem dreginn er frá við uppruna (TDS).
+description: Í þessari grein er útskýrt hvernig á að setja breytur í viðskiptaskuldir og viðskiptakröfur til að styðja við skatt sem dreginn er frá í uppruna (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: e547b92f9f7e0ccc5b92df4cd991ce402369b568
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8883151"
@@ -26,7 +26,7 @@ ms.locfileid: "8883151"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að stilla færibreytur í Viðskiptaskuldir og Viðskiptakröfur til að styðja frádrátt frá skatti sem dreginn er frá við uppruna (TDS).
+Í þessari grein er útskýrt hvernig á að setja breytur í viðskiptaskuldir og viðskiptakröfur til að styðja við skatt sem dreginn er frá í uppruna (TDS).
 
 1. Opnið **Skattur \> Uppsetning \> Færibreytur \> Færibreytur viðskiptakrafna**.
 2. Á flipanum **Uppfærslur** skal velja **Uppfæra pöntunarlínur** til að opna gluggann **Uppfæra pöntunarlínur**.

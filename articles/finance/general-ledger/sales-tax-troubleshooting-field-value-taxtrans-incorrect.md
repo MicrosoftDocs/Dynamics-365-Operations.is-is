@@ -1,6 +1,6 @@
 ---
 title: Rangt reitargildi í TaxTrans
-description: Þessi grein veitir upplýsingar um úrræðaleit á röngum reitagildum í TaxTrans.
+description: Í þessari grein er að finna upplýsingar um úrræðaleit á röngum reitargildum í TaxTrans.
 author: EricWangChen
 ms.date: 04/27/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 6e7329ffdc04207116c92cb42e02750b176713fc
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8899815"
@@ -23,7 +23,7 @@ ms.locfileid: "8899815"
 
 [!include [banner](../includes/banner.md)]
 
-Ef reitgildi í **TaxTrans** er rangt skaltu nota upplýsingarnar í þessari grein til að reyna að leysa málið.
+Ef reitgildi í **TaxTrans** er rangt skal nota upplýsingarnar í þessari grein til að reyna að leysa vandamálið.
 
 ## <a name="overview-of-values"></a>Yfirlit yfir gildi
 Eftirfarandi listi sýnir hvernig **TaxTrans**, **TaxUncommitted** og **TmpTaxWorkTrans** eru svipuð gagnasett en virka öðruvísi.

@@ -1,6 +1,6 @@
 ---
 title: Skilgreina færslutengda áfangastaði rafrænnar skýrslugerðar fyrir prentstýringu
-description: Þessi grein útskýrir hvernig á að stilla prentstjórnunarfærslu tiltekna áfangastaði fyrir rafræn skýrslugerð (ER) snið sem er stillt til að búa til skjöl á útleið.
+description: Þessi grein útskýrir hvernig á að skilgreina færslutengdan áfangastað prentstýringar fyrir snið rafrænnar skýrslugerðar sem er skilgreint til að mynda skjöl á útleið.
 author: kfend
 ms.date: 08/03/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
 ms.openlocfilehash: 7c92d580f6adebdba12b7964a42fd4752e9c9205
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9285062"
@@ -26,7 +26,7 @@ ms.locfileid: "9285062"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig notandi í hlutverki kerfisstjóra eða viðskiptakrafa getur framkvæmt eftirfarandi verkefni:
+Í þessari grein er útskýrt hvernig notandi í hlutverki kerfisstjóra eða fulltrúa viðskiptakrafna getur framkvæmt eftirfarandi verk:
 
 - Skilgreindu nefnda áfangastaði [Rafrænnar skýrslugerðar](general-electronic-reporting.md) fyrir lausn rafrænnar skýrslugerðar sem myndar reikniga með frjálsum texta.
 - Úthlutaðu áfangastað rafrænnar skýrslugerðar á eina færslu [prentstýringar](document-reporting-services.md).
@@ -37,7 +37,7 @@ Hægt er að ljúka ferlinu í USMF-fyrirtækinu. Ekki er þörf á neinni kóð
 
 Hægt er að skilgreina [áfangastaði](electronic-reporting-destinations.md) fyrir hverja möppu í úttakshluta möppu fyrir [skilgreiningu](general-electronic-reporting.md) á [sniði](general-electronic-reporting.md#Configuration) rafrænnar skýrslugerðar sem er notað til að mynda skjal á útleið. Þegar þú keyrir snið rafrænnar skýrslugerðar af þessari gerð og ert með viðeigandi aðgangsréttindi geturðu einnig breytt stillingum skilgreinds áfangastaðar við keyrslu.
 
-Í Microsoft Dynamics 365 Fjármál **útgáfu 10.0.17 og síðar**, aðgerðakóði getur verið [sett upp](er-apis-app10-0-17.md) fyrir ER snið til að tilgreina aðgerðina sem notendur framkvæma með því að keyra það ER snið. Til dæmis í einingunni **Viðskiptakröfur**, í stillingum prentstýringar, er hægt að velja snið rafrænnar skýrslugerðar sem myndar ákveðið viðskiptaskjal á borð við reikning með frjálsum texta. Síðan er hægt að velja **Skoða** til að forskoða reikning eða **Prenta** til að senda hann til prentara. Ef aðgerð er gerð fyrir keryslu á sniði rafrænnar skýrslugerðar við keyrslu er hægt að skilgreina mismunandi [áfangastaði rafrænnar skýrslugerðar fyrir mismunandi notandaaðgerðir](er-action-dependent-destinations.md).
+Í Microsoft Dynamics 365 Finance **útgáfu 10.0.17 og nýrri** er hægt að [setja upp](er-apis-app10-0-17.md) aðgerðarkóða fyrir snið rafrænnar skýrslugerðar til að tilgreina aðgerðina sem notendur framkvæma með því að keyra snið rafrænnar skýrslugerðar. Til dæmis í einingunni **Viðskiptakröfur**, í stillingum prentstýringar, er hægt að velja snið rafrænnar skýrslugerðar sem myndar ákveðið viðskiptaskjal á borð við reikning með frjálsum texta. Síðan er hægt að velja **Skoða** til að forskoða reikning eða **Prenta** til að senda hann til prentara. Ef aðgerð er gerð fyrir keryslu á sniði rafrænnar skýrslugerðar við keyrslu er hægt að skilgreina mismunandi [áfangastaði rafrænnar skýrslugerðar fyrir mismunandi notandaaðgerðir](er-action-dependent-destinations.md).
 
 Í Finance **útgáfu 10.0.21 og nýrri** getur nefndur áfangastaður verið [settur upp](er-apis-app10-0-21.md) fyrir snið rafrænnar skýrslugerðar og úthlutaður færslu prentstýringar sem er unnið úr þegar snið rafrænnar skýrslugerðar er keyrt. Í einingunni **Viðskiptakröfur**, í stillingum prentstýringar, viltu til að mynda skilgreina **Upprunalegu færsluna** þannig að hún framkvæmi eftirfarandi aðgerðir:
 

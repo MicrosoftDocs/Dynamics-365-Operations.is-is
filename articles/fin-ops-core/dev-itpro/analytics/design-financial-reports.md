@@ -1,6 +1,6 @@
 ---
 title: Skoða og setja upp fjárhagsskýrslur
-description: Þessi grein veitir æfingar sem útskýra fyrir þér að skoða og búa til fjárhagsskýrslur fyrir Microsoft Dynamics 365 Fjármál.
+description: Þessi grein veitir æfingar sem fara með þig í gegnum yfirlit og stofnun á fjárhagsskýrslum fyrir Microsoft Dynamics 365 Finance.
 author: jcart1106
 ms.date: 10/02/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.form: FinancialReportingSetup
 ms.openlocfilehash: b6709f90065c91c55a489f101da430db33355a75
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9273426"
@@ -26,7 +26,7 @@ ms.locfileid: "9273426"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir æfingar sem útskýra fyrir þér að skoða og búa til fjárhagsskýrslur fyrir Microsoft Dynamics 365 Fjármál. Fjárhagsskýrsla samanstendur af yfirlitsupplifun innan forritsins og einssmells skýrsluhönnun sem gerir kleift að stofna og breyta fjárhagsskýrslum.
+Þessi grein veitir æfingar sem fara með þig í gegnum yfirlit og stofnun á fjárhagsskýrslum fyrir Microsoft Dynamics 365 Finance. Fjárhagsskýrsla samanstendur af yfirlitsupplifun innan forritsins og einssmells skýrsluhönnun sem gerir kleift að stofna og breyta fjárhagsskýrslum.
 
 ## <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Æfing 1: Búa til og skoða sjálfgefna fjárhagsskýrslu
 
@@ -194,7 +194,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 
 [Skoða fjárhagsskýrslur](../../../finance/general-ledger/view-financial-reports.md)
 
-[Dynamics 365 Finance blogg](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+[Dynamics 365 Finance-blogg](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

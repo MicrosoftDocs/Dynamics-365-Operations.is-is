@@ -1,6 +1,6 @@
 ---
 title: Hafist handa með skattaútreikning
-description: Þessi grein útskýrir hvernig á að setja upp skattútreikning.
+description: Í þessari grein er útskýrt hvernig á að setja upp skattaútreikning.
 author: EricWangChen
 ms.date: 10/18/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
 ms.openlocfilehash: 42898823ffc366351c6f58f1fe9b924678ab4b49
 ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/18/2022
 ms.locfileid: "9690384"
@@ -25,63 +25,63 @@ ms.locfileid: "9690384"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um hvernig á að byrja með skattreikning. Hlutarnir í þessari grein leiða þig í gegnum hönnunar- og uppsetningarþrepin á háu stigi Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance og Dynamics 365 Supply Chain Management. 
+Þessi grein veitir upplýsingar um hvernig hafist er handa við skattaútreikning. Hlutarnir í þessari grein leiða þig í gegnum ítarlega hönnuð og skilgreind skref í Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance og Dynamics 365 Supply Chain Management. 
 
-Uppsetningin samanstendur af þremur meginskrefum.
+Þessi uppsetning samanstendur af þremur meginskrefum.
 
 1. Í LCS skal setja upp innbót skattaútreiknings.
 2. Í RCS skal setja upp eiginleika skattaútreiknings. Þessi uppsetning á ekki við um neinn sérstakan lögaðila. Hægt er að nota hana í öllum lögaðilum í Finance og Supply Chain Management.
 3. Í Finance og Supply Chain Management skal setja upp færibreytur skattaútreiknings eftir lögaðila.
 
-## <a name="high-level-design"></a>Hönnun á háu stigi
+## <a name="high-level-design"></a>Ítarleg hönnun
 
-### <a name="runtime-design"></a><a name="runtime"></a> Runtime hönnun
+### <a name="runtime-design"></a><a name="runtime"></a>Hönnun keyrslu
 
-Eftirfarandi mynd sýnir háþróaða keyrslutímahönnun skattaútreiknings. Vegna þess að hægt er að samþætta Skattaútreikning með mörgum Dynamics 365 forritum, notar myndin samþættinguna við Finance sem dæmi.
+Eftirfarandi skýringarmynd sýnir ítarlega keyrsluhönnun skattaútreiknings. Þar sem hægt er að samþætta skattaútreikning með mörgum Dynamics 365-forritum notar myndin samþættinguna við Finance sem dæmi.
 
-1. Færsla, eins og sölupöntun eða innkaupapöntun, er stofnuð í Finance.
-2. Fjármál notar sjálfkrafa sjálfgefið gildi virðisaukaskattsflokks og vöruskattsflokks.
-3. Þegar **Söluskattur** hnappur er valinn á færslunni er skattútreikningur ræstur. Fjármál senda síðan farminn til Skattreikningsþjónustunnar.
-4. Skattútreikningsþjónustan passar farminn við fyrirfram skilgreindar reglur í skatteiginleikanum til að finna nákvæmari vsk-flokk og vörusöluskattsflokk samtímis.
+1. Færsla eins og sölupöntun eða innkaupapöntun er stofnuð í Finance.
+2. Finance notar sjálfkrafa sjálfgefin gildi VSK-flokks og VSK-flokks vöru.
+3. Þegar hnappurinn **Virðisaukaskattur** er valinn í færslunni fer skattaútreikningurinn í gang. Finance sendir þá innihaldið til skattaútreikningsþjónustuna.
+4. Skattaútreikningsþjónustan stemmir innihaldið við fyrirfram skilgreindar reglur í skattaeiginleikanum til að finna nákvæmari VSK-flokk og VSK-flokk vöru samtímis.
 
-    - Ef hægt er að passa farminn við **Gildistími skattahóps** fylki, hnekkir það gildi virðisaukaskattshóps með samsvarandi gildi skattahóps í gildisreglunni. Annars heldur það áfram að nota virðisaukaskattshópinn frá Finance.
-    - Ef hægt er að passa farminn við **Gildistími vöruskattshóps** fylki, hnekkir það vöruvirðisaukaskattsflokksvirði með samsvarandi vöruskattflokksvirði í gildandi reglu. Annars heldur það áfram að nota vöruvirðisaukaskattsflokkinn frá Finance.
+    - Ef hægt er að stemma innihaldið við fylkið **Gildissvið skattflokks** hnekkir það gildi VSK-flokks með samsvöruðu gildi VSK-flokks í gildissviðsreglunni. Annars heldur hún áfram að nota gildi VSK-flokks úr Finance.
+    - Ef hægt er að stemma innihaldið við fylkið **Gildissvið VSK-flokks vöru** hnekkir það gildi VSK-flokks vöru með samsvöruðu gildi VSK-flokks í gildissviðsreglunni. Annars vegar heldur það áfram að nota gildi VSK-flokkur vöru úr Finance.
 
-5. Skattútreikningsþjónustan ákvarðar endanlega skattkóða með því að nota skurðpunkta vsk-flokks og vöruvsk-flokks.
-6. Skattútreikningsþjónustan reiknar út skatt, byggt á endanlegum skattkóðum sem hún ákvað.
-7. Skattútreikningsþjónustan skilar niðurstöðu skattreiknings til Fjármálaeftirlitsins.
+5. Skattaútreikningsþjónustan ákvarðar endanlega skattkóða með því að nota skurðpunkt VSK-flokks og VSK-flokks vöru.
+6. Skattaútreikningsþjónustan reiknar skatt, byggðan á endanlegum skattkóðum sem hún hefur ákvarðað.
+7. Skattaútreikningsþjónustan skilar niðurstöðum skattaútreikningsins til Finance.
 
-![Hönnun skattaútreiknings.](media/tax-calculation-runtime-logic.png)
+![Keyrsluhönnun skattaútreiknings.](media/tax-calculation-runtime-logic.png)
 
-### <a name="high-level-configuration"></a>Uppsetning á háu stigi
+### <a name="high-level-configuration"></a>Ítarleg skilgreining
 
-Eftirfarandi skref veita yfirlit á háu stigi yfir stillingarferlið fyrir skattaútreikningsþjónustuna.
+Eftirfarandi skref gefa ítarlegt yfirlit yfir skilgreiningarferlið fyrir skattaútreikningsþjónustuna.
 
-1. Í LCS skaltu setja upp **Skattútreikningur** viðbót í LCS verkefninu þínu.
-2. Í RCS, búðu til **Skattútreikningur** eiginleiki.
-3. Í RCS skaltu setja upp **Skattútreikningur** eiginleiki:
+1. Í LCS skal setja upp innbótina **Skattaútreikningur** í LCS-verkið.
+2. Í RCS skal setja upp eiginleikann **Skattaútreikningur**.
+3. Í RCS skal setja upp eiginleika **Skattaútreiknings**.
 
-    1. Veldu útgáfu skattastillingar.
-    2. Búðu til skattakóða.
-    3. Búðu til skattahóp.
-    4. Stofna vöruskattflokk.
-    5. Valfrjálst: Stofna nothæfi skattaflokks ef þú vilt hnekkja sjálfgefnum söluskattsflokki sem færður er inn úr aðalgögnum viðskiptavinar eða lánardrottins.
-    6. Valfrjálst: Stofna nothæfni vöruflokks ef þú vilt hnekkja sjálfgefnum vörusöluskattsflokki sem færður er inn úr stofngögnum vöru.
+    1. Veldu útgáfu skattaskilgreiningar.
+    2. Stofnaðu skattkóða.
+    3. Búa til skattflokk
+    4. Stofnaðu skattflokk vöru.
+    5. Valfrjálst: Búðu til gildissvið skattflokks ef ætlunin er að hnekkja sjálfgefnum VSK-flokki sem færður er inn úr aðalgögnum viðskiptavinar eða lánardrottins.
+    6. Valfrjálst: Búðu til gildissvið vöruflokks ef ætlunin er að hnekkja sjálfgefnum VSK-flokki vöru sem færður er inn úr aðalgögnum vörunnar.
 
-4. Í RCS, fylltu út og birtu **Skattútreikningur** eiginleiki.
-5. Í Fjármál, veldu útgefið **Skattútreikningur** eiginleiki.
+4. Í RCS skal ljúka við og birta eiginleikann **Skattaútreikningur**.
+5. Í Finance skal velja útgefna eiginleikann **Skattaútreikningur**.
 
-Eftir að þú hefur lokið þessum skrefum eru eftirfarandi uppsetningar sjálfkrafa samstilltar frá RCS við Finance.
+Eftir að þessum skrefum er lokið eru eftirfarandi uppsetningar sjálfkrafa samstilltar úr RCS við Finance.
 
 - VSK-kóðar
 - VSK-flokkar
 - VSK-flokkar vöru
 
-Hlutarnir sem eftir eru í þessari grein veita ítarlegri stillingarskref.
+Eftirstandandi hlutar þessarar greinar veita ítarlegri stillingarskref.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Áður en þú getur klárað þær aðferðir sem eftir eru í þessari grein verða eftirfarandi skilyrði að vera uppfyllt:<!--TO HERE-->
+Áður en hægt er að klára eftirstandandi ferli í þessari grein þarf að uppfylla eftirfarandi skilyrði:<!--TO HERE-->
 
 - Þú verður að hafa aðgang að LCS-reikningnum þínum og þú verður að hafa virkjað LCS-verk með umhverfi í lagi 2 (eða ofar) sem keyrir Dynamics 365 útgáfu 10.0.21 eða nýrri.
 - Þú verður að búa til RCS umhverfi fyrir fyrirtækið og þú verður að hafa aðgang að reikningnum þínum. Nánari upplýsingar um hvernig á að stofna RCS-umhverfi er að finna í [Yfirlit Regulatory configuration service](rcs-overview.md).
@@ -95,7 +95,7 @@ Hlutarnir sem eftir eru í þessari grein veita ítarlegri stillingarskref.
 
     - Altækir eiginleikar
 
-- Eftirfarandi hlutverk ættu að vera úthlutað eftir því sem við á til notenda í RCS umhverfi þínu:
+- Eftirfarandi hlutverkum skal úthlutað eftir því sem hentar notendum í RCS-umhverfinu:
 
     - Þróunaraðili rafrænnar skýrslulausnar
     - Þróunaraðili altæks eiginleika
@@ -122,11 +122,11 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
 5. Í reitnum **Gerð** skal velja **Altæk**.
 6. Veljið **Opna**.
 7. Opnið **Gagnalíkan skatts**, stækkið skráartréð, og veljið síðan **Skattaskilgreining**.
-8. Veldu rétta [skattstillingarútgáfa](global-tax-calcuation-service-overview.md#versions), byggt á fjármálaútgáfu þinni og veldu síðan **Flytja inn**.
+8. Veldu rétta [Skilgreiningarútgáfur skatta](global-tax-calcuation-service-overview.md#versions) útgáfu skattaskilgreiningar samkvæmt útgáfu þinni af Finance og veldu svo **Flytja inn**.
 9. Á vinnusvæðinu **Altækir eiginleikar** skal velja **Eiginleikar**, velja reitinn **Skattaútreikningur** og veljið því næst **Bæta við**.
 
     > [!NOTE]
-    > Í útgáfu 10.0.26 og síðar geturðu flutt inn kynningareiginleika fyrir **DEMF** kynningu lögaðila. Fyrir frekari upplýsingar, sjá [Flytja inn kynningargögn fyrir eiginleika](tax-calculation-import-export-feature.md).
+    > Í útgáfu 10.0.26 og nýrri er hægt að flytja inn prufueiginleika fyrir prufulögaðilann **DEMF**. Frekari upplýsingar er að finna í [Sýnigögn innflutningseiginleika](tax-calculation-import-export-feature.md).
 
 10. Velja eina af eftirfarandi gerðum eiginleika:
 
@@ -216,7 +216,7 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
     | Sala            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]
-    > Ef sjálfgefinn söluskattsflokkur á skattskyldum skjalalínum þínum er réttur skaltu skilja þetta fylki eftir autt. Fyrir frekari upplýsingar, sjá [Runtime hönnun](#runtime) kafla í þessari grein.
+    > Ef sjálfgefinn VSK-flokkur í línum skattskylds skjals er réttur skal skilja þetta fylki eftir autt. Frekari upplýsingar er að finna í hlutanum [Hönnun keyrslu](#runtime) í þessari grein.
 
 23. Í flipanum **Gildissvið skattkóða vöru** skal velja dálkana sem þarf til að finna út réttan skattkóða og síðan velja **Bæta við**. Sláðu inn eða veldu gildi fyrir hvern dálk. Reiturinn **Skattflokkur vöru** verður úttak fylkisins. Ef þessi flipi er ekki stilltur verður VSK-flokkur vöru í færslulínunni notaður.
 
@@ -228,7 +228,7 @@ Skrefin í þessum hluta eru ekki tengd við sérstakan lögaðila. Aðeins þar
     | D0003     | Lækkað        |
 
     > [!NOTE]
-    > Ef sjálfgefinn vörusöluskattsflokkur á skattskyldum skjalalínum þínum er réttur skaltu skilja þetta fylki eftir autt. Fyrir frekari upplýsingar, sjá [Runtime hönnun](#runtime) kafla í þessari grein.
+    > Ef sjálfgefinn VSK-flokkur vöru í línum skattskylds skjals er réttur skal skilja þetta fylki eftir autt. Frekari upplýsingar er að finna í hlutanum [Hönnun keyrslu](#runtime) í þessari grein.
 
     Frekari upplýsingar um hvernig skattkóðar eru ákvarðaðir í skattaútreikningi er að finna í [Rök fyrir VSK-flokk og VSK-flokk vöru](global-sales-tax-group-determination.md).
 
@@ -247,7 +247,7 @@ Lögaðili sér um uppsetningu í þessum hluta. Þú verður að skilgreina han
 2. Á flipanum **Almennt** skal stilla eftirfarandi reiti:
 
     - **Virkja skattaútreikningþjónustu** – Veldu þennan gátreit til að virkja skattaútreikning fyrir lögaðilann. Ef það er ekki virkjað fyrir núverandi lögaðila mun lögaðilinn halda áfram að nota núverandi skattkerfi til að finna út og reikna skatt.
-    - **Uppsetning eiginleika** – Veljið uppsetningu og útgáfu útgefins skattaeiginleika fyrir lögaðilann. Fyrir frekari upplýsingar um hvernig á að setja upp og klára birtan skatteiginleika, sjá fyrri hluta þessarar greinar.
+    - **Uppsetning eiginleika** – Veljið uppsetningu og útgáfu útgefins skattaeiginleika fyrir lögaðilann. Frekari upplýsingar um það hvernig á að setja upp og ljúka við útgefinn skattaeiginleika er að finna í fyrri hluta þessarar greinar.
     - **Viðskiptaferli** – Veljið viðskiptaferlana sem á að virkja.
 
 3. Í flipanum **Útreikningar** skal skilgreina fyrirhugaða sléttunarreglu fyrir lögaðilann. Frekari upplýsingar um sléttunarregluna er að finna í [Sléttunarreglur skattaútreiknings](https://go.microsoft.com/fwlink/?linkid=2166988).

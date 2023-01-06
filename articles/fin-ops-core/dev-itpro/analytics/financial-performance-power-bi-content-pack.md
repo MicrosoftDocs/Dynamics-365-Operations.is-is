@@ -1,6 +1,6 @@
 ---
 title: PowerBI.com lausn fjárhagslegrar frammistöðu
-description: Þessi grein lýsir fjárhagslegri afkomu PowerBI.com lausninni.
+description: Þessi grein útskýrir PowerBI.com lausnir Fjárhagslegrar frammistöðu.
 author: kweekley
 ms.date: 05/09/2018
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7b6fb9643873178f1cb93e3da15e83598af51de0
 ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/01/2022
 ms.locfileid: "9109551"
@@ -26,9 +26,9 @@ ms.locfileid: "9109551"
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Þessi PowerBI.com lausn hefur verið úrelt eins og skjalfest er í [Fjarlægðir eða úreltir eiginleikar fyrir fjármál og rekstur](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Þessi PowerBI.com lausn hefur verið úrelt eins og skjalfest er í [Eiginleikar sem hafa verið fjarlægðir eða úreltir fyrir fjármála- og reksturs](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Þessi grein lýsir **Fjárhagsleg afkoma** PowerBI.com lausn. Það útskýrir yfirlitið og skýrslurnar sem eru með og veitir upplýsingar um gagnalíkanið og einingarnar sem voru notaðar til að smíða lausnina.
+Þessi grein útskýrir PowerBI.com lausnir **Fjárhagslegrar frammistöðu**. Það útskýrir yfirlitið og skýrslurnar sem eru með og veitir upplýsingar um gagnalíkanið og einingarnar sem voru notaðar til að smíða lausnina.
 
 ## <a name="main-account-setup"></a>Uppsetning aðallykils
 Þar sem fyrr vilja upphæðir skulda og tekjur að birtast sem jákvætt upphæðir í skýrslur er uppsetning aðallykla mikilvæg. Til að þessir aðallyklar birtast sem jákvætt upphæðir verður aðallykilgerð að vera stillt á **Skuldir** eða **Tekjur**. Þegar þessar gerð lykils er notað verður skýrslugerð í gegnum Power BI snúa við merkjum og sýna upphæðir sem jákvætt.

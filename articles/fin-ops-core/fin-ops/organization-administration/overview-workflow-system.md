@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir verkflæðiskerfi
-description: Þessi grein lýsir verkflæðiskerfinu.
+description: Þessi grein lýsir verkflæðikerfi.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -18,7 +18,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 13dd4335a8b939a44ea7176a90f660999c32a83a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8863189"
@@ -30,7 +30,7 @@ ms.locfileid: "8863189"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þessi grein lýsir verkflæðiskerfinu.
+Þessi grein lýsir verkflæðikerfi.
 
 ## <a name="what-is-workflow"></a>Hvað er verkflæði?
 

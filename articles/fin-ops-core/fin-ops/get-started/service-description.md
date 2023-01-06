@@ -1,6 +1,6 @@
 ---
-title: Þjónustulýsing fyrir fjármála- og rekstraröpp
-description: Þessi grein veitir þjónustulýsingu fyrir fjármála- og rekstrarforrit.
+title: Þjónustulýsing fyrir fjármála- og reksturs-forrit
+description: Þessi grein inniheldur þjónustulýsingar fyrir forrit fjármála- og reksturs.
 author: tomhig
 ms.date: 04/27/2022
 ms.topic: article
@@ -11,16 +11,16 @@ ms.author: whigginb
 ms.search.validFrom: 2021-09-03
 ms.openlocfilehash: 9e5160cc3961703475ffb8dc4a4daf2ae872aaba
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9124926"
 ---
-# <a name="service-description-for-finance-and-operations-apps"></a>Þjónustulýsing fyrir fjármála- og rekstraröpp
+# <a name="service-description-for-finance-and-operations-apps"></a>Þjónustulýsing fyrir fjármála- og reksturs-forrit
 
 [!include[banner](../includes/banner.md)]
 
-Fjármála- og rekstrarforrit eru hugbúnaðar sem þjónustu (SaaS) sem eru byggð á og fyrir [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). Fjármála- og rekstrarþjónustan veitir stofnunum ERP virkni sem styður einstaka kröfur þeirra og hjálpar þeim að aðlagast síbreytilegu viðskiptaumhverfi, án þess að þurfa að stjórna innviðum. Fjármála- og rekstrarforrit geta innihaldið eitt eða fleiri af eftirfarandi lausnarsviðum:
+Forrit fjármála- og reksturs eru bókhalds- og áætlunargerðarhugbúnaður fyrir SaaS-þjónustum sem eru byggðar upp á og fyrir [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). fjármála- og reksturs-þjónustan veitir stofnunum/fyrirtækjum virkni bókhalds- og áætlunargerðarhugbúnaðar sem styður einstakar kröfur þeirra og hjálpar þeim að laga sig að síbreytilegu viðskiptaumhverfi, án þess að gera kröfu um að þeir sjái um tölvukerfi. Forrit fjármála- og reksturs geta innihaldið eitt eða fleiri af eftirfarandi lausnasvæðum:
 
 - [Dynamics 365 Finance](/dynamics365/finance/)
 - [Dynamics 365 Human Resources](/dynamics365/human-resources/)
@@ -32,25 +32,25 @@ Með [viðskiptagreind](/power-bi/fundamentals/power-bi-service-overview), [töl
 
 - Innbyggð [sérsniðna upplifun](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)-verkfæri
-- [Visual Studio](https://visualstudio.microsoft.com)-byggt [fjármála- og rekstrarhugbúnaðarþróunarsett (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) og [Azure DevOps byggja sjálfvirkni](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
+- [Sjálfvirkni byggð á Visual Studio](https://visualstudio.microsoft.com) [fjármála- og reksturs-hugbúnaðarþróunarpakka (SDK)](../../dev-itpro/dev-tools/developer-home-page.md) og [Azure DevOps-smíði](../../dev-itpro/dev-tools/developer-home-page.md#build-automation-using-azure)
 - Lausnir óháðs hugbúnaðarsala frá [AppSource](https://appsource.microsoft.com/partners)
 
 Út frá þessum kröfum velja viðskiptavinir sína lausn. Þeir vinna með innleiðingaraðila sínum til að skilgreina, þróa og prófa lausn sína með því að nota tólin og bestu starfsvenjurnar sem veittar eru í [Microsoft Dynamics Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/lcs.md). Það eru fjórar algengar aðstæður:
 
-- Hefðbundin fjármála- og rekstrarforrit „úr kassanum“ uppsetningu (engar viðbætur)
-- Uppsetning fjármála- og rekstrarforrita sem inniheldur eina eða fleiri ISV lausnir
-- Uppsetning fjármála- og rekstrarforrita sem inniheldur eina eða fleiri viðskiptavinasértækar viðbætur
-- Uppsetning fjármála- og rekstrarappa sem felur í sér blöndu af viðskiptavinasértækum viðbótum og einni eða fleiri ISV lausnum
+- Venjuleg skilgreining fjármála- og reksturs-forrita beint úr kassanum (engar viðbætur)
+- Forritastilling fjármála- og reksturs sem inniheldur eina eða fleiri lausnir óháðra hugbúnaðarsala
+- Grunnstilling forrit fjármála- og reksturs sem inniheldur eina eða fleiri viðbætur sem eru sértækar fyrir viðskiptavini
+- Forritsstilling fjármála- og reksturs sem inniheldur samsetningu viðbóta frá viðskiptavini og einnar eða fleiri lausna óháðra hugbúnaðarsala
 
 Stofnanir/fyrirtæki geta jafnað vöxt rekstrarins með því að bæta notendum og viðskiptaferlum auðveldlega við með einföldu, gagnsæju áskriftarlíkani. Frekari upplýsingar eru í [Leiðbeiningar fyrir Dynamics 365-leyfi](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365).
 
 ## <a name="operating-model"></a>Vinnslulíkan
 
-Rekstrarlíkan fjármála- og rekstrarappa skilgreinir tiltekin hlutverk og ábyrgð fyrir viðskiptavininn, innleiðingaraðilann og Microsoft allan líftíma þjónustunnar. Frekari upplýsingar er að finna í [Aðgerðir og þjónusta í skýi](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md).
+Rekstrarlíkan fjármála- og reksturs-forrita skilgreinir tiltekin hlutverk og ábyrgð fyrir viðskiptavininn, innleiðingaraðila og Microsoft á öllu líftíma þjónustunnar. Frekari upplýsingar er að finna í [Aðgerðir og þjónusta í skýi](../../dev-itpro/lifecycle-services/cloud-operations-servicing.md).
 
 ### <a name="customer-activities"></a>Verkþættir viðskiptavinar
 
-Viðskiptavinir vinna með maka sínum og [Microsoft FastTrack](/dynamics365/fasttrack/) eftir [Dynamics 365 Innleiðingarhandbók](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), hinn [Success by Design](/dynamics365/fasttrack/success-by-design-overview) ramma, og verkfærin og sniðmát fyrir bestu starfsvenjur sem er að finna í [Lífsferilsþjónusta](../../dev-itpro/lifecycle-services/lcs.md) að innleiða lausn þeirra. Almennar aðgerðir eru m.a.:
+Viðskiptavinir vinna með samstarfsaðila sínum og [Microsoft FastTrack](/dynamics365/fasttrack/) með því að fylgja [Leiðbeiningar fyrir innleiðingu Dynamics 365](https://community.dynamics.com/365/dynamics-365-fasttrack/p/dynamics365implementationguide), rammanum [Success by Design](/dynamics365/fasttrack/success-by-design-overview) og nota verkfæri og sniðmát fyrir bestu starfsvenjur sem veitt eru í [Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md) til að innleiða lausn sína. Almennar aðgerðir eru m.a.:
 
 - Notandaauðkenni og öryggisstjórnun
 - Skilgreina, þróa og reka viðskiptaferla
@@ -61,12 +61,12 @@ Viðskiptavinir vinna með maka sínum og [Microsoft FastTrack](/dynamics365/fas
 
 ### <a name="microsoft-responsibilities"></a>Skyldur Microsoft
 
-Microsoft heldur utan um fjármála- og rekstrarþjónustuna með því að dreifa, fylgjast með og þjónusta sandkassa og framleiðsluumhverfi viðskiptavina í Microsoft SaaS áskriftinni. Þessi stjórnun felur í sér að úthluta nauðsynlegum tölvukerfum til að keyra þjónustuna og eiga í framvirkum samskiptum við viðskiptavini um ástand þjónustunnar. Ábyrgð nær til:
+Microsoft hefur umsjón með fjármála- og reksturs-þjónustunni með því að innleiða, hafa virkt eftirlit með og þjónusta sandkassa- og framleiðsluumhverfi viðskiptavina í Microsoft SaaS-áskriftinni. Þessi stjórnun felur í sér að úthluta nauðsynlegum tölvukerfum til að keyra þjónustuna og eiga í framvirkum samskiptum við viðskiptavini um ástand þjónustunnar. Ábyrgð nær til:
 
 **Stjórnun tölvukerfa**
 - Öryggi og einangrun
 - Stýrikerfi og sýndartækni
-- Netþjónar, geymsla og netkerfi
+- Þjónar, geymsla og nettenging
 - Gagnamiðstöðvarafl, nettenging, kæling
 
 **Stjórnun forritsverkvangs**
@@ -79,7 +79,7 @@ Microsoft heldur utan um fjármála- og rekstrarþjónustuna með því að drei
 
 ## <a name="system-configuration"></a>Kerfisgrunnstilling
 
-Fjármála- og rekstrarforrit skalast eftir viðskiptamagni og notendaálagi. Hver innleiðing viðskiptavinar skapar einstaka lausn sem samanstendur af eftirfarandi þáttum:
+Stærð forrita fjármála- og reksturs eftir færslumagni og notkun. Hver innleiðing viðskiptavinar skapar einstaka lausn sem samanstendur af eftirfarandi þáttum:
 
 - **Gagnasamsetning** – Einstakt sett af færibreytum sem stýra hegðun, skipulagi stofnunar/fyrirtækis, uppbyggingu aðalgagna (eins og fjárhags- og birgðavíddir) og rekjanleika færslna.
 - **Viðbót og stilling** – Viðbótaleiðir sem nota kóðaviðbætur, ISV-lausnir og einstakar stillingar sem fela í sér vinnuflæði, samþættingar og skýrslugerðarstillingar.
@@ -89,11 +89,11 @@ Microsoft stillir framleiðsluumhverfi viðskiptavina sem eru stærðarflokkuð 
 
 - Rétt úthlutun tilfanga framleiðsluumhverfis, byggt á upplýsingum viðskiptavinarins í [LCS-áskriftarmatstækinu](../../dev-itpro/lifecycle-services/subscription-estimator.md)
 - Stöðugt eftirlit og greining á þjónustuframboði framleiðsluumhverfa
-- Greining og úrræðaleit vandamál í afköstum kerfisins með fjármála- og rekstraröppum
+- Vandamál við greiningu og bilanagreiningu á afköstum kerfisins með forritum fjármála- og reksturs
 
 Til að tryggja að innleiðing sé stillt með tilliti til mikilla afkasta verða viðskiptavinir að ljúka þessum verkum:
 
-- Gefðu nákvæmar notkunarupplýsingar um framkvæmd fjárhag og rekstrar í [LCS áskriftarmat](../../dev-itpro/lifecycle-services/subscription-estimator.md).
+- Gefa réttar notkunarupplýsingar um fjármála- og reksturs-innleiðingu í [LCS-áskriftarmatstækinu](../../dev-itpro/lifecycle-services/subscription-estimator.md).
 - Smíða- og prufuviðbætur fyrir afköst og umfang.
 - Prófa gagnastillingar rétt vegna afkasta.
 - Gakktu úr skugga um skalanleika með því að gera [afkastapróf](https://community.dynamics.com/365/b/techtalks/posts/performance-testing-approach-april-30-2018) áður en keyrsla fer í gang.
@@ -112,17 +112,17 @@ Frekari upplýsingar er að finna í [Innleiðing innleiðingarverks](../imp-lif
 
 ## <a name="globalization"></a>Staðfæring
 
-Fjármála- og rekstrarforrit eru þjónað frá nokkrum Azure svæðum um allan heim. Fjármála- og rekstrarforrit veita virkni til að styðja við mismunandi lönd/svæði og móðurmál. Frekari upplýsingar er að finna [Staðfærslu- og eftirlitseiginleikar](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
+Forrit fjármála- og reksturs eru veitt frá nokkrum Azure svæðum um allan heim. Forrit fjármála- og reksturs veita virkni til að styðja við mismunandi lönd/svæði og móðurmál. Frekari upplýsingar er að finna [Staðfærslu- og eftirlitseiginleikar](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
 
 ### <a name="countryregion-specific-considerations"></a>Atriði sem varða tiltekið land/svæði
 
-- Viðskiptavinir í eftirlitsskyldum iðnaði eða viðskiptastofnunum sem eiga viðskipti við aðila í Frakklandi sem krefjast staðbundins gagnavistar ættu að endurskoða [Fjármál og rekstur í Frakklandi](../../dev-itpro/deployment/france-local-deployment.md).
-- Viðskiptavinir sem eru með starfsemi í Kína ættu að endurskoða [Azure China Playbook](/azure/china/) og [Fjármál og rekstur rekinn af 21Vianet í Kína](../../dev-itpro/deployment/china-local-deployment.md).
+- Viðskiptavinir í eftirlitsskyldum iðnaði eða viðskiptafélögum sem eiga viðskipti við aðila í Frakklandi sem gera kröfu um búsetu á staðnum ættu að fara yfir gögn [fjármála- og reksturs í Frakklandi](../../dev-itpro/deployment/france-local-deployment.md).
+- Viðskiptavinir með starfsemi í Kína ættu að yfirfara [Azure China Playbook](/azure/china/) og [Fjármála- og reksturs operated by 21Vianet in China](../../dev-itpro/deployment/china-local-deployment.md).
 - Viðskiptavinir sem eru með starfsemi í Rússlandi ættu að fara yfir [rússnesk lög um staðfærslu persónuupplýsinga](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Almenna persónuverndarreglugerðin (GDPR)
 
-Fyrir fjármála- og rekstrarforrit virkar Microsoft sem örgjörvi. Sem gagnavinnsluaðili veitir fjármál og rekstur ferla og eiginleika sem hjálpa viðskiptavinum að uppfylla GDPR skyldur sem ábyrgðaraðili gagna. Frekari upplýsingar er að finna í [GDPR-yfirlit](../../dev-itpro/gdpr/gdpr-guide.md).
+Fyrir forrit fjármála- og reksturs virkar Microsoft sem vinnsluminni. Sem gagnavinnsluaðili veitir fjármála- og reksturs ferli og eiginleika sem hjálpa viðskiptavinum að uppfylla skyldur GDPR sem ábyrgðaraðili gagna. Frekari upplýsingar er að finna í [GDPR-yfirlit](../../dev-itpro/gdpr/gdpr-guide.md).
 
 ## <a name="environment-and-data-management"></a>Umhverfi og gagnastjórnun
 
@@ -134,7 +134,7 @@ LCS veitir [sjálfsafgreiðsluverkfæri](../../dev-itpro/deployment/infrastructu
 
 **Viðburður:** [Óskað eftir framleiðslutilviki](../imp-lifecycle/go-live-faq.md#when-can-i-configure-and-request-my-production-environment)
 
-- Ljúktu við [Endurskoðun á reiðubúningi til að fara í beina](../imp-lifecycle/prepare-go-live.md), og leggja það fyrir [Microsoft FastTrack](/dynamics365/fasttrack/) lið.
+- Fyllið út [Yfirferð Go-live Readiness](../imp-lifecycle/prepare-go-live.md) og sendið hann til starfsfólks [Microsoft FastTrack](/dynamics365/fasttrack/).
 - Fylltu út [LCS-áskriftarmatstækið](../../dev-itpro/lifecycle-services/subscription-estimator.md) áður en þú biður um framleiðslutilvik.
 - Ljúka öllum innleiðingarverkefnum sem tilgreind eru í [LCS aðferðafræðinni](../../dev-itpro/lifecycle-services/create-methodology.md).
 
@@ -182,7 +182,7 @@ LCS veitir [sjálfsafgreiðsluúthlutun](../../dev-itpro/deployment/infrastructu
 
 ## <a name="data-backup-and-retention"></a>Öryggisafrit og varðveisla gagna
 
-Gagnagrunnar fyrir fjármála- og rekstrarumhverfi í SaaS áskriftinni eru verndaðir með sjálfvirkum afritum. Í framleiðsluumhverfi eru sjálfvirk öryggisafrit geymd í 28 daga, nema Microsoft sé með öryggisafrit. Fyrir umhverfi sandkassa (lag 2+) eru þeir geymdir í sjö daga. Hægt er að endurheimta framleiðsluumhverfi ef bilun kemur upp við áætlaða viðhaldsuppfærslu.
+Gagnagrunnar fyrir umhverfi fjármála- og reksturs í SaaS-áskriftinni eru varðir með sjálfvirkum öryggisafritum. Í framleiðsluumhverfi eru sjálfvirk öryggisafrit geymd í 28 daga, nema Microsoft sé með öryggisafrit. Fyrir umhverfi sandkassa (lag 2+) eru þeir geymdir í sjö daga. Hægt er að endurheimta framleiðsluumhverfi ef bilun kemur upp við áætlaða viðhaldsuppfærslu.
 
 Frekari upplýsingar um sjálfvirk öryggisafrit eru í [Sjálfvirk öryggisafrit - Azure SQL-gagnagrunnur & SQL-stjórnað tilvik](/azure/azure-sql/database/automated-backups-overview?tabs=single-database).
 
@@ -228,13 +228,13 @@ Eftirfarandi tafla lýsir dæmigerðum aðstæðum og starfsemi þjónustunnar. 
 
 ## <a name="service-update-strategy"></a>Þjónustuuppfærsluáætlun
 
-Í samræmi við [lífsferilsstefnu hugbúnaðar](../../dev-itpro/migration-upgrade/versions-update-policy.md), fjármála- og rekstrarforrit fylgja Microsoft [Nútíma lífsferilsstefna](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy), sem nær yfir vörur sem eru stöðugt þjónustaðar og studdar. 
+Í samræmi við [reglur um stuðningstíma hugbúnaðar](../../dev-itpro/migration-upgrade/versions-update-policy.md) fylgja forrit fjármála- og reksturs [Modern-reglum Microsoft um stuðningstíma](../../dev-itpro/migration-upgrade/versions-update-policy.md#modern-lifecycle-policy), sem nær yfir vörur sem eru stöðugt þjónustaðar og studdar. 
 
-Microsoft gefur út átta þjónustuuppfærslur fyrir fjármála- og rekstrarforrit á hverju ári á eftirfarandi mánuðum:
+Microsoft gefur út átta þjónustuuppfærslur á forrit fjármála- og rekstursum á hverju ári á eftirfarandi mánuðum:
 
 - janúar
 - febrúar
-- Apríl
+- apríl
 - maí
 - júlí
 - ágúst
@@ -255,7 +255,7 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efnisatriðum:
 
 ## <a name="security-and-administrative-access"></a>Öryggi og stjórnunaraðgangur
 
-Stjórnunaraðgangur að framleiðsluumhverfi fjármála og rekstrar er stranglega stjórnað og skráður. Gögn um viðskiptavini eru meðhöndluð í samræmi við [skilmála Microsoft Online Services](https://www.microsoft.com/licensing/terms/productoffering). 
+Stjórnunaraðgangi framleiðsluumhverfi fjármála- og reksturs er stranglega stýrt og hann skráður. Gögn um viðskiptavini eru meðhöndluð í samræmi við [skilmála Microsoft Online Services](https://www.microsoft.com/licensing/terms/productoffering). 
 
 ### <a name="customer-administrative-access"></a>Stjórnunaraðgangur viðskiptavinar
 
@@ -264,7 +264,7 @@ Stjórnandi leigjanda hjá viðskiptavini getur fengið aðgang að framleiðslu
 | Gerð umhverfis | Notkun | Aðgangsstig viðskiptavinar |
 |---|---|---|
 | **Ekki framleiðsla**<br>Lag 1 sandkassi | Umhverfi sem ekki tengist framleiðslu sem viðskiptavinir setja upp í þróunar-, sýningar- eða þjálfunarskyni. | Lag 1 sandkassi (einnig nefnt skýjahýst umhverfi) er sýndarvél sem viðskiptavinur stjórnar sem er sett upp á Azure-áskrift viðskiptavinarins frá LCS. Þar sem um sýndarvél á Azure-áskrift viðskiptavinarins er að ræða hefur viðskiptavinurinn fullan stjórnunaraðgang að umhverfinu í gegnum fjartengt skjáborð. |
-| **Ekki framleiðsla**<br>Lag 2 (eða hærra) sandkassi | Framleiðsluumhverfi sem ekki tengist framleiðslu sem viðskiptavinir setja upp fyrir samþykkisprófun notanda, prófanir á samþættingu, þjálfun, sviðsetningu eða aðrar aðstæður fyrir framleiðslu. | Tier 2 og hærri sandkassar eru notaðir í SaaS áskriftinni fyrir fjármál og rekstur. Aðgangur að Azure SQL-gagnagrunnum sem eru tengdir umhverfi sem ekki tengist framleiðslu er veittur með [samtímaaðgangi](../../dev-itpro/database/database-just-in-time-jit-access.md). Aðgangur í gegnum fjartengt skjáborð er ekki í boði. |
+| **Ekki framleiðsla**<br>Lag 2 (eða hærra) sandkassi | Framleiðsluumhverfi sem ekki tengist framleiðslu sem viðskiptavinir setja upp fyrir samþykkisprófun notanda, prófanir á samþættingu, þjálfun, sviðsetningu eða aðrar aðstæður fyrir framleiðslu. | Lag 2 og hærri sandkassar eru settir í fjármála- og reksturs SaaS-þjónustuáskriftina. Aðgangur að Azure SQL-gagnagrunnum sem eru tengdir umhverfi sem ekki tengist framleiðslu er veittur með [samtímaaðgangi](../../dev-itpro/database/database-just-in-time-jit-access.md). Aðgangur í gegnum fjartengt skjáborð er ekki í boði. |
 | **Framleiðsla** | Framleiðsluumhverfi er tekið í notkun þegar verkið er [tilbúið fyrir fyrstu keyrslu](../imp-lifecycle/environment-planning.md#production-system-readiness). | Framleiðsluumhverfi er sett upp á SaaS-áskriftina. Allur aðgangur er í gegnum vafra, endastöðvar þjónustu eða LCS. |
 
 ### <a name="microsoft-administrative-access"></a>Microsoft-stjórnunaraðgangur
@@ -296,7 +296,7 @@ Frekari upplýsingar varðandi alvarleikastig eru í [þessari alvarleikatöflu]
 
 ## <a name="business-continuity-through-high-availability-and-disaster-recovery"></a>Samfella í rekstri með miklu framboði og endurheimt eftir hamfarir 
 
-Microsoft veitir samfellu í rekstri og hamfarabata fyrir framleiðslutilvik fjármála- og rekstrarforrita ef bilun verður á Azure-svæðinu. Fyrir frekari upplýsingar, þar á meðal þjónustu Recovery Time Objective (RTO) og Recovery Point Objective (RPO), sjá [Samfelld viðskipta og hörmungarbati](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md).
+Microsoft býður upp á samfellu í rekstri og endurheimt eftir hamfarir vegna framleiðslutilvika fjármála- og reksturs-forrita ef bilun verður í Azure innan svæðis. Frekari upplýsingar, þ.m.t. RTO (Recovery Time Objective) og RPO (Recovery Point Objective), er að finna í [Rekstrarsamfella og endurheimt eftir áföll](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md).
 
 - **Mikið framboð** – Virknin „Mikið framboð“ býður upp á leiðir til að koma í veg fyrir stöðvun sem stafar af bilun í einum hnút í Azure-gagnaveri. Uppbygging skýs hvers þjónustusvæðis notar Azure-framboðs fyrir tölvulagið til að koma í veg fyrir atburði vegna afmarkaðrar bilunar. HA fyrir gagnagrunna er veitt í gegnum [Azure SQL HA eiginleika](/azure/azure-sql/database/high-availability-sla).
 - **Endurheimt vegna hamfara** – [Azure-endurheimtareiginleikar vegna hamfara](/azure/best-practices-availability-paired-regions) vernda hverja þjónustu gegn bilunum sem hafa víðtæk áhrif á alla Azure-gagnamiðstöðina. Hér eru nokkrir þessara eiginleika:
@@ -307,17 +307,17 @@ Microsoft veitir samfellu í rekstri og hamfarabata fyrir framleiðslutilvik fj�
 
 Ef endurheimt eftir hamfarir er notuð til að endurheimta framleiðslutilvik viðskiptavinarins munu Microsoft og viðskiptavinurinn uppfylla skyldur sínar varðandi [stjórnun atvika](service-description.md#incident-management).
 
-Endurheimtuáætlanir og verklagsreglur Microsoft vegna hamfara eru skoðaðar reglulega með endurskoðun á kerfi og skipulagi (SOC). Þessar samræmisúttektir vitna um tæknilega og verklagslega ferli Microsoft DR, þar á meðal Dynamics 365 fjármála- og rekstrarforrit. [Úttektarskýrslur](/compliance/regulatory/offering-soc-2) og allar aðrar reglufylgniskýrslur eru aðgengilegar í [Microsoft Trust Center](/compliance/regulatory/offering-home).
+Endurheimtuáætlanir og verklagsreglur Microsoft vegna hamfara eru skoðaðar reglulega með endurskoðun á kerfi og skipulagi (SOC). Þessar úttektir bera vott um tæknilegt og verklag við DR-endurskoðun Microsoft, þar á meðal Dynamics 365 fjármála- og rekstrarforrit. [Úttektarskýrslur](/compliance/regulatory/offering-soc-2) og allar aðrar reglufylgniskýrslur eru aðgengilegar í [Microsoft Trust Center](/compliance/regulatory/offering-home).
 
-## <a name="finance-and-operations-support-offerings"></a>Fjármál og rekstur styðja tilboð
+## <a name="finance-and-operations-support-offerings"></a>Þjónustutilboð fyrir fjármál- og rekstur
 
-Tækniaðstoð er í boði á mörkuðum þar sem boðið er upp á fjármála- og rekstrarþjónustu. [Styðja reynslu](../../dev-itpro/lifecycle-services/lcs-support.md) eru veittar í LCS eða fjármála- og rekstraröppum. Hér eru nokkur dæmi:
+Tæknileg aðstoð er í boði á mörkuðum þar sem boðið er upp á fjármála- og reksturs-þjónustu. [Stuðningsupplifanir](../../dev-itpro/lifecycle-services/lcs-support.md) eru veittar í LCS eða forritum fjármála- og reksturs. Hér eru nokkur dæmi:
 
 - [Vandamálaleit](../../dev-itpro/lifecycle-services/issue-search-lcs.md) í LCS
-- [Innbyggð tækniaðstoð](../../dev-itpro/lifecycle-services/support-experience.md) í fjármála- og rekstraröppum
+- [Samþættur tæknilegur stuðningur](../../dev-itpro/lifecycle-services/support-experience.md) í forritum fjármála- og reksturs
 - [Stuðningur í skýi](../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md) í LCS
 
-Microsoft býður viðskiptavinum fjármála og rekstrar þrjú stuðningsáætlanir: Premier, Professional Direct og stuðninginn sem er innifalinn í áskriftinni. Stuðningsstigið fer eftir áskriftum. Eftirfarandi tafla sýnir samanburð á áskriftarleiðunum þremur.
+Microsoft býður fjármála- og reksturs-viðskiptavinum upp á þrjár þjónustuáætlanir: Premier, Professional Direct og þann stuðning sem er innifalinn í áskriftinni. Stuðningsstigið fer eftir áskriftum. Eftirfarandi tafla sýnir samanburð á áskriftarleiðunum þremur.
 
 | Studdur eiginleiki | Premier-samningur | Professional Direct | Áskrift |
 |---|---|---|---|
@@ -332,7 +332,7 @@ Frekari upplýsingar eru í [Stuðningsyfirlit](/power-platform/admin/support-ov
 
 ### <a name="process-to-engage-support"></a>Ferli til að nýta stuðning
 
-Ef upp koma atvik sem fela í sér fjármála- og rekstrarforrit senda viðskiptavinir stuðningsmiða til Microsoft í gegnum LCS. CSS meðhöndlar atvikin, byggt á þjónustuáætlun viðskiptavinarins og alvarleika atviksins eins hann er skilgreindur af CSS.
+Ef upp koma atvik sem fela í sér fjármála- og reksturs-forrit geta viðskiptavinir sent inn þjónustubeiðni til Microsoft í gegnum LCS. CSS meðhöndlar atvikin, byggt á þjónustuáætlun viðskiptavinarins og alvarleika atviksins eins hann er skilgreindur af CSS.
 
 ### <a name="service-level-agreement"></a>Þjónustustigssamningur
 
@@ -340,14 +340,14 @@ Microsoft ábyrgist notkunartíma þjónustu upp á 99,9 prósent á mánuði. E
 
 ## <a name="important-resources"></a>Mikilvæg tilföng
 
-- **[Traustamiðstöð](https://www.microsoft.com/trust-center)** - Fáðu upplýsingar um hvar fjárhags- og rekstrargögn þín eru geymd, auk viðbótarupplýsinga um friðhelgi einkalífs, reglufylgni og öryggisaðferðir.
+- **[Öryggismiðstöð](https://www.microsoft.com/trust-center)** – Fáðu upplýsingar um hvar fjármála- og reksturs-gögnin þín eru geymd ásamt viðbótarupplýsingum um persónuvernd, reglufylgni og öryggisaðferðir.
 - **[Leyfisskilmálar og fylgigögn](https://www.microsoftvolumelicensing.com/)** – Fljótur aðgangur að leyfisskilmálum, skilyrðum og viðbótarupplýsingum sem skipta máli fyrir notkun á vörum og þjónustu sem hafa leyfi samkvæmt fjöldaleyfisáætlunum Microsoft.
 - **[Leyfisskilmálar](https://www.microsoft.com/licensing/product-licensing/)** – Úrræðin á þessari síðu skilgreina skilmála fyrir hugbúnað og þjónustu á netinu sem þú kaupir í gegnum Microsoft viðskiptaleyfisáætlanir.
 - **[Reglur Microsoft um stuðningstíma](/lifecycle/)** – Þessi síða inniheldur samræmdar reglur sem segja fyrir um gildistíma notendaþjónustu fyrir tiltekna vöru.
 - **[Leyfishandbók](https://www.microsoft.com/licensing/docs/view/Microsoft-Dynamics-365)** – Notaðu þessa handbók til að fá frekari upplýsingar um leyfi fyrir Dynamics 365.
 - **[Þjónustuver](https://dynamics.microsoft.com/support/)** – Fáðu stuðning besta mögulega stuðning fyrir Dynamics 365 forritin þín.
 - **[Dynamics Lifecycle Services](https://lcs.dynamics.com/)** – Stjórna líftíma forrits og velja fyrirsjáanlegar, endurteknar hágæða innleiðingar.
-- **[Dynamics 365 Innleiðingarhandbók](https://aka.ms/D365ImplementationGuideFlip)** - Dynamics 365 Implementation Guide skjölin tímaprófuð Success by Design meginreglur og veitir fyrirskipandi leiðbeiningar til að smíða, smíða, prófa og innleiða Dynamics 365 lausnir.
+- **[Innleiðingarleiðbeiningar Dynamics 365](https://aka.ms/D365ImplementationGuideFlip)** - Innleiðingarleiðbeiningar Dynamics 365 skrá tímaprófaðar Success by Design reglur og innihalda leiðbeiningar um hönnun, smíði, prófun og uppsetningu á lausnum Dynamics 365.
 
 ## <a name="definitions"></a>Skilgreiningar
 
@@ -357,7 +357,7 @@ Landsvæði þar sem eitt eða fleiri Azure-gagnaver eru til staðar. Dæmi taka
 
 ### <a name="business-process-modeler-bpm"></a>[Viðskiptaferlavinnsla (BPM)](../../dev-itpro/lifecycle-services/bpm-overview.md)
 
-Verkfæri í LCS sem hjálpar til við að klára greiningu á passabili fyrir tiltekna útfærslu með því að nota skilgreiningar á viðskiptaferlum frá American Productivity & Quality Center (APQC) sem eru studdar í fjármála- og rekstraröppum.
+Verkfæri í LCS sem hjálpar til við að ljúka greiningu á kröfufylgni fyrir tiltekna innleiðingu með viðskiptaferlaskilgreiningum frá APQC (American Productivity & Quality Center) sem eru studdar í forriti fjármála- og reksturs.
 
 ### <a name="cloud-solution-provider"></a>Skýjalausnarveita
 
@@ -365,7 +365,7 @@ Samstarfsaðili sem er hluti af skýjaþjónustu Microsoft (CSP) og sem veitir v
 
 ### <a name="customer"></a>Viðskiptamaður
 
-Fyrirtækjaeining sem notar fjármála- og rekstrarforrit og er fulltrúi leigjanda í Office 365.
+Viðskiptaaðili sem notar forrit fjármála- og reksturs og kemur fram sem leigjandi í Office 365.
 
 ### <a name="development-environment"></a>Þróunarumhverfi
 
@@ -377,19 +377,19 @@ Sandkassaumhverfi sem ekki tengist framleiðslu sem er notað til að þróa vi�
 
 ### <a name="implementation-partner"></a>Samstarfsaðili innleiðingar
 
-Samstarfsaðilinn sem viðskiptavinurinn velur til að sérsníða, stilla, innleiða og stjórna fjármála- og rekstrarlausnum sínum.
+Samstarfsaðilinn sem viðskiptavinurinn velur til að sérsníða, stilla, innleiða og hafa umsjón með fjármála- og reksturs-lausnum sínum.
 
 ### <a name="incident"></a>Atvik
 
-Mál sem viðskiptavinir lenda í á meðan þeir nota fjármála- og rekstrarþjónustuna og sem þeir leggja inn miða fyrir í gegnum LCS.
+Vandamál sem viðskiptavinir lenda í þegar þeir nota þjónustu fjármála- og reksturs og sem þeir leggja fram beiðni um í gegnum LCS.
 
 ### <a name="microsoft-customer-support-services-css"></a>Notendaþjónusta Microsoft (CSS)
 
-Alþjóðlegt stuðningsteymi Microsoft sem leggur áherslu á að veita gæðaþjónustu fyrir fjármála- og rekstrarforrit.
+Alþjóðlegt þjónustuteymi Microsoft sem sérhæfir sig í að veita gæðaþjónustu fyrir forrit fjármála- og reksturs.
 
 ### <a name="microsoft-dynamics-lifecycle-services-lcs"></a>Microsoft Dynamics Lifecycle Services (LCS)
 
-Stjórnunargáttin fyrir líftímastjórnun fjármála- og rekstrarappa frá prufu, til innleiðingar, til eftirvinnslustjórnunar og stuðnings. Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md).
+Stjórnunargáttin fyrir stuðningstímastjórnun forrit fjármála- og rekstursa, frá prófun til innleiðingar, til stjórnunar og stuðnings eftir framleiðslu. Frekari upplýsingar er að finna í [Tilföng Lifecycle Services](../../dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="non-production-instance"></a>Frávik ótengt framleiðslu
 
@@ -403,7 +403,7 @@ Frekari upplýsingar um lög 2 til 5 eru í [Val á réttu lagi 2 eða nýrra um
 
 ### <a name="production-instance"></a>Framleiðslutilvik
 
-Fjármála- og rekstrarumhverfi sem viðskiptavinurinn notar til að stjórna „lifandi“ daglegum viðskiptum og viðskiptaferlum.
+Umhverfi fjármála- og reksturs sem viðskiptavinurinn notar til að stjórna daglegum viðskiptum sínum og viðskiptaferlum í rauntíma.
 
 ### <a name="sandbox-environment"></a>Sandkassaumhverfi
 
@@ -411,7 +411,7 @@ Umhverfi sem ekki tengist framleiðslu sem viðskiptavinurinn notar til sýninga
 
 ### <a name="service"></a>Þjónusta
 
-Einhverja kjarnaþjónustu sem er innifalin í fjármála- og rekstraröppum.
+Allar grunnþjónustur sem eru innifaldar í forritum fjármála- og reksturs.
 
 ### <a name="service-level-agreement-sla-for-microsoft-online-services"></a>Þjónustustigssamningur (SLA) fyrir netþjónustu Microsoft
 
@@ -419,13 +419,13 @@ Einhverja kjarnaþjónustu sem er innifalin í fjármála- og rekstraröppum.
 
 ### <a name="service-update"></a>Þjónustuuppfærsla
 
-Microsoft þjónustar fjármála- og rekstrarumhverfi á stöðugum grundvelli með þjónustuuppfærslum. Viðskiptavinir setja upp eigið þjónustuuppfærsludagatal eftir þörfum fyrirtækisins. Nánari upplýsingar má finna í [Uppfærsluþjónusta One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md).
+Microsoft þjónustar umhverfi fjármála- og reksturs í gegnum þjónustuuppfærslur. Viðskiptavinir setja upp eigið þjónustuuppfærsludagatal eftir þörfum fyrirtækisins. Nánari upplýsingar má finna í [Uppfærsluþjónusta One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md).
 
 ### <a name="success-by-design"></a>[Success by Design](/dynamics365/fasttrack/success-by-design-overview)
 
-Ramminn sem stýrir innleiðingu kerfisbundið í gegnum röð mats á mikilvægum stigum til að tryggja hámarks arkitektúr, öryggi, frammistöðu og notendaupplifun fyrir Dynamics 365 lausn.
+Ramminn sýnir á kerfisbundinn hátt innleiðingu í gegnum mat á mikilvægum stigum til að tryggja sem besta hönnun, öryggi, afköst og notandaupplifun fyrir Dynamics 365-lausn.
 
 ### <a name="user"></a>Notandi
 
-Einstaklingur sem notar fjármála- og rekstrarumhverfi og tengist leigjanda viðskiptavinar.
+Einstaklingur sem notar umhverfi fjármála- og reksturs og er tengdur leigjanda viðskiptavinar.
 

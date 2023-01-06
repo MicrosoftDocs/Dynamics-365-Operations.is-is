@@ -1,6 +1,6 @@
 ---
 title: Vinnusvæði greiðslna lánardrottna
-description: Þessi grein veitir upplýsingar um vinnusvæði lánardrottinsgreiðslur. Vinnusvæði greiðslur Lánardrottins sýnir upplýsingar sem tengjast vinnslu greiðslur til lánardrottna.
+description: Þessi grein veitir upplýsingar um lánardrottnagreiðslu á fartækjavinnusvæði. Vinnusvæði greiðslur Lánardrottins sýnir upplýsingar sem tengjast vinnslu greiðslur til lánardrottna.
 author: abruer
 ms.date: 10/16/2020
 ms.topic: article
@@ -16,7 +16,7 @@ ms.assetid: ''
 ms.search.form: VendPaymentWorkspace
 ms.openlocfilehash: 13d86c037dccf23725bc8bdce268ed9fada3c5cd
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9288602"

@@ -1,6 +1,6 @@
 ---
 title: Stofna yfirlit yfir verkflæði
-description: Þessi grein útskýrir hvernig á að búa til verkflæði.
+description: Þessi grein útskýrir hvernig á að stofna verkflæði.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -19,7 +19,7 @@ ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.openlocfilehash: 1343061ba06d13e68a98b05c013867af0a4d07a6
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8864487"
@@ -31,7 +31,7 @@ ms.locfileid: "8864487"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Þessi grein útskýrir hvernig á að búa til verkflæði.
+Þessi grein útskýrir hvernig á að stofna verkflæði.
 
 ## <a name="open-the-workflow-editor"></a>Opnaðu ritstjóra verkflæðis
 
@@ -56,7 +56,7 @@ Fylgið eftirfarandi skrefum til að skilgreina eiginleika verkflæðis.
 
 1. Smellt er á striga til að tryggja að enginn verkflæðiseiningunni er valinn.
 2. Smellið á **eiginleikar** til að opna í **Eiginleika** fyrir verkflæðið.
-3. Fylgdu verklagsreglum í [Stilltu eiginleika verkflæðis](configure-workflow-properties.md) grein.
+3. Fylgdu leiðbeiningunum í greininni [Skilgreining verkflæðiseiginleika](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Skilgreinið einingar verkflæðisins
 

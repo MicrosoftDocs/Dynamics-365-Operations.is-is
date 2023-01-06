@@ -1,6 +1,6 @@
 ---
 title: VALUEIN ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig VALUEIN rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig VALUEIN rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 12/14/2021
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: 14c3d08ee3478b55593a3e473f9eb60f1bba0760
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9288139"
@@ -64,7 +64,7 @@ Almennt er virknin `VALUEIN` þýdd yfir í sett af **OR** skilyrðum. Ef listin
 SQLÍ sumum tilvikum er hægt að þýða það yfir í SQL-skipun gagnagrunns með því að nota virkjann `EXISTS JOIN`.
 
 > [!NOTE]
-> Gildið sem`VALUEIN` fall skilar er [notað öðruvísi](er-functions-list-filter.md#usage-notes), eftir því hvort þessi aðgerð er notuð til að tilgreina valforsendur fyrir [`FILTER`](er-functions-list-filter.md) virka eða [`WHERE`](er-functions-list-where.md) virka.
+> Gildið sem `VALUEIN` aðgerðin skilar er [notað á annan hátt](er-functions-list-filter.md#usage-notes) eftir því hvort þessi aðgerð er notuð til að tilgreina valskilyrðið fyrir [`FILTER`](er-functions-list-filter.md) aðgerðina eða [`WHERE`](er-functions-list-where.md) aðgerðina.
 
 ## <a name="example-1"></a>Dæmi 1
 

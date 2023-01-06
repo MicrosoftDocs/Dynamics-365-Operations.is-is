@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir frádreginn skatt á upprunastað (TDS) fyrir Indland
-description: Þessi grein veitir nákvæmar upplýsingar um indverskan skatt sem dreginn er frá við uppruna (TDS). TDS-fylgiskjölin ná yfir virknina í þessum möguleika.
+description: Þessi grein veitir ítarlegar upplýsingar um frádreginn skatt á upprunastað (TDS) fyrir Indland. TDS-fylgiskjölin ná yfir virknina í þessum möguleika.
 author: kailiang
 ms.date: 03/19/2021
 ms.topic: overview
@@ -19,7 +19,7 @@ ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: 7ddcf11013921b5d5e242c9026d332d319ed8169
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8896284"
@@ -28,7 +28,7 @@ ms.locfileid: "8896284"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir nákvæmar upplýsingar um indverskan skatt sem dreginn er frá við uppruna (TDS).
+Þessi grein veitir ítarlegar upplýsingar um frádreginn skatt á upprunastað (TDS) fyrir Indland.
 
 TDS-fylgiskjölin ná yfir virknina í þessum möguleika. Það útskýrir einnig hvernig á að gera grunnuppsetningu fyrir TDS, reikna út TDS í færslum, ljúka uppgjörsferli TDS, skrá vottorðanúmer TDS og mynda TDS-fyrirspurnir, TDS-uppgjör og TDS-vottorð. Fylgiskjölin innihalda eftirfarandi efnisatriði:
 

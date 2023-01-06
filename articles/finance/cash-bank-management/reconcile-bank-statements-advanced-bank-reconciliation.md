@@ -1,6 +1,6 @@
 ---
 title: Afstemma bankayfirlit með ítarlegri bankaafstemmingu
-description: Ítarlegri bankaafstemmingareiginleikinn gerir þér kleift að flytja inn rafræn bankayfirlit og samræma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 Fjármál. Þessi skrá útskýrir ferli afstemmingar.
+description: Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 Finance. Þessi skrá útskýrir ferli afstemmingar.
 author: angelad116
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0e1d7fc58ad71365275d5e82a277554bee99c43a
 ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/14/2022
 ms.locfileid: "9151345"
@@ -26,7 +26,7 @@ ms.locfileid: "9151345"
 
 [!include [banner](../includes/banner.md)]
 
-Ítarleg bankaafstemmingareiginleikinn gerir þér kleift að flytja inn rafræn bankayfirlit og samræma þau sjálfkrafa við bankafærslur í Dynamics 365 Finance. Þessi skrá útskýrir ferli afstemmingar.  
+Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Dynamics 365 Finance. Þessi skrá útskýrir ferli afstemmingar.  
 
 ## <a name="import-an-electronic-bank-statement"></a>Flytja inn við rafræna bankayfirlit
 

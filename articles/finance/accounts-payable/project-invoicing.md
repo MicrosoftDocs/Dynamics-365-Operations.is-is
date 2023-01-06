@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 4af44127d80c943ed9cebeac21d7e9c8372910f3
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8861677"
@@ -58,7 +58,7 @@ Hægt er að stofna reikningstillaga fyrir eftirfarandi færslur:
 
 Í reikningstillaga er hægt að stofna færslur fyrir þóknun í reikningstillögu. Einnig er hægt að breyta söluverði á klukkutíma, kostnaði, vöru og þóknunarfærslum. Þegar reikningstillaga er bókuð er uppfært verð og færslum bætt við skýrslur um verk og færslusögu. 
 
-Til að stofna marga reikninga viðskiptavinar fyrir verk verður að stofna reikningstillögu fyrir hvern reikning. Til dæmis er hægt að stofna reikninga sem byggjast á færslugerð. Til að tilgreina tíma á einum reikningi viðskiptavinar og vörur á öðrum reikningi þarf að búa til sérstakar reikningstillögur fyrir tímafærslur og gjaldfærslur. 
+Til að stofna marga reikninga viðskiptavinar fyrir verk verður að stofna reikningstillögu fyrir hvern reikning. Til dæmis er hægt að stofna reikninga sem byggjast á færslugerð. Ef óskað er að tilgreina tíma á einum reikningi viðskiptavinar og vörur á öðrum reikningi, verður að stofna reikningstillögu fyrir tímafærslur og aðskildar reikningstillögu fyrir þóknunarfærslur. 
 
 Ef verk hefur fleiri en einn uppruni fjármögnunar er hægt að stofna aðskilda reikningstillögu fyrir hvern uppruni fjármögnunar. Í **Úthlutanir fjármögnunarreglu** síðu, er hægt að tilgreina hlutfall færsluupphæðar sem á að úthluta á hvern uppruni fjármögnunar, og upprunann til að bóka sléttunarmun á.
 

@@ -1,6 +1,6 @@
 ---
-title: Aðferðir við frestun færslu
-description: Þessi grein lýsir muninum á frestunarbókunaraðferðum fyrir frestun tekna og gjalda í áskriftarreikningi.
+title: Bókunaraðferðir frestunar
+description: Þessi grein lýsir muninum á bókunaraðferð frestunar fyrir tekju- og kostnaðarfrestanir í áskriftargreiðslu.
 author: JodiChristiansen
 ms.date: 6/10/2022
 ms.topic: article
@@ -17,47 +17,47 @@ ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
 ms.openlocfilehash: c66ed1c38251140dd798c39797873ceb5f7121a4
 ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/15/2022
 ms.locfileid: "9017475"
 ---
-# <a name="deferral-posting-methods"></a>Aðferðir við frestun færslu
+# <a name="deferral-posting-methods"></a>Bókunaraðferðir frestunar
 
-Þessi grein lýsir muninum á frestunarbókunaraðferðum fyrir frestun tekna og gjalda í áskriftarreikningi.
+Þessi grein lýsir muninum á bókunaraðferð frestunar fyrir tekju- og kostnaðarfrestanir í áskriftargreiðslu.
 
-Á **Frestun tekna og gjalda** síðu eru valkostirnir fyrir frestunaraðferðir **Efnahagsreikningur** og **Hagnaður og tap**. Dæmið í þessari grein mun hjálpa til við að útskýra muninn á þessum tveimur aðferðum og ástæðurnar fyrir því að þú gætir notað eina aðferðina eða hina.
+Á síðunni **Færibreytur tekju- og kostnaðarfrestunar** eru valkostir fyrir bókunaraðferðir frestunar **Efnahagsreikningur** og **Hagnaður og tap**. Dæmið í þessari grein mun hjálpa til við að útskýra muninn á þessum tveimur aðferðum og ástæður þess að þú gætir notað aðra aðferðina eða hina.
 
-The **Efnahagsreikningur** aðferðin notar aðeins tvo reikninga. Því fylgir minni uppsetning. The **Hagnaður og tap** aðferðin hefur tvo reikninga til viðbótar, **Upphafleg viðurkenning** og **Viðurkenningarjöfnun**, fyrir tekjur, afslætti og kostnað, allt eftir tegund viðskipta. Þessir reikningar eru settir upp á **Frestun vanskil** síða (**Innheimta áskriftar \> Frestun tekna og gjalda \> Uppsetning**). Þrátt fyrir að dæmið snúist um frestaðar tekjur er hægt að nota sama hugtak um fresta afslætti og frestan kostnað.
+Aðferðin **Efnahagsreikningur** notar aðeins tvo lykla. Því er minni uppsetning nauðsynleg. Aðferðin **Hagnaður og tap** er með tvo viðbótarlykla, **Upphafleg skráning** og **Mótbókun skráningar** fyrir tekjur, afslætti og kostnað eftir því hver færslugerðin er. Þessir lyklar eru settir upp á síðunni **Sjálfgefnar frestanir** (**Áskriftargreiðsla \> Tekju- og kostnaðarfrestanir \> Uppsetning**). Þótt dæmið sé um frestaðar tekjur er hægt að nota sömu hugmynd fyrir frestaða afslætti og frestaðan kostnað.
 
 ## <a name="example"></a>Dæmi
 
-Sölureikningur 1 hefur samtals $3,000 og hefur frestað tekjur. Eftirfarandi töflur sýna dreifingarnar þegar þessi sölureikningur er bókaður.
+Sölureikningur 1 er með USD 3.000 í heildartekjur og frestaðar tekjur. Eftirfarandi töflur sýna dreifingarnar þegar þessi sölureikningur er bókaður.
 
-**Efnahagsreikningsaðferð**
+**Aðferð efnahagsreiknings**
 
 | Gerð | Lykill | Debet | Kredit|
 |---|---|---|---|
 | Debet | Viðskiptakröfur | 3,000.00 | |
 | Kredit | Frestaðar tekjur | | 3,000.00 |
 
-**Hagnaðar- og tapaðferð**
+**Aðferð hagnaðar og taps**
 
 | Gerð | Lykill | Debet | Kredit |
 |---|---|---|---|
 | Debet | Viðskiptakröfur | 3,000.00 | |
-| Debet | Tekjufærsla á móti | 3,000.00 | |
+| Debet | Mótbókun tekjuskráningar | 3,000.00 | |
 | Kredit | Frestaðar tekjur | | 3,000.00 |
-| Kredit | Upphafleg tekjufærsla | | 3,000.00 |
+| Kredit | Upphafleg tekjuskráning | | 3,000.00 |
 
-Sölureikningur 2 hefur samtals $2,000 og hefur ekki frestað tekjur.
+Sölureikningur 2 er með USD 2.000 í heildartekjur og er ekki með frestaðar tekjur.
 
 | Gerð | Lykill | Upphæð |
 |---|---|---|
 | Debet | Viðskiptakröfur | 3,000.00 |
 | Kredit | Tekjur | 3,000.00 |
 
-**Samtölur efnahagsreikningsaðferðar fyrir sölureikning 1 og 2 samanlagt**
+**Samtölur fyrir sölureikning 1 og 2 samanlagðar í aðferð efnahagsreiknings**
 
 | Lykill | Debet | Kredit |
 |---|---|---|
@@ -65,9 +65,9 @@ Sölureikningur 2 hefur samtals $2,000 og hefur ekki frestað tekjur.
 | Tekjur | | 2,000.00 |
 | Frestaðar tekjur | | 3,000.00 |
 
-Þegar **Efnahagsreikningur** aðferð er notuð er ekki eins auðvelt að sjá brúttótekjur á tímabili. Hluti af tekjunum er færður til **Frestað tekjur** reikning. Hafðu í huga að þar sem tekjur eru færðar á hverju tímabili eru margar skuldfærslur og inneignir í **Frestað tekjur** reikning. Brúttótekjum á tilteknu tímabili verður blandað saman við inn- og útfærslur á tekjufærslu.
+Þegar aðferðin **Efnahagsreikningur** er notuð er ekki auðvelt að sjá brúttótekjur fyrir tímabil. Hluti teknanna er bókaður á lykilinn **Frestaðar tekjur**. Hafðu í huga að eftir því sem tekjur eru skráðar fyrir hvert tímabil eru margar debet- og kreditfærslur á lyklinum **Frestaðar tekjur**. Brúttótekjum fyrir tiltekið tímabil verður blandað við inn-/útfærslur tekjuskráningar.
 
-**Hagnaðar- og tapaðferðarsamtölur fyrir sölureikning 1 og 2 samanlagt**
+**Samtala hagnaðar og taps fyrir sölureikning 1 og 2 samanlagt**
 
 | Lykill | Debet | Kredit |
 |---|---|---|
@@ -76,6 +76,6 @@ Sölureikningur 2 hefur samtals $2,000 og hefur ekki frestað tekjur.
 | Tekjujöfnun | 3,000.00 | |
 | Frestaðar tekjur | | 3,000.00 |
 
-Allar tekjur fara í hagnað og tap **Tekjur** reikning. Síðan eru frestað tekjur færðar úr rekstrarreikningi í efnahagsreikning. Þú getur auðveldlega séð brúttótekjurnar, því allt er sett á **Tekjur** reikning. Hins vegar er hluta af þessum brúttótekjum frestað. Þess vegna er það flutt til **Frestað tekjur** reikning og viðurkennd síðar.
+Allar tekjur fara í **Tekjulykilinn** fyrir hagnað og tap. Þá eru frestaðar tekjur færðar úr rekstraryfirlitinu yfir í efnahagsreikning. Auðvelt er að sjá brúttótekjur því að allt er bókað á lykilinn **Tekjur**. Hins vegar er hluta af þessum brúttótekjum frestað. Hún er því færð á **Frestaðar tekjur** reikninginnfærð síðar.
 
-Í **Hagnaður og tap** aðferð, þú getur skoðað **Tekjur** reikning og **Tekjujöfnun** reikning til að sjá brúttótekjur af $5,000 og nettótekjur (að frádregnum frestun) af $2,000. Þó að **Hagnaður og tap** aðferð getur auðveldað skýrslugerð, það eru fleiri reikningar sem þarf að setja upp.
+Í aðferðinni **Hagnaður og tap** er hægt að skoða lykilinn **Tekjur** og lykilinn **Mótbókun tekna** til að sjá brúttótekjur upp á $5.000 og nettótekjur (nettó af frestuðu) upp á $2.000. Þótt aðferðin **Hagnaður og tap** geti gert skýrslugerðina auðveldari þarf að setja upp fleiri lykla.

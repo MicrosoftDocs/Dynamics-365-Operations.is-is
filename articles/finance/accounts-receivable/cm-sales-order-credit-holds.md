@@ -1,6 +1,6 @@
 ---
 title: Lán í biðstöðu fyrir sölupantanir
-description: Þessi grein lýsir uppsetningu reglna sem notaðar eru til að setja sölupöntun á inneign.
+description: Þessi grein lýsir uppsetningu reglna sem notaðar eru til að setja sölupöntun í kreditbið.
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8856829"
@@ -23,7 +23,7 @@ ms.locfileid: "8856829"
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þessi grein lýsir uppsetningu reglna sem notaðar eru til að setja sölupöntun á inneign. Reglur um útilokun á lánamálum geta átt við um einstaka viðskiptavini eða hóp viðskiptavina. Reglur um útilokun skilgreina svör við eftirfarandi kringumstæðum:
+Þessi grein lýsir uppsetningu reglna sem notaðar eru til að setja sölupöntun í kreditbið. Reglur um útilokun á lánamálum geta átt við um einstaka viðskiptavini eða hóp viðskiptavina. Reglur um útilokun skilgreina svör við eftirfarandi kringumstæðum:
 
 1. Fjöldi vanskiladaga
 2. Bókhaldsstaða
@@ -33,7 +33,7 @@ ms.locfileid: "8856829"
 6. Upphæð sölupöntunar
 7. Hluti tiltækra lána notaður
 
-Að auki eru tvær færibreytur sem stjórna viðbótaratburðarás sem mun loka fyrir sölupöntun:
+Að auki eru tvær breytur sem stjórna viðbótar atburðarásum sem loka fyrir sölupöntun:
 
 1. Breyting á greiðsluskilmálum
 2. Breyting á uppgjörsafslætti

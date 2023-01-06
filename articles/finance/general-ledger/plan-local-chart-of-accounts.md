@@ -1,6 +1,6 @@
 ---
 title: Skipuleggja staðbundna bókhaldslykla
-description: Þessi grein veitir upplýsingar sem hjálpa þér að skipuleggja reikningaskrána þegar þú hefur kröfur um lögbundnar/staðbundnar kröfur fyrir fyrirtæki þitt.
+description: Þessi grein veitir upplýsingar sem hjálpa til við að skipuleggja bókhaldslykla þegar til staðar eru lagalegar/staðbundnar kröfur fyrir fyrirtækið þitt.
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -21,7 +21,7 @@ ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
 ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/09/2022
 ms.locfileid: "8946246"
@@ -30,7 +30,7 @@ ms.locfileid: "8946246"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar sem hjálpa þér að skipuleggja reikningaskrána þegar fyrirtæki þitt inniheldur lögaðila sem verða að uppfylla kröfur fyrir tiltekin svæði þar sem þeir eiga viðskipti. Þessi grein notar eftirfarandi hugtök til að lýsa reikningsyfirlitum:
+Þessi grein veitir upplýsingar sem hjálpa til við að skipuleggja bókhaldslykla þegar fyrirtækið inniheldur lögaðila sem þurfa að uppfylla kröfur tiltekinna staða þar sem viðskipti eru stunduð. Þessi grein notar eftirfarandi hugtök til að lýsa bókhaldslyklum:
 
 - **Altækt** – Bókhaldslykill sem fyrirtækið notar alþjóðlega. Í flestum tilvikum sameinar þú í þennan bókhaldslykil.
 - **Staðbundið** – Bókhaldslykill sem lögaðilar í tilteknu landi eða svæði notar.
@@ -154,7 +154,7 @@ Staðbundin sameining er sú aðferð sem mælt er með til að uppfylla staðbu
 
 ### <a name="do-external-mapping-to-the-local-chart-of-accounts"></a>Gera utanaðkomandi vörpun í staðbundinn bókhaldslykil
 
-Innleiðing altæks bókhaldslykils gerir ráð fyrir að þú stjórnir vörpun og staðfæringum utan kerfisins. Í þessari nálgun býrðu bara til eina alþjóðlega reikninga í Microsoft Dynamics 365 Fjármagna og annast kröfur utan kerfisins.
+Innleiðing altæks bókhaldslykils gerir ráð fyrir að þú stjórnir vörpun og staðfæringum utan kerfisins. Í þessari aðferð býrðu bara til einn altækan bókhaldslykil í Microsoft Dynamics 365 Finance og meðhöndlar kröfurnar utan kerfisins.
 
 #### <a name="set-up-external-mapping-to-a-local-chart-of-accounts"></a>Setja upp ytri vörpun í staðbundinn bókhaldslykil
 

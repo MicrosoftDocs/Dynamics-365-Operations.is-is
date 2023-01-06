@@ -1,6 +1,6 @@
 ---
 title: Setja upp VSK-kóða
-description: Þessi grein útskýrir hvernig á að setja upp VSK-kóða í Dynamics 365 Finance.
+description: Í þessu efnisatriði er útskýrt hvernig á að setja upp virðisaukaskatt í Dynamics 365 Finance.
 author: twheeloc
 ms.date: 09/27/2021
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b12133583f40cc17cb85f6dbd86697592af25caf
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8858469"
@@ -24,7 +24,7 @@ ms.locfileid: "8858469"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp söluskattskóða. Vsk-kóða eru stofnaðar fyrir hvert óbeint skattur eða gjald sem lögaðili er skylt að reikna, innheimta og greiða til skattyfirvalda.
+Í þessari grein er útskýrt hvernig á að setja upp virðisaukaskattskóða. Vsk-kóða eru stofnaðar fyrir hvert óbeint skattur eða gjald sem lögaðili er skylt að reikna, innheimta og greiða til skattyfirvalda.
 
 Þetta verkefni notar USMF-sýnifyrirtækið.
 
@@ -45,7 +45,7 @@ ms.locfileid: "8858469"
 12. Lokið síðunni.
 13. Veldu **Vista**.
 
-Frá Microsoft Dynamics 365 Finance útgáfa 10.0.22, ef þú ert að nota [Skattaþjónusta](../../localizations/global-tax-calcuation-service-overview.md), og [**Styðja mörg VSK skráningarnúmer**](../../localizations/emea-multiple-vat-registration-numbers.md) eiginleiki er virkjaður í **Eiginleikastjórnun** vinnusvæði, sem þú getur notað **Tegund skatts** reit til að tilgreina tegund skattkóða. Eftirtalin gildi eru tiltæk:
+Frá og með útgáfu 10.0.22 af Microsoft Dynamics 365 Finance, ef þú ert að nota [Skattþjónustu](../../localizations/global-tax-calcuation-service-overview.md), og eiginleikinn [**Styðja mörg VSK-skráningarnúmer**](../../localizations/emea-multiple-vat-registration-numbers.md) er virkjaður á vinnusvæði **Eiginleikastjórnunar**, getur þú notað reitinn **Skattagerð** til að tilgreina gerð skattkóðans. Eftirtalin gildi eru tiltæk:
 
 - Hefðbundinn VSK-skattur
 - Skertur virðisaukaskattur

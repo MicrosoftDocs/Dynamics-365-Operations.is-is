@@ -1,6 +1,6 @@
 ---
 title: Útreikningur fastakostnaðar
-description: Þessi grein lýsir dæmigerðum ferlum til að reikna út og úthluta kostnaðarkostnaði.
+description: Þessi grein lýsir dæmigerðum ferlum til að reikna út og úthluta rekstrarkostnaði.
 author: AndersGirke
 ms.date: 10/04/2018
 ms.topic: article
@@ -18,7 +18,7 @@ ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 9322fb5237afdbf73147bb549eb3f70929c46ce2
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8881992"
@@ -27,7 +27,7 @@ ms.locfileid: "8881992"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir dæmigerðum ferlum til að reikna út og úthluta kostnaðarkostnaði.
+Þessi grein lýsir dæmigerðum ferlum til að reikna út og úthluta rekstrarkostnaði.
 
 ## <a name="term-definition"></a>Skýrsluskilgreining
 
@@ -1336,7 +1336,7 @@ Fastur kostnaður | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1
 Breytilegur kostnaður | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30.00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
-> Þessi grein sýnir hvernig frumkostnaðarþáttur, 10001 Rafmagn, flæðir í gegnum kostnaðarhlutina. Þar af leiðandi er þessum sameiginlega kostnaði úthlutað á lægsta stigið í fyrirtækinu. Með öðrum orðum bera kostnaðarhlutir á lægsta stiginu kostnaðinn. Ef þú þarft sjónrænt flæði kostnaðar á milli kostnaðarhluta er hægt að nota stefnureglur samantekins kostnaðar til að gera kostnaðarflæðið sýnilegt. Fyrir frekari upplýsingar skal sjá [Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar](cost-rollup.md).
+> Þessi grein sýnir hvernig fyrir aðalkostnaðareiningin 10001 Rafmagn flæðir í gegnum kostnaðarhluti. Þar af leiðandi er þessum sameiginlega kostnaði úthlutað á lægsta stigið í fyrirtækinu. Með öðrum orðum bera kostnaðarhlutir á lægsta stiginu kostnaðinn. Ef þú þarft sjónrænt flæði kostnaðar á milli kostnaðarhluta er hægt að nota stefnureglur samantekins kostnaðar til að gera kostnaðarflæðið sýnilegt. Fyrir frekari upplýsingar skal sjá [Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar](cost-rollup.md).
 
 
 

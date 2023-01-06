@@ -1,6 +1,6 @@
 ---
-title: Skipting viðskiptavina á innheimtuáætlunum
-description: Þessi grein lýsir því hvernig á að skipta viðskiptavini þegar áskriftarreikningur er notaður.
+title: Skipting viðskiptavinar á greiðsluáætlunum
+description: Þessi grein lýsir því hvernig á að skipta viðskiptavini þegar áskriftargreiðsla er notuð.
 author: JodiChristiansen
 ms.date: 11/04/2022
 ms.topic: article
@@ -17,47 +17,47 @@ ms.search.validFrom: 2022-11-05
 ms.dyn365.ops.version: 10.0.31
 ms.openlocfilehash: cfbe61ca4b7e809a8183f4622bf6db4fc83a4d83
 ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/04/2022
 ms.locfileid: "9746332"
 ---
-# <a name="customer-split-on-billing-schedules"></a>Skipting viðskiptavina á innheimtuáætlunum
+# <a name="customer-split-on-billing-schedules"></a>Skipting viðskiptavinar á greiðsluáætlunum
 
-Á innheimtuáætlun, sem *reikningsreikning* er viðskiptavinurinn sem fær sölupöntunarreikninginn svo hann geti greitt reikninginn. Í sumum tilfellum geta fleiri en einn viðskiptavinur greitt reikning. The **Viðskiptavinaskipting** virkni gerir þér kleift að bæta við fleiri viðskiptavinum sem hægt er að rukka fyrir sömu innheimtuáætlun. Til að virkja þessa virkni skaltu fara á **Innheimta áskriftar \> Endurtekinn samningsreikningur \> Uppsetning \> Endurteknar innheimtufæribreytur samnings**, og stilltu **Viðskiptavinaskipting** valmöguleika til **Já**.
+Á greiðsluáætlun er *reikningslykill* viðskiptavinurinn sem fær sölupöntunarreikninginn svo hann geti greitt reikninginn. Í sumum tilvikum geta fleiri en einn viðskiptavinur greitt reikning. Virknin **Skipting viðskiptavinar** gerir þér kleift að bæta við fleiri viðskiptavinum sem hægt er að skuldfæra fyrir sömu greiðsluáætlun. Til að virkja þessa virkni skaltu fara í **Áskriftargreiðslur \> Endurteknar samningsgreiðslur \> Uppsetning \> Færibreytur fyrir endurteknar samningsgreiðslur** og stilla valkostinn **Skipting viðskiptavinar** á **Já**.
 
-## <a name="customer-split-on-the-billing-schedule-header"></a>Viðskiptavinaskipting á haus innheimtuáætlunar
+## <a name="customer-split-on-the-billing-schedule-header"></a>Skipting viðskiptavinar á haus greiðsluáætlunar
 
-Eftir að innheimtuáætlun er búin til er hægt að bæta fleiri viðskiptavinum við haus innheimtuáætlunar.
+Eftir að greiðsluáætlun hefur verið útbúin er hægt að bæta fleiri viðskiptavinum við haus hennar.
 
-Til að bæta við viðskiptavini skaltu fylgja þessum skrefum.
+Til að bæta við viðskiptavini skal fylgja þessum skrefum.
 
-1. Á **Innheimtuáætlun** flipa, veldu **Viðskiptavinaskipting**. The **Viðskiptavinareikningur** og **Nafn viðskiptavinarreiknings** reitirnir efst tilgreina viðskiptavininn sem er úthlutað sem **Viðskiptavinur innheimtuáætlunar**.
+1. Á flipanum **Greiðsluáætlun** veljið **Skipting viðskiptavinar**. Reitirnir **Reikningur viðskiptavinar** og **Heiti reiknings viðskiptavinar** efst tilgreina viðskiptavininn sem er tengdur sem **Viðskiptavinur greiðsluáætlunar**.
 
     > [!NOTE]
-    > Viðskiptavinareikningurinn sem þú bætir við getur ekki verið sá sami og reikningsreikningurinn.
+    > Viðskiptavinareikningurinn sem þú bætir við má ekki vera sá sami og reikningurinn.
 
-2. Á **Skiptar línur viðskiptavina** flipa, veldu **Bæta við línu**.
-3. Veldu viðskiptavin og sláðu síðan inn prósentu hvers reiknings fyrir þann viðskiptavin.
-4. Sjálfgefið er að upphafs- og lokadagsetningar innheimtuáætlunarinnar eru notaðar sem upphafs- og lokadagsetningar. Sláðu inn mismunandi upphafs- og lokadagsetningar ef nýi viðskiptavinurinn mun greiða tilgreinda prósentu fyrir aðeins hluta af innheimtuáætluninni. Til dæmis, ef innheimtuáætlunin er með upphafsdagsetningu 1. janúar og lokadagsetningu 31. desember, og nýi viðskiptavinurinn er rukkaður um 40 prósent fyrir fyrstu níu mánuðina, skal tilgreina 1. janúar sem upphafsdag og 30. september sem lokadagsetningu, og sláðu inn **40.00** sem hlutfall.
+2. Á flipanum **Skiptar línur viðskiptavinar** velurðu **Bæta við línu**.
+3. Veljið viðskiptavin og færið síðan inn prósentuhlutfall hvers reiknings fyrir þann viðskiptavin.
+4. Sjálfgefið er að upphafs- og lokadagsetningar greiðsluáætlunarinnar séu notaðar sem upphafs- og lokadagsetningar. Sláðu inn aðra upphafs- og lokadagsetningu ef nýi viðskiptavinurinn mun greiða tilgreinda prósentu fyrir aðeins hluta af greiðsluáætluninni. Ef greiðsluáætlunin er til dæmis með upphafsdagsetninguna 1. janúar og lokadagsetninguna 31. desember og nýi viðskiptavinurinn er rukkaður um 40 prósent fyrstu níu mánuðina skal tilgreina 1. janúar sem upphafsdagsetninguna og 30. september sem lokadagsetninguna og færa inn **40,00** sem prósentuhlutfallið.
 
-Hægt er að bæta fleiri en einum viðskiptamanni við skiptingarlínur viðskiptavinar. Í þessu tilviki má heildarhlutfallið sem er slegið inn ekki fara yfir 100 prósent. Færið inn tilvísun viðskiptavinar og beiðni viðskiptavinar sem upplýsingareitir sem verða sýndir á sölupöntunarlínunni á meðan **Búðu til reikning** ferli.
+Hægt er að bæta fleiri en einum viðskiptavini við skiptilínur viðskiptavina. Í því tilviki má heildarhlutfallið sem slegið er inn ekki fara yfir 100 prósent. Sláðu inn tilvísun viðskiptavinar og staðfestingu viðskiptavinar sem upplýsingasvæði sem verða sýnd í sölupöntunarlínunni meðan á ferlinu **Búa til reikning** stendur.
 
-Línuupplýsingarnar munu sýna tengiliðaupplýsingar, afhendingarfang, heimilisfang reiknings og greiðsluupplýsingar þeirra viðskiptavina sem bætt var við. Þessar upplýsingar verða einnig sýndar á sölupöntun fyrir viðskiptavini.
+Upplýsingar um línuna sýna samskiptaupplýsingar, afhendingaraðsetur, reikningsaðsetur og greiðsluupplýsingar þeirra viðskiptavina sem bætt hefur verið við. Þessar upplýsingar birtast einnig á sölupöntuninni fyrir viðskiptavinina.
 
-Þegar þú bætir upplýsingum um skiptingu viðskiptavina við haus innheimtuáætlunar, ef það eru óinnheimtar línur innheimtuáætlunar á innheimtuáætluninni, færðu eftirfarandi skilaboð sem biðja þig um að rúlla niður breytingarnar: "Viltu færa breytinguna niður frá kl. hausinn á línurnar? Breytingar munu aðeins uppfæra innheimtuáætlunarlínur sem ekki eru innheimtar." Veldu **Já** til að uppfæra upplýsingar um skiptingu viðskiptavinar á innheimtuáætlunarlínunni. Breytingar verða ekki uppfærðar ef innheimtuáætlunarlínan hefur þegar verið innheimt.
+Ef óútfylltar línur eru á greiðsluáætlun þegar upplýsingum um skiptingu viðskiptavina er bætt við haus greiðsluáætlunarinnar birtast eftirfarandi skilaboð varðandi hvort rúlla eigin breytingum niður: „Á að útfæra breytingar frá haus til lína? Breytingar uppfæra aðeins greiðsluáætlunarlínur sem ekki eru skuldfærðar.“ Veljið **Já** til að uppfæra upplýsingar um skiptingu viðskiptavina á greiðsluáætlunarlínunni. Breytingar verða ekki uppfærðar ef greiðsluáætlunarlínan hefur þegar verið skuldfærð.
 
-Ef innheimtuáætlun er búin til með því að nota **Afrita áætlun** valmöguleika, sjálfgefnar upplýsingar verða færðar inn á skiptar hauslínur viðskiptavina. Það getur ekki verið það sama og viðskiptavinareikningurinn.
+Ef greiðsluáætlun er búin til með því að nota valkostinn **Afrita áætlun** verða sjálfgefnar upplýsingar færðar inn á skiptar haustlínur viðskiptavinar. Það má ekki vera það sama og viðskiptavinalykill.
 
-Þegar **Búðu til reikning** ferli er lokið verða margar sölupantanir búnar til. (Margir sölureikningar verða einnig búnir til ef sjálfvirk bókun er notuð.) Þessar sölupantanir og sölureikninga er hægt að skoða á **Reikningur** flipann á **Upplýsingar um línu** Flýtiflipi á **Skoða innheimtuupplýsingar** síðu. **Margfeldi** er sýnt á línu innheimtuupplýsinga til að gefa til kynna að margar sölupantanir og sölureikningar hafi verið búnar til.
+Þegar ferlinu **Búa til reikning** er lokið eru margar sölupantanir stofnaðar. (Fjölmargir sölureikningar verða einnig til ef notast er við sjálfvirka bókun.) Hægt er að skoða þessar sölupantanir og sölureikninga á flipanum **Reikningur** á flýtiflipanum **Upplýsingar um línu** á síðunni **Skoða greiðsluupplýsingar**. **Margar** birtist á reikningsupplýsingalínunni til að gefa til kynna að margar sölupantanir og sölureikningar hafi verið stofnaðir.
 
-## <a name="customer-split-on-billing-schedule-lines"></a>Skipting viðskiptavina á línum innheimtuáætlunar
+## <a name="customer-split-on-billing-schedule-lines"></a>Skipting viðskiptavinar á greiðsluáætlunarlínum
 
-Hægt er að bæta viðskiptamannaskiptingunni við einstakar innheimtuáætlunarlínur ef þú vilt skipta aðeins ákveðnum innheimtuáætlunarlínum. Veldu **Viðskiptavinaskipting** gátreitinn á línunni og veldu síðan **Viðskiptavinaskipting** á valmyndinni fyrir innheimtuáætlunarlínuna til að uppfæra eða slá inn upplýsingar um skiptingu viðskiptavinar.
+Hægt er að bæta skiptingu viðskiptavina við einstakar greiðsluáætlunarlínur ef aðeins á að skipta tilteknum línum í greiðsluáætlun. Veljið gátreitinn **Skipting viðskiptavinar** á línunni og veljið síðan **Skipting viðskiptavinar** í valmyndinni fyrir greiðsluáætlunarlínuna til að uppfæra eða slá inn upplýsingar um skiptingu viðskiptavinar.
 
-Endurskoðunarupplýsingarnar eru uppfærðar ef innheimtuáætlun hefur þegar verið innheimt, en þá var hlutfallinu breytt á innheimtuáætlunarlínunni. Allar línur sem eru innheimtar eftir þá breytingu munu nota nýja prósentuna.
+Endurskoðunarupplýsingarnar eru uppfærðar ef greiðsluáætlunin hefur þegar verið skuldfærð, en þá var prósentunni breytt á greiðsluáætlunarlínunni. Allar línur sem eru reikningsfærðar eftir þá breytingu munu nota nýju prósentuna.
 
 > [!NOTE]
-> - Ekki er hægt að nota valkostinn fyrir skiptingu viðskiptavina með vörum á lager.
-> - Ef **Óinnheimtar tekjur** gátreiturinn er valinn, the **Viðskiptavinaskipting** Ekki er hægt að velja gátreitinn.
-> - Ef þú notar **Tekjuskipting eingöngu** valkostur, móðurlínan hefur **Viðskiptavinaskipting** valmöguleika, en undirlínuatriðin gera það ekki.
+> - Ekki er hægt að nota valkost fyrir skiptingu viðskiptavina fyrir vörur á lager.
+> - Ef gátreiturinn **Óreikningsfærðar tekjur** er valinn er ekki hægt að velja gátreitinn **Skipting viðskiptavinar**.
+> - Ef þú notar **Aðeins tekjuskiptingu** hefur yfirlínan valkostinn **Skipting viðskiptavinar** en undirlínan ekki.

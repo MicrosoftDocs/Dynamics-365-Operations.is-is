@@ -1,6 +1,6 @@
 ---
 title: Vinnusvæði fyrir sjálfvirkni reiknings lánardrottins
-description: Þessi grein útskýrir hvernig á að setja upp vinnusvæðið sem tengist reikningum lánardrottins og sem sýnir upplýsingarnar sem eru tiltækar í gegnum Microsoft Power BI.
+description: Þessi grein útskýrir hvernig á að setja upp vinnusvæðið sem tengist reikningum lánardrottna og sýnir upplýsingarnar sem eru í boði í gegnum Microsoft Power BI.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 2b74731a3283badad941e567e85f8a1644f6ad18
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8865802"
@@ -26,7 +26,7 @@ ms.locfileid: "8865802"
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp vinnusvæðið sem tengist reikningum lánardrottins og sem sýnir upplýsingarnar sem eru tiltækar í gegnum Microsoft Power BI. Upplýsingar um reikning lánardrottins á þessu vinnusvæði eru afmarkaðar fyrir tiltekna notendur og eru sýndar á myndrænu sniði.
+Þessi grein útskýrir hvernig á að setja upp vinnusvæðið sem tengist reikningum lánardrottna og sýnir upplýsingarnar sem eru í boði í gegnum Microsoft Power BI. Upplýsingar um reikning lánardrottins á þessu vinnusvæði eru afmarkaðar fyrir tiltekna notendur og eru sýndar á myndrænu sniði.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -65,9 +65,9 @@ Reitirnir í hlutanum **Samantekt yfir reikninga í bið** í yfirlitinu **Mín 
 - **Reikningar ekki sendir í verkflæði**
 - **Reikningar ekki fluttir inn**
 
-(Þessar fjórar flísar krefjast þess að kveikt sé á sjálfvirkni eiginleikum reiknings lánardrottins **Eiginleikastjórnun** .)
+(Þessir fjórir reitir krefjast þess að kveikt sé á sjálfvirknieiginleiki lánardrottnareiknings í **Eiginleikastjórnun**.)
 
-Til að nota **Endurheimta reikninga seljanda** flísar verður að kveikja á eiginleikanum í **Færibreytur viðskiptaskulda**. Farið í **Viðskiptaskuldir \> Færibreytur viðskiptaskulda** og síðan, í flipanum **Reikningur**, skal stilla valkostinn **Leyfa endurheimt á reikningum lánardrottna** á **Já**.
+Til að nota reitinn **Endurheimta reikninga lánardrottna** þarf að vera kveikt á eiginleikanum í **Færibreytur viðskiptaskulda**. Farið í **Viðskiptaskuldir \> Færibreytur viðskiptaskulda** og síðan, í flipanum **Reikningur**, skal stilla valkostinn **Leyfa endurheimt á reikningum lánardrottna** á **Já**.
 
 Þegar kveikt er á eiginleikanum sjást einnig þrír reitir saman á vinnusvæðinu í hluta sem kallast **Færslubækur**. Reitirnir kallast **Færslubækur**, **Færslubækur – Úthlutað til þín** og **Reikningasafn**. 
 

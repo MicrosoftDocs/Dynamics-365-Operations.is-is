@@ -1,6 +1,6 @@
 ---
-title: Stillingar fyrir fjármálainnsýn - útgáfa 10.0.20 og nýrri
-description: Þessi grein útskýrir hvernig á að stilla kerfið þitt til að nota þá möguleika sem eru tiltækir í Finance Insights í útgáfu 10.0.20 og síðar.
+title: Stilling Finance Insights - útgáfa 10.0.20 og nýrri
+description: Í þessari grein er útskýrt hvernig á að stilla kerfið þitt til að nota möguleikana sem eru tiltækir í Finance Insights fyrir opna forútgáfu í útgáfu 10.0.20 og nýrri.
 author: ShivamPandey-msft
 ms.date: 06/16/2021
 ms.topic: article
@@ -18,29 +18,29 @@ ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
 ms.openlocfilehash: d05403113c9b178553134ce1a9066bb2acf59b0f
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9068106"
 ---
-# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Stillingar fyrir fjármálainnsýn - útgáfa 10.0.20 og nýrri
+# <a name="configuration-for-finance-insights---version-10020-and-later"></a>Stilling Finance Insights - útgáfa 10.0.20 og nýrri
 
 [!include [banner](../includes/banner.md)]
 
 
 
-Fjármálainnsýn sameinar virkni frá Microsoft Dynamics 365 Fjármál með Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtæki þitt. Þessi grein útskýrir hvernig á að stilla Dynamics 365 Finance útgáfu 10.0.20 þannig að kerfið þitt geti notað þá möguleika sem eru tiltækir í Finance Insights.
+Finance Insights sameinar virkni Microsoft Dynamics 365 Finance við Dataverse, Azure og AI Builder til að bjóða upp á öflug spáverkfæri fyrir fyrirtækið. Í þessu efnisatriði er útskýrt hvernig á að stilla Dynamics 365 Finance útgáfu 10.0.20 þannig að kerfið þitt geti notað möguleikana sem eru tiltækir í Finance Insights.
 
 > [!NOTE]
-> Stillingarskrefin sem lýst er í þessari grein eiga aðeins við um Finance útgáfu 10.0.20 og nýrri. Til að setja upp fjármálainnsýn á útgáfu 10.0.19 og eldri skal sjá [Stilling fjármálainnsýnar - útgáfur fram að 10.0.19](configure-for-fin-insites.md).
+> Skrefum skilgreiningarinnar sem lýst í þessari grein eiga aðeins við um útgáfu 10.0.20 og nýrri af Finance. Til að setja upp fjármálainnsýn á útgáfu 10.0.19 og eldri skal sjá [Stilling fjármálainnsýnar - útgáfur fram að 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Uppsetning Finance
 
 Fylgja skal eftirfarandi skrefum til að setja upp umhverfin.
 
-1. Í Microsoft Dynamics Lifecycle Services (LCS) skal stofna eða uppfæra Finance-umhverfi. Umhverfið krefst forritaútgáfu 10.0.20 eða nýrra af fjármála- og rekstrarforritum.
+1. Í Microsoft Dynamics Lifecycle Services (LCS) skal stofna eða uppfæra Finance-umhverfi. Umhverfið krefst forritsútgáfu 10.0.20 eða nýrri af forritum fjármála- og reksturs.
 2. Umhverfið verður að vera vel tiltækt í Sandbox. (Þessi tegund umhverfis er einnig þekkt sem umhverfi í tveggja laga umhverfi.) Frekari upplýsingar er að finna í [Umhverfisskipulagning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
-3. Ef þú ert að stilla fjármálainnsýn í sandkassaumhverfi gætirðu þurft að afrita framleiðslugögn í það umhverfi til að spár virki. Spálíkanið notar gögn til margra ára til að búa til spár. Contoso kynningargögnin innihalda ekki nógu mörg söguleg gögn til að þjálfa spálíkanið á fullnægjandi hátt. 
+3. Ef þú ert að stilla fjármálainnsýn í sandkassaumhverfi gætirðu þurft að afrita framleiðslugögn í það umhverfi til að spár virki. Spálíkanið notar gögn til margra ára til að búa til spár. Contoso sýnigögnin innihalda ekki næg söguleg gögn til að hægt sé að þjálfa spálíkanið á fullnægjandi hátt. 
 
 ## <a name="configure-dataverse"></a>Skilgreina Dataverse
 
@@ -94,7 +94,7 @@ Fylgið þessum skrefum til að nota forskrift Windows PowerShell til að stilla
     |------------------------------------------|--------------------------------------|
     | Microsoft Dynamics ERP Microservices     | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
     | Microsoft Dynamics ERP Microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    | AI Builder Leyfisþjónusta         | ad40333e-9910-4b61-b281-e3aeeb8c3ef3 |
+    | AI Builder Heimildaþjónusta         | ad40333e-9910-4b61-b281-e3aeeb8c3ef3 |
 
 Ef ekki eitthvað af undanfarandi forritum finnst ekki skal prófa eftirfarandi skref.
 
@@ -126,7 +126,7 @@ Ef ekki eitthvað af undanfarandi forritum finnst ekki skal prófa eftirfarandi 
         - **Afköst** – mælt er með **Hefðbundin**.
         - **Reikningsgerð** – velja þarf **StorageV2**.
 
-    3. Í svarglugganum **Ítarlegir valkostir**, fyrir **Data Lake Storage Gen2**, skal velja **Virkja** undir **Stigveldis nafnabil**. Ef þú virkjar ekki þennan eiginleika geturðu ekki neytt gagna sem fjármála- og rekstrarforrit skrifa með því að nota þjónustu eins og Power BI gagnaflæði.
+    3. Í svarglugganum **Ítarlegir valkostir**, fyrir **Data Lake Storage Gen2**, skal velja **Virkja** undir **Stigveldis nafnabil**. Ef þessi eiginleiki er ekki gerður virkur er ekki hægt að nota gögn sem forrit fjármála- og reksturs skrifa með þjónustu á borð við Power BI-gagnaflæði.
     4. Veljið **yfirfara og búa til**. Þegar uppsetningu er lokið sést nýja tilfangið til staðar á Azure-gáttinni.
     5. Opnaðu geymslureikninginn sem þú stofnaðir.
     6. Á valmyndinni til vinstri skal velja **Aðgangslyklar**.
@@ -214,7 +214,7 @@ Ef ekki eitthvað af undanfarandi forritum finnst ekki skal prófa eftirfarandi 
         | Birtingarheiti nýja forritsins sem var búið til | Framlagsveitandi                 |
         | Birtingarheiti nýja forritsins sem var búið til | Geymslureikningsþátttakandi |
         | Birtingarheiti nýja forritsins sem var búið til | Eigandi Blob-gagna í geymslu     |
-        | **AI Builder Leyfisþjónusta**                     | Lesari Blob-gagna í geymslu    |
+        | **AI Builder Heimildaþjónusta**                     | Lesari Blob-gagna í geymslu    |
 
 # <a name="azure-cli"></a>[Azure CLI](#tab/azure-azure-cli)
 
@@ -752,7 +752,7 @@ Fylgið þessum skrefum til að setja upp innbót fjármálainnsýnar.
 
 ## <a name="feedback-and-support"></a>Ábendingar og stuðningur
 
-Ef þú hefur áhuga á að veita endurgjöf, eða ef þú þarft aðstoð, sendu tölvupóst á [Innsýn í fjármálum](mailto:fiap@microsoft.com).
+Ef þú vilt koma ábendingu á framfæri eða þarft aðstoð skaltu senda tölvupóst á [Finance Insights](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

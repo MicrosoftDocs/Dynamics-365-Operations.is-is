@@ -1,6 +1,6 @@
 ---
 title: Hanna snið rafrænnar skýrslugerðar til að búa til skýrslu á Excel-sniði með myndum sem eru felldar inn í síðuhausa eða -fætur
-description: Þessi grein útskýrir hvernig á að nota rafræna skýrslugerð (ER) til að búa til viðskiptaskjöl sem hafa myndir og form innbyggðar í síðuhausa eða -fætur.
+description: Í þessari grein er útskýrt hvernig á að nota rafræna skýrslugerð (ER) til að búa til viðskiptaskjöl sem eru með myndum og formum sem eru felld inn í síðuhausa eða síðufætur á síðum.
 author: kfend
 ms.date: 08/11/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: EROperationDesigner, ERParameters
 ms.openlocfilehash: 5b46d92094bb3f2dab67a5cb2f0e1a34b05d52f0
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9281813"
@@ -26,14 +26,14 @@ ms.locfileid: "9281813"
 
 [!include[banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig notandi í hlutverki kerfisstjóra eða rafrænnar skýrslugerðar ráðgjafa getur framkvæmt þessi verkefni:
+Í þessari grein er útskýrt hvernig notandi í hlutverki kerfisstjóra eða í hagnýtu ráðgjafahlutverki rafrænnar skýrslugerðar getur framkvæmt þessi verk:
 
 - Skilgreinið færibreytur fyrir ramma [Rafrænnar skýrslugerðar](general-electronic-reporting.md).
 - Flytja inn [skilgreiningar](general-electronic-reporting.md#Configuration) ER sem Microsoft [býður upp á](general-electronic-reporting.md#Provider) og eru notaðar til að búa til [reikninga með frjálsum texta](../../../finance/accounts-receivable/create-free-text-invoice-new.md) samkvæmt [sniðmáti](er-fillable-excel.md#excel-file-component) á Microsoft Excel sniði.
 - Búið til [sérsniðna (afleidda)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) útgáfu af staðlaðri skilgreiningu rafræns skýrslugerðarsniðs sem Microsoft býður upp á.
 - Breytið sérstilltri skilgreiningu ER-sniðs þannig að hún myndi skýrslu um reikning með frjálsum texta sem er með mynd af fyrirtækislógói í síðufætinum.
 
-Verklagsreglurnar í þessari grein er hægt að ljúka í **USMF** fyrirtæki. Ekki er þörf á neinni kóðun. Áður en hafist er handa skal sækja og vista eftirfarandi skrá.
+Hægt er að ljúka ferlunum í þessari grein í fyrirtækinu **USMF**. Ekki er þörf á neinni kóðun. Áður en hafist er handa skal sækja og vista eftirfarandi skrá.
 
 | lýsing        | Skrárnafn |
 |--------------------|-----------|
@@ -132,7 +132,7 @@ Nánari upplýsingar um skilgreiningarveitur rafrænnar skýrslugerðar er að f
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat"></a>Flytja inn staðlaðar skilgreiningar rafrænnar skýrslugerðar
 
-Til að bæta stöðluðum ER stillingum við núverandi tilvik þitt af Dynamics 365 Finance, verður þú að flytja þær inn úr ER [geymsla](general-electronic-reporting.md#Repository) sem var stillt fyrir það tilvik.
+Til að bæta stöðluðum skilgreiningum rafrænnar skýrslugerðar við núverandi tilvik af Dynamics 365 Finance, þarf að flytja þær inn úr [gagnageymslu](general-electronic-reporting.md#Repository) rafrænnar skýrslugerðar sem var skilgreind fyrir það tilvik.
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
 2. Á síðunni **Skilgreiningar þýðingar**, í hlutanum **Skilgreiningarveitur**, skal velja reitinn **Microsoft** og síðan velja **Gagnageymslur** til að skoða lista yfir gagnageymslur fyrir **Microsoft** veituna.
@@ -153,9 +153,9 @@ Til að bæta stöðluðum ER stillingum við núverandi tilvik þitt af Dynamic
 3. Á síðunni **Skilgreiningar**, í skilgreiningatrénu á svæðinu til vinstri, skal stækka **Reikningslíkan**.
 4. Til viðbótar við valið ER-snið **Reiknings með frjálsum texta (Excel)** voru aðrar áskildar skilgreiningar rafrænnar skýrslugerðar fluttar inn. Gangið úr skugga um að eftirfarandi skilgreiningar rafrænnar skýrslugerðar séu í boði í skilgreiningartrénu:
 
-    - **Reikningslíkan** – Þessi uppsetning inniheldur gagnalíkanið ER hluti sem táknar gagnaskipulag reikningsviðskiptaléns.
-    - **Kortlagning reikningslíkana** – Þessi uppsetning inniheldur líkanakortlagningu ER íhlutinn sem lýsir því hvernig gagnalíkanið er fyllt út með forritsgögnum á keyrslutíma.
-    - **Ókeypis textareikningur (Excel)** – Þessi uppsetning inniheldur snið- og sniðkortlagningu ER hluti. Sniðshlutinn tilgreinir útlit skýrslunnar út frá sniðmáti á Excel-sniði. Sniðsvörpunarhlutinn inniheldur gagnagjafa líkansins og tilgreinir hvernig þessi gagnagjafi er notaður til að fylla út skýrsluútlitið á keyrslutíma.
+    - **Reikningslíkan** – Þessi skilgreining inniheldur hlutann gagnalíkan í rafrænni skýrslugerð sem táknar gagnaskipulag fyrir viðskiptalén reikningsfærslna.
+    - **Vörpun reikningslíkans** – Þessi skilgreining inniheldur hlutann líkanavörpun fyrir rafræna skýrslugerð sem lýsir því hvernig gagnalíkanið er fyllt út með forritsgögnum við keyrslu.
+    - **Reikningur með frjálsum texta (Excel)** – Þessi skilgreining inniheldur hlutann snið og sniðsvörpun í rafrænni skýrslugerð. Sniðshlutinn tilgreinir útlit skýrslunnar út frá sniðmáti á Excel-sniði. Sniðsvörpunarhlutinn inniheldur gagnagjafa líkansins og tilgreinir hvernig þessi gagnagjafi er notaður til að fylla út skýrsluútlitið á keyrslutíma.
 
 ![Innfluttar ER grunnstillingar á skilgreiningasíðunni.](./media/er-embed-images-header-footer-excel-reports-imported-solution.png)
 
@@ -196,7 +196,7 @@ Til að bæta stöðluðum ER stillingum við núverandi tilvik þitt af Dynamic
 
 ![Skilgreining stofnuð fyrir sérstillt greiðslusnið í fellilista svargluggans Stofna skilgreiningu.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
-Útgáfa 240.112.1 af skilgreiningu **Reiknings með frjálsum texta (Excel)** fyrir ER-snið er stofnuð. Þessi útgáfa hefur stöðuna **Drög** og er hægt að breyta. Núverandi efni af sérstilltu sniði rafrænnar skýrslugerðar samsvarar efni sniðsins sem Microsoft býður upp á.
+Útgáfa 240.112.1 af skilgreiningu **Reiknings með frjálsum texta (Excel)** fyrir ER-snið er stofnuð. Þessi útgáfa er með stöðuna **Drög** og er hægt að breyta. Núverandi efni af sérstilltu sniði rafrænnar skýrslugerðar samsvarar efni sniðsins sem Microsoft býður upp á.
 
 ![Ný útgáfa af skilgreiningu ER-sniðs stofnuð á skilgreiningasíðunni.](./media/er-embed-images-header-footer-excel-reports-derived-format-configuration1.png)
 
@@ -244,7 +244,7 @@ Skilgreina sérstillt snið þannig að mynd af merki fyrirtækis sé sett í s�
 
 ### <a name="mark-the-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Merkja sérstillt snið sem keyranlegt
 
-Þar sem fyrsta útgáfa af sérstilltu sniði hefur verið stofnuð og er með stöðuna **Drög** er hægt að prufukeyra sniðið. Til að keyra skýrsluna skal vinna úr greiðslu lánardrottins með því að nota greiðslumátann sem vísar til sérstillts sniðs rafrænnar skýrslugerðar. Sjálfgefið er, þegar þú hringir í ER snið úr forritinu, aðeins útgáfur sem hafa stöðuna **Lokið** eða **Deilt** koma til greina. Þessi leið hjálpar til við að koma í veg fyrir að snið rafrænnar skýrslugerðar með ókláraðri hönnun verði notuð. Fyrir prufukeyrslur er hinsvegar hægt að þvinga forritið til að nota sniðsútgáfu rafrænnar skýrslugerðar sem er með stöðuna **Drög**. Á þennan hátt er hægt að leiðrétta núverandi sniðsútgáfu ef gera þarf einhverjar breytingar. Frekari upplýsingar er að finna í [Nothæfni](electronic-reporting-destinations.md#applicability).
+Þar sem fyrsta útgáfa af sérstilltu sniði hefur verið stofnuð og er með stöðuna **Drög** er hægt að prufukeyra sniðið. Til að keyra skýrsluna skal vinna úr greiðslu lánardrottins með því að nota greiðslumátann sem vísar til sérstillts sniðs rafrænnar skýrslugerðar. Sjálfgefið er að þegar kallað er á snið rafrænnar skýrslugerðar úr forritinu, eru aðeins útgáfur sem eru með stöðuna **Lokið** eða **Samnýtt** teknar til greina. Þessi leið hjálpar til við að koma í veg fyrir að snið rafrænnar skýrslugerðar með ókláraðri hönnun verði notuð. Fyrir prufukeyrslur er hinsvegar hægt að þvinga forritið til að nota sniðsútgáfu rafrænnar skýrslugerðar sem er með stöðuna **Drög**. Á þennan hátt er hægt að leiðrétta núverandi sniðsútgáfu ef gera þarf einhverjar breytingar. Frekari upplýsingar er að finna í [Nothæfni](electronic-reporting-destinations.md#applicability).
 
 Til að nota útgáfudrög af sniði rafrænnar skýrslugerðar þarf sérstaklega að merkja rafræna skýrslugerðarsniðið.
 

@@ -1,6 +1,6 @@
 ---
 title: Afskriftir fyrir 125% bókfært virði
-description: Þessi grein sýnir yfirlit yfir 125 prósent minnkandi jafnvægisaðferð við afskriftir.
+description: Í þessari grein er yfirlit yfir afskriftaraðferðina 125 prósent bókfært virði.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d197ae75ded6033aeeeb87b041ee3e9e3c6b3a0d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8856684"
@@ -26,7 +26,7 @@ ms.locfileid: "8856684"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein sýnir yfirlit yfir 125 prósent minnkandi jafnvægisaðferð við afskriftir.
+Í þessari grein er yfirlit yfir afskriftaraðferðina 125 prósent bókfært virði.
 
 Þegar afskriftaregla fyrir eignir er sett upp og valið er **125% bókfært virði** í skjámyndinni **Aðferð** á síðunni **Afskriftarreglur** eru eignir sem eru tengdar þessari afskriftareglu, afskrifaðar með sama hlutfall af hundraði á hverju afskriftatímabili. Þessi prósenta er reiknuð á grundvelli líftíma eignarinnar. Til dæmis, ef eign hefur líftímann fimm ár, er prósentan reiknuð sem 25 prósent°(125% ÷ 5).
 
@@ -41,7 +41,7 @@ Valið skilgreinir valmöguleikana sem í boði eru á svæðinu **tímabilstí�
 
 Hægt er að velja að halda sjálfgefnum gildum í reitnum **Afskriftarár**, **Dagatal**. 
 
-**Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum síðar í þessari grein er afskriftagrunnurinn teljarinn í fyrstu tjáningu í útreikningsdálknum. 
+**Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum síðar í þessari grein er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
 
 Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 

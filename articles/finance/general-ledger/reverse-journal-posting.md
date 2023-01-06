@@ -1,6 +1,6 @@
 ---
 title: Bakfæra bókun í færslubók
-description: Þessi grein lýsir getu sem gerir þér kleift að bakfæra fylgiskjöl úr fylgiskjalsfærslulistanum eða úr fjárhagsbókum.
+description: Þessi grein lýsir getu sem gerir þér kleift að bakfæra fylgiskjöl af færslulista fylgiskjala eða úr fjárhagsfærslubókum.
 author: kweekley
 ms.date: 10/08/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
 ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
 ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/13/2022
 ms.locfileid: "9680385"
@@ -26,9 +26,9 @@ ms.locfileid: "9680385"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir getu Microsoft Dynamics 365 Fjármál sem gerir þér kleift að bakfæra heila færslubók, eða bakfæra eitt eða fleiri fylgiskjöl af fylgiskjalsfærslulistanum, óháð uppruna þeirra. 
+Þessi grein lýsir getu Microsoft Microsoft Dynamics 365 Finance sem gerir þér kleift að bakfæra heila færslubók eða bakfæra eitt eða fleiri fylgiskjöl af færslulistum fylgiskjala án tillits til uppruna. 
 
-Áður en þú getur notað einn af þeim eiginleikum sem lýst er í þessari grein verður að kveikja á honum í kerfinu þínu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
+Áður en hægt er að nota eiginleikann sem lýst er í þessari grein þarf að vera kveikt á honum í kerfinu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Þar er eiginleikinn sýndur á eftirfarandi hátt:
  - Eining: fjárhagur
  - Heiti eiginleika: **Fjöldabakfærslur fyrir mörg skjöl**
 
@@ -37,7 +37,7 @@ ms.locfileid: "9680385"
 Hægt er að bakfæra eina færslubókarlínu í einu. Með bakfærslu á færslubók geturðu bakfært heila fjárhagsfærslubók. Til að bakfæra færslubók: 
 
 - Síaðu bókaðar færslur og opnaðu **Línur** í færslubókinni.
-- Veldu **Snúið öllu dagbókinni** valmynd efst á síðunni.
+- Veldu valmyndina **Bakfæra alla færslubókina** efst á síðunni.
 - Þú munt sjá heildarfjölda fylgiskjala og fylgiskjalalínur sem og heildarfjárhæð línanna sem verið er að bakfæra.
 - Veldu **Já** til að nota núverandi færsludagsetningar eða **Nei** til að slá inn nýja. Í sumum tilvikum kann tímabil upphaflegrar færslu að vera lokað og þú verður að færa inn nýja færsludagsetningu fyrir bakfærsluna.
 - Ef þú velur **Nei** slærðu inn færsludagsetningu fyrir bakfærsluna. 
@@ -69,7 +69,7 @@ Ef það eru yfir 100 fylgiskjalalínur verður bakfærsluferlið keyrt með run
 
 Ef fjöldi fylgiskjala er 100 línur eða færri mun bakfærsluvinnslan keyra þegar í stað. Niðurstöðurnar munu birtast í glugga sem sýnir öll fylgiskjöl sem ekki var hægt að bakfæra, ásamt ástæðu þess. Veldu **Í lagi** til að loka svarglugganum.
 
-Aðeins er hægt að bakfæra færslur ef þær uppfylla viðskiptareglur um bakfærslur. Ekki er hægt að bakfæra greiðslur lánardrottins með því að nota möguleikann sem lýst er í þessari grein. Lánardrottnagreiðslur verður að bakfæra með því að fylgja skrefunum sem talin eru upp í [Bakfæra lánardrottnagreiðslu](../accounts-payable/reverse-vendor-payment.md).
+Aðeins er hægt að bakfæra færslur ef þær uppfylla viðskiptareglur um bakfærslur. Ekki er hægt að bakfæra lánardrottnagreiðslum með því að nota getu sem lýst er í þessari grein. Lánardrottnagreiðslur verður að bakfæra með því að fylgja skrefunum sem talin eru upp í [Bakfæra lánardrottnagreiðslu](../accounts-payable/reverse-vendor-payment.md).
 
 
 

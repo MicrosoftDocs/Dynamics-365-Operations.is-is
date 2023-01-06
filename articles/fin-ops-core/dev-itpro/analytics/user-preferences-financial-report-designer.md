@@ -1,6 +1,6 @@
 ---
 title: Kjörstillingar notanda í fjárhagsskýrsluhönnun
-description: Þessi grein lýsir því hvernig á að stilla notendastillingar til að sérsníða notendasamskipti þín í fjárhagsskýrsluhönnuði og stjórna upphaflegri innskráningarupplifun.
+description: Þessi grein lýsir því hvernig stilla kjörstillingar notanda til að sérsníða samskipti notenda í Report Designer fyrir fjárhagsskýrslur og stýra upphafleg innskráningarferlið.
 author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 59da4854-0f8c-4021-acd1-b303c06f4a34
 ms.search.form: FinancialReports
 ms.openlocfilehash: 7f937656d068c8145d67c2886542cbad1a33e622
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289893"

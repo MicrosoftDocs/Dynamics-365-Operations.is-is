@@ -1,6 +1,6 @@
 ---
 title: Setja upp virðisaukaskatttímabil
-description: Þessi grein útskýrir hvernig á að setja upp söluskattsuppgjörstímabil í Dynamics 365 Finance.
+description: Þessi grein útskýrir hvernig á að setja upp uppgjörstímabil virðisaukaskatts í Dynamics 365 Finance.
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 3f8514494b5d3534fc236def817df0d58fe80d70
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8846684"
@@ -24,11 +24,11 @@ ms.locfileid: "8846684"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp uppgjörstímabil söluskatts. Virðisaukaskattsuppgjörstímabil innihalda upplýsingar um tímabil fyrir hvaða virðisaukaskatt þarf að vera tilkynntur og greiddur. Hægt er að keyra jöfnunarferli fyrir jöfnunartímabil fyrir tiltekin dagsetningarbil. Allar skattkóði sem tengist jöfnunartímabil verða jafnaðar. Eftir að setja upp tengd virðisaukaskattsyfirvald er skattskuld bókuð í annað hvort lánardrottinn eða fjárhagslykil.
+Þessi grein útskýrir hvernig á að setja upp uppgjörstímabil virðisaukaskatts. Virðisaukaskattsuppgjörstímabil innihalda upplýsingar um tímabil fyrir hvaða virðisaukaskatt þarf að vera tilkynntur og greiddur. Hægt er að keyra jöfnunarferli fyrir jöfnunartímabil fyrir tiltekin dagsetningarbil. Allar skattkóði sem tengist jöfnunartímabil verða jafnaðar. Eftir að setja upp tengd virðisaukaskattsyfirvald er skattskuld bókuð í annað hvort lánardrottinn eða fjárhagslykil.
 
 Þetta verkefni notar USMF-sýnifyrirtækið.
 
-1. Fara til **Skattur > Óbeinir skattar > Söluskattur > Uppgjörstímabil söluskatts**.
+1. Fara á **Skattur > Óbeinir skattar > Virðisaukaskattur > VSK-uppgjörstímabil**.
 2. Veljið **Nýtt**.
 3. Í reitinn **Uppgjörstímabil** skal færa inn gildi.
 4. Í reitinn **Lýsing** skal slá inn gildi.

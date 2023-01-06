@@ -1,6 +1,6 @@
 ---
 title: Gagnaúthlutun fjárhagsáætlunargerðar
-description: Þessi grein lýsir úthlutunaraðferðum sem eru tiltækar í Microsoft Dynamics 365 Fjármál og hvernig hægt er að nota þau.
+description: Þessi grein lýsir mismunandi úthlutunaraðferðum, tiltækum í Microsoft Dynamics 365 Finance og hvernig nota má þær.
 author: panolte
 ms.date: 03/05/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5788f6dc8aa6cddad5c8eaba748827307a4d38a1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8901461"
@@ -26,7 +26,7 @@ ms.locfileid: "8901461"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir úthlutunaraðferðum sem eru tiltækar í Microsoft Dynamics 365 Fjármál og hvernig hægt er að nota þau.  
+Þessi grein lýsir mismunandi úthlutunaraðferðum, tiltækum í Microsoft Dynamics 365 Finance og hvernig nota má þær.  
 
 Hægt er að dreifa gögnum í fjárhagsáætlun á ýmsa vegu til að sýna nákvæmlega áætlaðar upphæðir.
 

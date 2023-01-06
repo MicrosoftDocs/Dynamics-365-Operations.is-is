@@ -1,6 +1,6 @@
 ---
 title: Stjórnborð notkunarstjórnunar
-description: Þessi grein útskýrir hvernig á að nota stjórnborð notkunarstjórnunar til að fylgjast með notkun rafrænnar reikningaþjónustu og halda áfram að uppfylla kröfur.
+description: Í þessari grein er útskýrt hvernig nota á stjórnborð notkunar til að fylgjast með notkun rafrænu reikningsfærsluþjónustunnar og uppfylla reglur.
 author: gionoder
 ms.date: 06/02/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ''
 ms.openlocfilehash: 74f3d88faf192474c177da971a9f7bb0e58e1279
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9272210"
@@ -48,7 +48,7 @@ Stjórnborðið inniheldur eftirfarandi vísa:
 
 - Fyrirtæki: 
 
-    Talning er tekin saman með auðkenni leigjanda fyrirtækisins þíns, óháð fjölda tilvika af Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management, eða fjölda lögaðila þar sem rafræn reikningaþjónusta er virkjuð.
+    Talning er tekin saman með auðkenni leigjanda fyrir fyrirtækið, burtséð frá fjölda tilvika Microsoft Dynamics 365 Finance eða Dynamics 365 Supply Chain Management, eða fjölda lögaðila þar sem rafræn reikningsfærsluþjónusta er virk.
 
 
 ## <a name="indicator-usage-per-month-export"></a>Vísir: Notkun á mánuði (útflutningur)

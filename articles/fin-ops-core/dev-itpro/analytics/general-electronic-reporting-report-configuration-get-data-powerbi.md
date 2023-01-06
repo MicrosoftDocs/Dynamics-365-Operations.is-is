@@ -1,6 +1,6 @@
 ---
 title: Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI
-description: Þessi grein útskýrir hvernig þú getur notað rafræna skýrslugerð (ER) stillingar þínar til að raða flutningi gagna frá tilviki þínu til Power BI þjónusta.
+description: Þessi grein útskýrir hvernig nota skal skilgreiningu Rafræna skýrslugerðar (ER) til að sjá um flutning gagna úr tilvikinu til Power BI-þjónustu.
 author: kfend
 ms.date: 04/23/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.openlocfilehash: be0e79bb767a8bd2db4c02dc2b73bfbc5cb95675
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9281723"
@@ -25,20 +25,20 @@ ms.locfileid: "9281723"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig þú getur notað rafræna skýrslugerð (ER) stillingar þínar til að raða flutningi gagna frá tilviki þínu til Power BI þjónusta. Sem dæmi notar þessi grein Intrastat-færslur sem viðskiptagögn sem þarf að flytja. Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu.
+Þessi grein útskýrir hvernig nota skal skilgreiningu Rafræna skýrslugerðar (ER) til að sjá um flutning gagna úr tilvikinu til Power BI-þjónustu. Sem dæmi, notar þessi grein intrastat-færslur sem viðskiptagögn sem verður að flytja. Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu.
 
 ## <a name="overview"></a>Yfirlit
 
-Microsoft Power BI er safn af þjónustu við hugbúnaðar, forritum og tengi sem vinna saman að því að breyta utanaðkomandi gögn í heildstæða, sjónrænar, og gagnvirka innsýn. Rafræna skýrslugerð (ER) gerir notendum kleift að skilgreina gagnagjafa auðveldlega og sjá um flutning gagna úr forritinu yfir í Power BI. Gögn eru flutt sem skrár á sniði OpenXML (Microsoft Excel vinnubókarskrá) vinnublaði. Fluttar skrárnar eru vistaðar í Microsoft SharePoint Server sem hefur verið skilgreindur fyrir þess háttar tilgang. Vistaðar skrár eru notaðar í Power BI til að gera skýrslur sem innihalda sjóræna birtingu (töflur gröf, varpanir og svo framvegis). Power BI skýrslum er deilt með Power BI notendum og þær eru opnaðar í Power BI-yfirlitum og á síðum forritsins. Þessi grein útskýrir eftirfarandi verkefni:
+Microsoft Power BI er safn af þjónustu við hugbúnaðar, forritum og tengi sem vinna saman að því að breyta utanaðkomandi gögn í heildstæða, sjónrænar, og gagnvirka innsýn. Rafræna skýrslugerð (ER) gerir notendum kleift að skilgreina gagnagjafa auðveldlega og sjá um flutning gagna úr forritinu yfir í Power BI. Gögn eru flutt sem skrár á sniði OpenXML (Microsoft Excel vinnubókarskrá) vinnublaði. Fluttar skrárnar eru vistaðar í Microsoft SharePoint Server sem hefur verið skilgreindur fyrir þess háttar tilgang. Vistaðar skrár eru notaðar í Power BI til að gera skýrslur sem innihalda sjóræna birtingu (töflur gröf, varpanir og svo framvegis). Power BI skýrslum er deilt með Power BI notendum og þær eru opnaðar í Power BI-yfirlitum og á síðum forritsins. Þessi grein útskýrir eftirfarandi verk:
 
-- Stilla Microsoft Dynamics 365 Fjármál.
+- Skilgreina Microsoft Dynamics 365 Finance.
 - Undirbúðu ER sniðsskilgreiningu þína fyrir móttöku gagna úr Finance-forritinu.
 - Skilgreina umhverfi Rafræn skýrslugerðar til að flytja gögn í Power BI.
 - Nota flutt gögn til að stofna Power BI-skýrsla.
 - Gerðu Power BI-skýrsluna aðgengilega í Finance.
 
 ## <a name="prerequisites"></a>Forkröfur
-Til að klára dæmið í þessari grein verður þú að hafa eftirfarandi aðgang:
+Til að ljúka dæminu í þessari grein þarftu að hafa eftirfarandi aðgang:
 
 - Aðgengi fyrir eitt af eftirfarandi hlutverkum:
 

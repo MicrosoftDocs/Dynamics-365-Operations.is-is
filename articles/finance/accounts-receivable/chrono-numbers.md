@@ -1,6 +1,6 @@
 ---
 title: Skjöl og fylgiskjöl númeruð eftir tímaröð
-description: Þessi grein útskýrir hvernig á að setja upp og nota tímaröð númer fyrir viðeigandi skjöl og tengd fylgiskjöl.
+description: Þessi grein útskýrir hvernig á að setja upp og nota númer í tímaröð fyrir viðeigandi skjöl og tengd fylgiskjöl.
 author: ikond
 ms.date: 02/01/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 401195
 ms.search.form: NumberSequenceGroup
 ms.openlocfilehash: 1a1b8887eff625d9e4095380fbb7c8963682ef3c
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9272429"
@@ -26,7 +26,7 @@ ms.locfileid: "9272429"
 [!include [banner](../includes/banner.md)]
 
 
-Í sumum löndum er lagaleg krafa um að númera skjöl og tengd fylgiskjöl í tímaröð. Tímaröðin verður að vera studd af tímabilum. Öll númer sem tilheyra fyrri tímabilum verða að vera minna en númerin sem tilheyra seinni tímabilum. Til að uppfylla þessa kröfu hefur númeravirkni í tímaröð verið innleidd. Þessi grein útskýrir hvernig á að stilla og nota tímaröð númer fyrir viðeigandi skjöl og tengd fylgiskjöl.
+Í sumum löndum er lagaleg krafa um að númera skjöl og tengd fylgiskjöl í tímaröð. Tímaröðin verður að vera studd af tímabilum. Öll númer sem tilheyra fyrri tímabilum verða að vera minna en númerin sem tilheyra seinni tímabilum. Til að uppfylla þessa kröfu hefur númeravirkni í tímaröð verið innleidd. Þessi grein útskýrir hvernig á að skilgreina og nota númer í tímaröð fyrir viðeigandi skjöl og tengd fylgiskjöl.
 
 ## <a name="prerequisites"></a>Forkröfur
 

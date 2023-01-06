@@ -1,6 +1,6 @@
 ---
 title: Lánaflokkar viðskiptavina
-description: Þessi grein veitir upplýsingar um lánahópa viðskiptavina.
+description: Í þessari grein er að finna upplýsingar um kredithópa viðskiptavinar.
 author: JodiChristiansen
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 032e92431946f0a41bf2e52c155e422d4ea0b3b7
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8886517"

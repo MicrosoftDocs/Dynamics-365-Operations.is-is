@@ -1,6 +1,6 @@
 ---
 title: Kostnaðarstjórnun Power BI efni
-description: Þessi grein lýsir því hvað er innifalið í kostnaðarstjórnun Power BI efni.
+description: Þessi grein lýsir því hvað er innifalið í kostnaðarstjórnun Power BI efnis.
 author: JennySong-SH
 ms.date: 03/16/2018
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.industry: Manufacturing
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 ms.openlocfilehash: 11b414c8c352ac0a6307584ef14bcc13122f4573
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9267349"
@@ -168,7 +168,7 @@ Gögn úr forritinu eru notuð til að fylla skýrslusíðurnar í **Kostnaðars
 
 Lykiluppsafnaðar mælingar á eftirfarandi hlutum eru notaðar sem grundvöllur Power BI-efnis.
 
-| Hlutur                          | Lykiluppsafnaðar mælingar | Gagnaveita fyrir fjármál og rekstur | Reitur               |
+| Hlutur                          | Lykiluppsafnaðar mælingar | Gagnagjafi fyrir fjármál- og rekstur | Svæði               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Upphæð                     | CostObjectStatementCache               | Upphæð              |
 | CostObjectStatementCacheMonthly | Magn                   | CostObjectStatementCache               | Magn                 |

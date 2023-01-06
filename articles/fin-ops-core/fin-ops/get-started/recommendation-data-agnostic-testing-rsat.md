@@ -1,6 +1,6 @@
 ---
 title: Gagnafræðileg próf með gögnum með Regression Suite Automation Tool
-description: Þessi grein fjallar um ráðleggingar um gagnafræðilegar prófanir með því að nota Regression Suite Automation Tool.
+description: Í þessari grein er fjallað um ráðleggingar varðandi prófanir á gögnum með því að nota Regression Suite Automation Tool.
 author: FrankDahl
 ms.date: 09/13/2019
 ms.topic: article
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.custom: 21761
 ms.openlocfilehash: f4322cb76d1d83c02ec9d4dcb997a1cd4730d090
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9269592"

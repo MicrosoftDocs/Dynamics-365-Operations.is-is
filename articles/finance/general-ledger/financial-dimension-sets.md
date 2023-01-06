@@ -1,6 +1,6 @@
 ---
 title: Fjárhagsvíddasamstæður
-description: Þessi grein lýsir fjárhagsvíddarsettum og veitir nokkur ráð til að hagræða notkun þeirra.
+description: Í þessari grein eru fjárhagsvíddasamstæður útskýrðar og ábendingar gefnar um hvernig hægt er að nýta þær sem best.
 author: yukonpeegs
 ms.date: 03/07/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
 ms.openlocfilehash: 3d4c15504b2ad128493e1bafa36aed271c2ab6dc
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8864282"
@@ -25,7 +25,7 @@ ms.locfileid: "8864282"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir fjárhagsvíddarsettum og veitir nokkur ráð til að hagræða notkun þeirra.
+Í þessari grein eru fjárhagsvíddasamstæður útskýrðar og ábendingar gefnar um hvernig hægt er að nýta þær sem best.
 
 Víddasamstæða er raðaður listi yfir fjárhagsvíddir sem hægt er að nota til að taka saman fjárhagsgögn á hátt sem notandi skilgreinir. Helsta notkun víddasamstæða felst í að skilgreina prófjöfnuð.
 
@@ -64,7 +64,7 @@ Notið hnappinn **Hreinsa stöður** til að fjarlægja stöðurnar og stöðva 
 
 ## <a name="delete-a-dimension-set"></a>Víddasamstæðu eytt
 
-Ekki gera það **eyða og endurskapa** víddarsett sem hvers kyns lausn til að leysa hugsanleg vandamál með jafnvægisgögnin fyrir tiltekið víddarsett. Það er kostnaðarsamt að endurskapa víddarsett. Fyrir frekari aðstoð við vandamál, hafðu samband við þjónustuver. 
+Ekki **eyða og endurskapa** víddarsett sem einhverskonar hjáleið til að leysa hugsanleg vandamál með stöðugögn fyrir tiltekið víddarsett. Það er kostnaðarsamt að endurskapa víddarsett. Hafðu samband við þjónustudeild til að fá frekari aðstoð við vandamál. 
 
 
 Frekari upplýsingar eru í [Fjárhagsvíddir](financial-dimensions.md).

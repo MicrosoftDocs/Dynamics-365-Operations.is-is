@@ -1,6 +1,6 @@
 ---
 title: Listi yfir ER-aðgerðir í textaflokknum
-description: Þessi grein veitir upplýsingar um textaaðgerðir sem eru studdar í rafrænum skýrslum (ER).
+description: Þessi grein veitir upplýsingar um textaaðgerðir sem eru studdar í rafrænni skýrslugerð (ER).
 author: kfend
 ms.date: 02/28/2022
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: e4c7885024586034c062304cce21a25e5b6c8c9b
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9268794"
@@ -35,7 +35,7 @@ Hægt er að nota textaaðgerðir rafrænnar skýrslugerðar (ER) til að framkv
 | [Samtengja](er-functions-text-concatenate.md) | Þessi aðgerð skilar öllum tilgreindum textastrengjum sem *Strengjagildi* eftir að þeir hafa verið sameinaðir í einn streng. |
 | [Snið](er-functions-text-format.md) | Þessi aðgerð skilar *strengja*-gildi fyrir tilgreindan streng eftir að hann hefur verið sniðinn með því að skipta út öllum tilvikum af **%N** með *ntu* frumbreytunni. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Þessi aðgerð leitar að tilteknu *Enum*-gildi í tilgreindum tölusetningargagnagjafa með því að nota tölusetningarheitið sem er tilgreint sem *Strengja*-gildi. Ef *Enum*-gildi finnst skilar aðgerðin því. |
-| [GetLabelText](er-functions-text-getlabeltext.md) | Þessi aðgerð leitar að ákveðnu merki til að skila a *[Strengur](er-formula-supported-data-types-primitive.md#string)* gildi sem táknar þýðingu tilgreinds merkimiðs á tilgreindu tungumáli. |
+| [GetLabelText](er-functions-text-getlabeltext.md) | Þessi virkni leitar að tilteknu merki til að skila gildi *[Strengs](er-formula-supported-data-types-primitive.md#string)* sem stendur fyrir þýðingu á tilteknu merki á tilteknu tungumáli. |
 | [GuidValue](er-functions-text-guidvalue.md) | Þessi aðgerð umreiknar tilgreint inntak af gerðinni *Strengur* í gagnaatriði af gerðinni *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Þessi aðgerð þáttar gögn í JavaScript Object Notation (JSON) sniði sem er aðgengilegt á tilgreindri slóð og dregur út tölugildi sem byggist á tilgreindu auðkenni. Hún skilar síðan útdregnu tölugildinu sem *Strengja*-gildi. |
 | [Vinstri](er-functions-text-left.md) | Þessi aðgerð skilar *strengjagildi* sem sýnir tilgreindan fjölda staftákna frá upphafi tiltekins strengs. |
@@ -51,7 +51,7 @@ Hægt er að nota textaaðgerðir rafrænnar skýrslugerðar (ER) til að framkv
 | [Hægri](er-functions-text-right.md) | Þessi aðgerð skilar *strengjagildi* sem sýnir tilgreindan fjölda staftákna frá lokum tiltekins strengs. |
 | [Texti](er-functions-text-text.md) | Þessi aðgerð skilar tilgreindri tölu sem *strengjagildi* eftir að því hefur verið breytt í textastreng sem er sniðið í samræmi við stillingar á þjónsstaðsetningu á núverandi tilviki forrits. |
 | [Þýða](er-functions-text-translate.md) | Þessi aðgerð skilar gildinu *Strengur* sem inniheldur niðurstöðu þess að tilgreindum texta í stöfum er skipt út fyrir annað sett af stöfum. |
-| [Trim](er-functions-text-trim.md) | Þessi aðgerð skilar tilgreindum textastreng sem a *Strengur* Gildi á eftir flipa, vagnsskila, línustreymi og formstraumstöfum hefur verið skipt út fyrir eitt bilstaf, eftir að fremstu og aftari bil hafa verið stytt og eftir að mörg bil milli orða hafa verið fjarlægð. |
+| [Trim](er-functions-text-trim.md) | Þetta fall skilar tilgreindum textastreng sem *Strengur*-gildi á eftir flipa, vendingu, línubil og síðuskiptastafi sem hefur verið skipt út fyrir eitt stafabilstákn eftir að bilum fyrir framan og aftan hefur verið eytt, og eftir að samfelld bil milli orðanna hafa verið fjarlægð. |
 | [Upper](er-functions-text-upper.md) | Þessi aðgerð skilar tilgreindum textastreng sem *Strengja*-gildi eftir að því hefur verið breytt í hástafi. |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

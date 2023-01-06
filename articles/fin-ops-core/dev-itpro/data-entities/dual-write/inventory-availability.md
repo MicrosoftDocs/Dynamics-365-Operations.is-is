@@ -1,6 +1,6 @@
 ---
 title: Birgðir til ráðstöfunar í tvíritun
-description: Þessi grein veitir upplýsingar um hvernig á að athuga framboð á birgðum í tvískrift.
+description: Í þessari grein eru veittar upplýsingar um hvernig skuli athuga birgðir til ráðstöfunar í tvíritun.
 author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: ramasri
 ms.search.validFrom: 2020-05-26
 ms.openlocfilehash: 442486550d3a7c5132e26f663caaa7c2c02eeb6e
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289209"

@@ -1,6 +1,6 @@
 ---
 title: Nota gagnagjafa GAGNASÖFNUNAR í rafrænum skýrslugerðarsniðum
-description: Þessi grein útskýrir hvernig á að nota DATA COLLECTION gagnaveitur í rafrænum skýrslugerðum (ER).
+description: Í þessari grein er útskýrt hvernig á að nota gagnagjafa GAGNASÖFNUNAR í rafrænum skýrslugerðarsniðum.
 author: kfend
 ms.date: 08/23/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: EROperationDesigner
 ms.openlocfilehash: 221cefc1880cdd88a952140424daf24975a575aa
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9286180"
@@ -26,7 +26,7 @@ ms.locfileid: "9286180"
 
 [!include [banner](../includes/banner.md)]
 
-Þú getur notað rekstrarhönnuðinn á [Rafræn skýrslugerð (ER)](general-electronic-reporting.md) ramma til að stilla sniðshluta ER lausnar sem er notuð til að búa til skjöl á útleið á mismunandi sniðum. Skipulag stigveldis fyrir skilgreindan sniðsþátt samanstendur af ýmsum gerðum af sniðsþáttum. Þessir sniðþættir eru notaðir til að fylla mynda skjöl með tilskildum upplýsingum á keyrslutíma. Sjálfgefið er, þegar þú keyrir snið rafrænnar skýrslugerðar, að sniðsþættirnir séu keyrðir í sömu röð og þeir eru settir fram í sniðsstigveldinu: eitt í einu, frá efsta til neðsta.
+Þú getur notað aðgerðarhönnuð í ramma [Rafrænnar skýrslugerðar](general-electronic-reporting.md) til að skilgreina sniðsþátt rafrænnar skýrslugerðarlausnar sem er notaður til að mynda skjöl á útleið á mismunandi sniðum. Skipulag stigveldis fyrir skilgreindan sniðsþátt samanstendur af ýmsum gerðum af sniðsþáttum. Þessir sniðþættir eru notaðir til að fylla mynda skjöl með tilskildum upplýsingum á keyrslutíma. Sjálfgefið er, þegar þú keyrir snið rafrænnar skýrslugerðar, að sniðsþættirnir séu keyrðir í sömu röð og þeir eru settir fram í sniðsstigveldinu: eitt í einu, frá efsta til neðsta.
 
 Þegar rafræn skýrslugerð keyrir sniðsþátt sem inniheldur bindingu er formúla þeirrar bindingar keyrð og sniðsþátturinn bætir gildinu við myndað skjal. Til dæmis getur bindingin fært gildi fyrir reitinn gagnalíkan yfir í sniðsþátt. Þú getur skilgreint gagnagjafa GAGNASÖFNUNAR til að safna gildum fyrir reiti gagnalíkans á keyrslutíma, til að leggja saman gildin og fylla út myndað skjal með söfnuðum gildum. Til að nota þessa aðferð skal breyta upphaflegri bindingu þannig að skilgreindur gagnagjafi GAGNASÖFNUNAR sé notaður til að færa gildið fyrir reit gagnalíkans yfir í sniðsþátt. Með því að færa gildi í gegnum gagnagjafa GAGNASÖFNUNAR getur þú safnað nauðsynlegum upplýsingum til frekari notkunar.
 
@@ -65,7 +65,7 @@ Til að læra meira um þennan eiginleika skaltu ljúka við dæmið sem fylgir.
 
 Þetta dæmi sýnir hvernig notandi í hlutverki kerfisstjóra eða hagnýts ráðgjafa rafrænnar skýrslugerðar getur skilgreint snið rafrænnar skýrslugerðar sem er með gagnagjafa GAGNASÖFNUNAR sem er notaður til að reikna út hlaupandi samtölu og safna samanlögðum gildum.
 
-Verklagsreglurnar í þessu dæmi er hægt að ljúka í USMF fyrirtækinu í Microsoft Dynamics 365 Fjármál.
+Hægt er að ljúka ferlunum í þessu dæmi í USMF-fyrirtækinu í Microsoft Dynamics 365 Finance.
 
 ### <a name="upload-and-use-the-provided-er-solution"></a>Hlaða upp og nota uppgefna lausn rafrænnar skýrslugerðar
 

@@ -1,6 +1,6 @@
 ---
-title: Vinnusvæði fyrir lausn reikningsfanga
-description: Þessi grein veitir upplýsingar um vinnusvæðið fyrir lausnarupptöku reikninga.
+title: Vinnusvæði Invoice capture
+description: Þessi grein veitir upplýsingar um vinnusvæði Invoice capture.
 author: sunfzam
 ms.date: 09/25/2022
 ms.topic: overview
@@ -19,94 +19,94 @@ ms.search.validFrom: 2022-09-28
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 4f3af7abf94542437be6132344d6bb7ffaf33d07
 ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/18/2022
 ms.locfileid: "9690987"
 ---
-# <a name="invoice-capture-solution-workspace"></a>Vinnusvæði fyrir lausn reikningsfanga
+# <a name="invoice-capture-solution-workspace"></a>Vinnusvæði Invoice capture
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-## <a name="side-by-side-viewer-for-the-invoice-capture-solution"></a>Hlið við hlið áhorfandi fyrir lausnina til að taka upp reikninga
+## <a name="side-by-side-viewer-for-the-invoice-capture-solution"></a>Samhliða yfirlit fyrir Invoice capture-lausnina
 
-Að slá inn reikninga inn í kerfið hefur venjulega verið tímafrekt ferli sem er viðkvæmt fyrir villum, vegna þess að afgreiðslufólk verður að vafra um margar viðhengisskrár og glugga til að safna réttum upplýsingum. Skjalaskoðarinn hlið við hlið mun hjálpa til við að bæta upplifun þína þegar þú vinnur með reikninga með því að gera ferlið auðveldara, skilvirkara og nákvæmara.
+Að slá inn reikninga í kerfið hefur yfirleitt verið tímafrekt ferli sem er líklegt til að valda villum því að bókarar verða að halda utan um margar viðhengisskrár og glugga til að safna saman réttum upplýsingum. Samhliða skjalayfirlit bætir upplifunina þegar unnið er í reikningum með því að gera ferlið auðveldara, skilvirkara og nákvæmara.
 
-Skjalaskoðarinn hlið við hlið gerir notendum kleift að hafa upprunalega skjalið og reikninginn opna hlið við hlið í sama glugga. Reikningssíðan er fyllt með upplýsingum sem koma úr upprunalegu reikningsskjali. Skoðandinn byggir upp tenginguna á milli reita reikningssíðunnar og upprunalega reikningsskjalsins. Skoðandinn hjálpar einnig notendum að finna allar villur sem eru til staðar á reikningssíðunni.
+Samhliða skjalayfirlit gerir notendum kleift að vera með upprunalegt skjal og reikning opið hlið við hlið í sama glugganum. Reikningssíðan er fyllt með upplýsingum sem koma úr upprunalega reikningsskjalinu. Yfirlitið býr til tengingar á milli reita reikningsíðu og upprunalegs reikningsskjals. Yfirlitið hjálpar notendum einnig að finna villur sem eru til staðar á reikningssíðunni.
 
-### <a name="open-the-side-by-side-viewer"></a>Opnaðu hlið við hlið skoðara
+### <a name="open-the-side-by-side-viewer"></a>Opna samhliða yfirlit
 
-Í Microsoft Dynamics 365 Finance, þú getur opnað hlið við hlið skoðara frá listanum á yfirlitssíðunni eða frá reikningalistanum. Þú getur líka opnað hana með því að tvísmella (eða tvísmella) á færslu eða með því að velja reikningsnúmer.
+Í Microsoft Dynamics 365 Finance er hægt að opna samhliða yfirlit úr listanum á samantektarsíðunni eða reikningslistasíðunni. Einnig er hægt að opna það með því að tvípikka (eða tvísmella) á færslu eða með því að velja reikningsnúmerið.
 
-### <a name="using-the-side-by-side-viewer"></a>Með því að nota hlið við hlið skoðara
+### <a name="using-the-side-by-side-viewer"></a>Notkun samhliða yfirlits
 
-#### <a name="manually-review-an-invoice"></a>Farið handvirkt yfir reikning
+#### <a name="manually-review-an-invoice"></a>Fara handvirkt yfir reikning
 
-Reikningsskjal sem hefur verið flutt inn gæti þurft handvirka yfirferð vegna villna eða viðvarana. Í hlið við hlið skoðara mun skjalhausinn sýna stöðuna **Innflutt**, og núverandi útgáfa verður **Upprunaleg útgáfa**.
+Reikningsskjal sem hefur verið flutt inn gæti þurft handvirka yfirferð út af villum eða viðvörunum. Í samhliða yfirlitinu mun skjalahausinn sýna stöðuna **Innflutt** og núverandi útgáfa verður **Upprunaleg útgáfa**.
 
-Til að byrja að skoða reikninginn skaltu velja **Byrjaðu endurskoðun**. Allir reiti verða breytanlegir. The **Staða** reiturinn er uppfærður í **Í endurskoðun**, og **Núverandi útgáfa** reiturinn er uppfærður í **Breytt útgáfa**.
+Til að byrja að fara yfir reikninginn er valið **Hefja yfirferð**. Hægt verður að breyta öllum svæðum. Reiturinn **Staða** er uppfærður í **Í skoðun** og reiturinn **Núverandi útgáfa** er uppfærður í **Breytt útgáfa**.
 
 #### <a name="view-and-work-with-messages"></a>Skoða og vinna með skilaboð
 
-Notendur ættu að hefja yfirferðarferlið frá skilaboðaglugganum. Villuboð eru auðkennd með rauðu X, viðvörunarskilaboð eru auðkennd með þríhyrningi og upplýsingaskilaboð eru auðkennd með hring. Skilaboð tengd öryggisstig geta verið flokkuð sem annað hvort viðvaranir eða villur, allt eftir þröskuldinum sem er stillt af stillingarhópnum. Fyrir frekari upplýsingar, sjá [Stillingarhópar fyrir lausnarupptöku reikninga](invoice-capture-config-group.md).
+Notendur ættu að hefja endurskoðunarferlið á skilaboðasvæðinu. Villuboð eru táknuð með rauðu X, viðvörunarboð eru táknuð með þríhyrningi og upplýsingaboð eru táknuð með hring. Hægt er að flokka skilaboð sem tengjast áreiðanleikaeinkunn sem annaðhvort viðvaranir eða villur eftir því hvernig þröskuldurinn er stilltur af afbrigðisflokknum. Frekari upplýsingar eru í [Skilgreiningarhópar Invoice capture-lausnar](invoice-capture-config-group.md).
 
-Viðvörunar- og villuskilaboð er hægt að hunsa í skilaboðaglugganum, reikningshausnum eða reikningslínum. Eftir að skilaboð eru hunsuð birtast þau ekki lengur sem villa eða viðvörun og reikningurinn mun ekki mistakast í staðfestingu.
+Hægt er að hunsa viðvörunar- og villuboð frá skilaboðasvæðinu, reikningshausnum eða reikningslínunum. Eftir að skilaboð eru hunsuð birtist þau ekki lengur sem villa eða viðvörun og reikningurinn fellur ekki á villuprófun.
 
-- Til að hunsa skilaboð úr skilaboðaglugganum velurðu **Hunsa**. Til að endurstilla skilaboð sem hafa verið hunsuð skaltu velja **Hunsa** aftur. Gerð þess er síðan breytt úr villu eða viðvörun í upplýsingar.
-- Til að hunsa skilaboð úr reikningshaus eða reikningslínu skaltu velja **Hunsa** á vellinum. Skilaboðatáknið hverfur. Hins vegar mun það birtast aftur ef skilaboðin eru endurstillt frá skilaboðaglugganum.
+- Til að hunsa skilaboð frá skilaboðasvæðinu velurðu **Hunsa**. Til að endurstilla skilaboð sem hafa verið hunsuð skaltu velja **Hunsa** aftur. Tegund þess er síðan breytt úr villu eða viðvörun í upplýsingar.
+- Til að hunsa skilaboð frá fyrirsögn reikningsins eða reikningslínunni skal velja **Hunsa** í reitnum. Skilaboðatáknið hverfur. Hins vegar birtist það aftur ef skilaboðin eru endurstillt á skilaboðasvæðinu.
 
-Fyrir skilaboð sem tengjast reikningshausreitum, þegar þú velur skilaboðin í skilaboðaglugganum, er bendillinn færður í samsvarandi reit í haushlutanum.
+Fyrir skilaboð sem tengjast reitum reikningshauss, þegar skilaboðin eru valin á skilaboðasvæðinu, er bendillinn færður á samsvarandi reit í haushlutanum.
 
-#### <a name="proofread-and-edit-fields"></a>Prófarkalesa og breyta reitum
+#### <a name="proofread-and-edit-fields"></a>Prófarkarlesturs- og breytingasvæði
 
-Ef gildi reits er lesið af upprunalega reikningnum í gegnum optical character recognition (OCR), birtist tákn á reitnum. Ef þú velur táknið stækkar skjalaskoðarinn og auðkennir staðinn sem reiturinn er lesinn af, til að hjálpa þér að sannreyna reikningsgögn.
+Ef gildi reits er lesið úr upprunalegum reikningi gegnum stafakennsl (OCR) birtist tákn í reitnum. Ef táknið er valið eykur skjalayfirlitið aðdrátt og auðkennir staðinn þar sem reitargildið er lesið til að auðvelda staðfestingu reikningsgagna.
 
-Til að endurstilla skjalaskoðarann á upprunalega stækkun, fylgdu einu af þessum skrefum:
+Til að endurstilla skjalayfirlit í upprunalega stærð skal fylgja einu af eftirfarandi skrefum:
 
 - Veldu sama tákn og þú valdir áður.
-- Veldu hnappinn í efra hægra horninu á skjalaskoðaranum.
+- Velja skal hnappinn efst í hægra horninu á skjalaskjánum.
 
-Breyttu reitunum eftir þörfum. Breytingar eru sjálfkrafa vistaðar þegar bendillinn yfirgefur reit. Tákn hægra megin við reit gefur til kynna að reiturinn hafi verið uppfærður handvirkt. Þegar síðan er endurnýjuð verður táknið fjarlægt.
+Breytið reitunum eftir þörfum. Breytingar eru vistaðar sjálfkrafa þegar bendillinn fer úr reit. Tákn hægra megin við reit gefur til kynna að reiturinn hafi verið uppfærður handvirkt. Þegar síðan er uppfærð verður táknið fjarlægt.
 
-#### <a name="check-an-invoice-to-get-up-to-date-messages"></a>Athugaðu reikning til að fá uppfærð skilaboð
+#### <a name="check-an-invoice-to-get-up-to-date-messages"></a>Skoða reikning til að fá skilaboð með nýjustu upplýsingum
 
-Þegar þú breytir reit er reitgildið uppfært, en ný staðfestingarskilaboð eru ekki búin til. Til að fá uppfærð staðfestingarskilaboð skaltu velja **Athugaðu**. Skilaboðin í skilaboðaglugganum, á reikningshausnum og á reikningslínunum eru uppfærð.
+Þegar reit er breytt er reitargildið uppfært en nýju villuleitarboðin eru ekki búin til. Til að fá uppfærð staðfestingarskilaboð skaltu velja **Athuga**. Skilaboðin í skilaboðasvæðinu, í reikningshausnum og á reikningslínunum eru uppfærð.
 
-#### <a name="complete-the-review"></a>Ljúktu við endurskoðunina
+#### <a name="complete-the-review"></a>Ljúka yfirferðinni.
 
-Til að ljúka yfirferð velurðu **Heill endurskoðun**. Reikningarnir eru staðfestir. Ef einhverjar villur finnast heldur staða skjalsins áfram **Í endurskoðun**, og skilaboðaslá birtist. Öll skilaboð í skilaboðaglugganum og á reikningshaus og línum eru sjálfkrafa uppfærð til að veita upplýsingar um orsakir misheppnaðrar staðfestingar.
+Til að ljúka við yfirferðina velur þú **Ljúka yfirferðinni**. Reikningarnir eru staðfestir. Ef villur finnast er staða skjalsins áfram **Í skoðun** og skilaboðsstika birtist. Öll skilaboð á skilaboðasvæðinu og í reikningshausnum og línunum eru sjálfkrafa uppfærð til að gefa upplýsingar um orsakir þess að ekki tókst að villuleita.
 
-Eftir að allar blokkunarvillur hafa verið lagaðar er hægt að ljúka endurskoðuninni. Staða skjalsins er uppfærð í **Farið yfir**, og ekki er lengur hægt að breyta reitunum. Þú getur endurræst endurskoðunina með því að velja **Byrjaðu endurskoðun** aftur.
+Eftir að allar villur hafa verið lagfærðar er hægt að ljúka við yfirferðina. Staða skjalsins er uppfærð í **Yfirfarið** og ekki er lengur hægt að breyta reitunum. Hægt er að endurræsa yfirferðina með því að velja **Hefja yfirferð** aftur.
 
-#### <a name="generate-a-pending-vendor-invoice-in-finance"></a>Búðu til reikning lánardrottins í bið í Finance
+#### <a name="generate-a-pending-vendor-invoice-in-finance"></a>Búa til reikning lánardrottins í bið í Finance
 
-Til að senda reikningsskjalið í tengda fjármálaumhverfið velurðu **Mynda**. Ef reikningsgerð mistekst birtast villuboð á skilaboðastiku.
+Til að senda reikningsskjalið til tengds Finance-umhverfis velur þú **Mynda**. Ef reikningsmyndun mistekst birtast villuboð á skilaboðastiku.
 
 #### <a name="void-an-invoice"></a>Ógilda reikning
 
-Til að ógilda reikning skaltu velja **Ógilt**. Ekki er hægt að fara yfir ógilda reikninga og þeir eru ekki sýndir í **Reikningar þurfa handvirka yfirferð** lista.
+Veldu **Ógilda** til að ógilda reikning. Ekki er hægt að fara yfir ógilta reikninga og þeir eru ekki sýndir á listanum **Fara þarf handvirkt yfir reikninga**.
 
-### <a name="validation-logic"></a>Löggildingarrökfræði
+### <a name="validation-logic"></a>Villuleitarrök
 
-Sumir lykilreitir í hlið-við-hlið skoðara eru ekki til í reikningsskilagögnum en eru nauðsynlegir til að búa til biðreikninga í Finance. Þessir reitir eru fengnir úr samsetningu núverandi reikningssviðsetningargagna og aðalgagna frá Finance.
+Sumir lykilreitir í samhliða yfirlitinu eru ekki til staðar í sviðsetningargögnum reikningsins en eru nauðsynlegir til að búa til reikninga í biðstöðu í Finance. Þessir reitir koma frá samsetningu af núverandi sviðsetningargögnum reiknings og aðalgögnum úr Finance.
 
-Reitirnir sem þarf að leiða eru **Lögaðili**, **söluaðila**, og **Vörunúmer**. Þeir verða að vera fengnir í eftirfarandi röð. Ef útleiðsla á reit mistekst stöðvast ferlið.
+Reitirnir sem verða að vera afleiddir eru **Lögaðili**, **Lykill lánardrottins** og **Vörunúmer**. Af þeim verður að leiða í eftirfarandi röð. Ef ekki er hægt að leiða af svæði stöðvast ferlið.
 
-1. **Lögaðili** – Lögaðilinn er fyrst afleiddur. Ef virk kortlagningarregla finnst fyrir lögaðilann er lögaðilinn fenginn út frá nafni fyrirtækis og heimilisfangi fyrirtækis.
-2. **Reikningur söluaðila** – Því næst er lánardrottinsreikningurinn fenginn út frá virkri kortlagningarreglu og samsetningu af afleidda lögaðilanum og nafni lánardrottins og heimilisfangi lánardrottins.
-3. **Vörunúmer** – Að lokum er vöruheitið dregið af sviðsetningu, byggt á eftirfarandi þremur tegundum upplýsinga:
+1. **Lögaðili** – Lögaðilinn er afleiddur fyrst. Ef virk vörpunarregla finnst fyrir lögaðilann er lögaðilinn fenginn út frá heiti og aðsetri fyrirtækisins.
+2. **Lánardrottnalykill** – Næst er lánardrottnalykillinn byggður á virkri vörpunarreglu og samsetningu af afleiddum lögaðila og heiti og aðsetri lánardrottins.
+3. **Vörunúmer** – Að lokum er vöruheitið byggt á sviðsetningu, samkvæmt eftirfarandi þremur gerður af upplýsingum:
 
-    - Stillt kortlagningarregla
-    - Hinn afleiddi lögaðili
-    - Afleiddur lánardrottinn reikningur
+    - Skilgreind vörpunarregla
+    - Afleiddi lögaðilinn
+    - Afleiddi lánardrottnalykillinn
 
-Til að keyra staðfestingu skaltu velja **Athugaðu** í hlið við hlið áhorfanda. Eins og er framkvæmir staðfestingin eftirfarandi athuganir:
+Til að keyra staðfestingu velur þú **Athuga** í samhliða yfirliti. Sem stendur framkvæmir staðfesting eftirfarandi athuganir:
 
-- **Skylduskoðun** – Þessi athugun staðfestir lögboðna reiti fyrir hlið við hlið áhorfanda. Notendur geta valið hvaða reitir verða að vera lögboðnir á **Stillingarstillingar** síðu.
-- **Sjálfstraust stig** - Notendur geta stillt viðvörunarþröskuld og villuþröskuld fyrir öryggisstigið. Þessi athugun beinist að öryggisstiginu frá OCR sem er undir þessum viðmiðunarmörkum. Villu- eða viðvörunarskilaboð verða sýnd á grundvelli staðfestingarniðurstöðunnar.
-- **Lögaðili** – Þessi ávísun staðfestir að lögaðili sé í Fjármálum. Ef lögaðilinn er ekki til í fjármálaumhverfinu mistekst fullgildingin.
+- **Skylduathugun** – Þessi athugun staðfestir skyldusvæði fyrir yfirlit hlið við hlið. Notendur geta valið hvaða reitir verða að vera áskildir á síðunni **Skilgreiningarstilling**.
+- **Áreiðanleikaeinkunn** – Notendur geta stillt viðvörunarmörk og villumörk fyrir áreiðanleikaeinkunnina. Í þessari athugun er lögð áhersla á áreiðanleikaeinkunn frá OCR sem er undir þeim mörkum. Villuboð eða viðvörunarskilaboð verða sýnd á grundvelli niðurstöðu staðfestingar.
+- **Lögaðili** – Þessi athugun staðfestir að lögaðili er í Finance. Ef lögaðilinn er ekki til staðar í Finance-umhverfinu tekst staðfestingin ekki.
 
-Þegar hlið við hlið áhorfandi er notaður í fyrsta skipti og notandinn velur **Athugaðu**, eru afleiðslu- og staðfestingarferlar keyrðir. Ef reikningarnir eru nákvæmir er staðfestingarferlið keyrt þegar notandinn velur **Heill endurskoðun**. Það er líka keyrt þegar notandinn velur **Búðu til reikning lánardrottins**.
+Þegar samhliða yfirlitið er notað í fyrsta skipti og notandi velur **Athuga** er afleiðslu- og villuleitarferlið keyrt. Ef reikningarnir eru nákvæmir er villuleitarferlið keyrt þegar notandi velur **Ljúka yfirferð**. Það er einnig keyrt þegar notandinn velur **Mynda reikning lánardrottins**.
 
-Afleiðingarferlið á sér stað fyrir staðfestingarferlið og allar viðvaranir eða villur koma frá staðfestingarferlinu. Viðvaranirnar og villurnar verða skráðar í Finance.
+Afleiðsluferlið á sér stað á undan villuleitarferlinu og allar viðvaranir og villur koma úr villuleitarferlinu. Viðvaranirnar og villurnar verða skráðar inn í Finance.

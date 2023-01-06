@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: af5d0a001fbe705834e116516933be67f2de8826
 ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/10/2022
 ms.locfileid: "8734159"
@@ -26,7 +26,7 @@ ms.locfileid: "8734159"
 
 Notið þetta ferli fyrir verk til að stofna innheimtubréfaröð. Þetta verkefni notar USMF-sýnifyrirtækið.
 
-1. Fara til **Inneign og innheimtur > Uppsetning > Setja upp innheimtubréfaröð**.
+1. Fara í **Skuldir og innheimta > Uppsetning > Setja upp innheimtubréfaröð**.
 2. Smellt er á **Nýtt**.
 3. Í reitnum **Röð innheimtubréfa** skal færa inn kenni raðar sem mun standa fyrir röðina. Það verður notuð þegar þú setur upp bókunarreglu.
 4. Í reitinn **Lýsing** skal slá inn gildi. Greiðsluskilmálar eru valfrjálsar. Ef fært er inn hér gildi, reikningur þóknunar innheimtubréfs nota þessar greiðsluskilmála í stað greiðsluskilmálar geymd með viðskiptavini.  
@@ -52,9 +52,9 @@ Notið þetta ferli fyrir verk til að stofna innheimtubréfaröð. Þetta verke
 22. Í listanum skal smella á tengilinn í valinni línu.
 23. Færið inn tölu í reitnum **Lágmarksupphæð vanskila**.
 24. Í reitinn **Dagar** skal slá inn númer.
-25. Veldu gátreitinn **Vaið** til að stöðva viðskiptamanninn í því að bæta við frekari afhendingum og reikningsfærslum. Til að opna reikninginn skaltu velja **Nei** í **Innheimta og afhending í bið** sviði á **Viðskiptavinir** síðu.  
+25. Veldu gátreitinn **Vaið** til að stöðva viðskiptamanninn í því að bæta við frekari afhendingum og reikningsfærslum. Veljið **Nei** í **Reikningsfærsla og afhending í bið** svæðinu á síðunni **Viðskiptavinir** til að opna fyrir lykilinn.  
 26. Útvíkkaðu flýtiflipann **Athugasemd**.
-27. Færið inn textann sem birtist innheimtubréfinu fyrir valda innheimtubréfakóða. Þú getur þýtt þennan texta á mörg tungumál með því að nota **Þýðingar** valmynd fyrir ofan athugasemdareitinn.  
+27. Færið inn textann sem birtist innheimtubréfinu fyrir valda innheimtubréfakóða. Hægt er að þýða þennan texta í á mörgum tungumálum með því að nota valmyndina **Þýðingar** yfir víxilkassanum.  
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Stofna og úthluta ítarlegu regluskipulagi
-description: Þessi grein útskýrir hvernig á að búa til og úthluta háþróaðri regluskipan á reikningsskipan.
+description: Þessi grein útskýrir hvernig á að stofna og úthluta ítarlegri reglusamsetningu við reikningsskipulag.
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 72688642936f9428c96aebb34bf9f240dd48b46b
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8896320"
@@ -24,7 +24,7 @@ ms.locfileid: "8896320"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að búa til og úthluta háþróaðri regluskipan á reikningsskipan. Þessi handbók notar sýnifyrirtækið USMF.
+Þessi grein útskýrir hvernig á að stofna og úthluta ítarlegri reglusamsetningu við reikningsskipulag. Þessi handbók notar sýnifyrirtækið USMF.
 
 ## <a name="create-an-advanced-rule-structure"></a>Stofna skipulag ítarlegrar reglu
 1. Farðu í **Skoðunarrúðu > Kerfi > Fjárhagur > Bókhaldslykill > Skipulag > Ítarlegt regluskipulag**.

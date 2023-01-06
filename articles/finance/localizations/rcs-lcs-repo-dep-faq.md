@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) - Lifecycle Services (LCS) úrelding á geymslu
-description: Þessi grein veitir upplýsingar um afskrift Microsoft Dynamics Lifecycle Services (LCS) geymsla sem er fyrirhuguð sem hluti af útfærslu á Regulatory Configuration Service (RCS) alþjóðlegu geymslunni.
+description: Í þessari grein er að finna upplýsingar um úreldingu á Microsoft Dynamics Lifecycle Services (LCS) geymslu sem er hluti af áætlun um uppfærslu á altækri geymslu Regulatory Configuration Service (RCS).
 author: kfend
 ms.date: 10/27/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: RCS, Regulatory Configuration Services, Localization, LCS storage, LCS storage deprecation
 ms.openlocfilehash: 717a2b9b00e137631a7cb9a188bdcf1b33e6af02
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9277215"
@@ -29,17 +29,17 @@ ms.locfileid: "9277215"
 Verið er að úrelda notkun Microsoft Dynamics Lifecycle Services (LCS) sem gagnageymslu fyrir skilgreiningar rafrænnar skýrslugerðar. Þessi úrelding felur í sér eftirfarandi breytingar:
 
 - Skilgreiningar frá Microsoft sem eru notaðar í forritum Microsoft Dynamics 365 verða ekki lengur gefnar út í samnýtt eignasafn í LCS. Þess í stað verða þær einungis birtar í gegnum altæka geymslu RCS. Hins vegar verða stillingar fyrir Dynamics AX 2012 áfram birtar í samnýttu eignasafni í LCS þar til stuðningstíma fyrir AX 2012 lýkur.
-- Virknin sem gerir þér kleift að hlaða upp stillingum í Project eignasafnið í LCS frá fjármála- og rekstrarforritum og frá RCS, verður óvirkjuð. Hins vegar verður áfram hægt að nota vafrann í LCS til að hlaða upp skilgreiningum í eignasafn verks. Þar af leiðandi verður enn hægt að bæta skilgreiningum við LCS þannig að þær geti verið með í lausnapökkunum.
-- Innflutningur á stillingum frá LCS verður áfram tiltækur og studdur í fjármála- og rekstraröppum, og í RCS, um nokkurt skeið. Hins vegar verður virknin að lokum gerð úreld. (Nákvæmur dagur úreldingar verður tilkynntur síðar.)
+- Aðgerðin sem gerir kleift að hlaða upp skilgreiningum í eignasafn verks í LCS úr forritum fjármála- og reksturs og frá RCS verður gerð óvirk. Hins vegar verður áfram hægt að nota vafrann í LCS til að hlaða upp skilgreiningum í eignasafn verks. Þar af leiðandi verður enn hægt að bæta skilgreiningum við LCS þannig að þær geti verið með í lausnapökkunum.
+- Innflutningur á skilgreiningum úr LCS mun áfram vera í boði og studdur í forritum fjármála- og reksturs og í RCS að svo stöddu. Hins vegar verður virknin að lokum gerð úreld. (Nákvæmur dagur úreldingar verður tilkynntur síðar.)
 
 ## <a name="deprecation-notice"></a>Tilkynning um úreldingu
 
-Frávísun á notkun LCS sem geymslu var tilkynnt í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Finance - LCS úreldingartilkynning](../get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Fyrirhuguð dagsetning úreldingar er 1. apríl 2022.
+Úrelding á notkun LCS sem geymslu var komið á framfæri í [Fjarlægðir eða úreltir eiginleikar í Dynamics 365 Finance - LCS tilkynningu um úreldingu](../get-started/removed-deprecated-features-finance.md#features-removed-or-deprecated-in-the-finance-10017-release). Fyrirhuguð dagsetning úreldingar er 1. apríl 2022.
 
 ## <a name="key-features"></a>Lykileiginleikar
 
 - Notaðu RCS til að búa til og breyta ER-skilgreiningum og altækum eiginleikum.
-- Ýttu stillingum beint frá RCS hönnuði yfir í tengt forrit, eins og Dynamics 365 Finance umhverfi, svo að þú getir fljótt gert og prófað breytingar á stillingum þínum.
+- Þröngvaðu skilgreiningum beint úr RCS-hönnuði í tengt forrit eins og Dynamics 365 Finance umhverfi svo þú getir gert og prófað breytingar á fljótlegan hátt í skilgreiningunum þínum.
 - Geymdu, deildu og hafðu umsjón með stuðningstímanum miðlægt fyrir bæði skilgreiningar rafrænnar skýrslugerðar og altæka eiginleika í gegnum altæka miðlæga geymslu.
 
 ## <a name="guidance-for-one-time-and-ongoing-actions"></a>Leiðbeiningar fyrir stakar og áframhaldandi aðgerðir
@@ -73,7 +73,7 @@ Notaðu altæka gagnageymslu í eftirfarandi tilgangi:
 
 ### <a name="does-this-change-mean-that-lcs-cant-be-used-as-central-storage-for-configurations"></a>Þýðir þessi breyting að ekki sé hægt að nota LCS sem miðlæga geymslu fyrir skilgreiningar?
 
-Já. Aðgerðin sem gerir þér kleift að hlaða upp stillingum í verkefnasafnið í LCS frá fjármála- og rekstrarforritum verður úrelt. Hins vegar verður áfram hægt að nota vafrann í LCS til að hlaða upp skilgreiningum í eignasafn verks eftir þörfum.
+Já. Aðgerðin sem gerir kleift að hlaða upp skilgrieiningum í eignasafn verks í LCS úr forritum fjármála- og reksturs verður gerð úreld. Hins vegar verður áfram hægt að nota vafrann í LCS til að hlaða upp skilgreiningum í eignasafn verks eftir þörfum.
 
 ### <a name="i-thought-that-rcs-was-a-replacement-repository-for-importing-global-template-files-i-didnt-think-that-its-used-to-store-configurations-which-is-correct"></a>Ég hélt að RCS væri varageymsla fyrir innflutning á altækum sniðmátsskrám. Ég hélt að það væri ekki notað til að geyma skilgreiningar. Hvort er rétt?
 
@@ -81,11 +81,11 @@ RCS er hönnunarþjónusta til að búa til og breyta skilgreiningum rafrænnar 
 
 ### <a name="without-lcs-what-is-the-suggested-way-to-store-configurations-so-that-test-and-production-configurations-can-easily-be-managed-and-transferred"></a>Án LCS, hvaða leið er mælt með til að geyma skilgreiningar þannig að auðvelt sé að halda utan um og flytja á milli skilgreiningarnar „próf“ og „framleiðsla“?
 
-RCS notar hugmyndina á bak við *tengt forrit*. Tengd umsókn myndar tengingu á milli RCS og hvers kyns tilviks fjármála- og rekstrarappa. Vegna þess að hægt er að nota RCS til að breyta stillingum, er hægt að nota tengda forritið til að ýta stillingunum beint frá hönnuðinum yfir í umhverfi fyrir fjármála- og rekstrarforrit. Þar af leiðandi er hægt að breyta og prófa skilgreiningarnar á fljótlegan hátt í staðinn fyrir að fara í gegnum geymslu LCS á verkstigi.
+RCS notar hugmyndina á bak við *tengt forrit*. Tengt forrit myndar tengingu milli RCS og hvaða tilviks sem er af forritum fjármála- og reksturs. Þar sem hægt er að nota RCS til að breyta skilgreiningum, er hægt að nota tengt forrit til að þrýsta skilgreiningunum beint úr hönnuði og í umhverfi forrita fjármála- og reksturs. Þar af leiðandi er hægt að breyta og prófa skilgreiningarnar á fljótlegan hátt í staðinn fyrir að fara í gegnum geymslu LCS á verkstigi.
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Eru einhver dæmi sem sýna uppsetninguna og stjórnunina?
 
-Það eru engin dæmi, en þú getur lokið skrefunum fyrr í þessari grein til að flytja stillingarnar þínar yfir í RCS Global geymsluna.
+Engin dæmi eru til en hægt er að ljúka skrefunum fyrri í þessari grein til að flytja skilgreiningarnar í altæka geymslu RCS.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>Er RCS skilyrði til að stilla rafræna skýrslugerð?
 
@@ -104,4 +104,4 @@ Frekari upplýsingar um stuðning við afurð er að finna í [Yfirlit yfir alt�
 
 ### <a name="whats-the-cost-of-using-rcs"></a>Hvað kostar að nota RCS?
 
-RCS og hnattvæðingargeymslan eru veitt ókeypis sem hluti af núverandi leyfum fyrir fjármála- og rekstrarforrit. Enginn sérstakur kostnaður tengist því að nota þjónustu RCS-hönnunar eða geyma skilgreiningar í altæku geymslunni. Engin takmörk eru á fjölda skilgreininga eða tengdra forrita eins og er.
+RCS og altæk gagnageymsla eru án endurgjalds sem hluti af fyrirliggjandi forritsleyfum fjármálum- og rekstri. Enginn sérstakur kostnaður tengist því að nota þjónustu RCS-hönnunar eða geyma skilgreiningar í altæku geymslunni. Engin takmörk eru á fjölda skilgreininga eða tengdra forrita eins og er.

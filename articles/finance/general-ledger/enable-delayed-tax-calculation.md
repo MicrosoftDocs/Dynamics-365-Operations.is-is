@@ -1,6 +1,6 @@
 ---
 title: Virkja frestun skattaútreiknings á dagbókum
-description: Þessi grein útskýrir hvernig á að kveikja á eiginleikanum Seinkaður skattútreikningur til að hjálpa til við að bæta frammistöðu skattaútreikninga þegar fjöldi færslubókarlína er mjög mikill.
+description: Í þessari grein er útskýrt hvernig hægt er að kveikja á Frestaður skattaútreikningur til að hjálpa til við að bæta framkvæmd skattaútreikninga þegar fjöldi færslubókarlína er mjög mikill.
 author: EricWang
 ms.date: 09/18/2019
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
 ms.openlocfilehash: 02a038318d4c0fb44b6fcc4bb159ea87c2e9368a
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8887920"
@@ -26,7 +26,7 @@ ms.locfileid: "8887920"
 [!include [banner](../includes/banner.md)]
 
 
-Þessi grein útskýrir hvernig þú getur seinkað útreikningi söluskatts á dagbækur. Þessi geta hjálpar til við að bæta afköst skattaútreikninga þegar margar færslubókarlínur eru til staðar.
+Þessi grein útskýrir hvernig hægt er að seinka söluskattsútreikningi í færslubókum. Þessi geta hjálpar til við að bæta afköst skattaútreikninga þegar margar færslubókarlínur eru til staðar.
 
 Sjálfgefið er að fjárhæðir söluskatts í færslubókarlínum eru reiknaðar út í hvert skipti sem skattatengdir reitir eru uppfærðir. Þessir reitir innihalda reiti fyrir VSK-flokka og VSK-flokka vöru. Sérhver uppfærsla á færslubókarlínu veldur því að skattfjárhæðir eru endurreiknaðar fyrir allar dagbókarlínur. Þrátt fyrir að þessi hegðun hjálpi notendum að sjá skattaupphæðir reiknaðar í rauntíma getur það einnig haft áhrif á afköst ef fjöldi færslubókarlína er mjög mikill.
 

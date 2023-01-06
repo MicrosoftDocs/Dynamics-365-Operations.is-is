@@ -14,7 +14,7 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: f1e6932740c33ae418ac633623680eda6af7a592
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8858525"
@@ -34,7 +34,7 @@ ms.locfileid: "8858525"
 - Afskriftafærslur er hægt að stofna í einu þrepi.
 - Innistæðulausar (NSF) greiðslur er hægt að vinna í einu þrepi.
 
-Þessi grein lýsir hverju hugtaki.
+Þessi grein lýsir hverju hugtaki fyrir sig.
 
 ## <a name="customer-aging-snapshots"></a>Aldursgreiningarmynd viðskiptavinar
 
@@ -86,7 +86,7 @@ Aðgerðaglugginn inniheldur hnappa sem sýna þér tengdar upplýsingar fyrir v
 
 Hægt er að fella niður, endurskipa eða bakfæra heilar vaxtanótur eða þóknanir og vexti á færslur sem eru hluti af vaxtanótum. Á flipanum **Innheimta** í aðgerðaglugganum á listasíðunni **Allir viðskiptavinir** velurðu **Vaxtanótu**, **Færsluvextir** eða **Þóknanir**.
 
-Þessar leiðréttingar hafa aðeins áhrif á vaxtanótur, og vexti og gjöld sem þær hafa. Fyrir upplýsingar um hvernig á að afskrifa öll gjöld sem viðskiptavinur skuldar, sjá [Að búa til afskriftarfærslur](#creating-write-off-transactions) kafla þessarar greinar.
+Þessar leiðréttingar hafa aðeins áhrif á vaxtanótur, og vexti og gjöld sem þær hafa. Upplýsingar um hvernig á að afskrifa öll gjöld sem viðskiptavinur skuldar er að finna í hlutanum [Stofnun á afskriftarfærslum](#creating-write-off-transactions) í þessari grein.
 
 Frekari upplýsingar, sjá Stofna vaxtakóða með sviði og Reikna vexti.
 

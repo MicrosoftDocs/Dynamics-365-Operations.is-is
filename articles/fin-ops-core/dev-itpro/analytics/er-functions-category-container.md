@@ -1,6 +1,6 @@
 ---
 title: Listi yfir aðgerðir rafrænnar skýrslugerðar í gámaflokknum
-description: Þessi grein veitir upplýsingar um gámaaðgerðirnar sem eru studdar í rafrænni skýrslugerð (ER).
+description: Þessi grein inniheldur upplýsingar um gámaaðgerðir sem eru studdar í rafrænni skýrslugerð.
 author: kfend
 ms.date: 12/14/2020
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: f07c3645f824fc2fe8ca156c8cf06840e993a9a5
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9282652"

@@ -1,6 +1,6 @@
 ---
 title: Viðvörunartilkynningar biðlara með tölvupósti
-description: Þessi grein veitir upplýsingar um hvernig á að setja upp reglur sem senda tilkynningar í tölvupósti sem fyrirfram skilgreindir atburðir eiga sér stað.
+description: Þessi grein veitir upplýsingar um hvernig á að setja upp reglur sem senda tilkynningar í tölvupósti þegar fyrirfram skilgreindir viðburðir eiga sér stað.
 author: RichdiMSFT
 ms.date: 09/20/2019
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
 ms.openlocfilehash: 469c7fdda40780d6e559819103d73d7a4e7132a1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8878279"

@@ -1,6 +1,6 @@
 ---
 title: Skattur er bókaður í rangan fjárhagslykil í fylgiskjalinu
-description: Þessi grein veitir upplýsingar um úrræðaleit sem geta hjálpað þegar skattur er bókaður á rangan fjárhagsreikning í fylgiskjali.
+description: Þessi grein veitir upplýsingar um úrræðaleit sem getur hjálpað til þegar skattur er bókaður á rangan fjárhagslykil í fylgiskjalinu.
 author: qire
 ms.date: 04/12/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 5eb0f7d0196ac52a87d61cba6b9cd438708eff73
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8846742"

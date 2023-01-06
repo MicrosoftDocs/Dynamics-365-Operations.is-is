@@ -1,6 +1,6 @@
 ---
 title: Þjappa stórum skjölum sem eru mynduð í rafrænni skýrslugerð
-description: Þessi grein útskýrir hvernig á að þjappa stórum skjölum sem eru búin til með rafrænu skýrslusniði (ER).
+description: Þessi grein útskýrir hvernig á að þjappa stórum skjölum sem mynduð eru með sniði rafrænnar skýrslugerðar.
 author: kfend
 ms.date: 09/11/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 ms.openlocfilehash: ebdd84cdf39e21bf3d4721b1f1545b29fe38440b
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9273279"
@@ -26,14 +26,14 @@ ms.locfileid: "9273279"
 
 [!include [banner](../includes/banner.md)]
 
-Hægt er að nota [Ramma rafrænnar skýrslugerðar](general-electronic-reporting.md) til að skilgreina lausn sem sækir færslugögn til að mynda skjal á útleið. Þetta myndaða skjal gæti verið nokkuð stórt. Þegar þessi gerð skjals er mynduð er minnið [Þjónn hugbúnaðarhluta (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) notað til að halda því. Á einhverjum tímapunkti verður síðan að hlaða niður skjalinu frá þínu Microsoft Dynamics 365 Fjármálaumsókn. Sem stendur takmarkast hámarksstærð eins skjals sem myndað er í rafrænni skýrslugerð við 2 GB. Þar að auki [takmarkar](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) Finance stærð sóttrar skráar við 1 GB sem stendur. Þess vegna þarf að skilgreina lausn rafrænnar skýrslugerðar sem dregur úr líkunum á að farið verði yfir þessar takmarkanir og að undantekningin **Streymi var of langt** eða **Yfirflæði eða undirflæði í reikniaðgerðinni** komi upp.
+Hægt er að nota [Ramma rafrænnar skýrslugerðar](general-electronic-reporting.md) til að skilgreina lausn sem sækir færslugögn til að mynda skjal á útleið. Þetta myndaða skjal gæti verið nokkuð stórt. Þegar þessi gerð skjals er mynduð er minnið [Þjónn hugbúnaðarhluta (AOS)](../dev-tools/access-instances.md#location-of-packages-source-code-and-other-aos-configurations) notað til að halda því. Á einhverjum tímapunkti þarf að sækja skjalið úr Microsoft Dynamics 365 Finance-forritinu. Sem stendur takmarkast hámarksstærð eins skjals sem myndað er í rafrænni skýrslugerð við 2 GB. Þar að auki [takmarkar](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) Finance stærð sóttrar skráar við 1 GB sem stendur. Þess vegna þarf að skilgreina lausn rafrænnar skýrslugerðar sem dregur úr líkunum á að farið verði yfir þessar takmarkanir og að undantekningin **Streymi var of langt** eða **Yfirflæði eða undirflæði í reikniaðgerðinni** komi upp.
 
 Þegar lausn er skilgreind er hægt að stilla snið rafrænnar skýrslugerðar í aðgerðarhönnuði með því að bæta við rótareiningu af gerðinni **Mappa** til að þjappa saman efninu sem er myndað af einhverri faldaðri einingu. Þjöppunin virkar „í tæka tíð“ þannig að hægt sé að minnka hámarks minnisnotkun og stærð skráarinnar sem verður hlaðið niður.
 
 > [!NOTE]
 > Skráarþjöppun tekur viðbótarprósentu af notkun örgjörvans.
 
-Fyrir frekari upplýsingar um þessa nálgun skaltu ljúka við dæmið í þessari grein.
+Fyrir frekari upplýsingar um þessa aðferð skal ljúka dæminu í þessari grein.
 
 ## <a name="example-compress-an-outbound-document"></a>Dæmi: Þjappa skjali á útleið
 
@@ -41,7 +41,7 @@ Fyrir frekari upplýsingar um þessa nálgun skaltu ljúka við dæmið í þess
 
 ### <a name="prerequisites"></a>Forkröfur
 
-Áður en þú lýkur aðferðunum í þessari grein verður að ljúka eftirfarandi skrefum.
+Áður en ferlið í þessari grein er klárað þarf að ljúka eftirfarandi skrefum.
 
 1. [Virkja skilgreiningarveitu](er-defer-xml-element.md#activate-a-configuration-provider).
 2. [Flytja inn dæmið um skilgreiningar rafrænnar skýrslugerðar](er-defer-xml-element.md#import-the-sample-er-configurations).

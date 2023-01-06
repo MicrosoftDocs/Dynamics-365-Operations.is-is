@@ -1,6 +1,6 @@
 ---
 title: Framleiðsluafköst Power BI efni
-description: Þessi grein lýsir því hvað er innifalið í framleiðsluframmistöðu Power BI efni.
+description: Þessi grein lýsir því hvað er innifalið í Framleiðsluafköst Power BI efni.
 author: AndersGirke
 ms.date: 12/19/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 1611
 ms.search.form: ProductionPerformancePowerBI
 ms.openlocfilehash: 010b351023c8dee2f1242442c5846098374f18ca
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9280805"
@@ -24,7 +24,7 @@ ms.locfileid: "9280805"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því sem er innifalið í **Framleiðsluárangur** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þessi grein lýsir því hvað er innifalið í **Framleiðsluafköst** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -63,7 +63,7 @@ Eftirfarandi gögn eru notuð fyrir skýrslusíðurnar í **Framleiðsluafköst*
 
 Eftirfarandi tafla sýnir uppsafnaðar mælingar sem eru notaðar sem grunnur að Power BI efninu.
 
-| Eining                   | Lykiluppsafnaðar mælingar  | Gagnagjafi fyrir fjármála- og rekstrarforrit | Reitur              |
+| Eining                   | Lykiluppsafnaðar mælingar  | Gagnagjafi fyrir fjármála- og reksturs-forrit | Svæði              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

@@ -1,6 +1,6 @@
 ---
 title: Flytja inn skilgreiningar til að búa til skjöl sem eru með forritsgögnum
-description: Til að ljúka skrefunum í þessu ferli, verður þú fyrst að ljúka ferlinu, ""ER Búðu til stillingarveitu og merktu það sem virkt"".
+description: Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka.
 author: kfend
 ms.date: 11/02/2017
 ms.topic: business-process
@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ccff17ad83b6840b5e8f327e24f8ac8a5e8ff620
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290575"
@@ -25,7 +25,7 @@ ms.locfileid: "9290575"
 
 Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið „Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka“.
 
-Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) grunnstillingar þannig að þær búi til rafræn skjöl. Í þessu ferli muntu flytja inn þær grunnstillingar Rafræn skýrslugerð (ER) sem krafist er, sem hafa verið stofnaðar fyrir sýnifyrirtækið, Litware, Inc. og nota þær til að búa til rafræn skjöl. Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Skrefin er hægt að klára með því að nota DEMF gagnasafn. Áður en þú byrjar skaltu hlaða niður og vista skrárnar sem taldar eru upp í hjálpargreininni, "Búa til rafræn skjöl og uppfæra umsóknargögn með ER tólinu" (generate-electronic-documents-update-application-data/). Skrárnar eru Intrastat (líkan).xml, Intrastat (vörpun).xml, og Intrastat (snið).xml.
+Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) grunnstillingar þannig að þær búi til rafræn skjöl. Í þessu ferli muntu flytja inn þær grunnstillingar Rafræn skýrslugerð (ER) sem krafist er, sem hafa verið stofnaðar fyrir sýnifyrirtækið, Litware, Inc. og nota þær til að búa til rafræn skjöl. Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Skrefin er hægt að klára með því að nota DEMF gagnasafn. Áður en þú byrjar, skal hlaða niður og vista skrárnar sem eru á listanum í hjálpargrein, „Mynda rafræn skjöl og uppfæra gögn forrits með Rafræn skýrslugerð verkfæri“ (generate-electronic-documents-update-application-data/). Skrárnar eru Intrastat (líkan).xml, Intrastat (vörpun).xml, og Intrastat (snið).xml.
 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
     * Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef þú sérð skilgreiningarveituna ekki, skal klára skrefin í ferlinu Stofna skilgreiningarveitu og merkja hana sem virka.  

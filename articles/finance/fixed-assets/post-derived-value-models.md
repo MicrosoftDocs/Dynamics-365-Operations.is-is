@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d0270ad1e66193832fb1139fca4439b36b5ffb84
 ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/15/2022
 ms.locfileid: "9682858"

@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 03780b36cb3a6a609350c61792f0c98f2c08244d
 ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/05/2022
 ms.locfileid: "8711772"
@@ -42,7 +42,7 @@ Sniðmát fjárhagsáætlunargerðar er stofnað af fjárhagsáætlunarstjóra �
 
 1.  Smellið á **Hönnun** í Microsoft Dynamics Office-innbót eftir að þú hefur skráð þig inn.
 2.  Fyrir upplýsingar úr haus Smellið á hnappinn **Bæta við reitum**.
-3.  Velurðu eining gagnaveita BudgetPlanJustification, og Smellið á **Áfram**. **athugasemd:** Þessi eining er áskilið fyrir jöfnunarfylgiskjal. Hægt er að nota aðrar einingar en hlaðið aftur til Microsoft Dynamics 365 Finance mun mistakast ef þessi eining er ekki með.
+3.  Velurðu eining gagnaveita BudgetPlanJustification, og Smellið á **Áfram**. **athugasemd:** Þessi eining er áskilið fyrir jöfnunarfylgiskjal. Aðra lögaðilar má nota en upphleðslan til baka í Microsoft Dynamics 365 Finance tekst ekki ef þessi eining er ekki höfð með.
 4.  Bæta við merkjunum og gildunum BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter, og DocumentNumber og í Word-skjalið. **athugasemd:** Hægt er að nota sín eigin sérsniðnu merki, frekar en stöðluð merki, ef þess er þörf.
 5.  Smelltu á **Lokið** til að ljúka haushlutanum.
 6.  Fyrir upplýsingar línustigs um upphæðir fjárhagsáætlunar Smelltu á **Bæta við tafla**.

@@ -1,6 +1,6 @@
 ---
 title: Stofna reglur fyrir Fínstillingarráðgjöf
-description: Þessi grein fjallar um hvernig á að bæta nýjum reglum við hagræðingarráðgjafa.
+description: Þessi grein fjallar um hvernig á að bæta nýjum reglum við Fínstillingarráðgjöfina.
 author: kamaybac
 ms.date: 02/04/2018
 ms.topic: article
@@ -18,7 +18,7 @@ ms.search.industry: ''
 ms.search.form: SelfHealingWorkspace
 ms.openlocfilehash: a4addc98e3d5496bc8d2fafb3918931da876739f
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9273918"
@@ -27,7 +27,7 @@ ms.locfileid: "9273918"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að búa til nýjar reglur fyrir **Hagræðingarráðgjafi**. Til dæmis getur þú búið til nýja reglu sem tilgreinir hvaða tilfelli af tilboðsbeiðnum (RFQ) hafa tóman titil. Með því að nota titla á málum er auðveldlega hægt að greina þau og leita að þeim. Á einfaldan hátt sýnir þetta dæmi hverju hægt er að ná fram með fínstillingarreglum. 
+Þessi grein útskýrir hvernig á að stofna nýjar reglur fyrir **Fínstillingarráðgjöf**. Til dæmis getur þú búið til nýja reglu sem tilgreinir hvaða tilfelli af tilboðsbeiðnum (RFQ) hafa tóman titil. Með því að nota titla á málum er auðveldlega hægt að greina þau og leita að þeim. Á einfaldan hátt sýnir þetta dæmi hverju hægt er að ná fram með fínstillingarreglum. 
 
 *Regla* er könnun á forritsgögnum. Ef ástandið sem reglan metur sé uppfyllt, eru tækifæri til að fínstilla ferla eða betrumbæta gögn búin til. Hægt er að nýta sér möguleikana og, valkvætt, er hægt að mæla áhrif aðgerðanna. 
 
@@ -251,7 +251,7 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 }
 ```
 
-Fyrir frekari upplýsingar, horfðu á stutta YouTube myndband: [Hagræðingarráðgjafi í Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+Nánari upplýsingar má fá með því að horfa á stutt YouTube-myndband: [Fínstillingarráðgjöf í Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

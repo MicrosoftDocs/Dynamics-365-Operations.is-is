@@ -1,6 +1,6 @@
 ---
 title: Skýrsla fyrir framlengingu eigna
-description: Þessi grein útskýrir hvernig á að nota skýrsluna um framreikning eigna.
+description: Þessi grein útskýrir hvernig á að nota skýrslu fyrir framlengingu eigna.
 author: moaamer
 ms.date: 01/08/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
 ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/29/2022
 ms.locfileid: "9068781"
@@ -30,7 +30,7 @@ ms.locfileid: "9068781"
 
 **Framlenging eigna** skýrslan notar ramma rafrænnar skýrslugerðar (ER). Áður en hægt er að keyra skýrsluna verður að flytja inn skilgreiningar á eignalíkaninu og framlagningu eigna frá Microsoft Dynamics Lifecycle Services (LCS). Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)
 
-Þessi skýrsla er aðgengileg í Microsoft Dynamics 365 Finance, Enterprise útgáfa 7.3, eða sem flýtileiðrétting fyrir Microsoft Dynamics 365 Finance, Enterprise útgáfa (júlí 2017). Það verður að beita þremur bráðabótum á umhverfi sem er með júlí 2017 útgáfuna:
+Þessi skýrsla er fáanleg í Microsoft Dynamics 365 Finance, Enterprise Edition 7.3 eða sem bráðabót fyrir Microsoft Dynamics 365 Finance, Enterprise Edition (júlí 2017). Það verður að beita þremur bráðabótum á umhverfi sem er með júlí 2017 útgáfuna:
 
 - **KB 4041754:** Ekki er hægt að hlaða niður skilgreiningum rafrænnar skýrslugerðar (ER) frá LCS, passar ekki við núverandi útgáfu eftir að hafa sótt uppfærslupakkann
 - **KB 4056107:** Rafræn skýrslugerð (GER) heildaruppfærsla 5

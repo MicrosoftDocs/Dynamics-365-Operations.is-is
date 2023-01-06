@@ -1,6 +1,6 @@
 ---
 title: Sjálfgefnir mótlyklar fyrir reikninga lánardrottna og færslubækur reikningssamþykkta
-description: Þessi grein mun hjálpa þér að ákveða hvar þú ættir að úthluta sjálfgefnum reikningum fyrir reikningabækur.
+description: Þessi grein aðstoðar við að ákveða hvar á að úthluta sjálfgefnum lyklum fyrir reikningabækur.
 author: abruer
 ms.date: 01/12/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 553933ca-928d-4031-bb8c-f9cff458320b
 ms.search.form: LedgerJournalTable
 ms.openlocfilehash: ed75e0a3b9994d061e94d07ffcc43e3b73bec55e
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9281673"

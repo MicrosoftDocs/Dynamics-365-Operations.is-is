@@ -1,6 +1,6 @@
 ---
 title: Skrá ER-gerð áfangastaðar
-description: Þessi grein veitir upplýsingar um að stilla áfangastað fyrir ER snið.
+description: Þessi grein veitir upplýsingar um hvernig á að stilla áfangastað skráar fyrir snið rafrænnar skýrslugerðar.
 author: kfend
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 ms.openlocfilehash: cc9dc2942ac7bcf7924568ad8d7abc31cea61c0e
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9285396"

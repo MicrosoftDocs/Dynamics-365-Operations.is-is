@@ -15,7 +15,7 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.search.form: CAMCostDistributionRule
 ms.openlocfilehash: 23adea279cad3fcf69cc6926d6f8dee485150221
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9272399"

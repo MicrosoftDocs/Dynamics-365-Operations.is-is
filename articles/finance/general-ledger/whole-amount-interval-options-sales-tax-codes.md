@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0b81780e60825021ad7a700d85257ba0f5a2447a
 ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/25/2022
 ms.locfileid: "9715242"
@@ -26,7 +26,7 @@ ms.locfileid: "9715242"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir valkostina fyrir **Reikniaðferð** reitinn um söluskattskóða og hvernig söluskattur er reiknaður fyrir millibili og heilar upphæðir.
+Þessi grein útskýrir hvernig valkostir fyrir svæðið **Útreikningsaðferðir** hafa áhrif á virðisaukaskattskóða og hvernig virðisaukaskattur er reiknaður fyrir tímabil og fullar upphæðir.
 
 Hægt er að setja upp vsk-kóða til að reikna út byggt á heildarupphæð eða tímabilsupphæð. Á síðunni **VSK-kóðar** skal nota reitinn **Útreikningsaðferð** á flýtiflipanum **Útreikningur** til að velja reikningsaðferðina fyrir VSK-kóða.
 - Heildarupphæð – Skatthlutfall er notað fyrir alla skattskyldu upphæðina.

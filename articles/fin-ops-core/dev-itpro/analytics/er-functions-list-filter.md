@@ -1,6 +1,6 @@
 ---
 title: FILTER ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig aðgerðin SÍA rafræn skýrslugerð (ER) er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig FILTER rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 12/14/2021
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: cfaf76daa8118942c3650e6b39c853434a20ee30
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9272589"
@@ -56,10 +56,10 @@ Sá listi yfir skrár sem er búinn til.
 Ef ein eða báðar frumbreyturnar sem eru stilltar fyrir þessa aðgerð (`list` og `condition`) leyfa ekki að þýða þessa beiðni yfir í beint SQL-kall er gerð undantekning á hönnunartíma. Þessi undantekning upplýsir notandann um að ekki sé hægt að nota annaðhvort `list` eða `condition` til að spyrjast fyrir um gagnagrunninn.
 
 > [!NOTE]
-> The`FILTER` fall hegðar sér öðruvísi en`WHERE` virka þegar [`VALUEIN`](er-functions-logical-valuein.md) fall er notað til að tilgreina valviðmið.
+> Aðgerðin `FILTER` hegðar sér á annan hátt en `WHERE` aðgerðina þegar [`VALUEIN`](er-functions-logical-valuein.md) virknin er notuð til að tilgreina valskilyrðin.
 > 
-> - Ef`VALUEIN` fall er notað í umfangi`WHERE` fall, og önnur rökin af`VALUEIN` vísar til gagnagjafa sem skilar engum færslum, Boolean *[Rangt](er-formula-supported-data-types-primitive.md#boolean)* metur það`VALUEIN` ávöxtun kemur til greina. Því tjáningin`WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` skilar engum söluaðilaskrám ef **VendGroups** gagnagjafi skilar engum færslum lánardrottinshóps.
-> - Ef`VALUEIN` fall er notað í umfangi`FILTER` fall, og önnur rökin af`VALUEIN` vísar til gagnagjafa sem skilar engum færslum, Boolean *[Rangt](er-formula-supported-data-types-primitive.md#boolean)* metur það`VALUEIN` ávöxtun er hunsuð. Því tjáningin`FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` skilar öllum færslum söluaðila um **Söluaðilar** gagnagjafa, jafnvel þó að **VendGroups** gagnagjafi skilar engum færslum lánardrottinshóps.
+> - Ef `VALUEIN` aðgerðina er notuð í umfangi `WHERE` aðgerðar og önnur frumbreyta `VALUEIN` vísar í gagnagjafa sem skilar engum færslur er Boole-gildið *[Ósatt](er-formula-supported-data-types-primitive.md#boolean)* sem skilar `VALUEIN` tekið til greina. Þar af leiðandi skilar segðin `WHERE(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` engum lánardrottnafærslum ef gagnagjafinn **VendGroups** skilar engum færslum lánardrottnaflokks.
+> - Ef `VALUEIN` aðgerðina er notuð í umfangi `FILTER` aðgerðar og önnur frumbreyta `VALUEIN` vísar í gagnagjafa sem skilar engum færslur er Boole-gildið *[Ósatt](er-formula-supported-data-types-primitive.md#boolean)* sem skilar `VALUEIN` hunsað. Þar af leiðandi skilar segðin `FILTER(Vendors, VALUEIN(Vendors.VendGroup, VendGroups, VendGroups.VendGroup))` öllum lánardrottnafærslum fyrir gagnagjafann **Lánardrottnar** jafnvel þótt gagnagjafinn **VendGroups** skili engum færslum lánardrottnaflokks.
 
 ## <a name="example-1"></a>Dæmi 1
 

@@ -1,6 +1,6 @@
 ---
 title: Yfirlit tekjuskráningar (inniheldur myndband)
-description: Þessi grein veitir upplýsingar um eiginleikann Tekjufærsla. Þessi eiginleiki veitir sveigjanlega umgjörð sem gerir það kleift að skilgreina sérstakar reglur fyrir fyrirtækið um greiningu bæði verðlags og tekjuáætlunar fyrir pantanir með mörgum vörutegundum.
+description: Í þessari grein er að finna upplýsingar um tekjuskráningareiginleikann. Þessi eiginleiki veitir sveigjanlega umgjörð sem gerir það kleift að skilgreina sérstakar reglur fyrir fyrirtækið um greiningu bæði verðlags og tekjuáætlunar fyrir pantanir með mörgum vörutegundum.
 author: bking
 ms.date: 03/15/2022
 ms.topic: overview
@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: 5bf07356b5613f438034f8dabac7db197e69a6c8
 ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/12/2022
 ms.locfileid: "9644031"
@@ -25,7 +25,7 @@ ms.locfileid: "9644031"
 [!include [banner](../includes/banner.md)]
 
 >[!NOTE]
->Þessi virkni verður úrelt október 2023, nýir notendur ættu að nota innheimtu áskriftar.
+>Þessi virkni verður afskráð í október 2023, nýir notendur ættu að nota áskriftargreiðslur.
 
 Fyrirtæki í atvinnugrein þar sem margar vörutegundir eru seldar, svo sem vörur, þjónusta, áskriftir og svo framvegis, verða að geta sundurgreint pantanir með mörgum vörutegundum svo hægt sé að greina tekjur á grundvelli sérstakra viðmiðunarregla fyrir fyrirtækið og atvinnugreinina.
 
@@ -38,7 +38,7 @@ Almennt séð má nota tekjuskráningarferlið til að framkvæma þessi verk:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]
 
-The [Hvernig á að nota tekjufærslu í Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) myndband (sýnt hér að ofan) er innifalið í [lagalista um fjármál og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) í boði á YouTube.
+Myndbandið [Hvernig á að nota tekjuskráningu í Dynamics 365 Finance](https://youtu.be/v3amIsiqvoo) (sýnt hér að ofan) er innifalið í [spilunarlistanum fyrir fjármál- og rekstur](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) á YouTube.
 
 Tekjuskráningareiginleikinn veitir sveigjanlega umgjörð sem gerir það kleift að skilgreina sérstakar reglur fyrir fyrirtækið um greiningu bæði verðlags og tekjuáætlunar.
 

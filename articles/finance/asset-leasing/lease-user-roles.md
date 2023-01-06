@@ -1,6 +1,6 @@
 ---
 title: Úthluta notendahlutverkum leigu
-description: Þessi grein lýsir öryggishlutverkunum sem eru notuð í eignaleigu. Það útskýrir einnig hvernig á að úthluta notendum á þau hlutverk.
+description: Þessi grein lýsir öryggishlutverkum sem eru notuð í Eignarleigu. Það útskýrir einnig hvernig á að úthluta notendum á þau hlutverk.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 38c859d64742d582d0709506d83600ea26a21147
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8878132"
@@ -26,7 +26,7 @@ ms.locfileid: "8878132"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir öryggishlutverkunum sem eru notuð í eignaleigu. Það útskýrir einnig hvernig á að úthluta notendum á þau hlutverk.
+Þessi grein lýsir öryggishlutverkum sem eru notuð í Eignarleigu. Það útskýrir einnig hvernig á að úthluta notendum á þau hlutverk.
 
 Þrjú hlutverk notanda aðgreina aðgang að Eignarleigu. Eitt hlutverk er viðeigandi fyrir umsjón leigusamnings, eitt er viðeigandi til að skoðun leigusamninga og eitt er viðeigandi til að framkvæma skyldur leigutaka. Hvert hlutverk er með ákveðnar heimildir fyrir allar leigusíður og hver býður notendum að skoða, búa til, breyta eða eyða leigusamningum, í samræmi við starfsskyldur sínar.
 

@@ -1,6 +1,6 @@
 ---
 title: Hafist handa með eignarleigu
-description: Þessi grein lýsir eignaleigumöguleikanum og fer í gegnum skrefin til að búa til eignaleigusamning og skoða upplýsingar um þá leigusamninga.
+description: Í þessari grein er lýst möguleikum eignarleigu og farið í gegnum skrefin til að búa til leigusamning eignar og skoða upplýsingar fyrir þessa leigusamninga.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -19,7 +19,7 @@ ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: df4343031b3b116318f798f31adb4d1f6bed1db9
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8895139"
@@ -28,7 +28,7 @@ ms.locfileid: "8895139"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir eignaleigumöguleikanum og fer í gegnum skrefin til að búa til eignaleigusamning og skoða upplýsingar um þá leigusamninga. Greinin skilgreinir einnig hugtök sem notuð eru í notendaviðmótinu og skjölunum. Eignaleiga er háþróuð möguleiki til að stjórna, rekja og gera sjálfvirkan fjármálaviðskipti fyrir leigðar eignir í Microsoft Dynamics 365 Fjármál. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins. Eignaleiga samþættist óaðfinnanlega öðrum hlutum Dynamics 365 Finance, þar á meðal fastafjármunir, viðskiptaskuldir og fjárhag.
+Í þessari grein er lýst möguleikum eignarleigu og farið í gegnum skrefin til að búa til leigusamning eignar og skoða upplýsingar fyrir þessa leigusamninga. Í greininni eru einnig skilgreind hugtökin sem notuð eru í notandaviðmóti og fylgigögnum. Eignarleiga er víðtæk lausn til að hafa umsjón með, rekja og virkja sjálfkrafa fjárhagsfærslur fyrir leigðar eignir í Microsoft Dynamics 365 Finance. Eignarleiga samræmist alþjóðlegum reikningsskilastöðlum (IFRS 16) og US GAAP-stöðlum (ASC 842). Eignarleiga nær í og vinnur úr upplýsingum um leigusamningana og hjálpar til við að búa til færslur í færslubók í gegnum gildistíma leigusamningsins, frá upphaflegri skráningu, mánaðarlegum færslum í færslubók, til virðisrýrnunar og lok leigusamningsins. Eignarleiga samþættist á einfaldan hátt við aðra hluta Dynamics 365 Finance, þ.m.t. Eignir, Viðskiptaskuldir og Fjárhag.
 
 Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað vinnusvæði **Eiginleikastjórnun** til að athuga stöðu eiginleikans og kveikt á honum ef þörf krefur. Á vinnusvæðinu **Eiginleikastjórnun** skal finna og velja eiginleika sem kallast **Eignarleiga** og smella svo á hnappinn **Virkja núna**.
 
@@ -60,7 +60,7 @@ Eftirfarandi skýringarmynd sýnir leigubók, leigusamning, reiknaða greiðslu�
 
 - **Leigubók** - Leigubókin inniheldur allar upplýsingar um leigusamninginn, svo sem leiguskilmála, gangvirði og leigugreiðslur. Þar er einnig að finna reikningsskilastaðalinn sem þú fylgir, gerð leigusamningsins og mörkin sem eru tekin til greina í flokkunarprófun leigusamningsins. Leigubókin inniheldur einnig leigufærslurnar sem voru bókaðar í fjárhag. 
   
-- **Leiga** - Leigusamningurinn inniheldur eignaleiguupplýsingarnar sem tákna grunninn að eignaleigunni, uppspretta leiguupplýsinga er leigusamningur og stjórnunarákvörðun sem hvort tveggja er gert utan Dynamics 365 Finance. Gangvirði eignar er verðið sem á að greiða fyrir eign í færslu á degi verðmatsins. Þetta gildi gæti farið eftir eignagerðinni, markaðsskilyrðum og öðrum skilyrðum sem hægt er að taka til greina í matinu. Gangvirði eignar verður tekið til greina í jöfnu flokkunarprófunar.
+- **Leigusamningur** - Leigusamningurinn inniheldur upplýsingar um leigu eignar sem er grunnurinn að eignarleigunni, uppruni leiguupplýsinga er leigusamningur og stjórnunarákvarðanir eru gerðar utan við Dynamics 365 Finance. Gangvirði eignar er verðið sem á að greiða fyrir eign í færslu á degi verðmatsins. Þetta gildi gæti farið eftir eignagerðinni, markaðsskilyrðum og öðrum skilyrðum sem hægt er að taka til greina í matinu. Gangvirði eignar verður tekið til greina í jöfnu flokkunarprófunar.
 
 - **Nýtingartími eignar** - Þetta táknar eftirstandandi tímabil fyrir nýtingartíma eignar, frá og með upphafsdagsetningu leigusamningsins. Nýtingartími eignar verður tekin til greina í jöfnun flokkunarprófunar. Hann er frábrugðinn nýtingartímanum sem er skilgreindur í Eignum.
 

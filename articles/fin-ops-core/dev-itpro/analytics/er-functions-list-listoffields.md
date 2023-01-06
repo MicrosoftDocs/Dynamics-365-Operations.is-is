@@ -1,6 +1,6 @@
 ---
 title: LISTOFFIELDS ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig aðgerðin LISTOFFIELDS rafræn skýrslugerð (ER) er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig LISTOFFIELDS rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 12/12/2019
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: e795251004136469f64e8ebbb190a3bceaa382ed
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9288169"

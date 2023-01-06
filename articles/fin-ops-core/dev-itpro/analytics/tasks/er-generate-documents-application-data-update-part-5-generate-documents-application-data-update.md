@@ -1,6 +1,6 @@
 ---
 title: Búa til skjöl sem eru með forritsgögnum
-description: Til að ljúka skrefunum í þessu ferli verður þú fyrst að ljúka ferlinu, ""ER Búa til skjöl með uppfærslu umsóknargagna (Part 4 - Breyta sniði)"".
+description: 'Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, „Rafræn skýrslugerð Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 4: Breyta sniði)“.'
 author: kfend
 ms.date: 06/19/2017
 ms.topic: business-process
@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e0f4fe5c948d1d6ea7c306a37d629c6e381dbd00
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290455"

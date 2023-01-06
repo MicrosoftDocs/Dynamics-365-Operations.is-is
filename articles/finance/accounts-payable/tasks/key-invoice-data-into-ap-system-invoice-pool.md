@@ -1,6 +1,6 @@
 ---
 title: Færa reikningsgögn inn í viðskiptaskuldakerfi með reikningasafni
-description: Þessi grein lýsir því hvernig á að nota reikningaskrána til að búa til reikninga.
+description: Þessi grein lýsir því hvernig nota á komubókina til að búa til reikninga.
 author: abruer
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fc3f1107a9564120aae77a75e6232879bf3c51af
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8858426"
@@ -23,7 +23,7 @@ ms.locfileid: "8858426"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að nota reikningaskrána til að búa til reikninga. Nota síðan reikningasafninu til að jafna reikninginn við innkaupapöntun og ljúka kostnað á síðunni reikningur lánardrottins.
+Þessi grein lýsir því hvernig nota á komubókina til að búa til reikninga. Nota síðan reikningasafninu til að jafna reikninginn við innkaupapöntun og ljúka kostnað á síðunni reikningur lánardrottins.
 
 
 ## <a name="create-a-purchase-order"></a>Stofna innkaupapöntun

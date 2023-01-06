@@ -1,6 +1,6 @@
 ---
-title: Samstilltu skattauppsetninguna frá skattreikningsþjónustunni við Dynamics 365 Finance
-description: Þessi grein útskýrir hvernig á að samstilla aðalgögn skattuppsetningar frá skattútreikningsþjónustu við Microsoft Dynamics 365 Fjármál.
+title: Samstilla uppsetningu skatta úr skattaútreikningsþjónustunni í Dynamics 365 Finance
+description: Þessi grein útskýrir hvernig á að samstilla gögn um skattauppsetningu úr Skattaútreikningsþjónustunni við Microsoft Dynamics 365 Finance.
 author: EricWangChen
 ms.date: 01/05/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.custom: intro-internal
 ms.search.form: TaxIntegration, TaxServiceParameters
 ms.openlocfilehash: 315f2b27a64906ca0fc404d704d0b170dbfa48c5
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9283854"
 ---
-# <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>Samstilltu skattauppsetninguna frá skattreikningsþjónustunni við Dynamics 365 Finance
+# <a name="sync-the-tax-setup-from-the-tax-calculation-service-to-dynamics-365-finance"></a>Samstilla uppsetningu skatta úr skattaútreikningsþjónustunni í Dynamics 365 Finance
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að samstilla aðalgögn skattuppsetningar frá skattútreikningsþjónustu við Microsoft Dynamics 365 Fjármál.
+Þessi grein útskýrir hvernig á að samstilla gögn um skattauppsetningu úr Skattaútreikningsþjónustunni við Microsoft Dynamics 365 Finance.
 
-Eftir að þú hefur lokið nauðsynlegum uppsetningarskrefum inn [Byrjaðu á skattaútreikningi](global-get-started-with-tax-calculation-service.md), eru eftirfarandi skattuppsetningargögn samstillt sjálfkrafa frá skattútreikningsþjónustunni við fjármál.
+Eftir að nauðsynlegum uppsetningarskrefum er lokið í [Hafist handa með skattaútreikning](global-get-started-with-tax-calculation-service.md) eru eftirfarandi uppsetningargögn skatta sjálfkrafa samstillt frá Skattaútreikningsþjónustu í Finance.
 
 ## <a name="sales-tax-code"></a>VSK-kóði
 
@@ -49,36 +49,36 @@ Eftir að þú hefur lokið nauðsynlegum uppsetningarskrefum inn [Byrjaðu á s
 | Lágmarksupphæð          | Neðri mörk             |
 | Hámarksupphæð          | Hámarksgildi             |
 | Skatthlutfall                | Gildi                     |
-| Ófrádráttarbært hlutfall     | Ófrádráttarbær prósenta |
+| Ófrádráttarbær upphæð     | Ófrádráttarbær prósenta |
 
-## <a name="tax-limits"></a>Skattamörk
+## <a name="tax-limits"></a>Skattmörk
 
 | Skattaútreikningsþjónusta | Finance           |
 | ----------------------- | ----------------- |
 | Frá-færsludagsetning   | Frá dags.         |
 | Til-færsludagsetning     | Til dagsetningar           |
-| Lágmarksupphæð skatta      | Lágmark VSK |
-| Hámarksskattsupphæð      | Hámark VSK |
+| Lágmarksupphæð skatts      | Lágmark VSK |
+| Hámarksupphæð skatts      | Hámark VSK |
 
 ## <a name="sales-tax-group"></a>VSK-flokkur
 
 | Skattaútreikningsþjónusta                         | Finance                                    |
 | ----------------------------------------------- | ------------------------------------------ |
 | Skattflokkur                                       | VSK-flokkur                            |
-| Skattkóðar undir þessum skattflokki                  | Vsk-kóðar undir þessum vsk-flokki |
-| Skattnúmerið er merkt sem **Er undanþegin**         | Undanþága                                     |
-| Skattnúmerið er merkt sem **Er undanþegin**         | Undanþágukóði                                |
-| Skattnúmerið er merkt sem **Er Reverse Charge** | Bakfært gjald                             |
-| Skattnúmerið er merkt sem **Er Notkunarskattur**        | Neysluskattur                                    |
+| Skattkóðar í þessum skattflokki                  | VSK-kóðar undir þessum söluskattsflokki |
+| Skattkóðinn er merktur sem **Er undanþeginn**         | Undanþága                                     |
+| Skattkóðinn er merktur sem **Er undanþeginn**         | Undanþágukóði                                |
+| Skattkóðinn er merktur sem **Er bakfært gjald** | Bakfært gjald                             |
+| Skattkóðinn er merktur sem **Er notkunarskattur**        | Neysluskattur                                    |
 
 ## <a name="item-sales-tax-group"></a>VSK-flokkur vöru
 
 | Skattaútreikningsþjónusta             | Finance                                         |
 | ----------------------------------- | ----------------------------------------------- |
 | VSK-flokkur                      | VSK-flokkur vöru                            |
-| Skattkóðar undir þessum lið skattflokkur | Vsk-kóðar undir þessum lið Vsk-flokkur |
+| Skattkóðar í þessum skattflokki vöru | VSK-kóðar undir þessum söluskattsflokki vöru |
 
-Eftir að samstillingunni er lokið skaltu halda áfram að viðhalda þeim færibreytum sem eftir eru í Finance fyrir bókun og skýrslugjöf.
+Eftir að samstillingu er lokið skal halda áfram að viðhalda þeim breytum sem eftir eru í Finance til bókunar og skýrslugerðar.
 
 > [!NOTE]
-> Samstilling skattauppsetningar frá Finance við skattútreikningsþjónustuna er ekki studd. Fyrir núverandi fjármálaumhverfi, stofnaðu fyrst skattauppsetninguna í skattútreikningsþjónustunni. Samstilltu síðan uppsetningargögnin aftur við fjármálaumhverfið.
+> Samstilling skattauppsetningarinnar frá Finance til Skattaútreikningsþjónustunnar er ekki studd. Fyrir fyrirliggjandi Finance umhverfi skaltu fyrst búa til skattauppsetningu í Skattaútreikningsþjónustunni. Samstilltu síðan uppsetningargögnin aftur við Finance umhverfið.

@@ -1,6 +1,6 @@
 ---
 title: Viðfang til sjóðstreymis í tvískiptingu
-description: Þessi grein veitir upplýsingar um möguleika til reiðufé í tvískrifa.
+description: Þessi grein veitir upplýsingar um viðfang til sjóðstreymis í tvískiptri skrifun.
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: ramasri
 ms.search.validFrom: 2020-01-27
 ms.openlocfilehash: 4321d980f56e321a653ca4f4c5738ebd1bb0153d
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289609"
@@ -29,7 +29,7 @@ Mikilvægt markmið flestra fyrirtækja er að umbreyta viðföngum í viðskipt
 Frekari upplýsingar um samþættingu viðskiptavinar og tengiliðar er að finna í [Samþætt aðalsniðmát viðskiptavinar](customer-mapping.md). Frekari upplýsingar um samþættingu afurðar er að finna í [Samræmd afurðarupplifun](product-mapping.md).
 
 > [!NOTE]
-> Í Dynamics 365 Sales vísa bæði viðfang og viðskiptavinur í færslu í töflunni **Reikningur** þar sem dálkurinn **RelationshipType** er annaðhvort **Viðfang** eða **Viðskiptavinur**. Ef viðskiptarökfræði þín felur í sér **Reikningur** hæfisferli þar sem **Reikningur** færsla er búin til og hæfð sem tilvonandi fyrst og síðan sem viðskiptavinur, sú skrá samstillist aðeins við fjármála- og rekstrarappið þegar það er viðskiptavinur (`RelationshipType=Customer`). Ef ætlunin er að línan **Reikningur** samstillist sem viðfang þarf að sérstillta vörpun til að samþætta viðfangsgögnin.
+> Í Dynamics 365 Sales vísa bæði viðfang og viðskiptavinur í færslu í töflunni **Reikningur** þar sem dálkurinn **RelationshipType** er annaðhvort **Viðfang** eða **Viðskiptavinur**. Ef viðskiptagrunnurinn felur í sér hæfnisferilinn **Reikningur** þar sem færslan **Reikningur** er stofnuð og telst hæf sem viðfang fyrst og síðan sem viðskiptavinur mun sú færsla samstillast við forrit fjármála- og reksturs þegar hún er viðskiptavinur (`RelationshipType=Customer`). Ef ætlunin er að línan **Reikningur** samstillist sem viðfang þarf að sérstillta vörpun til að samþætta viðfangsgögnin.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Skilyrði og vörpunaruppsetning
 
@@ -111,7 +111,7 @@ Sölureikningar eru búnir til í Supply Chain Management og samstilltir við Sa
 
 Viðfang til sjóðstreymis innihalda safn af kjarnatöflukortum sem vinna saman í gagnasamskiptum, eins og sýnt er í eftirfarandi töflu.
 
-| Forrit fyrir Finance and Operations | Forrit viðskiptavinatengsla | Lýsing |
+| Forrit fyrir fjármál- og rekstur | Forrit viðskiptavinatengsla | Lýsing |
 |-----------------------------|-----------------------------------|-------------|
 [Allar afurðir](mapping-reference.md#138) | msdyn_globalproducts | |
 [Viðskiptavinir V3](mapping-reference.md#101) | lyklar | |
@@ -122,7 +122,7 @@ Viðfang til sjóðstreymis innihalda safn af kjarnatöflukortum sem vinna saman
 [CDS-sölutilboðshaus](mapping-reference.md#215) | tilboð | |
 [CDS-sölutilboðslínur](mapping-reference.md#214) | quotedetails | |
 [Útgefnar afurðir V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Sölureikningshausar V2](mapping-reference.md#118) | reikningar | Sölureikningshausar V2 taflan í fjármála- og rekstrarappinu inniheldur reikninga fyrir sölupantanir og ókeypis textareikninga. Sía er notuð í Dataverse fyrir tvöfalda skráningu sem mun sía út öll skjöl reikninga með frjálsum texta. |
+[Sölureikningshausar V2](mapping-reference.md#118) | reikningar | Sölureikningshausar V2 í töflu í forriti fjármála- og reksturs innihalda reikninga fyrir sölupantanir og reikninga með frjálsum texta. Sía er notuð í Dataverse fyrir tvöfalda skráningu sem mun sía út öll skjöl reikninga með frjálsum texta. |
 [Sölureikningslínur V2](mapping-reference.md#117) | invoicedetails | |
 [Upprunakóðar sölupantana](mapping-reference.md#186) | msdyn_salesorderorigins | |
 

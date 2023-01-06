@@ -1,6 +1,6 @@
 ---
 title: Listasíða með lánardrottnafærslum
-description: Þessi grein veitir upplýsingar um listasíðuna Lánardrottnafærslur fyrir Microsoft Dynamics 365 Fjármál.
+description: Þessi grein veitir upplýsingar um listasíðu með lánardrottnafærslum fyrir Microsoft Dynamics 365 Finance.
 author: sunfzam
 ms.date: 08/24/2018
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 34d9fd29f6a28bdd8c62e9460093544699dfeb2c
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8859944"

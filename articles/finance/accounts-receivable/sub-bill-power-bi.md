@@ -1,6 +1,6 @@
 ---
 title: Efni Power BI fyrir áskriftargreiðslu
-description: Þessi grein lýsir því hvað er innifalið í áskriftarreikningnum Microsoft Power BI efni.
+description: Þessi grein lýsir því hvað er innifalið í Microsoft Power BI efni áskriftargreiðslunnar.
 author: JodiChristiansen
 ms.date: 04/13/2022
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: jchrist
 ms.search.validFrom: 2021-04-13
 ms.openlocfilehash: 6cee01eb5b8bb8296b6e7f638b565c999ccc023e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8849961"
@@ -20,46 +20,46 @@ ms.locfileid: "8849961"
 
 [!include[banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvað er innifalið í áskriftarreikningnum Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið. 
+Þessi grein lýsir því hvað er innifalið í Microsoft Power BI efni áskriftargreiðslunnar. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið. 
 
 ## <a name="overview"></a>Yfirlit
 
-Áskriftarreikningurinn Power BI efni var búið til fyrir áskriftarreikninga og stjórnendur. Það veitir helstu innheimtumælingar fyrir áskrift, svo sem mánaðarlegar endurteknar tekjur (MRR) fyrir innheimtuáætlanir, og lækkandi stöðu og fossupplýsingar fyrir frestun áætlana. Það notar gögnin úr innheimtuáætlunum og frestun áætlana til að veita yfirsýn yfir endurteknar tekjur og tekjur.
+Power BI efni áskriftargreiðslunnar var búið til fyrir bókara og stjórnendur áskriftargreiðslu. Þar er að finna helstu mælingar á áskriftargreiðslu, t.d. mánaðarlegar endurteknar tekjur (MRR) fyrir greiðsluáætlanir og hlutfallsstöðu og dreifingarupplýsingar fyrir frestunaráætlanir. Það notar gögn úr greiðsluáætlunum og frestunaráætlunum til að gefa yfirlit yfir endurtekið innstreymi og tekjur.
 
-The Power BI efni hefur eftirfarandi þrjá flipa sem veita samtals fjórar greiningarskýrslur: 
+Power BI efnið hefur eftirfarandi þrjá flipa sem gefa samtals fjórar greiningarskýrslur: 
 
-- **Greining - MRR** – Þessi flipi veitir **Mánaðarleg endurtekin innheimta** skýrslu og **Upplýsingar um innheimtuáætlun** skýrslu.
-- **Greining - Foss** – Þessi flipi veitir **Tekjufoss** skýrslu.
-- **Greining - Minnkandi staða** – Þessi flipi veitir **Minnkandi jafnvægi** skýrslu.
+- **Greiningar - MRR** – Þessi flipi býður upp á skýrsluna **Mánaðarlega endurtekin greiðsla** og skýrsluna **Upplýsingar um greiðsluáætlun**.
+- **Greiningar - Dreifing** – Þessi flipi býður upp á skýrsluna **Tekjudreifing**.
+- **Greiningar - Hlutfallsstaða** – Þessi flipi býður upp á skýrsluna **Hlutfallsstaða**.
 
-## <a name="view-data-on-the-analytical-reports"></a>Skoða gögn um greiningarskýrslur
+## <a name="view-data-on-the-analytical-reports"></a>Skoða gögn í greiningarskýrslum
 
-Áður en þú getur skoðað gögn um greiningarskýrslurnar verður þú að keyra reglubundið ferli sem býr til skýrslugögn fyrir hverja skýrslu. Þessi gögn sem skýrslurnar krefjast verður að búa til vegna þess að þau eru ekki geymd beint í gagnagrunninum. 
+Áður en hægt er að skoða gögn í greiningarskýrslum þarf að keyra reglubundið ferli sem býr til skýrslugögnin fyrir hverja skýrslu. Þessi gögn sem skýrslurnar krefjast verða að vera búin til vegna þess að þau eru ekki vistuð beint í gagnagrunninum. 
 
-1. Fara til **Innheimta áskriftar \> Endurtekinn samningsreikningur \> Reglubundin verkefni \> MRR greiningarskýrsla lotuvinnsla**, og fylgdu þessum skrefum:
+1. Farðu í **Áskriftargreiðslur \> Endurteknar samningsgreiðslur \> Reglubundin verk \> Runuvinnsla MRR-greiningarskýrslu** og fylgdu þessum skrefum:
 
-    1. Sláðu inn dagsetningarbil sem er ekki meira en þrjú ár.
-    2. Valfrjálst: Settu upp endurtekið runuferli til að endurnýja gögnin reglulega.
+    1. Sláðu inn tímabil sem er ekki lengra en þrjú ár.
+    2. Valfrjálst: Settu upp endurtekna runuvinnslu til að uppfæra gögnin reglulega.
     3. Veldu **Í lagi**.
 
-2. Eftir að runuvinnunni er lokið skaltu fara á **Kerfisstjórnun \> Uppsetning \> Entity Store**, og endurnýjaðu **Skýrsla MRR** heildarmæling. 
-3. Fara til **Innheimta áskriftar \> Frestun tekna og gjalda \> Reglubundin verkefni \> Vatnsgreiningarskýrsla lotuvinnsla**, og fylgdu þessum skrefum:
+2. Eftir að runuvinnslunni er lokið skal fara í **Kerfisstjórnun \> Uppsetning \> Einingaverslun** og uppfæra uppsafnaðar mælingar **MRR-skýrslu**. 
+3. Farðu í **Áskriftargreiðslur \> Tekju- og kostnaðarfrestanir \> Reglubundin verk \> Runuvinnsla fyrir greiningarskýrslu dreifingar** og fylgdu þessum skrefum:
 
-    1. Sláðu inn upphafsdagsetningu og lokadagsetningu sem spanna ekki meira en 26 tímabil. 
-    2. Ef þú vilt skoða spáð magn fyrri tímabila á núverandi tímabili skaltu stilla á **Spá fyrri upphæðir á núverandi tímabili** valmöguleika til **Já**.
-    3. Valfrjálst: Settu upp endurtekið runuferli til að endurnýja gögnin reglulega.
+    1. Færðu inn upphafsdagsetningu og lokadagsetningu sem ná yfir ekki meira en 26 tímabil. 
+    2. Ef þú vilt skoða áætlað magn síðustu tímabila á yfirstandandi tímabili skaltu stilla valkostinn **Spá fyrri upphæða á núverandi tímabili** á **Já**.
+    3. Valfrjálst: Settu upp endurtekna runuvinnslu til að uppfæra gögnin reglulega.
     4. Veldu **Í lagi**. 
 
-4. Eftir að runuvinnunni er lokið skaltu fara á **Kerfisstjórnun \> Uppsetning \> Entity Store**, og endurnýjaðu **Fossskýrsla** heildarmæling.
-5. Fara til **Innheimta áskriftar \> Frestun tekna og gjalda \> Reglubundin verkefni \> Úrvinnsla á lækkandi jafnvægi greiningarskýrslu lotuvinnslu**, og fylgdu þessum skrefum:
+4. Eftir að runuvinnslunni lýkur skal fara í **Kerfisstjórnun \> Uppsetning \> Einingaverslun** og uppfæra uppsafnað mælingu **Dreifingarskýrslu**.
+5. Farðu í **Áskriftargreiðslur \> Tekju- og kostnaðarfrestanir \> Reglubundin verk \> Runuvinnsla fyrir greiningarskýrslu hlutfallsstöðu** og fylgdu þessum skrefum:
 
-    1. Sláðu inn upphafsdagsetningu og lokadagsetningu sem spanna ekki meira en 26 tímabil. 
-    2. Ef þú vilt skoða spáð magn fyrri tímabila á núverandi tímabili skaltu stilla á **Spá fyrri upphæðir á núverandi tímabili** valmöguleika til **Já**.
-    3. Valfrjálst: Settu upp endurtekið runuferli til að endurnýja gögnin reglulega.
+    1. Færðu inn upphafsdagsetningu og lokadagsetningu sem ná yfir ekki meira en 26 tímabil. 
+    2. Ef þú vilt skoða áætlað magn síðustu tímabila á yfirstandandi tímabili skaltu stilla valkostinn **Spá fyrri upphæða á núverandi tímabili** á **Já**.
+    3. Valfrjálst: Settu upp endurtekna runuvinnslu til að uppfæra gögnin reglulega.
     4. Veldu **Í lagi**.
 
-6. Eftir að runuvinnunni er lokið skaltu fara á **Kerfisstjórnun \> Uppsetning \> Entity Store**, og endurnýjaðu **Skýrsla um lækkandi stöðu** heildarmæling.
+6. Eftir að runuvinnslunni lýkur skal fara í **Kerfisstjórnun \> Uppsetning \> Einingaverslun** og uppfæra uppsafnaða mælingu **Skýrsla um hlutfallsstöðu**.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 
-Áskriftarreikningurinn Power BI innihald er sýnt í **Innheimta áskriftar** vinnurými.
+Power BI efni áskriftargreiðslunnar er sýnt á vinnusvæðinu **Áskriftargreiðslur**.

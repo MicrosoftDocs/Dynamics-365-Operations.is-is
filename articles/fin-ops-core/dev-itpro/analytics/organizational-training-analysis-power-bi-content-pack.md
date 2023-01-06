@@ -1,6 +1,6 @@
 ---
 title: Þjálfun fyrirtækis Power BI efni
-description: Þessi grein lýsir fjármálum og rekstri - Skipulagsþjálfun Power BI efni.
+description: Þessi grein lýsir fjármála- og reksturs - Fyrirtækjaþjálfun Power BI efnis.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 263874
 ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
 ms.openlocfilehash: 2e80810dbeb536dccf6e13b5fca6a85f4858d8da
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9267243"
@@ -25,7 +25,7 @@ ms.locfileid: "9267243"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir fjármálum og rekstri - Skipulagsþjálfun Power BI efni.
+Þessi grein lýsir fjármála- og reksturs - Fyrirtækjaþjálfun Power BI efnis.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Skýrslur sem eru hafðar með í efnispakka
 Eftir að þú hefur tengt efnispakkann við gögnin sýna skýrslurnar fyrirtækjagögnin þín. Ef þú hefur aldrei áður notað Microsoft Power BI, má fræðast nánar um það á síðunni [Leiðsögn fyrir Nám fyrir Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). Skýrslur sem eru hafðar með í efnispakka hafa bæði gröf og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.

@@ -1,6 +1,6 @@
 ---
 title: Grunnstilla fjárhag
-description: Þessi grein veitir upplýsingar um hvernig á að stilla fjárhagsbókhald fyrir hvern lögaðila. Þar eru upplýsingar um hvernig á að velja gjaldmiðla, fjárhagsdagatöl, bókhaldslykla og skipulag lykla sem á að nota í hverjum lögaðila.
+description: Í þessari grein er að finna upplýsingar um hvernig á að grunnstilla fjárhag fyrir hvern lögaðila. Þar eru upplýsingar um hvernig á að velja gjaldmiðla, fjárhagsdagatöl, bókhaldslykla og skipulag lykla sem á að nota í hverjum lögaðila.
 author: kweekley
 ms.date: 09/24/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 14d6ba013a93756f86e959756dd3073851881095
 ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/22/2022
 ms.locfileid: "9713890"
@@ -24,11 +24,11 @@ ms.locfileid: "9713890"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um hvernig á að stilla fjárhagsbókhald fyrir hvern lögaðila. Þar eru upplýsingar um hvernig á að velja gjaldmiðla, fjárhagsdagatöl, bókhaldslykla og skipulag lykla sem á að nota í hverjum lögaðila.
+Í þessari grein er að finna upplýsingar um hvernig á að grunnstilla fjárhag fyrir hvern lögaðila. Þar eru upplýsingar um hvernig á að velja gjaldmiðla, fjárhagsdagatöl, bókhaldslykla og skipulag lykla sem á að nota í hverjum lögaðila.
 
 ## <a name="selecting-the-chart-of-accounts"></a>Val bókhaldslykils
 
-Fyrir hvern lögaðila í Microsoft Dynamics 365 Fjármál, þarf að stilla upplýsingar um fjárhagsbókina. Síðan **Fjárhagur** gerir þér kleift að velja bókhaldslykilinn og skipulag lykla sem verður notað fyrir valinn lögaðila. Hægt er að deila bókhaldslyklunum og lykilskipulaginu með því að skilgreina síðuna **Fjárhagur** í hverjum lögaðila til að nota sama bókhaldslykil og lykilskipulag. Einnig er hægt að samnýta hluta grunnstillingarinnar í hverjum lögaðila fyrir sig og hafa tilteknar grunnstillingar í hverjum lögaðila.
+Fyrir hvern lögaðila í Microsoft Dynamics 365 Finance þarf að grunnstilla upplýsingar um fjárhaginn. Síðan **Fjárhagur** gerir þér kleift að velja bókhaldslykilinn og skipulag lykla sem verður notað fyrir valinn lögaðila. Hægt er að deila bókhaldslyklunum og lykilskipulaginu með því að skilgreina síðuna **Fjárhagur** í hverjum lögaðila til að nota sama bókhaldslykil og lykilskipulag. Einnig er hægt að samnýta hluta grunnstillingarinnar í hverjum lögaðila fyrir sig og hafa tilteknar grunnstillingar í hverjum lögaðila.
 
 Ef lögaðilarnir þurfa að vera með mismunandi bókhaldslykla eða lykilskipulag, gæti hnekkingareiginleiki lögaðilans komið að gagni. Með því að nota sama bókhaldslykil og lykilskipulag fyrir marga lögaðila og hafa síðan umsjón með öllum undantekningum í gegnum hnekkingar lögaðila, er hægt að einfalda viðhald með tímanum.
 
@@ -38,11 +38,11 @@ Frekari upplýsingar um hvernig á að skipuleggja og grunnstilla bókhaldslykla
 
 ## <a name="selecting-account-structures"></a>Lykilskipulag valið
 
-Hægt er að stilla hvern lögaðila í Dynamics 365 Finance til að nota eina eða fleiri reikningsuppbyggingar. Hvert lykilskipulag skilgreinir fjárhagsvíddirnar og samsetningar aðallykla og fjárhagsvídda, sem verða heimilaðar þegar færslur eru bókaðar. Hægt er að nota sama lykilskipulagið í fleiri en einum lögaðila.
+Hægt er að skilgreina hvern lögaðila í Dynamics 365 Finance til að nota eitt eða fleiri lykilskipulag. Hvert lykilskipulag skilgreinir fjárhagsvíddirnar og samsetningar aðallykla og fjárhagsvídda, sem verða heimilaðar þegar færslur eru bókaðar. Hægt er að nota sama lykilskipulagið í fleiri en einum lögaðila.
 
 Hafa skal í huga að ef fleiri en eitt lykilskipulag er til staðar er aðeins hægt að velja lykilskipulag sem ekki er með samsetningar aðallykla og fjárhagsvídda sem skarast. Til dæmis er eitt lykilskipulagið þitt skilgreint til að bæta við viðskiptaeiningu fyrir aðallykla á milli 1000 og 1999. Í öðru lykilskipulagi hefurðu bætt við fjárhagsvídd deildar fyrir aðallykla sem hefjast á 1. Í þessu tilfelli er aðeins hægt að bæta við einu lykilskipulagi í sama lögaðilanum.
 
-Til að skilgreina lykilskipulag fyrir fjárhaginn þinn, á síðunni **Fjárhagur**, í flýtiflipanum **Lykilskipulag**, skal velja **Bæta við**, velja lykilskipulag í listanum og síðan velja **Velja**. Það mun taka nokkrar mínútur að bæta við og vista reikningsuppbyggingunni. Þegar breytt reikningsskipan er vistuð í fjárhagsbókinni hefst ferlið til að samstilla allar óbókaðar færslur. Þú verður að bíða þar til breytingunni er lokið fyrir núverandi fjárhagsbók í lögaðilanum þar sem breytingin er gerð áður en þú getur gert reikningsskipulagsbreytingu fyrir fjárhagsbók í öðrum lögaðila. Athugið að lykilskipulagið sem er valið verður að vera virkt. Að öðrum kosti verða upplýsingar um lykilskipulagið ekki virkjað í lögaðilanum þar sem þær eru tengdar.
+Til að skilgreina lykilskipulag fyrir fjárhaginn þinn, á síðunni **Fjárhagur**, í flýtiflipanum **Lykilskipulag**, skal velja **Bæta við**, velja lykilskipulag í listanum og síðan velja **Velja**. Það mun taka nokkrar mínútur að bæta lykilskipulagi við og vista það. Þegar breytt uppbygging reikningsins er vistuð í fjárhag hefst ferlið við að samstilla allar óbókaðar færslur. Þú verður að bíða þar til breytingunni er lokið fyrir opinn fjárhag hjá lögaðilanum þar sem breytingin er gerð áður en þú getur gert breytingu á lykilskipulagi fyrir fjárhag hjá öðrum lögaðila. Athugið að lykilskipulagið sem er valið verður að vera virkt. Að öðrum kosti verða upplýsingar um lykilskipulagið ekki virkjað í lögaðilanum þar sem þær eru tengdar.
 
 Til að fjarlægja lykilskipulag, á síðunni **Fjárhagur**, í flýtiflipanum **Lykilskipulag**, skal velja **Fjarlægja**. Athugið að ef lykilskipulag er fjarlægt úr fjárhagnum er ekki hægt að fjarlægja neinar færslur sem voru bókaðar með því að nota skilgreininguna á þessu lykilskipulagi.
 
@@ -70,7 +70,7 @@ Frekari upplýsingar um mótfærslur er að finna í [Jafnaðar færslubækur fy
 
 Síðan **Fjárhagur** er einnig notuð til að stjórna og skilgreina gjaldmiðlana sem verða notaðir þegar færslur eru bókaðar í fjárhagnum. Tilgreina verður bókhaldsgjaldmiðilinn, sem er sá gjaldmiðill sem er notaður í dálknum **Bókhaldsgjaldmiðill** í fjárhagnum í öllum fylgiskjölum. Að auki er hægt í dálknum **Skýrslugjaldmiðill** að velja annan gjaldmiðil. Ef valinn er skýrslugjaldmiðill verða allar færslur skráðar í þeim gjaldmiðli í dálknum **Skýrslugjaldmiðill** í fjárhagnum í öllum fylgiskjölum.
 
-Ef færslur eru bókaðar í öðrum gjaldmiðli breytir kerfið sjálfkrafa færsluupphæðinni úr færslugjaldmiðlinum í bókhaldsgjaldmiðil og skýrslugjaldmiðil á fylgiskjalinu. Á síðunni **Fjárhagur**, í reitnum **Gerð gengis fyrir bókhaldsgjaldmiðil**, skal velja gerð gengis sem er skilgreint fyrir gengin sem á að nota til að umbreyta gildum úr færslugjaldmiðli í bókhaldsgjaldmiðil í fylgiskjali. Ef skýrslugjaldmiðill var valinn þarf einnig að stilla reitinn **Gerð gengis fyrir skýrslugjaldmiðil** til að gefa upp gengið sem á að nota til að umbreyta gildum úr færslugjaldmiðli í skýrslugjaldmiðil í fylgiskjali.
+Ef færslur eru bókaðar í öðrum gjaldmiðli umbreytir kerfið sjálfkrafa færsluupphæðinni úr færslugjaldmiðlinum í bókhaldsgjaldmiðilinn og skýrslugjaldmiðilinn í fylgiskjalinu. Á síðunni **Fjárhagur**, í reitnum **Gerð gengis fyrir bókhaldsgjaldmiðil**, skal velja gerð gengis sem er skilgreint fyrir gengin sem á að nota til að umbreyta gildum úr færslugjaldmiðli í bókhaldsgjaldmiðil í fylgiskjali. Ef skýrslugjaldmiðill var valinn þarf einnig að stilla reitinn **Gerð gengis fyrir skýrslugjaldmiðil** til að gefa upp gengið sem á að nota til að umbreyta gildum úr færslugjaldmiðli í skýrslugjaldmiðil í fylgiskjali.
 
 Ef verið er að nota virkni fjárhagsáætlunargerðar, er einnig hægt að stilla reitinn **Gengisgerð fjárhagsáætlunar** til að gefa til kyna gengið sem á að nota til að umbreyta færslum fjárhagsáætlunar úr einum gjaldmiðli í annan.
 

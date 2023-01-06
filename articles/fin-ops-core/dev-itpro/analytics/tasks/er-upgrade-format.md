@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs
-description: Þessi grein lýsir því hvernig á að viðhalda rafrænni skýrslugerð (ER) sniðstillingu.
+description: Í þessari grein er útskýrt hvernig á að vinna með skilgreiningu rafræns skýrslugerðarsniðs.
 author: kfend
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 ms.openlocfilehash: 2cac3a88b62198bd5d85529dc27acb7a06c34b77
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290095"
@@ -119,7 +119,7 @@ Breyta stöðu hannaðs skilgreiningarsniðs - úr DRÖG í LOKIÐ til að gera 
     Athugið að stofnuð skilgreining er vistuð sem lokin útgáfa 1.1.1. Þetta þýðir að það er útgáfa 1 sérsniðna BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 1 BACS (Bretland upphugsað), sem er byggð á 1 útgáfa gagnalíkans Greiðslna (einfaldaður líkan).  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Prófa Sérsniðnar snið til að mynda greiðsluskrár
-Ljúktu við skrefin í ferlinu "Nota búið til snið til að búa til rafræn skjöl fyrir greiðslur" í samhliða fjármála- og rekstrarlotu. Velja BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin inniheldur nýlega kynnta XML-hnútnum sem setur fram iban-kóða í samræmi við svæðisbundið þarfir.  
+Ljúkið skrefunum í ferlinu „Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur“ í samhliða lotu fjármála- og reksturs. Velja BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin inniheldur nýlega kynnta XML-hnútnum sem setur fram iban-kóða í samræmi við svæðisbundið þarfir.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Uppfæra fyrirliggjandi landsbunda skilgreiningu.
 Litware, Inc. þarf að uppfæra skilgreiningu BACS (UK upphugsað) og aðlaga nýjar svæðisbundnar kröfur fyrir stjórnun á sniði rafræna skjalið. Síðar, þetta mun vera innan nýja útgáfu þessarar skilgreiningar sem verður í boði fyrir áskrifendur þjónustu, þar á meðal Proseware, Inc.  
@@ -239,7 +239,7 @@ Til að svo megi verða þarf Proseware, Inc. að breyta grunnskilgreiningarútg
     Athugið að hin stofnaða skilgreining er vistuð sem lokin útgáfa 1.2.2. Útgáfa 2 af grunnsniði BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 2 BACS (Bretland upphugsað), sem er byggð á 1 útgáfu gagnalíkans Greiðslna (einfaldaður líkan).  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Prófa Sérsniðnar snið til að mynda greiðsluskrár
-Ljúktu við skrefin í ferlinu "Nota búið til snið til að búa til rafræn skjöl fyrir greiðslur" samhliða fjármála- og rekstrarlotu. Velja hið stofnaða „BACS snið (Bretland sérsniðið upphugsað)” í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin innihaldi, nýlega kynnta af Proseware Inc., XML-hnúta sem setur fram IBAN-kóða í samræmi við svæðisbundið þarfir. Skráin ætti einnig að innihalda, nýlega kynnta af Litware, Inc., XML-hnúta sem setur fram SWIFT-kóða í samræmi við svæðisbundið þarfir.  
+Ljúkið skrefunum í ferlinu „Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur“ í samhliða lotu fjármála- og reksturs. Velja hið stofnaða „BACS snið (Bretland sérsniðið upphugsað)” í færibreytum rafrænnar greiðslumáta. Gangið úr skugga um að stofnaða greiðsluskráin innihaldi, nýlega kynnta af Proseware Inc., XML-hnúta sem setur fram IBAN-kóða í samræmi við svæðisbundið þarfir. Skráin ætti einnig að innihalda, nýlega kynnta af Litware, Inc., XML-hnúta sem setur fram SWIFT-kóða í samræmi við svæðisbundið þarfir.  
 
 
 

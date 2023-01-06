@@ -1,6 +1,6 @@
 ---
 title: Endurflokka eignir
-description: Þessi grein útskýrir ferlið við endurflokkun eigna. Til að endurflokka eign verður að færa hana í nýjan eignaflokk eða að úthluta henni nýju eignanúmeri innan sama flokks.
+description: Í þessari grein er ferlið við endurflokkun eigna útskýrt. Til að endurflokka eign verður að færa hana í nýjan eignaflokk eða að úthluta henni nýju eignanúmeri innan sama flokks.
 author: moaamer
 ms.date: 05/14/2019
 ms.topic: business-process
@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4bd901b1709f0b006cecfbbf6d8c170b56f89d19
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9284364"

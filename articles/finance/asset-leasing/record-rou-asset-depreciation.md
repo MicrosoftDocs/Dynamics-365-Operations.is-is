@@ -1,6 +1,6 @@
 ---
 title: Skrá afskriftir afnotaréttar af eign (forskoðun)
-description: Þessi grein útskýrir hvernig á að stofna dagbókarfærsluna fyrir afskriftina sem þarf fyrir leigusamninga sem eru færðir á efnahagsreikning fyrirtækis.
+description: Þessi grein útskýrir hvernig á að stofna bókarfærsluna fyrir þær afskriftir sem eru nauðsynlegar fyrir leigusamninga sem eru viðurkenndir á efnahagsreikningi fyrirtækis.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 93e521cf409af4c01d625f27bdd7a7564e471bd9
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8903277"
@@ -28,13 +28,13 @@ ms.locfileid: "8903277"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Fyrir leigur sem eru viðurkenndar á efnahagsreikningi fyrirtækis er afnotaréttur af eign afskrifuð mánaðarlega. Þessi grein útskýrir hvernig á að stofna dagbókarfærsluna fyrir afskriftina. Afskrift debetfærir fjárhagslykil kostnaðar og kreditfærir uppsafnaða afskrift fjárhagslykils, byggt á uppsetningu bókunarreglu og gerðar leigusamnings. Hægt er að stofna þessar færslur fyrir hvern leigusamning, en einnig er hægt að stofna þær fyrir marga leigusamninga með því að nota runubókarvirkni.
+Fyrir leigur sem eru viðurkenndar á efnahagsreikningi fyrirtækis er afnotaréttur af eign afskrifuð mánaðarlega. Þessi grein útskýrir hvernig á að stofna bókarfærsluna fyrir afskriftir. Afskrift debetfærir fjárhagslykil kostnaðar og kreditfærir uppsafnaða afskrift fjárhagslykils, byggt á uppsetningu bókunarreglu og gerðar leigusamnings. Hægt er að stofna þessar færslur fyrir hvern leigusamning, en einnig er hægt að stofna þær fyrir marga leigusamninga með því að nota runubókarvirkni.
 
 ## <a name="asset-depreciation-schedule"></a>Afskriftaráætlun eignar
 
 1. Á síðunni **Samantekt leigu** skal velja leigusamning. Veljið síðan **Bækur \> Afskriftaráætlun eignar** til að opna síðuna **Afskriftaráætlun eignar**.
 
-    Bókarfærsla afskriftarkostnaðar afnotaréttar af eign er byggð á upphæðinni í dálknum **Afskriftarkostnaður**. Fyrir dæmi um leiðbeiningar um samræmi við reikningsskilastaðla, sjá [Útreikningur á afskriftakostnaði ROU eigna vegna fjármögnunarleigusamninga](#calculation-of-rou-asset-amortization-expense-for-finance-leases) kafla síðar í þessari grein.
+    Bókarfærsla afskriftarkostnaðar afnotaréttar af eign er byggð á upphæðinni í dálknum **Afskriftarkostnaður**. Dæmi um leiðbeiningar um reglufylgni við bókunarstaðla er að finna í [útreikningur á afskriftarkostnaði afnotaréttar á eign fyrir fjármögnunarleigusamninga](#calculation-of-rou-asset-amortization-expense-for-finance-leases) hlutanum síðar í þessari grein.
     
 2. Veljið afskriftartímabil og síðan **Stofna færslubók**. Þú færð skilaboð sem segir til um að færslubókin sem verður notuð til að skrá afskriftir hafi verið stofnuð.
 3. Veljið **Færslubækur \> Eignarleigufærslubækur** til að opna **Eignaleigufærslubók** , þar sem hægt er að skoða færslubókarfærsluna fyrir afskriftakostnað sem var stofnaður.
@@ -71,7 +71,7 @@ Eins og áður var getið er línulega leigukostnaður reiknaður sem samtala al
 > [!NOTE]
 > Samkvæmt ASC 842 er afskrift afnotaréttar af eign fyrir rekstrarleigusamning flokkuð sem leigukostnaður á rekstrarreikning. Fyrir sýnileika lýsir Eignarleiga færslunni sem afskrift á afnotarétti að eign. Hins vegar ætti að úthluta debetfærslunni á kostnaðarlykil fyrir rekstrarleigusamning og kreditfærslunni skal úthlutað beint á afnotaréttur af eign fyrir rekstrarleigusamning. Engu að síður, í færibreytum leigusamnings, er hægt að tilgreina að kreditfærslur eigi að vera gerðar á uppsöfnuðum afskriftarreikningi fyrir afnotaréttur af eign í rekstri.
 
-Ef leigan er flokkuð sem rekstrarleiga eru mánaðarlegar afskriftir eftir virðisrýrnun reiknaðar með línulegum afskriftum.
+Ef leiga er flokkaður sem rekstrarleiga verða mánaðarlegar afskriftir eftir skerðingu reiknaðar með línulegum afskriftum.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-finance-leases"></a>Útreikningur á afskriftarkostnaði afnotaréttar af eign fyrir fjármögnunarleigusamninga
 

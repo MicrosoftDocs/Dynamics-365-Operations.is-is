@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.openlocfilehash: a420c5b2a036ac63a1a179f93462d152c3941fda
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9124225"
@@ -75,7 +75,7 @@ Næst verður þú að ákveða hvaða innkaupapantanir þú vilt fá viðvarani
 
 ## <a name="alerts-as-business-events"></a>Viðvaranir sem viðskiptatilvik
 
-Hægt er að senda viðvaranir út með ramma viðskiptatilvika. Þegar þú býrð til viðvörun skaltu stilla **Í öllu fyrirtækinu** á **Nei** og stilla **Senda að utan** á **Já**. Eftir að þú hefur fengið viðvörunina sem kallar á viðskiptaatburðinn geturðu kveikt á innbyggðu flæði Power Automate með því að nota **Þegar viðskiptaatburður á sér stað** kveikja á fjármála- og rekstrartengi, eða senda viðburðinn sérstaklega til endapunkts viðskiptaviðburða í gegnum **Viðskiptaviðburðaskrá**.
+Hægt er að senda viðvaranir út með ramma viðskiptatilvika. Þegar þú býrð til viðvörun skaltu stilla **Í öllu fyrirtækinu** á **Nei** og stilla **Senda að utan** á **Já**. Þegar viðvörunin hefur komið viðskiptatilvikinu af stað er hægt að virkja flæði sem er innbyggt í Power Automate með virkjanum **Þegar viðskiptatilvik á sér stað** í tengi fjármála- og reksturs eða senda tilvikið beint á endastöð viðskiptatilvika í gegnum **Lista yfir viðskiptatilvik**.
 
 ## <a name="create-an-alert-rule"></a>Búa til viðvörunarreglu
 

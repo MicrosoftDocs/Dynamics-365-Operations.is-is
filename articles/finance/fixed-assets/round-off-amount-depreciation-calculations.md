@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a93842f7cca483df89188695c945edf77e118cef
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8870105"
@@ -26,7 +26,7 @@ ms.locfileid: "8870105"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein fjallar um **Heildarafskriftir** reit sem er að finna á **Uppsetning bóka** síður.
+Þessi grein fer yfir svæðið **Sléttun afskriftar** sem má finna á síðunum **Uppsetning bókar**.
 
 Slétta afskriftarupphæðir eru sett fyrir hverja bók. Sléttun afskriftarupphæða er notuð í afskriftareglu eigna sem sýnir afskriftina í framtíðinni og gildi fyrir eignina og einnig í afskriftartillögum. Færið inn lægstu leyfilegu upphæðina til afskriftar fyrir þetta bók. 
 

@@ -1,6 +1,6 @@
 ---
 title: Leysa úr vandamálum við fyrstu uppsetningu
-description: Þessi grein veitir upplýsingar sem geta hjálpað þér að laga vandamál sem koma upp við upphaflega uppsetningu tvískrifa samþættingar.
+description: Þessi grein veitir upplýsingar sem geta hjálpað þér að laga vandamál sem koma upp við upphaflega uppsetningu á samþættingu tvöfaldra skrifa.
 author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: ramasri
 ms.search.validFrom: 2020-03-16
 ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289515"
@@ -20,20 +20,20 @@ ms.locfileid: "9289515"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um bilanaleit fyrir tvískrifað samþættingu milli fjármála- og rekstrarforrita og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega uppsetningu á samþættingu tvöfaldra skrifa.
+Þessi grein veitir upplýsingar um úrræðaleit um samþættingu á tvöföldum skrifum á milli forrita fjármála- og reksturs og Dataverse. Einkum veitir það upplýsingar sem geta hjálpað þér að laga vandamál sem kunna að koma upp við upphaflega uppsetningu á samþættingu tvöfaldra skrifa.
 
 > [!IMPORTANT]
-> Sum vandamálin sem þessi grein fjallar um gætu þurft annað hvort kerfisstjórahlutverkið eða Microsoft Azure Active Directory (Azure AD) leigjanda stjórnanda skilríki. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
+> Nokkur þeirra atriða sem þessi grein fjallar um geta krafist annað hvort kerfisstjórans eða Microsoft Azure Active Directory (Azure AD) Leyfisupplýsingar leigjanda. Hlutinn fyrir hvert vandamál útskýrir hvort krafist sé sérstaks hlutverks eða skilríkja.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Þú getur ekki tengt fjármála- og rekstrarapp við Dataverse
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Þú getur ekki tengt fjármála- og reksturs-forrit við Dataverse
 
-**Áskilið hlutverk til að setja upp tvískrift:** Kerfisstjóri í fjármála- og rekstraröppum og Dataverse.
+**Nauðsynlegt hlutverk til að setja upp tvískipt skrif:** Kerfisstjóri í forritum fjármála- og reksturs og Dataverse.
 
 Villur á síðunni **Setja upp tengil á Dataverse** orsakast venjulega af ólokinni uppsetningu eða heimildavandamálum. Gakktu úr skugga um að öll ástandsskoðunin standist á síðunni **Setja upp tengil á Dataverse** eins og sýnt er á eftirfarandi mynd. Þú getur ekki tengt tvískipt skrif nema öll ástandsskoðunin standist.
 
 ![Vel heppnuð ástandsskoðun.](media/health_check.png)
 
-Þú hlýtur að hafa Azure AD leigjanda stjórnanda skilríki til að tengja fjármál og rekstur og Dataverse umhverfi. Þegar búið er að tengja umhverfin geta notendur skráð sig inn með því að nota innskráningarupplýsingar sínar og uppfært fyrirliggjandi töflukort.
+Þú verður að hafa Azure AD leigjandastjóraskilríki til að tengja fjármál- og rekstur og Dataverse umhverfin. Þegar búið er að tengja umhverfin geta notendur skráð sig inn með því að nota innskráningarupplýsingar sínar og uppfært fyrirliggjandi töflukort.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Finnið mörkin á fjölda lagtaflna eða fyrirtækja sem hægt er að tengja við tvöfalda skráningu
 
@@ -49,11 +49,11 @@ Við tengingu umhverfi tvöfaldrar skráningar mistekst aðgerðina með villubo
 
 *Vistun tengistillingar mistókst! Vöru með sama lykli hefur þegar verið bætt við.*
 
-Tvöföld skráning styður ekki marga lögaðila/fyrirtæki með sama heitinu. Til dæmis, ef þú ert með tvö fyrirtæki með "DAT" nafn í Dataverse þá mun það fá þessi villuboð.
+Tvöföld skráning styður ekki marga lögaðila/fyrirtæki með sama heitinu. Til dæmis ef þú ert með tvö fyrirtæki með heitið „DAT“ í Dataverse þá koma upp þessi villuboð.
 
 Til að afblokka viðskiptavininn skal fjarlægja tvíteknar færslur úr töflunni **cdm_company** í Dataverse. Einnig, ef taflna **cdm_company** er með færslur með auðu heiti skal fjarlægja eða leiðrétta þessar færslur.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Villa við að opna tvískrifasíðuna í fjármála- og rekstrarforritum
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Villa þegar síða tvöfaldrar skráningar var opnuð í fjármála- og reksturs forritum fjármála- og reksturs
 
 Þú gætir fengið eftirfarandi villuboð þegar þú reynir að tengja Dataverse umhverfi fyrir tvöfalda skráningu:
 
@@ -68,36 +68,36 @@ Til að afblokka viðskiptavininn skal fjarlægja tvíteknar færslur úr töflu
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Veldu **Samþykkja** til að veita samþykki. Þú ert að veita samþykki til að setja upp forritið (með `id=33976c19-1db5-4c02-810e-c243db79efde`) í leigjandanum þínum.
-+ Þetta app er nauðsynlegt fyrir Dataverse til að hafa samskipti við fjármála- og rekstraröpp.
++ Þetta forrit er nauðsynlegt fyrir Dataverse til að eiga samskipti við forrit fjármála- og reksturs.
 
     ![Úrræðaleit fyrir uppsetningu upphaflegrar samstillingar.](media/Initial-sync-setup-troubleshooting-1.png)
 
 > [!NOTE]
 > Ef þetta virkar ekki skaltu ræsa vefslóðina í einkastillingu í Microsoft Edge eða huliðsstillingu í Chrome.
 
-## <a name="finance-and-operations-environment-is-not-discoverable"></a>Fjármála- og rekstrarumhverfi er ekki hægt að finna
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>Ekki er hægt að finna umhverfi fjármála- og reksturs 
 
 Þú gætir fengið eftirfarandi villuboð:
 
-*Umhverfi fjármála- og rekstrarappa\*\*\* .cloudax.dynamics.com er ekki hægt að finna.*
+*Forritaumhverfi fjármála- og reksturs \*\*\*.cloudax.dynamics.com finnst ekki.*
 
 Það er tvennt sem getur valdið vandræðum með umhverfi sem ekki er hægt að finna:
 
-+ Notandinn sem notaður er við innskráningu er ekki í sama leigjanda og fjármála- og rekstrartilvikið.
-+ Það eru nokkur eldri fjármála- og rekstrartilvik sem voru hýst hjá Microsoft sem áttu í vandræðum með uppgötvun. Til að laga þetta skaltu uppfæra fjármála- og rekstrartilvikið. Hægt verður að finna umhverfið með hvaða uppfærslu sem er.
++ Notandinn sem notaður er við innskráningu er ekki sami leigjandi og tilvik fjármála- og reksturs.
++ Það komu upp vandamál við að finna nokkur eldri tilvik fjármála- og reksturs sem voru hýst af Microsoft. Til að lagfæra þetta skaltu uppfæra tilvik fjármála- og reksturs. Hægt verður að finna umhverfið með hvaða uppfærslu sem er.
 
-## <a name="403-forbidden-error-while-connections-are-being-created"></a>403 (Bönnuð) villa á meðan verið er að búa til tengingar
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>403 (Forbidden)-villa á meðan tengingum var komið á
 
-Sem hluti af tvískrifa tengingarferlinu, tveir Power Apps tengingar (einnig þekkt sem *Apihub* tengingar) eru búnar til fyrir hönd notandans í tengdu Dataverse umhverfi. Ef viðskiptavinurinn hefur ekki leyfi fyrir Power Apps umhverfi, mistekst að búa til ApiHub tengingar og 403 (bannað) villa birtist. Hér er dæmi um villuboðin:
+Sem hluti af tengingarferli tvöfaldrar skráningar eru tvær Power Apps tengingar (einnig þekkt sem *Apihub* tengingar) eru búnar til af hálfu notandans í tengda Dataverse umhverfinu. Ef viðskiptavinurinn er ekki með leyfi fyrir Power Apps umhverfið mun stofnun ApiHub-tenginga ekki takast og 403 (Bannað) villa er sýnd. Hér er dæmi um villuboð:
 
-> MSG=\[ Mistókst að setja upp tvöfalt skrifumhverfi. Villuupplýsingar:Stöðukóði svars gefur ekki til kynna árangur: 403 (bannað). - Stöðukóði svars gefur ekki til kynna árangur: 403 (bannað).\] STACKTRACE=\[ hjá Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\> d\_\_ 29.MoveNext() í X:\\ bt\\ 1158727\\ endurhverf\\ src\\ Verkefnastjórnunarþjónusta\\ DualWrite\\ DualWriteConnectionSetProcessor.cs:lína 297 --- Enda rekja stafla frá fyrri staðsetningu þar sem undantekningu var hent --- hjá System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() hjá System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification hjá Microsoft(Task verkefni) .Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\> d\_\_ 34.MoveNext() í X:\\ bt\\ 1158727\\ endurhverf\\ src\\ Verkefnastjórnunarþjónusta\\ Stjórnendur\\ DualWriteEnvironmentManagementController.cs:lína 265\]
+> MSG=\[Ekki tókst að setja upp umhverfi tvöfaldrar skráningar. Villuupplýsingar: Stöðukóði svars gefur ekki til kynna að hafi tekist: 403 (Bannað). - Kóði svörunarstöðu bendir ekki til árangurs: 403 (Forbidden).\] STACKTRACE=\[   á Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\>d\_\_29.MoveNext() í X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\DualWrite\\DualWriteConnectionSetProcessor.cs:line 297 --- Endir staflarakningar úr fyrri staðsetningu þar sem undantekning koma fram --- á System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) at Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\>d\_\_34.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\Controllers\\DualWriteEnvironmentManagementController.cs:line 265\]
 
-Þessi villa á sér stað vegna skorts á a Power Apps leyfi. Úthlutaðu viðeigandi leyfi (td.Power Apps Trial 2 Plan) til notandans, þannig að notandinn hafi leyfi til að búa til tengingarnar. Til að staðfesta leyfið getur viðskiptavinurinn farið á [Minn reikningur](https://portal.office.com/account/?ref=MeControl#subscriptions) síðu til að skoða leyfin sem eru úthlutað til notandans.
+Þessi villa kom upp vegna skorts á Power Apps-leyfi. Úthlutaðu viðeigandi leyfi (til dæmis Power Apps prufuútgáfu 2 áskriftarleið) á notandann þannig að hann hafi leyfi til að búa til tengingar. Til að staðfesta leyfið getur viðskiptavinurinn farið á svæðið [Reikningurinn minn](https://portal.office.com/account/?ref=MeControl#subscriptions) til að skoða úthlutuð leyfi notandans.
 
-Fyrir frekari upplýsingar um Power Apps leyfi, sjá eftirfarandi greinar:
+Frekari upplýsingar um Power Apps leyfi er hægt að finna í eftirfarandi greinum:
 
-- [Úthlutaðu leyfi til notenda](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
-- [Kaup Power Apps fyrir fyrirtæki þitt](/power-platform/admin/signup-for-powerapps-admin)
+- [Úthluta leyfum á notendur](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [Kaupa Power Apps fyrir stofnun/fyrirtæki notanda](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

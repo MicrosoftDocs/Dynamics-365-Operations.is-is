@@ -1,6 +1,6 @@
 ---
 title: Undirbúa lýsigögn umsóknar til notkunar í RCS
-description: Þessi grein lýsir því hvernig á að búa til nýja skýrsluskilgreiningu sem inniheldur lýsigögn forrita.
+description: Í þessari grein er lýst hvernig eigi að stofna nýja skýrsluskilgreiningu sem inniheldur lýsigögn forrits.
 author: kfend
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ''
 ms.openlocfilehash: a9ccbb120be43eaf7a8ae8b5bf8eaafb4850b199
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9289975"
@@ -23,7 +23,7 @@ ms.locfileid: "9289975"
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Undirbúa lýsigögn umsóknar til notkunar í RCS
 [!include [banner](../../includes/banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur búið til nýjar skilgreiningar rafrænnar skýrslugerðar (ER) sem innihalda lýsigögn forritsins til að setja upp ER-líkanavörpunarskilgreiningar í Regulatory Configuration Service (RCS). Þessi skilgreining verður notuð til að setja upp sýnisskilgreiningu ER-líkanavörpunar sem er búið til í þessu dæmi verður notað til að fá aðgang að utanríkisviðskiptum. Í þessu dæmi muntu stofna skilgreiningu fyrir sýnifyrirtækið, Litware, Inc. Þessi skref má framkvæma í hvaða fyrirtæki sem er. Til að ljúka þessum skrefum verður þú fyrst að klára skrefin í greininni, [Búðu til stillingaveitur og merktu þær sem virkar](er-configuration-provider-mark-it-active-2016-11.md).
+Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur búið til nýjar skilgreiningar rafrænnar skýrslugerðar (ER) sem innihalda lýsigögn forritsins til að setja upp ER-líkanavörpunarskilgreiningar í Regulatory Configuration Service (RCS). Þessi skilgreining verður notuð til að setja upp sýnisskilgreiningu ER-líkanavörpunar sem er búið til í þessu dæmi verður notað til að fá aðgang að utanríkisviðskiptum. Í þessu dæmi muntu stofna skilgreiningu fyrir sýnifyrirtækið, Litware, Inc. Þessi skref má framkvæma í hvaða fyrirtæki sem er. Til að ljúka þessum skrefum verður fyrst að ljúka skrefunum í greininni [Stofna skilgreiningaveitur og merkja þær sem virkar](er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="prerequisites"></a>Forkröfur
 1.    Farðu í **Fyrirtækisstjórnun** > **Vinnusvæði** > **Rafræn skýrslugerð**. 

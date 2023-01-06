@@ -1,6 +1,6 @@
 ---
 title: Setja upp greiðslumáta fyrir viðskiptavin
-description: Þessi grein útskýrir hvernig á að búa til greiðslumáta fyrir greiðslur viðskiptavina.
+description: Í þessari grein er útskýrt hvernig á að stofna greiðsluhátt fyrir greiðslu viðskiptavinar.
 author: ShivamPandey-msft
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f3843ce596d054263b69ccc577f3885970fe49d1
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8861503"
@@ -24,7 +24,7 @@ ms.locfileid: "8861503"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að búa til greiðslumáta fyrir greiðslur viðskiptavina. Þetta verkefni notar USMF-sýnifyrirtækið.
+Í þessari grein er útskýrt hvernig á að stofna greiðsluhátt fyrir greiðslu viðskiptavinar. Þetta verkefni notar USMF-sýnifyrirtækið.
 
 1. Í skoðunarrúðunni ferðu í **Kerfi > Viðskiptakröfur > Greiðsluuppsetning > Greiðsluhættir**.
 2. Veljið **Nýtt**.

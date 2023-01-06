@@ -1,6 +1,6 @@
 ---
 title: Úthluta númeraröðum
-description: Þessi grein útskýrir hvernig á að búa til númeraraðir fyrir leiguauðkenni. Það útskýrir einnig hvernig á að búa til einkvæm kenni sem eru notuð í endurmatsferli vísitölu.
+description: Þessi grein útskýrir hvernig á að búa til númeraraðir fyrir kenni leigusamnings. Það útskýrir einnig hvernig á að búa til einkvæm kenni sem eru notuð í endurmatsferli vísitölu.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: ee7547f9a46034238f2bd6c668c124852b3e0714
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8845317"
@@ -26,7 +26,7 @@ ms.locfileid: "8845317"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að búa til númeraraðir fyrir leiguauðkenni. Það útskýrir einnig hvernig á að búa til einkvæm kenni sem eru notuð í endurmatsferli vísitölu.
+Þessi grein útskýrir hvernig á að búa til númeraraðir fyrir kenni leigusamnings. Það útskýrir einnig hvernig á að búa til einkvæm kenni sem eru notuð í endurmatsferli vísitölu.
 
 1. Opnið **Eignarleiga \> Uppsetning \> Færibreytur fyrir eignarleigu**.
 2. Veljið hliðarflipann **Númeraraðir**.

@@ -1,6 +1,6 @@
 ---
 title: Bæta við tengslagerðum staðsetningar og aðila
-description: Þessi grein útskýrir hvernig á að bæta við nýrri staðsetningu og gerð aðilatengsla.
+description: Þessi grein útskýrir hvernig á að bæta við nýjum tengslagerðum fyrir staðsetningar og aðila.
 author: ShivamPandey-msft
 ms.date: 05/01/2018
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 2aaf16fac658d26dc2d2a389fd5c1dbb9cbb7649
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8874755"

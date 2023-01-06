@@ -1,6 +1,6 @@
 ---
 title: Stofna afskriftartillögu
-description: Þessi grein lýsir því hvernig afskriftarlotutillögur virka og útskýrir hvernig á að leggja til afskriftir varanlegra rekstrarfjármuna.
+description: Þessi grein lýsir því hvernig runutillaga afskriftar vinnur og útskýrir hvernig á að stofna afskriftartillögur fyrir eignir.
 author: abruer
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a1f39a1412c6f96fe0a8261602a88a6a3c3cd6b8
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8858497"
@@ -24,11 +24,11 @@ ms.locfileid: "8858497"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein lýsir því hvernig afskriftarlotutillögur virka og útskýrir hvernig á að leggja til afskriftir varanlegra rekstrarfjármuna. Þetta verk notar USMF sýnigögn fyrirtækis og hlutverk bókhaldara.
+Þessi grein lýsir því hvernig runutillaga afskriftar vinnur og útskýrir hvernig á að stofna afskriftartillögur fyrir eignir. Þetta verk notar USMF sýnigögn fyrirtækis og hlutverk bókhaldara.
 
 
 ## <a name="create-a-depreciation-proposal"></a>Stofna afskriftartillögu
-1. Í yfirlitsrúðunni, farðu í **Fastafjármunir > Færslubók > Búa til afskriftatillögu**.
+1. Á yfirlitssvæðinu,farðu í **Eignir > Færslubókarfærslur > Stofna afskriftartillögu**.
 2. Í reitnum **Heiti færslubókar** velurðu valkost úr fellivalmyndinni.
 3. Í reitnum **Til dags.** færirðu inn dagsetningu.
 

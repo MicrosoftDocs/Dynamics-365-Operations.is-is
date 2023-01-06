@@ -1,6 +1,6 @@
 ---
 title: FA_SUM ER-aðgerð
-description: Þessi grein veitir upplýsingar um hvernig FA_SUM rafræn skýrslugerð (ER) aðgerðin er notuð.
+description: Í þessari grein er að finna upplýsingar um hvernig FA_SUM rafræn skýrslugerðarvirkni (ER) er notuð.
 author: kfend
 ms.date: 12/17/2019
 ms.prod: ''
@@ -16,7 +16,7 @@ ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 ms.openlocfilehash: bcedbc3df835b219b8df6d05f1db6b331f1e9254
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9278918"

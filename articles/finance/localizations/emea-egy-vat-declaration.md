@@ -1,6 +1,6 @@
 ---
 title: VSK-skýrsla fyrir Egyptaland
-description: Þessi grein útskýrir hvernig á að stilla og búa til virðisaukaskattsskýrslueyðublað fyrir Egyptaland.
+description: Þessi grein útskýrir hvernig á að skilgreina og mynda eyðublað VSK-framtals fyrir Egyptaland.
 author: AdamTrukawka
 ms.date: 06/03/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: 10.0.17
 ms.search.scope: ''
 ms.openlocfilehash: c035c52d7d577a01f5903461548c0cb33f05045f
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9287822"
@@ -26,11 +26,11 @@ ms.locfileid: "9287822"
 
 [!include[banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að setja upp og búa til virðisaukaskattsskýrslueyðublaðið og sölu- og innkaupabækur fyrir lögaðila í Egyptalandi.
+Þessi grein útskýrir hvernig á að setja upp og mynda snið VSK-framtals og sölu- og innkaupabækur fyrir lögaðila í Egyptalandi.
 
 Eyðublað VSK-framtals fyrir Egyptaland er opinbera skjalið sem tekur saman samtals skattupphæð útskatts til greiðslu, samtals endurheimtanlega skattupphæð innskatts og tengda skuldaupphæð VSK. Eyðublaðið er notað fyrir alla skattgreiðendur og á að klára handvirkt í gegnum gátt skattyfirvalda. Yfirleitt er talað um eyðublað VSK-framtals sem útfyllingu VSK-framtals.
 
-VSK skilaeyðublaðið í Dynamics 365 Finance inniheldur eftirfarandi skýrslur:
+Eyðublað VSK-framtals í Dynamics 365 Finance inniheldur eftirfarandi skýrslur:
 
 - VSK-framtalseyðublað númer 10 sem býður upp á sundurliðun upphæða, leiðréttingar og VSK-upphæð fyrir hvert línuatriði í framtalseyðublaði VSK eins og lýst er í reglugerðinni.
 - Sölufærslubók

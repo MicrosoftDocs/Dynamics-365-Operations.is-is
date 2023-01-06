@@ -1,6 +1,6 @@
 ---
 title: Gera kembistillingu virka í skattaútreikningsþjónustunni
-description: Þessi grein útskýrir hvernig á að virkja villuleitarham í skattaútreikningsþjónustunni til að rannsaka mál.
+description: Þessi grein útskýrir hvernig á að gera kembistillingu virka í skattaútreikningsþjónustunni
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
 ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
 ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 11/01/2022
 ms.locfileid: "9620899"
@@ -24,10 +24,10 @@ ms.locfileid: "9620899"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að virkja villuleitarhaminn í skattaútreikningsþjónustunni til að rannsaka mál.
+Þessi grein útskýrir hvernig á að gera kembistillingu virka í skattaútreikningsþjónustunni
 
-1. Bæta við **&debug=vs%2 CconfirmExit&** á vefslóð Application Object Server (AOS), og endurnýjaðu síðan síðuna.
-2. Þegar þú velur **Söluskattur** til að reikna út söluskattinn, textaskrá sem er nefnd **TaxServiceTroubleshootingLog.txt** er opnað. The **TaxServiceTroubleshootingLog.txt** skrá inniheldur **Skattskyld skjal** og reiknibreytu. Þessum niðurstöðum er skilað frá skattaþjónustu og undantekningarupplýsingum til úrræðaleitar.
+1. Bættu **&debug=vs%2CconfirmExit&** við vefslóð Application Object Server (AOS) og uppfærðu svo síðuna.
+2. Þegar þú velur **Virðisaukaskattur** til að reikna út söluskattinn opnast textaskrá sem ber heitið **TaxServiceTroubleshootingLog.txt**. **TaxServiceTroubleshootingLog.txt** skráin inniheldur **TaxableDocument** og færibreytu útreiknings. Þessum niðurstöðum er skilað úr upplýsingum um skattþjónustu og undanþágur fyrir úrræðaleit.
 
 ## <a name="sample"></a>Dæmi
 

@@ -1,6 +1,6 @@
 ---
 title: Fjárhagsvíddir og bókun
-description: Þessi grein útskýrir þættina sem mynda bókhaldsyfirlitið og hvernig íhlutirnir vinna saman.
+description: Í þessari grein er gerð grein fyrir hlutunum sem mynda bókhaldslykilinn og hvernig hlutirnir vinna saman.
 author: aprilolson
 ms.date: 10/24/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 89696f08755a7ff2b01ec7e0cf8550a3b5914bc0
 ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 10/25/2022
 ms.locfileid: "9715471"
@@ -26,7 +26,7 @@ ms.locfileid: "9715471"
 
 [!include [banner](../includes/banner.md)]
 
-Þegar þú áætlar og setur upp bókhaldslykil, þarftu að íhuga hvernig hinir ýmsu hlutar koma til með að vinna saman þegar þú bókar skjal eða færslu. Á meðal þessara hluta eru lykilskipulag, ítarlegar reglur, og afstemmdar og fastar víddir. Þessi grein útskýrir hvað hver íhlutur er og hvernig íhlutirnir vinna saman.
+Þegar þú áætlar og setur upp bókhaldslykil, þarftu að íhuga hvernig hinir ýmsu hlutar koma til með að vinna saman þegar þú bókar skjal eða færslu. Á meðal þessara hluta eru lykilskipulag, ítarlegar reglur, og afstemmdar og fastar víddir. Þessi grein útskýrir hvað hlutinn er og hvernig hlutarnir vinna saman.
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Bókhaldslykill og hlutar fjárhagsvídda
 
@@ -46,7 +46,7 @@ Krafist er lykilskipulags þegar þú setur upp fjárhaginn þinn. Nauðsynlegt 
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>Sjálfgefin/föst fjárhagsvídd á aðallyklinum
 
-Sjálfgefnar víddir koma frá ýmsum stöðum, eins og aðalfærslur (t.d. viðskiptamanna- eða lánadrottnafærslum), skjalahausum og aðallyklinum. Þessi grein fjallar um sjálfgefnar víddir á aðalreikningi eftir lögaðila. Hægt er að skilgreina hvort aðallykill hefur **Ekki fast** eða **Fast** gildi fyrir hverja fjárhagsvídd sem er notuð í öllu lykilskipulagi fyrir fjárhaginn. Ef fjárhagsvídd er **Ekki fast** nota hún sjálfgildi, en það gildi er hægt að skrifa yfir. Þessi hegðun á við öll sjálfgildi í kerfinu, jafnvel sjálfgildi sem koma frá aðalfærslum. Ef fjárhagsvídd er stillt á **Fast** gildi, er það gildi alltaf notað, hvort sem það kom einhversstaðar frá sem sjálfgildi eða notandinn færði það inn.
+Sjálfgefnar víddir koma frá ýmsum stöðum, eins og aðalfærslur (t.d. viðskiptamanna- eða lánadrottnafærslum), skjalahausum og aðallyklinum. Þessi grein leggur áherslu á sjálfgefnar víddir á aðallyklinum frá lögaðilum. Hægt er að skilgreina hvort aðallykill hefur **Ekki fast** eða **Fast** gildi fyrir hverja fjárhagsvídd sem er notuð í öllu lykilskipulagi fyrir fjárhaginn. Ef fjárhagsvídd er **Ekki fast** nota hún sjálfgildi, en það gildi er hægt að skrifa yfir. Þessi hegðun á við öll sjálfgildi í kerfinu, jafnvel sjálfgildi sem koma frá aðalfærslum. Ef fjárhagsvídd er stillt á **Fast** gildi, er það gildi alltaf notað, hvort sem það kom einhversstaðar frá sem sjálfgildi eða notandinn færði það inn.
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>Sjálfgefnar víddir eru notaðar í ákveðinni röð á meðan bókun stendur
 
@@ -93,7 +93,7 @@ Aftur á móti, þegar línan er bókuð, er fasta víddin notuð, og línan er 
 
 Þegar sami færslubókarhaus uppsetning er notuð og sama færslan er bókuð, er fasta víddin notuð fyrst. Síðan er afstemmingarrökleiðsla notuð til að hjálpa til við að tryggja að sérhver deild hafi afstemmda færslu. Eftirfarandi myndskýring sýnir fylgiskjalsfærslur sem innihalda afstemmingarfærsluna eftir að fasta víddin er virkjuð.
 
-[![Færslur fylgiskjals eftir að mótfærsla er bókuð](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Færslur fylgiskjals eftir að mótfærsla er bókuð.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Dæmi 3
 

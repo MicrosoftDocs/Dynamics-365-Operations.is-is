@@ -1,6 +1,6 @@
 ---
 title: Bæta við upplýsingum kreditstjórnunar fyrir viðskiptavini
-description: Þessi grein útskýrir hvernig á að bæta við útlánastjórnunarupplýsingum fyrir viðskiptavin.
+description: Þessi grein útskýrir hvernig á að bæta við upplýsingum um kreditstjórnun fyrir viðskiptavin.
 author: JodiChristiansen
 ms.date: 09/04/2019
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 5cdbae5e1fae8cb1922e165d30dd555a4ef375d9
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8861590"
@@ -32,7 +32,7 @@ Eftir að þú hefur sett upp færibreyturnar sem stjórna kreditstjórnun getur
 1. Stilltu valkostinn **Ótakmörkuð lánamörk** á **Já** ef viðskiptavinurinn ætti ekki að vera takmarkaður af neinum prófum á lánamörkum.
 2. Stilltu valkostinn **Útiloka frá kreditstjórnun** á **Já** til að útiloka viðskiptavininn frá aðgerðum sem venjulega eiga sér stað við útlánaumsýslu.
 3. Veldu lánastjórnunarhóp fyrir viðskiptavininn.
-4. Til að reikna út lánamörk í gjaldmiðli viðskiptavinarins slærðu inn í reitinn **Lánamörk í gjaldmiðli viðskiptavinar** lánamörk viðskiptavinarins. Lánsfjárhámarki í gjaldmiðli fyrirtækisins verður umreiknað með því að nota gengi sem eru skilgreind af gengistegund lánamarksgengis sem valin er í **Stærðir lánastýringar**.
+4. Til að reikna út lánamörk í gjaldmiðli viðskiptavinarins slærðu inn í reitinn **Lánamörk í gjaldmiðli viðskiptavinar** lánamörk viðskiptavinarins. Lánamörkum í gjaldeyris fyrirtækisins verður umbreytt með því að nota gengi sem eru skilgreind með því hvaða lánamörk gengistegund er valin í **Færibreytur lánastýringar**.
 5. Í reitinn **Síðasta endurskoðunardagsetning** slærðu inn dagsetninguna þegar lánshæfismörk viðskiptavinarins voru síðast endurskoðuð af lánastjóri.
 6. Í reitinn **Næsti áætlaði endurskoðunardagur** slærðu inn dagsetningu þegar viðskiptavinurinn er áætlaður fyrir lánshæfismat og uppfærslu.
 7. Í reitinn **Hæf lánamörk** slærðu inn hæsta lánamörk sem hægt er að úthluta viðskiptavini, byggð á yfirferð þinni á lánssögu viðkomandi. Hæfileg lánamörk geta verið frábrugðin lánamörkum sem sýnd eru á flýtiflipanum **Skuldir og innheimta**.
@@ -47,7 +47,7 @@ Eftir að þú hefur sett upp færibreyturnar sem stjórna kreditstjórnun getur
 16. Sláðu inn athugasemdir sem lánsteymið getur notað til að meta frekar lánstraust viðskiptavinarins.
 
 > [!Note] 
-> Sumar upplýsingarnar sem eru sýndar á **Viðskiptavinur** síðan er búin til með öðru ferli:
+> Sumar upplýsingarnar sem sýndar eru á síðunni **Viðskiptavinur** eru stofnaðar af öðru ferli:
 
 - Reiturinn **Lokadagur lánamarks** sýnir dagsetninguna þegar lánamörkin renna út. Ef þú stillir þennan reit ekki renna lánamörk viðskiptavinarins ekki út.
 - Reiturinn **Dagsetning lánamarks** sýnir dagsetninguna þegar lánamörkin voru stofnuð. Þessi reitur er uppfærður í hvert skipti sem lánsfjármörkin eru leiðrétt.

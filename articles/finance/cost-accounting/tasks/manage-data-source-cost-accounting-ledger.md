@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cb35761fb7a5f6d044832c57a7560b0c3ab2f6fa
 ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 05/06/2022
 ms.locfileid: "8721844"
@@ -34,7 +34,7 @@ Nota þetta ferli til að stýra gagnaveitu fjárhags fyrir kostnaðarbókhald f
 6. Smellið á „Nýtt“.
 7. Í reitinn Heiti skal slá inn gildi.
 8. Í reitinn Gagnaveita skal slá inn eða velja gildi.
-    * Fyrir þetta dæmi skaltu velja Dynamics 365 Finance - Fjárhagsfærslur.  
+    * Í þessu dæmi skal velja Dynamics 365 Finance - Fjárhagsfærslur.  
 9. Sláið inn eða veljið gildi í reitnum Vídd kostnaðareiningar.
     * Í þessu dæmi skal velja kostnaðareiningar.  
 10. Smellið á „Vista“.

@@ -1,6 +1,6 @@
 ---
 title: Rafræn skilaboð
-description: Þessi grein veitir yfirlit og uppsetningarupplýsingar fyrir rafræn skilaboð í Microsoft Dynamics 365 Fjármál.
+description: Þessi grein veitir yfirlit og upplýsingar um uppsetningu fyrir rafræn skilaboð í Microsoft Dynamics 365 Finance.
 author: AdamTrukawka
 ms.date: 01/04/2022
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 3e2fe6a70d449adea07f5aa0db9e625f0378d8c2
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9283455"
@@ -23,11 +23,11 @@ ms.locfileid: "9283455"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit og uppsetningarupplýsingar fyrir **Rafræn skilaboð** (EM) virkni.
+Í þessari grein er að finna yfirlit og upplýsingar um uppsetningu fyrir virknina **Rafræn skilaboð** (EM).
 
 Ríkisstjórnir og löggjafarvald í hinum ýmsu löndum og svæðum um allan heim hafa nýlega innleitt skýrslukröfur fyrir fyrirtæki sem eru skráð í þessum löndum og svæðum. Tilgangur kröfunnar er að gera það mögulegt að fá gögn frá þessum fyrirtækjum á rafrænu formi, beint frá kerfinu þar sem þau voru skráð, vistuð og unnin.
 
-EM virkni í Microsoft Dynamics 365 Finance styður ýmis ferli fyrir rafræna samvirkni milli Finance og þeirra kerfa sem stjórnvöld og löggjafaryfirvöld bjóða upp á til að tilkynna, senda inn og taka við opinberum upplýsingum.
+Virknin fyrir rafræn skilaboð í Microsoft Dynamics 365 Finance styður ýmsa ferla rafrænnar samaðgerðar milli Finance og kerfanna sem ríkisstjórnir og löggjafarvald bjóða upp á hvað varðar skýrslugerð, afhendingu og móttöku á opinberum upplýsingum.
 
 Virknin fyrir rafræn skilaboð er samþætt við eininguna **Rafræn skýrslugerð**. Hægt er að setja upp snið rafrænnar skýrslugerðar fyrir rafræn skilaboð. Frekari upplýsingar eru í [Rafræn skýrslugerð](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
@@ -76,9 +76,9 @@ Eftirfarandi öryggisréttindi eru í boði fyrir rafræn skilaboð.
 |-------------|--------------|------------------------|
 | Spánn       | [Tafarlaus afhending upplýsinga um VSK (Suministro Inmediato de Información del IVA, SII)](../localizations/emea-esp-sii.md) | |
 | Ungverjaland     | [Reikningsfærslukerfi á netinu](../localizations/emea-hun-online-invoicing.md) | |
-| Bretland | [Skattur gerður stafrænn (MTD) – Innsending VSK-yfirlits](../localizations/emea-gbr-mtd-vat-integration.md) | [Fjármál og rekstur: Stafrænn skattur í Bretlandi - VSK-yfirlýsing í Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
+| Bretland | [Skattur gerður stafrænn (MTD) – Innsending VSK-yfirlits](../localizations/emea-gbr-mtd-vat-integration.md) | [Fjármál- og rekstur: UK Digital Tax - VSK-skýrsla í Dynamics 365](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-uk-digital-tax-vat-declaration-in-dynamics-365) |
 | Litháen   | [i.SAF skýrslugerð](../localizations/emea-ltu-isaf.md) | |
-| Pólland      | [VSK-skýrsla ásamt afgreiðslukössum (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: SAF/JPK VSK endurskoðunarskrár](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
+| Pólland      | [VSK-skýrsla ásamt afgreiðslukössum (JPK_V7M, VDEK)](../localizations/emea-pol-vdek.md) | [Dynamics 365 Finance: SAF/JPK VKS-eftirlitsskrár](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-saf-jpk-vat-audit-registers-june-4-2020) |
 | Holland | [VSK-skýrsla fyrir Holland](../localizations/emea-nl-vat-declaration-netherlands.md) | |
 | Tékkland | [VSK-skýrsla](../localizations/emea-cze-vat-declaration-tax-declaration-model.md) | |
 | Brasilía      | [SPED-Reinf](../localizations/latam-bra-sped-reinf-overview.md) | |
@@ -88,13 +88,13 @@ Eftirfarandi öryggisréttindi eru í boði fyrir rafræn skilaboð.
 | Rússland      | [Áætluð skattskýrsla](../localizations/rus-assessed-tax-declaration.md) | |
 | Rússland      | [Flutningsskattsskýrsla](../localizations/rus-transport-tax-declaration.md) | |
 | Rússland      | [Lóðarskattsskýrsla](../localizations/rus-land-tax-declaration.md) | |
-| Noregur      | [VSK-skilagrein með beinni innsendingu til Altinn](../localizations/emea-nor-vat-return.md) | [Ný virðisaukaskattsskýrsla með beinni skilum til Altinn í Dynamics 365 Finance](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
-| Frakkland      | [VSK yfirlýsing (Frakkland)](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
-| Austurríki     | [VSK yfirlýsing (Austurríki)](../localizations/emea-aut-vat-declaration-austria.md) | |
-| Þýskaland     | [VSK yfirlýsing (Þýskaland)](../localizations/emea-deu-vat-declaration-germany.md) | |
+| Noregur      | [VSK-skilagrein með beinni innsendingu til Altinn](../localizations/emea-nor-vat-return.md) | [VSK-skilagrein með beinni innsendingu til Altinn í Dynamics 365 Finance](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/new-vat-return-with-direct-submission-to-altinn-in-dynamics-365-finance-december-1-2021) |
+| Frakkland      | [VSK-skýrsla (Frakkland)](../localizations/emea-fra-VAT-declaration-preview-France.md) | |
+| Austurríki     | [VSK-skýrsla (Austurríki)](../localizations/emea-aut-vat-declaration-austria.md) | |
+| Þýskaland     | [VSK-skýrsla (Þýskaland)](../localizations/emea-deu-vat-declaration-germany.md) | |
 | Holland | [VSK-skýrsla fyrir Holland](../localizations/emea-nl-vat-declaration-netherlands.md) | |
-| Svíþjóð      | [VSK yfirlýsing (Svíþjóð)](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
-| Sviss | [VSK yfirlýsing (Sviss)](../localizations/emea-che-vat-declaration-switzerland.md) | |
+| Svíþjóð      | [VSK-skýrsla (Svíþjóð)](../localizations/emea-swe-VAT-declaration-Sweden.md) | |
+| Sviss | [VSK-skýrsla (Sviss)](../localizations/emea-che-vat-declaration-switzerland.md) | |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

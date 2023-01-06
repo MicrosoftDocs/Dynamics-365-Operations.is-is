@@ -1,6 +1,6 @@
 ---
 title: Flytja inn skrár á XML-sniði með valeigindum
-description: Þessi grein veitir upplýsingar um hönnun ER-sniða sem tilgreina XML-eiginleika til að flokka rafræn skjöl á XML-sniði.
+description: Þessi grein veitir upplýsingar um að uppsetningu á ER-sniðum sem tilgreina XML-eiginleika til að þátta komandi rafræn skjöl í XML-sniði.
 author: kfend
 ms.date: 07/03/2019
 ms.topic: article
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: ''
 ms.search.form: EROperationDesigner
 ms.openlocfilehash: bd4e2d75a598dd36de8b2ce89e83789d87b3a72e
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9276627"
@@ -26,7 +26,7 @@ ms.locfileid: "9276627"
 
 Hægt er að setja upp snið rafrænnar skýrslugerðar (ER) til að þátta skjöl á innleið í XML-sniði. Hægt er að tilgreina ákveðna eiginleika XML-eininga í uppsettu ER-sniði sem valfrjálsa. Það mun gera þér kleift að meðhöndla skrár á innleið og án slíkra XML-eiginleika rétt. Síðan er hægt að nota efnið úr þessum skrám til að uppfæra hugbúnaðargögn.
 
-Til að læra meira um þennan eiginleika skaltu klára skrefin í greininni, [(RCS) Flytja inn skrár á XML-sniði með valfrjálsum eiginleikum](tasks/import-files-xml-format-optional-attributes.md), sem er hluti af 7.5.4.3 Kaupa/þróa upplýsingatækniþjónustu/lausnahluta (10677) viðskiptaferli. Hægt er að sækja þessar verkleiðbeiningarnar og tengdar sýnisskrár úr [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684).
+Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka skrefunum í greininni [(RCS) Flytja inn skrár á XML-sniði með valkvæðum eiginleikum](tasks/import-files-xml-format-optional-attributes.md), sem er hluti af viðskiptaferlinu 7.5.4.3 Acquire/Develop IT þjónusta/lausnarhluti (10677). Hægt er að sækja þessar verkleiðbeiningarnar og tengdar sýnisskrár úr [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684).
 
 
 | Lýsing á efni       | Skrá                                                         |
@@ -38,7 +38,7 @@ Til að læra meira um þennan eiginleika skaltu klára skrefin í greininni, [(
 Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp ER-skilgreiningarsnið til að flytja inn skrár á XML-sniði sem innihalda valkvæðar eigindir. Til að ljúka þessum skrefum verður fyrst að ljúka skrefunum í ferlinu [Stofna skilgreiningaveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md). Áður en þú hefst handa skaltu sækja og vista staðbundið skrána IncomingDocumentToLearnHowToHandleOptionalAttributes.xml frá Microsoft Download Center (https://go.microsoft.com/fwlink/?linkid=874684 ).
 
 1. Farðu í **Fyrirtækisstjórnun** > **Vinnusvæði** > **Rafræn skýrslugerð**.
-2. Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt **Virk**. Ef þú sérð ekki þessa stillingarveitu skaltu ljúka skrefunum í greininni, [Búðu til stillingaveitur og merktu þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt **Virk**. Ef þú sérð skilgreiningarveituna ekki skaltu klára skrefin í greininni [Stofna skilgreiningaveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Smellið á **Skilgreiningar skýrslugerðar**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Stofna nýjan skilgreiningu gagnalíkans

@@ -1,6 +1,6 @@
 ---
 title: Formúluhönnuður fyrir TDS-útreikninga
-description: Þessi grein gefur dæmi um hvernig Tax Deducted at Source (TDS) er reiknaður út frá formúlunni sem er skilgreind fyrir hvern TDS skattkóða í TDS hópnum sem er tengdur við færsluna.
+description: Í þessari grein er dæmi um hvernig skattur sem er dreginn er frá í uppruna (TDS) er reiknaður á grundvelli formúlunnar sem er skilgreind fyrir hvern TDS-skattkóða í TDS-hópnum sem er tengdur færslunni.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
 ms.openlocfilehash: 1196f7258c898a55f3f29ddce7457e6f527185d8
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8889862"
@@ -26,7 +26,7 @@ ms.locfileid: "8889862"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein gefur dæmi um hvernig Tax Deducted at Source (TDS) er reiknaður út frá formúlunni sem er skilgreind fyrir hvern TDS skattkóða. TDS-skattkóðar eru skilgreindir í TDS-hópnum sem er tengdur færslunni. Ljúkið við grunnuppsetninguna sem þarf fyrir TDS eins og lýst er í eftirfarandi skrefum áður en TDS formúlurnar eru hannaðar. 
+Í þessari grein er dæmi um hvernig skattur sem er dreginn er frá í uppruna (TDS) er reiknaður á grundvelli formúlunnar sem er skilgreind fyrir hvern TDS-skattkóða. TDS-skattkóðar eru skilgreindir í TDS-hópnum sem er tengdur færslunni. Ljúkið við grunnuppsetninguna sem þarf fyrir TDS eins og lýst er í eftirfarandi skrefum áður en TDS formúlurnar eru hannaðar. 
 
 - Setja upp TDS hlutahópa með því að nota síðuna **Íhlutaflokkar staðgreiðsluskatts**. 
 - Settu upp TDS íhluti og festu TDS íhlutahópinn við TDS íhlutina með því að nota síðuna **Staðgreiðsluskattshlutar**. 

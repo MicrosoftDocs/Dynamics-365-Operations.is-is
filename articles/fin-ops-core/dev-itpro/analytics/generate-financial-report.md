@@ -1,6 +1,6 @@
 ---
 title: Mynda fjárhagsskýrslur
-description: Þessi grein veitir upplýsingar um gerð fjárhagsskýrslu.
+description: Þessi grein inniheldur almennar upplýsingar um myndum reikningsskila.
 author: jinniew
 ms.date: 02/08/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: 59ec6978d83f5c51309bc7d90d47366774cb2880
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8898828"
@@ -26,29 +26,29 @@ ms.locfileid: "8898828"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um gerð fjárhagsskýrslu.
+Þessi grein inniheldur almennar upplýsingar um myndum reikningsskila.
 
-Til að búa til skýrslu skaltu opna skýrsluskilgreininguna og velja á tækjastikunni **Mynda**. The **Tilkynna biðröð stöðu** síðan opnast og gefur til kynna staðsetningu skýrslunnar þinnar í biðröðinni.
+Til að mynda skýrslu skal opna skýrsluskilgreininguna og velja svo hnappinn **Mynda** á tækjastikunni. Síðan **Biðraðarstaða skýrslu** opnast þar sem tilgreind er staðsetning skýrslu notandans í biðröðinni.
 
-Þegar líður á skýrslugerðina geta eftirfarandi stöðuvísar skýrsluraðar verið sýnilegir á **Tilkynna biðröð stöðu** síðu.
+Eftir því sem skýrslugerðinni vindur fram gætu eftirfarandi stöðuvísar skýrslubiðraðar verið sýnilegir á síðunni **Staða skýrslubiðraðar**.
 
 | Staða          | Staða | Lýsing|
 |-----------------|--------|--------------------|
-| Í biðröð        | Til bráðabirgða |Skýrsluskilgreiningin er staðfest áður en skýrslan er sett í kynslóðarröðina.                    |
-| Í röð          | Til bráðabirgða | Skýrslan fer inn í biðröð skýrslugerðar og bíður vinnslu.                      |
-| Í vinnslu      | Til bráðabirgða | Þessi staða fylgir venjulega **Í biðröð** stöðu og breytist venjulega yfir í a **Úrslitaleikur** tilgreina þegar vinnslu er lokið.       |
-| PostProcessing | Til bráðabirgða | Þessi staða fylgir **Vinnsla** stöðu og gefur til kynna að öllum skýrslugögnum sé safnað, en að verið sé að framkvæma afleiddar aðgerðir, svo sem útreikninga og samsetningu.            |
-| Hættir við      | Til bráðabirgða | Tilkynningunni er hætt að beiðni notanda. Þetta ástand stafar af afturköllun notanda fyrir skýrslu í **Í biðröð** eða **Vinnsla** ríki. Kerfið reynir að setja skýrsluna í **Hætt við** ríki, nema kerfið sé of langt á veg komið og verði að ganga frá því í öðru ríki. |
-| Hætt við        | Loka | Vinnsla skýrslunnar er lokið en henni var ekki lokið vegna stöðvunar sem notandi óskaði eftir.            |
+| Í biðröð        | Bráðabirgða |Skýrsluskilgreiningin er staðfest áður en skýrslan er sett í skýrslumyndunarröðina.                    |
+| Í röð          | Bráðabirgða | Skýrslan fer inn í skýrslumyndunarröðina og bíður þess að vera unnin.                      |
+| Í vinnslu      | Bráðabirgða | Þessi staða fylgir yfirleitt stöðunni **Í biðröð** og breytist yfirleitt í stöðuna **Lokaútgáfa** þegar vinnslunni lýkur.       |
+| PostProcessing | Bráðabirgða | Þessi staða fylgir stöðunni **Vinnsla** og gefur til kynna að öllum skýrslugögnum er safnað saman, en að afleiddar aðgerðir, t.d. útreikningur og samantekt, eru framkvæmdar.            |
+| Hættir við      | Bráðabirgða | Skýrslugerðin er felld niður að beiðni notanda. Þessi staða kemur til vegna afturköllunar af hálfu notanda vegna skýrslu í stöðunni **Biðröð** eða **Í vinnslu**. Kerfið reynir að setja skýrsluna í stöðna **Afturkölluð** nema kerfið sé komið of langt og verði að ljúka henni í annarri stöðu. |
+| Hætt við        | Loka | Skýrslan hefur lokið vinnslu en var ekki lokið vegna notandi óskaði eftir stöðvun.            |
 | Lokið       | Loka | Skýrslan er tilbúin til notkunar.                      |
-| Mistókst          | Loka | Úrvinnslu skýrslunnar lauk en mistókst og ætti ekki að nota hana. |
+| Mistókst          | Loka | Lokið var við vinnslu skýrslunnar en hún mistókst og ætti ekki að vera notuð. |
 
 Myndaða skýrslur verður sjálfgefið opnuð í Vefskoðun Eftirtaldir valkostir eru í boði til að búa til skýrslu:
 
 - Setja upp röðun til að mynda skýrslu eða skýrsluflokk sjálfkrafa
 - Leita að týndum lyklum eða gögnum í skýrslu og sannprófa nákvæmni skýrslu
 
-Þegar þú býrð til skýrslu eru valkostirnir sem þú hefur tilgreint á Skýrsluskilgreiningaflipunum notaðir.
+Þegar skýrsla er mynduð eru valkostina sem tilgreindir hafa verið á flipunum fyrir Skýrsluskilgreiningar notaðir.
 
 ## <a name="generate-a-financial-report"></a>Mynda fjárhagsskýrslu
 
@@ -74,9 +74,9 @@ Skýrsluhópar eru skilvirk leið til að búa til margar skýrslur samtímis. T
 4. Vistið skýrsluhópinn.
 
 ## <a name="schedule-report-generation"></a>Skýrslumyndun áætluð
-Mörg fyrirtæki eru með grunnsett af skýrslum sem eru keyrð með reglulegu millibili til samræmis við viðskiptaferla þeirra. Notandinn getur látið mynda skýrslu reglulega, eins og daglega, vikulega, mánaðarlega eða árlega. Þetta getur verið stök skýrsla eða skýrsluhópur sem felur í sér mörg fyrirtæki. Færa verður inn skilríki notanda fyrir hvert fyrirtækjanna sem tilgreind eru, eins og þau sem eru í skilgreiningu skipurits. Ef skilríkin eru ekki gild mun skýrslan birta aðeins þær upplýsingar sem þú hefur aðgang að, eins og fyrirtækið sem þú ert skráður inn á á þeim tíma. Fyrst eru lesnar frálagsupplýsingar úr skýrsluhópnum og síðan úr einstökum skýrslum.
+Mörg fyrirtæki eru með grunnsett af skýrslum sem eru keyrð með reglulegu millibili til samræmis við viðskiptaferla þeirra. Notandinn getur látið mynda skýrslu reglulega, eins og daglega, vikulega, mánaðarlega eða árlega. Þetta getur verið stök skýrsla eða skýrsluhópur sem felur í sér mörg fyrirtæki. Færa verður inn skilríki notanda fyrir hvert fyrirtækjanna sem tilgreind eru, eins og þau sem eru í skilgreiningu skipurits. Ef skilríkin eru ekki gild birtir skýrslan einungis upplýsingarnar sem notandinn hefur aðgangsheimild að, eins og um fyrirtækið sem notandinn er skráður inn í á þeim tíma. Fyrst eru lesnar frálagsupplýsingar úr skýrsluhópnum og síðan úr einstökum skýrslum.
 
-Þegar skýrsluáætlanir eru búnar til og vistaðar birtast þær í yfirlitsrúðunni undir Skýrsluáætlanir. Hægt er að stofna möppur til að skipuleggja skýrslurnar. Ef ein skýrsla í ætlun er ekki keyrð er haldið áfram að keyra allar aðrar skýrslur.
+Þegar skýrsluáætlanir eru stofnaðar og vistaðar eru þær birtar á yfirlitssvæðinu undir Skýrsluáætlanir. Hægt er að stofna möppur til að skipuleggja skýrslurnar. Ef ein skýrsla í ætlun er ekki keyrð er haldið áfram að keyra allar aðrar skýrslur.
 
 > [!IMPORTANT]
 > Til að stofna, breyta og eyða skýrsluáætlunum þarf að hafa hlutverk hönnuðar eða stjórnanda. Þegar skýrsla er keyrð eru skilríki notandans sem stofnaði áætlunina notuð til að mynda skýrsluna.
@@ -112,13 +112,13 @@ Ef eyða á skýrsluáætlun þarf notandinn að vera eigandi skýrsluáætlunar
 
 1. Í skýrsluhönnun skal velja **Skýrsluáætlanir** á yfirlitssvæðinu.
 2. Valin er skýrsluáætlun sem á að eyða og síðan valið **Eyða** eða ýtt á lykilinn **Eyða**.
-3. Í svarglugganum fyrir staðfestingu eyðingar er smellt á **Já** til að eyða skýrsluáætluninni til frambúðar. Ef þú hefur ekki leyfi til að eyða áætluninni birtast skilaboð og skýrslunni er ekki eytt.
+3. Í svarglugganum fyrir staðfestingu eyðingar er smellt á **Já** til að eyða skýrsluáætluninni til frambúðar. Ef notandinn er ekki með heimild til að eyða áætluninni birtast skilaboð og skýrslunni er ekki eytt.
 
 ### <a name="credentials-and-report-schedules"></a>Skilríki og skýrsluáætlanir
 
 Ef þú færir ekki inn skilríki sem eru nauðsynleg fyrir öll fyrirtæki í skýrslum, berast þér eftirfarandi skilaboð þegar skýrsluáætlun er vistuð: „Tilgreina verður skilríkin fyrir þau fyrirtæki sem eru til staðarí þessari skýrsluáætlun. Smellið á hnappinn „Heimildir“ til að færa inn skilríkin þín.“
 
-Til dæmis skráir notandi sig inn á Fyrirtæki A með sinni innskráningu og aðgangsorði. Notandi stofnar áætlun fyrir skýrslu sem notar skýrslugerð tré skilgreiningu til að safna gögnum frá mörgum fyrirtækjum. Þegar áætlun þessi skýrsla er vistuð er notandinn beðinn um að notendaheimildir færðar inn í öðrum fyrirtækjum sem eru tilgreind í skilgreiningu reporting tréð. Þegar skilríkin þín renna út eru viðkomandi skýrslur í skýrsluáætluninni ekki búnar til fyrr en skilríkin hafa verið uppfærð. Skilaboð birtast einnig í skýrslubiðröðinni til að gefa til kynna að uppfæra þurfi heimildir. Skýrsluáætlunin bregst ef einhver af eftirfarandi aðstæðum koma upp (þar sem þær krefjast skilríkja):
+Til dæmis skráir notandi sig inn á Fyrirtæki A með sinni innskráningu og aðgangsorði. Notandi stofnar áætlun fyrir skýrslu sem notar skýrslugerð tré skilgreiningu til að safna gögnum frá mörgum fyrirtækjum. Þegar áætlun þessi skýrsla er vistuð er notandinn beðinn um að notendaheimildir færðar inn í öðrum fyrirtækjum sem eru tilgreind í skilgreiningu reporting tréð. Þegar skilríki notanda renna út eru skýrslurnar sem það hefur áhrif á ekki myndaðar fyrr en skilríkin hafa verið uppfærð. Skilaboð birtast einnig í skýrslubiðröðinni til að gefa til kynna að uppfæra þurfi heimildir. Skýrsluáætlunin bregst ef einhver af eftirfarandi aðstæðum koma upp (þar sem þær krefjast skilríkja):
 
 - Nýju fyrirtæki er bætt við skipuritið fyrir einstaka skýrslu.
 - Skýrslu í skýrsluhópi er breytt.
@@ -129,12 +129,12 @@ Veljið hnappinn **Heimildir** í svarglugganum **Skýrslugerð** til að halda 
 ## <a name="missing-account-analysis-feature"></a>Eiginleiki greiningar reiknings sem vantar
 Hægt er að leita að fjárhagsreikningum og víddum sem hugsanlega gæti vantað þvert yfir línuskilgreiningar, skilgreiningar skipurits og skilgreiningar skýrslu í einingahóp. Þetta er gagnlegt þegar stofnaðir eða uppfærðir eru margir reikningar eða einingar á stuttu tímabili og staðfesta á að allar nýjar upplýsingar séu innfaldar í skýrslunum.
 
-Vantar reikningar eru ákvarðaðir með því að nota lægstu og hæstu gildin úr línuskilgreiningunni eða skýrslutrésskilgreiningunni og birtir síðan lista yfir reikninga sem eru ekki í línuskilgreiningunni eða skýrslutrésskilgreiningunni, en eru í fjárhagsgögnum. Ef reikningur sem vantar er stærri en eða minni en gildin í línuskilgreiningunni er sá reikningur ekki með á listanum yfir reikninga sem vantar.
+Ákvörðun um það hvaða reikninga vantar er gerð með því að nota hæsta og lægsta gildi línuskilgreiningarinnar eða skipuritsskilgreiningarinnar og birta svo lista yfir reikninga sem ekki eru í línuskilgreiningunni eða skipuritsskilgreiningunni, en eru í fjárhagsgögnunum. Ef reikningur sem vantar er hærri eða lægri en gildin í línuskilgreiningunni er sá reikningur ekki með á listanum yfir reikninga sem vantar.
 
 > [!TIP]
 > Hvað staðfestingu varðar ætti þetta ferli að vera keyrt áður en myndaðar eru mánaðarlegar skýrslur og þegar nýjar einingar eru stofnaðar.
 
-Ólíklegra er að skýrslur sem hafa svið gilda vanti reikninga. Þegar mögulegt er skaltu nota svið í byggingarreitnum til að innihalda nýja reikninga þegar þeir eru búnir til. Ef skýrslugreining er stillt á @ANY fyrirtæki, þá getur notandi skráð sig inn á tiltekið fyrirtæki og keyrt reikningsgreiningu sem vantar fyrir það fyrirtæki.
+Ólíklegra er að skýrslur sem hafa svið gilda vanti reikninga. Þegar mögulegt er skal nota svið í einingunni til að hafa nýja reikninga með þegar þeir eru stofnaðir. Ef skýrslugreining er stillt á @ANY fyrirtæki, þá getur notandi skráð sig inn á tiltekið fyrirtæki og keyrt reikningsgreiningu sem vantar fyrir það fyrirtæki.
 
 > [!NOTE]
 > Ef nýju fyrirtæki hefur verið bætt við, verður að bæta nýja fyrirtækinu við skipuritið í öllum núverandi skýrslum, annars mun fyrirtækið ekki vera innfalið í greiningu á reikningum sem vantar.
@@ -147,8 +147,8 @@ Vantar reikningar eru ákvarðaðir með því að nota lægstu og hæstu gildin
 4. Í því **Flokka eftir** skal velja valkost til að raða niðurstöðunum. Hægt er að raða niðurstöðunum eftir einingunni sem verður fyrir áhrifum, en einnig er hægt að raða niðurstöðum eftir vídd og gildasamstæðum.
 5. Farið yfir niðurstöðurnar sem birtast. Þegar atriði er valið á efra svæðinu birtast viðbótarupplýsingar um undantekninguna á neðra svæðinu. Þetta innifelur tengdar víddir, gildi og skýrslur.
 6. Til þess að opna atriðið skal velja tengt tákn sem birtist á svæðislistanum eða hægrismella á atriðið og velja **Opna**. Til að velja mörg atriði skal halda **Ctrl**-lyklinum niðri um leið og valin eru atriði á neðra svæðinu.
-7. Ef einhverjum gildum, byggingareiningum eða skýrslum er skilað sem ætti ekki að vera með í greiningunni skaltu hægrismella á hlutinn og velja **Útiloka**, eða veldu **Útiloka** gátreitinn við hliðina á hlutnum til að fjarlægja hlutinn af listanum. Útilokaðir hlutir eru ekki með þegar listinn er endurnýjaður. Til að velja mörg atriði skal halda **Ctrl**-lyklinum niðri um leið og valin eru atriði á neðra svæðinu. Til þess að skoða öll atriði, þar á meðal niðurstöður sem áður hafa verið valdar til útilokunar frá greiningunni, skal velja gátreitinn **Sýna útilokaðar einingar** og gildi og velja síðan **Endurnýja**.
-8. Veldu **Endurnýja** til að endurnýja undantekningar sem þú hefur tekið á. Veljið **Já** til að endurhlaða öllum niðurstöðunum eða **Nei** til þess að endurhlaða að hluta til atriði sem eru afgreidd.
+7. Ef einhverjum gildum, einingum eða skýrslum er skilað sem ættu ekki að vera innfalin í greiningunni skal hægrismella á atriðið og velja **Útiloka** eða velja gátreitinn **Útiloka** við hlið atriðisins til þess að fjarlægja atriðið af listanum. Útilokaðar vörur eru ekki teknar með þegar listinn er endurnýjaður. Til að velja mörg atriði skal halda **Ctrl**-lyklinum niðri um leið og valin eru atriði á neðra svæðinu. Til þess að skoða öll atriði, þar á meðal niðurstöður sem áður hafa verið valdar til útilokunar frá greiningunni, skal velja gátreitinn **Sýna útilokaðar einingar** og gildi og velja síðan **Endurnýja**.
+8. Veljið **Endurnýja** til að endurnýja undantekningar sem hafa verið afgreiddar. Veljið **Já** til að endurhlaða öllum niðurstöðunum eða **Nei** til þess að endurhlaða að hluta til atriði sem eru afgreidd.
 
     > [!NOTE]
     > Sniðið er sjálfkrafa endurhlaðið þegar það er opnað, nema ef sniðið hefur verið opnað á síðustu 15 mínútunum.

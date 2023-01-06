@@ -1,6 +1,6 @@
 ---
 title: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
-description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir, eða sem áætlað var að fjarlægja úr Dynamics 365 for Finance and Operations og fyrri útgáfur.
+description: Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 for Finance and Operations og fyrri útgáfum.
 author: sericks007
 ms.date: 02/16/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ea9355b040c6431f5ddcccc4aaa0de73e21ad299
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9124559"
@@ -28,16 +28,16 @@ ms.locfileid: "9124559"
 
 
 > [!IMPORTANT]
-> Þessi grein er ekki lengur uppfærð. Til að sjá núverandi lista yfir eiginleika sem hafa verið fjarlægðir eða úreltir úr Finance and Operations forritum skaltu leita að **„Fjarlægðir eða úreltir eiginleikar“** efni sem tengist forritinu sem þú ert að nota.
+> Þessi grein er ekki lengur uppfærð. Til að sjá núverandi lista yfir eiginleika sem hafa verið fjarlægðir eða úreltir úr forriti fjármála- og reksturs, leitaðu að efni **„Fjarlægðir eða úreltir eiginleikar“** sem tengist forritinu sem þú notar.
 
-Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir eða úreltar Dynamics 365 for Finance and Operations og fyrri útgáfur þeirrar vöru.
+Þessi grein lýsir eiginleikum sem hafa verið fjarlægðir eða úreltir úr Dynamics 365 for Finance and Operations og fyrri útgáfum þeirrar vöru.
 
 - *Fjarlægður* eiginleiki er ekki lengur tiltækur í vörunni.
 - *Úreltur* eiginleiki er ekki í virkri þróun og getur verið fjarlægður úr uppfærslum í framtíðinni.
 
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
-Ítarlegar upplýsingar um hluti í Finance and Operations öppum er að finna í [Tæknilegar tilvísunarskýrslur](/dynamics/s-e/global/axtechrefrep_61). Þú getur borið saman mismunandi útgáfur þessara skýrslna til að fræðast um hluti sem hafa breyst eða verið fjarlægðir í hverri útgáfu af Finance and Operations forritum.
+Ítarlegar upplýsingar um hluti í forritum fjármála- og reksturs má finna í [Tæknileg tilvísunarskjöl](/dynamics/s-e/global/axtechrefrep_61). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita fjármála- og reksturs.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 með verkvangsuppfærslu 31
 
@@ -84,7 +84,7 @@ ms.locfileid: "9124559"
 | **Dreifingarvalkostur**              | Öll |
 | **Staða**                         | Úrelt: Fyrir 1. október 2020, stefnum við að því að styðja ekki lengur við aðferðina **setUtcString()**. Verktaki ætti að nota aðferðina **setUtcDateTime()** í staðinn. |
 
-### <a name="blocklist-report-it--feature-reference-it-00001"></a>Blocklist skýrsla (IT) – Eiginleikatilvísun IT-00001
+### <a name="blocklist-report-it--feature-reference-it-00001"></a>Bannlistaskýrsla (IT) - Tilvísun eiginleika IT-00001
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -302,7 +302,7 @@ Innfellda afkastavísa (KPI) er hægt að þróa í Visual Studio af þróunara�
 | **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í framtíðinni. |
 | **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt: Viðvörunin er villa við samsetningu með vettvangsuppfærslum fyrir útgáfu 10.0.11 af Finance and Operations forritum. |
+| **Staða**                         | Úrelt: Viðvörunin er þýðingartímavilla í framtíðinni með uppfærslum á verkvangi fyrir útgáfu 10.0.11 af forritum fjármála- og reksturs. |
 
 #### <a name="complete-list"></a>Heildarlisti
 Til að fá aðgang að heildarlista afkastavísa sem verið er að úrelda skal sjá [Úrelding á aðferðum og einingum lýsigagna](deprecation-deletion-apis.md).
@@ -889,7 +889,7 @@ Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum ver
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF AxD og AxBC samþættingar
 
-Í samþættingarramma Kerfa (AIF), er hægt að skiptast á gögnum við ytri kerfi gegnum viðskiptagrunninn með viðskiptagrunn sem er sem þjónustu. Dynamics AX felur í sér þjónustu sem byggir á skjölum og.NET Business Connector (AxBC). Skjal er stofnað með notkun XML. XML inniheldur hausupplýsingar sem bætt er við til að stofna *skilaboð* sem hægt er að flytja inn eða út úr Dynamics AX. Dæmi um skjöl fela í sér sölupantanir og innkaupapantanir. Hins vegar getur skjal staðið fyrir nánast hvaða einingu sem er, eins og viðskiptavin. Þjónustur sem byggja á skjölum nota **Axd \<Document\>** klasana.
+Í samþættingarramma Kerfa (AIF), er hægt að skiptast á gögnum við ytri kerfi gegnum viðskiptagrunninn með viðskiptagrunn sem er sem þjónustu. Dynamics AX felur í sér þjónustu sem byggir á skjölum og .NET Business Connector (AxBC). Skjal er stofnað með notkun XML. XML inniheldur hausupplýsingar sem bætt er við til að stofna *skilaboð* sem hægt er að flytja inn eða út úr Dynamics AX. Dæmi um skjöl fela í sér sölupantanir og innkaupapantanir. Hins vegar getur skjal staðið fyrir nánast hvaða einingu sem er, eins og viðskiptavin. Þjónustur sem byggja á skjölum nota **Axd \<Document\>** klasana.
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|

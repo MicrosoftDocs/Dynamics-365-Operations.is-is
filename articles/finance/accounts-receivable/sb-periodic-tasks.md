@@ -1,6 +1,6 @@
 ---
-title: Reglubundin verkefni í Endurteknum samningsreikningum
-description: Þessi grein lýsir reglubundnum verkefnum sem eru tiltæk í Endurteknum samningsreikningum.
+title: Reglubundin verkefni í „Endurteknar samningsgreiðslur“
+description: Þessi grein lýsir reglubundnum verkum sem eru í boði í endurtekinni samningsgreiðslu.
 author: JodiChristiansen
 ms.date: 04/29/2022
 ms.topic: article
@@ -17,208 +17,208 @@ ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
 ms.openlocfilehash: d834d1d7aa34448b4ef21606974538eb294b5d7d
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8904789"
 ---
-# <a name="periodic-tasks-in-recurring-contract-billing"></a>Reglubundin verkefni í Endurteknum samningsreikningum
+# <a name="periodic-tasks-in-recurring-contract-billing"></a>Reglubundin verkefni í „Endurteknar samningsgreiðslur“
 
-Þessi grein lýsir reglubundnum verkefnum sem eru tiltæk í Endurteknum samningsreikningum.
+Þessi grein lýsir reglubundnum verkum sem eru í boði í endurtekinni samningsgreiðslu.
 
 ## <a name="generate-invoice"></a>Mynda reikning
 
-Nota **Búðu til reikning** síðu til að búa til fjölda mánaðarlega endurtekna reikninga úr upplýsingum sem þú setur upp á **Allar innheimtuáætlanir** og **Skoða innheimtuupplýsingar** síður. Þegar reikningur er stofnaður er vörulýsing fyrir vinnslulínu sölupöntunar uppfærð með vörulýsingu og upphafs- og lokadagsetningum innheimtu fyrir áætlunarlínuna sem er reikningsfærð.
+Notaðu síðuna **Búa til reikning** til að búa til fjölda mánaðarlegra endurtekinna reikninga úr upplýsingunum sem eru settar upp á síðunum **Allar greiðsluáætlanir** og **Skoða greiðsluupplýsingar**. Þegar reikningur er búinn til er vörulýsingin fyrir línu sölupöntunarvinnslu uppfærð með vörulýsingunni og upphafs- og lokadagsetningum greiðslu fyrir greiðslulínuna sem er reikningsfærð.
 
 ## <a name="generate-invoice-batch-processing"></a>Útbúa runuvinnslu reiknings
 
-Nota **Búðu til lotuvinnslu reikninga** síðu til að búa til endurtekna reikninga í gegnum endurtekið lotuferli. Færibreyturnar sem eru tiltækar eru þær sömu og færibreyturnar á **Búðu til reikning** síðu, en hægt er að vista þær í lotuferli sem hægt er að keyra mörgum sinnum.
+Notaðu síðuna **Búa til runuvinnslu reiknings** til að búa til endurtekna reikninga í gegnum endurtekna runuvinnslu. Færibreyturnar sem eru tiltækar eru þær sömu og færibreyturnar á síðunni **Búa til reikning**, en hægt er að vista þær í runuvinnslu sem hægt er að keyra mörgum sinnum.
 
 ## <a name="price-update"></a>Verðuppfærsla
 
-Notaðu Verðuppfærslutólið til að uppfæra verð nokkurra vara á mörgum innheimtuáætlunum í einni aðgerð. Verðin geta verið uppfærð miðað við annað hvort tiltekna prósentu eða tiltekna upphæð. Listi yfir línur sýnir aðeins núverandi einingarverð vörunnar. Það sýnir ekki verðin eftir verðuppfærsluna.
+Nota verðuppfærsluna til að uppfæra verð á nokkrum vörum í mörgum greiðsluáætlunum í einni aðgerð. Hægt er að uppfæra verðin út frá annaðhvort tiltekinni prósentu eða tiltekinni upphæð. Listi yfir línur sýnir eingöngu núgildandi einingarverð varanna. Verðin koma ekki fram eftir verðuppfærsluna.
 
-Athugaðu eftirfarandi atriði um verðuppfærslutólið:
+Gæta skal eftirfarandi atriða um verðuppfærsluverkfærið:
 
-- Ef sölupöntun fyrir tiltekið ár hefur þegar verið stofnuð (þ.e. vörurnar hafa verið rukkaðar) hefur það ekki áhrif á verð línunnar.
-- Hægt er að nota Verðuppfærslutólið fyrir línur sem hafa stöðuna **Virkur** eða **Á bið**. Fyrir hluti sem eru í biðstöðu, **Stilla áætlun** valkostur verður að hafa verið stilltur á **Nei** þegar gripið var komið fyrir.
-- Verðuppfærslutólið er ekki hægt að nota fyrir línur sem eru notkunarvörur, sem nota stigmögnun, áfangareikninga eða tekjuskiptingu.
+- Ef sölupöntun fyrir tiltekið ár hefur þegar verið stofnuð (þ.e. vörurnar hafa verið reikningsfærðar) hefur það ekki áhrif á verð vörulínunnar.
+- Hægt er að nota verðuppfærsluna fyrir vörulínur sem eru með stöðuna **Virkt** eða **Í biðstöðu**. Fyrir vörur sem eru í biðstöðu verður valkosturinn **Breyta áætlun** að hafa verið stilltur á **Nei** þegar biðstaðan var sett á.
+- Ekki er hægt að nota verðuppfærsluna fyrir vörulínur sem eru notkunarvörur, sem nota stighækkun, áfangagreiðslu eða tekjuskiptingu.
 
-### <a name="price-update-example"></a>Dæmi um verðuppfærslu
+### <a name="price-update-example"></a>Dæmi um uppfært verð
 
-Innheimtuáætlun er búin til og endurnýjunaratriði er bætt við. Einingaverðið er $750. Fyrsta ár hlutarins er greitt 15. desember 2021. Innheimtuáætlunin er búin til fyrir tímabilið frá 1. janúar til 31. desember 2022.
+Greiðsluáætlun er búin til og vöru endurnýjunar er bætt við. Einingarverðið er $750. Fyrsta ár vörunnar er greitt 15. desember 2021. Greiðsluáætlunin er gerð fyrir tímabilið frá 1. janúar til 31. desember 2022.
 
-Á endurnýjunartíma er **Búðu til reikning** ferli býr til sölupöntun fyrir árið 2022. Eftir að verðuppfærsluforritið er keyrt er verðið uppfært úr $750 í $800.
+Við endurnýjunartíma stofnar ferlið **Búa til reikning** sölupöntunina fyrir árið 2022. Eftir að verðuppfærslan er keyrð er verðið uppfært úr $750 í $800.
 
-Sölupöntun og innheimtuáætlun fyrir árið 2022 hefur ekki áhrif og einingarverð er áfram $750, vegna þess að innheimtuáætlun fyrir árið 2022 hefur þegar verið innheimt. Innheimtuáætlunarlínan og línuupplýsingar fyrir 2023 eru uppfærðar í $800, vegna þess að innheimtuáætlun fyrir 2023 hefur ekki verið innheimt ennþá.
+Sölupöntun og greiðsluáætlun fyrir 2022 verða ekki fyrir áhrifum og einingarverðið helst í $750 því að greiðsluáætlun fyrir 2022 hefur þegar verið reikningsfærð. Greiðsluáætlunarlínan og línuupplýsingarnar fyrir 2023 eru uppfærðar í $800 því að greiðsluáætlunin fyrir 2023 hefur ekki enn verið reikningsfærð.
 
-### <a name="update-prices--flat-pricing-method"></a>Uppfærðu verð – Flöt verðlagningaraðferð
+### <a name="update-prices--flat-pricing-method"></a>Uppfært verð – Flöt verðlagning
 
-Þegar þú uppfærir verð fyrir vörur sem nota flata verðlagningaraðferð geturðu tilgreint prósentu eða upphæð til að hækka verðið.
+Þegar verð eru uppfærð fyrir vörur sem nota fasta verðlagningaraðferð er hægt að tilgreina prósentu eð aupphæð til að hækka verðið.
 
-Til að keyra verðuppfærslutólið fyrir vörur sem nota fasta verðlagningu, fylgdu þessum skrefum.
+Til að keyra verðuppfærsluna fyrir vörur sem nota fasta verðlagningaraðferð skal fylgja þessum skrefum.
 
-1. Á **Verðuppfærsla** tólasíðu, veldu **Flat** verðlagningaraðferð.
-2. Í **Auka aðferð** reit, veldu hækkunaraðferðina sem er notuð til að uppfæra verð vörunnar.
-3. Það fer eftir hækkunaraðferðinni sem þú valdir, tilgreindu prósentuna í **Prósenta** reit eða upphæðin í **Magn** sviði.
-4. Á **Skrár til að hafa með** flýtiflipann, notaðu **Sía** hnappinn til að bæta við gagnasíum.
-5. Veldu **Skoða forskoðun** til að skoða færslusviðið.
-6. Ef þú vilt ekki vinna úr einhverjum línum, merktu þær og veldu síðan **Fjarlægja**.
+1. Á síðunni **Verðuppfærsla** skal velja verðlagningaraðferðina **Fast**.
+2. Í reitnum **Hækkunaraðferð** skal velja hækkunaraðferðina sem er notuð til að uppfæra verð á vörunum.
+3. Það fer eftir hækkunaraðferðinni sem er valin hvort tilgreina eigi prósentu í reitnum **Prósenta** eða upphæð í reitnum **Upphæð**.
+4. Í flýtiflipanum **Færslur til að taka með** skal nota hnappinn **Sía** til að bæta við gagnasíum.
+5. Veldu **Skoða forskoðun** til að skoða færslusvið.
+6. Ef ekki á að vinna úr einhverjum línum skal merkja þær og síðan velja **Fjarlægja**.
 7. Veldu **Í lagi**.
 
-### <a name="update-prices--standard-pricing-method"></a>Uppfærðu verð – Venjuleg verðlagningaraðferð
+### <a name="update-prices--standard-pricing-method"></a>Uppfært verð – Hefðbundin verðlagnin
 
-Ef verði vöru hefur verið breytt í vöruskránni er hægt að uppfæra það fyrir allar greiðsluáætlunarlínur ef varan notar staðlaða verðlagningaraðferð.
+Ef verði á vöru hefur verið breytt í færslu vörunnar er hægt að uppfæra það fyrir allar greiðsluáætlunarlínur ef varan notar staðlaða verðlagningaraðferð.
 
-1. Á **Verðuppfærsla** tólasíðu, veldu **Standard** verðlagningaraðferð.
-2. Á **Skrár til að hafa með** flýtiflipann, notaðu **Sía** hnappinn til að bæta við gagnasíum.
-3. Veldu **Skoða forskoðun** til að skoða færslusviðið.
-4. Ef þú vilt ekki vinna úr einhverjum línum, merktu þær og veldu síðan **Fjarlægja**.
+1. Á síðunni **Verðuppfærsla** skal velja verðlagningaraðferðina **Staðlað**.
+2. Í flýtiflipanum **Færslur til að taka með** skal nota hnappinn **Sía** til að bæta við gagnasíum.
+3. Veldu **Skoða forskoðun** til að skoða færslusvið.
+4. Ef ekki á að vinna úr einhverjum línum skal merkja þær og síðan velja **Fjarlægja**.
 5. Veldu **Í lagi**.
 
 ## <a name="mass-hold-processing"></a>Fjöldaúrvinnsla biðstöðu
 
-Nota **Messuhald** síðu til að beita biðmöguleikum á nokkrar innheimtuáætlanir á sama tíma.
+Notaðu síðuna **Fjöldabið** til að setja nokkrar greiðsluáætlanir í biðstöðu á sama tíma.
 
-Til að setja eina innheimtuáætlun eða eina innheimtuáætlunarlínu í bið skaltu opna **Allar innheimtuáætlanir** síðu og veldu **Settu haltu**. Til að fjarlægja bið skaltu nota **Fjarlægðu bið** síðu.
+Til að setja aðeins eina greiðsluáætlun eða eina greiðsluáætlunarlínu í bið skal opna síðuna **Allar greiðsluáætlanir** og velja **Setja í bið**. Til að fjarlægja bið skal nota síðuna **Fjarlægja bið**.
 
-### <a name="put-billing-schedules-on-hold"></a>Settu innheimtuáætlanir í bið
+### <a name="put-billing-schedules-on-hold"></a>Setja greiðsluáætlanir í bið
 
-Fylgdu þessum skrefum til að stöðva nokkrar innheimtuáætlanir.
+Til að setja nokkrar greiðsluáætlanir í bið skal fylgja þessum skrefum.
 
-1. Á **Messuhald** síðu, stilltu **Vinnsluvalkostur** sviði til **Notaðu bið**.
-2. Í **Ástæðukóði** reit, veldu ástæðukóða.
-3. Stilltu **Stilla áætlun** valmöguleiki:
+1. Á síðunni **Fjöldabið** skal stilla reitinn **Valkostur vinnslu** á **Setja í bið**.
+2. Á svæðinu **Ástæðukóði** skal velja ástæðukóða.
+3. Stillið valkostinn **Breyta áætlun**:
 
-    - **Já** – Ef þú stillir valkostinn á **Já**, tilgreindu biðdagsetningu í **Haltu dagsetningu** sviði. Allar innheimtuáætlunarlínur eftir biðdagsetningu eru fjarlægðar.
-    - **Nei** – Innheimtuáætlunarlínum er ekki breytt. Aðeins stöðunni er breytt. Það er uppfært í **Á bið**.
+    - **Já** – Ef valkosturinn er stilltur á **Já** skal tilgreina biðdagsetningu í reitnum **Biðdagsetning**. Allar greiðsluáætlunarlínur eftir biðdagsetninguna eru fjarlægðar.
+    - **Nei** – Greiðsluáætlunarlínum er ekki breytt. Eingöngu stöðunni er breytt. Er uppfært í **Í bið**.
 
-4. Á **Skrár til að hafa með** flýtiflipann, notaðu **Sía** hnappinn til að bæta við gagnasíum.
-5. Veldu **Skoða forskoðun** til að skoða færslusviðið.
-6. Ef þú vilt ekki vinna úr einhverjum línum, merktu þær og veldu síðan **Fjarlægja**.
+4. Í flýtiflipanum **Færslur til að taka með** skal nota hnappinn **Sía** til að bæta við gagnasíum.
+5. Veldu **Skoða forskoðun** til að skoða færslusvið.
+6. Ef ekki á að vinna úr einhverjum línum skal merkja þær og síðan velja **Fjarlægja**.
 7. Veldu **Í lagi**.
 
-Þegar þú ferð aftur í listann yfir innheimtuáætlanir ættirðu að sjá að stöðu innheimtuáætlana hefur verið breytt í **Á bið**.
+Þegar farið er aftur á listann yfir greiðsluáætlanir ættirðu að sjá að staðan á greiðsluáætlunum hefur verið breytt í **Í biðstöðu**.
 
-### <a name="remove-a-hold-from-several-billing-schedules"></a>Fjarlægðu bið frá nokkrum innheimtuáætlunum
+### <a name="remove-a-hold-from-several-billing-schedules"></a>Fjarlægja bið af nokkrum greiðsluáætlunum
 
-1. Á **Messuhald** síðu, stilltu **Vinnsluvalkostur** sviði til **Fjarlægðu bið**.
-2. Í **Ástæðukóði** reit, sláðu inn ástæðukóða.
-3. Í **Fjarlægja dagsetningu** reit, veldu dagsetningu þegar biðin ætti að fjarlægja.
-4. Stilltu **Dagsetning endurupptöku** og **Frestunardagur** reiti eins og þú þarfnast. Frestunardagsetningin bætist við allar línur sem eru frestaðhæfar.
-5. Á **Skrár til að hafa með** flýtiflipann, notaðu **Sía** hnappinn til að bæta við gagnasíum.
-6. Veldu **Skoða forskoðun** til að skoða færslusviðið.
-7. Ef þú vilt ekki vinna úr einhverjum línum, merktu þær og veldu síðan **Fjarlægja**.
+1. Á síðunni **Fjöldabið** skal stilla reitinn **Valkostur vinnslu** á **Fjarlægja biðstöðu**.
+2. Í reitnum **Ástæðukóði** skal slá inn ástæðukóða.
+3. Í reitnum **Dagsetning fjarlægingar** skal velja dagsetninguna þegar fjarlægja á biðstöðuna.
+4. Stilltu reitina **Dagsetning áframhalds** og **Dagsetning frestunar** eftir þörfum. Frestunardegi er bætt við allar línur sem hægt er að fresta.
+5. Í flýtiflipanum **Færslur til að taka með** skal nota hnappinn **Sía** til að bæta við gagnasíum.
+6. Veldu **Skoða forskoðun** til að skoða færslusvið.
+7. Ef ekki á að vinna úr einhverjum línum skal merkja þær og síðan velja **Fjarlægja**.
 8. Veldu **Í lagi**.
 
 > [!NOTE]
-> Til að fjarlægja bið verður þú að stilla á **Fjarlægja hnekkingu bið notendahóps** gildi á **Endurteknar innheimtufæribreytur samnings** síðu.
+> Til að fjarlægja biðstöðu þarf að stilla gildið **Hnekkja notendaflokki fyrir fjarlægingu biðstöðu** á síðunni **Færibreytur fyrir endurteknar samningsgreiðslur**.
 
-Til dæmis hefur innheimtulína upphafsdagsetninguna 1. febrúar 2022 og lokadagsetninguna 28. febrúar 2022. Innheimtuupphæðin er $200. The **Haltu dagsetningu** reiturinn er stilltur á 10. febrúar 2022. Þess vegna er febrúartímabilið leiðrétt til að útiloka hvaða dagsetningu sem er eftir 10. febrúar. Nýja tímabilið er frá 1. febrúar til og með 9. febrúar og upphæðin er $64.29 (með daglegum hlutföllum). Allar innheimtuáætlunarlínur 10. febrúar eða síðar eru fjarlægðar.
+Til dæmis er greiðslulína með upphafsdagsetninguna 1. febrúar 2022 og lokadagsetninguna 28. febrúar 2022. Greiðsluupphæðin er $200. Reiturinn **Biðtími** er stilltur á 10. febrúar 2022. Því er febrúartímabilið leiðrétt til að útiloka allar dagsetningar eftir 10. febrúar. Nýja tímabilið er frá 1. febrúar til og með 9. febrúar og upphæðin er $64,29 (með daglegri hlutfallsskiptingu). Allar greiðsluáætlunarlínur á eða eftir 10. febrúar eru fjarlægðar.
 
-Ef **Fjarlægðu bið** ferlinu er lokið og **Fjarlægja dagsetningu** reitinn er stilltur á 10. febrúar 2022, það verða tvö innheimtutímabil. Fyrsta innheimtutímabilið er frá 1. febrúar til 9. febrúar og upphæðin er $64.29. Annað innheimtutímabil er frá 10. febrúar til og með 28. febrúar og upphæðin er $135.71.
+Ef ferlinu **Fjarlægja biðstöðu** er lokið og reiturinn **Dagsetning fjarlægingar** er stilltur á 10. febrúar 2022 verða tvöö greiðslutímabil. Fyrsta greiðslutímabilið er frá 1. febrúar til og með 9. febrúar og upphæðin er $64,29. Seinna greiðslutímabilið er frá 10. febrúar til og með 28. febrúar og upphæðin er $135,71.
 
 ## <a name="mass-termination-processing"></a>Úrvinnsla fjöldauppsagnar
 
-Nota **Fjöldauppsögn** síðu til að slíta innheimtuáætlunarlínum sem eru sýndar með því að tilgreina uppsagnardagsetningu.
+Notaðu síðuna **Fjöldauppsögn** til að segja upp greiðsluáætlunarlínum sem eru sýndar með því að tilgreina uppsagnardag.
 
-Ef þú ert að nota frestun tekna og gjalda, innheimtuáætlanir þar sem **Uppsagnardagur** reiturinn er stilltur á **Stilla áætlun** á **Allar innheimtuáætlanir** síðu eru gjaldgeng fyrir endurgreiðslu.
+Ef þú ert að notar tekju- og kostnaðarfrestanir eiga greiðsluáætlanir þar sem reiturinn **Dagsetning uppsagnar** er stilltur á **Breyta áætlun** á síðunni **Allar greiðsluáætlanir** rétt á endurgreiðslu.
 
-Innheimtuáætlanir sem nota margfeldisúthlutun (MEA) virkni birtast ekki á **Fjöldauppsögn** síðu. Þú getur samt sagt upp einstaka innheimtuáætlun með því að nota uppsagnaraðgerðina á innheimtuáætluninni.
+Greiðsluáætlanir sem nota úthlutunaraðferð margra eininga birtast á síðunni **Fjöldauppsögn**. Enn er hægt að segja upp einstaka greiðsluáætlun með því að nota uppsagnaraðgerðina í greiðsluáætluninni.
 
 > [!NOTE]
-> Innheimtuáætlunarlínur sem nú eru innifalin í a **Búðu til reikning** lotur eru ekki tiltækar fyrir þetta ferli.
+> Greiðsluáætlunarlínur sem eru nú í rununni **Búa til reikning** eru ekki í boði fyrir þetta ferli.
 
-Fyrir upplýsingar um hvern reit og ferlið, sjá [Hætta innheimtuáætlunum](terminate-billing-schedule.md).
+Frekari upplýsingar um hvern reit og ferlið er að finna í [Segja upp greiðsluáætlunum](terminate-billing-schedule.md).
 
 ## <a name="mass-archive-process"></a>Ferli fjöldasafnvistunar
 
-Nota **Messuskjalasafn** síðu til að geyma margar innheimtuáætlanir. Aðeins er hægt að geyma uppsagnar greiðsluáætlanir.
+Notaðu síðuna **Fjöldasafnvistun** til að safnvista mörgum greiðsluáætlunum. Aðeins er hægt að safnvista riftar greiðsluáætlanir.
 
-Eftir að innheimtuáætlun hefur verið sett í geymslu eiga sér stað eftirfarandi atburðir:
+Þegar greiðsluáætlun hefur verið safnvistuð gerast eftirfarandi tilvik:
 
-- Staðan er breytt í **Sett í geymslu**.
-- Innheimtuáætlanir eru varanlega læstar.
-- Innheimtuáætlunarlínurnar eru ekki lengur tiltækar á fyrirspurnasíðum.
+- Stöðunni er breytt í **Safnvistað**.
+- Greiðsluáætlanir eru læstar til frambúðar.
+- Greiðsluáætlunarlínur eru ekki lengur í boði á fyrirspurnarsíðum.
 
 > [!NOTE]
-> Geymsla á innheimtuáætlun er varanleg aðgerð og ekki er hægt að snúa henni við.
+> Safnvistun greiðsluáætlunar er varanleg aðgerð og ekki er hægt að afturkalla hana.
 
-Fylgdu þessum skrefum til að setja innheimtuáætlanir í geymslu.
+Til að safnvista greiðsluáætlanir skal fylgja eftirfarandi skrefum.
 
-1. Á **Messuskjalasafn** síðu, í **Lokadagur innheimtu** reit, tilgreinið lokadagsetningu innheimtu. Til að skoða allar uppsagnar greiðsluáætlanir skaltu skilja þennan reit eftir auðan.
-2. Á **Skrár til að hafa með** flýtiflipann, notaðu **Sía** hnappinn til að takmarka færslurnar sem eru sýndar.
-3. Veldu **Skoða forskoðun**.
-4. Ef þú vilt ekki setja sumar skrárnar í geymslu skaltu merkja þær og velja síðan **Fjarlægja**.
-5. Veldu **Allt í lagi** til að geyma skrárnar á síðunni.
+1. Á síðunni **Fjöldasafnvistun** í reitnum **Lokadagsetning innheimtu** skal tilgreina lokadagsetningu innheimtu. Til að skoða allar greiðsluáætlanir sem búið er að segja upp skal skilja þennan reit eftir auðan.
+2. Í flýtiflipanum **Færslur til að taka með** skal nota hnappinn **Sía** til að takmarka færslurnar sem eru sýndar.
+3. Veljið **Skoða forútgáfu**.
+4. Ef ekki á að safnvista sumar færslurnar skal merkja þær og síðan velja **Fjarlægja**.
+5. Veljið **OK** til að vista færslurnar á síðunni.
 
 ## <a name="mass-stubbing-process"></a>Fjöldavinnsla styttingar
 
-Nota **Massa stubbur** síðu til að merkja allar valdar innheimtuáætlunarlínur sem innheimt (stubbur) eða óinnheimtur (öfugur stubbur). Stubbun eða öfug stubbun er oftast framkvæmd á innfluttum innheimtuáætlunarlínum sem áður voru innheimtar í öðru kerfi. Stubbaðar innheimtuáætlunarlínur birtast sem stubbaðar og munu ekki búa til reikning fyrir viðskiptavininn.
+Notaðu síðuna **Fjöldastytting** til að merkja valdar greiðsluáætlunarlínur sem innheimtar (styttar) eða óinnheimtar (bakfæra styttingu). Stytting eða bakfærð stytting eru oftast framkvæmd á innfluttum greiðsluáætlunarlínum sem voru áður innheimtar í öðru kerfi. Styttar greiðsluáætlunarlínur birtast sem styttar og búa ekki til reikning fyrir viðskiptavininn.
 
-### <a name="stub-records"></a>Stubbaskrár
+### <a name="stub-records"></a>Styttingarfærslur
 
-1. Á **Massa stubbur** síðu, í **Vinnsluvalkostir** reit, veldu **Stubbur**.
-2. Í **Lokadagur** reit, stilltu lokadagsetningu til að tilgreina línurnar sem þú vilt nota ferlið á. Aðeins færslur þar sem upphafsdagur innheimtu er á eða fyrir tilgreindan lokadag verða sýndar.
-3. Veldu **Skoða forskoðun** til að sýna línurnar sem þú vilt stubba.
-4. Til að útiloka línu frá ferlinu skaltu merkja hana og velja síðan **Fjarlægja**.
-5. Veldu **Ferli** að stinga línurnar.
+1. Á síðunni **Fjöldastytting** skal í reitnum **Vinnsluvalkostir** velja **Stytting**.
+2. Í reitnum **Lokadagsetning** skal stilla lokadagsetningu til að tilgreina línur sem nota á í ferlinu. Aðeins færslur þar sem upphafsdagsetning greiðslu er á eða á undan tilgreindri lokadagsetningu verða sýndar.
+3. Veldu **Skoða forskoðun** til að sýna línurnar sem á að stytta.
+4. Til að útiloka línu frá ferlinu skaltu merkja hana og velja svo **Fjarlægja**.
+5. Veldu **Vinna úr** til að stytta línurnar.
 
-### <a name="reverse-stub-records"></a>Snúið stubbaskrár
+### <a name="reverse-stub-records"></a>Bakfæra styttar færslur
 
-1. Á **Massa stubbur** síðu, í **Vinnsluvalkostir** reit, veldu **Reverse stubbur**.
-2. Í **Lokadagur** reit, stilltu lokadagsetningu til að tilgreina línurnar sem þú vilt nota ferlið á. Aðeins færslur þar sem upphafsdagur innheimtu er á eða fyrir tilgreindan lokadag verða sýndar.
-3. Veldu **Skoða forskoðun** til að sýna línurnar sem þú vilt snúa við stubbnum.
-4. Til að útiloka línu frá ferlinu skaltu merkja hana og velja síðan **Fjarlægja**.
-5. Veldu **Ferli** að snúa við stubbnum línum.
+1. Á síðunni **Fjöldastytting** skal í reitnum **Vinnsluvalkostir** velja **Bakfæra styttingu**.
+2. Í reitnum **Lokadagsetning** skal stilla lokadagsetningu til að tilgreina línur sem nota á í ferlinu. Aðeins færslur þar sem upphafsdagsetning greiðslu er á eða á undan tilgreindri lokadagsetningu verða sýndar.
+3. Veldu **Skoða forskoðun** til að sýna línurnar sem á að bakfæra styttingu.
+4. Til að útiloka línu frá ferlinu skaltu merkja hana og velja svo **Fjarlægja**.
+5. Veldu **Vinna úr** til að bakfæra styttingu línanna.
 
 ## <a name="update-completion-date-process"></a>Uppfæra ferli fyrir dagsetningu loka
 
-Nota **Lokadagur uppfærslu** síðu til að uppfæra lokadagsetningu fyrir ákveðin tímamótaatriði fyrir margar innheimtuáætlanir eða notendur. Þú getur líka uppfært lokaprósentu fyrir hluti á áfangasniðmátum sem nota **Prósenta lokið** aðferð.
+Notaðu síðuna **Uppfæra dagsetningu loka** til að uppfæra dagsetningu loka fyrir tilteknar vörur áfanga fyrir margar greiðsluáætlanir eða notendur. Einnig er hægt að uppfæra prósentu yfir það sem er lokið fyrir vörur í áfangasniðmátum sem nota aðferðina **Prósentum lokið**.
 
-1. Á **Lokadagur uppfærslu** síðu, farðu á **Áfangavinnsla**, og veldu **Uppfærsluprósentu lokið**.
-2. Í **Hlutfallsupphæð** reit, sláðu inn heildarprósentu sem hefur verið lokið.
+1. Á síðunni **Uppfæra dagsetningu loka** skal fara í **Úrvinnsla áfanga** og velja **Uppfæra prósentu sem er lokið**.
+2. Í reitinn **Prósentuhlutfall** skal færa inn heildarprósentuna sem er lokið.
 3. Veldu vörunúmerið sem tengist áfangasniðmátinu.
-4. Á **Skrár til að hafa með** Flýtiflipi, veldu **Sía** til að velja tiltekið **Notendareikningur**, **innheimtuáætlunar**, eða **Vörunúmer** gildi sem síuviðmiðun.
-5. Veldu **Allt í lagi** að afgreiða breytinguna. Þegar vinnslu er lokið bætist ný lína við áfangaúthlutun. Þessi lína táknar prósentuna sem hefur verið lokið fyrir áfangasniðmátið.
+4. Í flýtiflipanum **Færslur til að taka með** skal velja **Sía** til að velja tiltekið gildi fyrir **Notandareikning**, **Greiðsluáætlunarnúmer** eða **Vörunúmer** sem síuskilyrði.
+5. Veldu **Í lagi** til að vinna breytinguna. Nýrri línu er bætt við þáttaskilaúthlutun þegar vinnslu er lokið. Þessi lína táknar prósentuna sem er lokið fyrir áfangasniðmátið.
 
 ## <a name="unbilled-revenue-mass-processing"></a>Fjöldavinnsla óreikningsfærðra tekna
 
-Nota **Óreikningsfærð tekjur fjöldavinnsla** síðu til að búa til óinnheimtu tekjubókarfærsluna eða stubba færslubókina fyrir eina eða fleiri valdar innheimtuáætlanir eða innheimtuupplýsingarlínur.
+Notaðu síðuna **Fjöldavinnsla óreikningsfærðra tekna** til að stofna óreikningsfærða færslu í tekjubókinni eða stytta færslu færslubókar fyrir eina eða fleiri greiðsluáætlanir eða greiðsluupplýsingalínur.
 
-- **Stofna dagbókarfærslu** – Búðu til óinnheimtar tekjubókarfærslur fyrir margar innheimtuáætlunarlínur. Nota **Sía** hnappinn á **Skrár til að hafa með** Flýtiflipa til að velja svið skráa sem birtast á listanum. Listinn sýnir aðeins innheimtuáætlunarlínur sem óinnheimtar tekjubókarfærslur hafa ekki verið stofnaðar fyrir. Fyrstu dagbókarfærslurnar eru búnar til. Fyrir frestunarliði eru frestunaráætlanir einnig búnar til.
-- **Stubbur dagbókarfærsla** – Merktu innheimtuáætlunarlínurnar sem óinnheimtu færslubókarfærslurnar hafa þegar verið stofnaðar fyrir. Þessi valkostur er notaður ef óinnheimta færslubókarfærslan var þegar bókuð í öðru kerfi. Það merkir óinnheimtu tekjubókina sem stubbað og bókar ekki færslu í fjárhag.
-- **Snúið dagbókarfærslu stubbs** – Bakfæra stubbabókarfærslur sem hafa verið unnar. Ef mistök urðu við vinnslu fyrir **Stubbur dagbókarfærsla**, þessi valkostur mun hreinsa **Stubbaður** gátreit fyrir innheimtuáætlunarlínuna.
-- **Stubbur innheimtuupplýsingalína** – Notaðu þetta ferli þegar óinnheimtar tekjur voru unnar í ytra kerfi og sumar reikningsupplýsingalínanna hafa þegar verið innheimtar. Þetta ferli mun tryggja að rétt upphæð birtist á óinnheimtu tekjureikningunum.
-- **Snúið innheimtuupplýsingar línu** – Snúa einhverju við **Stubbur innheimtuupplýsingalína** aðgerðir.
+- **Stofna færslu í færslubók** – Stofnaðu óreikningsfærðar færslur í færslubók fyrir margar greiðsluáætlunarlínur. Notaðu hnappinn **Sía** í flýtiflipanum **Færslur til að taka með** til að velja færslubilið sem á að birtast í listanum. Listinn sýnir aðeins greiðsluáætlunarlínur sem óreikningsfærðar færslur í tekjubókinni hafa ekki verið stofnaðar fyrir. Upphaflegar bókarfærslur eru stofnaðar. Fyrir frestunarvörur eru frestunaráætlanir líka búnar til.
+- **Stytt færsla í færslubók** – Merktu greiðsluáætlunarlínurnar sem óreikningsfærðar færslur færslubókar hafa þegar verið stofnaðar fyrir. Þessi valkostur er notaður ef óreikningsfærð færsla í færslubók var þegar bókuð í öðru kerfi. Hann merkir óreikningsfærða tekjubók sem stytta og bókar ekki færslu í fjárhaginn.
+- **Bakfæra stytta færslu í færslubók** – Bakfærðar styttar færslur í færslubók hafa verið afgreiddar. Ef mistök voru gerð við vinnslu fyrir **Stytta færslu í færslubók** mun þessi valkostur hreinsa gátreitinn **Stytt** fyrir greiðsluáætlunarlínuna.
+- **Stytt upplýsingalína greiðslu** – Notaðu þetta ferli þegar óreikningsfærðar tekjur voru afgreiddar í ytra kerfinu og sumar upplýsingalínur reikningsfærslu hafa þegar við reikningsfærðar. Þetta ferli mun tryggja að rétt upphæð birtist í óreikningsfærðum tekjulyklum.
+- **Bakfæra upplýsingalínu greiðslustyttingar** – Bakfærðu allar aðgerðir **Stytta línu greiðsluupplýsinga**.
 
-The **Nafn dagbókar** reiturinn er notaður til að birta **Stofna dagbókarfærslu** í aðalbók.
+Reiturinn **Heiti færslubókar** er notað til að bóka **Stofna færslu í færslubók** í fjárhaginn.
 
 > [!NOTE]
-> Stubbaferlið bókar upphæðir ekki í fjárhag. The **Nafn dagbókar** reiturinn er ekki tiltækur fyrir alla stubba og öfuga stubbaferli.
+> Styttingarferlið bókar ekki upphæðir í fjárhaginn. Reiturinn **Heiti færslubókar** er ekki í boði fyrir öll styttingar- og bakfærð styttingarferli.
 
-### <a name="unbilled-revenue-stub-example"></a>Dæmi um óinnheimt tekjustubb
+### <a name="unbilled-revenue-stub-example"></a>Dæmi um óreikningsfærða tekjustyttingu
 
-Innheimtuáætlun er sett upp til eins árs, frá október 2021 til september 2022. Óinnheimtu tekjur voru þegar unnar í ytra kerfi. Níu mánuðir af innheimtuáætlun hafa þegar verið rukkaðir. Upphæð hvers innheimtutímabils er $250. Í upphafi árs er heildarupphæðin sem hefur verið færð í óinnheimt tekjur $3,000. Eftir níu mánuði hefur $2,250 þegar verið innheimt og $750 í óinnheimtu tekna eftir.
+Greiðsluáætlun er sett upp til eins árs, frá október 2021 til september 2022. Óreikningsfærðar tekjur voru þegar afgreiddar í ytra kerfi. Níu mánuðir af greiðsluáætlun hafa þegar verið reikningsfærðar. Upphæðin fyrir hvert reikningstímabil er $250. Í upphafi árs er heildarupphæðin sem hefur verið bókuð á óreikningsfærðar tekjur samtals $3.000. Eftir níu mánuði hafa $2.250 þegar verið reikningsfærð og $750 í óreikningsfærðar tekjur standa eftir.
 
-Fylgdu þessum skrefum til að setja upp innheimtuáætlun þar sem aðeins þriggja mánaða óinnheimt tekjur eru eftir.
+Til að setja upp greiðsluáætlunina þar sem aðeins þrír mánuðir af óreikningsfærðum tekjum standa eftir skal fylgja þessum skrefum.
 
-1. Á **Skoða innheimtuupplýsingar** síðu, búðu til innheimtuáætlun fyrir tímabilið frá október 2021 til september 2022, vörunúmer S0001 og upphæð $250 á mánuði.
-2. Veldu **Stofna dagbókarfærslu** fyrir innheimtuáætlun. Upphæð $3,000 er færð í óinnheimt tekjur.
-3. Veldu **Stubbur innheimtuupplýsingalína**, og tilgreindu viðskiptadagsetningu júní 2022 (níu mánuðir). Innheimtuáætlunarlínurnar birtast ekki í forskoðuninni. Línurnar sem verða fyrir áhrifum eru byggðar á færsludegi.
+1. Á síðunni **Skoða greiðsluupplýsingar** skal búa til greiðsluáætlun fyrir tímabilið frá október 2021 til og með september 2022, vörunúmer S0001 og upphæðina $250 á mánuði.
+2. Veldu **Stofna færslu í færslubók** fyrir greiðsluáætlunina. $3000 eru lagðir inn á óreikningsfærðar tekjur.
+3. Veldu **Stytta línu greiðsluupplýsinga** og tilgreindu færsludagsetningu í júní 2022 (níu mánuðir). Línur greiðsluáætlunar birtast ekki í forskoðuninni. Línurnar sem verða fyrir áhrifum byggjast á færsludagsetningunni.
 4. Veldu **Í lagi**.
 
-Fyrstu níu mánuðirnir sem hafa verið rukkaðir eru stubbaðir.
+Fyrstu níu mánuðirnir sem hafa verið innheimtir eru styttir.
 
-[![Skoða innheimtuupplýsingar línur stubb.](./media/01_View-billing-detail-stub.png)](./media/01_View-billing-detail-stub.png)
+[![Skoða styttar upplýsingalínur greiðslu.](./media/01_View-billing-detail-stub.png)](./media/01_View-billing-detail-stub.png)
 
-$3,000 er bakfært frá óinnheimtutekjum og $750 í óinnheimtutekjum sem eftir eru færðar. Til að skoða óreikningsfærðar tekjufærslur velurðu **Úttekt á óinnheimtu tekjubókarfærslu** á **Endurnýjun** flipa línuupplýsingasíðunnar.
+$3.000 eru bakfærðar úr óreikningsfærðum tekjum og $750 í óreikningsfærðar tekjur sem standa eftir er bókað. Til að skoða óreikningsfærðar tekjubókanir skal velja **Eftirlit með bókarfærslu óreikningsfærðra tekna** í flipanum **Endurnýjanir** á síðu upplýsingalínunnar.
 
-[![Úttekt á óinnheimtu tekjubókarfærslu.](./media/02_Unbilled-rev-journal-audit.png)](./media/02_Unbilled-rev-journal-audit.png)
+[![Eftirlit með bókarfærslu óreikningsfærðra tekna](./media/02_Unbilled-rev-journal-audit.png)](./media/02_Unbilled-rev-journal-audit.png)
 
 > [!NOTE]
-> Óinnheimtu tekjubókarfærsluna er hægt að búa til fyrir hvaða endurnýjunartímabil sem er, að því tilskildu að allar innheimtuupplýsingarlínur frá fyrra tímabili hafi verið innheimtar. Til dæmis hefur innheimtuáætlunarlína mánaðarlega innheimtutíðni fyrir 12 mánaða tímabil, frá janúar til desember 2021. Línan hefur þrjú kjörtímabil: upphafstímabil, annað kjörtímabil (janúar til desember 2022) og þriðja tíma (janúar til desember 2023). Eftir að reikningurinn hefur verið búinn til fyrir allar línur innheimtuupplýsinga frá fyrstu 12 mánuðum ársins 2021, er hægt að stofna færslubók fyrir óinnheimtaðar tekjur fyrir annað tímabilið.
+> Hægt er að stofna færslu tekjubókar fyrir öll endurnýjunartímabil svo lengi sem upplýsingalínur greiðslu frá síðasta tímabili hafi verið reikningsfærðar. Til dæmis er greiðsluáætlunarlína með mánaðarlega greiðslutíðni fyrir 12 mánaða tímabil, frá janúar til og með desember 2021. Línan er með þrjú tímabil: upphaflegt tímabil, annað tímabil (janúar til og með desember 2022) og þriðja tímabil (janúar til og með desember 2023). Eftir að reikningurinn hefur verið stofnaður fyrir allar greiðsluupplýsingalínur frá fyrstu 12 mánuðum ársins 2021 verður hægt að stofna færslu í færslubók fyrir óreikningsfærðar tekjur fyrir annað tímabilið.
 >
-> Fyrir frestunarvörur sem nota óinnheimtu teknaeiginleikann eru innheimtulínan og afsláttarlínurnar unnar. Fyrir þessar vörur eru óinnheimtuð tekjubókarfærsla og frestunaráætlun fyrir innheimtulínuna og afsláttarlínuna stofnuð.
+> Fyrir frestunaratriði sem nota eiginleika óreikningsfærðra tekna er unnið úr greiðslulínu og afsláttarlínum. Fyrir þessar vörur eru stofnuð færsla í tekjubók og frestunaráætlun fyrir greiðslulínu og afsláttarlínu er búin til.
 >
-> Færslubókarfærslurnar sem eru búnar til fyrir ófrestanlegar vörur og frestanlegar vörur bóka inneign á mismunandi tekjureikninga.
+> Færslubókarfærslurnar sem eru stofnaðar fyrir vörur sem ekki er frestað og frestaðar vörur bóka kreditfærslu á mismunandi tekjulykla.

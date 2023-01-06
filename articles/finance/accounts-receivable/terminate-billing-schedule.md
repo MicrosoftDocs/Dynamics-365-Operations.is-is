@@ -1,6 +1,6 @@
 ---
 title: Rifta greiðsluáætlunum
-description: Þessi grein útskýrir hvernig á að slíta innheimtuáætlunum og innheimtuáætlunarlínum í áskriftarinnheimtu.
+description: Þessi grein útskýrir hvernig á að segja upp greiðsluáætlun og greiðsluáætlunarlínum í Áskriftargreiðslu.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
 ms.openlocfilehash: 4fce23f3cf35ef8c388ce13fc422f268a2bd8e32
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8872558"
@@ -25,79 +25,79 @@ ms.locfileid: "8872558"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að slíta innheimtuáætlunum og innheimtuáætlunarlínum í áskriftarinnheimtu. Þegar þú segir upp innheimtuáætlun verður hún að hafa stöðuna **Virkur**. Það getur ekki haft stöðu á **Á bið**. Sömuleiðis, þegar þú segir upp greiðsluáætlunarlínu, verður hún að hafa stöðuna **Virkur**. Höfuðhluti innheimtuáætlunarinnar verður ekki fyrir áhrifum þegar þú segir upp innheimtuáætlunarlínu.
+Þessi grein útskýrir hvernig á að segja upp greiðsluáætlun og greiðsluáætlunarlínum í Áskriftargreiðslu. Þegar þú segir upp greiðsluáætlun verður hún að hafa stöðuna **Virk**. Hún getur ekki haft stöðuna **Í bið**. Sömuleiðis, þegar þú segir upp greiðsluáætlunarlínu verður hún að hafa stöðuna **Virk**. Haushluti greiðsluáætlunarinnar verður ekki fyrir áhrifum ef greiðsluáætlunarlínu er sagt upp.
 
-Til að slíta innheimtuáætlun eða innheimtuáætlunarlínu skaltu fara á einn af eftirfarandi stöðum:
+Til að segja upp greiðsluáætlun eða greiðsluáætlunarlínu skal opna einn af eftirfarandi stöðum:
 
-- The **Allar/virkar innheimtuáætlanir** listasíðu
-- Sérstök innheimtuáætlun á **Allar innheimtuáætlanir** síðu
-- Sérstök innheimtuáætlunarlína á **Allar innheimtuáætlanir** síðu
+- Listasíðan **Allar/Virkar greiðsluáætlanir**
+- Sérstök greiðsluáætlun á síðunni **Allar greiðsluáætlanir**
+- Sérstök greiðsluáætlunarlína á síðunni **Allar greiðsluáætlanir**
 
 > [!NOTE]
-> Ef þú vilt segja upp nokkrum innheimtuáætlunum á sama tíma skaltu nota **Fjöldauppsagnarvinnsla** síðu.
+> Ef segja á upp mörgum greiðsluáætlunum á sama tíma skal nota síðuna **Úrvinnsla fjöldauppsagnar**.
 
-## <a name="terminate-a-billing-schedule-or-line"></a>Hætta innheimtuáætlun eða línu
+## <a name="terminate-a-billing-schedule-or-line"></a>Segja upp greiðsluáætlun eða línu
 
-Til að slíta innheimtuáætlun eða innheimtuáætlunarlínu skaltu fylgja þessum skrefum.
+Til að segja upp greiðsluáætlun eða greiðsluáætlunarlínu skal fylgja þessum skrefum.
 
-1. Veldu innheimtuáætlun eða línu fyrir innheimtuáætlun og veldu síðan **Hætta**. 
-2. Stilltu **Uppsagnardagur**, **·**, og **Ástæðukóði** sviðum.
-3. Stilltu **Lánarmöguleiki** sviði til **Gefðu út lánsfé**.
-4. Veldu **Hætta**.
+1. Veljið greiðsluáætlun eða greiðsluáætlunarlínu og svo **Segja upp**. 
+2. Stilltu **Dagsetning uppsagnar**, **Tegund uppsagnar** og **Ástæðukóði** reitina.
+3. Stillið reitinn **Valkostur kreditfærslu** á **Gefa út kreditfærslu**.
+4. Velja **Segja upp**
 
-Staða innheimtuáætlunarinnar breytist, byggt á uppsagnargerðinni sem þú valdir. Ef þú valdir **Reikningur eftir** sem uppsagnartegund er staða allra lína í innheimtuáætlun **Síðasta innheimta**. Staða innheimtuáætlunar er eftir **Virkur** þar til síðasti reikningur er afgreiddur. Eftir að síðasta reikningur hefur verið afgreiddur er staðan uppfærð í **Hætti**. Ef þú valdir **Stilla áætlun** sem uppsagnartegund er staða innheimtuáætlunarinnar strax uppfærð í **Hætti**.
+Staða greiðsluáætlunarinnar breytist í samræmi við þá tegund uppsagnar sem valin var. Ef þú valdir **Eftirstöðvar greiðslu** sem uppsagnargerð er staða allra lína í greiðsluáætluninni **Síðasta reikningsfærsla**. Staða greiðsluáætlunarinnar er áfram **Virk** þar til síðasti reikningurinn er meðhöndlaður. Eftir að síðasti reikningurinn er meðhöndlaður er staðan uppfærð í **Sagt upp**. Ef þú valdir **Breyta áætlun** sem tegund uppsagnar er staða greiðsluáætlunarinnar strax uppfærð í **Sagt upp**.
 
-## <a name="terminate-a-billing-schedule-or-line-and-apply-a-refund"></a>Slepptu innheimtuáætlun eða línu og sóttu um endurgreiðslu
+## <a name="terminate-a-billing-schedule-or-line-and-apply-a-refund"></a>Segja upp greiðsluáætlun eða línu og nota endurgreiðslu
 
-Til að slíta innheimtuáætlun eða innheimtuáætlunarlínu og beita endurgreiðslu skaltu fylgja þessum skrefum.
+Til að segja upp greiðsluáætlun eða greiðsluáætlunarlínu og nota endurgreiðslu skal fylgja þessum skrefum.
 
-1. Veldu innheimtuáætlun eða línu fyrir innheimtuáætlun og veldu síðan **Hætta**.
-2. Stilltu **Uppsagnardagur**, **·**, **·**, og **Lánarmöguleiki** sviðum.
-3. Veldu **Hætta með endurgreiðslu**. The **Fjöldauppsagnarvinnsla** síða birtist og er síuð þannig að hún sýnir innheimtuáætlun.
-4. Veldu **Skoða forskoðun** til að skoða línur innheimtuáætlunar og veldu síðan **Ferli**.
+1. Veljið greiðsluáætlun eða greiðsluáætlunarlínu og svo **Segja upp**.
+2. Stilltu **Dagsetning uppsagnar**, **Tegund uppsagnar**, **Ástæðukóði** og **Valkostur kreditfærslu** reitina.
+3. Veljið **Uppsögn með endurgreiðslu**. Síðan **Úrvinnsla fjöldauppsagnar** birtist og er síuð þannig að hún sýni greiðsluáætlunina.
+4. Veljið **Skoða forskoðun** til að skoða greiðsluáætlunarlínur og veljið síðan **Ferli**.
 
-Eftir að inneign hefur verið afgreidd skaltu opna **Skoða innheimtuupplýsingar** síðu til að skoða inneignina sem var sett á innheimtuáætlunina. Ef kreditupphæðin er hærri en 0 (núll), er öllum óinnheimtu línum í framtíðinni eytt og skipt út fyrir línur með innheimtuupplýsingar sem sýna neikvæðar upphæðir fyrir inneignina sem var sett á innheimtuáætlunina.
+Þegar inneignin hefur verið meðhöndluð opnar þú síðuna **Skoða greiðsluupplýsingar** til að fara yfir inneignina sem var notuð á greiðsluáætlunina. Ef upphæð inneignar er hærri en 0 (núll) er öllum óútfylltum línum í framtíðinni eytt og þeim skipt út fyrir reikningsupplýsingalínur sem sýna neikvæðar upphæðir fyrir inneignina sem var notuð á greiðsluáætlunina.
 
 ### <a name="view-example"></a>Skoða dæmi
 
-Innheimtuáætlun hefur eftirfarandi upplýsingar:
+Eftirfarandi upplýsingar koma fram í greiðsluáætlun:
 
-- Upphafsdagur er 1. janúar 2020.
-- Lokadagur er 31. desember 2020.
-- Upphæð innheimtutímabilsins er 100,00 á mánuði.
-- Reikningar hafa verið búnir til fyrir innheimtutímabil frá janúar til júlí.
-- Uppsagnardagur samningsins er 15. júní 2020.
+- Upphafsdagsetning er 1. janúar 2020.
+- Lokadagsetning er 31. desember 2020
+- Upphæð reikningstímabils er kr. 100,00 á mánuði.
+- Reikningar hafa verið stofnaðir fyrir reikningstímabil frá janúar til og með júlí.
+- Uppsagnarfrestur samnings er til 15. júní 2020.
 
-Þegar lánaleiðréttingin er afgreidd eru öll framtíðarreikningstímabil (ágúst til desember) fjarlægð úr **Skoða innheimtuupplýsingar** síðu. Línuleiðréttingarlínu er bætt við eftir reikningstímabilið í júlí:
+Þegar kreditleiðréttingin er meðhöndluð eru öll reikningstímabil (ágúst til og með desember) fjarlægð af síðunni **Skoða greiðsluupplýsingar**. Kreditleiðréttingarlínu er bætt við eftir reikningstímabilið í júlí:
 
-- 16. júní–31. júlí, með inneign 150,00
+- 16. júní til 31. júlí 31, með kreditupphæð 150,00
 
-Ef óinnheimtar tekjur eiginleiki er notaður, **Úttekt á óinnheimtu tekjubókarfærslu** síða er uppfærð með uppsagnarfærslunni.
+Ef eiginleiki óreikningsfærðra tekna er notaður er síðan **Eftirlit með bókarfærslu óreikningsfærðra tekna** uppfærð með lokafærslunni.
 
-## <a name="terminate-a-billing-schedule-or-line-without-applying-a-credit"></a>Slepptu innheimtuáætlun eða línu án þess að nota inneign
+## <a name="terminate-a-billing-schedule-or-line-without-applying-a-credit"></a>Segja upp greiðsluáætlun eða línu án þess að nota inneign
 
-Til að slíta innheimtuáætlun eða innheimtuáætlunarlínu án þess að nota inneign skaltu fylgja þessum skrefum.
+Ef þú vilt segja upp greiðsluáætlun eða greiðsluáætlun án þess að nota inneign skaltu fylgja þessum skrefum.
 
-1. Veldu innheimtuáætlun eða línu fyrir innheimtuáætlun og veldu síðan **Hætta**.
-2. Stilltu **Uppsagnardagur** sviði.
-3. Stilltu **Uppsagnartegund** sviði til **Engin aðlögun**. The **Lánarmöguleiki** reiturinn er sjálfkrafa stilltur á **Engin inneign**.
-3. Stilltu **Ástæðukóði** sviði.
-4. Í **Uppsagnarseðlar** reit, sláðu inn allar athugasemdir sem þarf.
-5. Veldu **Hætta**. 
+1. Veljið greiðsluáætlun eða greiðsluáætlunarlínu og svo **Segja upp**.
+2. Stillið reitinn **Starfslokadagur**.
+3. Stilla reitinn **Tegund uppsagnar** á **Engin leiðrétting**. Reiturinn **Valkostur kreditfærslu** er sjálfkrafa stilltur á **Engin inneign**.
+3. Stillið reitinn **Ástæðukóði**.
+4. Í reitnum **Starfslokaglósur** slærðu inn allar athugasemdir sem þarf til viðbótar.
+5. Velja **Segja upp** 
 
-Þegar uppsögnin er afgreidd eru allar innheimtuupplýsingarnar eftir uppsagnardaginn fjarlægðar. (Þessar línur innihalda línuna sem inniheldur uppsagnardagsetningu.) Ekki er hægt að búa til reikninga fyrir uppsagnar línur. Ef uppsögnin er fjarlægð, bætast allar uppsagnar línur aftur við **Skoða innheimtuupplýsingar** síðu og verða aðgengileg fyrir reikningagerð.
+Þegar unnið er úr uppsögninni eru allar upplýsingar um reikningslínur eftir lokadag fjarlægðar. (Þessar línur innihalda línuna sem inniheldur lokadagsetningu.) Ekki er hægt að búa til reikninga fyrir línurnar sem lokað hefur verið fyrir. Ef uppsögnin er fjarlægð er öllum línum sem hefur verið sagt upp bætt aftur við síðuna **Skoða reikningsupplýsingar** og þær verða tiltækar fyrir reikningagerð.
 
 ## <a name="fields"></a>Svæði
 
-The **Skoða innheimtuupplýsingar** síða inniheldur eftirfarandi reiti.
+Á síðunni **Skoða reikningsupplýsingar** eru eftirfarandi reitir.
 
-| Reitur | Lýsing |
+| Svæði | Lýsing |
 |-------|-------------| 
-| Starfslokadagur | Veldu dagsetninguna þegar þú vilt segja upp innheimtuáætlun eða innheimtuáætlunarlínu. |
-| Tegund uppsagnar | <p>Veldu uppsagnartegund:</p><ul><li>**Stilla áætlun** – Slepptu innheimtutímabilum fyrir línuna á uppsagnardegi og breyttu stöðu línunnar í **Síðasta innheimta**. Ef frestunaráætlun er til fyrir línuvöruna er hún leiðrétt með því að bakfæra upphæðina sem ekki má lengur viðurkenna. Ef upphafsdagur innheimtu er eftir uppsagnardaginn eru reikningstímabilin sem eftir eru fjarlægð.</li><li>**Reikningur eftir** – Bættu eftirstandandi upphæð fyrir reikningstímabilið við uppsagnartímabilið og breyttu stöðu línunnar í **Síðasta innheimta**. Ef frestunaráætlun er til fyrir línuna er lokadagsetning frestunarinnar uppfærð. Ef upphafsdagur innheimtu er eftir uppsagnardagsetningu er heildarupphæð allra eftirstandandi innheimtutímabila bætt við innheimtutímabilið og eftirstandandi innheimtutímabil eru fjarlægð.</li><li>**Engin aðlögun** – Ljúktu innheimtutímabilum línunnar á tilgreindum uppsagnardegi. Engar lagfæringar eru gerðar. Þegar þessi uppsagnartegund er valin, **Lánarmöguleiki** reiturinn er stilltur á **Engin inneign**, og **Hlutfallslega daglega** reiturinn er stilltur á **Nei**. Báðir þessir reiti verða þá skrifvarinn og ekki er hægt að breyta þeim.</li></ul> |
-| Valkostur kreditfærslu | <p>Veldu hvernig inneignin er notuð þegar þú segir upp greiðsluáætlunarlínu:</p><ul><li>**Leiðrétting lána** – Búðu til inneignarleiðréttingu fyrir innheimtuáætlun þegar línu er hætt. Lánsfjárleiðréttingin birtist á framtíðarreikningstímabili fyrir innheimtuáætlunina. Leiðréttingin leiðréttir einnig sjálfkrafa reikningsupphæð fyrir næsta reikningstímabil þar til inneign hefur lokið við að setja innheimtuáætlunina.</li><li>**Gefðu út lánsfé** – Búðu til kreditnótu þegar innheimtuáætlun eða innheimtuáætlunarlínu er hætt.</li><li>**Engin inneign** – Ekki búa til kreditleiðréttingu eða inneignarnótu þegar innheimtuáætlun eða innheimtuáætlunarlínu er hætt. Þessi valkostur er aðeins í boði þegar þú notar uppsögn á **Engin aðlögun** tegund til að slíta innheimtuáætlun.</li></ul><p>Sjálfgefinn valkostur er frá **Endurteknar innheimtufæribreytur samnings** síðu.</p> |
-| Ástæðukóði | Veldu ástæðukóðann fyrir uppsögninni. |
-| Lýsing á ástæðu | Lýsingin á ástæðukóðanum. |
-| Starfslokaglósur | Sláðu inn allar athugasemdir um uppsögnina. |
+| Starfslokadagur | Veldu dagsetningu þegar þú vilt segja upp greiðsluáætlun eða greiðsluáætlunarlínu. |
+| Tegund uppsagnar | <p>Velja tegund uppsagnar:</p><ul><li>**Breyta áætlun** – Slökkva á reikningstímabilum fyrir línuna á lokadegi og breyta stöðu línunnar í **Síðasta reikningsfærsla**. Ef frestunaráætlun er til staðar fyrir línuatriðið er hún leiðrétt með því að bakfæra upphæðina sem ekki má lengur færa. Ef upphafsdagur reiknings er á eftir lokadegi eru eftirstandandi reikningstímabil fjarlægð.</li><li>**Eftirstöðvar greiðslu** – Bættu öllum eftirstandandi upphæðum fyrir reikningstímabilið við uppsagnartímann og breyttu stöðu línunnar í **Síðasta reikningsfærsla**. Ef frestunaráætlun er til fyrir línuatriðið er lokadagur frestunar uppfærður. Ef upphafsdagur reiknings er eftir lokadaginn er heildarupphæð allra eftirstandandi reikningstímabila bætt við reikningstímabilið og eftirstandandi reikningstímabil fjarlægð.</li><li>**Engin leiðrétting** – Ljúka reikningstímabilum fyrir línuna á tilgreindum lokadegi. Engar leiðréttingar eru gerðar. Þegar þessi tegund uppsagnar er valin er reiturinn **Valkostur kreditfærslu** stilltur á **Engin inneign** og **Hlutfallsskipta daglega** reiturinn er stilltur á **Nei**. Báðir þessir reitir verða þá skrifvarðir og ekki er hægt að breyta þeim.</li></ul> |
+| Valkostur kreditfærslu | <p>Veldu hvernig inneignin er notuð þegar þú hættir greiðsluáætlunarlínu:</p><ul><li>**Kreditleiðréttingar** – Búðu til kreditleiðréttingu fyrir greiðsluáætlun þegar línu er sagt upp. Kreditleiðréttingin birtist á reikningstímabilum í framtíðinni fyrir greiðsluáætlunina. Leiðréttingin mun einnig sjálfkrafa leiðrétta reikningsupphæðina fyrir næsta greiðslutímabil þar til búið er að nota inneignina á greiðsluáætlunina.</li><li>**Gefa út kreditfærslu** – Stofna kreditnótu þegar greiðsluáætlun eða greiðsluáætlunarlínu er sagt upp.</li><li>**Engin inneign** – Ekki stofna kreditleiðréttingu eða kreditnótu þegar greiðsluáætlun eða greiðsluáætlunarlínu er sagt upp. Þessi valkostur er aðeins í boði þegar greiðsluáætlun er sagt upp með valkostinum **Engin leiðrétting**.</li></ul><p>Sjálfgefinn kostur er frá síðunni **Færibreytur fyrir endurteknar samningsgreiðslur**.</p> |
+| Ástæðukóði | Velja ástæðukóða fyrir uppsögninni. |
+| Lýsing á ástæðu | Lýsing á ástæðukóða. |
+| Starfslokaglósur | Sláðu inn athugasemdir um uppsögnina. |
 
 <!--## Additional information-->

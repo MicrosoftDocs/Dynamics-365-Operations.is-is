@@ -1,6 +1,6 @@
 ---
 title: Vinnsla almennrar færslubókar
-description: Þessi grein lýsir getu í Microsoft Dynamics 365 Finance sem getur hjálpað til við að gera almenna dagbókarvinnslu auðveldari og sem getur einnig hjálpað til við að tryggja að rétt gögn séu tekin og innra eftirlit sé ekki í hættu.
+description: Þessi grein lýsir eiginleikum í Microsoft Dynamics 365 Finance sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu.
 author: kweekley
 ms.date: 02/28/2022
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2055c028f7bfe8edc9faec8f791fff2fbfe08bfa
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8896377"
@@ -26,7 +26,7 @@ ms.locfileid: "8896377"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir getu sem getur hjálpað til við að gera almenna dagbókarvinnslu auðveldari og sem getur einnig hjálpað til við að tryggja að rétt gögn séu tekin og innra eftirlit sé ekki í hættu.  
+Þessi grein lýsir eiginleikum sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu.  
 
 ## <a name="journal-names"></a>Færslubókanöfn
 
@@ -101,7 +101,7 @@ Hnappur er til á færslubókarsíðunni til að opna færslubók sem hefur stö
 Geta til að rifja upp dagbók í verkflæði sem hefur stöðuna „óendurheimtanleg“ er virk með því að nota hnappinn **Verkflæði** í dagbók og á síðunni **Verkflæðissaga**. Þetta er gert kleift með aðgerðinni sem heitir **Endurstilling á verkflæðisstöðu fyrir færslubækur** á síðunni **Stjórnun eiginleika**.
 
 ## <a name="delete-journal-lines"></a>Eyða færslubókarlínum
-Getan til að eyða öllum dagbókarlínum hratt er virk í dagbók undir **Aðgerðir** > **Eyða færslubókalínum**. Til að virkja þennan eiginleika, á **Stjórnun eiginleika** skaltu velja **Eyða afkastafínstillingu færslubókar**. Þessi eiginleiki hefur áhrif á viðbætur á **LedgerJournalTrans** borð og það er **Eyða** aðferð, þar sem línumengið er fjarlægt án þess að hringja í hverja línu **Eyða** aðferð. 
+Getan til að eyða öllum dagbókarlínum hratt er virk í dagbók undir **Aðgerðir** > **Eyða færslubókalínum**. Til að virkja þennan eiginleika, á **Stjórnun eiginleika** skaltu velja **Eyða afkastafínstillingu færslubókar**. Þessi eiginleiki hefur áhrif á viðbætur á **LedgerJournalTrans** töflunni og **Eyða** aðferð hans, þar sem línusett eru fjarlægð án þess að kalla á **Eyða** aðferð hverrar línu. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

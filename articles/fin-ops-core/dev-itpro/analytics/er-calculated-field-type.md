@@ -1,6 +1,6 @@
 ---
 title: Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað
-description: Þessi grein veitir upplýsingar um hvernig á að nota reiknað svæðisgerð fyrir ER gagnagjafa.
+description: Þessi grein INNIHELDUR upplýsingar um hvernig nota á gerðina Reiknaður reitur fyrir ER-gagnagjafa.
 author: kfend
 ms.date: 01/04/2022
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: ''
 ms.assetid: ''
 ms.openlocfilehash: 512ef44d0b0867227ebdc56f83cd6560be64c026
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9276019"
@@ -25,10 +25,10 @@ ms.locfileid: "9276019"
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein útskýrir hvernig þú getur hannað rafræna skýrslugjöf (ER) gagnagjafa með því að nota **Reiknaður reitur** tegund. Þessi gagnagjafi getur innihaldið ER-segð sem, þegar hún er keyrð, er hægt að stjórna með gildum færibreytufrumbreytanna sem eru skilgreind í bindingu sem kallar þennan gagnagjafa. Með því að skilgreina köll í færibreytur af slíkum gagnagjöfum er hægt að endurnýta staka gagnagjafa í mörgum bindingum, sem dregur úr heildarfjölda gagnagjafa sem verður að skilgreina í ER-líkanavörpunum eða ER-sniðmátum. Það einfaldar einnig skilgreinda ER-íhluti, sem dregur úr viðhaldskostnaði og notkunarkostnaði annarra neytenda.
+Í þessari grein er útskýrt hvernig hægt er að hanna gagnagjafa rafrænnar skýrslugerðar með því að nota gerðina **Reiknaður reitur**. Þessi gagnagjafi getur innihaldið ER-segð sem, þegar hún er keyrð, er hægt að stjórna með gildum færibreytufrumbreytanna sem eru skilgreind í bindingu sem kallar þennan gagnagjafa. Með því að skilgreina köll í færibreytur af slíkum gagnagjöfum er hægt að endurnýta staka gagnagjafa í mörgum bindingum, sem dregur úr heildarfjölda gagnagjafa sem verður að skilgreina í ER-líkanavörpunum eða ER-sniðmátum. Það einfaldar einnig skilgreinda ER-íhluti, sem dregur úr viðhaldskostnaði og notkunarkostnaði annarra neytenda.
 
 ## <a name="prerequisites"></a>Forkröfur
-Til að klára dæmin í þessari grein verður þú að hafa eftirfarandi aðgang:
+Til að ljúka dæmunum í þessari grein þarftu að hafa eftirfarandi aðgang:
 
 - Aðgangur að einu af þessum hlutverkum:
 
@@ -36,7 +36,7 @@ Til að klára dæmin í þessari grein verður þú að hafa eftirfarandi aðga
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
     - Kerfisstjóri
 
-- Aðgangur að Regulatory Configuration Services (RCS) sem hefur verið útvegað fyrir sama leigjanda og fjármál og rekstur fyrir eitt af eftirfarandi hlutverkum:
+- Aðgangur að tilviki Regulatory Configuration Services (RCS) sem hefur verið úthlutaður fyrir sama leigjandann sem fjármál- og rekstur fyrir eitt af eftirfarandi hlutverkum:
 
     - Þróunaraðili rafrænnar skýrslulausnar
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
@@ -84,7 +84,7 @@ Einnig verður að sækja og geyma staðbundið eftirfarandi skrár.
             - Summa skattgilda.
             - Lágmarksgildi beitts skatthlutfalls.
 
-    Líkanskortlagningin í þessari uppsetningu útfærir grunngagnalíkanið fyrir hvaða ER snið sem er búið til fyrir þetta líkan og framkvæmt í fjármálum og rekstri. Fyrir vikið verður innihald gagnafjafanna **Tax** og **Gr** berskjaldað fyrir ER-sniðum eins og óhlutbundnum gagnagjöfum.
+    Líkanavörpun í þessari skilgreiningu innleiðir grunngagnalíkanið fyrir eitthvert snið rafrænnar skýrslugerðar sem búið var til fyrir þetta líkan og keyrt í fjármálum- og rekstri. Fyrir vikið verður innihald gagnafjafanna **Tax** og **Gr** berskjaldað fyrir ER-sniðum eins og óhlutbundnum gagnagjöfum.
 
     ![Hönnuðarsíða líkanavörpunar sem sýnir Tax- og Gr-gagnagjafa.](media/er-calculated-field-type-01.png)
 
@@ -306,7 +306,7 @@ Endurtekin köll í reiknaða reiti með færibreytu eru ekki studd.
 Þú getur keyrt upphafsuppbót og endurbætt ER snið til að ganga úr skugga um að skilgreindir útreiknaðir reitir með færibreytur virki rétt.
 
 ### <a name="import-er-configurations"></a>Flytja inn rafræn skýrslugerð grunnstillingar
-Þú getur flutt inn yfirfarnar stillingar úr RCS með því að nota ER-geymslu af gerðinni **RCS**. Ef þú hefur þegar farið í gegnum skrefin í greininni, [Flytja inn rafrænar skýrslur (ER) stillingar frá Regulatory Configuration Services (RCS)](rcs-download-configurations.md), notaðu stilltu ER geymsluna til að flytja inn stillingar sem fjallað var um fyrr í þessari grein í umhverfið þitt. Að ð öðrum kosti skal fylgja þessum skrefum:
+Þú getur flutt inn yfirfarnar stillingar úr RCS með því að nota ER-geymslu af gerðinni **RCS**. Ef þú hefur þegar farið í gegnum skrefin í greininni [Flytja inn skilgreiningar rafrænnar skýrslugerðar úr Regulatory Configuration Services (RCS)](rcs-download-configurations.md) skaltu nota skilgreinda gagnageymslu rafrænnar skýrslugerðar til að flytja skilgreiningar sem fjallað er um fyrr í þessari grein inn í umhverfið þitt. Að ð öðrum kosti skal fylgja þessum skrefum:
 
 1. Veldu fyrirtækið **DEMF** og veldu á sjálfgefna yfirlitinu **Rafræn skýrsla**.
 2. Veldu **Skilgreiningar skýrslugerðar**.

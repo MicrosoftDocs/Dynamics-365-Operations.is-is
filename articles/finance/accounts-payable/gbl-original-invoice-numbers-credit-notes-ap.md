@@ -1,6 +1,6 @@
 ---
 title: Tilvísun í upprunalega reikninga í kreditnótum (reikningar lánardrottins)
-description: Þessi grein lýsir því hvernig á að búa til tilvísun í upprunalegan reikning þegar þú stofnar kreditnótu.
+description: Í þessari grein er lýst hvernig á að búa til tilvísun í upprunalegan reikning þegar kreditnóta er stofnuð.
 author: AdamTrukawka
 ms.date: 09/28/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: 10.0.20
 ms.search.form: ''
 ms.openlocfilehash: 39cf4eb7eef1a83abeb7bd44fa7b2abefee0806e
 ms.sourcegitcommit: 8eb0cafe5ad20be2c4fff684e88d7d3f2249f820
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/06/2022
 ms.locfileid: "9409665"
@@ -24,13 +24,13 @@ ms.locfileid: "9409665"
 
 [!include [banner](../includes/banner.md)]
 
-Í sumum löndum og svæðum er lagaleg krafa um að prentaðar kreditnótur eða skýrslugerð innihaldi tilvísanir í upprunalegu reikningana. Þessi grein lýsir því hvernig á að búa til tilvísun í upprunalegan reikning þegar þú stofnar kreditnótu.
+Í sumum löndum og svæðum er lagaleg krafa um að prentaðar kreditnótur eða skýrslurútínur innihaldi tilvísanir í upprunalega reikninga. Í þessari grein er lýst hvernig á að búa til tilvísun í upprunalegan reikning þegar kreditnóta er stofnuð.
 
 ## <a name="prerequisites"></a>Forkröfur
 
 Á vinnusvæðinu **Eiginleikastjórnun** skal virkja eiginleikann **Virkja kreditreikningsfærslu fyrir reikninga lánardrottins**. Frekari upplýsingar er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Virknin sem lýst er í þessari grein á við um eftirfarandi viðskiptaskjöl.
+Virknin sem lýst er í þessari grein gildir um eftirfarandi viðskiptaskjöl.
 
 **Lánardrottnar:**
 
@@ -44,11 +44,11 @@ Virknin sem lýst er í þessari grein á við um eftirfarandi viðskiptaskjöl.
 
 ## <a name="define-a-reference-to-an-original-invoice"></a>Skilgreina tilvísun í upprunalegan reikning
 
-Að skilgreina tilvísun í upprunalegan reikning felur í sér eftirfarandi háþrep skref:
-1. Stofna og bóka reikning lánardrottins.
-2. Búðu til inneignarnótu lánardrottins.
-3. Notaðu kreditreikningsaðgerðina til að tengja reikninginn við kreditnótu.
-4. Bókaðu inneignarnótu.
+Skilgreining tilvísunar í upprunalegan reikning felur í sér eftirfarandi skref á háu stigi:
+1. Búa til og bóka reikning lánardrottins
+2. Stofna kreditnótu lánardrottins.
+3. Notið kreditreikningseiginleikann til að tengja reikninginn við kreditnótu.
+4. Bókið kreditnótuna.
 
 Notaðu eftirfarandi aðferðir til að skilgreina tilvísun í upprunalegan reikning í tilgreindum tegundum viðskiptaskjala.
 

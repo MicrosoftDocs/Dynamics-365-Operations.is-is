@@ -1,6 +1,6 @@
 ---
 title: Setja upp eignaflokka
-description: Þessi grein útskýrir hvernig á að búa til nýjan eignaflokk.
+description: Þessi grein útskýrir hvernig á að stofna nýjan flokk eigna.
 author: moaamer
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 7eef214142bab80f6754c74787e94c4e79a3e037
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8870076"
@@ -24,7 +24,7 @@ ms.locfileid: "8870076"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig á að búa til nýjan eignaflokk. Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.
+Þessi grein útskýrir hvernig á að stofna nýjan flokk eigna. Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.
 
 1. Í skoðunarrúðnni ferðu í **Kerfseiningar > Fastafjármunir > Uppsetning > Eignaflokkar**.
 2. Veljið **Nýtt**.

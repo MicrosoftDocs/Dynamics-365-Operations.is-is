@@ -17,7 +17,7 @@ ms.assetid: f0bbc78f-87fc-40e9-b46a-6655893f69be
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 94cebad528facc5537226a3faa5ea9be8448092e
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9267201"
@@ -101,7 +101,7 @@ ms.locfileid: "9267201"
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Hvað er nýtt eða breytt á heimasíðu fjármála og rekstrar](whats-new-changed.md)
+[Nýjungar eða breytingar á heimasíðu fjármála- og reksturs ](whats-new-changed.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (maí 2016)](new-updated-task-guides-available-may-2016.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Uppfæra skipan sniðmáts viðskiptaskjals
-description: Þessi grein útskýrir hvernig á að uppfæra uppbyggingu viðskiptaskjalasniðmáts með því að nota viðskiptaskjalastjórnunareiginleikann.
+description: Þessi grein útskýrir hvernig á að uppfæra skipulag sniðmáts viðskiptaskjals með því að nota eiginleikann stjórnun viðskiptaskjala.
 author: kfend
 ms.date: 11/19/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: ''
 ms.search.form: ERBDWorkspace, ERBDParameters, ERBDTemplateEditor
 ms.openlocfilehash: 793f327a3e5861e03b6ae67da8149f1db11e47bd
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9285516"
@@ -26,7 +26,7 @@ ms.locfileid: "9285516"
 
 [!include[banner](../includes/banner.md)]
 
-Á glugganum **Skipulag sniðmáts** í sniðmátsritlinum [Viðskiptaskjalastjórnun](er-business-document-management.md) er hægt að breyta viðskiptaskjalasniðmáti með því að [bæta við nýjum svæðum](er-bdm-add-field-to-excel-template.md) á sniðmát í Microsoft Excel. Uppbygging sniðmátsins er síðan sjálfkrafa uppfærð í Dynamics 365 Finance, þannig að það endurspegli breytingarnar sem þú gerðir í **Uppbygging sniðmáts** rúðu.
+Á glugganum **Skipulag sniðmáts** í sniðmátsritlinum [Viðskiptaskjalastjórnun](er-business-document-management.md) er hægt að breyta viðskiptaskjalasniðmáti með því að [bæta við nýjum svæðum](er-bdm-add-field-to-excel-template.md) á sniðmát í Microsoft Excel. Skipulag sniðmátsins er síðan sjálfkrafa uppfært í Dynamics 365 Finance þannig að það endurspegli breytingarnar sem gerðar voru í glugganum **Skipulag sniðmáts**.
 
 Einnig er hægt að breyta sniðmáti með því að nota Office 365 neteiginleikann. Til dæmis er hægt að bæta við nýju atriði með heiti, t.d. mynd eða lögun, á breytanlega vinnublaðið. Í þessu tilviki er skipulag sniðmátsins ekki sjálfkrafa uppfært í Finance og varan sem bætt var við birtist ekki á glugganum **Skipulag sniðmáts**. Uppfærið sniðmát handvirkt í Finance með því að velja **Uppfæra skipulag** á síðu sniðmátsritilsins.
 

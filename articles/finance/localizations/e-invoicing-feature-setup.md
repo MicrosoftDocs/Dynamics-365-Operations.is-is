@@ -1,6 +1,6 @@
 ---
-title: Vinna með eiginleikauppsetningar
-description: Þessi grein útskýrir hvernig á að setja upp eiginleika rafrænna reikninga.
+title: Vinna með uppsetningu eiginleika
+description: Þessi grein útskýrir hvernig á að setja upp eiginleiki rafrænnar reikningsfærslu.
 author: gionoder
 ms.date: 12/15/2021
 ms.topic: article
@@ -17,92 +17,92 @@ ms.assetid: ''
 ms.search.form: ''
 ms.openlocfilehash: 0d64757871c12ae914f7ace4cc0121a08a32a9d5
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9272247"
 ---
-# <a name="work-with-feature-setups"></a>Vinna með eiginleikauppsetningar
+# <a name="work-with-feature-setups"></a>Vinna með uppsetningu eiginleika
 
 [!include [banner](../includes/banner.md)]
 
-Til að setja upp myndun rafrænna skráa og önnur vinnsluþrep (til dæmis undirrita skrár stafrænt, senda þær á vefþjónustu ríkisins og fá svar, eða geyma þær), setja upp vinnsluleiðsluna, nothæfisreglur og breytur fyrir rafrænt. reikningseiginleikar.
+Til að setja upp myndun rafrænna skráa og önnur vinnsluskref (til dæmis undirrita skrár stafrænt, senda þær inn á vefþjónustu yfirvalda og fá svar, eða geyma þær) skal setja upp sölukeðju úrvinnslu, reglur um gildistíma og breytur fyrir eiginleika rafrænnar reikningsfærslu.
 
-Uppsetningarupplýsingarnar eru sameinaðar í *uppsetningu eiginleika* hugtak og hægt er að búa til, eyða, breyta. Fyrir fullunnar útgáfur af eiginleikum rafrænna reikninga er einnig hægt að skoða upplýsingarnar.
+Upplýsingar um uppsetningu eru sameinaðar í *eiginleikauppsetningu* og er hægt að búa til, eyða, breyta. Fyrir tilbúnar útgáfur af eiginleikum rafrænnar reikningsfærslu er einnig hægt að skoða upplýsingarnar.
 
-Þú getur búið til eins marga eiginleika uppsetningarhluta og þú þarft til að skilgreina mismunandi aðstæður til að búa til, vinna og taka á móti rafrænum skrám. Þrátt fyrir að þessir eiginleikauppsetningaratriði hafi sjálfstæðar vinnsluaðgerðir og framkvæmdarskilyrði, eru þeir búnir til sem hluti af einum rafrænum reikningseiginleika og erfa lífsferil hans og dreifingarferli.
+Hægt er að búa til eins mörg atriði eiginleikauppsetningar og þörf er á til að skilgreina mismunandi aðstæður til að mynda, vinna úr og taka á móti rafrænum skrám. Þótt þessi atriði eiginleikauppsetningar séu með sjálfstæðar vinnsluaðgerðir og sérstök skilyrði fyrir framkvæmd eru þau búin til sem hluti af einum eiginleika rafrænnar reikningsfærslu og erfa stuðningstíma hans og uppsetningarferli.
 
-## <a name="add-a-feature-setup"></a>Bættu við eiginleikauppsetningu
+## <a name="add-a-feature-setup"></a>Bæta við uppsetningu eiginleika
 
 1. Skráðu þig inn á RCS-reikninginn þinn.
 2. Á vinnusvæðinu **Altækur eiginleiki**, í hlutanum **Eiginleikar**, skal velja reitinn **Rafræn reikningsfærsla**.
-3. Á **Eiginleikar rafrænna reikninga** síðu, veldu eiginleika útgáfu rafrænna reikninga sem hefur stöðuna **Drög**.
-4. Á **Uppsetningar** flipa, veldu **Bæta við**.
-5. Í **Búðu til eiginleikauppsetningu** fellivalmynd, í **Nýtt** reitahópur, veldu einn af eftirfarandi valkostum:
+3. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** skal velja eiginleikaútgáfu rafrænnar reikningsfærslu sem er með stöðuna **Uppkast**.
+4. Í flipanum **Uppsetningar** skal velja **Bæta við**.
+5. Í fellilistanum **Stofna uppsetningu eiginleika**, í reitahópnum **Nýtt**, skal velja einn af eftirfarandi valkostum:
  
-    - **Sérsniðin uppsetning** – Búðu til nýja eiginleikauppsetningu sem hefur tómar rásir, tóman vinnsluleiðslulista, tóman hluta fyrir gildandi reglur og sjálfgefið sett af breytum, allt eftir uppsetningargerðinni.
-    - **Frá uppsetningu eiginleika** – Búðu til afrit af annarri eiginleikauppsetningu innan umfangs núverandi eiginleika rafrænna reikninga.
+    - **Sérsniðin uppsetning** – Búðu til nýja uppsetningu eiginleika sem er með tómum rásum, tómum lista yfir vinnslukeðju, auðan hluta fyrir reglur um gildissvið og sjálfgefið safn af færibreytum, eftir því hver gerð uppsetningarinnar er.
+    - **Úr uppsetningu eiginleika** – Búðu til afrit af annarri eiginleikauppsetningu í umfangi núverandi eiginleika rafrænnar reikningsfærslu.
 
-6. Ef þú valdir **Sérsniðin uppsetning** valmöguleika í síðasta skrefi, sláðu inn heiti og lýsingu á eiginleikauppsetningaratriðinu og síðan í **Gerð uppsetningar** reitahópur, veldu einn af eftirfarandi valkostum:
+6. Ef þú valdir valkostinn **Sérsniðin uppsetning** í síðasta skrefi skaltu slá inn nafn og lýsingu á atriði eiginleikauppsetningar og síðan í reitahópnum **Gerð uppsetningar** skaltu velja einn af eftirfarandi valkostum:
 
-    - **Vinnsluleiðsla** – Veldu þennan valkost til að búa til og vinna úr rafrænum skjölum á útleið. Fyrir þessa uppsetningargerð býr kerfið til tóman vinnsluleiðslulista, tóman hluta fyrir gildandi reglur og sjálfgefið sett af breytum. Þú munt ekki geta unnið með rásirnar fyrir rafræn skjöl á heimleið.
-    - **Gagnarás** – Veldu þennan valkost til að setja upp ferlið við að taka á móti rafrænum skjölum á heimleið frá einni af skilgreindum rásum og senda þau beint til Microsoft Dynamics 365 Fjármál eða Dynamics 365 Supply Chain Management án frekari aðgerða. Fyrir þessa uppsetningargerð býr kerfið til fyrirfram skilgreindan lista yfir færibreytur fyrir gagnarásirnar, tóman hluta fyrir gildandi reglur og sett af sjálfgefnum breytum. Þú munt ekki geta bætt við neinum aðgerðum í vinnslupípunni.
-    - **Gagnarás og vinnsluleiðsla** – Þessi uppsetningargerð líkist **Gagnarás** gerð uppsetningar. Hins vegar, áður en rafrænt skjal á heimleið er sent til fjármála- eða birgðakeðjustjórnunar, er hægt að setja upp viðbótaraðgerðir í vinnslupípunni.
+    - **Vinnslukeðja** – Veldu þennan valkost til að búa til og vinna úr rafrænum skjölum á útleið. Fyrir þessa gerð uppsetningar býr kerfið til tóman lista yfir vinnslukeðju, auðan hluta fyrir reglur um gildissvið og sjálfgefið safn af færibreytum. Þú getur ekki unnið með rásirnar fyrir rafræn skjöl á innleið.
+    - **Gagnarás** – Veldu þennan valkost til að setja upp ferlið fyrir að taka á móti rafrænum skjölum á innleið úr einni af skilgreindu rásunum og senda þau beint til Microsoft Dynamics 365 Finance eða Dynamics 365 Supply Chain Management án frekari aðgerða. Fyrir þessa gerð uppsetningar býr kerfið til fyrirframskilgreindan lista yfir færibreytur fyrir gagnarásirnar, auðan hluta fyrir reglur gildissviðs og safn af sjálfgefnum færibreytum. Þú getur ekki bætt við neinum aðgerðum í vinnslusölukeðjunni.
+    - **Gagnarás og pípuvinnsla** – Þessi uppsetningargerð líkist uppsetningargerðinni **Gagnarás**. Áður en rafrænt skjal á innleið er sent áfram til Finance eða Supply Chain Management geturðu hins vegar sett upp viðbótaraðgerðir í vinnslukeðjunni.
 
-7. Ef þú valdir **Gagnarás** eða **Gagnarás og vinnsluleiðsla** valmöguleika í síðasta skrefi, í **Veldu gagnarás** reit, verður þú að velja rásina til að samþætta við.
+7. Ef þú valdir valkostinn **Gagnarás** eða **Gagnarás og vinnslukeðja** í síðasta skrefi þarftu í reitnum **Velja gagnarás** að velja rásina til að samþætta við.
 8. Velja **Stofna**.
 
-Eftir að eiginleikauppsetning hefur verið búin til geturðu valið **Breyta** til að stilla það.
+Eftir að búið er að stofna eiginleikauppsetninguna er hægt að velja **Breyta** til að skilgreina hana.
 
-## <a name="edit-a-feature-setup"></a>Breyttu eiginleikauppsetningu
+## <a name="edit-a-feature-setup"></a>Breyta uppsetningu eiginleika
 
-Það fer eftir gerð eiginleikauppsetningar, þú getur stillt ferlið við að búa til rafrænar skrár á útleið og senda þær á ytri rásir, eða taka á móti skjölum á heimleið og senda þau í fjármála- eða framboðskeðjustjórnunarforritið þitt.
+Í samræmi við gerð eiginleikauppsetningar er hægt að stilla ferlið við að búa til rafrænar skrár á útleið og senda þær inn á ytri rásir eða taka á móti skjölum á innleið og senda þau til Finance eða Supply Chain Management.
 
 ### <a name="data-channel"></a>Gagnarás
 
-A *gagnarás* tekur rafrænu skrána og annað hvort vinnur úr henni eða sendir hana beint til fjármála- eða birgðakeðjustjórnunar. Þessi valkostur er ekki í boði fyrir eiginleikauppsetningar á **Vinnsluleiðsla** tegund.
+*Gagnarás* tekur við rafrænu skránni og annaðhvort vinnur úr henni eða sendir hana beint í Finance eða Supply Chain Management. Þessi valkostur er ekki í boði fyrir gerðina **Pípuvinnsla**.
 
-Til að setja upp gagnarás skaltu slá inn heiti rásarinnar. Skilgreindu síðan færibreyturnar, byggt á valinni rásargerð. Gagnarásaauðkennið verður að vísa til breytunnar sem er búið til sérstaklega til að auðkenna gagnarásina. Það verður notað sem viðmið í fjármála- eða framboðskeðjustjórnun.
+Til að setja upp gagnarás er heiti rásarinnar slegið inn. Skilgreinið síðan færibreyturnar, byggðar á valinni rásartegund. Auðkenni gagnarásar verður að vísa til breytunnar sem er búin til sérstaklega til að bera kennsl á gagnarásina. Það verður notað sem tilvísun í Finance og Supply Chain Management.
 
-Á **Viðhengissía** flipa, ættir þú að skilgreina sett af síum til að fá sérstakar skrár frá rásinni. Þú getur búið til nokkrar línur ef þú býst við að skrár muni hafa mismunandi skráarheiti, eða ef skrá þarf að vinna öðruvísi eftir skráarnafninu. Hér eru helstu breytur:
+Í flipanum **Viðhengjasía** ættirðu að skilgreina safn af síum til að fá tilteknar skrár úr rásinni. Hægt er að búa til nokkrar línur ef gert er ráð fyrir að skrár séu með mismunandi skráarendingar eða ef vinna þarf úr skrám á mismunandi hátt eftir því hvert skráarheitið er. Hér eru aðalfæribreyturnar:
 
-- **Nafn** – Sláðu inn nafn skráarinnar sem kerfið mun vísa til við vinnslu. Í umsóknum um fjármála- og framboðskeðjustjórnun muntu geta séð skrárnar í innsendingarskránni.
-- **Sía** - Skilgreindu síuna til að velja skrár.
-- **Valfrjálst** – Ef þessi gátreitur er hreinsaður er skráin nauðsynleg. Í þessu tilviki mun kerfið sýna villuboð ef rásirnar innihalda ekki skrár sem samsvara síunni. Þessi færibreyta á við um tölvupóst.
+- **Heiti** – Færa skal inn heiti skrárinnar sem kerfið mun vísa til meðan á vinnslu stendur. Í Finance og Supply Chain Management geturðu séð skrárnar í innsendingarkladdanum.
+- **Sía** – Skilgreina síu til að velja skrár.
+- **Valfrjálst** – Ef gátreiturinn er skráin nauðsynleg. Í þessu tilviki mun kerfið sýna villuboð ef rásir innihalda ekki skrár sem samsvara síunni. Þessi færibreyta á við um tölvupósta.
 
-Ef rásin er pósthólf og tölvupóstur á heimleið inniheldur nokkur viðhengi, geturðu stillt reglur til að skilgreina hvernig þjónustan á að meðhöndla viðhengi. Þjónustan getur litið á hvert viðhengi sem sérstakan rafrænan reikning eða farið með eitt viðhengi sem aðalreikning og öll önnur viðhengi sem viðbætur.
+Ef rásin er pósthólf og tölvupóstur á innleið inniheldur nokkur viðhengi er hægt að stilla reglur til að skilgreina hvernig þjónustan á að meðhöndla viðhengi. Þjónustan getur litið á hvert viðhengi sem sérstakan rafrænan reikning eða hún getur meðhöndlað eitt viðhengi sem meginreikning og öll önnur viðhengi sem viðbætur.
 
 ### <a name="processing-pipeline"></a>Pípuvinnsla
 
-A *vinnsluleiðslu* er sett af *aðgerðir* sem eru keyrðar í röð þar til þeim er lokið. Hægt er að nota vinnsluleiðslu til að setja upp ferlið til að búa til rafrænar skrár og framkvæma önnur skref (td undirrita skrár stafrænt, senda þær til ytri vefþjónustu og flokka svarið og taka á móti og vinna úr skjölum á heimleið).
+*Vinnslukeðja* er safn *aðgerða* sem eru keyrðar hver á eftir annarri þar til þeim er lokið. Hægt er að nota vinnslukeðju til að setja upp ferli til að búa til rafrænar skrár og framkvæma önnur skref (til dæmis undirrita skrár með stafrænum hætti, senda þær til utanaðkomandi vefþjónustu og greina svarið og taka á móti og vinna úr skjölum á innleið).
 
-Listi yfir aðgerðir er fyrirfram skilgreindur. Þú getur notað **Nýtt** og **Eyða** hnappa til að tilgreina samsetningu aðgerða sem rökrétt skilgreinir nauðsynlegt ferli til að senda inn eða taka á móti skjölum.
+Listi yfir aðgerðir er fyrirfram skilgreindur. Hægt er að nota hnappana **Nýtt** og **Eyða** til að tilgreina samsetningu aðgerða sem skilgreina á rökréttan hátt ferlið sem þarf til að senda inn eða taka á móti skjölum.
 
-Röð aðgerða er mikilvæg. Þú getur breytt röðinni með því að nota **Upp** og **Niður** hnappa.
+Röð aðgerða er mikilvæg. Hægt er að breyta röðinni með því að nota **Upp** og **Niður** hnappana.
 
-Hver aðgerð hefur sett af breytum sem þú getur stillt eða stillt. Sérstakt sett af breytum fer eftir tegund aðgerða.
+Hver aðgerð er með sett af færibreytum sem þú getur stillt eða breytt. Röð færibreyta fer eftir tegund aðgerðarinnar.
 
-- **Aðgerð** – Veldu gerð aðgerða.
-- **Heiti aðgerða** – Sláðu inn heiti aðgerðarinnar. Þetta nafn mun birtast í innsendingarskrám og í skilaboðum í fjármála- og framboðskeðjustjórnunarforritum.
-- **Lýsing** – Gefðu frekari upplýsingar um tilgang aðgerðarinnar í ferlinu.
-- **Virkja tilraun aftur** – Ef þú velur þennan gátreit geturðu valið aðgerð í **Reyndu aftur aðgerðir** reit og stilla viðbótarfæribreytur á **Reyndu færibreytur aftur** flipa.
+- **Aðgerð** – Veljið þessa gerð aðgerðar.
+- **Aðgerðarheiti** – Færið inn heiti aðgerðarinnar. Þetta heiti mun birtast í innsendingarklöddum og í skilaboðum í Finance og Supply Chain Management.
+- **Lýsing** – Veittu frekari upplýsingar um tilgang aðgerðarinnar í ferlinu.
+- **Virkja aðra tilraun** – Ef þessi gátreitur er valinn er hægt að velja aðgerð í reitnum **Reyna aðgerð aftur** og stilla viðbótarfæribreytur í flipanum **Færibreytur tilraunar**.
 
-    Reyna aftur virkni gerir þér kleift að stilla hegðun þjónustunnar ef ekki er hægt að keyra tiltekna aðgerð. Til dæmis, ef ytri vefþjónustan sem þú ert að reyna að tengjast við svarar ekki geturðu tilgreint hversu oft kerfið ætti að reyna aftur tenginguna, með hvaða millibili og frá hvaða aðgerð í vinnslupípunni.
+    Aðgerðin að reyna aftur gerir þér kleift að stilla hegðun þjónustunnar ef ekki er hægt að keyra tiltekna aðgerð. Til dæmis ef ytri vefþjónustan sem þú ert að reyna að tengjast svarar ekki geturðu tilgreint hversu oft kerfið ætti að reyna tenginguna aftur, með hvaða millibili og úr hvaða aðgerð í vinnslukeðjunni.
 
-- **Flytja út niðurstöður** – Þú getur valið þennan gátreit fyrir *einn* aðgerðir í vinnslu. Rafrænu skrána sem aðgerðin framleiðir í Finance eða Supply Chain Management forritinu er síðan hægt að flytja út úr **Innsendingarskrá rafrænna skjala** síðu.
+- **Flytja út niðurstöður** – Þú getur valið þennan gátreit fyrir *eina* aðgerð í pípuvinnslunni. Þá er hægt að flytja út rafrænu skrána sem aðgerðin framleiðir í Finance eða Supply Chain Management úr síðunni **Innsendingarkladdi rafrænna skjala**.
 
 ### <a name="applicability-rules"></a>Gildissviðsreglur
 
-*Gildisreglur* eru stillanleg ákvæði sem veita samhengi til að keyra eiginleika rafrænna reikninga í gegnum rafræna reikningsgetu.
-Viðskiptaskjöl sem send eru frá fjármála- eða birgðakeðjustjórnun til rafrænnar reikninga bera ekki skýra tilvísun sem gerir rafrænni reikningsgetu kleift að kalla fram tiltekna útgáfu rafrænna reikningaeiginleika og tiltekinn eiginleikauppsetningaratriði til að vinna úr innsendingunni. Hins vegar, þegar viðskiptaskjal er rétt stillt, inniheldur það nauðsynlega þætti sem gera rafræna reikninga kleift að ákvarða hvaða útgáfu rafrænna reikningaeiginleika og vinnsluleiðsla verður að velja og keyra.
+*Gildissviðsreglur* eru stillanleg ákvæði sem veita samhengi til að keyra eiginleika rafrænnar reikningsfærslu í gegnum safn af möguleikum rafrænnar reikningsfærslu.
+Viðskiptaskjöl sem eru send úr Finance eða Supply Chain Management til rafrænnar reikningsfærslu bera ekki með sér sérstaka tilvísun sem gerir safn af möguleikum rafrænnar reikningsfærslu kleift að kalla fram tiltekna útgáfu af eiginleika rafrænnar reikningsfærslu og tiltekið atriði eiginleikauppsetningar til að vinna úr innsendingunni. Þegar viðskiptaskjal er stillt á réttan hátt inniheldur það hins vegar nauðsynlegar einingar sem gera rafrænni reikningsfærslu kleift að ákvarða hvaða eiginleikaútgáfu rafrænnar reikningsfærslu og vinnslukeðju þarf að velja og keyra.
 
-Gildisreglur gera rafrænum reikningaþjónustu kleift að finna nákvæma eiginleika rafrænna reikninga sem þarf að nota til að vinna skil. Til að finna réttu eiginleikana, **Samhengi** reitir úr innsendu viðskiptaskjali eru jafnaðir við ákvæði úr gildandi reglum.
+Gildissviðsreglur gera rafrænni reikningsfærsluþjónustu kleift að finna nákvæmlega þá eiginleika rafrænnar reikningsfærslu sem þarf að nota til að vinna úr innsendingunni. Til að finna réttu eiginleikana eru reitirnir **Samhengi** úr innsendu viðskiptaskjali samsvaraðir við ákvæði úr gildisssviðsreglunum.
 
-Þú getur unnið með gildandi reglur á eftirfarandi hátt:
+Hægt er að vinna með gildissviðsreglu á eftirfarandi hátt:
 
-- Veldu **Nýtt** að bæta nýju ákvæði við sett af gildandi reglum.
-- Veldu **Eyða** að eyða ákvæði.
-- Veldu nokkrar færslur og notaðu **Hópur** eða **Taka úr hópi** hnappinn til að búa til samsetningu af hlutum eða rökréttum fullyrðingum. Veldu til dæmis línurnar sem þú vilt flokka og veldu síðan **Hópákvæði**. Þegar ákvæði eru flokkuð er nýjum dálki bætt við hnitanetið. Þessi dálkur tilgreinir rökræna rekstraraðilann fyrir flokkaða setninguna. Eftirfarandi gerðir rekstraraðila eru studdar:
+- Veljið **Nýtt** til að bæta nýju ákvæði við reglur um gildissvið.
+- Veljið **Eyða** til að eyða ákvæði.
+- Veldu nokkrar færslur og notaðu hnappinn **Flokka** eða **Afflokka** til að búa til samsetningu atriða eða rökrétt yfirlit. Til dæmis skal velja línurnar sem á að flokka saman og velja svo **Flokka ákvæði**. Þegar ákvæði eru flokkuð er nýjum dálki bætt við hnitanetið. Þessi dálkur tilgreinir rökvirkinn fyrir flokkað ákvæði. Eftirfarandi stjórnendangerðir eru studdar:
 
     - Equal
     - Not equal
@@ -116,32 +116,32 @@ Gildisreglur gera rafrænum reikningaþjónustu kleift að finna nákvæma eigin
 
 ### <a name="variables"></a>Breytur
 
-*Breytur* gefa þér meiri sveigjanleika þegar þú setur upp vinnsluleiðslu og gagnaflæði á milli aðgerða. Þú getur vísað til breytu í sumum aðgerðabreytum til að geyma gögn eða rafrænar skrár tímabundið. Sumar breytur eru notaðar til að koma gögnum á milli fjármála- eða framboðskeðjustjórnunarforrita og rafrænnar reikningaþjónustu.
+*Breytur* gefa þér meiri sveigjanleika þegar þú setur upp vinnslukeðju og gagnaflæði á meðal aðgerða. Hægt er að vísa í breytu í sumum færibreytum aðgerðar til að geyma tímabundið gögn eða rafrænar skrár. Sumar breytur eru notaðar til að senda gögn milli Finance eða Supply Chain Management og rafrænnar reikningsfærsluþjónustu.
 
-Kerfið býr til nokkrar breytur sjálfgefið. Til dæmis, the **BusinessDocumentDataModel** breyta inniheldur viðskiptagögn í JavaScript Object Notation (JSON) uppbyggingu sem kemur í símtalinu frá tengda forritinu meðan á innsendingarferlinu stendur.
+Kerfið býr til nokkrar breytur sjálfgefið. Til dæmis inniheldur breytan **BusinessDocumentDataModel** viðskiptagögn í skipulagi JavaScript Object Notation (JSON) sem kemur í kalli frá tengda forritinu í innsendingarferlinu.
 
-Eftirfarandi gerðir af breytum eru fáanlegar:
+Eftirfarandi gerðir breyta standa til boða:
 
-- **Stöðugt** – Gámur til að geyma tímabundin gögn sem eru notuð við vinnslu leiðsluaðgerða.
-- **Frá viðskiptavini** – Innihald breytunnar er aflað frá Dynamics 365 biðlara þegar innsendingarferlið er keyrt.
-- **Til viðskiptavinar** – Innihald breytunnar er gert aðgengilegt fyrir innflutning af Dynamics 365 biðlara þegar innsendingarferlið er keyrt.
-- **Gagnategund** – Veldu gagnategund upplýsinganna sem eru geymdar í breytunni.
+- **Stöðugt** – Geymsla fyrir tímabundin gögn sem eru notuð í aðgerðum pípuvinnslu.
+- **Frá biðlara** - Efni breytunnar er fengið frá biðlara Dynamics 365 þegar innsendingarferlið er keyrt.
+- **Til biðlara** - Efni breytunnar er gert aðgengilegt fyrir innflutning af biðlara Dynamics 365 þegar innsendingarferlið er keyrt.
+- **Gagnagerð** – Veldu gagnagerð upplýsinganna sem eru geymdar í breytunni.
 
 ### <a name="parameters"></a>Færibreytur
 
-The **Slökktu á minni fyrirtækjagagna** valmöguleikinn er notaður til að hámarka uppbyggingu viðskiptagagnamagns sem kemur frá Finance eða Supply Chain Management forritinu við rafræna skjalaskil. Hagræðing hjálpar til við að draga úr gögnum sem fara inn í rafræna reikningaþjónustu til frekari umbreytingar í nauðsynlega rafræna skrá. Sjálfgefið gildi er **Nei**.
+Valkosturinn **Gera viðskiptagagnaminnkun óvirka** er notaður til að fínstilla skipulagið fyrir innihald viðskiptagagna sem kemur úr Finance eða Supply Chain Management við innsendingu rafræns skjals. Fínstilling hjálpar til við að fækka gögnum sem fara í rafræna reikningsfærsluþjónustu til frekari umbreytinga í nauðsynlega rafræna skrá. Sjálfgefið gildi er **Nei**.
 
-- **Já** – Fjármál eða birgðakeðjustjórnun mun senda JSON skrá yfir **Reikningslíkan** eða **Fjárhagslíkan** (fyrir Brasilíu) uppbyggingu sem er skilgreind í **Rafræn skýrslugerð** mát. Allir þættir líkansins eru fylltir með viðskiptagögnum á umsóknarhlið, óháð endanlegri rafrænni skráargerð. Líkön innihalda venjulega fleiri viðskiptagögn en skráaruppbyggingin krefst og það getur þurft lengri tíma til að búa til þessi gögn í forritinu. Verðmæti á **Já** fyrir þennan valkost er krafist í þeim sjaldgæfum tilfellum sem þú vilt búa til mismunandi úttaksskrár í einni rafrænni innheimtueiginleika og eiginleikauppsetningu. Verðmæti á **Já** er gagnlegt þegar þú bilar aðstæður þínar, uppbyggingu rafrænna skráa og heilleika viðskiptagagnanna.
-- **Nei** – Fjármál eða birgðakeðjustjórnun mun hringja í fyrsta sinn í þjónustuna án nokkurra viðskiptagagna. Tilgangur þessa símtals er að fá upplýsingar um rafræna skýrslugerð (ER) stillingar sem verða notaðar fyrir rafræna skráarbreytingu í vinnslupípunni. Þessum upplýsingum er skilað til forritsins, sem notar þær til að ákvarða undirmengi viðskiptagagna sem ætti að vera með í JSON skránni í **Reikningslíkan** eða **Fjárhagslíkan** (fyrir Brasilíu) uppbyggingu. Verðmæti á **Nei** fyrir þessi valkostur hjálpar til við að draga úr magni viðskiptagagna sem umsóknin sendir til þjónustunnar, vegna þess að umsóknin getur aðeins sent inn þau viðskiptagögn sem þarf til að búa til rafræna skrá.
+- **Já** – Finance eða Supply Chain Management mun senda JSON-skrá af skipulaginu **Reikningslíkan** eða **Fjárhagslíkan** (fyrir Brasilíu) sem er skilgreint í einingunni **Rafræn skýrslugerð**. Allar einingar líkansins eru fylltar út með viðskiptagögnum forritsmegin burtséð frá lokaskipulagi rafrænnar skráar. Líkön innihalda yfirleitt meiri viðskiptagögn en skipulag markskráarinnar krefst og hægt er að krefjast lengri tíma til að búa til þessi gögn í forritinu. Gildið **Já** fyrir þennan valkost er nauðsynlegur sjaldgæfum tilfellum þar sem þú vilt búa til mismunandi úttaksskrár í einum eiginleika rafrænnar reikningsfærslu og eiginleikauppsetningu. Gildið **Já** er gagnlegt þegar þú úrræðaleitar aðstæðurnar, skipulag rafrænna skráa og heilleika viðskiptagagnanna.
+- **Nei** – Finance eða Supply Chain Management kalla fyrst á þjónustuna án viðskiptagagna. Tilgangur kallsins er að fá upplýsingar um skilgreiningu rafrænnar skýrslugerðar sem verður notuð fyrir umbreytingu rafrænnar skráar í vinnslukeðjunni. Þessum upplýsingum er skilað til forritsins sem notar þær til að ákvarða undirsafn viðskiptagagna sem eiga að vera í JSON-skránni fyrir skipulagið **Reikningslíkan** eða **Fjárhagslíkan** (fyrir Brasilíu). Gildið **Nei** fyrir þennan valkost hjálpar til við að minnka magn viðskiptagagna sem forritið sendir inn til þjónustunnar vegna þess að forritið getur aðeins sent inn viðskiptagögn sem krafist er til að geta búið til rafræna skrá.
 
-### <a name="validate-a-feature-setup"></a>Staðfestu eiginleikauppsetningu
+### <a name="validate-a-feature-setup"></a>Villuleita uppsetningu eiginleika
 
-Þú getur keyrt löggildingu til að athuga samkvæmni allrar uppsetningar. Til dæmis, ef lögboðin færibreyta fyrir aðgerð hefur verið skilin eftir auð, greinir staðfestingin þetta ósamræmi og þú færð viðvörunarskilaboð.
+Hægt er að keyra villuleit til að kanna samræmi allrar skilgreiningarinnar. Ef til dæmis tiltekin færibreyta fyrir aðgerð er áskilin en gildi hennar er autt, ber villuleitin kennsl á þetta ósamræmi og upp kemur villa.
 
-- Á **Uppsetning eiginleikaútgáfu** síðu, á aðgerðarrúðunni, veldu **Staðfesta**.
+- Á síðunni **Uppsetning á útgáfu eiginleika**, á aðgerðasvæðinu, skal velja **Villuleita**.
 
-## <a name="delete-a-feature-setup"></a>Eyða eiginleikauppsetningu
+## <a name="delete-a-feature-setup"></a>Eyða uppsetningu eiginleika
 
-1. Á **Eiginleikar rafrænna reikninga** síðu, veldu eiginleika útgáfu rafrænna reikninga sem hefur stöðuna **Drög**.
-2. Á **Uppsetningar** flipa, veldu **Eyða**.
-3. Í skilaboðareitnum sem birtist skaltu velja **Já** til að staðfesta að þú viljir eyða eiginleikauppsetningunni.
+1. Á síðunni **Eiginleikar rafrænnar reikningsfærslu** skal velja eiginleikaútgáfu rafrænnar reikningsfærslu sem er með stöðuna **Uppkast**.
+2. Í flipanum **Uppsetningar** skal velja **Eyða**.
+3. Veljið **Já** í skilaboðaglugganum sem opnast til að staðfesta að ætlunin sé að eyða uppsetningu eiginleikans.

@@ -1,6 +1,6 @@
 ---
 title: Fylgiskjal er ekki búið til
-description: Þessi grein veitir upplýsingar um úrræðaleit sem geta hjálpað til við að búa til skírteini en er það ekki.
+description: Í þessari grein er að finna upplýsingar um úrræðaleit sem getur hjálpað til þegar búa á til fylgiskjal en það gerist ekki.
 author: qire
 ms.date: 04/13/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 1200fe50bf9be4c6d1ca809ad9a86da2ff3e0ced
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8909012"

@@ -1,6 +1,6 @@
 ---
-title: Uppfærðu yfirfærslukostnaðaráætlun eftir lækkun á innkaupapöntunum og reikningum
-description: Þessi grein lýsir því hvernig á að stjórna því hvað verður um yfirfærslu fjárhagsáætlunar þegar innkaupapantanir eru afturkallaðar eða lækkaðar og þegar reikningar eru lækkaðir.
+title: Uppfæra fjárhagsáætlun frá fyrra tímabili eftir lækkun innkaupapantana og reikninga
+description: Í þessari grein er því lýst hvernig á að stjórna því hvað verður um fjárhagsáætlun frá fyrra tímabili þegar hætt er við innkaupapantanir eða þær eru lækkaðar og þegar reikningar eru lækkaðir.
 author: TaylorVH
 ms.date: ''
 ms.topic: article
@@ -13,57 +13,57 @@ ms.dyn365.ops.version: Version 1611
 ms.search.form: LedgerFund
 ms.openlocfilehash: 790f1e770fd77d5209436c1c89e0f6125aac150f
 ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 09/22/2022
 ms.locfileid: "9573047"
 ---
-# <a name="update-the-carry-forward-budget-after-reductions-in-purchase-orders-and-invoices"></a>Uppfærðu yfirfærslukostnaðaráætlun eftir lækkun á innkaupapöntunum og reikningum
+# <a name="update-the-carry-forward-budget-after-reductions-in-purchase-orders-and-invoices"></a>Uppfæra fjárhagsáætlun frá fyrra tímabili eftir lækkun innkaupapantana og reikninga
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þessi grein lýsir því hvernig á að stjórna því hvað verður um yfirfærslu fjárhagsáætlunar þegar innkaupapantanir eru afturkallaðar eða lækkaðar og þegar reikningar eru lækkaðir.
+Í þessari grein er því lýst hvernig á að stjórna því hvað verður um fjárhagsáætlun frá fyrra tímabili þegar hætt er við innkaupapantanir eða þær eru lækkaðar og þegar reikningar eru lækkaðir.
 
-Fyrir upplýsingar um hvernig innkaupapantanir eru unnar í árslok, sjá [Afgreiða innkaupapantanir í árslok](/dynamicsax-2012/appuser-itpro/process-purchase-orders-at-year-end).
+Frekari upplýsingar um vinnslu innkaupapantana í lok árs eru í [Meðhöndla innkaupapantanir í lok árs](/dynamicsax-2012/appuser-itpro/process-purchase-orders-at-year-end).
 
-## <a name="turn-carry-forward-budget-reductions-for-invoice-variances-on-or-off"></a>Kveiktu eða slökktu á flutningslækkunum fjárhagsáætlunar fyrir frávik reikninga
+## <a name="turn-carry-forward-budget-reductions-for-invoice-variances-on-or-off"></a>Kveikja eða slökkva á lækkun fjárhagsáætlunar frá fyrra tímabili vegna reikningsfrávika
 
-Kerfið getur alltaf uppfært yfirfærslukostnaðaráætlun þegar innkaupapöntun er afturkölluð eða lækkuð. Hins vegar, ef þú vilt uppfæra yfirfærslu fjárhagsáætlunar þegar reikningur er lækkaður, verður þú að kveikja á *Draga úr yfirfærslukostnaði þegar reikningur á móti innkaupapöntun er lækkaður með fráviki* eiginleiki. Stjórnendur geta kveikt eða slökkt á þessum eiginleika með því að leita að honum í **[Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** vinnurými.
+Kerfið getur alltaf uppfært fjárhagsáætlun frá fyrra tímabili þegar hætt er við innkaupapöntun eða hún er minnkuð. Hins vegar ef þú vilt uppfæra fjárhagsáætlun frá fyrra tímabili þegar reikningur er lækkaður verður þú að kveikja á eiginleikanum *Lækka áætlun frá fyrra tímabili þegar reikningur gagnvart innkaupapöntun er lækkaður með fráviki*. Stjórnendur kveikt eða slökkt á þessum eiginleika með því að leita á vinnusvæðinu **[Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)**.
 
-## <a name="purchase-order-reductions-and-cancellations"></a>Lækkun innkaupapöntunar og afpöntun
+## <a name="purchase-order-reductions-and-cancellations"></a>Lækkanir og afturkallanir á innkaupapöntun
 
-Burtséð frá því hvort *Draga úr yfirfærslukostnaði þegar reikningur á móti innkaupapöntun er lækkaður með fráviki* kveikt er á eiginleikum, verður kostnaðarhámarkið til yfirfærslu uppfært þegar gjaldgeng innkaupapöntun er afturkölluð eða lækkuð. Þú getur stillt hvern aðalbókarsjóð til að bregðast við á einn af eftirfarandi leiðum:
+Óháð því hvort kveikt á eiginleikanum *Lækka áætlun frá fyrra tímabili þegar reikningur gagnvart innkaupapöntun er lækkaður með fráviki* verður fjárhagsáætlun frá fyrra tímabili uppfærð þegar fallið er frá gjaldgengri innkaupapöntun eða hún er minnkuð. Hægt er að stilla hvern fjárhag til að svara á einn af eftirfarandi háttum:
 
-- Halda áframhaldandi fjárhagsáætlun eins og hún var búin til.
-- Stilltu sjálfkrafa yfirfærslukostnaðaráætlun til að fjarlægja afturkallaða eða lækkaða upphæð.
+- Varðveita fjárhagsáætlun frá fyrra tímabili eins og hún var stofnuð.
+- Breyta sjálfkrafa fjárhagsáætlun frá fyrra tímabili til að fjarlægja niðurfellda eða lækkaða upphæð.
 
-Aðeins innkaupapöntunarlínur sem hafa dreifingar sem innihalda sjóð eru tiltækar fyrir sjálfvirka leiðréttingu fjárhagsáætlunar. Sjálfvirk leiðrétting fjárhagsáætlunar á sér stað þegar innkaupapöntun er lokið eða lækkun innkaupapöntunar er staðfest.
+Aðeins innkaupapantanalínur sem eru með dreifingar sem innihalda sjóð eru tiltækar til sjálfvirka leiðréttingu fjárhagsáætlunar. Sjálfvirk leiðrétting fjárhagsáætlunar á sér stað þegar gengið er frá innkaupapöntun eða lækkun innkaupapöntunar er staðfest.
 
-## <a name="invoice-reductions"></a>Lækkun reikninga
+## <a name="invoice-reductions"></a>Reikningslækkanir
 
-Þegar *Draga úr yfirfærslukostnaði þegar reikningur á móti innkaupapöntun er lækkaður með fráviki* kveikt er á eiginleikum geturðu tilgreint hvort hver sjóður eigi að lækka yfirfærslukostnað þegar reikningur er lækkaður, auk þess sem innkaupapöntun er lækkuð eða afturkölluð. Reikningurinn verður að vera fyrir innkaupapöntun sem hefur yfirfærslukostnað. Lækkunin felur í sér verðfrávik, gjaldfrávik og skattfrávik. Þegar yfirfærð innkaupapöntun er lækkuð við reikningsgerð myndast frávik. Þegar reikningurinn er bókaður mun kvaðning innkaupapöntunar lækka um upphæð fráviksins. Eiginleikinn mun einnig búa til sjálfvirka leiðréttingu fjárhagsáætlunar fyrir upphæð fráviksins.
+Þegar kveikt er á eiginleikanum *Lækka áætlun frá fyrra tímabili þegar reikningur gagnvart innkaupapöntun er lækkaður með fráviki* er hægt að tilgreina hvort hver sjóður eigi að lækka fjárhagsáætlun frá fyrra tímabili þegar reikningur er lækkaður, til viðbótar við þegar innkaupapöntun er lækkuð eða felld niður. Reikningurinn verður að vera fyrir innkaupapöntun með áætlun frá fyrra tímabili. Lækkanir fela í sér verðfrávik, gjaldafrávik og skattafrávik. Þegar innkaupapöntun frá fyrra tímabili er lækkuð við reikningagerð er búið til frávik. Þegar reikningurinn er bókaður lækkar fjárúthlutun innkaupapöntunar um upphæð fráviksins. Þessi eiginleiki mun einnig búa til sjálfvirka leiðréttingu fjárhagsáætlunar fyrir upphæð fráviksins.
 
-Þegar *Draga úr yfirfærslukostnaði þegar reikningur á móti innkaupapöntun er lækkaður með fráviki* slökkt er á eiginleikum, er framfærsla fjárhagsáætlunar ekki skert í þessari atburðarás. Þess vegna er eftirstandandi yfirfærslufjárveiting fyrir upphæð fráviksins skilin eftir.
+Þegar slökkt er á eiginleikanum *Lækka áætlun frá fyrra tímabili þegar reikningur gagnvart innkaupapöntun er lækkaður með fráviki* er fjárhagsáætlun frá fyrra tímabili ekki lækkuð við þessar aðstæður. Af þessum sökum er eftirstandandi upphæð fjárhagsáætlunar frá fyrra tímabili fyrir frávikið haldið eftir.
 
-## <a name="configure-the-carry-forward-budget-options-for-each-fund"></a>Stilltu yfirfærslumöguleika fjárhagsáætlunar fyrir hvern sjóð
+## <a name="configure-the-carry-forward-budget-options-for-each-fund"></a>Skilgreina valkosti fjárhagsáætlunar frá fyrra tímabili fyrir hvern sjóð
 
-Fylgdu þessum skrefum fyrir hvern bókhaldssjóð sem ætti að geta dregið úr yfirfærslukostnaði þegar innkaupapöntun eða reikningur er lækkaður.
+Fylgdu þessum skrefum fyrir hvern fjárhagssjóð sem ætti að geta lækkað fjárhagsáætlun frá fyrra tímabili þegar innkaupapöntun eða reikningur er lækkaður.
 
-1. Fara til **Aðalbók \> Reikningsyfirlit \> Sjóðir \> Sjóðir**.
-1. Veldu sjóðinn sem þú vilt stofna.
-1. Undir **Innkaupapöntun árslokaferli**, vertu viss um að **Hneka valinn árslokavalkost** valkostur er stilltur á *Já*.
-1. Undir **Staða fjárhagsáætlunar yfirfærslu**, stilltu **Settu fjárhagsáætlunina aftur inn þegar yfirfærð innkaupapöntun er afturkölluð eða lækkuð** reit eins og þú þarfnast. Stillingarnar hafa aðeins mismunandi áhrif, eftir því hvort *Draga úr yfirfærslukostnaði þegar reikningur á móti innkaupapöntun er lækkaður með fráviki* kveikt er á eiginleikanum í kerfinu þínu.
+1. Farðu í **Fjárhagur \> Bókhaldslyklar \> Sjóðir \> Sjóðir**.
+1. Velja sjóðinn sem á að setja upp.
+1. Undir **Ársendaferli innkaupapöntunar** skal tryggja að valkosturinn **Hnekkja völdum valkosti ársloka** sé stilltur á *Já*.
+1. Undir **Staða fjárhagsáætlunar frá fyrra tímabili** skal stilla reitinn **Endurskipa fjárhagsáætlunina þegar hætt er við innkaupapöntun frá fyrra tímabili eða hún er minnkuð** eftir þörfum. Stillingarnar hafa mismunandi áhrif, allt eftir því hvort kveikt er á eiginleikinn *Lækka áætlun frá fyrra tímabili þegar reikningur gagnvart innkaupapöntun er lækkaður með fráviki* í kerfinu.
 
-    - Þegar slökkt er á eiginleikanum bregst kerfið aðeins við afturkölluðum eða minni innkaupapöntunum. Valkostastillingarnar virka á eftirfarandi hátt:
+    - Þegar slökkt er á eiginleikanum bregst kerfið aðeins við innkaupapöntunum sem hætt er við eða sem eru lækkaðar. Valkostastillingarnar virka á eftirfarandi hátt:
 
-        - *Nei* – Kerfið býr til færslu fjárhagsáætlunarskrár fyrir eftirstöðvar innkaupapantana sem hafa verið afturkallaðar eða lækkaðar.
-        - *Já* – Kerfið gerir kleift að hætta við eða minnka innkaupapantanir, en býr ekki til fjárhagsáætlunarskrárfærslu. Fjárhagsáætlunin er áfram tiltæk til notkunar fyrir önnur skjöl.
+        - *Nei* – Kerfið býr til færslu í fjárhagsáætlunarskrá fyrir eftirstöðvar innkaupapantana sem hafa verið felldar niður eða lækkaðar.
+        - *Já* – Kerfið leyfir að innkaupapantanir séu felldar niður eða þeim fækkað en býr ekki til færslu í fjárhagsáætlunarskrá. Fjárhagsáætlun frá fyrra tímabili er áfram aðgengileg til neyslu með öðrum skjölum.
 
-    - Þegar kveikt er á eiginleikanum bregst kerfið bæði við reikningsfrávikum og afturkölluðum eða lækkuðum innkaupapöntunum. Valkostastillingarnar virka á eftirfarandi hátt:
+    - Þegar kveikt er á eiginleikanum bregst kerfið bæði við reikningsfrávikum og innkaupapöntunum sem hætt er við eða sem eru lækkaðar. Valkostastillingarnar virka á eftirfarandi hátt:
 
-        - *Nei* – Fyrir reikningsfrávik stofnar kerfið færslu fjárhagsáætlunarskrár á móti innkaupapöntun fyrir frávikslækkunarupphæð. Fyrir afturkallaðar eða minnkaðar innkaupapantanir hefur þessi stilling sömu áhrif og hún hefur þegar slökkt er á eiginleikanum.
-        - *Já* – Fyrir reikningsfrávik leyfir kerfið lækkun reiknings en býr ekki til færslu fjárhagsáætlunarskrár. Fjárhagsáætlunin er áfram tiltæk til notkunar fyrir önnur skjöl. Fyrir afturkallaðar eða minnkaðar innkaupapantanir hefur þessi stilling sömu áhrif og hún hefur þegar slökkt er á eiginleikanum.
+        - *Nei* – Kerfið býr til færslu í fjárhagsáætlunarskrá á móti innkaupapöntuninni fyrir lækkunarupphæð fráviks. Þessi stilling hefur sömu áhrif og þegar slökkt er á eiginleikanum þegar hætt er við innkaupapöntun eða hún er lækkuð.
+        - *Já* – Kerfið leyfir lækkun reikninga en býr ekki til færslu í fjárhagsáætlunarskrá fyrir reikningsfrávik. Fjárhagsáætlun frá fyrra tímabili er áfram aðgengileg til neyslu með öðrum skjölum. Þessi stilling hefur sömu áhrif og þegar slökkt er á eiginleikanum þegar hætt er við innkaupapöntun eða hún er lækkuð.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

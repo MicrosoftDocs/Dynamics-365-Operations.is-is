@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð notar svið sem má stækka lárétt til að bæta við dálkum gagnvirkt við í Excel skýrslum (Hluti 1 - Hanna snið)
-description: Þessi grein lýsir því hvernig á að stilla rafræna skýrslugerð (ER) snið til að búa til skýrslur sem OPENXML vinnublöð (Excel) skrár. (Hluti 1)
+description: Þessi grein útskýrir hvernig á að skilgreina snið rafrænnar skýrslugerðar til að mynda skýrslur sem OPENXML-vinnublaðaskrár (Excel). (Hluti 1)
 author: kfend
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 ms.openlocfilehash: 3fa8dcac309220d05225e87fd29ef6b741bfcc54
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9290425"

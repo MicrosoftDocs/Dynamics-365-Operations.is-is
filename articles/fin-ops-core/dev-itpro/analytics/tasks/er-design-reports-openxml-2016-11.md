@@ -1,6 +1,6 @@
 ---
 title: Rafræn skýrslugerð Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði (nóvember 2016)
-description: Þessi grein lýsir því hvernig á að búa til nýja rafræna skýrslugerð sem inniheldur sniðmát til að búa til rafræn skjöl á OPENXML sniði.
+description: Í þessari grein er útskýrt hvernig á að stofna nýja skilgreiningu rafrænnar skýrslugerðar sem inniheldur sniðmát til að mynda rafræn skjöl á OPENXML-sniði.
 author: kfend
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -17,7 +17,7 @@ ms.search.form:
 - ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 ms.openlocfilehash: 49d56c545498a3f1aa01a455aaf7f5c65dd3eeaa
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291085"
@@ -26,7 +26,7 @@ ms.locfileid: "9291085"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein útskýrir hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænna skýrslugerðar getur búið til nýja rafræna skýrslugerð (ER) stillingu sem inniheldur sniðmát til að búa til rafræn skjöl á OPENXML sniði. Þessi skilgreining verður notuð til að vinna greiðslur lánardrottna.
+Þessi grein útskýrir hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað nýja skilgreiningarveitu fyrir rafræna skýrslugerð (ER) sem inniheldur snið til að mynda rafræn skjöl í OPENXML-sniði. Þessi skilgreining verður notuð til að vinna greiðslur lánardrottna.
 
 Í þessu dæmi, verður að stofna skilgreiningu fyrir dæmi um fyrirtæki, Litware, Inc. Þessi skref má framkvæma í GBSI fyrirtæki.
 

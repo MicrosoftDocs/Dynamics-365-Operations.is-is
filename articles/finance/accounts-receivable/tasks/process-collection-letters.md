@@ -1,6 +1,6 @@
 ---
 title: Vinna úr innheimtubréfum
-description: Þessi grein sýnir hvernig á að búa til, prenta og senda innheimtubréf.
+description: Þessi grein sýnir hvernig á að stofna, prenta og bóka innheimtubréf.
 author: ShivamPandey-msft
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -15,7 +15,7 @@ ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
 ms.openlocfilehash: fbca4acf30e2c58d8bb615d659b883b574a12aa7
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8909128"
@@ -24,7 +24,7 @@ ms.locfileid: "8909128"
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi grein sýnir hvernig á að búa til, prenta og senda innheimtubréf. Þetta verkefni notar USMF-sýnifyrirtækið.
+Þessi grein sýnir hvernig á að stofna, prenta og bóka innheimtubréf. Þetta verkefni notar USMF-sýnifyrirtækið.
 
 ## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a>Setja upp röð innheimtubréfa á bókunarreglu
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Skuldir og innheimta > Uppsetning > Bókunarreglur viðskiptavina**.

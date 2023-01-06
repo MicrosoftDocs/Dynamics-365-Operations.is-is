@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 ms.openlocfilehash: 27d18b30586775c98dc602215090810b0a1b918a
 ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/23/2022
 ms.locfileid: "9337258"

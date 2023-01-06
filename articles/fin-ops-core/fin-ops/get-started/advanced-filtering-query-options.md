@@ -1,6 +1,6 @@
 ---
 title: Ítarleg sía og málskipan fyrirspurna
-description: Þessi grein lýsir síunar- og fyrirspurnarvalkostum fyrir Ítarlegri síun/flokkun svargluggans og samsvörunaraðgerðina í síurúðunni eða haussíum fyrir hnitanetsdálka.
+description: Þessi grein lýsir síunar- og fyrirspurnarmöguleikum fyrir svargluggann fyrir sía/raða ítarlega eða samsvörun virknitáknið á síusvæðinu eða síur fyrir dálkhaus hnitanets.
 author: jasongre
 ms.date: 03/09/2020
 ms.topic: article
@@ -17,7 +17,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
 ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 07/06/2022
 ms.locfileid: "9123949"
@@ -122,9 +122,9 @@ ms.locfileid: "9123949"
 <td>Tvær tvöföldar tilvitnanir í röð (<strong>""</strong>) finna línur án gildis fyrir núverandi dálk.</td>
 </tr>
 <tr>
-<td>(<span class="code">Fyrirspurn um fjármál og rekstur</span>) (fjárhags- og rekstrarfyrirspurn milli sviga)</td>
+<td>(<span class="code">Fyrirspurn fjármála- og reksturs</span>) (fyrirspurn fjármála- og reksturs innan sviga)</td>
 <td>Samsvarar tilgreindri fyrirspurn</td>
-<td>Sláðu inn fyrirspurn sem SQL staðhæfingu á milli sviga með því að nota fjármála- og rekstrarfyrirspurnartungumálið.</td>
+<td>Sláðu inn fyrirspurn sem SQL staðhæfingu milli sviga með því að nota fyrirspurnarmál í fjármálum- og rekstri.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        Sem dæmi um málskipan fyrir síuaðstæður á reit frá gagnagrunni rótarinnar sem og reit frá öðrum gagnagrunna (fyrir síðuna Allir viðskiptavinir)</td>
 </tr>

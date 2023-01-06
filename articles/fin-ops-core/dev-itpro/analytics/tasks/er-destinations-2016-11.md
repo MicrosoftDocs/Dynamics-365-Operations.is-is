@@ -15,7 +15,7 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 ms.openlocfilehash: 3c8d03e9783013183fbe76cb36014fa9e1e1cbed
 ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 08/12/2022
 ms.locfileid: "9291055"
@@ -26,7 +26,7 @@ ms.locfileid: "9291055"
 
 Þetta ferli sýnir hvernig á að setja upp og nota mismunandi áfangastaði fyrir Rafræna skýrslugerð (ER) úttak þætti, eins og möppu eða skrá. Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF. Þýskaland er land/svæði fyrir aðalaðsetur lögaðila, hins vegar er hægt að nota hvaða lögaðila sem er fyrir þetta ferli. 
 
-Snið sem notuð er í þessu dæmi er ISO20022 millifærsla fjármuna en þú getur nota hvaða snið sem hafa þegar verið fluttar. Athugið að þetta ferli er dæmi um eina skrá og eina uppsetningu áfangastaðar. Frekari upplýsingar um áfangastýringu rafrænnar skýrslugerðar er að finna í Dynamics 365 Finance hjálpinni.
+Snið sem notuð er í þessu dæmi er ISO20022 millifærsla fjármuna en þú getur nota hvaða snið sem hafa þegar verið fluttar. Athugið að þetta ferli er dæmi um eina skrá og eina uppsetningu áfangastaðar. Frekari upplýsingar um stjórnun viðtökustaðar Rafræna skýrslugerð finnast í Dynamics 365 Finance Hjálp.
 
 1. Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Rafræn skýrslugerð áfangastaður.
 2. Smellt er á Nýtt til að búa til nýtt sett áfangastaða fyrir snið.

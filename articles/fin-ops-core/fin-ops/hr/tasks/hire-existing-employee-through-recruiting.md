@@ -14,7 +14,7 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3fdbdfc7a1a642bae2e693d1f6de0af3c08a8a6e
 ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: is-IS
 ms.lasthandoff: 06/03/2022
 ms.locfileid: "8876474"
@@ -24,29 +24,29 @@ ms.locfileid: "8876474"
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> Ráðningarvirknin í þessari grein verður nefnd ráðningarverkefni og beinist að umsækjendum, umsóknum og ráðningarverkefnum.  
+> Ráðningaraðgerðin í þessari grein verður kölluð ráðningarverk og einblínir á umsækjendur, umsóknir og ráðningarverk.  
 
 
-Stundum geta umsækjendur sem þegar eru starfsmenn í fyrirtækinu þínu skipað opnar stöður. Þetta ferli fer í gegnum skrefin í ráðningu fyrirliggjandi starfsmanns með ráðningaferlinu. Í þessu ferli, hefur þegar verið sett upp ráðningarverk og fyrirliggjandi starfsmanns hefur þegar sent inn umsókn fyrir ráðningarverkið. The **USMF** kynningargagnafyrirtæki var notað til að búa til þessa aðferð.
+Stundum er hægt að manna lausar stöður með umsækjendur sem eru nú þegar starfsmenn í fyrirtækinu þínu. Þetta ferli fer í gegnum skrefin í ráðningu fyrirliggjandi starfsmanns með ráðningaferlinu. Í þessu ferli, hefur þegar verið sett upp ráðningarverk og fyrirliggjandi starfsmanns hefur þegar sent inn umsókn fyrir ráðningarverkið. **USMF** sýniútgáfu fyrirtækis notað til að stofna þetta ferli.
 
-1. Fara til **Mannauður \> Ráðningar \> Umsóknir \> Umsóknir**.
-2. Í listanum finnurðu umsóknina fyrir starfsmanninn sem þú vilt ráða. Til dæmis, veldu **00002 John Emory**.
-3. Veldu **Staða umsóknar**.
+1. Opnið **Mannauður \> Ráðningar \> Umsóknir \> Umsóknir** .
+2. Finna umsókn fyrir starfsmanninn þú myndir vilja ráða, á listanum. Til dæmis, veldu **00002 John Emory**.
+3. Veljið **Staða umsóknar**.
 
-    Staða umsóknar gefur til kynna hvar umsókn er í ráðningarferlinu. Hvert skref er valfrjálst. Venjulega fer forrit í gegnum stöðurnar í eftirfarandi röð: **Tekið á móti**, **·**, og **Rætt við**. Eftir viðtalsferlið verður tekin ákvörðun um ráðningu.
+    Staða umsóknar gefur til kynna hvar umsókn er í ráðningarferlinu. Hvert skref er valfrjálst. Yfirleitt myndi forrit fara í gegnum stöður í eftirfarandi röð: **Móttekið**, **Staðfest** og **Viðtal tekið**. Eftir viðtalsferlið verður tekin ákvörðun um ráðningu.
 
-4. Veldu **Skiptu um stöðu**.
-5. Veldu stöðuna sem þú ert að ráða starfsmanninn í.
-6. Í **Upphafsdagur nýrrar verkefna** reit skal slá inn dagsetninguna þegar starfsmaður mun hefja störf í nýju starfi.
-7. Í **Lokadagur verkefnis** reit, sláðu inn dagsetninguna þegar starfsmaður hættir að vinna í núverandi stöðu.
+4. Veljið **Breyta stöðu**.
+5. Veljið stöðu sem þið eruð að ráða starfsmanninn í.
+6. Í svæðinu **Upphafsdagsetning nýs verkefnis** skal færa inn daginn sem starfsmaðurinn mun byrja að vinna í nýju stöðunni.
+7. Í reitinn **Lokadagsetning verkefnis**, skal færa inn dagsetningu sem starfsmaðurinn mun hætta vinnu í núverandi stöðu.
 
-    Upphafsdagsetning nýju stöðunnar og lokadagsetning gömlu stöðunnar geta skarast. Þessi skörun getur átt sér stað þegar einstaklingur gegnir störfum fyrir báðar stöður á aðlögunartímabili.
+    Upphafsdagur nýju stöðunnar og lokadagsetning eldri stöðunnar geta skarast. Þessi skörun getur gerst þegar einstaklingur framkvæmir skyldur fyrir báðar stöður á flutningstímabili.
 
-8. Valfrjálst: Velja ástæðukóða. Til dæmis, veldu **Endurskipulagning**.
-9. Veldu **Skiptu um stöðu**.
+8. Valfrjálst: Velja ástæðukóða. Þú getur til dæmis valið **Endurskipulagning**.
+9. Veljið **Breyta stöðu**.
 
-    Á þessum tíma geturðu líka breytt bótum. Ef þú gerir það ekki geturðu breytt því síðar með því að velja **Fast áætlun** á **Bætur** flipi á **Vinnumaður** síðu.
+    Nú er einnig hægt að breyta bótum. Ef þú gerir það ekki geturðu breytt henni síðar með því að velja **Föst áætlun** í flipanum **Laun** á síðunni **Starfsmaður**.
 
-    Eftir að þú hefur valið **Skiptu um stöðu**, er staðan á forritinu uppfærð í **Starfandi**.
+    Eftir að þú velur **Breyta stöðu** er staða á umsókninni uppfærð í í **Ráðinn**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
